@@ -63,7 +63,8 @@ This repository serves as your go-to guide for **AI tools that are actively main
 ### Coding & App Builders
 
 - [**GitHub Copilot**](https://github.com/features/copilot) – AI pair-programming tool integrated into GitHub.  
-- [**Cursor**](https://cursor.so/) – AI-first programming environment.  
+- [**Cursor**](https://cursor.so/) – AI-first programming environment.
+- [**Qoder**](https://qoder.com/) – Agentic Coding Platform. 
 - [**Vercel v0**](https://v0.dev/) – AI-powered UI component generation with instant deployment capabilities.  
 - [**Aider**](https://aider.ai/) – Terminal-based code assistant.  
 - [**Claude Code**](https://www.anthropic.com/claude) – Anthropic’s developer-targeted version of Claude.  
