@@ -57,6 +57,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
+- [**Gempix2 (Nano Banana 2)**](https://gempix2.site) – Free AI image generation platform with text-to-image, AI editing, and video generation support.
 
 ---
 
