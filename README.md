@@ -113,6 +113,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Gumloop**](https://gumloop.com/) – AI workflow builder akin to Zapier.  
 - [**AgentGPT**](https://agentgpt.reworkd.ai/) – Deploy autonomous browser AI agents.  
 - [**Auto-GPT Next**](https://github.com/Significant-Gravitas/Auto-GPT) – Advanced autonomous AI task runners.
+- [**AI Browser**](https://aibrowser.surf/) – AI Browser enables users to automate web browsing tasks simply by writing prompts.
 
 ---
 
