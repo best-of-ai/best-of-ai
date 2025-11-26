@@ -62,7 +62,8 @@ This repository serves as your go-to guide for **AI tools that are actively main
 
 ### Coding & App Builders
 
-- [**GitHub Copilot**](https://github.com/features/copilot) – AI pair-programming tool integrated into GitHub.  
+- [**GitHub Copilot**](https://github.com/features/copilot) – AI pair-programming tool integrated into GitHub.
+- [**dbForge AI Assistant**](https://www.devart.com/dbforge/ai-assistant/) - AI-powered SQL coding tool, integrated into dbForge products. 
 - [**Cursor**](https://cursor.so/) – AI-first programming environment.  
 - [**Vercel v0**](https://v0.dev/) – AI-powered UI component generation with instant deployment capabilities.  
 - [**Aider**](https://aider.ai/) – Terminal-based code assistant.  
