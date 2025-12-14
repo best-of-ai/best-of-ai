@@ -57,6 +57,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
+- [**MaxVideoAI**](https://maxvideoai.com) – Multi-engine AI video generation hub (Sora, Veo, Pika, Kling, LTX & more) with pay-as-you-go credits.
 
 ---
 
