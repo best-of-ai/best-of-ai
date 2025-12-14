@@ -59,8 +59,6 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
 - [**MaxVideoAI**](https://maxvideoai.com) – Multi-engine AI video generation hub (Sora, Veo, Pika, Kling, LTX & more) with pay-as-you-go credits.
 
-
-
 ---
 
 ### Coding & App Builders
