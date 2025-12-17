@@ -42,7 +42,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**You.com**](https://you.com/) – Enterprise AI platform offering search, chat, and productivity tools.  
 - [**Quora Poe**](https://poe.com/) – Unified access to multiple AI models from one interface.
 - [**Qwen AI**](https://chat.qwen.ai/) – Qwen AI is a free chat-based AI platform that offers generous token limits.
-
+- [**Geekflare Connect**](https://geekflare.com/ai/connect/) – Multi Chat AI Client with Your Own LLM Keys. Use all leading AI models from a single UI.
 ---
 
 ### Image & Video Generation
