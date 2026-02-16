@@ -113,6 +113,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Gumloop**](https://gumloop.com/) – AI workflow builder akin to Zapier.  
 - [**AgentGPT**](https://agentgpt.reworkd.ai/) – Deploy autonomous browser AI agents.  
 - [**Auto-GPT Next**](https://github.com/Significant-Gravitas/Auto-GPT) – Advanced autonomous AI task runners.
+- [**ZeroGTM**](https://www.gtm-zero.com/) – Open-source AI SDR agent that automates outbound sales prospecting and multi-channel outreach.
 
 ---
 
