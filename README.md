@@ -125,6 +125,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**ChatDOC**](https://chatdoc.app/) – AI assistant for reading and querying PDFs.  
 - [**SciSpace**](https://typeset.io/) – AI-driven academic paper exploration.  
 - [**Tavily AI Search API**](https://tavily.com/) – Developer-friendly AI search services.
+- [**GEO/AEO Tracker**](https://github.com/danishashko/geo-aeo-tracker) – Open-source, local-first AI visibility dashboard. Track brand mentions across ChatGPT, Perplexity, Gemini, Copilot, Google AI Overview, and Grok. BYOK, self-hosted, free.
 
 ---
 
