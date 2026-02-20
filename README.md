@@ -139,6 +139,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**LangChain**](https://python.langchain.com/) – Framework for building LLM apps.  
 - [**Hugging Face Transformers**](https://huggingface.co/transformers) – Essential library for working with state-of-the-art transformer models.  
 - [**Ollama**](https://ollama.ai/) – Local deployment of AI models with one-line setup.  
+- [**OmniRoute**](https://github.com/diegosouzapw/OmniRoute) – Self-hostable AI gateway with 4-tier cascading fallback, multi-provider load balancing, and OpenAI-compatible API. Supports 200+ models.
 - [**Anaconda**](https://www.anaconda.com/) – Complete Python/R distribution for data science and AI development, including AI Navigator and Anaconda Toolbox with easy Jupyter notebook creation.  
 - [**Open Interpreter**](https://github.com/openai/open-interpreter) – Natural-language interface for controlling your computer.
 
