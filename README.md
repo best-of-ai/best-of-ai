@@ -75,6 +75,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Tabnine**](https://www.tabnine.com/) – Privacy-focused code autocompletion.  
 - [**Warp Terminal**](https://www.warp.dev/) – AI-enhanced terminal wrapper for macOS with intelligent features (use defensively).
 - [**Kiro**](https://www.kiro.dev/) – Task-based AI IDE that brings structure to AI coding with spec-driven development.
+- [**Mantra**](https://mantra.gonewx.com) – AI coding session management. Save, restore, and time-travel through your Claude Code, Cursor, and Windsurf sessions.
 
 ---
 
