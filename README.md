@@ -164,6 +164,7 @@ Submit a **Pull Request** or open an **Issue** — include name, category, short
 
 - [**Awesome AI Tools**](https://github.com/mahseema/awesome-ai-tools) – A broad inventory of AI tools across domains.
 - [**AI For Developer**](https://aifordevelopers.org) - a curated ranked list of ai tools for developers
+- [**Learn Agentic Patterns**](https://learnagenticpatterns.com) – Free interactive curriculum covering 21 agentic AI design patterns with code examples and architecture diagrams.
 - [**Awesome AI Coding Tools**](https://github.com/ai-for-developers/awesome-ai-coding-tools) – Focused on AI in software development.  
 - [**Top AI Directories**](https://github.com/best-of-ai/ai-directories) – Curated directories for discovering AI tools.
 
