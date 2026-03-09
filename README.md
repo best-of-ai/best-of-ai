@@ -125,6 +125,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**ChatDOC**](https://chatdoc.app/) – AI assistant for reading and querying PDFs.  
 - [**SciSpace**](https://typeset.io/) – AI-driven academic paper exploration.  
 - [**Tavily AI Search API**](https://tavily.com/) – Developer-friendly AI search services.
+- [**GEOScore AI**](https://geoscoreai.com/) – AI search visibility scanner that checks how your website performs in AI search engines (ChatGPT, Perplexity, Gemini) with 11 technical checks.
 
 ---
 
