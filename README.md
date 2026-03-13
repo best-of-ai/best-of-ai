@@ -141,6 +141,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Ollama**](https://ollama.ai/) – Local deployment of AI models with one-line setup.  
 - [**Anaconda**](https://www.anaconda.com/) – Complete Python/R distribution for data science and AI development, including AI Navigator and Anaconda Toolbox with easy Jupyter notebook creation.  
 - [**Open Interpreter**](https://github.com/openai/open-interpreter) – Natural-language interface for controlling your computer.
+- [**Hive**](https://github.com/aden-hive/hive) – Open-source AI agent framework for building goal-driven, self-improving autonomous agents with auto-generated graphs, MCP integration, and 100+ tools.
 
 ---
 
