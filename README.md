@@ -52,6 +52,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Adobe Firefly**](https://www.adobe.com/products/firefly.html) – Creative Cloud's AI image and generative art suite.  
 - [**Google Veo 3**](https://gemini.google.com/subscriptions/) – Google’s advanced text-to-video model (accessible via Gemini plans).  
 - [**Runway Gen-4**](https://runwayml.com/) – Cinematic-quality AI video generation platform.  
+- [**PopcornAI**](https://popcornai.art/) – AI video and image generator for short branded clips, launch visuals, and campaign-ready creative assets.
 - [**Leonardo AI**](https://leonardo.ai/) – Ideal for stylized illustrations and game assets.  
 - [**CivitAI**](https://civitai.com/) – Community hub for Stable Diffusion model sharing.  
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
