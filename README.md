@@ -112,6 +112,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Fathom**](https://fathom.video/) – AI assistant for meeting capture and summaries.  
 - [**Gumloop**](https://gumloop.com/) – AI workflow builder akin to Zapier.  
 - [**AgentGPT**](https://agentgpt.reworkd.ai/) – Deploy autonomous browser AI agents.  
+- [**Prefactor**](https://prefactor.tech/) – AI agent runtime control plane offering observability, governance, and integration with popular frameworks.
 - [**Auto-GPT Next**](https://github.com/Significant-Gravitas/Auto-GPT) – Advanced autonomous AI task runners.
 
 ---
