@@ -75,6 +75,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Tabnine**](https://www.tabnine.com/) – Privacy-focused code autocompletion.  
 - [**Warp Terminal**](https://www.warp.dev/) – AI-enhanced terminal wrapper for macOS with intelligent features (use defensively).
 - [**Kiro**](https://www.kiro.dev/) – Task-based AI IDE that brings structure to AI coding with spec-driven development.
+- [**LocalePack**](https://localepack.app/) – Translates locale files and browser extension strings into 52 languages, preserving all placeholder syntax and nested structure. Supports Next.js, i18next, vue-i18n, and Chrome/Firefox extensions. One-time payment.
 
 ---
 
