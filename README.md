@@ -141,6 +141,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Ollama**](https://ollama.ai/) – Local deployment of AI models with one-line setup.  
 - [**Anaconda**](https://www.anaconda.com/) – Complete Python/R distribution for data science and AI development, including AI Navigator and Anaconda Toolbox with easy Jupyter notebook creation.  
 - [**Open Interpreter**](https://github.com/openai/open-interpreter) – Natural-language interface for controlling your computer.
+- [**RemoteOpenClaw**](https://remoteopenclaw.com) – Open marketplace for AI skills and personas built on OpenClaw. Discover, share, and sell community-built AI agent capabilities.
 
 ---
 
