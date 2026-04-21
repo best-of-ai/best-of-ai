@@ -90,6 +90,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Slite AI**](https://slite.com/) – Team docs with AI-powered summaries.  
 - [**Superhuman AI**](https://superhuman.com/) – Speedy, intelligent email management.
 - [**Gamma**](https://gamma.app/) – AI-powered platform for creating presentations, documents, and webpages with intelligent design and fast workflows.
+- [**MindMap AI**](https://mindmapai.app/text-summarizer) – Visual AI tool for organizing ideas, structuring knowledge, and transforming text, documents, and research into interactive mind maps for productivity and learning.
 
 ---
 
