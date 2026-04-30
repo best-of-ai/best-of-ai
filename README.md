@@ -57,6 +57,8 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
+- [**ThreeDee AI 3D Generator**](https://www.threedee.design/products/ai-3d-generator/) – Generates 3D models from text prompts or a single image for creative and production workflows.
+- [**ThreeDee AI 3D Bust Maker**](https://www.threedee.design/products/3d-bust-maker/) – Generates printable 3D bust models from one portrait photo.
 
 ---
 
