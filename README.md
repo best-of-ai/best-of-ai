@@ -125,6 +125,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**ChatDOC**](https://chatdoc.app/) – AI assistant for reading and querying PDFs.  
 - [**SciSpace**](https://typeset.io/) – AI-driven academic paper exploration.  
 - [**Tavily AI Search API**](https://tavily.com/) – Developer-friendly AI search services.
+- [**IdeaTwister**](https://ideatwister.com) – Locally-run idea mutation engine that turns one rough business idea into 50+ scored variations across 15 strategic angles, with live market research baked into each one.
 
 ---
 
