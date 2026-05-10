@@ -57,6 +57,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
+- [**ZSky AI**](https://zsky.ai) – Free unlimited AI image and video generation. SDXL, FLUX, WAN, Krea, LTX models. 100K+ creators. No credit caps.
 
 ---
 
