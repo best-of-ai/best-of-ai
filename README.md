@@ -55,6 +55,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Leonardo AI**](https://leonardo.ai/) – Ideal for stylized illustrations and game assets.  
 - [**CivitAI**](https://civitai.com/) – Community hub for Stable Diffusion model sharing.  
 - [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
+- [**Aurcue**](https://www.aurcue.com/) – AI personal aesthetic assistant for color, outfit, hairstyle, and glasses guidance from user photos.
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
 
@@ -172,4 +173,3 @@ Submit a **Pull Request** or open an **Issue** — include name, category, short
 ## License
 
 [MIT License](LICENSE)
-
