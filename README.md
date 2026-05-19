@@ -90,6 +90,7 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Slite AI**](https://slite.com/) – Team docs with AI-powered summaries.  
 - [**Superhuman AI**](https://superhuman.com/) – Speedy, intelligent email management.
 - [**Gamma**](https://gamma.app/) – AI-powered platform for creating presentations, documents, and webpages with intelligent design and fast workflows.
+- [**KDP Readiness Score**](https://publishing.co.uk/audit/kdp-readiness/) – Free 60-second pre-flight audit for self-publishing authors. Runs the 30+ technical checks Amazon's KDP reviewer uses (margins, bleed, font embedding, image DPI, ToC integrity, ISBN match, EPUB validity) and returns a score plus remediation PDF. No signup.
 
 ---
 
