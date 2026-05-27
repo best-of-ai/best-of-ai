@@ -54,7 +54,8 @@ This repository serves as your go-to guide for **AI tools that are actively main
 - [**Runway Gen-4**](https://runwayml.com/) – Cinematic-quality AI video generation platform.  
 - [**Leonardo AI**](https://leonardo.ai/) – Ideal for stylized illustrations and game assets.  
 - [**CivitAI**](https://civitai.com/) – Community hub for Stable Diffusion model sharing.  
-- [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.  
+- [**Magnific AI**](https://magnific.ai/) – Image upscaler and detail enhancer.
+- [**PhotoRestore.ai**](https://photorestore.ai) – AI-powered restoration of old and damaged photos; repairs scratches, fading, tears, and colorizes B&W images.  
 - [**Kaiber**](https://kaiber.ai/) – AI animation and music video creation tool.
 - [**Animated Drawings**](https://sketch.metademolab.com/canvas) – Animating children's drawings of characters.
 
