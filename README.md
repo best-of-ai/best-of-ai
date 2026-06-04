@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-390-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-391-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-81-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -65,7 +65,7 @@
 - [Government](#government) (4)
 - [HR](#hr) (6)
 - [Home Design](#home-design) (4)
-- [Image Editing](#image-editing) (4)
+- [Image Editing](#image-editing) (5)
 - [Image Generation](#image-generation) (8)
 - [Infographics](#infographics) (4)
 - [Job Tools](#job-tools) (4)
@@ -598,6 +598,7 @@
 > AI tools for editing, enhancing, and transforming existing images.
 
 - **[Fotor](https://fotor.com)** — [review](https://bestofai.io/tools/fotor/) — Online AI photo editor and design platform ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[igly.ai](https://igly.ai)** — [review](https://bestofai.io/tools/igly-ai/) — Browser-based AI image editor ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Luminar Neo](https://skylum.com/luminar-neo)** — [review](https://bestofai.io/tools/luminar-neo/) — AI-powered photo editing software for photographers ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Photoroom](https://photoroom.com)** — [review](https://bestofai.io/tools/photoroom/) — AI photo editor for product and portrait photos ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Pixlr](https://pixlr.com)** — [review](https://bestofai.io/tools/pixlr/) — AI-powered online photo editor ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
