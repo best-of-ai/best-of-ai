@@ -383,6 +383,7 @@
 - **[AutoGPT](https://agpt.co)** — [review](https://bestofai.io/tools/autogpt/) — Autonomous AI agent for task automation ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[CrewAI](https://crewai.com)** — [review](https://bestofai.io/tools/crewai/) — Multi-agent AI system for collaborative tasks ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[LangChain](https://langchain.com)** — [review](https://bestofai.io/tools/langchain/) — Framework for building AI agent applications ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[TWZRD Agent Intel](https://intel.twzrd.xyz)** — On-chain trust scoring for AI agent wallets on Solana. Free MCP tools verify agent identity before x402 micropayments. ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 
 ---
 
