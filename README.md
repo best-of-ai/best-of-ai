@@ -920,6 +920,7 @@
 - **[Deepgram](https://deepgram.com)** — [review](https://bestofai.io/tools/deepgram/) — Real-time speech recognition API built for production ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Notta](https://notta.ai)** — [review](https://bestofai.io/tools/notta/) — AI transcription and meeting notes in 58 languages ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Whisper](https://openai.com/research/whisper)** — [review](https://bestofai.io/tools/whisper/) — OpenAI's open-source speech recognition model ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[Whisper by Remskill](https://whisper.remskill.com)** — Desktop voice-to-text dictation for Windows and macOS; press a hotkey, speak, and polished text is pasted at your cursor, fully offline with local Whisper/Parakeet or via OpenAI cloud ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 
 ---
 
