@@ -309,7 +309,7 @@
 - **[Ahrefs](https://ahrefs.com)** — [review](https://bestofai.io/tools/ahrefs/) — Advanced SEO toolset with AI-enhanced features ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Clearscope](https://clearscope.io)** — [review](https://bestofai.io/tools/clearscope/) — AI content optimisation grader for SEO writers ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Frase](https://frase.io)** — [review](https://bestofai.io/tools/frase/) — AI SEO content optimization and research tool ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[oohoom](https://www.oohoom.com)** — [review](https://bestofai.io/tools/ahrefs/) — Get the most out of your GSC and GA4 using oohoom AI Assistant and MCP ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[oohoom](https://www.oohoom.com)** — [review](https://bestofai.io/tools/oohoom/) — Get the most out of your GSC and GA4 using oohoom AI Assistant and MCP ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[SEMrush](https://semrush.com)** — [review](https://bestofai.io/tools/semrush/) — Comprehensive SEO toolkit with AI-powered insights ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Surfer SEO](https://surferseo.com)** — [review](https://bestofai.io/tools/surfer-seo/) — AI-powered SEO content optimization and analysis ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 
