@@ -1,0 +1,18 @@
+---
+title: 'Dumm-E'
+name: 'Dumm-E'
+subtitle: ''
+slug: 'dumm-e'
+description: 'Chatted with mildly precise assistant bot.'
+website: 'https://dumm-e.net/'
+logo_url: ''
+category: 'writing-assistants'
+category_name: 'Writing Assistants'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: [chat, chatbot, funny, conversation, AI, maintenance, interactive, question-answering]
+---
+
+Chatted with mildly precise assistant bot.

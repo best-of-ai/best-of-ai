@@ -2,6 +2,8 @@
 {{ $activeCat := "" }}
 {{ if eq .Section "tools" }}{{ $activeCat = .Params.category }}{{ end }}
 {{ if eq .Section "categories" }}{{ $activeCat = .Params.slug }}{{ end }}
+{{ $activeProf := "" }}
+{{ if eq .Section "professionals" }}{{ $activeProf = .Params.slug }}{{ end }}
 
 <aside class="hl-left" id="hl-left">
   {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.left_sidebar "variant" "sidebar") }}
@@ -14,9 +16,11 @@
     {{ $catList := slice }}
     {{ range hugo.Data.categories }}
       {{ $cat := . }}
-      {{ $catTools := where $tools "Params.category" $cat.slug }}
-      {{ if $catTools }}
-        {{ $catList = $catList | append (dict "count" (len $catTools) "cat" $cat) }}
+      {{ if $cat.sidebar }}
+        {{ $catTools := where $tools "Params.category" $cat.slug }}
+        {{ if $catTools }}
+          {{ $catList = $catList | append (dict "count" (len $catTools) "cat" $cat) }}
+        {{ end }}
       {{ end }}
     {{ end }}
     {{ range sort $catList "count" "desc" }}
@@ -26,4 +30,19 @@
       </a>
     {{ end }}
   </nav>
+
+  {{ $sidebarProfs := where .Site.RegularPages "Params.sidebar" true }}
+  {{ $sidebarProfs = where $sidebarProfs "Section" "professionals" }}
+  {{ $sidebarProfs = sort $sidebarProfs "Params.sort_order" }}
+  {{ if $sidebarProfs }}
+  <div class="hl-section-label sidebar-profs-label">// by profession</div>
+  <nav class="hl-cat-nav hl-prof-nav">
+    {{ range $sidebarProfs }}
+      <a href="{{ .RelPermalink }}" class="cat-link{{ if eq $activeProf .Params.slug }} active{{ end }}">
+        {{ if .Params.icon }}<span class="prof-icon">{{ .Params.icon }}</span>{{ end }}{{ .Params.name }}
+      </a>
+    {{ end }}
+    <a href="{{ "/professionals/" | relURL }}" class="cat-link prof-all-link">All professions →</a>
+  </nav>
+  {{ end }}
 </aside>

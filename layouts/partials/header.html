@@ -121,6 +121,11 @@
 
     <!-- Actions -->
     <div class="site-header__actions">
+      <a href="{{ "/saved/" | relURL }}" class="saved-link saved-link--mobile" title="Saved tools" aria-label="Saved tools">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        <span class="saved-count" hidden></span>
+      </a>
+
       <button class="search-trigger" id="search-open" aria-label="Search">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
         <span class="search-trigger__label">Search</span>

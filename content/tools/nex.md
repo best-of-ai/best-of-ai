@@ -1,0 +1,18 @@
+---
+title: 'NEX'
+name: 'NEX'
+subtitle: ''
+slug: 'nex'
+description: 'The text provided does not contain any information about the AI tool NEX.'
+website: 'https://www.nex.art/'
+logo_url: ''
+category: 'others'
+category_name: 'Others'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: [javascript, browser, enable, application, disabled]
+---
+
+The text provided does not contain any information about the AI tool NEX.

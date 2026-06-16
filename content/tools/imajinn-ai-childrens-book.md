@@ -1,0 +1,18 @@
+---
+title: 'Imajinn AI Children''s Book'
+name: 'Imajinn AI Children''s Book'
+subtitle: ''
+slug: 'imajinn-ai-childrens-book'
+description: 'Creation of unique, personalized children''s storybooks.'
+website: 'https://imajinn.ai/storybook'
+logo_url: ''
+category: 'writing-assistants'
+category_name: 'Writing Assistants'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: [story, writing, text, gift, customization, eBook, print, keepsake]
+---
+
+Creation of unique, personalized children's storybooks.

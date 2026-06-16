@@ -1,0 +1,18 @@
+---
+title: 'TextGPT.app'
+name: 'TextGPT.app'
+subtitle: ''
+slug: 'textgptapp'
+description: 'Enhanced editing for professional communication.'
+website: 'https://trytextgpt.vercel.app/'
+logo_url: ''
+category: 'writing-assistants'
+category_name: 'Writing Assistants'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: [writing, text, browser, gpt, AI, "writing assistance", productivity, OpenAI, "Chrome extension"]
+---
+
+Enhanced editing for professional communication.

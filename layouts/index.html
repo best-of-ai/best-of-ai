@@ -13,7 +13,14 @@
 
     <div class="hl-hero">
       <h1 class="hl-hero__title">Best of <span>AI</span></h1>
-      <p class="hl-hero__desc">Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.</p>
+      <p class="hl-hero__desc">The best AI tools, handpicked. No fluff, no noise.</p>
+      <div class="hl-hero__stats">
+        <span class="hl-hero__stat-count">{{ partial "count.html" (len $tools) }} tools</span>
+        <span class="hl-hero__stat-dot">·</span>
+        <span>{{ len hugo.Data.categories }} categories</span>
+        <span class="hl-hero__stat-dot">·</span>
+        <span>free &amp; paid</span>
+      </div>
     </div>
 
     <div class="home-search-wrap">
@@ -22,7 +29,7 @@
         id="home-search"
         class="home-search__input"
         type="text"
-        placeholder="Search {{ partial "count.html" (len $tools) }} AI tools..."
+        placeholder="Search tools, categories, tags…"
         autocomplete="off"
         spellcheck="false"
         aria-label="Search tools"
@@ -30,14 +37,8 @@
       <kbd class="home-search__kbd">⌘K</kbd>
     </div>
 
-    <div class="hl-stats">
-      <span class="hl-stats__count">{{ partial "count.html" (len $tools) }} tools</span>
-      <span class="hl-stats__sep">·</span>
-      <span>handpicked &amp; updated</span>
-    </div>
-
     <div class="price-bar" id="price-bar">
-      <span class="price-bar__label">// price</span>
+      <span class="price-bar__label">// filter</span>
       <button class="pf active" data-price="all">all</button>
       <button class="pf" data-price="Free">free</button>
       <button class="pf" data-price="Freemium">freemium</button>
@@ -69,8 +70,7 @@
     {{ $top6 := first 6 hugo.Data.leaderboard }}
     <section class="tool-section home-top100" id="top-100" data-cat="top-100">
       <h2 class="tool-section__title">
-        <a href="{{ "/leaderboard/" | relURL }}" class="tool-section__title-link">🏆 Top 100 AI Tools</a>
-        <span class="tool-section__count">100</span>
+        <a href="{{ "/leaderboard/" | relURL }}" class="tool-section__title-link">Top 100 AI Tools</a>
         <a href="{{ "/leaderboard/" | relURL }}" class="tool-section__more-link">
           View all 100
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>

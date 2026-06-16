@@ -1,0 +1,18 @@
+---
+title: 'Kaya'
+name: 'Kaya'
+subtitle: ''
+slug: 'kaya'
+description: 'Personalized learning and support assistant.'
+website: 'https://kaya.chat/'
+logo_url: ''
+category: 'writing-assistants'
+category_name: 'Writing Assistants'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: [chat, chatbot, customer, support, conversation, AI, "personal learning", "content creation", note-taking, "data analysis"]
+---
+
+Personalized learning and support assistant.

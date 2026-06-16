@@ -1,0 +1,18 @@
+---
+title: 'Muzzle'
+name: 'Muzzle'
+subtitle: ''
+slug: 'muzzle'
+description: 'Encrypted enhanced chats.'
+website: 'https://www.muzzle.in/welcome'
+logo_url: ''
+category: 'others'
+category_name: 'Others'
+price: 'Freemium'
+featured: false
+rank: 1
+date: '2026-06-16'
+tags: []
+---
+
+Encrypted enhanced chats.

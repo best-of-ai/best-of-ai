@@ -3,850 +3,992 @@
   name: '3D'
   description: 'AI tools for 3D modeling, rendering, texturing, and design automation.'
   slug: '3d'
+  sidebar: true
   sort_order: 0
 -
   id: 38
   name: 'AI Agents'
   description: 'Autonomous AI agents that plan, reason, and complete multi-step tasks with minimal human input.'
   slug: 'ai-agents'
+  sidebar: true
   sort_order: 0
 -
   id: 80
   name: 'AI Companion'
   description: 'AI chat companions, virtual friends, and personal AI characters.'
   slug: 'ai-companion'
+  sidebar: false
   sort_order: 0
 -
   id: 43
   name: 'Ad Generator'
   description: 'AI tools for creating and optimizing digital ads across Google, Meta, and social media platforms.'
   slug: 'ad-generator'
+  sidebar: false
   sort_order: 0
 -
   id: 47
   name: 'Animation'
   description: 'AI-powered animation tools for creating motion graphics, animated videos, and character animations.'
   slug: 'animation'
+  sidebar: false
   sort_order: 0
 -
   id: 31
   name: 'App Builders'
   description: 'AI-powered platforms for building mobile and web apps without traditional coding skills.'
   slug: 'app-builders'
+  sidebar: true
   sort_order: 0
 -
   id: 78
   name: 'Background Remover'
   description: 'AI tools that automatically remove or replace image backgrounds.'
   slug: 'background-remover'
+  sidebar: false
   sort_order: 0
 -
   id: 35
   name: 'Business Tools'
   description: 'AI tools to streamline business operations, strategy, and data-driven decision-making.'
   slug: 'business-tools'
+  sidebar: true
   sort_order: 0
 -
   id: 53
   name: 'CRM'
   description: 'AI-enhanced customer relationship management tools for sales, contact management, and pipeline tracking.'
   slug: 'crm'
+  sidebar: true
   sort_order: 0
 -
   id: 57
   name: 'Calendar Scheduling'
   description: 'AI scheduling assistants that automate meeting booking, calendar management, and time optimization.'
   slug: 'calendar-scheduling'
+  sidebar: false
   sort_order: 0
 -
   id: 68
   name: 'Climate'
   description: 'AI tools for climate modeling, carbon tracking, and environmental impact analysis.'
   slug: 'climate'
+  sidebar: false
   sort_order: 0
 -
   id: 73
   name: 'Code Assistant'
   description: 'AI-powered coding assistants, code completion, and pair programming tools.'
   slug: 'code-assistant'
+  sidebar: true
   sort_order: 0
 -
   id: 30
   name: 'Copywriting'
   description: 'AI copywriting tools for writing persuasive marketing copy, ads, landing pages, and product descriptions.'
   slug: 'copywriting'
+  sidebar: false
   sort_order: 0
 -
   id: 70
   name: 'DevTools'
   description: 'AI-powered developer tools for code review, CI/CD, infrastructure management, and engineering workflows.'
   slug: 'devtools'
+  sidebar: true
   sort_order: 0
 -
   id: 79
   name: 'Document AI'
   description: 'AI tools for reading, analyzing, and extracting insights from documents and PDFs.'
   slug: 'document-ai'
+  sidebar: true
   sort_order: 0
 -
   id: 60
   name: 'E-Commerce'
   description: 'AI tools for product listing optimization, personalization, and online store management.'
   slug: 'e-commerce'
+  sidebar: true
   sort_order: 0
 -
   id: 44
   name: 'Email Assistants'
   description: 'AI email tools for composing, summarizing, and managing email communications faster.'
   slug: 'email-assistants'
+  sidebar: true
   sort_order: 0
 -
   id: 65
   name: 'Farming'
   description: 'AI tools for precision agriculture, crop monitoring, yield prediction, and farm management.'
   slug: 'farming'
+  sidebar: false
   sort_order: 0
 -
   id: 41
   name: 'Fashion'
   description: 'AI tools for fashion design, trend forecasting, and virtual try-on experiences.'
   slug: 'fashion'
+  sidebar: false
   sort_order: 0
 -
   id: 33
   name: 'Finance'
   description: 'AI tools for personal finance, investment analysis, budgeting, and financial planning.'
   slug: 'finance'
+  sidebar: true
   sort_order: 0
 -
   id: 67
   name: 'Government'
   description: 'AI tools for public sector agencies to improve citizen services, data analysis, and policy insights.'
   slug: 'government'
+  sidebar: false
   sort_order: 0
 -
   id: 64
   name: 'HR'
   description: 'AI tools for human resources including onboarding, employee engagement, and workforce analytics.'
   slug: 'hr'
+  sidebar: true
   sort_order: 0
 -
   id: 69
   name: 'Home Design'
   description: 'AI tools for interior design, room planning, and home renovation visualization.'
   slug: 'home-design'
+  sidebar: false
   sort_order: 0
 -
   id: 77
   name: 'Image Editing'
   description: 'AI tools for editing, enhancing, and transforming existing images.'
   slug: 'image-editing'
+  sidebar: true
   sort_order: 0
 -
   id: 72
   name: 'Image Generation'
   description: 'AI tools for generating images and artwork from text prompts.'
   slug: 'image-generation'
+  sidebar: true
   sort_order: 0
 -
   id: 45
   name: 'Infographics'
   description: 'AI tools for creating data visualizations, infographics, and shareable visual reports.'
   slug: 'infographics'
+  sidebar: false
   sort_order: 0
 -
   id: 56
   name: 'Job Tools'
   description: 'AI tools for job searching, application tracking, and career development.'
   slug: 'job-tools'
+  sidebar: true
   sort_order: 0
 -
   id: 81
   name: 'Knowledge Management'
   description: 'AI tools for organizing, connecting, and retrieving personal and team knowledge.'
   slug: 'knowledge-management'
+  sidebar: true
   sort_order: 0
 -
   id: 61
   name: 'Language Learning'
   description: 'AI language tutors and apps for learning new languages through interactive conversation practice.'
   slug: 'language-learning'
+  sidebar: false
   sort_order: 0
 -
   id: 59
   name: 'Lead Generation'
   description: 'AI tools for identifying, qualifying, and converting potential customers into leads.'
   slug: 'lead-generation'
+  sidebar: true
   sort_order: 0
 -
   id: 62
   name: 'Learning Tools'
   description: 'AI-powered educational tools for personalized learning, tutoring, and skill development.'
   slug: 'learning-tools'
+  sidebar: true
   sort_order: 0
 -
   id: 40
   name: 'Logo Generator'
   description: 'AI logo makers for designing professional brand logos and visual identities in minutes.'
   slug: 'logo-generator'
+  sidebar: false
   sort_order: 0
 -
   id: 58
   name: 'Market Research'
   description: 'AI tools for consumer insights, competitor analysis, and market trend research.'
   slug: 'market-research'
+  sidebar: true
   sort_order: 0
 -
   id: 46
   name: 'Meme Generator'
   description: 'AI tools for creating and editing memes for social media and content marketing.'
   slug: 'meme-generator'
+  sidebar: false
   sort_order: 0
 -
   id: 74
   name: 'Music Generation'
   description: 'AI tools for generating original music, beats, and soundtracks.'
   slug: 'music-generation'
+  sidebar: true
   sort_order: 0
 -
   id: 42
   name: 'No-Code'
   description: 'AI no-code platforms for building apps, automations, and workflows without writing code.'
   slug: 'no-code'
+  sidebar: false
   sort_order: 0
 -
   id: 52
   name: 'Note-Taking Apps'
   description: 'AI-powered note-taking apps that capture, organize, and surface information automatically.'
   slug: 'note-taking-apps'
+  sidebar: true
   sort_order: 0
 -
   id: 50
   name: 'Podcast'
   description: 'AI tools for podcast production, transcription, editing, and episode content generation.'
   slug: 'podcast'
+  sidebar: false
   sort_order: 0
 -
   id: 26
   name: 'Presentation'
   description: 'AI presentation tools for creating slides, decks, and compelling visual presentations quickly.'
   slug: 'presentation'
+  sidebar: true
   sort_order: 0
 -
   id: 34
   name: 'Project Management'
   description: 'AI project management tools for planning, tracking, and collaborating on team work.'
   slug: 'project-management'
+  sidebar: true
   sort_order: 0
 -
   id: 63
   name: 'Real Estate'
   description: 'AI tools for property valuation, listing optimization, and real estate market analysis.'
   slug: 'real-estate'
+  sidebar: false
   sort_order: 0
 -
   id: 55
   name: 'Resume Tools'
   description: 'AI resume builders and optimization tools for job seekers to create standout CVs and applications.'
   slug: 'resume-tools'
+  sidebar: false
   sort_order: 0
 -
   id: 54
   name: 'Sales Tools'
   description: 'AI sales tools for outreach automation, deal intelligence, and revenue forecasting.'
   slug: 'sales-tools'
+  sidebar: true
   sort_order: 0
 -
   id: 36
   name: 'Social Media Tools'
   description: 'AI tools for social media content creation, scheduling, and performance analytics.'
   slug: 'social-media-tools'
+  sidebar: true
   sort_order: 0
 -
   id: 66
   name: 'Supply Chain'
   description: 'AI tools for supply chain optimization, demand forecasting, and logistics management.'
   slug: 'supply-chain'
+  sidebar: false
   sort_order: 0
 -
   id: 48
   name: 'Talking Avatar Generator'
   description: 'AI tools for creating realistic talking avatars and digital human video presenters.'
   slug: 'talking-avatar-generator'
+  sidebar: true
   sort_order: 0
 -
   id: 75
   name: 'Text to Speech'
   description: 'AI tools that convert written text into natural-sounding speech.'
   slug: 'text-to-speech'
+  sidebar: true
   sort_order: 0
 -
   id: 76
   name: 'Transcription'
   description: 'AI-powered tools for transcribing audio and video to text.'
   slug: 'transcription'
+  sidebar: true
   sort_order: 0
 -
   id: 25
   name: 'Translator'
   description: 'AI translation tools for accurate, real-time text and document translation across languages.'
   slug: 'translator'
+  sidebar: true
   sort_order: 0
 -
   id: 27
   name: 'Video Editor'
   description: 'AI video editing tools for cutting, trimming, and producing polished videos with ease.'
   slug: 'video-editor'
+  sidebar: true
   sort_order: 0
 -
   id: 29
   name: 'Video Enhancer'
   description: 'AI tools for upscaling, denoising, and improving the quality of existing videos.'
   slug: 'video-enhancer'
+  sidebar: false
   sort_order: 0
 -
   id: 28
   name: 'Video Generator'
   description: 'AI tools for generating original videos from text prompts and scripts.'
   slug: 'video-generator'
+  sidebar: true
   sort_order: 0
 -
   id: 49
   name: 'Video Subtitling'
   description: 'AI tools for adding automatic subtitles, captions, and closed captions to videos.'
   slug: 'video-subtitling'
+  sidebar: false
   sort_order: 0
 -
   id: 51
   name: 'Voice Cloning'
   description: 'AI voice cloning tools for replicating and synthesizing custom voice profiles.'
   slug: 'voice-cloning'
+  sidebar: true
   sort_order: 0
 -
   id: 32
   name: 'Website Builders'
   description: 'AI website builders for designing and launching professional websites without writing code.'
   slug: 'website-builders'
+  sidebar: false
   sort_order: 0
 -
   id: 37
   name: 'Workflow Automation'
   description: 'AI workflow automation platforms for connecting apps and automating repetitive business processes.'
   slug: 'workflow-automation'
+  sidebar: true
   sort_order: 0
 -
   id: 1
   name: 'Productivity'
   description: 'AI productivity tools to help you focus, manage tasks, and get more done every day.'
   slug: 'productivity'
+  sidebar: true
   sort_order: 1
 -
   id: 3
   name: 'Chatbots'
   description: 'AI chatbots for automating conversations, answering questions, and improving customer engagement.'
   slug: 'chatbots'
+  sidebar: true
   sort_order: 5
 -
   id: 8
   name: 'Academia'
   description: 'AI tools for academic research, citation management, literature review, and scholarly writing.'
   slug: 'academia'
+  sidebar: false
   sort_order: 10
 -
   id: 12
   name: 'Audio'
   description: 'AI audio tools for editing, enhancing, cleaning, and generating sound and music.'
   slug: 'audio'
+  sidebar: true
   sort_order: 10
 -
   id: 15
   name: 'Automation'
   description: 'AI automation tools for streamlining repetitive tasks and optimizing business workflows.'
   slug: 'automation'
+  sidebar: false
   sort_order: 10
 -
   id: 9
   name: 'Customer Support'
   description: 'AI tools for automating customer support with chatbots, ticket routing, and help desk automation.'
   slug: 'customer-support'
+  sidebar: true
   sort_order: 10
 -
   id: 16
   name: 'Data'
   description: 'AI data tools for analysis, visualization, and extracting insights from large datasets.'
   slug: 'data'
+  sidebar: true
   sort_order: 10
 -
   id: 18
   name: 'Food'
   description: 'AI tools for recipe generation, food discovery, nutrition planning, and restaurant management.'
   slug: 'food'
+  sidebar: false
   sort_order: 10
 -
   id: 21
   name: 'Gaming'
   description: 'AI tools for game development, NPC behavior design, and personalized gaming experiences.'
   slug: 'gaming'
+  sidebar: true
   sort_order: 10
 -
   id: 10
   name: 'Graphic Design'
   description: 'AI graphic design tools for creating logos, illustrations, banners, and visual assets.'
   slug: 'graphic-design'
+  sidebar: true
   sort_order: 10
 -
   id: 20
   name: 'Healthcare'
   description: 'AI tools for clinical decision support, patient engagement, and health data analysis.'
   slug: 'healthcare'
+  sidebar: true
   sort_order: 10
 -
   id: 17
   name: 'Legal Assistants'
   description: 'AI legal tools for contract analysis, legal research, and document drafting.'
   slug: 'legal-assistants'
+  sidebar: true
   sort_order: 10
 -
   id: 5
   name: 'Local Search Engines'
   description: 'AI-powered local search engines for discovering nearby businesses and services.'
   slug: 'local-search-engines'
+  sidebar: false
   sort_order: 10
 -
   id: 13
   name: 'Marketing'
   description: 'AI marketing tools for campaign automation, analytics, and personalized customer outreach.'
   slug: 'marketing'
+  sidebar: true
   sort_order: 10
 -
   id: 7
   name: 'Meeting Assistants'
   description: 'AI meeting tools for transcription, note-taking, action item tracking, and automated follow-ups.'
   slug: 'meeting-assistants'
+  sidebar: true
   sort_order: 10
 -
   id: 22
   name: 'Personal Assistants'
   description: 'AI personal assistants for scheduling, reminders, and managing your daily life hands-free.'
   slug: 'personal-assistants'
+  sidebar: true
   sort_order: 10
 -
   id: 24
   name: 'Research Tools'
   description: 'AI research tools for accelerating literature review, synthesis, and knowledge discovery.'
   slug: 'research-tools'
+  sidebar: true
   sort_order: 10
 -
   id: 14
   name: 'SEO'
   description: 'AI SEO tools for keyword research, content optimization, and improving search engine rankings.'
   slug: 'seo'
+  sidebar: true
   sort_order: 10
 -
   id: 4
   name: 'Search Engines'
   description: 'AI-powered search engines delivering smarter, more contextual web search results.'
   slug: 'search-engines'
+  sidebar: true
   sort_order: 10
 -
   id: 23
   name: 'Spreadsheets'
   description: 'AI tools that bring natural language querying and automation to spreadsheets and data tables.'
   slug: 'spreadsheets'
+  sidebar: false
   sort_order: 10
 -
   id: 11
   name: 'Video'
   description: 'AI video tools for creation, editing, enhancement, and distribution of video content.'
   slug: 'video'
+  sidebar: false
   sort_order: 10
 -
   id: 19
   name: 'Weather'
   description: 'AI weather tools for forecasting, climate data analysis, and environmental monitoring.'
   slug: 'weather'
+  sidebar: false
   sort_order: 10
 -
   id: 6
   name: 'Writing Assistants'
   description: 'AI writing assistants for drafting, editing, and improving written content across any format.'
   slug: 'writing-assistants'
+  sidebar: true
   sort_order: 10
 -
   id: 2
   name: 'Models'
   description: 'Foundation AI models and large language models powering the next generation of AI applications.'
   slug: 'models'
+  sidebar: true
   sort_order: 21
 -
   id: 71
   name: 'AI Directories'
   description: 'Comprehensive directories and listings of AI tools and services'
   slug: 'ai-directories'
+  sidebar: false
   sort_order: 71
 -
   id: 100
   name: 'Cybersecurity'
   description: 'AI tools for threat detection, vulnerability scanning, and security monitoring.'
   slug: 'cybersecurity'
+  sidebar: false
   sort_order: 0
 -
   id: 101
   name: 'Mental Health'
   description: 'AI tools for mental wellness, therapy support, mood tracking, and emotional well-being.'
   slug: 'mental-health'
+  sidebar: false
   sort_order: 0
 -
   id: 102
   name: 'Fitness'
   description: 'AI personal trainers, workout generators, and fitness tracking tools.'
   slug: 'fitness'
+  sidebar: false
   sort_order: 0
 -
   id: 103
   name: 'Diagramming'
   description: 'AI tools for creating flowcharts, architecture diagrams, and visual documentation.'
   slug: 'diagramming'
+  sidebar: false
   sort_order: 0
 -
   id: 104
   name: 'Data Labeling'
   description: 'AI tools for annotating and labeling datasets used in machine learning training.'
   slug: 'data-labeling'
+  sidebar: false
   sort_order: 0
 -
   id: 105
   name: 'Prompt Tools'
   description: 'Tools for prompt engineering, prompt management, and AI output optimization.'
   slug: 'prompt-tools'
+  sidebar: false
   sort_order: 0
 -
   id: 106
   name: 'Travel'
   description: 'AI tools for itinerary planning, trip research, and travel booking assistance.'
   slug: 'travel'
+  sidebar: false
   sort_order: 0
 -
   id: 107
   name: 'Contract Management'
   description: 'AI tools for drafting, reviewing, and managing contracts and agreements.'
   slug: 'contract-management'
+  sidebar: false
   sort_order: 0
 -
   id: 108
   name: 'Compliance'
   description: 'AI tools for regulatory compliance, risk management, and policy monitoring.'
   slug: 'compliance'
+  sidebar: false
   sort_order: 0
 -
   id: 109
   name: 'Computer Vision'
   description: 'AI tools for image recognition, object detection, and visual analysis.'
   slug: 'computer-vision'
+  sidebar: false
   sort_order: 0
 -
   id: 110
   name: 'Synthetic Data'
   description: 'AI tools for generating synthetic datasets for training and testing ML models.'
   slug: 'synthetic-data'
+  sidebar: false
   sort_order: 0
 -
   id: 111
   name: 'AR/VR'
   description: 'AI tools for augmented reality and virtual reality experiences.'
   slug: 'ar-vr'
+  sidebar: false
   sort_order: 0
 -
   id: 112
   name: 'Accessibility'
   description: 'AI tools for assistive technology and making content accessible to everyone.'
   slug: 'accessibility'
+  sidebar: false
   sort_order: 0
 -
   id: 113
   name: 'Construction'
   description: 'AI tools for construction project management, planning, and site monitoring.'
   slug: 'construction'
+  sidebar: false
   sort_order: 0
 -
   id: 114
   name: 'Manufacturing'
   description: 'AI tools for industrial production, quality control, and factory automation.'
   slug: 'manufacturing'
+  sidebar: false
   sort_order: 0
 -
   id: 115
   name: 'Energy'
   description: 'AI tools for energy management, grid optimization, and sustainability tracking.'
   slug: 'energy'
+  sidebar: false
   sort_order: 0
 -
   id: 116
   name: 'Drug Discovery'
   description: 'AI tools for pharmaceutical research, molecular design, and clinical trials.'
   slug: 'drug-discovery'
+  sidebar: false
   sort_order: 0
 -
   id: 117
   name: 'Tax & Accounting'
   description: 'AI tools for tax preparation, bookkeeping, and financial record management.'
   slug: 'tax-accounting'
+  sidebar: false
   sort_order: 0
 -
   id: 118
   name: 'Insurance'
   description: 'AI tools for underwriting, claims processing, and insurance risk assessment.'
   slug: 'insurance'
+  sidebar: false
   sort_order: 0
 -
   id: 119
   name: 'Events'
   description: 'AI tools for event planning, management, and attendee engagement.'
   slug: 'events'
+  sidebar: false
   sort_order: 0
 -
   id: 120
   name: 'Sports Analytics'
   description: 'AI tools for sports performance analysis, coaching insights, and player tracking.'
   slug: 'sports-analytics'
+  sidebar: false
   sort_order: 0
 -
   id: 121
   name: 'Content Moderation'
   description: 'AI tools for trust and safety, detecting harmful content, and policy enforcement.'
   slug: 'content-moderation'
+  sidebar: false
   sort_order: 0
 -
   id: 122
   name: 'Chatbot Builders'
   description: 'Platforms and tools for building, deploying, and managing AI chatbots.'
   slug: 'chatbot-builders'
+  sidebar: false
   sort_order: 0
 -
   id: 123
   name: 'Localization'
   description: 'AI tools for localizing software, apps, and content for global markets.'
   slug: 'localization'
+  sidebar: false
   sort_order: 0
 -
   id: 124
   name: 'Mind Mapping'
   description: 'AI tools for brainstorming, idea mapping, and visual thinking.'
   slug: 'mind-mapping'
+  sidebar: false
   sort_order: 0
 -
   id: 125
   name: 'Medical Imaging'
   description: 'AI tools for radiology, pathology, and diagnostic medical image analysis.'
   slug: 'medical-imaging'
+  sidebar: false
   sort_order: 0
 -
   id: 126
   name: 'Patent Tools'
   description: 'AI tools for patent research, prior art search, and patent application drafting.'
   slug: 'patent-tools'
+  sidebar: false
   sort_order: 0
 -
   id: 127
   name: 'Recruiting'
   description: 'AI tools for talent acquisition, candidate screening, and hiring workflows.'
   slug: 'recruiting'
+  sidebar: false
   sort_order: 0
 -
   id: 128
   name: 'Telemedicine'
   description: 'AI tools for remote medical consultations, patient monitoring, and digital health.'
   slug: 'telemedicine'
+  sidebar: false
   sort_order: 0
 -
   id: 129
   name: 'Fleet Management'
   description: 'AI tools for fleet tracking, route optimization, and logistics operations.'
   slug: 'fleet-management'
+  sidebar: false
   sort_order: 0
 -
   id: 130
   name: 'Privacy'
   description: 'AI tools for data privacy, anonymization, and personal information protection.'
   slug: 'privacy'
+  sidebar: false
   sort_order: 0
 -
   id: 131
   name: 'Robotics'
   description: 'AI tools for robotics design, simulation, and autonomous systems.'
   slug: 'robotics'
+  sidebar: false
   sort_order: 0
 -
   id: 132
   name: 'Web3'
   description: 'AI tools for blockchain, DeFi, NFTs, and decentralized applications.'
   slug: 'web3'
+  sidebar: false
   sort_order: 0
 -
   id: 133
   name: 'Biotech'
   description: 'AI tools for genomics, proteomics, and life sciences research.'
   slug: 'biotech'
+  sidebar: false
   sort_order: 0
 -
   id: 134
   name: 'Geospatial'
   description: 'AI tools for GIS, satellite imagery analysis, and location intelligence.'
   slug: 'geospatial'
+  sidebar: false
   sort_order: 0
 -
   id: 135
   name: 'Architecture'
   description: 'AI tools for architectural design, building planning, and spatial visualization.'
   slug: 'architecture'
+  sidebar: false
   sort_order: 0
 -
   id: 136
   name: 'Nutrition'
   description: 'AI tools for meal planning, dietary tracking, and nutritional analysis.'
   slug: 'nutrition'
+  sidebar: false
   sort_order: 0
 -
   id: 137
   name: 'Parenting'
   description: 'AI tools for child development, parenting guidance, and family organization.'
   slug: 'parenting'
+  sidebar: false
   sort_order: 0
 -
   id: 138
   name: 'Pets'
   description: 'AI tools for pet care, health monitoring, and veterinary guidance.'
   slug: 'pets'
+  sidebar: false
   sort_order: 0
 -
   id: 139
   name: 'FinTech'
   description: 'AI tools for payments, banking, lending, and financial services innovation.'
   slug: 'fintech'
+  sidebar: false
   sort_order: 0
 -
   id: 140
   name: 'CleanTech'
   description: 'AI tools for clean energy, carbon reduction, and environmental sustainability.'
   slug: 'cleantech'
+  sidebar: false
   sort_order: 0
 -
   id: 141
   name: 'Reading'
   description: 'AI tools for book summaries, speed reading, and reading comprehension.'
   slug: 'reading'
+  sidebar: false
   sort_order: 0
 -
   id: 142
   name: 'Storytelling'
   description: 'AI tools for narrative writing, interactive fiction, and world-building.'
   slug: 'storytelling'
+  sidebar: false
   sort_order: 0
 -
   id: 143
   name: 'Dubbing'
   description: 'AI tools for video dubbing, lip-sync, and multilingual voice replacement.'
   slug: 'dubbing'
+  sidebar: false
   sort_order: 0
 -
   id: 144
   name: 'Identity'
   description: 'AI tools for identity verification, biometrics, and authentication.'
   slug: 'identity'
+  sidebar: false
   sort_order: 0
 -
   id: 145
   name: 'Wellness'
   description: 'AI tools for mindfulness, sleep tracking, meditation, and holistic well-being.'
   slug: 'wellness'
+  sidebar: false
   sort_order: 0
 -
   id: 146
   name: 'Dating'
   description: 'AI tools for dating profile optimization, matchmaking, and relationship coaching.'
   slug: 'dating'
+  sidebar: false
   sort_order: 0
 -
   id: 147
   name: 'Nonprofit'
   description: 'AI tools designed for nonprofit organizations, fundraising, and social impact.'
   slug: 'nonprofit'
+  sidebar: false
   sort_order: 0
 -
   id: 148
   name: 'Debugging'
   description: 'AI tools for identifying, diagnosing, and fixing software bugs and errors.'
   slug: 'debugging'
+  sidebar: false
   sort_order: 0
 -
   id: 149
   name: 'API Tools'
   description: 'AI tools for API design, testing, documentation, and management.'
   slug: 'api-tools'
+  sidebar: false
   sort_order: 0
 -
   id: 150
   name: 'Database Tools'
   description: 'AI tools for database design, querying, optimization, and management.'
   slug: 'database-tools'
+  sidebar: false
   sort_order: 0
 -
   id: 151
   name: 'Cloud Management'
   description: 'AI tools for cloud infrastructure optimization, cost management, and operations.'
   slug: 'cloud-management'
+  sidebar: false
   sort_order: 0
 -
   id: 152
   name: 'IoT'
   description: 'AI tools for Internet of Things device management and edge intelligence.'
   slug: 'iot'
+  sidebar: false
   sort_order: 0
 -
   id: 153
   name: '3D Printing'
   description: 'AI tools for generative design, model preparation, and additive manufacturing.'
   slug: '3d-printing'
+  sidebar: false
   sort_order: 0
 -
   id: 154
   name: 'Space Tech'
   description: 'AI tools for aerospace engineering, satellite operations, and space exploration.'
   slug: 'space-tech'
+  sidebar: false
   sort_order: 0
 -
   id: 155
   name: 'Sentiment Analysis'
   description: 'AI tools for analyzing opinions, emotions, and sentiment in text and speech.'
   slug: 'sentiment-analysis'
+  sidebar: false
   sort_order: 0
 -
   id: 156
   name: 'Documentation'
   description: 'AI tools for writing, maintaining, and generating technical documentation.'
   slug: 'documentation'
+  sidebar: false
   sort_order: 0
 -
   id: 157
   name: 'Observability'
   description: 'AI tools for logging, tracing, monitoring, and application performance insights.'
   slug: 'observability'
+  sidebar: false
   sort_order: 0
 -
   id: 158
   name: 'Software Testing'
   description: 'AI tools for automated testing, test generation, and quality assurance workflows.'
   slug: 'software-testing'
+  sidebar: false
   sort_order: 0
 -
   id: 159
   name: 'Character Design'
   description: 'AI tools for designing characters, avatars, and digital personas.'
   slug: 'character-design'
+  sidebar: false
   sort_order: 0
 -
   id: 99
   name: 'Others'
   description: 'Additional tools and resources.'
   slug: 'others'
+  sidebar: false
   sort_order: 99

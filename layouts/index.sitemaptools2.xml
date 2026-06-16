@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- $tools := where .Site.RegularPages "Section" "tools" -}}
+{{- $tools = sort $tools "RelPermalink" -}}
+{{- range $tools | after 500 | first 500 }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
+  </url>
+{{- end }}
+</urlset>

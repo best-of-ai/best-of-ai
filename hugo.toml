@@ -2,6 +2,7 @@ baseURL = "https://bestofai.io/"
 locale = "en-US"
 title = "Best of AI"
 enableRobotsTXT = true
+disableKinds = ["sitemap"]
 
 [params]
   description = "Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact."
@@ -9,7 +10,7 @@ enableRobotsTXT = true
   siteURL     = "https://bestofai.io"
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "JSON", "SitemapIndex", "SitemapTools1", "SitemapTools2", "SitemapTools3", "SitemapPages"]
 
 [mediaTypes]
   [mediaTypes."application/json"]
@@ -20,6 +21,31 @@ enableRobotsTXT = true
     mediaType = "application/json"
     baseName  = "index"
     isPlainText = true
+    notAlternative = true
+  [outputFormats.SitemapIndex]
+    mediaType = "application/xml"
+    baseName  = "sitemap"
+    isPlainText = false
+    notAlternative = true
+  [outputFormats.SitemapTools1]
+    mediaType = "application/xml"
+    baseName  = "sitemap-tools-1"
+    isPlainText = false
+    notAlternative = true
+  [outputFormats.SitemapTools2]
+    mediaType = "application/xml"
+    baseName  = "sitemap-tools-2"
+    isPlainText = false
+    notAlternative = true
+  [outputFormats.SitemapTools3]
+    mediaType = "application/xml"
+    baseName  = "sitemap-tools-3"
+    isPlainText = false
+    notAlternative = true
+  [outputFormats.SitemapPages]
+    mediaType = "application/xml"
+    baseName  = "sitemap-pages"
+    isPlainText = false
     notAlternative = true
 
 [taxonomies]
