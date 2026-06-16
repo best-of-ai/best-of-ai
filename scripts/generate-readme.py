@@ -200,20 +200,24 @@ for entry in leaderboard:
 
 lines += ['', '---', '']
 
-# Category sections
+# Category sections (top 6 by rank per category)
 for cat in active_cats:
     slug  = cat['slug']
     name  = cat['name']
     desc  = cat.get('description', '').strip()
-    tools = tools_by_cat[slug]
+    count = len(tools_by_cat[slug])
+    cat_url = f'{SITE_URL}/categories/{slug}/'
 
-    lines.append(f'## {name}')
+    all_tools = tools_by_cat[slug]
+    top_tools = sorted(all_tools, key=lambda t: t.get('rank', 0), reverse=True)[:6]
+
+    lines.append(f'## [{name}]({cat_url})')
     lines.append('')
     if desc:
         lines.append(f'> {desc}')
         lines.append('')
 
-    for t in tools:
+    for t in top_tools:
         tool_name = t.get('name', '')
         website   = t.get('website', '')
         tslug     = t.get('slug', '')
@@ -239,6 +243,9 @@ for cat in active_cats:
             entry += f' {badge}'
 
         lines.append(entry)
+
+    if count > 6:
+        lines.append(f'- *[+{count - 6} more →]({cat_url})*')
 
     lines += ['', '---', '']
 
