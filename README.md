@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1307-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1308-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1307+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1308+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -124,7 +124,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Knowledge Management](#knowledge-management) (18)
   - [Language Learning](#language-learning) (6)
   - [Lead Generation](#lead-generation) (9)
-  - [Learning Tools](#learning-tools) (21)
+  - [Learning Tools](#learning-tools) (22)
   - [Localization](#localization) (3)
   - [Logo Generator](#logo-generator) (5)
   - [Manufacturing](#manufacturing) (3)
@@ -1290,7 +1290,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Carnegie Learning](https://carnegielearning.com)** — [review](https://bestofai.io/tools/carnegie-learning/) — AI-powered maths tutoring for K-12 and higher ed ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Chegg AI](https://chegg.com)** — [review](https://bestofai.io/tools/chegg-ai/) — AI homework help and tutoring for college students ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Coursera](https://coursera.org)** — [review](https://bestofai.io/tools/coursera/) — AI-enhanced online learning with university courses ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 21 Learning Tools tools on bestofai.io →](https://bestofai.io/categories/learning-tools/)*
+- *[View all 22 Learning Tools tools on bestofai.io →](https://bestofai.io/categories/learning-tools/)*
 
 ---
 
