@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1306-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1307-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1306+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1307+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -84,7 +84,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Cloud Management](#cloud-management) (3)
   - [Code Assistant](#code-assistant) (38)
   - [Compliance](#compliance) (3)
-  - [Computer Vision](#computer-vision) (3)
+  - [Computer Vision](#computer-vision) (4)
   - [Construction](#construction) (3)
   - [Content Moderation](#content-moderation) (4)
   - [Contract Management](#contract-management) (3)
@@ -853,6 +853,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[AWS Rekognition](https://aws.amazon.com/rekognition/)** — [review](https://bestofai.io/tools/aws-rekognition/) — Amazon's cloud-based computer vision service for image and video analysis including object detect... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Clarifai](https://www.clarifai.com)** — [review](https://bestofai.io/tools/clarifai/) — AI platform specialising in computer vision, NLP, and audio recognition with pre-built and custom... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Landing AI](https://landing.ai)** — [review](https://bestofai.io/tools/landing-ai/) — AI company by Andrew Ng focused on computer vision solutions for manufacturing, agriculture, and ... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Deepseek Vision](https://chat.deepseek.com)** — [review](https://bestofai.io/tools/deepseek-vision/) — DeepSeek Vision is a multimodal AI that understands images, documents, charts, and tables with advanced spatial reaso... ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 
 ---
 
