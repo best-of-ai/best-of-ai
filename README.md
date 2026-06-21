@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1304-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1305-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1304+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1305+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -53,7 +53,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Personal Assistants](#personal-assistants) (11)
   - [Research Tools](#research-tools) (21)
   - [SEO](#seo) (14)
-  - [Search Engines](#search-engines) (10)
+  - [Search Engines](#search-engines) (11)
   - [Spreadsheets](#spreadsheets) (4)
   - [Video](#video) (4)
   - [Weather](#weather) (4)
@@ -511,7 +511,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Devv.ai](https://devv.ai)** — [review](https://bestofai.io/tools/devv-ai/) — AI-powered search engine for developers ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Exa AI](https://exa.ai)** — [review](https://bestofai.io/tools/exa-ai/) — Semantic search API for AI applications ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Kagi](https://kagi.com)** — [review](https://bestofai.io/tools/kagi/) — Ad-free search engine with AI summarisation and no tracking ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 10 Search Engines tools on bestofai.io →](https://bestofai.io/categories/search-engines/)*
+- *[View all 11 Search Engines tools on bestofai.io →](https://bestofai.io/categories/search-engines/)*
 
 ---
 
@@ -2081,6 +2081,106 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - 🛠️ **[IT Support Specialists](https://bestofai.io/professionals/it-support-specialists/)** — AI tools for helpdesk automation, troubleshooting, and IT knowledge management
 - 🌱 **[Social Entrepreneurs](https://bestofai.io/professionals/social-entrepreneurs/)** — AI tools for impact measurement, grant writing, and mission-driven business growth
 - 🦁 **[Wildlife Biologists](https://bestofai.io/professionals/wildlife-biologists/)** — AI tools for species monitoring, ecological data analysis, and conservation research
+- 📊 **[Actuaries](https://bestofai.io/professionals/actuaries/)** — AI tools for risk modeling, statistical analysis, and insurance pricing
+- 🤝 **[Addiction Counselors](https://bestofai.io/professionals/addiction-counselors/)** — AI tools for treatment planning, patient engagement, and progress tracking
+- 🏘️ **[Appraisers](https://bestofai.io/professionals/appraisers/)** — AI tools for property valuation, market analysis, and report generation
+- 🏺 **[Archaeologists](https://bestofai.io/professionals/archaeologists/)** — AI tools for site mapping, artifact analysis, and historical research
+- 🎨 **[Art Therapists](https://bestofai.io/professionals/art-therapists/)** — AI tools for creative therapy, session notes, and patient tracking
+- 🔭 **[Astronomers](https://bestofai.io/professionals/astronomers/)** — AI tools for data analysis, image processing, and research synthesis
+- 🏦 **[Bankers](https://bestofai.io/professionals/bankers/)** — AI tools for risk assessment, customer service, and financial analysis
+- 🧠 **[Behavioral Scientists](https://bestofai.io/professionals/behavioral-scientists/)** — AI tools for experiment design, data analysis, and research synthesis
+- 🧪 **[Biochemists](https://bestofai.io/professionals/biochemists/)** — AI tools for molecular analysis, pathway modeling, and literature research
+- 📕 **[Book Editors](https://bestofai.io/professionals/book-editors/)** — AI tools for manuscript review, line editing, and editorial workflow
+- 🏷️ **[Brand Consultants](https://bestofai.io/professionals/brand-consultants/)** — AI tools for brand audits, competitive analysis, and messaging development
+- 🎯 **[Brand Strategists](https://bestofai.io/professionals/brand-strategists/)** — AI tools for brand positioning, competitive analysis, and messaging
+- 📈 **[Business Analysts](https://bestofai.io/professionals/business-analysts/)** — AI tools for requirements gathering, process mapping, and data analysis
+- ❤️ **[Cardiologists](https://bestofai.io/professionals/cardiologists/)** — AI tools for ECG analysis, imaging, and clinical documentation
+- 🧭 **[Career Coaches](https://bestofai.io/professionals/career-coaches/)** — AI tools for resume review, interview prep, and career planning
+- ⚗️ **[Chemical Engineers](https://bestofai.io/professionals/chemical-engineers/)** — AI tools for process simulation, reaction modeling, and safety analysis
+- 🧬 **[Clinical Trial Managers](https://bestofai.io/professionals/clinical-trial-managers/)** — AI tools for trial design, patient recruitment, and regulatory documentation
+- 📰 **[Columnists](https://bestofai.io/professionals/columnists/)** — AI tools for research, drafting, and editorial workflow
+- 📣 **[Communications Specialists](https://bestofai.io/professionals/communications-specialists/)** — AI tools for messaging, media relations, and internal communications
+- 🏘️ **[Community Health Workers](https://bestofai.io/professionals/community-health-workers/)** — AI tools for patient education, referral tracking, and outreach
+- 🧬 **[Computational Biologists](https://bestofai.io/professionals/computational-biologists/)** — AI tools for genomics, protein modeling, and biological data analysis
+- 📝 **[Content Marketers](https://bestofai.io/professionals/content-marketers/)** — AI tools for content strategy, creation, and performance analytics
+- 📝 **[Contract Managers](https://bestofai.io/professionals/contract-managers/)** — AI tools for contract drafting, review, and lifecycle management
+- 💉 **[Cosmetic Surgeons](https://bestofai.io/professionals/cosmetic-surgeons/)** — AI tools for patient visualization, consultation, and surgical planning
+- ⚖️ **[Court Reporters](https://bestofai.io/professionals/court-reporters/)** — AI tools for transcription, accuracy verification, and transcript management
+- 📚 **[Curriculum Designers](https://bestofai.io/professionals/curriculum-designers/)** — AI tools for learning design, content development, and assessment creation
+- 🔒 **[Data Privacy Officers](https://bestofai.io/professionals/data-privacy-officers/)** — AI tools for compliance monitoring, risk assessment, and privacy audits
+- 🔬 **[Dermatologists](https://bestofai.io/professionals/dermatologists/)** — AI tools for skin lesion analysis, clinical documentation, and patient education
+- 🖼️ **[Digital Artists](https://bestofai.io/professionals/digital-artists/)** — AI tools for image generation, creative exploration, and art production
+- 📲 **[Digital Marketers](https://bestofai.io/professionals/digital-marketers/)** — AI tools for campaign management, audience targeting, and performance analytics
+- 🚑 **[Emergency Medical Technicians](https://bestofai.io/professionals/emergency-medical-technicians/)** — AI tools for triage support, dispatch optimization, and incident documentation
+- 🎬 **[Entertainment Lawyers](https://bestofai.io/professionals/entertainment-lawyers/)** — AI tools for contract drafting, IP research, and rights management
+- ⚖️ **[Ethics Officers](https://bestofai.io/professionals/ethics-officers/)** — AI tools for policy monitoring, compliance, and stakeholder reporting
+- 💰 **[Financial Planners](https://bestofai.io/professionals/financial-planners/)** — AI tools for retirement planning, portfolio analysis, and client reporting
+- 💪 **[Fitness Coaches](https://bestofai.io/professionals/fitness-coaches/)** — AI tools for workout programming, client tracking, and nutrition guidance
+- ✈️ **[Flight Attendants](https://bestofai.io/professionals/flight-attendants/)** — AI tools for safety training, language assistance, and scheduling
+- 🌸 **[Floral Designers](https://bestofai.io/professionals/floral-designers/)** — AI tools for arrangement visualization, client proposals, and business management
+- 🔍 **[Forensic Engineers](https://bestofai.io/professionals/forensic-engineers/)** — AI tools for failure analysis, evidence documentation, and expert reporting
+- 🎮 **[Game Writers](https://bestofai.io/professionals/game-writers/)** — AI tools for narrative design, dialogue generation, and worldbuilding
+- 👻 **[Ghostwriters](https://bestofai.io/professionals/ghostwriters/)** — AI tools for drafting, tone matching, and content production at scale
+- 🏛️ **[Government Relations Managers](https://bestofai.io/professionals/government-relations-managers/)** — AI tools for policy tracking, stakeholder mapping, and regulatory analysis
+- 📚 **[Graphic Novelists](https://bestofai.io/professionals/graphic-novelists/)** — AI tools for panel generation, character design, and script development
+- 🥗 **[Health Coaches](https://bestofai.io/professionals/health-coaches/)** — AI tools for personalized plans, client engagement, and progress tracking
+- ✊ **[Human Rights Lawyers](https://bestofai.io/professionals/human-rights-lawyers/)** — AI tools for case research, document analysis, and advocacy
+- 📱 **[Influencers](https://bestofai.io/professionals/influencers/)** — AI tools for content creation, audience growth, and brand partnerships
+- 🔎 **[Investigative Journalists](https://bestofai.io/professionals/investigative-journalists/)** — AI tools for document analysis, data journalism, and source research
+- 💎 **[Jewelry Designers](https://bestofai.io/professionals/jewelry-designers/)** — AI tools for design visualization, client proposals, and trend analysis
+- 🎤 **[Keynote Speakers](https://bestofai.io/professionals/keynote-speakers/)** — AI tools for presentation design, speech writing, and audience engagement
+- 🗺️ **[Land Surveyors](https://bestofai.io/professionals/land-surveyors/)** — AI tools for terrain mapping, measurement automation, and report generation
+- 🌿 **[Landscape Designers](https://bestofai.io/professionals/landscape-designers/)** — AI tools for site visualization, plant selection, and client proposals
+- 📖 **[Literary Agents](https://bestofai.io/professionals/literary-agents/)** — AI tools for manuscript evaluation, query analysis, and market research
+- 🏛️ **[Lobbyists](https://bestofai.io/professionals/lobbyists/)** — AI tools for legislative tracking, stakeholder analysis, and advocacy writing
+- 🏥 **[Medical Device Engineers](https://bestofai.io/professionals/medical-device-engineers/)** — AI tools for design, regulatory compliance, and testing
+- 🩺 **[Medical Transcriptionists](https://bestofai.io/professionals/medical-transcriptionists/)** — AI tools for clinical transcription, accuracy review, and workflow automation
+- ⛏️ **[Mining Engineers](https://bestofai.io/professionals/mining-engineers/)** — AI tools for ore body modeling, safety monitoring, and operational optimization
+- 🏠 **[Mortgage Brokers](https://bestofai.io/professionals/mortgage-brokers/)** — AI tools for loan matching, document processing, and client communication
+- ⚛️ **[Nuclear Engineers](https://bestofai.io/professionals/nuclear-engineers/)** — AI tools for reactor simulation, safety analysis, and operations monitoring
+- 🩺 **[Nurse Practitioners](https://bestofai.io/professionals/nurse-practitioners/)** — AI tools for clinical documentation, diagnosis support, and patient education
+- 😁 **[Orthodontists](https://bestofai.io/professionals/orthodontists/)** — AI tools for treatment planning, imaging analysis, and patient communication
+- 📦 **[Packaging Designers](https://bestofai.io/professionals/packaging-designers/)** — AI tools for structural design, visual mockups, and sustainability analysis
+- 🚒 **[Paramedics](https://bestofai.io/professionals/paramedics/)** — AI tools for clinical decision support, dispatch, and incident reporting
+- 👶 **[Pediatricians](https://bestofai.io/professionals/pediatricians/)** — AI tools for clinical notes, developmental screening, and parent communication
+- 🎭 **[Performers](https://bestofai.io/professionals/performers/)** — AI tools for rehearsal, promotion, and creative development
+- 🛢️ **[Petroleum Engineers](https://bestofai.io/professionals/petroleum-engineers/)** — AI tools for reservoir modeling, drilling optimization, and production forecasting
+- ✈️ **[Pilots](https://bestofai.io/professionals/pilots/)** — AI tools for flight planning, weather analysis, and training simulation
+- 🗳️ **[Political Consultants](https://bestofai.io/professionals/political-consultants/)** — AI tools for voter analysis, message testing, and campaign strategy
+- 🎨 **[Product Designers](https://bestofai.io/professionals/product-designers/)** — AI tools for user research, prototyping, and design system management
+- 🎓 **[Professors](https://bestofai.io/professionals/professors/)** — AI tools for course design, research, and student engagement
+- 🧠 **[Psychiatrists](https://bestofai.io/professionals/psychiatrists/)** — AI tools for clinical documentation, diagnostic support, and patient monitoring
+- ⚖️ **[Public Defenders](https://bestofai.io/professionals/public-defenders/)** — AI tools for case research, document review, and client communication
+- 🏗️ **[Real Estate Developers](https://bestofai.io/professionals/real-estate-developers/)** — AI tools for market analysis, site selection, and project feasibility
+- 🏃 **[Rehabilitation Specialists](https://bestofai.io/professionals/rehabilitation-specialists/)** — AI tools for care planning, progress tracking, and patient engagement
+- 🛍️ **[Retail Managers](https://bestofai.io/professionals/retail-managers/)** — AI tools for inventory, customer insights, and workforce management
+- 🦺 **[Safety Engineers](https://bestofai.io/professionals/safety-engineers/)** — AI tools for hazard analysis, incident investigation, and compliance reporting
+- 🔬 **[Science Communicators](https://bestofai.io/professionals/science-communicators/)** — AI tools for translating research, creating content, and engaging audiences
+- 🛡️ **[Security Consultants](https://bestofai.io/professionals/security-consultants/)** — AI tools for threat assessment, penetration testing, and security reporting
+- 🎬 **[Set Designers](https://bestofai.io/professionals/set-designers/)** — AI tools for concept visualization, 3D modeling, and production planning
+- 🗣️ **[Speech Therapists](https://bestofai.io/professionals/speech-therapists/)** — AI tools for patient assessment, exercise generation, and progress tracking
+- 🏆 **[Sports Journalists](https://bestofai.io/professionals/sports-journalists/)** — AI tools for game analysis, automated reporting, and social content
+- 🏅 **[Sports Medicine Physicians](https://bestofai.io/professionals/sports-medicine-physicians/)** — AI tools for injury assessment, rehabilitation planning, and performance analysis
+- 📉 **[Statisticians](https://bestofai.io/professionals/statisticians/)** — AI tools for data analysis, model building, and visualization
+- 🏗️ **[Structural Engineers](https://bestofai.io/professionals/structural-engineers/)** — AI tools for design optimization, load analysis, and documentation
+- 🔪 **[Surgeons](https://bestofai.io/professionals/surgeons/)** — AI tools for surgical planning, robotic assistance, and clinical documentation
+- ⭐ **[Talent Agents](https://bestofai.io/professionals/talent-agents/)** — AI tools for talent discovery, deal management, and career development
+- 💼 **[Tax Lawyers](https://bestofai.io/professionals/tax-lawyers/)** — AI tools for tax research, document analysis, and compliance planning
+- 👩‍💻 **[Technical Recruiters](https://bestofai.io/professionals/technical-recruiters/)** — AI tools for candidate sourcing, screening, and pipeline management
+- 🧵 **[Textile Designers](https://bestofai.io/professionals/textile-designers/)** — AI tools for pattern generation, material exploration, and trend forecasting
+- 🎭 **[Theater Directors](https://bestofai.io/professionals/theater-directors/)** — AI tools for script analysis, production planning, and audience engagement
+- 🚦 **[Transportation Engineers](https://bestofai.io/professionals/transportation-engineers/)** — AI tools for traffic modeling, route optimization, and infrastructure planning
+- 🌆 **[Urban Designers](https://bestofai.io/professionals/urban-designers/)** — AI tools for city visualization, community engagement, and site analysis
+- 💸 **[Venture Capitalists](https://bestofai.io/professionals/venture-capitalists/)** — AI tools for deal sourcing, due diligence, and portfolio monitoring
+- 🎥 **[Videographers](https://bestofai.io/professionals/videographers/)** — AI tools for video editing, color grading, and client delivery
+- 🦠 **[Virologists](https://bestofai.io/professionals/virologists/)** — AI tools for sequence analysis, drug target discovery, and research synthesis
+- ✨ **[Visual Effects Artists](https://bestofai.io/professionals/visual-effects-artists/)** — AI tools for compositing, rendering, and asset generation
+- 🌐 **[Web Designers](https://bestofai.io/professionals/web-designers/)** — AI tools for layout generation, asset creation, and design-to-code
+- 💍 **[Wedding Photographers](https://bestofai.io/professionals/wedding-photographers/)** — AI tools for photo editing, client galleries, and business management
+- 🦁 **[Wildlife Photographers](https://bestofai.io/professionals/wildlife-photographers/)** — AI tools for species identification, photo editing, and expedition planning
+- 🦺 **[Workplace Safety Officers](https://bestofai.io/professionals/workplace-safety-officers/)** — AI tools for hazard identification, training, and compliance reporting
+- 🧘 **[Yoga Instructors](https://bestofai.io/professionals/yoga-instructors/)** — AI tools for class planning, student engagement, and content creation
+- 🦒 **[Zoologists](https://bestofai.io/professionals/zoologists/)** — AI tools for species identification, behavioral analysis, and research synthesis
 
 ---
 
