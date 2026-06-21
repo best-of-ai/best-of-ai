@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1309-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1310-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1309+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1310+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -100,7 +100,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Documentation](#documentation) (3)
   - [Drug Discovery](#drug-discovery) (3)
   - [Dubbing](#dubbing) (3)
-  - [E-Commerce](#e-commerce) (15)
+  - [E-Commerce](#e-commerce) (16)
   - [Email Assistants](#email-assistants) (15)
   - [Energy](#energy) (3)
   - [Events](#events) (3)
@@ -1023,7 +1023,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[BigCommerce](https://bigcommerce.com)** — [review](https://bestofai.io/tools/bigcommerce/) — AI-powered ecommerce platform for online stores ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Dynamic Yield](https://dynamicyield.com)** — [review](https://bestofai.io/tools/dynamic-yield/) — AI experience optimisation for retail and e-commerce ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Magento](https://magento.com)** — [review](https://bestofai.io/tools/magento/) — AI-powered open-source ecommerce platform ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 15 E-Commerce tools on bestofai.io →](https://bestofai.io/categories/e-commerce/)*
+- *[View all 16 E-Commerce tools on bestofai.io →](https://bestofai.io/categories/e-commerce/)*
 
 ---
 
