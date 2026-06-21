@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1308-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1309-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1308+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1309+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -170,7 +170,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Travel](#travel) (4)
   - [Video Editor](#video-editor) (20)
   - [Video Enhancer](#video-enhancer) (4)
-  - [Video Generator](#video-generator) (33)
+  - [Video Generator](#video-generator) (34)
   - [Video Subtitling](#video-subtitling) (5)
   - [Voice Cloning](#voice-cloning) (9)
   - [Web3](#web3) (3)
@@ -1793,7 +1793,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) — OpenAI's text-to-video generation model ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Kling AI](https://klingai.com)** — [review](https://bestofai.io/tools/kling-ai/) — High-quality AI video generation by Kuaishou ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Hailuo AI](https://hailuoai.com)** — [review](https://bestofai.io/tools/hailuo-ai/) — High-quality AI video generation by MiniMax ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 33 Video Generator tools on bestofai.io →](https://bestofai.io/categories/video-generator/)*
+- *[View all 34 Video Generator tools on bestofai.io →](https://bestofai.io/categories/video-generator/)*
 
 ---
 
