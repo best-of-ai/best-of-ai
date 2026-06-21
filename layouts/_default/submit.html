@@ -54,13 +54,20 @@
           </div>
 
           <div class="sf-field" id="sf-field-cat">
-            <label class="sf-label" for="sf-cat">Category <span class="sf-required">*</span></label>
-            <select class="sf-select" id="sf-cat">
-              <option value="">— pick a category —</option>
-              {{ range $cats }}
-              <option value="{{ .slug }}">{{ .name }}</option>
-              {{ end }}
-            </select>
+            <label class="sf-label" id="sf-cat-label">Category <span class="sf-required">*</span></label>
+            <div class="sf-combobox" id="sf-cat-combo">
+              <button type="button" class="sf-combo-trigger" id="sf-combo-trigger" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="sf-cat-label">
+                <span class="sf-combo-value is-placeholder" id="sf-combo-value">— pick a category —</span>
+                <svg class="sf-combo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="sf-combo-dropdown" id="sf-combo-dropdown" hidden>
+                <div class="sf-combo-search-wrap">
+                  <input class="sf-combo-search" id="sf-combo-search" type="text" placeholder="Search categories…" autocomplete="off" aria-label="Search categories">
+                </div>
+                <ul class="sf-combo-list" id="sf-combo-list" role="listbox" aria-labelledby="sf-cat-label"></ul>
+              </div>
+            </div>
+            <input type="hidden" id="sf-cat" value="">
             <span class="sf-error-msg">Please pick a category.</span>
           </div>
 
@@ -96,14 +103,105 @@
 
         </form>
 
+        {{ $catData := slice }}{{ range sort $cats "name" "asc" }}{{ $catData = $catData | append (dict "slug" .slug "name" .name) }}{{ end }}
         <script>
         (function () {
           var REPO = '{{ .Site.Params.githubRepo }}';
+          var CATS = JSON.parse(atob('{{ $catData | jsonify | base64Encode }}'));
 
+          /* ── Combobox ── */
+          var fCat      = document.getElementById('sf-cat');
+          var trigger   = document.getElementById('sf-combo-trigger');
+          var valueEl   = document.getElementById('sf-combo-value');
+          var dropdown  = document.getElementById('sf-combo-dropdown');
+          var searchEl  = document.getElementById('sf-combo-search');
+          var listEl    = document.getElementById('sf-combo-list');
+          var focusedIdx = -1;
+
+          function renderList(query) {
+            var q = (query || '').toLowerCase();
+            var filtered = q ? CATS.filter(function(c){ return c.name.toLowerCase().indexOf(q) !== -1; }) : CATS;
+            listEl.innerHTML = '';
+            focusedIdx = -1;
+            if (!filtered.length) {
+              listEl.innerHTML = '<li class="sf-combo-empty">No categories match.</li>';
+              return;
+            }
+            filtered.forEach(function(c, i) {
+              var li = document.createElement('li');
+              li.className = 'sf-combo-opt' + (c.slug === fCat.value ? ' is-selected' : '');
+              li.textContent = c.name;
+              li.setAttribute('role', 'option');
+              li.dataset.slug = c.slug;
+              li.addEventListener('mousedown', function(e){ e.preventDefault(); selectCat(c.slug, c.name); });
+              listEl.appendChild(li);
+            });
+          }
+
+          function selectCat(slug, name) {
+            fCat.value = slug;
+            valueEl.textContent = name;
+            valueEl.classList.remove('is-placeholder');
+            closeDropdown();
+            trigger.classList.remove('is-error');
+            document.getElementById('sf-field-cat').classList.remove('has-error');
+          }
+
+          function openDropdown() {
+            dropdown.hidden = false;
+            trigger.setAttribute('aria-expanded', 'true');
+            searchEl.value = '';
+            renderList('');
+            searchEl.focus();
+          }
+
+          function closeDropdown() {
+            dropdown.hidden = true;
+            trigger.setAttribute('aria-expanded', 'false');
+            trigger.focus();
+          }
+
+          trigger.addEventListener('click', function() {
+            dropdown.hidden ? openDropdown() : closeDropdown();
+          });
+
+          trigger.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowDown') { e.preventDefault(); openDropdown(); }
+          });
+
+          searchEl.addEventListener('input', function() { renderList(searchEl.value); });
+
+          searchEl.addEventListener('keydown', function(e) {
+            var opts = listEl.querySelectorAll('.sf-combo-opt[data-slug]');
+            if (e.key === 'ArrowDown') {
+              e.preventDefault();
+              focusedIdx = Math.min(focusedIdx + 1, opts.length - 1);
+            } else if (e.key === 'ArrowUp') {
+              e.preventDefault();
+              focusedIdx = Math.max(focusedIdx - 1, 0);
+            } else if (e.key === 'Enter') {
+              e.preventDefault();
+              if (focusedIdx >= 0 && opts[focusedIdx]) {
+                selectCat(opts[focusedIdx].dataset.slug, opts[focusedIdx].textContent);
+              }
+              return;
+            } else if (e.key === 'Escape') {
+              closeDropdown(); return;
+            }
+            opts.forEach(function(o, i) { o.classList.toggle('is-focused', i === focusedIdx); });
+            if (opts[focusedIdx]) opts[focusedIdx].scrollIntoView({ block: 'nearest' });
+          });
+
+          document.addEventListener('mousedown', function(e) {
+            if (!dropdown.hidden && !document.getElementById('sf-cat-combo').contains(e.target)) closeDropdown();
+          });
+
+          renderList('');
+
+          /* ── Form ── */
           var form      = document.getElementById('sf-form');
           var fName     = document.getElementById('sf-name');
           var fUrl      = document.getElementById('sf-url');
-          var fCat      = document.getElementById('sf-cat');
           var fDesc     = document.getElementById('sf-desc');
           var fWhy      = document.getElementById('sf-why');
           var descCount = document.getElementById('sf-desc-count');
@@ -120,6 +218,8 @@
             el.classList.toggle('has-error', hasError);
             var inp = el.querySelector('.sf-input, .sf-select, .sf-textarea');
             if (inp) inp.classList.toggle('is-error', hasError);
+            var trig = el.querySelector('.sf-combo-trigger');
+            if (trig) trig.classList.toggle('is-error', hasError);
             var grp = el.querySelector('.sf-price-group');
             if (grp) grp.classList.toggle('is-error', hasError);
           }
@@ -146,6 +246,7 @@
 
             if (!name || !urlOk || !cat || !price || !descOk || !why) return;
 
+            var catName = (CATS.find(function(c){ return c.slug === cat; }) || {}).name || cat;
             var title = 'Submit Tool: ' + name;
             var body = [
               '## Tool Details',
@@ -154,7 +255,7 @@
               '',
               '**Website URL:** ' + url,
               '',
-              '**Category:** ' + cat,
+              '**Category:** ' + catName + ' (' + cat + ')',
               '',
               '**Pricing:** ' + price,
               '',
@@ -285,7 +386,7 @@
     <div class="submit-section-label">// available categories</div>
     <p class="submit-cats__note">Pick the closest match for the category field. Each chip links to that category's page so you can see what's already listed there.</p>
     <div class="submit-cats__cloud">
-      {{ range $cats }}
+      {{ range sort $cats "name" "asc" }}
       <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="submit-cat-chip">{{ .name }}</a>
       {{ end }}
     </div>

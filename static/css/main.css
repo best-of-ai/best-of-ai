@@ -2692,6 +2692,68 @@ body.search-open { overflow: hidden; }
 .sf-error-msg { font-size: 0.78rem; color: var(--red); display: none; }
 .sf-field.has-error .sf-error-msg { display: block; }
 
+/* Searchable combobox */
+.sf-combobox { position: relative; }
+.sf-combo-trigger {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.65rem 0.9rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  width: 100%;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sf-combo-trigger:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+.sf-combo-trigger.is-error { border-color: var(--red); box-shadow: 0 0 0 3px rgba(248,81,73,0.08); }
+.sf-combo-value { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sf-combo-value.is-placeholder { color: var(--fg-muted); }
+.sf-combo-chevron { flex-shrink: 0; color: var(--fg-muted); transition: transform 0.15s; }
+.sf-combo-trigger[aria-expanded="true"] .sf-combo-chevron { transform: rotate(180deg); }
+.sf-combo-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  z-index: 200;
+  overflow: hidden;
+}
+.sf-combo-search-wrap { padding: 0.5rem; border-bottom: 1px solid var(--border); }
+.sf-combo-search {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) - 2px);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  padding: 0.45rem 0.7rem;
+  outline: none;
+}
+.sf-combo-search:focus { border-color: var(--accent); }
+.sf-combo-list { list-style: none; max-height: 220px; overflow-y: auto; padding: 0.3rem 0; margin: 0; scrollbar-width: thin; }
+.sf-combo-opt {
+  padding: 0.48rem 0.9rem;
+  font-size: 0.875rem;
+  color: var(--fg);
+  cursor: pointer;
+  user-select: none;
+}
+.sf-combo-opt:hover, .sf-combo-opt.is-focused { background: var(--surface2); }
+.sf-combo-opt.is-selected { color: var(--accent); font-weight: 500; }
+.sf-combo-empty { padding: 0.7rem 0.9rem; font-size: 0.85rem; color: var(--fg-muted); text-align: center; }
+
 /* Submit button */
 .sf-submit-btn {
   display: flex;
