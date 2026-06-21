@@ -722,8 +722,9 @@ Submit a Tool</a></div></div><script>(function(){document.getElementById("theme-
 <input class=sf-input id=sf-name type=text placeholder="e.g. Midjourney" autocomplete=off>
 <span class=sf-error-msg>Name is required.</span></div><div class=sf-field id=sf-field-url><label class=sf-label for=sf-url>Website URL <span class=sf-required>*</span></label>
 <input class=sf-input id=sf-url type=url placeholder=https://example.com>
-<span class=sf-error-msg>A valid https:// URL is required.</span></div><div class=sf-field id=sf-field-cat><label class=sf-label for=sf-cat>Category <span class=sf-required>*</span></label>
-<select class=sf-select id=sf-cat><option value>— pick a category —</option><option value=3d>3D</option><option value=ai-agents>AI Agents</option><option value=ai-companion>AI Companion</option><option value=ad-generator>Ad Generator</option><option value=animation>Animation</option><option value=app-builders>App Builders</option><option value=background-remover>Background Remover</option><option value=business-tools>Business Tools</option><option value=crm>CRM</option><option value=calendar-scheduling>Calendar Scheduling</option><option value=climate>Climate</option><option value=code-assistant>Code Assistant</option><option value=copywriting>Copywriting</option><option value=devtools>DevTools</option><option value=document-ai>Document AI</option><option value=e-commerce>E-Commerce</option><option value=email-assistants>Email Assistants</option><option value=farming>Farming</option><option value=fashion>Fashion</option><option value=finance>Finance</option><option value=government>Government</option><option value=hr>HR</option><option value=home-design>Home Design</option><option value=image-editing>Image Editing</option><option value=image-generation>Image Generation</option><option value=infographics>Infographics</option><option value=job-tools>Job Tools</option><option value=knowledge-management>Knowledge Management</option><option value=language-learning>Language Learning</option><option value=lead-generation>Lead Generation</option><option value=learning-tools>Learning Tools</option><option value=logo-generator>Logo Generator</option><option value=market-research>Market Research</option><option value=meme-generator>Meme Generator</option><option value=music-generation>Music Generation</option><option value=no-code>No-Code</option><option value=note-taking-apps>Note-Taking Apps</option><option value=podcast>Podcast</option><option value=presentation>Presentation</option><option value=project-management>Project Management</option><option value=real-estate>Real Estate</option><option value=resume-tools>Resume Tools</option><option value=sales-tools>Sales Tools</option><option value=social-media-tools>Social Media Tools</option><option value=supply-chain>Supply Chain</option><option value=talking-avatar-generator>Talking Avatar Generator</option><option value=text-to-speech>Text to Speech</option><option value=transcription>Transcription</option><option value=translator>Translator</option><option value=video-editor>Video Editor</option><option value=video-enhancer>Video Enhancer</option><option value=video-generator>Video Generator</option><option value=video-subtitling>Video Subtitling</option><option value=voice-cloning>Voice Cloning</option><option value=website-builders>Website Builders</option><option value=workflow-automation>Workflow Automation</option><option value=productivity>Productivity</option><option value=chatbots>Chatbots</option><option value=academia>Academia</option><option value=audio>Audio</option><option value=automation>Automation</option><option value=customer-support>Customer Support</option><option value=data>Data</option><option value=food>Food</option><option value=gaming>Gaming</option><option value=graphic-design>Graphic Design</option><option value=healthcare>Healthcare</option><option value=legal-assistants>Legal Assistants</option><option value=local-search-engines>Local Search Engines</option><option value=marketing>Marketing</option><option value=meeting-assistants>Meeting Assistants</option><option value=personal-assistants>Personal Assistants</option><option value=research-tools>Research Tools</option><option value=seo>SEO</option><option value=search-engines>Search Engines</option><option value=spreadsheets>Spreadsheets</option><option value=video>Video</option><option value=weather>Weather</option><option value=writing-assistants>Writing Assistants</option><option value=models>Models</option><option value=ai-directories>AI Directories</option><option value=cybersecurity>Cybersecurity</option><option value=mental-health>Mental Health</option><option value=fitness>Fitness</option><option value=diagramming>Diagramming</option><option value=data-labeling>Data Labeling</option><option value=prompt-tools>Prompt Tools</option><option value=travel>Travel</option><option value=contract-management>Contract Management</option><option value=compliance>Compliance</option><option value=computer-vision>Computer Vision</option><option value=synthetic-data>Synthetic Data</option><option value=ar-vr>AR/VR</option><option value=accessibility>Accessibility</option><option value=construction>Construction</option><option value=manufacturing>Manufacturing</option><option value=energy>Energy</option><option value=drug-discovery>Drug Discovery</option><option value=tax-accounting>Tax & Accounting</option><option value=insurance>Insurance</option><option value=events>Events</option><option value=sports-analytics>Sports Analytics</option><option value=content-moderation>Content Moderation</option><option value=chatbot-builders>Chatbot Builders</option><option value=localization>Localization</option><option value=mind-mapping>Mind Mapping</option><option value=medical-imaging>Medical Imaging</option><option value=patent-tools>Patent Tools</option><option value=recruiting>Recruiting</option><option value=telemedicine>Telemedicine</option><option value=fleet-management>Fleet Management</option><option value=privacy>Privacy</option><option value=robotics>Robotics</option><option value=web3>Web3</option><option value=biotech>Biotech</option><option value=geospatial>Geospatial</option><option value=architecture>Architecture</option><option value=nutrition>Nutrition</option><option value=parenting>Parenting</option><option value=pets>Pets</option><option value=fintech>FinTech</option><option value=cleantech>CleanTech</option><option value=reading>Reading</option><option value=storytelling>Storytelling</option><option value=dubbing>Dubbing</option><option value=identity>Identity</option><option value=wellness>Wellness</option><option value=dating>Dating</option><option value=nonprofit>Nonprofit</option><option value=debugging>Debugging</option><option value=api-tools>API Tools</option><option value=database-tools>Database Tools</option><option value=cloud-management>Cloud Management</option><option value=iot>IoT</option><option value=3d-printing>3D Printing</option><option value=space-tech>Space Tech</option><option value=sentiment-analysis>Sentiment Analysis</option><option value=documentation>Documentation</option><option value=observability>Observability</option><option value=software-testing>Software Testing</option><option value=character-design>Character Design</option><option value=others>Others</option></select>
+<span class=sf-error-msg>A valid https:// URL is required.</span></div><div class=sf-field id=sf-field-cat><label class=sf-label id=sf-cat-label>Category <span class=sf-required>*</span></label><div class=sf-combobox id=sf-cat-combo><button type=button class=sf-combo-trigger id=sf-combo-trigger aria-haspopup=listbox aria-expanded=false aria-labelledby=sf-cat-label>
+<span class="sf-combo-value is-placeholder" id=sf-combo-value>— pick a category —</span>
+<svg class="sf-combo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button><div class=sf-combo-dropdown id=sf-combo-dropdown hidden><div class=sf-combo-search-wrap><input class=sf-combo-search id=sf-combo-search type=text placeholder="Search categories…" autocomplete=off aria-label="Search categories"></div><ul class=sf-combo-list id=sf-combo-list role=listbox aria-labelledby=sf-cat-label></ul></div></div><input type=hidden id=sf-cat>
 <span class=sf-error-msg>Please pick a category.</span></div><div class=sf-field id=sf-field-price><label class=sf-label>Pricing <span class=sf-required>*</span></label><div class=sf-price-group id=sf-price-group><label class=sf-price-pill><input type=radio name=sf-price value=Free><span>Free</span></label>
 <label class=sf-price-pill><input type=radio name=sf-price value=Freemium><span>Freemium</span></label>
 <label class=sf-price-pill><input type=radio name=sf-price value=Paid><span>Paid</span></label></div><span class=sf-error-msg>Please select a pricing model.</span></div><div class=sf-field id=sf-field-desc><label class=sf-label for=sf-desc>Short description <span class=sf-required>*</span></label>
@@ -733,153 +734,153 @@ Submit a Tool</a></div></div><script>(function(){document.getElementById("theme-
 <textarea class=sf-textarea id=sf-why rows=3 placeholder="Widely used, innovative, or uniquely valuable in its category..."></textarea>
 <span class=sf-error-msg>Please explain why this tool should be included.</span></div><button type=submit class=sf-submit-btn>
 <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37.0.0 5.37.0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93.0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18.0.0 1.01-.32 3.3 1.23a11.5 11.5.0 013-.4c1.02.0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22.0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
-Open GitHub issue</button></form><script>(function(){var o="https://github.com/best-of-ai/best-of-ai",n=document.getElementById("sf-form"),i=document.getElementById("sf-name"),a=document.getElementById("sf-url"),r=document.getElementById("sf-cat"),t=document.getElementById("sf-desc"),c=document.getElementById("sf-why"),s=document.getElementById("sf-desc-count");t.addEventListener("input",function(){var e=t.value.length;s.textContent=e,s.parentElement.classList.toggle("is-warn",e>250)});function e(e,t){var s,o,n=document.getElementById("sf-field-"+e);if(!n)return;n.classList.toggle("has-error",t),s=n.querySelector(".sf-input, .sf-select, .sf-textarea"),s&&s.classList.toggle("is-error",t),o=n.querySelector(".sf-price-group"),o&&o.classList.toggle("is-error",t)}n.addEventListener("submit",function(s){s.preventDefault();var v,b,j,l=i.value.trim(),d=a.value.trim(),u=r.value,h=(n.querySelector('input[name="sf-price"]:checked')||{}).value||"",m=t.value.trim(),f=c.value.trim(),p=d&&/^https?:\/\//.test(d),g=m.length>=20&&m.length<=300;if(e("name",!l),e("url",!p),e("cat",!u),e("price",!h),e("desc",!g),e("why",!f),!l||!p||!u||!h||!g||!f)return;v="Submit Tool: "+l,b=["## Tool Details","","**Name:** "+l,"","**Website URL:** "+d,"","**Category:** "+u,"","**Pricing:** "+h,"","**Short description:** "+m,"","**Why should it be included?**",f].join(`
-`),j=o+"/issues/new?title="+encodeURIComponent(v)+"&body="+encodeURIComponent(b)+"&labels=submission",window.open(j,"_blank","noopener")})})()</script></div><div class=submit-pr-guide><span class=submit-pr-guide__label>Prefer a pull request?</span>
+Open GitHub issue</button></form><script>(function(){var a,l,h,f,p,v,j="https://github.com/best-of-ai/best-of-ai",d=JSON.parse(atob("W3sibmFtZSI6IjNEIiwic2x1ZyI6IjNkIn0seyJuYW1lIjoiM0QgUHJpbnRpbmciLCJzbHVnIjoiM2QtcHJpbnRpbmcifSx7Im5hbWUiOiJBY2FkZW1pYSIsInNsdWciOiJhY2FkZW1pYSJ9LHsibmFtZSI6IkFjY2Vzc2liaWxpdHkiLCJzbHVnIjoiYWNjZXNzaWJpbGl0eSJ9LHsibmFtZSI6IkFkIEdlbmVyYXRvciIsInNsdWciOiJhZC1nZW5lcmF0b3IifSx7Im5hbWUiOiJBSSBBZ2VudHMiLCJzbHVnIjoiYWktYWdlbnRzIn0seyJuYW1lIjoiQUkgQ29tcGFuaW9uIiwic2x1ZyI6ImFpLWNvbXBhbmlvbiJ9LHsibmFtZSI6IkFJIERpcmVjdG9yaWVzIiwic2x1ZyI6ImFpLWRpcmVjdG9yaWVzIn0seyJuYW1lIjoiQW5pbWF0aW9uIiwic2x1ZyI6ImFuaW1hdGlvbiJ9LHsibmFtZSI6IkFQSSBUb29scyIsInNsdWciOiJhcGktdG9vbHMifSx7Im5hbWUiOiJBcHAgQnVpbGRlcnMiLCJzbHVnIjoiYXBwLWJ1aWxkZXJzIn0seyJuYW1lIjoiQVIvVlIiLCJzbHVnIjoiYXItdnIifSx7Im5hbWUiOiJBcmNoaXRlY3R1cmUiLCJzbHVnIjoiYXJjaGl0ZWN0dXJlIn0seyJuYW1lIjoiQXVkaW8iLCJzbHVnIjoiYXVkaW8ifSx7Im5hbWUiOiJBdXRvbWF0aW9uIiwic2x1ZyI6ImF1dG9tYXRpb24ifSx7Im5hbWUiOiJCYWNrZ3JvdW5kIFJlbW92ZXIiLCJzbHVnIjoiYmFja2dyb3VuZC1yZW1vdmVyIn0seyJuYW1lIjoiQmlvdGVjaCIsInNsdWciOiJiaW90ZWNoIn0seyJuYW1lIjoiQnVzaW5lc3MgVG9vbHMiLCJzbHVnIjoiYnVzaW5lc3MtdG9vbHMifSx7Im5hbWUiOiJDYWxlbmRhciBTY2hlZHVsaW5nIiwic2x1ZyI6ImNhbGVuZGFyLXNjaGVkdWxpbmcifSx7Im5hbWUiOiJDaGFyYWN0ZXIgRGVzaWduIiwic2x1ZyI6ImNoYXJhY3Rlci1kZXNpZ24ifSx7Im5hbWUiOiJDaGF0Ym90IEJ1aWxkZXJzIiwic2x1ZyI6ImNoYXRib3QtYnVpbGRlcnMifSx7Im5hbWUiOiJDaGF0Ym90cyIsInNsdWciOiJjaGF0Ym90cyJ9LHsibmFtZSI6IkNsZWFuVGVjaCIsInNsdWciOiJjbGVhbnRlY2gifSx7Im5hbWUiOiJDbGltYXRlIiwic2x1ZyI6ImNsaW1hdGUifSx7Im5hbWUiOiJDbG91ZCBNYW5hZ2VtZW50Iiwic2x1ZyI6ImNsb3VkLW1hbmFnZW1lbnQifSx7Im5hbWUiOiJDb2RlIEFzc2lzdGFudCIsInNsdWciOiJjb2RlLWFzc2lzdGFudCJ9LHsibmFtZSI6IkNvbXBsaWFuY2UiLCJzbHVnIjoiY29tcGxpYW5jZSJ9LHsibmFtZSI6IkNvbXB1dGVyIFZpc2lvbiIsInNsdWciOiJjb21wdXRlci12aXNpb24ifSx7Im5hbWUiOiJDb25zdHJ1Y3Rpb24iLCJzbHVnIjoiY29uc3RydWN0aW9uIn0seyJuYW1lIjoiQ29udGVudCBNb2RlcmF0aW9uIiwic2x1ZyI6ImNvbnRlbnQtbW9kZXJhdGlvbiJ9LHsibmFtZSI6IkNvbnRyYWN0IE1hbmFnZW1lbnQiLCJzbHVnIjoiY29udHJhY3QtbWFuYWdlbWVudCJ9LHsibmFtZSI6IkNvcHl3cml0aW5nIiwic2x1ZyI6ImNvcHl3cml0aW5nIn0seyJuYW1lIjoiQ1JNIiwic2x1ZyI6ImNybSJ9LHsibmFtZSI6IkN1c3RvbWVyIFN1cHBvcnQiLCJzbHVnIjoiY3VzdG9tZXItc3VwcG9ydCJ9LHsibmFtZSI6IkN5YmVyc2VjdXJpdHkiLCJzbHVnIjoiY3liZXJzZWN1cml0eSJ9LHsibmFtZSI6IkRhdGEiLCJzbHVnIjoiZGF0YSJ9LHsibmFtZSI6IkRhdGEgTGFiZWxpbmciLCJzbHVnIjoiZGF0YS1sYWJlbGluZyJ9LHsibmFtZSI6IkRhdGFiYXNlIFRvb2xzIiwic2x1ZyI6ImRhdGFiYXNlLXRvb2xzIn0seyJuYW1lIjoiRGF0aW5nIiwic2x1ZyI6ImRhdGluZyJ9LHsibmFtZSI6IkRlYnVnZ2luZyIsInNsdWciOiJkZWJ1Z2dpbmcifSx7Im5hbWUiOiJEZXZUb29scyIsInNsdWciOiJkZXZ0b29scyJ9LHsibmFtZSI6IkRpYWdyYW1taW5nIiwic2x1ZyI6ImRpYWdyYW1taW5nIn0seyJuYW1lIjoiRG9jdW1lbnQgQUkiLCJzbHVnIjoiZG9jdW1lbnQtYWkifSx7Im5hbWUiOiJEb2N1bWVudGF0aW9uIiwic2x1ZyI6ImRvY3VtZW50YXRpb24ifSx7Im5hbWUiOiJEcnVnIERpc2NvdmVyeSIsInNsdWciOiJkcnVnLWRpc2NvdmVyeSJ9LHsibmFtZSI6IkR1YmJpbmciLCJzbHVnIjoiZHViYmluZyJ9LHsibmFtZSI6IkUtQ29tbWVyY2UiLCJzbHVnIjoiZS1jb21tZXJjZSJ9LHsibmFtZSI6IkVtYWlsIEFzc2lzdGFudHMiLCJzbHVnIjoiZW1haWwtYXNzaXN0YW50cyJ9LHsibmFtZSI6IkVuZXJneSIsInNsdWciOiJlbmVyZ3kifSx7Im5hbWUiOiJFdmVudHMiLCJzbHVnIjoiZXZlbnRzIn0seyJuYW1lIjoiRmFybWluZyIsInNsdWciOiJmYXJtaW5nIn0seyJuYW1lIjoiRmFzaGlvbiIsInNsdWciOiJmYXNoaW9uIn0seyJuYW1lIjoiRmluYW5jZSIsInNsdWciOiJmaW5hbmNlIn0seyJuYW1lIjoiRmluVGVjaCIsInNsdWciOiJmaW50ZWNoIn0seyJuYW1lIjoiRml0bmVzcyIsInNsdWciOiJmaXRuZXNzIn0seyJuYW1lIjoiRmxlZXQgTWFuYWdlbWVudCIsInNsdWciOiJmbGVldC1tYW5hZ2VtZW50In0seyJuYW1lIjoiRm9vZCIsInNsdWciOiJmb29kIn0seyJuYW1lIjoiR2FtaW5nIiwic2x1ZyI6ImdhbWluZyJ9LHsibmFtZSI6Ikdlb3NwYXRpYWwiLCJzbHVnIjoiZ2Vvc3BhdGlhbCJ9LHsibmFtZSI6IkdvdmVybm1lbnQiLCJzbHVnIjoiZ292ZXJubWVudCJ9LHsibmFtZSI6IkdyYXBoaWMgRGVzaWduIiwic2x1ZyI6ImdyYXBoaWMtZGVzaWduIn0seyJuYW1lIjoiSGVhbHRoY2FyZSIsInNsdWciOiJoZWFsdGhjYXJlIn0seyJuYW1lIjoiSG9tZSBEZXNpZ24iLCJzbHVnIjoiaG9tZS1kZXNpZ24ifSx7Im5hbWUiOiJIUiIsInNsdWciOiJociJ9LHsibmFtZSI6IklkZW50aXR5Iiwic2x1ZyI6ImlkZW50aXR5In0seyJuYW1lIjoiSW1hZ2UgRWRpdGluZyIsInNsdWciOiJpbWFnZS1lZGl0aW5nIn0seyJuYW1lIjoiSW1hZ2UgR2VuZXJhdGlvbiIsInNsdWciOiJpbWFnZS1nZW5lcmF0aW9uIn0seyJuYW1lIjoiSW5mb2dyYXBoaWNzIiwic2x1ZyI6ImluZm9ncmFwaGljcyJ9LHsibmFtZSI6Ikluc3VyYW5jZSIsInNsdWciOiJpbnN1cmFuY2UifSx7Im5hbWUiOiJJb1QiLCJzbHVnIjoiaW90In0seyJuYW1lIjoiSm9iIFRvb2xzIiwic2x1ZyI6ImpvYi10b29scyJ9LHsibmFtZSI6Iktub3dsZWRnZSBNYW5hZ2VtZW50Iiwic2x1ZyI6Imtub3dsZWRnZS1tYW5hZ2VtZW50In0seyJuYW1lIjoiTGFuZ3VhZ2UgTGVhcm5pbmciLCJzbHVnIjoibGFuZ3VhZ2UtbGVhcm5pbmcifSx7Im5hbWUiOiJMZWFkIEdlbmVyYXRpb24iLCJzbHVnIjoibGVhZC1nZW5lcmF0aW9uIn0seyJuYW1lIjoiTGVhcm5pbmcgVG9vbHMiLCJzbHVnIjoibGVhcm5pbmctdG9vbHMifSx7Im5hbWUiOiJMZWdhbCBBc3Npc3RhbnRzIiwic2x1ZyI6ImxlZ2FsLWFzc2lzdGFudHMifSx7Im5hbWUiOiJMb2NhbCBTZWFyY2ggRW5naW5lcyIsInNsdWciOiJsb2NhbC1zZWFyY2gtZW5naW5lcyJ9LHsibmFtZSI6IkxvY2FsaXphdGlvbiIsInNsdWciOiJsb2NhbGl6YXRpb24ifSx7Im5hbWUiOiJMb2dvIEdlbmVyYXRvciIsInNsdWciOiJsb2dvLWdlbmVyYXRvciJ9LHsibmFtZSI6Ik1hbnVmYWN0dXJpbmciLCJzbHVnIjoibWFudWZhY3R1cmluZyJ9LHsibmFtZSI6Ik1hcmtldCBSZXNlYXJjaCIsInNsdWciOiJtYXJrZXQtcmVzZWFyY2gifSx7Im5hbWUiOiJNYXJrZXRpbmciLCJzbHVnIjoibWFya2V0aW5nIn0seyJuYW1lIjoiTWVkaWNhbCBJbWFnaW5nIiwic2x1ZyI6Im1lZGljYWwtaW1hZ2luZyJ9LHsibmFtZSI6Ik1lZXRpbmcgQXNzaXN0YW50cyIsInNsdWciOiJtZWV0aW5nLWFzc2lzdGFudHMifSx7Im5hbWUiOiJNZW1lIEdlbmVyYXRvciIsInNsdWciOiJtZW1lLWdlbmVyYXRvciJ9LHsibmFtZSI6Ik1lbnRhbCBIZWFsdGgiLCJzbHVnIjoibWVudGFsLWhlYWx0aCJ9LHsibmFtZSI6Ik1pbmQgTWFwcGluZyIsInNsdWciOiJtaW5kLW1hcHBpbmcifSx7Im5hbWUiOiJNb2RlbHMiLCJzbHVnIjoibW9kZWxzIn0seyJuYW1lIjoiTXVzaWMgR2VuZXJhdGlvbiIsInNsdWciOiJtdXNpYy1nZW5lcmF0aW9uIn0seyJuYW1lIjoiTm8tQ29kZSIsInNsdWciOiJuby1jb2RlIn0seyJuYW1lIjoiTm9ucHJvZml0Iiwic2x1ZyI6Im5vbnByb2ZpdCJ9LHsibmFtZSI6Ik5vdGUtVGFraW5nIEFwcHMiLCJzbHVnIjoibm90ZS10YWtpbmctYXBwcyJ9LHsibmFtZSI6Ik51dHJpdGlvbiIsInNsdWciOiJudXRyaXRpb24ifSx7Im5hbWUiOiJPYnNlcnZhYmlsaXR5Iiwic2x1ZyI6Im9ic2VydmFiaWxpdHkifSx7Im5hbWUiOiJPdGhlcnMiLCJzbHVnIjoib3RoZXJzIn0seyJuYW1lIjoiUGFyZW50aW5nIiwic2x1ZyI6InBhcmVudGluZyJ9LHsibmFtZSI6IlBhdGVudCBUb29scyIsInNsdWciOiJwYXRlbnQtdG9vbHMifSx7Im5hbWUiOiJQZXJzb25hbCBBc3Npc3RhbnRzIiwic2x1ZyI6InBlcnNvbmFsLWFzc2lzdGFudHMifSx7Im5hbWUiOiJQZXRzIiwic2x1ZyI6InBldHMifSx7Im5hbWUiOiJQb2RjYXN0Iiwic2x1ZyI6InBvZGNhc3QifSx7Im5hbWUiOiJQcmVzZW50YXRpb24iLCJzbHVnIjoicHJlc2VudGF0aW9uIn0seyJuYW1lIjoiUHJpdmFjeSIsInNsdWciOiJwcml2YWN5In0seyJuYW1lIjoiUHJvZHVjdGl2aXR5Iiwic2x1ZyI6InByb2R1Y3Rpdml0eSJ9LHsibmFtZSI6IlByb2plY3QgTWFuYWdlbWVudCIsInNsdWciOiJwcm9qZWN0LW1hbmFnZW1lbnQifSx7Im5hbWUiOiJQcm9tcHQgVG9vbHMiLCJzbHVnIjoicHJvbXB0LXRvb2xzIn0seyJuYW1lIjoiUmVhZGluZyIsInNsdWciOiJyZWFkaW5nIn0seyJuYW1lIjoiUmVhbCBFc3RhdGUiLCJzbHVnIjoicmVhbC1lc3RhdGUifSx7Im5hbWUiOiJSZWNydWl0aW5nIiwic2x1ZyI6InJlY3J1aXRpbmcifSx7Im5hbWUiOiJSZXNlYXJjaCBUb29scyIsInNsdWciOiJyZXNlYXJjaC10b29scyJ9LHsibmFtZSI6IlJlc3VtZSBUb29scyIsInNsdWciOiJyZXN1bWUtdG9vbHMifSx7Im5hbWUiOiJSb2JvdGljcyIsInNsdWciOiJyb2JvdGljcyJ9LHsibmFtZSI6IlNhbGVzIFRvb2xzIiwic2x1ZyI6InNhbGVzLXRvb2xzIn0seyJuYW1lIjoiU2VhcmNoIEVuZ2luZXMiLCJzbHVnIjoic2VhcmNoLWVuZ2luZXMifSx7Im5hbWUiOiJTZW50aW1lbnQgQW5hbHlzaXMiLCJzbHVnIjoic2VudGltZW50LWFuYWx5c2lzIn0seyJuYW1lIjoiU0VPIiwic2x1ZyI6InNlbyJ9LHsibmFtZSI6IlNvY2lhbCBNZWRpYSBUb29scyIsInNsdWciOiJzb2NpYWwtbWVkaWEtdG9vbHMifSx7Im5hbWUiOiJTb2Z0d2FyZSBUZXN0aW5nIiwic2x1ZyI6InNvZnR3YXJlLXRlc3RpbmcifSx7Im5hbWUiOiJTcGFjZSBUZWNoIiwic2x1ZyI6InNwYWNlLXRlY2gifSx7Im5hbWUiOiJTcG9ydHMgQW5hbHl0aWNzIiwic2x1ZyI6InNwb3J0cy1hbmFseXRpY3MifSx7Im5hbWUiOiJTcHJlYWRzaGVldHMiLCJzbHVnIjoic3ByZWFkc2hlZXRzIn0seyJuYW1lIjoiU3Rvcnl0ZWxsaW5nIiwic2x1ZyI6InN0b3J5dGVsbGluZyJ9LHsibmFtZSI6IlN1cHBseSBDaGFpbiIsInNsdWciOiJzdXBwbHktY2hhaW4ifSx7Im5hbWUiOiJTeW50aGV0aWMgRGF0YSIsInNsdWciOiJzeW50aGV0aWMtZGF0YSJ9LHsibmFtZSI6IlRhbGtpbmcgQXZhdGFyIEdlbmVyYXRvciIsInNsdWciOiJ0YWxraW5nLWF2YXRhci1nZW5lcmF0b3IifSx7Im5hbWUiOiJUYXggXHUwMDI2IEFjY291bnRpbmciLCJzbHVnIjoidGF4LWFjY291bnRpbmcifSx7Im5hbWUiOiJUZWxlbWVkaWNpbmUiLCJzbHVnIjoidGVsZW1lZGljaW5lIn0seyJuYW1lIjoiVGV4dCB0byBTcGVlY2giLCJzbHVnIjoidGV4dC10by1zcGVlY2gifSx7Im5hbWUiOiJUcmFuc2NyaXB0aW9uIiwic2x1ZyI6InRyYW5zY3JpcHRpb24ifSx7Im5hbWUiOiJUcmFuc2xhdG9yIiwic2x1ZyI6InRyYW5zbGF0b3IifSx7Im5hbWUiOiJUcmF2ZWwiLCJzbHVnIjoidHJhdmVsIn0seyJuYW1lIjoiVmlkZW8iLCJzbHVnIjoidmlkZW8ifSx7Im5hbWUiOiJWaWRlbyBFZGl0b3IiLCJzbHVnIjoidmlkZW8tZWRpdG9yIn0seyJuYW1lIjoiVmlkZW8gRW5oYW5jZXIiLCJzbHVnIjoidmlkZW8tZW5oYW5jZXIifSx7Im5hbWUiOiJWaWRlbyBHZW5lcmF0b3IiLCJzbHVnIjoidmlkZW8tZ2VuZXJhdG9yIn0seyJuYW1lIjoiVmlkZW8gU3VidGl0bGluZyIsInNsdWciOiJ2aWRlby1zdWJ0aXRsaW5nIn0seyJuYW1lIjoiVm9pY2UgQ2xvbmluZyIsInNsdWciOiJ2b2ljZS1jbG9uaW5nIn0seyJuYW1lIjoiV2VhdGhlciIsInNsdWciOiJ3ZWF0aGVyIn0seyJuYW1lIjoiV2ViMyIsInNsdWciOiJ3ZWIzIn0seyJuYW1lIjoiV2Vic2l0ZSBCdWlsZGVycyIsInNsdWciOiJ3ZWJzaXRlLWJ1aWxkZXJzIn0seyJuYW1lIjoiV2VsbG5lc3MiLCJzbHVnIjoid2VsbG5lc3MifSx7Im5hbWUiOiJXb3JrZmxvdyBBdXRvbWF0aW9uIiwic2x1ZyI6IndvcmtmbG93LWF1dG9tYXRpb24ifSx7Im5hbWUiOiJXcml0aW5nIEFzc2lzdGFudHMiLCJzbHVnIjoid3JpdGluZy1hc3Npc3RhbnRzIn1d")),c=document.getElementById("sf-cat"),t=document.getElementById("sf-combo-trigger"),b=document.getElementById("sf-combo-value"),o=document.getElementById("sf-combo-dropdown"),s=document.getElementById("sf-combo-search"),i=document.getElementById("sf-combo-list"),e=-1;function u(t){var n=(t||"").toLowerCase(),s=n?d.filter(function(e){return e.name.toLowerCase().indexOf(n)!==-1}):d;if(i.innerHTML="",e=-1,!s.length){i.innerHTML='<li class="sf-combo-empty">No categories match.</li>';return}s.forEach(function(e){var n=document.createElement("li");n.className="sf-combo-opt"+(e.slug===c.value?" is-selected":""),n.textContent=e.name,n.setAttribute("role","option"),n.dataset.slug=e.slug,n.addEventListener("mousedown",function(t){t.preventDefault(),m(e.slug,e.name)}),i.appendChild(n)})}function m(e,n){c.value=e,b.textContent=n,b.classList.remove("is-placeholder"),r(),t.classList.remove("is-error"),document.getElementById("sf-field-cat").classList.remove("has-error")}function g(){o.hidden=!1,t.setAttribute("aria-expanded","true"),s.value="",u(""),s.focus()}function r(){o.hidden=!0,t.setAttribute("aria-expanded","false"),t.focus()}t.addEventListener("click",function(){o.hidden?g():r()}),t.addEventListener("keydown",function(e){(e.key==="Enter"||e.key===" "||e.key==="ArrowDown")&&(e.preventDefault(),g())}),s.addEventListener("input",function(){u(s.value)}),s.addEventListener("keydown",function(t){var n=i.querySelectorAll(".sf-combo-opt[data-slug]");if(t.key==="ArrowDown")t.preventDefault(),e=Math.min(e+1,n.length-1);else if(t.key==="ArrowUp")t.preventDefault(),e=Math.max(e-1,0);else if(t.key==="Enter"){t.preventDefault(),e>=0&&n[e]&&m(n[e].dataset.slug,n[e].textContent);return}else if(t.key==="Escape"){r();return}n.forEach(function(t,n){t.classList.toggle("is-focused",n===e)}),n[e]&&n[e].scrollIntoView({block:"nearest"})}),document.addEventListener("mousedown",function(e){!o.hidden&&!document.getElementById("sf-cat-combo").contains(e.target)&&r()}),u(""),l=document.getElementById("sf-form"),f=document.getElementById("sf-name"),p=document.getElementById("sf-url"),a=document.getElementById("sf-desc"),v=document.getElementById("sf-why"),h=document.getElementById("sf-desc-count"),a.addEventListener("input",function(){var e=a.value.length;h.textContent=e,h.parentElement.classList.toggle("is-warn",e>250)});function n(e,t){var s,o,i,n=document.getElementById("sf-field-"+e);if(!n)return;n.classList.toggle("has-error",t),s=n.querySelector(".sf-input, .sf-select, .sf-textarea"),s&&s.classList.toggle("is-error",t),o=n.querySelector(".sf-combo-trigger"),o&&o.classList.toggle("is-error",t),i=n.querySelector(".sf-price-group"),i&&i.classList.toggle("is-error",t)}l.addEventListener("submit",function(e){e.preventDefault();var g,b,y,_,s=f.value.trim(),o=p.value.trim(),t=c.value,i=(l.querySelector('input[name="sf-price"]:checked')||{}).value||"",r=a.value.trim(),u=v.value.trim(),h=o&&/^https?:\/\//.test(o),m=r.length>=20&&r.length<=300;if(n("name",!s),n("url",!h),n("cat",!t),n("price",!i),n("desc",!m),n("why",!u),!s||!h||!t||!i||!m||!u)return;g=(d.find(function(e){return e.slug===t})||{}).name||t,b="Submit Tool: "+s,y=["## Tool Details","","**Name:** "+s,"","**Website URL:** "+o,"","**Category:** "+g+" ("+t+")","","**Pricing:** "+i,"","**Short description:** "+r,"","**Why should it be included?**",u].join(`
+`),_=j+"/issues/new?title="+encodeURIComponent(b)+"&body="+encodeURIComponent(y)+"&labels=submission",window.open(_,"_blank","noopener")})})()</script></div><div class=submit-pr-guide><span class=submit-pr-guide__label>Prefer a pull request?</span>
 Fork the repo, add <code>content/tools/yourslug.md</code> with the fields <code>name</code>, <code>slug</code>, <code>website</code>, <code>category</code>, <code>price</code>, <code>description</code>, and open a PR.
 <a href=https://github.com/best-of-ai/best-of-ai target=_blank rel=noopener>View the repository →</a></div></div><aside class=submit-sidebar><div class=submit-sidebar__block><div class=submit-section-label>// why get listed</div><p class=submit-sidebar__text>Best of AI is indexed by search engines and browsed by people looking for specific types of AI tools. The directory currently covers <strong>1000+ tools</strong> across <strong>100+ categories</strong>, and the full dataset is open at <a href=/index.json>/index.json</a>, so other projects pull from it too.</p><p class=submit-sidebar__text>Listings are free, permanent, and not ranked by payment — only by community-assessed quality.</p></div><div class=submit-sidebar__block><div class=submit-section-label>// what happens next</div><div class=submit-steps><div class=submit-step><div class=submit-step__track><span class=submit-step__dot></span>
 <span class=submit-step__line></span></div><div class=submit-step__body><strong>Issue posted</strong><p>Goes into the GitHub submissions queue. You can track it and answer follow-up questions from maintainers.</p></div></div><div class=submit-step><div class=submit-step__track><span class=submit-step__dot></span>
 <span class=submit-step__line></span></div><div class=submit-step__body><strong>Maintainers review</strong><p>Checked in batches, usually within a few days — verifying the tool is live, category fits, and description is accurate.</p></div></div><div class="submit-step submit-step--last"><div class=submit-step__track><span class=submit-step__dot></span></div><div class=submit-step__body><strong>Added to the directory</strong><p>Accepted tools get a Markdown file and appear after the next deploy. The issue closes with a link to the new listing.</p></div></div></div></div></aside></div><div class=submit-guidelines><div class=submit-section-label>// what gets accepted</div><div class=submit-guidelines__body><p>There's no strict bar to clear, but a few things affect how quickly a submission gets merged. The tool should be publicly accessible — not invite-only or vaporware. The website should load. The description should say what the tool actually does rather than repeating marketing copy.</p><p>Duplicate entries, tools that appear to be AI-generated landing pages with no real product behind them, and submissions without enough information to verify the tool are the most common reasons for rejection. When in doubt, submit anyway — the issue will get a note if something's missing.</p><p>You can submit a tool you built yourself. Disclosing that in the issue is good practice and doesn't hurt the submission.</p></div></div><div class=submit-faq><div class=submit-section-label>// common questions</div><div class=submit-faq__list><details class=submit-faq__item><summary class=submit-faq__q>Is there a fee to get listed?</summary><p class=submit-faq__a>No. Best of AI is a free, open source directory. Listing a tool costs nothing and there are no paid placements or promoted spots.</p></details><details class=submit-faq__item><summary class=submit-faq__q>How long does review take?</summary><p class=submit-faq__a>Most submissions get reviewed within a few days. Maintainers work through the queue in batches. If yours has been open for more than a week without a response, add a comment to bump it.</p></details><details class=submit-faq__item><summary class=submit-faq__q>Can I submit a tool I built myself?</summary><p class=submit-faq__a>Yes. Self-submissions are fine. Mentioning that you're the developer in the issue is appreciated but not required.</p></details><details class=submit-faq__item><summary class=submit-faq__q>What if the tool already has a listing with wrong information?</summary><p class=submit-faq__a>Open an issue to flag the correction, or submit a PR directly to the tool's Markdown file in <code>content/tools/</code>. The filename matches the tool's slug.</p></details><details class=submit-faq__item><summary class=submit-faq__q>What if no category fits my tool?</summary><p class=submit-faq__a>Pick the closest match and mention the gap in the issue. New categories get added when enough tools warrant one. If you're unsure, the maintainers will suggest the right fit.</p></details><details class=submit-faq__item><summary class=submit-faq__q>Can I use the directory data in my own project?</summary><p class=submit-faq__a>Yes. The full index is available at <a href=/index.json>/index.json</a> and the raw Markdown files are in the public GitHub repository. No API key or account needed. The project is open source.</p></details></div></div><div class=submit-cats><div class=submit-section-label>// available categories</div><p class=submit-cats__note>Pick the closest match for the category field. Each chip links to that category's page so you can see what's already listed there.</p><div class=submit-cats__cloud><a href=/categories/3d/ class=submit-cat-chip>3D</a>
+<a href=/categories/3d-printing/ class=submit-cat-chip>3D Printing</a>
+<a href=/categories/academia/ class=submit-cat-chip>Academia</a>
+<a href=/categories/accessibility/ class=submit-cat-chip>Accessibility</a>
+<a href=/categories/ad-generator/ class=submit-cat-chip>Ad Generator</a>
 <a href=/categories/ai-agents/ class=submit-cat-chip>AI Agents</a>
 <a href=/categories/ai-companion/ class=submit-cat-chip>AI Companion</a>
-<a href=/categories/ad-generator/ class=submit-cat-chip>Ad Generator</a>
+<a href=/categories/ai-directories/ class=submit-cat-chip>AI Directories</a>
 <a href=/categories/animation/ class=submit-cat-chip>Animation</a>
+<a href=/categories/api-tools/ class=submit-cat-chip>API Tools</a>
 <a href=/categories/app-builders/ class=submit-cat-chip>App Builders</a>
+<a href=/categories/ar-vr/ class=submit-cat-chip>AR/VR</a>
+<a href=/categories/architecture/ class=submit-cat-chip>Architecture</a>
+<a href=/categories/audio/ class=submit-cat-chip>Audio</a>
+<a href=/categories/automation/ class=submit-cat-chip>Automation</a>
 <a href=/categories/background-remover/ class=submit-cat-chip>Background Remover</a>
+<a href=/categories/biotech/ class=submit-cat-chip>Biotech</a>
 <a href=/categories/business-tools/ class=submit-cat-chip>Business Tools</a>
-<a href=/categories/crm/ class=submit-cat-chip>CRM</a>
 <a href=/categories/calendar-scheduling/ class=submit-cat-chip>Calendar Scheduling</a>
+<a href=/categories/character-design/ class=submit-cat-chip>Character Design</a>
+<a href=/categories/chatbot-builders/ class=submit-cat-chip>Chatbot Builders</a>
+<a href=/categories/chatbots/ class=submit-cat-chip>Chatbots</a>
+<a href=/categories/cleantech/ class=submit-cat-chip>CleanTech</a>
 <a href=/categories/climate/ class=submit-cat-chip>Climate</a>
+<a href=/categories/cloud-management/ class=submit-cat-chip>Cloud Management</a>
 <a href=/categories/code-assistant/ class=submit-cat-chip>Code Assistant</a>
+<a href=/categories/compliance/ class=submit-cat-chip>Compliance</a>
+<a href=/categories/computer-vision/ class=submit-cat-chip>Computer Vision</a>
+<a href=/categories/construction/ class=submit-cat-chip>Construction</a>
+<a href=/categories/content-moderation/ class=submit-cat-chip>Content Moderation</a>
+<a href=/categories/contract-management/ class=submit-cat-chip>Contract Management</a>
 <a href=/categories/copywriting/ class=submit-cat-chip>Copywriting</a>
+<a href=/categories/crm/ class=submit-cat-chip>CRM</a>
+<a href=/categories/customer-support/ class=submit-cat-chip>Customer Support</a>
+<a href=/categories/cybersecurity/ class=submit-cat-chip>Cybersecurity</a>
+<a href=/categories/data/ class=submit-cat-chip>Data</a>
+<a href=/categories/data-labeling/ class=submit-cat-chip>Data Labeling</a>
+<a href=/categories/database-tools/ class=submit-cat-chip>Database Tools</a>
+<a href=/categories/dating/ class=submit-cat-chip>Dating</a>
+<a href=/categories/debugging/ class=submit-cat-chip>Debugging</a>
 <a href=/categories/devtools/ class=submit-cat-chip>DevTools</a>
+<a href=/categories/diagramming/ class=submit-cat-chip>Diagramming</a>
 <a href=/categories/document-ai/ class=submit-cat-chip>Document AI</a>
+<a href=/categories/documentation/ class=submit-cat-chip>Documentation</a>
+<a href=/categories/drug-discovery/ class=submit-cat-chip>Drug Discovery</a>
+<a href=/categories/dubbing/ class=submit-cat-chip>Dubbing</a>
 <a href=/categories/e-commerce/ class=submit-cat-chip>E-Commerce</a>
 <a href=/categories/email-assistants/ class=submit-cat-chip>Email Assistants</a>
+<a href=/categories/energy/ class=submit-cat-chip>Energy</a>
+<a href=/categories/events/ class=submit-cat-chip>Events</a>
 <a href=/categories/farming/ class=submit-cat-chip>Farming</a>
 <a href=/categories/fashion/ class=submit-cat-chip>Fashion</a>
 <a href=/categories/finance/ class=submit-cat-chip>Finance</a>
+<a href=/categories/fintech/ class=submit-cat-chip>FinTech</a>
+<a href=/categories/fitness/ class=submit-cat-chip>Fitness</a>
+<a href=/categories/fleet-management/ class=submit-cat-chip>Fleet Management</a>
+<a href=/categories/food/ class=submit-cat-chip>Food</a>
+<a href=/categories/gaming/ class=submit-cat-chip>Gaming</a>
+<a href=/categories/geospatial/ class=submit-cat-chip>Geospatial</a>
 <a href=/categories/government/ class=submit-cat-chip>Government</a>
-<a href=/categories/hr/ class=submit-cat-chip>HR</a>
+<a href=/categories/graphic-design/ class=submit-cat-chip>Graphic Design</a>
+<a href=/categories/healthcare/ class=submit-cat-chip>Healthcare</a>
 <a href=/categories/home-design/ class=submit-cat-chip>Home Design</a>
+<a href=/categories/hr/ class=submit-cat-chip>HR</a>
+<a href=/categories/identity/ class=submit-cat-chip>Identity</a>
 <a href=/categories/image-editing/ class=submit-cat-chip>Image Editing</a>
 <a href=/categories/image-generation/ class=submit-cat-chip>Image Generation</a>
 <a href=/categories/infographics/ class=submit-cat-chip>Infographics</a>
+<a href=/categories/insurance/ class=submit-cat-chip>Insurance</a>
+<a href=/categories/iot/ class=submit-cat-chip>IoT</a>
 <a href=/categories/job-tools/ class=submit-cat-chip>Job Tools</a>
 <a href=/categories/knowledge-management/ class=submit-cat-chip>Knowledge Management</a>
 <a href=/categories/language-learning/ class=submit-cat-chip>Language Learning</a>
 <a href=/categories/lead-generation/ class=submit-cat-chip>Lead Generation</a>
 <a href=/categories/learning-tools/ class=submit-cat-chip>Learning Tools</a>
+<a href=/categories/legal-assistants/ class=submit-cat-chip>Legal Assistants</a>
+<a href=/categories/local-search-engines/ class=submit-cat-chip>Local Search Engines</a>
+<a href=/categories/localization/ class=submit-cat-chip>Localization</a>
 <a href=/categories/logo-generator/ class=submit-cat-chip>Logo Generator</a>
+<a href=/categories/manufacturing/ class=submit-cat-chip>Manufacturing</a>
 <a href=/categories/market-research/ class=submit-cat-chip>Market Research</a>
+<a href=/categories/marketing/ class=submit-cat-chip>Marketing</a>
+<a href=/categories/medical-imaging/ class=submit-cat-chip>Medical Imaging</a>
+<a href=/categories/meeting-assistants/ class=submit-cat-chip>Meeting Assistants</a>
 <a href=/categories/meme-generator/ class=submit-cat-chip>Meme Generator</a>
+<a href=/categories/mental-health/ class=submit-cat-chip>Mental Health</a>
+<a href=/categories/mind-mapping/ class=submit-cat-chip>Mind Mapping</a>
+<a href=/categories/models/ class=submit-cat-chip>Models</a>
 <a href=/categories/music-generation/ class=submit-cat-chip>Music Generation</a>
 <a href=/categories/no-code/ class=submit-cat-chip>No-Code</a>
+<a href=/categories/nonprofit/ class=submit-cat-chip>Nonprofit</a>
 <a href=/categories/note-taking-apps/ class=submit-cat-chip>Note-Taking Apps</a>
+<a href=/categories/nutrition/ class=submit-cat-chip>Nutrition</a>
+<a href=/categories/observability/ class=submit-cat-chip>Observability</a>
+<a href=/categories/others/ class=submit-cat-chip>Others</a>
+<a href=/categories/parenting/ class=submit-cat-chip>Parenting</a>
+<a href=/categories/patent-tools/ class=submit-cat-chip>Patent Tools</a>
+<a href=/categories/personal-assistants/ class=submit-cat-chip>Personal Assistants</a>
+<a href=/categories/pets/ class=submit-cat-chip>Pets</a>
 <a href=/categories/podcast/ class=submit-cat-chip>Podcast</a>
 <a href=/categories/presentation/ class=submit-cat-chip>Presentation</a>
+<a href=/categories/privacy/ class=submit-cat-chip>Privacy</a>
+<a href=/categories/productivity/ class=submit-cat-chip>Productivity</a>
 <a href=/categories/project-management/ class=submit-cat-chip>Project Management</a>
+<a href=/categories/prompt-tools/ class=submit-cat-chip>Prompt Tools</a>
+<a href=/categories/reading/ class=submit-cat-chip>Reading</a>
 <a href=/categories/real-estate/ class=submit-cat-chip>Real Estate</a>
+<a href=/categories/recruiting/ class=submit-cat-chip>Recruiting</a>
+<a href=/categories/research-tools/ class=submit-cat-chip>Research Tools</a>
 <a href=/categories/resume-tools/ class=submit-cat-chip>Resume Tools</a>
+<a href=/categories/robotics/ class=submit-cat-chip>Robotics</a>
 <a href=/categories/sales-tools/ class=submit-cat-chip>Sales Tools</a>
+<a href=/categories/search-engines/ class=submit-cat-chip>Search Engines</a>
+<a href=/categories/sentiment-analysis/ class=submit-cat-chip>Sentiment Analysis</a>
+<a href=/categories/seo/ class=submit-cat-chip>SEO</a>
 <a href=/categories/social-media-tools/ class=submit-cat-chip>Social Media Tools</a>
+<a href=/categories/software-testing/ class=submit-cat-chip>Software Testing</a>
+<a href=/categories/space-tech/ class=submit-cat-chip>Space Tech</a>
+<a href=/categories/sports-analytics/ class=submit-cat-chip>Sports Analytics</a>
+<a href=/categories/spreadsheets/ class=submit-cat-chip>Spreadsheets</a>
+<a href=/categories/storytelling/ class=submit-cat-chip>Storytelling</a>
 <a href=/categories/supply-chain/ class=submit-cat-chip>Supply Chain</a>
+<a href=/categories/synthetic-data/ class=submit-cat-chip>Synthetic Data</a>
 <a href=/categories/talking-avatar-generator/ class=submit-cat-chip>Talking Avatar Generator</a>
+<a href=/categories/tax-accounting/ class=submit-cat-chip>Tax & Accounting</a>
+<a href=/categories/telemedicine/ class=submit-cat-chip>Telemedicine</a>
 <a href=/categories/text-to-speech/ class=submit-cat-chip>Text to Speech</a>
 <a href=/categories/transcription/ class=submit-cat-chip>Transcription</a>
 <a href=/categories/translator/ class=submit-cat-chip>Translator</a>
+<a href=/categories/travel/ class=submit-cat-chip>Travel</a>
+<a href=/categories/video/ class=submit-cat-chip>Video</a>
 <a href=/categories/video-editor/ class=submit-cat-chip>Video Editor</a>
 <a href=/categories/video-enhancer/ class=submit-cat-chip>Video Enhancer</a>
 <a href=/categories/video-generator/ class=submit-cat-chip>Video Generator</a>
 <a href=/categories/video-subtitling/ class=submit-cat-chip>Video Subtitling</a>
 <a href=/categories/voice-cloning/ class=submit-cat-chip>Voice Cloning</a>
-<a href=/categories/website-builders/ class=submit-cat-chip>Website Builders</a>
-<a href=/categories/workflow-automation/ class=submit-cat-chip>Workflow Automation</a>
-<a href=/categories/productivity/ class=submit-cat-chip>Productivity</a>
-<a href=/categories/chatbots/ class=submit-cat-chip>Chatbots</a>
-<a href=/categories/academia/ class=submit-cat-chip>Academia</a>
-<a href=/categories/audio/ class=submit-cat-chip>Audio</a>
-<a href=/categories/automation/ class=submit-cat-chip>Automation</a>
-<a href=/categories/customer-support/ class=submit-cat-chip>Customer Support</a>
-<a href=/categories/data/ class=submit-cat-chip>Data</a>
-<a href=/categories/food/ class=submit-cat-chip>Food</a>
-<a href=/categories/gaming/ class=submit-cat-chip>Gaming</a>
-<a href=/categories/graphic-design/ class=submit-cat-chip>Graphic Design</a>
-<a href=/categories/healthcare/ class=submit-cat-chip>Healthcare</a>
-<a href=/categories/legal-assistants/ class=submit-cat-chip>Legal Assistants</a>
-<a href=/categories/local-search-engines/ class=submit-cat-chip>Local Search Engines</a>
-<a href=/categories/marketing/ class=submit-cat-chip>Marketing</a>
-<a href=/categories/meeting-assistants/ class=submit-cat-chip>Meeting Assistants</a>
-<a href=/categories/personal-assistants/ class=submit-cat-chip>Personal Assistants</a>
-<a href=/categories/research-tools/ class=submit-cat-chip>Research Tools</a>
-<a href=/categories/seo/ class=submit-cat-chip>SEO</a>
-<a href=/categories/search-engines/ class=submit-cat-chip>Search Engines</a>
-<a href=/categories/spreadsheets/ class=submit-cat-chip>Spreadsheets</a>
-<a href=/categories/video/ class=submit-cat-chip>Video</a>
 <a href=/categories/weather/ class=submit-cat-chip>Weather</a>
-<a href=/categories/writing-assistants/ class=submit-cat-chip>Writing Assistants</a>
-<a href=/categories/models/ class=submit-cat-chip>Models</a>
-<a href=/categories/ai-directories/ class=submit-cat-chip>AI Directories</a>
-<a href=/categories/cybersecurity/ class=submit-cat-chip>Cybersecurity</a>
-<a href=/categories/mental-health/ class=submit-cat-chip>Mental Health</a>
-<a href=/categories/fitness/ class=submit-cat-chip>Fitness</a>
-<a href=/categories/diagramming/ class=submit-cat-chip>Diagramming</a>
-<a href=/categories/data-labeling/ class=submit-cat-chip>Data Labeling</a>
-<a href=/categories/prompt-tools/ class=submit-cat-chip>Prompt Tools</a>
-<a href=/categories/travel/ class=submit-cat-chip>Travel</a>
-<a href=/categories/contract-management/ class=submit-cat-chip>Contract Management</a>
-<a href=/categories/compliance/ class=submit-cat-chip>Compliance</a>
-<a href=/categories/computer-vision/ class=submit-cat-chip>Computer Vision</a>
-<a href=/categories/synthetic-data/ class=submit-cat-chip>Synthetic Data</a>
-<a href=/categories/ar-vr/ class=submit-cat-chip>AR/VR</a>
-<a href=/categories/accessibility/ class=submit-cat-chip>Accessibility</a>
-<a href=/categories/construction/ class=submit-cat-chip>Construction</a>
-<a href=/categories/manufacturing/ class=submit-cat-chip>Manufacturing</a>
-<a href=/categories/energy/ class=submit-cat-chip>Energy</a>
-<a href=/categories/drug-discovery/ class=submit-cat-chip>Drug Discovery</a>
-<a href=/categories/tax-accounting/ class=submit-cat-chip>Tax & Accounting</a>
-<a href=/categories/insurance/ class=submit-cat-chip>Insurance</a>
-<a href=/categories/events/ class=submit-cat-chip>Events</a>
-<a href=/categories/sports-analytics/ class=submit-cat-chip>Sports Analytics</a>
-<a href=/categories/content-moderation/ class=submit-cat-chip>Content Moderation</a>
-<a href=/categories/chatbot-builders/ class=submit-cat-chip>Chatbot Builders</a>
-<a href=/categories/localization/ class=submit-cat-chip>Localization</a>
-<a href=/categories/mind-mapping/ class=submit-cat-chip>Mind Mapping</a>
-<a href=/categories/medical-imaging/ class=submit-cat-chip>Medical Imaging</a>
-<a href=/categories/patent-tools/ class=submit-cat-chip>Patent Tools</a>
-<a href=/categories/recruiting/ class=submit-cat-chip>Recruiting</a>
-<a href=/categories/telemedicine/ class=submit-cat-chip>Telemedicine</a>
-<a href=/categories/fleet-management/ class=submit-cat-chip>Fleet Management</a>
-<a href=/categories/privacy/ class=submit-cat-chip>Privacy</a>
-<a href=/categories/robotics/ class=submit-cat-chip>Robotics</a>
 <a href=/categories/web3/ class=submit-cat-chip>Web3</a>
-<a href=/categories/biotech/ class=submit-cat-chip>Biotech</a>
-<a href=/categories/geospatial/ class=submit-cat-chip>Geospatial</a>
-<a href=/categories/architecture/ class=submit-cat-chip>Architecture</a>
-<a href=/categories/nutrition/ class=submit-cat-chip>Nutrition</a>
-<a href=/categories/parenting/ class=submit-cat-chip>Parenting</a>
-<a href=/categories/pets/ class=submit-cat-chip>Pets</a>
-<a href=/categories/fintech/ class=submit-cat-chip>FinTech</a>
-<a href=/categories/cleantech/ class=submit-cat-chip>CleanTech</a>
-<a href=/categories/reading/ class=submit-cat-chip>Reading</a>
-<a href=/categories/storytelling/ class=submit-cat-chip>Storytelling</a>
-<a href=/categories/dubbing/ class=submit-cat-chip>Dubbing</a>
-<a href=/categories/identity/ class=submit-cat-chip>Identity</a>
+<a href=/categories/website-builders/ class=submit-cat-chip>Website Builders</a>
 <a href=/categories/wellness/ class=submit-cat-chip>Wellness</a>
-<a href=/categories/dating/ class=submit-cat-chip>Dating</a>
-<a href=/categories/nonprofit/ class=submit-cat-chip>Nonprofit</a>
-<a href=/categories/debugging/ class=submit-cat-chip>Debugging</a>
-<a href=/categories/api-tools/ class=submit-cat-chip>API Tools</a>
-<a href=/categories/database-tools/ class=submit-cat-chip>Database Tools</a>
-<a href=/categories/cloud-management/ class=submit-cat-chip>Cloud Management</a>
-<a href=/categories/iot/ class=submit-cat-chip>IoT</a>
-<a href=/categories/3d-printing/ class=submit-cat-chip>3D Printing</a>
-<a href=/categories/space-tech/ class=submit-cat-chip>Space Tech</a>
-<a href=/categories/sentiment-analysis/ class=submit-cat-chip>Sentiment Analysis</a>
-<a href=/categories/documentation/ class=submit-cat-chip>Documentation</a>
-<a href=/categories/observability/ class=submit-cat-chip>Observability</a>
-<a href=/categories/software-testing/ class=submit-cat-chip>Software Testing</a>
-<a href=/categories/character-design/ class=submit-cat-chip>Character Design</a>
-<a href=/categories/others/ class=submit-cat-chip>Others</a></div></div></div></main><footer class=site-footer><div class="footer-inner container"><div class=footer-top><div class=footer-brand-block><a href=/ class=footer-logo><img src=/favicon/favicon.svg width=32 height=32 alt="Best of AI" aria-hidden=true>
+<a href=/categories/workflow-automation/ class=submit-cat-chip>Workflow Automation</a>
+<a href=/categories/writing-assistants/ class=submit-cat-chip>Writing Assistants</a></div></div></div></main><footer class=site-footer><div class="footer-inner container"><div class=footer-top><div class=footer-brand-block><a href=/ class=footer-logo><img src=/favicon/favicon.svg width=32 height=32 alt="Best of AI" aria-hidden=true>
 <span class=footer-logo__name>Best of <span class=footer-logo__accent>AI</span></span></a><p class=footer-tagline>Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.</p><div class=footer-stats><div class=footer-stat><span class=footer-stat__num>1000+</span>
 <span class=footer-stat__label>tools</span></div><span class=footer-stat__dot>·</span><div class=footer-stat><span class=footer-stat__num>142</span>
 <span class=footer-stat__label>categories</span></div><span class=footer-stat__dot>·</span><div class=footer-stat><span class=footer-stat__num>313</span>
