@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{ $allTools := where .Site.RegularPages "Section" "tools" }}
+{{ $recent   := first 60 (sort $allTools "Date" "desc") }}
+
+<div class="home-layout">
+
+  <!-- ── Left: categories ── -->
+  {{ partial "left-sidebar.html" . }}
+
+  <!-- ── Center: recently added ── -->
+  <main class="hl-center">
+
+    <div class="lb-hero">
+      <div class="lb-hero__icon">🆕</div>
+      <div>
+        <h1 class="lb-hero__title">Recently Added Tools</h1>
+        <p class="lb-hero__desc">The latest AI tools added to the directory.</p>
+      </div>
+    </div>
+
+    <div class="price-bar" id="price-bar">
+      <span class="price-bar__label">// filter</span>
+      <button class="pf active" data-price="all">all</button>
+      <button class="pf" data-price="Free">free</button>
+      <button class="pf" data-price="Freemium">freemium</button>
+      <button class="pf" data-price="Paid">paid</button>
+    </div>
+
+    <section class="tool-section">
+      <div class="tools-grid">
+        {{ range $recent }}
+        {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Right: professions ── -->
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+<script>
+(function() {
+  var priceFilters = document.querySelectorAll('.pf');
+  var section      = document.querySelector('.tool-section');
+  var activePrice  = 'all';
+
+  function filter() {
+    if (!section) return;
+    section.querySelectorAll('.tool-card').forEach(function(card) {
+      var show = activePrice === 'all' || card.dataset.price === activePrice;
+      card.style.display = show ? '' : 'none';
+    });
+  }
+
+  priceFilters.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activePrice = btn.dataset.price || 'all';
+      priceFilters.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      filter();
+    });
+  });
+})();
+</script>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

@@ -7,6 +7,9 @@
 
 <aside class="hl-left" id="hl-left">
   {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.left_sidebar "variant" "sidebar") }}
+  <a href="{{ "/new/" | relURL }}" class="cat-link new-tools-link{{ if eq .RelPermalink "/new/" }} active{{ end }}">
+    🆕 Recently Added
+  </a>
   <div class="hl-section-label">// categories</div>
   <input class="sidebar-search" id="cat-search" type="text" placeholder="Filter..." autocomplete="off" spellcheck="false" aria-label="Filter categories">
   <nav class="hl-cat-nav" id="cat-sidebar">
