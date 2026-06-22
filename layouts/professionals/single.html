@@ -35,6 +35,7 @@
       <div class="cat-hero__icon prof-hero__icon">{{ $p.icon }}</div>
       <div>
         <h1 class="cat-hero__title">Best AI Tools for {{ $p.name }}</h1>
+        {{ if $p.subtitle }}<p class="cat-hero__subtitle">{{ $p.subtitle }}</p>{{ end }}
         <p class="cat-hero__desc">{{ $p.description }}</p>
         <div class="cat-hero__meta">
           <span><strong>{{ partial "count.html" $totalCount }}</strong> tools</span>
@@ -74,10 +75,19 @@
     <div id="prof-tools-grid">
       {{ if $featTools }}
       <section class="prof-cat-section prof-picks-section" data-cat="picks">
-        <h2 class="prof-cat-section__title prof-picks-title">
-          // top AI tools for {{ $p.name | lower }}
-          <span class="prof-cat-section__count">{{ partial "count.html" (len $featTools) }}</span>
-        </h2>
+        <div class="prof-picks-header">
+          <div class="prof-picks-header__left">
+            <h2 class="prof-picks-title">
+              <span class="prof-picks-star">★</span>
+              Top AI Tools for {{ $p.name }}
+            </h2>
+            <p class="prof-picks-sub">{{ partial "count.html" (len $featTools) }} tools handpicked by our team</p>
+          </div>
+          <a href="{{ "/contribute/" | relURL }}" class="prof-picks-cta">
+            <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            Help us improve this page
+          </a>
+        </div>
         <div class="tools-grid">
           {{ range $featTools }}
           {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "picks") }}
@@ -92,8 +102,9 @@
         {{ if $catTools }}
         <section class="prof-cat-section" data-cat="{{ $c }}">
           <h2 class="prof-cat-section__title">
-            {{ $c | humanize }}
+            <span>{{ $c | humanize }}</span>
             <span class="prof-cat-section__count">{{ partial "count.html" (len $catTools) }}</span>
+            <a href="{{ "/categories/" | relURL }}{{ $c }}/" class="prof-cat-section__link">view all →</a>
           </h2>
           <div class="tools-grid">
             {{ range $catTools }}
