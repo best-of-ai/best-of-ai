@@ -6,7 +6,7 @@
 {{ $isTool   := and .IsPage (eq .Section "tools") }}
 {{ $name     := or .Params.name .Title }}
 {{ $siteURL  := .Site.BaseURL | strings.TrimRight "/" }}
-{{ $ogImageDefault := printf "%s/favicon/web-app-manifest-512x512.png" $siteURL }}
+{{ $ogImageDefault := printf "%s/img/preview.png" $siteURL }}
 
 {{/* ── Robots ── */}}
 {{ if or $is404 $isSaved }}
@@ -133,13 +133,13 @@
 <meta property="og:image"       content="{{ $ogImage }}">
 <meta property="og:image:alt"   content="{{ $pageTitle }}">
 {{ if $ogUseDefaultImg }}
-<meta property="og:image:width"  content="512">
-<meta property="og:image:height" content="512">
+<meta property="og:image:width"  content="1366">
+<meta property="og:image:height" content="768">
 {{ end }}
 <meta property="og:locale"      content="en_US">
 
 {{/* ── Twitter Card ── */}}
-<meta name="twitter:card"        content="summary">
+<meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="{{ $pageTitle }}">
 <meta name="twitter:description" content="{{ $desc | truncate 155 }}">
 <meta name="twitter:image"       content="{{ $ogImage }}">
