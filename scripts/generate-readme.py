@@ -260,8 +260,7 @@ for cat in active_cats:
 
         lines.append(entry)
 
-    if count > 4:
-        lines.append(f'- *[View all {count} {name} tools on bestofai.io →]({cat_url})*')
+    lines.append(f'- *[View all {count} {name} tools on bestofai.io →]({cat_url})*')
 
     lines += ['', '---', '']
 

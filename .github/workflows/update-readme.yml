@@ -5,7 +5,9 @@ on:
     branches: [main]
     paths:
       - 'content/tools/**'
+      - 'content/professionals/**'
       - 'data/categories.yaml'
+      - 'data/leaderboard.yaml'
       - 'scripts/generate-readme.py'
   workflow_dispatch:
 
