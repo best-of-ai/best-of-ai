@@ -2783,5 +2783,101 @@ body.search-open { overflow: hidden; }
   box-shadow: none;
 }
 
+/* ── GitHub star modal ── */
+.gs-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.gs-modal[hidden] { display: none; }
+.gs-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(3px);
+}
+.gs-modal__box {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.45);
+  padding: 2rem 1.75rem 1.75rem;
+  text-align: center;
+  animation: gs-modal-in 0.22s ease;
+}
+@keyframes gs-modal-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.gs-modal__close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  color: var(--fg-muted);
+  cursor: pointer;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+.gs-modal__close:hover { color: var(--fg); }
+.gs-modal__icon {
+  color: var(--fg-muted);
+  margin-bottom: 1rem;
+}
+.gs-modal__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0 0 0.65rem;
+}
+.gs-modal__body {
+  font-size: 0.88rem;
+  color: var(--fg-muted);
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+.gs-modal__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.gs-modal__star-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.65rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.gs-modal__star-btn:hover { background: #ea6200; transform: translateY(-1px); }
+.gs-modal__star-btn:active { transform: translateY(0); }
+.gs-modal__dismiss {
+  background: none;
+  border: none;
+  color: var(--fg-faint);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+.gs-modal__dismiss:hover { color: var(--fg-muted); }
+
 /* ── Misc ── */
 [hidden] { display: none !important; }
