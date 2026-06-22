@@ -3147,3 +3147,73 @@ body.search-open { overflow: hidden; }
 .contribute-oss a { color: var(--accent); text-decoration: none; }
 .contribute-oss a:hover { text-decoration: underline; }
 .contribute-oss code { font-family: var(--font-mono); font-size: 0.82em; background: var(--surface2); padding: 0.1em 0.35em; border-radius: 4px; }
+
+/* ── Mobile spacing (≤720px) ── */
+@media (max-width: 720px) {
+  /* Main content column — tighter side padding */
+  .hl-center {
+    padding: 0.875rem 0.75rem 2rem;
+  }
+
+  /* Breadcrumb — less top breathing room */
+  .breadcrumb {
+    padding: 0.5rem 0 0.35rem;
+  }
+
+  /* Homepage hero */
+  .hl-hero {
+    padding: 1rem 0 0.875rem;
+  }
+
+  /* Category / profession hero */
+  .cat-hero {
+    padding: 0.875rem 0 1rem;
+    margin-bottom: 1.25rem;
+    gap: 0.875rem;
+  }
+
+  /* Tool detail hero */
+  .detail-hero {
+    padding: 0.875rem 0 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .detail-layout {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Other categories / professions strip */
+  .other-cats-section {
+    padding-top: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Related tools section */
+  .related-section {
+    padding-top: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Tool sections on homepage */
+  .tool-section {
+    margin-bottom: 1.25rem;
+  }
+
+  /* Profession list page grid */
+  .prof-list-grid {
+    margin-bottom: 2rem;
+  }
+
+  /* No-results placeholder */
+  .no-results {
+    padding: 1.5rem 0.5rem;
+  }
+
+  /* Footer */
+  .footer-inner {
+    padding: 2rem 1rem 1.5rem;
+  }
+  .footer-top {
+    gap: 1.5rem;
+  }
+}

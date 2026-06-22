@@ -64,12 +64,15 @@
 
 {{/* ── CollectionPage + ItemList (category, profession, tag term pages) ── */}}
 {{ if and .IsPage (eq .Section "professionals") }}
-  {{ $profCats  := .Params.categories }}
-  {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
-  {{ $profTools := slice }}
+  {{ $profCats     := .Params.categories }}
+  {{ $allTools     := where .Site.RegularPages "Section" "tools" }}
+  {{ $profTools    := slice }}
+  {{ $profTotalCt  := 0 }}
   {{ range $profCats }}
-    {{ $c := . }}
-    {{ range where $allTools "Params.category" $c | first 5 }}
+    {{ $c     := . }}
+    {{ $cList := where $allTools "Params.category" $c }}
+    {{ $profTotalCt = add $profTotalCt (len $cList) }}
+    {{ range $cList | first 5 }}
       {{ $profTools = $profTools | append . }}
     {{ end }}
   {{ end }}
@@ -84,7 +87,8 @@
     "name" (printf "Best AI Tools for %s" $.Params.name)
     "description" (or $.Params.description (printf "The best AI tools for %s, handpicked and curated." $.Params.name))
     "url" $.Permalink
-    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI Tools for %s" $.Params.name) "itemListElement" $listItems)
+    "numberOfItems" $profTotalCt
+    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI Tools for %s" $.Params.name) "numberOfItems" $profTotalCt "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
   {{ end }}

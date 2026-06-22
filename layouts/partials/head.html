@@ -26,7 +26,12 @@
   {{ $count := len (where .Site.RegularPages "Params.category" .Params.slug) }}
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
 {{ else if and .IsPage (eq .Section "professionals") }}
-  {{ $pageTitle = printf "Best AI Tools for %s — Best of AI" .Params.name }}
+  {{ $profTitleCount := 0 }}
+  {{ $profTitleTools := where .Site.RegularPages "Section" "tools" }}
+  {{ range .Params.categories }}
+    {{ $profTitleCount = add $profTitleCount (len (where $profTitleTools "Params.category" .)) }}
+  {{ end }}
+  {{ $pageTitle = printf "Best AI Tools for %s (%d) — Best of AI" .Params.name $profTitleCount }}
 {{ else if eq .Kind "section" }}
   {{ if eq .Section "professionals" }}
     {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
@@ -63,11 +68,16 @@
     {{ $desc = printf "Discover %d handpicked AI %s tools, selected for quality and real-world impact." $count .Params.name }}
   {{ end }}
 {{ else if and .IsPage (eq .Section "professionals") }}
-  {{ $profDesc := .Params.description | default "" }}
-  {{ if $profDesc }}
-    {{ $desc = $profDesc }}
+  {{ $profDescCount := 0 }}
+  {{ $profDescTools := where .Site.RegularPages "Section" "tools" }}
+  {{ range .Params.categories }}
+    {{ $profDescCount = add $profDescCount (len (where $profDescTools "Params.category" .)) }}
+  {{ end }}
+  {{ $profSub := .Params.subtitle | default "" }}
+  {{ if $profSub }}
+    {{ $desc = printf "%d AI tools for %s — %s" $profDescCount .Params.name $profSub }}
   {{ else }}
-    {{ $desc = printf "Discover the best AI tools for %s — handpicked and curated on Best of AI." .Params.name }}
+    {{ $desc = printf "Discover %d handpicked AI tools for %s — curated for quality and real-world impact on Best of AI." $profDescCount .Params.name }}
   {{ end }}
 {{ else if eq .Kind "section" }}
   {{ if eq .Section "professionals" }}
@@ -99,7 +109,11 @@
 {{ else if and .IsPage (eq .Section "categories") }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
 {{ else if and .IsPage (eq .Section "professionals") }}
-<meta name="keywords" content="AI for {{ .Params.name }}, best AI tools for {{ .Params.name }}, artificial intelligence {{ lower .Params.name }}">
+  {{ $profKws := slice (printf "AI for %s" .Params.name) (printf "best AI tools for %s" .Params.name) (printf "free AI tools for %s" .Params.name) (printf "AI %s tools" (lower .Params.name)) }}
+  {{ range .Params.categories }}
+    {{ $profKws = $profKws | append (printf "%s AI tools" (. | humanize | lower)) }}
+  {{ end }}
+<meta name="keywords" content="{{ delimit $profKws ", " }}">
 {{ else if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{ end }}
