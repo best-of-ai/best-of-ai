@@ -12,4 +12,16 @@ categories:
   - no-code
   - app-builders
   - productivity
+featured_tools:
+  - figma
+  - midjourney
+  - canva
+  - uizard
+  - galileo-ai
+  - ideogram
+  - adobe-express
+  - asana
+  - adobe-sensei
+  - bubble
+
 ---

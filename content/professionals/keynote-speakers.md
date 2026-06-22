@@ -11,4 +11,16 @@ categories:
   - writing-assistants
   - productivity
   - storytelling
+featured_tools:
+  - chatgpt
+  - gamma
+  - beautiful-ai
+  - notion-ai
+  - grammarly
+  - canva
+  - midjourney
+  - asana
+  - clickup
+  - copy-ai
+
 ---

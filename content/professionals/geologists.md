@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - document-ai
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - semantic-scholar
+  - notebooklm
+  - amplitude-ai
+  - elicit
+  - adobe-acrobat-ai
+  - copy-ai
+  - grammarly
+
 ---

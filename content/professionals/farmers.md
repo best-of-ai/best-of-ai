@@ -11,4 +11,16 @@ categories:
   - climate
   - data
   - automation
+featured_tools:
+  - chatgpt
+  - climate-fieldview
+  - farmlogs
+  - granular
+  - john-deere-ops
+  - tableau
+  - zapier
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

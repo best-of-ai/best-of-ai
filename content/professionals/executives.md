@@ -12,4 +12,16 @@ categories:
   - research-tools
   - presentation
   - meeting-assistants
+featured_tools:
+  - chatgpt
+  - otter-ai
+  - gamma
+  - hubspot-business
+  - perplexity
+  - microsoft-copilot
+  - slack-ai
+  - asana
+  - zoom-ai
+  - clickup
+
 ---

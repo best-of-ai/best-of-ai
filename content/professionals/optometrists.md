@@ -12,4 +12,16 @@ categories:
   - transcription
   - computer-vision
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - adobe-acrobat-ai
+  - notebooklm
+  - grammarly
+  - nuance-dax
+  - assemblyai
+  - semantic-scholar
+  - aws-rekognition
+  - clarifai
+  - copy-ai
+
 ---

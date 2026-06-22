@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - productivity
   - market-research
+featured_tools:
+  - chatgpt
+  - intercom
+  - buffer
+  - notion-ai
+  - sprout-social
+  - canva
+  - brandwatch
+  - asana
+  - clickup
+  - copy-ai
+
 ---

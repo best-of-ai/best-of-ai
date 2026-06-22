@@ -12,4 +12,16 @@ categories:
   - productivity
   - knowledge-management
   - note-taking-apps
+featured_tools:
+  - chatgpt
+  - grammarly
+  - notion-ai
+  - hemingway-editor
+  - prowritingaid
+  - wordtune
+  - jasper
+  - asana
+  - clickup
+  - copy-ai
+
 ---

@@ -11,4 +11,16 @@ categories:
   - research-tools
   - data
   - academia
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - semantic-scholar
+  - notebooklm
+  - scispace
+  - elicit
+  - amplitude-ai
+  - consensus
+  - perplexity-research
+
 ---

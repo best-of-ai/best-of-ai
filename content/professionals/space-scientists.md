@@ -12,4 +12,16 @@ categories:
   - data
   - writing-assistants
   - academia
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - maxar
+  - spire-global
+  - semantic-scholar
+  - tableau
+  - notebooklm
+  - amplitude-ai
+  - consensus
+  - copy-ai
+
 ---

@@ -11,4 +11,16 @@ categories:
   - seo
   - copywriting
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - semrush
+  - jasper
+  - buffer
+  - canva
+  - surfer-seo
+  - grammarly
+  - ahrefs
+  - clearscope
+  - hubspot
+
 ---

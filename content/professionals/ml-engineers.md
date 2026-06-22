@@ -12,4 +12,16 @@ categories:
   - code-assistant
   - models
   - automation
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - cursor
+  - weights-biases
+  - databricks
+  - vertex-ai
+  - hugging-face
+  - claude-3
+  - deepseek
+  - gemini-pro
+
 ---

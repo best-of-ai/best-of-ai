@@ -12,4 +12,16 @@ categories:
   - data
   - presentation
   - document-ai
+featured_tools:
+  - chatgpt
+  - tableau
+  - power-bi
+  - adobe-acrobat-ai
+  - morningstar-ai
+  - notion-ai
+  - gamma
+  - amplitude-ai
+  - scale-ai
+  - alphasense
+
 ---

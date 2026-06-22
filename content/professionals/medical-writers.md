@@ -12,4 +12,16 @@ categories:
   - document-ai
   - healthcare
   - compliance
+featured_tools:
+  - chatgpt
+  - grammarly
+  - semantic-scholar
+  - elicit
+  - scite-ai
+  - notebooklm
+  - prowritingaid
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

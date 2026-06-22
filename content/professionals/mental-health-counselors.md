@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - productivity
   - healthcare
+featured_tools:
+  - chatgpt
+  - asana
+  - adobe-acrobat-ai
+  - quillbot
+  - otter-ai
+  - notebooklm
+  - writesonic
+  - clickup
+  - copy-ai
+  - grammarly
+
 ---

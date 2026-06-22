@@ -11,4 +11,16 @@ categories:
   - automation
   - data
   - business-tools
+featured_tools:
+  - chatgpt
+  - blue-yonder
+  - coupa
+  - kinaxis
+  - tableau
+  - hubspot-business
+  - zapier
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

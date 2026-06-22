@@ -12,4 +12,16 @@ categories:
   - research-tools
   - compliance
   - document-ai
+featured_tools:
+  - chatgpt
+  - tableau
+  - arcgis
+  - semantic-scholar
+  - drata
+  - notebooklm
+  - amplitude-ai
+  - adobe-acrobat-ai
+  - perplexity-research
+  - power-bi
+
 ---

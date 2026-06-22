@@ -13,4 +13,16 @@ categories:
   - crm
   - marketing
   - copywriting
+featured_tools:
+  - chatgpt
+  - zillow
+  - salesforce
+  - hubspot-crm
+  - canva
+  - mailchimp
+  - grammarly
+  - hubspot
+  - pipedrive
+  - zoho-crm
+
 ---

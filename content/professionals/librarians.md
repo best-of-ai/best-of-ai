@@ -11,4 +11,16 @@ categories:
   - document-ai
   - productivity
   - academia
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - notebooklm
+  - asana
+  - grammarly
+  - research-rabbit
+  - adobe-acrobat-ai
+  - clickup
+  - consensus
+
 ---

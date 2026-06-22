@@ -12,4 +12,16 @@ categories:
   - image-editing
   - social-media-tools
   - research-tools
+featured_tools:
+  - midjourney
+  - canva
+  - ideogram
+  - adobe-firefly
+  - outfit-fm
+  - fashwell
+  - flux
+  - buffer
+  - perplexity-research
+  - scispace
+
 ---

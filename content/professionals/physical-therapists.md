@@ -11,4 +11,16 @@ categories:
   - productivity
   - data
   - document-ai
+featured_tools:
+  - chatgpt
+  - asana
+  - otter-ai
+  - notebooklm
+  - grammarly
+  - todoist
+  - fitbod
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - clickup
+
 ---

@@ -11,4 +11,16 @@ categories:
   - healthcare
   - image-generation
   - document-ai
+featured_tools:
+  - midjourney
+  - ideogram
+  - chatgpt
+  - wysa
+  - notebooklm
+  - betterhelp
+  - canva
+  - adobe-acrobat-ai
+  - flux
+  - artbreeder
+
 ---

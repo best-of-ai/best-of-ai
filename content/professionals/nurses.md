@@ -11,4 +11,16 @@ categories:
   - productivity
   - document-ai
   - automation
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - asana
+  - suki-ai
+  - otter-ai
+  - zapier
+  - notebooklm
+  - adobe-acrobat-ai
+  - clickup
+  - make
+
 ---

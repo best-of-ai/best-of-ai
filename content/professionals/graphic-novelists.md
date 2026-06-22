@@ -11,4 +11,16 @@ categories:
   - storytelling
   - writing-assistants
   - character-design
+featured_tools:
+  - midjourney
+  - ideogram
+  - chatgpt
+  - adobe-firefly
+  - stable-diffusion
+  - notion-ai
+  - grammarly
+  - copy-ai
+  - flux
+  - jasper
+
 ---

@@ -11,4 +11,16 @@ categories:
   - hr
   - job-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - greenhouse
+  - linkedin
+  - textio
+  - asana
+  - lever
+  - grammarly
+  - clickup
+  - todoist
+  - akiflow
+
 ---

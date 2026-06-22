@@ -11,4 +11,16 @@ categories:
   - market-research
   - copywriting
   - graphic-design
+featured_tools:
+  - chatgpt
+  - semrush
+  - similarweb
+  - jasper
+  - canva
+  - brandwatch
+  - copy-ai
+  - figma
+  - adobe-express
+  - adobe-sensei
+
 ---

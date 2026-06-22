@@ -12,4 +12,16 @@ categories:
   - document-ai
   - computer-vision
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - aidoc-ai
+  - viz-ai
+  - paige-ai
+  - nuance-dax
+  - notebooklm
+  - semantic-scholar
+  - adobe-acrobat-ai
+  - aws-rekognition
+  - clarifai
+
 ---

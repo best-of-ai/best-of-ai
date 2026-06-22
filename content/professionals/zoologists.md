@@ -11,4 +11,16 @@ categories:
   - computer-vision
   - geospatial
   - data
+featured_tools:
+  - chatgpt
+  - arcgis
+  - clarifai
+  - semantic-scholar
+  - notebooklm
+  - tableau
+  - elicit
+  - amplitude-ai
+  - aws-rekognition
+  - perplexity-research
+
 ---

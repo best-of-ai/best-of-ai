@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - geospatial
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - semantic-scholar
+  - elicit
+  - notebooklm
+  - scite-ai
+  - amplitude-ai
+  - copy-ai
+  - grammarly
+
 ---

@@ -11,4 +11,16 @@ categories:
   - productivity
   - learning-tools
   - automation
+featured_tools:
+  - chatgpt
+  - asana
+  - wanderlog
+  - grammarly
+  - gamma
+  - deepl
+  - microsoft-copilot
+  - zapier
+  - clickup
+  - make
+
 ---

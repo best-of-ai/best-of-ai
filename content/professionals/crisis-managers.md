@@ -12,4 +12,16 @@ categories:
   - marketing
   - automation
   - sentiment-analysis
+featured_tools:
+  - chatgpt
+  - sprout-social
+  - brandwatch
+  - monkeylearn
+  - grammarly
+  - zapier
+  - slack-ai
+  - buffer
+  - copy-ai
+  - hubspot
+
 ---

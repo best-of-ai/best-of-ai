@@ -11,4 +11,16 @@ categories:
   - resume-tools
   - productivity
   - learning-tools
+featured_tools:
+  - chatgpt
+  - linkedin
+  - resume-io
+  - kickresume
+  - notion
+  - grammarly
+  - betterup
+  - asana
+  - clickup
+  - todoist
+
 ---

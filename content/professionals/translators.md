@@ -11,4 +11,16 @@ categories:
   - writing-assistants
   - productivity
   - document-ai
+featured_tools:
+  - chatgpt
+  - deepl
+  - google-translate
+  - asana
+  - grammarly
+  - quillbot
+  - writesonic
+  - adobe-acrobat-ai
+  - clickup
+  - copy-ai
+
 ---

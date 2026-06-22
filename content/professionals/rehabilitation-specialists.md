@@ -11,4 +11,16 @@ categories:
   - fitness
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - asana
+  - otter-ai
+  - fitbod
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - clickup
+  - todoist
+  - akiflow
+
 ---

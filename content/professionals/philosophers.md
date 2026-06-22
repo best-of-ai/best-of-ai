@@ -11,4 +11,16 @@ categories:
   - research-tools
   - writing-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - perplexity
+  - semantic-scholar
+  - notebooklm
+  - grammarly
+  - elicit
+  - asana
+  - clickup
+  - consensus
+  - copy-ai
+
 ---

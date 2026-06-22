@@ -11,4 +11,16 @@ categories:
   - data
   - finance
   - project-management
+featured_tools:
+  - chatgpt
+  - linear
+  - tableau
+  - amplitude-ai
+  - gamma
+  - arcgis
+  - scale-ai
+  - power-bi
+  - alphasense
+  - height
+
 ---

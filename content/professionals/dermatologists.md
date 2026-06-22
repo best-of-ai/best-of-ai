@@ -11,4 +11,16 @@ categories:
   - medical-imaging
   - computer-vision
   - document-ai
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - clarifai
+  - aidoc-ai
+  - notebooklm
+  - semantic-scholar
+  - viz-ai
+  - adobe-acrobat-ai
+  - aws-rekognition
+  - arterys
+
 ---

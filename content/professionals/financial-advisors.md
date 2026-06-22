@@ -12,4 +12,16 @@ categories:
   - data
   - market-research
   - document-ai
+featured_tools:
+  - chatgpt
+  - alphasense
+  - morningstar-ai
+  - pitchbook-ai
+  - tableau
+  - scispace
+  - julius-ai
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - perplexity-research
+
 ---

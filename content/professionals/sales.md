@@ -13,4 +13,16 @@ categories:
   - lead-generation
   - email-assistants
   - meeting-assistants
+featured_tools:
+  - chatgpt
+  - salesforce
+  - hubspot-crm
+  - gong
+  - outreach
+  - apollo
+  - zoom-ai
+  - fireflies-ai
+  - otter-ai
+  - pipedrive
+
 ---

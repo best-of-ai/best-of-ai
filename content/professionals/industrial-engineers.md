@@ -12,4 +12,16 @@ categories:
   - automation
   - diagramming
   - productivity
+featured_tools:
+  - chatgpt
+  - tableau
+  - drawio
+  - linear
+  - asana
+  - tulip
+  - zapier
+  - amplitude-ai
+  - clickup
+  - make
+
 ---

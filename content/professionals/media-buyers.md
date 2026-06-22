@@ -12,4 +12,16 @@ categories:
   - data
   - social-media-tools
   - marketing
+featured_tools:
+  - chatgpt
+  - semrush
+  - adcreative-ai
+  - tableau
+  - similarweb
+  - amplitude-ai
+  - scale-ai
+  - buffer
+  - hubspot
+  - power-bi
+
 ---

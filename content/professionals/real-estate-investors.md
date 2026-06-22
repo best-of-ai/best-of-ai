@@ -11,4 +11,16 @@ categories:
   - finance
   - data
   - market-research
+featured_tools:
+  - chatgpt
+  - zillow
+  - alphasense
+  - tableau
+  - amplitude-ai
+  - scale-ai
+  - perplexity
+  - power-bi
+  - attention-insight
+  - brandwatch
+
 ---

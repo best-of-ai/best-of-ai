@@ -13,4 +13,16 @@ categories:
   - website-builders
   - presentation
   - research-tools
+featured_tools:
+  - chatgpt
+  - hubspot-business
+  - gamma
+  - canva
+  - zapier
+  - hubspot-crm
+  - perplexity
+  - hubspot
+  - make
+  - n8n
+
 ---

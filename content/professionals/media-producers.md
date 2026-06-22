@@ -12,4 +12,16 @@ categories:
   - podcast
   - video-subtitling
   - video-generator
+featured_tools:
+  - chatgpt
+  - descript
+  - capcut
+  - elevenlabs
+  - runway
+  - otter-ai
+  - adobe-premiere-pro-ai
+  - luma-dream-machine
+  - sora
+  - adobe-podcast
+
 ---

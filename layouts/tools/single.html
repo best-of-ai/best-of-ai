@@ -4,6 +4,15 @@
 {{ $related  := where $allTools "Params.category" $p.category | first 6 }}
 {{ $related   = where $related ".RelPermalink" "ne" .RelPermalink }}
 
+{{ $toolSlug := or $p.slug .File.BaseFileName }}
+{{ $topPickProfessions := slice }}
+{{ range where .Site.RegularPages "Section" "professionals" }}
+  {{ if in .Params.featured_tools $toolSlug }}
+    {{ $topPickProfessions = $topPickProfessions | append . }}
+  {{ end }}
+{{ end }}
+{{ $topPickProfessions = first 3 $topPickProfessions }}
+
 <div class="home-layout">
 
   {{ partial "left-sidebar.html" . }}
@@ -76,6 +85,17 @@
       </div>
 
       <aside class="detail-sidebar">
+        {{ if $topPickProfessions }}
+        <div class="top-pick-section">
+          <div class="top-pick-section__title">// top pick for</div>
+          {{ range $topPickProfessions }}
+          <a href="{{ .RelPermalink }}" class="top-pick-badge">
+            <span class="top-pick-badge__star">★</span>
+            {{ .Params.name }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
         <div class="detail-tool-actions">
           <a href="{{ printf "/edit/?tool=%s&url=%s" ($p.name | urlquery) ($p.website | urlquery) | relURL }}" class="detail-action-btn">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>

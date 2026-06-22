@@ -11,4 +11,16 @@ categories:
   - ad-generator
   - seo
   - email-assistants
+featured_tools:
+  - chatgpt
+  - semrush
+  - jasper
+  - canva
+  - buffer
+  - adcreative-ai
+  - mailchimp
+  - ahrefs
+  - clearscope
+  - hubspot
+
 ---

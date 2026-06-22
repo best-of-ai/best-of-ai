@@ -12,4 +12,16 @@ categories:
   - data
   - automation
   - document-ai
+featured_tools:
+  - chatgpt
+  - coupa
+  - sap-ariba
+  - amplitude-ai
+  - tableau
+  - zapier
+  - linear
+  - adobe-acrobat-ai
+  - make
+  - n8n
+
 ---

@@ -11,4 +11,16 @@ categories:
   - data
   - automation
   - compliance
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - tableau
+  - semantic-scholar
+  - drata
+  - notebooklm
+  - zapier
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

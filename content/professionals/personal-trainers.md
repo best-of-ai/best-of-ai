@@ -11,4 +11,16 @@ categories:
   - productivity
   - automation
   - business-tools
+featured_tools:
+  - chatgpt
+  - fitbod
+  - whoop
+  - asana
+  - canva
+  - grammarly
+  - myfitnesspal
+  - hubspot-business
+  - zapier
+  - clickup
+
 ---

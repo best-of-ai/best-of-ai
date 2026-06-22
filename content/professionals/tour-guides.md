@@ -12,4 +12,16 @@ categories:
   - text-to-speech
   - social-media-tools
   - travel
+featured_tools:
+  - chatgpt
+  - deepl
+  - elevenlabs
+  - canva
+  - quillbot
+  - grammarly
+  - wanderlog
+  - amazon-polly
+  - buffer
+  - copy-ai
+
 ---

@@ -11,4 +11,16 @@ categories:
   - document-ai
   - data
   - automation
+featured_tools:
+  - chatgpt
+  - drata
+  - adobe-acrobat-ai
+  - tableau
+  - zapier
+  - notebooklm
+  - grammarly
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

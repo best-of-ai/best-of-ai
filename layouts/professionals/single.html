@@ -1,7 +1,14 @@
 {{ define "main" }}
-{{ $p     := .Params }}
-{{ $cats  := $p.categories }}
-{{ $tools := where .Site.RegularPages "Section" "tools" }}
+{{ $p            := .Params }}
+{{ $cats         := $p.categories }}
+{{ $tools        := where .Site.RegularPages "Section" "tools" }}
+{{ $featSlugs    := $p.featured_tools }}
+{{ $featTools    := slice }}
+{{ range $featSlugs }}
+  {{ $slug := . }}
+  {{ $t := index (where $tools "Params.slug" $slug) 0 }}
+  {{ if $t }}{{ $featTools = $featTools | append $t }}{{ end }}
+{{ end }}
 
 {{ $totalCount := 0 }}
 {{ range $cats }}
@@ -42,6 +49,10 @@
     <!-- Filter bar -->
     <div class="prof-cat-tabs" id="prof-cat-tabs">
       <button class="pf active" data-cat="all">all <span class="prof-cat-count">{{ partial "count.html" $totalCount }}</span></button>
+      {{ if $featTools }}
+      <button class="pf prof-picks-tab" data-cat="picks">★ top picks <span class="prof-cat-count">{{ partial "count.html" (len $featTools) }}</span></button>
+      <span class="prof-cat-tabs__sep">·</span>
+      {{ end }}
       {{ range $cats }}
         {{ $c        := . }}
         {{ $catTools := where $tools "Params.category" $c }}
@@ -61,6 +72,19 @@
     <!-- Tools grid grouped by category -->
     {{ if gt $totalCount 0 }}
     <div id="prof-tools-grid">
+      {{ if $featTools }}
+      <section class="prof-cat-section prof-picks-section" data-cat="picks">
+        <h2 class="prof-cat-section__title prof-picks-title">
+          // top AI tools for {{ $p.name | lower }}
+          <span class="prof-cat-section__count">{{ partial "count.html" (len $featTools) }}</span>
+        </h2>
+        <div class="tools-grid">
+          {{ range $featTools }}
+          {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "picks") }}
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
       {{ range $cats }}
         {{ $c        := . }}
         {{ $catTools := where $tools "Params.category" $c }}

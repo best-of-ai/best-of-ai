@@ -11,4 +11,16 @@ categories:
   - writing-assistants
   - automation
   - business-tools
+featured_tools:
+  - chatgpt
+  - wanderlog
+  - asana
+  - canva
+  - grammarly
+  - deepl
+  - zapier
+  - hubspot-business
+  - clickup
+  - copy-ai
+
 ---

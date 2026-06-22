@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - academia
   - document-ai
+featured_tools:
+  - chatgpt
+  - otter-ai
+  - elicit
+  - notebooklm
+  - grammarly
+  - semantic-scholar
+  - scispace
+  - adobe-acrobat-ai
+  - assemblyai
+  - consensus
+
 ---

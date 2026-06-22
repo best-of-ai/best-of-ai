@@ -12,4 +12,16 @@ categories:
   - devtools
   - workflow-automation
   - code-assistant
+featured_tools:
+  - chatgpt
+  - databricks
+  - dbt-cloud
+  - airbyte-ai
+  - snowflake
+  - github-copilot
+  - cursor
+  - zapier
+  - aider
+  - amazon-bedrock
+
 ---

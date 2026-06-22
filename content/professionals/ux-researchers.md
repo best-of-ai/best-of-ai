@@ -13,4 +13,16 @@ categories:
   - productivity
   - note-taking-apps
   - transcription
+featured_tools:
+  - chatgpt
+  - dovetail-ai
+  - hotjar-ai
+  - maze-ai
+  - otter-ai
+  - asana
+  - tableau
+  - amplitude-ai
+  - assemblyai
+  - clickup
+
 ---

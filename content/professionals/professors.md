@@ -11,4 +11,16 @@ categories:
   - research-tools
   - learning-tools
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - notebooklm
+  - grammarly
+  - gamma
+  - turnitin-ai
+  - consensus
+  - copy-ai
+  - jasper
+
 ---

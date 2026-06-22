@@ -12,4 +12,16 @@ categories:
   - data
   - productivity
   - note-taking-apps
+featured_tools:
+  - chatgpt
+  - asana
+  - linear
+  - scispace
+  - semantic-scholar
+  - perplexity
+  - gamma
+  - amplitude-ai
+  - clickup
+  - obsidian
+
 ---

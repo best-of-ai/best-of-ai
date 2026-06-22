@@ -12,4 +12,16 @@ categories:
   - data
   - business-tools
   - research-tools
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - wiz
+  - snyk-ai
+  - crowdstrike
+  - darktrace
+  - cursor
+  - hubspot-business
+  - zapier
+  - amazon-bedrock
+
 ---

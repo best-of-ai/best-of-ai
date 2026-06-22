@@ -12,4 +12,16 @@ categories:
   - image-generation
   - presentation
   - graphic-design
+featured_tools:
+  - midjourney
+  - figma
+  - ideogram
+  - sketchup
+  - canva
+  - flux
+  - spline
+  - adobe-express
+  - adobe-sensei
+  - adobe-firefly
+
 ---

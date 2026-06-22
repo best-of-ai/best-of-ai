@@ -11,4 +11,16 @@ categories:
   - research-tools
   - spreadsheets
   - productivity
+featured_tools:
+  - chatgpt
+  - julius-ai
+  - tableau
+  - power-bi
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - asana
+  - amplitude-ai
+  - clickup
+  - perplexity-research
+
 ---

@@ -11,4 +11,16 @@ categories:
   - 3d
   - document-ai
   - automation
+featured_tools:
+  - chatgpt
+  - arcgis
+  - luma-ai
+  - mapbox
+  - tableau
+  - zapier
+  - notebooklm
+  - adobe-acrobat-ai
+  - make
+  - n8n
+
 ---

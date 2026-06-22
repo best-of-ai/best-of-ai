@@ -11,4 +11,16 @@ categories:
   - document-ai
   - writing-assistants
   - automation
+featured_tools:
+  - chatgpt
+  - asana
+  - todoist
+  - grammarly
+  - otter-ai
+  - notebooklm
+  - zapier
+  - adobe-acrobat-ai
+  - clickup
+  - copy-ai
+
 ---

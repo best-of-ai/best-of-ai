@@ -12,4 +12,16 @@ categories:
   - graphic-design
   - presentation
   - background-remover
+featured_tools:
+  - midjourney
+  - ideogram
+  - adobe-firefly
+  - canva
+  - figma
+  - adobe-express
+  - topaz-photo-ai
+  - adobe-sensei
+  - flux
+  - adobe-lightroom-ai
+
 ---

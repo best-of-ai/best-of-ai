@@ -12,4 +12,16 @@ categories:
   - data
   - writing-assistants
   - computer-vision
+featured_tools:
+  - chatgpt
+  - luma-ai
+  - tableau
+  - clarifai
+  - notebooklm
+  - semantic-scholar
+  - scispace
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - aws-rekognition
+
 ---

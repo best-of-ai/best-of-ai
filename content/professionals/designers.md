@@ -18,4 +18,16 @@ categories:
   - home-design
   - infographics
   - fashion
+featured_tools:
+  - midjourney
+  - canva
+  - figma
+  - ideogram
+  - adobe-firefly
+  - adobe-express
+  - spline
+  - adobe-sensei
+  - canva-infographics
+  - flux
+
 ---

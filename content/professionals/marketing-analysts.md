@@ -12,4 +12,16 @@ categories:
   - market-research
   - seo
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - semrush
+  - tableau
+  - power-bi
+  - similarweb
+  - brandwatch
+  - julius-ai
+  - ahrefs
+  - amplitude-ai
+  - buffer
+
 ---

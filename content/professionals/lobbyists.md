@@ -11,4 +11,16 @@ categories:
   - research-tools
   - writing-assistants
   - compliance
+featured_tools:
+  - chatgpt
+  - perplexity
+  - grammarly
+  - notebooklm
+  - semantic-scholar
+  - scispace
+  - gamma
+  - copy-ai
+  - jasper
+  - perplexity-research
+
 ---

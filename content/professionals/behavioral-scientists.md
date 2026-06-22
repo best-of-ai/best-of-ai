@@ -11,4 +11,16 @@ categories:
   - data
   - academia
   - sentiment-analysis
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - tableau
+  - brandwatch
+  - scite-ai
+  - scispace
+  - amplitude-ai
+  - consensus
+  - perplexity-research
+
 ---

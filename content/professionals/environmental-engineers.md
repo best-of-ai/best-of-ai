@@ -12,4 +12,16 @@ categories:
   - compliance
   - document-ai
   - climate
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - semantic-scholar
+  - notebooklm
+  - amplitude-ai
+  - grammarly
+  - adobe-acrobat-ai
+  - perplexity-research
+  - power-bi
+
 ---

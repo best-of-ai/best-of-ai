@@ -11,4 +11,16 @@ categories:
   - medical-imaging
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - aidoc-ai
+  - viz-ai
+  - semantic-scholar
+  - notebooklm
+  - scispace
+  - adobe-acrobat-ai
+  - perplexity-research
+  - arterys
+
 ---

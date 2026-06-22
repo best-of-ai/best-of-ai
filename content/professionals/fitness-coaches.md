@@ -11,4 +11,16 @@ categories:
   - wellness
   - nutrition
   - productivity
+featured_tools:
+  - chatgpt
+  - fitbod
+  - whoop
+  - asana
+  - canva
+  - myfitnesspal
+  - grammarly
+  - clickup
+  - todoist
+  - akiflow
+
 ---

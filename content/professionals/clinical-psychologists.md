@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - healthcare
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - wysa
+  - otter-ai
+  - grammarly
+  - semantic-scholar
+  - notebooklm
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

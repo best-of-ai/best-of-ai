@@ -12,4 +12,16 @@ categories:
   - image-editing
   - research-tools
   - productivity
+featured_tools:
+  - midjourney
+  - ideogram
+  - canva
+  - adobe-firefly
+  - chatgpt
+  - notebooklm
+  - stable-diffusion
+  - asana
+  - clickup
+  - flux
+
 ---

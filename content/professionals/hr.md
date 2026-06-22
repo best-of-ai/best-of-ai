@@ -12,4 +12,16 @@ categories:
   - job-tools
   - resume-tools
   - meeting-assistants
+featured_tools:
+  - chatgpt
+  - workday
+  - greenhouse
+  - bamboohr
+  - textio
+  - zoom-ai
+  - lattice-ai
+  - fireflies-ai
+  - otter-ai
+  - avoma
+
 ---

@@ -12,4 +12,16 @@ categories:
   - image-editing
   - logo-generator
   - background-remover
+featured_tools:
+  - midjourney
+  - canva
+  - adobe-firefly
+  - figma
+  - ideogram
+  - adobe-express
+  - looka
+  - adobe-sensei
+  - flux
+  - adobe-lightroom-ai
+
 ---

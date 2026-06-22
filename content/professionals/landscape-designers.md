@@ -11,4 +11,16 @@ categories:
   - 3d
   - image-generation
   - graphic-design
+featured_tools:
+  - midjourney
+  - figma
+  - sketchup
+  - ideogram
+  - canva
+  - flux
+  - adobe-express
+  - adobe-sensei
+  - adobe-firefly
+  - alpha3d
+
 ---

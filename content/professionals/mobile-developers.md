@@ -12,4 +12,16 @@ categories:
   - devtools
   - no-code
   - automation
+featured_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - flutterflow
+  - bolt-new
+  - replit
+  - codeium
+  - zapier
+  - aider
+  - amazon-bedrock
+
 ---

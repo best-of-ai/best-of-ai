@@ -11,4 +11,16 @@ categories:
   - contract-management
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - adobe-acrobat-ai
+  - spellbook
+  - notebooklm
+  - grammarly
+  - perplexity-research
+  - scispace
+  - semantic-scholar
+
 ---

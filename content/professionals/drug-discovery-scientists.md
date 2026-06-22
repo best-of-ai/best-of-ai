@@ -12,4 +12,16 @@ categories:
   - data
   - biotech
   - document-ai
+featured_tools:
+  - chatgpt
+  - alphafold-ai
+  - atomwise
+  - recursion
+  - schrodinger
+  - benchling
+  - insilico-medicine
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - perplexity-research
+
 ---

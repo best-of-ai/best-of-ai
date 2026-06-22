@@ -11,4 +11,16 @@ categories:
   - data
   - computer-vision
   - space-tech
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - tableau
+  - maxar
+  - spire-global
+  - scispace
+  - amplitude-ai
+  - aws-rekognition
+  - clarifai
+
 ---

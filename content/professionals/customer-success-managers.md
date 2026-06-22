@@ -12,4 +12,16 @@ categories:
   - meeting-assistants
   - email-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - fireflies-ai
+  - intercom
+  - otter-ai
+  - hubspot-crm
+  - notion-ai
+  - superhuman
+  - asana
+  - salesforce
+  - zoom-ai
+
 ---

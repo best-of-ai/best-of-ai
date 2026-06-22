@@ -11,4 +11,16 @@ categories:
   - real-estate
   - document-ai
   - automation
+featured_tools:
+  - chatgpt
+  - adobe-acrobat-ai
+  - hubspot-crm
+  - grammarly
+  - notebooklm
+  - canva
+  - zapier
+  - make
+  - n8n
+  - alphasense
+
 ---

@@ -12,4 +12,16 @@ categories:
   - productivity
   - data
   - presentation
+featured_tools:
+  - chatgpt
+  - linear
+  - asana
+  - make
+  - gamma
+  - zapier
+  - slack-ai
+  - amplitude-ai
+  - clickup
+  - n8n
+
 ---

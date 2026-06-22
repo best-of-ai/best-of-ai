@@ -12,4 +12,16 @@ categories:
   - marketing
   - automation
   - data
+featured_tools:
+  - chatgpt
+  - quillbot
+  - canva
+  - grammarly
+  - mailchimp
+  - gamma
+  - zapier
+  - amplitude-ai
+  - copy-ai
+  - hubspot
+
 ---

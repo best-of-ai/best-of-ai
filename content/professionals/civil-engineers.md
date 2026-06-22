@@ -12,4 +12,16 @@ categories:
   - project-management
   - documentation
   - data
+featured_tools:
+  - chatgpt
+  - procore
+  - drawio
+  - autodesk-construction
+  - linear
+  - tableau
+  - gitbook
+  - amplitude-ai
+  - power-bi
+  - scale-ai
+
 ---

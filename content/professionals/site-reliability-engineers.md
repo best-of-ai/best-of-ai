@@ -12,4 +12,16 @@ categories:
   - workflow-automation
   - data
   - code-assistant
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - cursor
+  - zapier
+  - drawio
+  - snyk-ai
+  - mintlify
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

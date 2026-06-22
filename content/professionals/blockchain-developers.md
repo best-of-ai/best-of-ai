@@ -12,4 +12,16 @@ categories:
   - devtools
   - debugging
   - documentation
+featured_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - alchemy-web3
+  - dune-analytics
+  - cline
+  - sentry
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

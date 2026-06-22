@@ -12,4 +12,16 @@ categories:
   - automation
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - julius-ai
+  - tableau
+  - power-bi
+  - databricks
+  - zapier
+  - asana
+  - amplitude-ai
+  - clickup
+  - make
+
 ---

@@ -12,4 +12,16 @@ categories:
   - diagramming
   - documentation
   - project-management
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - drawio
+  - tableau
+  - notebooklm
+  - mintlify
+  - linear
+  - amplitude-ai
+  - perplexity-research
+  - power-bi
+
 ---

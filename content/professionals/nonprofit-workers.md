@@ -12,4 +12,16 @@ categories:
   - social-media-tools
   - productivity
   - data
+featured_tools:
+  - chatgpt
+  - grammarly
+  - canva
+  - mailchimp
+  - asana
+  - jasper
+  - gamma
+  - amplitude-ai
+  - buffer
+  - clickup
+
 ---

@@ -11,4 +11,16 @@ categories:
   - data
   - sports-analytics
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - grammarly
+  - stats-perform
+  - otter-ai
+  - notebooklm
+  - perplexity
+  - quillbot
+  - amplitude-ai
+  - buffer
+  - copy-ai
+
 ---

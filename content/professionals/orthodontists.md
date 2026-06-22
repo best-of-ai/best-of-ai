@@ -11,4 +11,16 @@ categories:
   - medical-imaging
   - 3d
   - document-ai
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - adobe-acrobat-ai
+  - notebooklm
+  - aidoc-ai
+  - viz-ai
+  - canva
+  - alpha3d
+  - arterys
+  - chatpdf
+
 ---

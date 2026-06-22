@@ -12,4 +12,16 @@ categories:
   - data
   - document-ai
   - nutrition
+featured_tools:
+  - chatgpt
+  - semantic-scholar
+  - elicit
+  - notebooklm
+  - tableau
+  - benchling
+  - scite-ai
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - perplexity-research
+
 ---

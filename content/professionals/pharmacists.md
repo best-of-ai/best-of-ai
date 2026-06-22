@@ -11,4 +11,16 @@ categories:
   - research-tools
   - productivity
   - data
+featured_tools:
+  - chatgpt
+  - semantic-scholar
+  - notebooklm
+  - asana
+  - scispace
+  - elicit
+  - grammarly
+  - amplitude-ai
+  - clickup
+  - perplexity-research
+
 ---

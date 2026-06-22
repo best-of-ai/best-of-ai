@@ -12,4 +12,16 @@ categories:
   - research-tools
   - spreadsheets
   - knowledge-management
+featured_tools:
+  - chatgpt
+  - julius-ai
+  - tableau
+  - databricks
+  - weights-biases
+  - github-copilot
+  - cursor
+  - notion-ai
+  - amplitude-ai
+  - perplexity-research
+
 ---

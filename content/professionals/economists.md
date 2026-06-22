@@ -12,4 +12,16 @@ categories:
   - finance
   - academia
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - tableau
+  - semantic-scholar
+  - alphasense
+  - julius-ai
+  - scispace
+  - amplitude-ai
+  - consensus
+  - copy-ai
+
 ---

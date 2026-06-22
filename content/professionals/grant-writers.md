@@ -12,4 +12,16 @@ categories:
   - document-ai
   - academia
   - productivity
+featured_tools:
+  - chatgpt
+  - grammarly
+  - jasper
+  - elicit
+  - notebooklm
+  - research-rabbit
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+  - consensus
+
 ---

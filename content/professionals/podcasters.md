@@ -12,4 +12,16 @@ categories:
   - audio
   - voice-cloning
   - social-media-tools
+featured_tools:
+  - descript
+  - otter-ai
+  - riverside
+  - assemblyai
+  - elevenlabs
+  - transistor
+  - cleanvoice
+  - adobe-podcast
+  - buffer
+  - krisp
+
 ---

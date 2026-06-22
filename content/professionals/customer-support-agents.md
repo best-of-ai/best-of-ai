@@ -12,4 +12,16 @@ categories:
   - automation
   - crm
   - productivity
+featured_tools:
+  - chatgpt
+  - zendesk
+  - intercom
+  - freshdesk
+  - forethought-ai
+  - tidio
+  - hubspot-crm
+  - asana
+  - claude
+  - gemini
+
 ---

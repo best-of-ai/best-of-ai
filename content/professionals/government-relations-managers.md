@@ -11,4 +11,16 @@ categories:
   - research-tools
   - document-ai
   - compliance
+featured_tools:
+  - chatgpt
+  - perplexity
+  - grammarly
+  - notebooklm
+  - scispace
+  - semantic-scholar
+  - gamma
+  - adobe-acrobat-ai
+  - perplexity-research
+  - chatpdf
+
 ---

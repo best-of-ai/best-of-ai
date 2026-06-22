@@ -11,4 +11,16 @@ categories:
   - document-ai
   - productivity
   - research-tools
+featured_tools:
+  - chatgpt
+  - grammarly
+  - quillbot
+  - adobe-acrobat-ai
+  - notebooklm
+  - notion-ai
+  - wordtune
+  - asana
+  - clickup
+  - copy-ai
+
 ---

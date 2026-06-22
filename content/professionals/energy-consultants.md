@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - cleantech
+featured_tools:
+  - chatgpt
+  - aurora-solar
+  - uplight
+  - autogrid
+  - tableau
+  - notebooklm
+  - amplitude-ai
+  - copy-ai
+  - grammarly
+  - jasper
+
 ---

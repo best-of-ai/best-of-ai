@@ -12,4 +12,16 @@ categories:
   - transcription
   - writing-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - asana
+  - otter-ai
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - assemblyai
+  - clickup
+  - copy-ai
+
 ---

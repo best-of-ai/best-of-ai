@@ -12,4 +12,16 @@ categories:
   - translator
   - crm
   - automation
+featured_tools:
+  - chatgpt
+  - harvey
+  - deepl
+  - notebooklm
+  - salesforce
+  - grammarly
+  - hubspot-crm
+  - zapier
+  - adobe-acrobat-ai
+  - google-translate
+
 ---

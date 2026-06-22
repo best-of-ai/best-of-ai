@@ -11,4 +11,16 @@ categories:
   - document-ai
   - 3d
   - computer-vision
+featured_tools:
+  - chatgpt
+  - luma-ai
+  - tableau
+  - notebooklm
+  - semantic-scholar
+  - arcgis
+  - scispace
+  - adobe-acrobat-ai
+  - aws-rekognition
+  - clarifai
+
 ---

@@ -12,4 +12,16 @@ categories:
   - chatbots
   - automation
   - data
+featured_tools:
+  - chatgpt
+  - intercom
+  - salesforce
+  - canva
+  - mailchimp
+  - zapier
+  - hubspot-crm
+  - claude
+  - gemini
+  - grok
+
 ---

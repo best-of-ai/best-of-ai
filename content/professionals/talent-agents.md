@@ -11,4 +11,16 @@ categories:
   - contract-management
   - marketing
   - data
+featured_tools:
+  - chatgpt
+  - lever
+  - hubspot-crm
+  - grammarly
+  - canva
+  - linkedin
+  - hubspot
+  - amplitude-ai
+  - power-bi
+  - scale-ai
+
 ---

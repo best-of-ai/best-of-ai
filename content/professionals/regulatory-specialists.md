@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - legal-assistants
+featured_tools:
+  - chatgpt
+  - drata
+  - onetrust
+  - notebooklm
+  - grammarly
+  - harvey
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+  - perplexity-research
+
 ---

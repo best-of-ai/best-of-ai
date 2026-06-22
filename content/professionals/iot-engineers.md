@@ -12,4 +12,16 @@ categories:
   - data
   - code-assistant
   - automation
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - cursor
+  - zapier
+  - tableau
+  - mintlify
+  - n8n
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

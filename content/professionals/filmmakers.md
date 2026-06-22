@@ -12,4 +12,16 @@ categories:
   - video-enhancer
   - writing-assistants
   - audio
+featured_tools:
+  - chatgpt
+  - runway
+  - descript
+  - capcut
+  - grammarly
+  - elevenlabs
+  - midjourney
+  - adobe-premiere-pro-ai
+  - luma-dream-machine
+  - sora
+
 ---

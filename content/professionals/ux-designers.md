@@ -12,4 +12,16 @@ categories:
   - app-builders
   - image-generation
   - productivity
+featured_tools:
+  - figma
+  - midjourney
+  - canva
+  - uizard
+  - galileo-ai
+  - hotjar-ai
+  - asana
+  - adobe-express
+  - adobe-sensei
+  - bubble
+
 ---

@@ -11,4 +11,16 @@ categories:
   - legal-assistants
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - otter-ai
+  - casetext
+  - sonix
+  - notebooklm
+  - grammarly
+  - assemblyai
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+
 ---

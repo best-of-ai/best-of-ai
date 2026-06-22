@@ -12,4 +12,16 @@ categories:
   - devtools
   - api-tools
   - compliance
+featured_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - stripe
+  - brex
+  - drata
+  - mintlify
+  - postman
+  - aider
+  - amazon-bedrock
+
 ---

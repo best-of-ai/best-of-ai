@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - academia
   - market-research
+featured_tools:
+  - chatgpt
+  - semantic-scholar
+  - elicit
+  - tableau
+  - notebooklm
+  - brandwatch
+  - scispace
+  - amplitude-ai
+  - consensus
+  - copy-ai
+
 ---

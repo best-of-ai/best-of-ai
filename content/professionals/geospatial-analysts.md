@@ -12,4 +12,16 @@ categories:
   - computer-vision
   - infographics
   - research-tools
+featured_tools:
+  - chatgpt
+  - arcgis
+  - mapbox
+  - amplitude-ai
+  - tableau
+  - clarifai
+  - notebooklm
+  - aws-rekognition
+  - canva-infographics
+  - perplexity-research
+
 ---

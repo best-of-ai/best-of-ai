@@ -11,4 +11,16 @@ categories:
   - tax-accounting
   - research-tools
   - document-ai
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - turbotax
+  - taxjar
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - perplexity-research
+  - scispace
+
 ---

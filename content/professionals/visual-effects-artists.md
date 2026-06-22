@@ -11,4 +11,16 @@ categories:
   - image-generation
   - 3d
   - animation
+featured_tools:
+  - runway
+  - after-effects
+  - midjourney
+  - stable-diffusion
+  - topaz-video-ai
+  - tripo3d
+  - ideogram
+  - adobe-premiere-pro-ai
+  - flux
+  - alpha3d
+
 ---

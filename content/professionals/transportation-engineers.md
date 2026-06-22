@@ -11,4 +11,16 @@ categories:
   - data
   - automation
   - research-tools
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - drawio
+  - zapier
+  - mapbox
+  - notebooklm
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

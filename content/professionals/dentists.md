@@ -11,4 +11,16 @@ categories:
   - image-editing
   - productivity
   - business-tools
+featured_tools:
+  - chatgpt
+  - asana
+  - nuance-dax
+  - notebooklm
+  - suki-ai
+  - canva
+  - hubspot-business
+  - clickup
+  - todoist
+  - adobe-lightroom-ai
+
 ---

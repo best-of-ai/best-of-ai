@@ -11,4 +11,16 @@ categories:
   - data
   - research-tools
   - spreadsheets
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - tableau
+  - power-bi
+  - semantic-scholar
+  - morningstar-ai
+  - alphasense
+  - amplitude-ai
+  - perplexity-research
+  - scale-ai
+
 ---

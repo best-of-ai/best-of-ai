@@ -11,4 +11,16 @@ categories:
   - research-tools
   - translator
   - document-ai
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - deepl
+  - notebooklm
+  - grammarly
+  - elicit
+  - adobe-acrobat-ai
+  - google-translate
+  - perplexity-research
+
 ---

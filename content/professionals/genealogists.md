@@ -12,4 +12,16 @@ categories:
   - transcription
   - writing-assistants
   - knowledge-management
+featured_tools:
+  - chatgpt
+  - otter-ai
+  - notebooklm
+  - assemblyai
+  - grammarly
+  - semantic-scholar
+  - notion-ai
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

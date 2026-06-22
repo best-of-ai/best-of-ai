@@ -12,4 +12,16 @@ categories:
   - ad-generator
   - marketing
   - email-assistants
+featured_tools:
+  - chatgpt
+  - jasper
+  - copy-ai
+  - grammarly
+  - adcreative-ai
+  - wordtune
+  - writesonic
+  - hubspot
+  - quillbot
+  - activecampaign-ai
+
 ---

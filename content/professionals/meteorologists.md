@@ -12,4 +12,16 @@ categories:
   - research-tools
   - infographics
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - tableau
+  - wolfram-alpha-ai
+  - arcgis
+  - infogram
+  - piktochart
+  - amplitude-ai
+  - canva-infographics
+  - copy-ai
+  - grammarly
+
 ---

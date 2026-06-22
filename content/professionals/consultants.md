@@ -12,4 +12,16 @@ categories:
   - data
   - writing-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - perplexity
+  - gamma
+  - notion-ai
+  - tableau
+  - grammarly
+  - notebooklm
+  - asana
+  - amplitude-ai
+  - clickup
+
 ---

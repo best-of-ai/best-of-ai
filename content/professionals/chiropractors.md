@@ -12,4 +12,16 @@ categories:
   - calendar-scheduling
   - writing-assistants
   - marketing
+featured_tools:
+  - chatgpt
+  - calendly
+  - suki-ai
+  - reclaim-ai
+  - grammarly
+  - canva
+  - notebooklm
+  - adobe-acrobat-ai
+  - copy-ai
+  - hubspot
+
 ---

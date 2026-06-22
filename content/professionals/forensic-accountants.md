@@ -12,4 +12,16 @@ categories:
   - document-ai
   - legal-assistants
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - julius-ai
+  - tableau
+  - notebooklm
+  - harvey
+  - amplitude-ai
+  - grammarly
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

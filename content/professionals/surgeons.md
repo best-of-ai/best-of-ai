@@ -11,4 +11,16 @@ categories:
   - medical-imaging
   - robotics
   - document-ai
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - aidoc-ai
+  - adobe-acrobat-ai
+  - semantic-scholar
+  - notebooklm
+  - viz-ai
+  - arterys
+  - chatpdf
+  - covariant
+
 ---

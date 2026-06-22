@@ -12,4 +12,16 @@ categories:
   - research-tools
   - productivity
   - transcription
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - asana
+  - abridge-ai
+  - suki-ai
+  - notebooklm
+  - semantic-scholar
+  - adobe-acrobat-ai
+  - assemblyai
+  - clickup
+
 ---

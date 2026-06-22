@@ -12,4 +12,16 @@ categories:
   - presentation
   - image-editing
   - video-generator
+featured_tools:
+  - midjourney
+  - ideogram
+  - adobe-firefly
+  - canva
+  - figma
+  - sora
+  - runway
+  - luma-dream-machine
+  - adobe-express
+  - adobe-sensei
+
 ---

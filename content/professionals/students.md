@@ -13,4 +13,16 @@ categories:
   - academia
   - research-tools
   - note-taking-apps
+featured_tools:
+  - chatgpt
+  - notebooklm
+  - grammarly
+  - khanmigo
+  - writesonic
+  - quillbot
+  - elicit
+  - consensus
+  - copy-ai
+  - jasper
+
 ---

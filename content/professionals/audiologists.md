@@ -12,4 +12,16 @@ categories:
   - document-ai
   - research-tools
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - otter-ai
+  - deepgram
+  - grammarly
+  - semantic-scholar
+  - notebooklm
+  - adobe-acrobat-ai
+  - assemblyai
+  - copy-ai
+
 ---

@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - asana
+  - spellbook
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - clickup
+  - copy-ai
+
 ---

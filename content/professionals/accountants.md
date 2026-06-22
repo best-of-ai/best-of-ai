@@ -13,4 +13,16 @@ categories:
   - automation
   - document-ai
   - workflow-automation
+featured_tools:
+  - chatgpt
+  - zapier
+  - tableau
+  - adobe-acrobat-ai
+  - morningstar-ai
+  - botkeeper
+  - ramp
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

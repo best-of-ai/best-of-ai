@@ -12,4 +12,16 @@ categories:
   - social-media-tools
   - image-generation
   - market-research
+featured_tools:
+  - chatgpt
+  - canva
+  - midjourney
+  - sprout-social
+  - semrush
+  - brandwatch
+  - buffer
+  - figma
+  - adobe-express
+  - adobe-sensei
+
 ---

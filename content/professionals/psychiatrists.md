@@ -11,4 +11,16 @@ categories:
   - healthcare
   - document-ai
   - telemedicine
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - adobe-acrobat-ai
+  - wysa
+  - betterhelp
+  - notebooklm
+  - semantic-scholar
+  - chatpdf
+  - doxy-me
+  - humata
+
 ---

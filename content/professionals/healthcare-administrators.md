@@ -12,4 +12,16 @@ categories:
   - document-ai
   - automation
   - compliance
+featured_tools:
+  - chatgpt
+  - amplitude-ai
+  - scale-ai
+  - notebooklm
+  - drata
+  - tableau
+  - zapier
+  - adobe-acrobat-ai
+  - make
+  - n8n
+
 ---

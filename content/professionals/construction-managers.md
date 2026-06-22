@@ -12,4 +12,16 @@ categories:
   - document-ai
   - data
   - computer-vision
+featured_tools:
+  - chatgpt
+  - procore
+  - autodesk-construction
+  - buildxact
+  - linear
+  - adobe-acrobat-ai
+  - tableau
+  - amplitude-ai
+  - aws-rekognition
+  - clarifai
+
 ---

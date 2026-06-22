@@ -11,4 +11,16 @@ categories:
   - code-assistant
   - automation
   - workflow-automation
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - cursor
+  - coderabbit
+  - qodo-ai
+  - zapier
+  - linear
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

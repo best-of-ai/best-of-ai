@@ -11,4 +11,16 @@ categories:
   - image-generation
   - home-design
   - graphic-design
+featured_tools:
+  - midjourney
+  - ideogram
+  - spline
+  - canva
+  - sketchup
+  - adobe-firefly
+  - figma
+  - adobe-express
+  - adobe-sensei
+  - flux
+
 ---

@@ -11,4 +11,16 @@ categories:
   - learning-tools
   - productivity
   - travel
+featured_tools:
+  - chatgpt
+  - deepl
+  - google-translate
+  - duolingo
+  - asana
+  - grammarly
+  - wanderlog
+  - clickup
+  - todoist
+  - akiflow
+
 ---

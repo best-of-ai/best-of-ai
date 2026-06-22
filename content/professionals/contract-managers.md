@@ -11,4 +11,16 @@ categories:
   - legal-assistants
   - document-ai
   - compliance
+featured_tools:
+  - chatgpt
+  - contractpodai
+  - casetext
+  - harvey
+  - spellbook
+  - notebooklm
+  - agiloft
+  - adobe-acrobat-ai
+  - chatpdf
+  - contractsafe
+
 ---

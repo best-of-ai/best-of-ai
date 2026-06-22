@@ -13,4 +13,16 @@ categories:
   - market-research
   - document-ai
   - presentation
+featured_tools:
+  - chatgpt
+  - alphasense
+  - pitchbook-ai
+  - cb-insights-ai
+  - morningstar-ai
+  - gamma
+  - amplitude-ai
+  - adobe-acrobat-ai
+  - perplexity-research
+  - power-bi
+
 ---

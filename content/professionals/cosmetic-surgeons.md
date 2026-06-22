@@ -11,4 +11,16 @@ categories:
   - medical-imaging
   - image-editing
   - document-ai
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - viz-ai
+  - notebooklm
+  - aidoc-ai
+  - adobe-acrobat-ai
+  - grammarly
+  - adobe-lightroom-ai
+  - arterys
+  - befunky
+
 ---

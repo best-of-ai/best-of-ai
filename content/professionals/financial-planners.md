@@ -11,4 +11,16 @@ categories:
   - data
   - productivity
   - document-ai
+featured_tools:
+  - chatgpt
+  - asana
+  - julius-ai
+  - amplitude-ai
+  - scale-ai
+  - tableau
+  - power-bi
+  - adobe-acrobat-ai
+  - clickup
+  - todoist
+
 ---

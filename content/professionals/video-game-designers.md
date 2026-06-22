@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - character-design
   - storytelling
+featured_tools:
+  - chatgpt
+  - midjourney
+  - stable-diffusion
+  - character-creator
+  - ready-player-me
+  - suno
+  - elevenlabs
+  - copy-ai
+  - flux
+  - grammarly
+
 ---

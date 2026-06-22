@@ -11,4 +11,16 @@ categories:
   - image-editing
   - productivity
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - midjourney
+  - canva
+  - whisk
+  - grammarly
+  - ideogram
+  - myfitnesspal
+  - asana
+  - clickup
+  - copy-ai
+
 ---

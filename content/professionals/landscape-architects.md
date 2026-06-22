@@ -12,4 +12,16 @@ categories:
   - diagramming
   - presentation
   - 3d
+featured_tools:
+  - midjourney
+  - sketchup
+  - ideogram
+  - flux
+  - canva
+  - gamma
+  - krea-ai
+  - alpha3d
+  - artbreeder
+  - beautiful-ai
+
 ---

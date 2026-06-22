@@ -12,4 +12,16 @@ categories:
   - data
   - compliance
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - aurora-solar
+  - amplitude-ai
+  - uplight
+  - tableau
+  - notebooklm
+  - scale-ai
+  - copy-ai
+  - grammarly
+  - jasper
+
 ---

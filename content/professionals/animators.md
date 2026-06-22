@@ -12,4 +12,16 @@ categories:
   - video-generator
   - video-editor
   - image-generation
+featured_tools:
+  - runway
+  - sora
+  - luma-dream-machine
+  - kling-ai
+  - midjourney
+  - after-effects
+  - rive
+  - adobe-premiere-pro-ai
+  - flux
+  - ideogram
+
 ---

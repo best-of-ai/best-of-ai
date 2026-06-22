@@ -16,4 +16,16 @@ categories:
   - data
   - automation
   - workflow-automation
+featured_tools:
+  - github-copilot
+  - cursor
+  - claude
+  - chatgpt
+  - codeium
+  - windsurf
+  - replit
+  - zapier
+  - aider
+  - amazon-bedrock
+
 ---

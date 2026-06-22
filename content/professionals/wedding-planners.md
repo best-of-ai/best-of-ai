@@ -12,4 +12,16 @@ categories:
   - social-media-tools
   - image-generation
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - asana
+  - canva
+  - grammarly
+  - mailchimp
+  - gamma
+  - midjourney
+  - buffer
+  - clickup
+  - copy-ai
+
 ---

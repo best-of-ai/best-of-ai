@@ -12,4 +12,16 @@ categories:
   - diagramming
   - presentation
   - spreadsheets
+featured_tools:
+  - chatgpt
+  - tableau
+  - power-bi
+  - julius-ai
+  - infogram
+  - piktochart
+  - venngage
+  - amplitude-ai
+  - canva-infographics
+  - scale-ai
+
 ---

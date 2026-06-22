@@ -12,4 +12,16 @@ categories:
   - market-research
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - alphasense
+  - morningstar-ai
+  - pitchbook-ai
+  - tableau
+  - julius-ai
+  - asana
+  - amplitude-ai
+  - clickup
+  - perplexity-research
+
 ---

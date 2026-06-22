@@ -12,4 +12,16 @@ categories:
   - automation
   - personal-assistants
   - project-management
+featured_tools:
+  - chatgpt
+  - asana
+  - zapier
+  - wanderlog
+  - slack-ai
+  - reclaim-ai
+  - grammarly
+  - google-assistant
+  - linear
+  - siri
+
 ---

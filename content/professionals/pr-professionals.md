@@ -13,4 +13,16 @@ categories:
   - marketing
   - business-tools
   - market-research
+featured_tools:
+  - chatgpt
+  - grammarly
+  - brandwatch
+  - sprout-social
+  - jasper
+  - canva
+  - hubspot-business
+  - buffer
+  - copy-ai
+  - hubspot
+
 ---

@@ -11,4 +11,16 @@ categories:
   - privacy
   - cybersecurity
   - document-ai
+featured_tools:
+  - chatgpt
+  - onetrust
+  - drata
+  - vanta
+  - wiz
+  - notebooklm
+  - adobe-acrobat-ai
+  - bigid
+  - chatpdf
+  - crowdstrike
+
 ---

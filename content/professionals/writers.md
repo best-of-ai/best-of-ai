@@ -16,4 +16,16 @@ categories:
   - knowledge-management
   - translator
   - document-ai
+featured_tools:
+  - chatgpt
+  - grammarly
+  - notion-ai
+  - prowritingaid
+  - hemingway-editor
+  - jasper
+  - sudowrite
+  - adobe-acrobat-ai
+  - consensus
+  - copy-ai
+
 ---

@@ -15,4 +15,16 @@ categories:
   - note-taking-apps
   - knowledge-management
   - translator
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - notebooklm
+  - notion-ai
+  - research-rabbit
+  - perplexity
+  - consensus
+  - google-translate
+  - obsidian
+
 ---

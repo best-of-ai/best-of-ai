@@ -11,4 +11,16 @@ categories:
   - 3d
   - geospatial
   - home-design
+featured_tools:
+  - chatgpt
+  - arcgis
+  - sketchup
+  - spacemaker-ai
+  - midjourney
+  - finch3d
+  - mapbox
+  - alpha3d
+  - kaedim
+  - luma-ai
+
 ---

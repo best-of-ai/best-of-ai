@@ -11,4 +11,16 @@ categories:
   - audio
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - asana
+  - otter-ai
+  - elevenlabs
+  - notebooklm
+  - grammarly
+  - murf
+  - adobe-acrobat-ai
+  - adobe-podcast
+  - clickup
+
 ---

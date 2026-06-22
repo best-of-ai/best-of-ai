@@ -11,4 +11,16 @@ categories:
   - legal-assistants
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - adobe-acrobat-ai
+  - spellbook
+  - scispace
+  - notebooklm
+  - perplexity-research
+  - semantic-scholar
+  - chatpdf
+
 ---

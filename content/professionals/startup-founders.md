@@ -15,4 +15,16 @@ categories:
   - no-code
   - app-builders
   - presentation
+featured_tools:
+  - chatgpt
+  - hubspot-business
+  - gamma
+  - perplexity
+  - zapier
+  - canva
+  - hubspot-crm
+  - asana
+  - bubble
+  - clickup
+
 ---

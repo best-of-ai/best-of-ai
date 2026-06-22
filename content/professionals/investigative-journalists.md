@@ -11,4 +11,16 @@ categories:
   - document-ai
   - data
   - transcription
+featured_tools:
+  - chatgpt
+  - perplexity
+  - otter-ai
+  - notebooklm
+  - grammarly
+  - assemblyai
+  - tableau
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - perplexity-research
+
 ---

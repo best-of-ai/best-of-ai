@@ -14,4 +14,16 @@ categories:
   - voice-cloning
   - text-to-speech
   - transcription
+featured_tools:
+  - suno
+  - udio
+  - elevenlabs
+  - aiva
+  - murf
+  - krisp
+  - descript
+  - adobe-podcast
+  - amazon-polly
+  - assemblyai
+
 ---

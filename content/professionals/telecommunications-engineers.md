@@ -12,4 +12,16 @@ categories:
   - automation
   - cloud-management
   - documentation
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - drawio
+  - tableau
+  - cursor
+  - mintlify
+  - zapier
+  - amazon-bedrock
+  - amplitude-ai
+  - azure-openai
+
 ---

@@ -12,4 +12,16 @@ categories:
   - marketing
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - semrush
+  - notion-ai
+  - jasper
+  - surfer-seo
+  - grammarly
+  - perplexity
+  - asana
+  - ahrefs
+  - clearscope
+
 ---

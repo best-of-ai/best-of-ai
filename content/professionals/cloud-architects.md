@@ -12,4 +12,16 @@ categories:
   - automation
   - diagramming
   - code-assistant
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - drawio
+  - n8n
+  - cursor
+  - turbonomic
+  - cline
+  - zapier
+  - aider
+  - amazon-bedrock
+
 ---

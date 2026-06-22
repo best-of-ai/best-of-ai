@@ -12,4 +12,16 @@ categories:
   - devtools
   - customer-support
   - cybersecurity
+featured_tools:
+  - chatgpt
+  - cursor
+  - linear
+  - zapier
+  - freshdesk
+  - drata
+  - microsoft-copilot
+  - amazon-bedrock
+  - azure-openai
+  - drift
+
 ---

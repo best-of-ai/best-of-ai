@@ -11,4 +11,16 @@ categories:
   - research-tools
   - data
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - tableau
+  - notion-ai
+  - elicit
+  - consensus
+  - amplitude-ai
+  - copy-ai
+  - grammarly
+
 ---

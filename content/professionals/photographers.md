@@ -12,4 +12,16 @@ categories:
   - background-remover
   - graphic-design
   - image-generation
+featured_tools:
+  - adobe-lightroom-ai
+  - luminar-neo
+  - topaz-photo-ai
+  - removebg
+  - canva
+  - midjourney
+  - photoroom
+  - figma
+  - adobe-express
+  - adobe-sensei
+
 ---

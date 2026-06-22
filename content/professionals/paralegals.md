@@ -12,4 +12,16 @@ categories:
   - research-tools
   - transcription
   - productivity
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - otter-ai
+  - notebooklm
+  - grammarly
+  - asana
+  - adobe-acrobat-ai
+  - assemblyai
+  - clickup
+
 ---

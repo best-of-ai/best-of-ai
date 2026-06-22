@@ -11,4 +11,16 @@ categories:
   - data
   - document-ai
   - market-research
+featured_tools:
+  - chatgpt
+  - adobe-acrobat-ai
+  - zillow
+  - tableau
+  - notebooklm
+  - hubspot-crm
+  - compass
+  - amplitude-ai
+  - power-bi
+  - scale-ai
+
 ---

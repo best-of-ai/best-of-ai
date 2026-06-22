@@ -11,4 +11,16 @@ categories:
   - research-tools
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - harvey
+  - casetext
+  - notebooklm
+  - grammarly
+  - asana
+  - scispace
+  - adobe-acrobat-ai
+  - clickup
+  - perplexity-research
+
 ---

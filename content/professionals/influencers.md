@@ -11,4 +11,16 @@ categories:
   - video-editor
   - copywriting
   - marketing
+featured_tools:
+  - chatgpt
+  - canva
+  - capcut
+  - midjourney
+  - buffer
+  - adobe-premiere-pro-ai
+  - opus-clip
+  - hubspot
+  - sprout-social
+  - captions-ai
+
 ---

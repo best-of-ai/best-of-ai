@@ -12,4 +12,16 @@ categories:
   - video-generator
   - writing-assistants
   - automation
+featured_tools:
+  - chatgpt
+  - gamma
+  - synthesia
+  - heygen
+  - khanmigo
+  - canva
+  - grammarly
+  - luma-dream-machine
+  - sora
+  - zapier
+
 ---

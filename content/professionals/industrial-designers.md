@@ -11,4 +11,16 @@ categories:
   - graphic-design
   - image-generation
   - data
+featured_tools:
+  - chatgpt
+  - spline
+  - midjourney
+  - tripo3d
+  - canva
+  - figma
+  - ideogram
+  - adobe-express
+  - adobe-sensei
+  - amplitude-ai
+
 ---

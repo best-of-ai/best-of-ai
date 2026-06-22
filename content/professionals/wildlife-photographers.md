@@ -11,4 +11,16 @@ categories:
   - research-tools
   - computer-vision
   - productivity
+featured_tools:
+  - adobe-lightroom-ai
+  - luminar-neo
+  - topaz-photo-ai
+  - removebg
+  - canva
+  - midjourney
+  - asana
+  - aws-rekognition
+  - clarifai
+  - clickup
+
 ---

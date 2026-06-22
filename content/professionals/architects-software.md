@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - productivity
   - document-ai
+featured_tools:
+  - github-copilot
+  - cursor
+  - claude
+  - drawio
+  - notion-ai
+  - chatgpt
+  - cline
+  - asana
+  - adobe-acrobat-ai
+  - aider
+
 ---

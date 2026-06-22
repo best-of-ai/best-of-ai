@@ -12,4 +12,16 @@ categories:
   - app-builders
   - website-builders
   - no-code
+featured_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - replit
+  - bolt-new
+  - v0
+  - windsurf
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

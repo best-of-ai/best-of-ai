@@ -11,4 +11,16 @@ categories:
   - no-code
   - research-tools
   - productivity
+featured_tools:
+  - figma
+  - midjourney
+  - canva
+  - asana
+  - uizard
+  - galileo-ai
+  - ideogram
+  - adobe-express
+  - adobe-sensei
+  - clickup
+
 ---

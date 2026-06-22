@@ -13,4 +13,16 @@ categories:
   - image-generation
   - presentation
   - graphic-design
+featured_tools:
+  - spline
+  - midjourney
+  - finch3d
+  - spacemaker-ai
+  - gamma
+  - canva
+  - ideogram
+  - figma
+  - adobe-express
+  - adobe-sensei
+
 ---

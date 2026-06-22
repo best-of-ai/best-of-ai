@@ -12,4 +12,16 @@ categories:
   - sentiment-analysis
   - data
   - automation
+featured_tools:
+  - chatgpt
+  - zendesk
+  - intercom
+  - hotjar-ai
+  - salesforce
+  - brandwatch
+  - zapier
+  - hubspot-crm
+  - amplitude-ai
+  - drift
+
 ---

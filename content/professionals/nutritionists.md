@@ -11,4 +11,16 @@ categories:
   - food
   - productivity
   - automation
+featured_tools:
+  - chatgpt
+  - myfitnesspal
+  - cronometer
+  - asana
+  - canva
+  - grammarly
+  - noom
+  - zapier
+  - clickup
+  - make
+
 ---

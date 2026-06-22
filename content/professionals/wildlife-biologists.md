@@ -12,4 +12,16 @@ categories:
   - geospatial
   - data
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - arcgis
+  - clarifai
+  - semantic-scholar
+  - notebooklm
+  - tableau
+  - elicit
+  - amplitude-ai
+  - aws-rekognition
+  - copy-ai
+
 ---

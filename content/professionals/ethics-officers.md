@@ -11,4 +11,16 @@ categories:
   - document-ai
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - drata
+  - notebooklm
+  - semantic-scholar
+  - asana
+  - grammarly
+  - onetrust
+  - adobe-acrobat-ai
+  - clickup
+  - perplexity-research
+
 ---

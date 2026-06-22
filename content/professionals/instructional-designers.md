@@ -13,4 +13,16 @@ categories:
   - writing-assistants
   - audio
   - talking-avatar-generator
+featured_tools:
+  - chatgpt
+  - gamma
+  - synthesia
+  - heygen
+  - sora
+  - canva
+  - grammarly
+  - elevenlabs
+  - luma-dream-machine
+  - adobe-podcast
+
 ---

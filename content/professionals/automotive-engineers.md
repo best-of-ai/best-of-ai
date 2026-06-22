@@ -12,4 +12,16 @@ categories:
   - diagramming
   - documentation
   - computer-vision
+featured_tools:
+  - chatgpt
+  - drawio
+  - tableau
+  - wolfram-alpha-ai
+  - clarifai
+  - notebooklm
+  - semantic-scholar
+  - amplitude-ai
+  - aws-rekognition
+  - perplexity-research
+
 ---

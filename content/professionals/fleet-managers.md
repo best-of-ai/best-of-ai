@@ -12,4 +12,16 @@ categories:
   - automation
   - productivity
   - supply-chain
+featured_tools:
+  - chatgpt
+  - samsara
+  - asana
+  - tableau
+  - zapier
+  - linear
+  - blue-yonder
+  - amplitude-ai
+  - clickup
+  - make
+
 ---

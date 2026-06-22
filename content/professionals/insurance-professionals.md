@@ -12,4 +12,16 @@ categories:
   - automation
   - document-ai
   - customer-support
+featured_tools:
+  - chatgpt
+  - salesforce
+  - hubspot-business
+  - tableau
+  - zapier
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - drift
+
 ---

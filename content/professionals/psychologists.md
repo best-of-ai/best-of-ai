@@ -11,4 +11,16 @@ categories:
   - research-tools
   - document-ai
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - semantic-scholar
+  - scispace
+  - notebooklm
+  - grammarly
+  - elicit
+  - perplexity-research
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

@@ -9,4 +9,16 @@ sort_order: 14
 sidebar: true
 categories:
   - healthcare
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - tempus-ai
+  - abridge-ai
+  - suki-ai
+  - aidoc-ai
+  - notebooklm
+  - ada-health
+  - alphafold-ai
+  - babylon-health
+
 ---

@@ -12,4 +12,16 @@ categories:
   - productivity
   - learning-tools
   - automation
+featured_tools:
+  - chatgpt
+  - notion-ai
+  - grammarly
+  - zapier
+  - betterup
+  - canva
+  - khanmigo
+  - asana
+  - hubspot-business
+  - clickup
+
 ---

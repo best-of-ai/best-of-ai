@@ -14,4 +14,16 @@ categories:
   - workflow-automation
   - automation
   - productivity
+featured_tools:
+  - chatgpt
+  - linear
+  - zoom-ai
+  - asana
+  - fireflies-ai
+  - zapier
+  - reclaim-ai
+  - clickup
+  - make
+  - n8n
+
 ---

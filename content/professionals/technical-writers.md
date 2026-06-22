@@ -12,4 +12,16 @@ categories:
   - productivity
   - knowledge-management
   - document-ai
+featured_tools:
+  - chatgpt
+  - grammarly
+  - notion-ai
+  - mintlify
+  - prowritingaid
+  - hemingway-editor
+  - cursor
+  - asana
+  - adobe-acrobat-ai
+  - amazon-bedrock
+
 ---

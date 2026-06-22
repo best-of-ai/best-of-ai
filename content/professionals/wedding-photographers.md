@@ -11,4 +11,16 @@ categories:
   - background-remover
   - productivity
   - business-tools
+featured_tools:
+  - adobe-lightroom-ai
+  - luminar-neo
+  - topaz-photo-ai
+  - removebg
+  - canva
+  - photoroom
+  - asana
+  - hubspot-business
+  - clickup
+  - todoist
+
 ---

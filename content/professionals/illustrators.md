@@ -11,4 +11,16 @@ categories:
   - graphic-design
   - image-editing
   - animation
+featured_tools:
+  - midjourney
+  - stable-diffusion
+  - ideogram
+  - adobe-firefly
+  - canva
+  - after-effects
+  - krea-ai
+  - figma
+  - adobe-express
+  - adobe-sensei
+
 ---

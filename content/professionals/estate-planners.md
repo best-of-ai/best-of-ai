@@ -12,4 +12,16 @@ categories:
   - finance
   - writing-assistants
   - productivity
+featured_tools:
+  - chatgpt
+  - harvey
+  - asana
+  - notebooklm
+  - adobe-acrobat-ai
+  - grammarly
+  - quillbot
+  - clickup
+  - copy-ai
+  - jasper
+
 ---

@@ -12,4 +12,16 @@ categories:
   - data
   - spreadsheets
   - market-research
+featured_tools:
+  - chatgpt
+  - alphasense
+  - julius-ai
+  - tableau
+  - power-bi
+  - amplitude-ai
+  - scale-ai
+  - attention-insight
+  - brandwatch
+  - crimson-hexagon
+
 ---

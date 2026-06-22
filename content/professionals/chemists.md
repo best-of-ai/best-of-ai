@@ -11,4 +11,16 @@ categories:
   - research-tools
   - data
   - healthcare
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - benchling
+  - semantic-scholar
+  - tableau
+  - elicit
+  - schrodinger
+  - amplitude-ai
+  - consensus
+  - perplexity-research
+
 ---

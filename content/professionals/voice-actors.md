@@ -12,4 +12,16 @@ categories:
   - text-to-speech
   - podcast
   - transcription
+featured_tools:
+  - elevenlabs
+  - murf
+  - replica-studios
+  - descript
+  - riverside
+  - playht
+  - krisp
+  - adobe-podcast
+  - amazon-polly
+  - assemblyai
+
 ---

@@ -11,4 +11,16 @@ categories:
   - video-editor
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - hudl
+  - catapult-sports
+  - adobe-premiere-pro-ai
+  - tableau
+  - capcut
+  - whoop
+  - asana
+  - amplitude-ai
+  - clickup
+
 ---

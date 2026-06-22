@@ -12,4 +12,16 @@ categories:
   - data
   - writing-assistants
   - academia
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - scispace
+  - notebooklm
+  - grammarly
+  - research-rabbit
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - consensus
+
 ---

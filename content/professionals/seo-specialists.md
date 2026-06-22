@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - research-tools
   - data
+featured_tools:
+  - chatgpt
+  - semrush
+  - ahrefs
+  - surfer-seo
+  - clearscope
+  - jasper
+  - frase
+  - amplitude-ai
+  - copy-ai
+  - grammarly
+
 ---

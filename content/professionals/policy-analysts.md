@@ -12,4 +12,16 @@ categories:
   - data
   - document-ai
   - sentiment-analysis
+featured_tools:
+  - chatgpt
+  - perplexity
+  - elicit
+  - semantic-scholar
+  - notebooklm
+  - grammarly
+  - tableau
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - copy-ai
+
 ---

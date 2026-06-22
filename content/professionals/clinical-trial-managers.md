@@ -11,4 +11,16 @@ categories:
   - clinical-researchers
   - document-ai
   - compliance
+featured_tools:
+  - chatgpt
+  - elicit
+  - notebooklm
+  - onetrust
+  - adobe-acrobat-ai
+  - semantic-scholar
+  - vanta
+  - chatpdf
+  - humata
+  - abbyy
+
 ---

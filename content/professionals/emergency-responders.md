@@ -12,4 +12,16 @@ categories:
   - transcription
   - productivity
   - data
+featured_tools:
+  - chatgpt
+  - asana
+  - otter-ai
+  - notebooklm
+  - adobe-acrobat-ai
+  - arcgis
+  - zapier
+  - amplitude-ai
+  - assemblyai
+  - clickup
+
 ---

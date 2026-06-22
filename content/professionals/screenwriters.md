@@ -11,4 +11,16 @@ categories:
   - copywriting
   - productivity
   - note-taking-apps
+featured_tools:
+  - chatgpt
+  - notion-ai
+  - sudowrite
+  - grammarly
+  - jasper
+  - asana
+  - prowritingaid
+  - clickup
+  - copy-ai
+  - obsidian
+
 ---

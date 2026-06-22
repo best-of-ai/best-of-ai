@@ -11,4 +11,16 @@ categories:
   - healthcare
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - wysa
+  - woebot
+  - betterhelp
+  - otter-ai
+  - notebooklm
+  - nuance-dax
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+
 ---

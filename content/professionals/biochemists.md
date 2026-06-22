@@ -11,4 +11,16 @@ categories:
   - drug-discovery
   - research-tools
   - data
+featured_tools:
+  - chatgpt
+  - benchling
+  - alphafold-ai
+  - elicit
+  - semantic-scholar
+  - schrodinger
+  - dnanexus
+  - amplitude-ai
+  - perplexity-research
+  - power-bi
+
 ---

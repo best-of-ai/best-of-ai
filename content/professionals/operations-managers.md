@@ -12,4 +12,16 @@ categories:
   - project-management
   - data
   - business-tools
+featured_tools:
+  - chatgpt
+  - linear
+  - hubspot-business
+  - zapier
+  - tableau
+  - asana
+  - slack-ai
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

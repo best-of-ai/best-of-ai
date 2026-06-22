@@ -16,4 +16,16 @@ categories:
   - lead-generation
   - market-research
   - copywriting
+featured_tools:
+  - chatgpt
+  - semrush
+  - jasper
+  - canva
+  - buffer
+  - hubspot
+  - adcreative-ai
+  - ahrefs
+  - clearscope
+  - sprout-social
+
 ---

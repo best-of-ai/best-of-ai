@@ -11,4 +11,16 @@ categories:
   - video-enhancer
   - transcription
   - productivity
+featured_tools:
+  - capcut
+  - adobe-premiere-pro-ai
+  - runway
+  - topaz-video-ai
+  - asana
+  - otter-ai
+  - assemblyai
+  - clickup
+  - todoist
+  - whisper
+
 ---

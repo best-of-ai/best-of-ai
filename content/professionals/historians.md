@@ -12,4 +12,16 @@ categories:
   - transcription
   - document-ai
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - elicit
+  - semantic-scholar
+  - otter-ai
+  - notebooklm
+  - grammarly
+  - assemblyai
+  - adobe-acrobat-ai
+  - consensus
+  - copy-ai
+
 ---

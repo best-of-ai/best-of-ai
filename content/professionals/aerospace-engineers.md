@@ -12,4 +12,16 @@ categories:
   - diagramming
   - documentation
   - space-tech
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - tableau
+  - maxar
+  - drawio
+  - scispace
+  - amplitude-ai
+  - perplexity-research
+  - power-bi
+
 ---

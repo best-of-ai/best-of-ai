@@ -12,4 +12,16 @@ categories:
   - research-tools
   - document-ai
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - patsnap
+  - derwent-innovation
+  - iplytics
+  - harvey
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

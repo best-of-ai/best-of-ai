@@ -12,4 +12,16 @@ categories:
   - crm
   - email-assistants
   - data
+featured_tools:
+  - chatgpt
+  - grammarly
+  - mailchimp
+  - salesforce
+  - canva
+  - hubspot-crm
+  - jasper
+  - amplitude-ai
+  - copy-ai
+  - pipedrive
+
 ---

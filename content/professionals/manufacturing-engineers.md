@@ -12,4 +12,16 @@ categories:
   - data
   - computer-vision
   - documentation
+featured_tools:
+  - chatgpt
+  - tulip
+  - sight-machine
+  - tableau
+  - drawio
+  - make
+  - zapier
+  - amplitude-ai
+  - aws-rekognition
+  - clarifai
+
 ---

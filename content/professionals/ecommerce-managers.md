@@ -13,4 +13,16 @@ categories:
   - social-media-tools
   - email-assistants
   - copywriting
+featured_tools:
+  - chatgpt
+  - shopify
+  - semrush
+  - adcreative-ai
+  - klaviyo-ai
+  - canva
+  - jasper
+  - buffer
+  - hubspot
+  - sprout-social
+
 ---

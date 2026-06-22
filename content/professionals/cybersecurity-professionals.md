@@ -12,4 +12,16 @@ categories:
   - code-assistant
   - data
   - business-tools
+featured_tools:
+  - chatgpt
+  - snyk-ai
+  - wiz
+  - crowdstrike
+  - darktrace
+  - drata
+  - github-copilot
+  - cursor
+  - hubspot-business
+  - zapier
+
 ---

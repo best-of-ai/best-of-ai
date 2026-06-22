@@ -11,4 +11,16 @@ categories:
   - business-tools
   - diagramming
   - productivity
+featured_tools:
+  - chatgpt
+  - tableau
+  - power-bi
+  - drawio
+  - amplitude-ai
+  - hubspot-business
+  - microsoft-copilot
+  - asana
+  - clickup
+  - scale-ai
+
 ---

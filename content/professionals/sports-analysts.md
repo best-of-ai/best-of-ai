@@ -12,4 +12,16 @@ categories:
   - computer-vision
   - research-tools
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - catapult-sports
+  - hudl
+  - stats-perform
+  - tableau
+  - julius-ai
+  - amplitude-ai
+  - aws-rekognition
+  - clarifai
+  - copy-ai
+
 ---

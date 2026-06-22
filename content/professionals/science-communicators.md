@@ -11,4 +11,16 @@ categories:
   - infographics
   - research-tools
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - grammarly
+  - canva
+  - gamma
+  - midjourney
+  - infogram
+  - perplexity
+  - buffer
+  - canva-infographics
+  - copy-ai
+
 ---

@@ -12,4 +12,16 @@ categories:
   - knowledge-management
   - chatbots
   - productivity
+featured_tools:
+  - chatgpt
+  - freshdesk
+  - zendesk
+  - intercom
+  - notion-ai
+  - grammarly
+  - zapier
+  - asana
+  - claude
+  - gemini
+
 ---

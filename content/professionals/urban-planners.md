@@ -12,4 +12,16 @@ categories:
   - research-tools
   - data
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - arcgis
+  - mapbox
+  - tableau
+  - drawio
+  - notebooklm
+  - scispace
+  - amplitude-ai
+  - copy-ai
+  - grammarly
+
 ---

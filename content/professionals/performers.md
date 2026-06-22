@@ -11,4 +11,16 @@ categories:
   - music-generation
   - social-media-tools
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - elevenlabs
+  - murf
+  - canva
+  - suno
+  - descript
+  - grammarly
+  - adobe-podcast
+  - buffer
+  - copy-ai
+
 ---

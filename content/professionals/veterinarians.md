@@ -11,4 +11,16 @@ categories:
   - productivity
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - asana
+  - notebooklm
+  - semantic-scholar
+  - todoist
+  - grammarly
+  - adobe-acrobat-ai
+  - clickup
+  - perplexity-research
+
 ---

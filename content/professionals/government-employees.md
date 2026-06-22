@@ -12,4 +12,16 @@ categories:
   - document-ai
   - automation
   - data
+featured_tools:
+  - chatgpt
+  - asana
+  - grammarly
+  - gamma
+  - zapier
+  - notebooklm
+  - microsoft-copilot
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - clickup
+
 ---

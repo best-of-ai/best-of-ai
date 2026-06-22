@@ -12,4 +12,16 @@ categories:
   - image-generation
   - document-ai
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - midjourney
+  - notebooklm
+  - grammarly
+  - canva
+  - scispace
+  - semantic-scholar
+  - adobe-acrobat-ai
+  - buffer
+  - copy-ai
+
 ---

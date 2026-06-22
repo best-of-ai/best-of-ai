@@ -12,4 +12,16 @@ categories:
   - research-tools
   - academia
   - data
+featured_tools:
+  - chatgpt
+  - deepl
+  - google-translate
+  - otter-ai
+  - semantic-scholar
+  - assemblyai
+  - whisper
+  - amplitude-ai
+  - consensus
+  - elicit
+
 ---

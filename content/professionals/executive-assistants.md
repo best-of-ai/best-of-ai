@@ -12,4 +12,16 @@ categories:
   - meeting-assistants
   - productivity
   - automation
+featured_tools:
+  - chatgpt
+  - otter-ai
+  - reclaim-ai
+  - zoom-ai
+  - grammarly
+  - superhuman
+  - zapier
+  - asana
+  - clickup
+  - fireflies-ai
+
 ---

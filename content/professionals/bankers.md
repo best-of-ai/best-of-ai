@@ -11,4 +11,16 @@ categories:
   - fintech
   - compliance
   - customer-support
+featured_tools:
+  - chatgpt
+  - alphasense
+  - morningstar-ai
+  - onetrust
+  - intercom
+  - salesforce
+  - stripe
+  - drift
+  - freshdesk
+  - zendesk
+
 ---

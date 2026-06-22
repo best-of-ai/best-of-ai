@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - presentation
   - no-code
+featured_tools:
+  - chatgpt
+  - synthesia
+  - gamma
+  - heygen
+  - colossyan
+  - canva
+  - sora
+  - luma-dream-machine
+  - copy-ai
+  - grammarly
+
 ---

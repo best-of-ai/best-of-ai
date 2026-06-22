@@ -11,4 +11,16 @@ categories:
   - fitness
   - content-creators
   - productivity
+featured_tools:
+  - chatgpt
+  - canva
+  - asana
+  - grammarly
+  - headspace
+  - calm
+  - myfitnesspal
+  - clickup
+  - todoist
+  - akiflow
+
 ---

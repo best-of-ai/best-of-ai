@@ -12,4 +12,16 @@ categories:
   - automation
   - crm
   - project-management
+featured_tools:
+  - chatgpt
+  - asana
+  - grammarly
+  - zapier
+  - canva
+  - hubspot-crm
+  - gamma
+  - linear
+  - salesforce
+  - clickup
+
 ---

@@ -12,4 +12,16 @@ categories:
   - code-assistant
   - data
   - computer-vision
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - cursor
+  - azure-openai
+  - tableau
+  - drawio
+  - mintlify
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

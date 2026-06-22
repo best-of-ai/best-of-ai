@@ -12,4 +12,16 @@ categories:
   - video-generator
   - image-generation
   - 3d
+featured_tools:
+  - after-effects
+  - runway
+  - midjourney
+  - capcut
+  - lottie
+  - rive
+  - adobe-premiere-pro-ai
+  - luma-dream-machine
+  - sora
+  - flux
+
 ---

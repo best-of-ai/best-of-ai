@@ -12,4 +12,16 @@ categories:
   - 3d
   - code-assistant
   - audio
+featured_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - midjourney
+  - elevenlabs
+  - suno
+  - tripo3d
+  - adobe-podcast
+  - aider
+  - amazon-codewhisperer
+
 ---

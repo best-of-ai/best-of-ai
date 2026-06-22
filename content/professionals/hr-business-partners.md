@@ -12,4 +12,16 @@ categories:
   - data
   - document-ai
   - automation
+featured_tools:
+  - chatgpt
+  - workday
+  - lattice-ai
+  - bamboohr
+  - zapier
+  - grammarly
+  - greenhouse
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - lever
+
 ---

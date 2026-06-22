@@ -12,4 +12,16 @@ categories:
   - voice-cloning
   - writing-assistants
   - productivity
+featured_tools:
+  - suno
+  - udio
+  - elevenlabs
+  - krisp
+  - murf
+  - mubert
+  - descript
+  - asana
+  - adobe-podcast
+  - clickup
+
 ---

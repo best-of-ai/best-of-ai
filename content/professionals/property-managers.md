@@ -12,4 +12,16 @@ categories:
   - automation
   - document-ai
   - chatbots
+featured_tools:
+  - chatgpt
+  - hubspot-crm
+  - zapier
+  - salesforce
+  - canva
+  - mailchimp
+  - zillow
+  - claude
+  - gemini
+  - grok
+
 ---

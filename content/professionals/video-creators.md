@@ -15,4 +15,16 @@ categories:
   - animation
   - talking-avatar-generator
   - video
+featured_tools:
+  - chatgpt
+  - capcut
+  - runway
+  - opus-clip
+  - midjourney
+  - elevenlabs
+  - invideo
+  - adobe-premiere-pro-ai
+  - luma-dream-machine
+  - sora
+
 ---

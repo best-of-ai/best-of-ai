@@ -11,4 +11,16 @@ categories:
   - document-ai
   - transcription
   - research-tools
+featured_tools:
+  - chatgpt
+  - nuance-dax
+  - adobe-acrobat-ai
+  - abridge-ai
+  - suki-ai
+  - notebooklm
+  - semantic-scholar
+  - assemblyai
+  - perplexity-research
+  - scispace
+
 ---

@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - academia
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - semantic-scholar
+  - elicit
+  - tableau
+  - notebooklm
+  - grammarly
+  - scispace
+  - amplitude-ai
+  - buffer
+  - consensus
+
 ---

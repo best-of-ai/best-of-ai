@@ -11,4 +11,16 @@ categories:
   - 3d
   - fashion
   - graphic-design
+featured_tools:
+  - midjourney
+  - ideogram
+  - canva
+  - spline
+  - adobe-firefly
+  - figma
+  - tripo3d
+  - adobe-express
+  - adobe-sensei
+  - flux
+
 ---

@@ -12,4 +12,16 @@ categories:
   - copywriting
   - image-generation
   - video-editor
+featured_tools:
+  - chatgpt
+  - buffer
+  - adobe-premiere-pro-ai
+  - canva
+  - midjourney
+  - later
+  - sprout-social
+  - flux
+  - hubspot
+  - ideogram
+
 ---

@@ -12,4 +12,16 @@ categories:
   - legal-assistants
   - contract-management
   - data
+featured_tools:
+  - chatgpt
+  - drata
+  - vanta
+  - onetrust
+  - notebooklm
+  - harvey
+  - contractsafe
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - power-bi
+
 ---

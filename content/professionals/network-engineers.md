@@ -12,4 +12,16 @@ categories:
   - automation
   - cybersecurity
   - diagramming
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - drawio
+  - cursor
+  - zapier
+  - snyk-ai
+  - mintlify
+  - amazon-bedrock
+  - azure-openai
+  - google-ai-studio
+
 ---

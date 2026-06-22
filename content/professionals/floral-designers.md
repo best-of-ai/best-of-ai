@@ -11,4 +11,16 @@ categories:
   - graphic-design
   - business-tools
   - productivity
+featured_tools:
+  - midjourney
+  - canva
+  - ideogram
+  - chatgpt
+  - figma
+  - grammarly
+  - adobe-express
+  - asana
+  - hubspot-business
+  - adobe-sensei
+
 ---

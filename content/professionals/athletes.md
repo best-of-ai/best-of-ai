@@ -11,4 +11,16 @@ categories:
   - data
   - video-editor
   - productivity
+featured_tools:
+  - whoop
+  - catapult-sports
+  - hudl
+  - stats-perform
+  - capcut
+  - asana
+  - fitbod
+  - adobe-premiere-pro-ai
+  - amplitude-ai
+  - clickup
+
 ---

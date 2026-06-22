@@ -12,4 +12,16 @@ categories:
   - documentation
   - diagramming
   - code-assistant
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - drawio
+  - tableau
+  - github-copilot
+  - notebooklm
+  - mintlify
+  - aider
+  - amazon-codewhisperer
+  - amazon-q
+
 ---

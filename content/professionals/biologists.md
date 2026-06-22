@@ -11,4 +11,16 @@ categories:
   - research-tools
   - data
   - healthcare
+featured_tools:
+  - chatgpt
+  - benchling
+  - semantic-scholar
+  - alphafold-ai
+  - elicit
+  - geneious
+  - scispace
+  - amplitude-ai
+  - consensus
+  - perplexity-research
+
 ---

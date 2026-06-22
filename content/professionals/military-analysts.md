@@ -12,4 +12,16 @@ categories:
   - geospatial
   - document-ai
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - perplexity
+  - notebooklm
+  - semantic-scholar
+  - scispace
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - copy-ai
+
 ---

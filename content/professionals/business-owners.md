@@ -16,4 +16,16 @@ categories:
   - automation
   - customer-support
   - presentation
+featured_tools:
+  - chatgpt
+  - linear
+  - zapier
+  - hubspot-crm
+  - gamma
+  - ramp
+  - intercom
+  - asana
+  - hubspot-business
+  - clickup
+
 ---

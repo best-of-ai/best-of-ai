@@ -11,4 +11,16 @@ categories:
   - writing-assistants
   - storytelling
   - copywriting
+featured_tools:
+  - chatgpt
+  - sudowrite
+  - notion-ai
+  - grammarly
+  - jasper
+  - novelai
+  - quillbot
+  - copy-ai
+  - wordtune
+  - writesonic
+
 ---

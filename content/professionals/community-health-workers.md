@@ -11,4 +11,16 @@ categories:
   - translator
   - productivity
   - document-ai
+featured_tools:
+  - chatgpt
+  - notebooklm
+  - otter-ai
+  - google-translate
+  - nuance-dax
+  - grammarly
+  - deepl
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+
 ---

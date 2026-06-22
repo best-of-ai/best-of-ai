@@ -12,4 +12,16 @@ categories:
   - data
   - productivity
   - e-commerce
+featured_tools:
+  - chatgpt
+  - blue-yonder
+  - asana
+  - tableau
+  - zapier
+  - linear
+  - shopify
+  - amplitude-ai
+  - clickup
+  - make
+
 ---

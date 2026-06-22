@@ -12,4 +12,16 @@ categories:
   - data
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - drata
+  - tableau
+  - alphasense
+  - notebooklm
+  - amplitude-ai
+  - grammarly
+  - adobe-acrobat-ai
+  - perplexity-research
+  - power-bi
+
 ---

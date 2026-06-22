@@ -11,4 +11,16 @@ categories:
   - copywriting
   - research-tools
   - productivity
+featured_tools:
+  - chatgpt
+  - grammarly
+  - jasper
+  - prowritingaid
+  - sudowrite
+  - notion-ai
+  - hemingway-editor
+  - asana
+  - clickup
+  - copy-ai
+
 ---

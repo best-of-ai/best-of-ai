@@ -12,4 +12,16 @@ categories:
   - finance
   - research-tools
   - automation
+featured_tools:
+  - chatgpt
+  - turbotax
+  - taxjar
+  - avalara
+  - zapier
+  - grammarly
+  - notebooklm
+  - adobe-acrobat-ai
+  - make
+  - n8n
+
 ---

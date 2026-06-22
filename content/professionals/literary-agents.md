@@ -11,4 +11,16 @@ categories:
   - research-tools
   - contract-management
   - document-ai
+featured_tools:
+  - chatgpt
+  - notion-ai
+  - grammarly
+  - notebooklm
+  - quillbot
+  - perplexity
+  - writesonic
+  - adobe-acrobat-ai
+  - copy-ai
+  - jasper
+
 ---

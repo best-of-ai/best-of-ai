@@ -12,4 +12,16 @@ categories:
   - productivity
   - document-ai
   - learning-tools
+featured_tools:
+  - chatgpt
+  - asana
+  - canva
+  - grammarly
+  - gamma
+  - khanmigo
+  - quillbot
+  - adobe-acrobat-ai
+  - clickup
+  - copy-ai
+
 ---

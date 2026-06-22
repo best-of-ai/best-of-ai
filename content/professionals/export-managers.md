@@ -12,4 +12,16 @@ categories:
   - translator
   - market-research
   - document-ai
+featured_tools:
+  - chatgpt
+  - deepl
+  - google-translate
+  - salesforce
+  - tableau
+  - notebooklm
+  - zapier
+  - adobe-acrobat-ai
+  - attention-insight
+  - brandwatch
+
 ---

@@ -12,4 +12,16 @@ categories:
   - writing-assistants
   - image-generation
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - capcut
+  - canva
+  - runway
+  - opus-clip
+  - buffer
+  - elevenlabs
+  - adobe-premiere-pro-ai
+  - luma-dream-machine
+  - sora
+
 ---

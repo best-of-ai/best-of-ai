@@ -11,4 +11,16 @@ categories:
   - research-tools
   - copywriting
   - productivity
+featured_tools:
+  - chatgpt
+  - grammarly
+  - perplexity
+  - notion-ai
+  - jasper
+  - quillbot
+  - wordtune
+  - asana
+  - clickup
+  - copy-ai
+
 ---

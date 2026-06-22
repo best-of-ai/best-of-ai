@@ -12,4 +12,16 @@ categories:
   - automation
   - observability
   - cybersecurity
+featured_tools:
+  - chatgpt
+  - github-copilot
+  - n8n
+  - zapier
+  - snyk-ai
+  - cursor
+  - drawio
+  - datadog
+  - amazon-bedrock
+  - azure-openai
+
 ---

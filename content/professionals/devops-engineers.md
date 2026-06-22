@@ -12,4 +12,16 @@ categories:
   - workflow-automation
   - code-assistant
   - productivity
+featured_tools:
+  - github-copilot
+  - cursor
+  - n8n
+  - zapier
+  - chatgpt
+  - asana
+  - azure-openai
+  - aider
+  - amazon-bedrock
+  - amazon-codewhisperer
+
 ---

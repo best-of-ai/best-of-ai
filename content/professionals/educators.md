@@ -12,4 +12,16 @@ categories:
   - productivity
   - presentation
   - document-ai
+featured_tools:
+  - chatgpt
+  - khanmigo
+  - gamma
+  - canva
+  - grammarly
+  - turnitin-ai
+  - notebooklm
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+
 ---

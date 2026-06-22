@@ -11,4 +11,16 @@ categories:
   - marketing
   - social-media-tools
   - email-assistants
+featured_tools:
+  - chatgpt
+  - jasper
+  - grammarly
+  - sprout-social
+  - buffer
+  - mailchimp
+  - canva
+  - hubspot
+  - activecampaign-ai
+  - boomerang
+
 ---

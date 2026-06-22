@@ -12,4 +12,16 @@ categories:
   - research-tools
   - writing-assistants
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - semantic-scholar
+  - notebooklm
+  - grammarly
+  - elicit
+  - amplitude-ai
+  - buffer
+  - copy-ai
+
 ---

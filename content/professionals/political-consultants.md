@@ -11,4 +11,16 @@ categories:
   - sentiment-analysis
   - marketing
   - data
+featured_tools:
+  - chatgpt
+  - semrush
+  - brandwatch
+  - tableau
+  - hubspot
+  - grammarly
+  - perplexity
+  - amplitude-ai
+  - power-bi
+  - scale-ai
+
 ---

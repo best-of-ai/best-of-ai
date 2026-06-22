@@ -11,4 +11,16 @@ categories:
   - research-tools
   - 3d
   - computer-vision
+featured_tools:
+  - chatgpt
+  - arcgis
+  - luma-ai
+  - semantic-scholar
+  - clarifai
+  - notebooklm
+  - research-rabbit
+  - aws-rekognition
+  - perplexity-research
+  - scispace
+
 ---

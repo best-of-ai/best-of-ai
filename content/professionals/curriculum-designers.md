@@ -11,4 +11,16 @@ categories:
   - elearning-developers
   - document-ai
   - productivity
+featured_tools:
+  - chatgpt
+  - synthesis
+  - notion-ai
+  - canva
+  - khanmigo
+  - grammarly
+  - synthesia
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+
 ---

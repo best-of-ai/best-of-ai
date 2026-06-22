@@ -11,4 +11,16 @@ categories:
   - 3d
   - image-generation
   - sustainability
+featured_tools:
+  - midjourney
+  - canva
+  - spline
+  - ideogram
+  - adobe-firefly
+  - figma
+  - adobe-express
+  - adobe-sensei
+  - flux
+  - alpha3d
+
 ---

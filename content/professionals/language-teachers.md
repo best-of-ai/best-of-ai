@@ -12,4 +12,16 @@ categories:
   - learning-tools
   - transcription
   - productivity
+featured_tools:
+  - chatgpt
+  - khanmigo
+  - grammarly
+  - deepl
+  - duolingo
+  - asana
+  - gamma
+  - assemblyai
+  - clickup
+  - copy-ai
+
 ---

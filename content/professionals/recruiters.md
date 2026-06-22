@@ -12,4 +12,16 @@ categories:
   - automation
   - crm
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - greenhouse
+  - linkedin
+  - textio
+  - zapier
+  - grammarly
+  - hubspot-crm
+  - salesforce
+  - copy-ai
+  - jasper
+
 ---

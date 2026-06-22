@@ -11,4 +11,16 @@ categories:
   - 3d
   - document-ai
   - research-tools
+featured_tools:
+  - chatgpt
+  - finch3d
+  - drawio
+  - tableau
+  - notebooklm
+  - adobe-acrobat-ai
+  - autodesk-construction
+  - perplexity-research
+  - scispace
+  - semantic-scholar
+
 ---

@@ -11,4 +11,16 @@ categories:
   - data
   - automation
   - document-ai
+featured_tools:
+  - chatgpt
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - tableau
+  - schrodinger
+  - scispace
+  - elicit
+  - zapier
+  - adobe-acrobat-ai
+  - amplitude-ai
+
 ---

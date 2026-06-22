@@ -1300,6 +1300,37 @@ a.tag-chip:hover {
 .badge-freemium { color: var(--yellow);   border-color: var(--yellow);   background: transparent; }
 .badge-paid     { color: var(--fg-muted); border-color: var(--border);   background: transparent; }
 .badge-cat      { color: var(--accent);   border-color: transparent;     background: var(--accent-bg); }
+.badge-top-pick { color: var(--yellow);   border-color: var(--yellow);   background: transparent; text-decoration: none; }
+.badge-top-pick:hover { background: rgba(210,153,34,0.12); }
+
+/* ── Sidebar top-pick section ── */
+.top-pick-section { margin-bottom: 0.9rem; }
+.top-pick-section__title {
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: var(--fg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.45rem;
+}
+.top-pick-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 0.4rem;
+  background: transparent;
+  transition: background 0.15s;
+  line-height: 1.3;
+}
+.top-pick-badge:hover { background: rgba(210,153,34,0.1); }
+.top-pick-badge__star { font-size: 1rem; flex-shrink: 0; }
 
 /* ── Tool detail page ── */
 .breadcrumb {
@@ -2636,6 +2667,20 @@ body.search-open { overflow: hidden; }
   font-size: 0.68rem;
   padding: 0.05rem 0.35rem;
   border-radius: 20px;
+}
+
+/* ── Profession top-picks section ── */
+.prof-picks-section {
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+  margin-left: -1rem;
+  margin-bottom: 2.5rem;
+}
+.prof-picks-title {
+  color: var(--accent) !important;
+}
+.prof-picks-tab {
+  color: var(--accent) !important;
 }
 
 /* ── 404 page ── */

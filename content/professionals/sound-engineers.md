@@ -11,4 +11,16 @@ categories:
   - music-generation
   - podcast
   - transcription
+featured_tools:
+  - descript
+  - izotope-rx
+  - adobe-podcast
+  - elevenlabs
+  - auphonic
+  - adobe-enhance-speech
+  - murf
+  - assemblyai
+  - cleanvoice
+  - krisp
+
 ---

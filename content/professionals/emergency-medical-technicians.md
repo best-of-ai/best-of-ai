@@ -11,4 +11,16 @@ categories:
   - document-ai
   - productivity
   - automation
+featured_tools:
+  - chatgpt
+  - asana
+  - otter-ai
+  - notebooklm
+  - adobe-acrobat-ai
+  - grammarly
+  - zapier
+  - clickup
+  - make
+  - n8n
+
 ---

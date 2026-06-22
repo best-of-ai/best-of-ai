@@ -11,4 +11,16 @@ categories:
   - compliance
   - research-tools
   - document-ai
+featured_tools:
+  - chatgpt
+  - snyk-ai
+  - wiz
+  - drata
+  - vanta
+  - scispace
+  - semantic-scholar
+  - adobe-acrobat-ai
+  - perplexity-research
+  - chatpdf
+
 ---

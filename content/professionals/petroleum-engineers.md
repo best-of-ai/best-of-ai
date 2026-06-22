@@ -11,4 +11,16 @@ categories:
   - geospatial
   - research-tools
   - automation
+featured_tools:
+  - chatgpt
+  - arcgis
+  - tableau
+  - wolfram-alpha-ai
+  - notebooklm
+  - zapier
+  - drawio
+  - amplitude-ai
+  - make
+  - n8n
+
 ---

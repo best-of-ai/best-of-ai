@@ -11,4 +11,16 @@ categories:
   - image-generation
   - graphic-design
   - market-research
+featured_tools:
+  - midjourney
+  - ideogram
+  - canva
+  - adobe-firefly
+  - stable-diffusion
+  - fashwell
+  - figma
+  - adobe-express
+  - adobe-sensei
+  - flux
+
 ---

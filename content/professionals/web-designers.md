@@ -11,4 +11,16 @@ categories:
   - graphic-design
   - no-code
   - image-generation
+featured_tools:
+  - figma
+  - webflow
+  - framer
+  - midjourney
+  - canva
+  - ideogram
+  - adobe-firefly
+  - adobe-express
+  - adobe-sensei
+  - flux
+
 ---

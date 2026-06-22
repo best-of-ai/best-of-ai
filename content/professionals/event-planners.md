@@ -12,4 +12,16 @@ categories:
   - marketing
   - automation
   - social-media-tools
+featured_tools:
+  - chatgpt
+  - hubspot-business
+  - canva
+  - gamma
+  - zapier
+  - mailchimp
+  - sprout-social
+  - asana
+  - buffer
+  - clickup
+
 ---

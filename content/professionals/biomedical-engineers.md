@@ -12,4 +12,16 @@ categories:
   - document-ai
   - healthcare
   - writing-assistants
+featured_tools:
+  - chatgpt
+  - benchling
+  - semantic-scholar
+  - elicit
+  - grammarly
+  - scispace
+  - tableau
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - copy-ai
+
 ---
