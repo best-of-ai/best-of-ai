@@ -986,6 +986,13 @@
   sidebar: false
   sort_order: 0
 -
+  id: 160
+  name: 'AI Newsletters'
+  description: 'AI newsletters worth following, covering new tools, model releases, and what is actually moving in the industry.'
+  slug: 'ai-newsletters'
+  sidebar: false
+  sort_order: 0
+-
   id: 99
   name: 'Others'
   description: 'Additional tools and resources.'
