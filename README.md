@@ -5,8 +5,8 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1310-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
-[![Categories](https://img.shields.io/badge/categories-142-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1315-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 **[🌐 Website](https://bestofai.io)** &nbsp;·&nbsp; **[➕ Submit a Tool](https://github.com/best-of-ai/best-of-ai/issues/new?template=submit-tool.md&title=Submit+Tool%3A+)** &nbsp;·&nbsp; **[🤝 Contributing](CONTRIBUTING.md)**
@@ -17,13 +17,13 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 142 categories. We track 1310+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1315+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
 - **Quality over quantity** — every tool is reviewed and ranked, not just scraped from a list
 - **Practical focus** — tools are selected for real-world usefulness, not hype
-- **Broad coverage** — 142 categories from [Code Assistants](https://bestofai.io/categories/code-assistant/) to [Video](https://bestofai.io/categories/video/) to [Healthcare](https://bestofai.io/categories/healthcare/)
+- **Broad coverage** — 143 categories from [Code Assistants](https://bestofai.io/categories/code-assistant/) to [Video](https://bestofai.io/categories/video/) to [Healthcare](https://bestofai.io/categories/healthcare/)
 - **Always updated** — new tools added regularly as the AI landscape evolves
 - **Browse by profession** — curated tool stacks for [designers, developers, marketers, and more](https://bestofai.io/professionals/)
 
@@ -65,6 +65,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [3D Printing](#3d-printing) (3)
   - [AI Agents](#ai-agents) (30)
   - [AI Companion](#ai-companion) (4)
+  - [AI Newsletters](#ai-newsletters) (5)
   - [API Tools](#api-tools) (3)
   - [AR/VR](#ar-vr) (3)
   - [Accessibility](#accessibility) (3)
@@ -634,6 +635,18 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Chai](https://chai.ml)** — [review](https://bestofai.io/tools/chai/) — AI chat companions and social entertainment ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Kindroid](https://kindroid.ai)** — [review](https://bestofai.io/tools/kindroid/) — Customisable AI companion with persistent memory ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Anna](https://anna.ai)** — [review](https://bestofai.io/tools/anna-ai/) — Adaptive AI companion that grows with you over time ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+
+---
+
+## [AI Newsletters](https://bestofai.io/categories/ai-newsletters/)
+
+> AI newsletters worth following, covering new tools, model releases, and what is actually moving in the industry.
+
+- **[The Rundown AI](https://www.therundown.ai/)** — [review](https://bestofai.io/tools/the-rundown-ai/) — Daily AI news, short and to the point ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[Superhuman AI](https://www.superhumanai.com/)** — [review](https://bestofai.io/tools/superhuman-ai/) — Use AI to get more done ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[The Neuron](https://www.theneurondaily.com/)** — [review](https://bestofai.io/tools/the-neuron/) — Daily AI news in plain language ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[AI for Developers](https://aifordevelopers.substack.com/)** — [review](https://bestofai.io/tools/ai-for-developers/) — Practical AI for software developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- *[View all 5 AI Newsletters tools on bestofai.io →](https://bestofai.io/categories/ai-newsletters/)*
 
 ---
 
