@@ -5,15 +5,15 @@
 
 <aside class="hl-right">
   {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.right_sidebar "variant" "sidebar") }}
-  <div class="hl-section-label">// professions</div>
-  <input class="sidebar-search" id="prof-search" type="text" placeholder="Filter..." autocomplete="off" spellcheck="false" aria-label="Filter professions">
+  <div class="hl-section-label">By Profession</div>
   <nav class="hl-prof-nav" id="prof-sidebar">
-    {{ range $profs }}
-    {{ $p := .Params }}
-    <a href="{{ .RelPermalink }}" class="prof-link{{ if eq $activeProf $p.slug }} active{{ end }}">
-      {{ with $p.icon }}<span class="prof-link__icon">{{ . }}</span>{{ end }}
-      <span class="prof-link__name">{{ $p.name }}</span>
+    {{ range first 20 $profs }}
+    <a href="{{ .RelPermalink }}" class="prof-link{{ if eq $activeProf .Params.slug }} active{{ end }}">
+      {{ .Params.name }}
     </a>
+    {{ end }}
+    {{ if gt (len $profs) 20 }}
+    <a href="{{ "/professionals/" | relURL }}" class="prof-link prof-link--more">All {{ len $profs }} professions →</a>
     {{ end }}
   </nav>
 </aside>
