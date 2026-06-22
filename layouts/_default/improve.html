@@ -1,0 +1,187 @@
+{{ define "main" }}
+{{ $repo := .Site.Params.githubRepo }}
+
+<div class="submit-page container">
+
+  <!-- Hero -->
+  <div class="submit-hero">
+    <div class="submit-hero__eyebrow">// help us improve</div>
+    <h1 class="submit-hero__title">Keep the directory honest</h1>
+    <p class="submit-hero__sub">The leaderboard is updated by hand based on what people report. If a tool is missing, ranked in a way that no longer fits, or has shut down, we find out when someone tells us.</p>
+  </div>
+
+  <!-- Main two-column grid -->
+  <div class="submit-main">
+
+    <!-- Left: two forms -->
+    <div class="submit-form-col">
+
+      <!-- Form 1: Leaderboard -->
+      <div class="submit-card">
+        <div class="submit-card__header">
+          <span class="submit-card__badge">leaderboard</span>
+          <p class="submit-card__note">Tell us what should change and why. We review every report.</p>
+        </div>
+
+        <form class="sf-form" id="lb-form" novalidate>
+
+          <div class="sf-field" id="lb-field-action">
+            <label class="sf-label">What are you suggesting? <span class="sf-required">*</span></label>
+            <div class="sf-price-group" id="lb-action-group">
+              <label class="sf-price-pill"><input type="radio" name="lb-action" value="Add to leaderboard"><span>Add a tool</span></label>
+              <label class="sf-price-pill"><input type="radio" name="lb-action" value="Remove from leaderboard"><span>Remove a tool</span></label>
+            </div>
+            <span class="sf-error-msg">Please pick an action.</span>
+          </div>
+
+          <div class="sf-field" id="lb-field-name">
+            <label class="sf-label" for="lb-name">Tool name <span class="sf-required">*</span></label>
+            <input class="sf-input" id="lb-name" type="text" placeholder="e.g. Midjourney" autocomplete="off">
+            <span class="sf-error-msg">Name is required.</span>
+          </div>
+
+          <div class="sf-field" id="lb-field-url">
+            <label class="sf-label" for="lb-url">Tool URL</label>
+            <input class="sf-input" id="lb-url" type="url" placeholder="https://example.com">
+          </div>
+
+          <div class="sf-field" id="lb-field-why">
+            <label class="sf-label" for="lb-why">Why? <span class="sf-required">*</span></label>
+            <span class="sf-hint">Is it widely used? Should it be in the list but isn't? Or does it hold a spot it no longer deserves?</span>
+            <textarea class="sf-textarea" id="lb-why" rows="3" placeholder="Tell us why..."></textarea>
+            <span class="sf-error-msg">Please explain your reasoning.</span>
+          </div>
+
+          <button type="submit" class="sf-submit-btn">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            Open GitHub issue
+          </button>
+
+        </form>
+
+        <script>
+        (function () {
+          var REPO = '{{ $repo }}';
+          var form  = document.getElementById('lb-form');
+          var fName = document.getElementById('lb-name');
+          var fUrl  = document.getElementById('lb-url');
+          var fWhy  = document.getElementById('lb-why');
+
+          function setError(fieldId, hasError) {
+            var el = document.getElementById('lb-field-' + fieldId);
+            if (!el) return;
+            el.classList.toggle('has-error', hasError);
+            var inp = el.querySelector('.sf-input, .sf-textarea');
+            if (inp) inp.classList.toggle('is-error', hasError);
+            var grp = el.querySelector('.sf-price-group');
+            if (grp) grp.classList.toggle('is-error', hasError);
+          }
+
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var action = (form.querySelector('input[name="lb-action"]:checked') || {}).value || '';
+            var name   = fName.value.trim();
+            var url    = fUrl.value.trim();
+            var why    = fWhy.value.trim();
+
+            setError('action', !action);
+            setError('name',   !name);
+            setError('why',    !why);
+            if (!action || !name || !why) return;
+
+            var title = 'Leaderboard: ' + name;
+            var body = [
+              '## Leaderboard suggestion',
+              '',
+              '**Action:** ' + action,
+              '',
+              '**Tool name:** ' + name,
+              url ? '**Tool URL:** ' + url : '',
+              '',
+              '**Why:**',
+              why,
+            ].filter(function(l){ return l !== false; }).join('\n');
+
+            window.open(REPO + '/issues/new?title=' + encodeURIComponent(title) +
+              '&body=' + encodeURIComponent(body) + '&labels=leaderboard', '_blank', 'noopener');
+          });
+        })();
+        </script>
+      </div><!-- /submit-card leaderboard -->
+
+      <div class="improve-form-sep">
+        <span class="improve-form-sep__label">also</span>
+      </div>
+
+      <a href="{{ "/edit/" | relURL }}" class="improve-report-link">
+        <div class="improve-report-link__inner">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          <div>
+            <div class="improve-report-link__title">Suggest an edit</div>
+            <div class="improve-report-link__sub">Wrong URL, description, category, or pricing? Correct the listing without removing it.</div>
+          </div>
+          <svg class="improve-report-link__arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </a>
+
+    </div><!-- /submit-form-col -->
+
+    <!-- Right: Sidebar -->
+    <aside class="submit-sidebar">
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// leaderboard criteria</div>
+        <p class="submit-sidebar__text">Usage matters, but the leaderboard isn't a straight popularity ranking. A good tool with a small audience can belong. A viral one that doesn't work probably shouldn't. We make the call based on whether the tool does what it says for the people who use it.</p>
+      </div>
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// what gets removed</div>
+        <p class="submit-sidebar__text">We remove tools that have gone offline, projects that have stalled with no activity for a long time, products that launched with AI branding but never shipped anything, and clone tools with no real user base.</p>
+      </div>
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// what happens next</div>
+        <div class="submit-steps">
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Report posted</strong>
+              <p>Your report goes into the GitHub issues queue. You can track it there and add more context if needed.</p>
+            </div>
+          </div>
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Maintainers review</strong>
+              <p>Reports are checked in batches, usually within a few days. If they need more information, they'll comment on the issue.</p>
+            </div>
+          </div>
+          <div class="submit-step submit-step--last">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Change goes live</strong>
+              <p>Accepted changes go live after the next deploy. The issue closes with a note on what changed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// prefer a pull request?</div>
+        <p class="submit-sidebar__text">You can edit tool files directly in <a href="{{ $repo }}/tree/main/content/tools" target="_blank" rel="noopener">content/tools/</a> on GitHub and open a PR. Each file's name matches the tool's slug.</p>
+      </div>
+
+    </aside>
+
+  </div><!-- /submit-main -->
+
+</div>
+{{ end }}

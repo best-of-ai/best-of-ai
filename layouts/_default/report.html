@@ -1,0 +1,205 @@
+{{ define "main" }}
+{{ $repo := .Site.Params.githubRepo }}
+
+<div class="submit-page container">
+
+  <div class="submit-hero">
+    <div class="submit-hero__eyebrow">// report a problem</div>
+    <h1 class="submit-hero__title">Report a tool</h1>
+    <p class="submit-hero__sub">For dead links, abandoned projects, spam, and tools that never shipped anything real. Clicking submit opens a pre-filled GitHub issue — you just need a GitHub account to post it.</p>
+  </div>
+
+  <div class="submit-main">
+    <div class="submit-form-col">
+
+      <div class="submit-card">
+        <div class="submit-card__header">
+          <span class="submit-card__badge submit-card__badge--red">report a tool</span>
+          <p class="submit-card__note">Pick a reason below — it'll write a starting point in the details field for you to edit.</p>
+        </div>
+
+        <form class="sf-form" id="rm-form" novalidate>
+
+          <div class="sf-field" id="rm-field-name">
+            <label class="sf-label" for="rm-name">Tool name <span class="sf-required">*</span></label>
+            <input class="sf-input" id="rm-name" type="text" placeholder="e.g. SomeTool AI" autocomplete="off">
+            <span class="sf-error-msg">Name is required.</span>
+          </div>
+
+          <div class="sf-field" id="rm-field-url">
+            <label class="sf-label" for="rm-url">Tool URL</label>
+            <input class="sf-input" id="rm-url" type="url" placeholder="https://example.com">
+          </div>
+
+          <div class="sf-field" id="rm-field-reason">
+            <label class="sf-label">Reason <span class="sf-required">*</span></label>
+            <div class="sf-reason-pills" id="rm-reason-group">
+              <label class="sf-reason-pill" data-suggest="The website is no longer accessible. The domain appears to be dead, parked, or redirecting elsewhere.">
+                <input type="radio" name="rm-reason" value="Dead / domain gone">
+                <span>Dead / domain gone</span>
+              </label>
+              <label class="sf-reason-pill" data-suggest="This product appears abandoned. No updates or activity in a long time, and the team is unresponsive.">
+                <input type="radio" name="rm-reason" value="Abandoned">
+                <span>Abandoned</span>
+              </label>
+              <label class="sf-reason-pill" data-suggest="This tool launched with AI branding but never shipped a working product. The website exists but there is nothing real behind it.">
+                <input type="radio" name="rm-reason" value="Never shipped a real product">
+                <span>Never shipped</span>
+              </label>
+              <label class="sf-reason-pill" data-suggest="This tool does not meet basic quality standards. It does not do what it claims, or the experience is clearly broken.">
+                <input type="radio" name="rm-reason" value="Low quality">
+                <span>Low quality</span>
+              </label>
+              <label class="sf-reason-pill" data-suggest="This appears to be a spam or clone tool with no original functionality and no real user base.">
+                <input type="radio" name="rm-reason" value="Spam / clone">
+                <span>Spam / clone</span>
+              </label>
+            </div>
+            <span class="sf-error-msg">Please pick a reason.</span>
+          </div>
+
+          <div class="sf-field" id="rm-field-details">
+            <label class="sf-label" for="rm-details">Details <span class="sf-required">*</span></label>
+            <textarea class="sf-textarea" id="rm-details" rows="4" placeholder="Select a reason above to get a starting point..."></textarea>
+            <span class="sf-error-msg">Please add some details.</span>
+          </div>
+
+          <button type="submit" class="sf-submit-btn sf-submit-btn--red">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            Open GitHub issue
+          </button>
+
+        </form>
+
+        <script>
+        (function () {
+          var REPO = '{{ $repo }}';
+          var params  = new URLSearchParams(window.location.search);
+          var nameEl  = document.getElementById('rm-name');
+          var urlEl   = document.getElementById('rm-url');
+          if (params.get('tool')) nameEl.value = params.get('tool');
+          if (params.get('url'))  urlEl.value  = params.get('url');
+
+          var form     = document.getElementById('rm-form');
+          var fDetails = document.getElementById('rm-details');
+          var userEdited = false;
+
+          fDetails.addEventListener('input', function () { userEdited = true; });
+
+          document.querySelectorAll('.sf-reason-pill input[type="radio"]').forEach(function (radio) {
+            radio.addEventListener('change', function () {
+              if (!userEdited) {
+                var suggestion = radio.closest('.sf-reason-pill').dataset.suggest || '';
+                fDetails.value = suggestion;
+              }
+              document.getElementById('rm-field-reason').classList.remove('has-error');
+              document.getElementById('rm-reason-group').classList.remove('is-error');
+            });
+          });
+
+          function setError(fieldId, hasError) {
+            var el = document.getElementById('rm-field-' + fieldId);
+            if (!el) return;
+            el.classList.toggle('has-error', hasError);
+            var inp = el.querySelector('.sf-input, .sf-textarea');
+            if (inp) inp.classList.toggle('is-error', hasError);
+            var grp = el.querySelector('.sf-reason-pills');
+            if (grp) grp.classList.toggle('is-error', hasError);
+          }
+
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var name    = nameEl.value.trim();
+            var url     = urlEl.value.trim();
+            var reason  = (form.querySelector('input[name="rm-reason"]:checked') || {}).value || '';
+            var details = fDetails.value.trim();
+
+            setError('name',    !name);
+            setError('reason',  !reason);
+            setError('details', !details);
+            if (!name || !reason || !details) return;
+
+            var title = 'Report Tool: ' + name;
+            var body = [
+              '## Tool',
+              '',
+              '**Name:** ' + name,
+              url ? '**URL:** ' + url : null,
+              '',
+              '**Reason:** ' + reason,
+              '',
+              '## Details',
+              details,
+            ].filter(function(l){ return l !== null; }).join('\n');
+
+            window.open(REPO + '/issues/new?title=' + encodeURIComponent(title) +
+              '&body=' + encodeURIComponent(body) + '&labels=remove', '_blank', 'noopener');
+          });
+        })();
+        </script>
+      </div>
+
+      <div class="improve-form-sep">
+        <span class="improve-form-sep__label">wrong info instead?</span>
+      </div>
+
+      <a href="{{ "/edit/" | relURL }}" class="improve-report-link">
+        <div class="improve-report-link__inner">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          <div>
+            <div class="improve-report-link__title">Suggest an edit instead</div>
+            <div class="improve-report-link__sub">Wrong URL, description, category, or pricing — fix the listing without removing it.</div>
+          </div>
+          <svg class="improve-report-link__arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </a>
+
+    </div>
+
+    <aside class="submit-sidebar">
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// what gets removed</div>
+        <p class="submit-sidebar__text">We remove tools that have gone offline, projects with no activity for a long time, products that launched with AI branding but never shipped anything, and clone tools with no real user base.</p>
+      </div>
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// what happens next</div>
+        <div class="submit-steps">
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Report posted</strong>
+              <p>Goes into the GitHub issues queue. You can track it and add more context there.</p>
+            </div>
+          </div>
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Maintainers review</strong>
+              <p>Reports are checked in batches, usually within a few days. If they need more information, they'll comment on the issue.</p>
+            </div>
+          </div>
+          <div class="submit-step submit-step--last">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Change goes live</strong>
+              <p>Accepted removals go live after the next deploy. The issue closes with a note on what changed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+</div>
+{{ end }}

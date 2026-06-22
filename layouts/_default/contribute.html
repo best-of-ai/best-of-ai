@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{ $repo   := .Site.Params.githubRepo }}
+{{ $tools  := where .Site.RegularPages "Section" "tools" }}
+
+<div class="contribute-page container">
+
+  <div class="contribute-hero">
+    <div class="submit-hero__eyebrow">// open source</div>
+    <h1 class="contribute-hero__title">Contribute</h1>
+    <p class="contribute-hero__sub">The community built this and keeps it running. All the data is Markdown files on GitHub, no database, no backend. If it's been useful to you, help keep it accurate.</p>
+    <a href="{{ $repo }}" target="_blank" rel="noopener" class="contribute-hero__repo">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      {{ $repo | replaceRE "https://github.com/" "" }}
+      <span class="contribute-hero__repo-stat">{{ partial "count.html" (len $tools) }} tools</span>
+    </a>
+  </div>
+
+  <div class="contribute-grid">
+
+    <a href="{{ "/submit/" | relURL }}" class="contribute-card">
+      <div class="contribute-card__icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+      </div>
+      <div class="contribute-card__body">
+        <div class="contribute-card__title">Submit a tool</div>
+        <p class="contribute-card__desc">Know an AI tool that's not here yet? Add it. All you need is a GitHub account.</p>
+      </div>
+      <svg class="contribute-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+
+    <a href="{{ "/edit/" | relURL }}" class="contribute-card">
+      <div class="contribute-card__icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      </div>
+      <div class="contribute-card__body">
+        <div class="contribute-card__title">Suggest an edit</div>
+        <p class="contribute-card__desc">Something off about a listing? Fix the URL, description, or category without pulling the whole thing.</p>
+      </div>
+      <svg class="contribute-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+
+    <a href="{{ "/ranking/" | relURL }}" class="contribute-card">
+      <div class="contribute-card__icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+      </div>
+      <div class="contribute-card__body">
+        <div class="contribute-card__title">Suggest a ranking change</div>
+        <p class="contribute-card__desc">Think a tool deserves a different spot on the leaderboard? Tell us why.</p>
+      </div>
+      <svg class="contribute-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+
+    <a href="{{ "/report/" | relURL }}" class="contribute-card contribute-card--red">
+      <div class="contribute-card__icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+      </div>
+      <div class="contribute-card__body">
+        <div class="contribute-card__title">Report a tool</div>
+        <p class="contribute-card__desc">Dead link? Abandoned project? Something that just doesn't belong? Flag it.</p>
+      </div>
+      <svg class="contribute-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+
+  </div>
+
+  <div class="contribute-oss">
+    <div class="submit-section-label">// how it works</div>
+    <p>Every contribution goes through a GitHub issue or pull request. The data is plain Markdown: each tool is one <code>.md</code> file in <a href="{{ $repo }}/tree/main/content/tools" target="_blank" rel="noopener">content/tools/</a>. If you know Git, skip the forms and open a PR directly.</p>
+  </div>
+
+</div>
+{{ end }}
