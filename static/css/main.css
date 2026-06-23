@@ -113,7 +113,7 @@ main { flex: 1; }
   gap: 0.5rem;
   color: var(--fg);
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   flex-shrink: 0;
 }
 .site-logo:hover { opacity: 1; color: var(--fg); }
@@ -157,6 +157,46 @@ main { flex: 1; }
 .mobile-menu-btn.is-open span:nth-child(2) { opacity: 0; }
 .mobile-menu-btn.is-open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 @media (max-width: 900px) { .mobile-menu-btn { display: flex; } }
+
+/* ── Mobile saved button (hidden on desktop) ── */
+.mob-saved-btn {
+  display: none;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--fg-muted);
+  border-radius: 6px;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+.mob-saved-btn:hover { color: var(--accent); opacity: 1; }
+.mob-saved-btn .saved-count {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+/* ── Mobile header: 2-row layout ── */
+@media (max-width: 900px) {
+  .mob-saved-btn { display: flex; }
+  .site-header__top {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 0.6rem 1rem;
+    gap: 0.55rem 0.5rem;
+  }
+  /* Row 1: logo col 1, saved col 2, theme col 3, hamburger col 4 */
+  .site-logo       { grid-column: 1; grid-row: 1; align-self: center; }
+  .mob-saved-btn   { grid-column: 2; grid-row: 1; align-self: center; }
+  .theme-toggle    { grid-column: 3; grid-row: 1; align-self: center; }
+  .mobile-menu-btn { grid-column: 4; grid-row: 1; align-self: center; }
+  /* Row 2: search spans full width */
+  .header-search   { grid-column: 1 / -1; grid-row: 2; }
+  .header-search__wrap { height: 40px; }
+}
 
 /* ── Mobile drawer ── */
 .mobile-menu {
@@ -574,8 +614,8 @@ body.mobile-menu-open { overflow: hidden; }
 
 /* ── Theme toggle ── */
 .theme-toggle {
-  width: 36px;
-  height: 36px;
+  width: 46px;
+  height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,6 +707,20 @@ body.mobile-menu-open { overflow: hidden; }
 .sb-quick__link.active svg { opacity: 1; color: var(--accent); }
 .sb-quick__link--github { color: var(--fg-muted); }
 .sb-quick__link--github:hover { color: var(--fg); }
+.sb-quick__link .saved-count {
+  position: static;
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  background: none;
+  color: var(--fg-muted);
+  font-weight: 600;
+  line-height: 1;
+  min-width: unset;
+  height: auto;
+  padding: 0;
+  border-radius: 0;
+}
 
 /* Divider between sidebar sections */
 .sb-divider {

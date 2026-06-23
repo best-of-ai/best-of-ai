@@ -26,7 +26,7 @@
   <!-- Row 1: Logo + search + theme -->
   <div class="site-header__top">
     <a href="{{ "/" | relURL }}" class="site-logo">
-      <img src="{{ "favicon/favicon.svg" | relURL }}" width="24" height="24" alt="Best of AI" aria-hidden="true">
+      <img src="{{ "favicon/favicon.svg" | relURL }}" width="30" height="30" alt="Best of AI" aria-hidden="true">
       <span>Best of <span class="logo-accent">AI</span></span>
     </a>
 
@@ -40,9 +40,14 @@
       <div class="header-search__dropdown" id="header-search-dropdown" role="listbox"></div>
     </div>
 
+    <a href="{{ "/saved/" | relURL }}" class="mob-saved-btn" aria-label="Saved tools">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      <span class="saved-count" hidden></span>
+    </a>
+
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-      <svg class="icon-sun" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-      <svg class="icon-moon" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg class="icon-moon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
 
     <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
@@ -127,11 +132,6 @@
     </nav>
 
     <div class="site-header__actions">
-      <a href="{{ "/saved/" | relURL }}" class="nav-btn nav-btn--link nav-btn--saved">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-        Saved
-        <span class="saved-count" hidden></span>
-      </a>
       <a href="{{ "/contribute/" | relURL }}" class="btn btn-submit">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
         Submit Tool
