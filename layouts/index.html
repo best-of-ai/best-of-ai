@@ -23,20 +23,6 @@
       </div>
     </div>
 
-    <div class="home-search-wrap">
-      <svg class="home-search__icon" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
-      <input
-        id="home-search"
-        class="home-search__input"
-        type="text"
-        placeholder="Search tools, categories, tags…"
-        autocomplete="off"
-        spellcheck="false"
-        aria-label="Search tools"
-      >
-      <kbd class="home-search__kbd">⌘K</kbd>
-    </div>
-
     <div class="price-bar" id="price-bar">
       <span class="price-bar__label">// filter</span>
       <button class="pf active" data-price="all">all</button>
@@ -44,14 +30,6 @@
       <button class="pf" data-price="Freemium">freemium</button>
       <button class="pf" data-price="Paid">paid</button>
     </div>
-
-    <div class="no-results" id="no-results" hidden>
-      <p>No tools found matching your search.</p>
-      <button onclick="document.getElementById('home-search').value='';window.baiFilter()">Clear search</button>
-    </div>
-
-    <!-- Search results rendered by JS -->
-    <div id="home-search-results" hidden></div>
 
     <!-- ── Sponsored (home leaderboard) ── -->
     {{ $homeAds := where hugo.Data.ads.home_leaderboard "enabled" true }}
@@ -132,112 +110,11 @@
 
 <script>
 (function() {
-  var searchInput  = document.getElementById('home-search');
-  var noResults    = document.getElementById('no-results');
   var priceFilters = document.querySelectorAll('.pf');
-  var searchEl     = document.getElementById('home-search-results');
   var sections     = Array.from(document.querySelectorAll('.tool-section'));
-
   var activePrice  = 'all';
-  var indexPromise = null;
-
-  function getIndex() {
-    if (!indexPromise) {
-      indexPromise = fetch('{{ "/index.json" | relURL }}')
-        .then(function(r) { return r.json(); })
-        .then(function(d) { return d.filter(function(x) { return x.type === 'tool'; }); })
-        .catch(function() { return []; });
-    }
-    return indexPromise;
-  }
-
-  function esc(s) {
-    return String(s || '').replace(/[&<>"']/g, function(c) {
-      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
-    });
-  }
-
-  var EXT   = '<svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
-  var GHOST = '<svg class="tool-card__ghost" width="11" height="11" viewBox="0 0 24 24" fill="currentColor" title="Discontinued"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>';
-
-  var PRICE_ICON = {
-    'Free':     '<span class="tool-card__price-icon price-free" title="Free"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg></span>',
-    'Freemium': '<span class="tool-card__price-icon price-freemium" title="Freemium"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>',
-    'Paid':     '<span class="tool-card__price-icon price-paid" title="Paid"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>'
-  };
-
-  function renderCard(t) {
-    var dead = !!t.dead;
-    var logoSrc = t.logo_url
-      ? esc(t.logo_url)
-      : 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(t.website || '') + '&sz=32';
-    var desc = t.subtitle || (t.description || '').slice(0, 80);
-    var tag   = dead ? 'div' : 'a';
-    var open  = dead
-      ? '<div class="tool-card tool-card--dead" data-price="' + esc(t.price || '') + '" title="This tool is no longer active">'
-      : '<a href="' + esc(t.url) + '" class="tool-card" data-price="' + esc(t.price || '') + '">';
-    var close = dead ? '</div>' : '</a>';
-    return open
-      + '<div class="tool-card__logo">'
-      + '<img src="' + logoSrc + '" alt="' + esc(t.name) + '" loading="lazy"'
-      + ' onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">'
-      + '<span class="tool-logo-fallback" style="display:none">' + esc((t.name || '').charAt(0)) + '</span>'
-      + '</div>'
-      + '<div class="tool-card__body">'
-      + '<span class="tool-card__name">' + esc(t.name || '') + '</span>'
-      + '<span class="tool-card__desc">' + esc(desc) + '</span>'
-      + '</div>'
-      + (PRICE_ICON[t.price] || '')
-      + (dead ? GHOST : EXT)
-      + close;
-  }
-
-  function showSearch(q) {
-    var ql = q.toLowerCase();
-    getIndex().then(function(tools) {
-      var matched = tools.filter(function(t) {
-        if (activePrice !== 'all' && t.price !== activePrice) return false;
-        return (t.name        || '').toLowerCase().includes(ql)
-            || (t.description || '').toLowerCase().includes(ql)
-            || (t.subtitle    || '').toLowerCase().includes(ql)
-            || (t.category    || '').toLowerCase().includes(ql);
-      });
-
-      matched.sort(function(a, b) {
-        var an = (a.name || '').toLowerCase();
-        var bn = (b.name || '').toLowerCase();
-        var as = an === ql ? 3 : an.startsWith(ql) ? 2 : an.includes(ql) ? 1 : 0;
-        var bs = bn === ql ? 3 : bn.startsWith(ql) ? 2 : bn.includes(ql) ? 1 : 0;
-        return bs - as;
-      });
-
-      sections.forEach(function(s) { s.style.display = 'none'; });
-      searchEl.removeAttribute('hidden');
-
-      if (!matched.length) {
-        if (noResults) noResults.hidden = false;
-        searchEl.innerHTML = '';
-        return;
-      }
-      if (noResults) noResults.hidden = true;
-
-      var html = '<div class="tools-grid">' + matched.slice(0, 60).map(renderCard).join('') + '</div>';
-      if (matched.length > 60) {
-        html += '<p style="color:var(--fg-muted);text-align:center;padding:1rem 0">Showing 60 of ' + matched.length + ' results</p>';
-      }
-      searchEl.innerHTML = html;
-    });
-  }
-
-  function showDefault() {
-    sections.forEach(function(s) { s.style.display = ''; });
-    searchEl.setAttribute('hidden', '');
-    searchEl.innerHTML = '';
-    filterDefault();
-  }
 
   function filterDefault() {
-    var total = 0;
     sections.forEach(function(section) {
       var vis = 0;
       section.querySelectorAll('.tool-card').forEach(function(card) {
@@ -246,33 +123,21 @@
         if (show) vis++;
       });
       section.style.display = vis > 0 ? '' : 'none';
-      total += vis;
     });
-    if (noResults) noResults.hidden = total > 0;
   }
-
-  function onSearch() {
-    var q = searchInput ? searchInput.value.trim() : '';
-    if (!q) { showDefault(); return; }
-    showSearch(q);
-  }
-
-  window.baiFilter = onSearch;
-
-  if (searchInput) searchInput.addEventListener('input', onSearch);
 
   priceFilters.forEach(function(btn) {
     btn.addEventListener('click', function() {
       activePrice = btn.dataset.price || 'all';
       priceFilters.forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
-      onSearch();
+      filterDefault();
     });
   });
 
   // Scrollspy — highlight sidebar link as user scrolls
-  var catLinks     = document.querySelectorAll('.cat-link');
-  var scrollSects  = document.querySelectorAll('.tool-section[id]');
+  var catLinks    = document.querySelectorAll('.cat-link');
+  var scrollSects = document.querySelectorAll('.tool-section[id]');
   window.addEventListener('scroll', function() {
     var scrollY = window.scrollY + 120;
     var current = '';

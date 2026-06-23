@@ -4,30 +4,41 @@
 
 <div class="home-layout">
 
-  <!-- ── Left: categories ── -->
   {{ partial "left-sidebar.html" . }}
 
-  <!-- ── Center: recently added ── -->
   <main class="hl-center">
 
-    <div class="lb-hero">
-      <div class="lb-hero__icon">🆕</div>
-      <div>
-        <h1 class="lb-hero__title">Recently Added Tools</h1>
-        <p class="lb-hero__desc">The latest AI tools added to the directory.</p>
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Recently Added</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Recently Added <span>AI Tools</span></h1>
+      <p class="pg-hero__desc">New AI tools added to the directory as we find them. Recent releases and tools worth knowing about.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ len $recent }}</strong> tools
+        <span class="sep">·</span>
+        <span>sorted by date added</span>
       </div>
     </div>
 
-    <div class="price-bar" id="price-bar">
-      <span class="price-bar__label">// filter</span>
+    <div class="pg-toolbar">
+      <div class="pg-search">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="new-search" placeholder="Search tools..." autocomplete="off" aria-label="Search recently added tools">
+      </div>
       <button class="pf active" data-price="all">all</button>
       <button class="pf" data-price="Free">free</button>
       <button class="pf" data-price="Freemium">freemium</button>
       <button class="pf" data-price="Paid">paid</button>
     </div>
 
+    <p id="new-no-results" hidden style="padding:2rem 0;color:var(--fg-muted);text-align:center;font-size:0.9rem">No tools match your search.</p>
+
     <section class="tool-section">
-      <div class="tools-grid">
+      <div class="tools-grid" id="new-grid">
         {{ range $recent }}
         {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
         {{ end }}
@@ -36,33 +47,50 @@
 
   </main>
 
-  <!-- ── Right: professions ── -->
   {{ partial "right-sidebar.html" . }}
 
 </div>
 
 <script>
 (function() {
-  var priceFilters = document.querySelectorAll('.pf');
-  var section      = document.querySelector('.tool-section');
-  var activePrice  = 'all';
+  var searchInput = document.getElementById('new-search');
+  var priceBtns   = document.querySelectorAll('.pf');
+  var grid        = document.getElementById('new-grid');
+  var noRes       = document.getElementById('new-no-results');
+  var activePrice = 'all';
+  var activeQuery = '';
 
-  function filter() {
-    if (!section) return;
-    section.querySelectorAll('.tool-card').forEach(function(card) {
-      var show = activePrice === 'all' || card.dataset.price === activePrice;
+  function filterAll() {
+    if (!grid) return;
+    var vis = 0;
+    grid.querySelectorAll('.tool-card').forEach(function(card) {
+      var priceMatch = activePrice === 'all' || card.dataset.price === activePrice;
+      var nameEl     = card.querySelector('.tool-card__name');
+      var descEl     = card.querySelector('.tool-card__desc');
+      var text       = ((nameEl ? nameEl.textContent : '') + ' ' + (descEl ? descEl.textContent : '')).toLowerCase();
+      var queryMatch = !activeQuery || text.indexOf(activeQuery) !== -1;
+      var show       = priceMatch && queryMatch;
       card.style.display = show ? '' : 'none';
+      if (show) vis++;
     });
+    if (noRes) noRes.hidden = vis > 0;
   }
 
-  priceFilters.forEach(function(btn) {
+  priceBtns.forEach(function(btn) {
     btn.addEventListener('click', function() {
       activePrice = btn.dataset.price || 'all';
-      priceFilters.forEach(function(b) { b.classList.remove('active'); });
+      priceBtns.forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
-      filter();
+      filterAll();
     });
   });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      activeQuery = searchInput.value.trim().toLowerCase();
+      filterAll();
+    });
+  }
 })();
 </script>
 {{ partial "sidebar-search-js.html" . }}

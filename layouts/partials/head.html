@@ -4,6 +4,7 @@
 {{ $is404    := hasPrefix (lower .Title) "404" }}
 {{ $isSaved  := eq .Params.layout "saved" }}
 {{ $isTool   := and .IsPage (eq .Section "tools") }}
+{{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $name     := or .Params.name .Title }}
 {{ $siteURL  := .Site.BaseURL | strings.TrimRight "/" }}
 {{ $ogImageDefault := printf "%s/img/preview.png" $siteURL }}
@@ -19,6 +20,9 @@
 {{ $pageTitle := "" }}
 {{ if .IsHome }}
   {{ $pageTitle = "Best of AI — Handpicked AI Tools Directory" }}
+{{ else if $isFree }}
+  {{ $freeCount := add (len (where .Site.RegularPages "Params.price" "Free")) (len (where .Site.RegularPages "Params.price" "Freemium")) }}
+  {{ $pageTitle = printf "Top Free AI Tools (%d) — Best of AI" $freeCount }}
 {{ else if $isTool }}
   {{ $cat := .Params.category_name | default "" }}
   {{ $pageTitle = printf "%s — %s AI Tool | Best of AI" $name $cat }}
@@ -54,6 +58,9 @@
 {{ $desc := "" }}
 {{ if .IsHome }}
   {{ $desc = .Site.Params.description }}
+{{ else if $isFree }}
+  {{ $freeDescCount := add (len (where .Site.RegularPages "Params.price" "Free")) (len (where .Site.RegularPages "Params.price" "Freemium")) }}
+  {{ $desc = printf "%d free and freemium AI tools, handpicked across writing, coding, image generation, and more. No credit card required." $freeDescCount }}
 {{ else if $isTool }}
   {{ $price    := .Params.price | default "" }}
   {{ $cat      := .Params.category_name | default "AI" }}
@@ -102,7 +109,9 @@
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* ── Keywords ── */}}
-{{ if $isTool }}
+{{ if $isFree }}
+<meta name="keywords" content="free AI tools, best free AI tools, top free AI tools, freemium AI tools, free artificial intelligence tools, AI tools free, free AI writing tools, free AI coding tools, free AI image generator, no credit card AI tools">
+{{ else if $isTool }}
 {{ $kws := slice $name (.Params.category_name | default "") "AI" "artificial intelligence" }}
 {{ range .Params.tags }}{{ $kws = $kws | append . }}{{ end }}
 <meta name="keywords" content="{{ delimit $kws ", " }}">

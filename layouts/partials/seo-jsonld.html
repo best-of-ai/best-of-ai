@@ -39,7 +39,13 @@
 {{ $home  := dict "@type" "ListItem" "position" 1 "name" "Home" "item" (printf "%s/" $siteURL) }}
 {{ $items := slice $home }}
 
-{{ if and .IsPage (eq .Section "tools") }}
+{{ if eq .RelPermalink "/free/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Free AI Tools" "item" .Permalink) }}
+{{ else if eq .RelPermalink "/leaderboard/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "AI Tools Leaderboard" "item" .Permalink) }}
+{{ else if eq .RelPermalink "/new/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Recently Added AI Tools" "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "tools") }}
   {{ if .Params.category_name }}
     {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Params.category_name "item" (printf "%s/categories/%s/" $siteURL .Params.category)) }}
   {{ end }}
@@ -116,6 +122,83 @@
   {{ end }}
   {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (printf "AI Tools tagged %s" .Title) "itemListElement" $listItems }}
   <script type="application/ld+json">{{ $listSchema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{/* ── CollectionPage + FAQPage (/free/) ── */}}
+{{ if eq .RelPermalink "/free/" }}
+  {{ $allTools   := where .Site.RegularPages "Section" "tools" }}
+  {{ $freeTools  := union (where $allTools "Params.price" "Free") (where $allTools "Params.price" "Freemium") }}
+  {{ $freeCount  := len $freeTools }}
+  {{ $listItems  := slice }}
+  {{ range $i, $t := $freeTools | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "Top Free AI Tools"
+    "description" (printf "%d free and freemium AI tools, handpicked across writing, coding, image generation, and more. No credit card required." $freeCount)
+    "url" .Permalink
+    "numberOfItems" $freeCount
+    "mainEntity" (dict "@type" "ItemList" "name" "Top Free AI Tools" "numberOfItems" $freeCount "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+  {{ $faqs := slice
+    (dict "question" "What is the difference between free and freemium AI tools?" "answer" "Free tools cost nothing. Freemium tools have a free tier with limited usage or features; paid plans unlock more.")
+    (dict "question" "Are these AI tools actually free to use?" "answer" "Yes. Every tool listed here is either fully free or has a free tier you can use without a credit card.")
+    (dict "question" "Which free AI tools are best for writing?" "answer" "ChatGPT, Claude, and Gemini all have solid free tiers for writing. Browse the Writing Assistants category on Best of AI for the full list.")
+    (dict "question" "Are there free AI tools for image generation?" "answer" "Yes. Several tools including Adobe Firefly offer free image generation. See the Image Generation category on Best of AI.")
+    (dict "question" "How many free AI tools are listed here?" "answer" (printf "Best of AI currently lists %d free and freemium AI tools across all categories." $freeCount))
+  }}
+  {{ $faqItems := slice }}
+  {{ range $faqs }}
+    {{ $faqItems = $faqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
+  {{ end }}
+  {{ $faqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqItems }}
+  <script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{/* ── CollectionPage (/leaderboard/) ── */}}
+{{ if eq .RelPermalink "/leaderboard/" }}
+  {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
+  {{ $lbCount   := len hugo.Data.leaderboard }}
+  {{ $listItems := slice }}
+  {{ range $i, $entry := hugo.Data.leaderboard | first 20 }}
+    {{ $page := index (where $allTools "Params.slug" $entry.slug) 0 }}
+    {{ if $page }}
+      {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $page.Params.name "url" $page.Permalink) }}
+    {{ end }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "AI Tools Leaderboard"
+    "description" (printf "The top %d AI tools ranked by real-world usefulness and impact." $lbCount)
+    "url" .Permalink
+    "numberOfItems" $lbCount
+    "mainEntity" (dict "@type" "ItemList" "name" "AI Tools Leaderboard" "numberOfItems" $lbCount "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{/* ── CollectionPage (/new/) ── */}}
+{{ if eq .RelPermalink "/new/" }}
+  {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
+  {{ $recent    := first 60 (sort $allTools "Date" "desc") }}
+  {{ $listItems := slice }}
+  {{ range $i, $t := $recent | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "Recently Added AI Tools"
+    "description" "The latest AI tools added to Best of AI. New releases and tools worth knowing about."
+    "url" .Permalink
+    "numberOfItems" (len $recent)
+    "mainEntity" (dict "@type" "ItemList" "name" "Recently Added AI Tools" "numberOfItems" (len $recent) "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}
 
 {{ end }}

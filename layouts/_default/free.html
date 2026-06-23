@@ -1,0 +1,177 @@
+{{ define "main" }}
+{{ $allTools := where .Site.RegularPages "Section" "tools" }}
+{{ $freeTools := union (where $allTools "Params.price" "Free") (where $allTools "Params.price" "Freemium") }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center" id="home-main">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Free Tools</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Free <span>AI Tools</span></h1>
+      <p class="pg-hero__desc">Writing tools, image generators, coding helpers — you can try most of the good ones without paying. This list covers tools with a free tier or a free plan that actually does something useful.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $freeTools) }}</strong> tools
+        <span class="sep">·</span>
+        <span>{{ len hugo.Data.categories }} categories</span>
+        <span class="sep">·</span>
+        <span>free &amp; freemium</span>
+      </div>
+    </div>
+
+    <div class="pg-toolbar">
+      <div class="pg-search">
+        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="free-search" placeholder="Search tools..." autocomplete="off" aria-label="Search free tools">
+      </div>
+      <button class="pf active" data-price="all">all</button>
+      <button class="pf" data-price="Free">free</button>
+      <button class="pf" data-price="Freemium">freemium</button>
+    </div>
+
+    <div class="no-results" id="no-results" hidden>
+      <p>No tools found.</p>
+    </div>
+
+    {{/* Build category list sorted by free tool count desc */}}
+    {{ $catList := slice }}
+    {{ range hugo.Data.categories }}
+      {{ $slug := .slug }}
+      {{ $catFree := where $freeTools "Params.category" $slug }}
+      {{ if gt (len $catFree) 0 }}
+        {{ $catList = $catList | append (dict "cat" . "count" (len $catFree) "tools" $catFree) }}
+      {{ end }}
+    {{ end }}
+    {{ $catList = sort $catList "count" "desc" }}
+
+    {{ range $catList }}
+      {{ $cat     := .cat }}
+      {{ $total   := .count }}
+      {{ $sorted  := sort .tools "Params.rank" "desc" }}
+      {{ $visible := first 3 $sorted }}
+      <section class="tool-section" id="{{ $cat.slug }}" data-cat="{{ $cat.slug }}">
+        <h2 class="tool-section__title">
+          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__title-link">{{ $cat.name }}</a>
+          <span class="tool-section__count">{{ partial "count.html" $total }}</span>
+          {{ if gt $total 3 }}
+          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__more-link">
+            View all {{ $total }}
+            <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          {{ end }}
+        </h2>
+        <div class="tools-grid">
+          {{ range $visible }}
+          {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    <section class="free-faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 class="free-faq__title">// common questions</h2>
+
+      <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="free-faq__q" itemprop="name">What is the difference between free and freemium AI tools?</h3>
+        <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Free tools cost nothing. Freemium tools have a free tier with limited usage or features; paid plans unlock more.</span>
+        </p>
+      </div>
+
+      <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="free-faq__q" itemprop="name">Are these AI tools actually free to use?</h3>
+        <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes. Every tool listed here is either fully free or has a free tier you can use without a credit card.</span>
+        </p>
+      </div>
+
+      <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="free-faq__q" itemprop="name">Which free AI tools are best for writing?</h3>
+        <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">ChatGPT, Claude, and Gemini all have solid free tiers for writing. Browse the <a href="{{ "/categories/writing-assistants/" | relURL }}">Writing Assistants</a> category for the full list.</span>
+        </p>
+      </div>
+
+      <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="free-faq__q" itemprop="name">Are there free AI tools for image generation?</h3>
+        <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Yes. Several tools including Adobe Firefly offer free image generation. See the <a href="{{ "/categories/image-generation/" | relURL }}">Image Generation</a> category.</span>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+<script>
+(function() {
+  var searchInput = document.getElementById('free-search');
+  var priceBtns   = document.querySelectorAll('.pf');
+  var sections    = Array.from(document.querySelectorAll('.tool-section'));
+  var noResults   = document.getElementById('no-results');
+  var activePrice = 'all';
+  var activeQuery = '';
+
+  function filterAll() {
+    var total = 0;
+    sections.forEach(function(section) {
+      var vis = 0;
+      section.querySelectorAll('.tool-card').forEach(function(card) {
+        var priceMatch = activePrice === 'all' || card.dataset.price === activePrice;
+        var nameEl     = card.querySelector('.tool-card__name');
+        var descEl     = card.querySelector('.tool-card__desc');
+        var text       = ((nameEl ? nameEl.textContent : '') + ' ' + (descEl ? descEl.textContent : '')).toLowerCase();
+        var queryMatch = !activeQuery || text.indexOf(activeQuery) !== -1;
+        var show       = priceMatch && queryMatch;
+        card.style.display = show ? '' : 'none';
+        if (show) vis++;
+      });
+      section.style.display = vis > 0 ? '' : 'none';
+      total += vis;
+    });
+    if (noResults) noResults.hidden = total > 0;
+  }
+
+  priceBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activePrice = btn.dataset.price || 'all';
+      priceBtns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      filterAll();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      activeQuery = searchInput.value.trim().toLowerCase();
+      filterAll();
+    });
+  }
+
+  // Scrollspy
+  var catLinks    = document.querySelectorAll('.cat-link');
+  var scrollSects = document.querySelectorAll('.tool-section[id]');
+  window.addEventListener('scroll', function() {
+    var scrollY = window.scrollY + 120;
+    var current = '';
+    scrollSects.forEach(function(s) {
+      if (s.offsetParent !== null && s.offsetTop <= scrollY) current = s.id;
+    });
+    catLinks.forEach(function(link) {
+      link.classList.toggle('active', link.dataset.filter === current || (current === '' && link.dataset.filter === 'all'));
+    });
+  }, { passive: true });
+})();
+</script>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

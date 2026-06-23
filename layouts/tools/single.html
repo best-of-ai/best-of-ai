@@ -46,9 +46,6 @@
           <div class="detail-badges">
             {{ if $p.price }}<span class="badge badge-{{ lower $p.price }}">{{ $p.price }}</span>{{ end }}
             {{ if $p.category_name }}<span class="badge badge-cat">{{ $p.category_name }}</span>{{ end }}
-            {{ range $p.tags }}
-            <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
-            {{ end }}
           </div>
         </div>
 

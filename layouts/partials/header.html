@@ -22,21 +22,45 @@
 {{ $topTags := first 10 $tagList }}
 
 <header class="site-header">
-  <div class="site-header__inner">
 
-    <!-- Logo -->
+  <!-- Row 1: Logo + search + theme -->
+  <div class="site-header__top">
     <a href="{{ "/" | relURL }}" class="site-logo">
-      <img src="{{ "favicon/favicon.svg" | relURL }}" width="22" height="22" alt="Best of AI" aria-hidden="true">
+      <img src="{{ "favicon/favicon.svg" | relURL }}" width="24" height="24" alt="Best of AI" aria-hidden="true">
       <span>Best of <span class="logo-accent">AI</span></span>
     </a>
 
-    <!-- Nav -->
+    <!-- Inline search (row 1 on desktop, row 2 on mobile) -->
+    <div class="header-search" id="header-search">
+      <div class="header-search__wrap">
+        <input type="text" class="header-search__input" id="header-search-input" placeholder="Search tools and professions..." autocomplete="off" spellcheck="false">
+        <kbd class="header-search__kbd">⌘K</kbd>
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" style="color:var(--fg-muted);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
+      </div>
+      <div class="header-search__dropdown" id="header-search-dropdown" role="listbox"></div>
+    </div>
+
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <svg class="icon-sun" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg class="icon-moon" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+</header>
+
+<!-- Row 2: scrolls away naturally; no overflow:hidden so mega menus work -->
+<div class="site-subnav">
+  <div class="site-subnav__inner">
+
     <nav class="site-header__nav" id="site-nav">
 
       <!-- AI for Professionals dropdown -->
       <div class="nav-item" id="nav-prof">
         <button class="nav-btn" aria-haspopup="true" aria-expanded="false" data-nav="nav-prof">
-          <!-- people icon -->
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
             <circle cx="9" cy="7" r="4"/>
@@ -64,7 +88,6 @@
       <!-- Categories dropdown -->
       <div class="nav-item" id="nav-cats">
         <button class="nav-btn" aria-haspopup="true" aria-expanded="false" data-nav="nav-cats">
-          <!-- grid icon -->
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
             <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
@@ -75,7 +98,6 @@
 
         <div class="mega-menu mega-menu--cats" role="menu">
           <div class="mega-cats-body">
-            <!-- Left: Top categories -->
             <div class="mega-cats-col">
               <div class="mega-col-title">// top categories</div>
               {{ range $topCats }}
@@ -86,8 +108,6 @@
               {{ end }}
               <a href="{{ "/categories/" | relURL }}" class="mega-more-link" style="display:block;margin-top:0.6rem">All categories →</a>
             </div>
-
-            <!-- Right: Top tags -->
             <div class="mega-cats-col">
               <div class="mega-col-title">// top tags</div>
               <div class="mega-tag-cloud">
@@ -102,95 +122,118 @@
       </div>
 
       <!-- Leaderboard link -->
-      <a href="{{ "/leaderboard/" | relURL }}" class="nav-btn nav-btn--link">
-        Leaderboard
-      </a>
+      <a href="{{ "/leaderboard/" | relURL }}" class="nav-btn nav-btn--link">Leaderboard</a>
 
-      <!-- Saved link -->
+    </nav>
+
+    <div class="site-header__actions">
       <a href="{{ "/saved/" | relURL }}" class="nav-btn nav-btn--link nav-btn--saved">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         Saved
         <span class="saved-count" hidden></span>
       </a>
-
-    </nav>
-
-    <!-- Actions -->
-    <div class="site-header__actions">
-      <a href="{{ "/saved/" | relURL }}" class="saved-link saved-link--mobile" title="Saved tools" aria-label="Saved tools">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-        <span class="saved-count" hidden></span>
-      </a>
-
-      <button class="search-trigger" id="search-open" aria-label="Search">
-        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
-        <span class="search-trigger__label">Search</span>
-        <kbd class="search-trigger__kbd">⌘K</kbd>
-      </button>
-
       <a href="{{ "/contribute/" | relURL }}" class="btn btn-submit">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
         Submit Tool
       </a>
+    </div>
 
-      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-        <svg class="icon-sun" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-        <svg class="icon-moon" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
+  </div>
+</div>
 
-      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
+<!-- Mobile menu (slide-in drawer) -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mob-backdrop" id="mob-backdrop"></div>
+  <div class="mob-drawer">
+
+    <div class="mob-drawer__head">
+      <a href="{{ "/" | relURL }}" class="mob-drawer__logo">
+        <img src="{{ "favicon/favicon.svg" | relURL }}" width="18" height="18" alt="">
+        Best of <span class="logo-accent">AI</span>
+      </a>
+      <button class="mob-drawer__close" id="mob-close" aria-label="Close menu">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
       </button>
     </div>
-  </div>
-</header>
 
-<!-- Mobile menu -->
-<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
-  <!-- Professions section -->
-  <div class="mobile-menu__section">
-    <button class="mobile-menu__heading" data-accordion="mob-profs">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-      AI for Professionals
-      <svg class="mobile-menu__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-    </button>
-    <div class="mobile-menu__accordion" id="mob-profs">
-      <div class="mobile-menu__grid">
-        {{ range $profs }}
-        <a href="{{ .RelPermalink }}" class="mobile-menu__prof-item">
-          {{ with .Params.icon }}<span>{{ . }}</span>{{ end }}
-          {{ .Params.name }}
+    <!-- Quick links -->
+    <nav class="mob-quick" aria-label="Quick links">
+      <div class="mob-section-label">// quick links</div>
+      <a href="{{ "/" | relURL }}" class="mob-link{{ if .IsHome }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        Home
+      </a>
+      <a href="{{ "/new/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/new/" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        Recently Added
+      </a>
+      <a href="{{ "/leaderboard/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/leaderboard/" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        Leaderboard
+      </a>
+      <a href="{{ "/free/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/free/" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
+        Free Tools
+      </a>
+      <a href="{{ "/saved/" | relURL }}" class="mob-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        Saved
+        <span class="saved-count" hidden></span>
+      </a>
+      <a href="{{ "/contribute/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/contribute/" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        Contribute
+      </a>
+      <a href="{{ .Site.Params.githubRepo }}" target="_blank" rel="noopener" class="mob-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        Star on GitHub
+      </a>
+    </nav>
+
+    <div class="mob-divider"></div>
+
+    <!-- Professions accordion -->
+    <div class="mob-acc-section">
+      <button class="mob-acc-btn" data-acc="mob-profs">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        AI for Professionals
+        <svg class="mob-acc-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="mob-acc-body" id="mob-profs">
+        <div class="mob-acc-grid">
+          {{ range $profs }}
+          <a href="{{ .RelPermalink }}" class="mob-acc-item">{{ .Params.name }}</a>
+          {{ end }}
+        </div>
+        <a href="{{ "/professionals/" | relURL }}" class="mob-acc-more">All {{ partial "count.html" (len $profs) }} professions →</a>
+      </div>
+    </div>
+
+    <!-- Categories accordion -->
+    <div class="mob-acc-section">
+      <button class="mob-acc-btn" data-acc="mob-cats">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Categories
+        <svg class="mob-acc-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="mob-acc-body" id="mob-cats">
+        {{ range $topCats }}
+        <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="mob-cat-item">
+          <span>{{ .name }}</span>
+          <span class="mob-cat-count">{{ .count }}</span>
         </a>
         {{ end }}
+        <a href="{{ "/categories/" | relURL }}" class="mob-acc-more">All categories →</a>
       </div>
-      <a href="{{ "/professionals/" | relURL }}" class="mobile-menu__all-link">View all {{ partial "count.html" (len $profs) }} professions →</a>
     </div>
-  </div>
 
-  <!-- Categories section -->
-  <div class="mobile-menu__section">
-    <button class="mobile-menu__heading" data-accordion="mob-cats">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-      Categories
-      <svg class="mobile-menu__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-    </button>
-    <div class="mobile-menu__accordion" id="mob-cats">
-      {{ range $topCats }}
-      <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="mobile-menu__cat-item">
-        <span>{{ .name }}</span>
-        <span class="mobile-menu__count">{{ .count }}</span>
+    <div class="mob-footer">
+      <a href="{{ "/contribute/" | relURL }}" class="btn btn-submit mob-footer__submit">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+        Submit a Tool
       </a>
-      {{ end }}
-      <a href="{{ "/categories/" | relURL }}" class="mobile-menu__all-link">All categories →</a>
     </div>
-  </div>
 
-  <!-- Submit Tool -->
-  <div class="mobile-menu__section mobile-menu__section--submit">
-    <a href="{{ "/contribute/" | relURL }}" class="mobile-menu__submit">
-      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-      Submit a Tool
-    </a>
   </div>
 </div>
 
@@ -207,7 +250,7 @@
   // Mega menu toggle
   var navItems = document.querySelectorAll('.nav-item');
 
-  function closeAll(except) {
+  function closeAllMenus(except) {
     navItems.forEach(function(item) {
       if (item !== except) {
         item.classList.remove('is-open');
@@ -223,59 +266,211 @@
     btn.addEventListener('click', function(e) {
       e.stopPropagation();
       var isOpen = item.classList.contains('is-open');
-      closeAll(isOpen ? null : item);
+      closeAllMenus(isOpen ? null : item);
       item.classList.toggle('is-open', !isOpen);
       btn.setAttribute('aria-expanded', String(!isOpen));
     });
   });
 
-  document.addEventListener('click', function() { closeAll(null); });
-  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') { closeAll(null); closeMobileMenu(); } });
+  document.addEventListener('click', function() { closeAllMenus(null); });
 
-  // Prevent mega menu clicks from closing
   document.querySelectorAll('.mega-menu').forEach(function(m) {
     m.addEventListener('click', function(e) { e.stopPropagation(); });
   });
 
-  // Mobile menu
-  var mobileBtn  = document.getElementById('mobile-menu-btn');
-  var mobileMenu = document.getElementById('mobile-menu');
+  // Mobile drawer
+  var mobileBtn   = document.getElementById('mobile-menu-btn');
+  var mobileMenu  = document.getElementById('mobile-menu');
+  var mobClose    = document.getElementById('mob-close');
+  var mobBackdrop = document.getElementById('mob-backdrop');
 
   function closeMobileMenu() {
     if (!mobileMenu) return;
     mobileMenu.classList.remove('is-open');
-    mobileBtn && mobileBtn.classList.remove('is-open');
-    mobileBtn && mobileBtn.setAttribute('aria-expanded', 'false');
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    if (mobileBtn) { mobileBtn.classList.remove('is-open'); mobileBtn.setAttribute('aria-expanded', 'false'); }
     document.body.classList.remove('mobile-menu-open');
+  }
+
+  function openMobileMenu() {
+    if (!mobileMenu) return;
+    mobileMenu.classList.add('is-open');
+    mobileMenu.setAttribute('aria-hidden', 'false');
+    if (mobileBtn) { mobileBtn.classList.add('is-open'); mobileBtn.setAttribute('aria-expanded', 'true'); }
+    document.body.classList.add('mobile-menu-open');
   }
 
   if (mobileBtn) {
     mobileBtn.addEventListener('click', function(e) {
       e.stopPropagation();
-      var open = mobileMenu.classList.toggle('is-open');
-      mobileBtn.classList.toggle('is-open', open);
-      mobileBtn.setAttribute('aria-expanded', String(open));
-      document.body.classList.toggle('mobile-menu-open', open);
+      mobileMenu.classList.contains('is-open') ? closeMobileMenu() : openMobileMenu();
     });
   }
 
-  document.addEventListener('click', function(e) {
-    if (mobileMenu && !mobileMenu.contains(e.target) && e.target !== mobileBtn) {
-      closeMobileMenu();
-    }
-  });
+  if (mobClose)    mobClose.addEventListener('click', closeMobileMenu);
+  if (mobBackdrop) mobBackdrop.addEventListener('click', closeMobileMenu);
 
-  // Accordion inside mobile menu
-  document.querySelectorAll('.mobile-menu__heading').forEach(function(btn) {
+  document.querySelectorAll('.mob-acc-btn').forEach(function(btn) {
     btn.addEventListener('click', function(e) {
       e.stopPropagation();
-      var id  = btn.getAttribute('data-accordion');
+      var id    = btn.getAttribute('data-acc');
       var panel = document.getElementById(id);
       if (!panel) return;
       var open = panel.classList.toggle('is-open');
       btn.classList.toggle('is-open', open);
     });
   });
+
+  // ── Inline search ──────────────────────────────────────────────────────────
+  var searchWrap  = document.getElementById('header-search');
+  var searchInput = document.getElementById('header-search-input');
+  var searchDrop  = document.getElementById('header-search-dropdown');
+  var searchIndex = null;
+  var searchSel   = -1;
+
+  function loadSearchIndex() {
+    fetch('{{ "/index.json" | relURL }}')
+      .then(function(r) { return r.json(); })
+      .then(function(d) { searchIndex = d; })
+      .catch(function() { searchIndex = []; });
+  }
+
+  function openDrop() { searchDrop.classList.add('is-open'); }
+  function closeDrop() { searchDrop.classList.remove('is-open'); searchSel = -1; }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function hi(text, q) {
+    if (!q) return esc(text);
+    var re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    return esc(text).replace(re, '<mark>$1</mark>');
+  }
+
+  function score(it, ql) {
+    var name  = (it.name  || '').toLowerCase();
+    var title = (it.title || '').toLowerCase();
+    var desc  = (it.description || '').toLowerCase();
+    var cat   = (it.category    || '').toLowerCase();
+    if (name === ql || title === ql)                  return 4;
+    if (name.startsWith(ql) || title.startsWith(ql)) return 3;
+    if (name.includes(ql)   || title.includes(ql))   return 2;
+    if (desc.includes(ql))                            return 1;
+    if (cat.includes(ql))                             return 1;
+    return 0;
+  }
+
+  function renderItem(it, q) {
+    var desc = it.description ? it.description.slice(0, 80) : '';
+    return '<a href="' + esc(it.url) + '" class="search-result" role="option" tabindex="-1">'
+      + '<span class="sr-cat">' + esc(it.category || '') + '</span>'
+      + '<span class="sr-body">'
+      +   '<span class="sr-name">' + hi(it.name || it.slug, q) + '</span>'
+      +   (desc ? '<span class="sr-desc">' + hi(desc, q) + '</span>' : '')
+      + '</span>'
+      + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price) + '</span>' : '')
+      + '</a>';
+  }
+
+  function doSearch(q) {
+    searchSel = -1;
+    if (!q || q.length < 2 || !searchIndex) { searchDrop.innerHTML = ''; return; }
+    var ql = q.toLowerCase();
+    var groups = { profession: [], category: [], tag: [], tool: [] };
+    for (var i = 0; i < searchIndex.length; i++) {
+      var it   = searchIndex[i];
+      var type = it.type || 'tool';
+      var sc   = score(it, ql);
+      if (sc > 0 && groups[type]) groups[type].push({ it: it, score: sc });
+    }
+    Object.keys(groups).forEach(function(k) {
+      groups[k].sort(function(a,b){ return b.score - a.score; });
+    });
+    var profs = groups.profession.slice(0, 3);
+    var cats  = groups.category.slice(0, 3).concat(groups.tag.slice(0, 3));
+    cats.sort(function(a,b){ return b.score - a.score; });
+    cats = cats.slice(0, 4);
+    var tools = groups.tool.slice(0, 8);
+    if (!profs.length && !cats.length && !tools.length) {
+      searchDrop.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
+      return;
+    }
+    var html = '';
+    if (profs.length) { html += '<div class="sr-group-label">Professions</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (cats.length)  { html += '<div class="sr-group-label">Categories &amp; Tags</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (tools.length) { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
+    searchDrop.innerHTML = html;
+  }
+
+  function getItems() { return searchDrop.querySelectorAll('.search-result'); }
+
+  function setSel(n) {
+    var items = getItems();
+    if (!items.length) return;
+    if (searchSel >= 0 && searchSel < items.length) items[searchSel].classList.remove('is-selected');
+    searchSel = Math.max(0, Math.min(n, items.length - 1));
+    items[searchSel].classList.add('is-selected');
+    items[searchSel].scrollIntoView({ block: 'nearest' });
+  }
+
+  searchInput.addEventListener('focus', function() {
+    if (!searchIndex) loadSearchIndex();
+    var q = searchInput.value.trim();
+    if (q.length >= 2 && searchDrop.innerHTML) openDrop();
+  });
+
+  searchInput.addEventListener('input', function() {
+    var q = searchInput.value.trim();
+    doSearch(q);
+    if (q.length >= 2 && searchDrop.innerHTML) openDrop();
+    else closeDrop();
+  });
+
+  searchInput.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); setSel(searchSel + 1); }
+    if (e.key === 'ArrowUp')   { e.preventDefault(); setSel(searchSel - 1); }
+    if (e.key === 'Enter' && searchSel >= 0) { e.preventDefault(); getItems()[searchSel]?.click(); }
+    if (e.key === 'Escape') { closeDrop(); searchInput.blur(); }
+  });
+
+  searchDrop.addEventListener('click', function(e) {
+    if (e.target.closest('.search-result')) {
+      closeDrop();
+      searchInput.value = '';
+      searchInput.blur();
+    }
+  });
+
+  // Global keyboard shortcuts
+  document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      searchInput.focus();
+      searchInput.select();
+    }
+    if (e.key === 'Escape') {
+      closeAllMenus(null);
+      closeDrop();
+      closeMobileMenu();
+    }
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', function(e) {
+    if (searchWrap && !searchWrap.contains(e.target)) closeDrop();
+  });
+
+  // Add border+shadow to pinned header once subnav scrolls out of view
+  var hdr     = document.querySelector('.site-header');
+  var subnav  = document.querySelector('.site-subnav');
+  if (hdr && subnav) {
+    window.addEventListener('scroll', function() {
+      hdr.classList.toggle('hdr-floating', subnav.getBoundingClientRect().bottom <= 0);
+    }, { passive: true });
+  }
 
 })();
 </script>
