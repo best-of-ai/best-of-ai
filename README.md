@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1316-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1317-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1316+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1317+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -108,7 +108,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Farming](#farming) (4)
   - [Fashion](#fashion) (5)
   - [FinTech](#fintech) (3)
-  - [Finance](#finance) (23)
+  - [Finance](#finance) (24)
   - [Fitness](#fitness) (3)
   - [Fleet Management](#fleet-management) (3)
   - [Geospatial](#geospatial) (3)
@@ -1148,7 +1148,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Morningstar AI](https://morningstar.com)** — [review](https://bestofai.io/tools/morningstar-ai/) — AI-powered investment research and data ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Botkeeper](https://botkeeper.com)** — [review](https://bestofai.io/tools/botkeeper/) — AI-powered bookkeeping automation for accounting firms ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Kensho](https://kensho.com)** — [review](https://bestofai.io/tools/kensho/) — AI analytics platform for financial markets ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 23 Finance tools on bestofai.io →](https://bestofai.io/categories/finance/)*
+- *[View all 24 Finance tools on bestofai.io →](https://bestofai.io/categories/finance/)*
 
 ---
 
