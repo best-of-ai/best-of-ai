@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1317-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1318-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1317+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1318+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -59,7 +59,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Weather](#weather) (4)
   - [Writing Assistants](#writing-assistants) (43)
   - [Models](#models) (26)
-  - [AI Directories](#ai-directories) (4)
+  - [AI Directories](#ai-directories) (5)
   - [Others](#others) (2)
   - [3D](#3d) (12)
   - [3D Printing](#3d-printing) (3)
@@ -581,11 +581,11 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > Comprehensive directories and listings of AI tools and services
 
+- **[Best of AI](https://bestofai.io)** — [review](https://bestofai.io/tools/best-of-ai/) — Open source directory of handpicked, ranked AI tools ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[AI For Developer](https://aifordevelopers.org)** — [review](https://bestofai.io/tools/ai-for-developer/) — AI tools and resources specifically curated for developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[AIDir.wiki](https://aidir.wiki)** — [review](https://bestofai.io/tools/aidir-wiki/) — Comprehensive wiki directory of AI tools and resources ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Altern](https://altern.ai)** — [review](https://bestofai.io/tools/altern/) — AI tools directory and discovery platform ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- **[Productivity Directory](https://productivity.directory)** — [review](https://bestofai.io/tools/productivity-directory/) — Directory of AI-powered productivity tools and applications ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 4 AI Directories tools on bestofai.io →](https://bestofai.io/categories/ai-directories/)*
+- *[View all 5 AI Directories tools on bestofai.io →](https://bestofai.io/categories/ai-directories/)*
 
 ---
 
