@@ -3,7 +3,8 @@
 
 {{ $is404    := hasPrefix (lower .Title) "404" }}
 {{ $isSaved  := eq .Params.layout "saved" }}
-{{ $isTool   := and .IsPage (eq .Section "tools") }}
+{{ $isTool    := and .IsPage (eq .Section "tools") }}
+{{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $name     := or .Params.name .Title }}
 {{ $siteURL  := .Site.BaseURL | strings.TrimRight "/" }}
@@ -29,6 +30,16 @@
 {{ else if and .IsPage (eq .Section "categories") }}
   {{ $count := len (where .Site.RegularPages "Params.category" .Params.slug) }}
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
+{{ else if and .IsPage $isJournal }}
+  {{ $pageTitle = printf "%s — The AI Journal | Best of AI" (.Params.title | default .Title) }}
+{{ else if eq .Kind "section" }}
+  {{ if $isJournal }}
+    {{ $pageTitle = "The AI Journal — Best of AI" }}
+  {{ else if eq .Section "professionals" }}
+    {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
+  {{ else }}
+    {{ $pageTitle = printf "%s — Best of AI" (.Title | default "Categories") }}
+  {{ end }}
 {{ else if and .IsPage (eq .Section "professionals") }}
   {{ $profTitleCount := 0 }}
   {{ $profTitleTools := where .Site.RegularPages "Section" "tools" }}
@@ -36,12 +47,6 @@
     {{ $profTitleCount = add $profTitleCount (len (where $profTitleTools "Params.category" .)) }}
   {{ end }}
   {{ $pageTitle = printf "Best AI Tools for %s (%d) — Best of AI" .Params.name $profTitleCount }}
-{{ else if eq .Kind "section" }}
-  {{ if eq .Section "professionals" }}
-    {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
-  {{ else }}
-    {{ $pageTitle = printf "%s — Best of AI" (.Title | default "Categories") }}
-  {{ end }}
 {{ else if eq .Kind "taxonomy" }}
   {{ $pageTitle = "Browse AI Tools by Tag — Best of AI" }}
 {{ else if eq .Kind "term" }}
@@ -74,6 +79,16 @@
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI %s tools, selected for quality and real-world impact." $count .Params.name }}
   {{ end }}
+{{ else if and .IsPage $isJournal }}
+  {{ $desc = .Params.subtitle | default .Params.description | default .Site.Params.description }}
+{{ else if eq .Kind "section" }}
+  {{ if $isJournal }}
+    {{ $desc = .Params.description | default "Essays, guides, and notes on AI tools from the Best of AI team." }}
+  {{ else if eq .Section "professionals" }}
+    {{ $desc = printf "Find AI tools tailored to your role — %d profession guides with handpicked tools on Best of AI." (len .Pages) }}
+  {{ else }}
+    {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
+  {{ end }}
 {{ else if and .IsPage (eq .Section "professionals") }}
   {{ $profDescCount := 0 }}
   {{ $profDescTools := where .Site.RegularPages "Section" "tools" }}
@@ -85,12 +100,6 @@
     {{ $desc = printf "%d AI tools for %s — %s" $profDescCount .Params.name $profSub }}
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI tools for %s — curated for quality and real-world impact on Best of AI." $profDescCount .Params.name }}
-  {{ end }}
-{{ else if eq .Kind "section" }}
-  {{ if eq .Section "professionals" }}
-    {{ $desc = printf "Find AI tools tailored to your role — %d profession guides with handpicked tools on Best of AI." (len .Pages) }}
-  {{ else }}
-    {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
 {{ else if eq .Kind "taxonomy" }}
   {{ $desc = printf "Browse %d AI tool tags — explore tools by topic, use-case, and capability on Best of AI." (len .Data.Terms) }}
@@ -117,6 +126,12 @@
 <meta name="keywords" content="{{ delimit $kws ", " }}">
 {{ else if and .IsPage (eq .Section "categories") }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
+{{ else if and .IsPage $isJournal }}
+  {{ $journalKws := slice (.Params.title | default .Title) "The AI Journal" "AI journal" "AI tools" "open source" }}
+  {{ range .Params.related_categories }}{{ $journalKws = $journalKws | append . }}{{ end }}
+  {{ range .Params.related_tools }}{{ $journalKws = $journalKws | append (. | humanize) }}{{ end }}
+  {{ range .Params.related_professions }}{{ $journalKws = $journalKws | append (. | humanize) }}{{ end }}
+<meta name="keywords" content="{{ delimit $journalKws ", " }}">
 {{ else if and .IsPage (eq .Section "professionals") }}
   {{ $profKws := slice (printf "AI for %s" .Params.name) (printf "best AI tools for %s" .Params.name) (printf "free AI tools for %s" .Params.name) (printf "AI %s tools" (lower .Params.name)) }}
   {{ range .Params.categories }}
@@ -137,7 +152,7 @@
 <meta property="og:title"       content="{{ $pageTitle }}">
 <meta property="og:description" content="{{ $desc | truncate 155 }}">
 <meta property="og:url"         content="{{ .Permalink }}">
-<meta property="og:type"        content="website">
+<meta property="og:type"        content="{{ if and .IsPage $isJournal }}article{{ else }}website{{ end }}">
 <meta property="og:site_name"   content="Best of AI">
 <meta property="og:image"       content="{{ $ogImage }}">
 <meta property="og:image:alt"   content="{{ $pageTitle }}">
@@ -146,6 +161,14 @@
 <meta property="og:image:height" content="768">
 {{ end }}
 <meta property="og:locale"      content="en_US">
+{{ if and .IsPage $isJournal }}
+{{ if not .Date.IsZero }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ if not .Lastmod.IsZero }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+<meta property="article:section" content="The AI Journal">
+{{ range .Params.related_categories }}<meta property="article:tag" content="{{ . | humanize }}">{{ end }}
+{{ with .Params.author.name }}<meta property="article:author" content="{{ . }}">{{ end }}
+<link rel="alternate" type="application/rss+xml" title="The AI Journal" href="{{ "/journal/index.xml" | absURL }}">
+{{ end }}
 
 {{/* ── Twitter Card ── */}}
 <meta name="twitter:card"        content="summary_large_image">

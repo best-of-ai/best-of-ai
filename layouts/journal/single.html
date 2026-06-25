@@ -1,0 +1,101 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $allTools := where .Site.RegularPages "Section" "tools" }}
+{{ $allProfs := where .Site.RegularPages "Section" "professionals" }}
+
+{{ $relatedTools := slice }}
+{{ range $p.related_tools }}
+  {{ $slug := . }}
+  {{ $page := index (where $allTools "Params.slug" $slug) 0 }}
+  {{ if not $page }}{{ $page = index (where $allTools "File.BaseFileName" $slug) 0 }}{{ end }}
+  {{ if $page }}{{ $relatedTools = $relatedTools | append $page }}{{ end }}
+{{ end }}
+
+{{ $relatedProfs := slice }}
+{{ range $p.related_professions }}
+  {{ $slug := . }}
+  {{ $page := index (where $allProfs "Params.slug" $slug) 0 }}
+  {{ if $page }}{{ $relatedProfs = $relatedProfs | append $page }}{{ end }}
+{{ end }}
+
+{{ $relatedCats := slice }}
+{{ range $p.related_categories }}
+  {{ $slug := . }}
+  {{ range hugo.Data.categories }}
+    {{ if eq .slug $slug }}{{ $relatedCats = $relatedCats | append . }}{{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center" id="main-content">
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep" aria-hidden="true">/</span>
+      <a href="{{ "/journal/" | relURL }}">The AI Journal</a>
+      <span class="breadcrumb__sep" aria-hidden="true">/</span>
+      <span class="breadcrumb__cur" aria-current="page">{{ $p.title | default .Title }}</span>
+    </nav>
+
+    <article class="journal-post">
+
+      <header class="journal-post__header">
+        <p class="journal-post__eyebrow"><a href="{{ "/journal/" | relURL }}">The AI Journal</a></p>
+        <h1 class="journal-post__title">{{ $p.title | default .Title }}</h1>
+        {{ with $p.subtitle }}<p class="journal-post__sub">{{ . }}</p>{{ end }}
+
+        <div class="journal-post__meta">
+          {{ if not .Date.IsZero }}
+          <time class="journal-post__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ end }}
+
+          {{ with $p.author }}
+          {{ if .name }}
+          <span class="journal-post__meta-sep" aria-hidden="true">·</span>
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="author noopener noreferrer" class="journal-post__author">{{ .name }}</a>
+          {{ else }}
+          <span class="journal-post__author">{{ .name }}</span>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+
+          {{ if or $relatedCats $relatedTools $relatedProfs }}
+          <span class="journal-post__meta-sep" aria-hidden="true">·</span>
+          <nav class="journal-post__related" aria-label="Related topics">
+            {{ range $relatedCats }}
+            <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="tag-chip journal-tag journal-tag--cat" rel="tag">{{ .name }}</a>
+            {{ end }}
+            {{ range $relatedTools }}
+            <a href="{{ .RelPermalink }}" class="tag-chip journal-tag journal-tag--tool">{{ .Params.name }}</a>
+            {{ end }}
+            {{ range $relatedProfs }}
+            <a href="{{ .RelPermalink }}" class="tag-chip journal-tag journal-tag--prof">{{ .Params.name }}</a>
+            {{ end }}
+          </nav>
+          {{ end }}
+        </div>
+      </header>
+
+      <div class="journal-post__body prose prose--journal">
+        {{ with .Content }}
+          {{ . }}
+        {{ else }}
+          {{ with $p.body }}<p>{{ . }}</p>{{ end }}
+        {{ end }}
+      </div>
+
+    </article>
+
+    {{ partial "disqus.html" . }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

@@ -1,0 +1,51 @@
+{{ define "main" }}
+{{ $posts := sort (where .Site.RegularPages "Section" "journal") "Date" "desc" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">The AI Journal</span>
+    </nav>
+
+    <div class="journal-hero">
+      <h1 class="journal-hero__title">The AI Journal</h1>
+      <p class="journal-hero__sub">Essays, guides, and notes on AI tools — from the people who maintain this directory.</p>
+    </div>
+
+    {{ if $posts }}
+    <div class="journal-list">
+      {{ range $posts }}
+      {{ $p := .Params }}
+      <a href="{{ .RelPermalink }}" class="journal-card">
+        <div class="journal-card__body">
+          <h2 class="journal-card__title">{{ $p.title | default .Title }}</h2>
+          {{ with $p.subtitle }}<p class="journal-card__sub">{{ . }}</p>{{ end }}
+          <div class="journal-card__meta">
+            {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>{{ end }}
+            {{ with $p.author.name }}
+            <span class="journal-card__meta-sep">·</span>
+            <span class="journal-card__author">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        <span class="journal-card__arrow" aria-hidden="true">→</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="journal-empty">No posts yet. Add a Markdown file to <code>content/journal/</code> to publish one.</p>
+    {{ end }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}
