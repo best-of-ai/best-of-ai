@@ -2,7 +2,75 @@
 {{ $cats  := hugo.Data.categories }}
 {{ $tools := where .Site.RegularPages "Section" "tools" }}
 
-<div class="submit-page container">
+<div class="submit-page container" id="submit-page">
+
+  <!-- Step 1: GitHub gate (full screen) -->
+  <section class="submit-gate-screen" id="submit-gate" aria-label="GitHub requirements">
+    <div class="submit-gate-screen__glow" aria-hidden="true"></div>
+    <div class="submit-gate-screen__inner">
+
+      <header class="submit-gate-screen__header">
+        <span class="submit-gate-screen__eyebrow">// submit a tool</span>
+        <h1 class="submit-gate-screen__title">Submit is free</h1>
+        <p class="submit-gate-screen__sub">Pass two quick steps on GitHub first, then the free submission form unlocks.</p>
+      </header>
+
+      <div class="submit-gate-screen__cards">
+
+        <a href="{{ .Site.Params.githubOrg }}" class="submit-gate-card" id="submit-gate-follow" target="_blank" rel="noopener">
+          <span class="submit-gate-card__step">1</span>
+          <span class="submit-gate-card__check" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="submit-gate-card__icon submit-gate-card__icon--org" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </span>
+          <span class="submit-gate-card__body">
+            <span class="submit-gate-card__label">Follow the organization</span>
+            <span class="submit-gate-card__desc">Get updates when new tools and categories land.</span>
+            <span class="submit-gate-card__row">
+              <span class="submit-gate-card__action">
+                Open on GitHub
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </span>
+            </span>
+          </span>
+        </a>
+
+        <a href="{{ .Site.Params.githubRepo }}" class="submit-gate-card" id="submit-gate-star" target="_blank" rel="noopener">
+          <span class="submit-gate-card__step">2</span>
+          <span class="submit-gate-card__check" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="submit-gate-card__icon submit-gate-card__icon--star" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </span>
+          <span class="submit-gate-card__body">
+            <span class="submit-gate-card__label">Star the repository</span>
+            <span class="submit-gate-card__desc">Helps others find the directory and keeps the project alive.</span>
+            <span class="submit-gate-card__row">
+              <span class="submit-gate-card__action">
+                Star on GitHub
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </span>
+            </span>
+          </span>
+        </a>
+
+      </div>
+
+      <footer class="submit-gate-screen__footer">
+        <div class="submit-gate-screen__progress-track" aria-hidden="true">
+          <div class="submit-gate-screen__progress-fill" id="submit-gate-progress-fill"></div>
+        </div>
+        <p class="submit-gate-screen__progress-text" id="submit-gate-progress" aria-live="polite">0 of 2 complete</p>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- Step 2: Full submit page (after gate) -->
+  <div class="submit-content" id="submit-content" hidden>
 
   <!-- Hero -->
   <div class="submit-hero">
@@ -32,12 +100,6 @@
 
     <!-- Left: Form + PR hint -->
     <div class="submit-form-col">
-
-      <a href="{{ .Site.Params.githubRepo }}" target="_blank" rel="noopener" class="submit-star-nudge">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        <span>Best of AI is free and open source. If it's been useful, a GitHub star goes a long way.</span>
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-      </a>
 
       <div class="submit-card">
         <div class="submit-card__header">
@@ -397,6 +459,76 @@
       {{ end }}
     </div>
   </div>
+
+  </div><!-- /submit-content -->
+
+  <script>
+  (function () {
+    var GATE_KEY = 'bai-submit-gate';
+    var pageEl       = document.getElementById('submit-page');
+    var gateEl       = document.getElementById('submit-gate');
+    var contentEl    = document.getElementById('submit-content');
+    var progressEl   = document.getElementById('submit-gate-progress');
+    var progressFill = document.getElementById('submit-gate-progress-fill');
+    var followCard   = document.getElementById('submit-gate-follow');
+    var starCard     = document.getElementById('submit-gate-star');
+
+    if (!gateEl || !contentEl || !followCard || !starCard) return;
+
+    function loadGateState() {
+      try { return JSON.parse(localStorage.getItem(GATE_KEY) || '{}'); }
+      catch (e) { return {}; }
+    }
+
+    function saveGateState(state) {
+      localStorage.setItem(GATE_KEY, JSON.stringify(state));
+    }
+
+    function updateProgress(state) {
+      var done = (state.follow ? 1 : 0) + (state.star ? 1 : 0);
+      followCard.classList.toggle('is-done', !!state.follow);
+      starCard.classList.toggle('is-done', !!state.star);
+      if (progressEl) progressEl.textContent = done + ' of 2 complete';
+      if (progressFill) progressFill.style.width = (done / 2 * 100) + '%';
+    }
+
+    function unlockPage() {
+      pageEl.classList.add('is-unlocked');
+      gateEl.setAttribute('hidden', '');
+      contentEl.removeAttribute('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function markStep(key, href, card) {
+      if (card.classList.contains('is-done')) {
+        window.open(href, '_blank', 'noopener');
+        return;
+      }
+      var state = loadGateState();
+      state[key] = true;
+      saveGateState(state);
+      updateProgress(state);
+      window.open(href, '_blank', 'noopener');
+      if (state.follow && state.star) {
+        setTimeout(unlockPage, 450);
+      }
+    }
+
+    var gateState = loadGateState();
+    updateProgress(gateState);
+    if (gateState.follow && gateState.star) unlockPage();
+
+    followCard.addEventListener('click', function (e) {
+      e.preventDefault();
+      markStep('follow', followCard.href, followCard);
+    });
+
+    starCard.addEventListener('click', function (e) {
+      e.preventDefault();
+      markStep('star', starCard.href, starCard);
+    });
+  })();
+  </script>
 
 </div>
 {{ end }}

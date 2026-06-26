@@ -6,6 +6,7 @@ disableKinds = ["sitemap"]
 
 [params]
   description = "Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact."
+  githubOrg   = "https://github.com/best-of-ai"
   githubRepo  = "https://github.com/best-of-ai/best-of-ai"
   siteURL     = "https://bestofai.io"
 
