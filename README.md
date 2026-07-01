@@ -349,6 +349,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 ---
 
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
+
 ## [Customer Support](https://bestofai.io/categories/customer-support/)
 
 > AI tools for automating customer support with chatbots, ticket routing, and help desk automation.
