@@ -10,7 +10,7 @@ category: 'ai-newsletters'
 category_name: 'AI Newsletters'
 price: 'Free'
 featured: false
-rank: 7
+rank: 5
 date: '2026-06-22'
-tags: [newsletter, productivity, ai_tools, workflow, weekly]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

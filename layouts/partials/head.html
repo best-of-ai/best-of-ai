@@ -32,11 +32,15 @@
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
 {{ else if and .IsPage $isJournal }}
   {{ $pageTitle = printf "%s — The AI Journal | Best of AI" (.Params.title | default .Title) }}
+{{ else if and .IsPage (eq .Section "leaderboard") }}
+  {{ $pageTitle = printf "%s — Best of AI" (.Params.title | default .Title) }}
 {{ else if eq .Kind "section" }}
   {{ if $isJournal }}
     {{ $pageTitle = "The AI Journal — Best of AI" }}
   {{ else if eq .Section "professionals" }}
     {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
+  {{ else if eq .RelPermalink "/leaderboard/" }}
+    {{ $pageTitle = printf "AI Tools Leaderboard %s — Best of AI" (now.Format "January 2006") }}
   {{ else }}
     {{ $pageTitle = printf "%s — Best of AI" (.Title | default "Categories") }}
   {{ end }}

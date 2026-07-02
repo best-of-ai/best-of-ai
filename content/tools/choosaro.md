@@ -9,6 +9,7 @@ category: 'productivity'
 category_name: 'Productivity'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [decision-making, productivity, comparison, criteria, analysis, planning, ai-tools, organization]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

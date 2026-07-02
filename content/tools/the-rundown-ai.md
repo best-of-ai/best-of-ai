@@ -10,7 +10,7 @@ category: 'ai-newsletters'
 category_name: 'AI Newsletters'
 price: 'Free'
 featured: false
-rank: 8
+rank: 5
 date: '2026-06-22'
-tags: [newsletter, daily, ai_news, briefing, popular]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

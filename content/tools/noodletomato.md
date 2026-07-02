@@ -9,6 +9,7 @@ category: 'video-generator'
 category_name: 'Video Generator'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [youtube, faceless-videos, automation, video-generation, content-creation, monetization, ai-video, scripts]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, voice_enabled]
 ---

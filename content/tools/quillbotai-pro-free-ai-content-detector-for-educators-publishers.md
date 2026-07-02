@@ -9,5 +9,7 @@ category: 'learning-tools'
 category_name: 'Learning-Tools'
 price: 'Free'
 featured: false
+rank: 5
 date: '2026-06-21'
+tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
 ---

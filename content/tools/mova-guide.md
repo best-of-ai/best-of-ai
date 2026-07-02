@@ -9,6 +9,7 @@ category: 'travel'
 category_name: 'Travel'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [travel, city-guide, recommendations, local-discovery, tourism, personalized, activities, restaurants]
+tags: [customizable, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

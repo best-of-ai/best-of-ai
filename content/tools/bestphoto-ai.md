@@ -9,6 +9,7 @@ category: 'image-editing'
 category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [photo-editing, image-enhancement, upscaling, retouching, photography, ai-image, portrait, professional]
+tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, powerful]
 ---

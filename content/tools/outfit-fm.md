@@ -9,6 +9,7 @@ category: 'fashion'
 category_name: 'Fashion'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [fashion, photography, product-photography, models, e-commerce, ai-image, studio, brands]
+tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, model_based, powerful]
 ---

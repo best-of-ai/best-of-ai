@@ -9,6 +9,7 @@ category: 'meeting-assistants'
 category_name: 'Meeting Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [meeting-assistant, real-time, coaching, sales, productivity, notes, suggestions, live-meetings]
+tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics]
 ---

@@ -9,6 +9,7 @@ category: 'video-generator'
 category_name: 'Video Generator'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [video-generation, music-video, ai-video, creative, beat-sync, content-creation, effects, ai-tools]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, free_tier, voice_enabled, model_based]
 ---

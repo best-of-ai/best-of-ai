@@ -9,6 +9,7 @@ category: 'chatbot-builders'
 category_name: 'Chatbot Builders'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [telegram, chatbot-builder, rag, ai-agents, no-code, community, customer-support, messaging]
+tags: [customizable, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

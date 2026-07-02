@@ -9,6 +9,7 @@ category: 'app-builders'
 category_name: 'App Builders'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [vibe-coding, app-builder, no-code, entrepreneurs, web-apps, ai-coding, startup, deployment]
+tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment]
 ---

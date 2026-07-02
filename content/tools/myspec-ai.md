@@ -9,6 +9,7 @@ category: 'devtools'
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [devtools, specifications, product-management, planning, ai-pm, software-development, documentation, requirements]
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

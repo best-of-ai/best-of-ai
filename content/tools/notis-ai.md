@@ -9,6 +9,7 @@ category: 'personal-assistants'
 category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [personal-assistant, messaging, voice-notes, tasks, whatsapp, telegram, productivity, ai-assistant]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, collaboration, voice_enabled]
 ---

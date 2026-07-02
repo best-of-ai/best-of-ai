@@ -9,6 +9,7 @@ category: 'finance'
 category_name: 'Finance'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [investing, stocks, finance, portfolio, earnings, analysis, ai-trading, retail-investors]
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

@@ -9,6 +9,7 @@ category: 'market-research'
 category_name: 'Market Research'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [competitive-intelligence, market-research, competitor-analysis, monitoring, strategy, insights, marketing, business]
+tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence]
 ---

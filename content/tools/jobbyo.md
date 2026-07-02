@@ -9,6 +9,7 @@ category: 'job-tools'
 category_name: 'Job Tools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [job-search, job-applications, resume, career, automation, recruiting, interviews, ai-assistant]
+tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
 ---

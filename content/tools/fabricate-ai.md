@@ -9,6 +9,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [vibe-coding, app-builder, no-code, web-apps, deployment, ai-coding, full-stack, startup]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, easy_to_use]
 ---

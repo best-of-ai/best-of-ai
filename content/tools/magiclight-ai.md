@@ -9,6 +9,7 @@ category: 'video-generator'
 category_name: 'Video Generator'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [animation, video-generation, storytelling, ai-video, content-creation, explainer-video, marketing, creative]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, voice_enabled]
 ---

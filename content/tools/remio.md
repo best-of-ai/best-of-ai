@@ -9,6 +9,7 @@ category: 'knowledge-management'
 category_name: 'Knowledge Management'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [knowledge-management, personal-assistant, notes, productivity, second-brain, ai-search, pkm, chatgpt]
+tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, powerful]
 ---

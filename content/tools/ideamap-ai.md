@@ -9,6 +9,7 @@ category: 'mind-mapping'
 category_name: 'Mind Mapping'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [mind-mapping, brainstorming, ideation, creativity, productivity, planning, visual-thinking, collaboration]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

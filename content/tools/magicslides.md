@@ -9,6 +9,7 @@ category: 'presentation'
 category_name: 'Presentation'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [presentation, powerpoint, google-slides, ai-slides, education, business, templates, automation]
+tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, integrations, machine_learning, fast]
 ---

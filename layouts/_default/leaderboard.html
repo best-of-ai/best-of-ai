@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ $allTools := where .Site.RegularPages "Section" "tools" }}
 
 <div class="home-layout">
 
@@ -14,63 +13,20 @@
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">AI Tools <span>Leaderboard</span></h1>
+      <h1 class="pg-hero__title">AI Tools <span>Leaderboard</span> {{ now.Format "January 2006" }}</h1>
       <p class="pg-hero__desc">The best AI tools, ranked by real-world usefulness and impact.</p>
       <div class="pg-hero__meta">
         <strong>{{ len hugo.Data.leaderboard }}</strong> tools
         <span class="sep">·</span>
         <span>ranked by impact</span>
         <span class="sep">·</span>
+        <a href="{{ "/leaderboard/archive/" | relURL }}">Archive</a>
+        <span class="sep">·</span>
         <a href="{{ "/ranking/" | relURL }}">improve this list</a>
       </div>
     </div>
 
-    <div class="pg-toolbar">
-      <div class="pg-search">
-        <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="lb-search" placeholder="Search tools..." autocomplete="off" aria-label="Search leaderboard">
-      </div>
-    </div>
-
-    <div class="lb-list" id="lb-list">
-      {{ range hugo.Data.leaderboard }}
-        {{ $entry := . }}
-        {{ $page  := index (where $allTools "Params.slug" $entry.slug) 0 }}
-        {{ if $page }}
-        {{ $p := $page.Params }}
-        <a href="{{ $page.RelPermalink }}" class="lb-row" data-name="{{ $p.name | lower }}" data-desc="{{ or $p.subtitle ($p.description | lower | truncate 90) }}" data-cat="{{ $p.category_name | lower }}">
-
-          <span class="lb-rank{{ if eq $entry.rank 1 }} lb-rank--gold{{ else if eq $entry.rank 2 }} lb-rank--silver{{ else if eq $entry.rank 3 }} lb-rank--bronze{{ end }}">#{{ $entry.rank }}</span>
-
-          <div class="lb-logo">
-            {{ if $p.logo_url }}
-              <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-            {{ else }}
-              <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-            {{ end }}
-          </div>
-
-          <div class="lb-body">
-            <span class="lb-name">{{ $p.name }}</span>
-            <span class="lb-desc">{{ or $p.subtitle ($p.description | truncate 90) }}</span>
-          </div>
-
-          <div class="lb-meta">
-            {{ with $entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
-            <span class="lb-cat">{{ $p.category_name }}</span>
-            {{ partial "price-icon.html" $p.price }}
-          </div>
-
-          <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-
-        </a>
-        {{ end }}
-      {{ end }}
-    </div>
-
-    <p id="lb-no-results" hidden style="padding:2rem 0;color:var(--fg-muted);text-align:center;font-size:0.9rem">No tools match your search.</p>
+    {{ partial "leaderboard-list.html" (dict "entries" hugo.Data.leaderboard "ctx" .) }}
 
   </main>
 
@@ -78,26 +34,5 @@
 
 </div>
 
-<script>
-(function() {
-  var input = document.getElementById('lb-search');
-  var rows  = document.querySelectorAll('#lb-list .lb-row');
-  var noRes = document.getElementById('lb-no-results');
-  if (!input) return;
-  input.addEventListener('input', function() {
-    var q = input.value.trim().toLowerCase();
-    var vis = 0;
-    rows.forEach(function(row) {
-      var match = !q ||
-        row.dataset.name.indexOf(q) !== -1 ||
-        row.dataset.desc.indexOf(q) !== -1 ||
-        row.dataset.cat.indexOf(q)  !== -1;
-      row.style.display = match ? '' : 'none';
-      if (match) vis++;
-    });
-    if (noRes) noRes.hidden = vis > 0;
-  });
-})();
-</script>
 {{ partial "sidebar-search-js.html" . }}
 {{ end }}

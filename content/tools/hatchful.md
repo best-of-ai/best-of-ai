@@ -12,5 +12,5 @@ price: 'Free'
 featured: false
 rank: 7
 date: '2025-09-21'
-tags: [design, image_generation, branding, logo, identity, brand_assets, visual_identity, symbols, creative, free_tier, customizable, image_based]
+tags: [design, image_generation, branding, logo, identity, brand_assets, visual_identity, symbols, creative, free_tier]
 ---

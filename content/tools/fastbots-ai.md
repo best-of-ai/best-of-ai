@@ -9,6 +9,7 @@ category: 'chatbot-builders'
 category_name: 'Chatbot Builders'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [chatbot-builder, no-code, customer-support, rag, knowledge-base, ai-chatbot, website, automation]
+tags: [customizable, training, fast, ai_powered, intelligent, platform, tool, service]
 ---

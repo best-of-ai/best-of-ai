@@ -9,6 +9,7 @@ category: 'crm'
 category_name: 'CRM'
 price: 'Paid'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [crm, sales, pipeline, ai-crm, contact-management, deals, automation, b2b]
+tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
 ---

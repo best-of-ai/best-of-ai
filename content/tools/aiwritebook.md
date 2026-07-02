@@ -9,6 +9,7 @@ category: 'writing-assistants'
 category_name: 'Writing Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [book-writing, amazon-kdp, self-publishing, authors, ai-writing, ebook, fiction, non-fiction]
+tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---

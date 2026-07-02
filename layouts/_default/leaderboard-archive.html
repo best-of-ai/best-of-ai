@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{ $entries := index (index hugo.Data "archive") .Params.data_key }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/leaderboard/" | relURL }}">Leaderboard</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/leaderboard/archive/" | relURL }}">Archive</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ .Params.period }}</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Leaderboard <span>{{ .Params.period }}</span></h1>
+      <p class="pg-hero__desc">A snapshot of how the leaderboard looked in {{ .Params.period }}. This ranking is frozen. See the <a href="{{ "/leaderboard/" | relURL }}">current leaderboard</a> for today's order.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ len $entries }}</strong> tools
+        <span class="sep">·</span>
+        <span>{{ .Params.period }} snapshot</span>
+        <span class="sep">·</span>
+        <a href="{{ "/leaderboard/archive/" | relURL }}">all archives</a>
+      </div>
+    </div>
+
+    {{ partial "leaderboard-list.html" (dict "entries" $entries "ctx" .) }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

@@ -9,6 +9,7 @@ category: 'content-moderation'
 category_name: 'Content Moderation'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [ai-detection, content-moderation, plagiarism, education, enterprise, text-analysis, integrity, verification]
+tags: [image_based, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

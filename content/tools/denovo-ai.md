@@ -9,6 +9,7 @@ category: 'business-tools'
 category_name: 'Business Tools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [startup, business, entrepreneurship, no-code, business-plan, branding, automation, ai-tools]
+tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

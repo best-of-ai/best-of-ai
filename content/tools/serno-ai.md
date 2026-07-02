@@ -9,6 +9,7 @@ category: 'productivity'
 category_name: 'Productivity'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [ai-workspace, productivity, llm-comparison, research, decision-making, multi-model, thinking, analysis]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, model_based]
 ---

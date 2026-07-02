@@ -9,5 +9,7 @@ category: 'finance'
 category_name: 'Finance'
 price: 'Free'
 featured: false
+rank: 5
 date: '2026-06-22'
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, training]
 ---

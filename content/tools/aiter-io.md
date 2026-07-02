@@ -9,6 +9,7 @@ category: 'ad-generator'
 category_name: 'Ad Generator'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [marketing, advertising, copywriting, brand-voice, social-media, email-marketing, ai-writing, campaigns]
+tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, voice_enabled]
 ---

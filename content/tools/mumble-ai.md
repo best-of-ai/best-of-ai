@@ -9,6 +9,7 @@ category: 'meeting-assistants'
 category_name: 'Meeting Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [meeting-notes, voice, productivity, transcription, mac, ios, action-items, summaries]
+tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, mobile_app, voice_enabled]
 ---

@@ -9,6 +9,7 @@ category: 'finance'
 category_name: 'Finance'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [accounting, taxes, bookkeeping, freelancers, small-business, finance, bank-integration, irs]
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, free_tier, easy_to_use]
 ---

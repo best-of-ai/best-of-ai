@@ -9,6 +9,7 @@ category: 'marketing'
 category_name: 'Marketing'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [marketing, content-creation, seo, startups, brand-voice, copywriting, ai-writing, conversion]
+tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, voice_enabled]
 ---

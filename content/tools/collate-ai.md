@@ -9,6 +9,7 @@ category: 'productivity'
 category_name: 'Productivity'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [pdf, document-ai, offline, privacy, students, reading, summarization, productivity]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, free_tier, cloud_based, fast]
 ---

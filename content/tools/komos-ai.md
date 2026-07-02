@@ -9,6 +9,7 @@ category: 'automation'
 category_name: 'Automation'
 price: 'Paid'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [automation, rpa, browser-automation, enterprise, workflow, ai-agents, productivity, no-code]
+tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, enterprise]
 ---

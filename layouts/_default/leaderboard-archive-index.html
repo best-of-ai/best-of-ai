@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ $snapshots := where .Site.RegularPages "Section" "leaderboard" }}
+{{ $snapshots = where $snapshots "Params.data_key" "!=" nil }}
+{{ $snapshots = sort $snapshots "Date" "desc" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/leaderboard/" | relURL }}">Leaderboard</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Archive</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Leaderboard <span>Archive</span></h1>
+      <p class="pg-hero__desc">Past snapshots of the AI tools leaderboard. Each one is frozen at the point it was taken, so you can see how the rankings shifted over time.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ len $snapshots }}</strong> snapshots
+        <span class="sep">·</span>
+        <a href="{{ "/leaderboard/" | relURL }}">current leaderboard</a>
+      </div>
+    </div>
+
+    <div class="lb-list">
+      {{ range $snapshots }}
+        <a href="{{ .RelPermalink }}" class="lb-row">
+          <span class="lb-rank">{{ .Params.period }}</span>
+          <div class="lb-body">
+            <span class="lb-name">{{ .Title }}</span>
+            <span class="lb-desc">{{ len (index (index hugo.Data "archive") .Params.data_key) }} tools ranked</span>
+          </div>
+          <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+        </a>
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

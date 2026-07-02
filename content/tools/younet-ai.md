@@ -9,6 +9,7 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [ai-agents, automation, business, custom-ai, chatbot, enterprise, workflows, no-code]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, customizable, training, model_based]
 ---

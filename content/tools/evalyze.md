@@ -9,6 +9,7 @@ category: 'finance'
 category_name: 'Finance'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [fundraising, startup, venture-capital, pitch-deck, investors, finance, accelerator, ai-tools]
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

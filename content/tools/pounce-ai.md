@@ -9,6 +9,7 @@ category: 'social-media-tools'
 category_name: 'Social Media Tools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [social-media, engagement, twitter, linkedin, growth, content-strategy, trending, community]
+tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, real_time]
 ---

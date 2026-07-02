@@ -9,6 +9,7 @@ category: 'sales-tools'
 category_name: 'Sales Tools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [sales, intelligence, news-monitoring, competitive-analysis, b2b, crm, prospecting, insights]
+tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

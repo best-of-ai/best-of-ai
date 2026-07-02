@@ -9,6 +9,7 @@ category: 'prompt-tools'
 category_name: 'Prompt Tools'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [prompt-engineering, prompt-tools, ai-prompts, optimization, testing, chatgpt, productivity, ai-tools]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

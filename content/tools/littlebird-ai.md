@@ -9,6 +9,7 @@ category: 'personal-assistants'
 category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [personal-assistant, context-aware, productivity, email, calendar, ai-assistant, workflow, automation]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart]
 ---

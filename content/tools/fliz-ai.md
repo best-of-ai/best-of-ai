@@ -9,6 +9,7 @@ category: 'video-editor'
 category_name: 'Video Editor'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [video-editor, ai-video, content-repurposing, automation, social-media, marketing, captions, voiceover]
+tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, image_based, voice_enabled]
 ---

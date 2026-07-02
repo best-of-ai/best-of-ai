@@ -9,6 +9,7 @@ category: 'sales-tools'
 category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [sales, b2b, outreach, email-automation, lead-generation, crm, follow-up, personalization]
+tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

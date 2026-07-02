@@ -9,6 +9,7 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [ai-agents, social-network, agent-networking, collaboration, multi-agent, automation, devtools, api]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic]
 ---

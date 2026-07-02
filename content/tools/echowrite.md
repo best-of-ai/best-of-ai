@@ -9,6 +9,7 @@ category: 'audio'
 category_name: 'Audio'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [dictation, voice-to-text, windows, productivity, accessibility, speech-recognition, transcription, ai-tools]
+tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, integrations, voice_enabled]
 ---

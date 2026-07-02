@@ -10,7 +10,7 @@ category: 'ai-newsletters'
 category_name: 'AI Newsletters'
 price: 'Free'
 featured: false
-rank: 6
+rank: 5
 date: '2026-06-22'
-tags: [newsletter, developers, tutorials, ai_tools, substack, programming]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

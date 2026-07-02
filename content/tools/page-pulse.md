@@ -9,6 +9,7 @@ category: 'data'
 category_name: 'Data'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [analytics, website-analytics, traffic, dashboard, insights, data, seo, conversion]
+tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, easy_to_use]
 ---

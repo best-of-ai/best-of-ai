@@ -9,6 +9,7 @@ category: 'chatbots'
 category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [llm-comparison, chatgpt, claude, gemini, model-comparison, ai-tools, productivity, testing]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, model_based]
 ---

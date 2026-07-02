@@ -9,6 +9,7 @@ category: 'cybersecurity'
 category_name: 'Cybersecurity'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [click-fraud, ad-protection, cybersecurity, advertising, ppc, google-ads, bot-detection, marketing]
+tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

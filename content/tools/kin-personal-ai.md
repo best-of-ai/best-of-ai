@@ -9,6 +9,7 @@ category: 'personal-assistants'
 category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [personal-assistant, privacy, advisors, coaching, career, finance, health, on-device]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, secure]
 ---

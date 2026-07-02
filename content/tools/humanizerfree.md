@@ -9,6 +9,7 @@ category: 'writing-assistants'
 category_name: 'Writing Assistants'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [ai-humanizer, ai-detection, writing, paraphrasing, rewriting, free, content, plagiarism]
+tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, free_tier, voice_enabled]
 ---

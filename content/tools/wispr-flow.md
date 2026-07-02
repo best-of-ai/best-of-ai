@@ -9,6 +9,7 @@ category: 'productivity'
 category_name: 'Productivity'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [dictation, voice-to-text, productivity, mac, accessibility, speech-recognition, writing, hands-free]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, voice_enabled, fast]
 ---

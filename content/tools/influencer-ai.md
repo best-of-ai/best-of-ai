@@ -9,6 +9,7 @@ category: 'marketing'
 category_name: 'Marketing'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [virtual-influencer, marketing, content-creation, brand, social-media, ai-generated, ugc, campaigns]
+tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, model_based]
 ---

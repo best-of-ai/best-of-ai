@@ -9,5 +9,7 @@ category: 'computer-vision'
 category_name: 'Computer-Vision'
 price: 'Free'
 featured: false
+rank: 5
 date: '2026-06-21'
+tags: [multimodal, image_based, powerful, ai_powered, intelligent, platform, tool, service]
 ---

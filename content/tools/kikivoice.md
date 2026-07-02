@@ -9,6 +9,7 @@ category: 'voice-cloning'
 category_name: 'Voice Cloning'
 price: 'Free'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [voice-cloning, text-to-speech, content-creators, audiobooks, podcast, free, ai-voice, dubbing]
+tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, free_tier, voice_enabled]
 ---

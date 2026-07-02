@@ -9,6 +9,7 @@ category: 'image-generation'
 category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [youtube, thumbnail, image-generation, content-creators, graphic-design, click-through-rate, ai-image, social-media]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, powerful]
 ---

@@ -9,6 +9,7 @@ category: 'transcription'
 category_name: 'Transcription'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [dictation, voice-to-text, transcription, productivity, accessibility, speech-recognition, keyboard, mobile]
+tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, voice_enabled, fast]
 ---

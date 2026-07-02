@@ -9,6 +9,7 @@ category: 'seo'
 category_name: 'SEO'
 price: 'Freemium'
 featured: false
+rank: 5
 date: '2025-01-01'
-tags: [seo, internal-links, link-building, content-optimization, search-rankings, automation, marketing, website]
+tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp]
 ---
