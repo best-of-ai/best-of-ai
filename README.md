@@ -299,6 +299,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Akiflow](https://akiflow.com)** — [review](https://bestofai.io/tools/akiflow/) — Unified task management and daily planning tool ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 19 Productivity tools on bestofai.io →](https://bestofai.io/categories/productivity/)*
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Solves context amnesia — every session starts context-full. MIT, one-command install.
 ---
 
 ## [Chatbots](https://bestofai.io/categories/chatbots/)
