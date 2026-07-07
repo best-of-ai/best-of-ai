@@ -33,7 +33,8 @@
           <span class="lb-rank">{{ .Params.period }}</span>
           <div class="lb-body">
             <span class="lb-name">{{ .Title }}</span>
-            <span class="lb-desc">{{ len (index (index hugo.Data "archive") .Params.data_key) }} tools ranked</span>
+            {{ $archiveEntries := index (index hugo.Data "archive") .Params.data_key }}
+            <span class="lb-desc">{{ if $archiveEntries }}{{ len $archiveEntries }}{{ else }}—{{ end }} tools ranked</span>
           </div>
           <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
         </a>
