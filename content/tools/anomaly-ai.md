@@ -2,7 +2,7 @@
 title: 'Anomaly AI'
 name: 'Anomaly AI'
 slug: 'anomaly-ai'
-description: 'AI data analysis workspace for large spreadsheets and business datasets.'
+description: 'Anomaly AI is a data analysis workspace built for large spreadsheets and business datasets. Non-technical users can ask questions in plain English and get instant charts, trend analysis, and anomaly detection across millions of rows. Finance, operations, and sales teams use it instead of writing SQL or Python.'
 website: 'https://www.findanomaly.ai'
 logo_url: ''
 category: 'data'

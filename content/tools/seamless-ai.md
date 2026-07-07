@@ -2,7 +2,7 @@
 title: 'Seamless AI'
 name: 'Seamless AI'
 slug: 'seamless-ai'
-description: 'Real-time B2B contact and company data platform for building targeted prospect lists.'
+description: 'Seamless AI is a B2B contact data platform for building prospect lists and enriching CRM records. Sales teams use it to find verified email addresses, direct phone numbers, and company information for target accounts, with data sourced and refreshed in real time rather than from a static database. It connects with Salesforce, HubSpot, and other CRMs through a browser extension or API.'
 website: 'https://seamless.ai'
 logo_url: ''
 category: 'lead-generation'

@@ -2,7 +2,7 @@
 title: 'Writer'
 name: 'Writer'
 slug: 'writer'
-description: 'Enterprise-grade AI writing platform for teams to generate on-brand content at scale.'
+description: 'Writer is an enterprise AI writing platform that lets teams generate, edit, and publish content while staying within brand and style guidelines. Marketing, support, and legal teams use it to produce copy that passes compliance review without endless manual edits. It is trained on company-specific knowledge bases and enforces terminology, tone, and messaging rules across every output.'
 website: 'https://writer.com'
 logo_url: ''
 category: 'writing-assistants'

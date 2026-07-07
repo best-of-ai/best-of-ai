@@ -2,7 +2,7 @@
 title: 'Hex'
 name: 'Hex'
 slug: 'hex'
-description: 'Collaborative data workspace with AI-assisted analysis for notebooks, dashboards, and data apps.'
+description: 'Hex is a collaborative data workspace where analysts and data scientists work on notebooks, dashboards, and data apps in a shared environment. Teams use it for exploratory analysis and building internal tools that non-technical stakeholders can interact with. Its AI features help write SQL, debug code, and generate chart configurations from natural language prompts.'
 website: 'https://hex.tech'
 logo_url: ''
 category: 'data'

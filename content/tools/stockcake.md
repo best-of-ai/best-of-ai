@@ -2,7 +2,7 @@
 title: 'Stockcake'
 name: 'Stockcake'
 slug: 'stockcake'
-description: 'Free AI-generated stock photo library with thousands of royalty-free images across diverse categories.'
+description: 'Stockcake is a free library of AI-generated stock photos spanning diverse categories including food, travel, business, and lifestyle. Creators and marketers use it to find royalty-free images for blogs, social posts, and presentations without the licensing restrictions of traditional stock photo sites. The library is searchable by keyword and all images are free to use commercially.'
 website: 'https://stockcake.com'
 logo_url: ''
 category: 'image-generation'

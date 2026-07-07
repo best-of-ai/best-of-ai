@@ -2,7 +2,7 @@
 title: 'Jobscan'
 name: 'Jobscan'
 slug: 'jobscan'
-description: 'AI resume optimizer that matches resumes to job descriptions for better ATS performance.'
+description: 'Jobscan compares your resume against a specific job description and scores how well they match for applicant tracking systems. Job seekers use it to identify missing keywords and skills before applying, increasing the chance their resume gets past automated screening. It also scans LinkedIn profiles and cover letters for the same kind of keyword gap analysis.'
 website: 'https://jobscan.co'
 logo_url: ''
 category: 'resume-tools'

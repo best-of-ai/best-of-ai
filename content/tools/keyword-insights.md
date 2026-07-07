@@ -2,7 +2,7 @@
 title: 'Keyword Insights'
 name: 'Keyword Insights'
 slug: 'keyword-insights'
-description: 'AI-powered keyword research and content clustering tool for building topical authority in SEO.'
+description: 'Keyword Insights is an AI keyword research and content clustering tool that groups keywords by search intent and topic to help sites build topical authority. SEO teams use it to plan content calendars around clusters of related terms rather than targeting individual keywords in isolation. It also generates content briefs and identifies which existing pages should be consolidated or expanded.'
 website: 'https://keywordinsights.ai'
 logo_url: ''
 category: 'seo'

@@ -2,7 +2,7 @@
 title: 'Cal.com'
 name: 'Cal.com'
 slug: 'cal-com'
-description: 'Open-source scheduling platform with AI scheduling assistant for managing meetings and appointments.'
+description: 'Cal.com is an open-source scheduling platform with an AI assistant that handles meeting booking and calendar coordination. Teams and individuals use it to share booking links, set availability rules, and let the AI negotiate scheduling across time zones. It can be self-hosted for organizations that need full control over their scheduling data.'
 website: 'https://cal.com'
 logo_url: ''
 category: 'calendar-scheduling'

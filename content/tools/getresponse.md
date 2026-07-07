@@ -2,7 +2,7 @@
 title: 'GetResponse'
 name: 'GetResponse'
 slug: 'getresponse'
-description: 'Email marketing and automation platform with AI email generator and landing page builder.'
+description: 'GetResponse is an email marketing and automation platform that covers email campaigns, landing pages, webinars, and list building in one tool. Small businesses use it to build automated email sequences, run paid newsletter programs, and create opt-in pages without needing separate software for each function. An AI email generator helps write campaign copy and subject lines.'
 website: 'https://getresponse.com'
 logo_url: ''
 category: 'email-assistants'

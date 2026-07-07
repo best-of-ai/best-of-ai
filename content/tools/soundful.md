@@ -2,7 +2,7 @@
 title: 'Soundful'
 name: 'Soundful'
 slug: 'soundful'
-description: 'AI music generation platform for creating royalty-free background music for videos and podcasts.'
+description: 'Soundful generates royalty-free background music for videos, podcasts, and content using AI. Creators choose a genre and mood, and the platform produces unique tracks they can use commercially without attribution or licensing fees. Each generated track is unique, so the same creator will not end up using the same audio as thousands of other videos.'
 website: 'https://soundful.com'
 logo_url: ''
 category: 'music-generation'

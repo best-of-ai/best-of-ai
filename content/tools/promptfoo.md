@@ -2,7 +2,7 @@
 title: 'Promptfoo'
 name: 'Promptfoo'
 slug: 'promptfoo'
-description: 'Open-source tool for testing, evaluating, and red-teaming LLM prompts and applications.'
+description: 'Promptfoo is an open-source CLI tool for testing and red-teaming LLM prompts before they reach production. Developers run automated test suites across prompt variations, compare outputs, and catch regressions when prompts or models change. It supports custom scoring functions and fits into CI/CD pipelines.'
 website: 'https://promptfoo.dev'
 logo_url: ''
 category: 'devtools'

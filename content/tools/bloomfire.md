@@ -2,7 +2,7 @@
 title: 'Bloomfire'
 name: 'Bloomfire'
 slug: 'bloomfire'
-description: 'AI-powered knowledge management platform for centralizing and searching company knowledge.'
+description: 'Bloomfire centralizes company knowledge into a searchable hub. Teams use it to cut down on repeated questions by surfacing answers from documentation, past support tickets, and internal wikis through natural language search. It fits customer support, sales enablement, and onboarding workflows well.'
 website: 'https://bloomfire.com'
 logo_url: ''
 category: 'knowledge-management'

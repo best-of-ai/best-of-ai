@@ -2,7 +2,7 @@
 title: 'Lifesum'
 name: 'Lifesum'
 slug: 'lifesum'
-description: 'AI nutrition and diet tracking app that provides personalized meal plans and food logging.'
+description: 'Lifesum is a nutrition and diet tracking app that provides personalized meal plans, calorie logging, and macronutrient tracking. Users log meals by searching a food database or scanning barcodes, and the app adjusts recommendations based on goals like weight loss, muscle gain, or balanced eating. It pairs with Apple Health and fitness trackers to account for calories burned alongside those consumed.'
 website: 'https://lifesum.com'
 logo_url: ''
 category: 'food'

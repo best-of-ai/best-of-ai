@@ -2,7 +2,7 @@
 title: 'Huntr'
 name: 'Huntr'
 slug: 'huntr'
-description: 'AI job application tracker for organizing your job search with resume and cover letter tools.'
+description: 'Huntr is a job search tracker that organizes your applications into a Kanban-style board with stages from wishlist to offer. Job seekers use it to keep track of where they applied, upcoming interviews, and follow-ups without losing details across email threads. AI tools help tailor resumes and cover letters to specific job descriptions, and the chrome extension captures job listings from any site.'
 website: 'https://huntr.co'
 logo_url: ''
 category: 'job-tools'

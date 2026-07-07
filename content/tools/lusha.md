@@ -2,7 +2,7 @@
 title: 'Lusha'
 name: 'Lusha'
 slug: 'lusha'
-description: 'AI-powered sales intelligence tool for finding accurate B2B contact and company data.'
+description: 'Lusha is a B2B sales intelligence tool for finding verified phone numbers, email addresses, and company data for prospect lists. Sales reps use its browser extension to pull contact details directly from LinkedIn profiles, while the API supports bulk prospecting and CRM enrichment workflows. Data is sourced from a mix of public records and a community-driven user network.'
 website: 'https://lusha.com'
 logo_url: ''
 category: 'lead-generation'

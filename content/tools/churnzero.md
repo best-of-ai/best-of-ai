@@ -2,7 +2,7 @@
 title: 'ChurnZero'
 name: 'ChurnZero'
 slug: 'churnzero'
-description: 'Customer success platform using AI to predict churn and automate engagement for SaaS companies.'
+description: 'ChurnZero is a customer success platform for SaaS companies that uses AI to predict churn, score account health, and automate engagement tasks. Customer success teams use it to track product usage alongside support and CRM data, trigger playbooks when accounts show warning signs, and surface which customers are candidates for expansion. It integrates with Salesforce, HubSpot, and major CRM systems.'
 website: 'https://churnzero.com'
 logo_url: ''
 category: 'customer-support'

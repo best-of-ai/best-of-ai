@@ -2,7 +2,7 @@
 title: 'Genmo'
 name: 'Genmo'
 slug: 'genmo'
-description: 'AI video generation platform with Mochi 1, an open-source model for high-motion video creation.'
+description: 'Genmo is an AI video generation platform and the team behind Mochi 1, an open-source video generation model known for high-motion clips and fluid character movement. Researchers and creators can run Mochi 1 locally from the open-source weights, or use Genmo's consumer app to generate videos from text prompts without any setup. It is one of the more technically capable open-source video models available.'
 website: 'https://genmo.ai'
 logo_url: ''
 category: 'video-generator'

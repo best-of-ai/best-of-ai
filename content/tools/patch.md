@@ -2,7 +2,7 @@
 title: 'Patch'
 name: 'Patch'
 slug: 'patch'
-description: 'Carbon removal marketplace connecting businesses with vetted, high-quality carbon removal projects.'
+description: 'Patch is a carbon removal marketplace where businesses buy verified credits from science-backed projects including direct air capture, enhanced weathering, and biochar. It also provides an API for companies that want to integrate carbon offsetting directly into e-commerce checkouts or business workflows.'
 website: 'https://patch.io'
 logo_url: ''
 category: 'climate'

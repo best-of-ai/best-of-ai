@@ -2,7 +2,7 @@
 title: 'Sylvera'
 name: 'Sylvera'
 slug: 'sylvera'
-description: 'AI platform for rating and analyzing carbon credits to help organizations make better climate investments.'
+description: 'Sylvera is an AI platform that rates and analyzes carbon credits to help organizations evaluate the quality of their climate investments. Corporate sustainability teams and investors use it to assess whether a carbon project is actually delivering the emissions reductions it claims, using satellite data, on-the-ground monitoring, and proprietary ratings methodology. It covers forestry, renewable energy, and cookstove projects across the voluntary carbon market.'
 website: 'https://sylvera.com'
 logo_url: ''
 category: 'climate'

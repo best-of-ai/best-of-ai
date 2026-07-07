@@ -2,7 +2,7 @@
 title: 'Zumper'
 name: 'Zumper'
 slug: 'zumper'
-description: 'AI-powered rental search platform for finding apartments with personalized recommendations.'
+description: 'Zumper is a rental search platform for finding apartments and houses across major US cities. Renters browse listings, get recommendations matched to their preferences and budget, and apply directly through the platform without going to a separate landlord site.'
 website: 'https://zumper.com'
 logo_url: ''
 category: 'real-estate'

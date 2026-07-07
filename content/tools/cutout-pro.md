@@ -2,7 +2,7 @@
 title: 'Cutout.Pro'
 name: 'Cutout.Pro'
 slug: 'cutout-pro'
-description: 'AI visual design platform for background removal, photo editing, and image enhancement.'
+description: 'Cutout.Pro is an AI image editing platform for background removal, photo retouching, and visual enhancement. Designers and e-commerce teams use it to batch-process product images and clean up visuals without desktop software. It handles complex edges like hair and fur well, and processes images through a web upload or API.'
 website: 'https://cutout.pro'
 logo_url: ''
 category: 'background-remover'

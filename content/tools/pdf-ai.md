@@ -2,7 +2,7 @@
 title: 'PDF.ai'
 name: 'PDF.ai'
 slug: 'pdf-ai'
-description: 'AI chatbot for PDFs that lets you ask questions, summarize, and extract information from documents.'
+description: 'PDF.ai is a document chat tool that lets you upload PDFs and ask questions, get summaries, and extract specific information through a conversational interface. Researchers, lawyers, and students use it to quickly pull facts from dense documents without reading them in full. It handles multi-document uploads so you can ask questions that span across several files at once.'
 website: 'https://pdf.ai'
 logo_url: ''
 category: 'document-ai'

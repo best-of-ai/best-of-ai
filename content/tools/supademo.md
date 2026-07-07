@@ -2,7 +2,7 @@
 title: 'Supademo'
 name: 'Supademo'
 slug: 'supademo'
-description: 'AI-powered interactive demo platform for creating product walkthroughs with automatic voiceovers.'
+description: 'Supademo generates interactive product walkthroughs from screen recordings and adds automatic AI voiceovers. Marketing and sales teams use it to share guided product experiences that prospects can click through on their own. It supports embedding demos in websites, help centers, and sales outreach without any manual narration recording.'
 website: 'https://supademo.com'
 logo_url: ''
 category: 'marketing'

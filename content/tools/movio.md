@@ -2,7 +2,7 @@
 title: 'Movio'
 name: 'Movio'
 slug: 'movio'
-description: 'AI video generator that creates spokesperson videos from text using realistic digital avatars.'
+description: 'Movio creates spokesperson videos from scripts using realistic digital avatars, without cameras or actors. Marketing teams, e-learning creators, and businesses use it to produce training videos, product explainers, and sales content at scale. You write the script, pick an avatar, and the platform generates a lip-synced video in the language and tone you need.'
 website: 'https://www.movio.la'
 logo_url: ''
 category: 'talking-avatar-generator'

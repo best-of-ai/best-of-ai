@@ -2,7 +2,7 @@
 title: 'Planable'
 name: 'Planable'
 slug: 'planable'
-description: 'Social media collaboration and scheduling platform with AI content generation for marketing teams.'
+description: 'Planable is a social media collaboration and scheduling platform where marketing teams draft, review, and approve posts before they go live. It lets clients and stakeholders leave comments directly on posts in a visual feed view, cutting down approval email threads. AI content generation helps teams draft captions and variations faster across multiple platforms.'
 website: 'https://planable.io'
 logo_url: ''
 category: 'social-media-tools'

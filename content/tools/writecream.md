@@ -2,7 +2,7 @@
 title: 'Writecream'
 name: 'Writecream'
 slug: 'writecream'
-description: 'AI content generation platform for creating personalized cold emails, blog articles, and ad copy.'
+description: 'Writecream is an AI content generation platform for creating personalized cold emails, blog articles, ad copy, and social media posts. Sales teams use it to generate personalized outreach icebreakers from a prospect''s LinkedIn profile or company website, while marketers use the writing tools for campaign copy and long-form content. It covers a wide range of use cases under a single subscription.'
 website: 'https://writecream.com'
 logo_url: ''
 category: 'copywriting'

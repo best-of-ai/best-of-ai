@@ -2,7 +2,7 @@
 title: 'Databricks'
 name: 'Databricks'
 slug: 'databricks'
-description: 'Unified data and AI platform for building, training, and deploying AI models on lakehouse architecture.'
+description: 'Databricks is a unified data and AI platform built on lakehouse architecture that combines data engineering, analytics, and machine learning in one environment. Data engineering and ML teams use it to process large datasets with Apache Spark, train and fine-tune models, and deploy them to production, all without moving data between separate systems. It supports Delta Lake for reliable data storage and integrates with cloud providers including AWS, Azure, and GCP.'
 website: 'https://databricks.com'
 logo_url: ''
 category: 'data'

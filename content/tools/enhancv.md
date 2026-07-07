@@ -2,7 +2,7 @@
 title: 'Enhancv'
 name: 'Enhancv'
 slug: 'enhancv'
-description: 'AI resume builder that helps job seekers create standout resumes with data-driven suggestions.'
+description: 'Enhancv is a resume builder that helps job seekers write stronger resumes using AI suggestions grounded in real hiring data. It offers templates that format well in ATS systems and prompts users to add quantifiable achievements rather than generic job duties. The AI coach reviews each section and flags weak phrasing before the resume goes out.'
 website: 'https://enhancv.com'
 logo_url: ''
 category: 'resume-tools'

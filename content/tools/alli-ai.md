@@ -2,7 +2,7 @@
 title: 'Alli AI'
 name: 'Alli AI'
 slug: 'alli-ai'
-description: 'Automated SEO platform that deploys on-page optimizations directly to websites at scale.'
+description: 'Alli AI pushes on-page SEO optimizations directly to live websites at scale, without manual developer deployments. Teams use it to run title tag, meta description, and schema changes across thousands of pages from a single dashboard. It connects via a JavaScript snippet and applies changes in real time, bypassing the usual content management bottleneck.'
 website: 'https://alliai.com'
 logo_url: ''
 category: 'seo'

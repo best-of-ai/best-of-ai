@@ -2,7 +2,7 @@
 title: 'Render'
 name: 'Render'
 slug: 'render'
-description: 'Cloud platform for deploying web apps, APIs, and AI services with automatic scaling.'
+description: 'Render is a cloud platform for deploying web apps, APIs, background workers, and databases with automatic scaling and zero-downtime deploys. Developers use it as a Heroku alternative that handles infrastructure so teams can deploy from a Git push without managing servers. It supports Docker containers, static sites, and managed Postgres and Redis instances.'
 website: 'https://render.com'
 logo_url: ''
 category: 'devtools'

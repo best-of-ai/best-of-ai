@@ -2,7 +2,7 @@
 title: 'Eden AI'
 name: 'Eden AI'
 slug: 'eden-ai'
-description: 'Unified API gateway for accessing and comparing AI models from multiple providers in one place.'
+description: 'Eden AI is a unified API gateway that provides access to AI models from multiple providers including OpenAI, Google, AWS, and others through a single standardized interface. Developers use it to compare outputs across providers for tasks like OCR, translation, speech recognition, and text generation, then switch between them without changing their integration. It simplifies vendor comparison and reduces the effort of managing multiple AI API subscriptions.'
 website: 'https://edenai.run'
 logo_url: ''
 category: 'devtools'

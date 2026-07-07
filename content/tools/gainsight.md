@@ -2,7 +2,7 @@
 title: 'Gainsight'
 name: 'Gainsight'
 slug: 'gainsight'
-description: 'AI-powered customer success platform for reducing churn and driving expansion through health scoring.'
+description: 'Gainsight is a customer success platform that uses AI to score account health, flag churn risk, and identify expansion opportunities. Customer success teams use it to manage their entire portfolio from a single view, triggering automated playbooks when accounts show early warning signs. It connects to CRM, product usage data, and support tickets to build a complete picture of each customer.'
 website: 'https://gainsight.com'
 logo_url: ''
 category: 'crm'

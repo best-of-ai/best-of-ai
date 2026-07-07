@@ -2,7 +2,7 @@
 title: 'MotherDuck'
 name: 'MotherDuck'
 slug: 'motherduck'
-description: 'Serverless analytics platform built on DuckDB with AI assistant for querying data with natural language.'
+description: 'MotherDuck is a serverless analytics platform built on DuckDB that lets analysts run fast SQL queries against local files and cloud storage without managing infrastructure. It extends DuckDB with cloud storage, collaboration, and sharing so teams can work on the same data without moving it into a traditional data warehouse. An AI assistant lets users query data using natural language for analysts who are less comfortable writing SQL.'
 website: 'https://motherduck.com'
 logo_url: ''
 category: 'data'

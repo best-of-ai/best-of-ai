@@ -2,7 +2,7 @@
 title: 'BentoML'
 name: 'BentoML'
 slug: 'bentoml'
-description: 'Open-source framework for building, shipping, and scaling AI model serving.'
+description: 'BentoML is an open-source framework for packaging and deploying machine learning models at production scale. ML engineers wrap any model from any framework into a standardized service, then ship it as a Docker container or push it to cloud platforms. Batching, async serving, and multi-model pipelines are handled out of the box.'
 website: 'https://bentoml.com'
 logo_url: ''
 category: 'devtools'

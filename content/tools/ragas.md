@@ -2,7 +2,7 @@
 title: 'Ragas'
 name: 'Ragas'
 slug: 'ragas'
-description: 'Open-source framework for evaluating retrieval-augmented generation (RAG) pipelines.'
+description: 'Ragas is an open-source evaluation framework for RAG pipelines. It gives teams metrics for faithfulness, answer relevancy, and context precision that work without labeled ground truth data. Useful for catching quality regressions when prompts or retrieval configs change.'
 website: 'https://ragas.io'
 logo_url: ''
 category: 'devtools'

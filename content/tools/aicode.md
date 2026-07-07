@@ -2,7 +2,7 @@
 title: 'AICode'
 name: 'AICode'
 slug: 'aicode'
-description: 'AI coding assistant specifically designed to maintain complex legacy enterprise software.'
+description: 'AICode is a coding assistant built for large, complex legacy codebases rather than fresh projects. It understands multi-file dependencies and systems where context spans hundreds of files, helping developers navigate, refactor, and add features without breaking existing behavior. The focus is on enterprise teams working on mature software with years of decisions baked in.'
 website: 'https://ai-code.ai'
 logo_url: ''
 category: 'code-assistant'

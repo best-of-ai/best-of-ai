@@ -2,7 +2,7 @@
 title: 'DataStax'
 name: 'DataStax'
 slug: 'datastax'
-description: 'AI-powered data platform with Astra DB vector database for building real-time AI applications.'
+description: 'DataStax is a data platform built around Astra DB, a managed vector database for building real-time AI applications. Development teams use it to store and query vector embeddings at scale for RAG pipelines, recommendation systems, and semantic search. It is based on Apache Cassandra and built to handle high-throughput, low-latency workloads that most relational databases struggle with at scale.'
 website: 'https://datastax.com'
 logo_url: ''
 category: 'devtools'

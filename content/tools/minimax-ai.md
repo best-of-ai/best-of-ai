@@ -2,7 +2,7 @@
 title: 'Minimax'
 name: 'Minimax'
 slug: 'minimax-ai'
-description: 'Chinese AI company offering video generation, image generation, and multimodal foundation models.'
+description: 'Minimax is a Chinese AI company that offers video generation, image generation, and multimodal foundation models through a consumer app and developer APIs. Its Hailuo video model competes with tools like Kling and Sora for text-to-video generation, producing high-motion, photorealistic clips. Models are available to developers internationally through the Minimax API.'
 website: 'https://minimax.io'
 logo_url: ''
 category: 'video-generator'

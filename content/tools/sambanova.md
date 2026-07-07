@@ -2,7 +2,7 @@
 title: 'SambaNova'
 name: 'SambaNova'
 slug: 'sambanova'
-description: 'AI hardware and software platform delivering ultra-fast inference for foundation models at enterprise scale.'
+description: 'SambaNova is an AI hardware and software platform built for running large foundation models at enterprise scale with extremely fast inference speeds. Organizations that need low-latency responses from large models use it as an alternative to GPU-based cloud inference, particularly for workloads where standard cloud providers are too slow or too expensive at scale. SambaNova also offers a free API tier for developers to test fast inference against Llama and other open models.'
 website: 'https://sambanova.ai'
 logo_url: ''
 category: 'models'

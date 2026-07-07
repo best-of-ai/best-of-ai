@@ -2,7 +2,7 @@
 title: 'Zilliz'
 name: 'Zilliz'
 slug: 'zilliz'
-description: 'Managed vector database service built on Milvus for AI-native similarity search at scale.'
+description: 'Zilliz is a managed vector database service built on Milvus, designed for AI-native similarity search at scale. ML and engineering teams use it to store and query billions of vector embeddings for recommendation systems, semantic search, and RAG applications without running their own Milvus clusters. It is the fully managed cloud version from the team that built and maintains the open-source Milvus project.'
 website: 'https://zilliz.com'
 logo_url: ''
 category: 'devtools'

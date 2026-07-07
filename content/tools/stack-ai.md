@@ -2,7 +2,7 @@
 title: 'Stack AI'
 name: 'Stack AI'
 slug: 'stack-ai'
-description: 'No-code platform for building and deploying enterprise AI workflows and automations.'
+description: 'Stack AI is a no-code platform for building AI workflows and automations in enterprise settings. Operations, customer support, and IT teams use it to create pipelines that process documents, answer questions from internal knowledge bases, and automate repetitive tasks. It connects to SharePoint, Confluence, Salesforce, and other data sources out of the box.'
 website: 'https://stack-ai.com'
 logo_url: ''
 category: 'ai-agents'

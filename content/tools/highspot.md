@@ -2,7 +2,7 @@
 title: 'Highspot'
 name: 'Highspot'
 slug: 'highspot'
-description: 'AI sales enablement platform for content management, training, and guided selling.'
+description: 'Highspot gives revenue teams a single place to manage content, train reps, and guide them through complex sales motions. Managers can ensure reps find the right asset at each deal stage, while analytics show which content actually moves pipeline. It integrates with Salesforce, Teams, and most major CRM systems.'
 website: 'https://highspot.com'
 logo_url: ''
 category: 'sales-tools'

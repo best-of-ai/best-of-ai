@@ -2,7 +2,7 @@
 title: 'Kaspr'
 name: 'Kaspr'
 slug: 'kaspr'
-description: 'LinkedIn prospecting tool for instantly finding verified contact details and enriching lead data.'
+description: 'Kaspr is a LinkedIn prospecting tool that instantly surfaces verified phone numbers and email addresses for contacts you find on the platform. Sales teams use its Chrome extension to pull contact details from LinkedIn profiles and Sales Navigator without leaving the browser. Credits refresh monthly, and data enrichment can be pushed directly to HubSpot, Salesforce, and other CRMs.'
 website: 'https://kaspr.io'
 logo_url: ''
 category: 'lead-generation'

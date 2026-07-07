@@ -2,7 +2,7 @@
 title: 'Viggle'
 name: 'Viggle'
 slug: 'viggle'
-description: 'AI video tool for animating characters by merging any image with reference motion video.'
+description: 'Viggle is an AI video tool that animates characters by merging a subject image with a reference motion video. Creators use it to put any character or person into a dance, walk, or action sequence by combining a still photo with a motion clip as reference. It gained popularity on social media for making meme characters and fictional figures perform real choreography.'
 website: 'https://viggle.ai'
 logo_url: ''
 category: 'video-generator'

@@ -2,7 +2,7 @@
 title: 'MLflow'
 name: 'MLflow'
 slug: 'mlflow'
-description: 'Open-source platform for managing the end-to-end machine learning lifecycle including experimentation and deployment.'
+description: 'MLflow is an open-source platform for managing the machine learning lifecycle from experiment tracking to production deployment. Data scientists use it to log runs, compare parameters and metrics across experiments, and package models in a reproducible format. It works with any ML framework and integrates with Databricks, SageMaker, and most cloud ML platforms.'
 website: 'https://mlflow.org'
 logo_url: ''
 category: 'devtools'

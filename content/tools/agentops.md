@@ -2,7 +2,7 @@
 title: 'AgentOps'
 name: 'AgentOps'
 slug: 'agentops'
-description: 'Observability and monitoring platform for AI agents with session replays and cost tracking.'
+description: 'AgentOps is an observability platform for AI agents that records session replays, tracks token costs, and surfaces errors across agent runs. Developers building multi-agent systems use it to understand why an agent failed, how long each step took, and how much a session cost. It integrates with frameworks like LangChain, CrewAI, and AutoGen through a simple SDK.'
 website: 'https://agentops.ai'
 logo_url: ''
 category: 'devtools'

@@ -2,7 +2,7 @@
 title: 'Firecrawl'
 name: 'Firecrawl'
 slug: 'firecrawl'
-description: 'Web scraping API that converts entire websites into clean markdown for AI applications and LLMs.'
+description: 'Firecrawl is a web scraping API that crawls entire websites and converts their content into clean markdown formatted for use in AI applications and LLM context windows. Developers use it to feed web content into RAG pipelines, research agents, and data extraction workflows without building their own crawler or handling JavaScript rendering. It handles dynamic sites, authentication, and rate limiting so scraped content arrives clean and structured.'
 website: 'https://firecrawl.dev'
 logo_url: ''
 category: 'devtools'

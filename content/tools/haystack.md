@@ -2,7 +2,7 @@
 title: 'Haystack'
 name: 'Haystack'
 slug: 'haystack'
-description: 'Open-source AI framework by deepset for building production-ready NLP and RAG pipelines.'
+description: 'Haystack is an open-source Python framework by deepset for building NLP and RAG pipelines in production. Developers use it to connect retrieval systems, language models, and data sources into end-to-end search and question-answering applications. It has a large library of pre-built components for document stores, embedders, and generators.'
 website: 'https://haystack.deepset.ai'
 logo_url: ''
 category: 'devtools'

@@ -2,7 +2,7 @@
 title: 'Submit AI Tools'
 name: 'Submit AI Tools'
 slug: 'submit-ai-tools'
-description: 'Submit AI Tools is a comprehensive platform for discovering and evaluating AI tools, chatbots, and intelligent content generation apps — a complete reference in the world of Artificial Intelligence.'
+description: 'Submit AI Tools is a directory for discovering and evaluating AI tools, chatbots, and content generation apps across dozens of categories. Users browse or search the catalog to find tools for specific tasks, compare options in a category, and submit new tools for listing. It serves as a reference point for people tracking the AI tool landscape who want a structured index rather than relying on social media recommendations or search results.'
 website: 'https://submitaitools.org'
 logo_url: ''
 category: 'search-engines'

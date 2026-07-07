@@ -2,7 +2,7 @@
 title: 'Smartling'
 name: 'Smartling'
 slug: 'smartling'
-description: 'AI-powered translation management platform for localizing content faster with neural machine translation.'
+description: 'Smartling is a translation management platform that combines neural machine translation with human review workflows for localizing digital content. Marketing and product teams use it to translate websites, apps, and documents into multiple languages simultaneously, with automated content ingestion, translator routing, and publishing back to the source system. It integrates with WordPress, Contentful, HubSpot, and other CMS platforms.'
 website: 'https://smartling.com'
 logo_url: ''
 category: 'translator'

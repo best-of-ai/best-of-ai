@@ -2,7 +2,7 @@
 title: 'Higgsfield AI'
 name: 'Higgsfield AI'
 slug: 'higgsfield'
-description: 'AI video generation platform focused on controllable, personalized cinematic video creation.'
+description: 'Higgsfield AI is a video generation platform that gives users more control over generated footage than most competitors. You specify camera movements, character behavior, and cinematic style rather than hoping a prompt lands right. Content creators who need consistent output across a series of clips tend to find it more predictable than prompt-only tools.'
 website: 'https://higgsfield.ai'
 logo_url: ''
 category: 'video-generator'

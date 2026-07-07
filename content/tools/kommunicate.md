@@ -2,7 +2,7 @@
 title: 'Kommunicate'
 name: 'Kommunicate'
 slug: 'kommunicate'
-description: 'AI chatbot and live chat platform for automating customer support with human handoff.'
+description: 'Kommunicate is an AI chatbot and live chat platform for automating customer support with smooth human handoff when conversations get complex. Support teams use it to build no-code chatbots that handle common queries, then pass unresolved tickets to human agents with full conversation history intact. It integrates with Dialogflow, OpenAI, and most help desk systems.'
 website: 'https://kommunicate.io'
 logo_url: ''
 category: 'customer-support'

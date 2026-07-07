@@ -2,7 +2,7 @@
 title: 'Seismic'
 name: 'Seismic'
 slug: 'seismic'
-description: 'AI-powered sales enablement platform for managing content, training, and buyer engagement.'
+description: 'Seismic is a sales enablement platform for enterprise revenue teams. It surfaces relevant content for each deal automatically, tracks what prospects actually engage with across the buyer journey, and provides coaching insights from real sales conversations. It fits organizations running long, complex sales cycles where the wrong asset at the wrong moment can stall a deal.'
 website: 'https://seismic.com'
 logo_url: ''
 category: 'sales-tools'

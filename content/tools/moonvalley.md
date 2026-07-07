@@ -2,7 +2,7 @@
 title: 'Moonvalley'
 name: 'Moonvalley'
 slug: 'moonvalley'
-description: 'AI video generation platform for creating cinematic-quality videos from text and images.'
+description: 'Moonvalley is a video generation platform for creating cinematic-quality clips from text prompts and reference images. Filmmakers and creative studios use it for concept visualization, pre-production storyboarding, and generating footage that would be expensive to shoot. The platform focuses on output quality and creative control rather than raw generation speed.'
 website: 'https://moonvalley.ai'
 logo_url: ''
 category: 'video-generator'

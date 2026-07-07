@@ -2,7 +2,7 @@
 title: 'Anyscale'
 name: 'Anyscale'
 slug: 'anyscale'
-description: 'Platform for building, fine-tuning, and deploying AI models at scale using Ray.'
+description: 'Anyscale is a managed platform for building, fine-tuning, and serving AI models at scale, built on the Ray distributed computing framework. ML teams use it to run large training jobs and serve inference workloads without managing cluster infrastructure. It also provides a hosted API for running open-source models like Llama and Mistral in production.'
 website: 'https://anyscale.com'
 logo_url: ''
 category: 'devtools'

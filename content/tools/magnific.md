@@ -2,7 +2,7 @@
 title: 'Magnific AI'
 name: 'Magnific AI'
 slug: 'magnific'
-description: 'AI image upscaler and enhancer that adds realistic detail while increasing resolution.'
+description: 'Magnific AI upscales and enhances images by generating new photorealistic detail rather than just interpolating pixels. Photographers, digital artists, and creative directors use it to enlarge images without the blurring typical of traditional upscaling. The level of added detail is adjustable, making it useful for anything from subtle clean-ups to heavy creative reinterpretations.'
 website: 'https://magnific.ai'
 logo_url: ''
 category: 'image-editing'

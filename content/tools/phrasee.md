@@ -2,7 +2,7 @@
 title: 'Phrasee'
 name: 'Phrasee'
 slug: 'phrasee'
-description: 'AI-powered brand language optimization platform for generating and testing marketing copy at scale.'
+description: 'Phrasee is a brand language optimization platform that generates and tests email subject lines, push notifications, and ad copy using AI trained on brand-specific performance data. Marketing teams at large retailers and financial brands use it to run continuous copy experiments and let the model learn which language drives the best results for their specific audience. It integrates with email service providers and ad platforms for closed-loop testing.'
 website: 'https://phrasee.co'
 logo_url: ''
 category: 'marketing'

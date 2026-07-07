@@ -2,7 +2,7 @@
 title: 'Hocoos'
 name: 'Hocoos'
 slug: 'hocoos'
-description: 'AI website builder that creates complete, ready-to-publish websites in minutes from a few questions.'
+description: 'Hocoos is an AI website builder that creates complete, publish-ready websites in minutes by asking a few questions about your business. Small business owners use it to get a professional website with generated copy, images, and structure without design or coding skills. The result includes hosting, a domain, and built-in tools for booking, e-commerce, and contact forms.'
 website: 'https://hocoos.com'
 logo_url: ''
 category: 'website-builders'

@@ -2,7 +2,7 @@
 title: 'Snowflake'
 name: 'Snowflake'
 slug: 'snowflake'
-description: 'Cloud data platform with AI and ML capabilities including Cortex AI for building intelligent applications.'
+description: 'Snowflake is a cloud data platform that separates compute from storage, letting data teams scale query performance independently of how much data they store. Data engineers and analysts use it to centralize data from across the business into a single platform for SQL analytics, data sharing, and ML workloads. Cortex AI adds LLM capabilities directly in Snowflake so teams can run text analysis, summarization, and classification on their data without moving it out of the platform.'
 website: 'https://snowflake.com'
 logo_url: ''
 category: 'data'

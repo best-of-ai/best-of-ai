@@ -2,7 +2,7 @@
 title: 'Neets AI'
 name: 'Neets AI'
 slug: 'neets-ai'
-description: 'Fast and affordable text-to-speech API with hundreds of natural-sounding voices.'
+description: 'Neets AI is a text-to-speech API with hundreds of natural-sounding voices at a lower price than most major providers. Developers integrate it to add voice narration to apps, generate audio content at scale, or power conversational AI interfaces.'
 website: 'https://neets.ai'
 logo_url: ''
 category: 'text-to-speech'

@@ -2,7 +2,7 @@
 title: 'DeepInfra'
 name: 'DeepInfra'
 slug: 'deepinfra'
-description: 'Cloud inference platform for running open-source AI models at scale with a simple API.'
+description: 'DeepInfra is a cloud inference platform for running open-source AI models through a simple API without managing GPU infrastructure. Developers use it to call models like Llama, Mistral, and Whisper at low cost, with pricing based on tokens consumed rather than reserved compute. It is a practical option for teams that want access to frontier open-source models without building their own serving stack.'
 website: 'https://deepinfra.com'
 logo_url: ''
 category: 'devtools'

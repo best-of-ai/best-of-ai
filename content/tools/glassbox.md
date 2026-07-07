@@ -2,7 +2,7 @@
 title: 'Glassbox'
 name: 'Glassbox'
 slug: 'glassbox'
-description: 'AI digital experience analytics platform using session replay and heatmaps to improve conversions.'
+description: 'Glassbox is a digital experience analytics platform that records session replays and generates heatmaps to show how users actually behave on websites and apps. Product and UX teams use it to find where customers drop off, struggle, or encounter errors, then prioritize fixes based on real usage data. AI surfaces patterns across thousands of sessions so analysts do not need to watch recordings manually.'
 website: 'https://glassbox.com'
 logo_url: ''
 category: 'market-research'

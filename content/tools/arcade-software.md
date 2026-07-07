@@ -2,7 +2,7 @@
 title: 'Arcade'
 name: 'Arcade'
 slug: 'arcade-software'
-description: 'Interactive demo creation tool for building shareable, clickable product walkthroughs.'
+description: 'Arcade turns screen recordings into guided, clickable product walkthroughs. Marketing and sales teams use it to build demos that prospects can explore on their own, without scheduling a live call or setting up a sandbox. Demos embed in websites, emails, or share as a direct link.'
 website: 'https://arcade.software'
 logo_url: ''
 category: 'marketing'

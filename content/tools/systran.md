@@ -2,7 +2,7 @@
 title: 'SYSTRAN'
 name: 'SYSTRAN'
 slug: 'systran'
-description: 'Neural machine translation platform for enterprises with on-premise and cloud deployment options.'
+description: 'SYSTRAN is a neural machine translation platform for enterprises that need translation deployed either on-premise or in the cloud. Organizations in defense, legal, and financial services use it where data sovereignty rules out third-party cloud translation APIs. It supports domain-specific customization so terminology stays consistent across technical documents.'
 website: 'https://systrangroup.com'
 logo_url: ''
 category: 'translator'

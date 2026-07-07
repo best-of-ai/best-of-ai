@@ -2,7 +2,7 @@
 title: 'MailerLite'
 name: 'MailerLite'
 slug: 'mailerlite'
-description: 'Email marketing platform with AI writing assistance for creating campaigns, automations, and landing pages.'
+description: 'MailerLite is an email marketing platform for creating campaigns, building automations, and publishing landing pages and newsletters. Small businesses and creators use it for its generous free plan, which covers up to 1,000 subscribers with most core features included. AI writing assistance helps draft email copy and subject lines, and A/B testing is available on paid plans.'
 website: 'https://mailerlite.com'
 logo_url: ''
 category: 'email-assistants'

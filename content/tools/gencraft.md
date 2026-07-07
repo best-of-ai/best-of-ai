@@ -2,7 +2,7 @@
 title: 'Gencraft'
 name: 'Gencraft'
 slug: 'gencraft'
-description: 'AI image and video generation app for creating art, avatars, and creative content on mobile and web.'
+description: 'Gencraft is an AI image and video generation app for creating art, avatars, and creative content on mobile and web. Creators use it to generate images from text prompts, transform photos with artistic styles, and produce short AI videos without any design experience. Its mobile-first design makes it accessible for social media content creation, and the app includes a feed for discovering and remixing what other users have made.'
 website: 'https://gencraft.com'
 logo_url: ''
 category: 'image-generation'

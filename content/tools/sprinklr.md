@@ -2,7 +2,7 @@
 title: 'Sprinklr'
 name: 'Sprinklr'
 slug: 'sprinklr'
-description: 'Unified customer experience platform with AI for social media management, customer support, and insights.'
+description: 'Sprinklr is a unified customer experience platform that brings social media management, customer support, and market intelligence into one system. Enterprise brands use it to manage publishing and engagement across dozens of social channels, handle customer service at scale through a shared inbox, and analyze sentiment and brand health from social data. It is designed for large teams that need governance, approval workflows, and cross-channel reporting in one place.'
 website: 'https://sprinklr.com'
 logo_url: ''
 category: 'social-media-tools'

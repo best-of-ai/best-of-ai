@@ -2,7 +2,7 @@
 title: 'Landbot'
 name: 'Landbot'
 slug: 'landbot'
-description: 'No-code chatbot builder for creating conversational landing pages and lead generation flows.'
+description: 'Landbot is a no-code chatbot builder for creating conversational flows on websites, WhatsApp, and landing pages. Marketing and customer success teams use it to collect leads, qualify visitors, and route inquiries through interactive conversation trees without writing code. It handles conditional logic, CRM integrations, and handoff to live agents when a conversation needs a human.'
 website: 'https://landbot.io'
 logo_url: ''
 category: 'chatbots'

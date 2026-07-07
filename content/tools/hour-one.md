@@ -2,7 +2,7 @@
 title: 'Hour One'
 name: 'Hour One'
 slug: 'hour-one'
-description: 'AI video platform for turning text into professional presenter-led videos using virtual humans.'
+description: 'Hour One turns scripts into professional presenter-led videos using realistic virtual human avatars. L&D teams, marketers, and content creators use it to produce training videos, product explainers, and marketing content without cameras, studios, or actors. You pick an avatar, paste in a script, and the platform generates a finished video in minutes.'
 website: 'https://hourone.ai'
 logo_url: ''
 category: 'talking-avatar-generator'
