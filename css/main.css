@@ -1645,6 +1645,44 @@ a.tag-chip:hover {
   font-size: 0.85rem;
   color: var(--fg-muted);
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.related-title__more {
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  opacity: 0.8;
+}
+.related-title__more:hover { opacity: 1; }
+
+/* ── Alternatives page ── */
+.alt-hero { align-items: flex-start; }
+.alt-hero__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: var(--surface2);
+}
+.alt-hero__icon img { width: 100%; height: 100%; object-fit: contain; }
+.alt-list-grid {
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.alt-list-grid .other-cat-card {
+  display: flex;
+  border-radius: var(--radius);
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  justify-content: space-between;
 }
 
 /* ── Buttons ── */
