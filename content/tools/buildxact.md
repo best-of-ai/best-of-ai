@@ -11,6 +11,12 @@ category_name: 'Construction'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - autodesk-construction
+  - procore
+  - bloomerang
+  - bonterra
+  - samsara
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

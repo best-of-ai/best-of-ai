@@ -1,0 +1,3 @@
+---
+title: 'Originality.ai Alternatives'
+---

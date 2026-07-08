@@ -11,6 +11,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - langchain
+  - coze
+  - crewai
+  - agentgpt
+  - flowise
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, integrations, model_based, community_driven]
 ---

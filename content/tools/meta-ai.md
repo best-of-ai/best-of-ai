@@ -11,6 +11,12 @@ category_name: 'Personal Assistants'
 price: 'Free'
 featured: false
 rank: 9
+alternatives:
+  - brave-leo
+  - google-assistant
+  - siri
+  - replika
+  - pi-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, image_based, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - manus
+  - langflow
+  - crewai
+  - dify
+  - langchain
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based, secure]
 ---

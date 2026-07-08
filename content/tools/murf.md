@@ -11,6 +11,12 @@ category_name: 'Audio'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - elevenlabs
+  - descript
+  - krisp
+  - adobe-podcast
+  - ace-studio
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, collaboration, voice_enabled, fast]
 ---

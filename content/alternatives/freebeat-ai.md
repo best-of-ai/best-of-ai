@@ -1,0 +1,3 @@
+---
+title: 'freebeat AI Alternatives'
+---

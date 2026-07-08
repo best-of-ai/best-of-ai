@@ -10,6 +10,12 @@ category_name: 'SEO'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - ahrefs
+  - semrush
+  - surfer-seo
+  - clearscope
+  - frase
 date: '2025-01-01'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp]
 ---

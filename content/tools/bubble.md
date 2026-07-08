@@ -11,6 +11,12 @@ category_name: 'App Builders'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - adalo
+  - flutterflow
+  - softr-ai
+  - appsheet
+  - glide
 date: '2025-09-21'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, customizable, cloud_based, image_based]
 ---

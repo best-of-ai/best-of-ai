@@ -11,6 +11,12 @@ category_name: 'Graphic Design'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - adobe-firefly
+  - canva
+  - figma
+  - visily
+  - adobe-sensei
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, integrations, cloud_based, templates]
 ---

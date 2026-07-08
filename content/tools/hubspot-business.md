@@ -11,6 +11,12 @@ category_name: 'Business Tools'
 price: 'Freemium'
 featured: false
 rank: 10
+alternatives:
+  - salesforce-einstein
+  - servicenow
+  - docusign-ai
+  - zoho
+  - pandadoc-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

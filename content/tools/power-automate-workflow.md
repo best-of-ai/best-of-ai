@@ -11,6 +11,12 @@ category_name: 'Workflow Automation'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - uipath
+  - nintex
+  - tray-io
+  - leania-ai
+  - relay-app
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, collaboration, customizable, cloud_based]
 ---

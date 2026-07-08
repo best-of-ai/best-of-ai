@@ -10,6 +10,12 @@ category_name: 'AI Companion'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - character-ai
+  - kindroid
+  - chai
+  - replika
+  - pi-ai
 date: '2025-01-01'
 tags: [ai_companion, chatbot, conversation, ai_assistant, chat, companionship, emotional_support, roleplay, personal, customizable]
 ---

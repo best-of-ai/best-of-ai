@@ -10,6 +10,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - clay
+  - instantly
+  - salesloft
+  - apollo
+  - lavender
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

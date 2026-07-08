@@ -11,6 +11,12 @@ category_name: 'Customer Support'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - drift
+  - intercom
+  - zendesk
+  - freshdesk
+  - forethought-ai
 date: '2025-06-15'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, enterprise, customizable, autonomous]
 ---

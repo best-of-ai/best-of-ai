@@ -11,6 +11,12 @@ category_name: 'Diagramming'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - mermaid-chart
+  - creately
+  - cvat
+  - prusaslicer
+  - ultimaker-cura
 date: '2025-10-01'
 tags: [open_source, free_tier, machine_learning, community_driven, ai_powered, intelligent, platform, tool]
 ---

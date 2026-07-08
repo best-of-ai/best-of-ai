@@ -11,6 +11,12 @@ category_name: '3D'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - meshy-ai
+  - masterpiece-studio
+  - spline
+  - alpha3d
+  - kaedim
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, model_based]
 ---

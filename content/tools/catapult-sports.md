@@ -11,6 +11,12 @@ category_name: 'Sports Analytics'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - hudl
+  - stats-perform
+  - patsnap
+  - new-relic
+  - fleetio
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

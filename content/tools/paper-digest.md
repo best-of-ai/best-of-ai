@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - notebook-lm-plus
+  - semantic-scholar
+  - perplexity-research
+  - scispace
+  - inciteful
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, customizable]
 ---

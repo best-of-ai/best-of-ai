@@ -13,4 +13,10 @@ featured: false
 rank: 10
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, mobile_app, voice_enabled]
+alternatives:
+  - murf
+  - whisper
+  - assemblyai
+  - adobe-podcast
+  - deepgram
 ---

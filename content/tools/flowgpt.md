@@ -11,6 +11,12 @@ category_name: 'Prompt Tools'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - prompthero
+  - promptbase
+  - promptessor
+  - monkeylearn
+  - postman
 date: '2025-10-01'
 tags: [templates, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

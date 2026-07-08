@@ -11,6 +11,12 @@ category_name: 'Document AI'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - chatpdf
+  - adobe-acrobat-ai
+  - notebooklm
+  - abbyy
+  - nanonets
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
 ---

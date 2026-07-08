@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - perplexity-labs
+  - lens-org
+  - scispace
+  - perplexity-research
+  - semantic-scholar
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, machine_learning, powerful]
 ---

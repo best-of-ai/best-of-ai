@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - claude-3
+  - gemini-pro
+  - gpt-4
+  - ai21-labs
+  - gemma
 date: '2026-07-02'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, image_based, voice_enabled]
 ---

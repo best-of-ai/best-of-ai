@@ -10,6 +10,12 @@ category_name: 'Ad Generator'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - adcreative-ai
+  - pencil
+  - smartly
+  - pattern89
+  - madgicx
 date: '2025-01-01'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, voice_enabled]
 ---

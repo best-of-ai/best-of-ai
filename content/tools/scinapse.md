@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - semantic-scholar
+  - lens-org
+  - notebook-lm-plus
+  - perplexity-research
+  - scispace
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, free_tier]
 ---

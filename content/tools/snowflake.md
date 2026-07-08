@@ -10,6 +10,12 @@ category_name: 'Data'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - h2o-ai
+  - obviously-ai
+  - datarobot
+  - thoughtspot
+  - scale-ai
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, cloud_based, machine_learning]
 ---

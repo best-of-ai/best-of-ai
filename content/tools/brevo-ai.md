@@ -11,6 +11,12 @@ category_name: 'Email Assistants'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - klaviyo-ai
+  - mailchimp
+  - activecampaign-ai
+  - boomerang
+  - shortwave
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up]
 ---

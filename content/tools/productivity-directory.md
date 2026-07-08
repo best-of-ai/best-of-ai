@@ -11,6 +11,12 @@ category_name: 'AI Directories'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - ai-for-developer
+  - aidir-wiki
+  - altern
+  - best-of-ai
+  - lens-org
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, fast, powerful]
 ---

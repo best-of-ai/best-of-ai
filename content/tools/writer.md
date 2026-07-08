@@ -10,6 +10,12 @@ category_name: 'Writing Assistants'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - jasper
+  - copy-ai
+  - grammarly
+  - writesonic
+  - writerly
 date: '2026-06-15'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, enterprise]
 ---

@@ -11,6 +11,12 @@ category_name: 'Automation'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - make
+  - activepieces
+  - pipedream
+  - zapier
+  - power-automate
 date: '2025-09-21'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, open_source, collaboration, integrations]
 ---

@@ -11,6 +11,12 @@ category_name: '3D'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - alpha3d
+  - meshy-ai
+  - spline
+  - tripo3d
+  - kaedim
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, image_based, model_based]
 ---

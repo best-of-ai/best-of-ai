@@ -11,6 +11,12 @@ category_name: 'Business Tools'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - hubspot-business
+  - servicenow
+  - salesforce-einstein
+  - pandadoc-ai
+  - proposify-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

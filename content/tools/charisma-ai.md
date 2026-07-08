@@ -11,6 +11,12 @@ category_name: 'Gaming'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - inworld-ai
+  - promethean-ai
+  - ai-dungeon
+  - ludo-ai
+  - scenario
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, integrations]
 ---

@@ -11,6 +11,12 @@ category_name: 'Events'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - bizzabo
+  - hopin
+  - jumio
+  - alchemy-web3
+  - aurora-solar
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

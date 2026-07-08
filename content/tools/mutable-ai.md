@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
+  - codeium
+  - cursor-composer
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

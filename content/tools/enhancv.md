@@ -10,6 +10,12 @@ category_name: 'Resume Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - kickresume
+  - resume-io
+  - rezi
+  - zety
+  - jobscan
 date: '2026-06-15'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
 ---

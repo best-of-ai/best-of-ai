@@ -11,6 +11,12 @@ category_name: 'Search Engines'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - perplexity-search
+  - you-search
+  - kagi
+  - andi-search
+  - arc-browser
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, real_time, collaboration, free_tier]
 ---

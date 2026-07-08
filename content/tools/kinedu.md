@@ -11,6 +11,12 @@ category_name: 'Parenting'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - homer-learning
+  - tinybeans
+  - noom
+  - ready-player-me
+  - manychat
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

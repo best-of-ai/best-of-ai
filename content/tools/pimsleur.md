@@ -11,6 +11,12 @@ category_name: 'Language Learning'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - babbel
+  - rosetta-stone
+  - busuu
+  - duolingo
+  - preply
 date: '2025-06-15'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion, voice_enabled]
 ---

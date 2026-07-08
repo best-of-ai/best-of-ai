@@ -11,6 +11,12 @@ category_name: 'Software Testing'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - testim
+  - mabl
+  - be-my-eyes
+  - shorthand
+  - maxar
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

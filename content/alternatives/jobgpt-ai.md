@@ -1,0 +1,3 @@
+---
+title: 'JobGPT Alternatives'
+---

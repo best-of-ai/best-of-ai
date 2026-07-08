@@ -11,6 +11,12 @@ category_name: 'Web3'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - moralis
+  - dune-analytics
+  - bizzabo
+  - particle-iot
+  - wysa
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

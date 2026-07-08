@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - nuance-dax
+  - suki-ai
+  - doximity
+  - tempus-ai
+  - benevolentai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

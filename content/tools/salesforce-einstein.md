@@ -11,6 +11,12 @@ category_name: 'Business Tools'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - hubspot-business
+  - servicenow
+  - docusign-ai
+  - zoho
+  - qwilr-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable, cloud_based, analytics]
 ---

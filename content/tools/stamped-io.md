@@ -11,6 +11,12 @@ category_name: 'E-Commerce'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - shopify
+  - magento
+  - bigcommerce
+  - woocommerce
+  - okendo-ai
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, customizable, analytics]
 ---

@@ -10,6 +10,12 @@ category_name: 'Video-Generator'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - luma-dream-machine
+  - kling-ai
+  - hailuo-ai
+  - haiper
+  - steve-ai
 date: '2026-06-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, collaboration, image_based, voice_enabled]
 ---

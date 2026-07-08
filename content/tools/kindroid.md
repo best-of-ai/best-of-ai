@@ -11,6 +11,12 @@ category_name: 'AI Companion'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - character-ai
+  - anna-ai
+  - chai
+  - replika
+  - google-assistant
 date: '2025-01-01'
 tags: [ai_companion, chatbot, conversation, ai_assistant, chat, companionship, emotional_support, roleplay, personal, customizable, image_based, voice_enabled]
 ---

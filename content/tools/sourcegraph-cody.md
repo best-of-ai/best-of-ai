@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - amazon-codewhisperer
+  - codeium
+  - supermaven
+  - cline
+  - aide
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, enterprise, integrations, model_based]
 ---

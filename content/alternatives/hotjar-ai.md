@@ -1,0 +1,3 @@
+---
+title: 'Hotjar AI Alternatives'
+---

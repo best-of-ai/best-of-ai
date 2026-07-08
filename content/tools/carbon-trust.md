@@ -11,6 +11,12 @@ category_name: 'Climate'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - planet-labs
+  - watershed
+  - climate-trace
+  - pachama
+  - patch
 date: '2025-09-21'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, analytics]
 ---

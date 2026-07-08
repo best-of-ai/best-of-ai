@@ -11,6 +11,12 @@ category_name: 'CleanTech'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - arcadia
+  - aurora-solar
+  - alchemy-web3
+  - autogrid
+  - particle-iot
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

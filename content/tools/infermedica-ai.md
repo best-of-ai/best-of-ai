@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - aidoc-ai
+  - babylon-health
+  - ada-health
+  - benevolentai
+  - buoy-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, api_available]
 ---

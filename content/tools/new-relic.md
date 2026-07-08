@@ -11,6 +11,12 @@ category_name: 'Observability'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - datadog
+  - honeycomb
+  - bugsnag
+  - sentry
+  - confluence-ai
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,12 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - amazon-bedrock
+  - azure-openai
+  - groq
+  - google-ai-studio
+  - cerebras
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, real_time, training]
 ---

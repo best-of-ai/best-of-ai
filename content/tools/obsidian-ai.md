@@ -11,6 +11,12 @@ category_name: 'Knowledge Management'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - notion-ai
+  - capacities
+  - remio
+  - anything-llm
+  - glean
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, image_based, model_based, powerful]
 ---

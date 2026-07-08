@@ -11,6 +11,12 @@ category_name: 'Logo Generator'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - brandmark
+  - looka
+  - logoai
+  - tailor-brands
+  - khroma
 date: '2025-09-21'
 tags: [design, image_generation, branding, logo, identity, brand_assets, visual_identity, symbols, creative, free_tier]
 ---

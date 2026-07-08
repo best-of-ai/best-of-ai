@@ -11,6 +11,12 @@ category_name: 'Observability'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - datadog
+  - new-relic
+  - stripe
+  - cronometer
+  - intrinsic
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

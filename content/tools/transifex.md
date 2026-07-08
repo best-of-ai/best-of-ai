@@ -10,6 +10,12 @@ category_name: 'Localization'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - crowdin
+  - weglot
+  - arterys
+  - schrodinger
+  - datadog
 date: '2026-06-15'
 tags: [cloud_based, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

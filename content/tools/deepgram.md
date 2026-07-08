@@ -11,6 +11,12 @@ category_name: 'Transcription'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - assemblyai
+  - whisper
+  - sonix
+  - notta
+  - speechmatics
 date: '2025-01-01'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, api_available, voice_enabled, model_based]
 ---

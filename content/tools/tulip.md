@@ -11,6 +11,12 @@ category_name: 'Manufacturing'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - sight-machine
+  - augury
+  - datadog
+  - new-relic
+  - confluence-ai
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

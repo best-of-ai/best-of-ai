@@ -11,6 +11,12 @@ category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - topaz-photo-ai
+  - befunky
+  - cleanup-pictures
+  - fotor
+  - photoroom
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, mobile_app, real_time]
 ---

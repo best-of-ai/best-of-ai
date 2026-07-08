@@ -10,6 +10,12 @@ category_name: 'Presentation'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - gamma
+  - decktopus
+  - pitch
+  - plus-ai
+  - slidebean
 date: '2025-01-01'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, integrations, machine_learning, fast]
 ---

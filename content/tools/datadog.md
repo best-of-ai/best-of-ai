@@ -11,6 +11,12 @@ category_name: 'Observability'
 price: 'Paid'
 featured: false
 rank: 10
+alternatives:
+  - new-relic
+  - honeycomb
+  - turbonomic
+  - rookout
+  - sentry
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

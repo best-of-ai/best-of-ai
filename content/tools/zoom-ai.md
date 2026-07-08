@@ -11,6 +11,12 @@ category_name: 'Meeting Assistants'
 price: 'Freemium'
 featured: false
 rank: 10
+alternatives:
+  - fireflies-ai
+  - otter-ai
+  - avoma
+  - claap
+  - fathom
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time]
 ---

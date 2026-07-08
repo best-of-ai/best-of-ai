@@ -1,0 +1,3 @@
+---
+title: 'SmolAgents Alternatives'
+---

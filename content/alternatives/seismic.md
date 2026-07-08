@@ -1,0 +1,3 @@
+---
+title: 'Seismic Alternatives'
+---

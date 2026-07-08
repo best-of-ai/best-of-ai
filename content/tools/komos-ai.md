@@ -10,6 +10,12 @@ category_name: 'Automation'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - n8n
+  - power-automate
+  - activepieces
+  - zapier
+  - pipedream
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, enterprise]
 ---

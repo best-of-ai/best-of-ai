@@ -13,4 +13,10 @@ featured: false
 rank: 8
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, extensible]
+alternatives:
+  - cursor
+  - github-copilot
+  - aider
+  - windsurf
+  - codeium
 ---

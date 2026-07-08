@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - greenhouse
+  - workday
+  - ashby
+  - gem
+  - phenom
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, analytics, community_driven]
 ---

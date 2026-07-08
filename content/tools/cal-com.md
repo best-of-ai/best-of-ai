@@ -10,6 +10,12 @@ category_name: 'Calendar Scheduling'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - calendly
+  - x-ai
+  - acuity-scheduling
+  - motion
+  - clockwise-ai
 date: '2026-06-15'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, open_source, community_driven]
 ---

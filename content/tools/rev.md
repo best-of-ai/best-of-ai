@@ -11,6 +11,12 @@ category_name: 'Video Subtitling'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - happyscribe
+  - subtitlebee
+  - submagic
+  - otter-subtitles
+  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, voice_enabled, fast, affordable]
 ---

@@ -11,6 +11,12 @@ category_name: 'Privacy'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - transcend-privacy
+  - bigid
+  - onetrust
+  - drata
+  - crowdstrike
 date: '2025-10-01'
 tags: [secure, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

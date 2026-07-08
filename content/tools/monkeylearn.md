@@ -11,6 +11,12 @@ category_name: 'Sentiment Analysis'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - repustate
+  - lexalytics
+  - stripe
+  - prompthero
+  - datadog
 date: '2025-10-01'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

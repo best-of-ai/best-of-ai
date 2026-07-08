@@ -11,6 +11,12 @@ category_name: 'Knowledge Management'
 price: 'Freemium'
 featured: false
 rank: 10
+alternatives:
+  - glean
+  - capacities
+  - obsidian-ai
+  - slab
+  - tettra
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, collaboration]
 ---

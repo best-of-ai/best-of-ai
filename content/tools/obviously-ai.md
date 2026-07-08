@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - datarobot
+  - h2o-ai
+  - scale-ai
+  - tableau
+  - amplitude-ai
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, machine_learning, training, model_based]
 ---

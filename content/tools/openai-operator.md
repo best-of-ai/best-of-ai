@@ -11,6 +11,12 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - dify
+  - agno-ai
+  - autogpt
+  - coze
+  - crewai
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, api_available]
 ---

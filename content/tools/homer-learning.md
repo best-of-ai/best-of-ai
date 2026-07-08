@@ -11,6 +11,12 @@ category_name: 'Parenting'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - kinedu
+  - tinybeans
+  - noom
+  - ready-player-me
+  - virtuous
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

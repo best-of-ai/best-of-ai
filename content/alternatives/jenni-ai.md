@@ -1,0 +1,3 @@
+---
+title: 'Jenni AI Alternatives'
+---

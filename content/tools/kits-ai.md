@@ -11,6 +11,12 @@ category_name: 'Voice Cloning'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - speechify
+  - altered-ai
+  - murf-voice
+  - respeecher
+  - elevenlabs-voice
 date: '2025-06-15'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, voice_enabled]
 ---

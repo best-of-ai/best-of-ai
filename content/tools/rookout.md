@@ -11,6 +11,12 @@ category_name: 'Debugging'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - sentry
+  - bugsnag
+  - datadog
+  - new-relic
+  - arcgis
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

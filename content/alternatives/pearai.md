@@ -1,0 +1,3 @@
+---
+title: 'PearAI Alternatives'
+---

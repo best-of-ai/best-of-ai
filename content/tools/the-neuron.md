@@ -11,6 +11,12 @@ category_name: 'AI Newsletters'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - the-rundown-ai
+  - superhuman-ai
+  - altern-newsletter
+  - ai-for-developers
+  - monkeylearn
 date: '2026-06-22'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

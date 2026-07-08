@@ -11,6 +11,12 @@ category_name: 'Project Management'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - linear
+  - taskade
+  - smartsheet-ai
+  - height
+  - jira
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

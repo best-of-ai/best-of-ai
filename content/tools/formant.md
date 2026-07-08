@@ -11,6 +11,12 @@ category_name: 'Robotics'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - intrinsic
+  - covariant
+  - samsara
+  - datadog
+  - geotab
 date: '2025-10-01'
 tags: [autonomous, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

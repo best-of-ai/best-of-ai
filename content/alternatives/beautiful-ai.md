@@ -1,0 +1,3 @@
+---
+title: 'Beautiful.ai Alternatives'
+---

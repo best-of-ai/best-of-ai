@@ -11,6 +11,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - dify
+  - agno-ai
+  - langchain
+  - cassidy-ai
+  - coze
 date: '2025-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'MOSTLY AI Alternatives'
+---

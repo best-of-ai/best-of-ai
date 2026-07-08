@@ -1,0 +1,3 @@
+---
+title: 'Captions AI Alternatives'
+---

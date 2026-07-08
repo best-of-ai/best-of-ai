@@ -11,6 +11,12 @@ category_name: 'Home Design'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - homestyler
+  - sketchup
+  - planner5d
+  - roomgpt
+  - canva
 date: '2025-09-21'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, image_based, powerful]
 ---

@@ -11,6 +11,12 @@ category_name: 'Gaming'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - charisma-ai
+  - inworld-ai
+  - scenario
+  - ludo-ai
+  - promethean-ai
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
 ---

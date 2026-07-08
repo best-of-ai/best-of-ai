@@ -10,6 +10,12 @@ category_name: 'Meeting Assistants'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - zoom-ai
+  - sembly-ai
+  - fireflies-ai
+  - otter-ai
+  - avoma
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'Vic.ai Alternatives'
+---

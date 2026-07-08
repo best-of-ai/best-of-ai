@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - amazon-q
+  - cline
+  - codeium
+  - sourcegraph-cody
+  - aide
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, training, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Debugging'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - sentry
+  - rookout
+  - new-relic
+  - datadog
+  - gitbook
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

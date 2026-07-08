@@ -11,6 +11,12 @@ category_name: 'Weather'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - weather-ai
+  - tomorrow-io
+  - dark-sky
+  - grok
+  - codeium
 date: '2025-09-21'
 tags: [weather, data_analysis, climate, forecasting, real_time, meteorology, alerts, temperature, precipitation, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - amazon-codewhisperer
+  - sourcegraph-cody
+  - cline
+  - aide
+  - blackbox-ai
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, real_time, free_tier, model_based]
 ---

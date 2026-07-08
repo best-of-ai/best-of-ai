@@ -11,6 +11,12 @@ category_name: 'Space Tech'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - satellogic
+  - maxar
+  - patsnap
+  - datadog
+  - spot-io
 date: '2025-10-01'
 tags: [cloud_based, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

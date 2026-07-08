@@ -11,6 +11,12 @@ category_name: 'Database Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - neon-db
+  - fauna
+  - hudl
+  - fleetio
+  - procore
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

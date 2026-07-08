@@ -11,6 +11,12 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - sora
+  - luma-dream-machine
+  - kling-ai
+  - veo-3
+  - veo2
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, api_available, enterprise, customizable]
 ---

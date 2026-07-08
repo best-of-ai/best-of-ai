@@ -11,6 +11,12 @@ category_name: 'Telemedicine'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - teladoc
+  - amwell
+  - hopper
+  - gitbook
+  - bambu-studio
 date: '2025-10-01'
 tags: [free_tier, easy_to_use, ai_powered, intelligent, platform, tool, service, solution]
 ---

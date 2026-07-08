@@ -10,6 +10,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - cursor-composer
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
+  - copilot-workspace
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, easy_to_use]
 ---

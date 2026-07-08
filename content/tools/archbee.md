@@ -11,6 +11,12 @@ category_name: 'Documentation'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - gitbook
+  - confluence-ai
+  - mermaid-chart
+  - postman
+  - rapidapi
 date: '2025-10-01'
 tags: [api_available, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

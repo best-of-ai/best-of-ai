@@ -1,0 +1,3 @@
+---
+title: 'Seamless AI Alternatives'
+---

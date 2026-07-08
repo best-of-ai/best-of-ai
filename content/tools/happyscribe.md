@@ -11,6 +11,12 @@ category_name: 'Video Subtitling'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - rev
+  - subtitlebee
+  - otter-subtitles
+  - submagic
+  - invideo
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, collaboration, voice_enabled]
 ---

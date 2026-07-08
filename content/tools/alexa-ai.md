@@ -11,6 +11,12 @@ category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - google-assistant
+  - siri
+  - meta-ai
+  - brave-leo
+  - notis-ai
 date: '2025-06-15'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, voice_enabled]
 ---

@@ -11,6 +11,12 @@ category_name: 'Graphic Design'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - figma
+  - adobe-express
+  - adobe-firefly
+  - galileo-ai
+  - lucidchart-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, open_source, collaboration, cloud_based]
 ---

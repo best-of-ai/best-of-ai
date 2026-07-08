@@ -11,6 +11,12 @@ category_name: 'Workflow Automation'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - nintex
+  - workato-ai
+  - tray-io
+  - power-automate-workflow
+  - zapier-workflow
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, mobile_app, enterprise, free_tier]
 ---

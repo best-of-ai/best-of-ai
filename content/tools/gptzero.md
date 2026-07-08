@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - carnegie-learning
+  - turnitin-ai
+  - khanmigo
+  - chegg-ai
+  - brilliant
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, model_based]
 ---

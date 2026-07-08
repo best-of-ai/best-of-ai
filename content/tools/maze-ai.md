@@ -11,6 +11,12 @@ category_name: 'Market Research'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - hotjar-ai
+  - brandwatch
+  - crimson-hexagon
+  - attention-insight
+  - cb-insights-ai
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, fast]
 ---

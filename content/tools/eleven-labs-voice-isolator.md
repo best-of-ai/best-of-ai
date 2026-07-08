@@ -11,6 +11,12 @@ category_name: 'Audio'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - elevenlabs
+  - descript
+  - krisp
+  - adobe-podcast
+  - murf
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, free_tier, customizable, voice_enabled]
 ---

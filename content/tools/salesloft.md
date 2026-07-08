@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - clay
+  - gong
+  - instantly
+  - outreach
+  - apollo
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise, customizable]
 ---

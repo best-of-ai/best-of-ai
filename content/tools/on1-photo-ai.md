@@ -11,6 +11,12 @@ category_name: 'Image Editing'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - adobe-lightroom-ai
+  - luminar-neo
+  - topaz-photo-ai
+  - befunky
+  - cleanup-pictures
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation]
 ---

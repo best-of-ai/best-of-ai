@@ -11,6 +11,12 @@ category_name: 'Synthetic Data'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - mostly-ai
+  - tonic-ai
+  - postman
+  - wiz
+  - bigid
 date: '2025-10-01'
 tags: [secure, training, ai_powered, intelligent, platform, tool, service, solution]
 ---

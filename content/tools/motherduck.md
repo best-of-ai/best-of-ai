@@ -10,6 +10,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - scale-ai
+  - amplitude-ai
+  - tableau
+  - sisense-ai
+  - julius-ai
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, nlp]
 ---

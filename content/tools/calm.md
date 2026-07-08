@@ -11,6 +11,12 @@ category_name: 'Wellness'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - headspace
+  - betterup
+  - teladoc
+  - wysa
+  - betterhelp
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

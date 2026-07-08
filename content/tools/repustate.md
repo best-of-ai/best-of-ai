@@ -11,6 +11,12 @@ category_name: 'Sentiment Analysis'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - monkeylearn
+  - lexalytics
+  - datadog
+  - rapidapi
+  - arcgis
 date: '2025-10-01'
 tags: [api_available, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

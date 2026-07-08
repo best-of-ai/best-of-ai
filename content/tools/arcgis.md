@@ -11,6 +11,12 @@ category_name: 'Geospatial'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - nearmap
+  - mapbox
+  - maxar
+  - datadog
+  - geneious
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

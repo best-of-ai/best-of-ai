@@ -11,6 +11,12 @@ category_name: 'Nutrition'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - myfitnesspal
+  - noom
+  - woebot
+  - wysa
+  - stripe
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -11,6 +11,12 @@ category_name: 'Mental Health'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - woebot
+  - betterhelp
+  - calm
+  - teladoc
+  - alchemy-web3
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

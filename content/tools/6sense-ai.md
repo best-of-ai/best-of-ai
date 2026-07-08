@@ -11,6 +11,12 @@ category_name: 'Marketing'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - hubspot
+  - crayon
+  - jasper-marketing
+  - attentive-ai
+  - braze
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, customizable, analytics]
 ---

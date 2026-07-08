@@ -1,0 +1,3 @@
+---
+title: 'Lindy AI Alternatives'
+---

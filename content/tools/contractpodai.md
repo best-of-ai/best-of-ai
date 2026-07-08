@@ -11,6 +11,12 @@ category_name: 'Contract Management'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - contractsafe
+  - agiloft
+  - patsnap
+  - hudl
+  - procore
 date: '2025-06-15'
 tags: [nlp, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

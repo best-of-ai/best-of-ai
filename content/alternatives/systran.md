@@ -1,0 +1,3 @@
+---
+title: 'SYSTRAN Alternatives'
+---

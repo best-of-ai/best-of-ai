@@ -11,6 +11,12 @@ category_name: 'Video Subtitling'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - happyscribe
+  - rev
+  - subtitlebee
+  - submagic
+  - notta
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, collaboration]
 ---

@@ -10,6 +10,12 @@ category_name: 'Marketing'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - jasper-marketing
+  - averi-ai
+  - hubspot
+  - typeform
+  - 6sense-ai
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, voice_enabled]
 ---

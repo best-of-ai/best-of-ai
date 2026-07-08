@@ -11,6 +11,12 @@ category_name: 'Video Editor'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - invideo
+  - adobe-premiere-pro-ai
+  - capcut
+  - captions-ai
+  - clideo-ai
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, templates, fast]
 ---

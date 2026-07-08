@@ -1,0 +1,3 @@
+---
+title: 'Peppertype.ai Alternatives'
+---

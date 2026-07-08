@@ -1,0 +1,3 @@
+---
+title: 'Luma AI Alternatives'
+---

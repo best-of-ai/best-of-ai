@@ -11,6 +11,12 @@ category_name: 'Government'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - aws-govcloud
+  - palantir-gotham
+  - ibm-watson-gov
+  - cohere
+  - azure-openai
 date: '2025-09-21'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, cloud_based, secure, machine_learning]
 ---

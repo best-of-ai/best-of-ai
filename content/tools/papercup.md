@@ -11,6 +11,12 @@ category_name: 'Dubbing'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - deepdub
+  - dubverse
+  - naturalreader
+  - weglot
+  - zebra-medical
 date: '2025-10-01'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

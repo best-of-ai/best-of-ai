@@ -11,6 +11,12 @@ category_name: 'Climate'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - planet-labs
+  - carbon-trust
+  - watershed
+  - pachama
+  - sylvera
 date: '2025-09-21'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, image_based]
 ---

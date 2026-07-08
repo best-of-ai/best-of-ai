@@ -11,6 +11,12 @@ category_name: 'IoT'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - azure-iot
+  - aws-iot
+  - moralis
+  - alchemy-web3
+  - teladoc
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

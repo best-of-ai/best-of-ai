@@ -11,6 +11,12 @@ category_name: 'Farming'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - farmlogs
+  - granular
+  - john-deere-ops
+  - planet-labs
+  - litmaps
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation, integrations, image_based, analytics]
 ---

@@ -10,6 +10,12 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - cursor
+  - amazon-bedrock
+  - groq
+  - replit
+  - roboflow
 date: '2025-01-01'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

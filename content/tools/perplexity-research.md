@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - scispace
+  - semantic-scholar
+  - connected-papers
+  - notebook-lm-plus
+  - openread
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

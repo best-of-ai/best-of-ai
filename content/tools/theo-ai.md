@@ -10,6 +10,12 @@ category_name: 'Marketing'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - crayon
+  - hubspot
+  - jasper-marketing
+  - marketmuse
+  - persado
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
 ---

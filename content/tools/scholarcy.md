@@ -11,6 +11,12 @@ category_name: 'Academia'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - litmaps
+  - consensus
+  - elicit
+  - research-rabbit
+  - scispace
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, integrations]
 ---

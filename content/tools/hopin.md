@@ -11,6 +11,12 @@ category_name: 'Events'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - bizzabo
+  - grip-events
+  - hudl
+  - planetscale
+  - procore
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

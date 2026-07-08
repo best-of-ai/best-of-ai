@@ -11,6 +11,12 @@ category_name: 'Project Management'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - linear
+  - smartsheet-ai
+  - height
+  - taskade
+  - asana-pm
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile, customizable, image_based, analytics]
 ---

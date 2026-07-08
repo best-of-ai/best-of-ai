@@ -11,6 +11,12 @@ category_name: 'Graphic Design'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - microsoft-designer
+  - canva
+  - figma
+  - adobe-express
+  - adobe-sensei
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, free_tier]
 ---

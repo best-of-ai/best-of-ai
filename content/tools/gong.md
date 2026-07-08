@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - people-ai
+  - salesloft
+  - apollo
+  - instantly
+  - lavender
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise, customizable, model_based]
 ---

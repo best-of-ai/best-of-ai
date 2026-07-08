@@ -1,0 +1,3 @@
+---
+title: 'Next Insurance Alternatives'
+---

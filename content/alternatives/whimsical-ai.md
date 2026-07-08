@@ -1,0 +1,3 @@
+---
+title: 'Whimsical AI Alternatives'
+---

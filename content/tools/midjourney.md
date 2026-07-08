@@ -13,4 +13,10 @@ featured: false
 rank: 8
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, image_based]
+alternatives:
+  - dalle
+  - stable-diffusion
+  - adobe-firefly
+  - ideogram
+  - flux
 ---

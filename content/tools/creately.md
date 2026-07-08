@@ -11,6 +11,12 @@ category_name: 'Diagramming'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - mermaid-chart
+  - drawio
+  - new-relic
+  - mindmeister
+  - coggle
 date: '2025-10-01'
 tags: [collaboration, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

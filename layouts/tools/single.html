@@ -124,6 +124,12 @@
               <dd><a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.website | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
+            {{ if $p.alternatives }}
+            <div class="detail-meta-row">
+              <dt>Alternatives</dt>
+              <dd><a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}">View alternatives</a></dd>
+            </div>
+            {{ end }}
             <div class="detail-meta-row">
               <dt>Added</dt>
               <dd>{{ .Date.Format "Jan 2006" }}</dd>
@@ -142,6 +148,33 @@
         </div>
       </aside>
     </div>
+
+    <!-- Alternatives -->
+    {{ if $p.alternatives }}
+    {{ $altPages := slice }}
+    {{ range $p.alternatives }}
+      {{ $slug := . }}
+      {{ $match := index (where $allTools "Params.slug" $slug) 0 }}
+      {{ if not $match }}
+        {{ $match = index (where $allTools "File.BaseFileName" $slug) 0 }}
+      {{ end }}
+      {{ if $match }}
+        {{ $altPages = $altPages | append $match }}
+      {{ end }}
+    {{ end }}
+    {{ if $altPages }}
+    <section class="related-section">
+      <h2 class="related-title">// alternatives to {{ $p.name }}
+        <a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}" class="related-title__more">see all →</a>
+      </h2>
+      <div class="tools-grid tools-grid--related">
+        {{ range $altPages }}
+        {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
 
     <!-- Related tools -->
     {{ if $related }}

@@ -11,6 +11,12 @@ category_name: 'Finance'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - morningstar-ai
+  - alphasense
+  - kensho
+  - ramp
+  - mosaic-tech
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, collaboration, nlp, image_based]
 ---

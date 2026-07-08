@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - connected-papers
+  - openread
+  - perplexity-pages
+  - perplexity-research
+  - scispace
 date: '2025-01-01'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, fast]
 ---

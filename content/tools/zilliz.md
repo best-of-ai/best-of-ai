@@ -10,6 +10,12 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - amazon-bedrock
+  - groq
+  - vertex-ai
+  - llamaindex
+  - roboflow
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

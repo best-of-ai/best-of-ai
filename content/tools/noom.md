@@ -11,6 +11,12 @@ category_name: 'Nutrition'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - myfitnesspal
+  - cronometer
+  - homer-learning
+  - virtuous
+  - ready-player-me
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

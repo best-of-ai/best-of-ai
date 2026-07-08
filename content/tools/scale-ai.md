@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - datarobot
+  - sisense-ai
+  - airbyte-ai
+  - motherduck
+  - obviously-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, enterprise, customizable, nlp]
 ---

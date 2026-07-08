@@ -11,6 +11,12 @@ category_name: 'Documentation'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - gitbook
+  - archbee
+  - new-relic
+  - postman
+  - bugsnag
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,12 @@ category_name: 'Copywriting'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - anyword
+  - hypotenuse-ai
+  - peppertype-ai
+  - writesonic-copy
+  - copysmith
 date: '2025-09-21'
 tags: [writing, marketing, text_generation, copy, content, ad_copy, seo_writing, brand_voice, persuasion, collaboration, enterprise, voice_enabled]
 ---

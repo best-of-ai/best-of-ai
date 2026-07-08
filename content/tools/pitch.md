@@ -11,6 +11,12 @@ category_name: 'Presentation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - plus-ai
+  - visme-ai
+  - beautiful-ai
+  - decktopus
+  - slidebean
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, real_time, collaboration]
 ---

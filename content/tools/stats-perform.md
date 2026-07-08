@@ -11,6 +11,12 @@ category_name: 'Sports Analytics'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - hudl
+  - catapult-sports
+  - derwent-innovation
+  - brex
+  - sight-machine
 date: '2025-10-01'
 tags: [real_time, analytics, powerful, ai_powered, intelligent, platform, tool, service]
 ---

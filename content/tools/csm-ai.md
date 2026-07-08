@@ -11,6 +11,12 @@ category_name: '3D'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - spline
+  - kaedim
+  - sloyd
+  - alpha3d
+  - luma-ai
 date: '2025-06-15'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, collaboration, customizable, analytics]
 ---

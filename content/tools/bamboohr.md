@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - greenhouse
+  - lattice-ai
+  - workday
+  - ashby
+  - eightfold-ai
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, cloud_based, fast]
 ---

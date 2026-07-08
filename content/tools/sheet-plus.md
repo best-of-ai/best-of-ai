@@ -11,6 +11,12 @@ category_name: 'Spreadsheets'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - numerous
+  - ajelix
+  - formula-bot
+  - boomerang
+  - tactiq
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, browser_extension, powerful, extensible]
 ---

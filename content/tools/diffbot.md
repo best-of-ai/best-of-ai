@@ -11,6 +11,12 @@ category_name: 'DevTools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - amazon-bedrock
+  - azure-openai
+  - llamaindex
+  - vertex-ai
+  - perplexity-sonar
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, enterprise, training, model_based]
 ---

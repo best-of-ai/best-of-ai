@@ -11,6 +11,12 @@ category_name: 'Finance'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - mosaic-tech
+  - alphasense
+  - expensify-ai
+  - marketalerts-ai
+  - swiftalerts
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
 ---

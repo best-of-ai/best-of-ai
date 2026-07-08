@@ -11,6 +11,12 @@ category_name: 'Database Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - planetscale
+  - neon-db
+  - aws-rekognition
+  - datadog
+  - postman
 date: '2025-10-01'
 tags: [api_available, cloud_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

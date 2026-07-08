@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - abridge-ai
+  - ada-health
+  - nuance-dax
+  - suki-ai
+  - babylon-health
 date: '2025-01-01'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, secure, powerful]
 ---

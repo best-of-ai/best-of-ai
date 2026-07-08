@@ -11,6 +11,12 @@ category_name: 'FinTech'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - stripe
+  - mercury
+  - sight-machine
+  - contractpodai
+  - fleetio
 date: '2025-06-15'
 tags: [real_time, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

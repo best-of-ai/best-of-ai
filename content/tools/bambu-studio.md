@@ -11,6 +11,12 @@ category_name: '3D Printing'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - prusaslicer
+  - ultimaker-cura
+  - hopper
+  - datadog
+  - autodesk-construction
 date: '2025-10-01'
 tags: [free_tier, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

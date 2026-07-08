@@ -11,6 +11,12 @@ category_name: 'Recruiting'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - smartrecruiters
+  - workable
+  - viz-ai
+  - postman
+  - confluence-ai
 date: '2025-06-15'
 tags: [collaboration, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

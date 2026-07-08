@@ -1,0 +1,3 @@
+---
+title: 'Forethought AI Alternatives'
+---

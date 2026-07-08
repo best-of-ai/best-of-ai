@@ -11,6 +11,12 @@ category_name: 'Prompt Tools'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - promptbase
+  - flowgpt
+  - promptessor
+  - monkeylearn
+  - storybird
 date: '2025-10-01'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

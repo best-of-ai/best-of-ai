@@ -11,6 +11,12 @@ category_name: 'Telemedicine'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - teladoc
+  - doxy-me
+  - betterhelp
+  - zebra-medical
+  - autogrid
 date: '2025-10-01'
 tags: [enterprise, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

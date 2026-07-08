@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - tempus-ai
+  - pathai
+  - insilico-medicine
+  - alphafold-ai
+  - abridge-ai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, collaboration, machine_learning]
 ---

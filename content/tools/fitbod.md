@@ -11,6 +11,12 @@ category_name: 'Fitness'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - freeletics
+  - whoop
+  - homer-learning
+  - headspace
+  - ready-player-me
 date: '2025-10-01'
 tags: [customizable, training, ai_powered, intelligent, platform, tool, service, solution]
 ---

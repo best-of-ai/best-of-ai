@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - amazon-q
+  - bolt-new
+  - cline
+  - copilot-workspace
+  - windsurf
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, autonomous]
 ---

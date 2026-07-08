@@ -11,6 +11,12 @@ category_name: 'Finance'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - kensho
+  - bill-com-ai
+  - stampli-ai
+  - mosaic-tech
+  - alphasense
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
 ---

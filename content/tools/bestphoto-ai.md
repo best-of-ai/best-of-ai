@@ -10,6 +10,12 @@ category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - befunky
+  - cleanup-pictures
+  - fotor
+  - neural-love
+  - photoroom
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, powerful]
 ---

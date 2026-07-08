@@ -13,4 +13,10 @@ featured: false
 rank: 5
 date: '2026-07-02'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, api_available, voice_enabled, model_based]
+alternatives:
+  - runway
+  - sora
+  - luma-dream-machine
+  - pika-video
+  - kling-ai
 ---

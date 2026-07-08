@@ -11,6 +11,12 @@ category_name: 'Biotech'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - benchling
+  - geneious
+  - wiz
+  - aws-rekognition
+  - cloudhealth
 date: '2025-10-01'
 tags: [collaboration, cloud_based, secure, ai_powered, intelligent, platform, tool, service]
 ---

@@ -11,6 +11,12 @@ category_name: 'Tax & Accounting'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - taxjar
+  - turbotax
+  - arterys
+  - datadog
+  - persona
 date: '2025-10-01'
 tags: [customizable, cloud_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

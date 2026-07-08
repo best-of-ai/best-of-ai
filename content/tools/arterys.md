@@ -11,6 +11,12 @@ category_name: 'Medical Imaging'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - zebra-medical
+  - viz-ai
+  - transifex
+  - avalara
+  - aws-rekognition
 date: '2025-10-01'
 tags: [cloud_based, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

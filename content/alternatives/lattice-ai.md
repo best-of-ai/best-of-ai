@@ -1,0 +1,3 @@
+---
+title: 'Lattice AI Alternatives'
+---

@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - gong
+  - outreach
+  - people-ai
+  - salesloft
+  - chorus-ai
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
 ---

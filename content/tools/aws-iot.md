@@ -11,6 +11,12 @@ category_name: 'IoT'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - azure-iot
+  - particle-iot
+  - wiz
+  - cloudhealth
+  - aws-rekognition
 date: '2025-10-01'
 tags: [cloud_based, secure, ai_powered, intelligent, platform, tool, service, solution]
 ---

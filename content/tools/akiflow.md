@@ -11,6 +11,12 @@ category_name: 'Productivity'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - todoist
+  - notion
+  - asana
+  - sunsama
+  - clickup
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, powerful]
 ---

@@ -11,6 +11,12 @@ category_name: 'Presentation'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - decktopus
+  - pitch
+  - plus-ai
+  - tome
+  - visme-ai
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, collaboration, image_based, powerful]
 ---

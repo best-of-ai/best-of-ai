@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - brilliant
+  - carnegie-learning
+  - coursera
+  - khanmigo
+  - quillbotai-pro-free-ai-content-detector-for-educators-publishers
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
 ---

@@ -10,6 +10,12 @@ category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - cleanup-pictures
+  - neural-love
+  - photoroom
+  - vectorizer-ai
+  - adobe-lightroom-ai
 date: '2026-06-15'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based]
 ---

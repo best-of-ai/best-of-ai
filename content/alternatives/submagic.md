@@ -1,0 +1,3 @@
+---
+title: 'Submagic Alternatives'
+---

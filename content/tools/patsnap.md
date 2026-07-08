@@ -11,6 +11,12 @@ category_name: 'Patent Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - derwent-innovation
+  - iplytics
+  - catapult-sports
+  - spire-global
+  - contractpodai
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

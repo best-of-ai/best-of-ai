@@ -11,6 +11,12 @@ category_name: 'Mind Mapping'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - coggle
+  - xmind
+  - ideamap-ai
+  - creately
+  - wanderlog
 date: '2025-10-01'
 tags: [real_time, collaboration, image_based, ai_powered, intelligent, platform, tool, service]
 ---

@@ -11,6 +11,12 @@ category_name: 'E-Commerce'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - shopify
+  - dynamic-yield
+  - magento
+  - stamped-io
+  - woocommerce
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, enterprise, customizable]
 ---

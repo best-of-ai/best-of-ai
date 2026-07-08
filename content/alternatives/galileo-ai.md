@@ -1,0 +1,3 @@
+---
+title: 'Galileo AI Alternatives'
+---

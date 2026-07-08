@@ -11,6 +11,12 @@ category_name: 'Translator'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - google-translate
+  - deepl
+  - microsoft-translator
+  - reverso
+  - memoq
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, collaboration]
 ---

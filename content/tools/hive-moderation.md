@@ -11,6 +11,12 @@ category_name: 'Content Moderation'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - azure-content-moderator
+  - ai-aware
+  - perspective-api
+  - aws-rekognition
+  - postman
 date: '2025-10-01'
 tags: [api_available, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

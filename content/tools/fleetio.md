@@ -11,6 +11,12 @@ category_name: 'Fleet Management'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - geotab
+  - samsara
+  - procore
+  - planetscale
+  - hudl
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

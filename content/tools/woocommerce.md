@@ -11,6 +11,12 @@ category_name: 'E-Commerce'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - shopify
+  - bigcommerce
+  - magento
+  - dynamic-yield
+  - stamped-io
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, customizable, versatile, extensible]
 ---

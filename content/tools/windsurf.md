@@ -13,4 +13,10 @@ featured: false
 rank: 9
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, autonomous]
+alternatives:
+  - cursor
+  - github-copilot
+  - claude-code
+  - replit
+  - codeium
 ---

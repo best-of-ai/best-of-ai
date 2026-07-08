@@ -11,6 +11,12 @@ category_name: 'Fashion'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - vue-ai
+  - stitchfix
+  - outfit-fm
+  - theyes
+  - erasebg
 date: '2025-09-21'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, api_available, customizable, image_based]
 ---

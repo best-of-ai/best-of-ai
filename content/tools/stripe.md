@@ -11,6 +11,12 @@ category_name: 'FinTech'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - brex
+  - mercury
+  - jumio
+  - covariant
+  - geneious
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

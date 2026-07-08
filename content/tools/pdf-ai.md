@@ -10,6 +10,12 @@ category_name: 'Document AI'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - adobe-acrobat-ai
+  - chatpdf
+  - humata
+  - notebooklm
+  - docsumo
 date: '2026-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing]
 ---

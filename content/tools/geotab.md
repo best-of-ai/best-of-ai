@@ -11,6 +11,12 @@ category_name: 'Fleet Management'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - fleetio
+  - samsara
+  - procore
+  - osano
+  - formant
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

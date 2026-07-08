@@ -1,0 +1,3 @@
+---
+title: 'ScrapeGraph AI Alternatives'
+---

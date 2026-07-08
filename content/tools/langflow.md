@@ -11,6 +11,12 @@ category_name: 'AI Agents'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - langchain
+  - autogpt
+  - flowise
+  - agentgpt
+  - coze
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, cloud_based, image_based]
 ---

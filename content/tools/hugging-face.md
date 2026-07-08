@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - claude-3
+  - deepseek
+  - gemini-pro
+  - ai21-labs
+  - mistral
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, model_based, community_driven]
 ---

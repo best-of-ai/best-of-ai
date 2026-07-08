@@ -10,6 +10,12 @@ category_name: 'Website Builders'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - wix-adi
+  - 10web
+  - durable
+  - framer
+  - instawebai
 date: '2026-06-15'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing]
 ---

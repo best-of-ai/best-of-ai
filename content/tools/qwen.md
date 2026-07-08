@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - deepseek
+  - llama-3
+  - claude-3
+  - gemma
+  - microsoft-phi
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, free_tier, nlp, model_based]
 ---

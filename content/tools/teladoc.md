@@ -11,6 +11,12 @@ category_name: 'Telemedicine'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - amwell
+  - doxy-me
+  - betterhelp
+  - calm
+  - myfitnesspal
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -11,6 +11,12 @@ category_name: 'Computer Vision'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - aws-rekognition
+  - deepseek-vision
+  - clarifai
+  - intrinsic
+  - zebra-medical
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

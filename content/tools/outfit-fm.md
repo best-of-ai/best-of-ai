@@ -10,6 +10,12 @@ category_name: 'Fashion'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - fashwell
+  - vue-ai
+  - theyes
+  - stitchfix
+  - runway
 date: '2025-01-01'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, model_based, powerful]
 ---

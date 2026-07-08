@@ -11,6 +11,12 @@ category_name: 'Space Tech'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - maxar
+  - spire-global
+  - azure-content-moderator
+  - datadog
+  - applitools
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

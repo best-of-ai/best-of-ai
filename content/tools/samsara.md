@@ -11,6 +11,12 @@ category_name: 'Fleet Management'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - geotab
+  - fleetio
+  - buildxact
+  - datadog
+  - autodesk-construction
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

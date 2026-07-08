@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - claude-3
+  - gemini-pro
+  - llama-3
+  - hugging-face
+  - mistral
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, enterprise, customizable]
 ---

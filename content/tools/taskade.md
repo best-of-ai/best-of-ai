@@ -11,6 +11,12 @@ category_name: 'Project Management'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - linear
+  - smartsheet-ai
+  - height
+  - asana-pm
+  - team-pulse-ai
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

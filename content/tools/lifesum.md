@@ -10,6 +10,12 @@ category_name: 'Food'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - sidechef
+  - whisk
+  - yuka
+  - plantnet
+  - noom
 date: '2026-06-15'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, customizable]
 ---

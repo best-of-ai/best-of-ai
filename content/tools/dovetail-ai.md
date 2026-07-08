@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - notebook-lm-plus
+  - paper-digest
+  - iris-ai
+  - scispace
+  - inciteful
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, customizable]
 ---

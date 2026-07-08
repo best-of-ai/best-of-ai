@@ -11,6 +11,12 @@ category_name: 'Space Tech'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - satellogic
+  - spire-global
+  - arcgis
+  - datadog
+  - nearmap
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,12 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - azure-openai
+  - roboflow
+  - perplexity-sonar
+  - replicate
+  - amazon-bedrock
 date: '2025-01-01'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning, image_based, training]
 ---

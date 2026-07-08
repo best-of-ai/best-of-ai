@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - abridge-ai
+  - nuance-dax
+  - doximity
+  - aidoc-ai
+  - babylon-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, voice_enabled]
 ---

@@ -11,6 +11,12 @@ category_name: 'Sentiment Analysis'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - monkeylearn
+  - repustate
+  - contractpodai
+  - mapbox
+  - stats-perform
 date: '2025-10-01'
 tags: [enterprise, nlp, analytics, ai_powered, intelligent, platform, tool, service]
 ---

@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - notebook-lm-plus
+  - iris-ai
+  - perplexity-research
+  - scispace
+  - semantic-scholar
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, mobile_app, collaboration]
 ---

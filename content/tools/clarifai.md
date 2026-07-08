@@ -11,6 +11,12 @@ category_name: 'Computer Vision'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - aws-rekognition
+  - landing-ai
+  - deepseek-vision
+  - appen
+  - labelbox
 date: '2025-10-01'
 tags: [customizable, nlp, voice_enabled, training, model_based, ai_powered, intelligent, platform]
 ---

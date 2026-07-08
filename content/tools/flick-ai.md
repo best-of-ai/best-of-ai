@@ -11,6 +11,12 @@ category_name: 'Social Media Tools'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - buffer
+  - latte-social
+  - sprout-social
+  - later
+  - typefully
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, voice_enabled]
 ---

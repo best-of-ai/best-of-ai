@@ -11,6 +11,12 @@ category_name: 'Web3'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - alchemy-web3
+  - dune-analytics
+  - particle-iot
+  - stripe
+  - rapidapi
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

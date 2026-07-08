@@ -11,6 +11,12 @@ category_name: 'Real Estate'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - opendoor
+  - redfin
+  - compass
+  - zumper
+  - matterport
 date: '2025-09-21'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data, model_based, fast]
 ---

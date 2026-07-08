@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - deepseek
+  - hugging-face
+  - mistral
+  - cohere
+  - microsoft-phi
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, cloud_based, training, model_based]
 ---

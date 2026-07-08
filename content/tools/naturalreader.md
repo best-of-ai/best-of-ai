@@ -11,6 +11,12 @@ category_name: 'Accessibility'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - be-my-eyes
+  - accessibe
+  - papercup
+  - deepdub
+  - applitools
 date: '2025-10-01'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

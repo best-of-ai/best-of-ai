@@ -11,6 +11,12 @@ category_name: 'Productivity'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - todoist
+  - asana
+  - clickup
+  - slack-ai
+  - coda-ai
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, image_based]
 ---

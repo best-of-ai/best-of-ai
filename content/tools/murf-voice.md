@@ -11,6 +11,12 @@ category_name: 'Voice Cloning'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - speechify
+  - altered-ai
+  - elevenlabs-voice
+  - kikivoice
+  - resemble-ai
 date: '2025-09-21'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, collaboration, voice_enabled, fast]
 ---

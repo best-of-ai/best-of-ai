@@ -11,6 +11,12 @@ category_name: 'Legal Assistants'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - casetext
+  - donotpay
+  - kira-systems
+  - lawgeex
+  - robin-ai
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, secure, nlp, model_based]
 ---

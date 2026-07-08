@@ -1,0 +1,3 @@
+---
+title: 'Wan Video Alternatives'
+---

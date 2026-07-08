@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - amazon-codewhisperer
+  - bolt-new
+  - devin
+  - bito-ai
+  - aider
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, cloud_based, training]
 ---

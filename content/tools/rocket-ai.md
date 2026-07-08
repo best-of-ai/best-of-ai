@@ -10,6 +10,12 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - bolt-new
+  - cursor-composer
+  - copilot-workspace
+  - lovable
+  - sourcegraph-cody
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

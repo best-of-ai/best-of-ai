@@ -11,6 +11,12 @@ category_name: 'Workflow Automation'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - leania-ai
+  - power-automate-workflow
+  - nintex
+  - tray-io
+  - zapier-workflow
 date: '2025-06-15'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, collaboration]
 ---

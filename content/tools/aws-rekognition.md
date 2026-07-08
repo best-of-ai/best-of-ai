@@ -11,6 +11,12 @@ category_name: 'Computer Vision'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - deepseek-vision
+  - landing-ai
+  - clarifai
+  - hive-moderation
+  - maxar
 date: '2025-10-01'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

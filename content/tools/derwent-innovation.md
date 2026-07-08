@@ -11,6 +11,12 @@ category_name: 'Patent Tools'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - patsnap
+  - iplytics
+  - contractpodai
+  - stats-perform
+  - spire-global
 date: '2025-10-01'
 tags: [analytics, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

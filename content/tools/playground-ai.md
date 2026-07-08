@@ -11,6 +11,12 @@ category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - flux
+  - ideogram
+  - artbreeder
+  - civitai
+  - craiyon
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, free_tier, image_based, training]
 ---

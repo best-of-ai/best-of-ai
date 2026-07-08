@@ -11,6 +11,12 @@ category_name: 'Insurance'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - lemonade
+  - root-insurance
+  - datadog
+  - autodesk-construction
+  - procore
 date: '2025-10-01'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

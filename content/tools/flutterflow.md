@@ -11,6 +11,12 @@ category_name: 'App Builders'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - bubble
+  - adalo
+  - glide
+  - appsheet
+  - retool-ai
 date: '2025-09-21'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, mobile_app, collaboration, image_based]
 ---

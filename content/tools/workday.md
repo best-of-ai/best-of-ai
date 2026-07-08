@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - greenhouse
+  - adp
+  - bamboohr
+  - eightfold-ai
+  - hirevue
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, cloud_based, analytics]
 ---

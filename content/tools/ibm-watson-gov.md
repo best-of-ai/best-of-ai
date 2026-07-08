@@ -11,6 +11,12 @@ category_name: 'Government'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - aws-govcloud
+  - palantir-gotham
+  - microsoft-gov-cloud
+  - harvey
+  - aleph-alpha
 date: '2025-09-21'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, cloud_based, secure, nlp]
 ---

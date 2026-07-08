@@ -1,0 +1,3 @@
+---
+title: 'Shortly AI Alternatives'
+---

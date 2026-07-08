@@ -10,6 +10,12 @@ category_name: 'Video Generator'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - luma-dream-machine
+  - sora
+  - hailuo-ai
+  - haiper
+  - steve-ai
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, free_tier, voice_enabled, model_based]
 ---

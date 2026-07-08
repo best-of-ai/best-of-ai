@@ -11,6 +11,12 @@ category_name: 'Text to Speech'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - amazon-polly
+  - playht
+  - cartesia
+  - wellsaid-labs
+  - fish-audio
 date: '2025-01-01'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, open_source, api_available, cloud_based]
 ---

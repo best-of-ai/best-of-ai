@@ -11,6 +11,12 @@ category_name: 'Data Labeling'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - appen
+  - labelbox
+  - drawio
+  - botpress
+  - prusaslicer
 date: '2025-10-01'
 tags: [open_source, machine_learning, image_based, training, community_driven, ai_powered, intelligent, platform]
 ---

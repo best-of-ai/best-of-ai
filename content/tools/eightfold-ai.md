@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - greenhouse
+  - hirevue
+  - workday
+  - betterworks-ai
+  - bamboohr
 date: '2025-01-01'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, machine_learning, fast]
 ---

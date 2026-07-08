@@ -13,4 +13,10 @@ featured: false
 rank: 10
 date: '2025-01-01'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, free_tier, training, model_based]
+alternatives:
+  - chatgpt
+  - claude
+  - gemini
+  - mistral
+  - llama-3
 ---

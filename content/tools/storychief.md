@@ -11,6 +11,12 @@ category_name: 'Storytelling'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - shorthand
+  - storybird
+  - wanderlog
+  - gitbook
+  - new-relic
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - dreambox-learning
+  - brilliant
+  - carnegie-learning
+  - khan-academy
+  - khanmigo
 date: '2025-01-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, collaboration]
 ---

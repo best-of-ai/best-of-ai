@@ -11,6 +11,12 @@ category_name: 'Writing Assistants'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - ghost
+  - paragraph-ai
+  - grammarly
+  - copy-ai
+  - quillbot
 date: '2025-06-15'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, integrations, analytics]
 ---

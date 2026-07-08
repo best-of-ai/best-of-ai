@@ -1,0 +1,3 @@
+---
+title: 'Altered AI Alternatives'
+---

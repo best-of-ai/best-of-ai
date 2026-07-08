@@ -1,0 +1,3 @@
+---
+title: 'PostHog AI Alternatives'
+---

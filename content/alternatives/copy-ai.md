@@ -1,0 +1,3 @@
+---
+title: 'Copy.ai Alternatives'
+---

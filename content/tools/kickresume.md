@@ -11,6 +11,12 @@ category_name: 'Resume Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - resume-io
+  - zety
+  - rezi
+  - enhancv
+  - jobscan
 date: '2025-09-21'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional, templates]
 ---

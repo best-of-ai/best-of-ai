@@ -11,6 +11,12 @@ category_name: 'Food'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - sidechef
+  - lifesum
+  - yuka
+  - plantnet
+  - shopify
 date: '2025-09-21'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, customizable]
 ---

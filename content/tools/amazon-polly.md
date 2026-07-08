@@ -11,6 +11,12 @@ category_name: 'Text to Speech'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - playht
+  - cartesia
+  - wellsaid-labs
+  - fish-audio
+  - hume-ai
 date: '2025-01-01'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, cloud_based, machine_learning]
 ---

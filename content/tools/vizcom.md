@@ -10,6 +10,12 @@ category_name: 'Graphic Design'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - canva
+  - figma
+  - adobe-express
+  - galileo-ai
+  - uizard
 date: '2026-06-15'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration]
 ---

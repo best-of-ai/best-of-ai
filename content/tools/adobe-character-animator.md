@@ -11,6 +11,12 @@ category_name: 'Character Design'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - character-creator
+  - ready-player-me
+  - sentry
+  - datadog
+  - turbonomic
 date: '2025-10-01'
 tags: [real_time, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

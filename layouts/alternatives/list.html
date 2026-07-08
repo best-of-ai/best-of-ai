@@ -1,0 +1,57 @@
+{{ define "main" }}
+{{ $allTools := where .Site.RegularPages "Section" "tools" }}
+{{ $altPages := where .Site.RegularPages "Section" "alternatives" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Alternatives</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="cat-hero">
+      <div class="cat-hero__icon">⇄</div>
+      <div>
+        <h1 class="cat-hero__title">AI Tool Alternatives</h1>
+        <p class="cat-hero__desc">Compare the best alternatives to popular AI tools — find what fits your workflow.</p>
+        <div class="cat-hero__meta">
+          <span><strong>{{ partial "count.html" (len $altPages) }}</strong> comparison pages</span>
+          <span class="stat-sep">·</span>
+          <span>handpicked &amp; curated</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alternatives list -->
+    <div class="other-cats-grid alt-list-grid">
+      {{ range sort $altPages "Title" "asc" }}
+        {{ $slug := .File.BaseFileName }}
+        {{ $tool := index (where $allTools "Params.slug" $slug) 0 }}
+        {{ if not $tool }}
+          {{ $tool = index (where $allTools "File.BaseFileName" $slug) 0 }}
+        {{ end }}
+        {{ $count := 0 }}
+        {{ if $tool }}{{ $count = len $tool.Params.alternatives }}{{ end }}
+        <a href="{{ .RelPermalink }}" class="other-cat-card">
+          <span class="other-cat-card__name">{{ .Title }}</span>
+          {{ if gt $count 0 }}
+          <span class="other-cat-card__count">{{ partial "count.html" $count }}</span>
+          {{ end }}
+        </a>
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

@@ -1,0 +1,100 @@
+{{ define "main" }}
+{{ $toolSlug := .File.BaseFileName }}
+{{ $allTools  := where .Site.RegularPages "Section" "tools" }}
+{{ $tool      := index (where $allTools "Params.slug" $toolSlug) 0 }}
+{{ if not $tool }}
+  {{ $tool = index (where $allTools "File.BaseFileName" $toolSlug) 0 }}
+{{ end }}
+
+{{ $altPages := slice }}
+{{ if $tool }}
+  {{ range $tool.Params.alternatives }}
+    {{ $slug := . }}
+    {{ $match := index (where $allTools "Params.slug" $slug) 0 }}
+    {{ if not $match }}
+      {{ $match = index (where $allTools "File.BaseFileName" $slug) 0 }}
+    {{ end }}
+    {{ if $match }}
+      {{ $altPages = $altPages | append $match }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $toolName := cond (and $tool (ne $tool.Params.name "")) $tool.Params.name (.Title | strings.TrimSuffix " Alternatives") }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/alternatives/" | relURL }}">Alternatives</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $toolName }}</span>
+    </nav>
+
+    <!-- Hero -->
+    <div class="cat-hero alt-hero">
+      {{ if $tool }}
+        {{ $logoSrc := cond (ne $tool.Params.logo_url "") $tool.Params.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" $tool.Params.website) }}
+        <div class="cat-hero__icon alt-hero__icon">
+          <img src="{{ $logoSrc }}" alt="{{ $toolName }}" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span style="display:none">{{ substr $toolName 0 1 }}</span>
+        </div>
+      {{ else }}
+        <div class="cat-hero__icon">{{ substr $toolName 0 1 }}</div>
+      {{ end }}
+      <div>
+        <h1 class="cat-hero__title">Best {{ $toolName }} Alternatives</h1>
+        {{ if $tool }}
+        <p class="cat-hero__desc">{{ $tool.Params.subtitle }}</p>
+        {{ end }}
+        <div class="cat-hero__meta">
+          <span><strong>{{ partial "count.html" (len $altPages) }}</strong> alternatives</span>
+          <span class="stat-sep">·</span>
+          <span>handpicked &amp; curated</span>
+          {{ if $tool }}
+          <span class="stat-sep">·</span>
+          <a href="{{ $tool.RelPermalink }}" class="alt-hero__back">View {{ $toolName }} →</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Alternatives grid -->
+    {{ if $altPages }}
+    <div class="tools-grid" id="alt-tools-grid">
+      {{ range $altPages }}
+      {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--fg-muted);padding:2rem 0">No alternatives listed yet.</p>
+    {{ end }}
+
+    <!-- Browse all alternatives -->
+    <section class="other-cats-section">
+      <h2 class="other-cats__title">// compare other tools</h2>
+      <div class="other-cats-grid">
+        {{ range where .Site.RegularPages "Section" "alternatives" }}
+          {{ if ne .File.BaseFileName $toolSlug }}
+          <a href="{{ .RelPermalink }}" class="other-cat-card">
+            <span class="other-cat-card__name">{{ .Title }}</span>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

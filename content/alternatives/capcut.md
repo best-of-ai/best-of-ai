@@ -1,0 +1,3 @@
+---
+title: 'CapCut Alternatives'
+---

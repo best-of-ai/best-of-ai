@@ -10,6 +10,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - langchain
+  - coze
+  - smolagents
+  - cassidy-ai
+  - composio-ai
 date: '2025-01-01'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, customizable, training, model_based]
 ---

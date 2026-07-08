@@ -11,6 +11,12 @@ category_name: 'Document AI'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - humata
+  - adobe-acrobat-ai
+  - chatpdf
+  - notebooklm
+  - abbyy
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Search Engines'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - exa-ai
+  - perplexity-search
+  - phind
+  - you-search
+  - arc-browser
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, community_driven]
 ---

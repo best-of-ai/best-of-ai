@@ -10,6 +10,12 @@ category_name: 'Productivity'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - asana
+  - clickup
+  - slack-ai
+  - raycast-ai
+  - todoist
 date: '2026-06-15'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

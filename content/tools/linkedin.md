@@ -11,6 +11,12 @@ category_name: 'Job Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - glassdoor
+  - ziprecruiter
+  - indeed
+  - jobbyo
+  - teal
 date: '2025-09-21'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, customizable, powerful]
 ---

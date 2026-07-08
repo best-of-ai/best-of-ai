@@ -11,6 +11,12 @@ category_name: 'Compliance'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - drata
+  - onetrust
+  - osano
+  - wiz
+  - crowdstrike
 date: '2025-10-01'
 tags: [secure, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

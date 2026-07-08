@@ -11,6 +11,12 @@ category_name: 'Document AI'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - notebooklm
+  - abbyy
+  - docsumo
+  - humata
+  - hyperscience
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, customizable, machine_learning, voice_enabled]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'Vertech Academy Alternatives'
+---

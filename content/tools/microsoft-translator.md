@@ -11,6 +11,12 @@ category_name: 'Translator'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - google-translate
+  - deepl
+  - lokalise-ai
+  - smartling
+  - reverso
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, api_available, browser_extension, mobile_app]
 ---

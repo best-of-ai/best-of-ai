@@ -11,6 +11,12 @@ category_name: 'Real Estate'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - compass
+  - opendoor
+  - redfin
+  - zillow
+  - zumper
 date: '2025-06-15'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data]
 ---

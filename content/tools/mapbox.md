@@ -11,6 +11,12 @@ category_name: 'Geospatial'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - arcgis
+  - nearmap
+  - ready-player-me
+  - lexalytics
+  - betterup
 date: '2025-10-01'
 tags: [enterprise, customizable, analytics, ai_powered, intelligent, platform, tool, service]
 ---

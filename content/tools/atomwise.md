@@ -11,6 +11,12 @@ category_name: 'Drug Discovery'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - schrodinger
+  - recursion
+  - workable
+  - datadog
+  - augury
 date: '2025-10-01'
 tags: [machine_learning, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

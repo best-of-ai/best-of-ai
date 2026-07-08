@@ -11,6 +11,12 @@ category_name: 'AI Directories'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - altern
+  - ai-for-developer
+  - productivity-directory
+  - best-of-ai
+  - perplexity-labs
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Web3'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - moralis
+  - alchemy-web3
+  - patsnap
+  - spire-global
+  - aws-rekognition
 date: '2025-10-01'
 tags: [image_based, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

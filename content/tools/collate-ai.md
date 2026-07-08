@@ -10,6 +10,12 @@ category_name: 'Productivity'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - reclaim-ai
+  - akiflow
+  - asana
+  - todoist
+  - slack-ai
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, free_tier, cloud_based, fast]
 ---

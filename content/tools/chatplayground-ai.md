@@ -10,6 +10,12 @@ category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - grok
+  - chatgpt
+  - claude
+  - gemini
+  - kimi
 date: '2025-01-01'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, model_based]
 ---

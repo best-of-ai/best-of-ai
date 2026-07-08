@@ -1,0 +1,3 @@
+---
+title: 'Lindy Alternatives'
+---

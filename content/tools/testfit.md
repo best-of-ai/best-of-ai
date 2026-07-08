@@ -11,6 +11,12 @@ category_name: 'Architecture'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - finch3d
+  - spacemaker-ai
+  - sight-machine
+  - next-insurance
+  - sentry
 date: '2025-10-01'
 tags: [real_time, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

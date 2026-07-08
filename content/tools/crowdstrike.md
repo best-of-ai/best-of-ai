@@ -11,6 +11,12 @@ category_name: 'Cybersecurity'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - darktrace
+  - wiz
+  - ghostwall
+  - datadog
+  - bigid
 date: '2025-10-01'
 tags: [secure, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

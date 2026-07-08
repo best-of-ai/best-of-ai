@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - carnegie-learning
+  - synthesis
+  - khan-academy
+  - studysmarter
+  - brilliant
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

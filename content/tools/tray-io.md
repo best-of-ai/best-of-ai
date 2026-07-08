@@ -11,6 +11,12 @@ category_name: 'Workflow Automation'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - workato-ai
+  - nintex
+  - uipath
+  - power-automate-workflow
+  - leania-ai
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, enterprise, secure, nlp]
 ---

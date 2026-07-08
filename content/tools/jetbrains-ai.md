@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - amazon-codewhisperer
+  - sourcegraph-cody
+  - supermaven
+  - qodo-ai
+  - coderabbit
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, integrations]
 ---

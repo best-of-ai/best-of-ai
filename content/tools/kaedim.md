@@ -11,6 +11,12 @@ category_name: '3D'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - alpha3d
+  - luma-ai
+  - masterpiece-studio
+  - meshy-ai
+  - spline
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, mobile_app, collaboration, image_based]
 ---

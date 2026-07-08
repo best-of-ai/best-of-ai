@@ -11,6 +11,12 @@ category_name: 'Travel'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - hopper
+  - wanderlog
+  - mova-guide
+  - betterhelp
+  - dubverse
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

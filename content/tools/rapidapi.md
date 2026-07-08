@@ -11,6 +11,12 @@ category_name: 'API Tools'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - postman
+  - insomnia
+  - moralis
+  - ready-player-me
+  - archbee
 date: '2025-10-01'
 tags: [api_available, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

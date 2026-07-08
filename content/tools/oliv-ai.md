@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - instantly
+  - amplemarket
+  - outreach
+  - revenue-io
+  - chorus-ai
 date: '2025-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, real_time, analytics]
 ---

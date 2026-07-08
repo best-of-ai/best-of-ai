@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - tableau
+  - amplitude-ai
+  - posthog-ai
+  - airbyte-ai
+  - datarobot
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, collaboration, machine_learning]
 ---

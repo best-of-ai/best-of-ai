@@ -11,6 +11,12 @@ category_name: 'Writing Assistants'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - writesonic
+  - ink-editor
+  - koala-ai
+  - copy-ai
+  - grammarly
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, real_time]
 ---

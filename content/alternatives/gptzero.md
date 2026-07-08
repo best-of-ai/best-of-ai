@@ -1,0 +1,3 @@
+---
+title: 'GPTZero Alternatives'
+---

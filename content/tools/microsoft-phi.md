@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Free'
 featured: false
 rank: 9
+alternatives:
+  - deepseek
+  - claude-3
+  - gemma
+  - hugging-face
+  - mistral
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, nlp, model_based]
 ---

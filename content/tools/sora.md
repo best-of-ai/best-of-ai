@@ -11,6 +11,12 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 10
+alternatives:
+  - luma-dream-machine
+  - hailuo-ai
+  - kling-ai
+  - veo-3
+  - gen-2
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, model_based]
 ---

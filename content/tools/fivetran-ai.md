@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - domo-ai
+  - thoughtspot
+  - power-bi
+  - tableau
+  - sisense-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, cloud_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Farming'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - climate-fieldview
+  - farmlogs
+  - john-deere-ops
+  - scale-ai
+  - iris-ai
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation, enterprise, analytics]
 ---

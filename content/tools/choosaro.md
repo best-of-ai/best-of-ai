@@ -10,6 +10,12 @@ category_name: 'Productivity'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - asana
+  - slack-ai
+  - clickup
+  - todoist
+  - akiflow
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

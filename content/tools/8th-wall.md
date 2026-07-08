@@ -11,6 +11,12 @@ category_name: 'AR/VR'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - meta-quest
+  - niantic-lightship
+  - mermaid-chart
+  - weglot
+  - bizzabo
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'Real-ESRGAN Alternatives'
+---

@@ -11,6 +11,12 @@ category_name: 'Copywriting'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - anyword
+  - jasper-copy
+  - peppertype-ai
+  - writesonic-copy
+  - copy-ai-copy
 date: '2025-06-15'
 tags: [writing, marketing, text_generation, copy, content, ad_copy, seo_writing, brand_voice, persuasion, collaboration, integrations, fast]
 ---

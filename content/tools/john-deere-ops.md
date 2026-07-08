@@ -11,6 +11,12 @@ category_name: 'Farming'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - granular
+  - climate-fieldview
+  - farmlogs
+  - carbon-trust
+  - watershed
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation]
 ---

@@ -11,6 +11,12 @@ category_name: 'Local Search Engines'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - apple-maps
+  - foursquare
+  - yelp
+  - bing-chat
+  - perplexity-search
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, real_time, customizable, image_based]
 ---

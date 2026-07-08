@@ -11,6 +11,12 @@ category_name: 'Audio'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - krisp
+  - altered-ai
+  - elevenlabs
+  - descript
+  - murf
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, real_time, customizable, secure]
 ---

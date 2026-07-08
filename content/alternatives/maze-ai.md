@@ -1,0 +1,3 @@
+---
+title: 'Maze Alternatives'
+---

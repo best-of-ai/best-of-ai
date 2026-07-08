@@ -11,6 +11,12 @@ category_name: 'Tax & Accounting'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - taxjar
+  - avalara
+  - jumio
+  - embark
+  - autodesk-construction
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

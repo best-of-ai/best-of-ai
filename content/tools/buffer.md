@@ -11,6 +11,12 @@ category_name: 'Social Media Tools'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - sprout-social
+  - later
+  - predis-ai
+  - typefully
+  - flick-ai
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform]
 ---

@@ -11,6 +11,12 @@ category_name: 'Copywriting'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - writesonic-copy
+  - anyword
+  - jasper-copy
+  - peppertype-ai
+  - copysmith
 date: '2025-09-21'
 tags: [writing, marketing, text_generation, copy, content, ad_copy, seo_writing, brand_voice, persuasion, collaboration, templates, fast]
 ---

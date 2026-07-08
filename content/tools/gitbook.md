@@ -11,6 +11,12 @@ category_name: 'Documentation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - confluence-ai
+  - archbee
+  - storychief
+  - new-relic
+  - bugsnag
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

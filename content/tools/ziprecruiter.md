@@ -11,6 +11,12 @@ category_name: 'Job Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - indeed
+  - linkedin
+  - glassdoor
+  - jobgpt-ai
+  - teal
 date: '2025-09-21'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, machine_learning, fast]
 ---

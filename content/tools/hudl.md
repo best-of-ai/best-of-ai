@@ -11,6 +11,12 @@ category_name: 'Sports Analytics'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - catapult-sports
+  - stats-perform
+  - planetscale
+  - hopin
+  - fleetio
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

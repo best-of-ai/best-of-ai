@@ -11,6 +11,12 @@ category_name: 'Compliance'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - drata
+  - vanta
+  - bigid
+  - okta
+  - osano
 date: '2025-10-01'
 tags: [enterprise, secure, ai_powered, intelligent, platform, tool, service, solution]
 ---

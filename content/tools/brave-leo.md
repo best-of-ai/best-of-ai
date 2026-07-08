@@ -11,6 +11,12 @@ category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - siri
+  - meta-ai
+  - google-assistant
+  - replika
+  - kin-personal-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, secure, model_based]
 ---

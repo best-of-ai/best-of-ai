@@ -11,6 +11,12 @@ category_name: 'Writing Assistants'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - grammarly
+  - wordtune
+  - jasper
+  - writesonic
+  - copy-ai
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, voice_enabled]
 ---

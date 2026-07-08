@@ -1,0 +1,3 @@
+---
+title: 'ChatGPT Canvas Alternatives'
+---

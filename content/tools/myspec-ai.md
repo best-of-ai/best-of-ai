@@ -10,6 +10,12 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - groq
+  - cursor
+  - azure-openai
+  - google-ai-studio
+  - llamaindex
 date: '2025-01-01'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

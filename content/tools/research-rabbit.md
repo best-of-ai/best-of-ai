@@ -11,6 +11,12 @@ category_name: 'Academia'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - litmaps
+  - consensus
+  - elicit
+  - scholarcy
+  - connected-papers
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, image_based, fast]
 ---

@@ -11,6 +11,12 @@ category_name: 'AI Directories'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - ai-for-developer
+  - aidir-wiki
+  - productivity-directory
+  - best-of-ai
+  - kagi
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
 ---

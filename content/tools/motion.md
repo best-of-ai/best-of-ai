@@ -11,6 +11,12 @@ category_name: 'Calendar Scheduling'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - calendly
+  - acuity-scheduling
+  - x-ai
+  - clockwise-ai
+  - fantastical
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, powerful]
 ---

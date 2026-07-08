@@ -11,6 +11,12 @@ category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - artbreeder
+  - civitai
+  - craiyon
+  - freepik-ai
+  - getimg-ai
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, collaboration, free_tier, customizable]
 ---

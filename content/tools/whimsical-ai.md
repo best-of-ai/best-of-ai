@@ -11,6 +11,12 @@ category_name: 'Graphic Design'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - canva
+  - figma
+  - adobe-firefly
+  - midjourney
+  - galileo-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, image_based, fast]
 ---

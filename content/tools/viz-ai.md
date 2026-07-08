@@ -11,6 +11,12 @@ category_name: 'Medical Imaging'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - zebra-medical
+  - arterys
+  - lever
+  - postman
+  - new-relic
 date: '2025-06-15'
 tags: [collaboration, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

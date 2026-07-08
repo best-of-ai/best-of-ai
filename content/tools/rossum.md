@@ -11,6 +11,12 @@ category_name: 'Document AI'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - notebooklm
+  - abbyy
+  - docsumo
+  - nanonets
+  - adobe-acrobat-ai
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

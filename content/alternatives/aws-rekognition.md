@@ -1,0 +1,3 @@
+---
+title: 'AWS Rekognition Alternatives'
+---

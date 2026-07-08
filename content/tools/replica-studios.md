@@ -11,6 +11,12 @@ category_name: 'Voice Cloning'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - altered-ai
+  - resemble-ai
+  - respeecher
+  - elevenlabs-voice
+  - murf-voice
 date: '2025-09-21'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, api_available, mobile_app, real_time]
 ---

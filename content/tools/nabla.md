@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - nuance-dax
+  - abridge-ai
+  - suki-ai
+  - doximity
+  - babylon-health
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, integrations]
 ---

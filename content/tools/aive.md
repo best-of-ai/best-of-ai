@@ -11,6 +11,12 @@ category_name: 'Video Enhancer'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - topaz-video-ai
+  - real-esrgan
+  - waifu2x
+  - topaz-photo-ai
+  - artbreeder
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, collaboration, image_based, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - apollo
+  - clay
+  - gong
+  - instantly
+  - salesloft
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, voice_enabled]
 ---

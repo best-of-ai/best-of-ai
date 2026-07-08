@@ -11,6 +11,12 @@ category_name: 'Weather'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - weather-ai
+  - tomorrow-io
+  - weatherbug
+  - apple-maps
+  - gemini
 date: '2025-09-21'
 tags: [weather, data_analysis, climate, forecasting, real_time, meteorology, alerts, temperature, precipitation, mobile_app, machine_learning]
 ---

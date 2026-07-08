@@ -10,6 +10,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - amplitude-ai
+  - tableau
+  - julius-ai
+  - power-bi
+  - domo-ai
 date: '2026-06-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql]
 ---

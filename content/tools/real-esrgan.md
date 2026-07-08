@@ -11,6 +11,12 @@ category_name: 'Video Enhancer'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - waifu2x
+  - aive
+  - topaz-video-ai
+  - topaz-photo-ai
+  - upscayl
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, open_source, image_based, model_based]
 ---

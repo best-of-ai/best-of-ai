@@ -1,0 +1,3 @@
+---
+title: 'PatSnap Alternatives'
+---

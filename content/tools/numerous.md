@@ -11,6 +11,12 @@ category_name: 'Spreadsheets'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - sheet-plus
+  - ajelix
+  - formula-bot
+  - claude
+  - power-automate
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, api_available, collaboration]
 ---

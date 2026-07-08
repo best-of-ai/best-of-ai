@@ -11,6 +11,12 @@ category_name: 'Accessibility'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - naturalreader
+  - accessibe
+  - applitools
+  - maxar
+  - shorthand
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

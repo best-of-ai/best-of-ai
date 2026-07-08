@@ -11,6 +11,12 @@ category_name: 'DevTools'
 price: 'Free'
 featured: false
 rank: 9
+alternatives:
+  - amazon-bedrock
+  - groq
+  - perplexity-sonar
+  - jan-ai
+  - lm-studio
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, multimodal, free_tier]
 ---

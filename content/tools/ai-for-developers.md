@@ -11,6 +11,12 @@ category_name: 'AI Newsletters'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - the-rundown-ai
+  - superhuman-ai
+  - the-neuron
+  - altern-newsletter
+  - intrinsic
 date: '2026-06-22'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

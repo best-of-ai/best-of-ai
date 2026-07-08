@@ -11,6 +11,12 @@ category_name: 'Ad Generator'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - pattern89
+  - smartly
+  - adcreative-ai
+  - aiter-io
+  - madgicx
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, training]
 ---

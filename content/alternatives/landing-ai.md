@@ -1,0 +1,3 @@
+---
+title: 'Landing AI Alternatives'
+---

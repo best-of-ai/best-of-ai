@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - claude-3
+  - gemini-pro
+  - deepseek
+  - llama-3
+  - ai21-labs
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, free_tier, image_based]
 ---

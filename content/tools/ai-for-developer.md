@@ -11,6 +11,12 @@ category_name: 'AI Directories'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - altern
+  - aidir-wiki
+  - productivity-directory
+  - best-of-ai
+  - sourcegraph-cody
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, integrations, model_based]
 ---

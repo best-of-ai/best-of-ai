@@ -10,6 +10,12 @@ category_name: 'Chatbot Builders'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - manychat
+  - fastbots-ai
+  - voiceflow
+  - botpress
+  - character-creator
 date: '2025-01-01'
 tags: [customizable, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

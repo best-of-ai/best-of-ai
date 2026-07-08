@@ -11,6 +11,12 @@ category_name: 'Synthetic Data'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - tonic-ai
+  - gretel-ai
+  - woebot
+  - neon-db
+  - root-insurance
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

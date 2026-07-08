@@ -11,6 +11,12 @@ category_name: 'Storytelling'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - shorthand
+  - storychief
+  - woebot
+  - xmind
+  - calm
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

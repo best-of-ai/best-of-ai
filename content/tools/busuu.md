@@ -11,6 +11,12 @@ category_name: 'Language Learning'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - duolingo
+  - rosetta-stone
+  - babbel
+  - pimsleur
+  - preply
 date: '2025-09-21'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion]
 ---

@@ -11,6 +11,12 @@ category_name: 'Transcription'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - assemblyai
+  - whisper
+  - deepgram
+  - sonix
+  - notta
 date: '2025-06-15'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, enterprise, voice_enabled]
 ---

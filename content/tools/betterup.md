@@ -11,6 +11,12 @@ category_name: 'Wellness'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - headspace
+  - calm
+  - character-creator
+  - fitbod
+  - stats-perform
 date: '2025-10-01'
 tags: [enterprise, customizable, powerful, ai_powered, intelligent, platform, tool, service]
 ---

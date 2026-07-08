@@ -10,6 +10,12 @@ category_name: 'Chatbot Builders'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - scalerx
+  - manychat
+  - voiceflow
+  - botpress
+  - fitbod
 date: '2025-01-01'
 tags: [customizable, training, fast, ai_powered, intelligent, platform, tool, service]
 ---

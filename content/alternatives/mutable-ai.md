@@ -1,0 +1,3 @@
+---
+title: 'Mutable AI Alternatives'
+---

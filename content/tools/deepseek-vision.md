@@ -10,6 +10,12 @@ category_name: 'Computer-Vision'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - aws-rekognition
+  - landing-ai
+  - clarifai
+  - be-my-eyes
+  - creately
 date: '2026-06-21'
 tags: [multimodal, image_based, powerful, ai_powered, intelligent, platform, tool, service]
 ---

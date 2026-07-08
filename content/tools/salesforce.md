@@ -11,6 +11,12 @@ category_name: 'CRM'
 price: 'Paid'
 featured: false
 rank: 10
+alternatives:
+  - hubspot-crm
+  - pipedrive
+  - zoho-crm
+  - copper
+  - folk
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, enterprise, customizable]
 ---

@@ -11,6 +11,12 @@ category_name: 'Drug Discovery'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - atomwise
+  - recursion
+  - workable
+  - datadog
+  - geneious
 date: '2025-10-01'
 tags: [machine_learning, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

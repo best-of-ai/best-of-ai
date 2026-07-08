@@ -11,6 +11,12 @@ category_name: 'CleanTech'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - palmetto
+  - arcadia
+  - spacemaker-ai
+  - taxjar
+  - datadog
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

@@ -11,6 +11,12 @@ category_name: 'Chatbot Builders'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - voiceflow
+  - manychat
+  - scalerx
+  - fastbots-ai
+  - cvat
 date: '2025-06-15'
 tags: [open_source, customizable, integrations, image_based, model_based, community_driven, ai_powered, intelligent]
 ---

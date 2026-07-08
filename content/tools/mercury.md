@@ -11,6 +11,12 @@ category_name: 'FinTech'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - brex
+  - stripe
+  - insomnia
+  - prusaslicer
+  - ultimaker-cura
 date: '2025-06-15'
 tags: [open_source, analytics, community_driven, ai_powered, intelligent, platform, tool, service]
 ---

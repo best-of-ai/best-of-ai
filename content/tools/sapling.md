@@ -11,6 +11,12 @@ category_name: 'Customer Support'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - freshdesk
+  - drift
+  - zendesk
+  - tidio
+  - intercom
 date: '2025-06-15'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, real_time, collaboration, customizable]
 ---

@@ -11,6 +11,12 @@ category_name: 'API Tools'
 price: 'Freemium'
 featured: false
 rank: 10
+alternatives:
+  - insomnia
+  - rapidapi
+  - benchling
+  - confluence-ai
+  - gitbook
 date: '2025-10-01'
 tags: [api_available, collaboration, ai_powered, intelligent, platform, tool, service, solution]
 ---

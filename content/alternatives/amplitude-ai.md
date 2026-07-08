@@ -1,0 +1,3 @@
+---
+title: 'Amplitude AI Alternatives'
+---

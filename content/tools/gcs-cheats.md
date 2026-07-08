@@ -11,6 +11,12 @@ category_name: 'Others'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - marketinguys
+  - next-insurance
+  - linear
+  - drift
+  - productivity-directory
 date: '2026-06-11'
 tags: [other, miscellaneous, tools, utilities, general, innovative, niche, experimental, unique, fast]
 ---

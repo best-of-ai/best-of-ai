@@ -11,6 +11,12 @@ category_name: 'Debugging'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - bugsnag
+  - rookout
+  - datadog
+  - new-relic
+  - tonic-ai
 date: '2025-10-01'
 tags: [real_time, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,12 @@ category_name: 'Spreadsheets'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - formula-bot
+  - numerous
+  - sheet-plus
+  - cursor-composer
+  - zapier
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations]
 ---

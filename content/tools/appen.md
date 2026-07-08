@@ -11,6 +11,12 @@ category_name: 'Data Labeling'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - labelbox
+  - cvat
+  - lemonade
+  - workable
+  - clarifai
 date: '2025-10-01'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

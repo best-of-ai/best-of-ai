@@ -11,6 +11,12 @@ category_name: 'Note-Taking Apps'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - obsidian
+  - craft-docs
+  - notion-notes
+  - remnote
+  - heptabase
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync]
 ---

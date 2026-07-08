@@ -11,6 +11,12 @@ category_name: 'Text to Speech'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - playht
+  - amazon-polly
+  - wellsaid-labs
+  - hume-ai
+  - fish-audio
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, real_time, voice_enabled]
 ---

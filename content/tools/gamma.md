@@ -11,6 +11,12 @@ category_name: 'Presentation'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - decktopus
+  - tome
+  - visme-ai
+  - beautiful-ai
+  - magicslides
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, image_based, fast]
 ---

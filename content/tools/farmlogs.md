@@ -11,6 +11,12 @@ category_name: 'Farming'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - climate-fieldview
+  - granular
+  - john-deere-ops
+  - planet-labs
+  - research-rabbit
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation, machine_learning, image_based, fast]
 ---

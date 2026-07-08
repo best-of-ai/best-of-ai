@@ -10,6 +10,12 @@ category_name: 'Writing Assistants'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - wordtune
+  - jasper
+  - hemingway-editor
+  - rytr
+  - quillbot
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, free_tier, voice_enabled]
 ---

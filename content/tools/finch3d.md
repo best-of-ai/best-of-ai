@@ -11,6 +11,12 @@ category_name: 'Architecture'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - testfit
+  - spacemaker-ai
+  - next-insurance
+  - xmind
+  - stripe
 date: '2025-10-01'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

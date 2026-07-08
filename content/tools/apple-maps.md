@@ -11,6 +11,12 @@ category_name: 'Local Search Engines'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - google-maps
+  - foursquare
+  - yelp
+  - arc-browser
+  - kagi
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, mobile_app, real_time, secure]
 ---

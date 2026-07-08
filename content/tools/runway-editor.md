@@ -11,6 +11,12 @@ category_name: 'Video Editor'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - adobe-premiere-pro-ai
+  - veed-io
+  - capcut
+  - captions-ai
+  - wondershare-filmora-ai
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, image_based, model_based, powerful]
 ---

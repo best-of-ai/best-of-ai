@@ -11,6 +11,12 @@ category_name: 'Transcription'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - assemblyai
+  - whisper
+  - deepgram
+  - sonix
+  - gladia
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, integrations, voice_enabled]
 ---

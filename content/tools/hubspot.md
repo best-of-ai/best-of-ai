@@ -11,6 +11,12 @@ category_name: 'Marketing'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - 6sense-ai
+  - persado
+  - typeform
+  - jasper-marketing
+  - marketmuse
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, enterprise, customizable]
 ---

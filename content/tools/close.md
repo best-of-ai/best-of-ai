@@ -11,6 +11,12 @@ category_name: 'CRM'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - salesforce
+  - pipedrive
+  - copper
+  - hubspot-crm
+  - freshsales
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, fast]
 ---

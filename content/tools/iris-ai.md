@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - notebook-lm-plus
+  - scispace
+  - semantic-scholar
+  - perplexity-research
+  - connected-papers
 date: '2025-01-01'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration, enterprise]
 ---

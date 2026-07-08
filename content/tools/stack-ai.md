@@ -10,6 +10,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - langchain
+  - coze
+  - crewai
+  - dify
+  - openai-operator
 date: '2026-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise]
 ---

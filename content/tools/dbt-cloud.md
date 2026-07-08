@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - thoughtspot
+  - obviously-ai
+  - cleanlab
+  - databricks
+  - domo-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, cloud_based, model_based]
 ---

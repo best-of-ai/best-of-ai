@@ -11,6 +11,12 @@ category_name: 'Transcription'
 price: 'Paid'
 featured: false
 rank: 9
+alternatives:
+  - whisper
+  - deepgram
+  - sonix
+  - notta
+  - speechmatics
 date: '2025-01-01'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, api_available, collaboration, voice_enabled]
 ---

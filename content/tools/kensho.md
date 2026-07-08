@@ -11,6 +11,12 @@ category_name: 'Finance'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - morningstar-ai
+  - alphasense
+  - pitchbook-ai
+  - mosaic-tech
+  - vic-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, nlp, model_based]
 ---

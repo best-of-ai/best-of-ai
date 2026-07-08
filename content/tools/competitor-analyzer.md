@@ -10,6 +10,12 @@ category_name: 'Market Research'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - similarweb
+  - brandwatch
+  - crimson-hexagon
+  - hotjar-ai
+  - attention-insight
 date: '2025-01-01'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence]
 ---

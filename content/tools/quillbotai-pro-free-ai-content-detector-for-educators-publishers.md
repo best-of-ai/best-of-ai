@@ -10,6 +10,12 @@ category_name: 'Learning-Tools'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - khan-academy
+  - gptzero
+  - carnegie-learning
+  - khanmigo
+  - udemy
 date: '2026-06-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
 ---

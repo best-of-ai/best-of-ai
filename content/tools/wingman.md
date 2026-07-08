@@ -11,6 +11,12 @@ category_name: 'Dating'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - iris-dating
+  - hinge
+  - woebot
+  - stripe
+  - alchemy-web3
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

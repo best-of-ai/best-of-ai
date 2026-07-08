@@ -10,6 +10,12 @@ category_name: 'Finance'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - alphasense
+  - morningstar-ai
+  - kensho
+  - ramp
+  - evalyze
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

@@ -11,6 +11,12 @@ category_name: 'Government'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - aws-govcloud
+  - ibm-watson-gov
+  - microsoft-gov-cloud
+  - siri
+  - slack-ai
 date: '2025-09-21'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, integrations, secure]
 ---

@@ -11,6 +11,12 @@ category_name: 'Construction'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - autodesk-construction
+  - buildxact
+  - fleetio
+  - iplytics
+  - next-insurance
 date: '2025-10-01'
 tags: [analytics, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

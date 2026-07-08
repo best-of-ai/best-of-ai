@@ -11,6 +11,12 @@ category_name: 'Learning Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - coursera
+  - brilliant
+  - khanmigo
+  - quizlet-ai
+  - khan-academy
 date: '2025-06-15'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, machine_learning, powerful]
 ---

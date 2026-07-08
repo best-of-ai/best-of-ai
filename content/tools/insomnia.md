@@ -11,6 +11,12 @@ category_name: 'API Tools'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - postman
+  - rapidapi
+  - mercury
+  - ultimaker-cura
+  - prusaslicer
 date: '2025-10-01'
 tags: [open_source, api_available, community_driven, ai_powered, intelligent, platform, tool, service]
 ---

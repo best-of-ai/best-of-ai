@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - aider
+  - cline
+  - codeium
+  - sourcegraph-cody
+  - aide
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, customizable, model_based]
 ---

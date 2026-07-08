@@ -11,6 +11,12 @@ category_name: 'Travel'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - tripadvisor
+  - wanderlog
+  - mova-guide
+  - bambu-studio
+  - datadog
 date: '2025-10-01'
 tags: [free_tier, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

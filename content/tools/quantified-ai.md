@@ -11,6 +11,12 @@ category_name: 'Sales Tools'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - people-ai
+  - chorus-ai
+  - clay
+  - instantly
+  - salesloft
 date: '2025-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration]
 ---

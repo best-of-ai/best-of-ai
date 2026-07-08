@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - babylon-health
+  - tempus-ai
+  - k-health
+  - paige-ai
+  - buoy-health
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

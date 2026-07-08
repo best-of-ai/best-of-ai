@@ -10,6 +10,12 @@ category_name: 'Productivity'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - reclaim-ai
+  - asana
+  - todoist
+  - raycast-ai
+  - clickup
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, voice_enabled, fast]
 ---

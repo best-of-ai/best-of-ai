@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - gemini-pro
+  - llama-3
+  - ai21-labs
+  - mistral
+  - cohere
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, enterprise, image_based]
 ---

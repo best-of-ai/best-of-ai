@@ -11,6 +11,12 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - paige-ai
+  - tempus-ai
+  - benevolentai
+  - ada-health
+  - aidoc-ai
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, machine_learning, image_based, model_based]
 ---

@@ -11,6 +11,12 @@ category_name: 'Nonprofit'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - bonterra
+  - virtuous
+  - buildxact
+  - autodesk-construction
+  - tonic-ai
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

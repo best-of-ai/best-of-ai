@@ -11,6 +11,12 @@ category_name: 'Video'
 price: 'Freemium'
 featured: false
 rank: 10
+alternatives:
+  - pika-labs
+  - synthesia
+  - loom
+  - runway-editor
+  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
 ---

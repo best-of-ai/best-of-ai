@@ -1,0 +1,3 @@
+---
+title: 'Generated Photos Alternatives'
+---

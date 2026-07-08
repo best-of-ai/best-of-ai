@@ -1,0 +1,3 @@
+---
+title: 'Perplexity Pro Alternatives'
+---

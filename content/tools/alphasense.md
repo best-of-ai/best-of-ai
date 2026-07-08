@@ -11,6 +11,12 @@ category_name: 'Finance'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - ramp
+  - morningstar-ai
+  - kensho
+  - causal-app
+  - botkeeper
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, collaboration, powerful]
 ---

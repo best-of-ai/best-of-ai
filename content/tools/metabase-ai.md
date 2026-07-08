@@ -11,6 +11,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - airbyte-ai
+  - posthog-ai
+  - h2o-ai
+  - amplitude-ai
+  - power-bi
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, community_driven]
 ---

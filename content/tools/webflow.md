@@ -11,6 +11,12 @@ category_name: 'No-Code'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - airtable
+  - dora-ai
+  - plasmic
+  - bubble-nocode
+  - pory
 date: '2025-09-21'
 tags: [no_code, automation, app_builder, lowcode, visual, drag_and_drop, workflow, builder, citizen_developer, collaboration, enterprise, free_tier]
 ---

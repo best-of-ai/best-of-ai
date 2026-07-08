@@ -11,6 +11,12 @@ category_name: 'Lead Generation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - zoominfo
+  - linkedin-sales-navigator
+  - conversica-ai
+  - kaspr
+  - lusha
 date: '2025-09-21'
 tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, collaboration, powerful]
 ---

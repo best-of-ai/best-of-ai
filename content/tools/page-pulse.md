@@ -10,6 +10,12 @@ category_name: 'Data'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - amplitude-ai
+  - tableau
+  - power-bi
+  - scale-ai
+  - h2o-ai
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, easy_to_use]
 ---

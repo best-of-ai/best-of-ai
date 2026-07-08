@@ -11,6 +11,12 @@ category_name: 'Fashion'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - fashwell
+  - vue-ai
+  - stitchfix
+  - outfit-fm
+  - shopify
 date: '2025-09-21'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe]
 ---

@@ -11,6 +11,12 @@ category_name: '3D'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - alpha3d
+  - masterpiece-studio
+  - meshy-ai
+  - spline
+  - kaedim
 date: '2025-01-01'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, mobile_app, real_time, image_based]
 ---

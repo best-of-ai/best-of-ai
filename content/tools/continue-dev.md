@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - aider
+  - cline
+  - amazon-q
+  - bolt-new
+  - devin
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, customizable]
 ---

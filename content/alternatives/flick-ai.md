@@ -1,0 +1,3 @@
+---
+title: 'Flick AI Alternatives'
+---

@@ -11,6 +11,12 @@ category_name: 'Supply Chain'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - llamasoft
+  - oracle-scm
+  - coupa
+  - kinaxis
+  - blue-yonder
 date: '2025-09-21'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, collaboration, enterprise, analytics]
 ---

@@ -10,6 +10,12 @@ category_name: 'Finance'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - expensify-ai
+  - alphasense
+  - morningstar-ai
+  - mosaic-tech
+  - swiftalerts
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
 ---

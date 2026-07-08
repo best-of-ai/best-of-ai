@@ -11,6 +11,12 @@ category_name: 'Social Media Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - sprout-social
+  - later
+  - metricool
+  - buffer
+  - publer
 date: '2025-06-15'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, collaboration, machine_learning]
 ---

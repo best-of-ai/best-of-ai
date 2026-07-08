@@ -10,6 +10,12 @@ category_name: 'Writing Assistants'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - quillbot
+  - wordtune
+  - writesonic
+  - copy-ai
+  - grammarly
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---

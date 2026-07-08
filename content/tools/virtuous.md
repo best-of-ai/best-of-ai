@@ -11,6 +11,12 @@ category_name: 'Nonprofit'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - bloomerang
+  - bonterra
+  - noom
+  - ready-player-me
+  - homer-learning
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

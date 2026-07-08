@@ -11,6 +11,12 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - sora
+  - luma-dream-machine
+  - kling-ai
+  - hailuo-ai
+  - haiper
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, mobile_app, image_based, model_based]
 ---

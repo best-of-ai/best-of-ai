@@ -10,6 +10,12 @@ category_name: 'Copywriting'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - writesonic-copy
+  - hypotenuse-ai
+  - jasper-copy
+  - peppertype-ai
+  - anyword
 date: '2026-06-15'
 tags: [writing, marketing, text_generation, copy, content, ad_copy, seo_writing, brand_voice, persuasion, customizable]
 ---

@@ -11,6 +11,12 @@ category_name: 'AI Directories'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - productivity-directory
+  - ai-for-developer
+  - altern
+  - aidir-wiki
+  - marketinguys
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
 ---

@@ -11,6 +11,12 @@ category_name: 'Research Tools'
 price: 'Freemium'
 featured: false
 rank: 9
+alternatives:
+  - perplexity-research
+  - semantic-scholar
+  - connected-papers
+  - explainpaper
+  - notebook-lm-plus
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'People.ai Alternatives'
+---

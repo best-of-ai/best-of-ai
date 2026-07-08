@@ -10,6 +10,12 @@ category_name: 'Workflow Automation'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - power-automate-workflow
+  - nintex
+  - relay-app
+  - tray-io
+  - uipath
 date: '2025-01-01'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, collaboration]
 ---

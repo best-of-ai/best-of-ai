@@ -1,0 +1,3 @@
+---
+title: 'The Yes Alternatives'
+---

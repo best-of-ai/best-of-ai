@@ -1,0 +1,3 @@
+---
+title: 'Highspot Alternatives'
+---

@@ -11,6 +11,12 @@ category_name: 'Video Enhancer'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - real-esrgan
+  - aive
+  - topaz-video-ai
+  - upscayl
+  - deepseek
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, open_source, free_tier, machine_learning]
 ---

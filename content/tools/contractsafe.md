@@ -11,6 +11,12 @@ category_name: 'Contract Management'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - contractpodai
+  - agiloft
+  - autogrid
+  - autodesk-construction
+  - bizzabo
 date: '2025-06-15'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

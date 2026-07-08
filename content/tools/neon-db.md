@@ -10,6 +10,12 @@ category_name: 'Database Tools'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - planetscale
+  - fauna
+  - stripe
+  - mostly-ai
+  - tonic-ai
 date: '2026-06-15'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

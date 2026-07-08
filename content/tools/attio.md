@@ -11,6 +11,12 @@ category_name: 'CRM'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - hubspot-crm
+  - salesforce
+  - pipedrive
+  - folk
+  - zoho-crm
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable, analytics]
 ---

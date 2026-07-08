@@ -10,6 +10,12 @@ category_name: 'Travel'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - tripadvisor
+  - hopper
+  - wanderlog
+  - headspace
+  - fitbod
 date: '2025-01-01'
 tags: [customizable, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

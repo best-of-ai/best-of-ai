@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - 15five-ai
+  - lattice-ai
+  - greenhouse
+  - adp
+  - bamboohr
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, templates]
 ---

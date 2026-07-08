@@ -11,6 +11,12 @@ category_name: 'Video Generator'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - luma-dream-machine
+  - sora
+  - kling-ai
+  - hailuo-ai
+  - haiper
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, open_source, image_based, model_based]
 ---

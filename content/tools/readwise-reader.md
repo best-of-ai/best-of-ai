@@ -11,6 +11,12 @@ category_name: 'Knowledge Management'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - notion-ai
+  - glean
+  - reflect
+  - capacities
+  - logseq
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval]
 ---

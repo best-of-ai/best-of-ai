@@ -11,6 +11,12 @@ category_name: 'Customer Support'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - zendesk
+  - drift
+  - freshdesk
+  - intercom
+  - gorgias
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, training, model_based]
 ---

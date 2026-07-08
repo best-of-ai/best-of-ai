@@ -11,6 +11,12 @@ category_name: 'Knowledge Management'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - notion-ai
+  - capacities
+  - obsidian-ai
+  - glean
+  - logseq
 date: '2025-06-15'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, browser_extension, fast, extensible]
 ---

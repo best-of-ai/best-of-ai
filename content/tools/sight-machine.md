@@ -11,6 +11,12 @@ category_name: 'Manufacturing'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - tulip
+  - augury
+  - brex
+  - catapult-sports
+  - contractpodai
 date: '2025-10-01'
 tags: [real_time, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

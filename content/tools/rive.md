@@ -11,6 +11,12 @@ category_name: 'Animation'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - vyond
+  - lottie
+  - animaker
+  - after-effects
+  - powtoon
 date: '2025-09-21'
 tags: [animation, video, creative, motion, graphics, motion_design, 2d_animation, 3d_animation, visual_effects, mobile_app, real_time]
 ---

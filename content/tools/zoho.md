@@ -11,6 +11,12 @@ category_name: 'Business Tools'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - hubspot-business
+  - salesforce-einstein
+  - qwilr-ai
+  - pandadoc-ai
+  - denovo-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, analytics]
 ---

@@ -11,6 +11,12 @@ category_name: 'Models'
 price: 'Paid'
 featured: false
 rank: 7
+alternatives:
+  - claude-3
+  - llama-3
+  - cohere
+  - gemma
+  - microsoft-phi
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, secure, nlp]
 ---

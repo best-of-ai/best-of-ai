@@ -11,6 +11,12 @@ category_name: 'HR'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - greenhouse
+  - workday
+  - adp
+  - ashby
+  - hibob-ai
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, customizable, analytics]
 ---

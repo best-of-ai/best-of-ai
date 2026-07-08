@@ -11,6 +11,12 @@ category_name: 'Calendar Scheduling'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - acuity-scheduling
+  - motion
+  - x-ai
+  - fantastical
+  - cal-com
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning]
 ---

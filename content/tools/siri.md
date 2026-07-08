@@ -11,6 +11,12 @@ category_name: 'Personal Assistants'
 price: 'Free'
 featured: false
 rank: 10
+alternatives:
+  - google-assistant
+  - brave-leo
+  - pi-ai
+  - meta-ai
+  - kin-personal-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, mobile_app, integrations, secure]
 ---

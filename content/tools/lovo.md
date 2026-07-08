@@ -11,6 +11,12 @@ category_name: 'Text to Speech'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - playht
+  - wellsaid-labs
+  - cartesia
+  - hume-ai
+  - amazon-polly
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, customizable, voice_enabled]
 ---

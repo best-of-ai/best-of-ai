@@ -11,6 +11,12 @@ category_name: 'Document AI'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - docsumo
+  - humata
+  - notebooklm
+  - abbyy
+  - adobe-acrobat-ai
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, api_available, collaboration]
 ---

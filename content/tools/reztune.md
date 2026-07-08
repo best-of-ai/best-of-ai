@@ -10,6 +10,12 @@ category_name: 'Resume Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - kickresume
+  - resume-io
+  - rezi
+  - zety
+  - enhancv
 date: '2025-01-01'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
 ---

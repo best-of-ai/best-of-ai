@@ -10,6 +10,12 @@ category_name: 'Learning Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - quizlet-ai
+  - coursera
+  - udemy
+  - khanmigo
+  - studysmarter
 date: '2025-01-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable]
 ---

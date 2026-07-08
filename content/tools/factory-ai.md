@@ -11,6 +11,12 @@ category_name: 'Code Assistant'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - devin
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
+  - cline
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, integrations, autonomous]
 ---

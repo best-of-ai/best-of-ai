@@ -11,6 +11,12 @@ category_name: 'Data Labeling'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - appen
+  - cvat
+  - schrodinger
+  - transifex
+  - clarifai
 date: '2025-10-01'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

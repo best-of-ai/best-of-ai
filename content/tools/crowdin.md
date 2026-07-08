@@ -11,6 +11,12 @@ category_name: 'Localization'
 price: 'Freemium'
 featured: false
 rank: 7
+alternatives:
+  - transifex
+  - weglot
+  - archbee
+  - datadog
+  - new-relic
 date: '2025-10-01'
 tags: [integrations, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

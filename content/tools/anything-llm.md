@@ -11,6 +11,12 @@ category_name: 'Knowledge Management'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - logseq
+  - obsidian-ai
+  - notion-ai
+  - anytype-ai
+  - capacities
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, open_source, cloud_based, model_based]
 ---

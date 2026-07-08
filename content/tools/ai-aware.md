@@ -10,6 +10,12 @@ category_name: 'Content Moderation'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - azure-content-moderator
+  - hive-moderation
+  - perspective-api
+  - aws-rekognition
+  - dune-analytics
 date: '2025-01-01'
 tags: [image_based, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,4 +13,10 @@ featured: false
 rank: 8
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
+alternatives:
+  - chatgpt
+  - claude
+  - perplexity
+  - elicit
+  - notion
 ---

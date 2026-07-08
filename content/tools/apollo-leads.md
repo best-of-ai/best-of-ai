@@ -11,6 +11,12 @@ category_name: 'Lead Generation'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - linkedin-sales-navigator
+  - hunter
+  - zoominfo
+  - kaspr
+  - lusha
 date: '2025-09-21'
 tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, customizable]
 ---

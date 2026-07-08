@@ -11,6 +11,12 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - sora
+  - luma-dream-machine
+  - moovly
+  - hailuo-ai
+  - kling-ai
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, api_available, enterprise, model_based]
 ---

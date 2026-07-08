@@ -11,6 +11,12 @@ category_name: 'Travel'
 price: 'Freemium'
 featured: false
 rank: 8
+alternatives:
+  - hopper
+  - tripadvisor
+  - mova-guide
+  - storychief
+  - new-relic
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

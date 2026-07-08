@@ -11,6 +11,12 @@ category_name: 'Local Search Engines'
 price: 'Free'
 featured: false
 rank: 8
+alternatives:
+  - google-maps
+  - yelp
+  - apple-maps
+  - exa-ai
+  - notebook-lm-plus
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, api_available, customizable, analytics]
 ---

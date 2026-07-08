@@ -11,6 +11,12 @@ category_name: 'Graphic Design'
 price: 'Paid'
 featured: false
 rank: 8
+alternatives:
+  - canva
+  - adobe-express
+  - midjourney
+  - figma
+  - galileo-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, cloud_based, image_based, training]
 ---

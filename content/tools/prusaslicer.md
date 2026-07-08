@@ -11,6 +11,12 @@ category_name: '3D Printing'
 price: 'Free'
 featured: false
 rank: 7
+alternatives:
+  - ultimaker-cura
+  - bambu-studio
+  - drawio
+  - insomnia
+  - mercury
 date: '2025-10-01'
 tags: [open_source, community_driven, ai_powered, intelligent, platform, tool, service, solution]
 ---
