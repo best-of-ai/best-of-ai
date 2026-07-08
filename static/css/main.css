@@ -1671,13 +1671,15 @@ a.tag-chip:hover {
   background: var(--surface2);
 }
 .alt-hero__icon img { width: 100%; height: 100%; object-fit: contain; }
-.alt-list-grid {
+.alt-list-grid,
+.alt-compare-list {
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.alt-list-grid .other-cat-card {
+.alt-list-grid .other-cat-card,
+.alt-compare-list .other-cat-card {
   display: flex;
   border-radius: var(--radius);
   padding: 0.7rem 1rem;

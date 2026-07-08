@@ -7,6 +7,7 @@
 {{ end }}
 
 {{ $altPages := slice }}
+{{ $comparePages := slice }}
 {{ if $tool }}
   {{ range $tool.Params.alternatives }}
     {{ $slug := . }}
@@ -16,6 +17,11 @@
     {{ end }}
     {{ if $match }}
       {{ $altPages = $altPages | append $match }}
+      {{ $matchSlug := cond (ne $match.Params.slug "") $match.Params.slug $match.File.BaseFileName }}
+      {{ $comparePage := index (where (where $.Site.RegularPages "Section" "alternatives") "File.BaseFileName" $matchSlug) 0 }}
+      {{ if $comparePage }}
+        {{ $comparePages = $comparePages | append $comparePage }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -78,18 +84,18 @@
     {{ end }}
 
     <!-- Browse all alternatives -->
+    {{ if $comparePages }}
     <section class="other-cats-section">
       <h2 class="other-cats__title">// compare other tools</h2>
-      <div class="other-cats-grid">
-        {{ range where .Site.RegularPages "Section" "alternatives" }}
-          {{ if ne .File.BaseFileName $toolSlug }}
-          <a href="{{ .RelPermalink }}" class="other-cat-card">
-            <span class="other-cat-card__name">{{ .Title }}</span>
-          </a>
-          {{ end }}
+      <div class="other-cats-grid alt-compare-list">
+        {{ range $comparePages }}
+        <a href="{{ .RelPermalink }}" class="other-cat-card">
+          <span class="other-cat-card__name">{{ .Title }}</span>
+        </a>
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
   </main>
 
