@@ -3469,7 +3469,7 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   border-top: 1px solid var(--border);
 }
 
-/* ── GitHub star modal ── */
+/* ── Newsletter modal ── */
 .gs-modal {
   position: fixed;
   inset: 0;
@@ -3489,12 +3489,12 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
 .gs-modal__box {
   position: relative;
   width: 100%;
-  max-width: 380px;
+  max-width: 520px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   box-shadow: 0 24px 64px rgba(0,0,0,0.45);
-  padding: 2rem 1.75rem 1.75rem;
+  padding: 2rem 1.75rem 1.5rem;
   text-align: center;
   animation: gs-modal-in 0.22s ease;
 }
@@ -3530,31 +3530,27 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   font-size: 0.88rem;
   color: var(--fg-muted);
   line-height: 1.6;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
+}
+.gs-modal__embed {
+  margin: 0 0 1rem;
+  width: 100%;
+}
+.gs-modal__embed iframe {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: 320px;
+  margin: 0 auto;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius);
+  background: #fff;
 }
 .gs-modal__actions {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
 }
-.gs-modal__star-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  border-radius: var(--radius);
-  padding: 0.65rem 1.25rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background 0.15s, transform 0.1s;
-}
-.gs-modal__star-btn:hover { background: #ea6200; transform: translateY(-1px); }
-.gs-modal__star-btn:active { transform: translateY(0); }
 .gs-modal__dismiss {
   background: none;
   border: none;
@@ -4139,4 +4135,8 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   .pf { padding: 0.3rem 0.65rem; min-height: 34px; }
 
   .journal-post__related { width: 100%; margin-top: 0.15rem; }
+
+  /* Newsletter modal */
+  .gs-modal__box { padding: 1.5rem 1rem 1.25rem; }
+  .gs-modal__embed iframe { height: 300px; }
 }
