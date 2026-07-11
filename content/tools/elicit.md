@@ -17,6 +17,9 @@ alternatives:
   - scholarcy
   - research-rabbit
   - scispace
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - scalerx
   - fastbots-ai
   - cvat
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [open_source, customizable, integrations, image_based, model_based, community_driven, ai_powered, intelligent]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - julius-ai
   - power-bi
   - domo-ai
+  - scale-ai
+  - airbyte-ai
+  - datarobot
 date: '2026-06-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql]
 ---

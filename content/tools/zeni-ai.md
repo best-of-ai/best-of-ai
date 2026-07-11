@@ -17,6 +17,9 @@ alternatives:
   - expensify-ai
   - marketalerts-ai
   - swiftalerts
+  - morningstar-ai
+  - botkeeper
+  - kensho
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
 ---

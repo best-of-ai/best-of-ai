@@ -17,6 +17,9 @@ alternatives:
   - hemingway-editor
   - originality-ai
   - writesonic
+  - copy-ai
+  - grammarly
+  - quillbot
 date: '2025-06-15'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, voice_enabled, model_based]
 ---

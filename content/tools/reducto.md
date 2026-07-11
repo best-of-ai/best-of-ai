@@ -17,6 +17,9 @@ alternatives:
   - notebooklm
   - abbyy
   - adobe-acrobat-ai
+  - chatpdf
+  - hyperscience
+  - instabase
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, api_available, collaboration]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - maxar
   - satellogic
   - azure-content-moderator
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

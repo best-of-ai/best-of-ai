@@ -17,5 +17,8 @@ alternatives:
   - ai-for-developer
   - productivity-directory
   - altern
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 tags: [other, miscellaneous, tools, utilities, general, directory, discovery, marketplace, networking, recruitment]
 ---

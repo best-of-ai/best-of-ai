@@ -17,6 +17,9 @@ alternatives:
   - aidoc-ai
   - buoy-health
   - k-health
+  - abridge-ai
+  - alphafold-ai
+  - benevolentai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

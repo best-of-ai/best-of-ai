@@ -17,6 +17,9 @@ alternatives:
   - bing-image-creator
   - stable-diffusion
   - artbreeder
+  - civitai
+  - craiyon
+  - dream-wombo
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, open_source, customizable, image_based]
 ---

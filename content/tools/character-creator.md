@@ -17,6 +17,9 @@ alternatives:
   - persona
   - betterup
   - avalara
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [customizable, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - gorgias
   - kustomer-ai
   - freshdesk
+  - chatbase
+  - forethought-ai
+  - observe-ai
 date: '2025-01-01'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, fast]
 ---

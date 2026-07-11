@@ -17,6 +17,9 @@ alternatives:
   - character-creator
   - fitbod
   - stats-perform
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [enterprise, customizable, powerful, ai_powered, intelligent, platform, tool, service]
 ---

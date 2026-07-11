@@ -17,6 +17,9 @@ alternatives:
   - promptessor
   - monkeylearn
   - postman
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [templates, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

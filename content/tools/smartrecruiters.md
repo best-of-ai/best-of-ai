@@ -17,6 +17,9 @@ alternatives:
   - arterys
   - atomwise
   - schrodinger
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [enterprise, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

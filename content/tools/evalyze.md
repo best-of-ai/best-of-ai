@@ -16,6 +16,9 @@ alternatives:
   - goai-app
   - marketalerts-ai
   - kensho
+  - botkeeper
+  - plaid
+  - ramp
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

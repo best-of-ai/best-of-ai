@@ -19,4 +19,7 @@ alternatives:
   - tabnine
   - claude-code
   - windsurf
+  - cline
+  - amazon-q
+  - supermaven
 ---

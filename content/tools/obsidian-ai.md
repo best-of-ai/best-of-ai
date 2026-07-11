@@ -17,6 +17,9 @@ alternatives:
   - remio
   - anything-llm
   - glean
+  - logseq
+  - readwise-reader
+  - reflect
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, image_based, model_based, powerful]
 ---

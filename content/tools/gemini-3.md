@@ -17,6 +17,9 @@ alternatives:
   - gemini-pro
   - llama-3
   - ai21-labs
+  - gpt-5
+  - claude
+  - mistral
 date: '2026-07-02'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, multimodal, free_tier]
 ---

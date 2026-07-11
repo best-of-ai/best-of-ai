@@ -17,6 +17,9 @@ alternatives:
   - udio
   - mubert
   - aiva
+  - beatoven-ai
+  - boomy
+  - suno
 date: '2025-06-15'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, voice_enabled, fast]
 ---

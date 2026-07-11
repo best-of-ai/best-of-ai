@@ -17,6 +17,9 @@ alternatives:
   - figma
   - adobe-express
   - adobe-firefly
+  - midjourney
+  - galileo-ai
+  - khroma
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, powerful]
 ---

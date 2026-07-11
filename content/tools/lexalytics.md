@@ -17,6 +17,9 @@ alternatives:
   - contractpodai
   - mapbox
   - stats-perform
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [enterprise, nlp, analytics, ai_powered, intelligent, platform, tool, service]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - lensa-ai
   - neural-love
   - photoroom
+  - befunky
+  - fotor
+  - luminar-neo
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, mobile_app, image_based, model_based]
 ---

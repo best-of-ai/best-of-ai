@@ -17,6 +17,9 @@ alternatives:
   - glide
   - appsheet
   - retool-ai
+  - base44
+  - floot
+  - softr-ai
 date: '2025-09-21'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, mobile_app, collaboration, image_based]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - gemma
   - hugging-face
   - mistral
+  - gemini-pro
+  - llama-3
+  - ai21-labs
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, nlp, model_based]
 ---

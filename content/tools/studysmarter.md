@@ -17,6 +17,9 @@ alternatives:
   - brilliant
   - carnegie-learning
   - coursera
+  - chegg-ai
+  - dreambox-learning
+  - gptzero
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

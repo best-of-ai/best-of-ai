@@ -17,6 +17,9 @@ alternatives:
   - adcreative-ai
   - pencil
   - aiter-io
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, analytics]
 ---

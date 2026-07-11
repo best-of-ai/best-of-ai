@@ -17,6 +17,9 @@ alternatives:
   - meshy-ai
   - spline
   - kaedim
+  - luma-ai
+  - meshcapade
+  - csm-ai
 date: '2025-01-01'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, mobile_app, real_time, image_based]
 ---

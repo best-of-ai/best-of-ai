@@ -17,6 +17,9 @@ alternatives:
   - mubert
   - soundraw
   - suno
+  - beatoven-ai
+  - udio
+  - jammable
 date: '2025-09-21'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - murf
   - adobe-podcast
   - ace-studio
+  - speechify
+  - podcastle
+  - otter-ai
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, voice_enabled]
 ---

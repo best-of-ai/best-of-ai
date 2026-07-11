@@ -17,6 +17,9 @@ alternatives:
   - codeium
   - sourcegraph-cody
   - aide
+  - aider
+  - amazon-codewhisperer
+  - bolt-new
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, training, model_based]
 ---

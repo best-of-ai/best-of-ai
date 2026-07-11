@@ -17,6 +17,9 @@ alternatives:
   - scenario
   - ai-dungeon
   - charisma-ai
+  - inworld-ai
+  - ludo-ai
+  - unakin
 date: '2025-06-15'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, collaboration, model_based]
 ---

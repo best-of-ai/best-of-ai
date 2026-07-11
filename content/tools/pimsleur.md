@@ -17,6 +17,9 @@ alternatives:
   - busuu
   - duolingo
   - preply
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion, voice_enabled]
 ---

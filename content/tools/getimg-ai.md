@@ -17,6 +17,9 @@ alternatives:
   - artbreeder
   - civitai
   - freepik-ai
+  - bing-image-creator
+  - comfyui
+  - craiyon
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, customizable, image_based, training]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - deepseek-vision
   - appen
   - labelbox
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [customizable, nlp, voice_enabled, training, model_based, ai_powered, intelligent, platform]
 ---

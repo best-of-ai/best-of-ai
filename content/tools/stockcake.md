@@ -16,6 +16,9 @@ alternatives:
   - flux
   - civitai
   - craiyon
+  - artbreeder
+  - comfyui
+  - dream-wombo
 date: '2026-06-15'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, free_tier, image_based]
 ---

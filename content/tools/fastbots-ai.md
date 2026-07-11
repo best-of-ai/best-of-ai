@@ -16,6 +16,9 @@ alternatives:
   - voiceflow
   - botpress
   - fitbod
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-01-01'
 tags: [customizable, training, fast, ai_powered, intelligent, platform, tool, service]
 ---

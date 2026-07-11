@@ -17,6 +17,9 @@ alternatives:
   - cline
   - copilot-workspace
   - windsurf
+  - aider
+  - amazon-codewhisperer
+  - codeium
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, autonomous]
 ---

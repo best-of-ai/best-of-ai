@@ -17,6 +17,9 @@ alternatives:
   - plus-ai
   - tome
   - visme-ai
+  - gamma
+  - canva
+  - slidesai
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, collaboration, image_based, powerful]
 ---

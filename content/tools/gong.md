@@ -17,6 +17,9 @@ alternatives:
   - apollo
   - instantly
   - lavender
+  - amplemarket
+  - chorus-ai
+  - clay
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise, customizable, model_based]
 ---

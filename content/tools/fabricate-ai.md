@@ -16,6 +16,9 @@ alternatives:
   - amazon-q
   - bolt-new
   - copilot-workspace
+  - aider
+  - cline
+  - codeium
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, easy_to_use]
 ---

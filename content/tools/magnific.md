@@ -16,6 +16,9 @@ alternatives:
   - cleanup-pictures
   - neural-love
   - vectorizer-ai
+  - befunky
+  - fotor
+  - lensa-ai
 date: '2026-06-15'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based]
 ---

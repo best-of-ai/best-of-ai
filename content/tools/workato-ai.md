@@ -17,6 +17,9 @@ alternatives:
   - uipath
   - power-automate-workflow
   - zapier-workflow
+  - leania-ai
+  - relay-app
+  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, enterprise, nlp]
 ---

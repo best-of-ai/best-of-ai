@@ -16,6 +16,9 @@ alternatives:
   - carbon-trust
   - climate-trace
   - pachama
+  - patch
+  - adobe-premiere-pro-ai
+  - asana
 date: '2026-06-15'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero]
 ---

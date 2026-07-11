@@ -17,6 +17,9 @@ alternatives:
   - relay-app
   - workato-ai
   - nintex
+  - leania-ai
+  - power-automate-workflow
+  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, model_based, easy_to_use]
 ---

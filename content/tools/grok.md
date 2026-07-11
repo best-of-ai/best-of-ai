@@ -17,6 +17,9 @@ alternatives:
   - chatgpt
   - claude
   - kimi
+  - perplexity-search
+  - deepseek
+  - notebooklm
 date: '2025-01-01'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, real_time, model_based]
 ---

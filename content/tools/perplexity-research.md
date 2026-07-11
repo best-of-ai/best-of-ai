@@ -17,6 +17,9 @@ alternatives:
   - connected-papers
   - notebook-lm-plus
   - openread
+  - explainpaper
+  - inciteful
+  - iris-ai
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

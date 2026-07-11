@@ -17,6 +17,9 @@ alternatives:
   - figma
   - adobe-express
   - adobe-sensei
+  - adobe-firefly
+  - midjourney
+  - galileo-ai
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, free_tier]
 ---

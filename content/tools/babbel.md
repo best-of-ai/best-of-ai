@@ -17,6 +17,9 @@ alternatives:
   - busuu
   - pimsleur
   - preply
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion]
 ---

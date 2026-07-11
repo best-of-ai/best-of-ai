@@ -17,6 +17,9 @@ alternatives:
   - robin-ai
   - casetext
   - juro-ai
+  - donotpay
+  - harvey
+  - spellbook
 date: '2025-06-15'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, collaboration]
 ---

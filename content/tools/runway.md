@@ -17,6 +17,9 @@ alternatives:
   - loom
   - runway-editor
   - adobe-premiere-pro-ai
+  - veo-3
+  - kling-ai
+  - luma-dream-machine
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
 ---

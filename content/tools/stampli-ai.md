@@ -17,6 +17,9 @@ alternatives:
   - botkeeper
   - alphasense
   - morningstar-ai
+  - kensho
+  - plaid
+  - ramp
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled]
 ---

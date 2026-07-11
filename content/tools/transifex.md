@@ -16,6 +16,9 @@ alternatives:
   - arterys
   - schrodinger
   - datadog
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2026-06-15'
 tags: [cloud_based, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

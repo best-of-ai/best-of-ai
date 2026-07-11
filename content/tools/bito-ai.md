@@ -17,6 +17,9 @@ alternatives:
   - devin
   - coderabbit
   - amazon-codewhisperer
+  - aider
+  - cline
+  - codeium
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, secure, training]
 ---

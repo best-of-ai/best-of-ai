@@ -17,6 +17,9 @@ alternatives:
   - attention-insight
   - hotjar-ai
   - similarweb
+  - cb-insights-ai
+  - competitor-analyzer
+  - cresh-ai
 date: '2025-06-15'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence]
 ---

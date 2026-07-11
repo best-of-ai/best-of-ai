@@ -17,6 +17,9 @@ alternatives:
   - clay
   - salesloft
   - lavender
+  - amplemarket
+  - apollo
+  - gong
 date: '2025-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, voice_enabled]
 ---

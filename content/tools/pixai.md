@@ -17,6 +17,9 @@ alternatives:
   - getimg-ai
   - leonardo-ai
   - nightcafe
+  - flux
+  - ideogram
+  - bing-image-creator
 date: '2025-06-15'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, training, model_based]
 ---

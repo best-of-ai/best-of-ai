@@ -16,6 +16,9 @@ alternatives:
   - humata
   - notebooklm
   - docsumo
+  - abbyy
+  - hyperscience
+  - instabase
 date: '2026-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing]
 ---

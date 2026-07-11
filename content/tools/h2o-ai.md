@@ -17,6 +17,9 @@ alternatives:
   - posthog-ai
   - airbyte-ai
   - datarobot
+  - power-bi
+  - scale-ai
+  - dbt-cloud
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, collaboration, machine_learning]
 ---

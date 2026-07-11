@@ -17,6 +17,9 @@ alternatives:
   - jasper-marketing
   - 6sense-ai
   - unbounce-ai
+  - typeform
+  - crayon
+  - arcade-software
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, enterprise, machine_learning, training]
 ---

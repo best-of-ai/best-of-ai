@@ -17,6 +17,9 @@ alternatives:
   - wiz
   - aws-rekognition
   - cloudhealth
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [collaboration, cloud_based, secure, ai_powered, intelligent, platform, tool, service]
 ---

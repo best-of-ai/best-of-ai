@@ -17,6 +17,9 @@ alternatives:
   - meshy-ai
   - meshcapade
   - spline
+  - kaedim
+  - luma-ai
+  - tripo3d
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, model_based]
 ---

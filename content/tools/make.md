@@ -17,6 +17,9 @@ alternatives:
   - pipedream
   - activepieces
   - power-automate
+  - relay-app
+  - workato-ai
+  - inngest
 date: '2025-09-21'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, integrations, image_based, easy_to_use]
 ---

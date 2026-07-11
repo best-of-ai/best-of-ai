@@ -17,6 +17,9 @@ alternatives:
   - gpt-4
   - ai21-labs
   - gemma
+  - deepseek
+  - mistral
+  - openai-o3
 date: '2026-07-02'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, image_based, voice_enabled]
 ---

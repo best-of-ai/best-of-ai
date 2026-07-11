@@ -17,6 +17,9 @@ alternatives:
   - mistral
   - aleph-alpha
   - claude-3
+  - deepseek
+  - gemini-pro
+  - gemma
 date: '2025-01-01'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, enterprise, cloud_based, secure]
 ---

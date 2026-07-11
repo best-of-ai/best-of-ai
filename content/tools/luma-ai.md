@@ -17,6 +17,9 @@ alternatives:
   - meshy-ai
   - alpha3d
   - meshcapade
+  - spline
+  - csm-ai
+  - remesh
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, mobile_app, machine_learning, affordable]
 ---

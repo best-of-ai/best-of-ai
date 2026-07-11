@@ -17,6 +17,9 @@ alternatives:
   - speechmatics
   - whisper
   - notta
+  - sonix
+  - gladia
+  - transkriptor
 date: '2025-06-15'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, enterprise, powerful]
 ---

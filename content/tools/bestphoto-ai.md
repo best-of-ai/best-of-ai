@@ -16,6 +16,9 @@ alternatives:
   - fotor
   - neural-love
   - photoroom
+  - adobe-lightroom-ai
+  - lensa-ai
+  - luminar-neo
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, powerful]
 ---

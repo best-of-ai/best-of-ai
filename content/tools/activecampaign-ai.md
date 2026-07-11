@@ -17,6 +17,9 @@ alternatives:
   - brevo-ai
   - klaviyo-ai
   - mailchimp
+  - sanebox
+  - shortwave
+  - spark-mail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, customizable]
 ---

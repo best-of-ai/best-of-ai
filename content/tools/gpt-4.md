@@ -17,6 +17,9 @@ alternatives:
   - deepseek
   - llama-3
   - ai21-labs
+  - gpt-5
+  - gemini-3
+  - mistral
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, free_tier, image_based]
 ---

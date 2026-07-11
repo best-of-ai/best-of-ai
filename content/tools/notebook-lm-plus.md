@@ -17,6 +17,9 @@ alternatives:
   - lens-org
   - paper-digest
   - scinapse
+  - perplexity-research
+  - scispace
+  - connected-papers
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration, free_tier, customizable]
 ---

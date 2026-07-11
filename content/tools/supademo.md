@@ -16,6 +16,9 @@ alternatives:
   - hubspot
   - typeform
   - 6sense-ai
+  - crayon
+  - marketmuse
+  - persado
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, voice_enabled]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - domo-ai
   - amplitude-ai
   - obviously-ai
+  - scale-ai
+  - airbyte-ai
+  - datarobot
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, image_based]
 ---

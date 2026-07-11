@@ -17,6 +17,9 @@ alternatives:
   - grammarly
   - hyperwrite
   - copy-ai
+  - jasper
+  - quillbot
+  - writesonic
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, browser_extension, extensible]
 ---

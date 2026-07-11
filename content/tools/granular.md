@@ -17,6 +17,9 @@ alternatives:
   - john-deere-ops
   - scale-ai
   - iris-ai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation, enterprise, analytics]
 ---

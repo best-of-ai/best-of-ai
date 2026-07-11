@@ -17,6 +17,9 @@ alternatives:
   - deepgram
   - sonix
   - gladia
+  - speechmatics
+  - transkriptor
+  - trint
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, integrations, voice_enabled]
 ---

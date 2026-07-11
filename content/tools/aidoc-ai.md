@@ -17,6 +17,9 @@ alternatives:
   - paige-ai
   - buoy-health
   - k-health
+  - abridge-ai
+  - ada-health
+  - alphafold-ai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, real_time]
 ---

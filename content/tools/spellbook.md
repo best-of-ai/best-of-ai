@@ -17,6 +17,9 @@ alternatives:
   - donotpay
   - harvey
   - kira-systems
+  - lawgeex
+  - evisort
+  - ironclad-ai
 date: '2025-01-01'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, training, fast]
 ---

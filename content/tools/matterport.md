@@ -17,6 +17,9 @@ alternatives:
   - redfin
   - zillow
   - zumper
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data]
 ---

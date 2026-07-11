@@ -16,6 +16,9 @@ alternatives:
   - hailuo-ai
   - kling-ai
   - freebeat-ai
+  - haiper
+  - moovly
+  - raw-shorts
 date: '2026-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, open_source, model_based, community_driven]
 ---

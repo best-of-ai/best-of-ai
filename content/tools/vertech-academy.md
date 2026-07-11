@@ -16,6 +16,9 @@ alternatives:
   - khan-academy
   - studysmarter
   - chegg-ai
+  - carnegie-learning
+  - coursera
+  - dreambox-learning
 date: '2025-01-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, fast]
 ---

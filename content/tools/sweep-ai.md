@@ -17,6 +17,9 @@ alternatives:
   - amazon-q
   - bolt-new
   - cursor-composer
+  - aider
+  - amazon-codewhisperer
+  - cline
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, community_driven]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - adobe-express
   - galileo-ai
   - uizard
+  - adobe-sensei
+  - adobe-firefly
+  - midjourney
 date: '2026-06-15'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration]
 ---

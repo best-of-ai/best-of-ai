@@ -16,6 +16,9 @@ alternatives:
   - invideo
   - pictory
   - captions-ai
+  - flexclip
+  - munch
+  - opus-clip
 date: '2025-01-01'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, image_based, voice_enabled]
 ---

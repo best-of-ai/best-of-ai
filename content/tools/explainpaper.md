@@ -17,6 +17,9 @@ alternatives:
   - scispace
   - perplexity-research
   - semantic-scholar
+  - connected-papers
+  - inciteful
+  - iris-ai
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, machine_learning, powerful]
 ---

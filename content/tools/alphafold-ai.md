@@ -17,6 +17,9 @@ alternatives:
   - ada-health
   - babylon-health
   - buoy-health
+  - aidoc-ai
+  - doximity
+  - insilico-medicine
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, free_tier]
 ---

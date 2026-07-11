@@ -17,6 +17,9 @@ alternatives:
   - attentive-ai
   - clevertap
   - demandbase-ai
+  - typeform
+  - crayon
+  - jasper-marketing
 date: '2025-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable, analytics]
 ---

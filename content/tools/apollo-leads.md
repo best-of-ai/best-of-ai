@@ -17,6 +17,9 @@ alternatives:
   - zoominfo
   - kaspr
   - lusha
+  - cognism
+  - conversica-ai
+  - seamless-ai
 date: '2025-09-21'
 tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, customizable]
 ---

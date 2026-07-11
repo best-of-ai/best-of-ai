@@ -17,6 +17,9 @@ alternatives:
   - scenario
   - unakin
   - latitude
+  - ai-dungeon
+  - charisma-ai
+  - convai
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, collaboration]
 ---

@@ -19,4 +19,7 @@ alternatives:
   - adobe-firefly
   - ideogram
   - flux
+  - leonardo-ai
+  - krea-ai
+  - freepik-ai
 ---

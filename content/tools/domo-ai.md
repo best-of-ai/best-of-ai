@@ -17,6 +17,9 @@ alternatives:
   - thoughtspot
   - julius-ai
   - fivetran-ai
+  - amplitude-ai
+  - scale-ai
+  - airbyte-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, real_time, cloud_based, image_based]
 ---

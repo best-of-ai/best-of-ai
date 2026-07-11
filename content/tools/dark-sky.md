@@ -17,6 +17,9 @@ alternatives:
   - weatherbug
   - apple-maps
   - gemini
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [weather, data_analysis, climate, forecasting, real_time, meteorology, alerts, temperature, precipitation, mobile_app, machine_learning]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - cartesia
   - hume-ai
   - amazon-polly
+  - fish-audio
+  - kokoro
+  - neets-ai
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, customizable, voice_enabled]
 ---

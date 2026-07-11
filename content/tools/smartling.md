@@ -16,6 +16,9 @@ alternatives:
   - smartcat-ai
   - lokalise-ai
   - microsoft-translator
+  - deepl
+  - reverso
+  - memoq
 date: '2026-06-15'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, machine_learning, fast]
 ---

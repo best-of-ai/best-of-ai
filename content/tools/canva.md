@@ -17,6 +17,9 @@ alternatives:
   - midjourney
   - galileo-ai
   - lucidchart-ai
+  - figma
+  - adobe-express
+  - visme-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, image_based, powerful]
 ---

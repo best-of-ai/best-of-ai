@@ -17,6 +17,9 @@ alternatives:
   - nanonets
   - chatpdf
   - humata
+  - adobe-acrobat-ai
+  - hyperscience
+  - instabase
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, collaboration, customizable, voice_enabled]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - bolt-new
   - codeium
   - sourcegraph-cody
+  - aider
+  - cline
+  - copilot-workspace
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, real_time, collaboration, integrations]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - sidechef
   - lifesum
   - notion-ai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, collaboration]
 ---

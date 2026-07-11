@@ -15,8 +15,11 @@ alternatives:
   - salesforce
   - zoho-crm
   - pipedrive
-  - attio
+  - freshsales
   - folk
+  - intercom
+  - zendesk
+  - attio
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, free_tier, customizable, machine_learning]
 ---

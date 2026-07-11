@@ -17,6 +17,9 @@ alternatives:
   - dynamic-yield
   - magento
   - stamped-io
+  - woocommerce
+  - bloomreach
+  - constructor
 date: '2025-06-15'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, customizable]
 ---

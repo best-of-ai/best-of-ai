@@ -16,6 +16,9 @@ alternatives:
   - azure-openai
   - google-ai-studio
   - llamaindex
+  - amazon-bedrock
+  - github-copilot
+  - replit
 date: '2025-01-01'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

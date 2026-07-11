@@ -17,6 +17,9 @@ alternatives:
   - cleanup-pictures
   - fotor
   - photoroom
+  - befunky
+  - lensa-ai
+  - neural-love
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, fast, powerful]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - perspective-api
   - aws-rekognition
   - dune-analytics
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-01-01'
 tags: [image_based, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

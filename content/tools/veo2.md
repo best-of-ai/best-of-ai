@@ -17,6 +17,9 @@ alternatives:
   - moovly
   - hailuo-ai
   - kling-ai
+  - veo-3
+  - runway
+  - pika-video
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, api_available, enterprise, model_based]
 ---

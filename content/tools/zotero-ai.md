@@ -17,6 +17,9 @@ alternatives:
   - scinapse
   - notebook-lm-plus
   - perplexity-research
+  - scispace
+  - connected-papers
+  - explainpaper
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, open_source, free_tier, community_driven]
 ---

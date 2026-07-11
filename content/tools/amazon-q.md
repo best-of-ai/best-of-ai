@@ -17,6 +17,9 @@ alternatives:
   - devin
   - bito-ai
   - aider
+  - cline
+  - codeium
+  - copilot-workspace
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, cloud_based, training]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - botkeeper
   - expensify-ai
   - causal-app
+  - kensho
+  - plaid
+  - yodlee
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, collaboration, cloud_based, fast]
 ---

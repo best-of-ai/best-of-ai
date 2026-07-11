@@ -17,6 +17,9 @@ alternatives:
   - botkeeper
   - plaid
   - marketalerts-ai
+  - alphasense
+  - kensho
+  - yodlee
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, integrations, fast]
 ---

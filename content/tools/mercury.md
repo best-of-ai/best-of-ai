@@ -17,6 +17,9 @@ alternatives:
   - insomnia
   - prusaslicer
   - ultimaker-cura
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [open_source, analytics, community_driven, ai_powered, intelligent, platform, tool, service]
 ---

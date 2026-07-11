@@ -17,6 +17,9 @@ alternatives:
   - invideo
   - veed-io
   - munch
+  - captions-ai
+  - flexclip
+  - opus-clip
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, collaboration, voice_enabled]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - houzz
   - roomgpt
   - canva
+  - adobe-premiere-pro-ai
+  - asana
+  - chatgpt
 date: '2025-09-21'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, free_tier, image_based]
 ---

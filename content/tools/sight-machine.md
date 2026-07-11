@@ -17,6 +17,9 @@ alternatives:
   - brex
   - catapult-sports
   - contractpodai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [real_time, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

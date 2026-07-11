@@ -17,6 +17,9 @@ alternatives:
   - bigcommerce
   - dynamic-yield
   - magento
+  - stamped-io
+  - woocommerce
+  - bloomreach
 date: '2025-06-15'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, model_based]
 ---

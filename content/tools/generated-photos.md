@@ -17,6 +17,9 @@ alternatives:
   - civitai
   - dream-wombo
   - freepik-ai
+  - artbreeder
+  - bing-image-creator
+  - comfyui
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, training]
 ---

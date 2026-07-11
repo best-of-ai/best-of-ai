@@ -17,6 +17,9 @@ alternatives:
   - gemini-pro
   - llama-3
   - ai21-labs
+  - gpt-5
+  - gemini-3
+  - hugging-face
 date: '2025-01-01'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, enterprise, model_based]
 ---

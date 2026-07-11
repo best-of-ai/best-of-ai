@@ -17,6 +17,9 @@ alternatives:
   - fotor
   - neural-love
   - picsart-ai
+  - canva
+  - adobe-express
+  - pixlr
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, api_available, image_based, fast]
 ---

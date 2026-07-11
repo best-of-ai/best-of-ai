@@ -17,6 +17,9 @@ alternatives:
   - elevenlabs
   - descript
   - murf
+  - adobe-podcast
+  - ace-studio
+  - adobe-enhance-speech
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, real_time, customizable, secure]
 ---

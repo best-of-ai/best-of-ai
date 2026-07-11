@@ -16,6 +16,9 @@ alternatives:
   - dbt-cloud
   - cleanlab
   - datarobot
+  - amplitude-ai
+  - power-bi
+  - tableau
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, training, model_based]
 ---

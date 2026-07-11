@@ -16,6 +16,9 @@ alternatives:
   - brevo-ai
   - activecampaign-ai
   - mixmax
+  - sanebox
+  - shortwave
+  - spark-mail
 date: '2026-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, analytics]
 ---

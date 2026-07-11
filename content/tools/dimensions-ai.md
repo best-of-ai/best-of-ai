@@ -17,6 +17,9 @@ alternatives:
   - perplexity-research
   - scispace
   - semantic-scholar
+  - connected-papers
+  - explainpaper
+  - inciteful
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, mobile_app, collaboration]
 ---

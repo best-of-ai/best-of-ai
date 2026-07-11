@@ -17,6 +17,9 @@ alternatives:
   - artbreeder
   - civitai
   - craiyon
+  - midjourney
+  - leonardo-ai
+  - krea-ai
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based]
 ---

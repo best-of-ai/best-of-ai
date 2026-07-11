@@ -17,6 +17,9 @@ alternatives:
   - loom
   - invideo
   - pictory
+  - heygen
+  - d-id
+  - colossyan
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, mobile_app, collaboration, enterprise]
 ---

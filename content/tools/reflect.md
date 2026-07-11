@@ -17,6 +17,9 @@ alternatives:
   - glean
   - readwise-reader
   - anytype-ai
+  - capacities
+  - obsidian-ai
+  - anything-llm
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, integrations, secure]
 ---

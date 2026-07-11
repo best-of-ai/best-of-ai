@@ -17,6 +17,9 @@ alternatives:
   - microsoft-phi
   - mistral
   - claude-3
+  - gpt-5
+  - gemini-3
+  - qwen
 date: '2025-01-01'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, model_based, fast, powerful]
 ---

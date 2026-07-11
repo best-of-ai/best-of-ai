@@ -17,6 +17,9 @@ alternatives:
   - intercom
   - zendesk
   - chatbase
+  - forethought-ai
+  - gorgias
+  - kustomer-ai
 date: '2025-01-01'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, collaboration, enterprise, customizable]
 ---

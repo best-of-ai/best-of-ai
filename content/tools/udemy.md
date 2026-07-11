@@ -17,6 +17,9 @@ alternatives:
   - codecademy
   - thea-ai
   - carnegie-learning
+  - brilliant
+  - chegg-ai
+  - dreambox-learning
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable]
 ---

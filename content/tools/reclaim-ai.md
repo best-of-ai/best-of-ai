@@ -17,6 +17,9 @@ alternatives:
   - clickup
   - wispr-flow
   - akiflow
+  - slack-ai
+  - sunsama
+  - aiprm
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, fast]
 ---

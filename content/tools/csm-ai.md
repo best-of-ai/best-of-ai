@@ -17,6 +17,9 @@ alternatives:
   - sloyd
   - alpha3d
   - luma-ai
+  - masterpiece-studio
+  - meshcapade
+  - meshy-ai
 date: '2025-06-15'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, collaboration, customizable, analytics]
 ---

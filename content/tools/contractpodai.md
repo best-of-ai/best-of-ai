@@ -17,6 +17,9 @@ alternatives:
   - patsnap
   - hudl
   - procore
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [nlp, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - notta
   - deepgram
   - sonix
+  - gladia
+  - speechmatics
+  - transkriptor
 date: '2025-06-15'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, enterprise, voice_enabled]
 ---

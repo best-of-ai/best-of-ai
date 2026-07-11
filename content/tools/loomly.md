@@ -17,6 +17,9 @@ alternatives:
   - metricool
   - buffer
   - publer
+  - flick-ai
+  - missinglettr
+  - predis-ai
 date: '2025-06-15'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, collaboration, machine_learning]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - babylon-health
   - tempus-ai
   - abridge-ai
+  - ada-health
+  - alphafold-ai
+  - benevolentai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, image_based]
 ---

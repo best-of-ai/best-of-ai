@@ -17,6 +17,9 @@ alternatives:
   - akiflow
   - clickup
   - slack-ai
+  - aiprm
+  - coda-ai
+  - miro-ai
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, community_driven]
 ---

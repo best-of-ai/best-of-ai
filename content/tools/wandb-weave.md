@@ -17,6 +17,9 @@ alternatives:
   - replit
   - codiga
   - fly-io
+  - cursor
+  - amazon-bedrock
+  - azure-openai
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, integrations, model_based]
 ---

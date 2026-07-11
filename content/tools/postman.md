@@ -17,6 +17,9 @@ alternatives:
   - benchling
   - confluence-ai
   - gitbook
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [api_available, collaboration, ai_powered, intelligent, platform, tool, service, solution]
 ---

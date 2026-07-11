@@ -17,6 +17,9 @@ alternatives:
   - otter-subtitles
   - submagic
   - invideo
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, collaboration, voice_enabled]
 ---

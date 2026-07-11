@@ -17,6 +17,9 @@ alternatives:
   - jasper
   - writesonic
   - ghost
+  - languagetool
+  - writer
+  - rytr
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - murf-voice
   - speechify
   - respeecher
+  - elevenlabs-voice
+  - kikivoice
+  - kits-ai
 date: '2025-09-21'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, mobile_app, voice_enabled, fast]
 ---

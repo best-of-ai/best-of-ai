@@ -17,6 +17,9 @@ alternatives:
   - azure-openai
   - llamaindex
   - codiga
+  - cursor
+  - github-copilot
+  - google-ai-studio
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, customizable, secure]
 ---

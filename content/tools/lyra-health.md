@@ -17,6 +17,9 @@ alternatives:
   - buoy-health
   - k-health
   - spring-health
+  - abridge-ai
+  - ada-health
+  - aidoc-ai
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

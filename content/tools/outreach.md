@@ -17,6 +17,9 @@ alternatives:
   - gong
   - amplemarket
   - chorus-ai
+  - apollo
+  - clay
+  - instantly
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - oracle-scm
   - kinaxis
   - coupa
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, mobile_app, analytics, model_based]
 ---

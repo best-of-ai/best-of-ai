@@ -17,6 +17,9 @@ alternatives:
   - pathai
   - babylon-health
   - abridge-ai
+  - aidoc-ai
+  - alphafold-ai
+  - buoy-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, customizable, machine_learning]
 ---

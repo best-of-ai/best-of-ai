@@ -17,6 +17,9 @@ alternatives:
   - smartsheet-ai
   - taskade
   - asana-pm
+  - monday
+  - team-pulse-ai
+  - adobe-premiere-pro-ai
 date: '2025-06-15'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

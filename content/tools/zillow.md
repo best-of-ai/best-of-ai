@@ -17,6 +17,9 @@ alternatives:
   - compass
   - zumper
   - matterport
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data, model_based, fast]
 ---

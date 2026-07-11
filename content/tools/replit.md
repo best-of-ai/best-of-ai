@@ -17,6 +17,9 @@ alternatives:
   - vertex-ai
   - codiga
   - mintlify
+  - lovable
+  - bolt-new
+  - v0
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, cloud_based, fast]
 ---

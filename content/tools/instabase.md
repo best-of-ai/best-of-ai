@@ -17,6 +17,9 @@ alternatives:
   - chatpdf
   - notebooklm
   - abbyy
+  - docsumo
+  - hyperscience
+  - nanonets
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, model_based]
 ---

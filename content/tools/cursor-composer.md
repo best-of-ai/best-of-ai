@@ -17,6 +17,9 @@ alternatives:
   - bolt-new
   - codeium
   - copilot-workspace
+  - cursor
+  - claude-code
+  - windsurf
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, easy_to_use]
 ---

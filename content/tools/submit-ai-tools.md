@@ -16,6 +16,9 @@ alternatives:
   - you-search
   - bing-chat
   - perplexity-search
+  - devv-ai
+  - exa-ai
+  - phind
 date: '2026-06-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - craiyon
   - freepik-ai
   - getimg-ai
+  - flux
+  - ideogram
+  - bing-image-creator
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, collaboration, free_tier, customizable]
 ---

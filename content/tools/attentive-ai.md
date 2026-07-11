@@ -17,6 +17,9 @@ alternatives:
   - braze
   - clevertap
   - demandbase-ai
+  - typeform
+  - crayon
+  - jasper-marketing
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - microsoft-gov-cloud
   - harvey
   - aleph-alpha
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, cloud_based, secure, nlp]
 ---

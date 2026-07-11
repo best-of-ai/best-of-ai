@@ -17,6 +17,9 @@ alternatives:
   - loudly
   - mubert
   - udio
+  - boomy
+  - suno
+  - jammable
 date: '2025-01-01'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, free_tier, customizable, voice_enabled]
 ---

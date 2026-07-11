@@ -17,6 +17,9 @@ alternatives:
   - workday
   - adp
   - culture-amp-ai
+  - 15five-ai
+  - bamboohr
+  - hirevue
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, machine_learning, analytics]
 ---

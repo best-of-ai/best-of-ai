@@ -17,6 +17,9 @@ alternatives:
   - pipedrive
   - folk
   - zoho-crm
+  - close
+  - copper
+  - freshsales
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable, analytics]
 ---

@@ -19,4 +19,7 @@ alternatives:
   - aider
   - windsurf
   - codeium
+  - cline
+  - amazon-q
+  - copilot-workspace
 ---

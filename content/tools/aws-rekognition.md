@@ -17,6 +17,9 @@ alternatives:
   - clarifai
   - hive-moderation
   - maxar
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - asana
   - clickup
   - coda-ai
+  - notion-ai
+  - obsidian-ai
+  - capacities
 date: '2025-08-18'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, powerful, versatile]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - greenhouse
   - hirevue
   - 15five-ai
+  - adp
+  - bamboohr
+  - lattice-ai
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise]
 ---

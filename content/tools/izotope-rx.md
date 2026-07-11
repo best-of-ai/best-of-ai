@@ -17,6 +17,9 @@ alternatives:
   - descript
   - krisp
   - murf
+  - voicemod
+  - ace-studio
+  - adobe-enhance-speech
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, mobile_app, voice_enabled]
 ---

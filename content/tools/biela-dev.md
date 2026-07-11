@@ -16,6 +16,9 @@ alternatives:
   - codeium
   - cursor-composer
   - copilot-workspace
+  - aider
+  - amazon-codewhisperer
+  - cline
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - datarobot
   - hex
   - julius-ai
+  - power-bi
+  - scale-ai
+  - airbyte-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, fast]
 ---

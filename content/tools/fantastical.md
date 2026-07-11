@@ -17,6 +17,9 @@ alternatives:
   - acuity-scheduling
   - motion
   - x-ai
+  - cal-com
+  - adobe-premiere-pro-ai
+  - asana
 date: '2025-06-15'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, mobile_app, nlp]
 ---

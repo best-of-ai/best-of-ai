@@ -16,6 +16,9 @@ alternatives:
   - roboflow
   - vertex-ai
   - google-ai-studio
+  - cursor
+  - azure-openai
+  - github-copilot
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, cloud_based]
 ---

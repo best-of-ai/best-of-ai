@@ -17,6 +17,9 @@ alternatives:
   - outreach
   - gong
   - lavender
+  - amplemarket
+  - apollo
+  - clay
 date: '2025-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, real_time, fast]
 ---

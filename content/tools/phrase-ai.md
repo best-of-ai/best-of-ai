@@ -17,6 +17,9 @@ alternatives:
   - lokalise-ai
   - google-translate
   - smartcat-ai
+  - microsoft-translator
+  - reverso
+  - smartling
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, enterprise, integrations, voice_enabled]
 ---

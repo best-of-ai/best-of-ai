@@ -17,6 +17,9 @@ alternatives:
   - soundraw
   - aiva
   - jammable
+  - beatoven-ai
+  - boomy
+  - suno
 date: '2025-01-01'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, voice_enabled]
 ---

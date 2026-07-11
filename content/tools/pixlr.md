@@ -17,6 +17,9 @@ alternatives:
   - picsart-ai
   - adobe-lightroom-ai
   - luminar-neo
+  - cleanup-pictures
+  - fotor
+  - lensa-ai
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, free_tier, fast, powerful]
 ---

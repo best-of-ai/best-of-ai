@@ -19,4 +19,7 @@ alternatives:
   - assemblyai
   - adobe-podcast
   - deepgram
+  - sonix
+  - speechmatics
+  - resemble-ai
 ---

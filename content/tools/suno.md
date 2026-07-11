@@ -19,4 +19,7 @@ alternatives:
   - murf
   - elevenlabs
   - soundful
+  - aiva
+  - beatoven-ai
+  - loudly
 ---

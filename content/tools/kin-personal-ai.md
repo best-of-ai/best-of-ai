@@ -16,6 +16,9 @@ alternatives:
   - replika
   - google-assistant
   - meta-ai
+  - alexa-ai
+  - pi-ai
+  - littlebird-ai
 date: '2025-01-01'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, secure]
 ---

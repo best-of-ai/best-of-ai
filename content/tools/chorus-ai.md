@@ -17,6 +17,9 @@ alternatives:
   - clay
   - instantly
   - gong
+  - amplemarket
+  - apollo
+  - lavender
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration]
 ---

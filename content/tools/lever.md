@@ -17,6 +17,9 @@ alternatives:
   - viz-ai
   - postman
   - confluence-ai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [collaboration, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

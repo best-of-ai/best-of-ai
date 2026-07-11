@@ -19,4 +19,7 @@ alternatives:
   - claude
   - grok
   - perplexity
+  - kagi
+  - andi-search
+  - phind
 ---

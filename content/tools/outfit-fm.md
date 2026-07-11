@@ -16,6 +16,9 @@ alternatives:
   - theyes
   - stitchfix
   - runway
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-01-01'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, model_based, powerful]
 ---

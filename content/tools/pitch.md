@@ -17,6 +17,9 @@ alternatives:
   - beautiful-ai
   - decktopus
   - slidebean
+  - slidesai
+  - tome
+  - gamma
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, real_time, collaboration]
 ---

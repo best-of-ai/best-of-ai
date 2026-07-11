@@ -19,4 +19,7 @@ alternatives:
   - luma-dream-machine
   - pika-video
   - sora
+  - hailuo-ai
+  - haiper
+  - gen-2
 ---

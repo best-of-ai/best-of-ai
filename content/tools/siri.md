@@ -17,6 +17,9 @@ alternatives:
   - pi-ai
   - meta-ai
   - kin-personal-ai
+  - replika
+  - alexa-ai
+  - littlebird-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, mobile_app, integrations, secure]
 ---

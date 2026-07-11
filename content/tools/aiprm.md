@@ -16,6 +16,9 @@ alternatives:
   - slack-ai
   - raycast-ai
   - todoist
+  - akiflow
+  - sunsama
+  - coda-ai
 date: '2026-06-15'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

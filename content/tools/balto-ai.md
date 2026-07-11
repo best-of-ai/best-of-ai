@@ -17,6 +17,9 @@ alternatives:
   - intercom
   - talkdesk-ai
   - forethought-ai
+  - freshdesk
+  - zendesk
+  - chatbase
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, real_time, analytics]
 ---

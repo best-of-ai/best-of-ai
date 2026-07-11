@@ -17,6 +17,9 @@ alternatives:
   - kling-ai
   - sora
   - biteable-ai
+  - hailuo-ai
+  - moovly
+  - raw-shorts
 date: '2025-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, cloud_based, templates, fast]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - cleanup-pictures
   - neural-love
   - picsart-ai
+  - fotor
+  - lensa-ai
+  - luminar-neo
 date: '2025-06-15'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based]
 ---

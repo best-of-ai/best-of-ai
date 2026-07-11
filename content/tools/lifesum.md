@@ -16,6 +16,9 @@ alternatives:
   - yuka
   - plantnet
   - noom
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2026-06-15'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, customizable]
 ---

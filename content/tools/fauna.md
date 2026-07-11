@@ -17,6 +17,9 @@ alternatives:
   - aws-rekognition
   - datadog
   - postman
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [api_available, cloud_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

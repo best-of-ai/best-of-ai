@@ -16,6 +16,9 @@ alternatives:
   - chatbase
   - drift
   - zendesk
+  - forethought-ai
+  - gorgias
+  - kustomer-ai
 date: '2026-06-15'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, analytics]
 ---

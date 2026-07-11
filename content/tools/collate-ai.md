@@ -16,6 +16,9 @@ alternatives:
   - asana
   - todoist
   - slack-ai
+  - clickup
+  - sunsama
+  - aiprm
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, free_tier, cloud_based, fast]
 ---

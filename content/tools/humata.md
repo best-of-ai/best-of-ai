@@ -17,6 +17,9 @@ alternatives:
   - notebooklm
   - abbyy
   - nanonets
+  - docsumo
+  - hyperscience
+  - instabase
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
 ---

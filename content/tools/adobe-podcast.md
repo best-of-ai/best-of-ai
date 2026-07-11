@@ -15,8 +15,11 @@ alternatives:
   - elevenlabs
   - descript
   - krisp
-  - murf
+  - rev
   - theaudiostuff
+  - speechify
+  - podcastle
+  - murf
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, voice_enabled]
 ---

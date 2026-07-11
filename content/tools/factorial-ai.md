@@ -17,6 +17,9 @@ alternatives:
   - lattice-ai
   - greenhouse
   - workday
+  - adp
+  - eightfold-ai
+  - hirevue
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent]
 ---

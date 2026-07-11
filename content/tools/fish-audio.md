@@ -17,6 +17,9 @@ alternatives:
   - wellsaid-labs
   - cartesia
   - hume-ai
+  - kokoro
+  - lovo
+  - neets-ai
 date: '2025-06-15'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, voice_enabled, easy_to_use]
 ---

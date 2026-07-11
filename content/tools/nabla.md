@@ -17,6 +17,9 @@ alternatives:
   - suki-ai
   - doximity
   - babylon-health
+  - ada-health
+  - aidoc-ai
+  - alphafold-ai
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, integrations]
 ---

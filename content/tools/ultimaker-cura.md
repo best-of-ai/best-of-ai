@@ -17,6 +17,9 @@ alternatives:
   - insomnia
   - drawio
   - mercury
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [open_source, powerful, community_driven, ai_powered, intelligent, platform, tool, service]
 ---

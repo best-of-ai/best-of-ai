@@ -17,6 +17,9 @@ alternatives:
   - agentgpt
   - crewai
   - dify
+  - autogpt
+  - coze
+  - flowise
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based]
 ---

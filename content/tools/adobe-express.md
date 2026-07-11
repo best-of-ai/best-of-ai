@@ -17,6 +17,9 @@ alternatives:
   - figma
   - visily
   - adobe-sensei
+  - photoroom
+  - visme-ai
+  - gamma
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, integrations, cloud_based, templates]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - elai
   - hedra
   - hour-one
+  - synthesia
+  - invideo
+  - vidnoz
 date: '2025-09-21'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, voice_enabled, training, powerful]
 ---

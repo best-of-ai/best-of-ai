@@ -17,6 +17,9 @@ alternatives:
   - sap-ariba
   - kinaxis
   - coupa
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, customizable, model_based]
 ---

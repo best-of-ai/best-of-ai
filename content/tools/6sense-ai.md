@@ -17,6 +17,9 @@ alternatives:
   - jasper-marketing
   - attentive-ai
   - braze
+  - typeform
+  - marketmuse
+  - persado
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, customizable, analytics]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - power-bi
   - scale-ai
   - h2o-ai
+  - airbyte-ai
+  - datarobot
+  - dbt-cloud
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, easy_to_use]
 ---

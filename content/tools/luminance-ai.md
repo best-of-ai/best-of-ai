@@ -17,6 +17,9 @@ alternatives:
   - kira-systems
   - lawgeex
   - robin-ai
+  - donotpay
+  - spellbook
+  - evisort
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting]
 ---

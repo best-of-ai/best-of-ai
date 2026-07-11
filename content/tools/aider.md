@@ -17,6 +17,9 @@ alternatives:
   - amazon-q
   - aide
   - bolt-new
+  - cursor
+  - claude-code
+  - windsurf
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, cloud_based, nlp]
 ---

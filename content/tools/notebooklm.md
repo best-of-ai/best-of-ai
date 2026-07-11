@@ -19,4 +19,7 @@ alternatives:
   - perplexity
   - elicit
   - notion
+  - gemini
+  - gemini-3
+  - microsoft-copilot
 ---

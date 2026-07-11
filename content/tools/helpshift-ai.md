@@ -17,6 +17,9 @@ alternatives:
   - zendesk
   - gorgias
   - kustomer-ai
+  - freshdesk
+  - chatbase
+  - forethought-ai
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, mobile_app, collaboration, customizable]
 ---

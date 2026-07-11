@@ -17,6 +17,9 @@ alternatives:
   - scenario
   - ludo-ai
   - promethean-ai
+  - convai
+  - latitude
+  - unakin
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
 ---

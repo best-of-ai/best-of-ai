@@ -17,6 +17,9 @@ alternatives:
   - docusign-ai
   - zoho
   - pandadoc-ai
+  - c3-ai
+  - denovo-ai
+  - proposify-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

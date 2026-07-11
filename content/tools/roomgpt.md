@@ -17,6 +17,9 @@ alternatives:
   - houzz
   - planner5d
   - pixlr
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, free_tier, image_based, powerful]
 ---

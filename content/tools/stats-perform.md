@@ -17,6 +17,9 @@ alternatives:
   - derwent-innovation
   - brex
   - sight-machine
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [real_time, analytics, powerful, ai_powered, intelligent, platform, tool, service]
 ---

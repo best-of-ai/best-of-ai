@@ -17,6 +17,9 @@ alternatives:
   - sourcegraph-cody
   - supermaven
   - blackbox-ai
+  - aider
+  - bolt-new
+  - cline
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, real_time, integrations, cloud_based]
 ---

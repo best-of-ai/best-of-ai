@@ -16,6 +16,9 @@ alternatives:
   - typefully
   - flick-ai
   - later
+  - metricool
+  - missinglettr
+  - predis-ai
 date: '2025-01-01'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, real_time]
 ---

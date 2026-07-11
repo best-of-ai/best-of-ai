@@ -17,6 +17,9 @@ alternatives:
   - nuance-dax
   - suki-ai
   - babylon-health
+  - aidoc-ai
+  - alphafold-ai
+  - benevolentai
 date: '2025-01-01'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, secure, powerful]
 ---

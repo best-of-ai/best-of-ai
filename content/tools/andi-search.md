@@ -17,6 +17,9 @@ alternatives:
   - perplexity-search
   - you-search
   - arc-browser
+  - devv-ai
+  - exa-ai
+  - phind
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, free_tier, model_based]
 ---

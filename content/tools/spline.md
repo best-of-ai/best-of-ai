@@ -17,6 +17,9 @@ alternatives:
   - tripo3d
   - kaedim
   - alpha3d
+  - luma-ai
+  - meshcapade
+  - csm-ai
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, real_time, collaboration, model_based]
 ---

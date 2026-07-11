@@ -16,6 +16,9 @@ alternatives:
   - glassdoor
   - linkedin
   - huntr
+  - jobbyo
+  - teal
+  - adobe-premiere-pro-ai
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
 ---

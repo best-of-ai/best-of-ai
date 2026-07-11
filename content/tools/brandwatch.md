@@ -17,6 +17,9 @@ alternatives:
   - hotjar-ai
   - cb-insights-ai
   - maze-ai
+  - attention-insight
+  - competitor-analyzer
+  - cresh-ai
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, real_time, collaboration, enterprise]
 ---

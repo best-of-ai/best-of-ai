@@ -17,6 +17,9 @@ alternatives:
   - krisp
   - murf
   - adobe-podcast
+  - voicemod
+  - adobe-enhance-speech
+  - auphonic
 date: '2025-06-15'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, voice_enabled]
 ---

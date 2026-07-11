@@ -17,6 +17,9 @@ alternatives:
   - kensho
   - causal-app
   - botkeeper
+  - plaid
+  - yodlee
+  - bill-com-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, collaboration, powerful]
 ---

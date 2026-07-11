@@ -17,6 +17,9 @@ alternatives:
   - smartling
   - google-translate
   - phrase-ai
+  - deepl
+  - lokalise-ai
+  - microsoft-translator
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, enterprise, fast, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - zapier
   - power-automate
   - make
+  - komos-ai
+  - adobe-premiere-pro-ai
+  - asana
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, open_source, collaboration, customizable]
 ---

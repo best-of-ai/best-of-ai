@@ -17,6 +17,9 @@ alternatives:
   - sprout-social
   - flick-ai
   - later
+  - missinglettr
+  - predis-ai
+  - taplio
 date: '2025-06-15'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform]
 ---

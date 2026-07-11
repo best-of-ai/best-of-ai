@@ -16,6 +16,9 @@ alternatives:
   - fireflies-ai
   - otter-ai
   - claap
+  - fathom
+  - grain
+  - meetgeek
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, mobile_app, voice_enabled]
 ---

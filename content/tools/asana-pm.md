@@ -17,6 +17,9 @@ alternatives:
   - smartsheet-ai
   - height
   - jira
+  - clickup
+  - notion
+  - monday
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

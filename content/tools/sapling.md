@@ -17,6 +17,9 @@ alternatives:
   - zendesk
   - tidio
   - intercom
+  - chatbase
+  - forethought-ai
+  - gorgias
 date: '2025-06-15'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, real_time, collaboration, customizable]
 ---

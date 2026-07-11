@@ -17,6 +17,9 @@ alternatives:
   - docsumo
   - humata
   - hyperscience
+  - adobe-acrobat-ai
+  - chatpdf
+  - instabase
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, customizable, machine_learning, voice_enabled]
 ---

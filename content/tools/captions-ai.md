@@ -17,6 +17,9 @@ alternatives:
   - flexclip
   - invideo
   - opus-clip
+  - munch
+  - pictory
+  - veed-io
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
 ---

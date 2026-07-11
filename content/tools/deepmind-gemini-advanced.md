@@ -17,6 +17,9 @@ alternatives:
   - claude
   - gemini
   - kimi
+  - microsoft-copilot
+  - perplexity
+  - mistral-le-chat
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, multimodal, customizable, model_based]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - bolt-new
   - cursor-composer
   - copilot-workspace
+  - aider
+  - cline
+  - codeium
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - amazon-q
   - bolt-new
   - cursor-composer
+  - aider
+  - cline
+  - codeium
 date: '2026-06-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, enterprise]
 ---

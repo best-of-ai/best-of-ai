@@ -17,6 +17,9 @@ alternatives:
   - ai-aware
   - drawio
   - postman
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [api_available, free_tier, machine_learning, ai_powered, intelligent, platform, tool, service]
 ---

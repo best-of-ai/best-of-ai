@@ -17,6 +17,9 @@ alternatives:
   - adobe-firefly
   - midjourney
   - lucidchart-ai
+  - adobe-express
+  - adobe-sensei
+  - khroma
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, image_based]
 ---

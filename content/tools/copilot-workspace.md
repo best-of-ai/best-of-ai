@@ -17,6 +17,9 @@ alternatives:
   - devin
   - google-jules
   - amazon-codewhisperer
+  - cursor
+  - claude-code
+  - github-copilot
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, autonomous, community_driven]
 ---

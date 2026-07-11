@@ -17,6 +17,9 @@ alternatives:
   - samsara
   - datadog
   - geotab
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [autonomous, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

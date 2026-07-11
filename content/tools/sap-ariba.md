@@ -17,6 +17,9 @@ alternatives:
   - coupa
   - kinaxis
   - blue-yonder
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, collaboration, enterprise, analytics]
 ---

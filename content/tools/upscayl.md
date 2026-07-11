@@ -17,6 +17,9 @@ alternatives:
   - neural-love
   - photoroom
   - topaz-photo-ai
+  - adobe-lightroom-ai
+  - befunky
+  - fotor
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, open_source, free_tier, secure]
 ---

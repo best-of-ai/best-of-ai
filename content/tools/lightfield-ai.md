@@ -16,6 +16,9 @@ alternatives:
   - hubspot-crm
   - zoho-crm
   - copper
+  - attio
+  - close
+  - folk
 date: '2025-01-01'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
 ---

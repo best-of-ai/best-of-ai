@@ -17,6 +17,9 @@ alternatives:
   - meta-ai
   - brave-leo
   - notis-ai
+  - replika
+  - pi-ai
+  - kin-personal-ai
 date: '2025-06-15'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, voice_enabled]
 ---

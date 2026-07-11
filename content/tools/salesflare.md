@@ -17,6 +17,9 @@ alternatives:
   - hubspot-crm
   - zoho-crm
   - lightfield-ai
+  - attio
+  - close
+  - copper
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
 ---

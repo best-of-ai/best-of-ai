@@ -17,6 +17,9 @@ alternatives:
   - rive
   - after-effects
   - powtoon
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [animation, video, creative, motion, graphics, motion_design, 2d_animation, 3d_animation, visual_effects, collaboration, extensible]
 ---

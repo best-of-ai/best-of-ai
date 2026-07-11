@@ -17,6 +17,9 @@ alternatives:
   - waifu2x
   - upscayl
   - adobe-premiere-pro-ai
+  - asana
+  - canva
+  - chatgpt
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, secure, model_based, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - devin
   - copilot-workspace
   - sourcegraph-cody
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, autonomous, model_based]
 ---

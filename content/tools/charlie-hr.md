@@ -17,6 +17,9 @@ alternatives:
   - greenhouse
   - adp
   - bamboohr
+  - eightfold-ai
+  - hirevue
+  - workday
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, templates]
 ---

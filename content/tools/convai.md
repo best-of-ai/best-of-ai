@@ -17,6 +17,9 @@ alternatives:
   - charisma-ai
   - inworld-ai
   - promethean-ai
+  - ai-dungeon
+  - ludo-ai
+  - unakin
 date: '2025-06-15'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, nlp, model_based]
 ---

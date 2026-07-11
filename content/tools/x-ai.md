@@ -17,6 +17,9 @@ alternatives:
   - motion
   - cal-com
   - clockwise-ai
+  - fantastical
+  - adobe-premiere-pro-ai
+  - asana
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, autonomous]
 ---

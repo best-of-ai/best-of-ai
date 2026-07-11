@@ -17,6 +17,9 @@ alternatives:
   - bolt-new
   - sourcegraph-cody
   - supermaven
+  - aider
+  - cline
+  - codeium
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, integrations]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - supermaven
   - jetbrains-ai
   - coderabbit
+  - aider
+  - amazon-q
+  - bolt-new
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, integrations]
 ---

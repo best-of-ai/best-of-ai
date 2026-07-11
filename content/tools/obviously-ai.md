@@ -17,6 +17,9 @@ alternatives:
   - scale-ai
   - tableau
   - amplitude-ai
+  - power-bi
+  - airbyte-ai
+  - dbt-cloud
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, machine_learning, training, model_based]
 ---

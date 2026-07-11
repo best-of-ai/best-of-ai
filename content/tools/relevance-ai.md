@@ -17,6 +17,9 @@ alternatives:
   - langchain
   - cassidy-ai
   - coze
+  - agentgpt
+  - autogpt
+  - crewai
 date: '2025-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - workday
   - ashby
   - culture-amp-ai
+  - 15five-ai
+  - adp
+  - bamboohr
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, analytics, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - spline
   - tripo3d
   - kaedim
+  - luma-ai
+  - meshcapade
+  - csm-ai
 date: '2025-09-21'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, image_based, model_based]
 ---

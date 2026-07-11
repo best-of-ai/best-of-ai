@@ -17,6 +17,9 @@ alternatives:
   - datadog
   - turbonomic
   - whistle-pets
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [training, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - microsoft-translator
   - reverso
   - memoq
+  - phrase-ai
+  - smartcat-ai
+  - smartling
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, collaboration]
 ---

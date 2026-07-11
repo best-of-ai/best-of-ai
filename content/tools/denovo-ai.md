@@ -16,6 +16,9 @@ alternatives:
   - pandadoc-ai
   - salesforce-einstein
   - docusign-ai
+  - servicenow
+  - c3-ai
+  - proposify-ai
 date: '2025-01-01'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

@@ -19,4 +19,7 @@ alternatives:
   - flux
   - stable-diffusion
   - krea-ai
+  - gpt-image
+  - dalle
+  - leonardo-ai
 ---

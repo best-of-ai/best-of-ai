@@ -16,6 +16,9 @@ alternatives:
   - groq
   - roboflow
   - azure-openai
+  - github-copilot
+  - google-ai-studio
+  - llamaindex
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

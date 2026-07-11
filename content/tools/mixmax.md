@@ -17,6 +17,9 @@ alternatives:
   - superhuman
   - boomerang
   - mailchimp
+  - brevo-ai
+  - klaviyo-ai
+  - sanebox
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, collaboration, customizable, templates]
 ---

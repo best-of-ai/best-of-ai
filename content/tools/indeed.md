@@ -17,6 +17,9 @@ alternatives:
   - linkedin
   - jobbyo
   - huntr
+  - jobgpt-ai
+  - teal
+  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, fast]
 ---

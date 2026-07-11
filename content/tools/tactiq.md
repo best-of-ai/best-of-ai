@@ -17,6 +17,9 @@ alternatives:
   - otter-ai
   - avoma
   - claap
+  - fathom
+  - grain
+  - meetgeek
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, browser_extension, secure, extensible]
 ---

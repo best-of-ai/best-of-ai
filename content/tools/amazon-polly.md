@@ -17,6 +17,9 @@ alternatives:
   - wellsaid-labs
   - fish-audio
   - hume-ai
+  - kokoro
+  - lovo
+  - neets-ai
 date: '2025-01-01'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, cloud_based, machine_learning]
 ---

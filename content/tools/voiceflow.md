@@ -17,6 +17,9 @@ alternatives:
   - scalerx
   - fastbots-ai
   - mindmeister
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [collaboration, integrations, image_based, voice_enabled, ai_powered, intelligent, platform, tool]
 ---

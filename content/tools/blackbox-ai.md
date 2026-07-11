@@ -17,6 +17,9 @@ alternatives:
   - amazon-q
   - bolt-new
   - cursor-composer
+  - aider
+  - cline
+  - copilot-workspace
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, real_time, free_tier, image_based]
 ---

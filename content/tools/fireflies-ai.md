@@ -17,6 +17,9 @@ alternatives:
   - noty-ai
   - zoom-ai
   - otter-ai
+  - fathom
+  - grain
+  - tactiq
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - ada-health
   - benevolentai
   - buoy-health
+  - abridge-ai
+  - alphafold-ai
+  - doximity
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, api_available]
 ---

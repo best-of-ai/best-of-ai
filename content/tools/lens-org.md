@@ -17,6 +17,9 @@ alternatives:
   - explainpaper
   - notebook-lm-plus
   - perplexity-labs
+  - perplexity-research
+  - scispace
+  - connected-papers
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, free_tier, powerful]
 ---

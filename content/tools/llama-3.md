@@ -17,6 +17,9 @@ alternatives:
   - ai21-labs
   - cohere
   - gpt-4
+  - gpt-5
+  - mistral
+  - hugging-face
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, enterprise, free_tier]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - rossum
   - adobe-acrobat-ai
   - docsumo
+  - chatpdf
+  - humata
+  - instabase
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, enterprise, voice_enabled]
 ---

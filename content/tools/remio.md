@@ -16,6 +16,9 @@ alternatives:
   - capacities
   - glean
   - logseq
+  - readwise-reader
+  - reflect
+  - anything-llm
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - activecampaign-ai
   - boomerang
   - shortwave
+  - mixmax
+  - sanebox
+  - spark-mail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up]
 ---

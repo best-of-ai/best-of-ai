@@ -16,6 +16,9 @@ alternatives:
   - carnegie-learning
   - khanmigo
   - udemy
+  - brilliant
+  - chegg-ai
+  - coursera
 date: '2026-06-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
 ---

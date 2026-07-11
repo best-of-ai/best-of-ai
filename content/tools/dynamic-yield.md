@@ -17,6 +17,9 @@ alternatives:
   - magento
   - woocommerce
   - bloomreach
+  - stamped-io
+  - constructor
+  - igly
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, mobile_app, customizable, machine_learning]
 ---

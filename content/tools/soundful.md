@@ -16,6 +16,9 @@ alternatives:
   - loudly
   - soundraw
   - mubert
+  - boomy
+  - suno
+  - udio
 date: '2026-06-15'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, free_tier]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - gong
   - instantly
   - salesloft
+  - amplemarket
+  - chorus-ai
+  - outreach
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, voice_enabled]
 ---

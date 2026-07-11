@@ -17,6 +17,9 @@ alternatives:
   - avoma
   - claap
   - fathom
+  - meetgeek
+  - noty-ai
+  - grain
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
 ---

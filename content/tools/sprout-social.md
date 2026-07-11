@@ -17,6 +17,9 @@ alternatives:
   - later
   - hootsuite-social
   - publer
+  - flick-ai
+  - missinglettr
+  - predis-ai
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, collaboration, enterprise]
 ---

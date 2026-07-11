@@ -15,8 +15,11 @@ alternatives:
   - decktopus
   - visme-ai
   - beautiful-ai
-  - gamma
+  - plus-ai
   - pitch
+  - slidesai
+  - canva
+  - gamma
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, image_based]
 ---

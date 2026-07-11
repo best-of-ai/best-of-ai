@@ -17,6 +17,9 @@ alternatives:
   - chai
   - replika
   - google-assistant
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-01-01'
 tags: [ai_companion, chatbot, conversation, ai_assistant, chat, companionship, emotional_support, roleplay, personal, customizable, image_based, voice_enabled]
 ---

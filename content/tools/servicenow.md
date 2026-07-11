@@ -17,6 +17,9 @@ alternatives:
   - salesforce-einstein
   - pandadoc-ai
   - zoho
+  - c3-ai
+  - denovo-ai
+  - proposify-ai
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable, nlp]
 ---

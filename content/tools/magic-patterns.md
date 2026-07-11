@@ -16,6 +16,9 @@ alternatives:
   - adobe-express
   - adobe-sensei
   - adobe-firefly
+  - midjourney
+  - galileo-ai
+  - khroma
 date: '2026-06-15'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration]
 ---

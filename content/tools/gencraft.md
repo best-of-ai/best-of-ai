@@ -16,6 +16,9 @@ alternatives:
   - artbreeder
   - civitai
   - craiyon
+  - bing-image-creator
+  - comfyui
+  - dream-wombo
 date: '2026-06-15'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based]
 ---

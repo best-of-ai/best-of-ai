@@ -17,6 +17,9 @@ alternatives:
   - cohere
   - gemma
   - microsoft-phi
+  - deepseek
+  - gemini-pro
+  - ai21-labs
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, secure, nlp]
 ---

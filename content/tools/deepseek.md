@@ -19,4 +19,7 @@ alternatives:
   - gemini
   - mistral
   - llama-3
+  - qwen
+  - groq
+  - openrouter
 ---

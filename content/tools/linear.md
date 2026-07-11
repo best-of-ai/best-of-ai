@@ -12,11 +12,14 @@ price: 'Paid'
 featured: false
 rank: 10
 alternatives:
-  - height
+  - monday
   - smartsheet-ai
   - taskade
   - asana-pm
   - jira
+  - clickup
+  - notion
+  - height
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile, fast]
 ---

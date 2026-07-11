@@ -17,6 +17,9 @@ alternatives:
   - buffer
   - sprout-social
   - metricool
+  - flick-ai
+  - taplio
+  - typefully
 date: '2025-01-01'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, image_based]
 ---

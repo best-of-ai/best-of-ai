@@ -17,6 +17,9 @@ alternatives:
   - microsoft-designer
   - visily
   - whimsical-ai
+  - canva
+  - adobe-express
+  - adobe-sensei
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, free_tier]
 ---

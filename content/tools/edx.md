@@ -17,6 +17,9 @@ alternatives:
   - khanmigo
   - quizlet-ai
   - khan-academy
+  - carnegie-learning
+  - chegg-ai
+  - dreambox-learning
 date: '2025-06-15'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, machine_learning, powerful]
 ---

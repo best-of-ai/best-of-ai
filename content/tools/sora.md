@@ -17,6 +17,9 @@ alternatives:
   - kling-ai
   - veo-3
   - gen-2
+  - runway
+  - pika-video
+  - invideo
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, model_based]
 ---

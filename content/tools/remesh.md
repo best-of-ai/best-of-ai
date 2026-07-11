@@ -17,6 +17,9 @@ alternatives:
   - crimson-hexagon
   - attention-insight
   - maze-ai
+  - similarweb
+  - cb-insights-ai
+  - competitor-analyzer
 date: '2025-06-15'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, fast]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - altern
   - aidir-wiki
   - marketinguys
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
 ---

@@ -19,4 +19,7 @@ alternatives:
   - claude-code
   - replit
   - codeium
+  - cline
+  - aider
+  - amazon-q
 ---

@@ -17,6 +17,9 @@ alternatives:
   - loudly
   - soundraw
   - udio
+  - boomy
+  - mubert
+  - suno
 date: '2025-06-15'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, free_tier, voice_enabled, extensible]
 ---

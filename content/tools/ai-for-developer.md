@@ -17,6 +17,9 @@ alternatives:
   - productivity-directory
   - best-of-ai
   - sourcegraph-cody
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, integrations, model_based]
 ---

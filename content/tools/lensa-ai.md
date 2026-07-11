@@ -17,6 +17,9 @@ alternatives:
   - cleanup-pictures
   - fotor
   - photoroom
+  - adobe-lightroom-ai
+  - luminar-neo
+  - neural-love
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, mobile_app, real_time]
 ---

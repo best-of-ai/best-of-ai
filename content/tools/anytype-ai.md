@@ -17,6 +17,9 @@ alternatives:
   - notion-ai
   - capacities
   - document360
+  - glean
+  - obsidian-ai
+  - readwise-reader
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, cloud_based, secure, versatile]
 ---

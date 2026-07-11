@@ -17,6 +17,9 @@ alternatives:
   - agno-ai
   - crewai
   - manus
+  - langchain
+  - agentgpt
+  - autogpt
 date: '2025-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, api_available, browser_extension, extensible]
 ---

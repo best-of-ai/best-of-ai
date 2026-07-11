@@ -17,6 +17,9 @@ alternatives:
   - grok
   - chatgpt
   - perplexity
+  - gemini-advanced
+  - kimi
+  - mistral-le-chat
 date: '2025-01-01'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, real_time, collaboration, integrations]
 ---

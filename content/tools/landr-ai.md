@@ -17,6 +17,9 @@ alternatives:
   - elevenlabs
   - adobe-podcast
   - descript
+  - krisp
+  - voicemod
+  - ace-studio
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, fast, powerful, extensible]
 ---

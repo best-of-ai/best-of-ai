@@ -17,6 +17,9 @@ alternatives:
   - sudowrite
   - jasper
   - quillbot
+  - copy-ai
+  - grammarly
+  - wordtune
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, training]
 ---

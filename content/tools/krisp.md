@@ -17,6 +17,9 @@ alternatives:
   - murf
   - adobe-podcast
   - voicemod
+  - ace-studio
+  - adobe-enhance-speech
+  - auphonic
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, collaboration, customizable, voice_enabled]
 ---

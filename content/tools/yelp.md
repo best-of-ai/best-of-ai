@@ -17,6 +17,9 @@ alternatives:
   - apple-maps
   - arc-browser
   - devv-ai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, customizable]
 ---

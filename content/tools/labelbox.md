@@ -17,6 +17,9 @@ alternatives:
   - schrodinger
   - transifex
   - clarifai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

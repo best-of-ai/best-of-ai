@@ -16,6 +16,9 @@ alternatives:
   - marketalerts-ai
   - mosaic-tech
   - zeni-ai
+  - morningstar-ai
+  - botkeeper
+  - kensho
 date: '2026-06-22'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, training]
 ---

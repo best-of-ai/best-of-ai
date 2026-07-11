@@ -17,6 +17,9 @@ alternatives:
   - planner5d
   - roomgpt
   - kaedim
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, mobile_app, image_based, model_based]
 ---

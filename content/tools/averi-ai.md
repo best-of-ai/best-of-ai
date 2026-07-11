@@ -16,6 +16,9 @@ alternatives:
   - supademo
   - typeform
   - unbounce-ai
+  - 6sense-ai
+  - crayon
+  - marketmuse
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, voice_enabled]
 ---

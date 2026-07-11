@@ -17,6 +17,9 @@ alternatives:
   - mistral
   - microsoft-phi
   - openai-o3
+  - claude-3
+  - gemini-pro
+  - llama-3
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, training, model_based]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - promethean-ai
   - unakin
   - ai-dungeon
+  - charisma-ai
+  - convai
+  - latitude
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
 ---

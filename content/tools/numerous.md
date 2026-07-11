@@ -17,6 +17,9 @@ alternatives:
   - formula-bot
   - claude
   - power-automate
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, api_available, collaboration]
 ---

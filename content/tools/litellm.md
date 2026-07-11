@@ -17,6 +17,9 @@ alternatives:
   - jan-ai
   - lm-studio
   - ollama
+  - cursor
+  - amazon-bedrock
+  - azure-openai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, model_based, community_driven]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - speechify
   - elevenlabs-voice
   - resemble-ai
+  - replica-studios
+  - kits-ai
+  - respeecher
 date: '2025-01-01'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, free_tier, voice_enabled]
 ---

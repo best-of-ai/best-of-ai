@@ -17,6 +17,9 @@ alternatives:
   - sheet-plus
   - zapier
   - lovable
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, fast]
 ---

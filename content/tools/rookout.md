@@ -17,6 +17,9 @@ alternatives:
   - datadog
   - new-relic
   - arcgis
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

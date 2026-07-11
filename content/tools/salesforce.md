@@ -17,6 +17,9 @@ alternatives:
   - zoho-crm
   - copper
   - folk
+  - zendesk
+  - intercom
+  - freshsales
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, enterprise, customizable]
 ---

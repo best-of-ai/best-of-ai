@@ -17,6 +17,9 @@ alternatives:
   - pixlr
   - on1-photo-ai
   - bestphoto-ai
+  - befunky
+  - cleanup-pictures
+  - fotor
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, integrations, powerful, extensible]
 ---

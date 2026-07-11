@@ -17,6 +17,9 @@ alternatives:
   - insilico-medicine
   - alphafold-ai
   - abridge-ai
+  - ada-health
+  - aidoc-ai
+  - babylon-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, collaboration, machine_learning]
 ---

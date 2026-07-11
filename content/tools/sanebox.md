@@ -17,6 +17,9 @@ alternatives:
   - activecampaign-ai
   - shortwave
   - spark-mail
+  - brevo-ai
+  - klaviyo-ai
+  - mailchimp
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful]
 ---

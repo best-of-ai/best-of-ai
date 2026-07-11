@@ -16,6 +16,9 @@ alternatives:
   - servicenow
   - zoho
   - docusign-ai
+  - pandadoc-ai
+  - denovo-ai
+  - proposify-ai
 date: '2026-06-15'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

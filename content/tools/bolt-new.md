@@ -19,4 +19,7 @@ alternatives:
   - replit
   - cursor
   - windsurf
+  - base44
+  - stack-ai
+  - flutterflow
 ---

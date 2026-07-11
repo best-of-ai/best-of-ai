@@ -17,6 +17,9 @@ alternatives:
   - people-ai
   - salesloft
   - chorus-ai
+  - amplemarket
+  - apollo
+  - clay
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
 ---

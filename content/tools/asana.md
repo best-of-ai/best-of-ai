@@ -17,6 +17,9 @@ alternatives:
   - coda-ai
   - akiflow
   - sunsama
+  - slack-ai
+  - aiprm
+  - miro-ai
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

@@ -16,6 +16,9 @@ alternatives:
   - salesloft
   - apollo
   - gong
+  - chorus-ai
+  - instantly
+  - lavender
 date: '2026-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - photoroom
   - picsart-ai
   - pixlr
+  - adobe-lightroom-ai
+  - lensa-ai
+  - luminar-neo
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, templates, image_based, fast]
 ---

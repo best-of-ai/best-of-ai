@@ -17,6 +17,9 @@ alternatives:
   - notta
   - sonix
   - gladia
+  - speechmatics
+  - rev
+  - read-ai
 date: '2025-01-01'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, open_source, voice_enabled, training]
 ---

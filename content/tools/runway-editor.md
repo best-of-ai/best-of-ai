@@ -17,6 +17,9 @@ alternatives:
   - capcut
   - captions-ai
   - wondershare-filmora-ai
+  - flexclip
+  - invideo
+  - munch
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, image_based, model_based, powerful]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - betterup
   - headspace
   - onetrust
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [collaboration, enterprise, customizable, ai_powered, intelligent, platform, tool, service]
 ---

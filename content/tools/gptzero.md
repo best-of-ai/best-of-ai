@@ -17,6 +17,9 @@ alternatives:
   - khanmigo
   - chegg-ai
   - brilliant
+  - coursera
+  - dreambox-learning
+  - khan-academy
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, model_based]
 ---

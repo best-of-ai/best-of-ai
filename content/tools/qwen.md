@@ -17,6 +17,9 @@ alternatives:
   - claude-3
   - gemma
   - microsoft-phi
+  - gemini-pro
+  - ai21-labs
+  - cohere
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, free_tier, nlp, model_based]
 ---

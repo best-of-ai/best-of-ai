@@ -17,6 +17,9 @@ alternatives:
   - happyscribe
   - otter-subtitles
   - opus-clip
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, fast]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - topaz-video-ai
   - topaz-photo-ai
   - upscayl
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, open_source, image_based, model_based]
 ---

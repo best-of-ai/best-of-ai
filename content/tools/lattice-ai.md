@@ -17,6 +17,9 @@ alternatives:
   - greenhouse
   - ashby
   - gem
+  - 15five-ai
+  - adp
+  - eightfold-ai
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - ai21-labs
   - mistral
   - cohere
+  - claude-3
+  - deepseek
+  - gemma
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, enterprise, image_based]
 ---

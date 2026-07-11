@@ -17,6 +17,9 @@ alternatives:
   - cline
   - aide
   - google-jules
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, nlp, community_driven]
 ---

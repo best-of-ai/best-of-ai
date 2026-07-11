@@ -17,6 +17,9 @@ alternatives:
   - cutout-pro
   - photoroom
   - adobe-lightroom-ai
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-01-01'
 tags: [image_editing, design, creative, background, image_processing, cutout, transparency, photo_editing, visual, api_available, image_based, fast]
 ---

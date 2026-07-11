@@ -17,6 +17,9 @@ alternatives:
   - humata
   - abbyy
   - pdf-ai
+  - docsumo
+  - hyperscience
+  - instabase
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast, powerful]
 ---

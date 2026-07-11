@@ -15,8 +15,11 @@ alternatives:
   - adobe-premiere-pro-ai
   - capcut
   - flexclip
-  - veed-io
+  - wave-video
+  - descript
   - pictory
+  - runway
+  - veed-io
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, collaboration, templates, voice_enabled]
 ---

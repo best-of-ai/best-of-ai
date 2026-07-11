@@ -16,6 +16,9 @@ alternatives:
   - rezi
   - zety
   - enhancv
+  - jobscan
+  - adobe-premiere-pro-ai
+  - asana
 date: '2025-01-01'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
 ---

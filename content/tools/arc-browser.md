@@ -17,6 +17,9 @@ alternatives:
   - you-search
   - devv-ai
   - bing-chat
+  - exa-ai
+  - perplexity-search
+  - andi-search
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, mobile_app]
 ---

@@ -17,6 +17,9 @@ alternatives:
   - bigid
   - okta
   - osano
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [enterprise, secure, ai_powered, intelligent, platform, tool, service, solution]
 ---

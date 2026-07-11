@@ -17,6 +17,9 @@ alternatives:
   - homer-learning
   - headspace
   - ready-player-me
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [customizable, training, ai_powered, intelligent, platform, tool, service, solution]
 ---

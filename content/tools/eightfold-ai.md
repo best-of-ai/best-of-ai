@@ -17,6 +17,9 @@ alternatives:
   - workday
   - betterworks-ai
   - bamboohr
+  - 15five-ai
+  - adp
+  - lattice-ai
 date: '2025-01-01'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, machine_learning, fast]
 ---

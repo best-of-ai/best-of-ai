@@ -17,6 +17,9 @@ alternatives:
   - capacities
   - obsidian-ai
   - slab
+  - logseq
+  - readwise-reader
+  - reflect
 date: '2025-06-15'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, collaboration]
 ---

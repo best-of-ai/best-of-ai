@@ -17,6 +17,9 @@ alternatives:
   - sprout-social
   - missinglettr
   - buffer
+  - flick-ai
+  - taplio
+  - typefully
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, collaboration, machine_learning, image_based]
 ---

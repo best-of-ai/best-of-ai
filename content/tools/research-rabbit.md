@@ -17,6 +17,9 @@ alternatives:
   - elicit
   - scholarcy
   - connected-papers
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, image_based, fast]
 ---

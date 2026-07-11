@@ -17,6 +17,9 @@ alternatives:
   - autogrid
   - autodesk-construction
   - bizzabo
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-06-15'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

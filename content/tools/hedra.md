@@ -17,6 +17,9 @@ alternatives:
   - vidnoz
   - colossyan
   - hour-one
+  - elai
+  - movio
+  - synthesia-avatar
 date: '2025-06-15'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, image_based, voice_enabled]
 ---

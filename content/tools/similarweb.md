@@ -17,6 +17,9 @@ alternatives:
   - hotjar-ai
   - crimson-hexagon
   - competitor-analyzer
+  - cb-insights-ai
+  - cresh-ai
+  - crunchbase-ai
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, enterprise, customizable, image_based]
 ---

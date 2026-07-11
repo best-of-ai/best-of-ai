@@ -17,6 +17,9 @@ alternatives:
   - hopper
   - gitbook
   - bambu-studio
+  - adobe-premiere-pro-ai
+  - asana
+  - canva
 date: '2025-10-01'
 tags: [free_tier, easy_to_use, ai_powered, intelligent, platform, tool, service, solution]
 ---

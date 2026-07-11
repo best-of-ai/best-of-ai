@@ -17,6 +17,9 @@ alternatives:
   - nanonets
   - adobe-acrobat-ai
   - chatpdf
+  - notebooklm
+  - docsumo
+  - instabase
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, enterprise, machine_learning]
 ---

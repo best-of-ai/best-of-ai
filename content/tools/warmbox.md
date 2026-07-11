@@ -16,6 +16,9 @@ alternatives:
   - mailchimp
   - sanebox
   - spark-mail
+  - boomerang
+  - brevo-ai
+  - klaviyo-ai
 date: '2026-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up]
 ---

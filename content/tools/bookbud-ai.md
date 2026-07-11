@@ -16,6 +16,9 @@ alternatives:
   - copy-ai
   - quillbot
   - openai-canvas
+  - jasper
+  - wordtune
+  - ai-writer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---
