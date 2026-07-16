@@ -20,6 +20,7 @@ alternatives:
   - c3-ai
   - denovo-ai
   - proposify-ai
+  - born-to-found
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---
