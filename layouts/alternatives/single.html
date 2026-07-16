@@ -44,39 +44,56 @@
     </nav>
 
     <!-- Hero -->
-    <div class="cat-hero alt-hero">
-      {{ if $tool }}
-        {{ $logoSrc := cond (ne $tool.Params.logo_url "") $tool.Params.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" $tool.Params.website) }}
-        <div class="cat-hero__icon alt-hero__icon">
-          <img src="{{ $logoSrc }}" alt="{{ $toolName }}" loading="lazy"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span style="display:none">{{ substr $toolName 0 1 }}</span>
-        </div>
-      {{ else }}
-        <div class="cat-hero__icon">{{ substr $toolName 0 1 }}</div>
-      {{ end }}
-      <div>
-        <h1 class="cat-hero__title">Best {{ $toolName }} Alternatives</h1>
+    <div class="pg-hero alt-ranking-hero">
+      <div class="alt-ranking-hero__heading">
         {{ if $tool }}
-        <p class="cat-hero__desc">{{ $tool.Params.subtitle }}</p>
+          {{ $logoSrc := cond (ne $tool.Params.logo_url "") $tool.Params.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" $tool.Params.website) }}
+          <div class="alt-ranking-hero__logo">
+            <img src="{{ $logoSrc }}" alt="{{ $toolName }}" loading="lazy"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <span class="tool-logo-fallback" style="display:none">{{ substr $toolName 0 1 }}</span>
+          </div>
         {{ end }}
-        <div class="cat-hero__meta">
-          <span><strong>{{ partial "count.html" (len $altPages) }}</strong> alternatives</span>
-          <span class="stat-sep">·</span>
-          <span>handpicked &amp; curated</span>
-          {{ if $tool }}
-          <span class="stat-sep">·</span>
-          <a href="{{ $tool.RelPermalink }}" class="alt-hero__back">View {{ $toolName }} →</a>
-          {{ end }}
+        <div>
+          <h1 class="pg-hero__title">Best <span>{{ $toolName }}</span> Alternatives</h1>
+          {{ if $tool }}<p class="pg-hero__desc">{{ $tool.Params.subtitle }}</p>{{ end }}
         </div>
+      </div>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $altPages) }}</strong> alternatives
+        <span class="sep">·</span>
+        <span>curated picks</span>
+        {{ if $tool }}
+        <span class="sep">·</span>
+        <a href="{{ $tool.RelPermalink }}">View {{ $toolName }}</a>
+        {{ end }}
       </div>
     </div>
 
-    <!-- Alternatives grid -->
+    <!-- Ranked alternatives -->
     {{ if $altPages }}
-    <div class="tools-grid" id="alt-tools-grid">
-      {{ range $altPages }}
-      {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+    <div class="alt-ranking-list" id="alt-tools-list">
+      {{ range $index, $page := $altPages }}
+      {{ $p := $page.Params }}
+      {{ $rank := add $index 1 }}
+      {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $p.website) }}
+      <a href="{{ $page.RelPermalink }}" class="alt-ranking-row">
+        <span class="alt-ranking-row__rank">#{{ $rank }}</span>
+        <span class="alt-ranking-row__logo">
+          <img src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+        </span>
+        <span class="alt-ranking-row__body">
+          <span class="alt-ranking-row__name">{{ $p.name }}</span>
+          <span class="alt-ranking-row__desc">{{ or $p.subtitle ($p.description | truncate 100) }}</span>
+        </span>
+        <span class="alt-ranking-row__meta">
+          {{ with $p.category_name }}<span class="alt-ranking-row__category">{{ . }}</span>{{ end }}
+          {{ partial "price-icon.html" $p.price }}
+        </span>
+        <svg class="alt-ranking-row__arrow" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+      </a>
       {{ end }}
     </div>
     {{ else }}
