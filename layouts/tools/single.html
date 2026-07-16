@@ -5,6 +5,17 @@
 {{ $related   = where $related ".RelPermalink" "ne" .RelPermalink }}
 
 {{ $toolSlug := or $p.slug .File.BaseFileName }}
+{{ $altPages := slice }}
+{{ range $p.alternatives }}
+  {{ $slug := . }}
+  {{ $match := index (where $allTools "Params.slug" $slug) 0 }}
+  {{ if not $match }}
+    {{ $match = index (where $allTools "File.BaseFileName" $slug) 0 }}
+  {{ end }}
+  {{ if $match }}
+    {{ $altPages = $altPages | append $match }}
+  {{ end }}
+{{ end }}
 {{ $topPickProfessions := slice }}
 {{ range where .Site.RegularPages "Section" "professionals" }}
   {{ if in .Params.featured_tools $toolSlug }}
@@ -82,6 +93,29 @@
       </div>
 
       <aside class="detail-sidebar">
+        {{ if $altPages }}
+        <div class="sidebar-alternatives">
+          <div class="sidebar-alternatives__title">// alternatives</div>
+          <div class="sidebar-alternatives__list">
+            {{ range first 3 $altPages }}
+            {{ $alt := .Params }}
+            {{ $logoSrc := cond (ne $alt.logo_url "") $alt.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $alt.website) }}
+            <a href="{{ .RelPermalink }}" class="sidebar-alternative">
+              <span class="sidebar-alternative__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $alt.name }}" loading="lazy"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $alt.name 0 1 }}</span>
+              </span>
+              <span>{{ $alt.name }}</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            {{ end }}
+          </div>
+          <a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}" class="sidebar-alternatives__all">
+            View all {{ len $altPages }} alternatives →
+          </a>
+        </div>
+        {{ end }}
         {{ if $topPickProfessions }}
         <div class="top-pick-section">
           <div class="top-pick-section__title">// top pick for</div>
@@ -151,17 +185,6 @@
 
     <!-- Alternatives -->
     {{ if $p.alternatives }}
-    {{ $altPages := slice }}
-    {{ range $p.alternatives }}
-      {{ $slug := . }}
-      {{ $match := index (where $allTools "Params.slug" $slug) 0 }}
-      {{ if not $match }}
-        {{ $match = index (where $allTools "File.BaseFileName" $slug) 0 }}
-      {{ end }}
-      {{ if $match }}
-        {{ $altPages = $altPages | append $match }}
-      {{ end }}
-    {{ end }}
     {{ if $altPages }}
     <section class="related-section">
       <h2 class="related-title">// alternatives to {{ $p.name }}
