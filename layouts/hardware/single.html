@@ -1,0 +1,195 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $allHardware := where .Site.RegularPages "Section" "hardware" }}
+{{ $slug := or $p.slug .File.BaseFileName }}
+
+{{ $manufacturerPage := "" }}
+{{ $manufacturerSiblings := slice }}
+{{ if $p.manufacturer }}
+  {{ $manufacturerMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.manufacturer }}
+  {{ if $manufacturerMatch }}
+    {{ $manufacturerPage = index $manufacturerMatch 0 }}
+    {{ $manufacturerSiblings = where $allHardware "Params.manufacturer" $p.manufacturer }}
+    {{ $manufacturerSiblings = where $manufacturerSiblings ".RelPermalink" "ne" .RelPermalink }}
+    {{ $manufacturerSiblings = sort $manufacturerSiblings "Params.rank" "desc" }}
+  {{ end }}
+{{ end }}
+
+{{ $similar := where $allHardware "Params.hardware_type" $p.hardware_type }}
+{{ $similar = where $similar ".RelPermalink" "ne" .RelPermalink }}
+{{ $similar = first 6 (sort $similar "Params.rank" "desc") }}
+
+{{ $priceLabel := "N/A" }}
+{{ if $p.msrp_usd }}{{ $priceLabel = printf "~$%s" (lang.FormatNumberCustom 0 $p.msrp_usd ". ,") }}{{ end }}
+
+{{ $keyStats := slice }}
+{{ if $p.vram_gb }}{{ $keyStats = $keyStats | append (dict "val" (printf "%vGB" $p.vram_gb) "label" (or $p.memory_type "VRAM")) }}{{ end }}
+{{ if $p.memory_bandwidth_gbps }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.memory_bandwidth_gbps) "label" "GB/s bandwidth") }}{{ end }}
+{{ if $p.fp32_tflops }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.fp32_tflops) "label" "FP32 TFLOPS") }}{{ end }}
+{{ if $p.tdp_watts }}{{ $keyStats = $keyStats | append (dict "val" (printf "%vW" $p.tdp_watts) "label" "TDP") }}{{ end }}
+{{ if $p.core_count }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.core_count) "label" "cores") }}{{ end }}
+{{ if $p.process_node }}{{ $keyStats = $keyStats | append (dict "val" $p.process_node "label" "process") }}{{ end }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/hardware/" | relURL }}">Hardware</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $p.name }}</span>
+    </nav>
+
+    <!-- Hardware header -->
+    <div class="detail-hero">
+      <div class="detail-hero__inner">
+        <div class="detail-logo-wrap">
+          {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" (or $p.product_url $p.website)) }}
+          <img class="detail-logo" src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="detail-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</div>
+        </div>
+
+        <div class="detail-info">
+          <h1 class="detail-name">{{ $p.name }}</h1>
+          {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
+          <div class="detail-badges">
+            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
+            {{ if $p.hardware_type }}<span class="badge badge-cat">{{ $p.hardware_type }}</span>{{ end }}
+          </div>
+        </div>
+
+        {{ if $p.product_url }}
+        <a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+          Visit Product Page →
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Key specs strip -->
+    {{ if $keyStats }}
+    <div class="detail-stats">
+      {{ range $keyStats }}
+      <div class="detail-stat">
+        <span class="detail-stat__val">{{ .val }}</span>
+        <span class="detail-stat__label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Details card -->
+    <div class="detail-layout">
+      <div class="detail-body">
+        {{ with .Content }}
+          <div class="prose">{{ . }}</div>
+        {{ else }}
+        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <p class="detail-body__text">{{ $p.description }}</p>
+        {{ end }}
+      </div>
+
+      <aside class="detail-sidebar">
+        {{ if $manufacturerPage }}
+        <div class="sidebar-alternatives">
+          <div class="sidebar-alternatives__title">// from {{ $manufacturerPage.Params.name }}</div>
+          {{ if $manufacturerSiblings }}
+          <div class="sidebar-alternatives__list">
+            {{ range first 3 $manufacturerSiblings }}
+            {{ $sib := .Params }}
+            {{ $logoSrc := cond (ne $sib.logo_url "") $sib.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" (or $sib.product_url $sib.website)) }}
+            <a href="{{ .RelPermalink }}" class="sidebar-alternative">
+              <span class="sidebar-alternative__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $sib.name }}" loading="lazy"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $sib.name 0 1 }}</span>
+              </span>
+              <span>{{ $sib.name }}</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+          <a href="{{ $manufacturerPage.RelPermalink }}" class="sidebar-alternatives__all">
+            View all on {{ $manufacturerPage.Params.name }} →
+          </a>
+        </div>
+        {{ end }}
+
+        <div class="detail-meta-card">
+          <div class="detail-meta__title">// specs</div>
+          <dl class="detail-meta-list">
+            {{ if $manufacturerPage }}
+            <div class="detail-meta-row">
+              <dt>Manufacturer</dt>
+              <dd><a href="{{ $manufacturerPage.RelPermalink }}">{{ $manufacturerPage.Params.name }}</a></dd>
+            </div>
+            {{ end }}
+            {{ with $p.hardware_type }}<div class="detail-meta-row"><dt>Type</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.architecture }}<div class="detail-meta-row"><dt>Architecture</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Release date</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.process_node }}<div class="detail-meta-row"><dt>Process node</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
+            {{ with $p.vram_gb }}<div class="detail-meta-row"><dt>VRAM</dt><dd>{{ . }} GB</dd></div>{{ end }}
+            {{ with $p.memory_type }}<div class="detail-meta-row"><dt>Memory type</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.memory_bus_bit }}<div class="detail-meta-row"><dt>Memory bus</dt><dd>{{ . }}-bit</dd></div>{{ end }}
+            {{ with $p.memory_bandwidth_gbps }}<div class="detail-meta-row"><dt>Memory bandwidth</dt><dd>{{ . }} GB/s</dd></div>{{ end }}
+            {{ with $p.core_count }}<div class="detail-meta-row"><dt>Cores</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.tensor_cores }}<div class="detail-meta-row"><dt>Tensor / matrix cores</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.base_clock_mhz }}<div class="detail-meta-row"><dt>Base clock</dt><dd>{{ . }} MHz</dd></div>{{ end }}
+            {{ with $p.boost_clock_mhz }}<div class="detail-meta-row"><dt>Boost clock</dt><dd>{{ . }} MHz</dd></div>{{ end }}
+            {{ with $p.fp32_tflops }}<div class="detail-meta-row"><dt>FP32 performance</dt><dd>{{ . }} TFLOPS</dd></div>{{ end }}
+            {{ with $p.tdp_watts }}<div class="detail-meta-row"><dt>TDP</dt><dd>{{ . }} W</dd></div>{{ end }}
+            {{ with $p.interface }}<div class="detail-meta-row"><dt>Interface</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.product_url }}
+            <div class="detail-meta-row">
+              <dt>Product page</dt>
+              <dd><a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+            </div>
+            {{ end }}
+            <div class="detail-meta-row">
+              <dt>Added</dt>
+              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+            </div>
+            {{ if $p.tags }}
+            <div class="detail-meta-row">
+              <dt>Tags</dt>
+              <dd class="detail-meta-tags">
+                {{ range $p.tags }}
+                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                {{ end }}
+              </dd>
+            </div>
+            {{ end }}
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Similar hardware -->
+    {{ if $similar }}
+    <section class="related-section">
+      <h2 class="related-title">// similar hardware{{ with $p.hardware_type }} in {{ . }}{{ end }}</h2>
+      <div class="tools-grid tools-grid--related">
+        {{ range $similar }}
+        {{ partial "gpu-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ partial "disqus.html" . }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

@@ -1,0 +1,88 @@
+{{/*
+  Renders a single hardware (GPU/accelerator) row for the /hardware list page.
+  Context (dict):
+    page  - Hugo page object for the hardware item
+    p     - page.Params
+*/}}
+{{ $page := .page }}
+{{ $p    := .p }}
+{{ $manufacturer := "" }}
+{{ if $p.manufacturer }}
+  {{ $companyMatch := where (where $page.Site.RegularPages "Section" "companies") "Params.slug" $p.manufacturer }}
+  {{ if $companyMatch }}{{ $manufacturer = (index $companyMatch 0).Params.name }}{{ end }}
+{{ end }}
+{{ $priceLabel := "N/A" }}
+{{ if $p.msrp_usd }}{{ $priceLabel = printf "~$%s" (lang.FormatNumberCustom 0 $p.msrp_usd ". ,") }}{{ end }}
+
+<a
+  href="{{ $page.RelPermalink }}"
+  class="gpu-row"
+  data-manufacturer="{{ $p.manufacturer }}"
+  data-type="{{ $p.hardware_type }}"
+  data-price="{{ $p.msrp_usd | default 0 }}"
+  data-vram="{{ $p.vram_gb | default 0 }}"
+  data-release="{{ $p.release_date | default "" }}"
+  data-rank="{{ $p.rank | default 5 }}"
+>
+  <div class="gpu-row__id">
+    <div class="gpu-row__logo">
+      {{ if $p.logo_url }}
+        <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+      {{ else }}
+        <img src="https://www.google.com/s2/favicons?domain={{ $p.product_url | default $p.website }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+      {{ end }}
+    </div>
+    <div class="gpu-row__id-text">
+      <span class="gpu-row__name">{{ $p.name }}</span>
+      <span class="gpu-row__sub">{{ if $manufacturer }}{{ $manufacturer }}{{ end }}{{ with $p.hardware_type }}{{ if $manufacturer }} · {{ end }}{{ . }}{{ end }}{{ with $p.architecture }} · {{ . }}{{ end }}</span>
+    </div>
+  </div>
+
+  <div class="gpu-row__specs">
+    {{ if $p.vram_gb }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.vram_gb }}GB</span>
+      <span class="gpu-row__stat-label">{{ $p.memory_type | default "VRAM" }}</span>
+    </div>
+    {{ end }}
+    {{ if $p.memory_bandwidth_gbps }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.memory_bandwidth_gbps }}</span>
+      <span class="gpu-row__stat-label">GB/s bandwidth</span>
+    </div>
+    {{ end }}
+    {{ if $p.fp32_tflops }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.fp32_tflops }}</span>
+      <span class="gpu-row__stat-label">FP32 TFLOPS</span>
+    </div>
+    {{ end }}
+    {{ if $p.tdp_watts }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.tdp_watts }}W</span>
+      <span class="gpu-row__stat-label">TDP</span>
+    </div>
+    {{ end }}
+    {{ if $p.process_node }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.process_node }}</span>
+      <span class="gpu-row__stat-label">process</span>
+    </div>
+    {{ end }}
+    {{ if $p.release_date }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ (time $p.release_date).Format "Jan 2006" }}</span>
+      <span class="gpu-row__stat-label">released</span>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ with $p.subtitle }}<p class="gpu-row__desc">{{ . }}</p>{{ end }}
+
+  <div class="gpu-row__price">
+    <span class="gpu-row__price-val">{{ $priceLabel }}</span>
+    <svg class="gpu-row__ext" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+  </div>
+</a>

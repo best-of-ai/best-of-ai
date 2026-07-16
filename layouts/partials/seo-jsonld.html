@@ -33,6 +33,43 @@
 {{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
+{{/* ── Product (hardware pages) ── */}}
+{{ else if and .IsPage (eq .Section "hardware") }}
+{{ $p := .Params }}
+{{ $hwBrandName := "" }}
+{{ if $p.manufacturer }}
+  {{ $hwBrandMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.manufacturer }}
+  {{ if $hwBrandMatch }}{{ $hwBrandName = (index $hwBrandMatch 0).Params.name }}{{ end }}
+{{ end }}
+{{ $hwProps := slice }}
+{{ if $p.vram_gb }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "VRAM" "value" (printf "%vGB" $p.vram_gb)) }}{{ end }}
+{{ if $p.memory_type }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "Memory type" "value" $p.memory_type) }}{{ end }}
+{{ if $p.memory_bandwidth_gbps }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "Memory bandwidth" "value" (printf "%v GB/s" $p.memory_bandwidth_gbps)) }}{{ end }}
+{{ if $p.tdp_watts }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "TDP" "value" (printf "%vW" $p.tdp_watts)) }}{{ end }}
+{{ if $p.fp32_tflops }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "FP32 performance" "value" (printf "%v TFLOPS" $p.fp32_tflops)) }}{{ end }}
+{{ if $p.process_node }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "Process node" "value" $p.process_node) }}{{ end }}
+{{ if $p.architecture }}{{ $hwProps = $hwProps | append (dict "@type" "PropertyValue" "name" "Architecture" "value" $p.architecture) }}{{ end }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Product"
+  "@id" .Permalink
+  "name" ($p.name | default "")
+  "description" ($p.subtitle | default $p.description | default "")
+  "category" ($p.hardware_type | default "AI Hardware")
+  "url" .Permalink
+}}
+{{ if $hwBrandName }}{{ $schema = merge $schema (dict "brand" (dict "@type" "Brand" "name" $hwBrandName)) }}{{ end }}
+{{ if $p.logo_url }}{{ $schema = merge $schema (dict "image" $p.logo_url) }}{{ end }}
+{{ if $hwProps }}{{ $schema = merge $schema (dict "additionalProperty" $hwProps) }}{{ end }}
+{{ if $p.release_date }}{{ $schema = merge $schema (dict "releaseDate" $p.release_date) }}{{ end }}
+{{ if $p.msrp_usd }}
+  {{ $hwOffers := dict "@type" "Offer" "priceCurrency" "USD" "price" (printf "%v" $p.msrp_usd) "availability" "https://schema.org/InStock" }}
+  {{ if $p.product_url }}{{ $hwOffers = merge $hwOffers (dict "url" $p.product_url) }}{{ end }}
+  {{ $schema = merge $schema (dict "offers" $hwOffers) }}
+{{ end }}
+{{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
 {{/* ── Organization (company pages) ── */}}
 {{ else if and .IsPage (eq .Section "companies") }}
 {{ $p := .Params }}
@@ -168,6 +205,9 @@
 {{ else if and .IsPage (eq .Section "companies") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Companies" "item" (printf "%s/companies/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "hardware") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Hardware" "item" (printf "%s/hardware/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "journal") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "The AI Journal" "item" (printf "%s/journal/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
@@ -251,6 +291,23 @@
     "url" .Permalink
     "numberOfItems" (len $allCompanies)
     "mainEntity" (dict "@type" "ItemList" "name" "Top AI Companies in the World" "numberOfItems" (len $allCompanies) "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and (eq .Kind "section") (eq .Section "hardware") }}
+  {{ $allHw := where .Site.RegularPages "Section" "hardware" }}
+  {{ $allHw = sort $allHw "Params.rank" "desc" }}
+  {{ $listItems := slice }}
+  {{ range $i, $h := $allHw | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $h.Params.name "url" $h.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "Top AI Hardware & GPUs"
+    "description" "GPUs and AI accelerators, with full specs, from the companies building them."
+    "url" .Permalink
+    "numberOfItems" (len $allHw)
+    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Hardware & GPUs" "numberOfItems" (len $allHw) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}

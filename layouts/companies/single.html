@@ -4,6 +4,8 @@
 {{ $tools       := where .Site.RegularPages "Section" "tools" }}
 {{ $companyTools := where $tools "Params.company" $slug }}
 {{ $companyTools  = sort $companyTools "Params.name" "asc" }}
+{{ $hardware        := where .Site.RegularPages "Section" "hardware" }}
+{{ $companyHardware := sort (where $hardware "Params.manufacturer" $slug) "Params.rank" "desc" }}
 
 <div class="home-layout">
 
@@ -37,6 +39,7 @@
         <p class="cat-hero__desc">{{ $p.description }}</p>
         <div class="cat-hero__meta">
           <span><strong>{{ partial "count.html" (len $companyTools) }}</strong> tools</span>
+          {{ if $companyHardware }}<span class="stat-sep">·</span><span><strong>{{ partial "count.html" (len $companyHardware) }}</strong> GPUs</span>{{ end }}
           {{ with $p.founded }}<span class="stat-sep">·</span><span>founded {{ . }}</span>{{ end }}
           {{ with $p.headquarters }}<span class="stat-sep">·</span><span>{{ . }}</span>{{ end }}
         </div>
@@ -70,8 +73,18 @@
       {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
       {{ end }}
     </div>
-    {{ else }}
+    {{ else if not $companyHardware }}
     <p style="color:var(--fg-muted);padding:2rem 0">No tools listed for this company yet.</p>
+    {{ end }}
+
+    <!-- Hardware grid -->
+    {{ if $companyHardware }}
+    <h2 class="other-cats__title">// hardware by {{ $p.name }}</h2>
+    <div class="tools-grid" id="company-hardware-grid">
+      {{ range $companyHardware }}
+      {{ partial "gpu-card.html" (dict "page" . "p" .Params) }}
+      {{ end }}
+    </div>
     {{ end }}
 
     {{ partial "disqus.html" . }}

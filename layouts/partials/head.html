@@ -5,11 +5,19 @@
 {{ $isSaved  := eq .Params.layout "saved" }}
 {{ $isTool    := and .IsPage (eq .Section "tools") }}
 {{ $isCompany := and .IsPage (eq .Section "companies") }}
+{{ $isHardware := and .IsPage (eq .Section "hardware") }}
 {{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $name     := or .Params.name .Title }}
 {{ $siteURL  := .Site.BaseURL | strings.TrimRight "/" }}
 {{ $ogImageDefault := printf "%s/img/preview.png" $siteURL }}
+
+{{/* ── Hardware manufacturer lookup ── */}}
+{{ $hwManufacturerName := "" }}
+{{ if and $isHardware .Params.manufacturer }}
+  {{ $hwMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" .Params.manufacturer }}
+  {{ if $hwMatch }}{{ $hwManufacturerName = (index $hwMatch 0).Params.name }}{{ end }}
+{{ end }}
 
 {{/* ── Robots ── */}}
 {{ if or $is404 $isSaved }}
@@ -31,6 +39,9 @@
 {{ else if and .IsPage (eq .Section "categories") }}
   {{ $count := len (where .Site.RegularPages "Params.category" .Params.slug) }}
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
+{{ else if $isHardware }}
+  {{ $hwTypeLabel := .Params.hardware_type | default "AI" }}
+  {{ $pageTitle = printf "%s — %s AI Hardware | Best of AI" $name $hwTypeLabel }}
 {{ else if $isCompany }}
   {{ $companySlug := or .Params.slug .File.BaseFileName }}
   {{ $companyCount := len (where .Site.RegularPages "Params.company" $companySlug) }}
@@ -46,6 +57,8 @@
     {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
   {{ else if eq .Section "companies" }}
     {{ $pageTitle = printf "Top AI Companies in the World (%d) — Best of AI" (len (where .Site.RegularPages "Section" "companies")) }}
+  {{ else if eq .Section "hardware" }}
+    {{ $pageTitle = printf "Top AI Hardware & GPUs (%d) — Best of AI" (len (where .Site.RegularPages "Section" "hardware")) }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
     {{ $pageTitle = printf "AI Tools Leaderboard %s — Best of AI" (now.Format "January 2006") }}
   {{ else }}
@@ -90,6 +103,17 @@
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI %s tools, selected for quality and real-world impact." $count .Params.name }}
   {{ end }}
+{{ else if $isHardware }}
+  {{ $hwType     := .Params.hardware_type | default "AI" }}
+  {{ $hwSub      := .Params.subtitle | default .Params.description | default "" }}
+  {{ $hwFromBit  := "" }}
+  {{ if $hwManufacturerName }}{{ $hwFromBit = printf " from %s" $hwManufacturerName }}{{ end }}
+  {{ $hwSpecBits := slice }}
+  {{ if .Params.vram_gb }}{{ $hwSpecBits = $hwSpecBits | append (printf "%vGB %s" .Params.vram_gb (.Params.memory_type | default "VRAM")) }}{{ end }}
+  {{ if .Params.tdp_watts }}{{ $hwSpecBits = $hwSpecBits | append (printf "%vW TDP" .Params.tdp_watts) }}{{ end }}
+  {{ $hwSpecStr  := "" }}
+  {{ if $hwSpecBits }}{{ $hwSpecStr = printf " with %s" (delimit $hwSpecBits ", ") }}{{ end }}
+  {{ $desc = printf "%s is a %s AI accelerator%s%s. %s" $name $hwType $hwFromBit $hwSpecStr $hwSub }}
 {{ else if $isCompany }}
   {{ $companySlug   := or .Params.slug .File.BaseFileName }}
   {{ $companyCount  := len (where .Site.RegularPages "Params.company" $companySlug) }}
@@ -104,6 +128,8 @@
     {{ $desc = printf "Find AI tools tailored to your role — %d profession guides with handpicked tools on Best of AI." (len .Pages) }}
   {{ else if eq .Section "companies" }}
     {{ $desc = printf "The top %d AI companies and labs in the world — ranked by tools featured on Best of AI." (len .Pages) }}
+  {{ else if eq .Section "hardware" }}
+    {{ $desc = printf "Browse %d AI GPUs and accelerators, with full specs — VRAM, memory bandwidth, TDP, and price — from the companies building them." (len .Pages) }}
   {{ else }}
     {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
@@ -144,6 +170,11 @@
 <meta name="keywords" content="{{ delimit $kws ", " }}">
 {{ else if and .IsPage (eq .Section "categories") }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
+{{ else if $isHardware }}
+{{ $hwKws := slice $name (.Params.hardware_type | default "") (.Params.architecture | default "") "AI hardware" "AI GPU" "AI accelerator" }}
+{{ if $hwManufacturerName }}{{ $hwKws = $hwKws | append $hwManufacturerName }}{{ $hwKws = $hwKws | append (printf "%s GPU" $hwManufacturerName) }}{{ end }}
+{{ range .Params.tags }}{{ $hwKws = $hwKws | append . }}{{ end }}
+<meta name="keywords" content="{{ delimit $hwKws ", " }}">
 {{ else if $isCompany }}
 {{ $ckws := slice .Params.name "AI company" (printf "%s AI" .Params.name) (printf "%s tools" .Params.name) }}
 {{ with .Params.headquarters }}{{ $ckws = $ckws | append . }}{{ end }}
@@ -161,6 +192,8 @@
     {{ $profKws = $profKws | append (printf "%s AI tools" (. | humanize | lower)) }}
   {{ end }}
 <meta name="keywords" content="{{ delimit $profKws ", " }}">
+{{ else if and (eq .Kind "section") (eq .Section "hardware") }}
+<meta name="keywords" content="AI hardware, AI GPUs, GPU specs, AI accelerators, best AI GPUs, AI chips, GPU comparison, NVIDIA GPU, AMD GPU, TPU, datacenter GPU">
 {{ else if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{ end }}
@@ -168,7 +201,7 @@
 {{/* ── Open Graph ── */}}
 {{ $ogImage := $ogImageDefault }}
 {{ $ogUseDefaultImg := true }}
-{{ if and (or $isTool $isCompany) .Params.logo_url }}
+{{ if and (or $isTool $isCompany $isHardware) .Params.logo_url }}
   {{ $ogImage = .Params.logo_url }}
   {{ $ogUseDefaultImg = false }}
 {{ end }}

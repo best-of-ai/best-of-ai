@@ -1,0 +1,184 @@
+{{ define "main" }}
+{{ $allHardware := where .Site.RegularPages "Section" "hardware" }}
+{{ $allHardware = sort $allHardware "Params.rank" "desc" }}
+
+{{ $manufacturers := slice }}
+{{ range $allHardware }}
+  {{ if .Params.manufacturer }}
+    {{ if not (in $manufacturers .Params.manufacturer) }}
+      {{ $manufacturers = $manufacturers | append .Params.manufacturer }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $manufacturerPages := where .Site.RegularPages "Section" "companies" }}
+
+{{ $types := slice }}
+{{ range $allHardware }}
+  {{ if .Params.hardware_type }}
+    {{ if not (in $types .Params.hardware_type) }}
+      {{ $types = $types | append .Params.hardware_type }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $types = sort $types }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Hardware</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Hardware</span> &amp; GPUs</h1>
+      <p class="pg-hero__desc">GPUs and AI accelerators, with full specs, from the companies building them.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $allHardware) }}</strong> parts
+        <span class="sep">·</span>
+        <strong>{{ partial "count.html" (len $manufacturers) }}</strong> manufacturers
+      </div>
+    </div>
+
+    <div class="company-search">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="hardware-search-input" placeholder="Search hardware by name or manufacturer…" autocomplete="off" spellcheck="false" aria-label="Search hardware">
+    </div>
+
+    <div class="prof-cat-tabs" id="hardware-type-tabs">
+      <button class="pf active" data-type="all">all <span class="prof-cat-count">{{ partial "count.html" (len $allHardware) }}</span></button>
+      {{ range $types }}
+        {{ $t := . }}
+        {{ $count := len (where $allHardware "Params.hardware_type" $t) }}
+        <button class="pf" data-type="{{ $t }}">{{ $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></button>
+      {{ end }}
+    </div>
+
+    <div class="price-bar" id="hardware-sort-bar">
+      <select class="hw-select" id="hardware-manufacturer-select" aria-label="Filter by manufacturer">
+        <option value="all">all manufacturers</option>
+        {{ range $manufacturers }}
+          {{ $slug := . }}
+          {{ $name := $slug }}
+          {{ $mpMatch := where $manufacturerPages "Params.slug" $slug }}
+          {{ if $mpMatch }}{{ $name = (index $mpMatch 0).Params.name }}{{ end }}
+          <option value="{{ $slug }}">{{ $name }}</option>
+        {{ end }}
+      </select>
+      <span class="price-bar__label">// sort by</span>
+      <button class="pf active" data-sort="rank" data-dir="desc">popularity <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="price" data-dir="desc">price <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="vram" data-dir="desc">vram <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="release" data-dir="desc">release date <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="az" data-dir="asc">a–z <span class="pf__arrow">↓</span></button>
+    </div>
+
+    <div class="hardware-list" id="hardware-grid">
+      {{ range $allHardware }}
+      {{ partial "gpu-row.html" (dict "page" . "p" .Params) }}
+      {{ end }}
+    </div>
+
+    <p class="company-empty" id="hardware-empty" style="display:none">No hardware matches your search.</p>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+<script>
+(function() {
+  var search        = document.getElementById('hardware-search-input');
+  var typeTabs       = document.querySelectorAll('#hardware-type-tabs .pf');
+  var manufSelect    = document.getElementById('hardware-manufacturer-select');
+  var sortBtns       = document.querySelectorAll('#hardware-sort-bar .pf');
+  var empty          = document.getElementById('hardware-empty');
+  var container       = document.getElementById('hardware-grid');
+  var cards           = Array.from(container.querySelectorAll('.gpu-row'));
+
+  var activeType        = 'all';
+  var activeManufacturer = 'all';
+  var activeSort         = 'rank';
+  var activeDir           = 'desc';
+
+  function applyFilter() {
+    var q = search.value.trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function(card) {
+      var name = card.querySelector('.gpu-row__name').textContent.toLowerCase();
+      var manuf = (card.dataset.manufacturer || '').toLowerCase();
+      var qMatch = !q || name.includes(q) || manuf.includes(q);
+      var typeMatch = activeType === 'all' || card.dataset.type === activeType;
+      var manufMatch = activeManufacturer === 'all' || card.dataset.manufacturer === activeManufacturer;
+      var show = qMatch && typeMatch && manufMatch;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    empty.style.display = visible === 0 ? '' : 'none';
+  }
+
+  function compare(a, b) {
+    if (activeSort === 'price') {
+      return (parseFloat(a.dataset.price) || 0) - (parseFloat(b.dataset.price) || 0);
+    }
+    if (activeSort === 'vram') {
+      return (parseFloat(a.dataset.vram) || 0) - (parseFloat(b.dataset.vram) || 0);
+    }
+    if (activeSort === 'release') {
+      return (a.dataset.release || '').localeCompare(b.dataset.release || '');
+    }
+    if (activeSort === 'az') {
+      return a.querySelector('.gpu-row__name').textContent.localeCompare(b.querySelector('.gpu-row__name').textContent);
+    }
+    return (parseFloat(a.dataset.rank) || 0) - (parseFloat(b.dataset.rank) || 0);
+  }
+
+  function applySort() {
+    var dirMult = activeDir === 'asc' ? 1 : -1;
+    var sorted = cards.slice().sort(function(a, b) { return compare(a, b) * dirMult; });
+    sorted.forEach(function(card) { container.appendChild(card); });
+  }
+
+  if (search) search.addEventListener('input', applyFilter);
+
+  typeTabs.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activeType = btn.dataset.type;
+      typeTabs.forEach(function(b) { b.classList.toggle('active', b === btn); });
+      applyFilter();
+    });
+  });
+
+  if (manufSelect) {
+    manufSelect.addEventListener('change', function() {
+      activeManufacturer = manufSelect.value;
+      applyFilter();
+    });
+  }
+
+  sortBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      if (btn.dataset.sort === activeSort) {
+        activeDir = activeDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        activeSort = btn.dataset.sort;
+        activeDir  = btn.dataset.dir || 'desc';
+      }
+      sortBtns.forEach(function(b) {
+        b.classList.toggle('active', b === btn);
+        var arrow = b.querySelector('.pf__arrow');
+        if (arrow) arrow.textContent = (b === btn && activeDir === 'asc') ? '↑' : '↓';
+      });
+      applySort();
+    });
+  });
+})();
+</script>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

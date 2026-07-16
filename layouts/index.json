@@ -3,6 +3,7 @@
 {{ $profs := where .Site.RegularPages "Section" "professionals" -}}
 {{ $cats  := where .Site.RegularPages "Section" "categories" -}}
 {{ $companies := where .Site.RegularPages "Section" "companies" -}}
+{{ $hardware := where .Site.RegularPages "Section" "hardware" -}}
 {{ $items := slice -}}
 {{ range $profs -}}
   {{ $p := .Params -}}
@@ -38,6 +39,19 @@
     "url"         .RelPermalink
     "description" ($p.description | default $p.subtitle | default "")
     "category"    "Company"
+  -}}
+  {{ $items = $items | append $item -}}
+{{ end -}}
+{{ range $hardware -}}
+  {{ $p := .Params -}}
+  {{ $item := dict
+    "type"        "hardware"
+    "name"        ($p.name | default .Title)
+    "slug"        ($p.slug | default .File.BaseFileName)
+    "url"         .RelPermalink
+    "description" ($p.subtitle | default (printf "%s · %s" ($p.manufacturer | default "") ($p.type | default "")))
+    "logo_url"    ($p.logo_url | default "")
+    "category"    "Hardware"
   -}}
   {{ $items = $items | append $item -}}
 {{ end -}}

@@ -92,7 +92,7 @@
     selected = -1;
     if (!q || q.length < 2 || !index) { results.innerHTML = ''; return; }
     var ql = q.toLowerCase();
-    var groups = { profession: [], category: [], tag: [], company: [], tool: [] };
+    var groups = { profession: [], category: [], tag: [], company: [], hardware: [], tool: [] };
     for (var i = 0; i < index.length; i++) {
       var it    = index[i];
       var type  = it.type || 'tool';
@@ -107,8 +107,9 @@
     cats.sort(function(a,b){ return b.score - a.score; });
     cats = cats.slice(0, 4);
     var companies = groups.company.slice(0, 4);
+    var hardware  = groups.hardware.slice(0, 4);
     var tools     = groups.tool.slice(0, 8);
-    var total = profs.length + cats.length + companies.length + tools.length;
+    var total = profs.length + cats.length + companies.length + hardware.length + tools.length;
     if (!total) {
       results.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
       return;
@@ -125,6 +126,10 @@
     if (companies.length) {
       html += '<div class="sr-group-label">Companies</div>';
       companies.forEach(function(r){ html += renderItem(r.it, q); });
+    }
+    if (hardware.length) {
+      html += '<div class="sr-group-label">Hardware</div>';
+      hardware.forEach(function(r){ html += renderItem(r.it, q); });
     }
     if (tools.length) {
       html += '<div class="sr-group-label">Tools</div>';

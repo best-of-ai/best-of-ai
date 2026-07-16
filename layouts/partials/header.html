@@ -129,6 +129,9 @@
       <!-- Leaderboard link -->
       <a href="{{ "/leaderboard/" | relURL }}" class="nav-btn nav-btn--link">Leaderboard</a>
 
+      <!-- Hardware link -->
+      <a href="{{ "/hardware/" | relURL }}" class="nav-btn nav-btn--link">Hardware</a>
+
       <!-- Journal link -->
       <a href="{{ "/journal/" | relURL }}" class="nav-btn nav-btn--link">Journal</a>
 
@@ -177,6 +180,10 @@
       <a href="{{ "/companies/" | relURL }}" class="mob-link{{ if eq .Section "companies" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
         Companies
+      </a>
+      <a href="{{ "/hardware/" | relURL }}" class="mob-link{{ if eq .Section "hardware" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
+        Hardware
       </a>
       <a href="{{ "/journal/" | relURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
@@ -390,7 +397,7 @@
     searchSel = -1;
     if (!q || q.length < 2 || !searchIndex) { searchDrop.innerHTML = ''; return; }
     var ql = q.toLowerCase();
-    var groups = { profession: [], category: [], tag: [], company: [], tool: [] };
+    var groups = { profession: [], category: [], tag: [], company: [], hardware: [], tool: [] };
     for (var i = 0; i < searchIndex.length; i++) {
       var it   = searchIndex[i];
       var type = it.type || 'tool';
@@ -405,8 +412,9 @@
     cats.sort(function(a,b){ return b.score - a.score; });
     cats = cats.slice(0, 4);
     var companies = groups.company.slice(0, 4);
+    var hardware  = groups.hardware.slice(0, 4);
     var tools     = groups.tool.slice(0, 8);
-    if (!profs.length && !cats.length && !companies.length && !tools.length) {
+    if (!profs.length && !cats.length && !companies.length && !hardware.length && !tools.length) {
       searchDrop.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
       return;
     }
@@ -414,6 +422,7 @@
     if (profs.length)     { html += '<div class="sr-group-label">Professions</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (cats.length)      { html += '<div class="sr-group-label">Categories &amp; Tags</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (companies.length) { html += '<div class="sr-group-label">Companies</div>'; companies.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (hardware.length)  { html += '<div class="sr-group-label">Hardware</div>'; hardware.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (tools.length)     { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
     searchDrop.innerHTML = html;
   }

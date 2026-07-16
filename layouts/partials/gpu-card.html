@@ -1,0 +1,48 @@
+{{/*
+  Renders a single hardware (GPU/accelerator) card.
+  Context (dict):
+    page  - Hugo page object for the hardware item
+    p     - page.Params
+    desc  - optional description override
+*/}}
+{{ $page := .page }}
+{{ $p    := .p }}
+{{ $slug := or $p.slug $page.File.BaseFileName }}
+{{ $manufacturer := "" }}
+{{ if $p.manufacturer }}
+  {{ $companyMatch := where (where $page.Site.RegularPages "Section" "companies") "Params.slug" $p.manufacturer }}
+  {{ if $companyMatch }}{{ $manufacturer = (index $companyMatch 0).Params.name }}{{ end }}
+{{ end }}
+{{ $specBits := slice }}
+{{ if $p.vram_gb }}{{ $specBits = $specBits | append (printf "%vGB %s" $p.vram_gb (or $p.memory_type "")) }}{{ end }}
+{{ if $p.tdp_watts }}{{ $specBits = $specBits | append (printf "%vW" $p.tdp_watts) }}{{ end }}
+{{ $desc := or .desc $p.subtitle (delimit $specBits " · ") }}
+{{ $priceLabel := "N/A" }}
+{{ if $p.msrp_usd }}{{ $priceLabel = printf "~$%s" (lang.FormatNumberCustom 0 $p.msrp_usd ". ,") }}{{ end }}
+
+<a
+  href="{{ $page.RelPermalink }}"
+  class="tool-card"
+  data-manufacturer="{{ $p.manufacturer }}"
+  data-type="{{ $p.hardware_type }}"
+  data-price="{{ $p.msrp_usd | default 0 }}"
+  data-vram="{{ $p.vram_gb | default 0 }}"
+  data-release="{{ $p.release_date | default "" }}"
+  data-rank="{{ $p.rank | default 5 }}"
+>
+  <div class="tool-card__logo">
+    {{ if $p.logo_url }}
+      <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+    {{ else }}
+      <img src="https://www.google.com/s2/favicons?domain={{ $p.product_url | default $p.website }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+    {{ end }}
+  </div>
+  <div class="tool-card__body">
+    <span class="tool-card__name">{{ $p.name }}</span>
+    <span class="tool-card__desc">{{ $desc }}</span>
+    <span class="tool-card__desc" style="opacity:0.7">{{ if $manufacturer }}{{ $manufacturer }}{{ with $p.hardware_type }} · {{ . }}{{ end }} · {{ end }}{{ $priceLabel }}</span>
+  </div>
+  <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+</a>
