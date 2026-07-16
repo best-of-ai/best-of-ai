@@ -21,5 +21,5 @@ alternatives:
   - asana
   - canva
 date: '2025-10-01'
-tags: [training, ai_powered, intelligent, platform, tool, service, solution, saas]
+tags: [collaboration, analytics, training, ai_powered, intelligent, platform, tool, service]
 ---

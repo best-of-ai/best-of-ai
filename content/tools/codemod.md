@@ -21,5 +21,5 @@ alternatives:
   - azure-openai
   - github-copilot
 date: '2025-06-15'
-tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, collaboration]
 ---

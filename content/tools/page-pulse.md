@@ -20,5 +20,5 @@ alternatives:
   - datarobot
   - dbt-cloud
 date: '2025-01-01'
-tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, easy_to_use]
+tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql]
 ---

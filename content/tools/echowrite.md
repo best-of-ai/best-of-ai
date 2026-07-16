@@ -20,5 +20,5 @@ alternatives:
   - ace-studio
   - adobe-enhance-speech
 date: '2025-01-01'
-tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, integrations, voice_enabled]
+tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, voice_enabled, fast, powerful]
 ---

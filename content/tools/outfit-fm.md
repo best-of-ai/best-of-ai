@@ -20,5 +20,5 @@ alternatives:
   - asana
   - canva
 date: '2025-01-01'
-tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, model_based, powerful]
+tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, image_based, model_based, powerful]
 ---

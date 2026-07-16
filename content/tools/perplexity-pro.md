@@ -20,5 +20,5 @@ alternatives:
   - claude
   - notebooklm
 date: '2026-06-15'
-tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, model_based, powerful]
+tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, model_based, fast, powerful]
 ---

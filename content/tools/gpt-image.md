@@ -12,7 +12,6 @@ price: 'Paid'
 featured: false
 rank: 5
 date: '2026-07-02'
-tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, api_available, collaboration, image_based]
 alternatives:
   - midjourney
   - dalle
@@ -22,4 +21,5 @@ alternatives:
   - leonardo-ai
   - krea-ai
   - freepik-ai
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, api_available, collaboration, image_based]
 ---

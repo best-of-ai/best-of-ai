@@ -20,5 +20,5 @@ alternatives:
   - growthbar
   - keyword-insights
 date: '2025-01-01'
-tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp]
+tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, integrations]
 ---

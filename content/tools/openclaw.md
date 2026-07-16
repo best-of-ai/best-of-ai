@@ -20,5 +20,5 @@ alternatives:
   - flowise
   - smolagents
 date: '2025-01-01'
-tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, powerful]
 ---

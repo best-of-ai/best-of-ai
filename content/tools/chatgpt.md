@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 10
 date: '2025-09-21'
-tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, image_based]
 alternatives:
   - claude
   - gemini
@@ -22,6 +21,7 @@ alternatives:
   - notebooklm
   - microsoft-copilot
   - claude-code
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, image_based]
 ---
 
 ChatGPT launched in November 2022 and reached a million users in five days, faster than any consumer product before it. It runs on OpenAI's GPT-4o model, which handles text, images, files, and voice inside a single conversation thread. The interface is approachable enough for someone who's never used AI before, yet the underlying capabilities are deep enough that developers, lawyers, analysts, and writers treat it as a daily work tool.

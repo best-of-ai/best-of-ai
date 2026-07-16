@@ -20,5 +20,5 @@ alternatives:
   - competitor-analyzer
   - crunchbase-ai
 date: '2025-01-01'
-tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence]
+tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, customizable]
 ---

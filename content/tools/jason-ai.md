@@ -20,5 +20,5 @@ alternatives:
   - chorus-ai
   - gong
 date: '2025-01-01'
-tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
+tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, templates]
 ---

@@ -20,5 +20,5 @@ alternatives:
   - adobe-premiere-pro-ai
   - asana
 date: '2026-06-15'
-tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
+tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional, templates]
 ---

@@ -12,7 +12,6 @@ price: 'Free'
 featured: false
 rank: 8
 date: '2025-01-01'
-tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 alternatives:
   - chatgpt
   - claude
@@ -22,4 +21,5 @@ alternatives:
   - gemini
   - gemini-3
   - microsoft-copilot
+tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

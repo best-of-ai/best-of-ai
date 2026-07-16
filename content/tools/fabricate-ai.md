@@ -20,5 +20,5 @@ alternatives:
   - cline
   - codeium
 date: '2025-01-01'
-tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, easy_to_use]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, customizable, analytics]
 ---

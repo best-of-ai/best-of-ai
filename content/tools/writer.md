@@ -20,5 +20,5 @@ alternatives:
   - wordtune
   - ai-writer
 date: '2026-06-15'
-tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, enterprise]
+tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, enterprise, training]
 ---

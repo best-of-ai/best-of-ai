@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 8
 date: '2025-09-21'
-tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, real_time, nlp, model_based]
 alternatives:
   - chatgpt
   - gemini
@@ -22,4 +21,5 @@ alternatives:
   - kagi
   - andi-search
   - phind
+tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, real_time, nlp, model_based]
 ---

@@ -20,5 +20,5 @@ alternatives:
   - aiprm
   - coda-ai
 date: '2025-01-01'
-tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, easy_to_use]
 ---

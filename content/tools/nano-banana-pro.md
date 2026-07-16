@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 5
 date: '2026-07-02'
-tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based, fast]
 alternatives:
   - midjourney
   - ideogram
@@ -22,4 +21,5 @@ alternatives:
   - gpt-image
   - dalle
   - leonardo-ai
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based, fast]
 ---

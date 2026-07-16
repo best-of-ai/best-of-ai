@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 9
 date: '2025-01-01'
-tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
 alternatives:
   - runway
   - veo-3
@@ -22,4 +21,5 @@ alternatives:
   - hailuo-ai
   - haiper
   - gen-2
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
 ---

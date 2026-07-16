@@ -20,5 +20,5 @@ alternatives:
   - power-bi
   - tableau
 date: '2026-06-15'
-tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, cloud_based, machine_learning]
+tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, cloud_based, machine_learning]
 ---

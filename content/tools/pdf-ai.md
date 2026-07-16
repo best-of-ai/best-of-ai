@@ -20,5 +20,5 @@ alternatives:
   - hyperscience
   - instabase
 date: '2026-06-15'
-tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing]
+tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast]
 ---

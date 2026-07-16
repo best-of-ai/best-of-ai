@@ -20,5 +20,5 @@ alternatives:
   - asana
   - canva
 date: '2026-06-15'
-tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data, customizable]
+tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data]
 ---

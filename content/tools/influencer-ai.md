@@ -20,5 +20,5 @@ alternatives:
   - crayon
   - jasper-marketing
 date: '2025-01-01'
-tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, model_based]
+tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, image_based, model_based]
 ---

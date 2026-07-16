@@ -12,14 +12,19 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
+  - altern
+  - theres-an-ai-for-that
+  - futurepedia
+  - future-tools
+  - toolify-ai
+  - topai-tools
+  - aixploria
+  - dang-ai
+  - insidr-ai
+  - allthingsai
   - productivity-directory
   - ai-for-developer
-  - altern
   - aidir-wiki
-  - marketinguys
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
 ---

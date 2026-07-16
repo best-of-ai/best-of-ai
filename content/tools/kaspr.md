@@ -20,5 +20,5 @@ alternatives:
   - conversica-ai
   - seamless-ai
 date: '2026-06-15'
-tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, fast]
+tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, browser_extension, collaboration, fast]
 ---

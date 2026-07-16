@@ -20,5 +20,5 @@ alternatives:
   - pi-ai
   - littlebird-ai
 date: '2025-01-01'
-tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, secure]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, customizable, cloud_based, secure]
 ---

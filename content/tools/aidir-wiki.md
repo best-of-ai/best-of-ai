@@ -13,13 +13,18 @@ featured: false
 rank: 7
 alternatives:
   - altern
-  - ai-for-developer
-  - productivity-directory
   - best-of-ai
-  - perplexity-labs
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - theres-an-ai-for-that
+  - futurepedia
+  - future-tools
+  - toolify-ai
+  - topai-tools
+  - aixploria
+  - dang-ai
+  - insidr-ai
+  - allthingsai
+  - productivity-directory
+  - ai-for-developer
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
 ---

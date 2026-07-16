@@ -20,5 +20,5 @@ alternatives:
   - adobe-premiere-pro-ai
   - asana
 date: '2026-06-15'
-tags: [podcast, audio, content_creation, media, broadcasting, episodes, hosting, editing, distribution, analytics]
+tags: [podcast, audio, content_creation, media, broadcasting, episodes, hosting, editing, distribution, collaboration, voice_enabled, analytics]
 ---

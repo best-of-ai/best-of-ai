@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 8
 date: '2025-09-21'
-tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, extensible]
 alternatives:
   - cursor
   - github-copilot
@@ -22,4 +21,5 @@ alternatives:
   - cline
   - amazon-q
   - copilot-workspace
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, extensible]
 ---

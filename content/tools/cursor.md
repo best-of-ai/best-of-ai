@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 10
 date: '2025-09-21'
-tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 alternatives:
   - github-copilot
   - windsurf
@@ -22,4 +21,5 @@ alternatives:
   - cline
   - aider
   - amazon-q
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

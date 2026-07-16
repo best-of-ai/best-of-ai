@@ -21,5 +21,5 @@ alternatives:
   - bolt-new
   - copilot-workspace
 date: '2025-06-15'
-tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, nlp, model_based]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, integrations]
 ---

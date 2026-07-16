@@ -20,5 +20,5 @@ alternatives:
   - marketmuse
   - persado
 date: '2026-06-15'
-tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, voice_enabled]
+tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, voice_enabled]
 ---

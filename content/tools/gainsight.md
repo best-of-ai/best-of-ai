@@ -20,5 +20,5 @@ alternatives:
   - close
   - copper
 date: '2026-06-15'
-tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, customizable]
+tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable]
 ---

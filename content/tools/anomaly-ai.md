@@ -20,5 +20,5 @@ alternatives:
   - airbyte-ai
   - datarobot
 date: '2026-06-21'
-tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql]
+tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, fast]
 ---

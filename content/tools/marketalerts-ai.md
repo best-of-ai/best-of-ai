@@ -20,5 +20,5 @@ alternatives:
   - kensho
   - plaid
 date: '2025-01-01'
-tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, mobile_app, real_time]
 ---

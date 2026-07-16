@@ -20,5 +20,5 @@ alternatives:
   - adobe-premiere-pro-ai
   - asana
 date: '2026-06-15'
-tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, open_source, community_driven]
+tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, open_source, collaboration, community_driven]
 ---

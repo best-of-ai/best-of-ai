@@ -12,7 +12,6 @@ price: 'Freemium'
 featured: false
 rank: 9
 date: '2025-01-01'
-tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, fast]
 alternatives:
   - bolt-new
   - v0
@@ -22,4 +21,5 @@ alternatives:
   - base44
   - stack-ai
   - flutterflow
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, fast]
 ---

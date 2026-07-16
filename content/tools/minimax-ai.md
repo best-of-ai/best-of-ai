@@ -20,5 +20,5 @@ alternatives:
   - raw-shorts
   - renderforest
 date: '2026-06-15'
-tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, multimodal, image_based, model_based]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, api_available, multimodal, image_based]
 ---

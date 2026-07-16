@@ -21,5 +21,5 @@ alternatives:
   - asana
   - canva
 date: '2025-10-01'
-tags: [open_source, machine_learning, image_based, training, community_driven, ai_powered, intelligent, platform]
+tags: [open_source, collaboration, integrations, secure, machine_learning, image_based, training, community_driven]
 ---

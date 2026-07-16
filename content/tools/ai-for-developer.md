@@ -13,13 +13,19 @@ featured: false
 rank: 7
 alternatives:
   - altern
-  - aidir-wiki
-  - productivity-directory
   - best-of-ai
+  - theres-an-ai-for-that
+  - futurepedia
+  - future-tools
+  - toolify-ai
+  - topai-tools
+  - aixploria
+  - dang-ai
+  - insidr-ai
+  - allthingsai
+  - productivity-directory
+  - aidir-wiki
   - sourcegraph-cody
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, integrations, model_based]
 ---

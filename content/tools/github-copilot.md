@@ -12,7 +12,6 @@ price: 'Paid'
 featured: false
 rank: 9
 date: '2025-09-21'
-tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, community_driven]
 alternatives:
   - cursor
   - codeium
@@ -22,4 +21,5 @@ alternatives:
   - cline
   - amazon-q
   - supermaven
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, community_driven]
 ---

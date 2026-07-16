@@ -20,5 +20,5 @@ alternatives:
   - obsidian-ai
   - anything-llm
 date: '2026-06-15'
-tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval]
+tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, collaboration, customizable, nlp]
 ---

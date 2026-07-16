@@ -21,5 +21,5 @@ alternatives:
   - asana
   - canva
 date: '2025-10-01'
-tags: [free_tier, ai_powered, intelligent, platform, tool, service, solution, saas]
+tags: [free_tier, cloud_based, model_based, fast, ai_powered, intelligent, platform, tool]
 ---

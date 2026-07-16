@@ -20,5 +20,5 @@ alternatives:
   - grammarly
   - writesonic
 date: '2025-01-01'
-tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, free_tier, voice_enabled]
+tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, free_tier, voice_enabled, fast]
 ---

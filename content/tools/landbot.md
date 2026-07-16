@@ -20,5 +20,5 @@ alternatives:
   - gemini-advanced
   - kimi
 date: '2026-06-15'
-tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, collaboration, customizable, integrations]
 ---

@@ -20,5 +20,5 @@ alternatives:
   - bing-image-creator
   - civitai
 date: '2025-01-01'
-tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, powerful]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, templates, image_based, fast]
 ---

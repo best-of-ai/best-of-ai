@@ -20,5 +20,5 @@ alternatives:
   - raw-shorts
   - renderforest
 date: '2025-01-01'
-tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, easy_to_use]
 ---

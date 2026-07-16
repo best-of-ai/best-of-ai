@@ -12,14 +12,20 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - ai-for-developer
-  - aidir-wiki
   - altern
   - best-of-ai
+  - theres-an-ai-for-that
+  - futurepedia
+  - future-tools
+  - toolify-ai
+  - topai-tools
+  - aixploria
+  - dang-ai
+  - insidr-ai
+  - allthingsai
+  - ai-for-developer
+  - aidir-wiki
   - lens-org
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, fast, powerful]
 ---

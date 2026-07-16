@@ -20,5 +20,5 @@ alternatives:
   - grain
   - meetgeek
 date: '2026-06-15'
-tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
+tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
 ---

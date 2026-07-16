@@ -20,5 +20,5 @@ alternatives:
   - fathom
   - grain
 date: '2025-01-01'
-tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics]
+tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics, powerful]
 ---

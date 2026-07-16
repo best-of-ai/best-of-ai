@@ -20,5 +20,5 @@ alternatives:
   - chegg-ai
   - coursera
 date: '2026-06-21'
-tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
+tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier, fast, easy_to_use]
 ---

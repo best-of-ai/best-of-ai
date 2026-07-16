@@ -20,5 +20,5 @@ alternatives:
   - slidesai
   - tome
 date: '2025-01-01'
-tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, integrations, machine_learning, fast]
+tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, fast, powerful]
 ---

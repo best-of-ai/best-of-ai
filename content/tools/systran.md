@@ -20,5 +20,5 @@ alternatives:
   - reverso
   - memoq
 date: '2026-06-15'
-tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, enterprise, cloud_based, machine_learning]
+tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, enterprise, customizable, cloud_based]
 ---

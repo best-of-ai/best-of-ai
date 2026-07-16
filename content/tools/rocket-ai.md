@@ -20,5 +20,5 @@ alternatives:
   - amazon-codewhisperer
   - amazon-q
 date: '2025-01-01'
-tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, fast]
 ---

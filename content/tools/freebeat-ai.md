@@ -20,5 +20,5 @@ alternatives:
   - moovly
   - raw-shorts
 date: '2025-01-01'
-tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, free_tier, voice_enabled, model_based]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, free_tier, image_based, voice_enabled]
 ---

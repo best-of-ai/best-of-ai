@@ -20,5 +20,5 @@ alternatives:
   - kensho
   - bill-com-ai
 date: '2025-01-01'
-tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, free_tier, easy_to_use]
+tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, free_tier]
 ---

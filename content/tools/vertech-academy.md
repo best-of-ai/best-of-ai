@@ -20,5 +20,5 @@ alternatives:
   - coursera
   - dreambox-learning
 date: '2025-01-01'
-tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, fast]
+tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

@@ -20,5 +20,5 @@ alternatives:
   - adobe-premiere-pro-ai
   - asana
 date: '2026-06-15'
-tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero]
+tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, api_available]
 ---
