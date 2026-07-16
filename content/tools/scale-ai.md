@@ -5,6 +5,7 @@ subtitle: 'Data labeling and AI evaluation platform for training foundation mode
 slug: 'scale-ai'
 description: "Scale AI provides high-quality training data, evaluation, and RLHF (reinforcement learning from human feedback) services that underpin many of the world's most important AI models. Its platform combines human annotation with AI-assisted tooling to label images, text, video, and sensor data at scale. OpenAI, Meta, Microsoft, and the US Department of Defense are among its customers. Scale's Spellbook product lets enterprises fine-tune and evaluate large language models on their proprietary data."
 website: 'https://scale.com'
+company: 'scale-ai'
 logo_url: ''
 category: 'data'
 category_name: 'Data'

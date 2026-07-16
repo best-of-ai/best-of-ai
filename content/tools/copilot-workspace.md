@@ -5,6 +5,7 @@ subtitle: 'AI-native developer environment for planning and completing GitHub ta
 slug: 'copilot-workspace'
 description: "GitHub Copilot Workspace is an AI-native development environment that takes a GitHub Issue and autonomously turns it into a specification, implementation plan, and set of code changes, all before the developer writes a line. The developer reviews the plan, edits the steps, then lets Copilot generate the code across multiple files. It runs in the browser with a built-in terminal for tests, making it possible to go from bug report to reviewed PR entirely in the browser. It represents GitHub's vision of AI as a full development collaborator, not just an autocomplete tool."
 website: 'https://githubnext.com/projects/copilot-workspace'
+company: 'github'
 logo_url: ''
 category: 'code-assistant'
 category_name: 'Code Assistant'

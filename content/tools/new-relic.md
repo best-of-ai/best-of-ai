@@ -5,6 +5,7 @@ subtitle: 'Observability platform offering full-stack monitoring, distributed tr
 slug: 'new-relic'
 description: 'New Relic is a full-stack observability platform covering metrics, logs, traces, and synthetic monitoring in one place. Engineering and DevOps teams use it to understand application performance, track error rates, and diagnose incidents across distributed systems. AI-powered alerting reduces noise by grouping related issues and surfacing the root cause rather than flooding on-call teams with individual alerts.'
 website: 'https://newrelic.com'
+company: 'new-relic'
 logo_url: ''
 category: 'observability'
 category_name: 'Observability'

@@ -5,6 +5,7 @@ subtitle: 'AI-powered customer support helpdesk for e-commerce brands'
 slug: 'gorgias'
 description: "Gorgias is a customer support platform built specifically for e-commerce, integrating deeply with Shopify, Magento, and BigCommerce to give support agents instant access to order data, subscriptions, and customer history. Its AI features auto-respond to common questions like 'where is my order?', suggest replies based on past conversations, and route tickets by intent and urgency. Over 14,000 DTC brands use Gorgias to manage customer support across email, chat, social media, and SMS from a single unified inbox."
 website: 'https://gorgias.com'
+company: 'gorgias'
 logo_url: ''
 category: 'customer-support'
 category_name: 'Customer Support'

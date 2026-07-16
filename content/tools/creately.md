@@ -5,6 +5,7 @@ subtitle: 'Visual collaboration platform combining diagramming, whiteboarding, a
 slug: 'creately'
 description: 'Creately is a visual collaboration platform that combines diagramming, whiteboarding, and project management in one workspace. Product and engineering teams use it to map processes, plan sprints, run retrospectives, and document systems using templates for flowcharts, ERDs, org charts, and wireframes. Real-time collaboration and AI-generated diagrams from text descriptions let distributed teams move from idea to structured plan without switching tools.'
 website: 'https://creately.com'
+company: 'creately'
 logo_url: ''
 category: 'diagramming'
 category_name: 'Diagramming'

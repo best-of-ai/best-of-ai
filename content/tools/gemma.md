@@ -5,6 +5,7 @@ subtitle: "Google's open-weight AI models for local and edge deployment"
 slug: 'gemma'
 description: "Gemma is Google DeepMind's family of open-weight language models, designed to be lightweight enough to run on laptops and edge devices while delivering strong performance on reasoning, coding, and conversation. The Gemma 2 and Gemma 3 releases — available in 2B, 9B, and 27B variants — have become popular choices for developers who want Google-quality AI without the API costs. Gemma models are freely downloadable from Hugging Face and run natively in Ollama and LM Studio."
 website: 'https://ai.google.dev/gemma'
+company: 'google'
 logo_url: ''
 category: 'models'
 category_name: 'Models'

@@ -5,6 +5,7 @@ subtitle: 'Technology platform for nonprofits and social impact organisations co
 slug: 'bonterra'
 description: 'Bonterra is a technology platform for nonprofits and social impact organizations that brings fundraising, case management, volunteer coordination, and community engagement into one system. Human services agencies, advocacy organizations, and foundations use it to manage donor relationships, track program outcomes, and coordinate services across communities. It was formed from several established nonprofit software products combined under one company.'
 website: 'https://www.bonterratech.com'
+company: 'bonterra'
 logo_url: ''
 category: 'nonprofit'
 category_name: 'Nonprofit'

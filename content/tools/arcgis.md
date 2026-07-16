@@ -5,6 +5,7 @@ subtitle: 'Esri''s comprehensive GIS platform for mapping, spatial analysis, and
 slug: 'arcgis'
 description: 'ArcGIS is Esri''s geographic information system platform for mapping, spatial analysis, and location intelligence across desktop, cloud, and mobile environments. Government agencies, urban planners, utilities, and environmental organizations use it to build and analyze maps, run spatial queries, and share geographic data with stakeholders. It is the most widely used professional GIS platform and covers everything from field data collection to enterprise spatial analytics.'
 website: 'https://www.esri.com/en-us/arcgis/about-arcgis/overview'
+company: 'arcgis-esri'
 logo_url: ''
 category: 'geospatial'
 category_name: 'Geospatial'

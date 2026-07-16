@@ -5,6 +5,7 @@ subtitle: 'Comprehensive bioinformatics software for sequence analysis, molecula
 slug: 'geneious'
 description: 'Geneious is a bioinformatics platform used by molecular biologists for sequence analysis, genome assembly, phylogenetics, and molecular cloning. Research teams at pharma companies, universities, and biotech startups use it to manage sequencing data, run alignments, and build annotated sequence databases in a single interface. It supports desktop and server deployments for labs of different sizes.'
 website: 'https://www.geneious.com'
+company: 'geneious'
 logo_url: ''
 category: 'biotech'
 category_name: 'Biotech'

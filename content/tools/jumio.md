@@ -5,6 +5,7 @@ subtitle: 'AI-powered identity verification platform for online KYC, document ve
 slug: 'jumio'
 description: 'Jumio is an identity verification platform that automates KYC through AI-powered document verification and biometric face matching. Financial services, fintech, and regulated industries use it to verify user identities at account opening and ongoing compliance checkpoints without manual review. It processes government-issued IDs from over 200 countries and supports liveness detection to prevent spoofing.'
 website: 'https://www.jumio.com'
+company: 'jumio'
 logo_url: ''
 category: 'identity'
 category_name: 'Identity'

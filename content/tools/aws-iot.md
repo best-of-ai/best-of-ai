@@ -5,6 +5,7 @@ subtitle: 'Managed cloud service that lets IoT devices securely connect and inte
 slug: 'aws-iot'
 description: 'AWS IoT Core is a managed cloud service for connecting IoT devices to AWS applications and other devices at scale with low-latency, bidirectional messaging. Device engineers and platform teams use it to ingest telemetry from sensors and embedded hardware, route messages to Lambda functions, DynamoDB, S3, and other AWS services, and send commands back to devices using MQTT or HTTPS. It manages device authentication with X.509 certificates and scales to billions of messages per day without provisioning brokers manually.'
 website: 'https://aws.amazon.com/iot-core/'
+company: 'amazon'
 logo_url: ''
 category: 'iot'
 category_name: 'IoT'

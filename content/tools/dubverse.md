@@ -5,6 +5,7 @@ subtitle: 'AI-powered video dubbing platform that translates and dubs content in
 slug: 'dubverse'
 description: 'Dubverse is an AI video dubbing platform that translates and dubs content into 30+ languages while preserving the speaker''s original tone and timing. Content creators, e-learning companies, and brands use it to reach multilingual audiences without the cost of traditional studio dubbing. The platform handles transcription, translation, and voice synthesis in one workflow, with an editor for reviewing and correcting the output before export.'
 website: 'https://dubverse.ai'
+company: 'dubverse-ai'
 logo_url: ''
 category: 'dubbing'
 category_name: 'Dubbing'

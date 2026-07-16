@@ -5,6 +5,7 @@ subtitle: 'Psychology-based weight management app that combines AI coaching, per
 slug: 'noom'
 description: 'Noom is a weight management app that combines AI coaching with psychology-based behavior change techniques rather than focusing purely on calorie tracking. Users complete short daily lessons grounded in cognitive behavioral therapy alongside food logging and check-ins with a human coach. The approach is oriented toward long-term habit change rather than short-term restriction.'
 website: 'https://www.noom.com'
+company: 'noom'
 logo_url: ''
 category: 'nutrition'
 category_name: 'Nutrition'

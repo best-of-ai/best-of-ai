@@ -1,0 +1,164 @@
+{{ define "main" }}
+{{ $tools := where .Site.RegularPages "Section" "tools" }}
+{{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+
+{{ $ranked := slice }}
+{{ range $allCompanies }}
+  {{ $p := .Params }}
+  {{ $slug      := or $p.slug .File.BaseFileName }}
+  {{ $compTools := sort (where $tools "Params.company" $slug) "Params.rank" "desc" }}
+  {{ $rank      := $p.rank | default 5 }}
+  {{ $score     := add (mul $rank 1000) (len $compTools) }}
+  {{ $ranked = $ranked | append (dict "page" . "count" (len $compTools) "rank" $rank "score" $score "tools" ($compTools | first 2)) }}
+{{ end }}
+{{ $ranked = sort $ranked "score" "desc" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Companies</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Companies</span> in the World</h1>
+      <p class="pg-hero__desc">The labs and companies building the tools in this directory.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $allCompanies) }}</strong> companies
+        <span class="sep">·</span>
+        <strong>{{ partial "count.html" (len $tools) }}</strong> tools
+      </div>
+    </div>
+
+    <div class="company-search">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="company-search-input" placeholder="Search companies by name or headquarters…" autocomplete="off" spellcheck="false" aria-label="Search companies">
+    </div>
+
+    <div class="price-bar" id="company-sort-bar">
+      <span class="price-bar__label">// sort by</span>
+      <button class="pf active" data-sort="popularity" data-dir="desc">popularity <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="founded" data-dir="desc">founded year <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="az" data-dir="asc">a–z <span class="pf__arrow">↓</span></button>
+    </div>
+
+    <div class="company-list" id="company-grid">
+      {{ range $ranked }}
+        {{ $p := .page.Params }}
+        {{ $count := .count }}
+        {{ $companyTools := .tools }}
+        {{ $founded := 0 }}
+        {{ with $p.founded }}{{ $founded = . | int }}{{ end }}
+        <a href="{{ .page.RelPermalink }}" class="company-row" data-name="{{ lower $p.name }}" data-hq="{{ lower ($p.headquarters | default "") }}" data-founded="{{ $founded }}" data-count="{{ $count }}" data-score="{{ .score }}">
+          <div class="company-row__logo">
+            {{ if $p.logo_url }}
+              <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+            {{ else }}
+              <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=64" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+            {{ end }}
+          </div>
+          <div class="company-row__body">
+            <span class="company-row__name">{{ $p.name }}</span>
+            <span class="company-row__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</span>
+            <div class="company-row__meta">
+              {{ with $p.headquarters }}<span>{{ . }}</span><span class="stat-sep">·</span>{{ end }}
+              {{ if gt $founded 0 }}<span>founded {{ $founded }}</span><span class="stat-sep">·</span>{{ end }}
+              <span class="company-row__count">{{ partial "count.html" $count }} tool{{ if ne $count 1 }}s{{ end }}</span>
+            </div>
+          </div>
+          {{ if $companyTools }}
+          <div class="company-row__tools">
+            {{ range $companyTools }}
+            {{ $tp := .Params }}
+            <span class="company-row__tool" onclick="event.stopPropagation();window.location='{{ .RelPermalink }}'" title="{{ $tp.name }}">
+              {{ if $tp.logo_url }}
+                <img src="{{ $tp.logo_url }}" alt="{{ $tp.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $tp.name 0 1 }}</span>
+              {{ else }}
+                <img src="https://www.google.com/s2/favicons?domain={{ $tp.website }}&sz=32" alt="{{ $tp.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $tp.name 0 1 }}</span>
+              {{ end }}
+            </span>
+            {{ end }}
+          </div>
+          {{ end }}
+          <svg class="company-row__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      {{ end }}
+    </div>
+
+    <p class="company-empty" id="company-empty" style="display:none">No companies match your search.</p>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+<script>
+(function() {
+  var search    = document.getElementById('company-search-input');
+  var sortBtns  = document.querySelectorAll('#company-sort-bar .pf');
+  var empty     = document.getElementById('company-empty');
+  var container = document.getElementById('company-grid');
+  var rows       = Array.from(container.querySelectorAll('.company-row'));
+  var activeSort = 'popularity';
+  var activeDir  = 'desc';
+
+  function applyFilter() {
+    var q = search.value.trim().toLowerCase();
+    var visible = 0;
+    rows.forEach(function(row) {
+      var show = !q || row.dataset.name.includes(q) || row.dataset.hq.includes(q);
+      row.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    empty.style.display = visible === 0 ? '' : 'none';
+  }
+
+  function compare(a, b) {
+    if (activeSort === 'founded') {
+      return (parseInt(a.dataset.founded, 10) || 0) - (parseInt(b.dataset.founded, 10) || 0);
+    }
+    if (activeSort === 'az') {
+      return a.dataset.name.localeCompare(b.dataset.name);
+    }
+    return (parseInt(a.dataset.score, 10) || 0) - (parseInt(b.dataset.score, 10) || 0);
+  }
+
+  function applySort() {
+    var dirMult = activeDir === 'asc' ? 1 : -1;
+    var sorted = rows.slice().sort(function(a, b) { return compare(a, b) * dirMult; });
+    sorted.forEach(function(row) { container.appendChild(row); });
+  }
+
+  if (search) search.addEventListener('input', applyFilter);
+
+  sortBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      if (btn.dataset.sort === activeSort) {
+        activeDir = activeDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        activeSort = btn.dataset.sort;
+        activeDir  = btn.dataset.dir || 'desc';
+      }
+      sortBtns.forEach(function(b) {
+        b.classList.toggle('active', b === btn);
+        var arrow = b.querySelector('.pf__arrow');
+        if (arrow) arrow.textContent = (b === btn && activeDir === 'asc') ? '↑' : '↓';
+      });
+      applySort();
+    });
+  });
+})();
+</script>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

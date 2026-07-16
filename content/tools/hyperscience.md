@@ -5,6 +5,7 @@ subtitle: 'Intelligent document processing for enterprise back-office automation
 slug: 'hyperscience'
 description: 'HyperScience is an enterprise intelligent document processing platform that automates the extraction and processing of data from structured and semi-structured documents. It combines machine learning with human-in-the-loop validation to achieve high accuracy for insurance, financial services, and government workflows.'
 website: 'https://hyperscience.com'
+company: 'hyperscience'
 logo_url: ''
 category: 'document-ai'
 category_name: 'Document AI'

@@ -5,6 +5,7 @@ subtitle: 'Cloud-based genomics platform for secure storage, analysis, and colla
 slug: 'dnanexus'
 description: 'DNAnexus is a cloud-based genomics platform for storing, analyzing, and collaborating on large-scale genomic and biomedical datasets. Pharmaceutical companies, clinical labs, and research institutions use it to run bioinformatics pipelines at scale while meeting data security and regulatory requirements for clinical genomics. It is used in major population genomics programs where petabytes of sequencing data need to be analyzed across distributed teams.'
 website: 'https://www.dnanexus.com'
+company: 'dnanexus'
 logo_url: ''
 category: 'biotech'
 category_name: 'Biotech'

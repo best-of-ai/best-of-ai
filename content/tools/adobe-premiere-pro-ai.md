@@ -5,6 +5,7 @@ subtitle: 'Professional video editor with AI-powered speech, trim, and generativ
 slug: 'adobe-premiere-pro-ai'
 description: "Adobe Premiere Pro's AI features — collectively called AI tools in Premiere — have transformed professional video editing. Speech to Text automatically generates searchable transcripts and captions. Auto Reframe intelligently crops footage for different aspect ratios. Enhance Speech removes noise and improves audio quality with one click. Generative Extend fills gaps between clips with AI-synthesised frames. These features, powered by Adobe Sensei and Firefly, are built into the industry-standard editor that most professional video editors already use daily."
 website: 'https://www.adobe.com/products/premiere.html'
+company: 'adobe'
 logo_url: ''
 category: 'video-editor'
 category_name: 'Video Editor'

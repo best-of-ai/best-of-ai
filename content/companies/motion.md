@@ -1,0 +1,14 @@
+---
+title: 'Motion'
+name: 'Motion'
+slug: 'motion'
+subtitle: 'AI calendar and task management with intelligent scheduling'
+description: 'Motion is an AI calendar and task manager that automatically schedules your tasks around your meetings and deadlines, rebuilding your daily plan in real time as priorities shift. Rather than managing a static to-do list, Motion''s AI prioritises work intelligently so the most important items always get time on your calendar. Busy professionals and managers use it to protect deep work time and avoid deadline surprises.'
+website: 'https://motion.ai'
+logo_url: ''
+founded: ''
+headquarters: ''
+founders: []
+date: '2026-07-16'
+rank: 8
+---

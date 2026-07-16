@@ -5,6 +5,7 @@ subtitle: 'Adobe''s real-time character animation tool that uses your webcam and
 slug: 'adobe-character-animator'
 description: 'Adobe Character Animator uses your webcam and microphone to animate 2D characters in real time by tracking your facial expressions and head movements. Animators, educators, and live content creators use it to produce character-driven video without frame-by-frame animation, since the character moves and speaks as you perform. It is part of the Adobe Creative Cloud suite and works with characters built in Photoshop or Illustrator.'
 website: 'https://www.adobe.com/products/character-animator.html'
+company: 'adobe'
 logo_url: ''
 category: 'character-design'
 category_name: 'Character Design'

@@ -5,6 +5,7 @@ subtitle: 'Simple, free telehealth platform for healthcare providers to conduct 
 slug: 'doxy-me'
 description: 'Doxy.me is a free, HIPAA-compliant telehealth platform that lets healthcare providers conduct video visits with patients directly from a browser, with no downloads required on either side. Independent clinicians and small practices use it as a lightweight alternative to enterprise telehealth systems, since providers get a personal room link they can share with patients without configuring a separate portal. Paid tiers add group visits, waiting room customization, and practice management features.'
 website: 'https://doxy.me'
+company: 'doxyme'
 logo_url: ''
 category: 'telemedicine'
 category_name: 'Telemedicine'

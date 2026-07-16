@@ -5,6 +5,7 @@ subtitle: 'Serverless MySQL-compatible database platform with branching workflow
 slug: 'planetscale'
 description: 'PlanetScale is a serverless MySQL-compatible database with database branching workflows and AI-powered query insights. Development teams use its branching feature to make schema changes safely by testing on a branch before merging to production, similar to how Git handles code. It scales automatically and has become a common choice for high-growth web applications that need MySQL without managing a database server.'
 website: 'https://planetscale.com'
+company: 'planetscale'
 logo_url: ''
 category: 'database-tools'
 category_name: 'Database Tools'

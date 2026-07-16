@@ -5,6 +5,7 @@ subtitle: 'AI company by Andrew Ng focused on computer vision solutions for manu
 slug: 'landing-ai'
 description: 'Landing AI is an AI company founded by Andrew Ng that specializes in computer vision solutions for manufacturing, agriculture, and healthcare. Its LandingLens platform lets domain experts build and deploy visual inspection models without deep ML expertise, using an iterative labeling and training workflow designed for industrial use cases. Manufacturers use it to automate quality control inspections that previously required human visual review.'
 website: 'https://landing.ai'
+company: 'landing-ai'
 logo_url: ''
 category: 'computer-vision'
 category_name: 'Computer Vision'

@@ -5,6 +5,7 @@ subtitle: 'Elite athlete monitoring and analytics platform using wearable sensor
 slug: 'catapult-sports'
 description: 'Catapult Sports is an athlete monitoring platform that uses wearable GPS and inertial sensors to track physical load, movement patterns, and injury risk across training and matches. Performance analysts and sports scientists at professional clubs use it to quantify training load for each athlete, compare it against individual thresholds, and flag players who may be accumulating too much or too little stress before competition. Its data feeds into readiness decisions alongside medical staff input across rugby, football, basketball, and other team sports.'
 website: 'https://www.catapult.com'
+company: 'catapult-sports'
 logo_url: ''
 category: 'sports-analytics'
 category_name: 'Sports Analytics'

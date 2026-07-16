@@ -5,6 +5,7 @@ slug: 'future-tools'
 subtitle: 'Hand-curated AI tools directory with YouTube coverage'
 description: "Future Tools is a hand-curated directory of AI tools built by content creator Matt Wolfe, who screens every submission before it's listed. Entries are grouped by category (writing, video, productivity, and more) with a 'most saved' and 'newest' view, plus a running news feed of AI developments tied to his YouTube channel. It skips the noise of auto-scraped directories in favour of a smaller, vetted list."
 website: 'https://www.futuretools.io'
+company: 'future-tools'
 logo_url: ''
 category: 'ai-directories'
 category_name: 'AI Directories'

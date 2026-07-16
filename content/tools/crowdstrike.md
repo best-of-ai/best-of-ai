@@ -5,6 +5,7 @@ subtitle: 'Leading AI-native cybersecurity platform providing endpoint protectio
 slug: 'crowdstrike'
 description: 'CrowdStrike is a cybersecurity platform that provides endpoint protection, threat intelligence, and incident response through a cloud-native agent deployed on endpoints. Security teams use it to detect and stop breaches in real time using AI that correlates signals across millions of devices without requiring on-premise hardware. Its Falcon platform covers endpoint detection, identity protection, and cloud security from a single console.'
 website: 'https://www.crowdstrike.com'
+company: 'crowdstrike'
 logo_url: ''
 category: 'cybersecurity'
 category_name: 'Cybersecurity'

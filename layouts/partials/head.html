@@ -4,6 +4,7 @@
 {{ $is404    := hasPrefix (lower .Title) "404" }}
 {{ $isSaved  := eq .Params.layout "saved" }}
 {{ $isTool    := and .IsPage (eq .Section "tools") }}
+{{ $isCompany := and .IsPage (eq .Section "companies") }}
 {{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $name     := or .Params.name .Title }}
@@ -30,6 +31,10 @@
 {{ else if and .IsPage (eq .Section "categories") }}
   {{ $count := len (where .Site.RegularPages "Params.category" .Params.slug) }}
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
+{{ else if $isCompany }}
+  {{ $companySlug := or .Params.slug .File.BaseFileName }}
+  {{ $companyCount := len (where .Site.RegularPages "Params.company" $companySlug) }}
+  {{ $pageTitle = printf "%s — AI Company (%d Tools) | Best of AI" $name $companyCount }}
 {{ else if and .IsPage $isJournal }}
   {{ $pageTitle = printf "%s — The AI Journal | Best of AI" (.Params.title | default .Title) }}
 {{ else if and .IsPage (eq .Section "leaderboard") }}
@@ -39,6 +44,8 @@
     {{ $pageTitle = "The AI Journal — Best of AI" }}
   {{ else if eq .Section "professionals" }}
     {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
+  {{ else if eq .Section "companies" }}
+    {{ $pageTitle = printf "Top AI Companies in the World (%d) — Best of AI" (len (where .Site.RegularPages "Section" "companies")) }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
     {{ $pageTitle = printf "AI Tools Leaderboard %s — Best of AI" (now.Format "January 2006") }}
   {{ else }}
@@ -83,6 +90,11 @@
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI %s tools, selected for quality and real-world impact." $count .Params.name }}
   {{ end }}
+{{ else if $isCompany }}
+  {{ $companySlug   := or .Params.slug .File.BaseFileName }}
+  {{ $companyCount  := len (where .Site.RegularPages "Params.company" $companySlug) }}
+  {{ $companyDesc   := .Params.description | default .Params.subtitle | default "" }}
+  {{ $desc = printf "%s — %d AI tools listed on Best of AI. %s" .Params.name $companyCount $companyDesc }}
 {{ else if and .IsPage $isJournal }}
   {{ $desc = .Params.subtitle | default .Params.description | default .Site.Params.description }}
 {{ else if eq .Kind "section" }}
@@ -90,6 +102,8 @@
     {{ $desc = .Params.description | default "Essays, guides, and notes on AI tools from the Best of AI team." }}
   {{ else if eq .Section "professionals" }}
     {{ $desc = printf "Find AI tools tailored to your role — %d profession guides with handpicked tools on Best of AI." (len .Pages) }}
+  {{ else if eq .Section "companies" }}
+    {{ $desc = printf "The top %d AI companies and labs in the world — ranked by tools featured on Best of AI." (len .Pages) }}
   {{ else }}
     {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
@@ -130,6 +144,11 @@
 <meta name="keywords" content="{{ delimit $kws ", " }}">
 {{ else if and .IsPage (eq .Section "categories") }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
+{{ else if $isCompany }}
+{{ $ckws := slice .Params.name "AI company" (printf "%s AI" .Params.name) (printf "%s tools" .Params.name) }}
+{{ with .Params.headquarters }}{{ $ckws = $ckws | append . }}{{ end }}
+{{ range .Params.founders }}{{ $ckws = $ckws | append . }}{{ end }}
+<meta name="keywords" content="{{ delimit $ckws ", " }}">
 {{ else if and .IsPage $isJournal }}
   {{ $journalKws := slice (.Params.title | default .Title) "The AI Journal" "AI journal" "AI tools" "open source" }}
   {{ range .Params.related_categories }}{{ $journalKws = $journalKws | append . }}{{ end }}
@@ -149,7 +168,7 @@
 {{/* ── Open Graph ── */}}
 {{ $ogImage := $ogImageDefault }}
 {{ $ogUseDefaultImg := true }}
-{{ if and $isTool .Params.logo_url }}
+{{ if and (or $isTool $isCompany) .Params.logo_url }}
   {{ $ogImage = .Params.logo_url }}
   {{ $ogUseDefaultImg = false }}
 {{ end }}

@@ -24,6 +24,19 @@
 {{ end }}
 {{ $topPickProfessions = first 3 $topPickProfessions }}
 
+{{ $companyPage := "" }}
+{{ $companySiblings := slice }}
+{{ if $p.company }}
+  {{ $companyMatch := where .Site.RegularPages "Section" "companies" }}
+  {{ $companyMatch = where $companyMatch "Params.slug" $p.company }}
+  {{ if $companyMatch }}
+    {{ $companyPage = index $companyMatch 0 }}
+    {{ $companySiblings = where $allTools "Params.company" $p.company }}
+    {{ $companySiblings = where $companySiblings ".RelPermalink" "ne" .RelPermalink }}
+    {{ $companySiblings = sort $companySiblings "Params.rank" "desc" }}
+  {{ end }}
+{{ end }}
+
 <div class="home-layout">
 
   {{ partial "left-sidebar.html" . }}
@@ -93,6 +106,31 @@
       </div>
 
       <aside class="detail-sidebar">
+        {{ if $companyPage }}
+        <div class="sidebar-alternatives">
+          <div class="sidebar-alternatives__title">// from {{ $companyPage.Params.name }}</div>
+          {{ if $companySiblings }}
+          <div class="sidebar-alternatives__list">
+            {{ range first 3 $companySiblings }}
+            {{ $sib := .Params }}
+            {{ $logoSrc := cond (ne $sib.logo_url "") $sib.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $sib.website) }}
+            <a href="{{ .RelPermalink }}" class="sidebar-alternative">
+              <span class="sidebar-alternative__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $sib.name }}" loading="lazy"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $sib.name 0 1 }}</span>
+              </span>
+              <span>{{ $sib.name }}</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+          <a href="{{ $companyPage.RelPermalink }}" class="sidebar-alternatives__all">
+            View all on {{ $companyPage.Params.name }} →
+          </a>
+        </div>
+        {{ end }}
         {{ if $altPages }}
         <div class="sidebar-alternatives">
           <div class="sidebar-alternatives__title">// alternatives</div>
@@ -140,6 +178,15 @@
         <div class="detail-meta-card">
           <div class="detail-meta__title">// details</div>
           <dl class="detail-meta-list">
+            {{ if $p.company }}
+            {{ $companyPage := index (where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.company) 0 }}
+            {{ if $companyPage }}
+            <div class="detail-meta-row">
+              <dt>Company</dt>
+              <dd><a href="{{ $companyPage.RelPermalink }}">{{ $companyPage.Params.name }}</a></dd>
+            </div>
+            {{ end }}
+            {{ end }}
             {{ if $p.category_name }}
             <div class="detail-meta-row">
               <dt>Category</dt>

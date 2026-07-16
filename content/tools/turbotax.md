@@ -5,6 +5,7 @@ subtitle: 'Leading consumer tax preparation software using AI to guide users thr
 slug: 'turbotax'
 description: 'TurboTax is a leading tax preparation platform that guides individuals and small business owners through filing federal and state tax returns with step-by-step questions and AI-powered guidance. It imports W-2s and 1099s by photo or direct connection to employers and financial institutions, reducing manual data entry and errors. Its AI tools identify deductions based on answers given throughout the interview and provide explanations for why specific tax rules apply to each user''s situation.'
 website: 'https://turbotax.intuit.com'
+company: 'turbotax'
 logo_url: ''
 category: 'tax-accounting'
 category_name: 'Tax & Accounting'

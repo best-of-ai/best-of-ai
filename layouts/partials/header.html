@@ -174,6 +174,10 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
         Leaderboard
       </a>
+      <a href="{{ "/companies/" | relURL }}" class="mob-link{{ if eq .Section "companies" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
+        Companies
+      </a>
       <a href="{{ "/journal/" | relURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         Journal
@@ -386,7 +390,7 @@
     searchSel = -1;
     if (!q || q.length < 2 || !searchIndex) { searchDrop.innerHTML = ''; return; }
     var ql = q.toLowerCase();
-    var groups = { profession: [], category: [], tag: [], tool: [] };
+    var groups = { profession: [], category: [], tag: [], company: [], tool: [] };
     for (var i = 0; i < searchIndex.length; i++) {
       var it   = searchIndex[i];
       var type = it.type || 'tool';
@@ -396,19 +400,21 @@
     Object.keys(groups).forEach(function(k) {
       groups[k].sort(function(a,b){ return b.score - a.score; });
     });
-    var profs = groups.profession.slice(0, 3);
-    var cats  = groups.category.slice(0, 3).concat(groups.tag.slice(0, 3));
+    var profs     = groups.profession.slice(0, 3);
+    var cats      = groups.category.slice(0, 3).concat(groups.tag.slice(0, 3));
     cats.sort(function(a,b){ return b.score - a.score; });
     cats = cats.slice(0, 4);
-    var tools = groups.tool.slice(0, 8);
-    if (!profs.length && !cats.length && !tools.length) {
+    var companies = groups.company.slice(0, 4);
+    var tools     = groups.tool.slice(0, 8);
+    if (!profs.length && !cats.length && !companies.length && !tools.length) {
       searchDrop.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
       return;
     }
     var html = '';
-    if (profs.length) { html += '<div class="sr-group-label">Professions</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (cats.length)  { html += '<div class="sr-group-label">Categories &amp; Tags</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (tools.length) { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (profs.length)     { html += '<div class="sr-group-label">Professions</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (cats.length)      { html += '<div class="sr-group-label">Categories &amp; Tags</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (companies.length) { html += '<div class="sr-group-label">Companies</div>'; companies.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (tools.length)     { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
     searchDrop.innerHTML = html;
   }
 

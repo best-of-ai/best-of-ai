@@ -5,6 +5,7 @@ subtitle: 'AI-driven contract lifecycle management platform with no-code customi
 slug: 'agiloft'
 description: 'Agiloft is a contract lifecycle management platform that uses AI to extract key terms, flag risks, and automate approval workflows across enterprise legal and procurement teams. Its no-code configuration lets teams build custom contract workflows without developer support, adapting to complex approval hierarchies and obligation tracking requirements. It is used by large organizations managing thousands of contracts across multiple business units.'
 website: 'https://www.agiloft.com'
+company: 'agiloft'
 logo_url: ''
 category: 'contract-management'
 category_name: 'Contract Management'

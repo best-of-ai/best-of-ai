@@ -5,6 +5,7 @@ subtitle: 'Meta''s standalone VR headset platform offering immersive gaming, soc
 slug: 'meta-quest'
 description: 'Meta Quest is a line of standalone VR headsets that run without a PC or console, covering gaming, social experiences, fitness, and productivity applications. The Quest 3 and Quest 3S headsets support mixed reality through color passthrough, letting apps blend digital content with the physical room. It is the most popular standalone VR platform by active user count.'
 website: 'https://www.meta.com/quest/'
+company: 'meta-ai'
 logo_url: ''
 category: 'ar-vr'
 category_name: 'AR/VR'

@@ -5,6 +5,7 @@ slug: 'futurepedia'
 subtitle: 'Business-focused directory of AI tools by use case'
 description: "Futurepedia catalogues thousands of AI tools organised by category and business use case, aimed at professionals and teams looking to adopt AI in their workflow. Listings include pricing, feature summaries, and user reviews, alongside curated collections like 'best AI tools for marketing' or 'for video'. It also runs an AI tool report and newsletter covering weekly launches."
 website: 'https://futurepedia.io'
+company: 'futurepedia'
 logo_url: ''
 category: 'ai-directories'
 category_name: 'AI Directories'

@@ -51,6 +51,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>{{ "/companies/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+{{- range where .Site.RegularPages "Section" "companies" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- end }}
+  <url>
     <loc>{{ "/tags/" | absURL }}</loc>
     <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
     <changefreq>weekly</changefreq>

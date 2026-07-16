@@ -4,6 +4,7 @@ name: "Let's Enhance"
 slug: 'lets-enhance'
 description: "Let's Enhance is an AI image upscaling tool that increases photo resolution up to 16x while preserving and sharpening detail. Photographers, e-commerce teams, and print designers use it to enlarge low-resolution images without the blurring that comes from traditional interpolation. It also fixes JPEG artifacts and improves image quality in a single processing step."
 website: 'https://letsenhance.io'
+company: 'lets-enhance'
 logo_url: ''
 category: 'image-editing'
 category_name: 'Image Editing'

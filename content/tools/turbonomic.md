@@ -5,6 +5,7 @@ subtitle: 'IBM''s AI-powered application resource management platform that conti
 slug: 'turbonomic'
 description: 'Turbonomic, now part of IBM, is an application resource management platform that continuously optimizes cloud and on-premise workload performance using AI. Infrastructure teams use it to automatically right-size virtual machines, containers, and cloud instances based on actual application demand rather than static provisioning. It reduces cloud waste by moving and resizing resources in real time without manual intervention.'
 website: 'https://www.ibm.com/products/turbonomic'
+company: 'ibm'
 logo_url: ''
 category: 'cloud-management'
 category_name: 'Cloud Management'

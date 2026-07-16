@@ -5,6 +5,7 @@ subtitle: 'AI dubbing company that translates and dubs video content into multip
 slug: 'papercup'
 description: 'Papercup is an AI dubbing company that translates and dubs video content into multiple languages using AI voices that sound natural and match the emotional delivery of the original speaker. Media companies and content publishers use it to localize video at a fraction of the cost and timeline of traditional human dubbing, with workflows that include professional translators and voice quality review. It is used for long-form content like documentaries and training videos where quality standards are higher than basic text-to-speech can meet.'
 website: 'https://www.papercup.com'
+company: 'papercup'
 logo_url: ''
 category: 'dubbing'
 category_name: 'Dubbing'

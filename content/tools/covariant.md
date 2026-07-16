@@ -5,6 +5,7 @@ subtitle: 'AI robotics company that builds universal robot brains enabling robot
 slug: 'covariant'
 description: 'Covariant builds AI for robotic picking and manipulation in warehouses and fulfillment centers, with a system designed to handle a wide variety of products rather than being trained for a fixed set of SKUs. Logistics operators use its RFM (Robot Foundation Model) to run picking robots that can identify and grasp items they have not been explicitly programmed for, adapting to new inventory without lengthy retraining cycles. This generalizable approach is what distinguishes it from traditional pick-and-place robotics that require per-product configuration.'
 website: 'https://covariant.ai'
+company: 'covariant'
 logo_url: ''
 category: 'robotics'
 category_name: 'Robotics'

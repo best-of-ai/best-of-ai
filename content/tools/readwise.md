@@ -5,6 +5,7 @@ subtitle: 'Reading retention tool that resurfaces and reviews highlights from bo
 slug: 'readwise'
 description: 'Readwise is a reading retention tool that resurfaces highlights from books, articles, Kindle notes, and web clippings using spaced repetition, so you actually remember what you read. It syncs highlights from Kindle, Instapaper, Pocket, and other sources into a single library and sends daily email or app reviews of a personalized selection. Readwise Reader, its companion app, is a full read-it-later and RSS reader that captures content directly and integrates with the highlight system.'
 website: 'https://readwise.io'
+company: 'readwise-reader'
 logo_url: ''
 category: 'reading'
 category_name: 'Reading'
