@@ -955,6 +955,23 @@ body.mobile-menu-open { overflow: hidden; }
 .pf.active  { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
 .pf__arrow  { opacity: 0.6; font-size: 0.7em; margin-left: 0.1rem; }
 
+.hw-select {
+  padding: 0.2rem 1.5rem 0.2rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg);
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%238b949e' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.55rem center;
+  margin-right: 0.4rem;
+}
+.hw-select:hover, .hw-select:focus { border-color: var(--accent); color: var(--fg); outline: none; }
+
 /* No results */
 .no-results {
   text-align: center;
@@ -1035,6 +1052,134 @@ body.mobile-menu-open { overflow: hidden; }
   gap: 0.55rem;
 }
 .tools-grid--related { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+
+/* ── Hardware list (one-per-row, spec-rich) ── */
+.hardware-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.gpu-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--fg);
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  position: relative;
+}
+.gpu-row:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  transform: translateY(-1px);
+  color: var(--fg);
+}
+.gpu-row__id {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.gpu-row__logo {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gpu-row__logo img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+.gpu-row__id-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.gpu-row__name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--fg);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gpu-row__sub {
+  font-size: 0.72rem;
+  color: var(--fg-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gpu-row__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  flex: 2 1 380px;
+}
+.gpu-row__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 64px;
+}
+.gpu-row__stat-val {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--fg);
+}
+.gpu-row__stat-label {
+  font-size: 0.62rem;
+  color: var(--fg-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.gpu-row__desc {
+  flex-basis: 100%;
+  font-size: 0.74rem;
+  color: var(--fg-muted);
+  line-height: 1.45;
+  margin: 0;
+  order: 3;
+}
+.gpu-row__price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.gpu-row__price-val {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.gpu-row__ext {
+  color: var(--fg-faint);
+  opacity: 0;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+}
+.gpu-row:hover .gpu-row__ext { opacity: 1; }
+
+@media (max-width: 720px) {
+  .gpu-row { padding: 0.75rem 0.85rem; }
+  .gpu-row__specs { gap: 0.75rem 1rem; }
+  .gpu-row__price { margin-left: 0; flex-basis: 100%; justify-content: space-between; order: 4; }
+}
 
 /* ── Tool card ── */
 /* ── Ad slots ─────────────────────────────────────────────────────────────── */
@@ -1478,6 +1623,7 @@ a.tag-chip:hover {
 .badge-cat      { color: var(--accent);   border-color: transparent;     background: var(--accent-bg); }
 .badge-top-pick { color: var(--yellow);   border-color: var(--yellow);   background: transparent; text-decoration: none; }
 .badge-top-pick:hover { background: rgba(210,153,34,0.12); }
+.badge-gpu-price { color: var(--fg-muted); border-color: var(--border);   background: transparent; }
 
 /* ── Sidebar top-pick section ── */
 .sidebar-alternatives {
@@ -1644,6 +1790,36 @@ a.tag-chip:hover {
 .detail-cta {
   flex-shrink: 0;
   align-self: flex-start;
+}
+
+.detail-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.detail-stat {
+  background: var(--surface);
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.detail-stat__val {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--fg);
+  font-family: var(--font-mono);
+}
+.detail-stat__label {
+  font-size: 0.65rem;
+  color: var(--fg-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .detail-layout {
