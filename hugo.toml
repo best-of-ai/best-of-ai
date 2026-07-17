@@ -11,7 +11,7 @@ disableKinds = ["sitemap"]
   siteURL     = "https://bestofai.io"
 
 [outputs]
-  home = ["HTML", "JSON", "SitemapIndex", "SitemapTools", "SitemapHardware", "SitemapPages"]
+  home = ["HTML", "JSON", "SitemapIndex", "SitemapTools", "SitemapHardware", "SitemapModels", "SitemapPages"]
 
 [mediaTypes]
   [mediaTypes."application/json"]
@@ -36,6 +36,11 @@ disableKinds = ["sitemap"]
   [outputFormats.SitemapHardware]
     mediaType = "application/xml"
     baseName  = "sitemap-hardware"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.SitemapModels]
+    mediaType = "application/xml"
+    baseName  = "sitemap-models"
     isPlainText = true
     notAlternative = true
   [outputFormats.SitemapPages]

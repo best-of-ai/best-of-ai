@@ -58,7 +58,7 @@
       {{ end }}
     </div>
 
-    <div class="price-bar" id="hardware-sort-bar">
+    <div class="price-bar" id="hardware-filter-bar">
       <select class="hw-select" id="hardware-manufacturer-select" aria-label="Filter by manufacturer">
         <option value="all">all manufacturers</option>
         {{ range $manufacturers }}
@@ -69,18 +69,106 @@
           <option value="{{ $slug }}">{{ $name }}</option>
         {{ end }}
       </select>
-      <span class="price-bar__label">// sort by</span>
-      <button class="pf active" data-sort="rank" data-dir="desc">popularity <span class="pf__arrow">↓</span></button>
-      <button class="pf" data-sort="price" data-dir="desc">price <span class="pf__arrow">↓</span></button>
-      <button class="pf" data-sort="vram" data-dir="desc">vram <span class="pf__arrow">↓</span></button>
-      <button class="pf" data-sort="release" data-dir="desc">release date <span class="pf__arrow">↓</span></button>
-      <button class="pf" data-sort="az" data-dir="asc">a–z <span class="pf__arrow">↓</span></button>
+      <div class="models-cols" id="hardware-cols">
+        <button type="button" class="models-cols__btn" id="hardware-cols-btn" aria-haspopup="true" aria-expanded="false">
+          Columns
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="models-cols__panel" id="hardware-cols-panel" hidden>
+          <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> Hardware</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="manufacturer" checked> Manufacturer</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="type" checked> Type</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="vram" checked> VRAM</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="bandwidth" checked> Bandwidth</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="tdp" checked> TDP</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="released" checked> Released</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="rank"> Popularity</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="architecture"> Architecture</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="process"> Process Node</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="memory_type"> Memory Type</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="tflops"> FP32 TFLOPS</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="interface"> Interface</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="price"> Price</label>
+        </div>
+      </div>
+      <span class="price-bar__label">// sorted by popularity — click a column to resort</span>
     </div>
 
-    <div class="hardware-list" id="hardware-grid">
-      {{ range $allHardware }}
-      {{ partial "gpu-row.html" (dict "page" . "p" .Params) }}
-      {{ end }}
+    <div class="models-table-wrap">
+      <table class="models-table" id="hardware-table">
+        <thead>
+          <tr>
+            <th data-sort="name" data-type="string" data-col="name">Hardware</th>
+            <th data-sort="manufacturer" data-type="string" data-col="manufacturer">Manufacturer</th>
+            <th data-sort="type" data-type="string" data-col="type">Type</th>
+            <th data-sort="vram" data-type="number" data-col="vram">VRAM</th>
+            <th data-sort="bandwidth" data-type="number" data-col="bandwidth">Bandwidth</th>
+            <th data-sort="tdp" data-type="number" data-col="tdp">TDP</th>
+            <th data-sort="released" data-type="date" data-col="released">Released</th>
+            <th class="models-table__sorted models-table__sorted--desc" data-sort="rank" data-type="number" data-col="rank">Popularity</th>
+            <th data-sort="architecture" data-type="string" data-col="architecture" style="display:none">Architecture</th>
+            <th data-sort="process" data-type="string" data-col="process" style="display:none">Process Node</th>
+            <th data-sort="memory_type" data-type="string" data-col="memory_type" style="display:none">Memory Type</th>
+            <th data-sort="tflops" data-type="number" data-col="tflops" style="display:none">FP32 TFLOPS</th>
+            <th data-sort="interface" data-type="string" data-col="interface" style="display:none">Interface</th>
+            <th data-sort="price" data-type="number" data-col="price" style="display:none">Price</th>
+          </tr>
+        </thead>
+        <tbody id="hardware-table-body">
+          {{ range $allHardware }}
+          {{ $p := .Params }}
+          {{ $manufacturer := "" }}
+          {{ if $p.manufacturer }}
+            {{ $manufMatch := where $manufacturerPages "Params.slug" $p.manufacturer }}
+            {{ if $manufMatch }}{{ $manufacturer = (index $manufMatch 0).Params.name }}{{ end }}
+          {{ end }}
+          {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" (or $p.product_url $p.website)) }}
+          {{ $priceLabel := "—" }}
+          {{ if $p.msrp_usd }}{{ $priceLabel = printf "~$%s" (lang.FormatNumberCustom 0 $p.msrp_usd ". ,") }}{{ end }}
+          <tr
+            class="models-table__row"
+            data-href="{{ .RelPermalink }}"
+            data-name="{{ $p.name }}"
+            data-manufacturer="{{ $manufacturer }}"
+            data-manufacturer-slug="{{ $p.manufacturer }}"
+            data-type="{{ $p.hardware_type }}"
+            data-vram="{{ $p.vram_gb | default 0 }}"
+            data-bandwidth="{{ $p.memory_bandwidth_gbps | default 0 }}"
+            data-tdp="{{ $p.tdp_watts | default 0 }}"
+            data-released="{{ $p.release_date | default "" }}"
+            data-rank="{{ $p.rank | default 0 }}"
+            data-architecture="{{ $p.architecture }}"
+            data-process="{{ $p.process_node }}"
+            data-memory_type="{{ $p.memory_type }}"
+            data-tflops="{{ $p.fp32_tflops | default 0 }}"
+            data-interface="{{ $p.interface }}"
+            data-price="{{ $p.msrp_usd | default 0 }}"
+            tabindex="0"
+          >
+            <td class="models-table__name" data-col="name">
+              <span class="models-table__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+              </span>
+              <a href="{{ .RelPermalink }}" class="models-table__name-link">{{ $p.name }}</a>
+            </td>
+            <td data-col="manufacturer">{{ $manufacturer }}</td>
+            <td data-col="type">{{ if $p.hardware_type }}<span class="models-table__badge">{{ $p.hardware_type }}</span>{{ end }}</td>
+            <td data-col="vram">{{ if $p.vram_gb }}{{ $p.vram_gb }}GB{{ else }}—{{ end }}</td>
+            <td data-col="bandwidth">{{ if $p.memory_bandwidth_gbps }}{{ $p.memory_bandwidth_gbps }} GB/s{{ else }}—{{ end }}</td>
+            <td data-col="tdp">{{ if $p.tdp_watts }}{{ $p.tdp_watts }}W{{ else }}—{{ end }}</td>
+            <td data-col="released">{{ if $p.release_date }}{{ (time $p.release_date).Format "Jan 2006" }}{{ else }}—{{ end }}</td>
+            <td data-col="rank" style="display:none">{{ $p.rank | default "—" }}</td>
+            <td data-col="architecture" style="display:none">{{ $p.architecture | default "—" }}</td>
+            <td data-col="process" style="display:none">{{ $p.process_node | default "—" }}</td>
+            <td data-col="memory_type" style="display:none">{{ $p.memory_type | default "—" }}</td>
+            <td data-col="tflops" style="display:none">{{ if $p.fp32_tflops }}{{ $p.fp32_tflops }}{{ else }}—{{ end }}</td>
+            <td data-col="interface" style="display:none">{{ $p.interface | default "—" }}</td>
+            <td data-col="price" style="display:none">{{ $priceLabel }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
     </div>
 
     <p class="company-empty" id="hardware-empty" style="display:none">No hardware matches your search.</p>
@@ -96,52 +184,105 @@
   var search        = document.getElementById('hardware-search-input');
   var typeTabs       = document.querySelectorAll('#hardware-type-tabs .pf');
   var manufSelect    = document.getElementById('hardware-manufacturer-select');
-  var sortBtns       = document.querySelectorAll('#hardware-sort-bar .pf');
+  var table          = document.getElementById('hardware-table');
+  var tbody          = document.getElementById('hardware-table-body');
   var empty          = document.getElementById('hardware-empty');
-  var container       = document.getElementById('hardware-grid');
-  var cards           = Array.from(container.querySelectorAll('.gpu-row'));
+  var headers        = table.querySelectorAll('th[data-sort]');
+  var rows            = Array.from(tbody.querySelectorAll('.models-table__row'));
 
-  var activeType        = 'all';
+  var COLS_KEY     = 'bai-hardware-columns';
+  var colsBtn      = document.getElementById('hardware-cols-btn');
+  var colsPanel    = document.getElementById('hardware-cols-panel');
+  var colsWrap     = document.getElementById('hardware-cols');
+  var colCheckboxes = Array.from(colsPanel.querySelectorAll('input[data-col]'));
+  var DEFAULT_COLS = ['name', 'manufacturer', 'type', 'vram', 'bandwidth', 'tdp', 'released'];
+
+  function loadVisibleColumns() {
+    try {
+      var stored = JSON.parse(localStorage.getItem(COLS_KEY));
+      if (Array.isArray(stored) && stored.length) return stored;
+    } catch (e) {}
+    return DEFAULT_COLS.slice();
+  }
+
+  function saveVisibleColumns(cols) {
+    try { localStorage.setItem(COLS_KEY, JSON.stringify(cols)); } catch (e) {}
+  }
+
+  function applyColumnVisibility(cols) {
+    var set = {};
+    cols.concat(['name']).forEach(function(c) { set[c] = true; });
+    table.querySelectorAll('[data-col]').forEach(function(el) {
+      el.style.display = set[el.dataset.col] ? '' : 'none';
+    });
+    colCheckboxes.forEach(function(cb) { cb.checked = !!set[cb.dataset.col]; });
+  }
+
+  var visibleColumns = loadVisibleColumns();
+  applyColumnVisibility(visibleColumns);
+
+  if (colsBtn) {
+    colsBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var open = colsPanel.hasAttribute('hidden');
+      if (open) { colsPanel.removeAttribute('hidden'); } else { colsPanel.setAttribute('hidden', ''); }
+      colsBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.addEventListener('click', function(e) {
+      if (!colsWrap.contains(e.target)) colsPanel.setAttribute('hidden', '');
+    });
+  }
+
+  colCheckboxes.forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      visibleColumns = colCheckboxes.filter(function(c) { return c.checked; }).map(function(c) { return c.dataset.col; });
+      applyColumnVisibility(visibleColumns);
+      saveVisibleColumns(visibleColumns);
+    });
+  });
+
+  var activeType         = 'all';
   var activeManufacturer = 'all';
-  var activeSort         = 'rank';
-  var activeDir           = 'desc';
+  var activeSort          = 'rank';
+  var activeDir            = 'desc';
+
+  rows.forEach(function(row) {
+    row.addEventListener('click', function() { window.location.href = row.dataset.href; });
+    row.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') window.location.href = row.dataset.href;
+    });
+  });
 
   function applyFilter() {
     var q = search.value.trim().toLowerCase();
     var visible = 0;
-    cards.forEach(function(card) {
-      var name = card.querySelector('.gpu-row__name').textContent.toLowerCase();
-      var manuf = (card.dataset.manufacturer || '').toLowerCase();
+    rows.forEach(function(row) {
+      var name = (row.dataset.name || '').toLowerCase();
+      var manuf = (row.dataset.manufacturer || '').toLowerCase();
       var qMatch = !q || name.includes(q) || manuf.includes(q);
-      var typeMatch = activeType === 'all' || card.dataset.type === activeType;
-      var manufMatch = activeManufacturer === 'all' || card.dataset.manufacturer === activeManufacturer;
+      var typeMatch = activeType === 'all' || row.dataset.type === activeType;
+      var manufMatch = activeManufacturer === 'all' || row.dataset.manufacturerSlug === activeManufacturer;
       var show = qMatch && typeMatch && manufMatch;
-      card.style.display = show ? '' : 'none';
+      row.style.display = show ? '' : 'none';
       if (show) visible++;
     });
     empty.style.display = visible === 0 ? '' : 'none';
   }
 
   function compare(a, b) {
-    if (activeSort === 'price') {
-      return (parseFloat(a.dataset.price) || 0) - (parseFloat(b.dataset.price) || 0);
+    var type = table.querySelector('th[data-sort="' + activeSort + '"]').dataset.type;
+    var av = a.dataset[activeSort];
+    var bv = b.dataset[activeSort];
+    if (type === 'number') {
+      return (parseFloat(av) || 0) - (parseFloat(bv) || 0);
     }
-    if (activeSort === 'vram') {
-      return (parseFloat(a.dataset.vram) || 0) - (parseFloat(b.dataset.vram) || 0);
-    }
-    if (activeSort === 'release') {
-      return (a.dataset.release || '').localeCompare(b.dataset.release || '');
-    }
-    if (activeSort === 'az') {
-      return a.querySelector('.gpu-row__name').textContent.localeCompare(b.querySelector('.gpu-row__name').textContent);
-    }
-    return (parseFloat(a.dataset.rank) || 0) - (parseFloat(b.dataset.rank) || 0);
+    return (av || '').localeCompare(bv || '');
   }
 
   function applySort() {
     var dirMult = activeDir === 'asc' ? 1 : -1;
-    var sorted = cards.slice().sort(function(a, b) { return compare(a, b) * dirMult; });
-    sorted.forEach(function(card) { container.appendChild(card); });
+    var sorted = rows.slice().sort(function(a, b) { return compare(a, b) * dirMult; });
+    sorted.forEach(function(row) { tbody.appendChild(row); });
   }
 
   if (search) search.addEventListener('input', applyFilter);
@@ -161,18 +302,19 @@
     });
   }
 
-  sortBtns.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      if (btn.dataset.sort === activeSort) {
+  headers.forEach(function(th) {
+    th.addEventListener('click', function() {
+      var sortKey = th.dataset.sort;
+      if (sortKey === activeSort) {
         activeDir = activeDir === 'asc' ? 'desc' : 'asc';
       } else {
-        activeSort = btn.dataset.sort;
-        activeDir  = btn.dataset.dir || 'desc';
+        activeSort = sortKey;
+        activeDir  = th.dataset.type === 'number' ? 'desc' : 'asc';
       }
-      sortBtns.forEach(function(b) {
-        b.classList.toggle('active', b === btn);
-        var arrow = b.querySelector('.pf__arrow');
-        if (arrow) arrow.textContent = (b === btn && activeDir === 'asc') ? '↑' : '↓';
+      headers.forEach(function(h) {
+        h.classList.toggle('models-table__sorted', h === th);
+        h.classList.toggle('models-table__sorted--desc', h === th && activeDir === 'desc');
+        h.classList.toggle('models-table__sorted--asc', h === th && activeDir === 'asc');
       });
       applySort();
     });

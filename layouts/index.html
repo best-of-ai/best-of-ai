@@ -67,6 +67,46 @@
       </div>
     </section>
 
+    <!-- ── New AI Models ── -->
+    {{ $allModels := where .Site.RegularPages "Section" "models" }}
+    {{ $newModels := first 6 (sort $allModels "Params.release_date" "desc") }}
+    {{ if $newModels }}
+    <section class="tool-section home-models" id="new-models" data-cat="new-models">
+      <h2 class="tool-section__title">
+        <a href="{{ "/models/" | relURL }}" class="tool-section__title-link">New AI Models</a>
+        <a href="{{ "/models/" | relURL }}" class="tool-section__more-link">
+          View all {{ partial "count.html" (len $allModels) }}
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </h2>
+      <div class="tools-grid">
+        {{ range $newModels }}
+          {{ partial "model-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- ── Popular AI Hardware ── -->
+    {{ $allHardware := where .Site.RegularPages "Section" "hardware" }}
+    {{ $popHardware := first 6 (sort $allHardware "Params.rank" "desc") }}
+    {{ if $popHardware }}
+    <section class="tool-section home-hardware" id="popular-hardware" data-cat="popular-hardware">
+      <h2 class="tool-section__title">
+        <a href="{{ "/hardware/" | relURL }}" class="tool-section__title-link">Popular AI Hardware</a>
+        <a href="{{ "/hardware/" | relURL }}" class="tool-section__more-link">
+          View all {{ partial "count.html" (len $allHardware) }}
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </h2>
+      <div class="tools-grid">
+        {{ range $popHardware }}
+          {{ partial "gpu-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
     {{/* Build sortable slice: [{cat, count}] sorted by count desc */}}
     {{ $catList := slice }}
     {{ range hugo.Data.categories }}

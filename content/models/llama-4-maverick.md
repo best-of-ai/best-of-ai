@@ -1,0 +1,27 @@
+---
+title: 'Llama 4 Maverick'
+name: 'Llama 4 Maverick'
+slug: 'llama-4-maverick'
+subtitle: 'Meta''s flagship open-weight multimodal mixture-of-experts model'
+description: 'Meta''s flagship open-weight multimodal mixture-of-experts model'
+company: 'meta-ai'
+model_type: 'Multimodal'
+logo_url: ''
+product_url: 'https://ai.meta.com/llama/'
+price: 'Free'
+rank: 8
+release_date: '2025-04-05'
+param_count: '400B (17B active)'
+context_window_tokens: 1000000
+modality: [text, image]
+open_weight: true
+license: 'Llama 4 Community License'
+api_available: true
+mmlu_score: 86.0
+humaneval_score: 85.0
+lmarena_score: 1330
+access_methods: [API, Self-hosted]
+platforms: ['Hugging Face', 'Together AI', 'AWS Bedrock']
+date: '2026-07-16'
+tags: [llm, open-weight, multimodal, self-hosted, mixture-of-experts]
+---

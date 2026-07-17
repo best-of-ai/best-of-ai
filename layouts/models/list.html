@@ -1,0 +1,337 @@
+{{ define "main" }}
+{{ $allModels := where .Site.RegularPages "Section" "models" }}
+{{ $allModels = sort $allModels "Params.release_date" "desc" }}
+
+{{ $companies := slice }}
+{{ range $allModels }}
+  {{ if .Params.company }}
+    {{ if not (in $companies .Params.company) }}
+      {{ $companies = $companies | append .Params.company }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $companyPages := where .Site.RegularPages "Section" "companies" }}
+
+{{ $types := slice }}
+{{ range $allModels }}
+  {{ if .Params.model_type }}
+    {{ if not (in $types .Params.model_type) }}
+      {{ $types = $types | append .Params.model_type }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $types = sort $types }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Models</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Models</span> &amp; LLMs</h1>
+      <p class="pg-hero__desc">Foundation models and LLMs, with specs and benchmarks, from the labs building them.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $allModels) }}</strong> models
+        <span class="sep">·</span>
+        <strong>{{ partial "count.html" (len $companies) }}</strong> labs
+      </div>
+    </div>
+
+    <div class="company-search">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="models-search-input" placeholder="Search models by name or lab…" autocomplete="off" spellcheck="false" aria-label="Search models">
+    </div>
+
+    <div class="prof-cat-tabs" id="models-type-tabs">
+      <button class="pf active" data-type="all">all <span class="prof-cat-count">{{ partial "count.html" (len $allModels) }}</span></button>
+      {{ range $types }}
+        {{ $t := . }}
+        {{ $count := len (where $allModels "Params.model_type" $t) }}
+        <button class="pf" data-type="{{ $t }}">{{ $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></button>
+      {{ end }}
+    </div>
+
+    <div class="price-bar" id="models-filter-bar">
+      <select class="hw-select" id="models-company-select" aria-label="Filter by company">
+        <option value="all">all labs</option>
+        {{ range $companies }}
+          {{ $slug := . }}
+          {{ $name := $slug }}
+          {{ $cpMatch := where $companyPages "Params.slug" $slug }}
+          {{ if $cpMatch }}{{ $name = (index $cpMatch 0).Params.name }}{{ end }}
+          <option value="{{ $slug }}">{{ $name }}</option>
+        {{ end }}
+      </select>
+      <div class="models-cols" id="models-cols">
+        <button type="button" class="models-cols__btn" id="models-cols-btn" aria-haspopup="true" aria-expanded="false">
+          Columns
+          <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="models-cols__panel" id="models-cols-panel" hidden>
+          <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> Model</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="company" checked> Lab</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="type" checked> Type</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="params" checked> Params</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="context" checked> Context</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="license" checked> License</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="released" checked> Released</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="price"> Price</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="open_weight"> Open Weight</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="modality"> Modality</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="input_price"> Input $/M</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="output_price"> Output $/M</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="mmlu"> MMLU</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="lmarena"> LMArena</label>
+        </div>
+      </div>
+      <span class="price-bar__label">// sorted by newest — click a column to resort</span>
+    </div>
+
+    <div class="models-table-wrap">
+      <table class="models-table" id="models-table">
+        <thead>
+          <tr>
+            <th data-sort="name" data-type="string" data-col="name">Model</th>
+            <th data-sort="company" data-type="string" data-col="company">Lab</th>
+            <th data-sort="type" data-type="string" data-col="type">Type</th>
+            <th data-sort="params" data-type="string" data-col="params">Params</th>
+            <th data-sort="context" data-type="number" data-col="context">Context</th>
+            <th data-sort="license" data-type="string" data-col="license">License</th>
+            <th class="models-table__sorted models-table__sorted--desc" data-sort="released" data-type="date" data-col="released">Released</th>
+            <th data-sort="price" data-type="string" data-col="price" style="display:none">Price</th>
+            <th data-sort="open_weight" data-type="string" data-col="open_weight" style="display:none">Open Weight</th>
+            <th data-sort="modality" data-type="string" data-col="modality" style="display:none">Modality</th>
+            <th data-sort="input_price" data-type="number" data-col="input_price" style="display:none">Input $/M</th>
+            <th data-sort="output_price" data-type="number" data-col="output_price" style="display:none">Output $/M</th>
+            <th data-sort="mmlu" data-type="number" data-col="mmlu" style="display:none">MMLU</th>
+            <th data-sort="lmarena" data-type="number" data-col="lmarena" style="display:none">LMArena</th>
+          </tr>
+        </thead>
+        <tbody id="models-table-body">
+          {{ range $allModels }}
+          {{ $p := .Params }}
+          {{ $company := "" }}
+          {{ if $p.company }}
+            {{ $companyMatch := where $companyPages "Params.slug" $p.company }}
+            {{ if $companyMatch }}{{ $company = (index $companyMatch 0).Params.name }}{{ end }}
+          {{ end }}
+          {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" (or $p.product_url $p.website)) }}
+          {{ $contextLabel := "—" }}
+          {{ if $p.context_window_tokens }}
+            {{ $ctx := $p.context_window_tokens }}
+            {{ if ge $ctx 1000000 }}
+              {{ $contextLabel = printf "%vM" (div $ctx 1000000) }}
+            {{ else if ge $ctx 1000 }}
+              {{ $contextLabel = printf "%vk" (div $ctx 1000) }}
+            {{ else }}
+              {{ $contextLabel = printf "%v" $ctx }}
+            {{ end }}
+          {{ end }}
+          {{ $openWeight := "No" }}{{ if $p.open_weight }}{{ $openWeight = "Yes" }}{{ end }}
+          {{ $modality := "—" }}{{ if $p.modality }}{{ $modality = delimit $p.modality ", " }}{{ end }}
+          <tr
+            class="models-table__row"
+            data-href="{{ .RelPermalink }}"
+            data-name="{{ $p.name }}"
+            data-company="{{ $company }}"
+            data-company-slug="{{ $p.company }}"
+            data-type="{{ $p.model_type }}"
+            data-params="{{ $p.param_count }}"
+            data-context="{{ $p.context_window_tokens | default 0 }}"
+            data-license="{{ $p.license }}"
+            data-released="{{ $p.release_date | default "" }}"
+            data-price="{{ $p.price }}"
+            data-open_weight="{{ $openWeight }}"
+            data-modality="{{ $modality }}"
+            data-input_price="{{ $p.input_price_usd_per_m | default 0 }}"
+            data-output_price="{{ $p.output_price_usd_per_m | default 0 }}"
+            data-mmlu="{{ $p.mmlu_score | default 0 }}"
+            data-lmarena="{{ $p.lmarena_score | default 0 }}"
+            tabindex="0"
+          >
+            <td class="models-table__name" data-col="name">
+              <span class="models-table__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+              </span>
+              <a href="{{ .RelPermalink }}" class="models-table__name-link">{{ $p.name }}</a>
+            </td>
+            <td data-col="company">{{ $company }}</td>
+            <td data-col="type"><span class="models-table__badge">{{ $p.model_type }}</span></td>
+            <td data-col="params">{{ $p.param_count }}</td>
+            <td data-col="context">{{ $contextLabel }}</td>
+            <td data-col="license">{{ $p.license | default "—" }}</td>
+            <td data-col="released">{{ if $p.release_date }}{{ (time $p.release_date).Format "Jan 2006" }}{{ else }}—{{ end }}</td>
+            <td data-col="price" style="display:none">{{ $p.price | default "—" }}</td>
+            <td data-col="open_weight" style="display:none">{{ $openWeight }}</td>
+            <td data-col="modality" style="display:none">{{ $modality }}</td>
+            <td data-col="input_price" style="display:none">{{ if $p.input_price_usd_per_m }}${{ $p.input_price_usd_per_m }}{{ else }}—{{ end }}</td>
+            <td data-col="output_price" style="display:none">{{ if $p.output_price_usd_per_m }}${{ $p.output_price_usd_per_m }}{{ else }}—{{ end }}</td>
+            <td data-col="mmlu" style="display:none">{{ if $p.mmlu_score }}{{ $p.mmlu_score }}{{ else }}—{{ end }}</td>
+            <td data-col="lmarena" style="display:none">{{ if $p.lmarena_score }}{{ $p.lmarena_score }}{{ else }}—{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="company-empty" id="models-empty" style="display:none">No models match your search.</p>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+<script>
+(function() {
+  var search        = document.getElementById('models-search-input');
+  var typeTabs       = document.querySelectorAll('#models-type-tabs .pf');
+  var companySelect  = document.getElementById('models-company-select');
+  var table          = document.getElementById('models-table');
+  var tbody          = document.getElementById('models-table-body');
+  var empty          = document.getElementById('models-empty');
+  var headers        = table.querySelectorAll('th[data-sort]');
+  var rows            = Array.from(tbody.querySelectorAll('.models-table__row'));
+
+  var COLS_KEY     = 'bai-models-columns';
+  var colsBtn      = document.getElementById('models-cols-btn');
+  var colsPanel    = document.getElementById('models-cols-panel');
+  var colsWrap     = document.getElementById('models-cols');
+  var colCheckboxes = Array.from(colsPanel.querySelectorAll('input[data-col]'));
+  var DEFAULT_COLS = ['name', 'company', 'type', 'params', 'context', 'license', 'released'];
+
+  function loadVisibleColumns() {
+    try {
+      var stored = JSON.parse(localStorage.getItem(COLS_KEY));
+      if (Array.isArray(stored) && stored.length) return stored;
+    } catch (e) {}
+    return DEFAULT_COLS.slice();
+  }
+
+  function saveVisibleColumns(cols) {
+    try { localStorage.setItem(COLS_KEY, JSON.stringify(cols)); } catch (e) {}
+  }
+
+  function applyColumnVisibility(cols) {
+    var set = {};
+    cols.concat(['name']).forEach(function(c) { set[c] = true; });
+    table.querySelectorAll('[data-col]').forEach(function(el) {
+      el.style.display = set[el.dataset.col] ? '' : 'none';
+    });
+    colCheckboxes.forEach(function(cb) { cb.checked = !!set[cb.dataset.col]; });
+  }
+
+  var visibleColumns = loadVisibleColumns();
+  applyColumnVisibility(visibleColumns);
+
+  if (colsBtn) {
+    colsBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var open = colsPanel.hasAttribute('hidden');
+      if (open) { colsPanel.removeAttribute('hidden'); } else { colsPanel.setAttribute('hidden', ''); }
+      colsBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    document.addEventListener('click', function(e) {
+      if (!colsWrap.contains(e.target)) colsPanel.setAttribute('hidden', '');
+    });
+  }
+
+  colCheckboxes.forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      visibleColumns = colCheckboxes.filter(function(c) { return c.checked; }).map(function(c) { return c.dataset.col; });
+      applyColumnVisibility(visibleColumns);
+      saveVisibleColumns(visibleColumns);
+    });
+  });
+
+  var activeType    = 'all';
+  var activeCompany = 'all';
+  var activeSort    = 'released';
+  var activeDir     = 'desc';
+
+  rows.forEach(function(row) {
+    row.addEventListener('click', function() { window.location.href = row.dataset.href; });
+    row.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') window.location.href = row.dataset.href;
+    });
+  });
+
+  function applyFilter() {
+    var q = search.value.trim().toLowerCase();
+    var visible = 0;
+    rows.forEach(function(row) {
+      var name = (row.dataset.name || '').toLowerCase();
+      var company = (row.dataset.company || '').toLowerCase();
+      var qMatch = !q || name.includes(q) || company.includes(q);
+      var typeMatch = activeType === 'all' || row.dataset.type === activeType;
+      var companyMatch = activeCompany === 'all' || row.dataset.companySlug === activeCompany;
+      var show = qMatch && typeMatch && companyMatch;
+      row.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    empty.style.display = visible === 0 ? '' : 'none';
+  }
+
+  function compare(a, b) {
+    var type = table.querySelector('th[data-sort="' + activeSort + '"]').dataset.type;
+    var av = a.dataset[activeSort];
+    var bv = b.dataset[activeSort];
+    if (type === 'number') {
+      return (parseFloat(av) || 0) - (parseFloat(bv) || 0);
+    }
+    return (av || '').localeCompare(bv || '');
+  }
+
+  function applySort() {
+    var dirMult = activeDir === 'asc' ? 1 : -1;
+    var sorted = rows.slice().sort(function(a, b) { return compare(a, b) * dirMult; });
+    sorted.forEach(function(row) { tbody.appendChild(row); });
+  }
+
+  if (search) search.addEventListener('input', applyFilter);
+
+  typeTabs.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activeType = btn.dataset.type;
+      typeTabs.forEach(function(b) { b.classList.toggle('active', b === btn); });
+      applyFilter();
+    });
+  });
+
+  if (companySelect) {
+    companySelect.addEventListener('change', function() {
+      activeCompany = companySelect.value;
+      applyFilter();
+    });
+  }
+
+  headers.forEach(function(th) {
+    th.addEventListener('click', function() {
+      var sortKey = th.dataset.sort;
+      if (sortKey === activeSort) {
+        activeDir = activeDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        activeSort = sortKey;
+        activeDir  = th.dataset.type === 'number' ? 'desc' : 'asc';
+      }
+      headers.forEach(function(h) {
+        h.classList.toggle('models-table__sorted', h === th);
+        h.classList.toggle('models-table__sorted--desc', h === th && activeDir === 'desc');
+        h.classList.toggle('models-table__sorted--asc', h === th && activeDir === 'asc');
+      });
+      applySort();
+    });
+  });
+})();
+</script>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

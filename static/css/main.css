@@ -1181,6 +1181,143 @@ body.mobile-menu-open { overflow: hidden; }
   .gpu-row__price { margin-left: 0; flex-basis: 100%; justify-content: space-between; order: 4; }
 }
 
+/* ── Models table ── */
+.models-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.models-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+.models-table thead th {
+  text-align: left;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.64rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--fg-muted);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+.models-table thead th:hover { color: var(--fg); }
+.models-table thead th::after {
+  content: '';
+  display: inline-block;
+  width: 0.6em;
+  margin-left: 0.3em;
+  opacity: 0.35;
+}
+.models-table thead th.models-table__sorted::after { opacity: 1; color: var(--accent); }
+.models-table thead th.models-table__sorted--asc::after { content: '↑'; }
+.models-table thead th.models-table__sorted--desc::after { content: '↓'; }
+.models-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.models-table tbody tr:last-child { border-bottom: none; }
+.models-table tbody tr:hover { background: var(--accent-bg); }
+.models-table tbody tr:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.models-table td {
+  padding: 0.45rem 0.65rem;
+  color: var(--fg-muted);
+  vertical-align: middle;
+}
+.models-table__name {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--fg);
+}
+.models-table__logo {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.models-table__logo img { width: 14px; height: 14px; object-fit: contain; }
+.models-table__name-link {
+  color: var(--fg);
+  font-weight: 600;
+  text-decoration: none;
+}
+.models-table tbody tr:hover .models-table__name-link { color: var(--accent); }
+.models-table__badge {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 600;
+  color: var(--fg-muted);
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+/* ── Models column picker ── */
+.models-cols {
+  position: relative;
+  margin-left: 0.3rem;
+}
+.models-cols__btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.models-cols__btn:hover { color: var(--fg); border-color: var(--fg-faint); }
+.models-cols__btn svg { flex-shrink: 0; }
+.models-cols__panel {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  z-index: 20;
+  min-width: 180px;
+  padding: 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.models-cols__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.45rem;
+  border-radius: 5px;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.models-cols__item:hover { background: var(--accent-bg); color: var(--fg); }
+.models-cols__item input { cursor: pointer; }
+.models-cols__item--locked { color: var(--fg-faint); cursor: default; }
+.models-cols__item--locked:hover { background: none; color: var(--fg-faint); }
+.models-cols__item--locked input { cursor: default; }
+
 /* ── Tool card ── */
 /* ── Ad slots ─────────────────────────────────────────────────────────────── */
 
@@ -4525,5 +4662,12 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   .company-row__desc { display: none; }
   .company-row__tools { order: 3; margin-left: auto; }
   .company-hero__cta { width: 100%; justify-content: center; }
+
+  /* Models table: smaller text, tighter cells, still scrolls horizontally */
+  .models-table { font-size: 0.72rem; }
+  .models-table thead th, .models-table td { padding: 0.4rem 0.55rem; }
+  .models-table__logo { width: 18px; height: 18px; }
+  .models-table__logo img { width: 13px; height: 13px; }
+  .models-cols__panel { left: auto; right: 0; }
 
 }

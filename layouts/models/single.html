@@ -1,0 +1,192 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $allModels := where .Site.RegularPages "Section" "models" }}
+{{ $slug := or $p.slug .File.BaseFileName }}
+
+{{ $companyPage := "" }}
+{{ $companySiblings := slice }}
+{{ if $p.company }}
+  {{ $companyMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.company }}
+  {{ if $companyMatch }}
+    {{ $companyPage = index $companyMatch 0 }}
+    {{ $companySiblings = where $allModels "Params.company" $p.company }}
+    {{ $companySiblings = where $companySiblings ".RelPermalink" "ne" .RelPermalink }}
+    {{ $companySiblings = sort $companySiblings "Params.rank" "desc" }}
+  {{ end }}
+{{ end }}
+
+{{ $similar := where $allModels "Params.model_type" $p.model_type }}
+{{ $similar = where $similar ".RelPermalink" "ne" .RelPermalink }}
+{{ $similar = first 6 (sort $similar "Params.rank" "desc") }}
+
+{{ $priceLabel := or $p.price "N/A" }}
+
+{{ $keyStats := slice }}
+{{ if $p.context_window_tokens }}{{ $keyStats = $keyStats | append (dict "val" (lang.FormatNumberCustom 0 $p.context_window_tokens ". ,") "label" "context tokens") }}{{ end }}
+{{ if $p.param_count }}{{ $keyStats = $keyStats | append (dict "val" $p.param_count "label" "parameters") }}{{ end }}
+{{ if $p.license }}{{ $keyStats = $keyStats | append (dict "val" $p.license "label" "license") }}{{ end }}
+{{ if $p.release_date }}{{ $keyStats = $keyStats | append (dict "val" ((time $p.release_date).Format "Jan 2006") "label" "released") }}{{ end }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/models/" | relURL }}">Models</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $p.name }}</span>
+    </nav>
+
+    <!-- Model header -->
+    <div class="detail-hero">
+      <div class="detail-hero__inner">
+        <div class="detail-logo-wrap">
+          {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" (or $p.product_url $p.website)) }}
+          <img class="detail-logo" src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="detail-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</div>
+        </div>
+
+        <div class="detail-info">
+          <h1 class="detail-name">{{ $p.name }}</h1>
+          {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
+          <div class="detail-badges">
+            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
+            {{ if $p.model_type }}<span class="badge badge-cat">{{ $p.model_type }}</span>{{ end }}
+          </div>
+        </div>
+
+        {{ if $p.product_url }}
+        <a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+          Visit Product Page →
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Key specs strip -->
+    {{ if $keyStats }}
+    <div class="detail-stats">
+      {{ range $keyStats }}
+      <div class="detail-stat">
+        <span class="detail-stat__val">{{ .val }}</span>
+        <span class="detail-stat__label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Details card -->
+    <div class="detail-layout">
+      <div class="detail-body">
+        {{ with .Content }}
+          <div class="prose">{{ . }}</div>
+        {{ else }}
+        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <p class="detail-body__text">{{ $p.description }}</p>
+        {{ end }}
+      </div>
+
+      <aside class="detail-sidebar">
+        {{ if $companyPage }}
+        <div class="sidebar-alternatives">
+          <div class="sidebar-alternatives__title">// from {{ $companyPage.Params.name }}</div>
+          {{ if $companySiblings }}
+          <div class="sidebar-alternatives__list">
+            {{ range first 3 $companySiblings }}
+            {{ $sib := .Params }}
+            {{ $logoSrc := cond (ne $sib.logo_url "") $sib.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" (or $sib.product_url $sib.website)) }}
+            <a href="{{ .RelPermalink }}" class="sidebar-alternative">
+              <span class="sidebar-alternative__logo">
+                <img src="{{ $logoSrc }}" alt="{{ $sib.name }}" loading="lazy"
+                     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <span class="tool-logo-fallback" style="display:none">{{ substr $sib.name 0 1 }}</span>
+              </span>
+              <span>{{ $sib.name }}</span>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+          <a href="{{ $companyPage.RelPermalink }}" class="sidebar-alternatives__all">
+            View all on {{ $companyPage.Params.name }} →
+          </a>
+        </div>
+        {{ end }}
+
+        <div class="detail-meta-card">
+          <div class="detail-meta__title">// specs</div>
+          <dl class="detail-meta-list">
+            {{ if $companyPage }}
+            <div class="detail-meta-row">
+              <dt>Company</dt>
+              <dd><a href="{{ $companyPage.RelPermalink }}">{{ $companyPage.Params.name }}</a></dd>
+            </div>
+            {{ end }}
+            {{ with $p.model_type }}<div class="detail-meta-row"><dt>Type</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Release date</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.param_count }}<div class="detail-meta-row"><dt>Parameters</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.context_window_tokens }}<div class="detail-meta-row"><dt>Context window</dt><dd>{{ lang.FormatNumberCustom 0 $p.context_window_tokens ". ," }} tokens</dd></div>{{ end }}
+            {{ if $p.modality }}<div class="detail-meta-row"><dt>Modality</dt><dd>{{ delimit $p.modality ", " }}</dd></div>{{ end }}
+            {{ with $p.license }}<div class="detail-meta-row"><dt>License</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>Open weight</dt><dd>{{ if $p.open_weight }}Yes{{ else }}No{{ end }}</dd></div>
+            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
+            {{ if $p.input_price_usd_per_m }}<div class="detail-meta-row"><dt>Input price</dt><dd>${{ $p.input_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
+            {{ if $p.output_price_usd_per_m }}<div class="detail-meta-row"><dt>Output price</dt><dd>${{ $p.output_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>API available</dt><dd>{{ if $p.api_available }}Yes{{ else }}No{{ end }}</dd></div>
+            {{ with $p.mmlu_score }}<div class="detail-meta-row"><dt>MMLU</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.humaneval_score }}<div class="detail-meta-row"><dt>HumanEval</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.lmarena_score }}<div class="detail-meta-row"><dt>LMArena Elo</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.access_methods }}<div class="detail-meta-row"><dt>Access</dt><dd>{{ delimit $p.access_methods ", " }}</dd></div>{{ end }}
+            {{ if $p.platforms }}<div class="detail-meta-row"><dt>Platforms</dt><dd>{{ delimit $p.platforms ", " }}</dd></div>{{ end }}
+            {{ if $p.product_url }}
+            <div class="detail-meta-row">
+              <dt>Product page</dt>
+              <dd><a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+            </div>
+            {{ end }}
+            <div class="detail-meta-row">
+              <dt>Added</dt>
+              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+            </div>
+            {{ if $p.tags }}
+            <div class="detail-meta-row">
+              <dt>Tags</dt>
+              <dd class="detail-meta-tags">
+                {{ range $p.tags }}
+                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                {{ end }}
+              </dd>
+            </div>
+            {{ end }}
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Similar models -->
+    {{ if $similar }}
+    <section class="related-section">
+      <h2 class="related-title">// similar models{{ with $p.model_type }} in {{ . }}{{ end }}</h2>
+      <div class="tools-grid tools-grid--related">
+        {{ range $similar }}
+        {{ partial "model-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ partial "disqus.html" . }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

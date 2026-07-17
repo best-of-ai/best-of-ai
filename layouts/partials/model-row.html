@@ -1,0 +1,81 @@
+{{/*
+  Renders a single AI model row for the /models list page.
+  Context (dict):
+    page  - Hugo page object for the model item
+    p     - page.Params
+*/}}
+{{ $page := .page }}
+{{ $p    := .p }}
+{{ $company := "" }}
+{{ if $p.company }}
+  {{ $companyMatch := where (where $page.Site.RegularPages "Section" "companies") "Params.slug" $p.company }}
+  {{ if $companyMatch }}{{ $company = (index $companyMatch 0).Params.name }}{{ end }}
+{{ end }}
+{{ $priceLabel := "N/A" }}
+{{ if $p.price }}{{ $priceLabel = $p.price }}{{ end }}
+
+<a
+  href="{{ $page.RelPermalink }}"
+  class="gpu-row"
+  data-company="{{ $p.company }}"
+  data-type="{{ $p.model_type }}"
+  data-context="{{ $p.context_window_tokens | default 0 }}"
+  data-release="{{ $p.release_date | default "" }}"
+  data-rank="{{ $p.rank | default 5 }}"
+>
+  <div class="gpu-row__id">
+    <div class="gpu-row__logo">
+      {{ if $p.logo_url }}
+        <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+      {{ else }}
+        <img src="https://www.google.com/s2/favicons?domain={{ $p.product_url | default $p.website }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+      {{ end }}
+    </div>
+    <div class="gpu-row__id-text">
+      <span class="gpu-row__name">{{ $p.name }}</span>
+      <span class="gpu-row__sub">{{ if $company }}{{ $company }}{{ end }}{{ with $p.model_type }}{{ if $company }} · {{ end }}{{ . }}{{ end }}</span>
+    </div>
+  </div>
+
+  <div class="gpu-row__specs">
+    {{ if $p.context_window_tokens }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ lang.FormatNumberCustom 0 $p.context_window_tokens ". ," }}</span>
+      <span class="gpu-row__stat-label">context tokens</span>
+    </div>
+    {{ end }}
+    {{ if $p.param_count }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.param_count }}</span>
+      <span class="gpu-row__stat-label">parameters</span>
+    </div>
+    {{ end }}
+    {{ if $p.license }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.license }}</span>
+      <span class="gpu-row__stat-label">license</span>
+    </div>
+    {{ end }}
+    {{ if $p.lmarena_score }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ $p.lmarena_score }}</span>
+      <span class="gpu-row__stat-label">arena elo</span>
+    </div>
+    {{ end }}
+    {{ if $p.release_date }}
+    <div class="gpu-row__stat">
+      <span class="gpu-row__stat-val">{{ (time $p.release_date).Format "Jan 2006" }}</span>
+      <span class="gpu-row__stat-label">released</span>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ with $p.subtitle }}<p class="gpu-row__desc">{{ . }}</p>{{ end }}
+
+  <div class="gpu-row__price">
+    <span class="gpu-row__price-val">{{ $priceLabel }}</span>
+    <svg class="gpu-row__ext" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+  </div>
+</a>

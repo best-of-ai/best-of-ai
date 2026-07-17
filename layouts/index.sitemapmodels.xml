@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- range sort (where .Site.RegularPages "Section" "models") "RelPermalink" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- end }}
+</urlset>
