@@ -21,3 +21,5 @@ platforms: ['API']
 date: '2026-07-16'
 tags: [text-to-speech, api]
 ---
+
+Eleven Turbo v2.5 sits between ElevenLabs' Flash and Multilingual models, aiming for a middle ground of roughly 250 to 300 millisecond latency with better audio quality than Flash. It supports 32 languages, including Vietnamese, Hungarian, and Norwegian, which were new additions over the original Turbo v2, and generates speech about three times faster than Multilingual v2 for non-English text. ElevenLabs recommends it for applications that need decent responsiveness but can tolerate a bit more delay than a live phone call, such as chat-based assistants or interactive tools where the reply doesn't have to feel instantaneous. It's functionally similar to Flash v2.5 in capability but consistently runs a bit slower in practice.

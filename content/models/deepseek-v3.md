@@ -27,3 +27,7 @@ platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts, self-hosted]
 ---
+
+DeepSeek V3 is a 671-billion-parameter mixture-of-experts model, with 37 billion parameters active per token, that DeepSeek released on December 26, 2024. It's a non-reasoning base model built on the same Multi-head Latent Attention and DeepSeekMoE architecture as V2, and DeepSeek reported training it for about $5.6 million in GPU time, a figure far lower than what Western labs were spending on comparable models. It scored 88.5 on MMLU and 82.6 on HumanEval, putting it roughly on par with GPT-4o and Claude 3.5 Sonnet on many benchmarks despite the low training cost.
+
+V3 is released under the MIT license with open weights, and DeepSeek priced its API well below competing frontier models. It later served as the base model that R1's reasoning-focused reinforcement learning was built on top of, and its cost efficiency became a talking point across the industry about how much compute is actually required to reach frontier-level performance.

@@ -27,3 +27,7 @@ platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, multimodal, api]
 ---
+
+Gemini 2.5 Pro is Google's reasoning-focused flagship from the 2.5 generation, released as a preview on March 25, 2025 and reaching general availability that June. It's a "thinking" model by default, meaning it works through problems step by step internally before producing a final answer, and it handles text, image, audio, and video across a million-token context window. At launch, Google positioned it as its strongest model yet for math, science, and coding tasks, and it topped several public leaderboards including LMArena.
+
+Pricing is tiered at $1.25 per million input tokens and $10 per million output tokens for prompts up to 200,000 tokens, roughly doubling beyond that threshold. It posts strong scores across MMLU-Pro, GPQA, and coding benchmarks like LiveCodeBench, and Google offers it through the Gemini app, Google AI Studio, Vertex AI, and the Gemini API. It held the position of Google's top model until Gemini 3 Pro replaced it in November 2025.

@@ -24,3 +24,5 @@ platforms: ['Hugging Face', 'AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, open-weight, long-context, hybrid-architecture]
 ---
+
+Jamba 1.5 Large is AI21 Labs' flagship model in the Jamba family, released August 22, 2024. It uses a hybrid architecture that mixes Transformer attention blocks with Mamba state-space layers in a mixture-of-experts setup, giving it 398 billion total parameters with only 94 billion active during inference. That design lets it handle a 256,000-token context window, among the longest offered by any openly licensed model at the time, while keeping memory use and inference cost lower than a dense Transformer of comparable quality would need. AI21 priced it at $2 per million input tokens and $8 per million output tokens through its own API, and the model is also distributed on Hugging Face and AWS Bedrock under AI21's Jamba Open Model License. It targets enterprise workloads such as long-document analysis, summarization, and retrieval-augmented generation, competing with models like Mixtral 8x22B and Command R+ in that segment.

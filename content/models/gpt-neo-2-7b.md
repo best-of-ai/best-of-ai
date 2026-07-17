@@ -22,3 +22,5 @@ platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, legacy]
 ---
+
+GPT-Neo 2.7B is EleutherAI's 2.7 billion parameter language model, released on March 21, 2021, alongside smaller 125M and 1.3B versions as the group's first public models. It replicates the GPT-3 architecture using the mesh-tensorflow library and was trained on the Pile for roughly 420 billion tokens, giving it a 2048 token context window and general text generation ability comparable to OpenAI's smaller GPT-3 tiers at the time. EleutherAI released it under the Apache 2.0 license specifically because OpenAI had not made GPT-3 downloadable, and researchers and hobbyists used it for everything from chatbots to creative writing tools in the months before GPT-J and GPT-NeoX-20B arrived with larger parameter counts. It predates both of those later EleutherAI releases and is mostly of historical interest now, though it still runs comfortably on a single consumer GPU, which kept it in use in resource-constrained projects well after larger open models became available.

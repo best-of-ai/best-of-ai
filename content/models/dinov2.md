@@ -21,3 +21,7 @@ platforms: ['Hugging Face', 'GitHub']
 date: '2026-07-16'
 tags: [computer-vision, open-weight, self-supervised]
 ---
+
+DINOv2 is a computer vision model that Meta AI released in April 2023, trained entirely without labels on a curated dataset of 142 million images called LVD-142M. Rather than learning to classify images into predefined categories, it learns general-purpose visual features through self-supervised distillation, and those features turn out to work well across a wide range of downstream tasks, image classification, depth estimation, segmentation, and retrieval, often without any fine-tuning at all. The largest released model has 1.1 billion parameters.
+
+Because its features transfer so well out of the box, DINOv2 became a common backbone for other computer vision systems, including in fields like medical imaging where labeled data is scarce. Meta released the code and model weights under the Apache 2.0 license, and later followed it with DINOv3, but DINOv2 remains widely used as a general-purpose visual feature extractor.

@@ -22,3 +22,7 @@ platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, science, legacy]
 ---
+
+Galactica is a language model Meta AI built specifically for science, trained on 48 million papers, textbooks, reference material, and encyclopedias rather than the general web text used to train most large language models. Meta released it in November 2022 in sizes ranging from 125 million up to 120 billion parameters, with the largest version trained on around 106 billion tokens of curated scientific text. It could generate citations, solve math problems, write chemistry notation, and draft Wikipedia-style articles, and Meta pitched it as a tool for researchers to summarize papers and search the scientific literature.
+
+The public demo came down within three days of launch after users showed it producing fabricated citations and confidently wrong scientific claims stated in an authoritative tone. The episode became a widely cited early example of the risks of releasing generative models without enough guardrails, and it predates ChatGPT's launch by about two weeks. Meta kept the model weights available for researchers on Hugging Face under a noncommercial license, and Galactica is now mostly referenced as a cautionary case study rather than a tool in active use.

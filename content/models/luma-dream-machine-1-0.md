@@ -21,3 +21,5 @@ platforms: ['Luma app', 'API']
 date: '2026-07-16'
 tags: [video-generation, api, legacy]
 ---
+
+Luma Dream Machine 1.0 is Luma AI's first publicly available video generation model, launched in June 2024 as a free web tool that turns text prompts or a starting image into short video clips. It generates roughly five-second shots and was notable at launch for handling physics and motion more convincingly than most competing video models at the time, keeping characters and objects consistent as they move rather than warping between frames. Luma built it as a large-scale generative transformer trained directly on video and text, distinct from the diffusion-based approaches several rivals used. The tool grew quickly after launch, reportedly passing 25 million registered users, and it made Luma one of the more visible names in AI video generation alongside Runway and Pika.

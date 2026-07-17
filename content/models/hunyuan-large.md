@@ -22,3 +22,5 @@ platforms: ['Hugging Face', 'Tencent Cloud']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts]
 ---
+
+Hunyuan-Large is Tencent's open-weight mixture-of-experts language model, released in November 2024 with 389 billion total parameters and 52 billion activated per token, which Tencent described at launch as the largest open Transformer-based MoE model available at the time. It supports a 256K context window and was trained with a mix of synthetic and real data aimed at improving reasoning, coding, and long-context recall over Tencent's earlier dense Hunyuan models. The company published a technical report alongside the weights detailing its expert-routing and data-scaling choices, and released the model on Hugging Face under the Hunyuan license for self-hosting alongside API access through Tencent Cloud. It competes directly with other large open MoE releases from that period, including DeepSeek-V2 and Mistral's Mixtral family, on the strength of its very large expert pool relative to its active-parameter cost.

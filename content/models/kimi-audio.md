@@ -21,3 +21,5 @@ platforms: ['Hugging Face', 'Moonshot API']
 date: '2026-07-16'
 tags: [audio, open-weight, api]
 ---
+
+Kimi-Audio is an open-weight audio foundation model from Moonshot AI, with pretrained and instruction-tuned 7B checkpoints released in late April 2025. It handles speech recognition, audio understanding, and speech generation in a single model, so it can transcribe audio, answer questions about a sound clip, and produce spoken output rather than needing separate models stitched together. Moonshot released the model along with an evaluation toolkit, and the weights and code are on GitHub and Hugging Face under an Apache 2.0 license. It sits alongside Kimi-VL and the Kimi K-series text models in Moonshot's push to open-source specialized components rather than keep every capability behind a closed API, and it gives developers a free, self-hostable alternative to commercial speech models like OpenAI's Whisper and Google's audio models.

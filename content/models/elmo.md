@@ -21,3 +21,5 @@ platforms: ['AllenNLP']
 date: '2026-07-16'
 tags: [llm, open-weight, legacy, foundation-model]
 ---
+
+ELMo, short for Embeddings from Language Models, came out of the Allen Institute for AI and the University of Washington in February 2018, described in the paper "Deep Contextualized Word Representations" by Matthew Peters, Mark Neumann, and coauthors. Instead of assigning each word a single fixed vector the way earlier embeddings like word2vec and GloVe did, ELMo runs a bidirectional LSTM over a sentence and produces a representation for each word that depends on its surrounding context, so the same word gets a different vector depending on how it's used. Trained on roughly a billion words, it improved results across six NLP tasks at the time, including question answering and named entity recognition, when plugged into existing models as a feature. ELMo predates the transformer architecture and was largely superseded by BERT and its successors within about a year of release, but it's still cited as one of the models that established contextual word representations as the standard approach in NLP.

@@ -22,3 +22,5 @@ platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [multimodal, open-weight, vision]
 ---
+
+IDEFICS2 is Hugging Face's open vision-language model, released in April 2024 as a follow-up to its earlier IDEFICS model. It has 8 billion parameters, built by combining Mistral-7B as the language backbone with a SigLIP vision encoder, and it processes images at their native resolution and aspect ratio instead of forcing everything into a fixed square crop. That choice, plus training on a more efficient mix of image tokens, gives it a strong edge on document understanding, chart reading, and OCR-heavy tasks compared to models several times its size, including LLaVA-NeXT-34B. Hugging Face released the weights under Apache 2.0, making it fully open for commercial use and fine-tuning without licensing restrictions. It's meant to run self-hosted rather than through a hosted API, fitting Hugging Face's broader push to keep strong open vision-language baselines available to researchers and developers.

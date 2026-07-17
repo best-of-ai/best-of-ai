@@ -22,3 +22,5 @@ platforms: ['X']
 date: '2026-07-16'
 tags: [multimodal, vision, legacy]
 ---
+
+Grok-1.5V is xAI's first attempt at giving Grok vision, announced on April 12, 2024 as a preview rather than a public release. xAI said the model could read documents, diagrams, charts, screenshots, and photographs alongside text, putting it in the same category as early multimodal releases from OpenAI and Google at the time. In practice, Grok-1.5V stayed limited to a small group of early testers and never shipped to X subscribers or through xAI's API. Its capabilities were folded into Grok-2 instead, which became the first Grok model with image understanding that the public could actually use, arriving a few months later in mid-2024. Grok-1.5V is worth noting mainly as a marker of xAI's roadmap rather than as a model anyone can use today.

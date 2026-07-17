@@ -21,3 +21,5 @@ platforms: ['Vertex AI', 'Gemini app']
 date: '2026-07-16'
 tags: [image-generation, api]
 ---
+
+Imagen 3 is Google DeepMind's third-generation text-to-image model, opened to Gemini and ImageFX users in August 2024. It improved on Imagen 2 in prompt understanding, image detail, and text rendering across multiple languages and scripts, and it supports five aspect ratios so users aren't stuck with square output by default. Google rolled it out gradually, first to Gemini Advanced, Business, and Enterprise users before wider access, partly to phase in safeguards around generating images of real people. It's available through Vertex AI for developers and through the Gemini app for consumers, putting it in direct competition with OpenAI's DALL-E 3 and Midjourney on general-purpose image quality. Google later replaced it with Imagen 4 as its flagship image model, but Imagen 3 remained Google's main text-to-image offering for roughly a year.

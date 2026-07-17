@@ -25,3 +25,5 @@ platforms: ['Hugging Face', 'Together AI', 'AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, foundation-model]
 ---
+
+Llama 3.1 405B is Meta's largest Llama 3.1 model, released July 23, 2024 as a dense 405-billion-parameter transformer, not a mixture-of-experts design. It supports a 128,000-token context window and scored 88.6 on MMLU and 89.0 on HumanEval, putting it in the same range as GPT-4 on both knowledge and coding benchmarks. That made it the first open-weight model to genuinely match a closed frontier model rather than trail a generation behind, and Meta released it alongside smaller 70B and 8B versions trained the same way so developers could pick a tradeoff between quality and cost. It's available for self-hosting through Hugging Face, and through hosted inference from Together AI, Fireworks, AWS Bedrock, Azure, and Google Cloud, with providers pricing it well below equivalent closed models since Meta charges nothing for the weights themselves. Llama 3.1 405B pushed Meta's argument that an open model could sit at the frontier rather than just be a cheaper, weaker alternative to one.

@@ -24,3 +24,7 @@ platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted]
 ---
+
+GLM-4 is Zhipu AI's open-weight release from June 2024, distributed as GLM-4-9B with base, chat, and long-context variants. At 9 billion parameters it's small enough to run on a single high-end GPU, yet Zhipu reported it beating Meta's Llama 3 8B across semantic, math, reasoning, and code evaluations. The chat variant also supports web browsing, code execution, and custom tool calls through function calling, plus a context window that stretches to 128,000 tokens.
+
+The model added support for 26 languages beyond Chinese and English, including Japanese, Korean, and German, which broadened its use outside Zhipu's home market. Released under Apache 2.0, GLM-4 became one of the more widely adopted small open-weight models on Hugging Face and set the base architecture that Zhipu later scaled up into GLM-4-Plus, GLM-4.5, and GLM-4.6.

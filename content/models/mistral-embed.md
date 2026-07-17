@@ -23,3 +23,7 @@ platforms: ['API']
 date: '2026-07-16'
 tags: [embedding, retrieval, api]
 ---
+
+Mistral Embed is Mistral AI's text embedding model, available through its API since early 2024, that converts text into 1024-dimensional vectors for semantic search, clustering, and retrieval-augmented generation. It accepts inputs up to 8,192 tokens and Mistral positions it as a general-purpose embedding option for teams already building on the Mistral platform, rather than a specialized model for code or multilingual retrieval.
+
+It is priced at $0.01 per million input tokens, making it one of the cheaper hosted embedding options available, and is accessed exclusively through Mistral's API rather than as downloadable weights. Mistral later added Codestral Embed, a separate model tuned specifically for code retrieval, leaving Mistral Embed as the general-text option in its lineup.

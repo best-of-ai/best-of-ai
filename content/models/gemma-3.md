@@ -23,3 +23,7 @@ platforms: ['Hugging Face', 'Google Vertex AI']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model, self-hosted]
 ---
+
+Gemma 3 is Google's third generation of open-weight models, built with research and technology from the Gemini 2.0 project. It ships in four sizes, 1B, 4B, 12B, and 27B parameters, each available as a base checkpoint and an instruction-tuned version. The 4B, 12B, and 27B models accept both text and images, while the 1B model is text only, and all sizes handle over 140 languages with strong out-of-the-box support for more than 35 of them. Context length runs to 128,000 tokens for the larger models, a big jump from the 8,192 tokens in Gemma 2.
+
+Google positions Gemma 3 as small enough to run on a single GPU or TPU host while still competing with much larger closed models on standard benchmarks. The 27B variant reportedly outperforms Gemini 1.5 Pro on several evaluations, and independent testing puts it well ahead of the earlier Gemma 2 27B. Because the weights are downloadable under the Gemma license, developers use it for local deployment, fine-tuning, and edge applications where sending data to a hosted API isn't an option.

@@ -21,3 +21,5 @@ platforms: ['Research']
 date: '2026-07-16'
 tags: [video-generation, research, legacy]
 ---
+
+Emu Video is a text-to-video research model Meta introduced in November 2023, built on top of Meta's Emu image generator. Rather than generating video directly from a text prompt in one step, it splits the job in two: first it uses Emu to generate a still image from the prompt, then it generates a video conditioned on both the text and that image. Meta reported that this factored approach let it skip the deep cascade of separate models that earlier systems like Google's Imagen Video and Meta's own Make-A-Video relied on, while still producing higher-resolution output. In human preference evaluations, Meta said raters favored Emu Video's clips over Imagen Video's and Make-A-Video's the large majority of the time. It was released as a research paper and demo rather than a public product, and its techniques fed into later Meta video features rather than shipping as a standalone model.

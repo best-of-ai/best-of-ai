@@ -27,3 +27,5 @@ platforms: ['ChatGPT', 'Azure OpenAI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, foundation-model, api, vision]
 ---
+
+GPT-4o ("omni") is the model OpenAI unveiled on May 13, 2024, as the successor to GPT-4 and the first in the line built from the ground up to handle text, images, and audio in a single network rather than bolting separate models together. It became the default model behind ChatGPT and cut API pricing roughly in half compared to GPT-4 Turbo, at $2.50 per million input tokens and $10 per million output tokens, while also doubling generation speed. On launch benchmarks it scored 88.7 on MMLU and 90.2 on HumanEval, putting it ahead of GPT-4 on most reasoning and coding tests, and its live demo of real-time voice conversation and vision (reading facial expressions, solving handwritten math problems on camera) was the centerpiece of OpenAI's spring 2024 announcement. GPT-4o remained OpenAI's flagship for over a year before GPT-5 took over the position in August 2025, and it is still offered through the API and Azure OpenAI for existing integrations.

@@ -25,3 +25,7 @@ platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, low-latency, api]
 ---
+
+Gemini 2.0 Flash is Google's low-latency multimodal model from the 2.0 generation, first previewed in December 2024 and moved to general availability on February 5, 2025. It takes text, images, audio, and video as input and can produce text, image, and audio output, with a million-token context window and native support for tool use like search and code execution. Google built it as the workhorse tier of the 2.0 family, positioned to outperform the older 1.5 Pro on many benchmarks while running faster and cheaper.
+
+API pricing is $0.10 per million input tokens and $0.40 per million output tokens, among the cheapest options in Google's lineup at the time of release. It's available through the Gemini app, Google AI Studio, Vertex AI, and the Gemini API, and Google used it as the base for the experimental Flash Thinking variant that added visible chain-of-thought reasoning. Gemini 2.5 Flash has since taken over as Google's current low-cost, low-latency default.

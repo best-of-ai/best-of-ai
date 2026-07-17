@@ -24,3 +24,5 @@ platforms: ['Hugging Face', 'Together AI']
 date: '2026-07-16'
 tags: [llm, open-weight, multimodal, long-context, self-hosted]
 ---
+
+Llama 4 Scout is the smaller sibling in Meta's April 2025 Llama 4 release, a mixture-of-experts model with 109 billion total parameters and 17 billion active per token spread across 16 experts. Its standout feature is context length: Scout supports up to 10 million tokens, far beyond what other openly available models offered at launch, which suits tasks like summarizing an entire codebase or a long document collection in a single pass. Like Maverick, it is natively multimodal and trained to process text and images together. Meta positioned Scout as a faster, cheaper option that still beats models like Gemma 3 and Gemini 2.0 Flash-Lite on public benchmarks, and it runs on a single H100 GPU when quantized, which made it popular for self-hosted deployments.

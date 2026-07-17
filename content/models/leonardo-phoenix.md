@@ -21,3 +21,5 @@ platforms: ['Leonardo app', 'API']
 date: '2026-07-16'
 tags: [image-generation, api]
 ---
+
+Leonardo Phoenix is Leonardo AI's first foundational image model trained in-house rather than fine-tuned from a third-party base, launched December 18, 2024 alongside Flux Dev and Flux Schnell support on the platform. Leonardo built it specifically to close the prompt-adherence gap with competitors: it follows long, detailed instructions closely and can render short strings of coherent text inside an image, a common weak spot for diffusion models of that era. It works across a wide range of styles at high fidelity and is available through both the Leonardo app and API, positioning it against models like Midjourney and DALL-E for creators who need precise control over output rather than loose interpretation of a prompt. Leonardo followed it with Phoenix 2.0 in late 2025, which added a consistent-character engine, faster generation, and basic image-to-video motion, building on the same foundation this original model established.

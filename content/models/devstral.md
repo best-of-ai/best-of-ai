@@ -24,3 +24,7 @@ platforms: ['Hugging Face', 'Mistral API']
 date: '2026-07-16'
 tags: [code, open-weight, agentic, api]
 ---
+
+Devstral is a 24-billion-parameter code model that Mistral AI released on May 21, 2025, built in collaboration with All Hands AI, the team behind the OpenHands agent framework. Unlike most code models, which are tuned mainly for autocomplete or single-turn code generation, Devstral is trained specifically for agentic coding: exploring a codebase across multiple files, using tools, and completing multi-step software engineering tasks. On SWE-bench Verified it scored 46.8%, ahead of every open model available at release and even some larger proprietary ones.
+
+Mistral released the weights under the Apache 2.0 license, and the model is small enough to run on a single high-end consumer GPU, which made it a popular base for local coding agents. Mistral later followed it up with Devstral Small 1.1 and the larger Devstral 2, each pushing SWE-bench scores higher, but the original Devstral remains notable as one of the first open-weight models built specifically around agentic software engineering rather than general-purpose code completion.

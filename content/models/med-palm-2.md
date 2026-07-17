@@ -22,3 +22,7 @@ platforms: ['Research']
 date: '2026-07-16'
 tags: [llm, healthcare, research]
 ---
+
+Med-PaLM 2 is Google's second-generation medical question-answering model, built on the PaLM 2 base and fine-tuned on medical domain data. It was the first language model to reach expert-level performance on the MedQA benchmark, a set of US Medical Licensing Examination style questions, scoring 86.5%, a jump of roughly 19 points over the original Med-PaLM. Google evaluated it across MultiMedQA, a collection of seven datasets spanning professional exams, medical research questions, and consumer health queries, and introduced a technique called ensemble refinement, where the model generates multiple reasoning paths and then combines them into a final answer.
+
+Google shared Med-PaLM 2 with a small set of healthcare organizations for testing rather than releasing it broadly, reflecting the caution around deploying medical AI in clinical settings. It later informed MedLM, a Google Cloud product for healthcare customers, and is positioned as a research step toward AI systems that can support doctors and answer patient questions safely, rather than a general-purpose chatbot.

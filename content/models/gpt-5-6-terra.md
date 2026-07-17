@@ -24,3 +24,5 @@ platforms: ['ChatGPT', 'Azure OpenAI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, foundation-model, api]
 ---
+
+GPT-5.6 Terra is the balanced, middle tier of OpenAI's GPT-5.6 family, aimed at everyday coding, reasoning, and agentic tasks where Sol's top-end capability would be overkill. It reached the public on July 9, 2026, following a preview period restricted to organizations vetted by the US government, and shares the family's 1.05 million token context window and 128,000 token output cap. OpenAI prices it at $2.50 per million input tokens and $15 per million output tokens, roughly half the cost of Sol, and describes its performance as competitive with the prior GPT-5.5 generation at that lower price. Terra is meant to be the default choice for developers who need strong reasoning and coding ability without paying flagship rates, similar to the role GPT-5's mini tier played in the previous generation. It is available through ChatGPT, Azure OpenAI, and the standard API, and GitHub added it to Copilot the same day it launched.

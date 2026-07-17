@@ -21,3 +21,5 @@ platforms: ['Luma app', 'API']
 date: '2026-07-16'
 tags: [image-generation, api]
 ---
+
+Luma Photon is Luma AI's image generation model, launched in November 2024 as a companion to its Dream Machine video tools. It is built on the same underlying multimodal architecture Luma uses for video, which the company says lets it render more consistent characters, scenes, and camera-like framing than typical diffusion-based image generators. Photon shipped alongside a faster, cheaper variant called Photon Flash, with API pricing around $0.015 per 1080p image for the full model and a fraction of that for Flash. Luma positioned Photon as a low-cost, high-throughput option for creative and marketing teams generating large volumes of images through its API or the Dream Machine app.

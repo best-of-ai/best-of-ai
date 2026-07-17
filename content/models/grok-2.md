@@ -26,3 +26,5 @@ platforms: ['Grok app', 'X', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, foundation-model, api]
 ---
+
+Grok-2 is xAI's model released in beta on August 13, 2024, alongside a smaller Grok-2 mini variant. It was the first Grok model to reach a wide audience with both image understanding and native image generation, the latter built on a partnership with Black Forest Labs' Flux model, and it integrates directly with X for access to real-time posts and trends. On released benchmarks, xAI reported an MMLU score around 87.5 percent along with strong results on GPQA, MATH, and document visual question answering, putting it roughly in line with GPT-4o and Gemini 1.5 Pro class models at the time. Grok-2 is available through X, the standalone Grok app, and xAI's API at $2 per million input tokens and $10 per million output tokens. It remained xAI's flagship offering until Grok 3 arrived in February 2025, and a later Grok-2 checkpoint (Grok-2-1212) continued to see API use even after that.

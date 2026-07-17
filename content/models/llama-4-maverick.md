@@ -25,3 +25,5 @@ platforms: ['Hugging Face', 'Together AI', 'AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, open-weight, multimodal, self-hosted, mixture-of-experts]
 ---
+
+Llama 4 Maverick is Meta's flagship model from the April 2025 Llama 4 release, built as a mixture-of-experts model with 400 billion total parameters but only 17 billion active per token, spread across 128 experts. It is natively multimodal, trained to handle text and images together rather than adding a vision encoder onto a text model afterward, and it supports a 1 million token context window. Meta reported that Maverick beats GPT-4o and Gemini 2.0 Flash on a range of public benchmarks, and that it matches DeepSeek V3 on reasoning and coding tasks while using less than half the active parameters. It is distributed under the Llama 4 Community License with weights available on Hugging Face and through cloud providers like AWS Bedrock and Together AI.
