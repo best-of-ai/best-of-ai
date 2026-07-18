@@ -12,14 +12,14 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - todoist
-  - asana
-  - clickup
-  - slack-ai
-  - coda-ai
   - figma
   - whimsical-ai
   - lucidchart-ai
+  - creately
+  - eraser-io
+  - invision-ai
+  - canva
+  - adobe-express
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, image_based]
 ---

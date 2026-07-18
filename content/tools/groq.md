@@ -17,7 +17,7 @@ alternatives:
   - google-ai-studio
   - perplexity-sonar
   - cerebras
-  - codiga
+  - fireworks-ai
   - together-ai
   - replicate
   - openrouter

@@ -15,9 +15,9 @@ rank: 9
 alternatives:
   - amazon-bedrock
   - azure-openai
-  - roboflow
-  - llamaindex
-  - replit
+  - google-ai-studio
+  - deepinfra
+  - fireworks-ai
   - openrouter
   - together-ai
   - replicate

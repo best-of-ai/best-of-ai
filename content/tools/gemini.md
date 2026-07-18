@@ -21,7 +21,7 @@ alternatives:
   - perplexity
   - notebooklm
   - microsoft-copilot
-  - gemini-3
+  - mistral
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, mobile_app, real_time, image_based]
 ---
 

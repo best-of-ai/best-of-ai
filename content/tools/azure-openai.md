@@ -14,10 +14,10 @@ featured: false
 rank: 9
 alternatives:
   - amazon-bedrock
-  - tabnine
   - vertex-ai
   - perplexity-sonar
-  - llamaindex
+  - google-ai-studio
+  - cloudflare-ai-gateway
   - openrouter
   - together-ai
   - replicate

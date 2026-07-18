@@ -17,7 +17,7 @@ alternatives:
   - groq
   - vertex-ai
   - google-ai-studio
-  - llamaindex
+  - fireworks-ai
   - together-ai
   - replicate
   - openrouter

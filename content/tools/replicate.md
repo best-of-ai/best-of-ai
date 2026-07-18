@@ -16,8 +16,8 @@ alternatives:
   - amazon-bedrock
   - google-ai-studio
   - groq
-  - llamaindex
-  - roboflow
+  - fireworks-ai
+  - deepinfra
   - together-ai
   - openrouter
   - vertex-ai

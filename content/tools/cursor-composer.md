@@ -18,7 +18,7 @@ alternatives:
   - bolt-new
   - codeium
   - copilot-workspace
-  - cursor
+  - aider
   - claude-code
   - windsurf
 date: '2025-09-21'

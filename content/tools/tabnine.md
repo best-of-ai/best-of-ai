@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - azure-openai
   - replit
-  - amazon-bedrock
-  - vertex-ai
-  - codiga
   - github-copilot
   - codeium
   - supermaven
+  - amazon-codewhisperer
+  - sourcegraph-cody
+  - blackbox-ai
+  - aide
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, enterprise, integrations]
 ---

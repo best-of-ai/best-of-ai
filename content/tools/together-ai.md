@@ -15,8 +15,8 @@ rank: 7
 alternatives:
   - amazon-bedrock
   - groq
-  - replit
-  - roboflow
+  - fireworks-ai
+  - deepinfra
   - vertex-ai
   - replicate
   - openrouter

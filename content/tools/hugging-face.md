@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - claude-3
+  - claude
   - deepseek
   - gemini-pro
   - ai21-labs
   - mistral
-  - llama-3
-  - qwen
+  - meta-ai
+  - qwen-studio
   - openrouter
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, model_based, community_driven]

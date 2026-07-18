@@ -20,7 +20,7 @@ alternatives:
   - elicit
   - notion
   - gemini
-  - gemini-3
+  - grok
   - microsoft-copilot
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---
