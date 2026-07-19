@@ -23,6 +23,7 @@ mmlu_score: 90.8
 humaneval_score: 92.0
 lmarena_score: 1360
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, reasoning, chain-of-thought]

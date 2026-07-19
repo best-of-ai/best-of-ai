@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.4
 api_available: true
 lmarena_score: 1310
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, low-latency, api]

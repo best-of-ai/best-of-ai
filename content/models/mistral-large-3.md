@@ -20,6 +20,7 @@ input_price_usd_per_m: 0.5
 output_price_usd_per_m: 1.5
 api_available: true
 access_methods: [API, Chat UI, Self-hosted]
+runs_at_home: true
 platforms: ['Le Chat', 'Azure AI', 'API', 'Hugging Face']
 date: '2026-07-16'
 tags: [llm, foundation-model, api, open-weight]

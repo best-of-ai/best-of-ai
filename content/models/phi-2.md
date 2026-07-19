@@ -20,6 +20,7 @@ api_available: false
 mmlu_score: 58.1
 humaneval_score: 48.8
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, small-model, open-weight, self-hosted, legacy]

@@ -91,6 +91,43 @@
 {{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
+{{/* ── SoftwareApplication (model pages) ── */}}
+{{ else if and .IsPage (eq .Section "models") }}
+{{ $p := .Params }}
+{{ $modelBrandName := "" }}
+{{ if $p.company }}
+  {{ $modelBrandMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.company }}
+  {{ if $modelBrandMatch }}{{ $modelBrandName = (index $modelBrandMatch 0).Params.name }}{{ end }}
+{{ end }}
+{{ $modelOffers := dict "@type" "Offer" "priceCurrency" "USD" "availability" "https://schema.org/OnlineOnly" }}
+{{ if $p.product_url }}{{ $modelOffers = merge $modelOffers (dict "url" $p.product_url) }}{{ end }}
+{{ if or (eq $p.price "Free") (eq $p.price "Freemium") }}
+  {{ $modelOffers = merge $modelOffers (dict "price" "0") }}
+{{ end }}
+{{ $modelProps := slice }}
+{{ if $p.param_count }}{{ $modelProps = $modelProps | append (dict "@type" "PropertyValue" "name" "Parameters" "value" $p.param_count) }}{{ end }}
+{{ if $p.context_window_tokens }}{{ $modelProps = $modelProps | append (dict "@type" "PropertyValue" "name" "Context window" "value" (printf "%v tokens" $p.context_window_tokens)) }}{{ end }}
+{{ if $p.license }}{{ $modelProps = $modelProps | append (dict "@type" "PropertyValue" "name" "License" "value" $p.license) }}{{ end }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "SoftwareApplication"
+  "@id" .Permalink
+  "name" ($p.name | default "")
+  "description" ($p.description | default $p.subtitle | default "")
+  "url" ($p.product_url | default "")
+  "applicationCategory" "AIApplication"
+  "applicationSubCategory" ($p.model_type | default "")
+  "operatingSystem" "Web Browser"
+  "offers" $modelOffers
+}}
+{{ if $modelBrandName }}{{ $schema = merge $schema (dict "brand" (dict "@type" "Brand" "name" $modelBrandName)) }}{{ end }}
+{{ if $p.logo_url }}{{ $schema = merge $schema (dict "image" $p.logo_url) }}{{ end }}
+{{ if $p.tags }}{{ $schema = merge $schema (dict "featureList" $p.tags) }}{{ end }}
+{{ if $modelProps }}{{ $schema = merge $schema (dict "additionalProperty" $modelProps) }}{{ end }}
+{{ if $p.release_date }}{{ $schema = merge $schema (dict "datePublished" $p.release_date) }}{{ end }}
+{{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
 {{/* ── BlogPosting (journal posts) ── */}}
 {{ else if and .IsPage (eq .Section "journal") }}
 {{ $p := .Params }}
@@ -208,6 +245,12 @@
 {{ else if and .IsPage (eq .Section "hardware") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Hardware" "item" (printf "%s/hardware/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "model-categories") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "models") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "journal") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "The AI Journal" "item" (printf "%s/journal/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
@@ -270,6 +313,33 @@
     "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI %s Tools" .Params.name) "numberOfItems" $count "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and .IsPage (eq .Section "model-categories") }}
+  {{ $mcAllModels := where .Site.RegularPages "Section" "models" }}
+  {{ $mcModels    := slice }}
+  {{ if eq .Params.filter_field "runs_at_home" }}
+    {{ $mcModels = where $mcAllModels "Params.runs_at_home" true }}
+  {{ else }}
+    {{ $mcPrimary := where $mcAllModels "Params.model_type" .Params.filter_value }}
+    {{ $mcExtra   := where $mcAllModels "Params.extra_model_types" "intersect" (slice .Params.filter_value) }}
+    {{ $mcModels = union $mcPrimary $mcExtra }}
+  {{ end }}
+  {{ $mcCount    := len $mcModels }}
+  {{ $mcName     := printf "Best %s AI Models" .Params.name }}
+  {{ if eq .Params.filter_field "runs_at_home" }}{{ $mcName = "AI Models That Run at Home" }}{{ end }}
+  {{ $listItems := slice }}
+  {{ range $i, $m := $mcModels | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $m.Params.name "url" $m.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" $mcName
+    "description" (or .Params.description (printf "%s, handpicked and curated." $mcName))
+    "url" .Permalink
+    "numberOfItems" $mcCount
+    "mainEntity" (dict "@type" "ItemList" "name" $mcName "numberOfItems" $mcCount "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if eq .Kind "term" }}
   {{ $listItems := slice }}
   {{ range $i, $t := (.Pages | first 20) }}
@@ -308,6 +378,38 @@
     "url" .Permalink
     "numberOfItems" (len $allHw)
     "mainEntity" (dict "@type" "ItemList" "name" "Top AI Hardware & GPUs" "numberOfItems" (len $allHw) "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and (eq .Kind "section") (eq .Section "models") }}
+  {{ $allModelsSec := where .Site.RegularPages "Section" "models" }}
+  {{ $allModelsSec = sort $allModelsSec "Params.release_date" "desc" }}
+  {{ $listItems := slice }}
+  {{ range $i, $m := $allModelsSec | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $m.Params.name "url" $m.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "Top AI Models & LLMs"
+    "description" "Foundation models and LLMs, with specs and benchmarks, from the labs building them."
+    "url" .Permalink
+    "numberOfItems" (len $allModelsSec)
+    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Models & LLMs" "numberOfItems" (len $allModelsSec) "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and (eq .Kind "section") (eq .Section "model-categories") }}
+  {{ $listItems := slice }}
+  {{ range $i, $cat := sort hugo.Data.model_categories "sort_order" }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $cat.name "url" (printf "%s/models/category/%s/" $siteURL $cat.slug)) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" "AI Model Categories"
+    "description" "Browse AI models and LLMs by category — reasoning, code, image generation, and more."
+    "url" .Permalink
+    "numberOfItems" (len hugo.Data.model_categories)
+    "mainEntity" (dict "@type" "ItemList" "name" "AI Model Categories" "numberOfItems" (len hugo.Data.model_categories) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}

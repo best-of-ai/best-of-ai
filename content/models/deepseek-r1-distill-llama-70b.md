@@ -18,6 +18,7 @@ open_weight: true
 license: 'Llama 3.3 Community License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Together AI']
 date: '2026-07-16'
 tags: [llm, reasoning, open-weight, api]

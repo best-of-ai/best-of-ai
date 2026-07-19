@@ -23,6 +23,7 @@ mmlu_score: 79.0
 humaneval_score: 73.0
 lmarena_score: 1200
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, api, legacy]

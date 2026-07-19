@@ -18,6 +18,7 @@ open_weight: true
 license: 'RAIL License'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: false
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, multilingual, legacy]

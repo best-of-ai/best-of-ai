@@ -19,6 +19,7 @@ license: 'Llama 2 Community License'
 api_available: true
 humaneval_score: 53.7
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, code, self-hosted]

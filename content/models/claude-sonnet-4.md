@@ -21,9 +21,11 @@ output_price_usd_per_m: 15
 api_available: true
 lmarena_score: 1330
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, foundation-model, api]
+extra_model_types: ['Code']
 ---
 
 Claude Sonnet 4 launched on May 22, 2025 alongside the larger Claude Opus 4, taking the mid-tier spot in Anthropic's Claude 4 generation. It is a hybrid reasoning model, meaning it can answer directly or work through a problem step by step in an extended thinking mode depending on the task, and Anthropic reported it hitting roughly 72.7 percent on SWE-bench Verified at launch, edging out even Opus 4 on that particular benchmark while costing a fraction of the price. It ships with a 200,000 token context window as standard, with a 1 million token context window available in beta on the API and Amazon Bedrock, and it reads images alongside text. At $3 per million input tokens and $15 per million output tokens, it became Anthropic's default recommendation for coding and everyday agentic work where Opus-level cost isn't justified.

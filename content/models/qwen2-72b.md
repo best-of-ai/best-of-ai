@@ -19,6 +19,7 @@ license: 'Qwen License'
 api_available: true
 mmlu_score: 84.2
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['Hugging Face', 'Alibaba Cloud']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, legacy]

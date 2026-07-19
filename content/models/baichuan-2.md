@@ -19,6 +19,7 @@ license: 'Baichuan 2 Community License'
 api_available: false
 mmlu_score: 59.5
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, legacy]

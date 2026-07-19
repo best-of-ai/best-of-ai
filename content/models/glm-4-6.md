@@ -22,6 +22,7 @@ api_available: true
 humaneval_score: 85.0
 lmarena_score: 1320
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, code, self-hosted]

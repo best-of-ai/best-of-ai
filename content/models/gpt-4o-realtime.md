@@ -20,6 +20,7 @@ input_price_usd_per_m: 5
 output_price_usd_per_m: 20
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['API', 'ChatGPT Advanced Voice']
 date: '2026-07-16'
 tags: [voice, multimodal, api, real-time]

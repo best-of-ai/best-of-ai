@@ -20,9 +20,11 @@ api_available: true
 mmlu_score: 68.9
 humaneval_score: 29.9
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, legacy]
+extra_model_types: ['Code']
 ---
 
 Llama 2 is Meta's second-generation open-weight language model line, released July 18, 2023 in 7B, 13B, and 70B sizes, along with chat-tuned versions of each. It was trained on 2 trillion tokens and supports a 4,096-token context window, modest by later standards but competitive when it launched. The 70B model scored 68.9 on MMLU, close to GPT-3.5, though it lagged well behind on code generation, reaching only 29.9 on HumanEval against GPT-3.5's 48.1. What mattered more than the raw scores was the license: Meta allowed commercial use for most companies, which made Llama 2 the first genuinely open-weight model good enough to build products on, and it kicked off the wave of fine-tunes, quantized variants, and derivative models that now populate Hugging Face. The weights are still freely downloadable years later, even though Meta has since released Llama 3 and Llama 4.

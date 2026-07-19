@@ -12,14 +12,12 @@ price: 'Paid'
 rank: 9
 release_date: '2026-05-19'
 param_count: 'Undisclosed'
-context_window_tokens: 'Undisclosed'
 modality: [text, image, audio, video]
 open_weight: false
 license: 'Proprietary'
-input_price_usd_per_m: 'Undisclosed'
-output_price_usd_per_m: 'Undisclosed'
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, frontier-model, api, vision]

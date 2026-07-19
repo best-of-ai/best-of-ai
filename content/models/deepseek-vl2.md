@@ -18,6 +18,7 @@ open_weight: true
 license: 'DeepSeek License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, multimodal, vision]

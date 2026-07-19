@@ -21,9 +21,11 @@ output_price_usd_per_m: 75
 api_available: true
 lmarena_score: 1350
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, frontier-model, api, agentic]
+extra_model_types: ['Code']
 ---
 
 Claude Opus 4 launched on May 22, 2025 as Anthropic's flagship model, released alongside the smaller Claude Sonnet 4. It was built for sustained, long-horizon agentic work such as multi-hour coding sessions and research tasks that involve using tools repeatedly across a long thread, rather than answering a single prompt. Anthropic reported it leading on SWE-bench Verified at launch, at roughly 72.5 percent, and it can use tools, including web search, during extended thinking and run several tools in parallel. It runs on a 200,000 token context window, reads images as well as text, and is priced at $15 per million input tokens and $75 per million output tokens, the same rate Anthropic had charged for Claude 3 Opus a year earlier.

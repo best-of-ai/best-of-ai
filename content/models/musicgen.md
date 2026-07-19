@@ -17,6 +17,7 @@ open_weight: true
 license: 'CC-BY-NC 4.0'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [music-generation, open-weight, audio]

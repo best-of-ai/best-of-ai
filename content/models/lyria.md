@@ -17,6 +17,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['Vertex AI', 'Music AI Sandbox']
 date: '2026-07-16'
 tags: [music-generation, audio, api]

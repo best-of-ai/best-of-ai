@@ -18,6 +18,7 @@ open_weight: true
 license: 'MIT'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [embedding, open-weight, api]

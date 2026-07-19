@@ -21,6 +21,7 @@ output_price_usd_per_m: 2
 api_available: true
 lmarena_score: 1310
 access_methods: [API]
+runs_at_home: false
 platforms: ['Le Chat', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, api]

@@ -17,6 +17,7 @@ open_weight: true
 license: 'Playground License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['Hugging Face', 'Playground app']
 date: '2026-07-16'
 tags: [image-generation, open-weight, api]

@@ -20,6 +20,7 @@ api_available: true
 mmlu_score: 64.3
 humaneval_score: 32.3
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Google AI Studio']
 date: '2026-07-16'
 tags: [llm, open-weight, legacy]

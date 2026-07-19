@@ -22,6 +22,7 @@ api_available: true
 mmlu_score: 70.6
 humaneval_score: 40.2
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Mistral API']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts]

@@ -18,6 +18,7 @@ open_weight: true
 license: 'MIT'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [reasoning, math, open-weight, small-model]

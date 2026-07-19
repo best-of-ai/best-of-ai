@@ -17,6 +17,7 @@ open_weight: true
 license: 'Stability Community License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Stability API']
 date: '2026-07-16'
 tags: [video-generation, open-weight, api]

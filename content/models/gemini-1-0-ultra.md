@@ -20,6 +20,7 @@ api_available: true
 mmlu_score: 90.0
 humaneval_score: 74.4
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini Advanced', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, legacy]

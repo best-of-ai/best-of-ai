@@ -20,6 +20,7 @@ input_price_usd_per_m: 8
 output_price_usd_per_m: 24
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'API']
 date: '2026-07-16'
 tags: [llm, long-context, legacy]

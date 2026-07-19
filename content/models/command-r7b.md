@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.15
 api_available: true
 mmlu_score: 70.4
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Cohere Platform', 'Hugging Face']
 date: '2026-07-16'
 tags: [llm, small-model, open-weight, low-latency]

@@ -19,6 +19,7 @@ license: 'Proprietary'
 api_available: false
 mmlu_score: 78.3
 access_methods: [API]
+runs_at_home: false
 platforms: ['Google Cloud']
 date: '2026-07-16'
 tags: [llm, foundation-model, legacy]

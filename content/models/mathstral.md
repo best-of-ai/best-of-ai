@@ -18,6 +18,7 @@ open_weight: true
 license: 'Apache 2.0'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [reasoning, math, open-weight]

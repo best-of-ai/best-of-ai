@@ -18,6 +18,7 @@ open_weight: true
 license: 'NVIDIA Community License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['NVIDIA NIM', 'Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model]

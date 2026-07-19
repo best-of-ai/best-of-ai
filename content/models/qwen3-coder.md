@@ -21,6 +21,7 @@ output_price_usd_per_m: 1.2
 api_available: true
 humaneval_score: 88.0
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Alibaba Cloud']
 date: '2026-07-16'
 tags: [llm, open-weight, code, agentic, mixture-of-experts]

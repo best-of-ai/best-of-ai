@@ -17,6 +17,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [Chat UI]
+runs_at_home: false
 platforms: ['Udio app']
 date: '2026-07-16'
 tags: [audio-generation, music-generation]

@@ -21,9 +21,11 @@ output_price_usd_per_m: 1.2
 api_available: true
 lmarena_score: 1340
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, multimodal, long-context, coding]
+extra_model_types: ['Code']
 ---
 
 MiniMax M3 is an open-weight mixture-of-experts model that MiniMax released in June 2026, with weights on Hugging Face by June 7. It has around 428 billion total parameters with roughly 23 billion active per token, spread across 256 fine-grained experts, and MiniMax bills it as the first open-weight model to pair frontier-level coding ability with a 1 million token context window and native multimodal input across text, images, and video. The lab reports 59% on SWE-Bench Pro and 66% on Terminal-Bench 2.1, benchmarks aimed at long-running coding and agent tasks rather than one-off question answering.

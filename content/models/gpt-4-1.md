@@ -23,9 +23,11 @@ mmlu_score: 80.1
 humaneval_score: 90.0
 lmarena_score: 1360
 access_methods: [API]
+runs_at_home: false
 platforms: ['API']
 date: '2026-07-16'
 tags: [llm, long-context, coding, api]
+extra_model_types: ['Code']
 ---
 
 GPT-4.1 is OpenAI's April 2025 model, released as an API-only update aimed squarely at developers rather than ChatGPT users. Its headline feature is a 1-million-token context window across all three variants, GPT-4.1, GPT-4.1 Mini, and GPT-4.1 Nano, an eightfold jump over GPT-4o's 128,000 tokens. It scores 80.1% on MMLU and 54.6% on SWE-bench Verified, a 21-point improvement over GPT-4o on real-world software engineering tasks pulled from GitHub issues.

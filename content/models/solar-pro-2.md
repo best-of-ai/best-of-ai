@@ -20,6 +20,7 @@ input_price_usd_per_m: 0.2
 output_price_usd_per_m: 0.6
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted]

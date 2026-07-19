@@ -20,6 +20,7 @@ input_price_usd_per_m: 1
 output_price_usd_per_m: 6
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, api, low-cost]

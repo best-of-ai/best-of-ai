@@ -22,6 +22,7 @@ api_available: true
 mmlu_score: 75.7
 lmarena_score: 1250
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['Cohere API', 'Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, retrieval-augmented, api]

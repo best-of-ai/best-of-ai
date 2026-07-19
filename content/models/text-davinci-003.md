@@ -20,6 +20,7 @@ input_price_usd_per_m: 20
 output_price_usd_per_m: 20
 api_available: false
 access_methods: [API (deprecated)]
+runs_at_home: false
 platforms: ['API']
 date: '2026-07-16'
 tags: [llm, legacy, foundation-model]

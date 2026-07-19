@@ -23,9 +23,11 @@ mmlu_score: 86.5
 humaneval_score: 87.1
 lmarena_score: 1250
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'Azure OpenAI', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, api]
+extra_model_types: ['Code']
 ---
 
 GPT-4 Turbo is OpenAI's November 2023 update to GPT-4, announced at the company's first developer conference. It kept GPT-4's underlying capability level but expanded the context window to 128,000 tokens, added a knowledge cutoff of April 2023, and cut pricing to $10 per million input tokens and $30 per million output tokens, well below original GPT-4 rates. It scores 86.5% on MMLU and 87.1% on HumanEval, and it added vision input, letting developers send images alongside text in the same request.

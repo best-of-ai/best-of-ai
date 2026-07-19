@@ -19,6 +19,7 @@ license: 'OpenRAIL-M'
 api_available: false
 humaneval_score: 18.1
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [code, open-weight, small-model, legacy]

@@ -17,6 +17,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: false
 access_methods: [Research]
+runs_at_home: false
 platforms: ['Research']
 date: '2026-07-16'
 tags: [code, research]

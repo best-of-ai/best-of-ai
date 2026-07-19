@@ -19,6 +19,7 @@ license: 'Falcon 180B TII License'
 api_available: false
 mmlu_score: 70.6
 access_methods: [Self-hosted]
+runs_at_home: false
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, legacy]

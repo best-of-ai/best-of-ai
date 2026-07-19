@@ -20,9 +20,11 @@ input_price_usd_per_m: 2.5
 output_price_usd_per_m: 12.5
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, multimodal, long-context, api]
+extra_model_types: ['Reasoning']
 ---
 
 Amazon Nova Premier is the most capable model in Amazon's Nova family, sitting above Pro, Lite, and Micro, and it's built for complex, multi-step reasoning and long-document agentic workflows on Amazon Bedrock. It takes text, image, and video input and offers a one-million-token context window, priced at $2.50 per million input tokens and $12.50 per million output tokens. Amazon designed it partly as a teacher model for Bedrock's distillation pipeline, so customers can use Premier's outputs to train cheaper Nova models for narrower production tasks.

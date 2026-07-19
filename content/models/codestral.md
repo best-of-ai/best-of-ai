@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.9
 api_available: true
 humaneval_score: 81.1
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, code, open-weight, api]

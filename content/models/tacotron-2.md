@@ -17,6 +17,7 @@ open_weight: true
 license: 'Apache 2.0'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: false
 platforms: ['Research']
 date: '2026-07-16'
 tags: [text-to-speech, audio, legacy, open-weight]

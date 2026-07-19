@@ -20,9 +20,11 @@ api_available: true
 mmlu_score: 60.1
 humaneval_score: 30.5
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Ollama']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model, self-hosted]
+extra_model_types: ['Code']
 ---
 
 Mistral 7B is the model that put Mistral AI on the map, released on September 27, 2023 as the French startup's first public model. At 7 billion parameters it was small enough to run on a single consumer GPU, yet it beat Llama 2 13B on every benchmark Mistral tested and even outperformed Llama 2 34B on several reasoning and code tasks, scoring 60.1% on MMLU and 30.5% on HumanEval. It uses grouped-query attention and sliding-window attention to keep inference fast and memory-efficient at its 32,000-token context length.

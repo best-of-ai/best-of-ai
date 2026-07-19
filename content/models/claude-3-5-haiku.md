@@ -22,9 +22,11 @@ api_available: true
 humaneval_score: 88.1
 lmarena_score: 1240
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'API']
 date: '2026-07-16'
 tags: [llm, low-latency, foundation-model, api]
+extra_model_types: ['Code']
 ---
 
 Claude 3.5 Haiku is Anthropic's fast, low-cost model in the Claude 3.5 family, released in October 2024 alongside an upgraded Claude 3.5 Sonnet. Anthropic built it to replace Claude 3 Haiku as the cheapest, quickest option in the lineup while closing much of the capability gap with larger models: on coding evaluations such as SWE-bench Verified, Claude 3.5 Haiku scored competitively with the original Claude 3.5 Sonnet and outperformed several larger models available at launch, and Anthropic reported an 88.1% score on HumanEval for code generation.

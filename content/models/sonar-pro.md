@@ -20,6 +20,7 @@ input_price_usd_per_m: 3
 output_price_usd_per_m: 15
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Perplexity app', 'API']
 date: '2026-07-16'
 tags: [llm, search-grounded, api, rag]

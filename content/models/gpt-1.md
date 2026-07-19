@@ -18,6 +18,7 @@ open_weight: true
 license: 'MIT'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Research']
 date: '2026-07-16'
 tags: [llm, legacy, foundation-model]

@@ -19,6 +19,7 @@ license: 'Proprietary'
 input_price_usd_per_m: 0.02
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['AWS Bedrock']
 date: '2026-07-16'
 tags: [embedding, retrieval, api]

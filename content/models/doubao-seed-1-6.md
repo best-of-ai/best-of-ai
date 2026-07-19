@@ -18,9 +18,11 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Doubao app', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, multimodal, api]
+extra_model_types: ['Multimodal']
 ---
 
 Doubao-Seed 1.6 is ByteDance's reasoning-tuned model tier, announced on June 11, 2025 at Volcano Engine's "Force" conference alongside two variants, Doubao-Seed-1.6-thinking and the lighter Doubao-Seed-1.6-flash. It supports a 256K context window and native multimodal understanding of text, images, and video within a single model, along with a configurable thinking mode that lets developers trade off latency against reasoning depth. ByteDance reported strong results on complex reasoning and competition-level math benchmarks compared to the earlier Doubao 1.5 generation.

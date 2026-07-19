@@ -6,6 +6,8 @@
 {{ $isTool    := and .IsPage (eq .Section "tools") }}
 {{ $isCompany := and .IsPage (eq .Section "companies") }}
 {{ $isHardware := and .IsPage (eq .Section "hardware") }}
+{{ $isModel   := and .IsPage (eq .Section "models") }}
+{{ $isModelCategory := and .IsPage (eq .Section "model-categories") }}
 {{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $name     := or .Params.name .Title }}
@@ -17,6 +19,19 @@
 {{ if and $isHardware .Params.manufacturer }}
   {{ $hwMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" .Params.manufacturer }}
   {{ if $hwMatch }}{{ $hwManufacturerName = (index $hwMatch 0).Params.name }}{{ end }}
+{{ end }}
+
+{{/* ── Model category count (primary model_type ∪ extra_model_types, or runs_at_home) ── */}}
+{{ $modelCatCount := 0 }}
+{{ if $isModelCategory }}
+  {{ $allModels := where .Site.RegularPages "Section" "models" }}
+  {{ if eq .Params.filter_field "runs_at_home" }}
+    {{ $modelCatCount = len (where $allModels "Params.runs_at_home" true) }}
+  {{ else }}
+    {{ $mcPrimary := where $allModels "Params.model_type" .Params.filter_value }}
+    {{ $mcExtra   := where $allModels "Params.extra_model_types" "intersect" (slice .Params.filter_value) }}
+    {{ $modelCatCount = len (union $mcPrimary $mcExtra) }}
+  {{ end }}
 {{ end }}
 
 {{/* ── Robots ── */}}
@@ -39,6 +54,14 @@
 {{ else if and .IsPage (eq .Section "categories") }}
   {{ $count := len (where .Site.RegularPages "Params.category" .Params.slug) }}
   {{ $pageTitle = printf "Best AI %s Tools (%d) — Best of AI" .Params.name $count }}
+{{ else if $isModelCategory }}
+  {{ if eq .Params.filter_field "runs_at_home" }}
+    {{ $pageTitle = printf "AI Models That Run at Home (%d) — Best of AI" $modelCatCount }}
+  {{ else }}
+    {{ $pageTitle = printf "Best %s AI Models (%d) — Best of AI" .Params.name $modelCatCount }}
+  {{ end }}
+{{ else if $isModel }}
+  {{ $pageTitle = printf "%s — %s AI Model | Best of AI" $name (.Params.model_type | default "AI") }}
 {{ else if $isHardware }}
   {{ $hwTypeLabel := .Params.hardware_type | default "AI" }}
   {{ $pageTitle = printf "%s — %s AI Hardware | Best of AI" $name $hwTypeLabel }}
@@ -59,6 +82,10 @@
     {{ $pageTitle = printf "Top AI Companies in the World (%d) — Best of AI" (len (where .Site.RegularPages "Section" "companies")) }}
   {{ else if eq .Section "hardware" }}
     {{ $pageTitle = printf "Top AI Hardware & GPUs (%d) — Best of AI" (len (where .Site.RegularPages "Section" "hardware")) }}
+  {{ else if eq .Section "models" }}
+    {{ $pageTitle = printf "Top AI Models & LLMs (%d) — Best of AI" (len (where .Site.RegularPages "Section" "models")) }}
+  {{ else if eq .Section "model-categories" }}
+    {{ $pageTitle = "AI Model Categories — Best of AI" }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
     {{ $pageTitle = printf "AI Tools Leaderboard %s — Best of AI" (now.Format "January 2006") }}
   {{ else }}
@@ -103,6 +130,23 @@
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI %s tools, selected for quality and real-world impact." $count .Params.name }}
   {{ end }}
+{{ else if $isModelCategory }}
+  {{ $mcDesc := .Params.description | default "" }}
+  {{ if eq .Params.filter_field "runs_at_home" }}
+    {{ $desc = printf "%d AI models you can download and run on your own hardware — open weights, no API required." $modelCatCount }}
+  {{ else }}
+    {{ $desc = printf "Browse %d best %s AI models — %s" $modelCatCount .Params.name $mcDesc }}
+  {{ end }}
+{{ else if $isModel }}
+  {{ $modelPrice   := .Params.price | default "" }}
+  {{ $modelType    := .Params.model_type | default "AI" }}
+  {{ $modelCompany := "" }}
+  {{ if .Params.company }}
+    {{ $modelCompanyMatch := where (where .Site.RegularPages "Section" "companies") "Params.slug" .Params.company }}
+    {{ if $modelCompanyMatch }}{{ $modelCompany = printf " from %s" (index $modelCompanyMatch 0).Params.name }}{{ end }}
+  {{ end }}
+  {{ $modelDesc := .Params.description | default .Params.subtitle | default "" }}
+  {{ $desc = printf "%s is a %s %s model%s. %s" $name $modelPrice $modelType $modelCompany $modelDesc }}
 {{ else if $isHardware }}
   {{ $hwType     := .Params.hardware_type | default "AI" }}
   {{ $hwSub      := .Params.subtitle | default .Params.description | default "" }}
@@ -130,6 +174,10 @@
     {{ $desc = printf "The top %d AI companies and labs in the world — ranked by tools featured on Best of AI." (len .Pages) }}
   {{ else if eq .Section "hardware" }}
     {{ $desc = printf "Browse %d AI GPUs and accelerators, with full specs — VRAM, memory bandwidth, TDP, and price — from the companies building them." (len .Pages) }}
+  {{ else if eq .Section "models" }}
+    {{ $desc = printf "Foundation models and LLMs, with specs and benchmarks, from the labs building them — %d models and counting." (len (where .Site.RegularPages "Section" "models")) }}
+  {{ else if eq .Section "model-categories" }}
+    {{ $desc = printf "Browse %d categories of AI models and LLMs — reasoning, code, image generation, and more." (len hugo.Data.model_categories) }}
   {{ else }}
     {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
@@ -170,6 +218,12 @@
 <meta name="keywords" content="{{ delimit $kws ", " }}">
 {{ else if and .IsPage (eq .Section "categories") }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
+{{ else if $isModelCategory }}
+<meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }} models, best {{ .Params.name }} AI models, {{ lower .Params.name }} LLMs">
+{{ else if $isModel }}
+{{ $mkws := slice $name (.Params.model_type | default "") "AI model" "LLM" }}
+{{ range .Params.tags }}{{ $mkws = $mkws | append . }}{{ end }}
+<meta name="keywords" content="{{ delimit $mkws ", " }}">
 {{ else if $isHardware }}
 {{ $hwKws := slice $name (.Params.hardware_type | default "") (.Params.architecture | default "") "AI hardware" "AI GPU" "AI accelerator" }}
 {{ if $hwManufacturerName }}{{ $hwKws = $hwKws | append $hwManufacturerName }}{{ $hwKws = $hwKws | append (printf "%s GPU" $hwManufacturerName) }}{{ end }}
@@ -194,6 +248,8 @@
 <meta name="keywords" content="{{ delimit $profKws ", " }}">
 {{ else if and (eq .Kind "section") (eq .Section "hardware") }}
 <meta name="keywords" content="AI hardware, AI GPUs, GPU specs, AI accelerators, best AI GPUs, AI chips, GPU comparison, NVIDIA GPU, AMD GPU, TPU, datacenter GPU">
+{{ else if and (eq .Kind "section") (or (eq .Section "models") (eq .Section "model-categories")) }}
+<meta name="keywords" content="AI models, LLMs, foundation models, best AI models, open-weight models, AI model comparison, LLM leaderboard, AI model categories">
 {{ else if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{ end }}

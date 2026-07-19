@@ -38,7 +38,7 @@
           {{ $tool = index (where $allTools "File.BaseFileName" $slug) 0 }}
         {{ end }}
         {{ $count := 0 }}
-        {{ if $tool }}{{ $count = len $tool.Params.alternatives }}{{ end }}
+        {{ if $tool }}{{ if $tool.Params.alternatives }}{{ $count = len $tool.Params.alternatives }}{{ end }}{{ end }}
         <a href="{{ .RelPermalink }}" class="other-cat-card">
           <span class="other-cat-card__name">{{ .Title }}</span>
           {{ if gt $count 0 }}

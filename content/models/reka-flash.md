@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.6
 api_available: true
 mmlu_score: 73.5
 access_methods: [API]
+runs_at_home: false
 platforms: ['API']
 date: '2026-07-16'
 tags: [llm, multimodal, api]

@@ -23,6 +23,7 @@ mmlu_score: 84.0
 humaneval_score: 82.0
 lmarena_score: 1290
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, low-latency, multimodal, api]

@@ -18,6 +18,7 @@ open_weight: true
 license: 'MIT'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Azure AI Foundry', 'Hugging Face']
 date: '2026-07-16'
 tags: [multimodal, open-weight, small-model, vision]

@@ -18,6 +18,7 @@ open_weight: true
 license: 'CC-BY-NC 4.0'
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [embedding, open-weight, retrieval, multilingual]

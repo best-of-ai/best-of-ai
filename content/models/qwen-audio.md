@@ -17,6 +17,7 @@ open_weight: true
 license: 'Tongyi Qianwen License'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [audio, open-weight, legacy]

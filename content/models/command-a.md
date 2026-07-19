@@ -21,6 +21,7 @@ output_price_usd_per_m: 10
 api_available: true
 mmlu_score: 85.5
 access_methods: [API, Self-hosted]
+runs_at_home: false
 platforms: ['Cohere Platform', 'Azure AI']
 date: '2026-07-16'
 tags: [llm, enterprise, rag, api]

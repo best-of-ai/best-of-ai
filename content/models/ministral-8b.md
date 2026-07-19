@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.1
 api_available: true
 mmlu_score: 65.0
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model, on-device]

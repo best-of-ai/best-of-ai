@@ -17,6 +17,7 @@ open_weight: true
 license: 'MIT'
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['API', 'Hugging Face']
 date: '2026-07-16'
 tags: [speech-recognition, open-weight, api]

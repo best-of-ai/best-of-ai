@@ -18,6 +18,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: false
 platforms: ['iOS', 'macOS']
 date: '2026-07-16'
 tags: [llm, on-device, foundation-model]

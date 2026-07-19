@@ -20,6 +20,7 @@ input_price_usd_per_m: 0.3
 output_price_usd_per_m: 0.6
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['Cohere Platform']
 date: '2026-07-16'
 tags: [llm, low-latency, enterprise, legacy]

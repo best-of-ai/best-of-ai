@@ -18,6 +18,7 @@ open_weight: true
 license: 'EXAONE License'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted]

@@ -21,6 +21,7 @@ output_price_usd_per_m: 150
 api_available: true
 lmarena_score: 1350
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, api]

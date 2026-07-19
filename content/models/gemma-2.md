@@ -20,9 +20,11 @@ api_available: true
 mmlu_score: 75.2
 humaneval_score: 51.8
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Google Vertex AI']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted]
+extra_model_types: ['Code']
 ---
 
 Gemma 2 is the second generation of Google's open-weight model family, built from the same research as Gemini but released for anyone to download and run themselves. Google launched the 9 billion and 27 billion parameter versions on June 27, 2024, followed later by a smaller 2 billion parameter version aimed at running on laptops and phones. The 27B model was tuned to compete with models more than twice its size, and the 9B version beat Llama 3 8B and other similarly sized open models on several benchmarks at launch, scoring 75.2 on MMLU and 51.8 on HumanEval.

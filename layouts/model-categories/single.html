@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $p     := .Params }}
+
+{{ $allModels := where .Site.RegularPages "Section" "models" }}
+{{ $allModels = sort $allModels "Params.release_date" "desc" }}
+
+{{ $tableModels := slice }}
+{{ if eq $p.filter_field "runs_at_home" }}
+  {{ $tableModels = where $allModels "Params.runs_at_home" true }}
+{{ else }}
+  {{ $primary := where $allModels "Params.model_type" $p.filter_value }}
+  {{ $extra   := where $allModels "Params.extra_model_types" "intersect" (slice $p.filter_value) }}
+  {{ $tableModels = union $primary $extra }}
+{{ end }}
+{{ $tableModels = sort $tableModels "Params.release_date" "desc" }}
+
+{{ partial "models-page.html" (dict "page" . "allModels" $allModels "tableModels" $tableModels "activeSlug" $p.slug "activeName" $p.name) }}
+{{ end }}

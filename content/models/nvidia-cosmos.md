@@ -17,6 +17,7 @@ open_weight: true
 license: 'NVIDIA Open Model License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['NVIDIA NIM', 'Hugging Face']
 date: '2026-07-16'
 tags: [video-generation, robotics, open-weight]

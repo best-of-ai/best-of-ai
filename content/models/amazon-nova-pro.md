@@ -20,9 +20,11 @@ input_price_usd_per_m: 0.8
 output_price_usd_per_m: 3.2
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, multimodal, enterprise, api]
+extra_model_types: ['Reasoning']
 ---
 
 Amazon Nova Pro is the flagship general-purpose model in Amazon's Nova family, announced in December 2024 and served through Amazon Bedrock. It takes text, image, and video input, returns text, and supports a 300,000-token context window, priced at $0.80 per million input tokens and $3.20 per million output tokens. Amazon positioned it as the model for complex tasks such as multi-step reasoning, document analysis, and agentic workflows where Nova Lite's lighter capability isn't enough.

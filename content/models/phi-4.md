@@ -20,6 +20,7 @@ api_available: true
 mmlu_score: 84.8
 humaneval_score: 82.6
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Azure AI']
 date: '2026-07-16'
 tags: [llm, small-model, open-weight, reasoning]

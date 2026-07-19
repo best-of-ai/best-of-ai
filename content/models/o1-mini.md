@@ -23,6 +23,7 @@ mmlu_score: 85.2
 humaneval_score: 92.4
 lmarena_score: 1290
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, coding, api, legacy]

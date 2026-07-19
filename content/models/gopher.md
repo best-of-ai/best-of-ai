@@ -19,6 +19,7 @@ license: 'Proprietary'
 api_available: false
 mmlu_score: 60.0
 access_methods: [Research]
+runs_at_home: false
 platforms: ['Research']
 date: '2026-07-16'
 tags: [llm, research, legacy]

@@ -18,6 +18,7 @@ open_weight: true
 license: 'TII Falcon Mamba 7B License 1.0'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, hybrid-architecture, self-hosted]

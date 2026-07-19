@@ -20,6 +20,7 @@ input_price_usd_per_m: 0.035
 output_price_usd_per_m: 0.14
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, low-cost, api]

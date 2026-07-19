@@ -23,9 +23,11 @@ mmlu_score: 92.4
 humaneval_score: 92.5
 lmarena_score: 1415
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, frontier-model, api]
+extra_model_types: ['Code']
 ---
 
 Claude Opus 4.8 is Anthropic's most capable Opus-tier model, released on May 28, 2026 as an update to Opus 4.7 that fixed some of that model's comment-verbosity and tool-calling quirks. It scores about 88.6 percent on SWE-bench Verified and 69.2 percent on the harder SWE-bench Pro, ahead of GPT-5.5 and Gemini 3.1 Pro on the same test at the time of release, and Anthropic reports it is more likely to flag its own uncertainty rather than state unsupported claims with confidence. It supports a 1 million token input context window with up to 128,000 tokens of output, and it introduced Dynamic Workflows, a research-preview feature in Claude Code that lets the model plan a large task and then run hundreds of parallel subagents in a single session. Pricing held steady from the previous version at $5 per million input tokens and $25 per million output tokens, with a faster "fast mode" available at $10/$50.

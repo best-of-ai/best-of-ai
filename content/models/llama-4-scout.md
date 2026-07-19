@@ -20,6 +20,7 @@ api_available: true
 mmlu_score: 80.5
 lmarena_score: 1290
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Together AI']
 date: '2026-07-16'
 tags: [llm, open-weight, multimodal, long-context, self-hosted]

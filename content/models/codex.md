@@ -19,6 +19,7 @@ license: 'Proprietary'
 api_available: false
 humaneval_score: 28.8
 access_methods: [Research]
+runs_at_home: false
 platforms: ['API (deprecated)']
 date: '2026-07-16'
 tags: [code, legacy, foundation-model]

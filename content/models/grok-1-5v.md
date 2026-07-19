@@ -18,6 +18,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: false
 access_methods: [Chat UI]
+runs_at_home: false
 platforms: ['X']
 date: '2026-07-16'
 tags: [multimodal, vision, legacy]

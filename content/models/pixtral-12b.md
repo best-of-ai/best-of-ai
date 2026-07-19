@@ -20,6 +20,7 @@ input_price_usd_per_m: 0.15
 output_price_usd_per_m: 0.15
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Mistral API']
 date: '2026-07-16'
 tags: [multimodal, open-weight, vision, api]

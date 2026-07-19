@@ -17,6 +17,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: false
 platforms: ['AlphaFold Server']
 date: '2026-07-16'
 tags: [science, biology, research]

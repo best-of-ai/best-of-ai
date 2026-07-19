@@ -4,6 +4,9 @@
 {{ if eq .Section "categories" }}{{ $activeCat = .Params.slug }}{{ end }}
 {{ $activeProf := "" }}
 {{ if eq .Section "professionals" }}{{ $activeProf = .Params.slug }}{{ end }}
+{{ $activeModelCat := "" }}
+{{ if eq .Section "model-categories" }}{{ $activeModelCat = .Params.slug }}{{ end }}
+{{ $allModels := where .Site.RegularPages "Section" "models" }}
 
 <aside class="hl-left" id="hl-left">
   {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.left_sidebar "variant" "sidebar") }}
@@ -79,6 +82,27 @@
       <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeCat $cat.slug }} active{{ end }}" data-filter="{{ $cat.slug }}">
         {{ $cat.name }}<span class="cat-count">{{ partial "count.html" .count }}</span>
       </a>
+    {{ end }}
+  </nav>
+
+  <div class="sb-divider"></div>
+  <div class="hl-section-label">Models by Usecase</div>
+  <nav class="hl-cat-nav">
+    {{ range sort .Site.Data.model_categories "sort_order" }}
+      {{ $cat := . }}
+      {{ $count := 0 }}
+      {{ if eq $cat.filter_field "runs_at_home" }}
+        {{ $count = len (where $allModels "Params.runs_at_home" true) }}
+      {{ else }}
+        {{ $primary := where $allModels "Params.model_type" $cat.filter_value }}
+        {{ $extra   := where $allModels "Params.extra_model_types" "intersect" (slice $cat.filter_value) }}
+        {{ $count = len (union $primary $extra) }}
+      {{ end }}
+      {{ if gt $count 0 }}
+      <a href="{{ printf "/models/category/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeModelCat $cat.slug }} active{{ end }}">
+        {{ $cat.name }}<span class="cat-count">{{ partial "count.html" $count }}</span>
+      </a>
+      {{ end }}
     {{ end }}
   </nav>
 

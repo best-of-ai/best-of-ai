@@ -19,6 +19,7 @@ license: 'Proprietary'
 input_price_usd_per_m: 0.18
 api_available: true
 access_methods: [API]
+runs_at_home: false
 platforms: ['API', 'MongoDB Atlas']
 date: '2026-07-16'
 tags: [embedding, retrieval, rag, api]

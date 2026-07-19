@@ -22,6 +22,7 @@ api_available: true
 mmlu_score: 90.8
 lmarena_score: 1340
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, legacy]

@@ -19,6 +19,7 @@ license: 'Apache 2.0'
 api_available: false
 humaneval_score: 85.4
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, code, self-hosted]

@@ -23,6 +23,7 @@ mmlu_score: 87.0
 humaneval_score: 85.0
 lmarena_score: 1350
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Alibaba Cloud', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts, self-hosted]

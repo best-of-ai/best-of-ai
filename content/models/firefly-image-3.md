@@ -17,6 +17,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Photoshop', 'Firefly web app']
 date: '2026-07-16'
 tags: [image-generation, api, enterprise]

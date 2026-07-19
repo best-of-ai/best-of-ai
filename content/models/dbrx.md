@@ -20,9 +20,11 @@ api_available: true
 mmlu_score: 73.7
 humaneval_score: 70.1
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Databricks']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts, self-hosted]
+extra_model_types: ['Code']
 ---
 
 DBRX is Databricks' open-weight large language model, released in March 2024 as the base model behind the instruction-tuned DBRX Instruct. It is a fine-grained mixture-of-experts model with 132 billion total parameters and 36 billion active parameters per token, trained from scratch on 12 trillion tokens of text and code using Databricks' own Mosaic AI training stack. At release, Databricks reported it outperforming other open models of the time, including Llama 2 70B and Mixtral, on benchmarks such as MMLU and HumanEval, and it was pitched as evidence that an enterprise-focused company could train a competitive foundation model without relying on a big-lab research budget. It has a 32,000-token context window and is released under the Databricks Open Model License, with weights available on Hugging Face for self-hosting or through Databricks' own serving infrastructure.

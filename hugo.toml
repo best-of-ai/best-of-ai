@@ -49,6 +49,9 @@ disableKinds = ["sitemap"]
     isPlainText = true
     notAlternative = true
 
+[permalinks]
+  model-categories = "/models/category/:slug/"
+
 [taxonomies]
   tag = "tags"
 

@@ -19,6 +19,7 @@ license: 'Apache 2.0'
 api_available: true
 mmlu_score: 66.0
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Upstage API']
 date: '2026-07-16'
 tags: [llm, open-weight, api, legacy]

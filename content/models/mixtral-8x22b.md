@@ -20,6 +20,7 @@ api_available: true
 mmlu_score: 77.8
 humaneval_score: 75.6
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Together AI']
 date: '2026-07-16'
 tags: [llm, open-weight, mixture-of-experts, self-hosted]

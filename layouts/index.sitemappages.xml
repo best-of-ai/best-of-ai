@@ -106,6 +106,26 @@
     <priority>0.8</priority>
   </url>
 {{- end }}
+  <url>
+    <loc>{{ "/models/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ "/models/category/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- range where .Site.RegularPages "Section" "model-categories" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- end }}
 {{- range where .Site.RegularPages "Section" "professionals" }}
   <url>
     <loc>{{ .Permalink }}</loc>

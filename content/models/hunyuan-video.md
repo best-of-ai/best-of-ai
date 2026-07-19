@@ -17,6 +17,7 @@ open_weight: true
 license: 'Tencent Hunyuan License'
 api_available: true
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [video-generation, open-weight, text-to-video]

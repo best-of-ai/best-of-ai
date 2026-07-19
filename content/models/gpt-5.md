@@ -22,6 +22,7 @@ api_available: true
 mmlu_score: 90.5
 lmarena_score: 1390
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'Azure OpenAI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, foundation-model, multimodal, api]

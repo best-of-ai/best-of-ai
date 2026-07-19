@@ -1,0 +1,85 @@
+{{ $page         := .page }}
+{{ $allModels    := .allModels }}
+{{ $tableModels  := .tableModels }}
+{{ $activeSlug   := .activeSlug }}
+{{ $activeName   := .activeName }}
+
+{{ $companies := slice }}
+{{ range $tableModels }}
+  {{ if .Params.company }}
+    {{ if not (in $companies .Params.company) }}
+      {{ $companies = $companies | append .Params.company }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $companyPages := where site.RegularPages "Section" "companies" }}
+
+{{ $types := slice }}
+{{ range $allModels }}
+  {{ if .Params.model_type }}
+    {{ if not (in $types .Params.model_type) }}
+      {{ $types = $types | append .Params.model_type }}
+    {{ end }}
+  {{ end }}
+  {{ range .Params.extra_model_types }}
+    {{ if not (in $types .) }}
+      {{ $types = $types | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $types = sort $types }}
+
+{{ $homeCapable := where $allModels "Params.runs_at_home" true }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" $page }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      {{ if eq $activeSlug "all" }}
+      <span class="breadcrumb__cur">Models</span>
+      {{ else }}
+      <a href="{{ "/models/" | relURL }}">Models</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $activeName }}</span>
+      {{ end }}
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Models</span> &amp; LLMs</h1>
+      <p class="pg-hero__desc">Foundation models and LLMs, with specs and benchmarks, from the labs building them.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $tableModels) }}</strong> models
+        <span class="sep">·</span>
+        <strong>{{ partial "count.html" (len $companies) }}</strong> labs
+      </div>
+    </div>
+
+    <div class="prof-cat-tabs" id="models-type-tabs">
+      <a href="{{ "/models/" | relURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">all <span class="prof-cat-count">{{ partial "count.html" (len $allModels) }}</span></a>
+      <a href="{{ "/models/category/runs-at-home/" | relURL }}" class="pf{{ if eq $activeSlug "runs-at-home" }} active{{ end }}">runs at home <span class="prof-cat-count">{{ partial "count.html" (len $homeCapable) }}</span></a>
+      {{ range $types }}
+        {{ $t := . }}
+        {{ $primary := where $allModels "Params.model_type" $t }}
+        {{ $extra   := where $allModels "Params.extra_model_types" "intersect" (slice $t) }}
+        {{ $count := len (union $primary $extra) }}
+        {{ $slug := "" }}
+        {{ $match := where site.Data.model_categories "filter_value" $t }}
+        {{ if $match }}{{ $slug = (index $match 0).slug }}{{ end }}
+        <a href="{{ printf "/models/category/%s/" $slug | relURL }}" class="pf{{ if eq $activeSlug $slug }} active{{ end }}">{{ $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
+      {{ end }}
+    </div>
+
+    {{ partial "models-table.html" (dict "models" $tableModels "companies" $companies "companyPages" $companyPages) }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" $page }}
+
+</div>
+
+{{ partial "sidebar-search-js.html" $page }}

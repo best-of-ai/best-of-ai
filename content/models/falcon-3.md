@@ -19,6 +19,7 @@ license: 'Falcon License'
 api_available: false
 mmlu_score: 73.1
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model, self-hosted]

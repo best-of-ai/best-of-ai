@@ -19,6 +19,7 @@ license: 'Gemma License'
 api_available: true
 mmlu_score: 78.0
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'Google Vertex AI']
 date: '2026-07-16'
 tags: [llm, open-weight, small-model, self-hosted]

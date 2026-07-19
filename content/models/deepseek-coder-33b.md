@@ -19,6 +19,7 @@ license: 'DeepSeek License'
 api_available: true
 humaneval_score: 79.3
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'DeepSeek API']
 date: '2026-07-16'
 tags: [code, open-weight, api, legacy]

@@ -19,6 +19,7 @@ license: 'Apache 2.0'
 api_available: true
 mmlu_score: 67.7
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, long-context]

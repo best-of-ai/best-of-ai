@@ -20,9 +20,11 @@ api_available: true
 mmlu_score: 71.8
 humaneval_score: 67.7
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, legacy]
+extra_model_types: ['Code']
 ---
 
 Gemini 1.0 Pro is the mid-tier model from Google's first Gemini family, launched on December 6, 2023 alongside Nano and Ultra. It handles text and images, runs with a 32,768-token context window, and was built to be a faster, cheaper option than Ultra for everyday chat and API use while still beating Google's older PaLM 2 models on most benchmarks. It scored 71.8 on MMLU and 67.7 on HumanEval at launch, putting it roughly in line with GPT-3.5 on many tasks.

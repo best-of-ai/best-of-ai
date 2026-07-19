@@ -19,6 +19,7 @@ license: 'NVIDIA Open Model License'
 api_available: true
 mmlu_score: 81.1
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['Hugging Face', 'NVIDIA NIM']
 date: '2026-07-16'
 tags: [llm, open-weight, synthetic-data, self-hosted]

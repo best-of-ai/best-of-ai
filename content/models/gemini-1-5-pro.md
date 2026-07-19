@@ -23,9 +23,11 @@ mmlu_score: 85.9
 humaneval_score: 71.9
 lmarena_score: 1260
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, long-context, api, legacy]
+extra_model_types: ['Code']
 ---
 
 Gemini 1.5 Pro is the model that introduced million-token context windows to a mainstream API, released by Google in February 2024 and moved to general availability that May. It reads text, images, audio, and video in a single prompt, and Google demonstrated it holding an entire hour of video or hundreds of pages of documents in context at once, well beyond what GPT-4 or Claude offered at the time. It uses a mixture-of-experts architecture, which Google said let it match or beat the larger Gemini 1.0 Ultra on most benchmarks while running cheaper.

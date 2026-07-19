@@ -1,0 +1,63 @@
+-
+  name: 'Language'
+  slug: 'language'
+  description: 'Large language models built for chat, writing, and general-purpose text tasks.'
+  filter_field: 'model_type'
+  filter_value: 'Language'
+  sort_order: 0
+-
+  name: 'Multimodal'
+  slug: 'multimodal'
+  description: 'Models that work across text, images, audio, or video in a single system.'
+  filter_field: 'model_type'
+  filter_value: 'Multimodal'
+  sort_order: 1
+-
+  name: 'Reasoning'
+  slug: 'reasoning'
+  description: 'Models tuned for multi-step reasoning, math, and complex problem-solving.'
+  filter_field: 'model_type'
+  filter_value: 'Reasoning'
+  sort_order: 2
+-
+  name: 'Image Generation'
+  slug: 'image-generation'
+  description: 'Models that generate or edit images from text and image prompts.'
+  filter_field: 'model_type'
+  filter_value: 'Image Generation'
+  sort_order: 3
+-
+  name: 'Audio Generation'
+  slug: 'audio-generation'
+  description: 'Models that generate speech, music, and other audio from text or audio prompts.'
+  filter_field: 'model_type'
+  filter_value: 'Audio Generation'
+  sort_order: 4
+-
+  name: 'Video Generation'
+  slug: 'video-generation'
+  description: 'Models that generate or edit video clips from text, image, or video prompts.'
+  filter_field: 'model_type'
+  filter_value: 'Video Generation'
+  sort_order: 5
+-
+  name: 'Embedding'
+  slug: 'embedding'
+  description: 'Models that turn text, images, or audio into vector embeddings for search and retrieval.'
+  filter_field: 'model_type'
+  filter_value: 'Embedding'
+  sort_order: 6
+-
+  name: 'Code'
+  slug: 'code'
+  description: 'Models trained for code completion, generation, and software engineering tasks.'
+  filter_field: 'model_type'
+  filter_value: 'Code'
+  sort_order: 7
+-
+  name: 'Runs at Home'
+  slug: 'runs-at-home'
+  description: 'Open-weight models you can download and run on your own hardware.'
+  filter_field: 'runs_at_home'
+  filter_value: 'true'
+  sort_order: 8

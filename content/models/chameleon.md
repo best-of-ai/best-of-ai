@@ -18,9 +18,11 @@ open_weight: true
 license: 'Research-only'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Research']
 date: '2026-07-16'
 tags: [multimodal, research, open-weight]
+extra_model_types: ['Image Generation']
 ---
 
 Chameleon is a multimodal model from Meta FAIR, described in a May 2024 paper, that mixes text and images from the ground up rather than bolting a vision encoder onto a language model. Most multimodal systems use "late fusion," where a separate image encoder feeds visual features into a language model that was pretrained on text alone. Chameleon instead quantizes images into discrete tokens and trains on sequences of interleaved text and image tokens from scratch, so the same transformer learns to reason over both modalities and can also generate images as output, not just describe them.

@@ -17,6 +17,7 @@ open_weight: true
 license: 'Apache 2.0'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: false
 platforms: ['Hugging Face', 'Alibaba Cloud']
 date: '2026-07-16'
 tags: [text-to-speech, open-weight, voice-cloning, api]

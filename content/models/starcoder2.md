@@ -19,6 +19,7 @@ license: 'BigCode OpenRAIL-M'
 api_available: false
 humaneval_score: 46.3
 access_methods: [Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [llm, open-weight, code, self-hosted]

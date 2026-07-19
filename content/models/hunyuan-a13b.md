@@ -18,6 +18,7 @@ open_weight: true
 license: 'Tencent Hunyuan License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Tencent Cloud']
 date: '2026-07-16'
 tags: [llm, open-weight, reasoning, mixture-of-experts]

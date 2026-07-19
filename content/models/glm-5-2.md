@@ -22,9 +22,11 @@ api_available: true
 mmlu_score: 91.72
 humaneval_score: 88.0
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, coding, self-hosted]
+extra_model_types: ['Code']
 ---
 
 GLM-5.2 is Zhipu AI's flagship open-weight model, released on June 13, 2026 under the MIT license. It's a mixture-of-experts model with roughly 744 billion total parameters and about 40 billion active per token, and it ships with a context window of 1 million tokens, far beyond the 128,000-token window of its GLM-4.6 predecessor. Zhipu built it specifically for long-horizon coding agents, training it for months on agentic software engineering scenarios rather than general chat.

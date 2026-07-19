@@ -18,6 +18,7 @@ open_weight: false
 license: 'Proprietary'
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Google AI Studio']
 date: '2026-07-16'
 tags: [llm, reasoning, experimental]

@@ -20,9 +20,11 @@ input_price_usd_per_m: 0.2
 output_price_usd_per_m: 1.1
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [llm, open-weight, long-context, mixture-of-experts]
+extra_model_types: ['Multimodal']
 ---
 
 MiniMax-01 is an open-weight model family that the Chinese AI lab MiniMax released in January 2025, combining a text model (MiniMax-Text-01) and a vision-language model (MiniMax-VL-01) built on the same hybrid architecture. It uses a mixture-of-experts design with 456 billion total parameters and about 45.9 billion active per token, and mixes Lightning Attention with regular softmax attention to make very long sequences computationally practical. The headline feature is context length: the model can handle inputs up to 4 million tokens, well beyond what most competing models support at the time, while API-hosted versions typically expose a 1 million token window.

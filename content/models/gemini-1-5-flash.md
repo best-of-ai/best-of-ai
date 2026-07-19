@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.3
 api_available: true
 mmlu_score: 78.9
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Google AI Studio', 'Vertex AI', 'Gemini app']
 date: '2026-07-16'
 tags: [llm, multimodal, api, low-cost]

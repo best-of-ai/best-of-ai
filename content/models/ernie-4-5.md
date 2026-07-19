@@ -18,6 +18,7 @@ open_weight: true
 license: 'Apache 2.0'
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: true
 platforms: ['Baidu Cloud', 'Hugging Face']
 date: '2026-07-16'
 tags: [llm, multimodal, open-weight]

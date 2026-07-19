@@ -21,6 +21,7 @@ output_price_usd_per_m: 6.4
 api_available: true
 lmarena_score: 1320
 access_methods: [API]
+runs_at_home: false
 platforms: ['Alibaba Cloud', 'API']
 date: '2026-07-16'
 tags: [llm, mixture-of-experts, foundation-model, api]

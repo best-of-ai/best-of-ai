@@ -17,6 +17,7 @@ open_weight: true
 license: 'Research-only'
 api_available: false
 access_methods: [Self-hosted]
+runs_at_home: false
 platforms: ['Research']
 date: '2026-07-16'
 tags: [chatbot, research, legacy]

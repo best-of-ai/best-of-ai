@@ -21,6 +21,7 @@ output_price_usd_per_m: 0.25
 api_available: true
 humaneval_score: 75.0
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Mistral API']
 date: '2026-07-16'
 tags: [code, open-weight, api]

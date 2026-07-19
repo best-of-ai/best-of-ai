@@ -20,6 +20,7 @@ input_price_usd_per_m: 2
 output_price_usd_per_m: 8
 api_available: true
 access_methods: [API, Self-hosted]
+runs_at_home: false
 platforms: ['Hugging Face', 'AWS Bedrock']
 date: '2026-07-16'
 tags: [llm, open-weight, long-context, hybrid-architecture]

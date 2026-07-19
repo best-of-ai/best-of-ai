@@ -17,6 +17,7 @@ open_weight: true
 license: 'FLUX Non-Commercial License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'API']
 date: '2026-07-16'
 tags: [image-generation, image-editing, open-weight, api]

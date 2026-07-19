@@ -20,6 +20,7 @@ input_price_usd_per_m: 5
 output_price_usd_per_m: 30
 api_available: true
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT', 'Azure OpenAI', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, frontier-model, multimodal, api]

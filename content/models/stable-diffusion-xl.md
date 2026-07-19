@@ -17,6 +17,7 @@ open_weight: true
 license: 'CreativeML Open RAIL++-M'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face']
 date: '2026-07-16'
 tags: [image-generation, open-weight, text-to-image, diffusion]

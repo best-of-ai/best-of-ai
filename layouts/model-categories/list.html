@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ $allModels := where .Site.RegularPages "Section" "models" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/models/" | relURL }}">Models</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Categories</span>
+    </nav>
+
+    <div class="cat-list-hero">
+      <h1 class="cat-list-hero__title">Model Categories</h1>
+      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len .Site.Data.model_categories) }} categories of AI models and LLMs.</p>
+    </div>
+
+    <div class="cat-list-grid">
+      {{ range sort .Site.Data.model_categories "sort_order" }}
+        {{ $cat := . }}
+        {{ $count := 0 }}
+        {{ if eq $cat.filter_field "runs_at_home" }}
+          {{ $count = len (where $allModels "Params.runs_at_home" true) }}
+        {{ else }}
+          {{ $primary := where $allModels "Params.model_type" $cat.filter_value }}
+          {{ $extra   := where $allModels "Params.extra_model_types" "intersect" (slice $cat.filter_value) }}
+          {{ $count = len (union $primary $extra) }}
+        {{ end }}
+        {{ if gt $count 0 }}
+        <a href="{{ printf "/models/category/%s/" $cat.slug | relURL }}" class="cat-list-card">
+          <div class="cat-list-card__icon">{{ substr $cat.name 0 1 }}</div>
+          <div class="cat-list-card__body">
+            <span class="cat-list-card__name">{{ $cat.name }}</span>
+            {{ with $cat.description }}<span class="cat-list-card__desc">{{ . }}</span>{{ end }}
+          </div>
+          <span class="cat-list-card__count">{{ partial "count.html" $count }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ end }}

@@ -18,6 +18,7 @@ open_weight: true
 license: 'Tongyi Qianwen License'
 api_available: true
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Alibaba Cloud']
 date: '2026-07-16'
 tags: [multimodal, open-weight, vision, legacy]

@@ -23,9 +23,11 @@ mmlu_score: 85.0
 humaneval_score: 84.0
 lmarena_score: 1310
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Claude.ai', 'AWS Bedrock', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, low-latency, api]
+extra_model_types: ['Reasoning', 'Code']
 ---
 
 Claude Haiku 4.5 is Anthropic's fastest and cheapest current-generation model, released on October 15, 2025. It is the first Haiku model to include extended thinking, computer use, and context awareness, features that had previously only shipped in Anthropic's larger Sonnet and Opus models. On SWE-bench Verified it scores about 73.3 percent, which puts it within a few points of Claude Sonnet 4.5's 77.2 percent despite costing a third as much: $1 per million input tokens and $5 per million output tokens versus Sonnet's $3/$15. That makes it a practical choice for running many agents in parallel or handling high-volume tasks where Sonnet or Opus would be needlessly expensive. It reads both text and images and shares the 200,000 token context window used across the rest of the current Claude lineup.

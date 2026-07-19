@@ -23,9 +23,11 @@ mmlu_score: 90.0
 humaneval_score: 89.0
 lmarena_score: 1501
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Gemini app', 'Google Vertex AI', 'API']
 date: '2026-07-16'
 tags: [llm, multimodal, foundation-model, api, long-context]
+extra_model_types: ['Code']
 ---
 
 Gemini 3 Pro is Google's flagship model, announced November 18, 2025 as the successor to Gemini 2.5 Pro. It reads and generates across text, image, audio, and video, with a 1 million token input context window and up to 64,000 tokens of output, and it launched with strong claims on math, science, and agentic benchmarks. On release it broke 1500 Elo on the LMArena leaderboard, reaching 1501 and taking the top public ranking, and Google reported it scoring well ahead of rival models on multimodal understanding tests like MMMU-Pro.

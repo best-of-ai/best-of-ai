@@ -23,6 +23,7 @@ mmlu_score: 85.0
 humaneval_score: 80.0
 lmarena_score: 1402
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['Grok app', 'X', 'API']
 date: '2026-07-16'
 tags: [llm, foundation-model, api]

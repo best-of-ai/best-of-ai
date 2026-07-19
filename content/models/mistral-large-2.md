@@ -22,9 +22,11 @@ api_available: true
 mmlu_score: 84.0
 humaneval_score: 92.0
 access_methods: [API, Self-hosted]
+runs_at_home: false
 platforms: ['Mistral API', 'Le Chat']
 date: '2026-07-16'
 tags: [llm, foundation-model, api, legacy]
+extra_model_types: ['Code']
 ---
 
 Mistral Large 2 is a 123 billion parameter dense language model that Mistral AI released on July 24, 2024, replacing the original Mistral Large as the company's flagship offering. It handles a 128,000-token context window, scores 84.0% on MMLU, and Mistral trained it with heavy emphasis on multilingual ability, covering languages including French, German, Spanish, Chinese, Japanese, Korean, Arabic, and Hindi alongside English, plus more than 80 programming languages for code generation.

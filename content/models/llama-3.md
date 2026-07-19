@@ -21,6 +21,7 @@ mmlu_score: 82.0
 humaneval_score: 81.7
 lmarena_score: 1210
 access_methods: [Self-hosted, API]
+runs_at_home: true
 platforms: ['Hugging Face', 'Ollama']
 date: '2026-07-16'
 tags: [llm, open-weight, self-hosted, legacy]

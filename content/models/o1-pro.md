@@ -21,6 +21,7 @@ output_price_usd_per_m: 600
 api_available: true
 mmlu_score: 92.0
 access_methods: [API, Chat UI]
+runs_at_home: false
 platforms: ['ChatGPT Pro', 'API']
 date: '2026-07-16'
 tags: [llm, reasoning, api]
