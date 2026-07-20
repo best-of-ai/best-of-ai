@@ -357,6 +357,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Freshdesk](https://freshdesk.com)** — [review](https://bestofai.io/tools/freshdesk/) — AI-driven customer support software with automation ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Intercom](https://intercom.com)** — [review](https://bestofai.io/tools/intercom/) — AI-powered customer messaging and support platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Zendesk](https://zendesk.com)** — [review](https://bestofai.io/tools/zendesk/) — AI-enhanced customer service and support platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Hellomatik](https://hellomatik.com)** — AI agent platform that turns company knowledge into agents that answer, sell and book across WhatsApp, email and web ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 27 Customer Support tools on bestofai.io →](https://bestofai.io/categories/customer-support/)*
 
 ---
