@@ -1,0 +1,486 @@
+{{ define "main" }}
+{{ $hardware := where .Site.RegularPages "Section" "hardware" }}
+{{ $types := slice }}
+{{ range $hardware }}
+  {{ if .Params.hardware_type }}
+    {{ if not (in $types .Params.hardware_type) }}
+      {{ $types = $types | append .Params.hardware_type }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $types = sort $types }}
+
+<div class="submit-page container" id="submit-page">
+
+  <!-- Step 1: GitHub gate (full screen) -->
+  <section class="submit-gate-screen" id="submit-gate" aria-label="GitHub requirements">
+    <div class="submit-gate-screen__glow" aria-hidden="true"></div>
+    <div class="submit-gate-screen__inner">
+
+      <header class="submit-gate-screen__header">
+        <span class="submit-gate-screen__eyebrow">// suggest hardware</span>
+        <h1 class="submit-gate-screen__title">Suggesting is free</h1>
+        <p class="submit-gate-screen__sub">Pass two quick steps on GitHub first, then the free submission form unlocks.</p>
+      </header>
+
+      <div class="submit-gate-screen__cards">
+
+        <a href="{{ .Site.Params.githubOrg }}" class="submit-gate-card" id="submit-gate-follow" target="_blank" rel="noopener">
+          <span class="submit-gate-card__step">1</span>
+          <span class="submit-gate-card__check" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="submit-gate-card__icon submit-gate-card__icon--org" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </span>
+          <span class="submit-gate-card__body">
+            <span class="submit-gate-card__label">Follow the organization</span>
+            <span class="submit-gate-card__desc">Get updates when new hardware and categories land.</span>
+            <span class="submit-gate-card__row">
+              <span class="submit-gate-card__action">
+                Open on GitHub
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </span>
+            </span>
+          </span>
+        </a>
+
+        <a href="{{ .Site.Params.githubRepo }}" class="submit-gate-card" id="submit-gate-star" target="_blank" rel="noopener">
+          <span class="submit-gate-card__step">2</span>
+          <span class="submit-gate-card__check" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </span>
+          <span class="submit-gate-card__icon submit-gate-card__icon--star" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </span>
+          <span class="submit-gate-card__body">
+            <span class="submit-gate-card__label">Star the repository</span>
+            <span class="submit-gate-card__desc">Helps others find the directory and keeps the project alive.</span>
+            <span class="submit-gate-card__row">
+              <span class="submit-gate-card__action">
+                Star on GitHub
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </span>
+            </span>
+          </span>
+        </a>
+
+      </div>
+
+      <footer class="submit-gate-screen__footer">
+        <div class="submit-gate-screen__progress-track" aria-hidden="true">
+          <div class="submit-gate-screen__progress-fill" id="submit-gate-progress-fill"></div>
+        </div>
+        <p class="submit-gate-screen__progress-text" id="submit-gate-progress" aria-live="polite">0 of 2 complete</p>
+      </footer>
+
+    </div>
+  </section>
+
+  <!-- Step 2: Full submit page (after gate) -->
+  <div class="submit-content" id="submit-content" hidden>
+
+  <!-- Hero -->
+  <div class="submit-hero">
+    <div class="submit-hero__eyebrow">// contribute to the directory</div>
+    <h1 class="submit-hero__title">Suggest AI hardware</h1>
+    <p class="submit-hero__sub">Best of AI tracks the chips, accelerators, and devices AI runs on. If something's missing — a GPU, an NPU, an edge accelerator — add it, no special access required.</p>
+    <div class="submit-hero__stats">
+      <div class="submit-hero__stat">
+        <span class="submit-hero__stat-num">{{ partial "count.html" (len $hardware) }}</span>
+        <span class="submit-hero__stat-label">hardware indexed</span>
+      </div>
+      <div class="submit-hero__stat-sep"></div>
+      <div class="submit-hero__stat">
+        <span class="submit-hero__stat-num">{{ partial "count.html" (len $types) }}</span>
+        <span class="submit-hero__stat-label">hardware types</span>
+      </div>
+      <div class="submit-hero__stat-sep"></div>
+      <div class="submit-hero__stat">
+        <span class="submit-hero__stat-num">free</span>
+        <span class="submit-hero__stat-label">to list</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main two-column grid -->
+  <div class="submit-main">
+
+    <!-- Left: Form + PR hint -->
+    <div class="submit-form-col">
+
+      <div class="submit-card">
+        <div class="submit-card__header">
+          <span class="submit-card__badge">via GitHub issue</span>
+          <p class="submit-card__note">Fill this in — clicking submit opens a pre-filled GitHub issue in a new tab. You only need a GitHub account to post it.</p>
+        </div>
+
+        <form class="sf-form" id="sf-form" novalidate>
+
+          <div class="sf-field" id="sf-field-name">
+            <label class="sf-label" for="sf-name">Hardware name <span class="sf-required">*</span></label>
+            <input class="sf-input" id="sf-name" type="text" placeholder="e.g. NVIDIA B200" autocomplete="off">
+            <span class="sf-error-msg">Name is required.</span>
+          </div>
+
+          <div class="sf-field" id="sf-field-manufacturer">
+            <label class="sf-label" for="sf-manufacturer">Manufacturer <span class="sf-required">*</span></label>
+            <input class="sf-input" id="sf-manufacturer" type="text" placeholder="e.g. NVIDIA">
+            <span class="sf-error-msg">Manufacturer is required.</span>
+          </div>
+
+          <div class="sf-field" id="sf-field-url">
+            <label class="sf-label" for="sf-url">Product URL <span class="sf-required">*</span></label>
+            <input class="sf-input" id="sf-url" type="url" placeholder="https://example.com">
+            <span class="sf-error-msg">A valid https:// URL is required.</span>
+          </div>
+
+          <div class="sf-field" id="sf-field-type">
+            <label class="sf-label" id="sf-type-label">Hardware type <span class="sf-required">*</span></label>
+            <div class="sf-combobox" id="sf-type-combo">
+              <button type="button" class="sf-combo-trigger" id="sf-combo-trigger" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="sf-type-label">
+                <span class="sf-combo-value is-placeholder" id="sf-combo-value">— pick a hardware type —</span>
+                <svg class="sf-combo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+              </button>
+              <div class="sf-combo-dropdown" id="sf-combo-dropdown" hidden>
+                <ul class="sf-combo-list" id="sf-combo-list" role="listbox" aria-labelledby="sf-type-label"></ul>
+              </div>
+            </div>
+            <input type="hidden" id="sf-type" value="">
+            <span class="sf-error-msg">Please pick a hardware type.</span>
+          </div>
+
+          <div class="sf-field" id="sf-field-desc">
+            <label class="sf-label" for="sf-desc">Short description <span class="sf-required">*</span></label>
+            <span class="sf-hint">One sentence, what it does. Factual, under 300 characters.</span>
+            <textarea class="sf-textarea" id="sf-desc" rows="2" maxlength="300" placeholder="Datacenter GPU built for large-scale training and inference"></textarea>
+            <div class="sf-char-count"><span id="sf-desc-count">0</span> / 300</div>
+            <span class="sf-error-msg">Description must be 20–300 characters.</span>
+          </div>
+
+          <div class="sf-field" id="sf-field-why">
+            <label class="sf-label" for="sf-why">Why should it be included? <span class="sf-required">*</span></label>
+            <span class="sf-hint">What makes it genuinely useful or notable?</span>
+            <textarea class="sf-textarea" id="sf-why" rows="3" placeholder="Widely deployed, a notable spec jump, or otherwise significant..."></textarea>
+            <span class="sf-error-msg">Please explain why this hardware should be included.</span>
+          </div>
+
+          <button type="submit" class="sf-submit-btn">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58C20.56 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            Open GitHub issue
+          </button>
+
+        </form>
+
+        {{ $typeData := slice }}{{ range $types }}{{ $typeData = $typeData | append . }}{{ end }}
+        <script>
+        (function () {
+          var REPO = '{{ .Site.Params.githubRepo }}';
+          var TYPES = JSON.parse(atob('{{ $typeData | jsonify | base64Encode }}'));
+
+          /* ── Combobox ── */
+          var fType     = document.getElementById('sf-type');
+          var trigger   = document.getElementById('sf-combo-trigger');
+          var valueEl   = document.getElementById('sf-combo-value');
+          var dropdown  = document.getElementById('sf-combo-dropdown');
+          var listEl    = document.getElementById('sf-combo-list');
+
+          function renderList() {
+            listEl.innerHTML = '';
+            TYPES.forEach(function(t) {
+              var li = document.createElement('li');
+              li.className = 'sf-combo-opt' + (t === fType.value ? ' is-selected' : '');
+              li.textContent = t;
+              li.setAttribute('role', 'option');
+              li.dataset.slug = t;
+              li.addEventListener('mousedown', function(e){ e.preventDefault(); selectType(t); });
+              listEl.appendChild(li);
+            });
+          }
+
+          function selectType(t) {
+            fType.value = t;
+            valueEl.textContent = t;
+            valueEl.classList.remove('is-placeholder');
+            closeDropdown();
+            trigger.classList.remove('is-error');
+            document.getElementById('sf-field-type').classList.remove('has-error');
+          }
+
+          function openDropdown() {
+            dropdown.hidden = false;
+            trigger.setAttribute('aria-expanded', 'true');
+            renderList();
+          }
+
+          function closeDropdown() {
+            dropdown.hidden = true;
+            trigger.setAttribute('aria-expanded', 'false');
+          }
+
+          trigger.addEventListener('click', function() {
+            dropdown.hidden ? openDropdown() : closeDropdown();
+          });
+
+          document.addEventListener('mousedown', function(e) {
+            if (!dropdown.hidden && !document.getElementById('sf-type-combo').contains(e.target)) closeDropdown();
+          });
+
+          /* ── Form ── */
+          var form        = document.getElementById('sf-form');
+          var fName        = document.getElementById('sf-name');
+          var fManufacturer = document.getElementById('sf-manufacturer');
+          var fUrl         = document.getElementById('sf-url');
+          var fDesc         = document.getElementById('sf-desc');
+          var fWhy          = document.getElementById('sf-why');
+          var descCount     = document.getElementById('sf-desc-count');
+
+          fDesc.addEventListener('input', function () {
+            var n = fDesc.value.length;
+            descCount.textContent = n;
+            descCount.parentElement.classList.toggle('is-warn', n > 250);
+          });
+
+          function setError(fieldId, hasError) {
+            var el = document.getElementById('sf-field-' + fieldId);
+            if (!el) return;
+            el.classList.toggle('has-error', hasError);
+            var inp = el.querySelector('.sf-input, .sf-select, .sf-textarea');
+            if (inp) inp.classList.toggle('is-error', hasError);
+            var trig = el.querySelector('.sf-combo-trigger');
+            if (trig) trig.classList.toggle('is-error', hasError);
+          }
+
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            var name         = fName.value.trim();
+            var manufacturer = fManufacturer.value.trim();
+            var url          = fUrl.value.trim();
+            var type         = fType.value;
+            var desc         = fDesc.value.trim();
+            var why          = fWhy.value.trim();
+
+            var urlOk  = url && /^https?:\/\//.test(url);
+            var descOk = desc.length >= 20 && desc.length <= 300;
+
+            setError('name',         !name);
+            setError('manufacturer', !manufacturer);
+            setError('url',          !urlOk);
+            setError('type',         !type);
+            setError('desc',         !descOk);
+            setError('why',          !why);
+
+            if (!name || !manufacturer || !urlOk || !type || !descOk || !why) return;
+
+            var title = 'Submit Hardware: ' + name;
+            var body = [
+              '## Hardware Details',
+              '',
+              '**Name:** ' + name,
+              '',
+              '**Manufacturer:** ' + manufacturer,
+              '',
+              '**Product URL:** ' + url,
+              '',
+              '**Hardware type:** ' + type,
+              '',
+              '**Short description:** ' + desc,
+              '',
+              '**Why should it be included?**',
+              why,
+            ].join('\n');
+
+            var issueUrl = REPO + '/issues/new?title=' + encodeURIComponent(title) +
+              '&body=' + encodeURIComponent(body) +
+              '&labels=submission,hardware';
+
+            window.open(issueUrl, '_blank', 'noopener');
+          });
+        })();
+        </script>
+
+      </div><!-- /submit-card -->
+
+      <!-- PR guide -->
+      <div class="submit-pr-guide">
+        <span class="submit-pr-guide__label">Prefer a pull request?</span>
+        Fork the repo, add <code>content/hardware/yourslug.md</code> with the fields <code>name</code>, <code>slug</code>, <code>manufacturer</code>, <code>hardware_type</code>, <code>product_url</code>, <code>description</code>, and open a PR.
+        <a href="{{ .Site.Params.githubRepo }}" target="_blank" rel="noopener">View the repository →</a>
+      </div>
+
+    </div><!-- /submit-form-col -->
+
+    <!-- Right: Sticky sidebar -->
+    <aside class="submit-sidebar">
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// why get listed</div>
+        <p class="submit-sidebar__text">Best of AI tracks <strong>{{ partial "count.html" (len $hardware) }} pieces of hardware</strong> across <strong>{{ partial "count.html" (len $types) }} types</strong>, alongside the models that run on them. The full dataset is open at <a href="/index.json">/index.json</a>, so other projects pull from it too.</p>
+        <p class="submit-sidebar__text">Listings are free, permanent, and not ranked by payment — only by community-assessed quality.</p>
+      </div>
+
+      <div class="submit-sidebar__block">
+        <div class="submit-section-label">// what happens next</div>
+        <div class="submit-steps">
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Issue posted</strong>
+              <p>Goes into the GitHub submissions queue. You can track it and answer follow-up questions from maintainers.</p>
+            </div>
+          </div>
+          <div class="submit-step">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+              <span class="submit-step__line"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Maintainers review</strong>
+              <p>Checked in batches, usually within a few days — verifying the hardware is real, type fits, and description is accurate.</p>
+            </div>
+          </div>
+          <div class="submit-step submit-step--last">
+            <div class="submit-step__track">
+              <span class="submit-step__dot"></span>
+            </div>
+            <div class="submit-step__body">
+              <strong>Added to the directory</strong>
+              <p>Accepted hardware gets a Markdown file and appears after the next deploy. The issue closes with a link to the new listing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </aside>
+
+  </div><!-- /submit-main -->
+
+  <!-- What gets accepted -->
+  <div class="submit-guidelines">
+    <div class="submit-section-label">// what gets accepted</div>
+    <div class="submit-guidelines__body">
+      <p>There's no strict bar to clear, but a few things affect how quickly a submission gets merged. The hardware should be publicly announced or shipping, not a rumor or a leak with no source. The description should say what the hardware actually does rather than repeating marketing copy.</p>
+      <p>Duplicate entries and submissions without enough information to verify the hardware are the most common reasons for rejection. When in doubt, submit anyway — the issue will get a note if something's missing.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="submit-faq">
+    <div class="submit-section-label">// common questions</div>
+    <div class="submit-faq__list">
+
+      <details class="submit-faq__item">
+        <summary class="submit-faq__q">Is there a fee to get listed?</summary>
+        <p class="submit-faq__a">No. Best of AI is a free, open source directory. Listing hardware costs nothing and there are no paid placements or promoted spots.</p>
+      </details>
+
+      <details class="submit-faq__item">
+        <summary class="submit-faq__q">How long does review take?</summary>
+        <p class="submit-faq__a">Most submissions get reviewed within a few days. Maintainers work through the queue in batches. If yours has been open for more than a week without a response, add a comment to bump it.</p>
+      </details>
+
+      <details class="submit-faq__item">
+        <summary class="submit-faq__q">What if the hardware already has a listing with wrong information?</summary>
+        <p class="submit-faq__a">Open an issue to flag the correction, or submit a PR directly to the hardware's Markdown file in <code>content/hardware/</code>. The filename matches the hardware's slug.</p>
+      </details>
+
+      <details class="submit-faq__item">
+        <summary class="submit-faq__q">What if no hardware type fits?</summary>
+        <p class="submit-faq__a">Pick the closest match and mention the gap in the issue. New types get added when enough hardware warrants one.</p>
+      </details>
+
+      <details class="submit-faq__item">
+        <summary class="submit-faq__q">Can I use the directory data in my own project?</summary>
+        <p class="submit-faq__a">Yes. The full index is available at <a href="/index.json">/index.json</a> and the raw Markdown files are in the public GitHub repository. No API key or account needed.</p>
+      </details>
+
+    </div>
+  </div>
+
+  <!-- Hardware types -->
+  <div class="submit-cats">
+    <div class="submit-section-label">// available hardware types</div>
+    <p class="submit-cats__note">Pick the closest match for the hardware type field.</p>
+    <div class="submit-cats__cloud">
+      {{ range $types }}
+      <a href="{{ "/hardware/" | relURL }}" class="submit-cat-chip">{{ . }}</a>
+      {{ end }}
+    </div>
+  </div>
+
+  </div><!-- /submit-content -->
+
+  <script>
+  (function () {
+    var GATE_KEY = 'bai-submit-gate';
+    var pageEl       = document.getElementById('submit-page');
+    var gateEl       = document.getElementById('submit-gate');
+    var contentEl    = document.getElementById('submit-content');
+    var progressEl   = document.getElementById('submit-gate-progress');
+    var progressFill = document.getElementById('submit-gate-progress-fill');
+    var followCard   = document.getElementById('submit-gate-follow');
+    var starCard     = document.getElementById('submit-gate-star');
+
+    if (!gateEl || !contentEl || !followCard || !starCard) return;
+
+    function loadGateState() {
+      try { return JSON.parse(localStorage.getItem(GATE_KEY) || '{}'); }
+      catch (e) { return {}; }
+    }
+
+    function saveGateState(state) {
+      localStorage.setItem(GATE_KEY, JSON.stringify(state));
+    }
+
+    function updateProgress(state) {
+      var done = (state.follow ? 1 : 0) + (state.star ? 1 : 0);
+      followCard.classList.toggle('is-done', !!state.follow);
+      starCard.classList.toggle('is-done', !!state.star);
+      if (progressEl) progressEl.textContent = done + ' of 2 complete';
+      if (progressFill) progressFill.style.width = (done / 2 * 100) + '%';
+    }
+
+    function unlockPage() {
+      pageEl.classList.add('is-unlocked');
+      gateEl.setAttribute('hidden', '');
+      contentEl.removeAttribute('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function markStep(key, href, card) {
+      if (card.classList.contains('is-done')) {
+        window.open(href, '_blank', 'noopener');
+        return;
+      }
+      var state = loadGateState();
+      state[key] = true;
+      saveGateState(state);
+      updateProgress(state);
+      window.open(href, '_blank', 'noopener');
+      if (state.follow && state.star) {
+        setTimeout(unlockPage, 450);
+      }
+    }
+
+    var gateState = loadGateState();
+    updateProgress(gateState);
+    if (gateState.follow && gateState.star) unlockPage();
+
+    followCard.addEventListener('click', function (e) {
+      e.preventDefault();
+      markStep('follow', followCard.href, followCard);
+    });
+
+    starCard.addEventListener('click', function (e) {
+      e.preventDefault();
+      markStep('star', starCard.href, starCard);
+    });
+  })();
+  </script>
+
+</div>
+{{ end }}
