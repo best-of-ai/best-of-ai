@@ -39,6 +39,12 @@
   </url>
 {{- end }}
   <url>
+    <loc>{{ "/new-tools/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>{{ "/professionals/" | absURL }}</loc>
     <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
     <changefreq>weekly</changefreq>

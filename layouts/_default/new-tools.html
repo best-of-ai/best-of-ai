@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $tools := where .Site.RegularPages "Section" "tools" }}
+{{ $recentTools := first 60 (sort $tools "Params.date" "desc") }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Recently Added</span>
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Recently <span>Added</span> AI Tools</h1>
+      <p class="pg-hero__desc">The newest tools added to Best of AI, most recent first.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $recentTools) }}</strong> tools
+        <span class="sep">·</span>
+        <span>newest first</span>
+      </div>
+    </div>
+
+    <div class="tools-grid">
+      {{ range $recentTools }}
+        {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

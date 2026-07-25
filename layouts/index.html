@@ -67,6 +67,25 @@
       </div>
     </section>
 
+    <!-- ── Recently Added Tools ── -->
+    {{ $recentTools := first 9 (sort $tools "Params.date" "desc") }}
+    {{ if $recentTools }}
+    <section class="tool-section home-recent" id="recently-added" data-cat="recently-added">
+      <h2 class="tool-section__title">
+        <a href="{{ "/new-tools/" | relURL }}" class="tool-section__title-link">Recently Added Tools</a>
+        <a href="{{ "/new-tools/" | relURL }}" class="tool-section__more-link">
+          View all recently added
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </h2>
+      <div class="tools-grid">
+        {{ range $recentTools }}
+          {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
     <!-- ── New AI Models ── -->
     {{ $allModels := where .Site.RegularPages "Section" "models" }}
     {{ $newModels := first 6 (sort $allModels "Params.release_date" "desc") }}
