@@ -4433,6 +4433,7 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   max-width: 560px;
   margin-bottom: 0.75rem;
 }
+.pg-hero__actions { margin-bottom: 0.9rem; }
 .pg-hero__meta {
   display: flex;
   align-items: center;
