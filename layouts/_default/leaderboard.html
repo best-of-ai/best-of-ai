@@ -13,14 +13,15 @@
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">AI Tools <span>Leaderboard</span> {{ now.Format "January 2006" }}</h1>
-      <p class="pg-hero__desc">The best AI tools, ranked by real-world usefulness and impact.</p>
+      <h1 class="pg-hero__title">Best AI Tools <span>Leaderboard</span></h1>
+      <p class="pg-hero__desc">The {{ len hugo.Data.leaderboard }} best AI tools, ranked by real-world usefulness and impact — updated for {{ .Params.period }}.</p>
+      <div class="pg-hero__actions">
+        <a href="{{ "/leaderboard/archive/" | relURL }}" class="btn btn-primary">Archive</a>
+      </div>
       <div class="pg-hero__meta">
         <strong>{{ len hugo.Data.leaderboard }}</strong> tools
         <span class="sep">·</span>
         <span>ranked by impact</span>
-        <span class="sep">·</span>
-        <a href="{{ "/leaderboard/archive/" | relURL }}">Archive</a>
         <span class="sep">·</span>
         <a href="{{ "/ranking/" | relURL }}">improve this list</a>
       </div>

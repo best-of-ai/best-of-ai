@@ -462,11 +462,11 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "AI Tools Leaderboard"
-    "description" (printf "The top %d AI tools ranked by real-world usefulness and impact." $lbCount)
+    "name" "Best AI Tools Leaderboard"
+    "description" (printf "The top %d best AI tools, ranked by real-world usefulness and impact." $lbCount)
     "url" .Permalink
     "numberOfItems" $lbCount
-    "mainEntity" (dict "@type" "ItemList" "name" "AI Tools Leaderboard" "numberOfItems" $lbCount "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" "Best AI Tools Leaderboard" "numberOfItems" $lbCount "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}

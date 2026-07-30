@@ -87,7 +87,7 @@
   {{ else if eq .Section "model-categories" }}
     {{ $pageTitle = "AI Model Categories — Best of AI" }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
-    {{ $pageTitle = printf "AI Tools Leaderboard %s — Best of AI" (now.Format "January 2006") }}
+    {{ $pageTitle = printf "Best AI Tools Leaderboard (Top %d, %s) — Best of AI" (len hugo.Data.leaderboard) .Params.period }}
   {{ else }}
     {{ $pageTitle = printf "%s — Best of AI" (.Title | default "Categories") }}
   {{ end }}
@@ -178,6 +178,8 @@
     {{ $desc = printf "Foundation models and LLMs, with specs and benchmarks, from the labs building them — %d models and counting." (len (where .Site.RegularPages "Section" "models")) }}
   {{ else if eq .Section "model-categories" }}
     {{ $desc = printf "Browse %d categories of AI models and LLMs — reasoning, code, image generation, and more." (len hugo.Data.model_categories) }}
+  {{ else if eq .RelPermalink "/leaderboard/" }}
+    {{ $desc = printf "The top %d best AI tools, ranked by real-world usefulness and impact — updated for %s. See how ChatGPT, Claude, Gemini, and more stack up." (len hugo.Data.leaderboard) .Params.period }}
   {{ else }}
     {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
@@ -250,6 +252,8 @@
 <meta name="keywords" content="AI hardware, AI GPUs, GPU specs, AI accelerators, best AI GPUs, AI chips, GPU comparison, NVIDIA GPU, AMD GPU, TPU, datacenter GPU">
 {{ else if and (eq .Kind "section") (or (eq .Section "models") (eq .Section "model-categories")) }}
 <meta name="keywords" content="AI models, LLMs, foundation models, best AI models, open-weight models, AI model comparison, LLM leaderboard, AI model categories">
+{{ else if eq .RelPermalink "/leaderboard/" }}
+<meta name="keywords" content="best ai tools, ai tools leaderboard, top ai tools, best ai tools 2026, ai tool rankings, top rated ai tools, best ai apps, ai tools comparison">
 {{ else if .Params.keywords }}
 <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
 {{ end }}
