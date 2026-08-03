@@ -1009,7 +1009,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Creately](https://creately.com)** — [review](https://bestofai.io/tools/creately/) — Visual collaboration platform combining diagramming, whiteboarding, and project management for te... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Draw.io](https://www.drawio.com)** — [review](https://bestofai.io/tools/drawio/) — Free, open-source diagramming tool for creating flowcharts, network diagrams, UML, and architectu... ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Mermaid Chart](https://www.mermaidchart.com)** — [review](https://bestofai.io/tools/mermaid-chart/) — AI-powered diagramming platform using Mermaid syntax to generate and edit flowcharts, sequence di... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 3 Diagramming tools on bestofai.io →](https://bestofai.io/categories/diagramming/)*
+- **[flow-chart.io](https://flow-chart.io)** — AI diagram generator that produces fully editable scene graphs from natural language. Supports C4 model, BPMN 2.0, cloud architecture (AWS/GCP/Azure), ERD, STRIDE threat modeling, and 17+ technical domains. Every node and connector is a real editable object, not a locked image. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- *[View all 4 Diagramming tools on bestofai.io →](https://bestofai.io/categories/diagramming/)*
 
 ---
 
