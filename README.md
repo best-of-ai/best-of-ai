@@ -1877,6 +1877,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Veo 3](https://deepmind.google/technologies/veo/)** — [review](https://bestofai.io/tools/veo-3/) ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 35 Video Generator tools on bestofai.io →](https://bestofai.io/categories/video-generator/)*
+- **[TalkPix.ai](https://www.talkpix.ai)** — [review](https://www.talkpix.ai) — Pay-as-you-go AI video studio for talking photos, e-commerce video ads, and text-to-video clips ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 
 ---
 
