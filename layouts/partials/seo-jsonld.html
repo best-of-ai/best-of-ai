@@ -493,20 +493,3 @@
 
 {{ end }}
 
-{{/* ── FAQPage (submit page) ── */}}
-{{ if and .IsPage (eq .RelPermalink "/submit/") }}
-{{ $faqs := slice
-  (dict "question" "Is there a fee to get listed in Best of AI?" "answer" "No. Best of AI is a free, open source directory. Listing a tool costs nothing and there are no paid placements or promoted spots.")
-  (dict "question" "How long does the review process take?" "answer" "Most submissions are reviewed within a few days. Maintainers work through the queue in batches.")
-  (dict "question" "Can I submit a tool I built myself?" "answer" "Yes. Self-submissions are accepted. Mentioning that you are the developer in the issue is appreciated but not required.")
-  (dict "question" "What if the tool already has a listing with wrong information?" "answer" "Open a GitHub issue to flag the correction, or submit a pull request directly to the tool's Markdown file in content/tools/.")
-  (dict "question" "What if no category fits my tool?" "answer" "Pick the closest match and mention the gap in the issue. New categories get added when enough tools warrant one.")
-  (dict "question" "Can I use the directory data in my own project?" "answer" "Yes. The full index is available at /index.json and the raw Markdown files are in the public GitHub repository. No API key or account is needed.")
-}}
-{{ $faqItems := slice }}
-{{ range $faqs }}
-  {{ $faqItems = $faqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
-{{ end }}
-{{ $faqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqItems }}
-<script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
-{{ end }}
