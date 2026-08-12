@@ -2820,6 +2820,22 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   margin-bottom: 2rem;
   position: relative;
 }
+.submit-hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.submit-hero__cta {
+  font-size: 0.95rem;
+  padding: 0.8rem 1.5rem;
+}
+.submit-hero__cta-note {
+  font-size: 0.82rem;
+  color: var(--fg-faint);
+}
 .submit-hero__stats {
   display: flex;
   align-items: center;
@@ -3111,6 +3127,86 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   transition: border-color 0.15s, color 0.15s;
 }
 .submit-cat-chip:hover { border-color: var(--accent); color: var(--accent); opacity: 1; }
+
+/* Generic section wrapper (benefits, etc.) */
+.submit-section { margin-bottom: 2.75rem; }
+.submit-section__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.6rem;
+}
+.submit-section__intro {
+  max-width: 640px;
+  font-size: 0.92rem;
+  color: var(--fg-muted);
+  line-height: 1.75;
+  margin: 0 0 1.5rem;
+}
+
+/* Benefits grid */
+.submit-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.submit-benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+}
+a.submit-benefit:hover { border-color: var(--accent); background: var(--surface2); }
+.submit-benefit--static { cursor: default; }
+.submit-benefit__icon { flex-shrink: 0; color: var(--accent); margin-top: 0.1rem; }
+.submit-benefit__body { flex: 1; min-width: 0; }
+.submit-benefit__title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--fg);
+  margin-bottom: 0.3rem;
+}
+.submit-benefit__badge {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+.submit-benefit__desc { font-size: 0.81rem; color: var(--fg-muted); line-height: 1.6; margin: 0; }
+.submit-benefit__arrow { flex-shrink: 0; color: var(--fg-faint); margin-top: 0.15rem; transition: transform 0.15s, color 0.15s; }
+a.submit-benefit:hover .submit-benefit__arrow { color: var(--fg-muted); transform: translateX(2px); }
+
+/* Bottom CTA banner */
+.submit-cta-banner {
+  margin-top: 0.5rem;
+  padding: 2.25rem 2rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+.submit-cta-banner__title { font-size: 1.3rem; font-weight: 700; margin: 0; }
+.submit-cta-banner__sub { font-size: 0.88rem; color: var(--fg-muted); max-width: 480px; margin: 0; }
 
 /* ── About page ── */
 .about-page {

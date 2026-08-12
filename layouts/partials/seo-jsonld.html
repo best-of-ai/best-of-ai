@@ -448,6 +448,23 @@
   <script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
 {{ end }}
 
+{{/* ── FAQPage (/submit/) ── */}}
+{{ if eq .RelPermalink "/submit/" }}
+  {{ $submitFaqs := slice
+    (dict "question" "How do I submit my AI tool?" "answer" "Open the submission form at submit.bestofai.io and fill in your tool's name, website, and a short description. It takes about two minutes.")
+    (dict "question" "Is it free to get listed?" "answer" "Yes. There's no fee to submit a tool or to stay listed.")
+    (dict "question" "How long does review take?" "answer" "Most submissions get reviewed within a few days. Once approved, your listing goes live with the next site deploy.")
+    (dict "question" "What happens after my tool is approved?" "answer" "It gets placed on your category page, any profession pages that fit, relevant alternative pages, the homepage's Recently Added section, and our GitHub awesome list. It also becomes eligible for the leaderboard, with a direct-follow backlink to your site throughout.")
+    (dict "question" "Why wasn't my tool approved?" "answer" "Usually because the site didn't load, the AI feature wasn't real, or it didn't fit an existing category. Fix the issue and submit again. There's no limit on resubmissions.")
+  }}
+  {{ $submitFaqItems := slice }}
+  {{ range $submitFaqs }}
+    {{ $submitFaqItems = $submitFaqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
+  {{ end }}
+  {{ $submitFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $submitFaqItems }}
+  <script type="application/ld+json">{{ $submitFaqSchema | jsonify | safeJS }}</script>
+{{ end }}
+
 {{/* ── CollectionPage (/leaderboard/) ── */}}
 {{ if eq .RelPermalink "/leaderboard/" }}
   {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
