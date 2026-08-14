@@ -10,6 +10,7 @@
 {{ $isModelCategory := and .IsPage (eq .Section "model-categories") }}
 {{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
+{{ $isSubmit := eq .RelPermalink "/submit/" }}
 {{ $name     := or .Params.name .Title }}
 {{ $siteURL  := .Site.BaseURL | strings.TrimRight "/" }}
 {{ $ogImageDefault := printf "%s/img/preview.png" $siteURL }}
@@ -48,6 +49,8 @@
 {{ else if $isFree }}
   {{ $freeCount := add (len (where .Site.RegularPages "Params.price" "Free")) (len (where .Site.RegularPages "Params.price" "Freemium")) }}
   {{ $pageTitle = printf "Top Free AI Tools (%d) — Best of AI" $freeCount }}
+{{ else if $isSubmit }}
+  {{ $pageTitle = "Submit Your AI Tool — Free AI Tool Directory Submission | Best of AI" }}
 {{ else if $isTool }}
   {{ $cat := .Params.category_name | default "" }}
   {{ $pageTitle = printf "%s — %s AI Tool | Best of AI" $name $cat }}
@@ -117,6 +120,8 @@
 {{ else if $isFree }}
   {{ $freeDescCount := add (len (where .Site.RegularPages "Params.price" "Free")) (len (where .Site.RegularPages "Params.price" "Freemium")) }}
   {{ $desc = printf "%d free and freemium AI tools, handpicked across writing, coding, image generation, and more. No credit card required." $freeDescCount }}
+{{ else if $isSubmit }}
+  {{ $desc = "Submit your AI tool to Best of AI and get listed under Professionals, on competitor alternative pages, in the newsletter, and on our GitHub awesome list — plus a real direct-follow backlink. Free, reviewed by hand." }}
 {{ else if $isTool }}
   {{ $price    := .Params.price | default "" }}
   {{ $cat      := .Params.category_name | default "AI" }}
@@ -214,6 +219,8 @@
 {{/* ── Keywords ── */}}
 {{ if $isFree }}
 <meta name="keywords" content="free AI tools, best free AI tools, top free AI tools, freemium AI tools, free artificial intelligence tools, AI tools free, free AI writing tools, free AI coding tools, free AI image generator, no credit card AI tools">
+{{ else if $isSubmit }}
+<meta name="keywords" content="submit ai tool, ai tool submission, list ai tool, ai directory submission, marketing ai tools, ai launch platform, promote ai startup, get ai tool listed, ai product launch, ai tool backlink, ai tool directory, submit startup">
 {{ else if $isTool }}
 {{ $kws := slice $name (.Params.category_name | default "") "AI" "artificial intelligence" }}
 {{ range .Params.tags }}{{ $kws = $kws | append . }}{{ end }}

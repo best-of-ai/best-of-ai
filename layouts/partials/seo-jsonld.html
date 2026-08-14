@@ -448,6 +448,23 @@
   <script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
 {{ end }}
 
+{{/* ── FAQPage (/submit/) ── */}}
+{{ if eq .RelPermalink "/submit/" }}
+  {{ $submitFaqs := slice
+    (dict "question" "How do I submit my AI tool?" "answer" "Open the submission form at submit.bestofai.io and fill in your tool's name, website, and a short description. It takes about two minutes.")
+    (dict "question" "Is it free to get listed?" "answer" "Yes. There's no fee to submit a tool or to stay listed.")
+    (dict "question" "How long does review take?" "answer" "Most submissions get reviewed within a few days. Once approved, your listing goes live with the next site deploy.")
+    (dict "question" "What happens after my tool is approved?" "answer" "It gets placed on your category page, any profession pages that fit, relevant alternative pages, the homepage's Recently Added section, and our GitHub awesome list. It also becomes eligible for the leaderboard, with a direct-follow backlink to your site throughout.")
+    (dict "question" "Why wasn't my tool approved?" "answer" "Usually because the site didn't load, the AI feature wasn't real, or it didn't fit an existing category. Fix the issue and submit again. There's no limit on resubmissions.")
+  }}
+  {{ $submitFaqItems := slice }}
+  {{ range $submitFaqs }}
+    {{ $submitFaqItems = $submitFaqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
+  {{ end }}
+  {{ $submitFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $submitFaqItems }}
+  <script type="application/ld+json">{{ $submitFaqSchema | jsonify | safeJS }}</script>
+{{ end }}
+
 {{/* ── CollectionPage (/leaderboard/) ── */}}
 {{ if eq .RelPermalink "/leaderboard/" }}
   {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
@@ -493,20 +510,3 @@
 
 {{ end }}
 
-{{/* ── FAQPage (submit page) ── */}}
-{{ if and .IsPage (eq .RelPermalink "/submit/") }}
-{{ $faqs := slice
-  (dict "question" "Is there a fee to get listed in Best of AI?" "answer" "No. Best of AI is a free, open source directory. Listing a tool costs nothing and there are no paid placements or promoted spots.")
-  (dict "question" "How long does the review process take?" "answer" "Most submissions are reviewed within a few days. Maintainers work through the queue in batches.")
-  (dict "question" "Can I submit a tool I built myself?" "answer" "Yes. Self-submissions are accepted. Mentioning that you are the developer in the issue is appreciated but not required.")
-  (dict "question" "What if the tool already has a listing with wrong information?" "answer" "Open a GitHub issue to flag the correction, or submit a pull request directly to the tool's Markdown file in content/tools/.")
-  (dict "question" "What if no category fits my tool?" "answer" "Pick the closest match and mention the gap in the issue. New categories get added when enough tools warrant one.")
-  (dict "question" "Can I use the directory data in my own project?" "answer" "Yes. The full index is available at /index.json and the raw Markdown files are in the public GitHub repository. No API key or account is needed.")
-}}
-{{ $faqItems := slice }}
-{{ range $faqs }}
-  {{ $faqItems = $faqItems | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) }}
-{{ end }}
-{{ $faqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $faqItems }}
-<script type="application/ld+json">{{ $faqSchema | jsonify | safeJS }}</script>
-{{ end }}
