@@ -19,7 +19,7 @@ fp32_tflops: 17
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/flex-series.html'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, xe-hpg, gddr6, ai-inference, media]
 ---

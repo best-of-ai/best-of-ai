@@ -11,7 +11,7 @@ category: 'image-generation'
 category_name: 'Image Generation'
 price: 'Free'
 featured: false
-rank: 8
+rank: 5
 date: '2026-07-07'
 alternatives:
   - gpt-image
@@ -22,5 +22,5 @@ alternatives:
   - ideogram
   - leonardo-ai
   - krea-ai
-tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, meta]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based]
 ---

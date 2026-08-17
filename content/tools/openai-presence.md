@@ -11,12 +11,12 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false
-rank: 8
+rank: 5
 date: '2026-07-22'
 alternatives:
   - cohere-north
   - ada
   - aisera
   - forethought-ai
-tags: [ai_agent, automation, autonomous, ai_assistants, agents, orchestration, agentic, voice, enterprise, openai]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise, customizable, voice_enabled]
 ---

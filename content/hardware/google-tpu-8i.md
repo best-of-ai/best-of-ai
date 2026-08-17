@@ -12,7 +12,7 @@ memory_type: 'HBM'
 interface: 'Pod-scale (ICI)'
 product_url: 'https://cloud.google.com/blog'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-07-16'
 tags: [tpu, google-cloud, hbm, ai-inference, rack-scale]
 ---

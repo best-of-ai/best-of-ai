@@ -11,4 +11,16 @@ categories:
   - insurance
   - data
   - document-ai
+featured_tools:
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - power-bi
+  - scale-ai
+  - tableau
+  - alphasense
+  - chatpdf
+  - dataiku
+  - humata
+  - lemonade
+
 ---

@@ -23,7 +23,7 @@ fp32_tflops: 5.5
 interface: 'PCIe 3.0 x16 (low profile)'
 product_url: 'https://www.nvidia.com/en-us/data-center/tesla-p4/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, pascal, gddr5, ai-inference]
 ---

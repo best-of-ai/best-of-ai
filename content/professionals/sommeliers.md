@@ -11,4 +11,16 @@ categories:
   - business-tools
   - e-commerce
   - social-media-tools
+featured_tools:
+  - hubspot-business
+  - shopify
+  - buffer
+  - sprout-social
+  - bigcommerce
+  - docusign-ai
+  - dynamic-yield
+  - flick-ai
+  - later
+  - magento
+
 ---

@@ -22,7 +22,7 @@ tdp_watts: 450
 fp32_tflops: 40
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/'
-rank: 9
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['consumer-gpu', 'ampere', 'gddr6x', 'gaming']

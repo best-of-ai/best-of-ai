@@ -14,7 +14,7 @@ memory_type: 'Chiplet DIMC'
 interface: 'PCIe card'
 product_url: 'https://www.d-matrix.ai/product/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, d-matrix, ai-inference, in-memory-compute]
 ---

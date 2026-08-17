@@ -16,7 +16,7 @@ tdp_watts: 150
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.qualcomm.com/products/technology/processors/cloud-ai-100-ultra'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, qualcomm, lpddr4x, ai-inference]
 ---

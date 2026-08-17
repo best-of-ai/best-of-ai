@@ -11,7 +11,7 @@ category: 'chatbots'
 category_name: 'Chatbots'
 price: 'Free'
 featured: false
-rank: 9
+rank: 10
 date: '2026-07-17'
 alternatives:
   - chatgpt
@@ -20,5 +20,5 @@ alternatives:
   - mistral
   - deepseek-chat
   - grok
-tags: [chatbot, ai_assistant, reasoning, open_source, conversational, general_ai, coding, model_based]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, training, model_based]
 ---

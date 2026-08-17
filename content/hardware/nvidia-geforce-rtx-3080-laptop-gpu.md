@@ -20,7 +20,7 @@ tdp_watts: 150
 interface: 'Laptop MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/30-series/rtx-3080/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ampere, gddr6, laptop]
 ---

@@ -16,7 +16,7 @@ core_count: 80
 interface: 'SoC'
 product_url: 'https://www.apple.com/mac-studio/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [unified-memory, apple-silicon, consumer-gpu, local-inference]
 ---

@@ -11,4 +11,16 @@ categories:
   - document-ai
   - compliance
   - translator
+featured_tools:
+  - adobe-acrobat-ai
+  - google-translate
+  - chatpdf
+  - humata
+  - notebooklm
+  - onetrust
+  - abbyy
+  - blue-yonder
+  - deepl
+  - drata
+
 ---

@@ -14,7 +14,7 @@ memory_bandwidth_gbps: 1200
 interface: 'Pod-scale (ICI)'
 product_url: 'https://cloud.google.com/tpu/docs/v4'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [tpu, google-cloud, hbm2, ai-training]
 ---

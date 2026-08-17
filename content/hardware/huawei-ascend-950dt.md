@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 4000
 interface: 'UB (2 TB/s interconnect)'
 product_url: 'https://www.hiascend.com/en/hardware'
 logo_url: ''
-rank: 7
+rank: 5
 date: '2026-08-09'
 tags: [datacenter-gpu, huawei, hbm, ai-training, china, decoding]
 ---

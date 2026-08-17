@@ -11,7 +11,7 @@ category: 'chatbots'
 category_name: 'Chatbots'
 price: 'Free'
 featured: false
-rank: 7
+rank: 5
 date: '2026-07-17'
-tags: [chatbot, ai_assistant, multimodal, web_search, document_analysis, code_generation, image_generation, llm]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, multimodal, image_based, model_based]
 ---

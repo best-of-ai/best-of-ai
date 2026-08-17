@@ -11,4 +11,16 @@ categories:
   - legal-assistants
   - business-tools
   - identity
+featured_tools:
+  - hubspot-business
+  - adobe-acrobat-ai
+  - casetext
+  - chatpdf
+  - donotpay
+  - harvey
+  - humata
+  - jumio
+  - kira-systems
+  - lawgeex
+
 ---

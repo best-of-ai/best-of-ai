@@ -11,4 +11,16 @@ categories:
   - document-ai
   - image-editing
   - computer-vision
+featured_tools:
+  - adobe-acrobat-ai
+  - aws-rekognition
+  - clarifai
+  - adobe-lightroom-ai
+  - befunky
+  - chatpdf
+  - cleanup-pictures
+  - fotor
+  - humata
+  - lensa-ai
+
 ---

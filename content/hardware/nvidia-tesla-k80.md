@@ -23,7 +23,7 @@ fp32_tflops: 8.73
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/data-center/tesla-k80/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, kepler, gddr5, legacy]
 ---

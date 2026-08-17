@@ -11,7 +11,7 @@ category: 'video-generator'
 category_name: 'Video Generator'
 price: 'Paid'
 featured: false
-rank: 8
+rank: 10
 date: '2026-07-17'
 alternatives:
   - veo-3
@@ -22,5 +22,5 @@ alternatives:
   - hailuo-ai
   - veo2
   - haiper
-tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, sunsetting, image_based, model_based]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, model_based]
 ---

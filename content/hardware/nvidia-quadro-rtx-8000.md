@@ -22,7 +22,7 @@ fp32_tflops: 16.3
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/design-visualization/quadro/rtx-8000/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, turing, gddr6, creative]
 ---

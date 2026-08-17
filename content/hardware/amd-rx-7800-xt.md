@@ -21,7 +21,7 @@ tdp_watts: 263
 fp32_tflops: 37
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7800-xt.html'
-rank: 6
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['consumer-gpu', 'rdna3', 'gddr6', 'gaming']

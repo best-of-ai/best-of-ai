@@ -22,7 +22,7 @@ fp32_tflops: 19
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.intel.com/content/www/us/en/products/sku/229151/intel-arc-a770-graphics-16gb/specifications.html'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, alchemist, gddr6, gaming]
 ---

@@ -22,7 +22,7 @@ fp32_tflops: 51.6
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/amd-radeon-rx-7900xt'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, rdna-3, gddr6, gaming]
 ---

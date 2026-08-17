@@ -10,7 +10,7 @@ category: 'ai-directories'
 category_name: 'AI Directories'
 price: 'Free'
 featured: false
-rank: 8
+rank: 5
 alternatives:
   - altern
   - best-of-ai

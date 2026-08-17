@@ -11,4 +11,16 @@ categories:
   - document-ai
   - fleet-management
   - customer-support
+featured_tools:
+  - hubspot-business
+  - adobe-acrobat-ai
+  - drift
+  - freshdesk
+  - intercom
+  - zendesk
+  - chatbase
+  - chatpdf
+  - fleetio
+  - forethought-ai
+
 ---

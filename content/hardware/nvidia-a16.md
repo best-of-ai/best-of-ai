@@ -18,7 +18,7 @@ tdp_watts: 250
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/data-center/products/a16-gpu/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, ampere, gddr6, virtualization]
 ---

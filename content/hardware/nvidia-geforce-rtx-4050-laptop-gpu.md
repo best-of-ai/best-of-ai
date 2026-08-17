@@ -20,7 +20,7 @@ tdp_watts: 115
 interface: 'Laptop MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/40-series/rtx-4050/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ada-lovelace, gddr6, laptop]
 ---

@@ -11,7 +11,7 @@ category: 'devtools'
 category_name: 'DevTools'
 price: 'Free'
 featured: false
-rank: 7
+rank: 5
 date: '2026-07-17'
-tags: [ai_infrastructure, gpu, machine_learning, deep_learning, inference, training, open_source, developer_tools]
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning, training, model_based]
 ---

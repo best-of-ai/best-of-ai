@@ -16,7 +16,7 @@ tdp_watts: 150
 interface: 'PCIe 5.0 x16'
 product_url: 'https://furiosa.ai/rngd'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, furiosa, hbm3, ai-inference]
 ---

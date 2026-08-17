@@ -11,7 +11,7 @@ category: 'search-engines'
 category_name: 'Search Engines'
 price: 'Freemium'
 featured: false
-rank: 8
+rank: 5
 date: '2026-07-17'
-tags: [ai_search, semantic_search, vector_search, retrieval, api, enterprise, personalization, developer_tools]
+tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, api_available, collaboration, customizable]
 ---

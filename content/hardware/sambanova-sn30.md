@@ -12,7 +12,7 @@ process_node: '7nm'
 interface: 'DataScale system'
 product_url: 'https://sambanova.ai/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [rdu, sambanova, ai-training]
 ---

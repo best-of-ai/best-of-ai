@@ -20,7 +20,7 @@ featured_tools:
   - databricks
   - vertex-ai
   - hugging-face
-  - claude-3
+  - claude
   - deepseek
   - gemini-pro
 

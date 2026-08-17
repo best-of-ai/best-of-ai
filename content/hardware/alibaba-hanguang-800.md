@@ -12,7 +12,7 @@ process_node: '12nm'
 interface: 'PCIe card'
 product_url: 'https://www.alibabacloud.com/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, alibaba, ai-inference]
 ---

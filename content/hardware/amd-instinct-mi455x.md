@@ -17,7 +17,7 @@ interface: 'OAM'
 fp32_tflops: 315
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi400.html'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-08-09'
 tags: [datacenter-gpu, cdna-5, hbm4, ai-training, ai-inference, rack-scale]
 ---

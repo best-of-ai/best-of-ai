@@ -11,4 +11,16 @@ categories:
   - fashion
   - business-tools
   - productivity
+featured_tools:
+  - asana
+  - hubspot-business
+  - shopify
+  - clickup
+  - todoist
+  - akiflow
+  - slack-ai
+  - sunsama
+  - aiprm
+  - bigcommerce
+
 ---

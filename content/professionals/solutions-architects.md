@@ -11,4 +11,16 @@ categories:
   - diagramming
   - documentation
   - api-tools
+featured_tools:
+  - postman
+  - cloudhealth
+  - confluence-ai
+  - creately
+  - drawio
+  - gitbook
+  - turbonomic
+  - archbee
+  - insomnia
+  - mermaid-chart
+
 ---

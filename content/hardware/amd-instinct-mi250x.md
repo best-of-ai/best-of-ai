@@ -19,7 +19,7 @@ tdp_watts: 560
 fp32_tflops: 47.9
 interface: 'OAM'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi200/mi250x.html'
-rank: 9
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['datacenter-gpu', 'cdna2', 'hbm2e', 'hpc']

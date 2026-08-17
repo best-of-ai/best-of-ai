@@ -21,7 +21,7 @@ fp32_tflops: 4.1
 interface: 'PCIe 4.0 x8'
 product_url: 'https://www.intel.com/content/www/us/en/products/sku/227959/intel-arc-a380-graphics/specifications.html'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, alchemist, gddr6, gaming]
 ---

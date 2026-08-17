@@ -11,4 +11,16 @@ categories:
   - business-tools
   - productivity
   - e-commerce
+featured_tools:
+  - asana
+  - hubspot-business
+  - shopify
+  - clickup
+  - todoist
+  - akiflow
+  - slack-ai
+  - sunsama
+  - aiprm
+  - bigcommerce
+
 ---

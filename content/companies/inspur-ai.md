@@ -11,5 +11,5 @@ headquarters: 'Jinan, China'
 founders:
   - 'Inspur Group'
 date: '2026-07-16'
-rank: 3
+rank: 5
 ---

@@ -16,7 +16,7 @@ tdp_watts: 550
 interface: 'OAM'
 product_url: 'https://www.birentech.com/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, biren, hbm2e, ai-training]
 ---

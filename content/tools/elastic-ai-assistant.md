@@ -11,7 +11,7 @@ category: 'personal-assistants'
 category_name: 'Personal Assistants'
 price: 'Paid'
 featured: false
-rank: 6
+rank: 5
 date: '2026-07-17'
-tags: [ai_assistant, enterprise_search, security, data_analysis, generative_ai, observability, workflow, enterprise]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, collaboration, secure]
 ---

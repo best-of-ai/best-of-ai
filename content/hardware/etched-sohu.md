@@ -14,7 +14,7 @@ memory_type: 'HBM3e'
 interface: '8x server board'
 product_url: 'https://www.etched.com/announcing-etched'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, etched, asic, ai-inference, transformer]
 ---

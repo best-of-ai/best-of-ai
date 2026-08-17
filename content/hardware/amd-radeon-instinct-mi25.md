@@ -20,7 +20,7 @@ fp32_tflops: 12.3
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi6-mi8-mi25.html'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, vega, hbm2, legacy]
 ---

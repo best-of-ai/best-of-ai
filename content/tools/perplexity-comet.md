@@ -11,12 +11,12 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 date: '2026-07-29'
 alternatives:
   - perplexity
   - perplexity-search
   - openclaw
   - genspark
-tags: [ai_agent, browser, automation, autonomous, web_browsing, research, agentic, perplexity]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app, free_tier]
 ---

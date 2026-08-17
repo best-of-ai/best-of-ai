@@ -11,7 +11,7 @@ category: 'devtools'
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false
-rank: 7
+rank: 5
 date: '2026-07-17'
-tags: [llmops, observability, evaluation, tracing, prompt_engineering, developer_tools, monitoring, ai_quality]
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
 ---

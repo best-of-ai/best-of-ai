@@ -11,7 +11,7 @@ category: 'image-generation'
 category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
-rank: 8
+rank: 5
 date: '2026-07-17'
 alternatives:
   - dalle
@@ -22,5 +22,5 @@ alternatives:
   - nano-banana-pro
   - leonardo-ai
   - krea-ai
-tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, prompting, image_based, model_based, openai]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, api_available, collaboration, image_based]
 ---

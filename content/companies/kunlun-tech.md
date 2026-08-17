@@ -11,5 +11,5 @@ headquarters: 'Beijing, China'
 founders:
   - 'Yao Jinbo'
 date: '2026-07-16'
-rank: 3
+rank: 5
 ---

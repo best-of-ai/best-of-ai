@@ -13,7 +13,7 @@ memory_type: 'LPDDR'
 interface: 'PCIe card'
 product_url: 'https://semiconductor.samsung.com/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, samsung, ai-inference]
 ---

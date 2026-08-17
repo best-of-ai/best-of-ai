@@ -17,7 +17,7 @@ tdp_watts: 600
 fp32_tflops: 52
 interface: 'OAM'
 product_url: 'https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/max-series.html'
-rank: 9
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['datacenter-gpu', 'ponte-vecchio', 'hpc']

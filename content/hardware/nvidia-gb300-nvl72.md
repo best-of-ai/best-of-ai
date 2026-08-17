@@ -16,7 +16,7 @@ tdp_watts: 1400
 interface: 'NVLink 5'
 product_url: 'https://www.nvidia.com/en-us/data-center/gb300-nvl72/'
 logo_url: ''
-rank: 10
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, blackwell, hbm3e, ai-training, rack-scale]
 ---

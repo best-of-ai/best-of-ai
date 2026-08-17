@@ -16,7 +16,7 @@ tdp_watts: 280
 interface: 'PCIe 4.0 x16'
 product_url: 'https://en.mthreads.com/product/S4000'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, moore-threads, gddr6, ai-training]
 ---

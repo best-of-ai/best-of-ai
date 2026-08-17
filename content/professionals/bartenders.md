@@ -11,4 +11,16 @@ categories:
   - business-tools
   - productivity
   - customer-support
+featured_tools:
+  - asana
+  - hubspot-business
+  - clickup
+  - drift
+  - freshdesk
+  - intercom
+  - todoist
+  - zendesk
+  - akiflow
+  - chatbase
+
 ---

@@ -22,7 +22,7 @@ fp32_tflops: 126
 interface: 'PCIe 5.0 x16'
 product_url: 'https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, blackwell, gddr7, creative, ai-training]
 ---

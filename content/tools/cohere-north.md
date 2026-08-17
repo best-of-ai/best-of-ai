@@ -11,12 +11,12 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false
-rank: 7
+rank: 5
 date: '2026-07-17'
 alternatives:
   - glean
   - microsoft-copilot
   - notion-ai
   - dust
-tags: [ai_agents, enterprise, workplace, productivity, enterprise_search, automation, knowledge_management, integrations, secure]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration, enterprise, analytics]
 ---

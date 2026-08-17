@@ -9,5 +9,5 @@ logo_url: ''
 founded: '2020'
 headquarters: 'Abu Dhabi, UAE'
 date: '2026-07-16'
-rank: 6
+rank: 5
 ---

@@ -23,7 +23,7 @@ fp32_tflops: 12.1
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/titan/titan-xp/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, pascal, gddr5x, prosumer, legacy]
 ---

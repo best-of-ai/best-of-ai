@@ -23,7 +23,7 @@ fp32_tflops: 12
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/design-visualization/quadro-desktop-gpus/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, pascal, gddr5x, creative]
 ---

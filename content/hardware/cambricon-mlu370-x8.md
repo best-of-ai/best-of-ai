@@ -16,7 +16,7 @@ tdp_watts: 250
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.cambricon.com/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, cambricon, hbm2, ai-training]
 ---

@@ -14,7 +14,7 @@ memory_bandwidth_gbps: 7370
 interface: 'Pod-scale (ICI)'
 product_url: 'https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [tpu, google-cloud, hbm, ai-inference]
 ---

@@ -22,7 +22,7 @@ fp32_tflops: 5.3
 interface: 'SoM'
 product_url: 'https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [edge-ai, ampere, lpddr5, robotics]
 ---

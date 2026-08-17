@@ -20,7 +20,7 @@ tdp_watts: 95
 interface: 'Laptop MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/30-series/rtx-3050/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ampere, gddr6, laptop]
 ---

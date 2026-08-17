@@ -11,7 +11,7 @@ category: 'chatbots'
 category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
-rank: 7
+rank: 10
 date: '2026-07-17'
 alternatives:
   - chatgpt
@@ -20,5 +20,5 @@ alternatives:
   - deepseek
   - gemini
   - grok
-tags: [chatbot, ai_assistant, multimodal, vision, reasoning, conversational, general_ai, google, model_based]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, multimodal, image_based]
 ---

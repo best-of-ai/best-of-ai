@@ -11,7 +11,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 date: '2026-07-29'
 alternatives:
   - cursor
@@ -20,5 +20,5 @@ alternatives:
   - claude-code
   - github-copilot
   - google-antigravity
-tags: [code_generation, developer_tools, agentic, autonomous, ide, coding, programming, cli, aws, spec_driven]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, extensible]
 ---

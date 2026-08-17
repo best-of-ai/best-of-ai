@@ -11,4 +11,16 @@ categories:
   - image-generation
   - business-tools
   - social-media-tools
+featured_tools:
+  - hubspot-business
+  - buffer
+  - ideogram
+  - sprout-social
+  - stable-diffusion
+  - adobe-lightroom-ai
+  - artbreeder
+  - befunky
+  - bing-image-creator
+  - civitai
+
 ---

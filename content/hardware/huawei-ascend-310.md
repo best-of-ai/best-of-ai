@@ -15,7 +15,7 @@ tdp_watts: 8
 interface: 'M.2 / Mini PCIe'
 product_url: 'https://www.hiascend.com/en/hardware/ascend-310'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [edge-ai, huawei, ai-inference]
 ---

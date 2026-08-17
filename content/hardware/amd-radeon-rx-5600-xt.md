@@ -22,7 +22,7 @@ fp32_tflops: 7.19
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/amd-radeon-rx-5600-xt'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, rdna, gddr6, gaming]
 ---

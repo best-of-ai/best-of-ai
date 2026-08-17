@@ -12,4 +12,5 @@ founders:
   - 'Ritesh Arora'
   - 'Nakul Aggarwal'
 date: '2026-08-08'
+rank: 5
 ---

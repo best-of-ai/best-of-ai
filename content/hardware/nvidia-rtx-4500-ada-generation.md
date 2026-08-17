@@ -22,7 +22,7 @@ fp32_tflops: 39.6
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/design-visualization/rtx-4500/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, ada-lovelace, gddr6, creative]
 ---
