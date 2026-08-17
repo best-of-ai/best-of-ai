@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1318-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1353-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1318+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1353+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -36,34 +36,34 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - [🏆 Leaderboard](#leaderboard)
 - **Categories**
   - [Productivity](#productivity) (19)
-  - [Chatbots](#chatbots) (13)
+  - [Chatbots](#chatbots) (18)
   - [Academia](#academia) (5)
   - [Audio](#audio) (18)
   - [Automation](#automation) (7)
   - [Customer Support](#customer-support) (27)
-  - [Data](#data) (23)
+  - [Data](#data) (24)
   - [Food](#food) (5)
   - [Gaming](#gaming) (9)
   - [Graphic Design](#graphic-design) (19)
-  - [Healthcare](#healthcare) (22)
+  - [Healthcare](#healthcare) (23)
   - [Legal Assistants](#legal-assistants) (13)
   - [Local Search Engines](#local-search-engines) (4)
   - [Marketing](#marketing) (23)
   - [Meeting Assistants](#meeting-assistants) (19)
-  - [Personal Assistants](#personal-assistants) (11)
+  - [Personal Assistants](#personal-assistants) (12)
   - [Research Tools](#research-tools) (21)
   - [SEO](#seo) (14)
-  - [Search Engines](#search-engines) (11)
+  - [Search Engines](#search-engines) (12)
   - [Spreadsheets](#spreadsheets) (4)
   - [Video](#video) (4)
   - [Weather](#weather) (4)
   - [Writing Assistants](#writing-assistants) (43)
-  - [Models](#models) (26)
-  - [AI Directories](#ai-directories) (5)
+  - [Models](#models) (16)
+  - [AI Directories](#ai-directories) (14)
   - [Others](#others) (2)
   - [3D](#3d) (12)
   - [3D Printing](#3d-printing) (3)
-  - [AI Agents](#ai-agents) (30)
+  - [AI Agents](#ai-agents) (37)
   - [AI Companion](#ai-companion) (4)
   - [AI Newsletters](#ai-newsletters) (5)
   - [API Tools](#api-tools) (3)
@@ -75,7 +75,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Architecture](#architecture) (3)
   - [Background Remover](#background-remover) (4)
   - [Biotech](#biotech) (3)
-  - [Business Tools](#business-tools) (10)
+  - [Business Tools](#business-tools) (11)
   - [CRM](#crm) (13)
   - [Calendar Scheduling](#calendar-scheduling) (7)
   - [Character Design](#character-design) (3)
@@ -83,19 +83,19 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [CleanTech](#cleantech) (3)
   - [Climate](#climate) (7)
   - [Cloud Management](#cloud-management) (3)
-  - [Code Assistant](#code-assistant) (39)
+  - [Code Assistant](#code-assistant) (43)
   - [Compliance](#compliance) (3)
-  - [Computer Vision](#computer-vision) (4)
+  - [Computer Vision](#computer-vision) (3)
   - [Construction](#construction) (3)
   - [Content Moderation](#content-moderation) (4)
-  - [Contract Management](#contract-management) (3)
+  - [Contract Management](#contract-management) (4)
   - [Copywriting](#copywriting) (8)
-  - [Cybersecurity](#cybersecurity) (4)
+  - [Cybersecurity](#cybersecurity) (5)
   - [Data Labeling](#data-labeling) (3)
   - [Database Tools](#database-tools) (3)
   - [Dating](#dating) (3)
   - [Debugging](#debugging) (3)
-  - [DevTools](#devtools) (108)
+  - [DevTools](#devtools) (115)
   - [Diagramming](#diagramming) (3)
   - [Document AI](#document-ai) (12)
   - [Documentation](#documentation) (3)
@@ -107,7 +107,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Events](#events) (3)
   - [Farming](#farming) (4)
   - [Fashion](#fashion) (5)
-  - [FinTech](#fintech) (3)
+  - [FinTech](#fintech) (4)
   - [Finance](#finance) (24)
   - [Fitness](#fitness) (3)
   - [Fleet Management](#fleet-management) (3)
@@ -117,7 +117,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Home Design](#home-design) (5)
   - [Identity](#identity) (3)
   - [Image Editing](#image-editing) (21)
-  - [Image Generation](#image-generation) (30)
+  - [Image Generation](#image-generation) (33)
   - [Infographics](#infographics) (4)
   - [Insurance](#insurance) (3)
   - [IoT](#iot) (3)
@@ -153,10 +153,10 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Recruiting](#recruiting) (3)
   - [Resume Tools](#resume-tools) (7)
   - [Robotics](#robotics) (3)
-  - [Sales Tools](#sales-tools) (22)
+  - [Sales Tools](#sales-tools) (23)
   - [Sentiment Analysis](#sentiment-analysis) (3)
   - [Social Media Tools](#social-media-tools) (21)
-  - [Software Testing](#software-testing) (3)
+  - [Software Testing](#software-testing) (4)
   - [Space Tech](#space-tech) (3)
   - [Sports Analytics](#sports-analytics) (3)
   - [Storytelling](#storytelling) (3)
@@ -171,7 +171,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Travel](#travel) (4)
   - [Video Editor](#video-editor) (20)
   - [Video Enhancer](#video-enhancer) (4)
-  - [Video Generator](#video-generator) (34)
+  - [Video Generator](#video-generator) (35)
   - [Video Subtitling](#video-subtitling) (5)
   - [Voice Cloning](#voice-cloning) (9)
   - [Web3](#web3) (3)
@@ -187,104 +187,104 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > The top-ranked AI tools by quality, innovation, and real-world impact.
 
 1. **[ChatGPT](https://chat.openai.com)** — [review](https://bestofai.io/tools/chatgpt/) — `Most Used` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-2. **[Claude](https://claude.ai)** — [review](https://bestofai.io/tools/claude/) — `Most Trusted` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+2. **[Claude](https://claude.ai)** — [review](https://bestofai.io/tools/claude/) — `Best Overall Model` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 3. **[Gemini](https://gemini.google.com)** — [review](https://bestofai.io/tools/gemini/) — `Best by Google` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-4. **[Midjourney](https://midjourney.com)** — [review](https://bestofai.io/tools/midjourney/) — `Best Image AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-5. **[GitHub Copilot](https://github.com/copilot)** — [review](https://bestofai.io/tools/github-copilot/) — `Best for Devs` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-6. **[Cursor](https://cursor.sh)** — [review](https://bestofai.io/tools/cursor/) — `Best Code Editor` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-7. **[Perplexity AI](https://perplexity.ai)** — [review](https://bestofai.io/tools/perplexity-search/) — `Best AI Search` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-8. **[ElevenLabs](https://elevenlabs.io)** — [review](https://bestofai.io/tools/elevenlabs/) — `Best Voice AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-9. **[Suno](https://suno.com)** — [review](https://bestofai.io/tools/suno/) — `Best Music AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-10. **[Stable Diffusion](https://stability.ai/stable-diffusion)** — [review](https://bestofai.io/tools/stable-diffusion/) — `Best Open Source` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-11. **[Notion AI](https://notion.so/product/ai)** — [review](https://bestofai.io/tools/notion-ai/) — `Best Productivity` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-12. **[Runway](https://runwayml.com)** — [review](https://bestofai.io/tools/runway/) — `Best Video Platform` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-13. **[Grammarly](https://grammarly.com)** — [review](https://bestofai.io/tools/grammarly/) — `Best Writing AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-14. **[DALL-E 3](https://openai.com/dall-e-3)** — [review](https://bestofai.io/tools/dalle/) — `Best Image Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-15. **[HeyGen](https://heygen.com)** — [review](https://bestofai.io/tools/heygen/) — `Best Avatar AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-16. **[Grok](https://x.ai/grok)** — [review](https://bestofai.io/tools/grok/) — `Best Real-time AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-17. **[DeepSeek](https://deepseek.com)** — [review](https://bestofai.io/tools/deepseek/) — `Best Reasoning AI` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-18. **[Bolt.new](https://bolt.new)** — [review](https://bestofai.io/tools/bolt-new/) — `Best App Builder` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-19. **[Lovable](https://lovable.dev)** — [review](https://bestofai.io/tools/lovable/) — `Best for Startups` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+4. **[Cursor](https://cursor.sh)** — [review](https://bestofai.io/tools/cursor/) — `Best Code Editor` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+5. **[Claude Code](https://claude.ai/code)** — [review](https://bestofai.io/tools/claude-code/) — `Best Terminal Coding Agent` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+6. **[GitHub Copilot](https://github.com/copilot)** — [review](https://bestofai.io/tools/github-copilot/) — `Biggest Market Share` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+7. **[Midjourney](https://midjourney.com)** — [review](https://bestofai.io/tools/midjourney/) — `Best for Artistry` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+8. **[GPT Image](https://openai.com/index/gpt-image-1/)** — [review](https://bestofai.io/tools/gpt-image/) — `Best Image Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+9. **[Nano Banana Pro](https://gemini.google.com)** — [review](https://bestofai.io/tools/nano-banana-pro/) — `Best Photorealism` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+10. **[Perplexity AI](https://perplexity.ai)** — [review](https://bestofai.io/tools/perplexity-search/) — `Best AI Search` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+11. **[Comet](https://www.perplexity.ai/comet)** — [review](https://bestofai.io/tools/perplexity-comet/) — `First AI-Native Browser` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+12. **[DeepSeek](https://deepseek.com)** — [review](https://bestofai.io/tools/deepseek/) — `Best Open Reasoning` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+13. **[Veo 3](https://deepmind.google/technologies/veo/)** — [review](https://bestofai.io/tools/veo-3/) — `Best All-Around Video AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+14. **[Kling AI](https://klingai.com)** — [review](https://bestofai.io/tools/kling-ai/) — `Best Value Video AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+15. **[ElevenLabs](https://elevenlabs.io)** — [review](https://bestofai.io/tools/elevenlabs/) — `Best Voice AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+16. **[Suno](https://suno.com)** — [review](https://bestofai.io/tools/suno/) — `Best Music AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+17. **[NotebookLM](https://notebooklm.google.com)** — [review](https://bestofai.io/tools/notebooklm/) — `Best Research AI` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+18. **[Lovable](https://lovable.dev)** — [review](https://bestofai.io/tools/lovable/) — `Best App Builder` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+19. **[Bolt.new](https://bolt.new)** — [review](https://bestofai.io/tools/bolt-new/) — `Best for Prototyping` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 20. **[v0 by Vercel](https://v0.dev)** — [review](https://bestofai.io/tools/v0/) — `Best UI Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-21. **[Windsurf](https://codeium.com/windsurf)** — [review](https://bestofai.io/tools/windsurf/) — `Rising Star` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-22. **[NotebookLM](https://notebooklm.google.com)** — [review](https://bestofai.io/tools/notebooklm/) — `Best Research AI` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-23. **[DeepL](https://deepl.com)** — [review](https://bestofai.io/tools/deepl/) — `Best Translator` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-24. **[Canva](https://canva.com)** — [review](https://bestofai.io/tools/canva/) — `Best Design AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-25. **[Kling AI](https://klingai.com)** — [review](https://bestofai.io/tools/kling-ai/) — `Best Video Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-26. **[Gamma](https://gamma.app)** — [review](https://bestofai.io/tools/gamma/) — `Best Slides AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-27. **[Perplexity](https://perplexity.ai)** — [review](https://bestofai.io/tools/perplexity/) — `Best AI Chat` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-28. **[Descript](https://descript.com)** — [review](https://bestofai.io/tools/descript/) — `Best Podcast AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-29. **[Otter.ai](https://otter.ai)** — [review](https://bestofai.io/tools/otter-ai/) — `Best Meetings AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-30. **[Zapier](https://zapier.com)** — [review](https://bestofai.io/tools/zapier/) — `Best Automation` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-31. **[Adobe Firefly](https://firefly.adobe.com)** — [review](https://bestofai.io/tools/adobe-firefly/) — `Best Creative AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-32. **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** — [review](https://bestofai.io/tools/luma-dream-machine/) — `Best Video Quality` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-33. **[Ideogram](https://ideogram.ai)** — [review](https://bestofai.io/tools/ideogram/) — `Best Text-in-Image` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-34. **[CodeRabbit](https://coderabbit.ai)** — [review](https://bestofai.io/tools/coderabbit/) — `Best Code Review` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-35. **[GPT-4o](https://openai.com/gpt-4o)** — [review](https://bestofai.io/tools/gpt-4/) — `Best Multimodal` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-36. **[Claude 4](https://anthropic.com/claude)** — [review](https://bestofai.io/tools/claude-3/) — `Best for Writing` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-37. **[Gemini 2.0](https://deepmind.google/gemini)** — [review](https://bestofai.io/tools/gemini-pro/) — `Best Vision AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-38. **[Llama 4](https://llama.meta.com)** — [review](https://bestofai.io/tools/llama-3/) — `Best Open Model` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-39. **[Mistral AI](https://mistral.ai)** — [review](https://bestofai.io/tools/mistral/) — `Best European AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-40. **[OpenAI o3](https://openai.com/o3)** — [review](https://bestofai.io/tools/openai-o3/) — `Best Reasoning` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-41. **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) — `Best Text-to-Video` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-42. **[Veo 2](https://deepmind.google/technologies/veo)** — [review](https://bestofai.io/tools/veo2/) — `Best Google Video` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-43. **[Runway Gen-3 Alpha](https://runwayml.com/gen-3)** — [review](https://bestofai.io/tools/gen-2/) — `Best Gen Video` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-44. **[Pika Labs](https://pika.art)** — [review](https://bestofai.io/tools/pika-video/) — `Best Creative Video` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-45. **[Flux](https://blackforestlabs.ai)** — [review](https://bestofai.io/tools/flux/) — `Best Image Quality` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-46. **[Leonardo AI](https://leonardo.ai)** — [review](https://bestofai.io/tools/leonardo-ai/) — `Best Game Art AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-47. **[Adobe Express](https://express.adobe.com)** — [review](https://bestofai.io/tools/adobe-express/) — `Best Quick Design` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-48. **[Figma](https://figma.com)** — [review](https://bestofai.io/tools/figma/) — `Best UI Design` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-49. **[Jasper](https://jasper.ai)** — [review](https://bestofai.io/tools/jasper/) — `Best Marketing Copy` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-50. **[Copy.ai](https://copy.ai)** — [review](https://bestofai.io/tools/copy-ai/) — `Best Copywriting` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-51. **[QuillBot](https://quillbot.com)** — [review](https://bestofai.io/tools/quillbot/) — `Best Paraphrasing` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-52. **[Wordtune](https://wordtune.com)** — [review](https://bestofai.io/tools/wordtune/) — `Best Rewriting` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-53. **[Notion](https://notion.com)** — [review](https://bestofai.io/tools/notion/) — `Best Knowledge Base` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-54. **[Clickup](https://clickup.com)** — [review](https://bestofai.io/tools/clickup/) — `Best Project Mgmt` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-55. **[Asana](https://asana.com)** — [review](https://bestofai.io/tools/asana-pm/) — `Best Team Mgmt` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-56. **[Linear](https://linear.app)** — [review](https://bestofai.io/tools/linear/) — `Best for Engineers` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-57. **[Make](https://make.com)** — [review](https://bestofai.io/tools/make/) — `Best No-Code Auto` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-58. **[n8n](https://n8n.io)** — [review](https://bestofai.io/tools/n8n/) — `Best Self-Hosted Auto` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-59. **[Fireflies.ai](https://fireflies.ai)** — [review](https://bestofai.io/tools/fireflies-ai/) — `Best Meeting Notes` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-60. **[Fathom](https://fathom.video)** — [review](https://bestofai.io/tools/fathom/) — `Best Free Meetings` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-61. **[Beautiful.ai](https://beautiful.ai)** — [review](https://bestofai.io/tools/beautiful-ai/) — `Best Presentations` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-62. **[Tome](https://tome.app)** — [review](https://bestofai.io/tools/tome/) — `Best AI Deck` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-63. **[Codeium](https://codeium.com)** — [review](https://bestofai.io/tools/codeium/) — `Best Free Copilot` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-64. **[Aider](https://aider.chat)** — [review](https://bestofai.io/tools/aider/) — `Best CLI Coding` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-65. **[Replit](https://replit.com)** — [review](https://bestofai.io/tools/replit/) — `Best Online IDE` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-66. **[Claude Code](https://claude.ai/code)** — [review](https://bestofai.io/tools/claude-code/) — `Best Agentic Coder` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-67. **[Tabnine](https://tabnine.com)** — [review](https://bestofai.io/tools/tabnine/) — `Best Private Copilot` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-68. **[Deepgram](https://deepgram.com)** — [review](https://bestofai.io/tools/deepgram/) — `Best Speech API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-69. **[Whisper](https://openai.com/research/whisper)** — [review](https://bestofai.io/tools/whisper/) — `Best Open Transcription` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-70. **[AssemblyAI](https://assemblyai.com)** — [review](https://bestofai.io/tools/assemblyai/) — `Best Transcription API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-71. **[Synthesia](https://synthesia.io)** — [review](https://bestofai.io/tools/synthesia/) — `Best Video Avatar` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-72. **[D-ID](https://d-id.com)** — [review](https://bestofai.io/tools/d-id/) — `Best Talking Photo` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-73. **[Zendesk](https://zendesk.com)** — [review](https://bestofai.io/tools/zendesk/) — `Best Customer Support` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-74. **[Intercom](https://intercom.com)** — [review](https://bestofai.io/tools/intercom/) — `Best Live Chat` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-75. **[HubSpot CRM](https://hubspot.com/crm)** — [review](https://bestofai.io/tools/hubspot-crm/) — `Best Free CRM` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-76. **[Salesforce](https://salesforce.com)** — [review](https://bestofai.io/tools/salesforce/) — `Best Enterprise CRM` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-77. **[Adobe Podcast](https://podcast.adobe.com)** — [review](https://bestofai.io/tools/adobe-podcast/) — `Best Audio Enhance` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-78. **[Murf](https://murf.ai)** — [review](https://bestofai.io/tools/murf/) — `Best TTS Studio` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-79. **[Luma AI](https://lumalabs.ai)** — [review](https://bestofai.io/tools/luma-ai/) — `Best 3D AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-80. **[Warp](https://warp.dev)** — [review](https://bestofai.io/tools/warp/) — `Best AI Terminal` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-81. **[Cursor Composer](https://cursor.sh)** — [review](https://bestofai.io/tools/cursor-composer/) — `Best Agentic Coding` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-82. **[LangChain](https://langchain.com)** — [review](https://bestofai.io/tools/langchain/) — `Best AI Framework` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-83. **[Hugging Face](https://huggingface.co)** — [review](https://bestofai.io/tools/hugging-face/) — `Best Model Hub` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-84. **[Amazon Bedrock](https://aws.amazon.com/bedrock)** — [review](https://bestofai.io/tools/amazon-bedrock/) — `Best Enterprise AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-85. **[Azure OpenAI Service](https://azure.microsoft.com/products/ai-services/openai-service)** — [review](https://bestofai.io/tools/azure-openai/) — `Best Cloud AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-86. **[Vertex AI](https://cloud.google.com/vertex-ai)** — [review](https://bestofai.io/tools/vertex-ai/) — `Best GCP AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-87. **[Pinecone](https://pinecone.io)** — [review](https://bestofai.io/tools/pinecone/) — `Best Vector DB` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-88. **[OpenRouter](https://openrouter.ai)** — [review](https://bestofai.io/tools/openrouter/) — `Best Model Router` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-89. **[Groq](https://groq.com)** — [review](https://bestofai.io/tools/groq/) — `Fastest Inference` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-90. **[Perplexity Pro](https://perplexity.ai/pro)** — [review](https://bestofai.io/tools/perplexity-pro/) — `Best Research Pro` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-91. **[Together AI](https://together.ai)** — [review](https://bestofai.io/tools/together-ai/) — `Best Open Models` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-92. **[Replicate](https://replicate.com)** — [review](https://bestofai.io/tools/replicate/) — `Best Model API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-93. **[Krea AI](https://krea.ai)** — [review](https://bestofai.io/tools/krea-ai/) — `Best Real-time Image` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-94. **[InVideo](https://invideo.io)** — [review](https://bestofai.io/tools/invideo/) — `Best Video Creator` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-95. **[Miro AI](https://miro.com)** — [review](https://bestofai.io/tools/miro-ai/) — `Best Whiteboard AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-96. **[Raycast AI](https://raycast.com/ai)** — [review](https://bestofai.io/tools/raycast-ai/) — `Best Productivity Tool` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-97. **[GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** — [review](https://bestofai.io/tools/copilot-workspace/) — `Best AI Workspace` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-98. **[Photoroom](https://photoroom.com)** — [review](https://bestofai.io/tools/photoroom/) — `Best Background AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-99. **[Stable Audio](https://stableaudio.com)** — [review](https://bestofai.io/tools/stable-audio/) — `Best Audio Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+21. **[Google Antigravity](https://antigravity.google)** — [review](https://bestofai.io/tools/google-antigravity/) — `Best Free Agentic IDE` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+22. **[Kiro](https://kiro.dev)** — [review](https://bestofai.io/tools/kiro/) — `Best Spec-Driven IDE` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+23. **[Devin](https://devin.ai)** — [review](https://bestofai.io/tools/devin/) — `Absorbed Windsurf IDE` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+24. **[FLUX](https://blackforestlabs.ai)** — [review](https://bestofai.io/tools/flux/) — `Best Open Image` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+25. **[Stable Diffusion](https://stability.ai/stable-diffusion)** — [review](https://bestofai.io/tools/stable-diffusion/) — `Best Open Source` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+26. **[Runway](https://runwayml.com)** — [review](https://bestofai.io/tools/runway/) — `Best Video Platform` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+27. **[Grok](https://x.ai/grok)** — [review](https://bestofai.io/tools/grok/) — `Best Real-time AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+28. **[Notion AI](https://notion.so/product/ai)** — [review](https://bestofai.io/tools/notion-ai/) — `Best Productivity` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+29. **[Grammarly](https://grammarly.com)** — [review](https://bestofai.io/tools/grammarly/) — `Best Writing AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+30. **[Canva](https://canva.com)** — [review](https://bestofai.io/tools/canva/) — `Best Design AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+31. **[OpenClaw](https://openclaw.ai)** — [review](https://bestofai.io/tools/openclaw/) — `Viral Open Agent` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+32. **[Gamma](https://gamma.app)** — [review](https://bestofai.io/tools/gamma/) — `Best Slides AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+33. **[Adobe Firefly](https://firefly.adobe.com)** — [review](https://bestofai.io/tools/adobe-firefly/) — `Best Creative AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+34. **[Ideogram](https://ideogram.ai)** — [review](https://bestofai.io/tools/ideogram/) — `Best Text-in-Image` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+35. **[DALL-E 3](https://openai.com/dall-e-3)** — [review](https://bestofai.io/tools/dalle/) — `Best in ChatGPT` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+36. **[HeyGen](https://heygen.com)** — [review](https://bestofai.io/tools/heygen/) — `Best Avatar AI` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+37. **[Descript](https://descript.com)** — [review](https://bestofai.io/tools/descript/) — `Best Podcast AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+38. **[Otter.ai](https://otter.ai)** — [review](https://bestofai.io/tools/otter-ai/) — `Best Meetings AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+39. **[Zapier](https://zapier.com)** — [review](https://bestofai.io/tools/zapier/) — `Best Automation` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+40. **[CodeRabbit](https://coderabbit.ai)** — [review](https://bestofai.io/tools/coderabbit/) — `Best Code Review` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+41. **[Leonardo AI](https://leonardo.ai)** — [review](https://bestofai.io/tools/leonardo-ai/) — `Best Game Art AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+42. **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** — [review](https://bestofai.io/tools/luma-dream-machine/) — `Best Video Quality` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+43. **[Cursor Composer](https://cursor.sh)** — [review](https://bestofai.io/tools/cursor-composer/) — `Best Agentic Coding` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+44. **[Genspark](https://genspark.ai)** — [review](https://bestofai.io/tools/genspark/) — `Best No-Code Super Agent` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+45. **[Replit](https://replit.com)** — [review](https://bestofai.io/tools/replit/) — `Best Online IDE` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+46. **[Codeium](https://codeium.com)** — [review](https://bestofai.io/tools/codeium/) — `Best Free Copilot` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+47. **[Aider](https://aider.chat)** — [review](https://bestofai.io/tools/aider/) — `Best CLI Coding` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+48. **[Warp](https://warp.dev)** — [review](https://bestofai.io/tools/warp/) — `Best AI Terminal` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+49. **[Tabnine](https://tabnine.com)** — [review](https://bestofai.io/tools/tabnine/) — `Best Private Copilot` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+50. **[DeepL](https://deepl.com)** — [review](https://bestofai.io/tools/deepl/) — `Best Translator` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+51. **[Notion](https://notion.com)** — [review](https://bestofai.io/tools/notion/) — `Best Knowledge Base` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+52. **[Linear](https://linear.app)** — [review](https://bestofai.io/tools/linear/) — `Best for Engineers` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+53. **[Clickup](https://clickup.com)** — [review](https://bestofai.io/tools/clickup/) — `Best Project Mgmt` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+54. **[Asana](https://asana.com)** — [review](https://bestofai.io/tools/asana-pm/) — `Best Team Mgmt` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+55. **[Make](https://make.com)** — [review](https://bestofai.io/tools/make/) — `Best No-Code Auto` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+56. **[n8n](https://n8n.io)** — [review](https://bestofai.io/tools/n8n/) — `Best Self-Hosted Auto` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+57. **[Fireflies.ai](https://fireflies.ai)** — [review](https://bestofai.io/tools/fireflies-ai/) — `Best Meeting Notes` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+58. **[Fathom](https://fathom.video)** — [review](https://bestofai.io/tools/fathom/) — `Best Free Meetings` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+59. **[Figma](https://figma.com)** — [review](https://bestofai.io/tools/figma/) — `Best UI Design` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+60. **[Adobe Express](https://express.adobe.com)** — [review](https://bestofai.io/tools/adobe-express/) — `Best Quick Design` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+61. **[Photoroom](https://photoroom.com)** — [review](https://bestofai.io/tools/photoroom/) — `Best Background AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+62. **[Krea AI](https://krea.ai)** — [review](https://bestofai.io/tools/krea-ai/) — `Best Real-time Image` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+63. **[Jasper](https://jasper.ai)** — [review](https://bestofai.io/tools/jasper/) — `Best Marketing Copy` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+64. **[Copy.ai](https://copy.ai)** — [review](https://bestofai.io/tools/copy-ai/) — `Best Copywriting` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+65. **[QuillBot](https://quillbot.com)** — [review](https://bestofai.io/tools/quillbot/) — `Best Paraphrasing` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+66. **[Wordtune](https://wordtune.com)** — [review](https://bestofai.io/tools/wordtune/) — `Best Rewriting` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+67. **[Beautiful.ai](https://beautiful.ai)** — [review](https://bestofai.io/tools/beautiful-ai/) — `Best Presentations` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+68. **[Tome](https://tome.app)** — [review](https://bestofai.io/tools/tome/) — `Best AI Deck` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+69. **[Gemini Pro](https://deepmind.google/technologies/gemini/pro/)** — [review](https://bestofai.io/tools/gemini-pro/) — `Best Vision AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+70. **[Mistral](https://mistral.ai)** — [review](https://bestofai.io/tools/mistral/) — `Best European AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+71. **[Hugging Face](https://huggingface.co)** — [review](https://bestofai.io/tools/hugging-face/) — `Best Model Hub` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+72. **[LangChain](https://langchain.com)** — [review](https://bestofai.io/tools/langchain/) — `Best AI Framework` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+73. **[Groq](https://groq.com)** — [review](https://bestofai.io/tools/groq/) — `Fastest Inference` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+74. **[OpenRouter](https://openrouter.ai)** — [review](https://bestofai.io/tools/openrouter/) — `Best Model Router` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+75. **[Together AI](https://together.ai)** — [review](https://bestofai.io/tools/together-ai/) — `Best Open Models` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+76. **[Replicate](https://replicate.com)** — [review](https://bestofai.io/tools/replicate/) — `Best Model API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+77. **[Amazon Bedrock](https://aws.amazon.com/bedrock)** — [review](https://bestofai.io/tools/amazon-bedrock/) — `Best Enterprise AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+78. **[Azure OpenAI Service](https://azure.microsoft.com/products/ai-services/openai-service)** — [review](https://bestofai.io/tools/azure-openai/) — `Best Cloud AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+79. **[Vertex AI](https://cloud.google.com/vertex-ai)** — [review](https://bestofai.io/tools/vertex-ai/) — `Best GCP AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+80. **[Pinecone](https://pinecone.io)** — [review](https://bestofai.io/tools/pinecone/) — `Best Vector DB` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+81. **[Perplexity](https://perplexity.ai)** — [review](https://bestofai.io/tools/perplexity/) — `Best AI Chat` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+82. **[Perplexity Pro](https://perplexity.ai/pro)** — [review](https://bestofai.io/tools/perplexity-pro/) — `Best Research Pro` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+83. **[Synthesia](https://synthesia.io)** — [review](https://bestofai.io/tools/synthesia/) — `Best Video Avatar` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+84. **[D-ID](https://d-id.com)** — [review](https://bestofai.io/tools/d-id/) — `Best Talking Photo` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+85. **[Murf](https://murf.ai)** — [review](https://bestofai.io/tools/murf/) — `Best TTS Studio` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+86. **[Deepgram](https://deepgram.com)** — [review](https://bestofai.io/tools/deepgram/) — `Best Speech API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+87. **[Whisper](https://openai.com/research/whisper)** — [review](https://bestofai.io/tools/whisper/) — `Best Open Transcription` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+88. **[AssemblyAI](https://assemblyai.com)** — [review](https://bestofai.io/tools/assemblyai/) — `Best Transcription API` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+89. **[Adobe Podcast](https://podcast.adobe.com)** — [review](https://bestofai.io/tools/adobe-podcast/) — `Best Audio Enhance` ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+90. **[Stable Audio](https://stableaudio.com)** — [review](https://bestofai.io/tools/stable-audio/) — `Best Audio Gen` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+91. **[Luma AI](https://lumalabs.ai)** — [review](https://bestofai.io/tools/luma-ai/) — `Best 3D AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+92. **[InVideo](https://invideo.io)** — [review](https://bestofai.io/tools/invideo/) — `Best Video Creator` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+93. **[Pika Labs](https://pika.art)** — [review](https://bestofai.io/tools/pika-video/) — `Best Creative Video` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+94. **[Runway Gen-3 Alpha](https://runwayml.com/gen-3)** — [review](https://bestofai.io/tools/gen-2/) — `Best Gen Video` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+95. **[Veo 2](https://deepmind.google/technologies/veo/veo-2/)** — [review](https://bestofai.io/tools/veo2/) — `Now Superseded` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+96. **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) — `API Retiring Sep 2026` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+97. **[Miro AI](https://miro.com)** — [review](https://bestofai.io/tools/miro-ai/) — `Best Whiteboard AI` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+98. **[Raycast AI](https://raycast.com/ai)** — [review](https://bestofai.io/tools/raycast-ai/) — `Best Productivity Tool` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+99. **[GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace)** — [review](https://bestofai.io/tools/copilot-workspace/) — `Best AI Workspace` ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 100. **[Superhuman](https://superhuman.com)** — [review](https://bestofai.io/tools/superhuman/) — `Best AI Email` ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 
 ---
@@ -307,9 +307,9 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 - **[ChatGPT](https://chat.openai.com)** — [review](https://bestofai.io/tools/chatgpt/) — Advanced AI chatbot by OpenAI for conversations and assistance ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Claude](https://claude.ai)** — [review](https://bestofai.io/tools/claude/) — AI assistant by Anthropic for helpful, harmless, and honest conversations ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[DeepSeek](https://deepseek.com)** — [review](https://bestofai.io/tools/deepseek/) — Open-weight reasoning models from the Chinese AI lab DeepSeek ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Gemini](https://gemini.google.com)** — [review](https://bestofai.io/tools/gemini/) — Google's AI chatbot with multimodal capabilities ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[Grok](https://x.ai/grok)** — [review](https://bestofai.io/tools/grok/) — xAI's AI assistant with real-time X/Twitter data ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 13 Chatbots tools on bestofai.io →](https://bestofai.io/categories/chatbots/)*
+- *[View all 18 Chatbots tools on bestofai.io →](https://bestofai.io/categories/chatbots/)*
 
 ---
 
@@ -369,7 +369,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Power BI](https://powerbi.microsoft.com)** — [review](https://bestofai.io/tools/power-bi/) — Microsoft's AI-powered business intelligence tool ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Scale AI](https://scale.com)** — [review](https://bestofai.io/tools/scale-ai/) — Data labeling and AI evaluation platform for training foundation models ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Tableau](https://tableau.com)** — [review](https://bestofai.io/tools/tableau/) — AI-enhanced data visualization and analytics platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 23 Data tools on bestofai.io →](https://bestofai.io/categories/data/)*
+- *[View all 24 Data tools on bestofai.io →](https://bestofai.io/categories/data/)*
 
 ---
 
@@ -417,7 +417,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Ada Health](https://ada.com)** — [review](https://bestofai.io/tools/ada-health/) — AI symptom checker and health assessment tool ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Aidoc](https://aidoc.com)** — [review](https://bestofai.io/tools/aidoc-ai/) — AI radiology platform for incidental finding detection ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[AlphaFold](https://alphafold.ebi.ac.uk)** — [review](https://bestofai.io/tools/alphafold-ai/) — DeepMind's AI that predicts protein structures ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 22 Healthcare tools on bestofai.io →](https://bestofai.io/categories/healthcare/)*
+- *[View all 23 Healthcare tools on bestofai.io →](https://bestofai.io/categories/healthcare/)*
 
 ---
 
@@ -425,7 +425,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI legal tools for contract analysis, legal research, and document drafting.
 
-- **[Casetext](https://casetext.com)** — [review](https://bestofai.io/tools/casetext/) — AI legal research and brief analysis platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Casetext](https://casetext.com)** — [review](https://bestofai.io/tools/casetext/) — GPT-4 legal assistant for research, contracts, and deposition prep ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[DoNotPay](https://donotpay.com)** — [review](https://bestofai.io/tools/donotpay/) — AI lawyer for consumer rights and legal issues ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Harvey](https://harvey.ai)** — [review](https://bestofai.io/tools/harvey/) — AI legal assistant for law firms and legal professionals ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Kira Systems](https://kirasystems.com)** — [review](https://bestofai.io/tools/kira-systems/) — AI contract analysis and due diligence platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
@@ -450,7 +450,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI marketing tools for campaign automation, analytics, and personalized customer outreach.
 
 - **[HubSpot](https://hubspot.com)** — [review](https://bestofai.io/tools/hubspot/) — AI-powered marketing, sales, and customer service platform ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[Typeform](https://typeform.com)** — [review](https://bestofai.io/tools/typeform/) — Conversational form and survey builder with AI features for creating engaging data collection experiences. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Typeform](https://typeform.com)** — [review](https://bestofai.io/tools/typeform/) — Typeform is a form and survey builder that presents questions one at a time in a conversational style, resulting in h... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[6sense](https://6sense.com)** — [review](https://bestofai.io/tools/6sense-ai/) — AI B2B account engagement and intent data platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Crayon](https://crayon.co)** — [review](https://bestofai.io/tools/crayon/) — AI competitive intelligence platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 23 Marketing tools on bestofai.io →](https://bestofai.io/categories/marketing/)*
@@ -477,7 +477,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Siri](https://apple.com/siri)** — [review](https://bestofai.io/tools/siri/) — Apple's AI voice assistant for iOS and macOS ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Meta AI](https://ai.meta.com)** — [review](https://bestofai.io/tools/meta-ai/) ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Replika](https://replika.ai)** — [review](https://bestofai.io/tools/replika/) — AI companion and personal chatbot ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 11 Personal Assistants tools on bestofai.io →](https://bestofai.io/categories/personal-assistants/)*
+- *[View all 12 Personal Assistants tools on bestofai.io →](https://bestofai.io/categories/personal-assistants/)*
 
 ---
 
@@ -513,7 +513,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Devv.ai](https://devv.ai)** — [review](https://bestofai.io/tools/devv-ai/) — AI-powered search engine for developers ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Exa AI](https://exa.ai)** — [review](https://bestofai.io/tools/exa-ai/) — Semantic search API for AI applications ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Kagi](https://kagi.com)** — [review](https://bestofai.io/tools/kagi/) — Ad-free search engine with AI summarisation and no tracking ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 11 Search Engines tools on bestofai.io →](https://bestofai.io/categories/search-engines/)*
+- *[View all 12 Search Engines tools on bestofai.io →](https://bestofai.io/categories/search-engines/)*
 
 ---
 
@@ -569,11 +569,11 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > Foundation AI models and large language models powering the next generation of AI applications.
 
-- **[Claude 4](https://anthropic.com/claude)** — [review](https://bestofai.io/tools/claude-3/) — Anthropic's Claude 4 model family: Haiku, Sonnet, and Opus ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[DeepSeek](https://deepseek.com)** — [review](https://bestofai.io/tools/deepseek/) — Chinese open-source AI models rivalling frontier performance ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- **[Gemini 2.0](https://deepmind.google/gemini)** — [review](https://bestofai.io/tools/gemini-pro/) — Google's most capable multimodal AI model family ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Llama 4](https://llama.meta.com)** — [review](https://bestofai.io/tools/llama-3/) — Meta's latest open-weight language model family ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 26 Models tools on bestofai.io →](https://bestofai.io/categories/models/)*
+- **[AI21 Labs](https://ai21.com)** — [review](https://bestofai.io/tools/ai21-labs/) — Enterprise AI platform with Jamba hybrid state-space models ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Cohere](https://cohere.com)** — [review](https://bestofai.io/tools/cohere/) — Enterprise LLMs for search, summarisation, and classification ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Hugging Face](https://huggingface.co)** — [review](https://bestofai.io/tools/hugging-face/) — The AI community platform for models, datasets, and spaces ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[01.AI](https://01.ai)** — [review](https://bestofai.io/tools/01-ai/) — Open-source Yi large language models by 01.AI ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- *[View all 16 Models tools on bestofai.io →](https://bestofai.io/categories/models/)*
 
 ---
 
@@ -585,7 +585,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[AI For Developer](https://aifordevelopers.org)** — [review](https://bestofai.io/tools/ai-for-developer/) — AI tools and resources specifically curated for developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[AIDir.wiki](https://aidir.wiki)** — [review](https://bestofai.io/tools/aidir-wiki/) — Comprehensive wiki directory of AI tools and resources ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Altern](https://altern.ai)** — [review](https://bestofai.io/tools/altern/) — AI tools directory and discovery platform ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 5 AI Directories tools on bestofai.io →](https://bestofai.io/categories/ai-directories/)*
+- *[View all 14 AI Directories tools on bestofai.io →](https://bestofai.io/categories/ai-directories/)*
 
 ---
 
@@ -630,7 +630,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Agent GPT](https://agentgpt.reworkd.ai)** — [review](https://bestofai.io/tools/agentgpt/) — Autonomous AI agent platform ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[AutoGPT](https://agpt.co)** — [review](https://bestofai.io/tools/autogpt/) — Autonomous AI agent for task automation ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Coze](https://coze.com)** — [review](https://bestofai.io/tools/coze/) — ByteDance platform for building and publishing AI chatbots ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 30 AI Agents tools on bestofai.io →](https://bestofai.io/categories/ai-agents/)*
+- *[View all 37 AI Agents tools on bestofai.io →](https://bestofai.io/categories/ai-agents/)*
 
 ---
 
@@ -650,10 +650,10 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI newsletters worth following, covering new tools, model releases, and what is actually moving in the industry.
 
-- **[The Rundown AI](https://www.therundown.ai/)** — [review](https://bestofai.io/tools/the-rundown-ai/) — Daily AI news, short and to the point ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[AI for Developers](https://aifordevelopers.substack.com/)** — [review](https://bestofai.io/tools/ai-for-developers/) — Practical AI for software developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[Altern Newsletter](https://newsletter.altern.ai/)** — [review](https://bestofai.io/tools/altern-newsletter/) — Weekly AI tools and discoveries, curated by the Altern team ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Superhuman AI](https://www.superhumanai.com/)** — [review](https://bestofai.io/tools/superhuman-ai/) — Use AI to get more done ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[The Neuron](https://www.theneurondaily.com/)** — [review](https://bestofai.io/tools/the-neuron/) — Daily AI news in plain language ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- **[AI for Developers](https://aifordevelopers.substack.com/)** — [review](https://bestofai.io/tools/ai-for-developers/) — Practical AI for software developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - *[View all 5 AI Newsletters tools on bestofai.io →](https://bestofai.io/categories/ai-newsletters/)*
 
 ---
@@ -745,7 +745,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[ClipDrop](https://clipdrop.co)** — [review](https://bestofai.io/tools/clipdrop/) — AI creative suite for image editing and generation ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Erase.bg](https://erase.bg)** — [review](https://bestofai.io/tools/erasebg/) — Fast AI background remover for images and video ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Remove.bg](https://remove.bg)** — [review](https://bestofai.io/tools/removebg/) — The original one-click AI background remover ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[Cutout.Pro](https://cutout.pro)** — [review](https://bestofai.io/tools/cutout-pro/) — AI visual design platform for background removal, photo editing, and image enhancement. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Cutout.Pro](https://cutout.pro)** — [review](https://bestofai.io/tools/cutout-pro/) — Cutout.Pro is an AI image editing platform for background removal, photo retouching, and visual enhancement. Designer... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 4 Background Remover tools on bestofai.io →](https://bestofai.io/categories/background-remover/)*
 
 ---
@@ -769,7 +769,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[DocuSign AI](https://docusign.com)** — [review](https://bestofai.io/tools/docusign-ai/) — AI-powered agreement intelligence and e-signatures ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[PandaDoc AI](https://pandadoc.com)** — [review](https://bestofai.io/tools/pandadoc-ai/) — AI-powered document automation and e-signatures ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Salesforce Einstein](https://salesforce.com/einstein)** — [review](https://bestofai.io/tools/salesforce-einstein/) — AI-powered CRM and business intelligence ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 10 Business Tools tools on bestofai.io →](https://bestofai.io/categories/business-tools/)*
+- *[View all 11 Business Tools tools on bestofai.io →](https://bestofai.io/categories/business-tools/)*
 
 ---
 
@@ -813,7 +813,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > Platforms and tools for building, deploying, and managing AI chatbots.
 
 - **[Botpress](https://botpress.com)** — [review](https://bestofai.io/tools/botpress/) — Open-source platform for building AI-powered chatbots ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[ManyChat](https://manychat.com)** — [review](https://bestofai.io/tools/manychat/) — Conversational marketing platform for automating Instagram, Facebook, and SMS customer interactions. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[ManyChat](https://manychat.com)** — [review](https://bestofai.io/tools/manychat/) — ManyChat automates customer interactions on Instagram, Facebook Messenger, WhatsApp, and SMS. Brands and creators use... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Voiceflow](https://voiceflow.com)** — [review](https://bestofai.io/tools/voiceflow/) — Platform for designing and deploying conversational AI agents ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[FastBots](https://fastbots.ai)** — [review](https://bestofai.io/tools/fastbots-ai/) — No-code platform for AI chatbots trained on your business data ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 5 Chatbot Builders tools on bestofai.io →](https://bestofai.io/categories/chatbot-builders/)*
@@ -862,7 +862,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer)** — [review](https://bestofai.io/tools/amazon-codewhisperer/) — AWS's AI code companion for cloud-native development ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer)** — [review](https://bestofai.io/tools/amazon-q/) — AWS's AI coding assistant with deep AWS service knowledge ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Bolt.new](https://bolt.new)** — [review](https://bestofai.io/tools/bolt-new/) — AI full-stack web app builder in the browser ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 39 Code Assistant tools on bestofai.io →](https://bestofai.io/categories/code-assistant/)*
+- *[View all 43 Code Assistant tools on bestofai.io →](https://bestofai.io/categories/code-assistant/)*
 
 ---
 
@@ -884,8 +884,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[AWS Rekognition](https://aws.amazon.com/rekognition/)** — [review](https://bestofai.io/tools/aws-rekognition/) — Amazon's cloud-based computer vision service for image and video analysis including object detect... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Clarifai](https://www.clarifai.com)** — [review](https://bestofai.io/tools/clarifai/) — AI platform specialising in computer vision, NLP, and audio recognition with pre-built and custom... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Landing AI](https://landing.ai)** — [review](https://bestofai.io/tools/landing-ai/) — AI company by Andrew Ng focused on computer vision solutions for manufacturing, agriculture, and ... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Deepseek Vision](https://chat.deepseek.com)** — [review](https://bestofai.io/tools/deepseek-vision/) — DeepSeek Vision is a multimodal AI that understands images, documents, charts, and tables with advanced spatial reaso... ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 4 Computer Vision tools on bestofai.io →](https://bestofai.io/categories/computer-vision/)*
+- *[View all 3 Computer Vision tools on bestofai.io →](https://bestofai.io/categories/computer-vision/)*
 
 ---
 
@@ -919,7 +918,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[ContractPodAi](https://contractpodai.com)** — [review](https://bestofai.io/tools/contractpodai/) — AI contract lifecycle management for legal teams ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[ContractSafe](https://contractsafe.com)** — [review](https://bestofai.io/tools/contractsafe/) — AI-powered contract management and search platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Agiloft](https://www.agiloft.com)** — [review](https://bestofai.io/tools/agiloft/) — AI-driven contract lifecycle management platform with no-code customisation for enterprise legal ... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 3 Contract Management tools on bestofai.io →](https://bestofai.io/categories/contract-management/)*
+- **[Ivo](https://www.ivo.ai)** — [review](https://bestofai.io/tools/ivo/) — AI contract review platform that now covers the whole deal, not just redlining ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- *[View all 4 Contract Management tools on bestofai.io →](https://bestofai.io/categories/contract-management/)*
 
 ---
 
@@ -942,8 +942,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Wiz](https://www.wiz.io)** — [review](https://bestofai.io/tools/wiz/) — Cloud security platform that provides full-stack visibility and risk prioritisation across multi-... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[CrowdStrike](https://www.crowdstrike.com)** — [review](https://bestofai.io/tools/crowdstrike/) — Leading AI-native cybersecurity platform providing endpoint protection, threat intelligence, and ... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Darktrace](https://darktrace.com)** — [review](https://bestofai.io/tools/darktrace/) — AI cybersecurity platform for autonomous threat detection ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Ghostwall](https://ghostwall.io)** — [review](https://bestofai.io/tools/ghostwall/) — AI protection for your ad budget against click fraud ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 4 Cybersecurity tools on bestofai.io →](https://bestofai.io/categories/cybersecurity/)*
+- **[Daybreak](https://openai.com/daybreak/)** — [review](https://bestofai.io/tools/openai-daybreak/) ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- *[View all 5 Cybersecurity tools on bestofai.io →](https://bestofai.io/categories/cybersecurity/)*
 
 ---
 
@@ -962,7 +962,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI tools for database design, querying, optimization, and management.
 
-- **[Neon](https://neon.tech)** — [review](https://bestofai.io/tools/neon-db/) — Serverless Postgres database with branching and autoscaling, built for AI and modern applications. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Neon](https://neon.tech)** — [review](https://bestofai.io/tools/neon-db/) — Neon is a serverless Postgres database with database branching and autoscaling built in. Development teams use it to... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[PlanetScale](https://planetscale.com)** — [review](https://bestofai.io/tools/planetscale/) — Serverless MySQL-compatible database platform with branching workflows and AI-powered query insig... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Fauna](https://fauna.com)** — [review](https://bestofai.io/tools/fauna/) — Distributed document-relational database delivered as a cloud API with strong consistency and bui... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 3 Database Tools tools on bestofai.io →](https://bestofai.io/categories/database-tools/)*
@@ -999,7 +999,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Amazon Bedrock](https://aws.amazon.com/bedrock)** — [review](https://bestofai.io/tools/amazon-bedrock/) ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Azure OpenAI Service](https://azure.microsoft.com/products/ai-services/openai-service)** — [review](https://bestofai.io/tools/azure-openai/) ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[GitHub Copilot](https://github.com/copilot)** — [review](https://bestofai.io/tools/github-copilot/) — AI pair programmer for code completion and generation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 108 DevTools tools on bestofai.io →](https://bestofai.io/categories/devtools/)*
+- *[View all 115 DevTools tools on bestofai.io →](https://bestofai.io/categories/devtools/)*
 
 ---
 
@@ -1121,10 +1121,10 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI tools for fashion design, trend forecasting, and virtual try-on experiences.
 
-- **[Fashwell](https://fashwell.com)** — [review](https://bestofai.io/tools/fashwell/) — AI visual search for fashion and retail ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Fashwell](https://fashwell.com)** — [review](https://bestofai.io/tools/fashwell/) — Visual search and AI product tagging for fashion retail ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Vue.ai](https://vue.ai)** — [review](https://bestofai.io/tools/vue-ai/) — AI fashion and retail automation platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Outfit.fm](https://outfit.fm)** — [review](https://bestofai.io/tools/outfit-fm/) — AI photo studio for fashion brands ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Stitch Fix](https://stitchfix.com)** — [review](https://bestofai.io/tools/stitchfix/) — AI-powered personal styling service ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[The Yes](https://theyes.com)** — [review](https://bestofai.io/tools/theyes/) — AI personal shopping and fashion recommendations ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - *[View all 5 Fashion tools on bestofai.io →](https://bestofai.io/categories/fashion/)*
 
 ---
@@ -1136,7 +1136,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Stripe](https://stripe.com)** — [review](https://bestofai.io/tools/stripe/) — Global payments and financial infrastructure platform for businesses of all sizes with fraud dete... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Brex](https://brex.com)** — [review](https://bestofai.io/tools/brex/) — AI-powered corporate cards and spend management for startups ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Mercury](https://mercury.com)** — [review](https://bestofai.io/tools/mercury/) — Convert Python notebooks into interactive web apps ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 3 FinTech tools on bestofai.io →](https://bestofai.io/categories/fintech/)*
+- **[Natural](https://www.natural.com)** — [review](https://bestofai.io/tools/natural/) — Payment infrastructure built for AI agents to hold funds, pay, and get paid ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- *[View all 4 FinTech tools on bestofai.io →](https://bestofai.io/categories/fintech/)*
 
 ---
 
@@ -1248,11 +1249,11 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI tools for generating images and artwork from text prompts.
 
-- **[Flux](https://blackforestlabs.ai)** — [review](https://bestofai.io/tools/flux/) — State-of-the-art open image generation model by Black Forest Labs ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[FLUX](https://blackforestlabs.ai)** — [review](https://bestofai.io/tools/flux/) — Open-weight image generation model from Black Forest Labs ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Ideogram](https://ideogram.ai)** — [review](https://bestofai.io/tools/ideogram/) — AI image generator with best-in-class text rendering ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Artbreeder](https://artbreeder.com)** — [review](https://bestofai.io/tools/artbreeder/) — Collaborative AI art creation through image blending ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Bing Image Creator](https://bing.com/create)** — [review](https://bestofai.io/tools/bing-image-creator/) — Free AI image generation powered by DALL-E 3 ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 30 Image Generation tools on bestofai.io →](https://bestofai.io/categories/image-generation/)*
+- *[View all 33 Image Generation tools on bestofai.io →](https://bestofai.io/categories/image-generation/)*
 
 ---
 
@@ -1355,7 +1356,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI tools for localizing software, apps, and content for global markets.
 
 - **[Crowdin](https://crowdin.com)** — [review](https://bestofai.io/tools/crowdin/) — AI-powered localisation management platform for translating and managing multilingual content wit... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[Transifex](https://transifex.com)** — [review](https://bestofai.io/tools/transifex/) — Cloud-based localization platform with AI translation to streamline software and content localization. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Transifex](https://transifex.com)** — [review](https://bestofai.io/tools/transifex/) — Transifex is a cloud-based localization platform that combines AI translation with collaborative review workflows for... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Weglot](https://www.weglot.com)** — [review](https://bestofai.io/tools/weglot/) — Website translation solution that automatically detects and translates web content into 110+ lang... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 3 Localization tools on bestofai.io →](https://bestofai.io/categories/localization/)*
 
@@ -1366,7 +1367,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI logo makers for designing professional brand logos and visual identities in minutes.
 
 - **[Brandmark](https://brandmark.io)** — [review](https://bestofai.io/tools/brandmark/) — AI logo maker with brand package creation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Hatchful](https://hatchful.shopify.com)** — [review](https://bestofai.io/tools/hatchful/) — AI logo generator by Shopify ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[Hatchful](https://hatchful.shopify.com)** — [review](https://bestofai.io/tools/hatchful/) — Free logo maker by Shopify for small businesses and entrepreneurs ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Looka](https://looka.com)** — [review](https://bestofai.io/tools/looka/) — AI logo generator and brand identity creator ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[LogoAI](https://logoai.com)** — [review](https://bestofai.io/tools/logoai/) — AI-powered logo design and brand creation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 5 Logo Generator tools on bestofai.io →](https://bestofai.io/categories/logo-generator/)*
@@ -1664,11 +1665,11 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI sales tools for outreach automation, deal intelligence, and revenue forecasting.
 
-- **[Amplemarket](https://amplemarket.com)** — [review](https://bestofai.io/tools/amplemarket/) — AI sales engagement platform for automating outreach, lead research, and pipeline generation. ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Amplemarket](https://amplemarket.com)** — [review](https://bestofai.io/tools/amplemarket/) — Amplemarket automates outreach, lead research, and pipeline generation for B2B sales teams. It enriches prospect data... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Apollo](https://apollo.io)** — [review](https://bestofai.io/tools/apollo/) — AI sales intelligence and engagement platform ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Chorus.ai](https://chorus.ai)** — [review](https://bestofai.io/tools/chorus-ai/) — AI conversation intelligence for sales teams ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Clay](https://clay.com)** — [review](https://bestofai.io/tools/clay/) — AI-powered GTM data enrichment and personalisation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 22 Sales Tools tools on bestofai.io →](https://bestofai.io/categories/sales-tools/)*
+- *[View all 23 Sales Tools tools on bestofai.io →](https://bestofai.io/categories/sales-tools/)*
 
 ---
 
@@ -1702,7 +1703,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Applitools](https://applitools.com)** — [review](https://bestofai.io/tools/applitools/) — Visual AI testing platform that automates UI testing and cross-browser visual validation by under... ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Mabl](https://www.mabl.com)** — [review](https://bestofai.io/tools/mabl/) — AI-powered, low-code test automation platform for web and mobile applications with intelligent au... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Testim](https://www.testim.io)** — [review](https://bestofai.io/tools/testim/) — AI-powered test automation platform that creates stable end-to-end tests that self-heal when UI c... ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- *[View all 3 Software Testing tools on bestofai.io →](https://bestofai.io/categories/software-testing/)*
+- **[BrowserStack Test Companion](https://www.browserstack.com/test-companion)** — [review](https://bestofai.io/tools/browserstack-test-companion/) — Agentic AI for software testing, built into the IDE ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- *[View all 4 Software Testing tools on bestofai.io →](https://bestofai.io/categories/software-testing/)*
 
 ---
 
@@ -1813,7 +1815,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI-powered tools for transcribing audio and video to text.
 
 - **[AssemblyAI](https://assemblyai.com)** — [review](https://bestofai.io/tools/assemblyai/) — Enterprise-grade speech AI API for transcription and audio intelligence ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Whisper](https://openai.com/research/whisper)** — [review](https://bestofai.io/tools/whisper/) — OpenAI's open-source speech recognition model ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
+- **[Whisper](https://openai.com/research/whisper)** — [review](https://bestofai.io/tools/whisper/) ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Deepgram](https://deepgram.com)** — [review](https://bestofai.io/tools/deepgram/) — Real-time speech recognition API built for production ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Notta](https://notta.ai)** — [review](https://bestofai.io/tools/notta/) — AI transcription and meeting notes in 58 languages ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 11 Transcription tools on bestofai.io →](https://bestofai.io/categories/transcription/)*
@@ -1873,10 +1875,10 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI tools for generating original videos from text prompts and scripts.
 
 - **[Luma Dream Machine](https://lumalabs.ai/dream-machine)** — [review](https://bestofai.io/tools/luma-dream-machine/) — High-quality AI video generation from text and images ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) — OpenAI's text-to-video generation model ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Sora](https://openai.com/sora)** — [review](https://bestofai.io/tools/sora/) ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Kling AI](https://klingai.com)** — [review](https://bestofai.io/tools/kling-ai/) — High-quality AI video generation by Kuaishou ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Hailuo AI](https://hailuoai.com)** — [review](https://bestofai.io/tools/hailuo-ai/) — High-quality AI video generation by MiniMax ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
-- *[View all 34 Video Generator tools on bestofai.io →](https://bestofai.io/categories/video-generator/)*
+- *[View all 35 Video Generator tools on bestofai.io →](https://bestofai.io/categories/video-generator/)*
 
 ---
 
@@ -1945,7 +1947,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Nintex](https://nintex.com)** — [review](https://bestofai.io/tools/nintex/) — AI-driven process automation and workflow ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Tray.io](https://tray.io)** — [review](https://bestofai.io/tools/tray-io/) — AI-powered enterprise automation and integration platform ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[UiPath](https://uipath.com)** — [review](https://bestofai.io/tools/uipath/) — AI-powered robotic process automation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Microsoft Power Automate](https://powerautomate.microsoft.com)** — [review](https://bestofai.io/tools/power-automate-workflow/) — AI-powered business process automation ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[leania.ai](https://leania.ai)** — [review](https://bestofai.io/tools/leania-ai/) — AI workflow optimization and bottleneck detection for teams ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - *[View all 8 Workflow Automation tools on bestofai.io →](https://bestofai.io/categories/workflow-automation/)*
 
 ---
@@ -2171,18 +2173,25 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - 🤝 **[Addiction Counselors](https://bestofai.io/professionals/addiction-counselors/)** — AI tools for treatment planning, patient engagement, and progress tracking
 - 🏘️ **[Appraisers](https://bestofai.io/professionals/appraisers/)** — AI tools for property valuation, market analysis, and report generation
 - 🏺 **[Archaeologists](https://bestofai.io/professionals/archaeologists/)** — AI tools for site mapping, artifact analysis, and historical research
+- 🗄️ **[Archivists](https://bestofai.io/professionals/archivists/)** — AI tools for cataloging, digitization, and metadata generation
 - 🎨 **[Art Therapists](https://bestofai.io/professionals/art-therapists/)** — AI tools for creative therapy, session notes, and patient tracking
 - 🔭 **[Astronomers](https://bestofai.io/professionals/astronomers/)** — AI tools for data analysis, image processing, and research synthesis
+- 🚗 **[Auto Mechanics](https://bestofai.io/professionals/auto-mechanics/)** — AI tools for diagnostics, estimates, and shop management
 - 🏦 **[Bankers](https://bestofai.io/professionals/bankers/)** — AI tools for risk assessment, customer service, and financial analysis
+- ☕ **[Baristas](https://bestofai.io/professionals/baristas/)** — AI tools for recipe dialing, inventory, and customer loyalty
+- 🍸 **[Bartenders](https://bestofai.io/professionals/bartenders/)** — AI tools for cocktail recipes, inventory management, and customer service
 - 🧠 **[Behavioral Scientists](https://bestofai.io/professionals/behavioral-scientists/)** — AI tools for experiment design, data analysis, and research synthesis
 - 🧪 **[Biochemists](https://bestofai.io/professionals/biochemists/)** — AI tools for molecular analysis, pathway modeling, and literature research
+- 🧬 **[Bioinformaticians](https://bestofai.io/professionals/bioinformaticians/)** — AI tools for sequence analysis, pipeline automation, and data visualization
 - 📕 **[Book Editors](https://bestofai.io/professionals/book-editors/)** — AI tools for manuscript review, line editing, and editorial workflow
+- 📒 **[Bookkeepers](https://bestofai.io/professionals/bookkeepers/)** — AI tools for transaction categorization, reconciliation, and reporting
 - 🏷️ **[Brand Consultants](https://bestofai.io/professionals/brand-consultants/)** — AI tools for brand audits, competitive analysis, and messaging development
 - 🎯 **[Brand Strategists](https://bestofai.io/professionals/brand-strategists/)** — AI tools for brand positioning, competitive analysis, and messaging
 - 📈 **[Business Analysts](https://bestofai.io/professionals/business-analysts/)** — AI tools for requirements gathering, process mapping, and data analysis
 - ❤️ **[Cardiologists](https://bestofai.io/professionals/cardiologists/)** — AI tools for ECG analysis, imaging, and clinical documentation
 - 🧭 **[Career Coaches](https://bestofai.io/professionals/career-coaches/)** — AI tools for resume review, interview prep, and career planning
 - ⚗️ **[Chemical Engineers](https://bestofai.io/professionals/chemical-engineers/)** — AI tools for process simulation, reaction modeling, and safety analysis
+- 📑 **[Claims Adjusters](https://bestofai.io/professionals/claims-adjusters/)** — AI tools for damage assessment, claims processing, and fraud detection
 - 🧬 **[Clinical Trial Managers](https://bestofai.io/professionals/clinical-trial-managers/)** — AI tools for trial design, patient recruitment, and regulatory documentation
 - 📰 **[Columnists](https://bestofai.io/professionals/columnists/)** — AI tools for research, drafting, and editorial workflow
 - 📣 **[Communications Specialists](https://bestofai.io/professionals/communications-specialists/)** — AI tools for messaging, media relations, and internal communications
@@ -2193,12 +2202,17 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - 💉 **[Cosmetic Surgeons](https://bestofai.io/professionals/cosmetic-surgeons/)** — AI tools for patient visualization, consultation, and surgical planning
 - ⚖️ **[Court Reporters](https://bestofai.io/professionals/court-reporters/)** — AI tools for transcription, accuracy verification, and transcript management
 - 📚 **[Curriculum Designers](https://bestofai.io/professionals/curriculum-designers/)** — AI tools for learning design, content development, and assessment creation
+- 🚢 **[Customs Brokers](https://bestofai.io/professionals/customs-brokers/)** — AI tools for tariff classification, documentation, and compliance
 - 🔒 **[Data Privacy Officers](https://bestofai.io/professionals/data-privacy-officers/)** — AI tools for compliance monitoring, risk assessment, and privacy audits
 - 🔬 **[Dermatologists](https://bestofai.io/professionals/dermatologists/)** — AI tools for skin lesion analysis, clinical documentation, and patient education
 - 🖼️ **[Digital Artists](https://bestofai.io/professionals/digital-artists/)** — AI tools for image generation, creative exploration, and art production
 - 📲 **[Digital Marketers](https://bestofai.io/professionals/digital-marketers/)** — AI tools for campaign management, audience targeting, and performance analytics
+- 🚁 **[Drone Operators](https://bestofai.io/professionals/drone-operators/)** — AI tools for flight planning, mapping, and footage processing
+- 💡 **[Electricians](https://bestofai.io/professionals/electricians/)** — AI tools for estimating, code compliance, and job scheduling
 - 🚑 **[Emergency Medical Technicians](https://bestofai.io/professionals/emergency-medical-technicians/)** — AI tools for triage support, dispatch optimization, and incident documentation
 - 🎬 **[Entertainment Lawyers](https://bestofai.io/professionals/entertainment-lawyers/)** — AI tools for contract drafting, IP research, and rights management
+- 🎮 **[Esports Coaches](https://bestofai.io/professionals/esports-coaches/)** — AI tools for gameplay analysis, scouting, and training plans
+- ✨ **[Estheticians](https://bestofai.io/professionals/estheticians/)** — AI tools for skin analysis, treatment plans, and client marketing
 - ⚖️ **[Ethics Officers](https://bestofai.io/professionals/ethics-officers/)** — AI tools for policy monitoring, compliance, and stakeholder reporting
 - 💰 **[Financial Planners](https://bestofai.io/professionals/financial-planners/)** — AI tools for retirement planning, portfolio analysis, and client reporting
 - 💪 **[Fitness Coaches](https://bestofai.io/professionals/fitness-coaches/)** — AI tools for workout programming, client tracking, and nutrition guidance
@@ -2209,7 +2223,10 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - 👻 **[Ghostwriters](https://bestofai.io/professionals/ghostwriters/)** — AI tools for drafting, tone matching, and content production at scale
 - 🏛️ **[Government Relations Managers](https://bestofai.io/professionals/government-relations-managers/)** — AI tools for policy tracking, stakeholder mapping, and regulatory analysis
 - 📚 **[Graphic Novelists](https://bestofai.io/professionals/graphic-novelists/)** — AI tools for panel generation, character design, and script development
+- ❄️ **[HVAC Technicians](https://bestofai.io/professionals/hvac-technicians/)** — AI tools for diagnostics, dispatch, and maintenance scheduling
+- 💇 **[Hair Stylists](https://bestofai.io/professionals/hair-stylists/)** — AI tools for style previews, client management, and salon marketing
 - 🥗 **[Health Coaches](https://bestofai.io/professionals/health-coaches/)** — AI tools for personalized plans, client engagement, and progress tracking
+- 🏡 **[Home Inspectors](https://bestofai.io/professionals/home-inspectors/)** — AI tools for defect detection, report writing, and client delivery
 - ✊ **[Human Rights Lawyers](https://bestofai.io/professionals/human-rights-lawyers/)** — AI tools for case research, document analysis, and advocacy
 - 📱 **[Influencers](https://bestofai.io/professionals/influencers/)** — AI tools for content creation, audience growth, and brand partnerships
 - 🔎 **[Investigative Journalists](https://bestofai.io/professionals/investigative-journalists/)** — AI tools for document analysis, data journalism, and source research
@@ -2217,45 +2234,67 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - 🎤 **[Keynote Speakers](https://bestofai.io/professionals/keynote-speakers/)** — AI tools for presentation design, speech writing, and audience engagement
 - 🗺️ **[Land Surveyors](https://bestofai.io/professionals/land-surveyors/)** — AI tools for terrain mapping, measurement automation, and report generation
 - 🌿 **[Landscape Designers](https://bestofai.io/professionals/landscape-designers/)** — AI tools for site visualization, plant selection, and client proposals
+- 🌱 **[Life Coaches](https://bestofai.io/professionals/life-coaches/)** — AI tools for session planning, client tracking, and content creation
 - 📖 **[Literary Agents](https://bestofai.io/professionals/literary-agents/)** — AI tools for manuscript evaluation, query analysis, and market research
+- 🏦 **[Loan Officers](https://bestofai.io/professionals/loan-officers/)** — AI tools for application review, risk assessment, and client communication
 - 🏛️ **[Lobbyists](https://bestofai.io/professionals/lobbyists/)** — AI tools for legislative tracking, stakeholder analysis, and advocacy writing
+- 🌍 **[Localization Specialists](https://bestofai.io/professionals/localization-specialists/)** — AI tools for translation review, cultural adaptation, and QA
+- 🔑 **[Locksmiths](https://bestofai.io/professionals/locksmiths/)** — AI tools for dispatch, quoting, and customer scheduling
+- 💄 **[Makeup Artists](https://bestofai.io/professionals/makeup-artists/)** — AI tools for look visualization, portfolio building, and client bookings
+- 💞 **[Marriage and Family Therapists](https://bestofai.io/professionals/marriage-family-therapists/)** — AI tools for session documentation, treatment planning, and teletherapy
+- 💆 **[Massage Therapists](https://bestofai.io/professionals/massage-therapists/)** — AI tools for intake notes, scheduling, and client wellness tracking
 - 🏥 **[Medical Device Engineers](https://bestofai.io/professionals/medical-device-engineers/)** — AI tools for design, regulatory compliance, and testing
 - 🩺 **[Medical Transcriptionists](https://bestofai.io/professionals/medical-transcriptionists/)** — AI tools for clinical transcription, accuracy review, and workflow automation
 - ⛏️ **[Mining Engineers](https://bestofai.io/professionals/mining-engineers/)** — AI tools for ore body modeling, safety monitoring, and operational optimization
 - 🏠 **[Mortgage Brokers](https://bestofai.io/professionals/mortgage-brokers/)** — AI tools for loan matching, document processing, and client communication
+- 🖋️ **[Notaries](https://bestofai.io/professionals/notaries/)** — AI tools for document review, scheduling, and remote notarization
 - ⚛️ **[Nuclear Engineers](https://bestofai.io/professionals/nuclear-engineers/)** — AI tools for reactor simulation, safety analysis, and operations monitoring
 - 🩺 **[Nurse Practitioners](https://bestofai.io/professionals/nurse-practitioners/)** — AI tools for clinical documentation, diagnosis support, and patient education
 - 😁 **[Orthodontists](https://bestofai.io/professionals/orthodontists/)** — AI tools for treatment planning, imaging analysis, and patient communication
 - 📦 **[Packaging Designers](https://bestofai.io/professionals/packaging-designers/)** — AI tools for structural design, visual mockups, and sustainability analysis
 - 🚒 **[Paramedics](https://bestofai.io/professionals/paramedics/)** — AI tools for clinical decision support, dispatch, and incident reporting
+- 💵 **[Payroll Specialists](https://bestofai.io/professionals/payroll-specialists/)** — AI tools for payroll processing, compliance checks, and reporting
 - 👶 **[Pediatricians](https://bestofai.io/professionals/pediatricians/)** — AI tools for clinical notes, developmental screening, and parent communication
 - 🎭 **[Performers](https://bestofai.io/professionals/performers/)** — AI tools for rehearsal, promotion, and creative development
+- 🛍️ **[Personal Shoppers](https://bestofai.io/professionals/personal-shoppers/)** — AI tools for style matching, trend research, and client wardrobes
 - 🛢️ **[Petroleum Engineers](https://bestofai.io/professionals/petroleum-engineers/)** — AI tools for reservoir modeling, drilling optimization, and production forecasting
 - ✈️ **[Pilots](https://bestofai.io/professionals/pilots/)** — AI tools for flight planning, weather analysis, and training simulation
+- 🔧 **[Plumbers](https://bestofai.io/professionals/plumbers/)** — AI tools for estimating, dispatch, and customer communication
 - 🗳️ **[Political Consultants](https://bestofai.io/professionals/political-consultants/)** — AI tools for voter analysis, message testing, and campaign strategy
+- 🕵️ **[Private Investigators](https://bestofai.io/professionals/private-investigators/)** — AI tools for background checks, surveillance analysis, and case reports
 - 🎨 **[Product Designers](https://bestofai.io/professionals/product-designers/)** — AI tools for user research, prototyping, and design system management
 - 🎓 **[Professors](https://bestofai.io/professionals/professors/)** — AI tools for course design, research, and student engagement
+- 🧠 **[Prompt Engineers](https://bestofai.io/professionals/prompt-engineers/)** — AI tools for prompt testing, evaluation, and version control
 - 🧠 **[Psychiatrists](https://bestofai.io/professionals/psychiatrists/)** — AI tools for clinical documentation, diagnostic support, and patient monitoring
 - ⚖️ **[Public Defenders](https://bestofai.io/professionals/public-defenders/)** — AI tools for case research, document review, and client communication
 - 🏗️ **[Real Estate Developers](https://bestofai.io/professionals/real-estate-developers/)** — AI tools for market analysis, site selection, and project feasibility
 - 🏃 **[Rehabilitation Specialists](https://bestofai.io/professionals/rehabilitation-specialists/)** — AI tools for care planning, progress tracking, and patient engagement
 - 🛍️ **[Retail Managers](https://bestofai.io/professionals/retail-managers/)** — AI tools for inventory, customer insights, and workforce management
 - 🦺 **[Safety Engineers](https://bestofai.io/professionals/safety-engineers/)** — AI tools for hazard analysis, incident investigation, and compliance reporting
+- 🛠️ **[Sales Engineers](https://bestofai.io/professionals/sales-engineers/)** — AI tools for demo prep, technical proposals, and objection handling
 - 🔬 **[Science Communicators](https://bestofai.io/professionals/science-communicators/)** — AI tools for translating research, creating content, and engaging audiences
 - 🛡️ **[Security Consultants](https://bestofai.io/professionals/security-consultants/)** — AI tools for threat assessment, penetration testing, and security reporting
 - 🎬 **[Set Designers](https://bestofai.io/professionals/set-designers/)** — AI tools for concept visualization, 3D modeling, and production planning
+- 🏛️ **[Solutions Architects](https://bestofai.io/professionals/solutions-architects/)** — AI tools for architecture diagrams, technical proposals, and documentation
+- 🍷 **[Sommeliers](https://bestofai.io/professionals/sommeliers/)** — AI tools for pairing recommendations, inventory, and client education
+- 🧩 **[Special Education Teachers](https://bestofai.io/professionals/special-education-teachers/)** — AI tools for IEP drafting, adaptive materials, and progress monitoring
 - 🗣️ **[Speech Therapists](https://bestofai.io/professionals/speech-therapists/)** — AI tools for patient assessment, exercise generation, and progress tracking
 - 🏆 **[Sports Journalists](https://bestofai.io/professionals/sports-journalists/)** — AI tools for game analysis, automated reporting, and social content
 - 🏅 **[Sports Medicine Physicians](https://bestofai.io/professionals/sports-medicine-physicians/)** — AI tools for injury assessment, rehabilitation planning, and performance analysis
 - 📉 **[Statisticians](https://bestofai.io/professionals/statisticians/)** — AI tools for data analysis, model building, and visualization
+- 📹 **[Streamers](https://bestofai.io/professionals/streamers/)** — AI tools for stream production, chat moderation, and clip creation
 - 🏗️ **[Structural Engineers](https://bestofai.io/professionals/structural-engineers/)** — AI tools for design optimization, load analysis, and documentation
 - 🔪 **[Surgeons](https://bestofai.io/professionals/surgeons/)** — AI tools for surgical planning, robotic assistance, and clinical documentation
 - ⭐ **[Talent Agents](https://bestofai.io/professionals/talent-agents/)** — AI tools for talent discovery, deal management, and career development
+- 🎨 **[Tattoo Artists](https://bestofai.io/professionals/tattoo-artists/)** — AI tools for design concepts, portfolio building, and booking
 - 💼 **[Tax Lawyers](https://bestofai.io/professionals/tax-lawyers/)** — AI tools for tax research, document analysis, and compliance planning
 - 👩‍💻 **[Technical Recruiters](https://bestofai.io/professionals/technical-recruiters/)** — AI tools for candidate sourcing, screening, and pipeline management
 - 🧵 **[Textile Designers](https://bestofai.io/professionals/textile-designers/)** — AI tools for pattern generation, material exploration, and trend forecasting
 - 🎭 **[Theater Directors](https://bestofai.io/professionals/theater-directors/)** — AI tools for script analysis, production planning, and audience engagement
 - 🚦 **[Transportation Engineers](https://bestofai.io/professionals/transportation-engineers/)** — AI tools for traffic modeling, route optimization, and infrastructure planning
+- 🚛 **[Truck Drivers](https://bestofai.io/professionals/truck-drivers/)** — AI tools for route planning, logbook automation, and weather routing
+- 📖 **[Tutors](https://bestofai.io/professionals/tutors/)** — AI tools for lesson planning, practice materials, and progress tracking
+- 📋 **[Underwriters](https://bestofai.io/professionals/underwriters/)** — AI tools for risk scoring, document review, and policy analysis
 - 🌆 **[Urban Designers](https://bestofai.io/professionals/urban-designers/)** — AI tools for city visualization, community engagement, and site analysis
 - 💸 **[Venture Capitalists](https://bestofai.io/professionals/venture-capitalists/)** — AI tools for deal sourcing, due diligence, and portfolio monitoring
 - 🎥 **[Videographers](https://bestofai.io/professionals/videographers/)** — AI tools for video editing, color grading, and client delivery
