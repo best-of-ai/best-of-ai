@@ -605,6 +605,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 - **[Alpha3D](https://alpha3d.io)** — [review](https://bestofai.io/tools/alpha3d/) — Convert 2D product images into 3D models with AI ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Kaedim](https://kaedim3d.com)** — [review](https://bestofai.io/tools/kaedim/) — AI 3D model generation from 2D images ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[Luphra](https://www.luphra.com/)** — AI that turns prompts and sketches into editable 3D and manufactured physical products
 - **[Luma AI](https://lumalabs.ai)** — [review](https://bestofai.io/tools/luma-ai/) — AI 3D capture and neural radiance fields ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Masterpiece Studio](https://masterpiecestudio.com)** — [review](https://bestofai.io/tools/masterpiece-studio/) — AI 3D model creator for everyone ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 12 3D tools on bestofai.io →](https://bestofai.io/categories/3d/)*
