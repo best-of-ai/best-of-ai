@@ -8,6 +8,13 @@ website: 'https://chat.deepseek.com/'
 company: 'deepseek'
 logo_url: ''
 category: 'chatbots'
+alternatives:
+  - chatgpt
+  - claude
+  - gemini
+  - qwen-studio
+  - kimi
+  - mistral-le-chat
 category_name: 'Chatbots'
 price: 'Free'
 featured: false

@@ -8,6 +8,13 @@ website: 'https://intl.cloud.baidu.com/en/product/qianfan.html'
 company: 'baidu'
 logo_url: ''
 category: 'ai-agents'
+alternatives:
+  - tencent-cloud-adp
+  - cohere-north
+  - stack-ai
+  - dify
+  - coze
+  - relevance-ai
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false

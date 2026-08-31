@@ -8,6 +8,13 @@ website: 'https://www.elastic.co/'
 company: 'elastic-nv'
 logo_url: ''
 category: 'personal-assistants'
+alternatives:
+  - littlebird-ai
+  - notis-ai
+  - thelibrarian
+  - kin-personal-ai
+  - algolia-ai-search
+  - exa-ai
 category_name: 'Personal Assistants'
 price: 'Paid'
 featured: false

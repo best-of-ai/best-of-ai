@@ -8,6 +8,13 @@ website: 'https://rocm.docs.amd.com/'
 company: 'amd'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - nvidia-nim
+  - openvino
+  - qualcomm-ai-hub
+  - ollama
+  - groq
+  - cerebras
 category_name: 'DevTools'
 price: 'Free'
 featured: false

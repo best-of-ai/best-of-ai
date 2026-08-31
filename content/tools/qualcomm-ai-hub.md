@@ -8,6 +8,12 @@ website: 'https://aihub.qualcomm.com/'
 company: 'qualcomm'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - openvino
+  - amd-rocm
+  - nvidia-nim
+  - roboflow
+  - ollama
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false

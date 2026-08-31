@@ -8,6 +8,13 @@ website: 'https://docs.nvidia.com/nim/'
 company: 'nvidia'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - baseten
+  - replicate
+  - together-ai
+  - fireworks-ai
+  - deepinfra
+  - openrouter
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false

@@ -8,6 +8,13 @@ website: 'https://docs.openvino.ai/2026/'
 company: 'intel'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - nvidia-nim
+  - qualcomm-ai-hub
+  - amd-rocm
+  - ollama
+  - lm-studio
+  - ray
 category_name: 'DevTools'
 price: 'Free'
 featured: false

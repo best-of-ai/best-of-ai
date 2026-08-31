@@ -8,6 +8,13 @@ website: 'https://www.braintrust.dev/'
 company: 'braintrust-data'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - langfuse
+  - langsmith
+  - arize
+  - patronus-ai
+  - promptfoo
+  - helicone
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false

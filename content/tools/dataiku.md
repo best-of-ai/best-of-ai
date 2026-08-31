@@ -8,6 +8,13 @@ website: 'https://www.dataiku.com/'
 company: 'dataiku'
 logo_url: ''
 category: 'data'
+alternatives:
+  - databricks
+  - datarobot
+  - h2o-ai
+  - domo-ai
+  - snowflake
+  - palantir-aip
 category_name: 'Data'
 price: 'Paid'
 featured: false

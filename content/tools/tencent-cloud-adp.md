@@ -8,6 +8,12 @@ website: 'https://adp.cloud.tencent.com/'
 company: 'tencent'
 logo_url: ''
 category: 'ai-agents'
+alternatives:
+  - baidu-qianfan
+  - palantir-aip
+  - dify
+  - coze
+  - relevance-ai
 category_name: 'AI Agents'
 price: 'Freemium'
 featured: false

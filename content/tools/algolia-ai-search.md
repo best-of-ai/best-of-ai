@@ -8,6 +8,13 @@ website: 'https://www.algolia.com/products/ai-search'
 company: 'algolia'
 logo_url: ''
 category: 'search-engines'
+alternatives:
+  - exa-ai
+  - you-search
+  - kagi
+  - perplexity-search
+  - devv-ai
+  - andi-search
 category_name: 'Search Engines'
 price: 'Freemium'
 featured: false
