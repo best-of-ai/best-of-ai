@@ -15,6 +15,7 @@ categories:
   - animation
   - talking-avatar-generator
   - video
+  - dubbing
 featured_tools:
   - chatgpt
   - capcut

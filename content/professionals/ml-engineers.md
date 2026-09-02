@@ -12,6 +12,8 @@ categories:
   - code-assistant
   - models
   - automation
+  - data-labeling
+  - synthetic-data
 featured_tools:
   - chatgpt
   - github-copilot

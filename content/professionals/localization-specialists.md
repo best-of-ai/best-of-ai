@@ -11,6 +11,7 @@ categories:
   - translator
   - document-ai
   - software-testing
+  - dubbing
 featured_tools:
   - adobe-acrobat-ai
   - google-translate

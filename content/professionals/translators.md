@@ -11,6 +11,7 @@ categories:
   - writing-assistants
   - productivity
   - document-ai
+  - dubbing
 featured_tools:
   - chatgpt
   - deepl

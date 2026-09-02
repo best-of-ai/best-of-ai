@@ -13,6 +13,8 @@ categories:
   - website-builders
   - presentation
   - research-tools
+  - ai-directories
+  - ai-newsletters
 featured_tools:
   - chatgpt
   - hubspot-business

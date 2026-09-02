@@ -12,6 +12,7 @@ categories:
   - data
   - writing-assistants
   - productivity
+  - mind-mapping
 featured_tools:
   - chatgpt
   - perplexity

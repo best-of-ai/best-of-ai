@@ -12,6 +12,8 @@ categories:
   - research-tools
   - spreadsheets
   - knowledge-management
+  - data-labeling
+  - synthetic-data
 featured_tools:
   - chatgpt
   - julius-ai

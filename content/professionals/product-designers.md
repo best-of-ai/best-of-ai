@@ -11,6 +11,7 @@ categories:
   - no-code
   - research-tools
   - productivity
+  - 3d-printing
 featured_tools:
   - figma
   - midjourney

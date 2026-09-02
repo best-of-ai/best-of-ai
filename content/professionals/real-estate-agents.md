@@ -13,6 +13,7 @@ categories:
   - crm
   - marketing
   - copywriting
+  - local-search-engines
 featured_tools:
   - chatgpt
   - zillow

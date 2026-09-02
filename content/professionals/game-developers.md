@@ -12,6 +12,7 @@ categories:
   - 3d
   - code-assistant
   - audio
+  - ar-vr
 featured_tools:
   - github-copilot
   - cursor

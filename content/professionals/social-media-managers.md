@@ -12,6 +12,8 @@ categories:
   - copywriting
   - image-generation
   - video-editor
+  - content-moderation
+  - meme-generator
 featured_tools:
   - chatgpt
   - buffer

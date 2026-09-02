@@ -16,6 +16,7 @@ categories:
   - knowledge-management
   - translator
   - document-ai
+  - reading
 featured_tools:
   - chatgpt
   - grammarly
