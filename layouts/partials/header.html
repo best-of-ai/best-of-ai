@@ -138,6 +138,9 @@
       <!-- Journal link -->
       <a href="{{ "/journal/" | relURL }}" class="nav-btn nav-btn--link">Journal</a>
 
+      <!-- Help link -->
+      <a href="{{ "/help/" | relURL }}" class="nav-btn nav-btn--link">Help</a>
+
     </nav>
 
     <div class="site-header__actions">
@@ -195,6 +198,10 @@
       <a href="{{ "/journal/" | relURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         Journal
+      </a>
+      <a href="{{ "/help/" | relURL }}" class="mob-link{{ if eq .Section "help" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 2-3 4"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Help
       </a>
       <a href="{{ "/free/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/free/" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>

@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $siblings := sort (where .Site.RegularPages "Section" "help") "Params.order" "asc" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center" id="main-content">
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep" aria-hidden="true">/</span>
+      <a href="{{ "/help/" | relURL }}">Help Center</a>
+      <span class="breadcrumb__sep" aria-hidden="true">/</span>
+      <span class="breadcrumb__cur" aria-current="page">{{ $p.title | default .Title }}</span>
+    </nav>
+
+    <article class="journal-post">
+
+      <header class="journal-post__header">
+        <p class="journal-post__eyebrow"><a href="{{ "/help/" | relURL }}">Help Center</a></p>
+        <h1 class="journal-post__title">{{ $p.title | default .Title }}</h1>
+        {{ with $p.subtitle }}<p class="journal-post__sub">{{ . }}</p>{{ end }}
+      </header>
+
+      <div class="journal-post__body prose prose--journal">
+        {{ .Content }}
+      </div>
+
+    </article>
+
+    {{ if gt (len $siblings) 1 }}
+    <nav class="journal-list help-siblings" aria-label="Other help articles">
+      {{ range $siblings }}
+      {{ if ne .RelPermalink $.RelPermalink }}
+      <a href="{{ .RelPermalink }}" class="journal-card">
+        <div class="journal-card__body">
+          <h2 class="journal-card__title">{{ .Params.title | default .Title }}</h2>
+          {{ with .Params.subtitle }}<p class="journal-card__sub">{{ . }}</p>{{ end }}
+        </div>
+        <span class="journal-card__arrow" aria-hidden="true">→</span>
+      </a>
+      {{ end }}
+      {{ end }}
+    </nav>
+    {{ end }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

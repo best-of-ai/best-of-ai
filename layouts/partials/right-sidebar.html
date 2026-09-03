@@ -1,3 +1,21 @@
+{{ if eq .Section "help" }}
+{{ $helpPages := sort (where .Site.RegularPages "Section" "help") "Params.order" "asc" }}
+{{ $activeHelp := .Params.slug }}
+
+<aside class="hl-right">
+  {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.right_sidebar "variant" "sidebar") }}
+  <div class="hl-section-label">Help Topics</div>
+  <nav class="hl-prof-nav" id="prof-sidebar">
+    {{ range $helpPages }}
+    <a href="{{ .RelPermalink }}" class="prof-link{{ if eq $activeHelp .Params.slug }} active{{ end }}">
+      {{ .Params.title | default .Title }}
+    </a>
+    {{ end }}
+  </nav>
+</aside>
+
+{{ else }}
+
 {{ $profs := where .Site.RegularPages "Section" "professionals" }}
 {{ $profs  = sort $profs "Params.sort_order" }}
 {{ $activeProf := "" }}
@@ -17,3 +35,5 @@
     {{ end }}
   </nav>
 </aside>
+
+{{ end }}
