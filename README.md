@@ -1644,6 +1644,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 - **[Kickresume](https://kickresume.com)** — [review](https://bestofai.io/tools/kickresume/) — AI resume builder with ATS optimization ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Resume.io](https://resume.io)** — [review](https://bestofai.io/tools/resume-io/) — AI resume builder with optimization suggestions ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[ResumeAI](https://withresumeai.com)** — AI resume builder + free ATS checker; open State of ATS 2026 (738/704, Workday 37.9%); live candidate leaderboard (paid placement only) ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Rezi](https://rezi.ai)** — [review](https://bestofai.io/tools/rezi/) — AI resume builder optimized for applicant tracking systems ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Zety](https://zety.com)** — [review](https://bestofai.io/tools/zety/) — AI-powered resume creator and career advice ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 7 Resume Tools tools on bestofai.io →](https://bestofai.io/categories/resume-tools/)*
