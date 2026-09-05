@@ -639,6 +639,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 > AI chat companions, virtual friends, and personal AI characters.
 
 - **[Character.ai](https://character.ai)** — [review](https://bestofai.io/tools/character-ai/) — Platform for creating and chatting with AI characters ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[WSUP AI](https://wsupai.app/)** — Free AI character chat in the browser — talk to AI characters with no sign up. SFW only ![Free](https://img.shields.io/badge/-Free-2da44e?style=flat-square)
 - **[Chai](https://chai.ml)** — [review](https://bestofai.io/tools/chai/) — AI chat companions and social entertainment ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Kindroid](https://kindroid.ai)** — [review](https://bestofai.io/tools/kindroid/) — Customisable AI companion with persistent memory ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Anna](https://anna.ai)** — [review](https://bestofai.io/tools/anna-ai/) — Adaptive AI companion that grows with you over time ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
