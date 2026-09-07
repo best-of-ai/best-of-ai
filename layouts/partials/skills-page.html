@@ -1,0 +1,95 @@
+{{ $page        := .page }}
+{{ $allSkills   := .allSkills }}
+{{ $tableSkills := .tableSkills }}
+{{ $activeSlug  := .activeSlug }}
+{{ $activeName  := .activeName }}
+
+{{ $authors := slice }}
+{{ range $allSkills }}
+  {{ if .Params.author }}
+    {{ if not (in $authors .Params.author) }}
+      {{ $authors = $authors | append .Params.author }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" $page }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      {{ if eq $activeSlug "all" }}
+      <span class="breadcrumb__cur">Skills</span>
+      {{ else }}
+      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $activeName }}</span>
+      {{ end }}
+    </nav>
+
+    <div class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Skills</span> for LLM Agents</h1>
+      <p class="pg-hero__desc">Agent Skills that teach Claude and other LLMs how to handle a specific job, from document editing to test-driven development.</p>
+      <div class="pg-hero__meta">
+        <strong>{{ partial "count.html" (len $tableSkills) }}</strong> skills
+        <span class="sep">·</span>
+        <strong>{{ partial "count.html" (len $authors) }}</strong> authors
+      </div>
+    </div>
+
+    <div class="price-bar" id="skills-price-bar" style="margin-bottom:1.5rem">
+      <span class="price-bar__label">// price</span>
+      <button class="pf active" data-price="all">all</button>
+      <button class="pf" data-price="Free">free</button>
+      <button class="pf" data-price="Paid">paid</button>
+    </div>
+
+    <div class="prof-cat-tabs" id="skills-type-tabs">
+      <a href="{{ "/skills/" | relURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">all <span class="prof-cat-count">{{ partial "count.html" (len $allSkills) }}</span></a>
+      {{ range sort .Site.Data.skill_categories "sort_order" }}
+        {{ $cat := . }}
+        {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
+        {{ if gt $count 0 }}
+        <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="pf{{ if eq $activeSlug $cat.slug }} active{{ end }}">{{ $cat.name }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ if $tableSkills }}
+    <div class="tools-grid" id="skills-grid">
+      {{ range $tableSkills }}
+      {{ partial "skill-card.html" (dict "page" . "p" .Params) }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <p style="color:var(--fg-muted);padding:2rem 0">No skills in this category yet.</p>
+    {{ end }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" $page }}
+
+</div>
+
+<script>
+(function() {
+  var btns  = document.querySelectorAll('#skills-price-bar .pf');
+  var cards = document.querySelectorAll('#skills-grid .tool-card');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var price = btn.dataset.price;
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      cards.forEach(function(card) {
+        card.style.display = (price === 'all' || card.dataset.price === price) ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+{{ partial "sidebar-search-js.html" $page }}

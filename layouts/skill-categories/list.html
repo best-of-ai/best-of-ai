@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ $allSkills := where .Site.RegularPages "Section" "skills" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Categories</span>
+    </nav>
+
+    <div class="cat-list-hero">
+      <h1 class="cat-list-hero__title">Skill Categories</h1>
+      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len .Site.Data.skill_categories) }} categories of AI Agent Skills.</p>
+    </div>
+
+    <div class="cat-list-grid">
+      {{ range sort .Site.Data.skill_categories "sort_order" }}
+        {{ $cat := . }}
+        {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
+        {{ if gt $count 0 }}
+        <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="cat-list-card">
+          <div class="cat-list-card__icon">{{ substr $cat.name 0 1 }}</div>
+          <div class="cat-list-card__body">
+            <span class="cat-list-card__name">{{ $cat.name }}</span>
+            {{ with $cat.description }}<span class="cat-list-card__desc">{{ . }}</span>{{ end }}
+          </div>
+          <span class="cat-list-card__count">{{ partial "count.html" $count }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ end }}

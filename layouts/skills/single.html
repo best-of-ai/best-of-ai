@@ -1,0 +1,137 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $allSkills := where .Site.RegularPages "Section" "skills" }}
+
+{{ $similar := where $allSkills "Params.skill_type" $p.skill_type }}
+{{ $similar = where $similar ".RelPermalink" "ne" .RelPermalink }}
+{{ $similar = first 6 (sort $similar "Params.rank" "desc") }}
+
+{{ $priceLabel := or $p.price "Free" }}
+
+{{ $keyStats := slice }}
+{{ if $p.skill_type }}{{ $keyStats = $keyStats | append (dict "val" $p.skill_type "label" "category") }}{{ end }}
+{{ if $p.author }}{{ $keyStats = $keyStats | append (dict "val" $p.author "label" "author") }}{{ end }}
+{{ if $p.license }}{{ $keyStats = $keyStats | append (dict "val" $p.license "label" "license") }}{{ end }}
+{{ if $p.release_date }}{{ $keyStats = $keyStats | append (dict "val" ((time $p.release_date).Format "Jan 2006") "label" "released") }}{{ end }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">{{ $p.name }}</span>
+    </nav>
+
+    <!-- Skill header -->
+    <div class="detail-hero">
+      <div class="detail-hero__inner">
+        <div class="detail-logo-wrap">
+          {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" (or $p.source_url "github.com")) }}
+          <img class="detail-logo" src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="detail-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</div>
+        </div>
+
+        <div class="detail-info">
+          <h1 class="detail-name">{{ $p.name }}</h1>
+          {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
+          <div class="detail-badges">
+            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
+            {{ if $p.skill_type }}<span class="badge badge-cat">{{ $p.skill_type }}</span>{{ end }}
+          </div>
+        </div>
+
+        {{ if $p.source_url }}
+        <a href="{{ $p.source_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+          View Source →
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Key specs strip -->
+    {{ if $keyStats }}
+    <div class="detail-stats">
+      {{ range $keyStats }}
+      <div class="detail-stat">
+        <span class="detail-stat__val">{{ .val }}</span>
+        <span class="detail-stat__label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Details card -->
+    <div class="detail-layout">
+      <div class="detail-body">
+        {{ with .Content }}
+          <div class="prose">{{ . }}</div>
+        {{ else }}
+        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <p class="detail-body__text">{{ $p.description }}</p>
+        {{ end }}
+      </div>
+
+      <aside class="detail-sidebar">
+        <div class="detail-meta-card">
+          <div class="detail-meta__title">// details</div>
+          <dl class="detail-meta-list">
+            {{ with $p.author }}<div class="detail-meta-row"><dt>Author</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.skill_type }}<div class="detail-meta-row"><dt>Category</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.compatible_with }}<div class="detail-meta-row"><dt>Compatible with</dt><dd>{{ delimit $p.compatible_with ", " }}</dd></div>{{ end }}
+            {{ with $p.install }}<div class="detail-meta-row"><dt>Install</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.license }}<div class="detail-meta-row"><dt>License</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
+            <div class="detail-meta-row"><dt>Open source</dt><dd>{{ if $p.open_source }}Yes{{ else }}No{{ end }}</dd></div>
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Released</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.source_url }}
+            <div class="detail-meta-row">
+              <dt>Source</dt>
+              <dd><a href="{{ $p.source_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.source_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+            </div>
+            {{ end }}
+            <div class="detail-meta-row">
+              <dt>Added</dt>
+              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+            </div>
+            {{ if $p.tags }}
+            <div class="detail-meta-row">
+              <dt>Tags</dt>
+              <dd class="detail-meta-tags">
+                {{ range $p.tags }}
+                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                {{ end }}
+              </dd>
+            </div>
+            {{ end }}
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Similar skills -->
+    {{ if $similar }}
+    <section class="related-section">
+      <h2 class="related-title">// similar skills{{ with $p.skill_type }} in {{ . }}{{ end }}</h2>
+      <div class="tools-grid tools-grid--related">
+        {{ range $similar }}
+        {{ partial "skill-card.html" (dict "page" . "p" .Params) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

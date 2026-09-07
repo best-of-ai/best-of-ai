@@ -1,0 +1,37 @@
+{{/*
+  Renders a single AI skill card.
+  Context (dict):
+    page  - Hugo page object for the skill item
+    p     - page.Params
+    desc  - optional description override
+*/}}
+{{ $page := .page }}
+{{ $p    := .p }}
+{{ $desc := or .desc $p.subtitle ($p.description | truncate 80) }}
+{{ $priceLabel := or $p.price "Free" }}
+
+<a
+  href="{{ $page.RelPermalink }}"
+  class="tool-card"
+  data-price="{{ $priceLabel }}"
+  data-author="{{ $p.author }}"
+  data-type="{{ $p.skill_type }}"
+  data-rank="{{ $p.rank | default 5 }}"
+>
+  <div class="tool-card__logo">
+    {{ if $p.logo_url }}
+      <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+    {{ else }}
+      <img src="https://www.google.com/s2/favicons?domain={{ $p.source_url | default "github.com" }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+    {{ end }}
+  </div>
+  <div class="tool-card__body">
+    <span class="tool-card__name">{{ $p.name }}</span>
+    <span class="tool-card__desc">{{ $desc }}</span>
+    <span class="tool-card__desc" style="opacity:0.7">{{ with $p.author }}{{ . }}{{ end }}{{ with $p.skill_type }} · {{ . }}{{ end }}</span>
+  </div>
+  {{ partial "price-icon.html" $priceLabel }}
+  <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+</a>

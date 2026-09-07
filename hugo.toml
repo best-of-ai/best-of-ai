@@ -11,7 +11,7 @@ disableKinds = ["sitemap"]
   siteURL     = "https://bestofai.io"
 
 [outputs]
-  home = ["HTML", "JSON", "SitemapIndex", "SitemapTools", "SitemapHardware", "SitemapModels", "SitemapPages"]
+  home = ["HTML", "JSON", "SitemapIndex", "SitemapTools", "SitemapHardware", "SitemapModels", "SitemapSkills", "SitemapPages"]
 
 [mediaTypes]
   [mediaTypes."application/json"]
@@ -43,6 +43,11 @@ disableKinds = ["sitemap"]
     baseName  = "sitemap-models"
     isPlainText = true
     notAlternative = true
+  [outputFormats.SitemapSkills]
+    mediaType = "application/xml"
+    baseName  = "sitemap-skills"
+    isPlainText = true
+    notAlternative = true
   [outputFormats.SitemapPages]
     mediaType = "application/xml"
     baseName  = "sitemap-pages"
@@ -51,6 +56,7 @@ disableKinds = ["sitemap"]
 
 [permalinks]
   model-categories = "/models/category/:slug/"
+  skill-categories = "/skills/category/:slug/"
 
 [taxonomies]
   tag = "tags"

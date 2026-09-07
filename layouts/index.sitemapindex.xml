@@ -3,5 +3,6 @@
   <sitemap><loc>{{ "sitemap-tools.xml" | absURL }}</loc></sitemap>
   <sitemap><loc>{{ "sitemap-hardware.xml" | absURL }}</loc></sitemap>
   <sitemap><loc>{{ "sitemap-models.xml" | absURL }}</loc></sitemap>
+  <sitemap><loc>{{ "sitemap-skills.xml" | absURL }}</loc></sitemap>
   <sitemap><loc>{{ "sitemap-pages.xml" | absURL }}</loc></sitemap>
 </sitemapindex>

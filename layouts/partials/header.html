@@ -135,6 +135,9 @@
       <!-- Models link -->
       <a href="{{ "/models/" | relURL }}" class="nav-btn nav-btn--link">Models</a>
 
+      <!-- Skills link -->
+      <a href="{{ "/skills/" | relURL }}" class="nav-btn nav-btn--link">Skills</a>
+
       <!-- Journal link -->
       <a href="{{ "/journal/" | relURL }}" class="nav-btn nav-btn--link">Journal</a>
 
@@ -194,6 +197,10 @@
       <a href="{{ "/models/" | relURL }}" class="mob-link{{ if eq .Section "models" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
         Models
+      </a>
+      <a href="{{ "/skills/" | relURL }}" class="mob-link{{ if eq .Section "skills" }} mob-link--active{{ end }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.6h7.6z"/></svg>
+        Skills
       </a>
       <a href="{{ "/journal/" | relURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
@@ -411,7 +418,7 @@
     searchSel = -1;
     if (!q || q.length < 2 || !searchIndex) { searchDrop.innerHTML = ''; return; }
     var ql = q.toLowerCase();
-    var groups = { profession: [], category: [], tag: [], company: [], hardware: [], model: [], tool: [] };
+    var groups = { profession: [], category: [], tag: [], company: [], hardware: [], model: [], skill: [], tool: [] };
     for (var i = 0; i < searchIndex.length; i++) {
       var it   = searchIndex[i];
       var type = it.type || 'tool';
@@ -428,8 +435,9 @@
     var companies = groups.company.slice(0, 4);
     var hardware  = groups.hardware.slice(0, 4);
     var models    = groups.model.slice(0, 4);
+    var skills    = groups.skill.slice(0, 4);
     var tools     = groups.tool.slice(0, 8);
-    if (!profs.length && !cats.length && !companies.length && !hardware.length && !models.length && !tools.length) {
+    if (!profs.length && !cats.length && !companies.length && !hardware.length && !models.length && !skills.length && !tools.length) {
       searchDrop.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
       return;
     }
@@ -439,6 +447,7 @@
     if (companies.length) { html += '<div class="sr-group-label">Companies</div>'; companies.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (hardware.length)  { html += '<div class="sr-group-label">Hardware</div>'; hardware.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (models.length)    { html += '<div class="sr-group-label">Models</div>'; models.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (skills.length)    { html += '<div class="sr-group-label">Skills</div>'; skills.forEach(function(r){ html += renderItem(r.it, q); }); }
     if (tools.length)     { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
     searchDrop.innerHTML = html;
   }
