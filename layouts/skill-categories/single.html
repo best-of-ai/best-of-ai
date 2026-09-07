@@ -2,10 +2,10 @@
 {{ $p := .Params }}
 
 {{ $allSkills := where .Site.RegularPages "Section" "skills" }}
-{{ $allSkills = sort $allSkills "Params.rank" "desc" }}
+{{ $allSkills = sort $allSkills "Params.stars" "desc" }}
 
 {{ $tableSkills := where $allSkills "Params.skill_type" $p.filter_value }}
-{{ $tableSkills = sort $tableSkills "Params.rank" "desc" }}
+{{ $tableSkills = sort $tableSkills "Params.stars" "desc" }}
 
 {{ partial "skills-page.html" (dict "page" . "allSkills" $allSkills "tableSkills" $tableSkills "activeSlug" $p.slug "activeName" $p.name) }}
 {{ end }}

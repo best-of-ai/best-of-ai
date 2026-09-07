@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $allSkills := where .Site.RegularPages "Section" "skills" }}
-{{ $allSkills = sort $allSkills "Params.rank" "desc" }}
+{{ $allSkills = sort $allSkills "Params.stars" "desc" }}
 
 {{ partial "skills-page.html" (dict "page" . "allSkills" $allSkills "tableSkills" $allSkills "activeSlug" "all" "activeName" "Skills") }}
 {{ end }}

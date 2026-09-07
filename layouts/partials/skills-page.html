@@ -32,12 +32,14 @@
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Top AI <span>Skills</span> for LLM Agents</h1>
-      <p class="pg-hero__desc">Agent Skills that teach Claude and other LLMs how to handle a specific job, from document editing to test-driven development.</p>
+      <h1 class="pg-hero__title">Top AI <span>Skill</span> Repos for LLM Agents</h1>
+      <p class="pg-hero__desc">GitHub repositories that package Agent Skills for Claude and other LLMs, ranked by GitHub stars.</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $tableSkills) }}</strong> skills
+        <strong>{{ partial "count.html" (len $tableSkills) }}</strong> repos
         <span class="sep">·</span>
         <strong>{{ partial "count.html" (len $authors) }}</strong> authors
+        <span class="sep">·</span>
+        <span>ranked by stars</span>
       </div>
     </div>
 

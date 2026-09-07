@@ -4,15 +4,17 @@
 
 {{ $similar := where $allSkills "Params.skill_type" $p.skill_type }}
 {{ $similar = where $similar ".RelPermalink" "ne" .RelPermalink }}
-{{ $similar = first 6 (sort $similar "Params.rank" "desc") }}
+{{ $similar = first 6 (sort $similar "Params.stars" "desc") }}
 
 {{ $priceLabel := or $p.price "Free" }}
+{{ $stars := $p.stars | default 0 }}
 
 {{ $keyStats := slice }}
+{{ if $stars }}{{ $keyStats = $keyStats | append (dict "val" (lang.FormatNumberCustom 0 $stars ". ,") "label" "GitHub stars") }}{{ end }}
+{{ if $p.stars_this_week }}{{ $keyStats = $keyStats | append (dict "val" (printf "+%s" (lang.FormatNumberCustom 0 $p.stars_this_week ". ,")) "label" "stars this week") }}{{ end }}
 {{ if $p.skill_type }}{{ $keyStats = $keyStats | append (dict "val" $p.skill_type "label" "category") }}{{ end }}
 {{ if $p.author }}{{ $keyStats = $keyStats | append (dict "val" $p.author "label" "author") }}{{ end }}
 {{ if $p.license }}{{ $keyStats = $keyStats | append (dict "val" $p.license "label" "license") }}{{ end }}
-{{ if $p.release_date }}{{ $keyStats = $keyStats | append (dict "val" ((time $p.release_date).Format "Jan 2006") "label" "released") }}{{ end }}
 
 <div class="home-layout">
 
@@ -45,6 +47,7 @@
           <div class="detail-badges">
             <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
             {{ if $p.skill_type }}<span class="badge badge-cat">{{ $p.skill_type }}</span>{{ end }}
+            {{ if $stars }}<span class="badge badge-cat">★ {{ lang.FormatNumberCustom 0 $stars ". ," }}</span>{{ end }}
           </div>
         </div>
 
@@ -84,6 +87,7 @@
           <div class="detail-meta__title">// details</div>
           <dl class="detail-meta-list">
             {{ with $p.author }}<div class="detail-meta-row"><dt>Author</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $stars }}<div class="detail-meta-row"><dt>GitHub stars</dt><dd>{{ lang.FormatNumberCustom 0 $stars ". ," }}{{ if $p.stars_this_week }} (+{{ lang.FormatNumberCustom 0 $p.stars_this_week ". ," }} this week){{ end }}{{ with $p.stars_updated }}<br><span style="opacity:0.6;font-size:0.85em">via GitHub star history API, {{ (time .).Format "Jan 2" }}</span>{{ end }}</dd></div>{{ end }}
             {{ with $p.skill_type }}<div class="detail-meta-row"><dt>Category</dt><dd>{{ . }}</dd></div>{{ end }}
             {{ if $p.compatible_with }}<div class="detail-meta-row"><dt>Compatible with</dt><dd>{{ delimit $p.compatible_with ", " }}</dd></div>{{ end }}
             {{ with $p.install }}<div class="detail-meta-row"><dt>Install</dt><dd>{{ . }}</dd></div>{{ end }}
