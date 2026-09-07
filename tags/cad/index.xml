@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cad on Best of AI</title><link>https://bestofai.io/tags/cad/</link><description>Recent content in Cad on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/cad/index.xml" rel="self" type="application/rss+xml"/><item><title>text-to-cad</title><link>https://bestofai.io/skills/earthtojake-text-to-cad/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/earthtojake-text-to-cad/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CAD&lt;/strong&gt;: Creates and edits CAD models with STEP output plus STL, 3MF, and GLB export.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAD Viewer&lt;/strong&gt;: Provides local browser previews of CAD and robot files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;step.parts&lt;/strong&gt;: Sources off-the-shelf STEP components such as screws, bearings, and motors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DXF&lt;/strong&gt;: Generates 2D drawings from Python or CAD geometry.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URDF/SRDF&lt;/strong&gt;: Writes robot structure and MoveIt planning files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;G-code&lt;/strong&gt;: Slices meshes into G-code using real slicer command-line tools.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

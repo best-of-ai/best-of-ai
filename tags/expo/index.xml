@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Expo on Best of AI</title><link>https://bestofai.io/tags/expo/</link><description>Recent content in Expo on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/expo/index.xml" rel="self" type="application/rss+xml"/><item><title>skills</title><link>https://bestofai.io/skills/expo-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/expo-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;expo-overview&lt;/strong&gt;: Router setup and shared configuration entry point.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;expo-router&lt;/strong&gt;: File-based navigation with modals, sheets, and native tabs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;expo-animation&lt;/strong&gt;: Reanimated and gesture-based motion effects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;expo-native-ui&lt;/strong&gt;: Platform-native styling and visual controls.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;expo-data-fetching&lt;/strong&gt;: API calls, caching, and offline support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;expo-upgrade&lt;/strong&gt;: SDK version migrations and dependency management.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;eas-app-stores&lt;/strong&gt;: Production builds and app store deployment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;eas-workflows&lt;/strong&gt;: CI/CD automation configuration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;eas-update&lt;/strong&gt;: Over-the-air publishing and rollout management.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

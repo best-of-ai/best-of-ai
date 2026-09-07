@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content-Creation on Best of AI</title><link>https://bestofai.io/tags/content-creation/</link><description>Recent content in Content-Creation on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/content-creation/index.xml" rel="self" type="application/rss+xml"/><item><title>baoyu-skills</title><link>https://bestofai.io/skills/jimliu-baoyu-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/jimliu-baoyu-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-xhs-images&lt;/strong&gt;: Generates Xiaohongshu image card series in 12 art styles and 6 layouts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-infographic&lt;/strong&gt;: Builds infographics from 21 layouts and 17 visual styles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-diagram&lt;/strong&gt;: Produces SVG diagrams including flowcharts and sequence diagrams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-cover-image&lt;/strong&gt;: Creates article cover images using a 5-dimension style system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-slide-deck&lt;/strong&gt;: Turns written content into presentation slides with 16+ style presets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-comic&lt;/strong&gt;: Generates educational comics in configurable art styles and tones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-image-gen&lt;/strong&gt;: Generates images across multiple providers including OpenAI and Google.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-youtube-transcript&lt;/strong&gt;: Downloads YouTube transcripts and subtitles with chapter support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-url-to-markdown&lt;/strong&gt;: Converts web pages to markdown using Chrome CDP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;baoyu-translate&lt;/strong&gt;: Translates text with quick, normal, and refined modes.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

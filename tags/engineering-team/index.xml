@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering-Team on Best of AI</title><link>https://bestofai.io/tags/engineering-team/</link><description>Recent content in Engineering-Team on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/engineering-team/index.xml" rel="self" type="application/rss+xml"/><item><title>gstack</title><link>https://bestofai.io/skills/garrytan-gstack/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/garrytan-gstack/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;office-hours&lt;/strong&gt;: Asks pointed questions about a product idea before any code is written.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;plan-ceo-review&lt;/strong&gt;: Reviews project scope and reframes the underlying problem.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;plan-eng-review&lt;/strong&gt;: Reviews architecture, data flow, and test plans.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;review&lt;/strong&gt;: Runs a production-focused code review and applies fixes automatically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;qa&lt;/strong&gt;: Tests the app in a live browser and generates regression tests.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ship&lt;/strong&gt;: Opens a pull request and sets up a test framework if one is missing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;design-consultation&lt;/strong&gt;: Generates a full design system for the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;design-shotgun&lt;/strong&gt;: Produces several visual mockups to explore design directions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cso&lt;/strong&gt;: Runs a security audit based on OWASP and STRIDE.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;document-release&lt;/strong&gt;: Updates project documentation automatically.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

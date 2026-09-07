@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai-Research on Best of AI</title><link>https://bestofai.io/tags/ai-research/</link><description>Recent content in Ai-Research on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/ai-research/index.xml" rel="self" type="application/rss+xml"/><item><title>AI-Research-SKILLs</title><link>https://bestofai.io/skills/orchestra-research-ai-research-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/orchestra-research-ai-research-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LitGPT&lt;/strong&gt;: Skill for training and fine-tuning models with the LitGPT framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mamba&lt;/strong&gt;: Skill for working with the Mamba state-space model architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Axolotl&lt;/strong&gt;: Skill for fine-tuning language models using Axolotl.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PEFT&lt;/strong&gt;: Skill for parameter-efficient fine-tuning methods.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unsloth&lt;/strong&gt;: Skill for fast, memory-efficient fine-tuning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TRL&lt;/strong&gt;: Skill for reinforcement-learning-based post-training.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vLLM&lt;/strong&gt;: Skill for serving models efficiently.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;llama.cpp&lt;/strong&gt;: Skill for running inference with llama.cpp.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LangChain&lt;/strong&gt;: Skill for building agent workflows with LangChain.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frontend on Best of AI</title><link>https://bestofai.io/tags/frontend/</link><description>Recent content in Frontend on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/frontend/index.xml" rel="self" type="application/rss+xml"/><item><title>Frontend Design</title><link>https://bestofai.io/skills/frontend-design/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/frontend-design/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frontend on Best of AI</title><link>https://bestofai.io/tags/frontend/</link><description>Recent content in Frontend on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/frontend/index.xml" rel="self" type="application/rss+xml"/><item><title>taste-skill</title><link>https://bestofai.io/skills/leonxlnx-taste-skill/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/leonxlnx-taste-skill/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;design-taste-frontend&lt;/strong&gt;: Infers a design language from the brief and outputs GSAP code skeletons.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;gpt-taste&lt;/strong&gt;: A stricter variant tuned for GPT and Codex, with higher layout variance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;image-to-code&lt;/strong&gt;: Generates a reference image first, then builds the frontend to match it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;redesign-existing-projects&lt;/strong&gt;: Audits an existing interface and fixes its layout and spacing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;high-end-visual-design&lt;/strong&gt;: Aims for a calmer look with softer contrast and premium fonts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;minimalist-ui&lt;/strong&gt;: Produces an editorial-style interface with a restrained color palette.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;industrial-brutalist-ui&lt;/strong&gt;: Produces a high-contrast style based on Swiss type design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;imagegen-frontend-web&lt;/strong&gt;: Generates website mockup images with an emphasis on typography and spacing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;imagegen-frontend-mobile&lt;/strong&gt;: Generates mobile screen mockups for iOS, Android, and cross-platform apps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;brandkit&lt;/strong&gt;: Generates a brand identity board including logo, color palette, and type choices.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

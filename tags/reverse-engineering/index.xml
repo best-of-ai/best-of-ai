@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reverse-Engineering on Best of AI</title><link>https://bestofai.io/tags/reverse-engineering/</link><description>Recent content in Reverse-Engineering on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/reverse-engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>reverse-skill</title><link>https://bestofai.io/skills/zhaoxuya520-reverse-skill/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/zhaoxuya520-reverse-skill/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;APK Reverse&lt;/strong&gt;: Analysis and decompilation of Android applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JS Reverse&lt;/strong&gt;: Analysis of frontend JavaScript and encrypted parameters.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDA/Radare2 Reverse&lt;/strong&gt;: Binary reverse-engineering workflows using IDA Pro and Radare2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Binary Ninja&lt;/strong&gt;: HLIL/MLIL analysis with Binary Ninja, including MCP integration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.NET Reverse&lt;/strong&gt;: Analysis of C# and .NET assemblies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pentest Tools&lt;/strong&gt;: Authorized penetration testing and vulnerability scanning workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Malware Analysis&lt;/strong&gt;: YARA-based malware identification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firmware Pentest&lt;/strong&gt;: Assessment of IoT and embedded firmware.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Security&lt;/strong&gt;: Analysis of REST and GraphQL API endpoints.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

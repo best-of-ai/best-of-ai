@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Official on Best of AI</title><link>https://bestofai.io/tags/official/</link><description>Recent content in Official on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/official/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS GovCloud</title><link>https://bestofai.io/tools/aws-govcloud/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/aws-govcloud/</guid><description/></item><item><title>IBM Watson Government</title><link>https://bestofai.io/tools/ibm-watson-gov/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/ibm-watson-gov/</guid><description/></item><item><title>Microsoft Government Cloud</title><link>https://bestofai.io/tools/microsoft-gov-cloud/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/microsoft-gov-cloud/</guid><description/></item><item><title>Palantir Gotham</title><link>https://bestofai.io/tools/palantir-gotham/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/palantir-gotham/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Official on Best of AI</title><link>https://bestofai.io/tags/official/</link><description>Recent content in Official on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/official/index.xml" rel="self" type="application/rss+xml"/><item><title>claude-plugins-official</title><link>https://bestofai.io/skills/anthropics-claude-plugins-official/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/anthropics-claude-plugins-official/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;skill-creator&lt;/strong&gt;: Tooling for authoring new Agent Skills.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;frontend-design&lt;/strong&gt;: Guidance for building distinctive, intentional UI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;code-review&lt;/strong&gt;: Reviews a diff or PR for correctness and quality issues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;code-simplifier&lt;/strong&gt;: Simplifies and cleans up existing code.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;claude-security&lt;/strong&gt;: Security-focused plugin for Claude Code usage.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pr-review-toolkit&lt;/strong&gt;: A toolkit for reviewing pull requests.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hookify&lt;/strong&gt;: Helps configure Claude Code hooks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mcp-server-dev&lt;/strong&gt;: Support for developing MCP servers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;agent-sdk-dev&lt;/strong&gt;: Support for building with the Claude Agent SDK.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>skills</title><link>https://bestofai.io/skills/anthropics-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/anthropics-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;docx&lt;/strong&gt;: Creates and edits Word documents.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pdf&lt;/strong&gt;: Creates, reads, and edits PDF files.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;pptx&lt;/strong&gt;: Creates and edits PowerPoint presentations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;xlsx&lt;/strong&gt;: Creates and edits Excel spreadsheets.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mcp-builder&lt;/strong&gt;: Guides building a Model Context Protocol server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;webapp-testing&lt;/strong&gt;: Helps Claude test a web application.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;skill-creator&lt;/strong&gt;: A meta skill for creating new Agent Skills.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;brand-guidelines&lt;/strong&gt;: Applies Anthropic&amp;rsquo;s brand guidelines to generated output.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;canvas-design&lt;/strong&gt;: Supports building visual canvas-style layouts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;frontend-design&lt;/strong&gt;: Gives guidance on frontend visual design choices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;algorithmic-art&lt;/strong&gt;: Generates algorithmic or generative art.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;slack-gif-creator&lt;/strong&gt;: Creates GIFs for use in Slack.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;doc-coauthoring&lt;/strong&gt;: Supports collaborative document writing and editing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;internal-comms&lt;/strong&gt;: Drafts internal memos and team announcements.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>AWS GovCloud</title><link>https://bestofai.io/tools/aws-govcloud/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/aws-govcloud/</guid><description/></item><item><title>IBM Watson Government</title><link>https://bestofai.io/tools/ibm-watson-gov/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/ibm-watson-gov/</guid><description/></item><item><title>Microsoft Government Cloud</title><link>https://bestofai.io/tools/microsoft-gov-cloud/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/microsoft-gov-cloud/</guid><description/></item><item><title>Palantir Gotham</title><link>https://bestofai.io/tools/palantir-gotham/</link><pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate><guid>https://bestofai.io/tools/palantir-gotham/</guid><description/></item></channel></rss>

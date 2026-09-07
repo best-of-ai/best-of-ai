@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github-Copilot on Best of AI</title><link>https://bestofai.io/tags/github-copilot/</link><description>Recent content in Github-Copilot on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/github-copilot/index.xml" rel="self" type="application/rss+xml"/><item><title>awesome-copilot</title><link>https://bestofai.io/skills/github-awesome-copilot/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/github-awesome-copilot/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;acquire-codebase-knowledge&lt;/strong&gt;: Helps an agent build understanding of an existing codebase.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;azure-well-architected-review&lt;/strong&gt;: Runs an assessment against Azure&amp;rsquo;s Well-Architected Framework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;aws-cost-optimize&lt;/strong&gt;: Looks for ways to reduce AWS cloud spend.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;codeql&lt;/strong&gt;: Applies CodeQL-based static security analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;architecture-blueprint-generator&lt;/strong&gt;: Produces system architecture documentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;conventional-commit&lt;/strong&gt;: Enforces the Conventional Commits message format.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;agent-owasp-compliance&lt;/strong&gt;: Checks agent behavior against OWASP security guidance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;copilot-pr-autopilot&lt;/strong&gt;: Automates parts of the pull request workflow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;anti-ui-slop&lt;/strong&gt;: Flags low-quality or generic-looking UI output.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

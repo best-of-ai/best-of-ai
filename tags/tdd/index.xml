@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tdd on Best of AI</title><link>https://bestofai.io/tags/tdd/</link><description>Recent content in Tdd on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/tdd/index.xml" rel="self" type="application/rss+xml"/><item><title>Test-Driven Development</title><link>https://bestofai.io/skills/test-driven-development/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/test-driven-development/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tdd on Best of AI</title><link>https://bestofai.io/tags/tdd/</link><description>Recent content in Tdd on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/tdd/index.xml" rel="self" type="application/rss+xml"/><item><title>superpowers</title><link>https://bestofai.io/skills/obra-superpowers/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/obra-superpowers/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;test-driven-development&lt;/strong&gt;: Applies the red-green-refactor cycle and lists common testing anti-patterns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;systematic-debugging&lt;/strong&gt;: Runs a four-phase root cause analysis process.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;verification-before-completion&lt;/strong&gt;: Confirms a fix actually works before a task is marked done.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;brainstorming&lt;/strong&gt;: Refines a rough idea through Socratic questioning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;writing-plans&lt;/strong&gt;: Creates an implementation plan broken into small tasks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;executing-plans&lt;/strong&gt;: Executes a plan in batches with checkpoints for human review.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dispatching-parallel-agents&lt;/strong&gt;: Coordinates multiple subagents working at the same time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;requesting-code-review&lt;/strong&gt;: Runs a checklist before asking for a code review.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;receiving-code-review&lt;/strong&gt;: Processes and responds to code review feedback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;using-git-worktrees&lt;/strong&gt;: Manages parallel work across multiple git worktrees.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;finishing-a-development-branch&lt;/strong&gt;: Decides how to close out a branch, by merge or pull request.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;subagent-driven-development&lt;/strong&gt;: Runs a two-stage review covering spec compliance and quality.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;writing-skills&lt;/strong&gt;: A meta skill with a framework for writing new skills.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge-Management on Best of AI</title><link>https://bestofai.io/tags/knowledge-management/</link><description>Recent content in Knowledge-Management on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/knowledge-management/index.xml" rel="self" type="application/rss+xml"/><item><title>claude-obsidian</title><link>https://bestofai.io/skills/agricidaniel-claude-obsidian/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/agricidaniel-claude-obsidian/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;wiki&lt;/strong&gt;: Core skill for building and maintaining wiki-style notes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;save&lt;/strong&gt;: Captures and preserves source material before synthesis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wiki-ingest&lt;/strong&gt;: Ingests new source content into the vault.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wiki-query&lt;/strong&gt;: Retrieves grounded answers from existing vault content.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;wiki-lint&lt;/strong&gt;: Checks vault notes for consistency and health issues.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;autoresearch&lt;/strong&gt;: Automates research workflows across multiple sources.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;canvas&lt;/strong&gt;: Creates Obsidian Canvas views of connected notes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;obsidian-markdown&lt;/strong&gt;: Reference skill covering Obsidian-flavored Markdown syntax.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bioinformatics on Best of AI</title><link>https://bestofai.io/tags/bioinformatics/</link><description>Recent content in Bioinformatics on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml"/><item><title>scientific-agent-skills</title><link>https://bestofai.io/skills/k-dense-ai-scientific-agent-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/k-dense-ai-scientific-agent-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bioinformatics &amp;amp; Genomics&lt;/strong&gt;: 27 skills covering RNA-seq, BioPython, sequence analysis, and population genomics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cheminformatics&lt;/strong&gt;: 10 skills covering RDKit, molecular docking, and drug discovery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clinical Research&lt;/strong&gt;: 8 skills covering PK/PD modeling and clinical trial analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt;: 14 skills covering PyTorch Lightning, scikit-learn, and time series analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Analysis &amp;amp; Visualization&lt;/strong&gt;: 22 skills covering matplotlib, GeoPandas, and network analysis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scientific Databases&lt;/strong&gt;: 11 skills providing unified access to 78+ databases including PubChem and UniProt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Laboratory Automation&lt;/strong&gt;: 6 skills covering Opentrons liquid handling and LIMS integration.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scientific Communication&lt;/strong&gt;: 27 skills covering literature review, scientific writing, and peer review.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

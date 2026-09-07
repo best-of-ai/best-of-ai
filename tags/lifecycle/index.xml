@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lifecycle on Best of AI</title><link>https://bestofai.io/tags/lifecycle/</link><description>Recent content in Lifecycle on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/lifecycle/index.xml" rel="self" type="application/rss+xml"/><item><title>agent-skills</title><link>https://bestofai.io/skills/addyosmani-agent-skills/</link><pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/addyosmani-agent-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;interview-me&lt;/strong&gt;: Draws out requirements by asking targeted questions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;spec-driven-development&lt;/strong&gt;: Writes a PRD before any code is written.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;constraint-driven-development&lt;/strong&gt;: Sets and enforces quality standards for a project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;planning-and-task-breakdown&lt;/strong&gt;: Splits a spec into tasks that can each be verified on its own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;incremental-implementation&lt;/strong&gt;: Delivers work in thin, tested vertical slices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;test-driven-development&lt;/strong&gt;: Applies the red-green-refactor cycle.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;context-engineering&lt;/strong&gt;: Manages what information reaches the agent and when.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;doubt-driven-development&lt;/strong&gt;: Runs an adversarial code review pass.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;frontend-ui-engineering&lt;/strong&gt;: Guides component and interface design decisions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;api-and-interface-design&lt;/strong&gt;: Applies contract-first design to APIs and interfaces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;browser-testing-with-devtools&lt;/strong&gt;: Uses Chrome DevTools to inspect an app at runtime.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;code-review-and-quality&lt;/strong&gt;: Reviews code against five separate quality gates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;security-and-hardening&lt;/strong&gt;: Checks code against the OWASP Top 10.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;git-workflow-and-versioning&lt;/strong&gt;: Enforces a trunk-based git workflow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;shipping-and-launch&lt;/strong&gt;: Runs a staged rollout when releasing a change.&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
