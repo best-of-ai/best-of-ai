@@ -50,7 +50,7 @@
 
     <div class="prof-cat-tabs" id="skills-type-tabs">
       <a href="{{ "/skills/" | relURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">all <span class="prof-cat-count">{{ partial "count.html" (len $allSkills) }}</span></a>
-      {{ range sort .Site.Data.skill_categories "sort_order" }}
+      {{ range sort hugo.Data.skill_categories "sort_order" }}
         {{ $cat := . }}
         {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
         {{ if gt $count 0 }}

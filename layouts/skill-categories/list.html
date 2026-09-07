@@ -17,11 +17,11 @@
 
     <div class="cat-list-hero">
       <h1 class="cat-list-hero__title">Skill Categories</h1>
-      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len .Site.Data.skill_categories) }} categories of AI Agent Skills.</p>
+      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len hugo.Data.skill_categories) }} categories of AI Agent Skills.</p>
     </div>
 
     <div class="cat-list-grid">
-      {{ range sort .Site.Data.skill_categories "sort_order" }}
+      {{ range sort hugo.Data.skill_categories "sort_order" }}
         {{ $cat := . }}
         {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
         {{ if gt $count 0 }}

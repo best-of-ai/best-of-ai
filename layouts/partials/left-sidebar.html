@@ -95,7 +95,7 @@
   <div class="sb-divider"></div>
   <div class="hl-section-label">Models by Usecase</div>
   <nav class="hl-cat-nav">
-    {{ range sort .Site.Data.model_categories "sort_order" }}
+    {{ range sort hugo.Data.model_categories "sort_order" }}
       {{ $cat := . }}
       {{ $count := 0 }}
       {{ if eq $cat.filter_field "runs_at_home" }}
@@ -116,7 +116,7 @@
   <div class="sb-divider"></div>
   <div class="hl-section-label">Skills by Category</div>
   <nav class="hl-cat-nav">
-    {{ range sort .Site.Data.skill_categories "sort_order" }}
+    {{ range hugo.Data.skill_categories }}
       {{ $cat := . }}
       {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
       {{ if gt $count 0 }}
