@@ -16,7 +16,7 @@ tdp_watts: 300
 interface: 'PCIe 5.0 x16'
 product_url: 'https://www.birentech.com/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, biren, hbm2e, ai-inference]
 ---

@@ -9,5 +9,5 @@ logo_url: ''
 founded: '2022'
 headquarters: 'New York, NY'
 date: '2026-07-16'
-rank: 3
+rank: 5
 ---

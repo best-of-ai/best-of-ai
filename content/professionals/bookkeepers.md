@@ -11,4 +11,16 @@ categories:
   - tax-accounting
   - spreadsheets
   - document-ai
+featured_tools:
+  - adobe-acrobat-ai
+  - alphasense
+  - avalara
+  - chatpdf
+  - humata
+  - morningstar-ai
+  - notebooklm
+  - taxjar
+  - turbotax
+  - abbyy
+
 ---

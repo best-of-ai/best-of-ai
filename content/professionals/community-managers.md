@@ -12,6 +12,7 @@ categories:
   - writing-assistants
   - productivity
   - market-research
+  - content-moderation
 featured_tools:
   - chatgpt
   - intercom

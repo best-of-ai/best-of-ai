@@ -20,7 +20,7 @@ tdp_watts: 175
 interface: 'Laptop MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/50-series/rtx-5090/'
 logo_url: ''
-rank: 7
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, blackwell, gddr7, laptop]
 ---

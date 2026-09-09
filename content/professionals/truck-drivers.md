@@ -11,4 +11,16 @@ categories:
   - travel
   - weather
   - productivity
+featured_tools:
+  - asana
+  - clickup
+  - todoist
+  - akiflow
+  - fleetio
+  - hopper
+  - slack-ai
+  - sunsama
+  - tripadvisor
+  - wanderlog
+
 ---

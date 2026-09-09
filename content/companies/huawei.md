@@ -11,5 +11,5 @@ headquarters: 'Shenzhen, China'
 founders:
   - 'Ren Zhengfei'
 date: '2026-07-16'
-rank: 7
+rank: 5
 ---

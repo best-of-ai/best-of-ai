@@ -14,7 +14,7 @@ memory_bandwidth_gbps: 2900
 interface: 'UltraServer (NeuronLink)'
 product_url: 'https://aws.amazon.com/machine-learning/trainium/'
 logo_url: ''
-rank: 7
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, aws, hbm3, ai-training]
 ---

@@ -21,7 +21,7 @@ fp32_tflops: 36.1
 interface: 'PCIe 5.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/amd-radeon-rx-9070'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, rdna-4, gddr6, gaming]
 ---

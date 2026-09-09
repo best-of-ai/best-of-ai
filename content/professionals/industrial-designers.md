@@ -11,6 +11,7 @@ categories:
   - graphic-design
   - image-generation
   - data
+  - 3d-printing
 featured_tools:
   - chatgpt
   - spline

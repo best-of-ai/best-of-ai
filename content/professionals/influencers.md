@@ -11,6 +11,7 @@ categories:
   - video-editor
   - copywriting
   - marketing
+  - meme-generator
 featured_tools:
   - chatgpt
   - canva

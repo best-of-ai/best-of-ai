@@ -23,7 +23,7 @@ fp32_tflops: 15.1
 interface: 'PCIe 4.0 x8'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ada-lovelace, gddr6, gaming]
 ---

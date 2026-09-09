@@ -8,10 +8,17 @@ website: 'https://docs.nvidia.com/nim/'
 company: 'nvidia'
 logo_url: ''
 category: 'devtools'
+alternatives:
+  - baseten
+  - replicate
+  - together-ai
+  - fireworks-ai
+  - deepinfra
+  - openrouter
 category_name: 'DevTools'
 price: 'Freemium'
 featured: false
-rank: 8
+rank: 5
 date: '2026-07-17'
-tags: [ai_infrastructure, inference, model_deployment, gpu, api, llmops, developer_tools, containers]
+tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based, model_based]
 ---

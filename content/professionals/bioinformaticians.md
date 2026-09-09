@@ -11,4 +11,16 @@ categories:
   - data
   - research-tools
   - drug-discovery
+featured_tools:
+  - amplitude-ai
+  - perplexity-research
+  - power-bi
+  - scale-ai
+  - scispace
+  - semantic-scholar
+  - tableau
+  - atomwise
+  - benchling
+  - connected-papers
+
 ---

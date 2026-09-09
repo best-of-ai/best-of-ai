@@ -11,7 +11,7 @@ category: 'image-generation'
 category_name: 'Image Generation'
 price: 'Free'
 featured: false
-rank: 9
+rank: 8
 date: '2026-07-17'
 alternatives:
   - flux
@@ -22,5 +22,5 @@ alternatives:
   - civitai
   - leonardo-ai
   - artbreeder
-tags: [image_generation, creative, text_to_image, open_source, visual, graphics, generative_ai, diffusion, self_hosted, image_based, model_based]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, open_source, free_tier, image_based]
 ---

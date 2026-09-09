@@ -11,6 +11,7 @@ categories:
   - writing-assistants
   - automation
   - business-tools
+  - local-search-engines
 featured_tools:
   - chatgpt
   - wanderlog

@@ -11,6 +11,7 @@ categories:
   - productivity
   - document-ai
   - research-tools
+  - pets
 featured_tools:
   - chatgpt
   - nuance-dax

@@ -17,11 +17,11 @@
 
     <div class="cat-list-hero">
       <h1 class="cat-list-hero__title">Model Categories</h1>
-      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len .Site.Data.model_categories) }} categories of AI models and LLMs.</p>
+      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len hugo.Data.model_categories) }} categories of AI models and LLMs.</p>
     </div>
 
     <div class="cat-list-grid">
-      {{ range sort .Site.Data.model_categories "sort_order" }}
+      {{ range sort hugo.Data.model_categories "sort_order" }}
         {{ $cat := . }}
         {{ $count := 0 }}
         {{ if eq $cat.filter_field "runs_at_home" }}

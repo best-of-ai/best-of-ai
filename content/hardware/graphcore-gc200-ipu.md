@@ -18,7 +18,7 @@ tdp_watts: 300
 interface: 'IPU-Machine'
 product_url: 'https://www.graphcore.ai/products/ipu'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [ipu, graphcore, sram, ai-training]
 ---

@@ -13,6 +13,8 @@ categories:
   - academia
   - research-tools
   - note-taking-apps
+  - mind-mapping
+  - reading
 featured_tools:
   - chatgpt
   - notebooklm

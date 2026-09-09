@@ -11,4 +11,16 @@ categories:
   - sports-analytics
   - data
   - video
+featured_tools:
+  - runway
+  - amplitude-ai
+  - pika-labs
+  - power-bi
+  - scale-ai
+  - tableau
+  - catapult-sports
+  - dataiku
+  - hudl
+  - stats-perform
+
 ---

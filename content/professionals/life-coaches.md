@@ -11,4 +11,16 @@ categories:
   - productivity
   - business-tools
   - learning-tools
+featured_tools:
+  - asana
+  - hubspot-business
+  - clickup
+  - todoist
+  - akiflow
+  - betterup
+  - brilliant
+  - calm
+  - carnegie-learning
+  - chegg-ai
+
 ---

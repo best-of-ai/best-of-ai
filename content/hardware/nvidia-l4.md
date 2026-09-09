@@ -20,7 +20,7 @@ tdp_watts: 72
 fp32_tflops: 30.3
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/data-center/l4/'
-rank: 7
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['datacenter-gpu', 'ada-lovelace', 'ai-inference', 'low-power']

@@ -23,7 +23,7 @@ fp32_tflops: 6.1
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/geforce-gtx-980-ti/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, maxwell, gddr5, legacy]
 ---

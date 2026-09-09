@@ -16,6 +16,8 @@ categories:
   - lead-generation
   - market-research
   - copywriting
+  - ai-newsletters
+  - local-search-engines
 featured_tools:
   - chatgpt
   - semrush

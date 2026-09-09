@@ -20,7 +20,7 @@ fp32_tflops: 22.6
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi200/mi210.html'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, cdna-2, hbm2e, ai-training]
 ---

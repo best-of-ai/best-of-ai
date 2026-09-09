@@ -186,6 +186,44 @@
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{ end }}
 
+{{/* ── Article (help pages) ── */}}
+{{ if and .IsPage (eq .Section "help") }}
+{{ $p := .Params }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "@id" .Permalink
+  "headline" ($p.title | default .Title)
+  "description" ($p.subtitle | default "")
+  "url" .Permalink
+  "inLanguage" "en-US"
+  "isPartOf" (dict "@type" "CollectionPage" "name" "Help Center" "url" (printf "%s/help/" $siteURL))
+  "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL "logo" (dict "@type" "ImageObject" "url" (printf "%s/img/favicon/web-app-manifest-512x512.png" $siteURL)))
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+}}
+{{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{/* ── CollectionPage (help index) ── */}}
+{{ if and (eq .Kind "section") (eq .Section "help") }}
+{{ $helpPages := sort (where .Site.RegularPages "Section" "help") "Params.order" "asc" }}
+{{ $listItems := slice }}
+{{ range $i, $page := $helpPages }}
+  {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "url" $page.Permalink "name" ($page.Params.title | default $page.Title)) }}
+{{ end }}
+{{ $collectionSchema := dict
+  "@context" "https://schema.org"
+  "@type" "CollectionPage"
+  "name" "Help Center"
+  "description" (.Params.description | default "How Best of AI works.")
+  "url" .Permalink
+  "numberOfItems" (len $helpPages)
+  "mainEntity" (dict "@type" "ItemList" "name" "Help Center" "numberOfItems" (len $helpPages) "itemListElement" $listItems)
+}}
+<script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ end }}
+
 {{/* ── Blog + CollectionPage (journal index) ── */}}
 {{ if and (eq .Kind "section") (eq .Section "journal") }}
 {{ $posts := sort (where .Site.RegularPages "Section" "journal") "Date" "desc" }}
@@ -253,6 +291,9 @@
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "journal") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "The AI Journal" "item" (printf "%s/journal/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "help") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Help Center" "item" (printf "%s/help/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
 {{ else if eq .Kind "section" }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (.Title | default "Categories") "item" .Permalink) }}

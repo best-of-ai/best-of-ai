@@ -11,4 +11,16 @@ categories:
   - crm
   - presentation
   - documentation
+featured_tools:
+  - hubspot-crm
+  - salesforce
+  - pipedrive
+  - zoho-crm
+  - amplemarket
+  - apollo
+  - beautiful-ai
+  - chorus-ai
+  - clay
+  - confluence-ai
+
 ---

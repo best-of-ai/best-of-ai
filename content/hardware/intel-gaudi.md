@@ -16,7 +16,7 @@ tdp_watts: 350
 interface: 'OAM'
 product_url: 'https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, gaudi, hbm2, ai-training]
 ---

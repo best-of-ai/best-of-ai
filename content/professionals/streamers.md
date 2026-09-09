@@ -11,4 +11,16 @@ categories:
   - social-media-tools
   - chatbot-builders
   - audio
+featured_tools:
+  - elevenlabs
+  - runway
+  - adobe-podcast
+  - buffer
+  - descript
+  - krisp
+  - murf
+  - pika-labs
+  - sprout-social
+  - botpress
+
 ---

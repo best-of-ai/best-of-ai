@@ -11,4 +11,16 @@ categories:
   - ai-agents
   - code-assistant
   - productivity
+featured_tools:
+  - asana
+  - aider
+  - amazon-codewhisperer
+  - amazon-q
+  - bolt-new
+  - clickup
+  - cline
+  - codeium
+  - cursor-composer
+  - devin
+
 ---

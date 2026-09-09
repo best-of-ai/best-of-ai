@@ -2771,6 +2771,12 @@ a.journal-post__author:hover { text-decoration: underline; opacity: 1; }
   margin-bottom: 2rem;
 }
 
+/* ── Help Center (/help/) ── */
+.help-siblings {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
 /* ── Submit page ── */
 /* ── Submit page ── */
 .submit-page {

@@ -11,4 +11,16 @@ categories:
   - finance
   - compliance
   - document-ai
+featured_tools:
+  - adobe-acrobat-ai
+  - greenhouse
+  - alphasense
+  - chatpdf
+  - humata
+  - morningstar-ai
+  - notebooklm
+  - onetrust
+  - 15five-ai
+  - abbyy
+
 ---

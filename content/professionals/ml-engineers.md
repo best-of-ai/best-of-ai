@@ -12,6 +12,8 @@ categories:
   - code-assistant
   - models
   - automation
+  - data-labeling
+  - synthetic-data
 featured_tools:
   - chatgpt
   - github-copilot
@@ -20,7 +22,7 @@ featured_tools:
   - databricks
   - vertex-ai
   - hugging-face
-  - claude-3
+  - claude
   - deepseek
   - gemini-pro
 

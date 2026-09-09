@@ -13,7 +13,7 @@ memory_type: 'DDR4'
 interface: 'EC2 Inf1'
 product_url: 'https://aws.amazon.com/machine-learning/inferentia/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, aws, ai-inference]
 ---

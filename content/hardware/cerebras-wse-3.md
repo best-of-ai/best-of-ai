@@ -17,7 +17,7 @@ tdp_watts: 23000
 interface: 'CS-3 system'
 product_url: 'https://www.cerebras.ai/product-chip/'
 logo_url: ''
-rank: 7
+rank: 5
 date: '2026-07-16'
 tags: [wafer-scale, cerebras, sram, ai-training]
 ---

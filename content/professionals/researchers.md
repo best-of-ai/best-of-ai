@@ -15,6 +15,9 @@ categories:
   - note-taking-apps
   - knowledge-management
   - translator
+  - ai-directories
+  - ai-newsletters
+  - reading
 featured_tools:
   - chatgpt
   - elicit

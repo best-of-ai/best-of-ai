@@ -21,7 +21,7 @@ fp32_tflops: 10.3
 interface: 'PCIe 4.0 x8'
 product_url: 'https://www.amd.com/en/products/graphics/workstations/radeon-pro/w6000/amd-radeon-pro-w6600.html'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, rdna-2, gddr6, creative]
 ---

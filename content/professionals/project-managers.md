@@ -14,6 +14,7 @@ categories:
   - workflow-automation
   - automation
   - productivity
+  - mind-mapping
 featured_tools:
   - chatgpt
   - linear

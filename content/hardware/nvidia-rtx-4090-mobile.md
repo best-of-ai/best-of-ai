@@ -20,7 +20,7 @@ tdp_watts: 150
 fp32_tflops: 39
 interface: 'MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/40-series/rtx-4090/'
-rank: 6
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['mobile-gpu', 'ada-lovelace', 'laptop']

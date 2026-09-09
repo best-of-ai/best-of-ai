@@ -10,7 +10,7 @@ category: 'business-tools'
 category_name: 'Business Tools'
 price: 'Freemium'
 featured: false
-rank: 4
+rank: 5
 alternatives:
   - denovo-ai
   - hubspot-business
@@ -18,5 +18,5 @@ alternatives:
   - pandadoc-ai
   - proposify-ai
 date: '2026-07-16'
-tags: [business, startup, founder, coaching, productivity, playbooks, roadmap, saas, entrepreneurship, planning]
+tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, mobile_app, cloud_based]
 ---

@@ -23,7 +23,7 @@ fp32_tflops: 52.2
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4080-family/'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ada-lovelace, gddr6x, gaming]
 ---

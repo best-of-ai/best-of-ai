@@ -11,7 +11,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
-rank: 7
+rank: 5
 date: '2026-07-17'
 alternatives:
   - lovable
@@ -19,5 +19,5 @@ alternatives:
   - v0
   - replit
   - flutterflow
-tags: [app_builder, code_generation, prototyping, ui_design, developer_tools, no_code, collaboration, design_system]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, image_based]
 ---

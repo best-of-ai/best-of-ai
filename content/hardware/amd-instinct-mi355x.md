@@ -17,7 +17,7 @@ tdp_watts: 1400
 interface: 'OAM'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi300/mi355x.html'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, cdna-4, hbm3e, ai-training]
 ---

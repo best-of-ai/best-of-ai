@@ -11,4 +11,16 @@ categories:
   - image-editing
   - business-tools
   - social-media-tools
+featured_tools:
+  - hubspot-business
+  - buffer
+  - sprout-social
+  - adobe-lightroom-ai
+  - befunky
+  - cleanup-pictures
+  - fotor
+  - lensa-ai
+  - luminar-neo
+  - neural-love
+
 ---

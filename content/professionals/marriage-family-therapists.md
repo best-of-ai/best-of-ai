@@ -11,4 +11,16 @@ categories:
   - healthcare
   - document-ai
   - telemedicine
+featured_tools:
+  - adobe-acrobat-ai
+  - betterhelp
+  - chatpdf
+  - doxy-me
+  - humata
+  - notebooklm
+  - teladoc
+  - woebot
+  - wysa
+  - abbyy
+
 ---

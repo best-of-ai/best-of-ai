@@ -9,5 +9,5 @@ logo_url: ''
 founded: '2014'
 headquarters: 'Seattle, WA'
 date: '2026-07-16'
-rank: 6
+rank: 5
 ---

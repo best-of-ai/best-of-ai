@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 819
 tdp_watts: 0
 interface: 'ICI'
 product_url: 'https://cloud.google.com/tpu/docs/v5e'
-rank: 7
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['accelerator', 'tpu', 'ai-inference', 'cloud']

@@ -22,5 +22,5 @@ alternatives:
   - fireflies-ai
   - notta
   - happyscribe
-tags: [transcription, speech_to_text, audio, open_source, self_hosted, api, machine_learning, multilingual, model_based]
+tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, open_source, free_tier, voice_enabled]
 ---

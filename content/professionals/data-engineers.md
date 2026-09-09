@@ -12,6 +12,9 @@ categories:
   - devtools
   - workflow-automation
   - code-assistant
+  - data-labeling
+  - synthetic-data
+  - database-tools
 featured_tools:
   - chatgpt
   - databricks

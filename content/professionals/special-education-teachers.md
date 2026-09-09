@@ -11,4 +11,16 @@ categories:
   - accessibility
   - document-ai
   - productivity
+featured_tools:
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+  - todoist
+  - akiflow
+  - brilliant
+  - carnegie-learning
+  - chatpdf
+  - chegg-ai
+  - coursera
+
 ---

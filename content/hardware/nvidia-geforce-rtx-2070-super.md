@@ -23,7 +23,7 @@ fp32_tflops: 9.1
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2070-super/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, turing, gddr6, gaming]
 ---

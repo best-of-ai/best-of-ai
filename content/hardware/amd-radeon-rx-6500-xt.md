@@ -22,7 +22,7 @@ fp32_tflops: 5.8
 interface: 'PCIe 4.0 x4'
 product_url: 'https://www.amd.com/en/products/graphics/amd-radeon-rx-6500-xt'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, rdna-2, gddr6, gaming]
 ---

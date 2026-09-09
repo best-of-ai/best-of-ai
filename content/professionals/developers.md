@@ -16,6 +16,7 @@ categories:
   - data
   - automation
   - workflow-automation
+  - database-tools
 featured_tools:
   - github-copilot
   - cursor

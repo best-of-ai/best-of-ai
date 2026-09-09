@@ -23,7 +23,7 @@ fp32_tflops: 56.3
 interface: 'PCIe 5.0 x16'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, blackwell, gddr7, gaming]
 ---

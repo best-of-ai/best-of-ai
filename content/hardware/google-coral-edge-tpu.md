@@ -13,7 +13,7 @@ tdp_watts: 2
 interface: 'USB / M.2 / PCIe'
 product_url: 'https://coral.ai/products/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [edge-ai, google, ai-inference]
 ---

@@ -13,7 +13,7 @@ memory_type: 'LPDDR'
 interface: 'PCIe / Ethernet'
 product_url: 'https://www.qualcomm.com/products/technology/processors/ai200'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, qualcomm, lpddr, ai-inference, rack-scale]
 ---

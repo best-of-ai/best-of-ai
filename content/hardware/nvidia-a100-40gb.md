@@ -22,7 +22,7 @@ fp32_tflops: 19.5
 interface: 'SXM4'
 product_url: 'https://www.nvidia.com/en-us/data-center/a100/'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, ampere, hbm2, ai-training]
 ---

@@ -11,5 +11,5 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Mira Murati'
 date: '2026-07-25'
-rank: 7
+rank: 5
 ---

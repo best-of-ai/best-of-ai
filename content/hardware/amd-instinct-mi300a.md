@@ -18,7 +18,7 @@ fp32_tflops: 122.6
 interface: 'Socketed APU'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, cdna-3, hbm3, apu, ai-training]
 ---

@@ -10,7 +10,7 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 date: '2026-07-29'
 alternatives:
   - manus
@@ -18,5 +18,5 @@ alternatives:
   - crewai
   - langchain
   - openai-operator
-tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, no_code]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, image_based, model_based]
 ---

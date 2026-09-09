@@ -16,7 +16,7 @@ tdp_watts: 310
 interface: 'OAM'
 product_url: 'https://www.hiascend.com/en/hardware/ascend-910'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, huawei, hbm2, ai-training]
 ---

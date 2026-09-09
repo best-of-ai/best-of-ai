@@ -20,7 +20,7 @@ fp32_tflops: 45.3
 interface: 'OAM'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi200/mi250.html'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, cdna-2, hbm2e, ai-training]
 ---

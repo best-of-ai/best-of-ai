@@ -21,7 +21,7 @@ fp32_tflops: 3.1
 interface: 'PCIe 4.0 x4 (low profile)'
 product_url: 'https://www.intel.com/content/www/us/en/products/sku/229151/intel-arc-a310-graphics/specifications.html'
 logo_url: ''
-rank: 2
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, alchemist, gddr6, htpc]
 ---

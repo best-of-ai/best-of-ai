@@ -15,6 +15,7 @@ categories:
   - no-code
   - app-builders
   - presentation
+  - ai-directories
 featured_tools:
   - chatgpt
   - hubspot-business

@@ -17,7 +17,7 @@ tdp_watts: 700
 interface: 'SXM'
 product_url: 'https://www.nvidia.com/en-us/data-center/hgx/'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, blackwell, hbm3e, ai-training]
 ---

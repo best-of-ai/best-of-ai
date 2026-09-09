@@ -14,7 +14,7 @@ memory_type: 'HBM4'
 interface: 'OAM'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi400.html'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-08-09'
 tags: [datacenter-gpu, cdna-5, hbm4, enterprise-ai, on-premise, ai-inference]
 ---

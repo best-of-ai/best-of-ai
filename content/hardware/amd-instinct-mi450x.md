@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 19600
 interface: 'OAM'
 product_url: 'https://www.amd.com/en/products/accelerators/instinct/mi400.html'
 logo_url: ''
-rank: 9
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, cdna-5, hbm4, ai-training, ai-inference, rack-scale]
 ---

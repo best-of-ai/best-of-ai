@@ -12,7 +12,7 @@ memory_type: 'DDR3'
 interface: 'PCIe (internal only)'
 product_url: 'https://cloud.google.com/tpu'
 logo_url: ''
-rank: 2
+rank: 5
 date: '2026-07-16'
 tags: [tpu, google-cloud, ai-inference, legacy]
 ---

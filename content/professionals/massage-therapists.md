@@ -11,4 +11,16 @@ categories:
   - wellness
   - business-tools
   - productivity
+featured_tools:
+  - asana
+  - hubspot-business
+  - clickup
+  - todoist
+  - akiflow
+  - betterup
+  - calm
+  - headspace
+  - slack-ai
+  - sunsama
+
 ---

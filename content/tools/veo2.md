@@ -11,7 +11,7 @@ category: 'video-generator'
 category_name: 'Video Generator'
 price: 'Paid'
 featured: false
-rank: 6
+rank: 5
 date: '2026-07-17'
 alternatives:
   - veo-3
@@ -22,5 +22,5 @@ alternatives:
   - pika-video
   - hailuo-ai
   - haiper
-tags: [video_generation, creative, text_to_video, animation, legacy, ai_video, generative, image_based, model_based]
+tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, integrations, voice_enabled, model_based]
 ---

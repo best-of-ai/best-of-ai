@@ -9,5 +9,5 @@ logo_url: ''
 founded: '2020'
 headquarters: 'Seoul, South Korea'
 date: '2026-07-16'
-rank: 4
+rank: 5
 ---

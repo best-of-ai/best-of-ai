@@ -22,4 +22,5 @@ categories:
   - image-generation
   - animation
   - gaming
+  - ar-vr
 ---

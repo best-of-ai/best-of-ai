@@ -22,7 +22,7 @@ tdp_watts: 300
 fp32_tflops: 38
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.nvidia.com/en-us/design-visualization/rtx-a6000/'
-rank: 7
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['workstation-gpu', 'ampere', 'ecc']

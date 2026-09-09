@@ -12,6 +12,7 @@ categories:
   - writing-assistants
   - image-generation
   - social-media-tools
+  - meme-generator
 featured_tools:
   - chatgpt
   - capcut

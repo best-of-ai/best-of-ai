@@ -11,4 +11,16 @@ categories:
   - document-ai
   - compliance
   - customer-support
+featured_tools:
+  - adobe-acrobat-ai
+  - drift
+  - freshdesk
+  - intercom
+  - zendesk
+  - alphasense
+  - chatbase
+  - chatpdf
+  - forethought-ai
+  - gorgias
+
 ---

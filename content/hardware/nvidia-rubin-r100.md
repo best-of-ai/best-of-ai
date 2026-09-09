@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 22000
 interface: 'NVLink 6'
 product_url: 'https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/'
 logo_url: ''
-rank: 10
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, rubin, hbm4, ai-training, ai-inference, rack-scale]
 ---

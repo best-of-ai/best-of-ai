@@ -23,7 +23,7 @@ fp32_tflops: 9.6
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/data-center/tesla-m60/'
 logo_url: ''
-rank: 2
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, maxwell, gddr5, legacy]
 ---

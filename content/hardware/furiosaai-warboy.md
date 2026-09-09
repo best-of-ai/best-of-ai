@@ -15,7 +15,7 @@ tdp_watts: 180
 interface: 'PCIe 4.0 x8'
 product_url: 'https://furiosa.ai/warboy'
 logo_url: ''
-rank: 2
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, furiosa, ai-inference]
 ---

@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ $posts := sort (where .Site.RegularPages "Section" "help") "Params.order" "asc" }}
+
+<div class="home-layout">
+
+  {{ partial "left-sidebar.html" . }}
+
+  <main class="hl-center">
+
+    <nav class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span class="breadcrumb__sep">/</span>
+      <span class="breadcrumb__cur">Help Center</span>
+    </nav>
+
+    <div class="journal-hero">
+      <h1 class="journal-hero__title">Help Center</h1>
+      <p class="journal-hero__sub">{{ .Params.description | default "How Best of AI works, from curation to contributing." }}</p>
+    </div>
+
+    {{ if $posts }}
+    <div class="journal-list">
+      {{ range $posts }}
+      {{ $p := .Params }}
+      <a href="{{ .RelPermalink }}" class="journal-card">
+        <div class="journal-card__body">
+          <h2 class="journal-card__title">{{ $p.title | default .Title }}</h2>
+          {{ with $p.subtitle }}<p class="journal-card__sub">{{ . }}</p>{{ end }}
+        </div>
+        <span class="journal-card__arrow" aria-hidden="true">→</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="journal-empty">No help articles yet. Add a Markdown file to <code>content/help/</code> to publish one.</p>
+    {{ end }}
+
+  </main>
+
+  {{ partial "right-sidebar.html" . }}
+
+</div>
+{{ partial "sidebar-search-js.html" . }}
+{{ end }}

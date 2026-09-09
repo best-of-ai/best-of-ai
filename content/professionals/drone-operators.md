@@ -11,4 +11,16 @@ categories:
   - computer-vision
   - 3d
   - video
+featured_tools:
+  - runway
+  - aws-rekognition
+  - clarifai
+  - pika-labs
+  - alpha3d
+  - arcgis
+  - kaedim
+  - luma-ai
+  - mapbox
+  - masterpiece-studio
+
 ---

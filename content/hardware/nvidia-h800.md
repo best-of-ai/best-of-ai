@@ -21,7 +21,7 @@ fp32_tflops: 67
 interface: 'SXM5'
 product_url: 'https://www.nvidia.com/en-us/data-center/h100/'
 logo_url: ''
-rank: 8
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, hopper, hbm3, ai-training]
 ---

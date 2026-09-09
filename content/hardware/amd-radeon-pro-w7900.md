@@ -19,7 +19,7 @@ tdp_watts: 295
 fp32_tflops: 61
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/workstations/radeon-pro/w7000/amd-radeon-pro-w7900.html'
-rank: 7
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['workstation-gpu', 'rdna3', 'ecc']

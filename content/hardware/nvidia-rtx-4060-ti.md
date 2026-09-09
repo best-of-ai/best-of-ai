@@ -22,7 +22,7 @@ tdp_watts: 165
 fp32_tflops: 22
 interface: 'PCIe 4.0 x8'
 product_url: 'https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/'
-rank: 6
+rank: 5
 logo_url: ''
 date: '2026-07-16'
 tags: ['consumer-gpu', 'ada-lovelace', 'gddr6', 'gaming']

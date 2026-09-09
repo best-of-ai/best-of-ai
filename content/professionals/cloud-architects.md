@@ -12,6 +12,7 @@ categories:
   - automation
   - diagramming
   - code-assistant
+  - database-tools
 featured_tools:
   - chatgpt
   - github-copilot

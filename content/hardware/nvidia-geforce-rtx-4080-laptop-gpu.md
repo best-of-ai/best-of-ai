@@ -20,7 +20,7 @@ tdp_watts: 175
 interface: 'Laptop MXM'
 product_url: 'https://www.nvidia.com/en-us/geforce/laptops/40-series/rtx-4080/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, ada-lovelace, gddr6, laptop]
 ---

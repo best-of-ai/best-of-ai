@@ -22,7 +22,7 @@ fp32_tflops: 14
 interface: 'PCIe 3.0 x16'
 product_url: 'https://www.nvidia.com/en-us/data-center/v100/'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [datacenter-gpu, volta, hbm2, ai-training]
 ---

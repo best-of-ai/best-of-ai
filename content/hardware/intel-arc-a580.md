@@ -21,7 +21,7 @@ fp32_tflops: 12.3
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.intel.com/content/www/us/en/products/sku/232614/intel-arc-a580-graphics/specifications.html'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-07-16'
 tags: [consumer-gpu, alchemist, gddr6, gaming]
 ---

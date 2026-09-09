@@ -11,4 +11,16 @@ categories:
   - language-learning
   - document-ai
   - productivity
+featured_tools:
+  - asana
+  - adobe-acrobat-ai
+  - clickup
+  - todoist
+  - akiflow
+  - babbel
+  - brilliant
+  - busuu
+  - carnegie-learning
+  - chatpdf
+
 ---

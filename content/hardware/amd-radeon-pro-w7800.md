@@ -21,7 +21,7 @@ fp32_tflops: 45.2
 interface: 'PCIe 4.0 x16'
 product_url: 'https://www.amd.com/en/products/graphics/workstations/radeon-pro/w7000/amd-radeon-pro-w7800.html'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-07-16'
 tags: [workstation-gpu, rdna-3, gddr6, creative]
 ---

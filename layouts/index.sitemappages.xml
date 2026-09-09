@@ -104,6 +104,20 @@
     <priority>0.6</priority>
   </url>
 {{- end }}
+  <url>
+    <loc>{{ "/help/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+{{- range where .Site.RegularPages "Section" "help" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+{{- end }}
 {{- range where .Site.RegularPages "Section" "categories" }}
   <url>
     <loc>{{ .Permalink }}</loc>

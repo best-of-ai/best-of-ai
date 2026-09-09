@@ -16,7 +16,7 @@ tdp_watts: 120
 interface: 'PCIe 4.0 x16'
 product_url: 'https://kunlun.baidu.com/'
 logo_url: ''
-rank: 3
+rank: 5
 date: '2026-07-16'
 tags: [ai-accelerator, baidu, gddr6, ai-training]
 ---

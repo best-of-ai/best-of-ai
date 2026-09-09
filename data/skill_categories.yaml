@@ -1,0 +1,63 @@
+-
+  name: 'Document Automation'
+  slug: 'document-automation'
+  description: 'Skills that read, generate, or edit Word, PDF, Excel, and PowerPoint files.'
+  filter_field: 'skill_type'
+  filter_value: 'Document Automation'
+  sort_order: 0
+-
+  name: 'Development & Engineering'
+  slug: 'development-engineering'
+  description: 'Skills for building software, MCP servers, and agent tooling.'
+  filter_field: 'skill_type'
+  filter_value: 'Development & Engineering'
+  sort_order: 1
+-
+  name: 'Code Review & Quality'
+  slug: 'code-review-quality'
+  description: 'Skills that review, simplify, or harden code before it ships.'
+  filter_field: 'skill_type'
+  filter_value: 'Code Review & Quality'
+  sort_order: 2
+-
+  name: 'Testing & Debugging'
+  slug: 'testing-debugging'
+  description: 'Skills that drive test-first development and root-cause debugging.'
+  filter_field: 'skill_type'
+  filter_value: 'Testing & Debugging'
+  sort_order: 3
+-
+  name: 'Workflow & Productivity'
+  slug: 'workflow-productivity'
+  description: 'Skills that manage planning, scheduling, and day-to-day agent workflow.'
+  filter_field: 'skill_type'
+  filter_value: 'Workflow & Productivity'
+  sort_order: 4
+-
+  name: 'Design & Creative'
+  slug: 'design-creative'
+  description: 'Skills for visual design, illustration, and creative asset generation.'
+  filter_field: 'skill_type'
+  filter_value: 'Design & Creative'
+  sort_order: 5
+-
+  name: 'Communication & Writing'
+  slug: 'communication-writing'
+  description: 'Skills for drafting internal comms, editing tone, and calibrating messages.'
+  filter_field: 'skill_type'
+  filter_value: 'Communication & Writing'
+  sort_order: 6
+-
+  name: 'Business & Finance'
+  slug: 'business-finance'
+  description: 'Skills for tax filing, e-commerce analysis, and other business workflows.'
+  filter_field: 'skill_type'
+  filter_value: 'Business & Finance'
+  sort_order: 7
+-
+  name: 'Browser & Agent Automation'
+  slug: 'browser-agent-automation'
+  description: 'Skills that let an agent control a browser or other live tools directly.'
+  filter_field: 'skill_type'
+  filter_value: 'Browser & Agent Automation'
+  sort_order: 8

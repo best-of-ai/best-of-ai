@@ -11,4 +11,16 @@ categories:
   - knowledge-management
   - research-tools
   - data
+featured_tools:
+  - notion-ai
+  - adobe-acrobat-ai
+  - amplitude-ai
+  - perplexity-research
+  - power-bi
+  - scale-ai
+  - scispace
+  - semantic-scholar
+  - tableau
+  - capacities
+
 ---
