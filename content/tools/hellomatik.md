@@ -1,23 +1,24 @@
 ---
 title: 'Hellomatik'
 name: 'Hellomatik'
-subtitle: 'AI agent platform that answers, sells and books across WhatsApp, email, web and phone'
+subtitle: 'AI agents that know your company'
 slug: 'hellomatik'
-description: 'Hellomatik is an AI agent platform that turns a company knowledge base into agents handling customer support, assisted selling and back-office processes across WhatsApp, web chat, email and phone. Agents answer questions 24/7, book and reschedule appointments, generate quotes from price lists and follow up on invoices, connecting to existing systems through integrations such as Shopify, Stripe and Sage without code.'
+description: 'Hellomatik integrates the data from a company''s systems (ERP, CRM, warehouse management system and email) into a single blueprint, for one department or the whole organisation. AI agents operate on that blueprint: they answer business questions, send alerts and prepare each operation, and the company decides which operations complete automatically and which wait for an approver to accept, amend or reject.'
 website: 'https://hellomatik.com'
 company: 'hellomatik'
 logo_url: ''
-category: 'customer-support'
-category_name: 'Customer Support'
+category: 'ai-agents'
+category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 100
 alternatives:
-  - intercom
-  - zendesk
-  - freshdesk
+  - lindy
+  - vellum
+  - n8n
+  - relevance-ai
 date: '2026-07-21'
-tags: [customer_support, chatbot, business, whatsapp, voice_ai, ai_agents, automation, booking, scheduling, multichannel]
+tags: [ai_agent, automation, business, operations, erp, workflow_automation, approvals, agents]
 ---
 
-Hellomatik lets companies build AI agents from their own knowledge that answer, sell and execute across WhatsApp, web chat, email and phone. Common use cases include 24/7 customer support, assisted selling inside a store chat, appointment booking and rescheduling, quote generation from price lists, invoice follow-up and automated management reports. Agents connect to existing systems and integrations (such as Shopify, Stripe and Sage) and can be assembled into workflows without code.
+The company blueprint records the data the company holds, how each task is carried out and how each business question is analysed. A use case is one department task whose result the agent prepares; an approval is the decision a person takes on that result, and every approval is recorded in the approval log.
