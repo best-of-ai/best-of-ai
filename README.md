@@ -5,7 +5,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-1368-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-1369-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -17,7 +17,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1368+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 1369+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -170,7 +170,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Translator](#translator) (10)
   - [Travel](#travel) (4)
   - [Video Editor](#video-editor) (20)
-  - [Video Enhancer](#video-enhancer) (4)
+  - [Video Enhancer](#video-enhancer) (5)
   - [Video Generator](#video-generator) (36)
   - [Video Subtitling](#video-subtitling) (5)
   - [Voice Cloning](#voice-cloning) (9)
@@ -1865,8 +1865,8 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[AIVE](https://aive.video)** — [review](https://bestofai.io/tools/aive/) — AI video enhancement and upscaling tool ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)** — [review](https://bestofai.io/tools/real-esrgan/) — AI super-resolution for video enhancement ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Topaz Video AI](https://topazlabs.com/video-ai)** — [review](https://bestofai.io/tools/topaz-video-ai/) — AI video upscaling and enhancement software ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
-- **[Waifu2x](https://waifu2x.udp.jp)** — [review](https://bestofai.io/tools/waifu2x/) — AI image and video upscaler for anime content ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 4 Video Enhancer tools on bestofai.io →](https://bestofai.io/categories/video-enhancer/)*
+- **[UpRes](https://upres.ai)** — [review](https://bestofai.io/tools/upres/) — AI image and video upscaler up to 8K ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- *[View all 5 Video Enhancer tools on bestofai.io →](https://bestofai.io/categories/video-enhancer/)*
 
 ---
 
