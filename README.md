@@ -509,6 +509,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI-powered search engines delivering smarter, more contextual web search results.
 
+- **[Algolia AI Search](https://www.algolia.com/products/ai-search)** — [review](https://bestofai.io/tools/algolia-ai-search/) — API-first semantic and keyword search for AI experiences ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Arc Browser](https://arc.net)** — [review](https://bestofai.io/tools/arc-browser/) — Next-gen browser with built-in AI for browsing and search ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Devv.ai](https://devv.ai)** — [review](https://bestofai.io/tools/devv-ai/) — AI-powered search engine for developers ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Exa AI](https://exa.ai)** — [review](https://bestofai.io/tools/exa-ai/) — Semantic search API for AI applications ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
@@ -581,6 +582,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > Comprehensive directories and listings of AI tools and services
 
+- **[](https://theresanaiforthat.com)** — [review](https://bestofai.io/tools/theres-an-ai-for-that/) — Largest AI tools directory, searchable by task ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Best of AI](https://bestofai.io)** — [review](https://bestofai.io/tools/best-of-ai/) — Open source directory of handpicked, ranked AI tools ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[AI For Developer](https://aifordevelopers.org)** — [review](https://bestofai.io/tools/ai-for-developer/) — AI tools and resources specifically curated for developers ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[AIDir.wiki](https://aidir.wiki)** — [review](https://bestofai.io/tools/aidir-wiki/) — Comprehensive wiki directory of AI tools and resources ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
@@ -1251,6 +1253,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 - **[FLUX](https://blackforestlabs.ai)** — [review](https://bestofai.io/tools/flux/) — Open-weight image generation model from Black Forest Labs ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Ideogram](https://ideogram.ai)** — [review](https://bestofai.io/tools/ideogram/) — AI image generator with best-in-class text rendering ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Stable Diffusion](https://stability.ai/stable-diffusion)** — [review](https://bestofai.io/tools/stable-diffusion/) ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Artbreeder](https://artbreeder.com)** — [review](https://bestofai.io/tools/artbreeder/) — Collaborative AI art creation through image blending ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Bing Image Creator](https://bing.com/create)** — [review](https://bestofai.io/tools/bing-image-creator/) — Free AI image generation powered by DALL-E 3 ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - *[View all 34 Image Generation tools on bestofai.io →](https://bestofai.io/categories/image-generation/)*
