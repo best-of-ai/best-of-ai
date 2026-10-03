@@ -15,12 +15,9 @@ rank: 8
 alternatives:
   - testim
   - mabl
-  - be-my-eyes
-  - shorthand
-  - maxar
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - qa-wolf
+  - browserstack-test-companion
+  - momentic-mo
 date: '2025-10-01'
 tags: [integrations, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

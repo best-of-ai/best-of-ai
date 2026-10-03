@@ -11,6 +11,15 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - openai-operator
+  - manus
+  - chatgpt-atlas
+  - perplexity-comet
+  - multion
+  - dify
+  - coze
+  - autogpt
 date: '2026-09-18'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, browser_extension, extensible]
 ---

@@ -11,6 +11,15 @@ category_name: 'Productivity'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - slack-ai
+  - notion
+  - clickup
+  - asana
+  - coda-ai
+  - akiflow
+  - raycast-ai
+  - miro-ai
 date: '2026-09-24'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, customizable]
 ---

@@ -1,0 +1,3 @@
+---
+title: 'Almanac Alternatives'
+---

@@ -11,6 +11,15 @@ category_name: 'Code Assistant'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - cursor-composer
+  - windsurf
+  - devin
+  - cline
+  - aider
+  - sourcegraph-cody
+  - codeium
+  - qodo-ai
 date: '2026-09-27'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

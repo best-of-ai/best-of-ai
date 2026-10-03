@@ -1,0 +1,3 @@
+---
+title: 'Encore AI Alternatives'
+---

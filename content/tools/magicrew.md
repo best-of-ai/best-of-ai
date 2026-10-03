@@ -11,6 +11,15 @@ category_name: 'AI Agents'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - crewai
+  - autogpt
+  - agentgpt
+  - langflow
+  - flowise
+  - dify
+  - coze
+  - smolagents
 date: '2026-09-03'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, collaboration, image_based]
 ---

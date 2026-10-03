@@ -1,0 +1,3 @@
+---
+title: 'Magic Hour Alternatives'
+---

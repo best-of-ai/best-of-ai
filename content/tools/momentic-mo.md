@@ -11,6 +11,12 @@ category_name: 'Software Testing'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - testim
+  - mabl
+  - applitools
+  - qa-wolf
+  - browserstack-test-companion
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -11,6 +11,15 @@ category_name: 'Legal Assistants'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - donotpay
+  - robin-ai
+  - spellbook
+  - juro-ai
+  - ironclad-ai
+  - lexion-ai
+  - harvey
+  - casetext
 date: '2026-09-22'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, machine_learning]
 ---

@@ -12,6 +12,13 @@ category_name: 'Cybersecurity'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - wiz
+  - darktrace
+  - crowdstrike
+  - openai-daybreak
+  - vectra-ai
+  - ghostwall
 date: '2026-09-28'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

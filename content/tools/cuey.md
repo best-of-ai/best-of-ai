@@ -11,6 +11,13 @@ category_name: 'Prompt Tools'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - chatplayground-ai
+  - poe
+  - typingmind
+  - openrouter
+  - flowgpt
+  - enlive
 date: '2026-09-28'
 tags: [model_based, extensible, ai_powered, intelligent, platform, tool, service, solution]
 ---

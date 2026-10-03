@@ -11,6 +11,15 @@ category_name: 'Meeting Assistants'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - wispr-flow
+  - voicetype-ai
+  - otter-ai
+  - fireflies-ai
+  - fathom
+  - grain
+  - tldv
+  - notta
 date: '2026-09-18'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, voice_enabled]
 ---
