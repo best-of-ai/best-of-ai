@@ -11,7 +11,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 alternatives:
   - aider
   - cline
@@ -20,7 +20,7 @@ alternatives:
   - amazon-q
   - blackbox-ai
 date: '2026-08-31'
-tags: [code_generation, developer_tools, productivity, coding, programming, debugging, refactoring, open_source, ai_agent, knowledge_graph, api_available]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, community_driven]
 ---
 
 GitNexus turns a codebase into a knowledge graph that coding agents can query for exact structural information, such as which functions call a given piece of code or which services depend on an API, instead of relying on embedding-based search that can miss or misjudge relationships. It ships with agent skills for exploring, debugging, impact analysis, and refactoring, and can flag when a change in one repository will break something in another before that change is merged.

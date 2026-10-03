@@ -20,7 +20,7 @@ alternatives:
   - airbyte-ai
   - amplitude-ai
 date: '2026-08-31'
-tags: [data_analysis, analytics, business, insights, data_science, reporting, dashboards, sql, enterprise, agentic, decision_making, cloud_based]
+tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, customizable]
 ---
 
 QueryStory built what it calls an agentic data platform, meaning the system does more than store and visualize data the way a traditional BI tool does. It reasons across an organization's data and business context, then produces recommendations meant to be acted on directly rather than dashboards a person still has to interpret and turn into a decision.

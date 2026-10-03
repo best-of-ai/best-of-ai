@@ -18,5 +18,5 @@ alternatives:
   - fotor
   - recraft
   - magic-hour
-tags: [image_generation, video_generation, ai_avatars, product_photography, voice_generation, editing, marketing, content_creation]
+tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, voice_enabled, model_based]
 ---

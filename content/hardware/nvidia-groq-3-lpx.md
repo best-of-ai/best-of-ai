@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 150
 interface: 'Rack-scale (LPX)'
 product_url: 'https://www.nvidia.com/en-gb/data-center/lpx'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-08-31'
 tags: [inference, lpu, sram, nvidia, groq, agentic-ai]
 ---

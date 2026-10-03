@@ -10,7 +10,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Free'
 featured: false
-rank: 9
+rank: 5
 date: '2026-08-31'
 alternatives:
   - claude-code
@@ -20,5 +20,5 @@ alternatives:
   - windsurf
   - cline
   - github-copilot
-tags: [code_generation, developer_tools, productivity, coding, programming, agentic, debugging, refactoring, terminal, open_source, cli, extensible]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, api_available, collaboration]
 ---

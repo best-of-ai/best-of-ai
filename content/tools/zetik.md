@@ -18,7 +18,7 @@ alternatives:
   - brave-leo
   - pi-ai
 date: '2026-08-31'
-tags: [ai_assistant, productivity, research, monitoring, briefing, personal, tasks, automation, news, summarization, cloud_based]
+tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, collaboration]
 ---
 
 Zetik positions itself as a personal intelligence staffer: it monitors podcasts, academic papers, code activity, social posts, and news for the subjects a user tells it to track, then compresses everything into a short brief instead of leaving the user to hunt through separate feeds. The pitch is similar to how an executive relies on staff to stay current, applied to an individual's own interests.

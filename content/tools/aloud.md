@@ -18,7 +18,7 @@ alternatives:
   - windsurf
   - gitnexus
 date: '2026-08-31'
-tags: [code_generation, developer_tools, productivity, coding, voice_control, automation, macos, on_device, privacy, ai_agent, task_automation]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, voice_enabled]
 ---
 
 Aloud is built for the gap between what a developer means and what ends up in a written bug report or feature request. It records voice, screen, and a live transcript while someone talks through their app the way they naturally would, pointing at elements and changing their mind mid-sentence, then converts that into a clean set of instructions, flags anything that could be read two ways, and attaches the relevant screenshots.

@@ -11,7 +11,7 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
-rank: 9
+rank: 5
 date: '2026-08-31'
 alternatives:
   - perplexity-comet
@@ -19,5 +19,5 @@ alternatives:
   - chatgpt
   - genspark
   - openclaw
-tags: [ai_browser, ai_agents, productivity, automation, web_browsing, chatbot, openai, agentic, chrome_alternative, assistant]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app]
 ---
