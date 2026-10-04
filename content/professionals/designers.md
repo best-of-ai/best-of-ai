@@ -26,7 +26,7 @@ featured_tools:
   - adobe-firefly
   - adobe-express
   - spline
-  - adobe-sensei
+  - leonardo-ai
   - canva-infographics
   - flux
 

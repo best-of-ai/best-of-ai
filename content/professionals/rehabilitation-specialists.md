@@ -13,14 +13,12 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
-  - asana
-  - otter-ai
+  - suki-ai
+  - freed
   - fitbod
+  - trainerize
+  - adobe-acrobat-ai
   - notebooklm
   - grammarly
-  - adobe-acrobat-ai
-  - clickup
-  - todoist
-  - akiflow
 
 ---

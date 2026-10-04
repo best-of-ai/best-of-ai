@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - benchling
   - alphafold-ai
+  - geneious
   - semantic-scholar
   - schrodinger
   - dnanexus
-  - tableau
-  - amplitude-ai
+  - atomwise
   - perplexity-research
-  - power-bi
+  - tableau
 
 ---

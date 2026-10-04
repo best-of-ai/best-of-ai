@@ -14,13 +14,13 @@ categories:
   - compliance
 featured_tools:
   - chatgpt
-  - amplitude-ai
-  - scale-ai
-  - notebooklm
-  - drata
+  - qventus
+  - leantaas
   - tableau
-  - zapier
+  - drata
+  - notebooklm
   - adobe-acrobat-ai
+  - zapier
   - make
   - n8n
 

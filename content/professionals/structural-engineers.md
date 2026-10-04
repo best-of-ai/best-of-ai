@@ -15,12 +15,10 @@ featured_tools:
   - chatgpt
   - finch3d
   - drawio
-  - tableau
-  - notebooklm
-  - adobe-acrobat-ai
   - autodesk-construction
+  - tableau
+  - adobe-acrobat-ai
   - perplexity-research
-  - scispace
   - semantic-scholar
 
 ---

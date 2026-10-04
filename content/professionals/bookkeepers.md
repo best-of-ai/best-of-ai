@@ -12,15 +12,15 @@ categories:
   - spreadsheets
   - document-ai
 featured_tools:
-  - adobe-acrobat-ai
-  - alphasense
+  - chatgpt
+  - botkeeper
+  - vic-ai
+  - pilot-ai
   - avalara
-  - chatpdf
-  - humata
-  - morningstar-ai
-  - notebooklm
   - taxjar
   - turbotax
   - abbyy
+  - chatpdf
+  - notebooklm
 
 ---

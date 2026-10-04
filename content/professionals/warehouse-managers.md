@@ -15,13 +15,10 @@ categories:
 featured_tools:
   - chatgpt
   - blue-yonder
-  - asana
+  - fourkites
   - tableau
-  - zapier
-  - linear
   - shopify
-  - amplitude-ai
-  - clickup
+  - zapier
   - make
 
 ---

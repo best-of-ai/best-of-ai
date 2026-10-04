@@ -22,6 +22,5 @@ featured_tools:
   - photoroom
   - figma
   - adobe-express
-  - adobe-sensei
 
 ---

@@ -15,12 +15,9 @@ featured_tools:
   - chatgpt
   - midjourney
   - canva
-  - asana
   - grammarly
   - gamma
   - ideogram
-  - clickup
-  - copy-ai
   - flux
 
 ---

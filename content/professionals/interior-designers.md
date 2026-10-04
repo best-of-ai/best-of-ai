@@ -14,14 +14,14 @@ categories:
   - graphic-design
 featured_tools:
   - midjourney
-  - figma
-  - ideogram
-  - sketchup
+  - roomgpt
+  - collov-ai
+  - homestyler
+  - houzz
+  - planner5d
   - canva
-  - flux
-  - spline
-  - adobe-express
-  - adobe-sensei
+  - sketchup
   - adobe-firefly
+  - flux
 
 ---

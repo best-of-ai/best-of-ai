@@ -12,16 +12,17 @@ categories:
   - devtools
   - debugging
   - documentation
+  - cybersecurity
 featured_tools:
   - github-copilot
   - cursor
   - chatgpt
   - alchemy-web3
+  - moralis
   - dune-analytics
+  - forta-network
   - cline
   - sentry
   - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

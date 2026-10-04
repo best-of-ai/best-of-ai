@@ -15,12 +15,12 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - wildbook
   - tableau
   - semantic-scholar
   - notebooklm
   - elicit
   - scispace
-  - amplitude-ai
   - aws-rekognition
   - clarifai
 

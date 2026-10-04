@@ -13,15 +13,13 @@ categories:
   - devtools
   - research-tools
 featured_tools:
+  - chatgpt
   - github-copilot
   - cursor
   - claude
   - drawio
   - cline
   - notion-ai
-  - chatgpt
   - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

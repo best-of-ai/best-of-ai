@@ -16,11 +16,11 @@ featured_tools:
   - linkedin
   - resume-io
   - kickresume
-  - notion
-  - grammarly
+  - jobscan
+  - teal
+  - huntr
+  - yoodli
   - betterup
-  - asana
-  - clickup
-  - todoist
+  - grammarly
 
 ---

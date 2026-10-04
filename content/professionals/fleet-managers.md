@@ -15,12 +15,11 @@ categories:
 featured_tools:
   - chatgpt
   - samsara
-  - asana
+  - geotab
+  - fleetio
   - tableau
-  - zapier
-  - linear
   - blue-yonder
-  - amplitude-ai
+  - zapier
   - clickup
   - make
 

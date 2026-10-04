@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - elicit
   - semantic-scholar
+  - transkribus
   - otter-ai
   - notebooklm
-  - grammarly
   - assemblyai
-  - adobe-acrobat-ai
   - consensus
-  - copy-ai
+  - adobe-acrobat-ai
+  - grammarly
 
 ---

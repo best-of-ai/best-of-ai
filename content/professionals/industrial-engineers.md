@@ -14,14 +14,14 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - tulip
+  - augury
+  - sight-machine
+  - aspentech
+  - landing-ai
   - tableau
   - drawio
-  - linear
-  - asana
-  - tulip
   - zapier
   - amplitude-ai
-  - clickup
-  - make
 
 ---

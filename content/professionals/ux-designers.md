@@ -13,15 +13,14 @@ categories:
   - image-generation
   - productivity
 featured_tools:
+  - chatgpt
   - figma
-  - midjourney
-  - canva
   - uizard
   - galileo-ai
   - hotjar-ai
-  - asana
+  - midjourney
+  - canva
   - adobe-express
-  - adobe-sensei
   - bubble
 
 ---

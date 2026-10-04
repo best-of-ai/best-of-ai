@@ -17,9 +17,9 @@ featured_tools:
   - adobe-acrobat-ai
   - abridge-ai
   - suki-ai
+  - nabla
   - notebooklm
   - semantic-scholar
-  - assemblyai
   - perplexity-research
   - scispace
 

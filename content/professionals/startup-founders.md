@@ -18,14 +18,12 @@ categories:
   - ai-directories
 featured_tools:
   - chatgpt
-  - hubspot-business
+  - hubspot-crm
   - gamma
   - perplexity
   - zapier
   - canva
-  - hubspot-crm
   - asana
   - bubble
-  - clickup
 
 ---

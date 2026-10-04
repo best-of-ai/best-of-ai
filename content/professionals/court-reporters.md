@@ -13,14 +13,14 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - verbit
   - otter-ai
   - casetext
-  - sonix
+  - trint
   - notebooklm
   - grammarly
   - assemblyai
-  - asana
   - adobe-acrobat-ai
-  - clickup
+  - asana
 
 ---

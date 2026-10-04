@@ -13,6 +13,7 @@ categories:
   - code-assistant
   - audio
   - ar-vr
+  - animation
 featured_tools:
   - github-copilot
   - cursor
@@ -21,8 +22,8 @@ featured_tools:
   - elevenlabs
   - suno
   - tripo3d
-  - adobe-podcast
+  - inworld-ai
+  - promethean-ai
   - aider
-  - amazon-codewhisperer
 
 ---

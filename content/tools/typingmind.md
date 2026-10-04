@@ -11,7 +11,7 @@ category: 'chatbots'
 category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 alternatives:
   - poe
   - chatplayground-ai
@@ -19,5 +19,5 @@ alternatives:
   - mistral-le-chat
   - cuey
 date: '2026-09-28'
-tags: [chatbot, ai_assistant, api, multi_model, productivity, customizable, interface, llm, self_hosted]
+tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, collaboration, templates]
 ---

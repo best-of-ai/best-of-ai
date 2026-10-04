@@ -15,10 +15,8 @@ featured_tools:
   - chatgpt
   - snyk-ai
   - wiz
-  - drata
   - vanta
-  - scispace
-  - semantic-scholar
+  - drata
   - adobe-acrobat-ai
   - perplexity-research
   - chatpdf

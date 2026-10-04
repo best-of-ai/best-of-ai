@@ -12,8 +12,10 @@ categories:
   - document-ai
   - academia
   - productivity
+  - nonprofit
 featured_tools:
   - chatgpt
+  - instrumentl
   - grammarly
   - jasper
   - elicit
@@ -21,7 +23,6 @@ featured_tools:
   - research-rabbit
   - asana
   - adobe-acrobat-ai
-  - clickup
   - consensus
 
 ---

@@ -13,14 +13,14 @@ categories:
   - graphic-design
 featured_tools:
   - midjourney
-  - figma
   - sketchup
+  - plantnet
   - ideogram
   - canva
   - flux
   - adobe-express
-  - adobe-sensei
   - adobe-firefly
   - alpha3d
+  - figma
 
 ---

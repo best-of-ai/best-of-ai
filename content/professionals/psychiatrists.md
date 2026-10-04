@@ -14,13 +14,12 @@ categories:
 featured_tools:
   - chatgpt
   - nuance-dax
-  - adobe-acrobat-ai
+  - suki-ai
   - wysa
   - betterhelp
-  - notebooklm
-  - semantic-scholar
-  - chatpdf
   - doxy-me
-  - humata
+  - adobe-acrobat-ai
+  - notebooklm
+  - chatpdf
 
 ---

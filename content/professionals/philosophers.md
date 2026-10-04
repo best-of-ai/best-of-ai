@@ -15,12 +15,10 @@ featured_tools:
   - chatgpt
   - perplexity
   - semantic-scholar
+  - connected-papers
   - notebooklm
   - grammarly
   - elicit
-  - asana
-  - clickup
   - consensus
-  - copy-ai
 
 ---

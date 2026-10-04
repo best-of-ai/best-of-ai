@@ -13,15 +13,15 @@ categories:
   - app-builders
   - productivity
 featured_tools:
+  - chatgpt
   - figma
-  - midjourney
-  - canva
   - uizard
   - galileo-ai
+  - framer
+  - midjourney
+  - canva
   - ideogram
   - adobe-express
-  - asana
-  - adobe-sensei
   - bubble
 
 ---

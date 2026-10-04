@@ -21,10 +21,10 @@ featured_tools:
   - dbt-cloud
   - airbyte-ai
   - snowflake
+  - fivetran-ai
+  - prefect
   - github-copilot
   - cursor
-  - zapier
   - aider
-  - amazon-bedrock
 
 ---

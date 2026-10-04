@@ -13,13 +13,13 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - navex
   - drata
+  - onetrust
   - notebooklm
   - semantic-scholar
-  - asana
-  - grammarly
-  - onetrust
   - adobe-acrobat-ai
+  - grammarly
   - clickup
   - perplexity-research
 

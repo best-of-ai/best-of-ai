@@ -19,7 +19,7 @@ featured_tools:
   - notebooklm
   - grammarly
   - semantic-scholar
-  - scispace
+  - jenni-ai
   - adobe-acrobat-ai
   - assemblyai
   - consensus

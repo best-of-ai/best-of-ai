@@ -14,9 +14,9 @@ categories:
   - search-engines
 featured_tools:
   - chatgpt
-  - grammarly
   - perplexity
   - otter-ai
+  - trint
   - notebooklm
   - grammarly
   - hemingway-editor

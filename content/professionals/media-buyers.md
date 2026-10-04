@@ -16,10 +16,10 @@ featured_tools:
   - chatgpt
   - semrush
   - adcreative-ai
+  - smartly
   - tableau
   - similarweb
   - amplitude-ai
-  - scale-ai
   - buffer
   - hubspot
   - power-bi

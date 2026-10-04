@@ -13,14 +13,12 @@ categories:
   - data
 featured_tools:
   - chatgpt
+  - medisafe
   - semantic-scholar
-  - notebooklm
-  - asana
   - scispace
   - elicit
+  - notebooklm
   - grammarly
-  - amplitude-ai
-  - clickup
   - perplexity-research
 
 ---

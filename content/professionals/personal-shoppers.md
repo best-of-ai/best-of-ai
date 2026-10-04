@@ -12,15 +12,14 @@ categories:
   - business-tools
   - productivity
 featured_tools:
-  - asana
-  - hubspot-business
+  - chatgpt
+  - stitch-fix
+  - fashwell
+  - heuritech
   - shopify
-  - clickup
-  - todoist
-  - akiflow
-  - slack-ai
-  - sunsama
-  - aiprm
   - bigcommerce
+  - canva
+  - slack-ai
+  - hubspot-business
 
 ---

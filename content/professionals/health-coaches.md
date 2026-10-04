@@ -13,14 +13,14 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
-  - asana
-  - canva
+  - noom
+  - lifesum
   - myfitnesspal
   - fitbod
-  - grammarly
   - headspace
-  - clickup
-  - todoist
+  - canva
+  - grammarly
   - akiflow
+  - todoist
 
 ---

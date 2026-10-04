@@ -13,13 +13,13 @@ categories:
   - business-tools
 featured_tools:
   - chatgpt
+  - fourkites
+  - project44
   - blue-yonder
   - coupa
   - kinaxis
   - tableau
-  - hubspot-business
   - zapier
-  - amplitude-ai
   - make
   - n8n
 

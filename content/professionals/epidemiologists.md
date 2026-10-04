@@ -15,12 +15,12 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - datarobot
   - tableau
   - semantic-scholar
   - elicit
   - notebooklm
   - scite-ai
-  - amplitude-ai
   - copy-ai
   - grammarly
 

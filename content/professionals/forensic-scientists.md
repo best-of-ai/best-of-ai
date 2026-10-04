@@ -14,14 +14,14 @@ categories:
   - computer-vision
 featured_tools:
   - chatgpt
-  - luma-ai
-  - tableau
+  - cellebrite
   - clarifai
+  - aws-rekognition
+  - assemblyai
+  - tableau
   - notebooklm
   - semantic-scholar
   - scispace
   - adobe-acrobat-ai
-  - amplitude-ai
-  - aws-rekognition
 
 ---

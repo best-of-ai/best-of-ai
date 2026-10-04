@@ -21,6 +21,5 @@ featured_tools:
   - perplexity
   - buffer
   - canva-infographics
-  - copy-ai
 
 ---

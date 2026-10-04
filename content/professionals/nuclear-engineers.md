@@ -19,7 +19,7 @@ featured_tools:
   - drata
   - notebooklm
   - zapier
-  - amplitude-ai
+  - julius-ai
   - make
   - n8n
 

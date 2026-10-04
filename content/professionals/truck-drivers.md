@@ -12,15 +12,11 @@ categories:
   - weather
   - productivity
 featured_tools:
-  - asana
-  - clickup
-  - todoist
-  - akiflow
+  - chatgpt
+  - samsara
+  - geotab
   - fleetio
-  - hopper
-  - slack-ai
-  - sunsama
-  - tripadvisor
   - wanderlog
+  - hopper
 
 ---

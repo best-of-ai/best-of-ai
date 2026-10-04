@@ -17,11 +17,9 @@ featured_tools:
   - alphasense
   - morningstar-ai
   - pitchbook-ai
+  - kensho
   - tableau
   - julius-ai
-  - asana
-  - amplitude-ai
-  - clickup
   - perplexity-research
 
 ---

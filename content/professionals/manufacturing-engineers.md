@@ -16,11 +16,11 @@ featured_tools:
   - chatgpt
   - tulip
   - sight-machine
+  - augury
+  - landing-ai
   - tableau
   - drawio
-  - make
   - zapier
-  - amplitude-ai
   - aws-rekognition
   - clarifai
 

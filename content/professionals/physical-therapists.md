@@ -13,14 +13,12 @@ categories:
   - document-ai
 featured_tools:
   - chatgpt
-  - asana
-  - otter-ai
+  - suki-ai
+  - freed
+  - fitbod
+  - trainerize
+  - adobe-acrobat-ai
   - notebooklm
   - grammarly
-  - todoist
-  - fitbod
-  - adobe-acrobat-ai
-  - amplitude-ai
-  - clickup
 
 ---

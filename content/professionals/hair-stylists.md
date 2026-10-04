@@ -12,15 +12,15 @@ categories:
   - business-tools
   - social-media-tools
 featured_tools:
-  - hubspot-business
-  - buffer
+  - perfect365
+  - styleseat
   - ideogram
-  - sprout-social
   - stable-diffusion
+  - bing-image-creator
   - adobe-lightroom-ai
   - artbreeder
-  - befunky
-  - bing-image-creator
   - civitai
+  - befunky
+  - buffer
 
 ---

@@ -16,14 +16,14 @@ categories:
   - synthetic-data
 featured_tools:
   - chatgpt
+  - claude
   - julius-ai
-  - tableau
   - databricks
   - weights-biases
+  - h2o-ai
   - github-copilot
   - cursor
-  - notion-ai
-  - amplitude-ai
+  - hex
   - perplexity-research
 
 ---

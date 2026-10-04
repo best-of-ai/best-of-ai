@@ -20,8 +20,8 @@ featured_tools:
   - figma
   - adobe-express
   - topaz-photo-ai
-  - adobe-sensei
+  - clipdrop
   - flux
-  - adobe-lightroom-ai
+  - tome
 
 ---

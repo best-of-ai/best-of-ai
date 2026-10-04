@@ -20,8 +20,8 @@ featured_tools:
   - alphasense
   - julius-ai
   - scispace
-  - amplitude-ai
+  - elicit-research
   - consensus
-  - copy-ai
+  - grammarly
 
 ---

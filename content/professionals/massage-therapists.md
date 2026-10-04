@@ -12,15 +12,15 @@ categories:
   - business-tools
   - productivity
 featured_tools:
-  - asana
+  - vagaro
+  - noterro
+  - chatgpt
   - hubspot-business
-  - clickup
-  - todoist
-  - akiflow
-  - betterup
+  - canva
   - calm
   - headspace
+  - akiflow
+  - clickup
   - slack-ai
-  - sunsama
 
 ---

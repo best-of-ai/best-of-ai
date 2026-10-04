@@ -11,16 +11,17 @@ categories:
   - marketing
   - social-media-tools
   - email-assistants
+  - market-research
 featured_tools:
   - chatgpt
   - jasper
   - grammarly
-  - sprout-social
-  - buffer
-  - mailchimp
+  - talkwalker
+  - brandwatch
   - canva
+  - hootsuite-social
   - hubspot
-  - activecampaign-ai
+  - mailchimp
   - boomerang
 
 ---

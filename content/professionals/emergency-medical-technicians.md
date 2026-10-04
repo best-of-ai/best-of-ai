@@ -13,14 +13,14 @@ categories:
   - automation
 featured_tools:
   - chatgpt
-  - asana
+  - pulsara
+  - eso-solutions
   - otter-ai
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
+  - abbyy
+  - asana
   - zapier
-  - clickup
-  - make
-  - n8n
 
 ---

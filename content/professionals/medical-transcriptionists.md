@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - otter-ai
   - nuance-dax
-  - zapier
+  - verbit
+  - deepgram
   - assemblyai
   - notebooklm
   - grammarly
   - adobe-acrobat-ai
-  - make
-  - n8n
+  - zapier
 
 ---

@@ -19,8 +19,6 @@ featured_tools:
   - zapier
   - notebooklm
   - grammarly
-  - amplitude-ai
   - make
-  - n8n
 
 ---

@@ -14,13 +14,11 @@ categories:
 featured_tools:
   - chatgpt
   - drata
-  - greenhouse
   - tableau
   - zapier
   - grammarly
   - notebooklm
   - adobe-acrobat-ai
   - make
-  - n8n
 
 ---

@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - midjourney
   - ideogram
+  - clo3d
   - canva
   - adobe-firefly
   - chatgpt
   - notebooklm
   - stable-diffusion
-  - asana
-  - clickup
   - flux
+  - asana
 
 ---

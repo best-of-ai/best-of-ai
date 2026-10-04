@@ -15,13 +15,11 @@ categories:
 featured_tools:
   - chatgpt
   - nuance-dax
-  - asana
+  - suki-ai
   - notebooklm
   - semantic-scholar
-  - todoist
   - grammarly
   - adobe-acrobat-ai
-  - clickup
   - perplexity-research
 
 ---

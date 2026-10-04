@@ -18,8 +18,8 @@ featured_tools:
   - tableau
   - maxar
   - spire-global
+  - satellogic
   - scispace
-  - amplitude-ai
   - aws-rekognition
   - clarifai
 

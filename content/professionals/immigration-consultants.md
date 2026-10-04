@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - harvey
+  - boundless
+  - docketwise
   - deepl
-  - notebooklm
-  - salesforce
-  - grammarly
-  - hubspot-crm
-  - zapier
-  - adobe-acrobat-ai
   - google-translate
+  - notebooklm
+  - grammarly
+  - adobe-acrobat-ai
+  - zapier
 
 ---

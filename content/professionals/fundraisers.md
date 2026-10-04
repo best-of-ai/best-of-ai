@@ -14,14 +14,14 @@ categories:
   - data
 featured_tools:
   - chatgpt
-  - grammarly
+  - givebutter
+  - bloomerang
+  - bonterra
   - mailchimp
-  - salesforce
   - canva
+  - grammarly
   - hubspot-crm
-  - jasper
-  - amplitude-ai
   - copy-ai
-  - pipedrive
+  - salesforce
 
 ---

@@ -8,6 +8,7 @@ icon: '⚙️'
 sort_order: 39
 categories:
   - devtools
+  - observability
   - automation
   - workflow-automation
   - code-assistant
@@ -15,11 +16,11 @@ categories:
 featured_tools:
   - github-copilot
   - cursor
-  - n8n
-  - zapier
   - chatgpt
-  - asana
-  - azure-openai
+  - datadog
+  - honeycomb
+  - pagerduty
+  - n8n
   - aider
   - amazon-bedrock
   - amazon-codewhisperer

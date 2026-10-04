@@ -16,12 +16,11 @@ featured_tools:
   - chatgpt
   - semantic-scholar
   - elicit
+  - connected-papers
   - tableau
   - notebooklm
   - brandwatch
   - scispace
-  - amplitude-ai
   - consensus
-  - copy-ai
 
 ---

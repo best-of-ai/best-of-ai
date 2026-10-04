@@ -12,15 +12,15 @@ categories:
   - business-tools
   - learning-tools
 featured_tools:
-  - asana
-  - hubspot-business
-  - clickup
-  - todoist
-  - akiflow
+  - chatgpt
   - betterup
-  - brilliant
+  - headspace
   - calm
-  - carnegie-learning
-  - chegg-ai
+  - otter-ai
+  - notion
+  - akiflow
+  - todoist
+  - grammarly
+  - brilliant
 
 ---

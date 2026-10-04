@@ -16,13 +16,13 @@ categories:
 featured_tools:
   - chatgpt
   - github-copilot
+  - cursor
+  - amazon-bedrock
   - drawio
   - n8n
-  - cursor
-  - turbonomic
-  - cline
   - zapier
-  - aider
-  - amazon-bedrock
+  - turbonomic
+  - spot-io
+  - cast-ai
 
 ---

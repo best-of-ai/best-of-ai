@@ -12,15 +12,13 @@ categories:
   - e-commerce
   - social-media-tools
 featured_tools:
+  - chatgpt
+  - vivino
   - hubspot-business
   - shopify
-  - buffer
-  - sprout-social
   - bigcommerce
   - docusign-ai
-  - dynamic-yield
-  - flick-ai
+  - buffer
   - later
-  - magento
 
 ---

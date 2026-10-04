@@ -14,12 +14,12 @@ categories:
   - marketing
 featured_tools:
   - chatgpt
-  - calendly
+  - jane-app
   - suki-ai
+  - calendly
   - reclaim-ai
   - grammarly
   - canva
-  - notebooklm
   - adobe-acrobat-ai
   - copy-ai
   - hubspot

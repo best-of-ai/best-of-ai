@@ -16,10 +16,9 @@ featured_tools:
   - canva
   - ideogram
   - chatgpt
-  - figma
+  - square
   - grammarly
   - adobe-express
-  - asana
   - hubspot-business
   - adobe-sensei
 

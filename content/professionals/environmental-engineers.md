@@ -12,16 +12,17 @@ categories:
   - compliance
   - document-ai
   - climate
+  - geospatial
 featured_tools:
   - chatgpt
   - arcgis
+  - tomorrow-io
   - tableau
+  - power-bi
   - semantic-scholar
   - notebooklm
-  - amplitude-ai
-  - grammarly
   - adobe-acrobat-ai
   - perplexity-research
-  - power-bi
+  - grammarly
 
 ---

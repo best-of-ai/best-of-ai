@@ -20,8 +20,6 @@ featured_tools:
   - prowritingaid
   - hemingway-editor
   - cursor
-  - asana
   - adobe-acrobat-ai
-  - amazon-bedrock
 
 ---

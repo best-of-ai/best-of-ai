@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - benchling
   - alphafold-ai
-  - elicit
-  - semantic-scholar
   - schrodinger
   - dnanexus
-  - amplitude-ai
-  - perplexity-research
-  - power-bi
+  - elicit
+  - semantic-scholar
+  - scispace
+  - connected-papers
+  - recursion
 
 ---

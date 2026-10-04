@@ -20,10 +20,10 @@ featured_tools:
   - chatgpt
   - linear
   - zapier
+  - n8n
   - hubspot-crm
   - gamma
   - ramp
-  - intercom
   - asana
   - hubspot-business
   - clickup

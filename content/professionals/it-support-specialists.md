@@ -14,13 +14,13 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
-  - freshdesk
+  - moveworks
+  - servicenow
   - zendesk
+  - freshdesk
   - intercom
   - notion-ai
-  - grammarly
   - zapier
-  - asana
   - claude
   - gemini
 

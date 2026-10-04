@@ -11,15 +11,16 @@ categories:
   - research-tools
   - data
   - academia
+  - geospatial
 featured_tools:
   - chatgpt
   - arcgis
+  - tomorrow-io
   - tableau
   - semantic-scholar
   - notebooklm
   - scispace
   - elicit
-  - amplitude-ai
   - consensus
   - perplexity-research
 

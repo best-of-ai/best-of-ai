@@ -8,6 +8,7 @@ icon: '🏛️'
 sort_order: 23
 sidebar: true
 categories:
+  - architecture
   - 3d
   - home-design
   - image-generation
@@ -15,14 +16,14 @@ categories:
   - graphic-design
 featured_tools:
   - spline
-  - midjourney
   - finch3d
   - spacemaker-ai
-  - gamma
-  - canva
-  - ideogram
+  - testfit
+  - homestyler
+  - midjourney
   - figma
+  - canva
   - adobe-express
-  - adobe-sensei
+  - gamma
 
 ---

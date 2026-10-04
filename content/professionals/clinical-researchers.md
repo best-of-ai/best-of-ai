@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - elicit
+  - rayyan
+  - litmaps
   - semantic-scholar
   - scispace
   - notebooklm
-  - grammarly
   - research-rabbit
-  - adobe-acrobat-ai
-  - amplitude-ai
   - consensus
+  - grammarly
 
 ---

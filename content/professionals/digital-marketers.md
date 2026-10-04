@@ -11,6 +11,7 @@ categories:
   - ad-generator
   - seo
   - email-assistants
+  - social-media-tools
 featured_tools:
   - chatgpt
   - semrush

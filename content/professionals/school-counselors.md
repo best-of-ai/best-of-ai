@@ -14,14 +14,12 @@ categories:
   - learning-tools
 featured_tools:
   - chatgpt
-  - asana
+  - khanmigo
+  - quillbot
   - canva
   - grammarly
   - gamma
-  - khanmigo
-  - quillbot
   - adobe-acrobat-ai
-  - clickup
-  - copy-ai
+  - notebooklm
 
 ---

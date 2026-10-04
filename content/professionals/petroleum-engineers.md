@@ -7,20 +7,18 @@ description: 'The best AI tools for petroleum engineers — AI reservoir simulat
 icon: '🛢️'
 sort_order: 0
 categories:
+  - energy
   - data
   - geospatial
   - research-tools
-  - automation
 featured_tools:
   - chatgpt
+  - aspentech
+  - cognite
   - arcgis
   - tableau
   - wolfram-alpha-ai
   - notebooklm
-  - zapier
   - drawio
-  - amplitude-ai
-  - make
-  - n8n
 
 ---

@@ -16,7 +16,7 @@ featured_tools:
   - chatgpt
   - otter-ai
   - gamma
-  - hubspot-business
+  - glean
   - perplexity
   - microsoft-copilot
   - slack-ai

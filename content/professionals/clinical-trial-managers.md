@@ -8,19 +8,19 @@ icon: '🧬'
 sort_order: 0
 categories:
   - healthcare
-  - clinical-researchers
+  - research-tools
   - document-ai
   - compliance
 featured_tools:
   - chatgpt
+  - medidata
   - elicit
   - notebooklm
-  - onetrust
+  - abbyy
   - adobe-acrobat-ai
   - semantic-scholar
-  - vanta
   - chatpdf
   - humata
-  - abbyy
+  - onetrust
 
 ---

@@ -13,14 +13,10 @@ categories:
   - note-taking-apps
 featured_tools:
   - chatgpt
-  - notion-ai
   - sudowrite
-  - grammarly
-  - jasper
-  - asana
+  - notion-ai
   - prowritingaid
-  - clickup
-  - copy-ai
+  - grammarly
   - obsidian
 
 ---

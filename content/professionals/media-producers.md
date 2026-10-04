@@ -18,7 +18,7 @@ featured_tools:
   - capcut
   - elevenlabs
   - runway
-  - otter-ai
+  - opus-clip
   - adobe-premiere-pro-ai
   - luma-dream-machine
   - sora

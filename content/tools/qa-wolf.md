@@ -11,7 +11,7 @@ category: 'software-testing'
 category_name: 'Software Testing'
 price: 'Paid'
 featured: false
-rank: 6
+rank: 5
 alternatives:
   - testim
   - mabl
@@ -19,5 +19,5 @@ alternatives:
   - momentic-mo
   - browserstack-test-companion
 date: '2026-09-28'
-tags: [testing, qa, automation, ai_powered, ci_cd, regression, end_to_end, quality_assurance, developer_tools, saas]
+tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

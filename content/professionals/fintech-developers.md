@@ -17,11 +17,11 @@ featured_tools:
   - cursor
   - chatgpt
   - stripe
-  - brex
+  - plaid
+  - unit21
   - drata
   - mintlify
   - postman
-  - aider
   - amazon-bedrock
 
 ---

@@ -11,17 +11,18 @@ categories:
   - finance
   - data
   - spreadsheets
+  - tax-accounting
   - market-research
 featured_tools:
   - chatgpt
   - alphasense
+  - causal-app
+  - kensho
+  - mosaic-tech
   - julius-ai
   - tableau
   - power-bi
-  - amplitude-ai
-  - scale-ai
-  - attention-insight
-  - brandwatch
-  - crimson-hexagon
+  - ramp
+  - expensify-ai
 
 ---

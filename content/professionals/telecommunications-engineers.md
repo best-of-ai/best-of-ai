@@ -15,13 +15,10 @@ categories:
 featured_tools:
   - chatgpt
   - github-copilot
+  - cursor
   - drawio
   - tableau
-  - cursor
   - mintlify
   - zapier
-  - amazon-bedrock
-  - amplitude-ai
-  - azure-openai
 
 ---

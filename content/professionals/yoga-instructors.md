@@ -9,18 +9,13 @@ sort_order: 0
 categories:
   - wellness
   - fitness
-  - content-creators
-  - productivity
+  - social-media-tools
 featured_tools:
   - chatgpt
-  - canva
-  - asana
-  - grammarly
   - headspace
   - calm
   - myfitnesspal
-  - clickup
-  - todoist
-  - akiflow
+  - canva
+  - grammarly
 
 ---

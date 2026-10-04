@@ -13,15 +13,15 @@ categories:
   - writing-assistants
   - audio
 featured_tools:
-  - chatgpt
   - runway
   - descript
   - capcut
-  - grammarly
+  - topaz-video-ai
   - elevenlabs
   - midjourney
   - adobe-premiere-pro-ai
   - luma-dream-machine
   - sora
+  - sudowrite
 
 ---

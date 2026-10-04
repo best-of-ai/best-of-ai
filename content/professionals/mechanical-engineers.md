@@ -15,12 +15,12 @@ categories:
 featured_tools:
   - chatgpt
   - wolfram-alpha-ai
+  - ntopology
+  - physna
   - drawio
   - tableau
   - notebooklm
-  - mintlify
   - linear
-  - amplitude-ai
   - perplexity-research
   - power-bi
 

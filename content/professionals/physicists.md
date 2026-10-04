@@ -16,11 +16,10 @@ featured_tools:
   - wolfram-alpha-ai
   - semantic-scholar
   - elicit
+  - connected-papers
   - tableau
   - notebooklm
   - consensus
-  - amplitude-ai
-  - copy-ai
   - grammarly
 
 ---

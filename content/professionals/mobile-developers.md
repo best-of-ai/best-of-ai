@@ -17,10 +17,10 @@ featured_tools:
   - cursor
   - chatgpt
   - flutterflow
+  - dhiwise
   - bolt-new
   - replit
   - codeium
-  - zapier
   - aider
   - amazon-bedrock
 

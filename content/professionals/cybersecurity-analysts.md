@@ -7,20 +7,20 @@ description: 'The best AI tools for cybersecurity analysts — AI-powered SIEM p
 icon: '🛡️'
 sort_order: 104
 categories:
+  - cybersecurity
   - devtools
   - automation
   - data
-  - business-tools
   - research-tools
 featured_tools:
   - chatgpt
-  - github-copilot
+  - vectra-ai
   - wiz
   - snyk-ai
   - crowdstrike
   - darktrace
+  - github-copilot
   - cursor
-  - hubspot-business
   - zapier
   - amazon-bedrock
 

@@ -14,14 +14,12 @@ categories:
   - chatbots
 featured_tools:
   - chatgpt
+  - appfolio
   - hubspot-crm
   - zapier
+  - zillow
   - salesforce
   - canva
   - mailchimp
-  - zillow
-  - claude
-  - gemini
-  - grok
 
 ---

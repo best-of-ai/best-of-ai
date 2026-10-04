@@ -12,7 +12,7 @@ categories:
   - document-ai
   - fleet-management
 featured_tools:
-  - hubspot-business
+  - servicetitan
   - adobe-acrobat-ai
   - autodesk-construction
   - chatpdf

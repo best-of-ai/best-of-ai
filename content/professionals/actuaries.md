@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - wolfram-alpha-ai
-  - tableau
-  - power-bi
-  - semantic-scholar
-  - morningstar-ai
+  - kensho
+  - datarobot
+  - h2o-ai
   - alphasense
-  - amplitude-ai
+  - power-bi
+  - formula-bot
+  - semantic-scholar
   - perplexity-research
-  - scale-ai
 
 ---

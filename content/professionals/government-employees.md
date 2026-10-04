@@ -14,14 +14,14 @@ categories:
   - data
 featured_tools:
   - chatgpt
+  - microsoft-copilot
+  - aws-govcloud
   - asana
   - grammarly
   - gamma
   - zapier
   - notebooklm
-  - microsoft-copilot
   - adobe-acrobat-ai
-  - amplitude-ai
   - clickup
 
 ---

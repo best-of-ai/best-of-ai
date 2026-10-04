@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - procore
   - autodesk-construction
+  - buildertrend
   - buildxact
-  - linear
   - adobe-acrobat-ai
   - tableau
-  - amplitude-ai
   - aws-rekognition
   - clarifai
+  - samsara
 
 ---

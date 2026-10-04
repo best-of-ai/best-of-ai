@@ -13,15 +13,15 @@ categories:
   - software-testing
   - dubbing
 featured_tools:
-  - adobe-acrobat-ai
   - google-translate
-  - applitools
-  - chatpdf
-  - humata
-  - mabl
-  - notebooklm
-  - testim
+  - deepl
+  - smartling
+  - lokalise-ai
+  - memoq
+  - phrase-ai
+  - crowdin
   - abbyy
-  - browserstack-test-companion
+  - adobe-acrobat-ai
+  - notebooklm
 
 ---

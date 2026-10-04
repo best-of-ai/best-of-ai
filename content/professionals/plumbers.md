@@ -12,15 +12,14 @@ categories:
   - document-ai
   - fleet-management
 featured_tools:
-  - hubspot-business
-  - adobe-acrobat-ai
-  - autodesk-construction
-  - chatpdf
-  - fleetio
-  - humata
-  - notebooklm
-  - procore
-  - abbyy
+  - chatgpt
   - buildxact
+  - procore
+  - autodesk-construction
+  - fleetio
+  - adobe-acrobat-ai
+  - chatpdf
+  - abbyy
+  - notebooklm
 
 ---

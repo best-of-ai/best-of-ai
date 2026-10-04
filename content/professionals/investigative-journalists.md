@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - perplexity
+  - documentcloud
+  - hunchly
   - otter-ai
-  - notebooklm
-  - grammarly
   - assemblyai
-  - tableau
+  - notebooklm
+  - datawrapper
   - adobe-acrobat-ai
-  - amplitude-ai
   - perplexity-research
 
 ---

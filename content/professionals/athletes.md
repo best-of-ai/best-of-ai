@@ -7,8 +7,8 @@ description: 'The best AI tools for athletes — AI performance analytics platfo
 icon: '🏅'
 sort_order: 82
 categories:
-  - healthcare
-  - data
+  - sports-analytics
+  - fitness
   - video-editor
   - productivity
 featured_tools:
@@ -16,11 +16,11 @@ featured_tools:
   - catapult-sports
   - hudl
   - stats-perform
-  - capcut
-  - asana
   - fitbod
+  - freeletics
+  - capcut
   - adobe-premiere-pro-ai
-  - amplitude-ai
+  - asana
   - clickup
 
 ---

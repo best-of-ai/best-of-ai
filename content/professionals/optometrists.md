@@ -8,20 +8,19 @@ icon: '👁️'
 sort_order: 257
 categories:
   - healthcare
+  - medical-imaging
   - document-ai
-  - transcription
   - computer-vision
   - writing-assistants
 featured_tools:
   - chatgpt
+  - eyenuk
+  - nuance-dax
+  - suki-ai
   - adobe-acrobat-ai
   - notebooklm
-  - grammarly
-  - nuance-dax
-  - assemblyai
-  - semantic-scholar
   - aws-rekognition
   - clarifai
-  - copy-ai
+  - grammarly
 
 ---

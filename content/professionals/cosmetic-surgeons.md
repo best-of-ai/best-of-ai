@@ -13,14 +13,14 @@ categories:
   - document-ai
 featured_tools:
   - chatgpt
+  - crisalix
   - nuance-dax
   - viz-ai
-  - notebooklm
   - aidoc-ai
+  - notebooklm
   - adobe-acrobat-ai
   - grammarly
   - adobe-lightroom-ai
   - arterys
-  - befunky
 
 ---

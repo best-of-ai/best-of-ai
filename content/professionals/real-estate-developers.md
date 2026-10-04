@@ -13,14 +13,12 @@ categories:
   - project-management
 featured_tools:
   - chatgpt
-  - linear
-  - tableau
-  - amplitude-ai
-  - gamma
+  - testfit
+  - spacemaker-ai
   - arcgis
-  - scale-ai
+  - tableau
   - power-bi
   - alphasense
-  - height
+  - gamma
 
 ---

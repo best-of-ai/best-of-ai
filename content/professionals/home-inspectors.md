@@ -12,11 +12,11 @@ categories:
   - image-editing
   - computer-vision
 featured_tools:
+  - spectora
   - adobe-acrobat-ai
   - aws-rekognition
   - clarifai
   - adobe-lightroom-ai
-  - befunky
   - chatpdf
   - cleanup-pictures
   - fotor

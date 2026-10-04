@@ -12,15 +12,15 @@ categories:
   - research-tools
   - drug-discovery
 featured_tools:
-  - amplitude-ai
-  - perplexity-research
-  - power-bi
-  - scale-ai
+  - chatgpt
+  - benchling
+  - dnanexus
+  - geneious
+  - alphafold-ai
+  - atomwise
+  - connected-papers
   - scispace
   - semantic-scholar
-  - tableau
-  - atomwise
-  - benchling
-  - connected-papers
+  - elicit
 
 ---

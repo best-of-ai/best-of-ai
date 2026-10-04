@@ -22,10 +22,10 @@ featured_tools:
   - cursor
   - claude
   - chatgpt
-  - codeium
+  - v0
   - windsurf
   - replit
-  - zapier
+  - lovable
   - aider
   - amazon-bedrock
 

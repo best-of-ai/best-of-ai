@@ -16,12 +16,12 @@ featured_tools:
   - suno
   - udio
   - elevenlabs
-  - krisp
+  - landr-ai
   - murf
   - mubert
   - descript
-  - asana
   - adobe-podcast
-  - clickup
+  - krisp
+  - asana
 
 ---

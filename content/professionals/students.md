@@ -20,11 +20,9 @@ featured_tools:
   - notebooklm
   - grammarly
   - khanmigo
-  - writesonic
+  - chegg-ai
   - quillbot
   - elicit
   - consensus
-  - copy-ai
-  - jasper
 
 ---

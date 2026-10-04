@@ -13,14 +13,14 @@ categories:
   - customer-support
 featured_tools:
   - chatgpt
+  - zest-ai
+  - feedzai
+  - kasisto
+  - personetics
+  - plaid
+  - yodlee
   - alphasense
-  - morningstar-ai
   - onetrust
-  - intercom
-  - salesforce
-  - stripe
-  - drift
-  - freshdesk
   - zendesk
 
 ---

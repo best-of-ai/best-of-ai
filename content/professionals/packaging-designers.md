@@ -10,16 +10,16 @@ categories:
   - graphic-design
   - 3d
   - image-generation
-  - sustainability
+  - cleantech
 featured_tools:
   - midjourney
+  - esko
   - canva
   - spline
   - ideogram
   - adobe-firefly
   - figma
   - adobe-express
-  - adobe-sensei
   - flux
   - alpha3d
 

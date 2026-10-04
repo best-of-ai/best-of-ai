@@ -9,6 +9,7 @@ sort_order: 0
 categories:
   - translator
   - learning-tools
+  - calendar-scheduling
   - productivity
   - travel
 featured_tools:
@@ -16,11 +17,10 @@ featured_tools:
   - deepl
   - google-translate
   - duolingo
-  - asana
+  - babbel
   - grammarly
-  - wanderlog
+  - clockwise-ai
   - clickup
-  - todoist
   - akiflow
 
 ---

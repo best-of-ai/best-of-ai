@@ -17,10 +17,10 @@ featured_tools:
   - casetext
   - adobe-acrobat-ai
   - spellbook
+  - evisort
+  - ironclad-ai
   - notebooklm
   - grammarly
   - perplexity-research
-  - scispace
-  - semantic-scholar
 
 ---

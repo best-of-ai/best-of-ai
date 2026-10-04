@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - alphafold-ai
+  - isomorphic-labs
+  - exscientia
   - atomwise
   - recursion
   - schrodinger
   - benchling
   - insilico-medicine
-  - adobe-acrobat-ai
-  - amplitude-ai
   - perplexity-research
 
 ---

@@ -13,14 +13,12 @@ categories:
   - hr
 featured_tools:
   - chatgpt
+  - blue-yonder
   - shopify
   - tableau
   - mailchimp
   - canva
-  - hubspot-business
   - zapier
-  - amplitude-ai
-  - greenhouse
   - power-bi
 
 ---

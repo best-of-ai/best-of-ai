@@ -8,19 +8,20 @@ icon: '👨‍🍳'
 sort_order: 65
 categories:
   - food
+  - business-tools
+  - nutrition
   - image-editing
-  - productivity
   - writing-assistants
 featured_tools:
   - chatgpt
+  - whisk
+  - sidechef
   - midjourney
   - canva
-  - whisk
-  - grammarly
   - ideogram
+  - marketman
   - myfitnesspal
-  - asana
-  - clickup
+  - grammarly
   - copy-ai
 
 ---

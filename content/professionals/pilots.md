@@ -13,14 +13,12 @@ categories:
   - automation
 featured_tools:
   - chatgpt
-  - asana
-  - wanderlog
-  - grammarly
+  - foreflight
   - gamma
   - deepl
+  - wanderlog
+  - grammarly
   - microsoft-copilot
   - zapier
-  - clickup
-  - make
 
 ---

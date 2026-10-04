@@ -10,18 +10,20 @@ categories:
   - finance
   - research-tools
   - data
+  - tax-accounting
+  - lead-generation
   - market-research
   - document-ai
 featured_tools:
   - chatgpt
   - alphasense
+  - holistiplan
+  - catchlight-ai
   - morningstar-ai
   - pitchbook-ai
   - tableau
-  - scispace
   - julius-ai
   - adobe-acrobat-ai
-  - amplitude-ai
   - perplexity-research
 
 ---

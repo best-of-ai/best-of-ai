@@ -15,6 +15,7 @@ categories:
 featured_tools:
   - midjourney
   - ideogram
+  - krea-ai
   - adobe-firefly
   - canva
   - figma
@@ -22,6 +23,5 @@ featured_tools:
   - runway
   - luma-dream-machine
   - adobe-express
-  - adobe-sensei
 
 ---

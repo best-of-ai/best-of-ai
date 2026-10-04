@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - adobe-acrobat-ai
   - zillow
+  - matterport
+  - nearmap
+  - compass
+  - redfin
   - tableau
   - notebooklm
-  - hubspot-crm
-  - compass
-  - amplitude-ai
   - power-bi
-  - scale-ai
 
 ---

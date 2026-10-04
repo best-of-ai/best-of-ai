@@ -14,14 +14,12 @@ categories:
   - note-taking-apps
 featured_tools:
   - chatgpt
-  - asana
   - linear
-  - scispace
-  - semantic-scholar
+  - dovetail-ai
+  - productboard
+  - amplitude-ai
   - perplexity
   - gamma
-  - amplitude-ai
-  - clickup
   - obsidian
 
 ---

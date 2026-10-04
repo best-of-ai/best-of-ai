@@ -14,8 +14,8 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - freed
   - nuance-dax
-  - asana
   - otter-ai
   - notebooklm
   - grammarly

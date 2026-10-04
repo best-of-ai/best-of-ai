@@ -12,6 +12,7 @@ categories:
   - no-code
   - image-generation
 featured_tools:
+  - chatgpt
   - figma
   - webflow
   - framer
@@ -20,7 +21,6 @@ featured_tools:
   - ideogram
   - adobe-firefly
   - adobe-express
-  - adobe-sensei
   - flux
 
 ---

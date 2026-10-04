@@ -8,12 +8,12 @@ icon: '📚'
 sort_order: 0
 categories:
   - learning-tools
-  - elearning-developers
+  - writing-assistants
   - document-ai
   - productivity
 featured_tools:
   - chatgpt
-  - synthesis
+  - docebo
   - notion-ai
   - canva
   - khanmigo

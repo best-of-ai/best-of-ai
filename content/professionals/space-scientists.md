@@ -18,10 +18,9 @@ featured_tools:
   - maxar
   - spire-global
   - semantic-scholar
+  - connected-papers
   - tableau
   - notebooklm
-  - amplitude-ai
   - consensus
-  - copy-ai
 
 ---

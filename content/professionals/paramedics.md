@@ -13,14 +13,13 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
-  - asana
-  - otter-ai
-  - notebooklm
+  - suki-ai
+  - freed
+  - heidi-health
   - adobe-acrobat-ai
+  - notebooklm
   - grammarly
   - zapier
-  - clickup
   - make
-  - n8n
 
 ---

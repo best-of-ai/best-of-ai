@@ -17,13 +17,12 @@ categories:
 featured_tools:
   - chatgpt
   - zillow
-  - salesforce
+  - matterport
+  - boxbrownie
   - hubspot-crm
   - canva
   - mailchimp
   - grammarly
-  - hubspot
   - pipedrive
-  - zoho-crm
 
 ---

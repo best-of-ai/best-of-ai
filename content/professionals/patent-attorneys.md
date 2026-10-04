@@ -18,10 +18,9 @@ featured_tools:
   - derwent-innovation
   - iplytics
   - harvey
+  - casetext
   - notebooklm
   - grammarly
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
 
 ---

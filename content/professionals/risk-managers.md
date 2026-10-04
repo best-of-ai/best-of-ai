@@ -15,13 +15,11 @@ categories:
 featured_tools:
   - chatgpt
   - drata
-  - tableau
+  - kensho
   - alphasense
-  - notebooklm
-  - amplitude-ai
-  - grammarly
+  - tableau
+  - power-bi
   - adobe-acrobat-ai
   - perplexity-research
-  - power-bi
 
 ---

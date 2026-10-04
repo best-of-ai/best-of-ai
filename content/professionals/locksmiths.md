@@ -12,15 +12,15 @@ categories:
   - fleet-management
   - customer-support
 featured_tools:
-  - asana
-  - hubspot-business
-  - clickup
-  - drift
-  - freshdesk
-  - intercom
-  - todoist
-  - zendesk
-  - akiflow
+  - jobber
+  - acuity-scheduling
+  - calendly
   - chatbase
+  - intercom
+  - zendesk
+  - drift
+  - hubspot-business
+  - akiflow
+  - todoist
 
 ---

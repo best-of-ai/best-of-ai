@@ -14,12 +14,12 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
+  - tomorrow-io
   - tableau
   - wolfram-alpha-ai
   - arcgis
   - infogram
   - piktochart
-  - amplitude-ai
   - canva-infographics
   - copy-ai
   - grammarly

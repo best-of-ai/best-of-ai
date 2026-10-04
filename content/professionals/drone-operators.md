@@ -8,19 +8,20 @@ icon: '🚁'
 sort_order: 0
 categories:
   - geospatial
+  - robotics
   - computer-vision
   - 3d
   - video
 featured_tools:
+  - dronedeploy
+  - pix4d
+  - skydio
+  - arcgis
+  - mapbox
   - runway
+  - luma-ai
+  - alpha3d
   - aws-rekognition
   - clarifai
-  - pika-labs
-  - alpha3d
-  - arcgis
-  - kaedim
-  - luma-ai
-  - mapbox
-  - masterpiece-studio
 
 ---

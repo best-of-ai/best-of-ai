@@ -22,6 +22,6 @@ featured_tools:
   - notebooklm
   - adobe-acrobat-ai
   - assemblyai
-  - copy-ai
+  - abridge-ai
 
 ---

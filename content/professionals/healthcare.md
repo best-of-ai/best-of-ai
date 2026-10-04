@@ -17,8 +17,8 @@ featured_tools:
   - suki-ai
   - aidoc-ai
   - notebooklm
-  - ada-health
-  - alphafold-ai
-  - babylon-health
+  - hippocratic-ai
+  - glass-health
+  - viz-ai
 
 ---

@@ -18,9 +18,7 @@ featured_tools:
   - power-bi
   - wolfram-alpha-ai
   - semantic-scholar
-  - asana
-  - amplitude-ai
-  - clickup
+  - connected-papers
   - perplexity-research
 
 ---

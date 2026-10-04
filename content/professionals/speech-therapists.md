@@ -13,14 +13,12 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
-  - asana
   - otter-ai
   - elevenlabs
+  - murf
   - notebooklm
   - grammarly
-  - murf
-  - adobe-acrobat-ai
   - adobe-podcast
-  - clickup
+  - adobe-acrobat-ai
 
 ---

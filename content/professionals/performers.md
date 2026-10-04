@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - elevenlabs
-  - murf
-  - canva
+  - udio
   - suno
   - descript
-  - grammarly
+  - canva
   - adobe-podcast
+  - voicemod
+  - grammarly
   - buffer
-  - copy-ai
 
 ---

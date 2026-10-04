@@ -14,13 +14,10 @@ categories:
 featured_tools:
   - chatgpt
   - lever
+  - linkedin
   - hubspot-crm
   - grammarly
   - canva
-  - linkedin
-  - hubspot
-  - amplitude-ai
   - power-bi
-  - scale-ai
 
 ---

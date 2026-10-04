@@ -13,14 +13,12 @@ categories:
   - data
 featured_tools:
   - chatgpt
-  - semrush
+  - nationbuilder
   - brandwatch
   - tableau
   - hubspot
   - grammarly
   - perplexity
-  - amplitude-ai
   - power-bi
-  - scale-ai
 
 ---

@@ -8,19 +8,20 @@ icon: '⚗️'
 sort_order: 0
 categories:
   - research-tools
+  - manufacturing
   - data
   - automation
   - document-ai
 featured_tools:
   - chatgpt
+  - aspentech
   - wolfram-alpha-ai
-  - semantic-scholar
-  - tableau
   - schrodinger
-  - scispace
+  - tableau
   - elicit
+  - semantic-scholar
+  - scispace
   - zapier
   - adobe-acrobat-ai
-  - amplitude-ai
 
 ---

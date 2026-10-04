@@ -22,6 +22,6 @@ featured_tools:
   - julius-ai
   - ahrefs
   - amplitude-ai
-  - buffer
+  - hotjar-ai
 
 ---

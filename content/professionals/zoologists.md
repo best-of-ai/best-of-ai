@@ -15,12 +15,11 @@ featured_tools:
   - chatgpt
   - arcgis
   - clarifai
-  - semantic-scholar
-  - notebooklm
-  - tableau
-  - elicit
-  - amplitude-ai
   - aws-rekognition
+  - semantic-scholar
+  - connected-papers
+  - notebooklm
+  - elicit
   - perplexity-research
 
 ---

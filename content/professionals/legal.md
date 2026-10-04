@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
-  - adobe-acrobat-ai
   - spellbook
-  - scispace
+  - kira-systems
+  - luminance-ai
+  - relativity
+  - lawgeex
+  - adobe-acrobat-ai
   - notebooklm
-  - perplexity-research
-  - semantic-scholar
-  - chatpdf
 
 ---

@@ -12,15 +12,15 @@ categories:
   - document-ai
   - telemedicine
 featured_tools:
-  - adobe-acrobat-ai
+  - simplepractice
+  - chatgpt
   - betterhelp
-  - chatpdf
   - doxy-me
-  - humata
-  - notebooklm
   - teladoc
   - woebot
   - wysa
-  - abbyy
+  - notebooklm
+  - adobe-acrobat-ai
+  - grammarly
 
 ---

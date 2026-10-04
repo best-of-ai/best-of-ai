@@ -14,14 +14,12 @@ categories:
   - research-tools
 featured_tools:
   - chatgpt
-  - asana
-  - quillbot
-  - writesonic
+  - suki-ai
+  - wysa
+  - betterhelp
   - otter-ai
   - notebooklm
   - wordtune
   - adobe-acrobat-ai
-  - clickup
-  - copy-ai
 
 ---

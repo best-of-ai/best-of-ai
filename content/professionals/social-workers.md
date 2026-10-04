@@ -13,14 +13,11 @@ categories:
   - automation
 featured_tools:
   - chatgpt
-  - asana
-  - todoist
   - grammarly
   - otter-ai
   - notebooklm
-  - zapier
+  - chatpdf
   - adobe-acrobat-ai
-  - clickup
-  - copy-ai
+  - zapier
 
 ---

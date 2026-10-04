@@ -16,13 +16,13 @@ categories:
 featured_tools:
   - chatgpt
   - alphasense
+  - rogo-ai
+  - daloopa
   - pitchbook-ai
   - cb-insights-ai
   - morningstar-ai
   - gamma
-  - amplitude-ai
   - adobe-acrobat-ai
   - perplexity-research
-  - power-bi
 
 ---

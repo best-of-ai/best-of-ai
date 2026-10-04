@@ -11,16 +11,17 @@ categories:
   - writing-assistants
   - storytelling
   - copywriting
+  - character-design
 featured_tools:
   - chatgpt
   - sudowrite
+  - novelai
+  - charisma-ai
+  - ai-dungeon
+  - inworld-ai
+  - convai
   - notion-ai
   - grammarly
-  - jasper
-  - novelai
-  - quillbot
   - copy-ai
-  - wordtune
-  - writesonic
 
 ---

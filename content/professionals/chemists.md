@@ -9,18 +9,19 @@ sort_order: 69
 categories:
   - academia
   - research-tools
+  - biotech
+  - drug-discovery
   - data
-  - healthcare
 featured_tools:
   - chatgpt
-  - wolfram-alpha-ai
-  - benchling
-  - semantic-scholar
-  - tableau
-  - elicit
   - schrodinger
-  - amplitude-ai
+  - benchling
+  - reaxys
+  - wolfram-alpha-ai
+  - semantic-scholar
+  - elicit
   - consensus
+  - tableau
   - perplexity-research
 
 ---

@@ -13,14 +13,14 @@ categories:
   - automation
 featured_tools:
   - chatgpt
+  - blend
+  - sales-boomerang
+  - floify
   - adobe-acrobat-ai
   - hubspot-crm
-  - grammarly
   - notebooklm
   - canva
   - zapier
   - make
-  - n8n
-  - alphasense
 
 ---

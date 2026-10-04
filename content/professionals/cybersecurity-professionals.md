@@ -7,13 +7,14 @@ description: 'The best AI tools for cybersecurity professionals — AI-powered t
 icon: '🔒'
 sort_order: 40
 categories:
+  - cybersecurity
   - devtools
   - automation
   - code-assistant
   - data
-  - business-tools
 featured_tools:
   - chatgpt
+  - vanta
   - snyk-ai
   - wiz
   - crowdstrike
@@ -21,7 +22,6 @@ featured_tools:
   - drata
   - github-copilot
   - cursor
-  - hubspot-business
   - zapier
 
 ---

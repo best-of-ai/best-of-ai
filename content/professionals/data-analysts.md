@@ -17,11 +17,11 @@ featured_tools:
   - julius-ai
   - tableau
   - power-bi
+  - hex
+  - looker
+  - thoughtspot
   - databricks
-  - zapier
-  - asana
+  - dbt-cloud
   - amplitude-ai
-  - clickup
-  - make
 
 ---

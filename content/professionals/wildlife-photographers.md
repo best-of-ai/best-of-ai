@@ -12,15 +12,13 @@ categories:
   - computer-vision
   - productivity
 featured_tools:
+  - chatgpt
   - adobe-lightroom-ai
   - luminar-neo
   - topaz-photo-ai
-  - removebg
-  - canva
-  - midjourney
-  - asana
   - aws-rekognition
   - clarifai
-  - clickup
+  - canva
+  - midjourney
 
 ---

@@ -14,14 +14,14 @@ categories:
   - compliance
 featured_tools:
   - chatgpt
-  - grammarly
+  - trinka
+  - paperpal
   - semantic-scholar
   - elicit
   - scite-ai
   - notebooklm
   - prowritingaid
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
+  - grammarly
 
 ---

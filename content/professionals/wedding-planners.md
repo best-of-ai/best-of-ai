@@ -14,14 +14,11 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
-  - asana
   - canva
+  - midjourney
+  - gamma
   - grammarly
   - mailchimp
-  - gamma
-  - midjourney
   - buffer
-  - clickup
-  - copy-ai
 
 ---

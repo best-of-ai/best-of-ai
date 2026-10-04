@@ -14,6 +14,7 @@ categories:
   - code-assistant
 featured_tools:
   - chatgpt
+  - jitx
   - wolfram-alpha-ai
   - drawio
   - tableau
@@ -21,7 +22,6 @@ featured_tools:
   - notebooklm
   - mintlify
   - aider
-  - amazon-codewhisperer
   - amazon-q
 
 ---

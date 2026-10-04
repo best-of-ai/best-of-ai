@@ -16,11 +16,11 @@ featured_tools:
   - chatgpt
   - otter-ai
   - reclaim-ai
+  - clockwise-ai
   - zoom-ai
   - grammarly
   - superhuman
   - zapier
-  - asana
   - clickup
   - fireflies-ai
 

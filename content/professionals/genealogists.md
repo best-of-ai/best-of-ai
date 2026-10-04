@@ -14,14 +14,14 @@ categories:
   - knowledge-management
 featured_tools:
   - chatgpt
+  - myheritage
+  - ancestry
+  - transkribus
   - otter-ai
   - notebooklm
   - assemblyai
-  - grammarly
-  - semantic-scholar
-  - notion-ai
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
+  - grammarly
+  - notion-ai
 
 ---

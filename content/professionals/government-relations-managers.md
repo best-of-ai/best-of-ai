@@ -13,11 +13,10 @@ categories:
   - compliance
 featured_tools:
   - chatgpt
+  - fiscalnote
   - perplexity
   - grammarly
   - notebooklm
-  - scispace
-  - semantic-scholar
   - gamma
   - adobe-acrobat-ai
   - perplexity-research

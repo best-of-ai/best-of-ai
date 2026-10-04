@@ -12,15 +12,15 @@ categories:
   - business-tools
   - identity
 featured_tools:
-  - hubspot-business
+  - notarize
   - adobe-acrobat-ai
-  - casetext
+  - jumio
   - chatpdf
   - donotpay
   - harvey
   - humata
-  - jumio
   - kira-systems
   - lawgeex
+  - hubspot-business
 
 ---

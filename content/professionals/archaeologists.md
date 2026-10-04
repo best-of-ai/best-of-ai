@@ -14,10 +14,10 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - mapbox
   - luma-ai
   - semantic-scholar
   - clarifai
-  - notebooklm
   - research-rabbit
   - aws-rekognition
   - perplexity-research

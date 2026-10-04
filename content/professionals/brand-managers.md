@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - canva
   - midjourney
-  - sprout-social
-  - semrush
+  - talkwalker
   - brandwatch
+  - sprout-social
   - buffer
   - figma
   - adobe-express
-  - adobe-sensei
+  - semrush
 
 ---

@@ -16,12 +16,10 @@ featured_tools:
   - chatgpt
   - linear
   - asana
+  - monday
   - make
-  - gamma
   - zapier
-  - slack-ai
-  - amplitude-ai
+  - gamma
   - clickup
-  - n8n
 
 ---

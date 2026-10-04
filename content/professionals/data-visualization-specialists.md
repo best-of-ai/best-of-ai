@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - tableau
   - power-bi
-  - julius-ai
+  - looker
+  - datawrapper
   - infogram
   - piktochart
   - venngage
   - amplitude-ai
   - canva-infographics
-  - scale-ai
 
 ---

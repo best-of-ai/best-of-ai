@@ -12,15 +12,13 @@ categories:
   - presentation
   - documentation
 featured_tools:
-  - hubspot-crm
+  - chatgpt
   - salesforce
-  - pipedrive
-  - zoho-crm
-  - amplemarket
-  - apollo
+  - hubspot-crm
   - beautiful-ai
   - chorus-ai
   - clay
   - confluence-ai
+  - apollo
 
 ---

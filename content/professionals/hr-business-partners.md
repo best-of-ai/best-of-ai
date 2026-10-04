@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - workday
+  - visier
+  - paradox-ai
   - lattice-ai
   - bamboohr
+  - greenhouse
+  - lever
   - zapier
   - grammarly
-  - greenhouse
-  - adobe-acrobat-ai
-  - amplitude-ai
-  - lever
 
 ---

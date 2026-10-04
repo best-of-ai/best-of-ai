@@ -12,15 +12,15 @@ categories:
   - compliance
   - customer-support
 featured_tools:
+  - blend
+  - ncino
   - adobe-acrobat-ai
-  - drift
-  - freshdesk
+  - chatpdf
+  - alphasense
   - intercom
   - zendesk
-  - alphasense
+  - drift
   - chatbase
-  - chatpdf
   - forethought-ai
-  - gorgias
 
 ---

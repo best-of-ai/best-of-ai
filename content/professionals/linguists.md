@@ -17,10 +17,10 @@ featured_tools:
   - deepl
   - google-translate
   - otter-ai
-  - semantic-scholar
-  - assemblyai
   - whisper
-  - amplitude-ai
+  - assemblyai
+  - memoq
+  - semantic-scholar
   - consensus
   - elicit
 

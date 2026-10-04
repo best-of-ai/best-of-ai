@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - deepl
   - google-translate
+  - flexport
+  - avalara
   - salesforce
   - tableau
   - notebooklm
-  - zapier
   - adobe-acrobat-ai
-  - attention-insight
-  - brandwatch
+  - zapier
 
 ---

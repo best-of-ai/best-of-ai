@@ -19,10 +19,7 @@ featured_tools:
   - hotjar-ai
   - maze-ai
   - otter-ai
-  - asana
   - tableau
-  - amplitude-ai
   - assemblyai
-  - clickup
 
 ---

@@ -8,19 +8,20 @@ icon: '🦷'
 sort_order: 76
 categories:
   - healthcare
+  - medical-imaging
   - image-editing
   - productivity
   - business-tools
 featured_tools:
   - chatgpt
-  - asana
+  - overjet
+  - pearl-dental
   - nuance-dax
-  - notebooklm
   - suki-ai
+  - notebooklm
   - canva
   - hubspot-business
   - clickup
-  - todoist
   - adobe-lightroom-ai
 
 ---

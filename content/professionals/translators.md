@@ -16,12 +16,9 @@ featured_tools:
   - chatgpt
   - deepl
   - google-translate
-  - asana
+  - dubverse
   - grammarly
   - quillbot
-  - writesonic
   - adobe-acrobat-ai
-  - clickup
-  - copy-ai
 
 ---
