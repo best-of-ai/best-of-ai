@@ -13,14 +13,14 @@ categories:
   - document-ai
 featured_tools:
   - chatgpt
+  - overjet
+  - pearl-dental
+  - dental-monitoring
   - nuance-dax
   - adobe-acrobat-ai
   - notebooklm
-  - aidoc-ai
-  - viz-ai
   - canva
   - alpha3d
-  - arterys
   - chatpdf
 
 ---

@@ -13,15 +13,13 @@ categories:
   - website-builders
   - no-code
 featured_tools:
+  - chatgpt
   - github-copilot
   - cursor
-  - chatgpt
   - replit
   - bolt-new
   - v0
   - windsurf
   - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

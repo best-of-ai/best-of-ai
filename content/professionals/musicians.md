@@ -18,12 +18,12 @@ featured_tools:
   - suno
   - udio
   - elevenlabs
+  - landr-ai
   - aiva
   - murf
   - krisp
   - descript
   - adobe-podcast
   - amazon-polly
-  - assemblyai
 
 ---

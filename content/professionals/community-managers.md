@@ -15,9 +15,9 @@ categories:
   - content-moderation
 featured_tools:
   - chatgpt
+  - circle-so
   - intercom
   - buffer
-  - notion-ai
   - sprout-social
   - canva
   - brandwatch

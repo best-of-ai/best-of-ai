@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - workday
+  - hiredscore
+  - paradox-ai
   - greenhouse
   - bamboohr
   - textio
-  - zoom-ai
   - lattice-ai
   - fireflies-ai
   - otter-ai
-  - avoma
 
 ---

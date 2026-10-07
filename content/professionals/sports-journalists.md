@@ -13,14 +13,12 @@ categories:
   - social-media-tools
 featured_tools:
   - chatgpt
-  - grammarly
   - stats-perform
+  - hudl
+  - grammarly
   - otter-ai
   - notebooklm
   - perplexity
-  - quillbot
-  - amplitude-ai
   - buffer
-  - copy-ai
 
 ---

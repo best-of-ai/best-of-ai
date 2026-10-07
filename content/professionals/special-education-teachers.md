@@ -12,14 +12,12 @@ categories:
   - document-ai
   - productivity
 featured_tools:
-  - asana
-  - adobe-acrobat-ai
-  - clickup
-  - todoist
-  - akiflow
-  - brilliant
+  - chatgpt
+  - khanmigo
   - carnegie-learning
+  - brilliant
   - chatpdf
+  - adobe-acrobat-ai
   - chegg-ai
   - coursera
 

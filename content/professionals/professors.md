@@ -15,12 +15,11 @@ featured_tools:
   - chatgpt
   - elicit
   - semantic-scholar
+  - connected-papers
   - notebooklm
   - grammarly
   - gamma
   - turnitin-ai
   - consensus
-  - copy-ai
-  - jasper
 
 ---

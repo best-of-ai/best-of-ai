@@ -8,19 +8,17 @@ icon: '💪'
 sort_order: 58
 categories:
   - healthcare
-  - productivity
+  - fitness
   - automation
   - business-tools
 featured_tools:
   - chatgpt
   - fitbod
   - whoop
-  - asana
+  - trainerize
+  - freeletics
+  - myfitnesspal
   - canva
   - grammarly
-  - myfitnesspal
-  - hubspot-business
-  - zapier
-  - clickup
 
 ---

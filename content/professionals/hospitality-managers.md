@@ -14,14 +14,14 @@ categories:
   - data
 featured_tools:
   - chatgpt
+  - canary-technologies
+  - duve
   - intercom
+  - hubspot-crm
   - salesforce
-  - canva
   - mailchimp
   - zapier
-  - hubspot-crm
-  - claude
-  - gemini
-  - grok
+  - canva
+  - notion
 
 ---

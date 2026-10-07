@@ -14,14 +14,14 @@ categories:
   - transcription
 featured_tools:
   - chatgpt
+  - openevidence
   - nuance-dax
-  - asana
   - abridge-ai
   - suki-ai
+  - heidi-health
   - notebooklm
   - semantic-scholar
   - adobe-acrobat-ai
   - assemblyai
-  - clickup
 
 ---

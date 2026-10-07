@@ -15,13 +15,11 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - spacemaker-ai
   - mapbox
   - tableau
   - drawio
   - notebooklm
-  - scispace
-  - amplitude-ai
-  - copy-ai
   - grammarly
 
 ---

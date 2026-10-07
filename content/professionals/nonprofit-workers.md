@@ -14,10 +14,10 @@ categories:
   - data
 featured_tools:
   - chatgpt
-  - grammarly
+  - keela
   - canva
   - mailchimp
-  - asana
+  - grammarly
   - jasper
   - gamma
   - amplitude-ai

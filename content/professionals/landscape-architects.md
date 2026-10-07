@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - midjourney
   - sketchup
+  - spacemaker-ai
+  - plantnet
   - ideogram
   - flux
   - canva
   - gamma
   - krea-ai
   - alpha3d
-  - artbreeder
-  - beautiful-ai
 
 ---

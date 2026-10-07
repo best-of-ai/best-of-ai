@@ -15,12 +15,10 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
+  - avalara
   - turbotax
-  - taxjar
   - notebooklm
-  - grammarly
   - adobe-acrobat-ai
   - perplexity-research
-  - scispace
 
 ---

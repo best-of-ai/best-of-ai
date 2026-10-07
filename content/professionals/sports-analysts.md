@@ -19,9 +19,7 @@ featured_tools:
   - stats-perform
   - tableau
   - julius-ai
-  - amplitude-ai
   - aws-rekognition
   - clarifai
-  - copy-ai
 
 ---

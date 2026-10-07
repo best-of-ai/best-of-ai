@@ -18,10 +18,9 @@ featured_tools:
   - viz-ai
   - paige-ai
   - nuance-dax
-  - notebooklm
-  - semantic-scholar
-  - adobe-acrobat-ai
   - aws-rekognition
   - clarifai
+  - adobe-acrobat-ai
+  - notebooklm
 
 ---

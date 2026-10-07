@@ -14,14 +14,13 @@ categories:
   - social-media-tools
 featured_tools:
   - chatgpt
+  - bluedot
   - arcgis
   - tableau
   - semantic-scholar
   - notebooklm
   - grammarly
   - elicit
-  - amplitude-ai
   - buffer
-  - copy-ai
 
 ---

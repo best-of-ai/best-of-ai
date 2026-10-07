@@ -14,6 +14,7 @@ categories:
 featured_tools:
   - chatgpt
   - semantic-scholar
+  - greenlight-guru
   - drata
   - notebooklm
   - tableau
@@ -21,6 +22,5 @@ featured_tools:
   - scispace
   - adobe-acrobat-ai
   - perplexity-research
-  - chatpdf
 
 ---

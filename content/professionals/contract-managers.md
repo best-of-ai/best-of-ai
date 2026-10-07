@@ -14,10 +14,10 @@ categories:
 featured_tools:
   - chatgpt
   - contractpodai
-  - casetext
+  - ironclad-ai
   - harvey
   - spellbook
-  - notebooklm
+  - robin-ai
   - agiloft
   - adobe-acrobat-ai
   - chatpdf

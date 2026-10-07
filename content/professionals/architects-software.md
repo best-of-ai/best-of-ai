@@ -16,11 +16,11 @@ featured_tools:
   - github-copilot
   - cursor
   - claude
+  - sourcegraph-cody
+  - mermaid-chart
   - drawio
   - notion-ai
   - chatgpt
-  - cline
-  - asana
   - adobe-acrobat-ai
   - aider
 

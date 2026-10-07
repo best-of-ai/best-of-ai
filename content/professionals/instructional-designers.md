@@ -15,14 +15,14 @@ categories:
   - talking-avatar-generator
 featured_tools:
   - chatgpt
-  - gamma
   - synthesia
   - heygen
-  - sora
+  - articulate-360
+  - docebo
+  - quizgecko
+  - gamma
   - canva
-  - grammarly
   - elevenlabs
-  - luma-dream-machine
   - adobe-podcast
 
 ---

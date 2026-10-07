@@ -22,7 +22,7 @@ featured_tools:
   - grammarly
   - notebooklm
   - asana
-  - amplitude-ai
+  - exa-ai
   - clickup
 
 ---

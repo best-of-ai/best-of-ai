@@ -19,8 +19,8 @@ featured_tools:
   - notion-ai
   - elicit
   - consensus
-  - amplitude-ai
-  - copy-ai
+  - scholarcy
+  - notebooklm
   - grammarly
 
 ---

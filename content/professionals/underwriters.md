@@ -12,15 +12,15 @@ categories:
   - data
   - document-ai
 featured_tools:
-  - adobe-acrobat-ai
-  - amplitude-ai
-  - power-bi
-  - scale-ai
-  - tableau
-  - alphasense
-  - chatpdf
-  - dataiku
-  - humata
+  - chatgpt
+  - zest-ai
+  - feedzai
   - lemonade
+  - dataiku
+  - alphasense
+  - tableau
+  - power-bi
+  - chatpdf
+  - adobe-acrobat-ai
 
 ---

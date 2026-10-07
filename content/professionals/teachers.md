@@ -21,8 +21,6 @@ featured_tools:
   - grammarly
   - turnitin-ai
   - notebooklm
-  - asana
-  - adobe-acrobat-ai
-  - clickup
+  - quillbot
 
 ---

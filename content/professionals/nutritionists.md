@@ -13,12 +13,12 @@ categories:
   - automation
 featured_tools:
   - chatgpt
+  - nutrium
   - myfitnesspal
   - cronometer
-  - asana
+  - noom
   - canva
   - grammarly
-  - noom
   - zapier
   - clickup
   - make

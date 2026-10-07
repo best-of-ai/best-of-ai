@@ -14,14 +14,12 @@ categories:
   - computer-vision
 featured_tools:
   - chatgpt
-  - tableau
   - tulip
   - sight-machine
-  - amplitude-ai
-  - zapier
-  - drata
-  - adobe-acrobat-ai
   - aws-rekognition
   - clarifai
+  - drata
+  - tableau
+  - adobe-acrobat-ai
 
 ---

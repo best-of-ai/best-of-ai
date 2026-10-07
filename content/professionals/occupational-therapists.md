@@ -9,19 +9,18 @@ sort_order: 254
 categories:
   - healthcare
   - document-ai
-  - productivity
+  - telemedicine
   - transcription
   - writing-assistants
 featured_tools:
   - chatgpt
-  - asana
-  - otter-ai
-  - notebooklm
+  - freed
+  - heidi-health
+  - suki-ai
+  - nabla
+  - abridge-ai
   - grammarly
   - adobe-acrobat-ai
-  - semantic-scholar
-  - assemblyai
-  - clickup
-  - copy-ai
+  - notebooklm
 
 ---

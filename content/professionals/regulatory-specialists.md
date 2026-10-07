@@ -16,12 +16,10 @@ featured_tools:
   - chatgpt
   - drata
   - onetrust
-  - notebooklm
-  - grammarly
   - harvey
+  - notebooklm
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
+  - grammarly
   - perplexity-research
 
 ---

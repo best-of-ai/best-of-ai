@@ -11,13 +11,14 @@ categories:
   - research-tools
   - copywriting
   - productivity
+  - transcription
 featured_tools:
   - chatgpt
-  - grammarly
   - perplexity
-  - notion-ai
-  - jasper
-  - quillbot
+  - notebooklm
+  - trint
+  - grammarly
+  - hemingway-editor
   - wordtune
   - asana
   - clickup

@@ -17,5 +17,7 @@ alternatives:
   - testim
   - mabl
   - applitools
+  - qa-wolf
+  - momentic-mo
 tags: [api_available, collaboration, image_based, analytics, fast, ai_powered, intelligent, platform]
 ---

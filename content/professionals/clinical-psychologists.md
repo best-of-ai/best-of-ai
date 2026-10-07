@@ -15,6 +15,7 @@ categories:
 featured_tools:
   - chatgpt
   - nuance-dax
+  - mentalyc
   - wysa
   - otter-ai
   - grammarly
@@ -22,6 +23,5 @@ featured_tools:
   - notebooklm
   - adobe-acrobat-ai
   - copy-ai
-  - jasper
 
 ---

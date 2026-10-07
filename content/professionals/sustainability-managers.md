@@ -14,14 +14,12 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
-  - aurora-solar
-  - amplitude-ai
+  - watershed
+  - carbon-trust
+  - climate-trace
   - uplight
   - tableau
   - notebooklm
-  - scale-ai
-  - copy-ai
   - grammarly
-  - jasper
 
 ---

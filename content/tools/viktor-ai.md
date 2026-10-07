@@ -11,7 +11,7 @@ category: 'ai-agents'
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false
-rank: 6
+rank: 5
 alternatives:
   - agentgpt
   - autogpt
@@ -20,7 +20,7 @@ alternatives:
   - coze
   - dify
 date: '2026-08-31'
-tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, orchestration, agentic, slack, collaboration, workplace, enterprise]
+tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration, analytics]
 ---
 
 Viktor is an AI agent from Zeta Labs that lives inside Slack and Microsoft Teams instead of a standalone interface. It connects to a company's existing tools, learns the patterns of how a team works over time, and steps in with suggestions or completed work such as campaign drafts, internal apps, and reports, without waiting for someone to open a separate app.

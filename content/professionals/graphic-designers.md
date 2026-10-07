@@ -20,7 +20,7 @@ featured_tools:
   - ideogram
   - adobe-express
   - looka
-  - adobe-sensei
+  - recraft
   - flux
   - adobe-lightroom-ai
 

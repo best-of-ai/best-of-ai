@@ -12,16 +12,17 @@ categories:
   - finance
   - writing-assistants
   - productivity
+  - contract-management
 featured_tools:
   - chatgpt
   - harvey
-  - asana
+  - trust-and-will
+  - wealth-com
+  - docusign-ai
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-  - quillbot
   - clickup
-  - copy-ai
-  - jasper
+  - asana
 
 ---

@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - wolfram-alpha-ai
   - semantic-scholar
-  - tableau
-  - maxar
-  - drawio
-  - scispace
-  - amplitude-ai
-  - perplexity-research
   - power-bi
+  - maxar
+  - spire-global
+  - drawio
+  - mermaid-chart
+  - confluence-ai
+  - scispace
 
 ---

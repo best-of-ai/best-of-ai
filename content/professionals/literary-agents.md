@@ -13,14 +13,14 @@ categories:
   - document-ai
 featured_tools:
   - chatgpt
-  - notion-ai
-  - grammarly
+  - autocrit
+  - sudowrite
   - notebooklm
+  - grammarly
   - quillbot
   - perplexity
-  - writesonic
+  - notion-ai
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
+  - prowritingaid
 
 ---

@@ -13,14 +13,14 @@ categories:
   - research-tools
 featured_tools:
   - chatgpt
+  - seequent
+  - datarock
   - arcgis
   - tableau
-  - amplitude-ai
   - notebooklm
   - drawio
   - zapier
   - make
-  - n8n
   - perplexity-research
 
 ---

@@ -14,7 +14,7 @@ categories:
   - image-generation
 featured_tools:
   - runway
-  - sora
+  - veo-3
   - luma-dream-machine
   - kling-ai
   - midjourney

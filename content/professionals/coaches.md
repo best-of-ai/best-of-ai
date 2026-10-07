@@ -14,13 +14,13 @@ categories:
   - automation
 featured_tools:
   - chatgpt
-  - notion-ai
-  - grammarly
-  - zapier
+  - kajabi
   - betterup
+  - notion-ai
   - canva
-  - khanmigo
-  - asana
+  - grammarly
+  - copy-ai
+  - zapier
   - hubspot-business
   - clickup
 

@@ -10,17 +10,17 @@ categories:
   - food
   - business-tools
   - productivity
-  - customer-support
+  - hr
 featured_tools:
-  - asana
-  - hubspot-business
+  - chatgpt
+  - toast
+  - square
+  - 7shifts
+  - marketman
   - clickup
-  - drift
-  - freshdesk
-  - intercom
-  - todoist
-  - zendesk
+  - slack-ai
   - akiflow
-  - chatbase
+  - todoist
+  - hubspot-business
 
 ---

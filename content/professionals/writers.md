@@ -27,6 +27,5 @@ featured_tools:
   - sudowrite
   - adobe-acrobat-ai
   - consensus
-  - copy-ai
 
 ---

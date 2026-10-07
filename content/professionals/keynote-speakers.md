@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - gamma
   - beautiful-ai
-  - notion-ai
-  - grammarly
+  - decktopus
+  - yoodli
   - canva
   - midjourney
-  - asana
-  - clickup
+  - notion-ai
+  - grammarly
   - copy-ai
 
 ---

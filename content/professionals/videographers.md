@@ -12,15 +12,13 @@ categories:
   - transcription
   - productivity
 featured_tools:
+  - chatgpt
   - capcut
   - adobe-premiere-pro-ai
   - runway
   - topaz-video-ai
-  - asana
+  - whisper
   - otter-ai
   - assemblyai
-  - clickup
-  - todoist
-  - whisper
 
 ---

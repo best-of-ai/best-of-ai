@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - planet-labs
   - clarifai
-  - semantic-scholar
-  - notebooklm
-  - tableau
-  - elicit
-  - amplitude-ai
   - aws-rekognition
-  - copy-ai
+  - semantic-scholar
+  - connected-papers
+  - notebooklm
+  - elicit
+  - tableau
 
 ---

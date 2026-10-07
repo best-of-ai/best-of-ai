@@ -14,12 +14,12 @@ categories:
   - healthcare
 featured_tools:
   - chatgpt
-  - asana
+  - upheal
+  - nabla
   - adobe-acrobat-ai
   - quillbot
   - otter-ai
   - notebooklm
-  - writesonic
   - clickup
   - copy-ai
   - grammarly

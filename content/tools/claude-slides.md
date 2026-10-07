@@ -11,11 +11,11 @@ category: 'presentation'
 category_name: 'Presentation'
 price: 'Freemium'
 featured: false
-rank: 6
+rank: 5
 date: '2026-09-18'
 alternatives:
   - gamma
   - microsoft-copilot
   - chatgpt
-tags: [presentation, slides, productivity, anthropic, chatbot, export, business, writing]
+tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, collaboration, free_tier]
 ---

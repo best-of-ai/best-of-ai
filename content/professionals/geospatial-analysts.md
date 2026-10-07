@@ -16,10 +16,9 @@ featured_tools:
   - chatgpt
   - arcgis
   - mapbox
-  - amplitude-ai
+  - planet-labs
   - tableau
   - clarifai
-  - notebooklm
   - aws-rekognition
   - canva-infographics
   - perplexity-research

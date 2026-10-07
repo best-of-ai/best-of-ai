@@ -14,14 +14,14 @@ categories:
   - cybersecurity
 featured_tools:
   - chatgpt
-  - cursor
-  - linear
-  - zapier
+  - servicenow
+  - pagerduty
+  - moveworks
   - freshdesk
   - drata
   - microsoft-copilot
-  - amazon-bedrock
-  - azure-openai
+  - zapier
   - drift
+  - linear
 
 ---

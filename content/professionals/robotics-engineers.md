@@ -14,14 +14,12 @@ categories:
   - computer-vision
 featured_tools:
   - chatgpt
+  - covariant
   - github-copilot
   - cursor
   - azure-openai
-  - tableau
+  - aider
   - drawio
   - mintlify
-  - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

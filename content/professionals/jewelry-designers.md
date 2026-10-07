@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - midjourney
   - ideogram
-  - canva
+  - meshy-ai
+  - tripo3d
   - spline
   - adobe-firefly
   - figma
-  - tripo3d
+  - canva
   - adobe-express
-  - adobe-sensei
   - flux
 
 ---

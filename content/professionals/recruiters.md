@@ -17,11 +17,9 @@ featured_tools:
   - greenhouse
   - linkedin
   - textio
+  - eightfold-ai
+  - hirevue
   - zapier
   - grammarly
-  - hubspot-crm
-  - salesforce
-  - copy-ai
-  - jasper
 
 ---

@@ -11,12 +11,12 @@ category: 'productivity'
 category_name: 'Productivity'
 price: 'Freemium'
 featured: false
-rank: 7
+rank: 5
 date: '2026-09-18'
 alternatives:
   - notion-ai
   - microsoft-copilot
   - chatgpt
   - gemini
-tags: [productivity, document_editing, collaboration, writing, anthropic, chatbot, export, business]
+tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, real_time, free_tier]
 ---

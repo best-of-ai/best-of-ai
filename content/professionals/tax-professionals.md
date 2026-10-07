@@ -18,10 +18,8 @@ featured_tools:
   - taxjar
   - avalara
   - zapier
-  - grammarly
   - notebooklm
   - adobe-acrobat-ai
-  - make
-  - n8n
+  - grammarly
 
 ---

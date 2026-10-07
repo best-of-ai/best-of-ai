@@ -14,6 +14,7 @@ categories:
   - sentiment-analysis
 featured_tools:
   - chatgpt
+  - meltwater
   - sprout-social
   - brandwatch
   - monkeylearn
@@ -22,6 +23,5 @@ featured_tools:
   - slack-ai
   - buffer
   - copy-ai
-  - hubspot
 
 ---

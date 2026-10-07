@@ -12,15 +12,14 @@ categories:
   - graphic-design
   - market-research
 featured_tools:
+  - chatgpt
   - midjourney
   - ideogram
-  - canva
-  - adobe-firefly
-  - stable-diffusion
+  - heuritech
   - fashwell
+  - stable-diffusion
+  - adobe-firefly
   - figma
-  - adobe-express
-  - adobe-sensei
   - flux
 
 ---

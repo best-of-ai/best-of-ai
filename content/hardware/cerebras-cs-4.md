@@ -17,7 +17,7 @@ tdp_watts: 23000
 interface: 'CS-4 system (Nexus)'
 product_url: 'https://www.cerebras.ai/blog/introducing-cerebras-cs-4'
 logo_url: ''
-rank: 6
+rank: 5
 date: '2026-08-31'
 tags: [wafer-scale, cerebras, sram, ai-inference, nexus]
 ---

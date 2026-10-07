@@ -16,12 +16,10 @@ featured_tools:
   - chatgpt
   - deepl
   - elevenlabs
-  - canva
-  - quillbot
-  - grammarly
-  - wanderlog
   - amazon-polly
+  - canva
+  - wanderlog
+  - grammarly
   - buffer
-  - copy-ai
 
 ---

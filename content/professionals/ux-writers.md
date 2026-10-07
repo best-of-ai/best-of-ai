@@ -19,9 +19,5 @@ featured_tools:
   - hemingway-editor
   - prowritingaid
   - wordtune
-  - jasper
-  - asana
-  - clickup
-  - copy-ai
 
 ---

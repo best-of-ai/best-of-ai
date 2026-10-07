@@ -14,13 +14,13 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - gainsight
   - fireflies-ai
   - intercom
   - otter-ai
   - hubspot-crm
   - notion-ai
   - superhuman
-  - asana
   - salesforce
   - zoom-ai
 

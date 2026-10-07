@@ -10,17 +10,18 @@ categories:
   - fashion
   - image-generation
   - graphic-design
+  - 3d
   - market-research
 featured_tools:
   - midjourney
+  - clo3d
   - ideogram
-  - canva
   - adobe-firefly
   - fashwell
+  - vue-ai
   - stable-diffusion
   - figma
-  - adobe-express
-  - adobe-sensei
   - flux
+  - canva
 
 ---

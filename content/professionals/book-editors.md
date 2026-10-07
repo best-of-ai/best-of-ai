@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - grammarly
+  - prowritingaid
+  - sudowrite
+  - autocrit
   - quillbot
   - adobe-acrobat-ai
   - notebooklm
-  - notion-ai
   - wordtune
-  - asana
   - clickup
-  - copy-ai
 
 ---

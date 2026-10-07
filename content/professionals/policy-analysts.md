@@ -17,11 +17,10 @@ featured_tools:
   - perplexity
   - elicit
   - semantic-scholar
+  - connected-papers
   - notebooklm
   - grammarly
   - tableau
   - adobe-acrobat-ai
-  - amplitude-ai
-  - copy-ai
 
 ---

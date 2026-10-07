@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - procore
-  - drawio
   - autodesk-construction
-  - linear
+  - bluebeam
+  - buildxact
+  - drawio
   - tableau
-  - gitbook
-  - amplitude-ai
   - power-bi
-  - scale-ai
+  - gitbook
+  - docusign-ai
 
 ---

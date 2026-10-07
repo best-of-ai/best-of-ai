@@ -13,14 +13,14 @@ categories:
   - productivity
 featured_tools:
   - chatgpt
+  - trainerize
   - fitbod
   - whoop
-  - asana
-  - canva
   - myfitnesspal
-  - grammarly
+  - canva
+  - cronometer
+  - freeletics
   - clickup
-  - todoist
   - akiflow
 
 ---

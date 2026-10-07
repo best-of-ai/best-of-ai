@@ -15,12 +15,12 @@ featured_tools:
   - midjourney
   - stable-diffusion
   - flux
+  - leonardo-ai
   - adobe-firefly
-  - canva
   - krea-ai
   - ideogram
-  - figma
-  - adobe-express
-  - adobe-sensei
+  - civitai
+  - playground-ai
+  - canva
 
 ---

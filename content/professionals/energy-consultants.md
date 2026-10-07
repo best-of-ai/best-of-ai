@@ -17,11 +17,10 @@ featured_tools:
   - aurora-solar
   - uplight
   - autogrid
+  - energycap
   - tableau
   - notebooklm
-  - amplitude-ai
   - copy-ai
   - grammarly
-  - jasper
 
 ---

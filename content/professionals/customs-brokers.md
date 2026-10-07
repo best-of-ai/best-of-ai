@@ -12,6 +12,7 @@ categories:
   - compliance
   - translator
 featured_tools:
+  - flexport
   - adobe-acrobat-ai
   - google-translate
   - chatpdf
@@ -21,6 +22,5 @@ featured_tools:
   - abbyy
   - blue-yonder
   - deepl
-  - drata
 
 ---

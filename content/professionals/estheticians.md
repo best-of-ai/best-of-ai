@@ -11,16 +11,16 @@ categories:
   - image-editing
   - business-tools
   - social-media-tools
+  - calendar-scheduling
 featured_tools:
-  - hubspot-business
+  - chatgpt
+  - perfectcorp
+  - adobe-lightroom-ai
+  - cleanup-pictures
+  - luminar-neo
+  - acuity-scheduling
+  - canva
   - buffer
   - sprout-social
-  - adobe-lightroom-ai
-  - befunky
-  - cleanup-pictures
-  - fotor
-  - lensa-ai
-  - luminar-neo
-  - neural-love
 
 ---

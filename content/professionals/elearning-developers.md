@@ -14,14 +14,14 @@ categories:
   - no-code
 featured_tools:
   - chatgpt
+  - articulate-360
   - synthesia
   - gamma
   - heygen
   - colossyan
   - canva
-  - sora
-  - luma-dream-machine
-  - copy-ai
+  - notebooklm
   - grammarly
+  - khanmigo
 
 ---

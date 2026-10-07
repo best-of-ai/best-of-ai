@@ -12,15 +12,13 @@ categories:
   - social-media-tools
   - business-tools
 featured_tools:
-  - hubspot-business
-  - buffer
+  - chatgpt
+  - midjourney
   - ideogram
-  - sprout-social
   - stable-diffusion
-  - adobe-lightroom-ai
-  - artbreeder
-  - befunky
-  - bing-image-creator
   - civitai
+  - bing-image-creator
+  - adobe-lightroom-ai
+  - buffer
 
 ---

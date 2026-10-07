@@ -18,10 +18,10 @@ featured_tools:
   - ideogram
   - adobe-firefly
   - outfit-fm
+  - stitchfix
   - fashwell
   - flux
   - buffer
   - perplexity-research
-  - scispace
 
 ---

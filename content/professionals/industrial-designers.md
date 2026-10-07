@@ -14,14 +14,14 @@ categories:
   - 3d-printing
 featured_tools:
   - chatgpt
+  - ntopology
+  - physna
   - spline
-  - midjourney
   - tripo3d
-  - canva
-  - figma
+  - midjourney
   - ideogram
+  - figma
+  - canva
   - adobe-express
-  - adobe-sensei
-  - amplitude-ai
 
 ---

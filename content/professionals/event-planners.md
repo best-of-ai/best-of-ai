@@ -12,15 +12,16 @@ categories:
   - marketing
   - automation
   - social-media-tools
+  - events
 featured_tools:
   - chatgpt
-  - hubspot-business
+  - bizzabo
+  - hopin
   - canva
   - gamma
-  - zapier
+  - hubspot-business
   - mailchimp
-  - sprout-social
-  - asana
+  - zapier
   - buffer
   - clickup
 

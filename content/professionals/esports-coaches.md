@@ -12,15 +12,14 @@ categories:
   - data
   - video
 featured_tools:
-  - runway
-  - amplitude-ai
-  - pika-labs
-  - power-bi
-  - scale-ai
-  - tableau
-  - catapult-sports
-  - dataiku
+  - mobalytics
+  - leetify
   - hudl
+  - catapult-sports
   - stats-perform
+  - runway
+  - power-bi
+  - tableau
+  - dataiku
 
 ---

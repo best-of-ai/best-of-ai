@@ -14,14 +14,14 @@ categories:
   - automation
 featured_tools:
   - chatgpt
+  - aws-iot
+  - azure-iot
+  - edge-impulse
+  - particle-iot
   - github-copilot
   - cursor
-  - zapier
-  - tableau
   - mintlify
   - n8n
-  - aider
   - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

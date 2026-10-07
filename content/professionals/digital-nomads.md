@@ -14,14 +14,14 @@ categories:
   - project-management
 featured_tools:
   - chatgpt
+  - notion-ai
   - asana
   - zapier
   - wanderlog
   - slack-ai
   - reclaim-ai
   - grammarly
-  - google-assistant
+  - hopper
   - linear
-  - siri
 
 ---

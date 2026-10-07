@@ -15,12 +15,10 @@ featured_tools:
   - chatgpt
   - hudl
   - catapult-sports
+  - stats-perform
   - adobe-premiere-pro-ai
-  - tableau
   - capcut
   - whoop
-  - asana
-  - amplitude-ai
-  - clickup
+  - tableau
 
 ---

@@ -17,10 +17,10 @@ featured_tools:
   - chatgpt
   - adobe-firefly
   - stable-diffusion
+  - character-creator
+  - leonardo-ai
   - notion-ai
   - grammarly
-  - copy-ai
   - flux
-  - jasper
 
 ---

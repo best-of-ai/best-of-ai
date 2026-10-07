@@ -12,15 +12,13 @@ categories:
   - document-ai
   - identity
 featured_tools:
-  - adobe-acrobat-ai
-  - amplitude-ai
+  - chatgpt
+  - tracers
+  - clarifai
   - perplexity-research
   - power-bi
-  - scale-ai
-  - scispace
-  - semantic-scholar
   - tableau
   - chatpdf
-  - connected-papers
+  - adobe-acrobat-ai
 
 ---

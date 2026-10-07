@@ -17,11 +17,11 @@ featured_tools:
   - canva
   - capcut
   - midjourney
-  - buffer
-  - adobe-premiere-pro-ai
   - opus-clip
-  - hubspot
-  - sprout-social
   - captions-ai
+  - vidyo-ai
+  - vidiq
+  - klap
+  - metricool
 
 ---

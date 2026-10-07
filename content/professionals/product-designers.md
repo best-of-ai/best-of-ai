@@ -10,18 +10,16 @@ categories:
   - graphic-design
   - no-code
   - research-tools
-  - productivity
-  - 3d-printing
+  - app-builders
 featured_tools:
+  - chatgpt
   - figma
-  - midjourney
-  - canva
-  - asana
   - uizard
   - galileo-ai
+  - framer
+  - midjourney
+  - canva
   - ideogram
   - adobe-express
-  - adobe-sensei
-  - clickup
 
 ---

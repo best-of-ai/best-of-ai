@@ -16,7 +16,7 @@ featured_tools:
   - chatgpt
   - semrush
   - notion-ai
-  - jasper
+  - frase
   - surfer-seo
   - grammarly
   - perplexity

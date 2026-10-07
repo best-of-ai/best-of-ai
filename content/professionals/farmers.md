@@ -9,6 +9,7 @@ sort_order: 66
 categories:
   - farming
   - climate
+  - weather
   - data
   - automation
 featured_tools:
@@ -17,10 +18,10 @@ featured_tools:
   - farmlogs
   - granular
   - john-deere-ops
+  - tomorrow-io
+  - planet-labs
   - tableau
   - zapier
-  - amplitude-ai
   - make
-  - n8n
 
 ---

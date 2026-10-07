@@ -10,17 +10,17 @@ categories:
   - food
   - business-tools
   - productivity
-  - e-commerce
+  - hr
 featured_tools:
-  - asana
-  - hubspot-business
-  - shopify
+  - chatgpt
+  - toast
+  - square
+  - 7shifts
+  - marketman
   - clickup
-  - todoist
-  - akiflow
   - slack-ai
+  - akiflow
   - sunsama
-  - aiprm
-  - bigcommerce
+  - hubspot-business
 
 ---

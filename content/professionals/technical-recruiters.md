@@ -16,11 +16,9 @@ featured_tools:
   - greenhouse
   - linkedin
   - textio
-  - asana
   - lever
+  - eightfold-ai
+  - hirevue
   - grammarly
-  - clickup
-  - todoist
-  - akiflow
 
 ---

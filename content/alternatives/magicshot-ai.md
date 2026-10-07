@@ -1,0 +1,3 @@
+---
+title: 'MagicShot Alternatives'
+---

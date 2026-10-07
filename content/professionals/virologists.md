@@ -17,10 +17,9 @@ featured_tools:
   - benchling
   - semantic-scholar
   - scite-ai
+  - connected-papers
   - notebooklm
   - elicit
-  - amplitude-ai
   - perplexity-research
-  - power-bi
 
 ---

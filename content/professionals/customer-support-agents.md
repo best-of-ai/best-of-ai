@@ -20,7 +20,7 @@ featured_tools:
   - forethought-ai
   - tidio
   - hubspot-crm
-  - asana
+  - front
   - claude
   - gemini
 

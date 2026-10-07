@@ -14,14 +14,12 @@ categories:
   - code-assistant
 featured_tools:
   - chatgpt
+  - pagerduty
+  - datadog
   - github-copilot
   - cursor
-  - zapier
-  - drawio
   - snyk-ai
-  - mintlify
   - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
+  - mintlify
 
 ---

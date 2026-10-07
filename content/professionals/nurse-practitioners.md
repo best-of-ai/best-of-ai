@@ -13,8 +13,8 @@ categories:
   - research-tools
 featured_tools:
   - chatgpt
+  - freed
   - nuance-dax
-  - adobe-acrobat-ai
   - abridge-ai
   - suki-ai
   - notebooklm

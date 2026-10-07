@@ -14,6 +14,7 @@ categories:
   - automation
 featured_tools:
   - chatgpt
+  - qualtrics
   - zendesk
   - intercom
   - hotjar-ai
@@ -22,6 +23,5 @@ featured_tools:
   - zapier
   - hubspot-crm
   - amplitude-ai
-  - drift
 
 ---

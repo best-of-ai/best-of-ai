@@ -17,13 +17,13 @@ categories:
   - ai-newsletters
 featured_tools:
   - chatgpt
+  - lovable
   - hubspot-business
   - gamma
   - canva
   - zapier
   - hubspot-crm
   - perplexity
-  - hubspot
   - make
   - n8n
 

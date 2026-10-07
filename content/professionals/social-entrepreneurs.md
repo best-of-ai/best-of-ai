@@ -14,14 +14,13 @@ categories:
   - data
 featured_tools:
   - chatgpt
-  - quillbot
+  - givebutter
+  - bonterra
+  - bloomerang
   - canva
   - grammarly
   - mailchimp
   - gamma
-  - zapier
-  - amplitude-ai
-  - copy-ai
   - hubspot
 
 ---

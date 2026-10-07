@@ -9,20 +9,21 @@ sort_order: 24
 sidebar: true
 categories:
   - finance
+  - tax-accounting
   - data
   - automation
   - document-ai
   - workflow-automation
 featured_tools:
   - chatgpt
+  - botkeeper
+  - vic-ai
+  - trullion
+  - avalara
+  - ramp
+  - adobe-acrobat-ai
   - zapier
   - tableau
-  - adobe-acrobat-ai
-  - morningstar-ai
-  - botkeeper
-  - ramp
-  - amplitude-ai
-  - make
-  - n8n
+  - pilot-ai
 
 ---

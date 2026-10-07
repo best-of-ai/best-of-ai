@@ -14,14 +14,14 @@ categories:
   - social-media-tools
 featured_tools:
   - chatgpt
+  - smartify
   - midjourney
   - notebooklm
-  - grammarly
   - canva
   - scispace
   - semantic-scholar
   - adobe-acrobat-ai
-  - buffer
-  - copy-ai
+  - gamma
+  - grammarly
 
 ---

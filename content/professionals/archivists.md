@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - notion-ai
   - adobe-acrobat-ai
-  - amplitude-ai
-  - perplexity-research
-  - power-bi
-  - scale-ai
-  - scispace
-  - semantic-scholar
-  - tableau
+  - abbyy
+  - notebooklm
+  - chatpdf
+  - glean
   - capacities
+  - semantic-scholar
+  - scispace
+  - power-bi
 
 ---

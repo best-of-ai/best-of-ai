@@ -19,11 +19,11 @@ featured_tools:
   - github-copilot
   - cursor
   - weights-biases
-  - databricks
+  - modal-ai
+  - replicate
   - vertex-ai
   - hugging-face
   - claude
   - deepseek
-  - gemini-pro
 
 ---

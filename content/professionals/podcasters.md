@@ -13,15 +13,15 @@ categories:
   - voice-cloning
   - social-media-tools
 featured_tools:
+  - chatgpt
   - descript
-  - otter-ai
   - riverside
-  - assemblyai
   - elevenlabs
   - transistor
   - cleanvoice
   - adobe-podcast
-  - buffer
   - krisp
+  - buffer
+  - assemblyai
 
 ---

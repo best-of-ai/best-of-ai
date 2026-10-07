@@ -12,15 +12,14 @@ categories:
   - compliance
   - document-ai
 featured_tools:
-  - adobe-acrobat-ai
-  - greenhouse
-  - alphasense
-  - chatpdf
-  - humata
-  - morningstar-ai
-  - notebooklm
-  - onetrust
-  - 15five-ai
+  - chatgpt
+  - gusto
+  - deel
+  - adp
   - abbyy
+  - adobe-acrobat-ai
+  - onetrust
+  - notebooklm
+  - 15five-ai
 
 ---

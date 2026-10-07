@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - nuance-dax
+  - cardiologs
   - aidoc-ai
   - viz-ai
+  - arterys
   - semantic-scholar
   - notebooklm
-  - scispace
   - adobe-acrobat-ai
   - perplexity-research
-  - arterys
 
 ---

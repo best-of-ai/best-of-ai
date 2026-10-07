@@ -14,14 +14,14 @@ categories:
   - automation
 featured_tools:
   - chatgpt
-  - gamma
+  - docebo
   - synthesia
   - heygen
+  - gamma
   - khanmigo
   - canva
   - grammarly
-  - luma-dream-machine
-  - sora
+  - notion-ai
   - zapier
 
 ---

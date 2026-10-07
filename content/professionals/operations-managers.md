@@ -14,14 +14,14 @@ categories:
   - business-tools
 featured_tools:
   - chatgpt
-  - linear
-  - hubspot-business
+  - celonis
+  - uipath
   - zapier
-  - tableau
-  - asana
-  - slack-ai
-  - amplitude-ai
   - make
   - n8n
+  - monday
+  - airtable
+  - tableau
+  - linear
 
 ---

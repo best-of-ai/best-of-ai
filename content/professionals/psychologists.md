@@ -13,14 +13,13 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
+  - wysa
+  - betterhelp
   - semantic-scholar
   - scispace
+  - elicit
   - notebooklm
   - grammarly
-  - elicit
   - perplexity-research
-  - adobe-acrobat-ai
-  - copy-ai
-  - jasper
 
 ---

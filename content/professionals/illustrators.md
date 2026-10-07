@@ -16,11 +16,11 @@ featured_tools:
   - stable-diffusion
   - ideogram
   - adobe-firefly
+  - recraft
+  - vizcom
   - canva
   - after-effects
   - krea-ai
   - figma
-  - adobe-express
-  - adobe-sensei
 
 ---

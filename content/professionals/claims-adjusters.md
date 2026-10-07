@@ -12,15 +12,15 @@ categories:
   - image-editing
   - computer-vision
 featured_tools:
-  - adobe-acrobat-ai
+  - chatgpt
+  - lemonade
+  - tractable
   - aws-rekognition
   - clarifai
-  - adobe-lightroom-ai
-  - befunky
+  - adobe-acrobat-ai
   - chatpdf
-  - cleanup-pictures
-  - fotor
   - humata
-  - lemonade
+  - adobe-lightroom-ai
+  - fotor
 
 ---

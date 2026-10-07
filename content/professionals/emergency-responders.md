@@ -19,8 +19,8 @@ featured_tools:
   - notebooklm
   - adobe-acrobat-ai
   - arcgis
-  - zapier
-  - amplitude-ai
+  - everbridge
+  - pulsara
   - assemblyai
   - clickup
 

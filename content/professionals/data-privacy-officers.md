@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - onetrust
+  - osano
   - drata
   - vanta
   - wiz
   - notebooklm
   - adobe-acrobat-ai
   - bigid
-  - chatpdf
   - crowdstrike
 
 ---

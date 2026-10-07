@@ -14,12 +14,12 @@ categories:
   - document-ai
 featured_tools:
   - chatgpt
+  - cognite
+  - aspentech
   - tableau
   - arcgis
-  - semantic-scholar
   - drata
   - notebooklm
-  - amplitude-ai
   - adobe-acrobat-ai
   - perplexity-research
   - power-bi

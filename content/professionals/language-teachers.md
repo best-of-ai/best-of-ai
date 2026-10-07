@@ -15,13 +15,13 @@ categories:
 featured_tools:
   - chatgpt
   - khanmigo
-  - grammarly
-  - deepl
   - duolingo
-  - asana
-  - gamma
+  - preply
+  - deepl
+  - grammarly
+  - speechify
   - assemblyai
-  - clickup
+  - gamma
   - copy-ai
 
 ---

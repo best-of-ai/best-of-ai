@@ -20,7 +20,6 @@ featured_tools:
   - adobe-firefly
   - figma
   - adobe-express
-  - adobe-sensei
   - flux
 
 ---

@@ -20,8 +20,6 @@ featured_tools:
   - ready-player-me
   - suno
   - elevenlabs
-  - copy-ai
   - flux
-  - grammarly
 
 ---

@@ -15,13 +15,12 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - planet-labs
   - tableau
   - semantic-scholar
   - notebooklm
-  - amplitude-ai
   - elicit
   - adobe-acrobat-ai
-  - copy-ai
   - grammarly
 
 ---

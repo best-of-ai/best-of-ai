@@ -23,7 +23,7 @@ featured_tools:
   - semrush
   - jasper
   - canva
-  - buffer
+  - surfer-seo
   - hubspot
   - adcreative-ai
   - ahrefs

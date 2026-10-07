@@ -19,8 +19,8 @@ featured_tools:
   - sudowrite
   - notion-ai
   - hemingway-editor
+  - otter-ai
   - asana
-  - clickup
   - copy-ai
 
 ---

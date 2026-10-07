@@ -16,12 +16,12 @@ featured_tools:
   - after-effects
   - runway
   - midjourney
+  - kaiber
   - capcut
   - lottie
   - rive
   - adobe-premiere-pro-ai
   - luma-dream-machine
   - sora
-  - flux
 
 ---

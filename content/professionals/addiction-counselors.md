@@ -17,10 +17,10 @@ featured_tools:
   - woebot
   - betterhelp
   - otter-ai
-  - notebooklm
   - nuance-dax
+  - abridge-ai
   - asana
   - adobe-acrobat-ai
-  - clickup
+  - spring-health
 
 ---

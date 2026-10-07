@@ -15,13 +15,11 @@ categories:
 featured_tools:
   - chatgpt
   - wanderlog
-  - asana
+  - hopper
+  - tripadvisor
   - canva
   - grammarly
   - deepl
   - zapier
-  - hubspot-business
-  - clickup
-  - copy-ai
 
 ---

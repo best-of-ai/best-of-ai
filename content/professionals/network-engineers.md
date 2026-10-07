@@ -14,14 +14,14 @@ categories:
   - diagramming
 featured_tools:
   - chatgpt
+  - kentik
+  - datadog
   - github-copilot
   - drawio
   - cursor
-  - zapier
   - snyk-ai
   - mintlify
   - amazon-bedrock
   - azure-openai
-  - google-ai-studio
 
 ---

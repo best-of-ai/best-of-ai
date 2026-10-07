@@ -15,12 +15,12 @@ categories:
 featured_tools:
   - chatgpt
   - drawio
+  - mermaid-chart
   - tableau
   - wolfram-alpha-ai
   - clarifai
-  - notebooklm
+  - confluence-ai
   - semantic-scholar
-  - amplitude-ai
   - aws-rekognition
   - perplexity-research
 

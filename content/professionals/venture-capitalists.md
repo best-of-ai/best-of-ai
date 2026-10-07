@@ -13,14 +13,12 @@ categories:
   - research-tools
 featured_tools:
   - chatgpt
-  - alphasense
   - pitchbook-ai
   - cb-insights-ai
   - crunchbase-ai
-  - amplitude-ai
+  - kensho
+  - alphasense
   - gamma
   - perplexity-research
-  - power-bi
-  - scale-ai
 
 ---

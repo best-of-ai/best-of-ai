@@ -15,7 +15,7 @@ memory_bandwidth_gbps: 100000
 interface: 'PCIe card'
 product_url: 'https://www.d-matrix.ai/product/'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-09-05'
 tags: [ai-accelerator, d-matrix, ai-inference, 3d-dram, generative-inference]
 ---

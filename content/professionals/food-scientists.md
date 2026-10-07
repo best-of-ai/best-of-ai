@@ -14,14 +14,14 @@ categories:
   - nutrition
 featured_tools:
   - chatgpt
+  - esha-genesis
+  - fooddocs
+  - benchling
   - semantic-scholar
   - elicit
   - notebooklm
   - tableau
-  - benchling
-  - scite-ai
   - adobe-acrobat-ai
-  - amplitude-ai
   - perplexity-research
 
 ---

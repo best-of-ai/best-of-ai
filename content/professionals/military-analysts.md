@@ -14,6 +14,7 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
+  - palantir-gotham
   - arcgis
   - tableau
   - perplexity
@@ -21,7 +22,6 @@ featured_tools:
   - semantic-scholar
   - scispace
   - adobe-acrobat-ai
-  - amplitude-ai
   - copy-ai
 
 ---

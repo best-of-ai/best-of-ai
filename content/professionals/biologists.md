@@ -11,16 +11,17 @@ categories:
   - research-tools
   - data
   - healthcare
+  - computer-vision
 featured_tools:
   - chatgpt
   - benchling
-  - semantic-scholar
   - alphafold-ai
-  - elicit
   - geneious
+  - dnanexus
+  - inaturalist
+  - semantic-scholar
+  - elicit
   - scispace
-  - amplitude-ai
-  - consensus
-  - perplexity-research
+  - connected-papers
 
 ---

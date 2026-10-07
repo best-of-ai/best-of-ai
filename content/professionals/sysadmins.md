@@ -14,14 +14,12 @@ categories:
   - cybersecurity
 featured_tools:
   - chatgpt
+  - datadog
+  - pagerduty
   - github-copilot
+  - cursor
+  - snyk-ai
   - n8n
   - zapier
-  - snyk-ai
-  - cursor
-  - drawio
-  - datadog
-  - amazon-bedrock
-  - azure-openai
 
 ---

@@ -15,12 +15,11 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
+  - everlaw
+  - relativity
   - notebooklm
-  - grammarly
-  - asana
-  - scispace
   - adobe-acrobat-ai
-  - clickup
+  - grammarly
   - perplexity-research
 
 ---

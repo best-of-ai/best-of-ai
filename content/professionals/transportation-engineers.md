@@ -14,13 +14,11 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
+  - mapbox
   - tableau
   - drawio
   - zapier
-  - mapbox
   - notebooklm
-  - amplitude-ai
   - make
-  - n8n
 
 ---

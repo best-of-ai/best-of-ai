@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
-  - asana
   - spellbook
+  - kira-systems
+  - luminance-ai
+  - lawgeex
   - notebooklm
   - grammarly
   - adobe-acrobat-ai
-  - clickup
-  - copy-ai
 
 ---

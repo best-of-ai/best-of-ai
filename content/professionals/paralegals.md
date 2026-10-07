@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
-  - otter-ai
+  - everlaw
+  - relativity
+  - spellbook
+  - litera
   - notebooklm
-  - grammarly
-  - asana
   - adobe-acrobat-ai
-  - assemblyai
-  - clickup
+  - grammarly
 
 ---

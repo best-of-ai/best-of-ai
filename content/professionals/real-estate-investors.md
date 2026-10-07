@@ -14,13 +14,11 @@ categories:
 featured_tools:
   - chatgpt
   - zillow
+  - matterport
+  - kensho
   - alphasense
   - tableau
-  - amplitude-ai
-  - scale-ai
-  - perplexity
   - power-bi
-  - attention-insight
-  - brandwatch
+  - perplexity
 
 ---

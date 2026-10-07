@@ -13,14 +13,14 @@ categories:
   - compliance
 featured_tools:
   - chatgpt
+  - quorum
+  - fiscalnote
   - perplexity
-  - grammarly
+  - perplexity-research
   - notebooklm
   - semantic-scholar
-  - scispace
+  - grammarly
   - gamma
   - copy-ai
-  - jasper
-  - perplexity-research
 
 ---

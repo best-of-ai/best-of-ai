@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - harvey
   - casetext
+  - luminance-ai
+  - everlaw
   - deepl
-  - notebooklm
-  - grammarly
-  - elicit
-  - adobe-acrobat-ai
   - google-translate
+  - notebooklm
+  - elicit
   - perplexity-research
 
 ---

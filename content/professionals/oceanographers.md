@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - arcgis
   - tableau
+  - planet-labs
+  - climate-trace
   - semantic-scholar
   - notebooklm
   - elicit
   - scispace
-  - amplitude-ai
-  - copy-ai
   - grammarly
 
 ---

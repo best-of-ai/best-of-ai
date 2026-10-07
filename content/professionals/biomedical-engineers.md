@@ -12,16 +12,17 @@ categories:
   - document-ai
   - healthcare
   - writing-assistants
+  - medical-imaging
 featured_tools:
   - chatgpt
+  - viz-ai
+  - paige-ai
   - benchling
   - semantic-scholar
   - elicit
-  - grammarly
   - scispace
-  - tableau
+  - grammarly
   - adobe-acrobat-ai
-  - amplitude-ai
   - copy-ai
 
 ---

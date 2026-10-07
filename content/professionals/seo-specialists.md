@@ -20,8 +20,6 @@ featured_tools:
   - clearscope
   - jasper
   - frase
-  - amplitude-ai
-  - copy-ai
   - grammarly
 
 ---

@@ -12,15 +12,14 @@ categories:
   - chatbot-builders
   - audio
 featured_tools:
+  - chatgpt
   - elevenlabs
   - runway
-  - adobe-podcast
-  - buffer
-  - descript
-  - krisp
-  - murf
   - pika-labs
-  - sprout-social
+  - descript
+  - adobe-podcast
+  - murf
+  - krisp
   - botpress
 
 ---

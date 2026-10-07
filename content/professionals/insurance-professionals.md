@@ -14,14 +14,14 @@ categories:
   - customer-support
 featured_tools:
   - chatgpt
-  - salesforce
-  - hubspot-business
-  - tableau
-  - zapier
-  - notebooklm
-  - grammarly
+  - tractable
+  - shift-technology
+  - lemonade
+  - next-insurance
+  - root-insurance
   - adobe-acrobat-ai
-  - amplitude-ai
+  - notebooklm
+  - salesforce
   - drift
 
 ---

@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - tableau
   - power-bi
-  - adobe-acrobat-ai
-  - morningstar-ai
-  - notion-ai
+  - mosaic-tech
+  - causal-app
+  - formula-bot
+  - kensho
   - gamma
-  - amplitude-ai
-  - scale-ai
-  - alphasense
+  - adobe-acrobat-ai
+  - notion-ai
 
 ---

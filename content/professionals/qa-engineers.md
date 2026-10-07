@@ -13,14 +13,12 @@ categories:
   - workflow-automation
 featured_tools:
   - chatgpt
+  - qodo-ai
+  - applitools
+  - mabl
   - github-copilot
   - cursor
   - coderabbit
-  - qodo-ai
-  - zapier
-  - linear
   - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
 
 ---

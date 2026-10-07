@@ -12,15 +12,14 @@ categories:
   - code-assistant
   - productivity
 featured_tools:
-  - asana
+  - chatgpt
+  - promptlayer
+  - langfuse
+  - humanloop
+  - cursor-composer
   - aider
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
-  - clickup
   - cline
   - codeium
-  - cursor-composer
   - devin
 
 ---

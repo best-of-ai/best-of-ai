@@ -14,13 +14,11 @@ categories:
 featured_tools:
   - chatgpt
   - blue-yonder
+  - fourkites
   - coupa
   - kinaxis
   - tableau
   - zapier
-  - linear
-  - hubspot-business
-  - amplitude-ai
   - make
 
 ---

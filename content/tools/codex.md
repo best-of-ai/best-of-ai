@@ -11,7 +11,7 @@ category: 'code-assistant'
 category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
-rank: 9
+rank: 5
 date: '2026-08-31'
 alternatives:
   - claude-code
@@ -21,5 +21,5 @@ alternatives:
   - windsurf
   - aider
   - devin
-tags: [code_generation, developer_tools, productivity, coding, programming, agentic, debugging, refactoring, terminal, cli, ide, openai]
+tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, model_based, extensible]
 ---

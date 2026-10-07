@@ -15,12 +15,12 @@ featured_tools:
   - chatgpt
   - semrush
   - similarweb
-  - canva
-  - midjourney
-  - jasper
   - brandwatch
+  - talkwalker
+  - crayon
+  - midjourney
+  - canva
   - figma
   - adobe-express
-  - adobe-sensei
 
 ---

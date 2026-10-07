@@ -11,7 +11,7 @@ category: 'image-editing'
 category_name: 'Image Editing'
 price: 'Freemium'
 featured: false
-rank: 4
+rank: 5
 alternatives:
   - magic-hour
   - comfyui

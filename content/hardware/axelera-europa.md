@@ -13,7 +13,7 @@ memory_bandwidth_gbps: 200
 interface: 'PCIe'
 product_url: 'https://axelera.ai/news/axelera-ai-launches-europa-delivers-physical-and-enterprise-ai-through-growing-partner-ecosystem-including-dell-and-supermicro'
 logo_url: ''
-rank: 4
+rank: 5
 date: '2026-09-18'
 tags: [ai-accelerator, edge-ai, in-memory-compute, ai-inference, europe]
 ---

@@ -15,14 +15,13 @@ categories:
   - market-research
 featured_tools:
   - chatgpt
-  - grammarly
+  - muck-rack
+  - meltwater
   - brandwatch
   - sprout-social
   - jasper
   - canva
-  - hubspot-business
   - buffer
-  - copy-ai
   - hubspot
 
 ---

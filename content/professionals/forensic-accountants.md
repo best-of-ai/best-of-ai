@@ -14,14 +14,13 @@ categories:
   - writing-assistants
 featured_tools:
   - chatgpt
+  - relativity
   - julius-ai
   - tableau
   - notebooklm
   - harvey
-  - amplitude-ai
+  - casetext
   - grammarly
   - adobe-acrobat-ai
-  - copy-ai
-  - jasper
 
 ---

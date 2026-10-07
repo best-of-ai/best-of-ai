@@ -16,11 +16,11 @@ featured_tools:
   - elicit
   - semantic-scholar
   - notebooklm
-  - asana
-  - grammarly
   - research-rabbit
-  - adobe-acrobat-ai
-  - clickup
+  - connected-papers
   - consensus
+  - adobe-acrobat-ai
+  - grammarly
+  - chatpdf
 
 ---

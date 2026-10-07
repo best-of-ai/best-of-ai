@@ -16,11 +16,11 @@ featured_tools:
   - tableau
   - power-bi
   - drawio
-  - amplitude-ai
-  - hubspot-business
+  - mermaid-chart
+  - domo-ai
   - microsoft-copilot
+  - hubspot-business
   - asana
   - clickup
-  - scale-ai
 
 ---

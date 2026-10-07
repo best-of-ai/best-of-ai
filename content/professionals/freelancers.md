@@ -14,14 +14,14 @@ categories:
   - project-management
 featured_tools:
   - chatgpt
-  - asana
+  - bonsai
+  - notion-ai
   - grammarly
   - zapier
   - canva
   - hubspot-crm
   - gamma
-  - linear
-  - salesforce
   - clickup
+  - calendly
 
 ---

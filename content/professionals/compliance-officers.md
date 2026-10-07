@@ -16,12 +16,12 @@ featured_tools:
   - chatgpt
   - drata
   - vanta
+  - complyadvantage
   - onetrust
   - notebooklm
   - harvey
   - contractsafe
   - adobe-acrobat-ai
-  - amplitude-ai
   - power-bi
 
 ---

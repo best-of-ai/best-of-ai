@@ -14,13 +14,13 @@ categories:
 featured_tools:
   - chatgpt
   - arcgis
-  - luma-ai
+  - pix4d
+  - propeller-aero
   - mapbox
   - tableau
-  - zapier
   - notebooklm
   - adobe-acrobat-ai
-  - make
+  - zapier
   - n8n
 
 ---

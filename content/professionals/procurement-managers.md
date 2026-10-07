@@ -16,12 +16,10 @@ featured_tools:
   - chatgpt
   - coupa
   - sap-ariba
-  - amplitude-ai
+  - zycus
   - tableau
   - zapier
-  - linear
   - adobe-acrobat-ai
   - make
-  - n8n
 
 ---
