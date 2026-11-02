@@ -1,10 +1,10 @@
 ---
 title: 'Whacka'
 name: 'Whacka'
-subtitle: 'Transform ideas into usable applications with AI'
+subtitle: 'Describe an app in plain words and get a real, working app'
 slug: 'whacka'
-description: 'Whacka is an AI app builder that turns a described idea into a working prototype, handling design, logic, and deployment automatically. Entrepreneurs and non-technical founders use it to build and test product concepts without a development team, getting a clickable, functional version fast enough to gather real user feedback. It is positioned for the early idea-validation phase where the goal is learning, not production-grade software.'
-website: 'https://whacka.io'
+description: 'Whacka is an AI app builder: you describe an app in plain words, in any language, and it builds a working web app that installs on phones, with database, file storage, sign-in and push notifications included. Native Android and iOS apps and app-store publishing are available on paid Pro plans and above.'
+website: 'https://whacka.app'
 category: 'app-builders'
 category_name: 'App Builders'
 price: 'Freemium'
