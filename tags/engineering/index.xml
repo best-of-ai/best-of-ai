@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering on Best of AI</title><link>https://bestofai.io/tags/engineering/</link><description>Recent content in Engineering on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Mon, 19 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>agent-skills</title><link>https://bestofai.io/skills/addyosmani-agent-skills/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/addyosmani-agent-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering on Best of AI</title><link>https://bestofai.io/tags/engineering/</link><description>Recent content in Engineering on Best of AI</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://bestofai.io/tags/engineering/index.xml" rel="self" type="application/rss+xml"/><item><title>agent-skills</title><link>https://bestofai.io/skills/addyosmani-agent-skills/</link><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/addyosmani-agent-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;interview-me&lt;/strong&gt;: Draws out requirements by asking targeted questions.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;spec-driven-development&lt;/strong&gt;: Writes a PRD before any code is written.&lt;/li&gt;
@@ -15,7 +15,7 @@
 &lt;li&gt;&lt;strong&gt;security-and-hardening&lt;/strong&gt;: Checks code against the OWASP Top 10.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;git-workflow-and-versioning&lt;/strong&gt;: Enforces a trunk-based git workflow.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;shipping-and-launch&lt;/strong&gt;: Runs a staged rollout when releasing a change.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>skills</title><link>https://bestofai.io/skills/mattpocock-skills/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/mattpocock-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>skills</title><link>https://bestofai.io/skills/mattpocock-skills/</link><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/mattpocock-skills/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;grill-with-docs&lt;/strong&gt;: Runs a planning session that builds a domain model and updates project docs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;triage&lt;/strong&gt;: Moves issues through a defined state machine workflow.&lt;/li&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;strong&gt;research&lt;/strong&gt;: Investigates a question against primary sources.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;domain-modeling&lt;/strong&gt;: Builds and refines a project&amp;rsquo;s domain model.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;code-review&lt;/strong&gt;: Reviews code against both coding standards and the original spec.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>text-to-cad</title><link>https://bestofai.io/skills/earthtojake-text-to-cad/</link><pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/earthtojake-text-to-cad/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>text-to-cad</title><link>https://bestofai.io/skills/earthtojake-text-to-cad/</link><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate><guid>https://bestofai.io/skills/earthtojake-text-to-cad/</guid><description>&lt;p&gt;This repository bundles the following skills:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;CAD&lt;/strong&gt;: Creates and edits CAD models with STEP output plus STL, 3MF, and GLB export.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CAD Viewer&lt;/strong&gt;: Provides local browser previews of CAD and robot files.&lt;/li&gt;
