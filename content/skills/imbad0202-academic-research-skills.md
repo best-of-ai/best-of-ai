@@ -12,11 +12,11 @@ install: 'Install as a plugin with /plugin marketplace add Imbad0202/academic-re
 price: 'Free'
 open_source: true
 license: 'CC-BY-NC-4.0'
-stars: 52884
+stars: 55292
 stars_this_week: 1030
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 9
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [academic, research, writing]
 ---
 This repository bundles the following skills:

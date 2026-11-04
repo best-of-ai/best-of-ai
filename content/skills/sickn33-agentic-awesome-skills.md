@@ -12,11 +12,11 @@ install: 'Install a chosen set of skills by running npx agentic-awesome-skills w
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 47926
+stars: 49121
 stars_this_week: 306
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [catalog, development]
 ---
 This repository bundles the following skills:

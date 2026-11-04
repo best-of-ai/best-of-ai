@@ -19,7 +19,12 @@
       <p class="cat-list-hero__sub">Handpicked AI tools for <strong>{{ partial "count.html" (len $profs) }}</strong> professions — find what's built for your role.</p>
     </div>
 
-    <div class="prof-list-grid">
+    <div class="company-search">
+      <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="prof-search-input" placeholder="Search professions…" autocomplete="off" spellcheck="false" aria-label="Search professions">
+    </div>
+
+    <div class="prof-list-grid" id="prof-grid">
       {{ range $profs }}
       {{ $p := .Params }}
       {{ $cats := $p.categories }}
@@ -28,7 +33,7 @@
         {{ $c := . }}
         {{ $count = add $count (len (where $tools "Params.category" $c)) }}
       {{ end }}
-      <a href="{{ .RelPermalink }}" class="prof-list-card">
+      <a href="{{ .RelPermalink }}" class="prof-list-card" data-search="{{ lower (printf "%s %s" $p.name $p.subtitle) }}">
         <div class="prof-list-card__icon">{{ $p.icon }}</div>
         <div class="prof-list-card__body">
           <span class="prof-list-card__name">{{ $p.name }}</span>
@@ -38,6 +43,7 @@
       </a>
       {{ end }}
     </div>
+    <p id="prof-empty" style="display:none;color:var(--muted,#888);padding:1rem 0">No professions match your search.</p>
 
   </main>
 
@@ -45,4 +51,21 @@
 
 </div>
 {{ partial "sidebar-search-js.html" . }}
+<script>
+(function() {
+  var input = document.getElementById('prof-search-input');
+  var cards = Array.from(document.querySelectorAll('#prof-grid .prof-list-card'));
+  var empty = document.getElementById('prof-empty');
+  input.addEventListener('input', function() {
+    var q = input.value.trim().toLowerCase();
+    var visible = 0;
+    cards.forEach(function(c) {
+      var show = !q || c.dataset.search.includes(q);
+      c.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    empty.style.display = visible ? 'none' : '';
+  });
+})();
+</script>
 {{ end }}

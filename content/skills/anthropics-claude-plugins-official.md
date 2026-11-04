@@ -12,11 +12,11 @@ install: 'Run /plugin install {plugin-name}@claude-plugins-official inside Claud
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 42976
+stars: 46036
 stars_this_week: 1163
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [anthropic, official, plugins]
 ---
 This repository bundles the following skills:

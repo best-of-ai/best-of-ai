@@ -12,11 +12,11 @@ install: 'Install with npx skills add https://github.com/Leonxlnx/taste-skill, o
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 99051
+stars: 109725
 stars_this_week: 2341
-stars_updated: '2026-10-19'
-rank: 9
-date: '2026-10-19'
+stars_updated: '2026-11-04'
+rank: 10
+date: '2026-11-04'
 tags: [design, frontend, ui]
 ---
 This repository bundles the following skills:

@@ -12,10 +12,10 @@ install: 'See the repository README for install steps.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 167394
+stars: 184054
 stars_this_week: 0
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 10
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [development, simplicity, code-quality]
 ---

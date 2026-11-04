@@ -12,10 +12,10 @@ install: 'Install with npx skills add hugohe3/ppt-master, through the Claude Cod
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 63678
+stars: 73312
 stars_this_week: 1835
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 9
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [document-automation, presentations]
 ---

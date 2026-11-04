@@ -12,10 +12,10 @@ install: 'Install globally with npm install -g ui-ux-pro-max-cli then run uipro 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 137397
+stars: 144960
 stars_this_week: 1957
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 10
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [design, ui-ux]
 ---

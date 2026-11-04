@@ -12,11 +12,11 @@ install: 'Clone the repo, run python3 scripts/claude-obsidian.py init to create 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 15637
+stars: 16143
 stars_this_week: 157
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 7
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [obsidian, knowledge-management]
 ---
 This repository bundles the following skills:

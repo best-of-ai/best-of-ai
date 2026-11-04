@@ -12,10 +12,10 @@ install: 'Run npx skills add nutlope/hallmark, or copy the files manually into t
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 30365
+stars: 47357
 stars_this_week: 360
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [design, web-design]
 ---

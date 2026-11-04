@@ -12,11 +12,11 @@ install: 'Run npx skills@latest add expo/skills --skill ''*'' from the project r
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2927
+stars: 4042
 stars_this_week: 70
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 5
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [expo, react-native, mobile]
 ---
 This repository bundles the following skills:

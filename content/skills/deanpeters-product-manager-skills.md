@@ -12,11 +12,11 @@ install: 'Download themed packs from GitHub Releases and upload individual skill
 price: 'Free'
 open_source: true
 license: 'CC-BY-NC-SA-4.0'
-stars: 7495
+stars: 7866
 stars_this_week: 105
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 6
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [product-management, business]
 ---
 This repository bundles the following skills:

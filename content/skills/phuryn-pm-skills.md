@@ -12,11 +12,11 @@ install: 'In Claude Code, run claude plugin marketplace add phuryn/pm-skills, th
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 27195
+stars: 27676
 stars_this_week: 187
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [product-management, business]
 ---
 This repository bundles the following skills:

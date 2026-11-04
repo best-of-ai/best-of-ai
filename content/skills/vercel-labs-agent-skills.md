@@ -11,10 +11,10 @@ compatible_with: ['Claude Code', 'Codex', 'Cursor']
 install: 'Install with npx skills add vercel-labs/agent-skills.'
 price: 'Free'
 open_source: true
-stars: 32626
+stars: 33509
 stars_this_week: 0
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [vercel, nextjs, react, web]
 ---

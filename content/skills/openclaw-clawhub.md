@@ -12,10 +12,10 @@ install: 'Use the CLI: clawhub login, clawhub search, and clawhub install <skill
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 9517
+stars: 9543
 stars_this_week: 19
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 6
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [registry, openclaw]
 ---

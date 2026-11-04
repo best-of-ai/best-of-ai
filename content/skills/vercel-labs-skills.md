@@ -12,10 +12,10 @@ install: 'Run npx skills add <owner>/<repo> from your project.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 35562
+stars: 38024
 stars_this_week: 0
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [cli, package-manager, tooling]
 ---

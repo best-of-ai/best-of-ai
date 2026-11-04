@@ -12,11 +12,11 @@ install: 'Install via npx skills add jimliu/baoyu-skills, or copy individual ski
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 26767
+stars: 27264
 stars_this_week: 175
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [content-creation, design, publishing]
 ---
 This repository bundles the following skills:

@@ -12,10 +12,10 @@ install: 'In Claude Code, run /plugin marketplace add mvanhorn/last30days-skill;
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 64703
+stars: 66543
 stars_this_week: 536
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 9
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [research, trend-analysis]
 ---

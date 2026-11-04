@@ -12,11 +12,11 @@ install: 'Install via CLI commands for Codex, Claude Code, or Cursor; requires t
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 8546
+stars: 8672
 stars_this_week: 47
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 6
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [design, google, code-generation]
 ---
 This repository bundles the following skills:

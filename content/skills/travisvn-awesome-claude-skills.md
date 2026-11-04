@@ -11,11 +11,11 @@ compatible_with: ['Claude.ai', 'Claude Code', 'Claude API', 'Claude Desktop']
 install: 'Browse the linked list and enable or install individual skills via Claude.ai, Claude Code''s /plugin command, or the Claude API.'
 price: 'Free'
 open_source: true
-stars: 15457
+stars: 15698
 stars_this_week: 78
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 7
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [directory, curated]
 ---
 This repository bundles the following skills:

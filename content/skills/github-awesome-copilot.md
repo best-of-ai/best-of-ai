@@ -12,11 +12,11 @@ install: 'Install a plugin with copilot plugin install <plugin-name>@awesome-cop
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 40174
+stars: 40781
 stars_this_week: 243
-stars_updated: '2026-10-19'
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-10-19'
+date: '2026-11-04'
 tags: [github-copilot, development]
 ---
 This repository bundles the following skills:

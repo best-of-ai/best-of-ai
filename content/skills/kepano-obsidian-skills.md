@@ -12,11 +12,11 @@ install: 'Install via the skills marketplace, the npx skills command, or by manu
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 49755
+stars: 50722
 stars_this_week: 298
-stars_updated: '2026-10-19'
-rank: 8
-date: '2026-10-19'
+stars_updated: '2026-11-04'
+rank: 9
+date: '2026-11-04'
 tags: [obsidian, notes, productivity]
 ---
 This repository bundles the following skills:
