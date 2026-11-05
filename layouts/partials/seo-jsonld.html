@@ -306,6 +306,10 @@
 {{ else if and .IsPage (eq .Section "companies") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Companies" "item" (printf "%s/companies/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if eq .Section "company-pages" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Companies" "item" (printf "%s/companies/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" (printf "%s/companies/%s/" $siteURL .Params.company)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 4 "name" (.Params.kind | title) "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "hardware") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Hardware" "item" (printf "%s/hardware/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}

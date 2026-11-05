@@ -6,6 +6,7 @@
 {{ $companyHardware := sort (where (where .Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
 {{ $companyModels := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
 {{ $faq := partial "company-faq.html" . }}
+{{ $preview := 6 }}
 
 {{/* Categories this company's tools fall into */}}
 {{ $cats := dict }}
@@ -72,6 +73,13 @@
       </dl>
     </header>
 
+    {{ with .Content }}
+    <section class="co-about" aria-label="{{ $p.name }} and AI">
+      <h2 class="co-section__title">{{ $p.name }} and AI</h2>
+      {{ . }}
+    </section>
+    {{ end }}
+
     {{ if or $p.founders $cats }}
     <section class="co-facts" aria-label="About {{ $p.name }}">
       {{ if $p.founders }}
@@ -95,27 +103,36 @@
 
     {{ if $companyTools }}
     <section class="co-section" id="tools">
-      <h2 class="co-section__title">AI tools by {{ $p.name }} <span class="co-section__count">{{ len $companyTools }}</span></h2>
+      <div class="co-section__head">
+        <h2 class="co-section__title">AI tools by {{ $p.name }} <span class="co-section__count">{{ len $companyTools }}</span></h2>
+        {{ if gt (len $companyTools) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/tools/" $slug | relURL }}">View all {{ len $companyTools }} →</a>{{ end }}
+      </div>
       <div class="tools-grid">
-        {{ range $companyTools }}{{ partial "tool-card.html" (dict "page" . "p" .Params) }}{{ end }}
+        {{ range first $preview $companyTools }}{{ partial "tool-card.html" (dict "page" . "p" .Params) }}{{ end }}
       </div>
     </section>
     {{ end }}
 
     {{ if $companyModels }}
     <section class="co-section" id="models">
-      <h2 class="co-section__title">AI models by {{ $p.name }} <span class="co-section__count">{{ len $companyModels }}</span></h2>
+      <div class="co-section__head">
+        <h2 class="co-section__title">AI models by {{ $p.name }} <span class="co-section__count">{{ len $companyModels }}</span></h2>
+        {{ if gt (len $companyModels) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/models/" $slug | relURL }}">View all {{ len $companyModels }} →</a>{{ end }}
+      </div>
       <div class="tools-grid">
-        {{ range $companyModels }}{{ partial "model-card.html" (dict "page" . "p" .Params) }}{{ end }}
+        {{ range first $preview $companyModels }}{{ partial "model-card.html" (dict "page" . "p" .Params) }}{{ end }}
       </div>
     </section>
     {{ end }}
 
     {{ if $companyHardware }}
     <section class="co-section" id="hardware">
-      <h2 class="co-section__title">AI hardware by {{ $p.name }} <span class="co-section__count">{{ len $companyHardware }}</span></h2>
+      <div class="co-section__head">
+        <h2 class="co-section__title">AI hardware by {{ $p.name }} <span class="co-section__count">{{ len $companyHardware }}</span></h2>
+        {{ if gt (len $companyHardware) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/hardware/" $slug | relURL }}">View all {{ len $companyHardware }} →</a>{{ end }}
+      </div>
       <div class="tools-grid">
-        {{ range $companyHardware }}{{ partial "gpu-card.html" (dict "page" . "p" .Params) }}{{ end }}
+        {{ range first $preview $companyHardware }}{{ partial "gpu-card.html" (dict "page" . "p" .Params) }}{{ end }}
       </div>
     </section>
     {{ end }}

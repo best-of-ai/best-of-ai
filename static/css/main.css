@@ -3647,9 +3647,7 @@ a.submit-benefit:hover .submit-benefit__arrow { color: var(--fg-muted); transfor
   padding: 1.75rem;
   border: 1px solid var(--border);
   border-radius: calc(var(--radius) * 1.5);
-  background:
-    radial-gradient(120% 140% at 0% 0%, var(--accent-bg), transparent 55%),
-    var(--surface);
+  background: var(--surface);
 }
 .co-hero__top { display: flex; align-items: center; gap: 1.1rem; margin-bottom: 1rem; }
 .co-hero__logo {
@@ -3754,6 +3752,71 @@ a.co-chip--link:hover { border-color: var(--accent); color: var(--accent); backg
   border-radius: 20px;
   padding: 0.12rem 0.55rem;
 }
+.co-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.co-section__head .co-section__title { margin: 0; }
+.co-section__all {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.co-section__all:hover { text-decoration: underline; }
+
+/* Company list sub-pages (/companies/:slug/{tools,models,hardware}/) */
+.co-sub__head {
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) * 1.5);
+  background: var(--surface);
+}
+.co-sub__id { display: flex; align-items: center; gap: 1rem; }
+.co-sub__logo {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--accent);
+}
+.co-sub__logo img { width: 34px; height: 34px; object-fit: contain; }
+.co-sub__title { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; margin: 0; }
+.co-sub__lede { margin: 0.25rem 0 0; color: var(--fg-muted); font-size: 0.88rem; line-height: 1.6; }
+.co-sub__nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.co-sub__tab {
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--fg-muted);
+  text-decoration: none;
+}
+.co-sub__tab:hover { color: var(--fg); border-color: var(--fg-faint); }
+.co-sub__tab.active { color: var(--accent); border-color: var(--accent); background: var(--accent-bg); }
+.co-sub__tab span { font-family: var(--font-mono); font-size: 0.72rem; opacity: 0.7; margin-left: 0.25rem; }
+.co-sub__back { display: inline-block; margin: 1.5rem 0 3rem; color: var(--accent); font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+.co-sub__back:hover { text-decoration: underline; }
+
+.co-about { margin-bottom: 2.5rem; max-width: 72ch; }
+.co-about p { font-size: 0.92rem; line-height: 1.75; color: var(--fg-muted); margin: 0 0 0.9rem; }
+.co-about a { color: var(--accent); }
+
 .co-empty { color: var(--fg-muted); padding: 2rem 0; }
 .co-empty a { color: var(--accent); }
 
@@ -4747,6 +4810,9 @@ a.co-chip--link:hover { border-color: var(--accent); color: var(--accent); backg
   .co-hero__actions .btn { width: 100%; justify-content: center; }
   .co-stat--wide { grid-column: span 2; }
   .co-section { margin-bottom: 2rem; }
+  .co-sub__head { padding: 1rem; margin-top: 0.75rem; }
+  .co-sub__title { font-size: 1.25rem; }
+  .co-section__head { flex-wrap: wrap; gap: 0.25rem 1rem; }
   /* Company directory: compact rows, full-width CTA */
   .company-row { flex-wrap: wrap; gap: 0.6rem; }
   .company-row__body { min-width: 60%; }
