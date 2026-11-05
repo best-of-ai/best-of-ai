@@ -12,6 +12,7 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
+  - best-of-ai
   - altern
   - theres-an-ai-for-that
   - futurepedia

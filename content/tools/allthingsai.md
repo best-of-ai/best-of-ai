@@ -12,10 +12,11 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
+  - best-of-ai
+  - altern
   - futurepedia
   - theres-an-ai-for-that
   - toolify-ai
-  - altern
   - topai-tools
   - future-tools
   - dang-ai

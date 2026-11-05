@@ -12,6 +12,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - best-of-ai
+  - altern
   - dang-ai
   - theres-an-ai-for-that
   - futurepedia
@@ -19,7 +21,6 @@ alternatives:
   - topai-tools
   - future-tools
   - insidr-ai
-  - altern
 date: '2026-11-05'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, free_tier]
 ---
