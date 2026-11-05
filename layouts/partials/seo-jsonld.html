@@ -563,7 +563,7 @@
 {{/* ── CollectionPage (/new/) ── */}}
 {{ if eq .RelPermalink "/new/" }}
   {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
-  {{ $recent    := first 60 (sort $allTools "Date" "desc") }}
+  {{ $recent    := first 60 (partial "newest-first.html" $allTools) }}
   {{ $listItems := slice }}
   {{ range $i, $t := $recent | first 20 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}

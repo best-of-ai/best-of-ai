@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $allTools := where .Site.RegularPages "Section" "tools" }}
-{{ $recent   := first 60 (partial "dead-last.html" (sort $allTools "Date" "desc")) }}
+{{ $recent   := first 60 (partial "dead-last.html" (partial "newest-first.html" $allTools)) }}
 
 <div class="home-layout">
 

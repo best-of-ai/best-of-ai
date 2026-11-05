@@ -68,7 +68,7 @@
     </section>
 
     <!-- ── Recently Added Tools ── -->
-    {{ $recentTools := first 9 (partial "dead-last.html" (sort $tools "Params.date" "desc")) }}
+    {{ $recentTools := first 9 (partial "dead-last.html" (partial "newest-first.html" $tools)) }}
     {{ if $recentTools }}
     <section class="tool-section home-recent" id="recently-added" data-cat="recently-added">
       <h2 class="tool-section__title">
