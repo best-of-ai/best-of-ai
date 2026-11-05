@@ -32,7 +32,7 @@
 
 <div class="home-layout">
 
-  {{ partial "left-sidebar.html" . }}
+  {{ partialCached "left-sidebar.html" . (partial "nav-key.html" .) }}
 
   <main class="hl-center">
 
@@ -186,7 +186,7 @@
 
   </main>
 
-  {{ partial "right-sidebar.html" . }}
+  {{ partialCached "right-sidebar.html" . (partial "right-sidebar-key.html" .) }}
 
 </div>
 {{ partial "sidebar-search-js.html" . }}

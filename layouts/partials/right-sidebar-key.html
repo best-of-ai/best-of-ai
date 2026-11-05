@@ -1,0 +1,7 @@
+{{/*
+  Cache key for right-sidebar.html. It only varies by the help section and the
+  active profession slug; every other page renders the same sidebar.
+*/}}
+{{- $active := "" -}}
+{{- if in (slice "help" "professionals") .Section }}{{ $active = printf "%s:%s" .Section (.Params.slug | string) }}{{ end -}}
+{{- return $active -}}

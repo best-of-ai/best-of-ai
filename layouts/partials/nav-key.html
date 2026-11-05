@@ -1,0 +1,11 @@
+{{/*
+  Cache key for header.html and left-sidebar.html. Both only vary by the current
+  section, the home flag, a few fixed pages, and the active category/slug, so
+  pages with the same key share one render.
+*/}}
+{{- $fixed := "" -}}
+{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") .RelPermalink }}{{ $fixed = .RelPermalink }}{{ end -}}
+{{- $active := "" -}}
+{{- if eq .Section "tools" }}{{ $active = .Params.category }}
+{{- else if in (slice "categories" "professionals" "model-categories" "skill-categories") .Section }}{{ $active = .Params.slug }}{{ end -}}
+{{- return printf "%s|%t|%s|%s" .Section .IsHome $fixed ($active | string) -}}

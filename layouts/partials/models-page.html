@@ -33,7 +33,7 @@
 
 <div class="home-layout">
 
-  {{ partial "left-sidebar.html" $page }}
+  {{ partialCached "left-sidebar.html" $page (partial "nav-key.html" $page) }}
 
   <main class="hl-center">
 
@@ -78,7 +78,7 @@
 
   </main>
 
-  {{ partial "right-sidebar.html" $page }}
+  {{ partialCached "right-sidebar.html" $page (partial "right-sidebar-key.html" $page) }}
 
 </div>
 

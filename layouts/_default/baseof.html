@@ -11,10 +11,10 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  {{ partial "header.html" . }}
+  {{ partialCached "header.html" . (partial "header-key.html" .) }}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  {{ partial "footer.html" . }}
+  {{ partialCached "footer.html" . "footer" }}
 </body>
 </html>
