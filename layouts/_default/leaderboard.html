@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{ $lb := partialCached "leaderboard-data.html" (dict "entries" hugo.Data.leaderboard "key" "" "ctx" .) "current" }}
+{{ $faq := partial "leaderboard-faq.html" (dict "data" $lb "period" .Params.period "archive" false) }}
 
 <div class="home-layout">
 
@@ -12,22 +14,35 @@
       <span class="breadcrumb__cur">Leaderboard</span>
     </nav>
 
-    <div class="pg-hero">
-      <h1 class="pg-hero__title">Best AI Tools <span>Leaderboard</span></h1>
-      <p class="pg-hero__desc">The {{ len hugo.Data.leaderboard }} best AI tools, ranked by real-world usefulness and impact — updated for {{ .Params.period }}.</p>
-      <div class="pg-hero__actions">
-        <a href="{{ "/leaderboard/archive/" | relURL }}" class="btn btn-primary">Archive</a>
+    <header class="pg-hero lb-head">
+      <div class="lb-head__row">
+        <div class="lb-head__main">
+          <p class="lb-eyebrow"><span class="lb-eyebrow__dot" aria-hidden="true"></span>Updated {{ .Params.period }}</p>
+          <h1 class="pg-hero__title">Best AI Tools <span>Leaderboard</span></h1>
+          <p class="pg-hero__desc">The {{ len $lb.rows }} best AI tools, ranked by real-world usefulness and impact. Rankings are reviewed every month, and past months are saved in the archive.</p>
+        </div>
+        <div class="lb-head__side">
+          <a href="{{ "/leaderboard/archive/" | relURL }}" class="btn btn-primary">Browse the archive</a>
+        </div>
       </div>
       <div class="pg-hero__meta">
-        <strong>{{ len hugo.Data.leaderboard }}</strong> tools
+        <span><strong>{{ len $lb.rows }}</strong> tools</span>
         <span class="sep">·</span>
-        <span>ranked by impact</span>
+        <span><strong>{{ $lb.catCount }}</strong> categories</span>
+        {{ if and $lb.hasPrev $lb.climber }}
+        <span class="sep">·</span>
+        <span>biggest climber <strong>{{ $lb.climber }}</strong> <span class="lb-move lb-move--up"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>{{ $lb.climberDelta }}</span></span>
+        {{ end }}
+        {{ if gt $lb.newCount 0 }}
+        <span class="sep">·</span>
+        <span><strong>{{ $lb.newCount }}</strong> new</span>
+        {{ end }}
         <span class="sep">·</span>
         <a href="{{ "/ranking/" | relURL }}">improve this list</a>
       </div>
-    </div>
+    </header>
 
-    {{ partial "leaderboard-list.html" (dict "entries" hugo.Data.leaderboard "ctx" .) }}
+    {{ partial "leaderboard-list.html" (dict "data" $lb "faq" $faq "archive" false) }}
 
   </main>
 

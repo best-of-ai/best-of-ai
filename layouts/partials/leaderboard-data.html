@@ -1,0 +1,85 @@
+{{/*
+  Resolves leaderboard entries into page-backed rows and compares them with the previous snapshot.
+  Call with: (dict "entries" $entries "key" $dataKey "ctx" .)
+    entries - slice of {rank, slug, badge} maps
+    key     - archive data key of the snapshot being shown, or "" for the current leaderboard
+    ctx     - any page context (used to reach .Site.RegularPages)
+  Returns a dict: rows, hasPrev, prevPeriod, cats, catCount, climber, climberDelta, newNames, newCount.
+  Wrap in partialCached keyed on $key; the result only changes when the data files do.
+*/}}
+{{ $entries := .entries }}
+{{ $key := .key }}
+{{ $allTools := where .ctx.Site.RegularPages "Section" "tools" }}
+{{ $archive := index hugo.Data "archive" }}
+
+{{ $keys := slice }}
+{{ range $k, $v := $archive }}{{ $keys = $keys | append $k }}{{ end }}
+{{ $keys = sort $keys }}
+
+{{ $prevKey := "" }}
+{{ if $keys }}
+  {{ if not $key }}
+    {{ $prevKey = index $keys (sub (len $keys) 1) }}
+  {{ else }}
+    {{ range $i, $k := $keys }}
+      {{ if and (eq $k $key) (gt $i 0) }}{{ $prevKey = index $keys (sub $i 1) }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $prevRank := dict }}
+{{ $prevPeriod := "" }}
+{{ with $prevKey }}
+  {{ range index $archive . }}{{ $prevRank = merge $prevRank (dict .slug .rank) }}{{ end }}
+  {{ $prevPeriod = (time.AsTime (printf "%s-01" (strings.TrimPrefix "leaderboard-" .))).Format "January 2006" }}
+{{ end }}
+{{ $hasPrev := ne $prevKey "" }}
+
+{{ $rows := slice }}
+{{ $catCount := dict }}
+{{ $catSlug := dict }}
+{{ $climber := "" }}
+{{ $climberDelta := 0 }}
+{{ $newNames := slice }}
+
+{{ range $entries }}
+  {{ $e := . }}
+  {{ $match := where $allTools "Params.slug" $e.slug }}
+  {{ if $match }}
+    {{ $page := index $match 0 }}
+    {{ $delta := 0 }}
+    {{ $isNew := false }}
+    {{ if $hasPrev }}
+      {{ with index $prevRank $e.slug }}
+        {{ $delta = sub (int .) (int $e.rank) }}
+      {{ else }}
+        {{ $isNew = true }}
+        {{ $newNames = $newNames | append $page.Params.name }}
+      {{ end }}
+    {{ end }}
+    {{ if gt $delta $climberDelta }}{{ $climberDelta = $delta }}{{ $climber = $page.Params.name }}{{ end }}
+    {{ $rows = $rows | append (dict "entry" $e "page" $page "delta" $delta "new" $isNew) }}
+    {{ with $page.Params.category_name }}
+      {{ $catCount = merge $catCount (dict . (add (or (index $catCount .) 0) 1)) }}
+      {{ $catSlug = merge $catSlug (dict . $page.Params.category) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $cats := slice }}
+{{ range $n, $c := $catCount }}
+  {{ if ge $c 3 }}{{ $cats = $cats | append (dict "name" $n "slug" (index $catSlug $n) "n" $c) }}{{ end }}
+{{ end }}
+{{ $cats = sort (sort $cats "name" "asc") "n" "desc" }}
+
+{{ return dict
+  "rows" $rows
+  "hasPrev" $hasPrev
+  "prevPeriod" $prevPeriod
+  "cats" (first 8 $cats)
+  "catCount" (len $catCount)
+  "climber" $climber
+  "climberDelta" $climberDelta
+  "newNames" $newNames
+  "newCount" (len $newNames)
+}}

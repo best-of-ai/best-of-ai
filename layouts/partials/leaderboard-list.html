@@ -1,77 +1,181 @@
 {{/*
-  Shared leaderboard renderer.
-  Call with: (dict "entries" $entries "ctx" .)
-    entries - a slice of {rank, slug, badge} maps (from a data file)
-    ctx     - the current page context (used to reach .Site.RegularPages)
+  Shared leaderboard renderer: filters, top-3 podium, ranked list, FAQ and category links.
+  Call with: (dict "data" $lb "faq" $faq "archive" false)
+    data    - result of leaderboard-data.html
+    faq     - result of leaderboard-faq.html
+    archive - true on a frozen monthly snapshot
 */}}
-{{ $entries := .entries }}
-{{ $allTools := where .ctx.Site.RegularPages "Section" "tools" }}
+{{ $d := .data }}
+{{ $rows := $d.rows }}
+{{ $hasPrev := $d.hasPrev }}
+{{ $podium := first 3 $rows }}
+{{ $rest := after 3 $rows }}
 
-<div class="pg-toolbar">
+<div class="pg-toolbar lb-toolbar">
   <div class="pg-search">
     <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
     <input type="search" id="lb-search" placeholder="Search tools..." autocomplete="off" aria-label="Search leaderboard">
   </div>
-</div>
-
-<div class="lb-list" id="lb-list">
-  {{ range $entries }}
-    {{ $entry := . }}
-    {{ $page  := index (where $allTools "Params.slug" $entry.slug) 0 }}
-    {{ if $page }}
-    {{ $p := $page.Params }}
-    <a href="{{ $page.RelPermalink }}" class="lb-row" data-name="{{ $p.name | lower }}" data-desc="{{ or $p.subtitle ($p.description | lower | truncate 90) }}" data-cat="{{ $p.category_name | lower }}">
-
-      <span class="lb-rank{{ if eq $entry.rank 1 }} lb-rank--gold{{ else if eq $entry.rank 2 }} lb-rank--silver{{ else if eq $entry.rank 3 }} lb-rank--bronze{{ end }}">#{{ $entry.rank }}</span>
-
-      <div class="lb-logo">
-        {{ if $p.logo_url }}
-          <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-        {{ else }}
-          <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=32" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-        {{ end }}
-      </div>
-
-      <div class="lb-body">
-        <span class="lb-name">{{ $p.name }}</span>
-        <span class="lb-desc">{{ or $p.subtitle ($p.description | truncate 90) }}</span>
-      </div>
-
-      <div class="lb-meta">
-        {{ with $entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
-        <span class="lb-cat">{{ $p.category_name }}</span>
-        {{ partial "price-icon.html" $p.price }}
-      </div>
-
-      <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-
-    </a>
+  {{ if $d.cats }}
+  <div class="lb-pills" role="group" aria-label="Filter by category">
+    <button type="button" class="lb-pill is-active" data-cat="">All</button>
+    {{ range $d.cats }}
+    <button type="button" class="lb-pill" data-cat="{{ .name | lower }}">{{ .name }} <span class="lb-pill__n">{{ .n }}</span></button>
     {{ end }}
+  </div>
   {{ end }}
 </div>
 
-<p id="lb-no-results" hidden style="padding:2rem 0;color:var(--fg-muted);text-align:center;font-size:0.9rem">No tools match your search.</p>
+{{ if ge (len $rows) 3 }}
+<section class="lb-podium" id="lb-podium" aria-label="Top 3 AI tools">
+  {{ range $podium }}
+    {{ $p := .page.Params }}
+    {{ $rank := .entry.rank }}
+    <a href="{{ .page.RelPermalink }}" class="lb-pod lb-pod--{{ $rank }} lb-item" data-name="{{ $p.name | lower }}" data-desc="{{ or $p.subtitle ($p.description | lower | truncate 90) }}" data-cat="{{ $p.category_name | lower }}">
+      <div class="lb-pod__top">
+        <span class="lb-pod__rank">#{{ $rank }}</span>
+        {{ partial "leaderboard-move.html" (dict "hasPrev" $hasPrev "new" .new "delta" .delta) }}
+      </div>
+      <div class="lb-logo lb-logo--lg">
+        {{ if $p.logo_url }}
+          <img src="{{ $p.logo_url }}" alt="{{ $p.name }} logo" width="28" height="28" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        {{ else }}
+          <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=64" alt="{{ $p.name }} logo" width="28" height="28" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        {{ end }}
+        <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+      </div>
+      <h2 class="lb-pod__name">{{ $p.name }}</h2>
+      {{ with .entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
+      <p class="lb-pod__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</p>
+      <div class="lb-pod__foot">
+        <span class="lb-cat">{{ $p.category_name }}</span>
+        {{ partial "price-icon.html" $p.price }}
+      </div>
+    </a>
+  {{ end }}
+</section>
+{{ end }}
+
+<ol class="lb-list" id="lb-list">
+  {{ range $rest }}
+    {{ $p := .page.Params }}
+    {{ $rank := .entry.rank }}
+    <li class="lb-item" data-name="{{ $p.name | lower }}" data-desc="{{ or $p.subtitle ($p.description | lower | truncate 90) }}" data-cat="{{ $p.category_name | lower }}">
+      <a href="{{ .page.RelPermalink }}" class="lb-row{{ if le $rank 10 }} lb-row--top10{{ end }}">
+
+        <span class="lb-rank">#{{ $rank }}</span>
+
+        <div class="lb-logo">
+          {{ if $p.logo_url }}
+            <img src="{{ $p.logo_url }}" alt="{{ $p.name }} logo" width="20" height="20" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          {{ else }}
+            <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=32" alt="{{ $p.name }} logo" width="20" height="20" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          {{ end }}
+          <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+        </div>
+
+        <div class="lb-body">
+          <span class="lb-name">{{ $p.name }}</span>
+          <span class="lb-desc">{{ or $p.subtitle ($p.description | truncate 90) }}</span>
+        </div>
+
+        <div class="lb-meta">
+          {{ with .entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
+          <span class="lb-cat">{{ $p.category_name }}</span>
+          {{ partial "price-icon.html" $p.price }}
+          {{ partial "leaderboard-move.html" (dict "hasPrev" $hasPrev "new" .new "delta" .delta) }}
+        </div>
+
+        <svg class="lb-chev" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+
+      </a>
+    </li>
+  {{ end }}
+</ol>
+
+<div id="lb-no-results" class="lb-empty" hidden>
+  <p>No tools match your filters.</p>
+  <button type="button" class="lb-empty__reset" id="lb-reset">Clear filters</button>
+</div>
+
+{{ if $d.hasPrev }}
+<p class="lb-legend">
+  <span class="lb-move lb-move--up"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>n</span> places gained,
+  <span class="lb-move lb-move--down"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 9L1 2h8z" fill="currentColor"/></svg>n</span> places lost,
+  <span class="lb-move lb-move--new">NEW</span> not in the {{ $d.prevPeriod }} ranking. Movement is measured against {{ $d.prevPeriod }}.
+</p>
+{{ end }}
+
+{{ with .faq }}
+<section class="free-faq lb-faq" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 class="free-faq__title">// common questions</h2>
+  {{ range . }}
+  <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="free-faq__q" itemprop="name">{{ .q }}</h3>
+    <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <span itemprop="text">{{ .a }}</span>
+    </p>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ if $d.cats }}
+<nav class="lb-explore" aria-label="Browse more AI tools">
+  <h2 class="free-faq__title">// explore more</h2>
+  <div class="lb-explore__links">
+    {{ range $d.cats }}
+    <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="lb-explore__link">Best AI {{ .name }} tools</a>
+    {{ end }}
+    <a href="{{ "/free/" | relURL }}" class="lb-explore__link">Free AI tools</a>
+    <a href="{{ "/new/" | relURL }}" class="lb-explore__link">Recently added</a>
+  </div>
+</nav>
+{{ end }}
 
 <script>
 (function() {
-  var input = document.getElementById('lb-search');
-  var rows  = document.querySelectorAll('#lb-list .lb-row');
-  var noRes = document.getElementById('lb-no-results');
+  var input  = document.getElementById('lb-search');
+  var items  = document.querySelectorAll('.lb-item');
+  var pills  = document.querySelectorAll('.lb-pill');
+  var noRes  = document.getElementById('lb-no-results');
+  var podium = document.getElementById('lb-podium');
+  var reset  = document.getElementById('lb-reset');
   if (!input) return;
-  input.addEventListener('input', function() {
+  var cat = '';
+
+  function apply() {
     var q = input.value.trim().toLowerCase();
     var vis = 0;
-    rows.forEach(function(row) {
-      var match = !q ||
-        row.dataset.name.indexOf(q) !== -1 ||
-        row.dataset.desc.indexOf(q) !== -1 ||
-        row.dataset.cat.indexOf(q)  !== -1;
-      row.style.display = match ? '' : 'none';
+    items.forEach(function(el) {
+      var match = (!q ||
+        el.dataset.name.indexOf(q) !== -1 ||
+        el.dataset.desc.indexOf(q) !== -1 ||
+        el.dataset.cat.indexOf(q)  !== -1) &&
+        (!cat || el.dataset.cat === cat);
+      el.style.display = match ? '' : 'none';
       if (match) vis++;
     });
+    if (podium) {
+      var any = Array.prototype.some.call(podium.children, function(el) { return el.style.display !== 'none'; });
+      podium.style.display = any ? '' : 'none';
+    }
     if (noRes) noRes.hidden = vis > 0;
+  }
+
+  input.addEventListener('input', apply);
+  pills.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      cat = btn.dataset.cat;
+      pills.forEach(function(b) { b.classList.toggle('is-active', b === btn); });
+      apply();
+    });
+  });
+  if (reset) reset.addEventListener('click', function() {
+    input.value = '';
+    cat = '';
+    pills.forEach(function(b) { b.classList.toggle('is-active', b.dataset.cat === ''); });
+    apply();
   });
 })();
 </script>

@@ -81,7 +81,7 @@
 {{ else if and .IsPage $isJournal }}
   {{ $pageTitle = printf "%s — The AI Journal | Best of AI" (.Params.title | default .Title) }}
 {{ else if and .IsPage (eq .Section "leaderboard") }}
-  {{ $pageTitle = printf "%s — Best of AI" (.Params.title | default .Title) }}
+  {{ $pageTitle = printf "Best AI Tools Leaderboard — %s Archive (Top %d) | Best of AI" .Params.period (len (index (index hugo.Data "archive") .Params.data_key)) }}
 {{ else if eq .Kind "section" }}
   {{ if $isJournal }}
     {{ $pageTitle = "The AI Journal — Best of AI" }}
@@ -97,6 +97,8 @@
     {{ $pageTitle = "AI Model Categories — Best of AI" }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
     {{ $pageTitle = printf "Best AI Tools Leaderboard (Top %d, %s) — Best of AI" (len hugo.Data.leaderboard) .Params.period }}
+  {{ else if eq .RelPermalink "/leaderboard/archive/" }}
+    {{ $pageTitle = "AI Tools Leaderboard Archive — Monthly Rankings | Best of AI" }}
   {{ else }}
     {{ $pageTitle = printf "%s — Best of AI" (.Title | default "Categories") }}
   {{ end }}
@@ -193,6 +195,8 @@
   {{ else }}
     {{ $desc = printf "%s: %s%s" $companyLead $companySub (.Params.description | default "") }}
   {{ end }}
+{{ else if and .IsPage (eq .Section "leaderboard") }}
+  {{ $desc = printf "How the top %d AI tools ranked in %s. A frozen monthly snapshot of the Best of AI leaderboard, with ChatGPT, Claude, Gemini and more." (len (index (index hugo.Data "archive") .Params.data_key)) .Params.period }}
 {{ else if and .IsPage $isJournal }}
   {{ $desc = .Params.subtitle | default .Params.description | default .Site.Params.description }}
 {{ else if eq .Kind "section" }}
@@ -209,7 +213,9 @@
   {{ else if eq .Section "model-categories" }}
     {{ $desc = printf "Browse %d categories of AI models and LLMs — reasoning, code, image generation, and more." (len hugo.Data.model_categories) }}
   {{ else if eq .RelPermalink "/leaderboard/" }}
-    {{ $desc = printf "The top %d best AI tools, ranked by real-world usefulness and impact — updated for %s. See how ChatGPT, Claude, Gemini, and more stack up." (len hugo.Data.leaderboard) .Params.period }}
+    {{ $desc = printf "The top %d best AI tools, ranked by real-world usefulness and impact, updated for %s. See what moved since last month." (len hugo.Data.leaderboard) .Params.period }}
+  {{ else if eq .RelPermalink "/leaderboard/archive/" }}
+    {{ $desc = "Past monthly snapshots of the Best of AI tools leaderboard. Compare how ChatGPT, Claude, Gemini and other AI tools ranked month by month." }}
   {{ else }}
     {{ $desc = printf "Browse all AI tool categories on Best of AI — %d categories of handpicked tools." (len hugo.Data.categories) }}
   {{ end }}
@@ -286,6 +292,8 @@
 <meta name="keywords" content="AI hardware, AI GPUs, GPU specs, AI accelerators, best AI GPUs, AI chips, GPU comparison, NVIDIA GPU, AMD GPU, TPU, datacenter GPU">
 {{ else if and (eq .Kind "section") (or (eq .Section "models") (eq .Section "model-categories")) }}
 <meta name="keywords" content="AI models, LLMs, foundation models, best AI models, open-weight models, AI model comparison, LLM leaderboard, AI model categories">
+{{ else if and (eq .Section "leaderboard") (ne .RelPermalink "/leaderboard/") }}
+<meta name="keywords" content="ai tools leaderboard archive, ai tool rankings history, best ai tools {{ with .Params.period }}{{ . }}{{ else }}by month{{ end }}, top ai tools monthly, ai tools ranking snapshot">
 {{ else if eq .RelPermalink "/leaderboard/" }}
 <meta name="keywords" content="best ai tools, ai tools leaderboard, top ai tools, best ai tools 2026, ai tool rankings, top rated ai tools, best ai apps, ai tools comparison">
 {{ else if .Params.keywords }}

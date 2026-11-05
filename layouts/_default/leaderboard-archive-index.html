@@ -2,6 +2,9 @@
 {{ $snapshots := where .Site.RegularPages "Section" "leaderboard" }}
 {{ $snapshots = where $snapshots "Params.data_key" "!=" nil }}
 {{ $snapshots = sort $snapshots "Date" "desc" }}
+{{ $faq := partial "leaderboard-archive-faq.html" (dict "snaps" $snapshots) }}
+{{ $cur := partialCached "leaderboard-data.html" (dict "entries" hugo.Data.leaderboard "key" "" "ctx" .) "current" }}
+{{ $curPeriod := (site.GetPage "/leaderboard").Params.period }}
 
 <div class="home-layout">
 
@@ -17,29 +20,82 @@
       <span class="breadcrumb__cur">Archive</span>
     </nav>
 
-    <div class="pg-hero">
-      <h1 class="pg-hero__title">Leaderboard <span>Archive</span></h1>
-      <p class="pg-hero__desc">Past snapshots of the AI tools leaderboard. Each one is frozen at the point it was taken, so you can see how the rankings shifted over time.</p>
-      <div class="pg-hero__meta">
-        <strong>{{ len $snapshots }}</strong> snapshots
-        <span class="sep">·</span>
-        <a href="{{ "/leaderboard/" | relURL }}">current leaderboard</a>
+    <header class="pg-hero lb-head">
+      <div class="lb-head__row">
+        <div class="lb-head__main">
+          <h1 class="pg-hero__title">AI Tools Leaderboard <span>Archive</span></h1>
+          <p class="pg-hero__desc">Past snapshots of the AI tools leaderboard. Each one is frozen at the end of its month, so you can see how the rankings shifted over time.</p>
+        </div>
+        <div class="lb-head__side">
+          <a href="{{ "/leaderboard/" | relURL }}" class="btn btn-primary">Current leaderboard</a>
+        </div>
       </div>
-    </div>
+      <div class="pg-hero__meta">
+        <span><strong>{{ len $snapshots }}</strong> snapshots</span>
+        {{ if $snapshots }}
+        <span class="sep">·</span>
+        <span>{{ (index $snapshots (sub (len $snapshots) 1)).Params.period }} to {{ (index $snapshots 0).Params.period }}</span>
+        {{ end }}
+        <span class="sep">·</span>
+        <a href="{{ "/ranking/" | relURL }}">improve this list</a>
+      </div>
+    </header>
 
-    <div class="lb-list">
+    <h2 class="free-faq__title lb-snap-title">// monthly snapshots</h2>
+    <div class="lb-snaps">
+
+      {{/* Live leaderboard first, then newest snapshot to oldest */}}
+      {{ $cards := slice (dict "url" ("/leaderboard/" | relURL) "period" $curPeriod "data" $cur "live" true) }}
       {{ range $snapshots }}
-        <a href="{{ .RelPermalink }}" class="lb-row">
-          <span class="lb-rank">{{ .Params.period }}</span>
-          <div class="lb-body">
-            <span class="lb-name">{{ .Title }}</span>
-            {{ $archiveEntries := index (index hugo.Data "archive") .Params.data_key }}
-            <span class="lb-desc">{{ if $archiveEntries }}{{ len $archiveEntries }}{{ else }}—{{ end }} tools ranked</span>
+        {{ $d := partialCached "leaderboard-data.html" (dict "entries" (index (index hugo.Data "archive") .Params.data_key) "key" .Params.data_key "ctx" $) .Params.data_key }}
+        {{ $cards = $cards | append (dict "url" .RelPermalink "period" .Params.period "data" $d "live" false) }}
+      {{ end }}
+
+      {{ range $cards }}
+        {{ $d := .data }}
+        <a href="{{ .url }}" class="lb-snap{{ if .live }} lb-snap--live{{ end }}">
+          <div class="lb-snap__head">
+            <h3 class="lb-snap__period">{{ .period }}</h3>
+            {{ if .live }}<span class="lb-snap__tag lb-snap__tag--live"><span class="lb-eyebrow__dot" aria-hidden="true"></span>Live</span>{{ else }}<span class="lb-snap__tag">Frozen</span>{{ end }}
           </div>
-          <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+          <ol class="lb-snap__top">
+            {{ range first 3 $d.rows }}
+              {{ $p := .page.Params }}
+              <li class="lb-snap__tool">
+                <span class="lb-snap__rank">#{{ .entry.rank }}</span>
+                <span class="lb-logo lb-logo--sm">
+                  <img src="{{ if $p.logo_url }}{{ $p.logo_url }}{{ else }}https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=32{{ end }}" alt="" width="16" height="16" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                  <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+                </span>
+                <span class="lb-snap__name">{{ $p.name }}</span>
+              </li>
+            {{ end }}
+          </ol>
+          <p class="lb-snap__stats">
+            <span><strong>{{ len $d.rows }}</strong> tools</span>
+            {{ if gt $d.newCount 0 }}<span class="sep">·</span><span><strong>{{ $d.newCount }}</strong> new</span>{{ end }}
+            {{ if $d.climber }}<span class="sep">·</span><span>{{ $d.climber }} <span class="lb-move lb-move--up"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>{{ $d.climberDelta }}</span></span>{{ end }}
+          </p>
+          <span class="lb-snap__cta">{{ if .live }}See the current ranking{{ else }}View ranking{{ end }}
+            <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+          </span>
         </a>
       {{ end }}
     </div>
+
+    {{ with $faq }}
+    <section class="free-faq lb-faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h2 class="free-faq__title">// common questions</h2>
+      {{ range . }}
+      <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="free-faq__q" itemprop="name">{{ .q }}</h3>
+        <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">{{ .a }}</span>
+        </p>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
 
   </main>
 

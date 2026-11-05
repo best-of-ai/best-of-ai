@@ -1,5 +1,16 @@
 {{ define "main" }}
 {{ $entries := index (index hugo.Data "archive") .Params.data_key }}
+{{ $lb := partialCached "leaderboard-data.html" (dict "entries" $entries "key" .Params.data_key "ctx" .) .Params.data_key }}
+{{ $faq := partial "leaderboard-faq.html" (dict "data" $lb "period" .Params.period "archive" true) }}
+{{ $snaps := sort (where (where .Site.RegularPages "Section" "leaderboard") "Params.data_key" "!=" nil) "Date" "asc" }}
+{{ $older := "" }}
+{{ $newer := "" }}
+{{ range $i, $sn := $snaps }}
+  {{ if eq $sn.RelPermalink $.RelPermalink }}
+    {{ if gt $i 0 }}{{ $older = index $snaps (sub $i 1) }}{{ end }}
+    {{ if lt $i (sub (len $snaps) 1) }}{{ $newer = index $snaps (add $i 1) }}{{ end }}
+  {{ end }}
+{{ end }}
 
 <div class="home-layout">
 
@@ -17,19 +28,33 @@
       <span class="breadcrumb__cur">{{ .Params.period }}</span>
     </nav>
 
-    <div class="pg-hero">
-      <h1 class="pg-hero__title">Leaderboard <span>{{ .Params.period }}</span></h1>
-      <p class="pg-hero__desc">A snapshot of how the leaderboard looked in {{ .Params.period }}. This ranking is frozen. See the <a href="{{ "/leaderboard/" | relURL }}">current leaderboard</a> for today's order.</p>
+    <header class="pg-hero lb-head">
+      <div class="lb-head__row">
+        <div class="lb-head__main">
+          <p class="lb-eyebrow lb-eyebrow--frozen">Frozen snapshot</p>
+          <h1 class="pg-hero__title">AI Tools Leaderboard <span>{{ .Params.period }}</span></h1>
+          <p class="pg-hero__desc">How the leaderboard looked in {{ .Params.period }}. This ranking is frozen. For today's order, see the <a href="{{ "/leaderboard/" | relURL }}">current leaderboard</a>.</p>
+        </div>
+        <div class="lb-head__side">
+          <a href="{{ "/leaderboard/" | relURL }}" class="btn btn-primary">Current leaderboard</a>
+        </div>
+      </div>
       <div class="pg-hero__meta">
-        <strong>{{ len $entries }}</strong> tools
+        <span><strong>{{ len $lb.rows }}</strong> tools</span>
         <span class="sep">·</span>
         <span>{{ .Params.period }} snapshot</span>
         <span class="sep">·</span>
         <a href="{{ "/leaderboard/archive/" | relURL }}">all archives</a>
       </div>
-    </div>
+      {{ if or $older $newer }}
+      <nav class="lb-snapnav" aria-label="Other monthly snapshots">
+        {{ with $older }}<a href="{{ .RelPermalink }}" class="lb-snapnav__link" rel="prev">&larr; {{ .Params.period }}</a>{{ else }}<span></span>{{ end }}
+        {{ if $newer }}<a href="{{ $newer.RelPermalink }}" class="lb-snapnav__link" rel="next">{{ $newer.Params.period }} &rarr;</a>{{ else }}<a href="{{ "/leaderboard/" | relURL }}" class="lb-snapnav__link">Current leaderboard &rarr;</a>{{ end }}
+      </nav>
+      {{ end }}
+    </header>
 
-    {{ partial "leaderboard-list.html" (dict "entries" $entries "ctx" .) }}
+    {{ partial "leaderboard-list.html" (dict "data" $lb "faq" $faq "archive" true) }}
 
   </main>
 

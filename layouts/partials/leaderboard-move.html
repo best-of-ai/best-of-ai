@@ -1,0 +1,12 @@
+{{/* Rank movement vs the previous snapshot. Call with the row dict from leaderboard-data.html plus "hasPrev". */}}
+{{ if .hasPrev }}
+  {{ if .new }}
+    <span class="lb-move lb-move--new" title="New since last month">NEW</span>
+  {{ else if gt .delta 0 }}
+    <span class="lb-move lb-move--up" title="Up {{ .delta }} since last month"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>{{ .delta }}<span class="sr-only"> places up</span></span>
+  {{ else if lt .delta 0 }}
+    <span class="lb-move lb-move--down" title="Down {{ sub 0 .delta }} since last month"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 9L1 2h8z" fill="currentColor"/></svg>{{ sub 0 .delta }}<span class="sr-only"> places down</span></span>
+  {{ else }}
+    <span class="lb-move lb-move--same" title="No change since last month" aria-label="No change">–</span>
+  {{ end }}
+{{ end }}

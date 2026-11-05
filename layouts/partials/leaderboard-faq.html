@@ -1,0 +1,36 @@
+{{/*
+  Returns a slice of {q, a} dicts for a leaderboard page. Used by the page body and the FAQPage JSON-LD.
+  Call with: (dict "data" $lb "period" $period "archive" false)
+    data    - result of leaderboard-data.html
+    period  - e.g. "November 2026"
+    archive - true on a frozen monthly snapshot
+*/}}
+{{ $d := .data }}
+{{ $period := .period }}
+{{ $rows := $d.rows }}
+{{ $faq := slice }}
+
+{{ if ge (len $rows) 3 }}
+  {{ $n1 := (index $rows 0).page.Params.name }}
+  {{ $n2 := (index $rows 1).page.Params.name }}
+  {{ $n3 := (index $rows 2).page.Params.name }}
+  {{ if .archive }}
+    {{ $faq = $faq | append (dict "q" (printf "What was the best AI tool in %s?" $period) "a" (printf "%s was ranked #1 in %s, followed by %s and %s. Best of AI ranks tools by real-world usefulness and impact." $n1 $period $n2 $n3)) }}
+    {{ $faq = $faq | append (dict "q" "Is this ranking still current?" "a" (printf "No. This page is a frozen snapshot of the %s leaderboard. The current leaderboard has the latest order." $period)) }}
+    {{ if and $d.hasPrev $d.climber }}
+      {{ $faq = $faq | append (dict "q" (printf "Which AI tool climbed the most in %s?" $period) "a" (printf "%s moved up %d places since %s, the biggest jump on the list." $d.climber $d.climberDelta $d.prevPeriod)) }}
+    {{ end }}
+  {{ else }}
+    {{ $faq = $faq | append (dict "q" "What is the best AI tool right now?" "a" (printf "%s is ranked #1 on the %s leaderboard, followed by %s and %s. The ranking reflects real-world usefulness and impact, not benchmark scores alone." $n1 $period $n2 $n3)) }}
+    {{ $faq = $faq | append (dict "q" "How are AI tools ranked on this leaderboard?" "a" (printf "Tools are ranked by real-world usefulness and impact: how much they help people get work done, how widely they are relied on, and how much they shape what other tools do. The list covers %d tools across %d categories." (len $rows) $d.catCount)) }}
+    {{ $faq = $faq | append (dict "q" "How often is the leaderboard updated?" "a" "Once a month. Each update is saved as a frozen snapshot in the leaderboard archive, so you can see how the order changed over time.") }}
+    {{ if and $d.hasPrev $d.climber }}
+      {{ $moved := printf "%s moved up %d places since %s, the biggest jump on the list." $d.climber $d.climberDelta $d.prevPeriod }}
+      {{ if gt $d.newCount 0 }}{{ $moved = printf "%s %d %s joined the list this month." $moved $d.newCount (cond (eq $d.newCount 1) "tool" "tools") }}{{ end }}
+      {{ $faq = $faq | append (dict "q" "Which AI tools moved up the most this month?" "a" $moved) }}
+    {{ end }}
+    {{ $faq = $faq | append (dict "q" "Can I suggest a change to the ranking?" "a" "Yes. Use the improve this list page to send a suggestion, or submit a tool that is missing from the directory.") }}
+  {{ end }}
+{{ end }}
+
+{{ return $faq }}
