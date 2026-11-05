@@ -176,7 +176,7 @@
 
       <div class="submit-sidebar__block">
         <div class="submit-section-label">// prefer a pull request?</div>
-        <p class="submit-sidebar__text">You can edit tool files directly in <a href="{{ $repo }}/tree/main/content/tools" target="_blank" rel="noopener">content/tools/</a> on GitHub and open a PR. Each file's name matches the tool's slug.</p>
+        <p class="submit-sidebar__text">You can edit tool files directly in <a href="{{ partial "utm-url.html" (printf "%s/tree/main/content/tools" $repo) }}" target="_blank" rel="noopener">content/tools/</a> on GitHub and open a PR. Each file's name matches the tool's slug.</p>
       </div>
 
     </aside>

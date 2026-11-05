@@ -11,7 +11,7 @@
 {{ $target := $ad.link_target | default "_blank" }}
 {{ $rel    := cond (eq $target "_blank") "noopener noreferrer sponsored" "sponsored" }}
 
-<a href="{{ $ad.link }}" target="{{ $target }}" rel="{{ $rel }}" class="ad-slot ad-slot--{{ $variant }}">
+<a href="{{ partial "utm-url.html" $ad.link }}" target="{{ $target }}" rel="{{ $rel }}" class="ad-slot ad-slot--{{ $variant }}">
   <span class="ad-slot__label">Sponsored</span>
 
   {{ if eq $variant "card" }}

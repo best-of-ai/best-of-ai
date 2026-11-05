@@ -81,7 +81,7 @@
         </span>
         {{ else }}
         {{ if $p.website }}
-        <a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+        <a href="{{ partial "utm-url.html" $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
           Visit Tool →
         </a>
         {{ end }}
@@ -210,7 +210,7 @@
             {{ if $p.website }}
             <div class="detail-meta-row">
               <dt>Website</dt>
-              <dd><a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.website | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+              <dd><a href="{{ partial "utm-url.html" $p.website }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.website | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             {{ if $p.alternatives }}

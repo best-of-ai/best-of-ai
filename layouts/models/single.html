@@ -62,7 +62,7 @@
         </div>
 
         {{ if $p.product_url }}
-        <a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+        <a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
           Visit Product Page →
         </a>
         {{ end }}
@@ -147,7 +147,7 @@
             {{ if $p.product_url }}
             <div class="detail-meta-row">
               <dt>Product page</dt>
-              <dd><a href="{{ $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+              <dd><a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">

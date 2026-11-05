@@ -55,7 +55,7 @@
         </div>
 
         {{ if $p.source_url }}
-        <a href="{{ $p.source_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
+        <a href="{{ partial "utm-url.html" $p.source_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
           View on GitHub →
         </a>
         {{ end }}
@@ -114,7 +114,7 @@
             {{ if $p.source_url }}
             <div class="detail-meta-row">
               <dt>Source</dt>
-              <dd><a href="{{ $p.source_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.source_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
+              <dd><a href="{{ partial "utm-url.html" $p.source_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.source_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">

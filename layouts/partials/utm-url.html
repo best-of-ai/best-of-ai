@@ -1,0 +1,17 @@
+{{/*
+  Appends UTM params to an outbound URL so destination sites can see bestofai.io as the referrer.
+  Usage: {{ partial "utm-url.html" $url }}
+  Leaves non-http(s) URLs, empty values, and URLs that already carry a utm_source untouched.
+  Source and medium come from [params] utmSource / utmMedium in hugo.toml.
+*/}}
+{{- $url := . | default "" | string -}}
+{{- if and (hasPrefix $url "http") (not (strings.Contains $url "utm_source=")) -}}
+  {{- $frag := "" -}}
+  {{- with findRE `#.*$` $url 1 -}}
+    {{- $frag = index . 0 -}}
+    {{- $url = strings.TrimSuffix $frag $url -}}
+  {{- end -}}
+  {{- $sep := cond (strings.Contains $url "?") "&" "?" -}}
+  {{- $url = printf "%s%sutm_source=%s&utm_medium=%s%s" $url $sep (site.Params.utmSource | default "bestofai.io") (site.Params.utmMedium | default "referral") $frag -}}
+{{- end -}}
+{{- return $url -}}

@@ -53,7 +53,7 @@
 
       <div class="co-hero__actions">
         {{ if $p.website }}
-        <a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        <a href="{{ partial "utm-url.html" $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
           Visit {{ with $host }}{{ . }}{{ else }}website{{ end }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         </a>

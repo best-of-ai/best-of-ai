@@ -56,7 +56,7 @@
           {{ if .name }}
           <span class="journal-post__meta-sep" aria-hidden="true">·</span>
           {{ if .link }}
-          <a href="{{ .link }}" target="_blank" rel="author noopener noreferrer" class="journal-post__author">{{ .name }}</a>
+          <a href="{{ partial "utm-url.html" .link }}" target="_blank" rel="author noopener noreferrer" class="journal-post__author">{{ .name }}</a>
           {{ else }}
           <span class="journal-post__author">{{ .name }}</span>
           {{ end }}
