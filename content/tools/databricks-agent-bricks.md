@@ -12,10 +12,13 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
-  - salesforce-agentforce
   - amazon-bedrock-agentcore
+  - azure-ai-foundry
+  - microsoft-copilot-studio
+  - salesforce-agentforce
+  - vertex-ai
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

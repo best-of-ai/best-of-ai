@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - copy-ai
+  - hyperwrite
   - grammarly
-  - quillbot
-  - wordtune
-  - languagetool
-  - jasper
-  - writesonic
-  - ai-writer
+  - notion-ai
+  - openai-canvas
+  - sudowrite
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---

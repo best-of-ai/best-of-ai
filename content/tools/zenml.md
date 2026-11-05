@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
-  - replit
-  - tabnine
-  - vertex-ai
-  - fireworks-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - mlflow
+  - metaflow
+  - prefect
+  - clearml
+  - dvc
+  - weights-biases
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, integrations]
 ---

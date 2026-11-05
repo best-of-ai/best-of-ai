@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - greenhouse
-  - hirevue
-  - workday
-  - betterworks-ai
-  - bamboohr
-  - 15five-ai
-  - adp
-  - lattice-ai
+  - beamery
+  - phenom
+  - seekout
+  - hiredscore
+  - gem
+  - paradox-ai
 date: '2025-01-01'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, machine_learning, fast]
 ---

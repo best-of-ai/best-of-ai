@@ -13,6 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - blend
+  - finastra
+  - floify
 date: '2026-10-03'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, model_based, fast]
 ---

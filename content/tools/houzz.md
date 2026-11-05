@@ -13,13 +13,10 @@ featured: false
 rank: 7
 alternatives:
   - homestyler
-  - sketchup
   - planner5d
+  - sketchup
   - roomgpt
-  - canva
-  - adobe-premiere-pro-ai
-  - asana
-  - chatgpt
+  - collov-ai
 date: '2025-09-21'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, image_based, powerful]
 ---

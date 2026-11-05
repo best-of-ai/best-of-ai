@@ -16,8 +16,9 @@ alternatives:
   - ai21-labs
   - mistral
   - aleph-alpha
-  - deepseek
-  - gemini-pro
+  - reka-ai
+  - claude
+  - gemini
 date: '2025-01-01'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, enterprise, cloud_based, secure]
 ---

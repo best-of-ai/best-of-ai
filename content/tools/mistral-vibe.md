@@ -12,10 +12,14 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
   - claude-code
-  - openai-operator
+  - codex
+  - gemini-cli
+  - opencode
+  - aider
+  - cline
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

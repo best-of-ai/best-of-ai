@@ -12,13 +12,8 @@ featured: false
 rank: 5
 alternatives:
   - tripadvisor
-  - hopper
   - wanderlog
-  - headspace
-  - fitbod
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - kayak
 date: '2025-01-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

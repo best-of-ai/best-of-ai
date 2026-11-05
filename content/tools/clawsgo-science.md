@@ -12,8 +12,12 @@ category_name: 'Research Tools'
 price: 'Paid'
 featured: false
 rank: 4
-date: '2026-11-02'
 alternatives:
-  - elicit consensus futurehouse
+  - elicit
+  - consensus
+  - futurehouse
+  - scispace
+  - undermind
+date: '2026-11-02'
 tags: [research, ai_agents, science, cloud_lab, experiments, data_analysis, academia, literature_review, automation, autonomous]
 ---

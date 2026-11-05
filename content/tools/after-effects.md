@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - lottie
-  - powtoon
-  - animaker
+  - davinci-resolve
+  - blender
+  - cavalry
   - rive
-  - vyond
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - lottie
 date: '2025-09-21'
 tags: [animation, video, creative, motion, graphics, motion_design, 2d_animation, 3d_animation, visual_effects, image_based]
 ---

@@ -12,13 +12,9 @@ featured: false
 rank: 5
 alternatives:
   - calendly
-  - x-ai
+  - savvycal
   - acuity-scheduling
-  - motion
-  - clockwise-ai
   - fantastical
-  - adobe-premiere-pro-ai
-  - asana
 date: '2026-06-15'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, open_source, collaboration, community_driven]
 ---

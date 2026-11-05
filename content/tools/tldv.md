@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - avoma
-  - supernormal
-  - zoom-ai
-  - fireflies-ai
   - otter-ai
-  - claap
+  - fireflies-ai
   - fathom
+  - read-ai
+  - avoma
   - grain
+  - supernormal
+  - sembly-ai
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable]
 ---

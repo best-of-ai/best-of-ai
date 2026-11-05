@@ -12,14 +12,14 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - greenhouse
-  - workday
+  - gusto
   - adp
-  - ashby
-  - hibob-ai
-  - 15five-ai
+  - paychex
+  - deel
   - bamboohr
-  - eightfold-ai
+  - justworks
+  - workday
+  - hibob-ai
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, customizable, analytics]
 ---

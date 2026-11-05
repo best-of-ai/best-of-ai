@@ -12,14 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - alphasense
-  - morningstar-ai
-  - botkeeper
-  - plaid
-  - ramp
-  - kensho
-  - yodlee
-  - bill-com-ai
+  - ynab
+  - jupid
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

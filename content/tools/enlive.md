@@ -11,11 +11,11 @@ category_name: 'Prompt Tools'
 price: 'Free'
 featured: false
 rank: 5
-date: '2026-09-18'
 alternatives:
-  - poe
-  - chatgpt
-  - claude
   - flowgpt
+  - promptbase
+  - cuey
+  - chatplayground-ai
+date: '2026-09-18'
 tags: [free_tier, customizable, nlp, model_based, powerful, ai_powered, intelligent, platform]
 ---

@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - derwent-innovation
+  - questel
   - iplytics
-  - catapult-sports
-  - spire-global
-  - contractpodai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - lens-org
 date: '2025-10-01'
 tags: [mobile_app, collaboration, analytics, training, ai_powered, intelligent, platform, tool]
 ---

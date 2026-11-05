@@ -12,12 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - jitx
-  - zapier
-  - n8n
-  - make
-  - power-automate
-  - pipedream
+  - sap-signavio
+  - uipath
+  - nintex
+  - power-automate-workflow
 date: '2026-10-03'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots]
 ---

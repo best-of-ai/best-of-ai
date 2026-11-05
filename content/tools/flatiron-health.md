@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - paige-ai
   - tempus-ai
-  - aidoc-ai
-  - babylon-health
-  - insilico-medicine
-  - abridge-ai
-  - ada-health
-  - alphafold-ai
+  - iqvia
+  - medidata
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, analytics]
 ---

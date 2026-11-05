@@ -13,8 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - pearl-dental
-  - arterys
-  - aidoc-ai
+  - dental-monitoring
 date: '2026-02-10'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

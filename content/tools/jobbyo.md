@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - indeed
-  - linkedin
-  - ziprecruiter
-  - glassdoor
   - huntr
-  - jobgpt-ai
   - teal
-  - adobe-premiere-pro-ai
+  - jobgpt-ai
+  - linkedin
+  - indeed
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
 ---

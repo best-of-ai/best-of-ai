@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - befunky
-  - cleanup-pictures
+  - canva
+  - pixlr
   - fotor
-  - neural-love
+  - befunky
   - photoroom
-  - adobe-lightroom-ai
-  - lensa-ai
-  - luminar-neo
+  - adobe-express
+  - adobe-photoshop
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, powerful]
 ---

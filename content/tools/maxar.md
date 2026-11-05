@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - planet-labs
   - satellogic
   - spire-global
-  - arcgis
-  - datadog
   - nearmap
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

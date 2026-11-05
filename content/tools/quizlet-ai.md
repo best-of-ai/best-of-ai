@@ -13,13 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - coursera
-  - khanmigo
   - studysmarter
-  - thea-ai
-  - udemy
-  - brilliant
-  - carnegie-learning
+  - quizgecko
+  - khanmigo
+  - course-hero
+  - brainly
   - chegg-ai
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable]

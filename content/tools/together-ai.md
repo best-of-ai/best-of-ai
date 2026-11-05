@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - amazon-bedrock
   - groq
   - fireworks-ai
   - deepinfra
-  - vertex-ai
+  - baseten
   - replicate
   - openrouter
   - cerebras
+  - vertex-ai
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, cloud_based]
 ---

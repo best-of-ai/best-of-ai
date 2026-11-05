@@ -13,12 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - sourcegraph-cody
+  - augment-code
   - aider
   - cline
   - cursor
-  - windsurf
-  - amazon-q
-  - blackbox-ai
+  - continue-dev
 date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, community_driven]
 ---

@@ -12,10 +12,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - adobe-lightroom-ai
-  - cleanup-pictures
-  - luminar-neo
-  - neural-love
+  - perfect365
+  - crisalix
 date: '2025-10-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based]
 ---

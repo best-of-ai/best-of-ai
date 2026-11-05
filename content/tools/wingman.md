@@ -14,12 +14,8 @@ rank: 5
 alternatives:
   - iris-dating
   - hinge
-  - woebot
-  - stripe
-  - alchemy-web3
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - tinder
+  - bumble
 date: '2025-10-01'
 tags: [real_time, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

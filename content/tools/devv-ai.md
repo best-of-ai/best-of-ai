@@ -13,12 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - exa-ai
-  - perplexity-search
   - phind
+  - perplexity-search
+  - exa-ai
   - you-search
-  - arc-browser
-  - bing-chat
   - kagi
   - andi-search
 date: '2025-09-21'

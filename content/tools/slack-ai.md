@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - todoist
-  - clickup
-  - akiflow
-  - asana
-  - aiprm
-  - sunsama
+  - microsoft-365-copilot
+  - gemini-workspace
+  - notion-ai
+  - glean
   - coda-ai
-  - miro-ai
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, enterprise, integrations, secure]
 ---

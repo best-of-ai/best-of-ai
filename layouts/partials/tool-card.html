@@ -19,7 +19,7 @@
   class="tool-card tool-card--dead"
   data-price="{{ $p.price }}"
   {{ if $cat }}data-cat="{{ $cat }}"{{ end }}
-  title="This tool is no longer active"
+  title="{{ with $p.dead_reason }}Discontinued: {{ . }}{{ else }}This tool is no longer active{{ end }}"
 >
 {{ else }}
 <a

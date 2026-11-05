@@ -12,13 +12,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - replit
-  - tabnine
-  - cursor
-  - codiga
-  - wandb-weave
-  - amazon-bedrock
-  - azure-openai
+  - moderne
+  - sourcegraph-cody
   - github-copilot
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, collaboration]

@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - people-ai
   - salesloft
   - gong
-  - amplemarket
-  - chorus-ai
   - apollo
   - clay
   - instantly
+  - smartlead
+  - lemlist
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
 ---

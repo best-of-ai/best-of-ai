@@ -13,15 +13,9 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
+  - zoho
   - salesforce-einstein
   - servicenow
-  - docusign-ai
-  - zoho
-  - pandadoc-ai
-  - c3-ai
-  - denovo-ai
-  - proposify-ai
-  - born-to-found
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

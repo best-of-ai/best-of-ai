@@ -13,9 +13,12 @@ featured: false
 rank: 5
 alternatives:
   - alphafold-ai
-  - exscientia
-  - atomwise
+  - rosettafold
   - recursion
+  - atomwise
+  - schrodinger
+  - insilico-medicine
+  - exscientia
 date: '2026-02-10'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

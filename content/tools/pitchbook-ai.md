@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - morningstar-ai
-  - kensho
+  - crunchbase-ai
+  - cb-insights-ai
   - alphasense
-  - mosaic-tech
-  - causal-app
-  - botkeeper
-  - plaid
-  - ramp
+  - factset
+  - rogo-ai
+  - bloomberg-terminal
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, nlp]
 ---

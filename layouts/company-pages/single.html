@@ -4,7 +4,7 @@
 {{ $co   := index (where (where .Site.RegularPages "Section" "companies") "Params.slug" $slug) 0 }}
 {{ $cp   := $co.Params }}
 
-{{ $tools    := sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $tools    := partial "dead-last.html" (sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc") }}
 {{ $models   := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
 {{ $hardware := sort (where (where .Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
 

@@ -13,10 +13,12 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - deepseek
   - hugging-face
-  - gemini-pro
-  - ai21-labs
+  - mistral
+  - deepseek
+  - together-inference
+  - 01-ai
+  - reka-ai
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, nlp, model_based, community_driven]
 ---

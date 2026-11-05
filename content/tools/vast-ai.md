@@ -18,6 +18,7 @@ alternatives:
   - coreweave-ai
   - paperspace-ai
   - modal-ai
+  - crusoe-ai
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, training, model_based]
 ---

@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - pattern89
-  - smartly
   - adcreative-ai
   - pencil
+  - pattern89
+  - smartly
+  - creatopy
   - aiter-io
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-06-15'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, analytics]
 ---

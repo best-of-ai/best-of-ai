@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - physical-intelligence
   - covariant
   - formant
-  - landing-ai
-  - testim
-  - woebot
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - foxglove
 date: '2025-10-01'
 tags: [collaboration, versatile, ai_powered, intelligent, platform, tool, service, solution]
 ---

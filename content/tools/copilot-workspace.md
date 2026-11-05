@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - windsurf
-  - cline
-  - devin
+  - github-agent-hq
   - google-jules
-  - amazon-codewhisperer
-  - cursor
+  - devin
+  - codex
   - claude-code
-  - github-copilot
+  - cursor
+  - factory-ai
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, autonomous, community_driven]
 ---

@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - pattern89
-  - smartly
   - pencil
+  - pattern89
   - aiter-io
+  - smartly
   - madgicx
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - creatopy
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, image_based]
 ---

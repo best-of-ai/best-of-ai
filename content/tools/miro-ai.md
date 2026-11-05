@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - mural
   - figma
-  - whimsical-ai
   - lucidchart-ai
+  - whimsical-ai
+  - excalidraw
   - creately
-  - eraser-io
-  - invision-ai
-  - canva
-  - adobe-express
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, image_based]
 ---

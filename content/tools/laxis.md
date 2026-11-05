@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - sembly-ai
-  - zoom-ai
+  - avoma
+  - gong
   - fireflies-ai
   - otter-ai
-  - avoma
-  - claap
   - fathom
-  - grain
+  - chorus-ai
 date: '2026-06-15'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, analytics]
 ---

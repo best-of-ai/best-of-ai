@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - cronometer
+  - lifesum
   - noom
-  - teladoc
-  - betterhelp
-  - woebot
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - fitbod
 date: '2025-10-01'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

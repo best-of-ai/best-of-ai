@@ -13,14 +13,10 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - tempus-ai
   - buoy-health
-  - babylon-health
-  - doximity
+  - infermedica-ai
   - k-health
-  - abridge-ai
-  - aidoc-ai
-  - alphafold-ai
+  - babylon-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, customizable]
 ---

@@ -14,13 +14,13 @@ featured: false
 rank: 9
 alternatives:
   - asana
-  - todoist
-  - coda-ai
-  - raycast-ai
-  - akiflow
-  - linear
-  - asana-pm
+  - monday
   - notion
+  - trello
+  - linear
+  - jira
+  - basecamp
+  - coda-ai
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

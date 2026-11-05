@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - legora
+  - lexisnexis-protege
   - casetext
-  - donotpay
-  - kira-systems
-  - lawgeex
-  - robin-ai
   - spellbook
-  - evisort
-  - ironclad-ai
+  - luminance-ai
+  - robin-ai
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, secure, nlp, model_based]
 ---

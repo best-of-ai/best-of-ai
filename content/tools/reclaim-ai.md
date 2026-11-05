@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - todoist
-  - asana
-  - clickup
-  - wispr-flow
+  - motion
+  - clockwise-ai
   - akiflow
-  - slack-ai
   - sunsama
-  - aiprm
+  - morgen
+  - calendly
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, fast]
 ---

@@ -16,11 +16,8 @@ alternatives:
   - google-maps
   - yelp
   - apple-maps
-  - exa-ai
-  - notebook-lm-plus
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - waze
+  - tripadvisor
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, api_available, customizable, analytics]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-bedrock
-  - vertex-ai
-  - azure-openai
-  - llamaindex
-  - tabnine
-  - cursor
-  - github-copilot
-  - google-ai-studio
+  - algolia-ai-search
+  - elasticsearch
+  - weaviate
+  - pinecone
+  - trieve
+  - qdrant
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, enterprise, customizable]
 ---

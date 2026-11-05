@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - befunky
   - photoroom
-  - picsart-ai
-  - adobe-lightroom-ai
-  - luminar-neo
-  - cleanup-pictures
   - fotor
-  - lensa-ai
+  - picsart-ai
+  - canva
+  - befunky
+  - gimp
+  - adobe-photoshop
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, free_tier, fast, powerful]
 ---

@@ -12,15 +12,17 @@ category_name: 'Calendar Scheduling'
 price: 'Paid'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Bizzabo acquired x.ai in 2021 and shut down the standalone Amy and Andrew scheduling assistants.'
+dead_date: '2021-06'
 alternatives:
-  - acuity-scheduling
   - calendly
-  - motion
   - cal-com
+  - savvycal
+  - motion
   - clockwise-ai
+  - reclaim-ai
   - fantastical
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, autonomous]
 ---

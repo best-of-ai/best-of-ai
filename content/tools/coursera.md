@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - quizlet-ai
   - udemy
-  - brilliant
   - edx
+  - datacamp
   - codecademy
-  - carnegie-learning
-  - chegg-ai
-  - dreambox-learning
+  - khan-academy
+  - brilliant
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable, powerful]
 ---

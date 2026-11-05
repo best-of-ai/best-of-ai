@@ -15,12 +15,12 @@ rank: 10
 alternatives:
   - sora
   - kling-ai
-  - hailuo-ai
-  - haiper
-  - fliki-ai
-  - runway
   - veo-3
+  - runway-gen3
   - pika-video
+  - hailuo-ai
+  - vidu
+  - wan-video
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based, easy_to_use]
 ---

@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - guru
   - notion-ai
-  - readwise-reader
-  - reflect
-  - capacities
-  - logseq
-  - obsidian-ai
-  - anything-llm
-  - anytype-ai
+  - dust
+  - almanac-ai
+  - box-ai
+  - microsoft-copilot
+  - cohere-north
+  - bloomfire
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, collaboration, enterprise, community_driven]
 ---

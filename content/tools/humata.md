@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - chatpdf
-  - adobe-acrobat-ai
+  - pdf-ai
   - notebooklm
-  - abbyy
-  - nanonets
-  - docsumo
-  - hyperscience
-  - instabase
+  - adobe-acrobat-ai
+  - collate-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
 ---

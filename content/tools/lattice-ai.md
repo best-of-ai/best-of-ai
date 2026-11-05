@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - bamboohr
   - culture-amp-ai
-  - greenhouse
-  - ashby
-  - gem
   - 15five-ai
-  - adp
-  - eightfold-ai
+  - leapsome-ai
+  - betterworks-ai
+  - workday
+  - visier
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration]
 ---

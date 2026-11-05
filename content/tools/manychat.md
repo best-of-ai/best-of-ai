@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - scalerx
-  - fastbots-ai
-  - voiceflow
   - botpress
-  - persona
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - voiceflow
+  - landbot
+  - chatbase
+  - fastbots-ai
+  - tidio
+  - rasa
 date: '2026-06-15'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

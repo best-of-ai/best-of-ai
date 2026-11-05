@@ -11,14 +11,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - scale-ai
-  - amplitude-ai
-  - tableau
-  - sisense-ai
-  - julius-ai
-  - power-bi
-  - airbyte-ai
-  - datarobot
+  - snowflake
+  - bigquery
+  - databricks
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, cloud_based, nlp]
 ---

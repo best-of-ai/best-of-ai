@@ -13,14 +13,11 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - foursquare
   - google-maps
+  - foursquare
+  - tripadvisor
   - apple-maps
-  - arc-browser
-  - devv-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - waze
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, customizable]
 ---

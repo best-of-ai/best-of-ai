@@ -12,11 +12,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - alchemy-web3
-  - moralis
-  - dune-analytics
-  - crowdstrike
-  - darktrace
+  - chainalysis
+  - certik
 date: '2025-09-21'
 tags: [collaboration, secure, machine_learning, ai_powered, intelligent, platform, tool, service]
 ---

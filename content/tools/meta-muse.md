@@ -12,8 +12,12 @@ category_name: 'Personal Assistants'
 price: 'Freemium'
 featured: false
 rank: 8
-date: '2026-09-08'
 alternatives:
-  - openai-dots claude-duet meta-ai chatgpt openclaw
+  - openai-dots
+  - claude-duet
+  - gemini-spark
+  - openclaw
+  - chatgpt-work
+date: '2026-09-08'
 tags: [ai_assistants, agents, personal_assistant, automation, scheduling, shopping, productivity, agentic, mobile, voice]
 ---

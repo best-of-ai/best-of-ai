@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - brilliant
-  - carnegie-learning
   - coursera
-  - khanmigo
-  - quillbotai-pro-free-ai-content-detector-for-educators-publishers
-  - chegg-ai
+  - edx
+  - brilliant
+  - ixl-ai
   - dreambox-learning
-  - gptzero
+  - codecademy
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier]
 ---

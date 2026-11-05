@@ -11,15 +11,13 @@ category_name: 'Events'
 price: 'Freemium'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Hopin sold its events platform to RingCentral in 2023. Its other products continue separately.'
+dead_date: '2023-08'
 alternatives:
+  - cvent
   - bizzabo
   - grip-events
-  - hudl
-  - planetscale
-  - procore
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

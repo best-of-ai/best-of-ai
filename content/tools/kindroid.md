@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - character-ai
-  - anna-ai
-  - chai
+  - nomi-ai
   - replika
-  - google-assistant
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - character-ai
+  - chai
+  - anna-ai
+  - pi-ai
 date: '2025-01-01'
 tags: [ai_companion, chatbot, conversation, ai_assistant, chat, companionship, emotional_support, roleplay, personal, customizable, image_based, voice_enabled]
 ---

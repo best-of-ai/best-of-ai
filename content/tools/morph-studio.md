@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - luma-dream-machine
   - kling-ai
-  - hailuo-ai
-  - haiper
+  - luma-dream-machine
+  - runway-gen3
+  - pika-video
   - sora
-  - moovly
-  - raw-shorts
-  - renderforest
+  - veo-3
 date: '2025-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
 ---

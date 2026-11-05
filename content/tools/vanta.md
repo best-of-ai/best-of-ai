@@ -13,13 +13,9 @@ featured: false
 rank: 7
 alternatives:
   - drata
+  - secureframe
   - onetrust
-  - osano
-  - wiz
-  - crowdstrike
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - navex
 date: '2025-10-01'
 tags: [collaboration, customizable, cloud_based, secure, fast, ai_powered, intelligent, platform]
 ---

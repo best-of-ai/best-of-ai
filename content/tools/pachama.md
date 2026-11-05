@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - planet-labs
+  - sylvera
+  - patch
+  - persefoni
   - carbon-trust
   - climate-trace
-  - watershed
-  - patch
-  - sylvera
-  - adobe-premiere-pro-ai
-  - asana
 date: '2026-06-15'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, machine_learning, image_based]
 ---

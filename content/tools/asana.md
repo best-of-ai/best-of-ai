@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
+  - monday
   - clickup
-  - todoist
-  - coda-ai
-  - akiflow
-  - sunsama
-  - slack-ai
-  - aiprm
-  - miro-ai
+  - trello
+  - smartsheet-ai
+  - notion
+  - jira
+  - linear
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

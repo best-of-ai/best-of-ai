@@ -12,9 +12,9 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - semantic-scholar
-  - perplexity-research
-  - abridge-ai
+  - glass-health
+  - doximity
+  - consensus
 date: '2026-02-10'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, free_tier]
 ---

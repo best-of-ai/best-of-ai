@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - langchain
-  - agentgpt
-  - crewai
-  - autogpt
+  - langflow
   - flowise
   - coze
-  - langflow
-  - manus
+  - microsoft-copilot-studio
+  - n8n
+  - stack-ai
+  - relevance-ai
+  - langchain
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, api_available, collaboration]
 ---

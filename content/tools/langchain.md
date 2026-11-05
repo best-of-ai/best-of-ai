@@ -13,14 +13,14 @@ price: 'Free'
 featured: false
 rank: 9
 alternatives:
-  - autogpt
-  - flowise
-  - langflow
-  - smolagents
-  - agentgpt
-  - coze
+  - langgraph
+  - llamaindex
   - crewai
-  - openclaw
+  - haystack
+  - dify
+  - flowise
+  - smolagents
+  - mastra
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, nlp, model_based]
 ---

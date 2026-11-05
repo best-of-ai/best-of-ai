@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - shopify
-  - bigcommerce
-  - magento
-  - stamped-io
-  - woocommerce
-  - dynamic-yield
-  - bloomreach
-  - constructor
+  - photoroom
+  - pixelcut-ai
+  - removebg
+  - clipdrop
+  - canva
 date: '2026-06-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, templates, image_based]
 ---

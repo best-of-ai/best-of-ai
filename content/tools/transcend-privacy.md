@@ -15,11 +15,7 @@ alternatives:
   - bigid
   - osano
   - onetrust
-  - datadog
-  - drata
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - securiti
 date: '2025-10-01'
 tags: [collaboration, cloud_based, secure, model_based, ai_powered, intelligent, platform, tool]
 ---

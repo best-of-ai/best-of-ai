@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - hotjar-ai
-  - brandwatch
-  - crimson-hexagon
+  - pitchbook-ai
   - cb-insights-ai
-  - maze-ai
-  - attention-insight
+  - alphasense
   - similarweb
-  - competitor-analyzer
+  - rogo-ai
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration]
 ---

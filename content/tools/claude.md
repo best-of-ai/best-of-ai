@@ -12,16 +12,15 @@ category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
 rank: 10
-date: '2025-09-21'
 alternatives:
   - chatgpt
   - gemini
   - grok
   - deepseek
-  - mistral
-  - notebooklm
-  - perplexity-search
-  - claude-code
+  - mistral-le-chat
+  - perplexity
+  - microsoft-copilot
+date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, collaboration, enterprise]
 ---
 

@@ -13,13 +13,8 @@ featured: false
 rank: 7
 alternatives:
   - postman
+  - bruno
   - insomnia
-  - moralis
-  - ready-player-me
-  - archbee
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [api_available, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

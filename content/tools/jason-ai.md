@@ -11,14 +11,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - clay
-  - instantly
-  - salesloft
   - apollo
-  - lavender
+  - 11x-ai
+  - artisan
   - amplemarket
-  - chorus-ai
-  - gong
+  - instantly
+  - lemlist
+  - outreach
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, templates]
 ---

@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - humata
-  - adobe-acrobat-ai
-  - notebooklm
   - pdf-ai
-  - abbyy
-  - docsumo
-  - hyperscience
-  - instabase
+  - notebooklm
+  - adobe-acrobat-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
 ---

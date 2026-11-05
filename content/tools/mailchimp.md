@@ -13,13 +13,13 @@ featured: false
 rank: 8
 alternatives:
   - klaviyo-ai
-  - boomerang
   - brevo-ai
+  - constant-contact
+  - mailerlite
+  - convertkit
   - activecampaign-ai
-  - mixmax
-  - sanebox
-  - shortwave
-  - spark-mail
+  - hubspot
+  - getresponse
 date: '2026-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up]
 ---

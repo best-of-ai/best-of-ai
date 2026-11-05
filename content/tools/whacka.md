@@ -12,13 +12,12 @@ featured: false
 rank: 5
 alternatives:
   - bubble
-  - adalo
-  - appsheet
-  - flutterflow
   - glide
-  - retool-ai
+  - softr-ai
+  - thunkable
+  - flutterflow
   - base44
-  - floot
+  - lovable
 date: '2025-01-01'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, collaboration, fast]
 ---

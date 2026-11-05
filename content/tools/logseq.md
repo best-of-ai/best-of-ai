@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - reflect
-  - notion-ai
-  - anything-llm
+  - obsidian
   - anytype-ai
+  - appflowy
   - capacities
-  - glean
-  - obsidian-ai
-  - readwise-reader
+  - reflect
+  - tana-ai
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, open_source, integrations, secure]
 ---

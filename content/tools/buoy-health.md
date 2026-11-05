@@ -13,13 +13,9 @@ featured: false
 rank: 7
 alternatives:
   - ada-health
-  - babylon-health
+  - infermedica-ai
   - k-health
-  - aidoc-ai
-  - doximity
-  - abridge-ai
-  - alphafold-ai
-  - benevolentai
+  - babylon-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

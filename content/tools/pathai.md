@@ -14,13 +14,10 @@ featured: false
 rank: 5
 alternatives:
   - paige-ai
+  - lunit-ai
   - tempus-ai
-  - benevolentai
-  - ada-health
   - aidoc-ai
-  - abridge-ai
-  - alphafold-ai
-  - babylon-health
+  - qure-ai
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, machine_learning, image_based, model_based]
 ---

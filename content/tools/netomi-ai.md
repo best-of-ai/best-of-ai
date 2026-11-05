@@ -12,14 +12,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - intercom
-  - zendesk
-  - freshdesk
+  - ada
+  - sierra-ai
+  - decagon
   - forethought-ai
-  - gorgias
-  - drift
-  - chatbase
-  - kustomer-ai
+  - zowie-ai
+  - yellow-ai
+  - intercom
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, enterprise, customizable, machine_learning]
 ---

@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - dify
-  - agno-ai
-  - langchain
-  - agentgpt
-  - cassidy-ai
-  - autogpt
-  - coze
-  - crewai
+  - manus
+  - genspark
+  - lindy-ai
+  - openai-operator
+  - chatgpt-work
+  - claude-cowork
 date: '2025-01-01'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration, powerful]
 ---

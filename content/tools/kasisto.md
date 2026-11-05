@@ -12,13 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - zest-ai
-  - feedzai
   - personetics
-  - plaid
-  - ada
-  - intercom
-  - drift
+  - finastra
+  - ncino
+  - kore-ai
 date: '2025-09-21'
 tags: [customizable, nlp, model_based, ai_powered, intelligent, platform, tool, service]
 ---

@@ -12,8 +12,13 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 6
-date: '2026-10-23'
 alternatives:
-  - claude-code codex opencode aider cursor
+  - claude-code
+  - codex
+  - gemini-cli
+  - opencode
+  - aider
+  - cursor
+date: '2026-10-23'
 tags: [code_generation, developer_tools, coding, programming, debugging, refactoring, terminal, cli, agentic, open_source]
 ---

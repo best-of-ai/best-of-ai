@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
+  - render
   - fly-io
-  - gitlens-ai
-  - openrouter
-  - wandb-weave
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - heroku
+  - vercel-ai-platform
+  - netlify-ai
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning, nlp, model_based]
 ---

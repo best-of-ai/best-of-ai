@@ -12,14 +12,13 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - greenhouse
   - workday
-  - hibob-ai
+  - paychex
+  - paycom
+  - ukg
+  - gusto
   - rippling-ai
   - bamboohr
-  - 15five-ai
-  - eightfold-ai
-  - hirevue
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, analytics]
 ---

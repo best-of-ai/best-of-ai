@@ -15,9 +15,11 @@ rank: 8
 alternatives:
   - testim
   - applitools
+  - momentic-mo
   - qa-wolf
   - browserstack-test-companion
-  - momentic-mo
+  - percy
+  - testifly
 date: '2025-10-01'
 tags: [mobile_app, integrations, ai_powered, intelligent, platform, tool, service, solution]
 ---

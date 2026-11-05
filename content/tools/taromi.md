@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - character-ai
   - pi-ai
   - replika
-  - headspace
-  - calm
-  - wysa
-  - woebot
-  - character-ai
-  - kindroid
+  - nomi-ai
 date: '2026-10-17'
 tags: [wellness, tarot, reflection, mindfulness, self_care, entertainment, lifestyle, personal_growth, chatbot, mobile_app]
 ---

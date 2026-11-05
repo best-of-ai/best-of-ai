@@ -13,14 +13,15 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - amazon-q
-  - bolt-new
-  - cline
-  - copilot-workspace
-  - windsurf
-  - aider
-  - amazon-codewhisperer
-  - codeium
+  - cosine
+  - factory-ai
+  - codex
+  - claude-code
+  - cursor
+  - github-agent-hq
+  - google-jules
+  - openhandss
+  - replit-agent-4
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, autonomous]
 ---

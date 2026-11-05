@@ -12,15 +12,12 @@ category_name: 'Transcription'
 price: 'Free'
 featured: false
 rank: 9
-date: '2026-07-17'
 alternatives:
-  - otter-ai
-  - descript
   - assemblyai
   - deepgram
-  - rev
-  - fireflies-ai
-  - notta
-  - happyscribe
+  - speechmatics
+  - gladia
+  - azure-ai-speech
+date: '2026-07-17'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, open_source, free_tier, voice_enabled]
 ---

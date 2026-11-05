@@ -18,9 +18,9 @@ alternatives:
   - toolify-ai
   - topai-tools
   - future-tools
-  - allthingsai
-  - aixploria
-  - best-of-ai
+  - insidr-ai
+  - dang-ai
+  - altern
 date: '2026-10-17'
 tags: [ai_directory, directory, ai_tools, discovery, listings, search, comparison, catalog, resources]
 ---

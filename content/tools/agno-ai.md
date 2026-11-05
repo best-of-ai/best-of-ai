@@ -12,14 +12,13 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - langchain
-  - autogpt
-  - flowise
-  - langflow
-  - agentgpt
-  - coze
+  - langgraph
   - crewai
-  - dify
+  - autogen-ai
+  - smolagents
+  - mastra
+  - llamaindex
+  - langchain
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, api_available, collaboration]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - adobe-firefly
   - canva
-  - figma
-  - visily
-  - adobe-sensei
-  - photoroom
+  - microsoft-designer
   - visme-ai
-  - gamma
+  - picsart-ai
+  - fotor
+  - pixlr
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, integrations, cloud_based, templates]
 ---

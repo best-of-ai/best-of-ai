@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - linear
-  - height
-  - taskade
   - monday
   - asana-pm
-  - jira
-  - team-pulse-ai
-  - adobe-premiere-pro-ai
+  - clickup
+  - airtable
+  - trello
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile, nlp]
 ---

@@ -13,11 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - gemini-pro
-  - hugging-face
-  - mistral
-  - deepseek
   - cohere
+  - mistral
+  - aleph-alpha
+  - reka-ai
+  - claude
+  - gemini
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, enterprise, customizable]
 ---

@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - elevenlabs
-  - descript
-  - krisp
-  - murf
-  - adobe-podcast
-  - voicemod
-  - ace-studio
-  - adobe-enhance-speech
+  - izotope-rx
+  - kits-ai
+  - landr-ai
+  - eleven-labs-voice-isolator
 date: '2025-06-15'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, voice_enabled]
 ---

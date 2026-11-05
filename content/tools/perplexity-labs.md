@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - explainpaper
-  - lens-org
   - perplexity-research
-  - connected-papers
-  - notebook-lm-plus
+  - notebooklm
+  - elicit
   - scispace
-  - semantic-scholar
-  - inciteful
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, autonomous, model_based, powerful]
 ---

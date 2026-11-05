@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - linear
-  - taskade
-  - smartsheet-ai
-  - height
-  - jira
-  - clickup
-  - notion
   - monday
+  - clickup
+  - jira
+  - linear
+  - smartsheet-ai
+  - taskade
+  - trello
+  - notion
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

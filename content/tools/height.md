@@ -14,13 +14,13 @@ featured: false
 rank: 8
 alternatives:
   - linear
-  - smartsheet-ai
-  - taskade
   - jira
-  - monday
   - asana-pm
-  - team-pulse-ai
-  - adobe-premiere-pro-ai
+  - clickup
+  - monday
+  - taskade
+  - trello
+  - notion
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile, autonomous]
 ---

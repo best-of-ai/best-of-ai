@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - perplexity-research
-  - semantic-scholar
-  - connected-papers
+  - elicit
+  - consensus
+  - scite-ai
   - explainpaper
-  - notebook-lm-plus
-  - inciteful
-  - iris-ai
-  - lens-org
+  - undermind
+  - semantic-scholar
+  - paper-digest
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

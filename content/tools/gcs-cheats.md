@@ -13,13 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - marketinguys
-  - next-insurance
-  - linear
-  - drift
-  - productivity-directory
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2026-06-11'
 tags: [other, miscellaneous, tools, utilities, general, innovative, niche, experimental, unique, fast]
 ---

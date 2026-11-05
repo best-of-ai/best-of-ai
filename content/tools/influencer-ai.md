@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - hubspot
-  - marketmuse
-  - persado
-  - iterable
-  - typeform
-  - 6sense-ai
-  - crayon
-  - jasper-marketing
+  - hootsuite-social
+  - predis-ai
+  - pencil
+  - adcreative-ai
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, image_based, model_based]
 ---

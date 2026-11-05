@@ -13,6 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - fourkites
+  - freightos
   - blue-yonder
   - kinaxis
 date: '2026-10-03'

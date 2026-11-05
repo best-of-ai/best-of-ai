@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - microsoft-dynamics-365
   - hubspot-business
   - servicenow
-  - docusign-ai
-  - zoho
-  - qwilr-ai
-  - pandadoc-ai
   - c3-ai
-  - denovo-ai
+  - zoho
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable, cloud_based, analytics]
 ---

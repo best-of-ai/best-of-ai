@@ -8,6 +8,10 @@ website: 'https://chat.deepseek.com/'
 company: 'deepseek'
 logo_url: ''
 category: 'chatbots'
+category_name: 'Chatbots'
+price: 'Free'
+featured: false
+rank: 5
 alternatives:
   - chatgpt
   - claude
@@ -15,10 +19,6 @@ alternatives:
   - qwen-studio
   - kimi
   - mistral-le-chat
-category_name: 'Chatbots'
-price: 'Free'
-featured: false
-rank: 5
 date: '2026-07-17'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, model_based]
 ---

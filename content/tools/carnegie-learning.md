@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - gptzero
   - dreambox-learning
-  - brilliant
+  - ixl-ai
   - khan-academy
-  - studysmarter
-  - chegg-ai
-  - coursera
   - khanmigo
+  - mathway-ai
+  - brilliant
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, model_based]
 ---

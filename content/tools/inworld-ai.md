@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - ludo-ai
+  - convai
+  - charisma-ai
   - promethean-ai
   - scenario
-  - unakin
-  - charisma-ai
+  - ludo-ai
   - ai-dungeon
-  - convai
-  - latitude
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app]
 ---

@@ -12,8 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - brex
-  - alchemy-web3
+  - stripe-agentic-commerce-suite
+  - stripe
 date: '2026-08-17'
 tags: [api_available, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

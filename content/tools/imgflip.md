@@ -15,10 +15,6 @@ alternatives:
   - memegenerator
   - mematic
   - kapwing
-  - pika-labs
-  - adobe-express
-  - adobe-premiere-pro-ai
-  - asana
   - canva
 date: '2025-09-21'
 tags: [meme, creative, social_media, humor, content, viral, fun, images, captions, templates]

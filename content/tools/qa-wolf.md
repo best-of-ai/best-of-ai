@@ -13,10 +13,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - testim
   - mabl
-  - applitools
+  - testim
   - momentic-mo
+  - applitools
+  - percy
   - browserstack-test-companion
 date: '2026-09-28'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]

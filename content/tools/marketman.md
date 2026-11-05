@@ -15,7 +15,6 @@ alternatives:
   - toast
   - square
   - 7shifts
-  - fleetio
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, voice_enabled, fast]
 ---

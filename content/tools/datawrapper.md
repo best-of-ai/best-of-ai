@@ -12,9 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - flourish
   - infogram
   - piktochart
   - venngage
+  - canva-infographics
 date: '2026-02-10'
 tags: [design, data_visualization, marketing, visual, creative, charts, diagrams, storytelling, communication, collaboration]
 ---

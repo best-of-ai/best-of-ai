@@ -13,13 +13,12 @@ featured: false
 rank: 5
 alternatives:
   - obsidian
-  - craft-docs
-  - notion-notes
-  - remnote
-  - heptabase
   - roam-research
-  - amplenote
-  - adobe-premiere-pro-ai
+  - logseq
+  - heptabase
+  - capacities
+  - reflect
+  - notion-notes
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync, customizable]
 ---

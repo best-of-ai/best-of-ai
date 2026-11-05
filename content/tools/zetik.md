@@ -15,7 +15,6 @@ alternatives:
   - kin-personal-ai
   - littlebird-ai
   - notis-ai
-  - brave-leo
   - pi-ai
 date: '2026-08-31'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, collaboration]

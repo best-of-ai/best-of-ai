@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - assemblyai
+  - wispr-flow
+  - superwhisper
+  - echowrite
+  - mosmos
   - whisper
-  - notta
-  - deepgram
-  - sonix
-  - gladia
-  - speechmatics
-  - transkriptor
 date: '2025-01-01'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, voice_enabled, training, fast]
 ---

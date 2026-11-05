@@ -13,6 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - pix4d
+  - dronedeploy
   - arcgis
 date: '2026-10-03'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]

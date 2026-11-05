@@ -13,12 +13,10 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - wiz
-  - darktrace
-  - crowdstrike
-  - openai-daybreak
-  - vectra-ai
-  - ghostwall
+  - lakera
+  - patronus-ai
+  - giskard
+  - nightfall
 date: '2026-09-28'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

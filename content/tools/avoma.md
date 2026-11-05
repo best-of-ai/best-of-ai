@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - gong
+  - chorus-ai
+  - jiminny
   - fireflies-ai
-  - meetgeek
-  - noty-ai
-  - supernormal
-  - tldv
-  - zoom-ai
+  - fathom
   - otter-ai
-  - claap
+  - read-ai
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, mobile_app, customizable, integrations]
 ---

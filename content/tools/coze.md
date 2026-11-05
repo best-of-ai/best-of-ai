@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - langchain
+  - dify
+  - flowise
   - langflow
-  - smolagents
+  - microsoft-copilot-studio
   - cassidy-ai
-  - composio-ai
-  - agentgpt
-  - autogpt
-  - crewai
+  - stack-ai
+  - relevance-ai
+  - botpress
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, customizable, image_based, model_based]
 ---

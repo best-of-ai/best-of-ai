@@ -15,12 +15,7 @@ rank: 8
 alternatives:
   - catapult-sports
   - stats-perform
-  - planetscale
-  - hopin
-  - fleetio
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - kinexon
 date: '2025-10-01'
 tags: [analytics, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -14,12 +14,9 @@ rank: 7
 alternatives:
   - buzzsprout
   - transistor
+  - libsyn
   - riverside
-  - cleanvoice
-  - descript-podcast
   - podcastle
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [podcast, audio, content_creation, media, broadcasting, episodes, hosting, editing, distribution, free_tier, analytics, easy_to_use]
 ---

@@ -13,13 +13,9 @@ featured: false
 rank: 7
 alternatives:
   - shopify
-  - stamped-io
   - bigcommerce
-  - dynamic-yield
   - woocommerce
-  - bloomreach
-  - constructor
-  - igly
+  - squarespace
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, open_source, customizable, cloud_based]
 ---

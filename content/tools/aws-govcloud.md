@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - palantir-gotham
-  - ibm-watson-gov
   - microsoft-gov-cloud
-  - cohere
-  - aleph-alpha
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - ibm-watson-gov
+  - palantir-gotham
 date: '2025-09-21'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, cloud_based, secure, machine_learning]
 ---

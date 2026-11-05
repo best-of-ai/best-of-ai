@@ -12,8 +12,10 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
+  - notebooklm
   - adobe-acrobat-ai
   - chatpdf
+  - humata
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, cloud_based]
 ---

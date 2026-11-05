@@ -1,0 +1,15 @@
+{{/*
+  Moves discontinued tools (dead: true in frontmatter) to the end of a page list,
+  keeping the existing order within each group.
+  Usage: {{ $tools = partial "dead-last.html" $tools }}
+*/}}
+{{- $live := slice -}}
+{{- $dead := slice -}}
+{{- range . -}}
+  {{- if .Params.dead -}}
+    {{- $dead = $dead | append . -}}
+  {{- else -}}
+    {{- $live = $live | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- return ($live | append $dead) -}}

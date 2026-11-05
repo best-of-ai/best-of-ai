@@ -13,12 +13,10 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - amazon-polly
-  - playht
-  - cartesia
-  - wellsaid-labs
   - fish-audio
-  - hume-ai
+  - cartesia
+  - elevenlabs
+  - playht
   - lovo
   - neets-ai
 date: '2025-01-01'

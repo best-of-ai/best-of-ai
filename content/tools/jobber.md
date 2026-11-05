@@ -13,8 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - servicetitan
-  - bonsai
-  - styleseat
+  - housecall-pro
 date: '2026-10-03'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

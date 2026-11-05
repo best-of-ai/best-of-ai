@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - copilot-workspace
+  - devin
   - google-jules
-  - amazon-q
-  - bolt-new
-  - cursor-composer
-  - aider
-  - amazon-codewhisperer
-  - cline
+  - github-agent-hq
+  - factory-ai
+  - cosine
+  - copilot-workspace
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, community_driven]
 ---

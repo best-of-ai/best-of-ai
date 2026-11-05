@@ -13,13 +13,8 @@ featured: false
 rank: 7
 alternatives:
   - testfit
+  - archistar
   - spacemaker-ai
-  - next-insurance
-  - xmind
-  - stripe
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [integrations, fast, extensible, ai_powered, intelligent, platform, tool, service]
 ---

@@ -14,13 +14,11 @@ featured: false
 rank: 8
 alternatives:
   - carnegie-learning
-  - synthesis
+  - ixl-ai
   - khan-academy
-  - studysmarter
+  - khanmigo
   - brilliant
-  - chegg-ai
-  - coursera
-  - gptzero
+  - mathway-ai
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

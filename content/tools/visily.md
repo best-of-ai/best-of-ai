@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - uizard
+  - figma-make
+  - magic-patterns
+  - google-stitch
   - figma
-  - adobe-express
   - canva
-  - galileo-ai
-  - lucidchart-ai
-  - adobe-sensei
-  - adobe-firefly
-  - midjourney
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, templates]
 ---

@@ -12,12 +12,15 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 8
-date: '2026-11-05'
 alternatives:
   - lovable
   - bolt-new
   - v0
+  - base44
   - cursor
+  - claude-code
+  - codex
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

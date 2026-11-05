@@ -14,13 +14,11 @@ featured: false
 rank: 7
 alternatives:
   - ada-health
-  - babylon-health
   - buoy-health
-  - aidoc-ai
-  - doximity
-  - abridge-ai
-  - alphafold-ai
-  - benevolentai
+  - teladoc
+  - amwell
+  - doxy-me
+  - infermedica-ai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, affordable]
 ---

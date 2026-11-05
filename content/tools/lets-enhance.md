@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - cleanup-pictures
+  - topaz-photo-ai
+  - magnific-ai
+  - upscayl
   - neural-love
-  - photoroom
-  - vectorizer-ai
-  - adobe-lightroom-ai
-  - befunky
-  - fotor
-  - lensa-ai
+  - remini-ai
 date: '2026-06-15'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, collaboration, image_based]
 ---

@@ -12,9 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - virtual-staging-ai
   - roomgpt
   - homestyler
   - planner5d
+  - houzz
+  - sketchup
 date: '2026-10-03'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, image_based, fast]
 ---

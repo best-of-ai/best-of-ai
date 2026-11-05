@@ -15,12 +15,7 @@ rank: 8
 alternatives:
   - bizzabo
   - hopin
-  - jumio
-  - alchemy-web3
-  - aurora-solar
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - cvent
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

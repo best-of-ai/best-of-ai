@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - ziprecruiter
-  - linkedin
-  - glassdoor
   - huntr
-  - indeed
-  - jobbyo
+  - jobscan
+  - kickresume
+  - rezi
   - jobgpt-ai
-  - adobe-premiere-pro-ai
+  - linkedin
 date: '2026-06-15'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
 ---

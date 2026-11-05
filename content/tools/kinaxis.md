@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - oracle-scm
-  - sap-ariba
+  - o9-solutions
   - blue-yonder
+  - oracle-scm
   - llamasoft
-  - coupa
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-06-15'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, enterprise]
 ---

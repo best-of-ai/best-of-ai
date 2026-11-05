@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - azure-content-moderator
-  - hive-moderation
-  - perspective-api
-  - aws-rekognition
-  - dune-analytics
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - gptzero
+  - originality-ai
+  - copyleaks-ai
+  - turnitin-ai
+  - winston-ai
 date: '2025-01-01'
 tags: [image_based, analytics, model_based, easy_to_use, ai_powered, intelligent, platform, tool]
 ---

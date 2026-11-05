@@ -13,13 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - grammarly
+  - prowritingaid
+  - languagetool
   - wordtune
-  - jasper
-  - writesonic
-  - copy-ai
-  - quillbot
-  - ai-writer
-  - article-forge
+  - autocrit
+  - ink-editor
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, voice_enabled]
 ---

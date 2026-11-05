@@ -12,8 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - aws-iot
-  - azure-iot
+  - qualcomm-ai-hub
+  - openvino
+  - roboflow
   - particle-iot
 date: '2026-10-03'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]

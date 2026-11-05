@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - planet-labs
   - maxar
   - spire-global
-  - azure-content-moderator
-  - datadog
-  - applitools
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [customizable, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

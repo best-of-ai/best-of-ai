@@ -14,13 +14,8 @@ featured: false
 rank: 8
 alternatives:
   - jumio
-  - okta
-  - ready-player-me
-  - manychat
-  - uplight
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - sumsub
+  - notarize
 date: '2025-10-01'
 tags: [collaboration, customizable, ai_powered, intelligent, platform, tool, service, solution]
 ---

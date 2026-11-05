@@ -15,12 +15,9 @@ rank: 8
 alternatives:
   - adobe-lightroom-ai
   - luminar-neo
+  - capture-one
+  - dxo-photolab
   - topaz-photo-ai
-  - befunky
-  - cleanup-pictures
-  - fotor
-  - lensa-ai
-  - neural-love
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation]
 ---

@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - coursera
-  - carnegie-learning
   - khan-academy
+  - coursera
+  - codecademy
+  - carnegie-learning
   - studysmarter
-  - synthesis
-  - chegg-ai
   - dreambox-learning
-  - gptzero
+  - ixl-ai
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, powerful]
 ---

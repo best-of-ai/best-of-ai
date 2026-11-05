@@ -14,12 +14,12 @@ rank: 5
 alternatives:
   - buffer
   - sprout-social
-  - flick-ai
-  - pallyy
-  - missinglettr
+  - hootsuite-social
   - later
+  - publer
   - metricool
-  - predis-ai
+  - planable
+  - loomly
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, fast]
 ---

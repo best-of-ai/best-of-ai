@@ -12,9 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - avalara
-  - salesforce
-  - tableau
+  - freightos
+  - project44
+  - fourkites
 date: '2025-10-01'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, collaboration, customizable, analytics]
 ---

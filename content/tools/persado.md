@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - hubspot
-  - marketmuse
+  - phrasee
+  - anyword
   - jasper-marketing
-  - 6sense-ai
-  - unbounce-ai
-  - typeform
-  - crayon
-  - arcade-software
+  - copy-ai-copy
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, enterprise, machine_learning, training]
 ---

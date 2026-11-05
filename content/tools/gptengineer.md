@@ -11,15 +11,16 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 5
+dead: true
+dead_reason: 'The commercial GPT Engineer app was renamed Lovable in late 2024.'
+dead_date: '2024-12'
 alternatives:
-  - copilot-workspace
-  - aider
-  - cline
-  - aide
-  - google-jules
-  - amazon-codewhisperer
-  - amazon-q
+  - lovable
   - bolt-new
+  - v0
+  - replit
+  - base44
+  - fabricate-ai
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, nlp, community_driven]
 ---

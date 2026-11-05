@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - shopify
-  - bigcommerce
-  - dynamic-yield
-  - magento
-  - stamped-io
-  - woocommerce
-  - bloomreach
-  - constructor
+  - klaviyo-ai
+  - postscript
+  - octane-ai
+  - attentive-ai
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, enterprise]
 ---

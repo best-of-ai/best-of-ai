@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - fly-io
-  - openrouter
-  - pinecone
+  - langfuse
+  - helicone
+  - braintrust
+  - arize
   - wandb-weave
-  - anyscale
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - promptlayer
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based]
 ---

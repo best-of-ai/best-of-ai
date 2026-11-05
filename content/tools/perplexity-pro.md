@@ -12,14 +12,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - kagi
-  - perplexity-search
-  - andi-search
-  - bing-chat
-  - phind
   - chatgpt
   - claude
-  - notebooklm
+  - gemini
+  - kagi
+  - you-search
+  - phind
+  - microsoft-copilot
 date: '2026-06-15'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, model_based, fast, powerful]
 ---

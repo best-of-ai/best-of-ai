@@ -15,11 +15,8 @@ alternatives:
   - ajelix
   - numerous
   - sheet-plus
-  - zapier
-  - lovable
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - microsoft-copilot
+  - gemini-workspace
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, fast]
 ---

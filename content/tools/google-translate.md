@@ -13,14 +13,10 @@ price: 'Free'
 featured: false
 rank: 9
 alternatives:
-  - microsoft-translator
   - deepl
-  - lokalise-ai
+  - microsoft-translator
   - reverso
-  - smartling
-  - memoq
-  - phrase-ai
-  - smartcat-ai
+  - systran
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, api_available, mobile_app, real_time]
 ---

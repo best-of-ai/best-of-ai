@@ -11,14 +11,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amplitude-ai
-  - tableau
   - julius-ai
+  - hex
+  - obviously-ai
+  - thoughtspot
+  - metabase-ai
   - power-bi
-  - domo-ai
-  - scale-ai
-  - airbyte-ai
-  - datarobot
+  - tableau
 date: '2026-06-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, fast]
 ---

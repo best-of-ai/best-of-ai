@@ -12,13 +12,10 @@ featured: false
 rank: 7
 alternatives:
   - crowdin
+  - lokalise-ai
+  - phrase-ai
+  - smartling
   - weglot
-  - arterys
-  - schrodinger
-  - datadog
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2026-06-15'
 tags: [collaboration, integrations, cloud_based, community_driven, ai_powered, intelligent, platform, tool]
 ---

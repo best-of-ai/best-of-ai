@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-bedrock
-  - groq
-  - google-ai-studio
-  - llamaindex
-  - perplexity-sonar
-  - cursor
-  - azure-openai
-  - github-copilot
+  - tavily
+  - exa-ai
+  - firecrawl
+  - apify
+  - pinecone
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, multimodal]
 ---

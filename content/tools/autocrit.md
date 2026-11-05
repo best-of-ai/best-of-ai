@@ -13,10 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - prowritingaid
-  - sudowrite
   - grammarly
-  - quillbot
-  - wordtune
+  - hemingway-editor
+  - languagetool
+  - sudowrite
+  - ink-editor
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---

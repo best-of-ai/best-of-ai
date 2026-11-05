@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - datacamp
   - coursera
-  - quizlet-ai
   - udemy
+  - edx
   - brilliant
-  - thea-ai
-  - carnegie-learning
-  - chegg-ai
-  - dreambox-learning
 date: '2025-06-15'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable, fast]
 ---

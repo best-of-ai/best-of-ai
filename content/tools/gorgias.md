@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - drift
-  - intercom
   - zendesk
   - freshdesk
-  - forethought-ai
-  - chatbase
+  - intercom
+  - gladly-ai
+  - front
   - kustomer-ai
-  - observe-ai
+  - tidio
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, fast]
 ---

@@ -12,9 +12,13 @@ category_name: 'AI Agents'
 price: 'Free'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
-  - claude-code
+  - openclaw
+  - microsoft-copilot-studio
+  - azure-ai-foundry
+  - amazon-bedrock-agentcore
+  - salesforce-agentforce
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

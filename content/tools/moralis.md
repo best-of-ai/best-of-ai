@@ -13,13 +13,8 @@ featured: false
 rank: 7
 alternatives:
   - alchemy-web3
-  - dune-analytics
-  - particle-iot
-  - stripe
-  - rapidapi
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - infura
+  - quicknode
 date: '2025-10-01'
 tags: [api_available, real_time, ai_powered, intelligent, platform, tool, service, solution]
 ---

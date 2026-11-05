@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - devv-ai
-  - exa-ai
   - perplexity-search
   - you-search
-  - arc-browser
-  - bing-chat
+  - devv-ai
   - kagi
+  - exa-ai
   - andi-search
+  - chatgpt
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, fast]
 ---

@@ -11,15 +11,13 @@ category_name: 'AR/VR'
 price: 'Paid'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Niantic Spatial ended access to the 8th Wall platform on February 28, 2026. Hosted projects keep running until February 28, 2027, and the engine is now open source.'
+dead_date: '2026-02-28'
 alternatives:
-  - meta-quest
+  - vuforia
   - niantic-lightship
-  - mermaid-chart
-  - weglot
-  - bizzabo
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - meta-quest
 date: '2025-10-01'
 tags: [mobile_app, collaboration, ai_powered, intelligent, platform, tool, service, solution]
 ---

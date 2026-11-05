@@ -12,13 +12,13 @@ category_name: 'Chatbots'
 price: 'Freemium'
 featured: false
 rank: 10
-date: '2026-07-17'
 alternatives:
   - chatgpt
   - claude
   - mistral
   - deepseek
-  - gemini
   - grok
+  - meta-ai
+date: '2026-07-17'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, multimodal, image_based]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - acuity-scheduling
-  - motion
-  - x-ai
-  - fantastical
   - cal-com
+  - savvycal
+  - acuity-scheduling
+  - fantastical
+  - motion
   - clockwise-ai
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning]
 ---

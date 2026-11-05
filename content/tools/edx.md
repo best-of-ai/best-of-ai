@@ -13,13 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - coursera
-  - brilliant
-  - khanmigo
-  - quizlet-ai
+  - udemy
+  - datacamp
   - khan-academy
-  - carnegie-learning
-  - chegg-ai
-  - dreambox-learning
+  - codecademy
+  - brilliant
 date: '2025-06-15'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, machine_learning, powerful]
 ---

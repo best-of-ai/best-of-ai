@@ -12,8 +12,12 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2026-09-29'
 alternatives:
-  - claude-duet meta-muse chatgpt-work openclaw manus
+  - claude-duet
+  - meta-muse
+  - gemini-spark
+  - openclaw
+  - chatgpt-work
+date: '2026-09-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, agentic, productivity, plugins, background_agent]
 ---

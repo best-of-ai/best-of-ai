@@ -12,14 +12,10 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - fashwell
   - vue-ai
-  - stitchfix
+  - fashwell
+  - stitch-fix
   - outfit-fm
-  - shopify
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe]
 ---

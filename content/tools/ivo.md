@@ -12,10 +12,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - contractpodai
   - ironclad-ai
+  - harvey
+  - legora
+  - spellbook
+  - luminance-ai
+  - contractpodai
   - evisort
-  - agiloft
 date: '2026-08-17'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

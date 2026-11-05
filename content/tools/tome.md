@@ -12,15 +12,17 @@ category_name: 'Presentation'
 price: 'Freemium'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Tome shut its presentation product on April 30, 2025 and moved on to a sales product called Lightfield.'
+dead_date: '2025-04-30'
 alternatives:
-  - decktopus
-  - visme-ai
-  - beautiful-ai
-  - plus-ai
-  - pitch
-  - slidesai
-  - canva
   - gamma
+  - beautiful-ai
+  - pitch
+  - plus-ai
+  - decktopus
+  - canva
+  - slidesai
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, image_based]
 ---

@@ -14,12 +14,10 @@ rank: 5
 alternatives:
   - grammarly
   - wordtune
-  - copy-ai
-  - jasper
   - quillbot
-  - writesonic
-  - ai-writer
-  - article-forge
+  - hyperwrite
+  - compose-ai
+  - languagetool
 date: '2025-06-15'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, integrations]
 ---

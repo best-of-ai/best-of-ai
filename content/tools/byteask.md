@@ -14,12 +14,11 @@ rank: 5
 alternatives:
   - cursor-composer
   - windsurf
-  - devin
+  - claude-code
   - cline
   - aider
-  - sourcegraph-cody
-  - codeium
-  - qodo-ai
+  - cosine
+  - codex
 date: '2026-09-27'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

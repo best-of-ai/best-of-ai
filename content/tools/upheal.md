@@ -12,8 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - nabla
-  - nuance-dax
+  - mentalyc
+  - simplepractice
+  - jane-app
+  - noterro
+  - freed
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

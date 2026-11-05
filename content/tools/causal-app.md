@@ -12,14 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - morningstar-ai
-  - alphasense
-  - kensho
-  - ramp
+  - pigment
+  - anaplan
   - mosaic-tech
-  - botkeeper
-  - plaid
-  - yodlee
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, collaboration, nlp, image_based]
 ---

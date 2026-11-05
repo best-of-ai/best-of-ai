@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - luma-dream-machine
-  - kling-ai
-  - hailuo-ai
-  - haiper
+  - invideo
+  - pictory
+  - fliki-ai
   - steve-ai
-  - sora
-  - moovly
-  - raw-shorts
+  - magiclight-ai
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, voice_enabled]
 ---

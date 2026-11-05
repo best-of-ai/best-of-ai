@@ -14,13 +14,13 @@ featured: false
 rank: 8
 alternatives:
   - assemblyai
-  - whisper
   - deepgram
+  - rev
+  - trint
   - notta
   - speechmatics
   - gladia
-  - transkriptor
-  - trint
+  - verbit
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, voice_enabled]
 ---

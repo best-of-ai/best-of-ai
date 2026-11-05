@@ -14,13 +14,9 @@ featured: false
 rank: 7
 alternatives:
   - hive-moderation
-  - ai-aware
   - perspective-api
-  - maxar
-  - satellogic
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - aws-rekognition
+  - clarifai
 date: '2025-10-01'
 tags: [collaboration, image_based, model_based, ai_powered, intelligent, platform, tool, service]
 ---

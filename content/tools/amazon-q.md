@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - amazon-codewhisperer
-  - bolt-new
-  - devin
-  - bito-ai
-  - aider
-  - cline
-  - codeium
-  - copilot-workspace
+  - github-copilot
+  - gemini-code-assist
+  - tabnine
+  - jetbrains-ai
+  - sourcegraph-cody
+  - cursor
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, cloud_based, training]
 ---

@@ -12,14 +12,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - aider
+  - cursor
+  - windsurf
   - cline
-  - codeium
-  - sourcegraph-cody
+  - continue-dev
   - aide
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
+  - kiro
+  - zed-ai
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, customizable, model_based]
 ---

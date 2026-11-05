@@ -12,15 +12,15 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 8
-date: '2025-09-21'
 alternatives:
+  - codex
   - cursor
+  - gemini-cli
   - github-copilot
   - aider
-  - windsurf
-  - codeium
   - cline
-  - amazon-q
-  - copilot-workspace
+  - opencode
+  - windsurf
+date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, extensible]
 ---

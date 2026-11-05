@@ -12,11 +12,13 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 5
-date: '2026-07-22'
 alternatives:
-  - cohere-north
+  - sierra-ai
+  - decagon
   - ada
-  - aisera
+  - kore-ai
+  - cohere-north
   - forethought-ai
+date: '2026-07-22'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise, customizable, voice_enabled]
 ---

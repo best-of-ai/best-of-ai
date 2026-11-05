@@ -1641,7 +1641,6 @@ body.mobile-menu-open { overflow: hidden; }
   opacity: 0.45;
   filter: grayscale(1);
   cursor: default;
-  pointer-events: none;
 }
 .tool-card--dead:hover {
   border-color: var(--border);
@@ -1656,6 +1655,32 @@ body.mobile-menu-open { overflow: hidden; }
   opacity: 0.7;
   flex-shrink: 0;
 }
+
+/* Discontinued notice on the detail page */
+.dead-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin: 0 0 1.25rem;
+  padding: 0.8rem 1rem;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.dead-notice svg { flex-shrink: 0; margin-top: 0.15rem; opacity: 0.7; }
+.dead-notice p { margin: 0; }
+.dead-notice strong { color: var(--fg); }
+.dead-notice__date { white-space: nowrap; }
+
+/* Discontinued rows in alternatives lists, sidebar, and search */
+.alt-ranking-row--dead,
+.sidebar-alternative--dead,
+.search-result--dead { opacity: 0.5; filter: grayscale(1); }
+.alt-ranking-row--dead .alt-ranking-row__rank { display: inline-flex; align-items: center; justify-content: center; }
+.sr-ghost { flex-shrink: 0; margin-left: auto; opacity: 0.7; }
 
 /* Dead button on detail page */
 .btn-dead {

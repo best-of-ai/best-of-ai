@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - vertex-ai
-  - llamaindex
-  - tabnine
-  - replit
-  - gitlens-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - dify
+  - flowise
+  - langflow
+  - stack-ai
+  - relevance-ai
+  - lindy-ai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, integrations, nlp]
 ---

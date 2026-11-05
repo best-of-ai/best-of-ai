@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - sudowrite
+  - novelai
   - writesonic
+  - jasper
   - copy-ai
   - rytr
-  - jasper
-  - grammarly
-  - quillbot
-  - wordtune
-  - ai-writer
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, templates]
 ---

@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - veed-io
+  - kapwing
   - adobe-premiere-pro-ai
   - capcut
-  - invideo
-  - pictory
-  - captions-ai
-  - flexclip
-  - munch
-  - opus-clip
+  - riverside
+  - wisecut
+  - clipchamp
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, voice_enabled]
 ---

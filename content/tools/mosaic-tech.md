@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - morningstar-ai
-  - kensho
-  - alphasense
-  - pitchbook-ai
-  - zeni-ai
-  - botkeeper
-  - plaid
-  - ramp
+  - pigment
+  - anaplan
+  - causal-app
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, nlp, model_based]
 ---

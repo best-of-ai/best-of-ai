@@ -12,14 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - nansen
   - moralis
   - alchemy-web3
-  - patsnap
-  - spire-global
-  - aws-rekognition
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [collaboration, image_based, analytics, ai_powered, intelligent, platform, tool, service]
 ---

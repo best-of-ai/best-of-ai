@@ -15,12 +15,11 @@ rank: 8
 alternatives:
   - perplexity-search
   - you-search
-  - bing-chat
-  - perplexity-pro
-  - andi-search
-  - arc-browser
-  - devv-ai
   - exa-ai
+  - phind
+  - andi-search
+  - devv-ai
+  - brave-leo
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, free_tier, secure, model_based]
 ---

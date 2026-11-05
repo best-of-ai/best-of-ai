@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-bedrock
-  - groq
+  - exa-ai
   - perplexity-sonar
-  - google-ai-studio
-  - fly-io
-  - cursor
-  - azure-openai
-  - github-copilot
+  - jina-ai
+  - firecrawl
+  - apify
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
 ---

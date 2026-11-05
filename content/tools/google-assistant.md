@@ -14,13 +14,11 @@ featured: false
 rank: 10
 alternatives:
   - siri
-  - pi-ai
   - alexa-ai
   - meta-ai
-  - brave-leo
-  - replika
-  - kin-personal-ai
-  - littlebird-ai
+  - gemini
+  - chatgpt
+  - microsoft-copilot
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, mobile_app, voice_enabled]
 ---

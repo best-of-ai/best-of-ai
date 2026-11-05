@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - spark-mail
-  - mixmax
   - superhuman
-  - boomerang
   - shortwave
-  - activecampaign-ai
-  - brevo-ai
-  - klaviyo-ai
+  - spark-mail
+  - front
+  - mixmax
 date: '2025-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, real_time, collaboration, fast]
 ---

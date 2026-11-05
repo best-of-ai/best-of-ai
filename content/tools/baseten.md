@@ -12,14 +12,14 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - modal-ai
+  - together-ai
+  - fireworks-ai
+  - replicate
   - anyscale
-  - replit
-  - fly-io
-  - pinecone
-  - wandb-weave
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - runpod-ai
+  - bentoml
+  - deepinfra
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, collaboration]
 ---

@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - semrush
   - brandwatch
-  - attention-insight
-  - hotjar-ai
-  - crimson-hexagon
-  - competitor-analyzer
   - cb-insights-ai
-  - cresh-ai
   - crunchbase-ai
+  - competitor-analyzer
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, enterprise, customizable, image_based]
 ---

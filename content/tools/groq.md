@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - amazon-bedrock
-  - google-ai-studio
-  - perplexity-sonar
   - cerebras
-  - fireworks-ai
+  - sambanova
   - together-ai
-  - replicate
-  - openrouter
+  - fireworks-ai
+  - deepinfra
+  - baseten
+  - nvidia-nim
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, real_time, customizable]
 ---

@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - manus
-  - langflow
-  - crewai
-  - dify
-  - langchain
-  - agentgpt
-  - autogpt
-  - coze
+  - modal-ai
+  - daytona
+  - browserbase
+  - cloudflare-kitesurf
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based, secure]
 ---

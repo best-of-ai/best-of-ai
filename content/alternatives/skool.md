@@ -1,0 +1,3 @@
+---
+title: 'Skool Alternatives'
+---

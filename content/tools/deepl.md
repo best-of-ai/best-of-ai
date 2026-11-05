@@ -13,13 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - google-translate
-  - phrase-ai
-  - lokalise-ai
   - microsoft-translator
   - reverso
   - systran
-  - languagetool
   - smartling
+  - phrase-ai
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, voice_enabled]
 ---

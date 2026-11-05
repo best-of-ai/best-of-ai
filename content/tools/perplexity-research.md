@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
+  - elicit
   - scispace
+  - consensus
+  - undermind
   - semantic-scholar
-  - connected-papers
-  - notebook-lm-plus
+  - futurehouse
   - openread
-  - explainpaper
-  - inciteful
-  - iris-ai
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

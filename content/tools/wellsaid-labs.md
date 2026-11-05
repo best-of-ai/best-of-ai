@@ -14,13 +14,12 @@ featured: false
 rank: 9
 alternatives:
   - playht
+  - elevenlabs
   - cartesia
-  - hume-ai
-  - amazon-polly
-  - fish-audio
-  - kokoro
+  - murf
   - lovo
-  - neets-ai
+  - amazon-polly
+  - resemble-ai
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, enterprise, customizable, voice_enabled]
 ---

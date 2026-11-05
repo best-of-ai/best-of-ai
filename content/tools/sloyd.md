@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - alpha3d
-  - masterpiece-studio
   - meshy-ai
-  - spline
-  - meshcapade
+  - tripo3d
+  - alpha3d
   - kaedim
   - luma-ai
-  - tripo3d
+  - scenario
+  - spline
 date: '2025-06-15'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, customizable, model_based]
 ---

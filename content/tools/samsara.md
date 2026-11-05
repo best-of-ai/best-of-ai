@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - motive
   - geotab
   - fleetio
-  - buildxact
-  - datadog
-  - autodesk-construction
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - bugsnag
-  - rookout
   - datadog
   - new-relic
-  - tonic-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - better-stack
+  - honeycomb
 date: '2025-10-01'
 tags: [mobile_app, real_time, collaboration, ai_powered, intelligent, platform, tool, service]
 ---

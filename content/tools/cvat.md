@@ -13,14 +13,11 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - appen
+  - label-studio
   - labelbox
-  - drawio
-  - botpress
-  - prusaslicer
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - roboflow
+  - scale-ai
+  - appen
 date: '2025-10-01'
 tags: [open_source, collaboration, integrations, secure, machine_learning, image_based, training, community_driven]
 ---

@@ -13,12 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - alpha3d
   - meshy-ai
-  - spline
   - tripo3d
   - kaedim
   - luma-ai
+  - spline
+  - alpha3d
   - meshcapade
   - csm-ai
 date: '2025-09-21'

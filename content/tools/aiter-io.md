@@ -13,12 +13,9 @@ rank: 5
 alternatives:
   - adcreative-ai
   - pencil
-  - smartly
+  - creatopy
   - pattern89
-  - madgicx
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - smartly
 date: '2025-01-01'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, voice_enabled]
 ---

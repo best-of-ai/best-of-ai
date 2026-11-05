@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - domo-ai
   - tableau
-  - dbt-cloud
-  - amplitude-ai
-  - fivetran-ai
   - power-bi
-  - scale-ai
-  - airbyte-ai
+  - looker
+  - qlik
+  - domo-ai
+  - sisense-ai
+  - hex
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, cloud_based]
 ---

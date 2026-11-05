@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - stripe
+  - ramp
   - mercury
-  - sight-machine
-  - contractpodai
-  - fleetio
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - bill-com-ai
+  - expensify-ai
+  - tipalti-ai
 date: '2025-06-15'
 tags: [real_time, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

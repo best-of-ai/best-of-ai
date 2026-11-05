@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - kindroid
-  - anna-ai
   - chai
-  - mistral-le-chat
+  - kindroid
+  - nomi-ai
   - replika
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - anna-ai
+  - pi-ai
 date: '2025-01-01'
 tags: [ai_companion, chatbot, conversation, ai_assistant, chat, companionship, emotional_support, roleplay, personal, customizable, nlp, model_based]
 ---

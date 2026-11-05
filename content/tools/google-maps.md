@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - apple-maps
+  - waze
   - foursquare
   - yelp
-  - bing-chat
-  - perplexity-search
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - tripadvisor
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, real_time, customizable, image_based]
 ---

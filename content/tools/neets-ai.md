@@ -11,8 +11,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - elevenlabs
   - playht
-  - amazon-polly
   - wellsaid-labs
   - cartesia
   - hume-ai

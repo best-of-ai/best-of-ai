@@ -14,13 +14,13 @@ featured: false
 rank: 10
 alternatives:
   - salesforce
-  - zoho-crm
   - pipedrive
+  - zoho-crm
   - freshsales
-  - folk
-  - intercom
-  - zendesk
   - attio
+  - close
+  - copper
+  - folk
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, free_tier, customizable, machine_learning]
 ---

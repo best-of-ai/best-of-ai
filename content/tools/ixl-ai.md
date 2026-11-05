@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - carnegie-learning
-  - dreambox-learning
-  - synthesis
-  - brilliant
   - khan-academy
-  - chegg-ai
-  - coursera
-  - gptzero
+  - dreambox-learning
+  - carnegie-learning
+  - brilliant
+  - khanmigo
+  - synthesis
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

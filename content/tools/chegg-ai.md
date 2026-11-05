@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - khanmigo
-  - carnegie-learning
-  - dreambox-learning
-  - gptzero
-  - khan-academy
-  - brilliant
-  - coursera
+  - course-hero
   - quizlet-ai
+  - brainly
+  - studysmarter
+  - khanmigo
+  - socratic-google
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

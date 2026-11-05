@@ -12,14 +12,9 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
+  - orca-slicer
   - prusaslicer
   - ultimaker-cura
-  - hopper
-  - datadog
-  - autodesk-construction
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [free_tier, cloud_based, model_based, fast, ai_powered, intelligent, platform, tool]
 ---

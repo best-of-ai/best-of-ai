@@ -68,7 +68,7 @@
     </section>
 
     <!-- ── Recently Added Tools ── -->
-    {{ $recentTools := first 9 (sort $tools "Params.date" "desc") }}
+    {{ $recentTools := first 9 (partial "dead-last.html" (sort $tools "Params.date" "desc")) }}
     {{ if $recentTools }}
     <section class="tool-section home-recent" id="recently-added" data-cat="recently-added">
       <h2 class="tool-section__title">
@@ -160,7 +160,7 @@
       {{ $cat   := .cat }}
       {{ $total := .count }}
       {{ $catTools := where $tools "Params.category" $cat.slug }}
-      {{ $sorted   := sort $catTools "Params.rank" "desc" }}
+      {{ $sorted   := partial "dead-last.html" (sort $catTools "Params.rank" "desc") }}
       {{ $visible  := $sorted | first 3 }}
       <section class="tool-section" id="{{ $cat.slug }}" data-cat="{{ $cat.slug }}">
         <h2 class="tool-section__title">

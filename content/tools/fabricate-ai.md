@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - cursor-composer
-  - amazon-codewhisperer
-  - amazon-q
+  - lovable
   - bolt-new
-  - copilot-workspace
-  - aider
-  - cline
-  - codeium
+  - v0
+  - replit
+  - base44
+  - floot
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, customizable, analytics]
 ---

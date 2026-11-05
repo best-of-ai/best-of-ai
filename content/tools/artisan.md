@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - coze
-  - cassidy-ai
-  - crewai
-  - manus
-  - younet-ai
-  - langchain
-  - agentgpt
-  - autogpt
+  - 11x-ai
+  - clay
+  - amplemarket
+  - apollo
+  - conversica-ai
+  - oliv-ai
 date: '2025-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, customizable]
 ---

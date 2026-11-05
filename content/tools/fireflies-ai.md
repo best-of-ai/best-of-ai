@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - avoma
-  - meetgeek
-  - noty-ai
-  - zoom-ai
   - otter-ai
   - fathom
-  - grain
+  - read-ai
+  - tldv
+  - avoma
+  - sembly-ai
   - tactiq
+  - grain
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
 ---

@@ -13,12 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
+  - chatgpt
   - claude
   - gemini
   - grok
-  - chatgpt
   - perplexity
-  - kimi
+  - meta-ai
   - mistral-le-chat
 date: '2025-01-01'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, real_time, collaboration, integrations]

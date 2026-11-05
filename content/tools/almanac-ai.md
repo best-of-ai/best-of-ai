@@ -14,12 +14,10 @@ rank: 5
 alternatives:
   - glean
   - guru
-  - tettra
-  - slab
   - notion-ai
-  - mem-ai
-  - document360
-  - recall-ai
+  - slab
+  - tettra
+  - bloomfire
 date: '2026-09-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, community_driven]
 ---

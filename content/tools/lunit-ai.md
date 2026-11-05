@@ -13,13 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - paige-ai
-  - tempus-ai
-  - abridge-ai
+  - pathai
   - aidoc-ai
-  - benevolentai
-  - ada-health
-  - alphafold-ai
-  - babylon-health
+  - qure-ai
+  - viz-ai
+  - zebra-medical
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

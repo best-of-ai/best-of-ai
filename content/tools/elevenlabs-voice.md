@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - murf-voice
-  - altered-ai
   - resemble-ai
-  - speechify
-  - replica-studios
-  - kikivoice
-  - kits-ai
+  - murf-voice
   - respeecher
+  - replica-studios
+  - speechify
+  - kits-ai
+  - kikivoice
+  - altered-ai
 date: '2025-09-21'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, mobile_app, voice_enabled]
 ---

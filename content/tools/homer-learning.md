@@ -13,13 +13,9 @@ featured: false
 rank: 7
 alternatives:
   - kinedu
-  - tinybeans
-  - noom
-  - ready-player-me
-  - virtuous
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - khan-academy
+  - dreambox-learning
+  - ixl-ai
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

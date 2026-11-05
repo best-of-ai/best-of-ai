@@ -13,13 +13,13 @@ featured: false
 rank: 5
 alternatives:
   - docsumo
-  - humata
-  - notebooklm
+  - nanonets
   - abbyy
-  - adobe-acrobat-ai
-  - chatpdf
+  - rossum
   - hyperscience
   - instabase
+  - amazon-textract
+  - google-document-ai
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, api_available, collaboration]
 ---

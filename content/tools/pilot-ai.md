@@ -13,13 +13,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - morningstar-ai
-  - plaid
-  - yodlee
-  - alphasense
+  - quickbooks
+  - xero
   - botkeeper
-  - kensho
-  - ramp
+  - zeni-ai
   - bill-com-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]

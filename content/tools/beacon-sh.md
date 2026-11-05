@@ -12,8 +12,11 @@ category_name: 'DevTools'
 price: 'Free'
 featured: false
 rank: 4
-date: '2026-11-02'
 alternatives:
-  - mem0 claude-code cursor cline
+  - mem0
+  - letta
+  - pieces-for-developers
+  - continue-dev
+date: '2026-11-02'
 tags: [developer_tools, agent_memory, coding_agents, open_source, context, mcp, productivity, self_improving, github, automation]
 ---

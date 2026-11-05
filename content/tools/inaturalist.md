@@ -12,10 +12,9 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
+  - merlin-bird-id
   - plantnet
-  - clarifai
-  - aws-rekognition
-  - geneious
+  - wildbook
 date: '2025-09-21'
 tags: [training, model_based, fast, ai_powered, intelligent, platform, tool, service]
 ---

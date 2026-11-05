@@ -11,15 +11,14 @@ category_name: 'Content Moderation'
 price: 'Free'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Jigsaw stopped accepting new requests in February 2026 and ends the service on December 31, 2026.'
+dead_date: '2026-12-31'
 alternatives:
   - azure-content-moderator
   - hive-moderation
-  - ai-aware
-  - drawio
-  - postman
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - clarifai
+  - aws-rekognition
 date: '2025-10-01'
 tags: [api_available, free_tier, machine_learning, ai_powered, intelligent, platform, tool, service]
 ---

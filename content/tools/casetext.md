@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - kira-systems
-  - lawgeex
-  - robin-ai
   - harvey
-  - juro-ai
-  - donotpay
+  - legora
   - spellbook
-  - evisort
+  - lexisnexis-protege
+  - luminance-ai
+  - robin-ai
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, collaboration, customizable, voice_enabled]
 ---

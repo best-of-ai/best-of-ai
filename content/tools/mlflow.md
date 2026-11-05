@@ -11,14 +11,14 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
-  - github-copilot
-  - jan-ai
-  - lm-studio
-  - ollama
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - weights-biases
+  - wandb-weave
+  - clearml
+  - comet-ml
+  - zenml
+  - metaflow
+  - dvc
+  - langfuse
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, integrations, cloud_based]
 ---

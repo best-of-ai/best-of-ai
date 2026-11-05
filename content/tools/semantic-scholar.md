@@ -13,14 +13,14 @@ price: 'Free'
 featured: false
 rank: 9
 alternatives:
+  - scopus
+  - web-of-science
   - lens-org
-  - scinapse
-  - notebook-lm-plus
-  - perplexity-research
+  - dimensions-ai
   - scispace
-  - connected-papers
-  - explainpaper
-  - inciteful
+  - scinapse
+  - elicit
+  - consensus
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, free_tier]
 ---

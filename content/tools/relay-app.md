@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - leania-ai
+  - zapier-workflow
   - power-automate-workflow
   - nintex
   - tray-io
-  - zapier-workflow
-  - uipath
   - workato-ai
-  - adobe-premiere-pro-ai
+  - uipath
+  - boomi
 date: '2025-06-15'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, collaboration]
 ---

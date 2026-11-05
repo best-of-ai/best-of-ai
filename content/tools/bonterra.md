@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - bloomerang
+  - blackbaud
   - virtuous
-  - autodesk-construction
-  - buildxact
-  - samsara
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - givebutter
+  - instrumentl
 date: '2025-10-01'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

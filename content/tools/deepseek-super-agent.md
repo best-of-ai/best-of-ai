@@ -12,8 +12,12 @@ category_name: 'AI Agents'
 price: 'Free'
 featured: false
 rank: 5
-date: '2026-10-31'
 alternatives:
-  - deepseek-harness claude-code openhands devin
+  - deepseek-harness
+  - claude-code
+  - openhandss
+  - devin
+  - manus
+date: '2026-10-31'
 tags: [ai_agents, coding_agents, open_source, github, proactive, deepseek, research_prototype, developer_tools, automation, autonomous]
 ---

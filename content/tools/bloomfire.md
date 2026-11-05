@@ -11,14 +11,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - notion-ai
+  - guru
+  - slab
+  - tettra
   - glean
-  - readwise-reader
-  - reflect
-  - capacities
-  - logseq
-  - obsidian-ai
-  - anything-llm
+  - notion-ai
+  - document360
+  - almanac-ai
 date: '2026-06-15'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, collaboration, customizable, nlp]
 ---

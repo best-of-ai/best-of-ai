@@ -12,20 +12,13 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - altern
-  - best-of-ai
-  - theres-an-ai-for-that
   - futurepedia
-  - future-tools
+  - theres-an-ai-for-that
   - toolify-ai
-  - topai-tools
-  - aixploria
-  - dang-ai
-  - insidr-ai
-  - allthingsai
-  - productivity-directory
+  - altern
   - aidir-wiki
-  - sourcegraph-cody
+  - dang-ai
+  - best-of-ai
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, integrations, model_based]
 ---

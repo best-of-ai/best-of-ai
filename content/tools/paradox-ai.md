@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - greenhouse
-  - lattice-ai
-  - ashby
-  - bamboohr
-  - gem
-  - 15five-ai
-  - adp
+  - hirevue
   - eightfold-ai
+  - phenom
+  - greenhouse
+  - ashby
+  - beamery
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration]
 ---

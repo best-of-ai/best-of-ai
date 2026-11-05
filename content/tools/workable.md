@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - smartrecruiters
   - lever
-  - atomwise
-  - schrodinger
-  - datadog
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - smartrecruiters
+  - ashby
+  - greenhouse
+  - gem
 date: '2025-06-15'
 tags: [machine_learning, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

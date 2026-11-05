@@ -1,9 +1,9 @@
 ---
 title: 'CSM AI'
 name: 'CSM AI'
-subtitle: 'AI platform for automating customer success workflows'
+subtitle: 'AI that turns images and text into 3D models'
 slug: 'csm-ai'
-description: 'CSM AI is an AI-powered platform that helps customer success teams automate health monitoring, identify churn risks, and execute playbooks at scale. It analyzes product usage, support tickets, and CRM data to surface proactive insights and recommended next actions for CSMs.'
+description: 'CSM, short for Common Sense Machines, generates 3D models from a single image, a text prompt, or a sketch. It can produce textured assets and character parts, and it offers an API for developers.'
 website: 'https://csm.ai'
 logo_url: ''
 category: '3d'
@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - spline
   - kaedim
-  - sloyd
-  - alpha3d
-  - luma-ai
-  - masterpiece-studio
-  - meshcapade
   - meshy-ai
+  - tripo3d
+  - luma-ai
+  - alpha3d
+  - masterpiece-studio
+  - spline
 date: '2025-06-15'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, collaboration, customizable, analytics]
 ---

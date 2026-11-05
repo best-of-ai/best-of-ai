@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - pika-labs
-  - runway
-  - synthesia
-  - murf
-  - captions-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - claap
+  - supademo
+  - descript-video
+  - kapwing
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, collaboration, fast]
 ---

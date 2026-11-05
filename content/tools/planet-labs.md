@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - carbon-trust
-  - climate-trace
-  - watershed
-  - pachama
-  - patch
-  - sylvera
-  - adobe-premiere-pro-ai
-  - asana
+  - maxar
+  - satellogic
+  - spire-global
+  - nearmap
 date: '2025-09-21'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, image_based, analytics]
 ---

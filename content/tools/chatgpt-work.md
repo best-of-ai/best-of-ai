@@ -12,8 +12,14 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 8
-date: '2026-07-09'
 alternatives:
-  - claude-duet openai-dots microsoft-copilot manus genspark
+  - claude-cowork
+  - manus
+  - genspark
+  - microsoft-copilot
+  - perplexity-computer
+  - openai-operator
+  - notion-custom-agents
+date: '2026-07-09'
 tags: [ai_agent, automation, productivity, agents, task_automation, documents, spreadsheets, presentations, agentic, workplace]
 ---

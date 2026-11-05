@@ -12,10 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - deputy
   - toast
   - square
   - marketman
-  - bamboohr
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent]
 ---

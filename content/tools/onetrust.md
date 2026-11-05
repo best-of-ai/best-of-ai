@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - securiti
+  - bigid
+  - osano
+  - transcend-privacy
   - drata
   - vanta
-  - bigid
-  - okta
-  - osano
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - navex
 date: '2025-10-01'
 tags: [collaboration, enterprise, secure, model_based, ai_powered, intelligent, platform, tool]
 ---

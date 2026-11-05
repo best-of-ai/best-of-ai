@@ -1,0 +1,3 @@
+---
+title: 'Wisdom Panel Alternatives'
+---

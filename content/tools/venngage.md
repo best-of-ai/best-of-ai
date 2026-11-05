@@ -15,10 +15,8 @@ alternatives:
   - canva-infographics
   - infogram
   - piktochart
-  - beautiful-ai
   - visme-ai
-  - adobe-premiere-pro-ai
-  - asana
+  - flourish
   - canva
 date: '2025-09-21'
 tags: [design, data_visualization, marketing, visual, creative, charts, diagrams, storytelling, communication, collaboration, image_based, powerful]

@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - woebot
+  - talkspace
   - betterhelp
   - calm
-  - teladoc
-  - alchemy-web3
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - headspace
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

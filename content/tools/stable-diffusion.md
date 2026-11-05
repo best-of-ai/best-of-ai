@@ -12,15 +12,15 @@ category_name: 'Image Generation'
 price: 'Free'
 featured: false
 rank: 8
-date: '2026-07-17'
 alternatives:
   - flux
   - midjourney
   - dalle
   - gpt-image
   - ideogram
-  - civitai
+  - comfyui
+  - invokeai
   - leonardo-ai
-  - artbreeder
+date: '2026-07-17'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, open_source, free_tier, image_based]
 ---

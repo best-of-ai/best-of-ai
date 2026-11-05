@@ -13,14 +13,9 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - infura
+  - quicknode
   - moralis
-  - dune-analytics
-  - bizzabo
-  - particle-iot
-  - wysa
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [real_time, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -8,17 +8,18 @@ website: 'https://qwen.ai/qwenchat'
 company: 'alibaba'
 logo_url: ''
 category: 'chatbots'
-alternatives:
-  - chatgpt
-  - claude
-  - gemini
-  - deepseek-chat
-  - kimi
-  - mistral-le-chat
 category_name: 'Chatbots'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - chatgpt
+  - claude
+  - gemini
+  - deepseek
+  - kimi
+  - baidu-ernie
+  - mistral-le-chat
 date: '2026-07-17'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, multimodal, image_based, model_based]
 ---

@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - klue
+  - competitor-analyzer
+  - similarweb
+  - cb-insights-ai
   - 6sense-ai
-  - jasper-marketing
-  - hubspot
-  - navattic
-  - marketmuse
-  - typeform
-  - persado
-  - unbounce-ai
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration]
 ---

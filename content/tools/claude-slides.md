@@ -12,10 +12,14 @@ category_name: 'Presentation'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-09-18'
 alternatives:
   - gamma
-  - microsoft-copilot
-  - chatgpt
+  - tome
+  - beautiful-ai
+  - pitch
+  - plus-ai
+  - slidesai
+  - magicslides
+date: '2026-09-18'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates, collaboration, free_tier]
 ---

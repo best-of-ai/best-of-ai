@@ -12,10 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - testim
   - mabl
-  - applitools
+  - testim
   - qa-wolf
+  - applitools
+  - percy
   - browserstack-test-companion
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]

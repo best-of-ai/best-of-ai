@@ -12,10 +12,12 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 6
-date: '2026-11-05'
 alternatives:
   - salesforce-agentforce
   - servicenow-otto
+  - microsoft-copilot-studio
+  - microsoft-365-copilot
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

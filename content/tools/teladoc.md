@@ -15,12 +15,9 @@ rank: 8
 alternatives:
   - amwell
   - doxy-me
+  - k-health
+  - talkspace
   - betterhelp
-  - calm
-  - myfitnesspal
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

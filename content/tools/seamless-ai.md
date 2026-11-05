@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - hunter
   - zoominfo
-  - linkedin-sales-navigator
   - apollo-leads
-  - kaspr
-  - cognism
-  - conversica-ai
   - lusha
+  - cognism
+  - kaspr
+  - hunter
 date: '2026-06-15'
 tags: [sales, marketing, business, leads, prospecting, outreach, pipeline, b2b, conversion, api_available, browser_extension, collaboration]
 ---

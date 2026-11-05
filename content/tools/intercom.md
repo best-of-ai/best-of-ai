@@ -14,13 +14,14 @@ featured: false
 rank: 9
 alternatives:
   - zendesk
-  - drift
   - freshdesk
+  - hubspot
+  - drift
+  - front
   - gorgias
-  - kustomer-ai
-  - hubspot-crm
-  - salesforce
-  - freshsales
+  - ada
+  - sierra-ai
+  - decagon
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, autonomous]
 ---

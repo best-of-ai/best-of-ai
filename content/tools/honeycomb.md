@@ -13,13 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - datadog
+  - grafana
   - new-relic
-  - stripe
-  - cronometer
-  - intrinsic
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - dynatrace
+  - better-stack
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - flux
-  - ideogram
-  - artbreeder
-  - dream-wombo
-  - freepik-ai
-  - bing-image-creator
-  - comfyui
-  - craiyon
+  - tensor-art
+  - seaart
+  - pixai
+  - hugging-face
+  - mage-space
+  - lexica
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, customizable, cloud_based, image_based]
 ---

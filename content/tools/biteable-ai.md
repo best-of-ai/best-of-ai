@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - haiper
-  - luma-dream-machine
-  - sora
-  - kling-ai
   - animoto
-  - hailuo-ai
-  - moovly
-  - raw-shorts
+  - invideo
+  - flexclip
+  - renderforest
+  - wave-video
+  - canva
+  - powtoon
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, collaboration, fast, powerful]
 ---

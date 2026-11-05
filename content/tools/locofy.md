@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - cursor
-  - weights-biases
-  - roboflow
-  - vertex-ai
-  - groq
-  - amazon-bedrock
-  - azure-openai
-  - github-copilot
+  - anima-ai
+  - builder-io
+  - dhiwise
+  - figma-make
+  - v0
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning]
 ---

@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - babylon-health
-  - insilico-medicine
-  - paige-ai
-  - buoy-health
-  - k-health
-  - abridge-ai
-  - ada-health
-  - alphafold-ai
+  - viz-ai
+  - zebra-medical
+  - arterys
+  - lunit-ai
+  - qure-ai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, real_time]
 ---

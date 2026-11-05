@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - apollo
-  - clay
-  - gong
+  - lemlist
+  - smartlead
   - instantly
-  - salesloft
-  - amplemarket
-  - chorus-ai
+  - apollo
   - outreach
+  - salesloft
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, voice_enabled]
 ---

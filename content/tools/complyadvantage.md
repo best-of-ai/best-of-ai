@@ -12,9 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - drata
-  - vanta
-  - onetrust
+  - feedzai
+  - unit21
+  - jumio
+  - persona
 date: '2026-10-03'
 tags: [collaboration, customizable, machine_learning, ai_powered, intelligent, platform, tool, service]
 ---

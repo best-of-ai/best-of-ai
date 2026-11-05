@@ -14,6 +14,9 @@ rank: 5
 alternatives:
   - rogo-ai
   - alphasense
+  - factset
+  - pitchbook-ai
+  - kensho
 date: '2026-10-03'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, model_based]
 ---

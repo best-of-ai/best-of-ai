@@ -14,9 +14,10 @@ featured: false
 rank: 9
 alternatives:
   - aws-rekognition
+  - google-cloud-vision
+  - azure-ai-vision
   - landing-ai
-  - labelbox
-  - appen
+  - roboflow
 date: '2025-10-01'
 tags: [collaboration, customizable, machine_learning, nlp, image_based, voice_enabled, training, model_based]
 ---

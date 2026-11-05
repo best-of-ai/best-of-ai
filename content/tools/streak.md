@@ -13,13 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - hubspot-crm
-  - salesforce
   - pipedrive
-  - zoho-crm
   - copper
-  - attio
-  - close
   - folk
+  - close
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration]
 ---

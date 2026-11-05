@@ -18,9 +18,8 @@ alternatives:
   - wix-adi
   - instawebai
   - hocoos
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - wordpress
+  - squarespace
 date: '2025-09-21'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, free_tier, image_based, training]
 ---

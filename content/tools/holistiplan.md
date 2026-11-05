@@ -12,9 +12,7 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - turbotax
-  - taxjar
-  - avalara
+  - wealth-com
 date: '2026-02-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

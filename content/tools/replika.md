@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - brave-leo
-  - google-assistant
-  - siri
-  - meta-ai
+  - nomi-ai
+  - character-ai
+  - kindroid
+  - anna-ai
+  - chai
   - pi-ai
-  - alexa-ai
-  - kin-personal-ai
-  - littlebird-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, customizable]
 ---

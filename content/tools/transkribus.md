@@ -12,10 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - ancestry
   - abbyy
-  - docsumo
-  - instabase
+  - google-document-ai
+  - amazon-textract
+  - nanonets
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, training, model_based]
 ---

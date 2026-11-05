@@ -13,13 +13,10 @@ featured: false
 rank: 7
 alternatives:
   - azure-content-moderator
-  - ai-aware
   - perspective-api
   - aws-rekognition
-  - postman
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - google-cloud-vision
+  - clarifai
 date: '2025-10-01'
 tags: [api_available, customizable, image_based, training, model_based, ai_powered, intelligent, platform]
 ---

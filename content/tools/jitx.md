@@ -12,9 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - ntopology
-  - cast-ai
-  - celonis
+  - altium-designer
+  - kicad
 date: '2025-11-02'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, training]
 ---

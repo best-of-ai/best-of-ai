@@ -8,17 +8,18 @@ website: 'https://www.palantir.com/platforms/aip/'
 company: 'palantir'
 logo_url: ''
 category: 'ai-agents'
-alternatives:
-  - tencent-cloud-adp
-  - baidu-qianfan
-  - dataiku
-  - stack-ai
-  - dify
-  - dust
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - dataiku
+  - c3-ai
+  - databricks
+  - dust
+  - azure-ai-foundry
+  - salesforce-agentforce
+  - stack-ai
 date: '2026-07-17'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise, secure, model_based]
 ---

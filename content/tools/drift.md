@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - zendesk
   - intercom
-  - gorgias
-  - kustomer-ai
-  - freshdesk
-  - chatbase
-  - forethought-ai
-  - observe-ai
+  - hubspot
+  - zendesk
+  - ada
+  - conversica-ai
+  - tidio
 date: '2025-01-01'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable, fast]
 ---

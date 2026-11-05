@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - nintex
+  - boomi
   - tray-io
   - uipath
+  - nintex
   - power-automate-workflow
   - zapier-workflow
-  - leania-ai
-  - relay-app
-  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, enterprise, nlp]
 ---

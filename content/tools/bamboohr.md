@@ -12,14 +12,14 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - greenhouse
-  - lattice-ai
+  - gusto
+  - rippling-ai
   - workday
-  - ashby
-  - eightfold-ai
-  - 15five-ai
+  - hibob-ai
+  - personio-ai
+  - factorial-ai
+  - paychex
   - adp
-  - hirevue
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, cloud_based, fast]
 ---

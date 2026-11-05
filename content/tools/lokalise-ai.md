@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - google-translate
-  - deepl
-  - microsoft-translator
-  - reverso
-  - memoq
+  - crowdin
+  - transifex
   - phrase-ai
-  - smartcat-ai
   - smartling
+  - weglot
+  - smartcat-ai
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, collaboration]
 ---

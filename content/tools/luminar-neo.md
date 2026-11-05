@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - adobe-lightroom-ai
-  - picsart-ai
-  - pixlr
   - on1-photo-ai
-  - bestphoto-ai
-  - befunky
-  - cleanup-pictures
-  - fotor
+  - capture-one
+  - dxo-photolab
+  - topaz-photo-ai
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, integrations, powerful, extensible]
 ---

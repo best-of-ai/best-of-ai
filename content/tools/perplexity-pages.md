@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - connected-papers
-  - openread
-  - scite-ai
-  - perplexity-research
-  - scispace
-  - semantic-scholar
-  - explainpaper
-  - inciteful
+  - notebooklm
+  - notion-ai
+  - claude-docs
+  - openai-canvas
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, image_based, fast]
 ---

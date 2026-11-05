@@ -14,7 +14,7 @@ featured: false
 rank: 5
 alternatives:
   - tractable
-  - lemonade
+  - feedzai
 date: '2026-10-03'
 tags: [model_based, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

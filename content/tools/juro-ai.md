@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - casetext
-  - kira-systems
-  - lawgeex
-  - robin-ai
-  - evisort
-  - donotpay
-  - harvey
-  - spellbook
+  - icertis
+  - ironclad-ai
+  - agiloft
+  - lexion-ai
+  - contractpodai
+  - ivo
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, collaboration]
 ---

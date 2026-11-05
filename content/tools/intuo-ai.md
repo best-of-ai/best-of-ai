@@ -12,13 +12,11 @@ featured: false
 rank: 5
 alternatives:
   - apollo
-  - lavender
   - clay
   - gong
   - salesloft
   - amplemarket
-  - chorus-ai
-  - instantly
+  - lavender
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

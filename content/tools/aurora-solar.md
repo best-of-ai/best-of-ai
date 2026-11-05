@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - opensolar
   - palmetto
   - arcadia
-  - spacemaker-ai
-  - taxjar
-  - datadog
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [image_based, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

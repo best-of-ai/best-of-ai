@@ -14,12 +14,8 @@ rank: 7
 alternatives:
   - shorthand
   - storychief
-  - woebot
-  - xmind
-  - calm
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - sudowrite
+  - novelai
 date: '2025-10-01'
 tags: [free_tier, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - notebook-lm-plus
+  - elicit
   - scispace
+  - consensus
   - semantic-scholar
-  - perplexity-research
-  - connected-papers
-  - explainpaper
-  - inciteful
-  - lens-org
+  - scite-ai
+  - undermind
 date: '2025-01-01'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration, enterprise]
 ---

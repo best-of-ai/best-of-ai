@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - morningstar-ai
+  - factset
   - alphasense
+  - bloomberg-terminal
+  - morningstar-ai
   - pitchbook-ai
-  - mosaic-tech
-  - vic-ai
-  - botkeeper
-  - plaid
-  - ramp
+  - rogo-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, nlp, model_based]
 ---

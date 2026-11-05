@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - creately
   - drawio
-  - xmind
-  - 8th-wall
-  - archbee
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - excalidraw
+  - eraser-io
+  - lucidchart-ai
+  - creately
+  - whimsical-ai
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

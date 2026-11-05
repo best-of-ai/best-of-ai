@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - chegg-ai
   - quizlet-ai
   - studysmarter
-  - chegg-ai
-  - khan-academy
-  - brilliant
+  - brainly
+  - magicschool-ai
   - carnegie-learning
-  - coursera
-  - dreambox-learning
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

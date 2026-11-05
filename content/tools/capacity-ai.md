@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - drift
+  - ada
+  - forethought-ai
   - intercom
   - zendesk
-  - freshdesk
-  - forethought-ai
-  - chatbase
-  - gorgias
-  - kustomer-ai
+  - yellow-ai
+  - kore-ai
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, customizable]
 ---

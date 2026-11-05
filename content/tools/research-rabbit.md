@@ -14,13 +14,12 @@ featured: false
 rank: 8
 alternatives:
   - litmaps
-  - consensus
-  - elicit
-  - scholarcy
   - connected-papers
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - inciteful
+  - elicit
+  - consensus
+  - scite-ai
+  - semantic-scholar
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, image_based, fast]
 ---

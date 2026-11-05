@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - calendly
-  - acuity-scheduling
-  - x-ai
+  - reclaim-ai
   - clockwise-ai
-  - fantastical
-  - cal-com
-  - adobe-premiere-pro-ai
-  - asana
+  - akiflow
+  - sunsama
+  - morgen
+  - calendly
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, powerful]
 ---

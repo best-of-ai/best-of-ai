@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - novelai
   - charisma-ai
   - inworld-ai
-  - scenario
-  - ludo-ai
-  - promethean-ai
-  - convai
+  - character-ai
   - latitude
-  - unakin
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
 ---

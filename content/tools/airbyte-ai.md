@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - posthog-ai
-  - scale-ai
-  - h2o-ai
-  - metabase-ai
-  - power-bi
-  - amplitude-ai
-  - tableau
-  - datarobot
+  - fivetran-ai
+  - matillion
+  - meltano
+  - dbt-cloud
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, customizable, integrations]
 ---

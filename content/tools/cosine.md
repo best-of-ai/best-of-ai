@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
+  - devin
+  - factory-ai
+  - claude-code
+  - codex
   - cursor-composer
-  - copilot-workspace
-  - aider
-  - cline
-  - codeium
+  - github-agent-hq
+  - augment-code
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide]
 ---

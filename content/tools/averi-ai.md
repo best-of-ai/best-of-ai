@@ -12,13 +12,13 @@ featured: false
 rank: 5
 alternatives:
   - jasper-marketing
-  - hubspot
-  - supademo
-  - typeform
-  - unbounce-ai
-  - 6sense-ai
-  - crayon
   - marketmuse
+  - writesonic
+  - surfer-seo
+  - copy-ai
+  - hypotenuse-ai
+  - frase
+  - scalenut
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, voice_enabled, training]
 ---

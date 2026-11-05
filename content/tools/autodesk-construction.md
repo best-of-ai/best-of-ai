@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - procore
+  - trimble-construction
+  - bluebeam
+  - buildertrend
   - buildxact
-  - bonterra
-  - spacemaker-ai
-  - bloomerang
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [integrations, cloud_based, model_based, ai_powered, intelligent, platform, tool, service]
 ---

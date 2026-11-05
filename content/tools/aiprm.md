@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - asana
-  - clickup
-  - slack-ai
-  - raycast-ai
-  - todoist
-  - akiflow
-  - sunsama
-  - coda-ai
+  - flowgpt
+  - promptbase
+  - prompthero
+  - promptessor
+  - cuey
 date: '2026-06-15'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, browser_extension, extensible]
 ---

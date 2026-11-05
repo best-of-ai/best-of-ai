@@ -11,14 +11,11 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - khan-academy
   - gptzero
-  - carnegie-learning
-  - khanmigo
-  - udemy
-  - brilliant
-  - chegg-ai
-  - coursera
+  - originality-ai
+  - copyleaks-ai
+  - winston-ai
+  - turnitin-ai
 date: '2026-06-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, free_tier, fast, easy_to_use]
 ---

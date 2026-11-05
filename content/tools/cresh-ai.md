@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - similarweb
-  - hotjar-ai
-  - attention-insight
-  - brandwatch
-  - crimson-hexagon
-  - cb-insights-ai
   - competitor-analyzer
+  - similarweb
+  - cb-insights-ai
   - crunchbase-ai
+  - brandwatch
 date: '2025-01-01'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, customizable]
 ---

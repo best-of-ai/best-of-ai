@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - hex
+  - deepnote
+  - thoughtspot
   - power-bi
   - tableau
-  - domo-ai
-  - amplitude-ai
+  - anomaly-ai
   - obviously-ai
-  - scale-ai
-  - airbyte-ai
-  - datarobot
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, image_based]
 ---

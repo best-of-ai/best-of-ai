@@ -11,14 +11,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - salesforce
-  - pipedrive
-  - hubspot-crm
-  - zoho-crm
-  - copper
   - attio
-  - close
   - folk
+  - hubspot-crm
+  - pipedrive
+  - close
+  - salesforce
 date: '2025-01-01'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
 ---

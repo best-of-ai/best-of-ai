@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - syte
   - vue-ai
-  - stitchfix
-  - outfit-fm
-  - theyes
-  - erasebg
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - heuritech
+  - bloomreach
+  - klevu
 date: '2025-09-21'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, api_available, customizable, image_based]
 ---

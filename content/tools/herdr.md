@@ -12,8 +12,11 @@ category_name: 'DevTools'
 price: 'Free'
 featured: false
 rank: 5
-date: '2026-10-29'
 alternatives:
-  - tmux claude-code cursor warp
+  - warp
+  - claude-code
+  - cursor
+  - cline
+date: '2026-10-29'
 tags: [developer_tools, terminal, coding_agents, open_source, desktop_app, multiplexer, agent_management, productivity, cross_platform, automation]
 ---

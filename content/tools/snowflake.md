@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - h2o-ai
-  - obviously-ai
-  - datarobot
-  - thoughtspot
-  - scale-ai
-  - amplitude-ai
-  - power-bi
-  - tableau
+  - databricks
+  - bigquery
+  - motherduck
+  - dbt-cloud
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, cloud_based, machine_learning]
 ---

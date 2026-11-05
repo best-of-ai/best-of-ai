@@ -12,8 +12,9 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
+  - inaturalist
+  - merlin-bird-id
   - clarifai
-  - aws-rekognition
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

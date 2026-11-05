@@ -12,7 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - drata
+  - qualio
+  - mastercontrol
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

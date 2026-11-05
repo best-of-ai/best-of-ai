@@ -12,13 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - zest-ai
-  - kasisto
-  - personetics
-  - plaid
-  - darktrace
-  - crowdstrike
-  - kensho
+  - sardine
+  - unit21
+  - complyadvantage
+  - persona
 date: '2025-09-21'
 tags: [machine_learning, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

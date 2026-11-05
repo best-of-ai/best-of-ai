@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - cursor
-  - fly-io
   - replit
-  - amazon-bedrock
-  - azure-openai
-  - github-copilot
-  - google-ai-studio
-  - groq
+  - cloudflare-workers-ai
+  - fly-io
+  - render
+  - vercel-ai-platform
+  - trigger-dev
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, easy_to_use]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - asana
+  - notion
+  - airtable
   - clickup
-  - todoist
-  - aiprm
+  - smartsheet-ai
+  - taskade
   - miro-ai
-  - akiflow
-  - slack-ai
-  - sunsama
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration]
 ---

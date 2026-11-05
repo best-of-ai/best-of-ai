@@ -12,14 +12,11 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - logseq
-  - obsidian-ai
-  - notion-ai
-  - anytype-ai
-  - capacities
-  - glean
-  - readwise-reader
-  - reflect
+  - open-webui
+  - jan-ai
+  - lm-studio
+  - typingmind
+  - notebooklm
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, open_source, cloud_based, model_based]
 ---

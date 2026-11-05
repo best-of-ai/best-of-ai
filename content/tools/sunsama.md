@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - asana
-  - todoist
+  - motion
   - akiflow
-  - clickup
-  - slack-ai
-  - aiprm
-  - coda-ai
-  - miro-ai
+  - morgen
+  - reclaim-ai
+  - todoist
+  - clockwise-ai
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, community_driven]
 ---

@@ -13,14 +13,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
-  - jan-ai
-  - lm-studio
-  - ollama
-  - open-webui
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - pinecone
+  - weaviate
+  - qdrant
+  - milvus
+  - lancedb
+  - turbopuffer
+  - zilliz
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, model_based, easy_to_use]
 ---

@@ -12,11 +12,13 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2026-11-05'
 alternatives:
-  - claude-code
-  - chatgpt-atlas
+  - chatgpt-work
   - openai-operator
+  - manus
+  - perplexity-computer
+  - notion-custom-agents
+date: '2026-11-05'
 tags: [ai_agent, automation, desktop, file_management, productivity, assistant, claude, workflow]
 ---
 

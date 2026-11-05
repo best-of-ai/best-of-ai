@@ -12,13 +12,12 @@ featured: false
 rank: 5
 alternatives:
   - similarweb
+  - semrush-research
+  - crayon
+  - klue
   - brandwatch
-  - crimson-hexagon
-  - hotjar-ai
-  - attention-insight
-  - cb-insights-ai
-  - cresh-ai
   - crunchbase-ai
+  - cb-insights-ai
 date: '2025-01-01'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, enterprise]
 ---

@@ -12,14 +12,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - notebooklm
   - abbyy
   - docsumo
-  - nanonets
-  - adobe-acrobat-ai
-  - chatpdf
-  - humata
   - hyperscience
+  - nanonets
+  - instabase
+  - reducto
+  - amazon-textract
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - groq
-  - replit
-  - perplexity-sonar
-  - tabnine
-  - cerebras
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - langfuse
+  - langsmith
+  - braintrust
+  - wandb-weave
+  - evidently-ai
+  - comet-ml
+  - helicone
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, real_time, collaboration, machine_learning]
 ---

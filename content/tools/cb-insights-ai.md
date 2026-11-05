@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - brandwatch
-  - crimson-hexagon
-  - hotjar-ai
   - crunchbase-ai
-  - maze-ai
-  - attention-insight
+  - pitchbook-ai
+  - alphasense
   - similarweb
-  - competitor-analyzer
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration]
 ---

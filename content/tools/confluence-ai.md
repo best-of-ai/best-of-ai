@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - notion-ai
   - gitbook
+  - coda-ai
+  - guru
+  - slab
+  - document360
   - archbee
-  - new-relic
-  - postman
-  - bugsnag
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - tettra
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

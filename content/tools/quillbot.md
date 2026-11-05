@@ -15,10 +15,9 @@ rank: 9
 alternatives:
   - grammarly
   - wordtune
-  - jasper
-  - writesonic
-  - ghost
+  - hyperwrite
   - languagetool
+  - prowritingaid
   - writer
   - rytr
 date: '2025-01-01'

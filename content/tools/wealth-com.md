@@ -13,8 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - trust-and-will
-  - harvey
-  - docusign-ai
+  - legalzoom
+  - holistiplan
 date: '2025-10-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, fast]
 ---

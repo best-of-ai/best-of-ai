@@ -12,13 +12,10 @@ featured: false
 rank: 5
 alternatives:
   - quizlet-ai
-  - coursera
-  - udemy
-  - khanmigo
   - studysmarter
-  - brilliant
-  - carnegie-learning
-  - chegg-ai
+  - khanmigo
+  - course-hero
+  - brainly
 date: '2025-01-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable]
 ---

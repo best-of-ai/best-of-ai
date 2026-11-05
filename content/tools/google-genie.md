@@ -12,8 +12,12 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-10-27'
 alternatives:
-  - veo-3 sora runway luma-dream-machine kling-ai
+  - sora
+  - veo-3
+  - luma-dream-machine
+  - runway-gen3
+  - kling-ai
+date: '2026-10-27'
 tags: [world_model, simulation, 3d, game_development, video_generation, interactive, research, audio, generative_ai, real_time]
 ---

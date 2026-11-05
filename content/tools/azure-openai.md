@@ -15,12 +15,10 @@ rank: 9
 alternatives:
   - amazon-bedrock
   - vertex-ai
-  - perplexity-sonar
-  - google-ai-studio
-  - cloudflare-ai-gateway
   - openrouter
+  - google-ai-studio
   - together-ai
-  - replicate
+  - fireworks-ai
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, enterprise, secure, training]
 ---

@@ -14,13 +14,9 @@ featured: false
 rank: 7
 alternatives:
   - vanta
+  - secureframe
   - onetrust
-  - osano
-  - bigid
-  - crowdstrike
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - navex
 date: '2025-10-01'
 tags: [collaboration, integrations, secure, community_driven, ai_powered, intelligent, platform, tool]
 ---

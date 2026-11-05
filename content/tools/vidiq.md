@@ -12,8 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - tubebuddy
+  - buzzsumo
   - metricool
-  - vidyo-ai
 date: '2026-10-03'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform]
 ---

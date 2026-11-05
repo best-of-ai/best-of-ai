@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - canva
-  - figma
-  - adobe-express
-  - galileo-ai
-  - uizard
-  - adobe-sensei
-  - adobe-firefly
+  - prome-ai
+  - krea-ai
   - midjourney
+  - recraft
 date: '2026-06-15'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, model_based]
 ---

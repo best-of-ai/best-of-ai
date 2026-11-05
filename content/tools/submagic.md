@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - rev
-  - subtitlebee
-  - happyscribe
-  - otter-subtitles
   - opus-clip
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - captions-ai
+  - klap
+  - vizard
+  - veed-io
+  - kapwing
+  - subtitlebee
 date: '2025-06-15'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, fast]
 ---

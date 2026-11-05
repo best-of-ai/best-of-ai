@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
-  - replit
-  - tabnine
-  - codiga
-  - fireworks-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - evidently-ai
+  - promptfoo
+  - patronus-ai
+  - ragas
+  - langfuse
+  - arize
+  - lakera
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, machine_learning]
 ---

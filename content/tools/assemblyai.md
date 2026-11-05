@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - whisper
   - deepgram
-  - sonix
-  - notta
+  - whisper
   - speechmatics
   - gladia
   - rev
-  - read-ai
+  - verbit
 date: '2025-01-01'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, api_available, collaboration, voice_enabled]
 ---

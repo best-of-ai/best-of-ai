@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - woebot
-  - wysa
+  - talkspace
   - teladoc
-  - calm
-  - covariant
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - wysa
+  - woebot
 date: '2025-10-01'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

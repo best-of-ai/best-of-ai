@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - greenhouse
   - adp
+  - ukg
+  - paycom
   - bamboohr
-  - eightfold-ai
-  - hirevue
-  - 15five-ai
-  - lattice-ai
-  - ashby
+  - rippling-ai
+  - hibob-ai
+  - personio-ai
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, enterprise, cloud_based, analytics]
 ---

@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - lavender
+  - zoominfo
   - clay
-  - gong
-  - instantly
-  - salesloft
   - amplemarket
-  - chorus-ai
+  - seamless-ai
+  - lusha
   - outreach
+  - salesloft
+  - instantly
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

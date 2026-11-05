@@ -12,14 +12,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - gitbook
+  - guru
+  - slab
+  - tettra
   - notion-ai
-  - anytype-ai
-  - capacities
-  - obsidian-ai
-  - anything-llm
-  - glean
-  - logseq
-  - readwise-reader
+  - confluence-ai
+  - bloomfire
+  - archbee
 date: '2025-06-15'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, cloud_based]
 ---

@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - contractsafe
+  - icertis
   - agiloft
-  - patsnap
-  - hudl
-  - procore
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - ironclad-ai
+  - docusign-ai
+  - evisort
+  - juro-ai
+  - lexion-ai
+  - contractsafe
 date: '2025-06-15'
 tags: [collaboration, customizable, nlp, ai_powered, intelligent, platform, tool, service]
 ---

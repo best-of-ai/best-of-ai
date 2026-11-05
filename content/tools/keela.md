@@ -14,6 +14,9 @@ rank: 5
 alternatives:
   - bloomerang
   - bonterra
+  - blackbaud
+  - givebutter
+  - virtuous
 date: '2026-10-03'
 tags: [collaboration, customizable, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -12,10 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - imagetrend
   - pulsara
-  - everbridge
-  - qventus
-  - glass-health
 date: '2025-11-02'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, analytics]
 ---

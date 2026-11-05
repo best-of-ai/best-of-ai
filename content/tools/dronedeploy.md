@@ -13,8 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - pix4d
+  - propeller-aero
+  - skydio
   - arcgis
-  - mapbox
 date: '2026-02-10'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

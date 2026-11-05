@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
+  - amazon-sagemaker
+  - azure-ai-foundry
   - amazon-bedrock
-  - azure-openai
-  - google-ai-studio
-  - deepinfra
-  - fireworks-ai
-  - openrouter
+  - databricks
   - together-ai
-  - replicate
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, enterprise, integrations, cloud_based]
 ---

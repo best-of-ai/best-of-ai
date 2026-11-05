@@ -13,8 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - yuka
-  - fooddocs
-  - lifesum
   - whisk
 date: '2026-10-03'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary]

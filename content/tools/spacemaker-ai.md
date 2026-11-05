@@ -15,12 +15,7 @@ rank: 7
 alternatives:
   - finch3d
   - testfit
-  - aurora-solar
-  - autodesk-construction
-  - testim
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - archistar
 date: '2025-10-01'
 tags: [collaboration, integrations, ai_powered, intelligent, platform, tool, service, solution]
 ---

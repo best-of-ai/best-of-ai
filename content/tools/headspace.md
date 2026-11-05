@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - calm
+  - insight-timer
   - betterup
-  - fitbod
-  - noom
-  - lever
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - woebot
+  - wysa
 date: '2025-10-01'
 tags: [collaboration, customizable, ai_powered, intelligent, platform, tool, service, solution]
 ---

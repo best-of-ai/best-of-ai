@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - notebook-lm-plus
-  - paper-digest
-  - iris-ai
-  - scispace
-  - inciteful
-  - perplexity-research
-  - semantic-scholar
-  - connected-papers
+  - maze-ai
+  - qualtrics
+  - remesh
+  - hotjar-ai
+  - microsoft-clarity
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, customizable]
 ---

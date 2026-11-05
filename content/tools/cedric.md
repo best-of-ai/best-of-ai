@@ -12,8 +12,12 @@ category_name: 'Meeting Assistants'
 price: 'Paid'
 featured: false
 rank: 4
-date: '2026-11-02'
 alternatives:
-  - otter-ai fireflies-ai fathom
+  - otter-ai
+  - fireflies-ai
+  - fathom
+  - read-ai
+  - tldv
+date: '2026-11-02'
 tags: [meetings, ai_agents, presentations, avatar, sales_demos, startups, automation, productivity, video_calls, assistant]
 ---

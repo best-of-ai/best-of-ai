@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - sora
-  - luma-dream-machine
   - kling-ai
-  - hailuo-ai
-  - haiper
-  - runway
-  - veo-3
+  - luma-dream-machine
   - pika-video
+  - sora
+  - veo-3
+  - hailuo-ai
+  - runway-gen3
+  - haiper
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, mobile_app, image_based, model_based]
 ---

@@ -14,13 +14,11 @@ featured: false
 rank: 7
 alternatives:
   - inworld-ai
+  - convai
   - promethean-ai
   - ai-dungeon
-  - ludo-ai
   - scenario
-  - convai
-  - latitude
-  - unakin
+  - ludo-ai
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, integrations]
 ---

@@ -11,12 +11,13 @@ category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-09-18'
 alternatives:
   - leonardo-ai
   - picsart-ai
   - fotor
   - recraft
   - magic-hour
+  - freepik-ai
+date: '2026-09-18'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, voice_enabled, model_based]
 ---

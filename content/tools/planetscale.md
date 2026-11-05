@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - neon-db
-  - fauna
-  - hudl
-  - fleetio
-  - procore
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - neon
+  - supabase-ai
+  - turso
+  - mongodb-atlas
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,13 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - bill-com-ai
+  - tipalti-ai
   - vic-ai
-  - botkeeper
-  - alphasense
-  - morningstar-ai
-  - kensho
-  - plaid
-  - ramp
+  - coupa
+  - sap-concur
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled]
 ---

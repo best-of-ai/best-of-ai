@@ -13,14 +13,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - langchain
-  - autogpt
-  - flowise
-  - langflow
-  - agentgpt
-  - coze
-  - crewai
-  - dify
+  - devin
+  - cosine
+  - factory-ai
+  - claude-code
+  - codex
+  - google-jules
+  - github-agent-hq
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, nlp, community_driven]
 ---

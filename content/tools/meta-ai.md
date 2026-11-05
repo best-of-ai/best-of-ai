@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 9
 alternatives:
-  - brave-leo
+  - chatgpt
+  - gemini
+  - microsoft-copilot
+  - grok
   - google-assistant
   - siri
-  - replika
-  - pi-ai
-  - alexa-ai
-  - kin-personal-ai
-  - littlebird-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, image_based, model_based]
 ---

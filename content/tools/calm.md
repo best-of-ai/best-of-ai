@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - headspace
+  - insight-timer
   - betterup
-  - teladoc
   - wysa
-  - betterhelp
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - woebot
 date: '2025-10-01'
 tags: [powerful, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

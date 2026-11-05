@@ -13,7 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - myheritage
-  - transkribus
+  - familysearch
 date: '2026-10-03'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

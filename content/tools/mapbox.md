@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - arcgis
-  - nearmap
-  - ready-player-me
-  - lexalytics
-  - betterup
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - carto
+  - qgis
+  - google-maps
 date: '2025-10-01'
 tags: [enterprise, customizable, image_based, analytics, ai_powered, intelligent, platform, tool]
 ---

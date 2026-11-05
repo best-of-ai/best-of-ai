@@ -13,12 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - agentgpt
-  - autogpt
-  - crewai
-  - manus
-  - coze
-  - dify
+  - lindy-ai
+  - relevance-ai
+  - dust
+  - cassidy-ai
+  - slackbot
+  - microsoft-copilot-studio
 date: '2026-08-31'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration, analytics]
 ---

@@ -12,14 +12,11 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - benevolentai
-  - abridge-ai
-  - ada-health
-  - babylon-health
-  - buoy-health
-  - aidoc-ai
-  - doximity
-  - insilico-medicine
+  - rosettafold
+  - isomorphic-labs
+  - schrodinger
+  - atomwise
+  - exscientia
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, free_tier]
 ---

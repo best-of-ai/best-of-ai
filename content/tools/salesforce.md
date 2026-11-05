@@ -14,13 +14,11 @@ featured: false
 rank: 10
 alternatives:
   - hubspot-crm
-  - pipedrive
+  - microsoft-dynamics-365
   - zoho-crm
-  - copper
-  - folk
-  - zendesk
-  - intercom
+  - pipedrive
   - freshsales
+  - attio
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, enterprise, customizable]
 ---

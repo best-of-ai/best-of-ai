@@ -13,13 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - greenhouse
-  - bamboohr
-  - hirevue
-  - eightfold-ai
-  - lattice-ai
-  - 15five-ai
-  - adp
-  - workday
+  - lever
+  - gem
+  - workable
+  - smartrecruiters
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, customizable, analytics]
 ---

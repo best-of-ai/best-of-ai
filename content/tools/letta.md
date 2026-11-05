@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - langchain
-  - coze
+  - mem0
+  - langgraph
+  - mastra
   - crewai
-  - dify
-  - manus
-  - agentgpt
-  - autogpt
-  - flowise
+  - smolagents
 date: '2026-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, integrations, community_driven]
 ---

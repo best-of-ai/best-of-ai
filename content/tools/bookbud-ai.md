@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - writesonic
-  - grammarly
-  - copy-ai
-  - quillbot
-  - openai-canvas
-  - jasper
-  - wordtune
-  - ai-writer
+  - sudowrite
+  - squibler
+  - aiwritebook
+  - automateed
+  - novelai
+  - writeabookai
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting]
 ---

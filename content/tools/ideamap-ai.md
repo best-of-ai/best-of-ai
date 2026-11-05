@@ -14,11 +14,9 @@ alternatives:
   - xmind
   - mindmeister
   - coggle
-  - stripe
-  - dubverse
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - miro-ai
+  - whimsical-ai
+  - creately
 date: '2025-01-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - babylon-health
-  - tempus-ai
-  - k-health
-  - paige-ai
-  - buoy-health
-  - abridge-ai
-  - ada-health
-  - aidoc-ai
+  - lyra-health
+  - betterup
+  - talkspace
+  - headspace
+  - coachhub
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

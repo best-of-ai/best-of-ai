@@ -12,11 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - rippling-ai
+  - remote-com
   - gusto
-  - visier
-  - hiredscore
-  - bamboohr
-  - workday
+  - adp
+  - personio-ai
 date: '2026-10-03'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent]
 ---

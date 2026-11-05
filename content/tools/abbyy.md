@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - notebooklm
   - hyperscience
   - rossum
-  - adobe-acrobat-ai
   - docsumo
-  - chatpdf
-  - humata
   - instabase
+  - nanonets
+  - reducto
+  - amazon-textract
+  - google-document-ai
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, enterprise, voice_enabled]
 ---

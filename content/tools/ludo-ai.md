@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - inworld-ai
-  - promethean-ai
   - scenario
-  - unakin
-  - charisma-ai
-  - ai-dungeon
-  - convai
-  - latitude
+  - promethean-ai
+  - inworld-ai
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, image_based]
 ---

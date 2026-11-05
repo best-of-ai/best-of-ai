@@ -12,9 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - faro
+  - autodesk-fusion
   - physna
-  - jitx
 date: '2026-10-03'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting]
 ---

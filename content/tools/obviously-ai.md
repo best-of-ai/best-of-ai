@@ -14,12 +14,9 @@ rank: 7
 alternatives:
   - datarobot
   - h2o-ai
-  - scale-ai
-  - tableau
-  - amplitude-ai
-  - power-bi
-  - airbyte-ai
-  - dbt-cloud
+  - dataiku
+  - julius-ai
+  - thoughtspot
 date: '2025-01-01'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, machine_learning, training, model_based]
 ---

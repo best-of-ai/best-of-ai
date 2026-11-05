@@ -12,8 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - vagaro
   - simplepractice
+  - jane-app
+  - mentalyc
+  - vagaro
 date: '2026-10-03'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

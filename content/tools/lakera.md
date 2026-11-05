@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-bedrock
-  - azure-openai
-  - groq
-  - google-ai-studio
-  - perplexity-sonar
-  - cursor
-  - github-copilot
-  - llamaindex
+  - patronus-ai
+  - giskard
+  - promptfoo
+  - nightfall
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, secure, model_based]
 ---

@@ -8,17 +8,17 @@ website: 'https://www.algolia.com/products/ai-search'
 company: 'algolia'
 logo_url: ''
 category: 'search-engines'
-alternatives:
-  - exa-ai
-  - you-search
-  - kagi
-  - perplexity-search
-  - devv-ai
-  - andi-search
 category_name: 'Search Engines'
 price: 'Freemium'
 featured: false
 rank: 5
+alternatives:
+  - elasticsearch
+  - typesense
+  - meilisearch
+  - vectara
+  - bloomreach
+  - constructor
 date: '2026-07-17'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, api_available, collaboration, customizable]
 ---

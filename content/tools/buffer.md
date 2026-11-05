@@ -14,13 +14,13 @@ featured: false
 rank: 9
 alternatives:
   - sprout-social
+  - hootsuite-social
   - later
-  - predis-ai
-  - typefully
-  - flick-ai
+  - publer
   - metricool
-  - missinglettr
-  - taplio
+  - planable
+  - loomly
+  - socialbee-ai
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform]
 ---

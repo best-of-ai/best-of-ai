@@ -12,11 +12,12 @@ category_name: 'Cybersecurity'
 price: 'Paid'
 featured: false
 rank: 5
-date: '2026-08-17'
 alternatives:
   - crowdstrike
+  - sentinelone
+  - microsoft-security-copilot
   - darktrace
   - vectra-ai
-  - wiz
+date: '2026-08-17'
 tags: [cloud_based, secure, training, model_based, ai_powered, intelligent, platform, tool]
 ---

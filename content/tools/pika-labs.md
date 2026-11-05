@@ -14,13 +14,11 @@ featured: false
 rank: 9
 alternatives:
   - runway
-  - loom
-  - synthesia
-  - runway-editor
   - luma-dream-machine
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - kling-ai
+  - veo-3
+  - hailuo-ai
+  - pixverse
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, fast]
 ---

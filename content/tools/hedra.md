@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - d-id
   - heygen
-  - vidnoz
+  - d-id
+  - synthesia-avatar
   - colossyan
   - hour-one
   - elai
+  - vidnoz
   - movio
-  - synthesia-avatar
 date: '2025-06-15'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, image_based, voice_enabled]
 ---

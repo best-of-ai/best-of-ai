@@ -13,12 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - kasisto
-  - zest-ai
+  - finastra
   - feedzai
-  - plaid
-  - yodlee
-  - monarch-money
-  - botkeeper
+  - zest-ai
 date: '2025-09-21'
 tags: [customizable, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

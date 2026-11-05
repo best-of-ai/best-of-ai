@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - asana
-  - clickup
+  - microsoft-copilot
+  - notion-ai
   - slack-ai
-  - todoist
-  - akiflow
-  - sunsama
-  - aiprm
   - coda-ai
+  - claude-docs
+  - chatgpt-work
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, real_time, enterprise]
 ---

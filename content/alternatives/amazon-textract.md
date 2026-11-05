@@ -1,0 +1,3 @@
+---
+title: 'Amazon Textract Alternatives'
+---

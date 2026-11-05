@@ -13,13 +13,12 @@ featured: false
 rank: 5
 alternatives:
   - lattice-ai
-  - workday
-  - greenhouse
-  - bamboohr
-  - betterworks-ai
   - 15five-ai
-  - adp
-  - eightfold-ai
+  - leapsome-ai
+  - betterworks-ai
+  - workday
+  - visier
+  - qualtrics
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, analytics, powerful]
 ---

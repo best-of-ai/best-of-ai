@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - tulip
+  - c3-ai
   - sight-machine
-  - intrinsic
-  - testim
-  - embark
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - cognite
+  - tulip
+  - aveva
 date: '2025-10-01'
 tags: [voice_enabled, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

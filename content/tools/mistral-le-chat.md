@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - grok
   - chatgpt
   - claude
   - gemini
-  - kimi
-  - microsoft-copilot
+  - deepseek
   - perplexity
+  - microsoft-copilot
+  - grok
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, free_tier, customizable, model_based]
 ---

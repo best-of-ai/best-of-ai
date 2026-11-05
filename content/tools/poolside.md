@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - amazon-q
-  - cline
-  - codeium
-  - sourcegraph-cody
-  - aide
-  - aider
-  - amazon-codewhisperer
-  - bolt-new
+  - cursor
+  - github-copilot
+  - claude-code
+  - codex
+  - augment-code
+  - tabnine
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, training, model_based]
 ---

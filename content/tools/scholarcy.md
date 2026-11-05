@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - litmaps
-  - consensus
   - elicit
-  - research-rabbit
   - scispace
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - explainpaper
+  - openread
+  - paper-digest
+  - consensus
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, integrations]
 ---

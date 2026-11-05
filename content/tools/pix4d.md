@@ -13,8 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - dronedeploy
+  - propeller-aero
   - arcgis
-  - mapbox
 date: '2026-02-10'
 tags: [cloud_based, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

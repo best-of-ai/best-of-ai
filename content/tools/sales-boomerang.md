@@ -13,8 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - floify
-  - unit21
-  - plaid
+  - blend
 date: '2026-10-03'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

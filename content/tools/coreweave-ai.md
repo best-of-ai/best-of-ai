@@ -14,10 +14,12 @@ featured: false
 rank: 5
 alternatives:
   - lambda-labs
+  - crusoe-ai
   - runpod-ai
   - vast-ai
   - paperspace-ai
   - modal-ai
+  - together-inference
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, cloud_based, image_based, training]
 ---

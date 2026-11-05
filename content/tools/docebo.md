@@ -12,11 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - 360learning
+  - cornerstone-ondemand
   - articulate-360
-  - khanmigo
-  - udemy
-  - quizlet-ai
-  - synthesis
+  - adobe-captivate
 date: '2026-02-01'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - glide
   - bubble
   - retool-ai
   - appsheet
-  - flutterflow
-  - glide
+  - power-apps
   - adalo
-  - base44
-  - floot
+  - flutterflow
 date: '2025-09-21'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, customizable, analytics]
 ---

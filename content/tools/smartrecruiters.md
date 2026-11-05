@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - workable
   - lever
-  - arterys
-  - atomwise
-  - schrodinger
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - workable
+  - greenhouse
+  - ashby
+  - gem
 date: '2025-06-15'
 tags: [enterprise, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

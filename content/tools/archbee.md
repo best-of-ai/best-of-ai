@@ -13,13 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - gitbook
+  - mintlify
+  - document360
   - confluence-ai
-  - mermaid-chart
-  - postman
-  - rapidapi
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - readme-io
+  - tettra
 date: '2025-10-01'
 tags: [api_available, collaboration, community_driven, ai_powered, intelligent, platform, tool, service]
 ---

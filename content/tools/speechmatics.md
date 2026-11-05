@@ -14,13 +14,12 @@ featured: false
 rank: 5
 alternatives:
   - assemblyai
-  - whisper
   - deepgram
-  - sonix
-  - notta
+  - whisper
   - gladia
-  - transkriptor
-  - trint
+  - azure-ai-speech
+  - rev
+  - sonix
 date: '2025-06-15'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, api_available, collaboration, enterprise]
 ---

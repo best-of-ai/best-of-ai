@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - amazon-bedrock
-  - groq
-  - google-ai-studio
-  - perplexity-sonar
-  - cerebras
+  - litellm
+  - portkey
+  - cloudflare-ai-gateway
+  - eden-ai
   - together-ai
-  - replicate
-  - vertex-ai
+  - vercel-ai-platform
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
 ---

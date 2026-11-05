@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - icertis
+  - ironclad-ai
   - contractpodai
-  - contractsafe
-  - betterup
-  - headspace
-  - onetrust
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - docusign-ai
+  - evisort
+  - juro-ai
+  - lexion-ai
 date: '2025-10-01'
 tags: [collaboration, enterprise, customizable, ai_powered, intelligent, platform, tool, service]
 ---

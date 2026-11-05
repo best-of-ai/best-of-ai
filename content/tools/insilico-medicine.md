@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - recursion
+  - isomorphic-labs
+  - schrodinger
+  - atomwise
+  - exscientia
   - benevolentai
-  - aidoc-ai
-  - tempus-ai
-  - paige-ai
-  - abridge-ai
-  - ada-health
-  - alphafold-ai
-  - babylon-health
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

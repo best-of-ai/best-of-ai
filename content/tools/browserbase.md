@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - roboflow
-  - replit
-  - vertex-ai
-  - together-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
-  - github-copilot
+  - firecrawl
+  - scrapegraph-ai
+  - e2b-ai
+  - multion
+  - diffbot
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based]
 ---

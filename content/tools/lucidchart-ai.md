@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - canva
-  - figma
-  - adobe-sensei
-  - galileo-ai
-  - microsoft-designer
-  - adobe-express
-  - adobe-firefly
-  - midjourney
+  - miro-ai
+  - drawio
+  - mermaid-chart
+  - creately
+  - whimsical-ai
+  - excalidraw
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, machine_learning, image_based]
 ---

@@ -12,8 +12,12 @@ category_name: 'Software Testing'
 price: 'Paid'
 featured: false
 rank: 4
-date: '2026-11-02'
 alternatives:
-  - qa-wolf mabl testim
+  - qa-wolf
+  - mabl
+  - testim
+  - momentic-mo
+  - applitools
+date: '2026-11-02'
 tags: [qa, software_testing, test_automation, ai_agents, end_to_end, developer_tools, self_healing, autonomous, web_apps, ci_cd]
 ---

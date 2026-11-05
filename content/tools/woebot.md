@@ -12,15 +12,15 @@ category_name: 'Mental Health'
 price: 'Freemium'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Woebot Health retired its consumer app on June 30, 2025, citing the cost of meeting FDA requirements.'
+dead_date: '2025-06-30'
 alternatives:
   - wysa
+  - talkspace
   - betterhelp
-  - intrinsic
   - calm
-  - cronometer
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - headspace
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

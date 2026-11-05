@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - groq
+  - kiro
   - cursor
-  - azure-openai
-  - google-ai-studio
-  - llamaindex
-  - amazon-bedrock
-  - github-copilot
-  - replit
+  - claude-code
+  - factory-ai
 date: '2025-01-01'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
 ---

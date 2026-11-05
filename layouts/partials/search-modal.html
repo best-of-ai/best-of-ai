@@ -78,12 +78,16 @@
 
   function renderItem(it, q) {
     var desc = it.description ? it.description.slice(0, 80) : '';
-    return '<a href="' + esc(it.url) + '" class="search-result" role="option" tabindex="-1">'
+    var ghost = it.dead
+      ? '<svg class="sr-ghost" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-label="Discontinued"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>'
+      : '';
+    return '<a href="' + esc(it.url) + '" class="search-result' + (it.dead ? ' search-result--dead' : '') + '" role="option" tabindex="-1"' + (it.dead ? ' title="' + esc(it.dead_reason ? 'Discontinued: ' + it.dead_reason : 'This tool is no longer active') + '"' : '') + '>'
       + '<span class="sr-cat">' + esc(it.category || '') + '</span>'
       + '<span class="sr-body">'
       +   '<span class="sr-name">' + hi(it.name || it.slug, q) + '</span>'
       +   (desc ? '<span class="sr-desc">' + hi(desc, q) + '</span>' : '')
       + '</span>'
+      + ghost
       + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price) + '</span>' : '')
       + '</a>';
   }
@@ -100,7 +104,11 @@
       if (score > 0 && groups[type]) groups[type].push({ it: it, score: score });
     }
     Object.keys(groups).forEach(function(k) {
-      groups[k].sort(function(a,b){ return b.score - a.score; });
+      groups[k].sort(function(a,b){
+        var da = a.it.dead ? 1 : 0, db = b.it.dead ? 1 : 0;
+        if (da !== db) return da - db;
+        return b.score - a.score;
+      });
     });
     var profs     = groups.profession.slice(0, 3);
     var cats      = groups.category.slice(0, 3).concat(groups.tag.slice(0, 3));

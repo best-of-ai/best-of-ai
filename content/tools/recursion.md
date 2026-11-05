@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - atomwise
   - schrodinger
-  - autogrid
-  - covariant
-  - embark
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - isomorphic-labs
+  - atomwise
+  - insilico-medicine
+  - benevolentai
 date: '2025-10-01'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

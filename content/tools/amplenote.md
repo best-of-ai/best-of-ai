@@ -18,8 +18,7 @@ alternatives:
   - remnote
   - heptabase
   - roam-research
-  - tana-ai
-  - adobe-premiere-pro-ai
+  - logseq
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync]
 ---

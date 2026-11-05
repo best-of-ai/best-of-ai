@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
-  - pika-labs
-  - synthesia
-  - loom
-  - runway-editor
-  - adobe-premiere-pro-ai
-  - veo-3
-  - kling-ai
+  - pika-video
   - luma-dream-machine
+  - kling-ai
+  - veo-3
+  - hailuo-ai
+  - runway-gen3
+  - adobe-firefly
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
 ---

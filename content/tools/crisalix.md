@@ -12,9 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - perfectcorp
   - perfect365
-  - dental-monitoring
-  - eyenuk
 date: '2026-02-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

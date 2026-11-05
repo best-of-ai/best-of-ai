@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - eightfold-ai
-  - hirevue
-  - workday
-  - bamboohr
-  - adp
-  - 15five-ai
-  - lattice-ai
   - ashby
+  - lever
+  - workable
+  - smartrecruiters
+  - gem
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, analytics, fast]
 ---

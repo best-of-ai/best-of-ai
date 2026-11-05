@@ -12,9 +12,13 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
+  - composio-ai
+  - pipedream
   - zapier
+  - n8n
+  - make
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

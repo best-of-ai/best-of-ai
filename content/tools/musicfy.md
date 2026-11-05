@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - loudly
-  - mubert
-  - soundraw
-  - udio
-  - aiva
-  - beatoven-ai
-  - boomy
+  - kits-ai
+  - jammable
   - suno
+  - udio
+  - ace-studio
 date: '2025-06-15'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, voice_enabled]
 ---

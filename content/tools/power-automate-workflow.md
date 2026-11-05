@@ -15,12 +15,11 @@ rank: 5
 alternatives:
   - uipath
   - nintex
+  - boomi
   - tray-io
-  - leania-ai
-  - relay-app
   - workato-ai
   - zapier-workflow
-  - adobe-premiere-pro-ai
+  - relay-app
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, collaboration, customizable, cloud_based]
 ---

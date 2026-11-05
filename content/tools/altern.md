@@ -13,18 +13,12 @@ featured: false
 rank: 7
 alternatives:
   - best-of-ai
-  - theres-an-ai-for-that
   - futurepedia
-  - future-tools
+  - theres-an-ai-for-that
   - toolify-ai
   - topai-tools
   - aixploria
   - dang-ai
-  - insidr-ai
-  - allthingsai
-  - productivity-directory
-  - ai-for-developer
-  - aidir-wiki
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
 ---

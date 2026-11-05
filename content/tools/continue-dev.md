@@ -13,14 +13,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - aider
   - cline
-  - amazon-q
-  - bolt-new
-  - devin
-  - amazon-codewhisperer
+  - aider
+  - github-copilot
+  - tabnine
   - codeium
-  - copilot-workspace
+  - sourcegraph-cody
+  - pearai
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, customizable]
 ---

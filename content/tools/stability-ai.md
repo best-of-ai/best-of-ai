@@ -18,7 +18,7 @@ alternatives:
   - ideogram
   - leonardo-ai
   - adobe-firefly
-  - dalle
+  - bria-ai
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, image_based, voice_enabled]
 ---

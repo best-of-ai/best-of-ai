@@ -14,12 +14,8 @@ rank: 7
 alternatives:
   - teladoc
   - doxy-me
-  - betterhelp
-  - zebra-medical
-  - autogrid
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - k-health
+  - babylon-health
 date: '2025-10-01'
 tags: [enterprise, integrations, ai_powered, intelligent, platform, tool, service, solution]
 ---

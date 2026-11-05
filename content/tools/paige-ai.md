@@ -13,13 +13,10 @@ featured: false
 rank: 7
 alternatives:
   - pathai
+  - lunit-ai
   - aidoc-ai
-  - babylon-health
+  - qure-ai
   - tempus-ai
-  - abridge-ai
-  - ada-health
-  - alphafold-ai
-  - benevolentai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, image_based]
 ---

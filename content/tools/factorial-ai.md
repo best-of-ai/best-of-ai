@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - 15five-ai
   - bamboohr
-  - lattice-ai
-  - greenhouse
-  - workday
-  - adp
-  - eightfold-ai
-  - hirevue
+  - personio-ai
+  - hibob-ai
+  - gusto
+  - rippling-ai
+  - charlie-hr
 date: '2025-09-21'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent]
 ---

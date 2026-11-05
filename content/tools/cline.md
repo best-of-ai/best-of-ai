@@ -13,14 +13,13 @@ price: 'Free'
 featured: false
 rank: 9
 alternatives:
+  - continue-dev
   - aider
-  - codeium
-  - devin
-  - copilot-workspace
-  - sourcegraph-cody
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
+  - claude-code
+  - cursor
+  - github-copilot
+  - opencode
+  - pearai
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, autonomous, model_based]
 ---

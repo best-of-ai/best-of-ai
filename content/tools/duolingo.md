@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - busuu
   - babbel
-  - preply
+  - busuu
+  - speak
+  - memrise
   - rosetta-stone
   - pimsleur
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - preply
 date: '2025-09-21'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion, customizable]
 ---

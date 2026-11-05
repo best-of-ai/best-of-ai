@@ -12,12 +12,12 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-08-31'
 alternatives:
   - perplexity-comet
-  - perplexity
-  - chatgpt
+  - dia-browser
+  - arc-browser
+  - brave-leo
   - genspark
-  - openclaw
+date: '2026-08-31'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app]
 ---

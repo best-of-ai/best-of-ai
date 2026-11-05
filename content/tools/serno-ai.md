@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - raycast-ai
-  - clickup
-  - asana
-  - zerotwo-ai
-  - akiflow
-  - todoist
-  - slack-ai
-  - sunsama
+  - poe
+  - typingmind
+  - chatplayground-ai
+  - openrouter
+  - cuey
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, model_based]
 ---

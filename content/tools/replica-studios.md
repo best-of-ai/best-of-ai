@@ -13,13 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - altered-ai
+  - elevenlabs-voice
   - resemble-ai
   - respeecher
-  - elevenlabs-voice
   - murf-voice
-  - speechify
-  - kikivoice
+  - altered-ai
   - kits-ai
 date: '2025-09-21'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, api_available, mobile_app, real_time]

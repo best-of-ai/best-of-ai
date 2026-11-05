@@ -15,11 +15,8 @@ alternatives:
   - numerous
   - ajelix
   - formula-bot
-  - boomerang
-  - tactiq
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - microsoft-copilot
+  - gemini-workspace
 date: '2025-09-21'
 tags: [spreadsheet, data_analysis, productivity, data, sheets, formulas, excel, automation, calculations, browser_extension, powerful, extensible]
 ---

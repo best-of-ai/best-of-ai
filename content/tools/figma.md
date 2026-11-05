@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
-  - galileo-ai
-  - lucidchart-ai
-  - microsoft-designer
-  - visily
-  - whimsical-ai
+  - penpot-ai
+  - sketch-ai
   - canva
+  - framer
+  - uizard
   - adobe-express
-  - miro-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, extensible]
 ---

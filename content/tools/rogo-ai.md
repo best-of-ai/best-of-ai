@@ -15,6 +15,10 @@ rank: 5
 alternatives:
   - alphasense
   - daloopa
+  - factset
+  - pitchbook-ai
+  - kensho
+  - bloomberg-terminal
 date: '2026-10-03'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, fast]
 ---

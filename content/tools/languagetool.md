@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - jasper
-  - compose-ai
   - grammarly
-  - wordtune
-  - writesonic
-  - copy-ai
+  - prowritingaid
+  - hemingway-editor
   - quillbot
-  - ai-writer
+  - wordtune
+  - writer
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, open_source, browser_extension, enterprise]
 ---

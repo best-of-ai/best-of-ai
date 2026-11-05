@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - webflow
   - wix-adi
-  - 10web
+  - squarespace
   - durable
-  - instawebai
-  - hocoos
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - 10web
+  - dora-ai
+  - plasmic
 date: '2025-09-21'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, image_based]
 ---

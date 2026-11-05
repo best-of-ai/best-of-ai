@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - midjourney
   - flux
   - ideogram
-  - artbreeder
-  - civitai
-  - craiyon
-  - midjourney
+  - adobe-firefly
   - leonardo-ai
+  - stable-diffusion
+  - gpt-image
   - krea-ai
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based]

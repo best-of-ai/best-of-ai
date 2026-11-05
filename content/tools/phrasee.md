@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - hubspot
-  - marketmuse
   - persado
-  - unbounce-ai
+  - anyword
   - jasper-marketing
-  - typeform
-  - 6sense-ai
-  - crayon
+  - copy-ai-copy
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, integrations, training]
 ---

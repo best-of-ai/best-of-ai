@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - cleanup-pictures
-  - fotor
-  - photoroom
-  - picsart-ai
   - topaz-photo-ai
-  - adobe-lightroom-ai
-  - befunky
-  - lensa-ai
+  - lets-enhance
+  - magnific-ai
+  - fotor
+  - remini-ai
+  - canva
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, machine_learning, image_based]
 ---

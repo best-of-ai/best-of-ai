@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - adobe-premiere-pro-ai
-  - capcut
-  - captions-ai
   - opus-clip
-  - vidyo-ai
-  - flexclip
-  - invideo
+  - vizard
   - munch
+  - vidyo-ai
+  - submagic
+  - clipfinder-ai
 date: '2025-06-15'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
 ---

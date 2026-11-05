@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - mermaid-chart
   - drawio
-  - new-relic
-  - mindmeister
-  - coggle
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - lucidchart-ai
+  - mermaid-chart
+  - miro-ai
+  - whimsical-ai
+  - eraser-io
 date: '2025-10-01'
 tags: [real_time, collaboration, templates, image_based, ai_powered, intelligent, platform, tool]
 ---

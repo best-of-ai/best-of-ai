@@ -13,11 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - testim
+  - percy
   - mabl
-  - qa-wolf
-  - browserstack-test-companion
+  - testim
   - momentic-mo
+  - browserstack-test-companion
+  - qa-wolf
 date: '2025-10-01'
 tags: [integrations, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

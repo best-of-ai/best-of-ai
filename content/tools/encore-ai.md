@@ -12,10 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - cresta
   - gong
-  - chorus-ai
   - clari-ai
   - jiminny
+  - observe-ai
 date: '2026-08-17'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, voice_enabled]
 ---

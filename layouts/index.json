@@ -110,6 +110,8 @@
     "category"    ($p.category_name | default "")
     "price"       ($p.price       | default "Free")
     "dead"        ($p.dead        | default false)
+    "dead_reason" ($p.dead_reason | default "")
+    "dead_date"   ($p.dead_date   | default "")
   -}}
   {{ $items = $items | append $item -}}
 {{ end -}}

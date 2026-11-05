@@ -11,14 +11,8 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - ramp
-  - alphasense
-  - botkeeper
-  - plaid
-  - yodlee
-  - morningstar-ai
-  - kensho
-  - bill-com-ai
+  - monarch-money
+  - ynab
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, free_tier]
 ---

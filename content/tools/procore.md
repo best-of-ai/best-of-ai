@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - autodesk-construction
+  - trimble-construction
+  - buildertrend
   - buildxact
-  - fleetio
-  - iplytics
-  - next-insurance
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - bluebeam
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

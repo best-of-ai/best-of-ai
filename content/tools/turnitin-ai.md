@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - carnegie-learning
   - gptzero
-  - studysmarter
-  - chegg-ai
-  - dreambox-learning
-  - brilliant
-  - coursera
-  - khan-academy
+  - copyleaks-ai
+  - originality-ai
+  - winston-ai
+  - ai-aware
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, model_based]
 ---

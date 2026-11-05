@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - hubspot-crm
   - attio
-  - pipedrive
   - folk
+  - pipedrive
   - close
-  - zoho-crm
-  - copper
-  - freshsales
+  - hubspot-crm
+  - lightfield-ai
 date: '2026-10-17'
 tags: [crm, sales, business, customers, pipeline, contacts, deals, customer_data, collaboration, automation, flat_pricing, unlimited_users]
 ---

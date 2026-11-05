@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - chorus-ai
   - gong
+  - clari-ai
+  - salesloft
   - outreach
-  - clay
-  - instantly
-  - amplemarket
-  - apollo
-  - lavender
+  - revenue-io
+  - chorus-ai
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise]
 ---

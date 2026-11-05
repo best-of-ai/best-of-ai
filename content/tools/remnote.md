@@ -14,13 +14,11 @@ featured: false
 rank: 8
 alternatives:
   - obsidian
-  - craft-docs
-  - notion-notes
-  - heptabase
   - roam-research
-  - amplenote
-  - tana-ai
-  - adobe-premiere-pro-ai
+  - heptabase
+  - notion-notes
+  - craft-docs
+  - quizlet-ai
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync]
 ---

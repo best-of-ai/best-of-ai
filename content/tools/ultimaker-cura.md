@@ -14,12 +14,7 @@ rank: 7
 alternatives:
   - prusaslicer
   - bambu-studio
-  - insomnia
-  - drawio
-  - mercury
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - orca-slicer
 date: '2025-10-01'
 tags: [open_source, free_tier, model_based, fast, powerful, community_driven, extensible, ai_powered]
 ---

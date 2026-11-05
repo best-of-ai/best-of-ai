@@ -13,10 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - linear
+  - jira
+  - pendo
   - height
-  - monday
-  - smartsheet-ai
-  - taskade
 date: '2026-10-03'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile, customizable]
 ---

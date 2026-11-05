@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - amazon-codewhisperer
-  - codeium
-  - supermaven
-  - cline
-  - aide
-  - aider
+  - github-copilot
+  - augment-code
+  - gemini-code-assist
   - amazon-q
-  - bolt-new
+  - tabnine
+  - continue-dev
+  - jetbrains-ai
+  - codeium
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, enterprise, integrations, model_based]
 ---

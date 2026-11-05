@@ -12,11 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - rayyan
   - scispace
   - semantic-scholar
   - scite-ai
-  - undermind
+  - lens-org
 date: '2026-10-03'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis]
 ---

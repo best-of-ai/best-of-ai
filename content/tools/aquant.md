@@ -12,10 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - bluebeam
+  - mavenoid
+  - c3-ai
+  - servicenow
   - augury
-  - tulip
-  - procore
 date: '2026-10-03'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

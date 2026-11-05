@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - hubspot
-  - 6sense-ai
-  - attentive-ai
+  - klaviyo-ai
+  - iterable
   - clevertap
-  - demandbase-ai
-  - typeform
-  - crayon
-  - jasper-marketing
+  - insider
+  - mailchimp
+  - hubspot
 date: '2025-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable, analytics]
 ---

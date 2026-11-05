@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - playht
-  - amazon-polly
-  - wellsaid-labs
+  - elevenlabs
   - hume-ai
+  - playht
   - fish-audio
-  - kokoro
-  - lovo
-  - neets-ai
+  - wellsaid-labs
+  - openai-realtime-api
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, real_time, voice_enabled]
 ---

@@ -13,13 +13,10 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - brandmark
   - looka
-  - logoai
+  - brandmark
   - tailor-brands
-  - khroma
-  - adobe-premiere-pro-ai
-  - asana
+  - logoai
   - canva
 date: '2025-09-21'
 tags: [design, image_generation, branding, logo, identity, brand_assets, visual_identity, symbols, creative, free_tier]

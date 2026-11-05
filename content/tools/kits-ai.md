@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - speechify
+  - musicfy
+  - jammable
+  - ace-studio
+  - synthesizer-v
   - altered-ai
-  - murf-voice
-  - respeecher
-  - elevenlabs-voice
-  - replica-studios
   - resemble-ai
-  - kikivoice
 date: '2025-06-15'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, voice_enabled]
 ---

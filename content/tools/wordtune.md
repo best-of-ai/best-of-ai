@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - jasper
-  - hemingway-editor
   - quillbot
   - grammarly
-  - copy-ai
+  - hyperwrite
+  - languagetool
+  - prowritingaid
   - writer
   - rytr
-  - languagetool
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, voice_enabled]
 ---

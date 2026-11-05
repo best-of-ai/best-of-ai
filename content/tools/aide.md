@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - codeium
-  - sourcegraph-cody
-  - aider
+  - cursor
+  - windsurf
+  - zed-ai
+  - pearai
+  - continue-dev
   - cline
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
-  - copilot-workspace
+  - kiro
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, collaboration, integrations]
 ---

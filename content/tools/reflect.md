@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - logseq
-  - notion-ai
-  - glean
-  - readwise-reader
-  - anytype-ai
-  - capacities
   - obsidian-ai
-  - anything-llm
+  - logseq
+  - capacities
+  - mem-ai
+  - tana-ai
+  - notion-ai
+  - appflowy
 date: '2025-01-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, integrations, secure]
 ---

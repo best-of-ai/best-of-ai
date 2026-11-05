@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - siri
-  - replika
-  - meta-ai
-  - brave-leo
-  - google-assistant
-  - alexa-ai
-  - pi-ai
+  - notis-ai
   - kin-personal-ai
+  - littlebird-ai
+  - shortwave
 date: '2025-01-01'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, model_based, fast, powerful]
 ---

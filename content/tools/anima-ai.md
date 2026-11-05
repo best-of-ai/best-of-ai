@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - replit
-  - tabnine
-  - codiga
-  - cursor
-  - weights-biases
-  - amazon-bedrock
-  - azure-openai
-  - github-copilot
+  - locofy
+  - dhiwise
+  - figma-make
+  - v0
+  - builder-io
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, machine_learning]
 ---

@@ -12,13 +12,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - ahrefs
-  - clearscope
-  - semrush
-  - surfer-seo
-  - moz-ai
-  - alli-ai
   - frase
+  - surfer-seo
+  - clearscope
+  - ahrefs
+  - semrush
+  - alli-ai
   - blogseo
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, browser_extension, extensible]

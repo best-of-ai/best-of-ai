@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - notebooklm
   - chatpdf
   - humata
-  - abbyy
   - pdf-ai
-  - docsumo
-  - hyperscience
-  - instabase
+  - notebooklm
+  - abbyy
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast, powerful]
 ---

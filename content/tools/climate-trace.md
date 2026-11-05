@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - planet-labs
+  - sylvera
   - carbon-trust
   - watershed
   - pachama
-  - sylvera
-  - patch
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, image_based]
 ---

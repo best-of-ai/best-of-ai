@@ -12,14 +12,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - cresta
   - observe-ai
-  - freshdesk
-  - drift
-  - intercom
+  - liveperson
+  - kore-ai
   - zendesk
-  - chatbase
-  - forethought-ai
-  - gorgias
+  - intercom
+  - freshdesk
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, real_time, cloud_based, machine_learning]
 ---

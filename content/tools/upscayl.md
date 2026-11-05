@@ -13,14 +13,11 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - pixlr
-  - cleanup-pictures
-  - neural-love
-  - photoroom
   - topaz-photo-ai
-  - adobe-lightroom-ai
-  - befunky
-  - fotor
+  - lets-enhance
+  - real-esrgan
+  - remini-ai
+  - magnific-ai
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, open_source, free_tier, secure]
 ---

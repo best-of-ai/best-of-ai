@@ -13,13 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - gptzero
-  - brilliant
-  - coursera
-  - khanmigo
-  - quizlet-ai
-  - carnegie-learning
-  - chegg-ai
-  - dreambox-learning
+  - originality-ai
+  - turnitin-ai
+  - winston-ai
+  - ai-aware
+  - scribbr-ai
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, integrations]
 ---

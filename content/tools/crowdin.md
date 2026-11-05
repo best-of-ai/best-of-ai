@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - lokalise-ai
   - transifex
+  - phrase-ai
+  - smartling
   - weglot
-  - archbee
-  - datadog
-  - new-relic
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - smartcat-ai
 date: '2025-10-01'
 tags: [collaboration, integrations, fast, community_driven, ai_powered, intelligent, platform, tool]
 ---

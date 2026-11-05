@@ -12,11 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - meltwater
-  - brandwatch
-  - hotjar-ai
-  - similarweb
-  - talkwalker
+  - surveymonkey
+  - typeform
+  - maze-ai
+  - dovetail-ai
+  - remesh
+  - quantilope
 date: '2026-02-01'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, customizable]
 ---

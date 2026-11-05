@@ -12,10 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - together-inference
-  - coreweave-ai
-  - lambda-labs
-  - modal-ai
+  - cerebras
+  - groq
+  - together-ai
+  - fireworks-ai
+  - nvidia-nim
 date: '2026-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, api_available, enterprise, free_tier]
 ---

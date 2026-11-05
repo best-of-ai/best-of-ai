@@ -12,9 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - nuance-dax
-  - suki-ai
   - abridge-ai
+  - nabla
+  - freed
+  - suki-ai
+  - deepscribe
+  - nuance-dax
+  - ambience-healthcare
 date: '2026-02-10'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, templates]
 ---

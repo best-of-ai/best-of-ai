@@ -13,13 +13,10 @@ featured: false
 rank: 7
 alternatives:
   - adobe-podcast
-  - elevenlabs
+  - auphonic
   - krisp
-  - murf
   - descript
-  - voicemod
-  - ace-studio
-  - adobe-enhance-speech
+  - cleanvoice
 date: '2026-06-10'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, free_tier, voice_enabled]
 ---

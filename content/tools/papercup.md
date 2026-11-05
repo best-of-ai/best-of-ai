@@ -12,15 +12,15 @@ category_name: 'Dubbing'
 price: 'Paid'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'RWS bought the IP behind Papercup''s AI dubbing in June 2025.'
+dead_date: '2025-06'
 alternatives:
   - deepdub
   - dubverse
-  - naturalreader
-  - weglot
-  - zebra-medical
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - rask-ai
+  - heygen
+  - elevenlabs
 date: '2025-10-01'
 tags: [voice_enabled, training, powerful, ai_powered, intelligent, platform, tool, service]
 ---

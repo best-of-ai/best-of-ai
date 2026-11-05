@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - llamasoft
-  - oracle-scm
-  - sap-ariba
   - kinaxis
-  - coupa
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - o9-solutions
+  - oracle-scm
+  - llamasoft
 date: '2025-09-21'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, customizable, model_based]
 ---

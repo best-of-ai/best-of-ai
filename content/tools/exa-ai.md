@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - devv-ai
-  - phind
+  - tavily
+  - perplexity-sonar
+  - firecrawl
+  - jina-ai
   - kagi
-  - perplexity-search
   - you-search
-  - arc-browser
-  - bing-chat
-  - andi-search
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, api_available]
 ---

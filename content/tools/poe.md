@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - grok
   - chatgpt
   - claude
   - gemini
-  - kimi
+  - typingmind
+  - openrouter
+  - chatplayground-ai
   - microsoft-copilot
-  - perplexity
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, model_based]
 ---

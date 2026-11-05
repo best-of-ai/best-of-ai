@@ -13,11 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - later
-  - missinglettr
   - buffer
-  - sprout-social
-  - metricool
   - flick-ai
+  - publer
+  - metricool
+  - sprout-social
   - taplio
   - typefully
 date: '2025-01-01'

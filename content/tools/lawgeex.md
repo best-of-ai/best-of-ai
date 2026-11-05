@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - casetext
+  - ivo
+  - luminance-ai
   - kira-systems
-  - robin-ai
-  - evisort
-  - harvey
-  - donotpay
+  - legalon
   - spellbook
-  - ironclad-ai
+  - juro-ai
 date: '2025-09-21'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, collaboration]
 ---

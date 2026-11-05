@@ -12,10 +12,14 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
   - claude-cowork
   - salesforce-agentforce
+  - chatgpt-work
+  - microsoft-copilot-studio
+  - lindy-ai
+  - dust
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

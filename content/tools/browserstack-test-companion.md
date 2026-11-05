@@ -12,12 +12,14 @@ category_name: 'Software Testing'
 price: 'Paid'
 featured: false
 rank: 5
-date: '2026-07-29'
 alternatives:
-  - testim
   - mabl
+  - testim
   - applitools
   - qa-wolf
   - momentic-mo
+  - percy
+  - testifly
+date: '2026-07-29'
 tags: [api_available, collaboration, image_based, analytics, fast, ai_powered, intelligent, platform]
 ---

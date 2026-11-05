@@ -12,10 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - aveva
   - aspentech
-  - autogrid
-  - energycap
+  - c3-ai
   - augury
+  - sight-machine
 date: '2026-10-03'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - benchling
   - geneious
-  - wiz
-  - aws-rekognition
-  - cloudhealth
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - benchling
+  - dotmatics
 date: '2025-10-01'
 tags: [collaboration, cloud_based, secure, ai_powered, intelligent, platform, tool, service]
 ---

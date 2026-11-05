@@ -13,8 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - onetrust
-  - drata
-  - vanta
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

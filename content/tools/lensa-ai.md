@@ -13,13 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - topaz-photo-ai
-  - befunky
-  - cleanup-pictures
+  - remini-ai
+  - picsart-ai
   - fotor
-  - photoroom
-  - adobe-lightroom-ai
-  - luminar-neo
+  - perfectcorp
   - neural-love
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, mobile_app, real_time]

@@ -14,13 +14,12 @@ featured: false
 rank: 8
 alternatives:
   - duolingo
-  - rosetta-stone
   - babbel
+  - rosetta-stone
   - pimsleur
+  - speak
+  - memrise
   - preply
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion]
 ---

@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - replit
-  - fly-io
-  - openrouter
-  - pinecone
-  - mintlify
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - supabase-ai
+  - planetscale
+  - turso
+  - mongodb-atlas
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based, fast]
 ---

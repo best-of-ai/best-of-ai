@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - google-maps
+  - waze
   - foursquare
   - yelp
-  - arc-browser
-  - kagi
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [search, local, location, maps, discovery, places, reviews, navigation, geo, mobile_app, real_time, secure]
 ---

@@ -13,13 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - copy-ai
-  - grammarly
   - writesonic
   - jasper
-  - openai-canvas
-  - quillbot
+  - writer
   - wordtune
-  - ai-writer
+  - hyperwrite
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, free_tier, templates]
 ---

@@ -11,13 +11,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - people-ai
-  - salesloft
-  - chorus-ai
-  - clay
-  - instantly
-  - amplemarket
-  - apollo
+  - seismic
+  - highspot
+  - mindtickle
   - gong
 date: '2026-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, training]

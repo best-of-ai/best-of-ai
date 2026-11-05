@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - dovetail-ai
   - hotjar-ai
-  - brandwatch
-  - crimson-hexagon
-  - attention-insight
-  - cb-insights-ai
-  - similarweb
-  - competitor-analyzer
-  - cresh-ai
+  - qualtrics
+  - microsoft-clarity
+  - fullstory
+  - remesh
 date: '2025-09-21'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, fast]
 ---

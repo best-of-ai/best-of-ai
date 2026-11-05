@@ -12,14 +12,11 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
+  - tldr-ai
+  - the-batch
+  - bens-bites
   - the-rundown-ai
-  - superhuman-ai
   - the-neuron
-  - altern-newsletter
-  - intrinsic
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2026-06-22'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

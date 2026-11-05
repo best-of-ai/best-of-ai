@@ -13,7 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - canary-technologies
-  - zendesk
   - intercom
 date: '2026-10-03'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, collaboration, customizable]

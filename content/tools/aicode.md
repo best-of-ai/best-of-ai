@@ -12,13 +12,11 @@ featured: false
 rank: 5
 alternatives:
   - sourcegraph-cody
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
-  - cursor-composer
-  - aider
+  - augment-code
   - cline
-  - codeium
+  - continue-dev
+  - amazon-q
+  - github-copilot
 date: '2026-06-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, enterprise]
 ---

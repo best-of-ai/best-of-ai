@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - surfer-seo
   - clearscope
   - ahrefs
-  - surfer-seo
-  - alli-ai
   - semrush
-  - frase
-  - growthbar
-  - blogseo
+  - alli-ai
+  - marketmuse
 date: '2025-01-01'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, collaboration]
 ---

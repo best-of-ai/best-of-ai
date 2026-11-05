@@ -15,12 +15,6 @@ rank: 8
 alternatives:
   - lemonade
   - root-insurance
-  - datadog
-  - autodesk-construction
-  - procore
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [fast, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

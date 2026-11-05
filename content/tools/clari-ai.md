@@ -14,13 +14,11 @@ featured: false
 rank: 5
 alternatives:
   - gong
-  - outreach
   - people-ai
   - salesloft
+  - outreach
+  - revenue-io
   - chorus-ai
-  - amplemarket
-  - apollo
-  - clay
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
 ---

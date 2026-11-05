@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - adobe-premiere-pro-ai
-  - capcut
-  - flexclip
-  - wave-video
-  - descript
   - pictory
-  - runway
   - veed-io
+  - flexclip
+  - canva
+  - capcut
+  - fliki-ai
+  - clipchamp
+  - wave-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, collaboration, templates, voice_enabled]
 ---

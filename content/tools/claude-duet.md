@@ -12,8 +12,13 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2026-10-22'
 alternatives:
-  - openai-dots meta-muse openclaw manus claude
+  - openai-dots
+  - meta-muse
+  - openclaw
+  - manus
+  - chatgpt-work
+  - slackbot
+date: '2026-10-22'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, agentic, productivity, email, background_agent]
 ---

@@ -13,9 +13,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - aws-rekognition
+  - roboflow
   - clarifai
-  - datarock
+  - google-cloud-vision
+  - azure-ai-vision
+  - aws-rekognition
 date: '2025-10-01'
 tags: [machine_learning, image_based, training, model_based, ai_powered, intelligent, platform, tool]
 ---

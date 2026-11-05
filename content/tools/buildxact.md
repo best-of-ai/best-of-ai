@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - autodesk-construction
+  - buildertrend
   - procore
-  - bloomerang
-  - bonterra
-  - samsara
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - autodesk-construction
+  - trimble-construction
 date: '2025-10-01'
 tags: [collaboration, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

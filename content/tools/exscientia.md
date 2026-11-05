@@ -11,11 +11,16 @@ category_name: 'Drug Discovery'
 price: 'Paid'
 featured: false
 rank: 5
+dead: true
+dead_reason: 'Exscientia merged into Recursion in November 2024.'
+dead_date: '2024-11-20'
 alternatives:
+  - recursion
   - isomorphic-labs
   - atomwise
-  - recursion
   - schrodinger
+  - insilico-medicine
+  - benevolentai
 date: '2026-02-10'
 tags: [model_based, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

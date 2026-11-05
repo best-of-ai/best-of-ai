@@ -26,6 +26,8 @@
   {{ end }}
 {{ end }}
 
+{{ $altPages = partial "dead-last.html" $altPages }}
+
 {{ $toolName := cond (and $tool (ne $tool.Params.name "")) $tool.Params.name (.Title | strings.TrimSuffix " Alternatives") }}
 
 <div class="home-layout">
@@ -77,8 +79,8 @@
       {{ $p := $page.Params }}
       {{ $rank := add $index 1 }}
       {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $p.website) }}
-      <a href="{{ $page.RelPermalink }}" class="alt-ranking-row">
-        <span class="alt-ranking-row__rank">#{{ $rank }}</span>
+      <a href="{{ $page.RelPermalink }}" class="alt-ranking-row{{ if $p.dead }} alt-ranking-row--dead{{ end }}"{{ if $p.dead }} title="{{ with $p.dead_reason }}Discontinued: {{ . }}{{ else }}This tool is no longer active{{ end }}"{{ end }}>
+        <span class="alt-ranking-row__rank">{{ if $p.dead }}<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-label="Discontinued"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>{{ else }}#{{ $rank }}{{ end }}</span>
         <span class="alt-ranking-row__logo">
           <img src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
                onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">

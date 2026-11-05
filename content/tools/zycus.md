@@ -13,9 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - sap-ariba
+  - coupa
   - oracle-scm
-  - kinaxis
-  - blue-yonder
+  - tipalti-ai
 date: '2026-10-03'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations]
 ---

@@ -14,13 +14,11 @@ featured: false
 rank: 8
 alternatives:
   - rev
-  - subtitlebee
+  - trint
+  - sonix
   - otter-subtitles
-  - submagic
-  - invideo
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - verbit
+  - descript
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, collaboration, voice_enabled]
 ---

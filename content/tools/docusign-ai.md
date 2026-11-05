@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - hubspot-business
-  - servicenow
-  - salesforce-einstein
   - pandadoc-ai
-  - proposify-ai
-  - zoho
-  - c3-ai
-  - denovo-ai
+  - dropbox-sign
+  - adobe-acrobat-ai
+  - ironclad-ai
+  - icertis
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

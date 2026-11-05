@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - airbyte-ai
-  - h2o-ai
-  - metabase-ai
+  - mixpanel
   - amplitude-ai
-  - power-bi
-  - scale-ai
-  - tableau
-  - datarobot
+  - heap
+  - plausible
+  - fullstory
+  - hotjar-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, community_driven]
 ---

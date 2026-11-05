@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - flux
-  - playground-ai
+  - canva
+  - photoroom
   - recraft
   - stockimg-ai
   - ideogram
-  - artbreeder
-  - bing-image-creator
-  - civitai
+  - playground-ai
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, templates, image_based, fast]
 ---

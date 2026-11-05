@@ -16,11 +16,9 @@ alternatives:
   - indeed
   - linkedin
   - glassdoor
-  - jobgpt-ai
   - teal
   - huntr
-  - jobbyo
-  - adobe-premiere-pro-ai
+  - jobgpt-ai
 date: '2025-09-21'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, machine_learning, fast]
 ---

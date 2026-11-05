@@ -12,11 +12,9 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - aider
-  - cline
+  - wispr-flow
+  - claude-code
   - cursor
-  - windsurf
-  - gitnexus
 date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, voice_enabled]
 ---

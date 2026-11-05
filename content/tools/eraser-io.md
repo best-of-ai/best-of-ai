@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - tabnine
-  - replit
-  - codiga
-  - wandb-weave
-  - vertex-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - mermaid-chart
+  - excalidraw
+  - drawio
+  - lucidchart-ai
+  - whimsical-ai
+  - creately
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
 ---

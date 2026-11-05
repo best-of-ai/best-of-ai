@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
+  - google-cloud-text-to-speech
+  - azure-ai-speech
+  - elevenlabs
   - playht
-  - cartesia
   - wellsaid-labs
-  - fish-audio
-  - hume-ai
-  - kokoro
-  - lovo
-  - neets-ai
+  - cartesia
 date: '2025-01-01'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, cloud_based, machine_learning]
 ---

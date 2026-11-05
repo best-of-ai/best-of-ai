@@ -15,12 +15,10 @@ rank: 8
 alternatives:
   - schrodinger
   - recursion
-  - workable
-  - datadog
-  - augury
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - exscientia
+  - isomorphic-labs
+  - insilico-medicine
+  - benevolentai
 date: '2025-10-01'
 tags: [machine_learning, training, model_based, ai_powered, intelligent, platform, tool, service]
 ---

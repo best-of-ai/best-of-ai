@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - brandmark
   - looka
+  - brandmark
   - hatchful
   - logoai
   - canva
-  - adobe-premiere-pro-ai
-  - asana
-  - chatgpt
 date: '2025-06-15'
 tags: [design, image_generation, branding, logo, identity, brand_assets, visual_identity, symbols, creative, powerful]
 ---

@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - tulip
   - augury
-  - brex
-  - catapult-sports
-  - contractpodai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - aveva
+  - tulip
+  - cognite
+  - c3-ai
 date: '2025-10-01'
 tags: [real_time, collaboration, analytics, model_based, ai_powered, intelligent, platform, tool]
 ---

@@ -15,12 +15,7 @@ rank: 7
 alternatives:
   - aws-iot
   - particle-iot
-  - wiz
-  - cloudhealth
-  - bigid
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - edge-impulse
 date: '2025-10-01'
 tags: [collaboration, cloud_based, analytics, ai_powered, intelligent, platform, tool, service]
 ---

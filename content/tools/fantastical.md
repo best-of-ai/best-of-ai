@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - calendly
-  - clockwise-ai
-  - acuity-scheduling
   - motion
-  - x-ai
+  - reclaim-ai
+  - clockwise-ai
+  - calendly
   - cal-com
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-06-15'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning, mobile_app, nlp]
 ---

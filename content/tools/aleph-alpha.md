@@ -14,9 +14,10 @@ featured: false
 rank: 7
 alternatives:
   - cohere
-  - deepseek
-  - gemini-pro
+  - mistral
   - ai21-labs
+  - reka-ai
+  - 01-ai
 date: '2025-06-15'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, multimodal, secure, nlp]
 ---

@@ -14,11 +14,8 @@ rank: 7
 alternatives:
   - serno-ai
   - zerotwo-ai
-  - warp
-  - chatgpt
-  - claude
   - slashspace
-  - choosaro
+  - warp
   - wispr-flow
 date: '2025-09-21'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, customizable, model_based, extensible]

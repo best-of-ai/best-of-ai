@@ -18,8 +18,7 @@ alternatives:
   - loomly
   - hootsuite-social
   - flick-ai
-  - missinglettr
-  - predis-ai
+  - publer
 date: '2025-09-21'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, collaboration]
 ---

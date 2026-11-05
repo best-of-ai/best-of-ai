@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - amazon-bedrock
-  - azure-openai
   - groq
-  - vertex-ai
-  - google-ai-studio
-  - cursor
-  - github-copilot
-  - llamaindex
+  - sambanova
+  - together-ai
+  - fireworks-ai
+  - deepinfra
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, real_time, enterprise]
 ---

@@ -13,7 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - cronometer
-  - myfitnesspal
+  - esha-genesis
 date: '2026-10-03'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, mobile_app]
 ---

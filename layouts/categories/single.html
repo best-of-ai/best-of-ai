@@ -6,6 +6,7 @@
 {{ $extra    := where $tools "Params.extra_categories" "intersect" (slice $slug) }}
 {{ $catTools := union $primary $extra }}
 {{ $catTools  = sort $catTools "Params.name" "asc" }}
+{{ $catTools  = partial "dead-last.html" $catTools }}
 
 <div class="home-layout">
 

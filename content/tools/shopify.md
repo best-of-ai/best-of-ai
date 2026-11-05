@@ -14,13 +14,10 @@ featured: false
 rank: 10
 alternatives:
   - bigcommerce
-  - dynamic-yield
-  - magento
-  - stamped-io
   - woocommerce
-  - bloomreach
-  - constructor
-  - igly
+  - magento
+  - squarespace
+  - wix-adi
 date: '2025-09-21'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, enterprise, customizable, integrations]
 ---

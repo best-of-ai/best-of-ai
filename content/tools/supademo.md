@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - jasper-marketing
-  - averi-ai
-  - hubspot
-  - typeform
-  - 6sense-ai
-  - crayon
-  - marketmuse
-  - persado
+  - storylane
+  - navattic
+  - arcade-software
+  - loom
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, voice_enabled]
 ---

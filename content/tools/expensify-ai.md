@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - morningstar-ai
+  - sap-concur
   - ramp
-  - botkeeper
-  - plaid
-  - marketalerts-ai
-  - alphasense
-  - kensho
-  - yodlee
+  - brex
+  - bill-com-ai
+  - tipalti-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, integrations, fast]
 ---

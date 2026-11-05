@@ -11,15 +11,15 @@ category_name: 'Graphic Design'
 price: 'Freemium'
 featured: false
 rank: 5
+dead: true
+dead_reason: 'InVision ended its design and collaboration services on December 31, 2024. Freehand moved to Miro in 2023.'
+dead_date: '2024-12-31'
 alternatives:
   - figma
-  - lucidchart-ai
-  - microsoft-designer
-  - visily
-  - whimsical-ai
-  - canva
-  - adobe-express
-  - adobe-sensei
+  - miro-ai
+  - sketch-ai
+  - penpot-ai
+  - framer
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, free_tier]
 ---

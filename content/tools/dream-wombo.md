@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - flux
-  - ideogram
-  - artbreeder
-  - civitai
+  - nightcafe
   - craiyon
-  - bing-image-creator
-  - comfyui
-  - freepik-ai
+  - playground-ai
+  - leonardo-ai
+  - midjourney
+  - starryai
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based]
 ---

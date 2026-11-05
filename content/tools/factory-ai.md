@@ -14,13 +14,11 @@ featured: false
 rank: 5
 alternatives:
   - devin
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
-  - cline
-  - aider
-  - codeium
-  - copilot-workspace
+  - codex
+  - claude-code
+  - cosine
+  - github-agent-hq
+  - google-jules
 date: '2025-06-15'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, integrations, autonomous]
 ---

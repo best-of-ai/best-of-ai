@@ -12,7 +12,7 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - instrumentl
+  - blackbaud
   - bonterra
   - bloomerang
   - virtuous

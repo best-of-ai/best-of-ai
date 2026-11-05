@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - aidoc-ai
+  - qure-ai
   - zebra-medical
+  - lunit-ai
   - arterys
-  - lever
-  - postman
-  - new-relic
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-06-15'
 tags: [collaboration, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

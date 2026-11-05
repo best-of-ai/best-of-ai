@@ -12,15 +12,13 @@ category_name: 'Image Generation'
 price: 'Free'
 featured: false
 rank: 5
-date: '2026-07-07'
 alternatives:
   - gpt-image
-  - dalle
+  - nano-banana-pro
   - midjourney
   - flux
-  - nano-banana-pro
   - ideogram
   - leonardo-ai
-  - krea-ai
+date: '2026-07-07'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based]
 ---

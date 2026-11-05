@@ -13,14 +13,14 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - flux
+  - dalle
+  - gpt-image
+  - adobe-firefly
   - ideogram
-  - comfyui
-  - stable-diffusion
-  - civitai
-  - artbreeder
-  - craiyon
-  - dream-wombo
+  - leonardo-ai
+  - midjourney
+  - flux
+  - microsoft-designer
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, free_tier, integrations, image_based]
 ---

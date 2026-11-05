@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - be-my-eyes
-  - accessibe
-  - papercup
-  - deepdub
-  - applitools
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - speechify
+  - elevenlabs
+  - murf
+  - wellsaid-labs
+  - google-cloud-text-to-speech
+  - amazon-polly
 date: '2025-10-01'
 tags: [browser_extension, mobile_app, voice_enabled, powerful, extensible, ai_powered, intelligent, platform]
 ---

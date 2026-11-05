@@ -13,9 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - qventus
+  - notable-health
   - pulsara
-  - hippocratic-ai
-  - medidata
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, machine_learning, analytics]
 ---

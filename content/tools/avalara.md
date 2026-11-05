@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - vertex-inc
   - taxjar
-  - turbotax
-  - arterys
-  - datadog
-  - persona
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - stripe
 date: '2025-10-01'
 tags: [collaboration, customizable, integrations, cloud_based, ai_powered, intelligent, platform, tool]
 ---

@@ -13,10 +13,11 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - landing-ai
+  - google-cloud-vision
+  - azure-ai-vision
   - clarifai
-  - hive-moderation
-  - datarock
+  - roboflow
+  - landing-ai
 date: '2025-10-01'
 tags: [api_available, cloud_based, image_based, training, model_based, easy_to_use, ai_powered, intelligent]
 ---

@@ -11,14 +11,7 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - langchain
-  - langflow
-  - coze
-  - crewai
-  - flowise
-  - agentgpt
-  - autogpt
-  - dify
+  - openclaw
 date: '2025-01-01'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic]
 ---

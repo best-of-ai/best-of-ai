@@ -12,11 +12,13 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
-  - chatgpt-atlas
-  - openai-operator
-  - claude-cowork
+  - claude-duet
+  - chatgpt-work
+  - openai-dots
+  - meta-muse
+  - openclaw
+date: '2026-11-05'
 tags: [ai_agent, assistant, gmail, google, automation, background_tasks, productivity, workspace]
 ---
 

@@ -13,8 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - overjet
-  - arterys
-  - aidoc-ai
+  - dental-monitoring
 date: '2026-02-10'
 tags: [real_time, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,10 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - everlaw
-  - boundless
-  - docketwise
-  - spellbook
-  - lexion-ai
+  - disco
+  - harvey
+  - casetext
 date: '2026-02-01'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, collaboration, fast]
 ---

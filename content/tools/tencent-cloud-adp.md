@@ -8,16 +8,17 @@ website: 'https://adp.cloud.tencent.com/'
 company: 'tencent'
 logo_url: ''
 category: 'ai-agents'
+category_name: 'AI Agents'
+price: 'Freemium'
+featured: false
+rank: 5
 alternatives:
   - baidu-qianfan
   - palantir-aip
   - dify
   - coze
   - relevance-ai
-category_name: 'AI Agents'
-price: 'Freemium'
-featured: false
-rank: 5
+  - azure-ai-foundry
 date: '2026-07-17'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise, customizable, cloud_based]
 ---

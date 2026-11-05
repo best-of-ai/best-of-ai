@@ -8,17 +8,14 @@ website: 'https://rocm.docs.amd.com/'
 company: 'amd'
 logo_url: ''
 category: 'devtools'
-alternatives:
-  - nvidia-nim
-  - openvino
-  - qualcomm-ai-hub
-  - ollama
-  - groq
-  - cerebras
 category_name: 'DevTools'
 price: 'Free'
 featured: false
 rank: 5
+alternatives:
+  - nvidia-cuda
+  - openvino
+  - qualcomm-ai-hub
 date: '2026-07-17'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning, training, model_based]
 ---

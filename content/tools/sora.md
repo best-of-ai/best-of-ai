@@ -12,15 +12,17 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 10
-date: '2026-07-17'
+dead: true
+dead_reason: 'OpenAI announced the shutdown in March 2026. The app closed on April 26, 2026 and the API was scheduled to close on September 24, 2026.'
+dead_date: '2026-04-26'
 alternatives:
   - veo-3
   - kling-ai
-  - runway
+  - runway-gen3
   - luma-dream-machine
   - pika-video
   - hailuo-ai
-  - veo2
-  - haiper
+  - wan-video
+date: '2026-07-17'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, model_based]
 ---

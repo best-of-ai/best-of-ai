@@ -12,12 +12,7 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - cardiologs
-  - dental-monitoring
-  - crisalix
-  - zebra-medical
-  - viz-ai
-  - arterys
+  - digital-diagnostics
 date: '2026-10-03'
 tags: [image_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

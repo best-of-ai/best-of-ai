@@ -11,15 +11,14 @@ category_name: 'Debugging'
 price: 'Paid'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Dynatrace acquired Rookout in 2023 and folded it into its platform as Live Debugger.'
+dead_date: '2023'
 alternatives:
   - sentry
-  - bugsnag
   - datadog
-  - new-relic
-  - arcgis
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - bugsnag
+  - dynatrace
 date: '2025-10-01'
 tags: [collaboration, cloud_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

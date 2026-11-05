@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - 6sense-ai
-  - persado
-  - typeform
-  - jasper-marketing
-  - marketmuse
-  - crayon
-  - unbounce-ai
-  - arcade-software
+  - activecampaign-ai
+  - zoho
+  - mailchimp
+  - braze
+  - iterable
+  - salesforce
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, enterprise, customizable]
 ---

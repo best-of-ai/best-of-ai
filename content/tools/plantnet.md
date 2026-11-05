@@ -12,14 +12,8 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - whisk
-  - yuka
-  - sidechef
-  - lifesum
-  - notion-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - inaturalist
+  - merlin-bird-id
 date: '2025-09-21'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary, collaboration]
 ---

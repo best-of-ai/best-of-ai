@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - drift
-  - intercom
-  - zendesk
+  - cresta
   - balto-ai
   - talkdesk-ai
-  - freshdesk
-  - chatbase
-  - forethought-ai
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, real_time]
 ---

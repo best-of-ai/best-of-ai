@@ -14,13 +14,13 @@ featured: false
 rank: 5
 alternatives:
   - luma-dream-machine
-  - sora
   - kling-ai
+  - runway-gen3
   - hailuo-ai
-  - haiper
-  - runway
   - veo-3
-  - gen-2
+  - pixverse
+  - vidu
+  - wan-video
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based, fast]
 ---

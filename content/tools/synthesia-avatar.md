@@ -13,12 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - heygen
   - colossyan
   - d-id
   - elai
-  - heygen
-  - hedra
   - hour-one
+  - hedra
   - movio
   - vidnoz
 date: '2025-09-21'

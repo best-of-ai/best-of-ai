@@ -12,15 +12,15 @@ category_name: 'Image Generation'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-07-02'
 alternatives:
-  - midjourney
-  - ideogram
-  - flux
-  - stable-diffusion
-  - krea-ai
   - gpt-image
-  - dalle
+  - midjourney
+  - flux
+  - ideogram
+  - adobe-firefly
   - leonardo-ai
+  - krea-ai
+  - recraft
+date: '2026-07-02'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, image_based, model_based, fast]
 ---

@@ -11,14 +11,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - brandwatch
-  - crimson-hexagon
-  - attention-insight
   - hotjar-ai
-  - similarweb
-  - cb-insights-ai
-  - competitor-analyzer
-  - cresh-ai
+  - microsoft-clarity
+  - fullstory
+  - mixpanel
+  - posthog-ai
+  - dovetail-ai
 date: '2026-06-15'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration, customizable]
 ---

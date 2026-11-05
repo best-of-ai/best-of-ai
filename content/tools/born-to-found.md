@@ -13,10 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - denovo-ai
+  - bonsai
   - hubspot-business
-  - zoho
-  - pandadoc-ai
-  - proposify-ai
 date: '2026-07-16'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, mobile_app, cloud_based]
 ---

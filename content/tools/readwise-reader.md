@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - notion-ai
-  - glean
+  - liner-ai
+  - recall-ai
+  - remio
+  - mem-ai
   - reflect
-  - capacities
-  - logseq
   - obsidian-ai
-  - anything-llm
-  - anytype-ai
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - appen
+  - scale-ai
+  - label-studio
   - cvat
-  - schrodinger
-  - transifex
-  - clarifai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - snorkel-ai
+  - appen
+  - surge-ai
 date: '2025-10-01'
 tags: [collaboration, machine_learning, image_based, training, model_based, fast, ai_powered, intelligent]
 ---

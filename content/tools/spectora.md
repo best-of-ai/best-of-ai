@@ -12,9 +12,7 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - appfolio
-  - boxbrownie
-  - matterport
+  - homegauge
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

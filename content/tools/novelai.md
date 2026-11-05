@@ -13,13 +13,11 @@ featured: false
 rank: 7
 alternatives:
   - sudowrite
-  - article-forge
-  - scalenut
-  - textio
-  - quillbot
-  - copy-ai
-  - grammarly
-  - jasper
+  - ai-dungeon
+  - chibi-ai
+  - aiwritebook
+  - squibler
+  - lex-page
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, nlp, image_based, training]
 ---

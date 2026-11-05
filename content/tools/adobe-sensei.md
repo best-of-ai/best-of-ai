@@ -15,12 +15,7 @@ rank: 9
 alternatives:
   - canva
   - figma
-  - lucidchart-ai
-  - adobe-express
-  - adobe-firefly
-  - midjourney
-  - galileo-ai
-  - khroma
+  - microsoft-designer
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, machine_learning, powerful]
 ---

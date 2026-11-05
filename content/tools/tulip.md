@@ -13,13 +13,10 @@ featured: false
 rank: 7
 alternatives:
   - sight-machine
+  - aveva
   - augury
-  - datadog
-  - new-relic
-  - confluence-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - cognite
+  - c3-ai
 date: '2025-10-01'
 tags: [collaboration, customizable, fast, ai_powered, intelligent, platform, tool, service]
 ---

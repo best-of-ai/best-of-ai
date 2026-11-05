@@ -13,11 +13,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - suki-ai
-  - nuance-dax
-  - k-health
-  - glass-health
   - careforce-ai
+  - notable-health
+  - qventus
+  - abridge-ai
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, voice_enabled]
 ---

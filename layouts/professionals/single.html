@@ -106,7 +106,7 @@
           </a>
         </div>
         <div class="tools-grid">
-          {{ range $featTools }}
+          {{ range partial "dead-last.html" $featTools }}
           {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "picks") }}
           {{ end }}
         </div>
@@ -116,6 +116,7 @@
         {{ $c        := . }}
         {{ $catTools := where $tools "Params.category" $c }}
         {{ $catTools  = sort $catTools "Params.name" }}
+        {{ $catTools  = partial "dead-last.html" $catTools }}
         {{ if $catTools }}
         <section class="prof-cat-section" data-cat="{{ $c }}">
           <h2 class="prof-cat-section__title">

@@ -15,8 +15,6 @@ alternatives:
   - square
   - 7shifts
   - marketman
-  - shopify
-  - bigcommerce
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, analytics]
 ---

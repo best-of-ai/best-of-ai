@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - luma-dream-machine
-  - steve-ai
-  - moovly
-  - sora
-  - kling-ai
-  - hailuo-ai
-  - haiper
   - raw-shorts
+  - steve-ai
+  - powtoon
+  - vyond
+  - animaker
+  - renderforest
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, collaboration, enterprise, training]
 ---

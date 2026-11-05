@@ -12,9 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - jobber
-  - servicetitan
-  - bonsai
+  - vagaro
+  - square
+  - acuity-scheduling
 date: '2026-10-03'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, powerful]
 ---

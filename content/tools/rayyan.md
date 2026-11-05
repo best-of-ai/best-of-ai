@@ -12,11 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - reaxys
-  - scispace
-  - semantic-scholar
-  - scite-ai
+  - elicit
   - undermind
+  - consensus
+  - scite-ai
 date: '2026-10-03'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration]
 ---

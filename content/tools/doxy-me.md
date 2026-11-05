@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - teladoc
+  - simplepractice
+  - jane-app
   - amwell
-  - hopper
-  - gitbook
-  - bambu-studio
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - teladoc
 date: '2025-10-01'
 tags: [enterprise, free_tier, customizable, ai_powered, intelligent, platform, tool, service]
 ---

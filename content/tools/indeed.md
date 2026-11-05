@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
+  - linkedin
   - ziprecruiter
   - glassdoor
-  - linkedin
-  - jobbyo
   - huntr
-  - jobgpt-ai
   - teal
-  - adobe-premiere-pro-ai
+  - jobgpt-ai
 date: '2025-09-21'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, fast]
 ---

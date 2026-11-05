@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - sketchup
   - homestyler
-  - houzz
   - planner5d
-  - pixlr
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - collov-ai
+  - virtual-staging-ai
+  - houzz
 date: '2025-06-15'
 tags: [home_design, design, creative, interior, architecture, floor_plan, furniture, renovation, decor, free_tier, image_based, powerful]
 ---

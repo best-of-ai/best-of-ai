@@ -11,14 +11,14 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - systran
-  - google-translate
-  - smartcat-ai
+  - phrase-ai
   - lokalise-ai
-  - microsoft-translator
-  - deepl
-  - reverso
+  - crowdin
+  - transifex
+  - trados
   - memoq
+  - smartcat-ai
+  - systran
 date: '2026-06-15'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, collaboration, integrations, machine_learning]
 ---

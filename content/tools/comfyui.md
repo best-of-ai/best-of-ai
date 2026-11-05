@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
-  - flux
-  - ideogram
-  - bing-image-creator
   - stable-diffusion
-  - artbreeder
+  - invokeai
   - civitai
-  - craiyon
-  - dream-wombo
+  - krea-ai
+  - leonardo-ai
+  - flux
 date: '2025-09-21'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, open_source, customizable, image_based]
 ---

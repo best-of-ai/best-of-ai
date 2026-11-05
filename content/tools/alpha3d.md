@@ -13,13 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - masterpiece-studio
+  - kaedim
+  - luma-ai
   - meshy-ai
   - tripo3d
-  - kaedim
-  - spline
-  - luma-ai
-  - meshcapade
+  - polycam-ai
+  - rodin
   - csm-ai
 date: '2025-06-15'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, image_based, model_based]

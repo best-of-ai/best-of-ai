@@ -14,10 +14,8 @@ rank: 5
 alternatives:
   - vue-ai
   - fashwell
-  - stitch-fix
-  - clo3d
-  - outfit-fm
   - theyes
+  - outfit-fm
 date: '2026-10-03'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, image_based]
 ---

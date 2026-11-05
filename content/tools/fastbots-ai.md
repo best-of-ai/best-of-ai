@@ -11,14 +11,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - scalerx
-  - manychat
-  - voiceflow
+  - chatbase
   - botpress
-  - fitbod
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - voiceflow
+  - manychat
+  - tidio
+  - landbot
+  - kommunicate
 date: '2025-01-01'
 tags: [customizable, training, fast, ai_powered, intelligent, platform, tool, service]
 ---

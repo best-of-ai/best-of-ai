@@ -11,15 +11,14 @@ category_name: 'Database Tools'
 price: 'Paid'
 featured: false
 rank: 5
+dead: true
+dead_reason: 'Fauna shut down its hosted service on May 30, 2025 and deleted all accounts.'
+dead_date: '2025-05-30'
 alternatives:
   - planetscale
   - neon-db
-  - aws-rekognition
-  - datadog
-  - postman
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - turso
+  - mongodb-atlas
 date: '2025-10-01'
 tags: [api_available, cloud_based, model_based, versatile, ai_powered, intelligent, platform, tool]
 ---

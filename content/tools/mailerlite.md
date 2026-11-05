@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - klaviyo-ai
   - mailchimp
-  - shortwave
-  - activecampaign-ai
-  - boomerang
+  - convertkit
   - brevo-ai
-  - mixmax
-  - sanebox
+  - getresponse
+  - beehiiv
+  - substack
 date: '2026-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, free_tier]
 ---

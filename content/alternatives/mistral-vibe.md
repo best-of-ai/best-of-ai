@@ -1,0 +1,3 @@
+---
+title: 'Mistral Vibe Alternatives'
+---

@@ -14,6 +14,7 @@ rank: 5
 alternatives:
   - dronedeploy
   - pix4d
+  - propeller-aero
 date: '2026-02-10'
 tags: [autonomous, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

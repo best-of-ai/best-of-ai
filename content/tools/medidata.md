@@ -12,10 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - tempus-ai
-  - pathai
-  - bluedot
-  - qventus
+  - veeva-systems
+  - iqvia
+  - flatiron-health
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, model_based]
 ---

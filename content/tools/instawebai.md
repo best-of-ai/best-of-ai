@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - framer
-  - wix-adi
-  - 10web
   - durable
+  - 10web
   - hocoos
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - wix-adi
+  - framer
+  - squarespace
 date: '2025-01-01'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, image_based, powerful]
 ---

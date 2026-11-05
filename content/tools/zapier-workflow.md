@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - uipath
-  - tray-io
-  - relay-app
   - workato-ai
-  - nintex
-  - leania-ai
-  - power-automate-workflow
-  - adobe-premiere-pro-ai
+  - tray-io
+  - boomi
+  - make
+  - n8n
+  - uipath
+  - relay-app
 date: '2025-09-21'
 tags: [automation, workflow, productivity, efficiency, process, integration, triggers, bots, orchestration, model_based, easy_to_use]
 ---

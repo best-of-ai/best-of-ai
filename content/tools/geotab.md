@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - fleetio
   - samsara
-  - procore
-  - osano
-  - formant
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - motive
+  - fleetio
 date: '2025-10-01'
 tags: [api_available, enterprise, integrations, analytics, fast, ai_powered, intelligent, platform]
 ---

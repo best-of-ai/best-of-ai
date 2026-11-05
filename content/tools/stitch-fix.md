@@ -17,7 +17,6 @@ alternatives:
   - heuritech
   - outfit-fm
   - theyes
-  - clo3d
 date: '2026-10-03'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe]
 ---

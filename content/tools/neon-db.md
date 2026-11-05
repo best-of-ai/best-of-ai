@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - supabase-ai
   - planetscale
-  - fauna
-  - stripe
-  - mostly-ai
-  - tonic-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - turso
+  - mongodb-atlas
 date: '2026-06-15'
 tags: [collaboration, model_based, fast, ai_powered, intelligent, platform, tool, service]
 ---

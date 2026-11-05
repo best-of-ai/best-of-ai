@@ -12,13 +12,9 @@ featured: false
 rank: 5
 alternatives:
   - crayon
-  - hubspot
+  - klue
   - jasper-marketing
   - marketmuse
-  - persado
-  - typeform
-  - 6sense-ai
-  - unbounce-ai
 date: '2025-01-01'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
 ---

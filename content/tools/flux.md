@@ -12,15 +12,15 @@ category_name: 'Image Generation'
 price: 'Free'
 featured: false
 rank: 9
-date: '2026-07-17'
 alternatives:
-  - stable-diffusion
   - midjourney
   - dalle
   - gpt-image
   - ideogram
+  - stable-diffusion
   - leonardo-ai
   - krea-ai
-  - civitai
+  - recraft
+date: '2026-07-17'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, api_available, collaboration, customizable]
 ---

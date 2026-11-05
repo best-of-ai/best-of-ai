@@ -13,6 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - arcgis
+  - qgis
+  - datarock
 date: '2026-10-03'
 tags: [collaboration, machine_learning, image_based, model_based, fast, ai_powered, intelligent, platform]
 ---

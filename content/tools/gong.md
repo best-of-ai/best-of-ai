@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - people-ai
-  - salesloft
-  - apollo
-  - instantly
-  - lavender
-  - amplemarket
+  - clari-ai
   - chorus-ai
-  - clay
+  - jiminny
+  - avoma
+  - salesloft
+  - outreach
+  - people-ai
+  - revenue-io
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise, customizable, model_based]
 ---

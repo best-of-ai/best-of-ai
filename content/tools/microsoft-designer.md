@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - figma
   - canva
-  - galileo-ai
-  - lucidchart-ai
-  - visily
   - adobe-express
-  - adobe-sensei
+  - figma
+  - visme-ai
   - adobe-firefly
+  - picsart-ai
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, free_tier, customizable]
 ---

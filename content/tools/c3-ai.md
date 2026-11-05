@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - hubspot-business
+  - palantir-aip
+  - datarobot
+  - dataiku
+  - h2o-ai
+  - databricks
   - salesforce-einstein
-  - servicenow
-  - zoho
-  - docusign-ai
-  - pandadoc-ai
-  - denovo-ai
-  - proposify-ai
 date: '2026-06-15'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, customizable]
 ---

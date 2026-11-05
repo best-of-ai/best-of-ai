@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - greenhouse
-  - workday
-  - adp
-  - ashby
-  - betterworks-ai
-  - 15five-ai
-  - bamboohr
   - eightfold-ai
+  - beamery
+  - seekout
+  - hiredscore
+  - paradox-ai
+  - greenhouse
 date: '2025-06-15'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, customizable, analytics]
 ---

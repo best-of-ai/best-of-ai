@@ -12,14 +12,9 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - udemy
-  - coursera
-  - khan-academy
-  - khanmigo
-  - brilliant
-  - quizlet-ai
-  - studysmarter
-  - synthesis
+  - docebo
+  - 360learning
+  - cornerstone-ondemand
 date: '2026-09-24'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, collaboration, customizable, powerful]
 ---

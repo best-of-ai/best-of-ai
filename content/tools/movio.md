@@ -11,13 +11,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - heygen
+  - synthesia
   - colossyan
   - d-id
-  - heygen
-  - hedra
-  - hour-one
   - elai
-  - synthesia-avatar
+  - hour-one
+  - hedra
   - vidnoz
 date: '2026-06-15'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, collaboration, training]

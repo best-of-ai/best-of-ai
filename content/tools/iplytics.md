@@ -14,12 +14,8 @@ rank: 7
 alternatives:
   - patsnap
   - derwent-innovation
-  - procore
-  - fleetio
-  - hudl
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - questel
+  - lens-org
 date: '2025-10-01'
 tags: [collaboration, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

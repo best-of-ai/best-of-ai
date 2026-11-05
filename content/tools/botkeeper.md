@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - morningstar-ai
-  - plaid
-  - ramp
-  - expensify-ai
-  - alphasense
-  - kensho
-  - yodlee
+  - quickbooks
+  - pilot-ai
+  - zeni-ai
   - bill-com-ai
+  - vic-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, integrations, machine_learning, fast]
 ---

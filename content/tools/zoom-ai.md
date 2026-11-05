@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 10
 alternatives:
-  - fireflies-ai
+  - webex
+  - microsoft-365-copilot
   - otter-ai
-  - avoma
-  - claap
+  - fireflies-ai
   - fathom
-  - grain
-  - meetgeek
-  - noty-ai
+  - read-ai
+  - avoma
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time]
 ---

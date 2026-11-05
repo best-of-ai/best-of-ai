@@ -11,14 +11,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - smartling
-  - lokalise-ai
-  - phrase-ai
   - deepl
   - google-translate
   - microsoft-translator
   - reverso
-  - memoq
+  - smartling
+  - trados
 date: '2026-06-15'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, enterprise, customizable, cloud_based]
 ---

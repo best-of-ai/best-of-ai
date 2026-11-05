@@ -12,8 +12,12 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 4
-date: '2026-11-02'
 alternatives:
-  - relevance-ai lindy artisan
+  - relevance-ai
+  - lindy-ai
+  - artisan
+  - 11x-ai
+  - cassidy-ai
+date: '2026-11-02'
 tags: [ai_agents, ai_workforce, crm, sales, customer_support, automation, voice_agents, business, workflow, role_based]
 ---

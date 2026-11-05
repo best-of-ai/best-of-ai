@@ -12,15 +12,14 @@ category_name: 'Video Generator'
 price: 'Paid'
 featured: false
 rank: 5
-date: '2026-07-17'
 alternatives:
-  - sora
   - kling-ai
-  - runway
+  - runway-gen3
   - luma-dream-machine
   - pika-video
   - hailuo-ai
-  - veo2
-  - haiper
+  - vidu
+  - wan-video
+date: '2026-07-17'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, voice_enabled, model_based]
 ---

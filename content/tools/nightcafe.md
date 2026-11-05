@@ -16,11 +16,10 @@ alternatives:
   - artbreeder
   - mage-space
   - seaart
-  - flux
-  - ideogram
-  - bing-image-creator
-  - civitai
-  - comfyui
+  - leonardo-ai
+  - midjourney
+  - playground-ai
+  - craiyon
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, model_based]
 ---

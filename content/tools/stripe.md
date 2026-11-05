@@ -13,14 +13,8 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - brex
-  - mercury
-  - jumio
-  - covariant
-  - geneious
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - adyen
+  - square
 date: '2025-10-01'
 tags: [api_available, enterprise, customizable, integrations, machine_learning, training, ai_powered, intelligent]
 ---

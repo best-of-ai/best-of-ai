@@ -19,8 +19,6 @@ alternatives:
   - enhancv
   - jobscan
   - reztune
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional, real_time, templates, fast]
 ---

@@ -12,11 +12,16 @@ category_name: 'Graphic Design'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
   - canva
-  - figma
-  - midjourney
+  - figma-weave
+  - figma-make
+  - adobe-firefly-ai-assistant
+  - galileo-ai
+  - uizard
+  - magic-patterns
+  - microsoft-designer
+date: '2026-11-05'
 tags: [design, prototyping, slides, visual, mockup, claude, collaboration, creative]
 ---
 

@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - mixmax
-  - sanebox
-  - boomerang
   - shortwave
   - spark-mail
+  - sanebox
   - spike
   - front
-  - warmbox
+  - boomerang
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, fast]
 ---

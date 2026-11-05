@@ -11,15 +11,12 @@ category_name: 'Pets'
 price: 'Paid'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Reports say Whistle''s GPS trackers stopped working on August 31, 2025 after Tractive took over the brand from Mars Petcare.'
+dead_date: '2025-08-31'
 alternatives:
+  - tractive
   - petcube
-  - embark
-  - autogrid
-  - betterhelp
-  - teladoc
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [real_time, analytics, ai_powered, intelligent, platform, tool, service, solution]
 ---

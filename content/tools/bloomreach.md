@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - shopify
-  - bigcommerce
-  - dynamic-yield
-  - magento
-  - woocommerce
-  - stamped-io
+  - algolia-ai-search
   - constructor
-  - igly
+  - klevu
+  - nosto-ai
+  - dynamic-yield
 date: '2025-06-15'
 tags: [ecommerce, business, marketing, retail, shopping, online_store, product_catalog, checkout, conversions, customizable]
 ---

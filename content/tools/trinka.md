@@ -14,6 +14,9 @@ rank: 5
 alternatives:
   - grammarly
   - prowritingaid
+  - paperpal
+  - scribbr-ai
+  - jenni-ai
 date: '2026-10-03'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration, voice_enabled]
 ---

@@ -12,14 +12,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-bedrock
-  - groq
-  - vertex-ai
-  - llamaindex
-  - roboflow
-  - cursor
-  - azure-openai
-  - github-copilot
+  - pinecone
+  - qdrant
+  - weaviate
+  - milvus
+  - chroma
+  - lancedb
+  - turbopuffer
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, cloud_based]
 ---

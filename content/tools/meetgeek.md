@@ -14,13 +14,13 @@ featured: false
 rank: 8
 alternatives:
   - fireflies-ai
-  - avoma
-  - noty-ai
-  - zoom-ai
   - otter-ai
-  - claap
   - fathom
-  - grain
+  - read-ai
+  - tldv
+  - avoma
+  - tactiq
+  - supernormal
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
 ---

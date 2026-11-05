@@ -14,12 +14,7 @@ rank: 7
 alternatives:
   - azure-iot
   - aws-iot
-  - moralis
-  - alchemy-web3
-  - teladoc
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - edge-impulse
 date: '2025-10-01'
 tags: [cloud_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

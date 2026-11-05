@@ -14,13 +14,11 @@ featured: false
 rank: 5
 alternatives:
   - harvey
+  - legora
   - casetext
   - spellbook
+  - luminance-ai
   - robin-ai
-  - lawgeex
-  - kira-systems
-  - donotpay
-  - lettu
 date: '2026-09-18'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, model_based]
 ---

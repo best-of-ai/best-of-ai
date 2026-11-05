@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - datarobot
-  - sisense-ai
-  - airbyte-ai
-  - motherduck
-  - obviously-ai
-  - amplitude-ai
-  - power-bi
-  - tableau
+  - surge-ai
+  - labelbox
+  - appen
+  - snorkel-ai
+  - label-studio
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, enterprise, customizable, nlp]
 ---

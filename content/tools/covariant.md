@@ -14,13 +14,8 @@ featured: false
 rank: 8
 alternatives:
   - intrinsic
+  - physical-intelligence
   - formant
-  - betterhelp
-  - root-insurance
-  - zebra-medical
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [training, model_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

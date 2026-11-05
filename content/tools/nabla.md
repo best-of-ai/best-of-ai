@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - nuance-dax
   - abridge-ai
+  - heidi-health
+  - freed
   - suki-ai
-  - doximity
-  - babylon-health
-  - ada-health
-  - aidoc-ai
-  - alphafold-ai
+  - deepscribe
+  - nuance-dax
+  - ambience-healthcare
 date: '2025-06-15'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, integrations]
 ---

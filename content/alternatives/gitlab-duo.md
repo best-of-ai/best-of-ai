@@ -1,0 +1,3 @@
+---
+title: 'GitLab Duo Alternatives'
+---

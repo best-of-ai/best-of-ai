@@ -13,10 +13,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - heygen
+  - synthesia
   - colossyan
   - d-id
-  - heygen
-  - synthesia-avatar
   - hour-one
   - hedra
   - movio

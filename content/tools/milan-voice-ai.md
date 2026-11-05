@@ -15,7 +15,6 @@ rank: 5
 alternatives:
   - elevenlabs
   - playht
-  - murf
   - resemble-ai
   - fish-audio
   - cartesia

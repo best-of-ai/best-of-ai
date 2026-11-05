@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - zoom-ai
-  - fireflies-ai
-  - otter-ai
-  - avoma
-  - claap
   - fathom
-  - grain
-  - meetgeek
+  - otter-ai
+  - fireflies-ai
+  - avoma
+  - read-ai
+  - lattice-ai
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time]
 ---

@@ -15,9 +15,11 @@ rank: 5
 alternatives:
   - tableau
   - power-bi
-  - hex
+  - metabase-ai
   - thoughtspot
   - domo-ai
+  - sisense-ai
+  - hex
 date: '2026-02-10'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, cloud_based, machine_learning]
 ---

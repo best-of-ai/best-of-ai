@@ -11,14 +11,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - 11x-ai
+  - artisan
   - apollo
-  - lavender
-  - chorus-ai
+  - amplemarket
   - clay
   - instantly
-  - amplemarket
-  - gong
-  - outreach
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
 ---

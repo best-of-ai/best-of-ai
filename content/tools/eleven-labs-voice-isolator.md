@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - stable-audio
+  - soundraw
+  - adobe-firefly
   - elevenlabs
-  - descript
-  - krisp
-  - adobe-podcast
-  - murf
-  - voicemod
-  - ace-studio
-  - adobe-enhance-speech
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, free_tier, customizable, voice_enabled]
 ---

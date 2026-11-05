@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - flux
-  - ideogram
-  - civitai
-  - craiyon
-  - freepik-ai
-  - midjourney
   - leonardo-ai
-  - stable-diffusion
+  - midjourney
+  - flux
+  - freepik-ai
+  - comfyui
+  - invokeai
+  - ideogram
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, real_time, image_based, easy_to_use]
 ---

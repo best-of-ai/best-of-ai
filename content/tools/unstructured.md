@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - roboflow
+  - reducto
+  - firecrawl
   - llamaindex
-  - vertex-ai
-  - replit
-  - fireworks-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - nanonets
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, cloud_based, machine_learning]
 ---

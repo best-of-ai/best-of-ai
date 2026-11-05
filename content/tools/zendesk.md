@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 9
 alternatives:
-  - drift
   - intercom
   - freshdesk
-  - forethought-ai
+  - help-scout
+  - front
   - gorgias
-  - hubspot-crm
-  - salesforce
-  - freshsales
+  - kustomer-ai
+  - gladly-ai
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, collaboration, customizable, voice_enabled]
 ---

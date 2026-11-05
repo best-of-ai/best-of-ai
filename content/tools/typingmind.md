@@ -16,7 +16,8 @@ alternatives:
   - poe
   - chatplayground-ai
   - openrouter
-  - mistral-le-chat
+  - open-webui
+  - serno-ai
   - cuey
 date: '2026-09-28'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, api_available, collaboration, templates]

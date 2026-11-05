@@ -16,16 +16,11 @@ alternatives:
   - altern
   - theres-an-ai-for-that
   - futurepedia
-  - future-tools
   - toolify-ai
   - topai-tools
   - aixploria
   - dang-ai
   - insidr-ai
-  - allthingsai
-  - productivity-directory
-  - ai-for-developer
-  - aidir-wiki
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
 ---

@@ -14,13 +14,11 @@ featured: false
 rank: 8
 alternatives:
   - fireflies-ai
-  - avoma
-  - meetgeek
-  - zoom-ai
+  - tactiq
   - otter-ai
-  - claap
   - fathom
-  - grain
+  - read-ai
+  - meetgeek
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
 ---

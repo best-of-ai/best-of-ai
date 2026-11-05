@@ -13,13 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - pandadoc-ai
-  - salesforce-einstein
-  - zoho
-  - hubspot-business
   - proposify-ai
   - docusign-ai
-  - servicenow
-  - c3-ai
+  - honeybook
+  - pitch
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, templates, analytics]
 ---

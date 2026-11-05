@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - coursera
-  - quizlet-ai
+  - edx
+  - datacamp
   - codecademy
-  - thea-ai
-  - carnegie-learning
-  - brilliant
-  - chegg-ai
-  - dreambox-learning
+  - khan-academy
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning, customizable]
 ---

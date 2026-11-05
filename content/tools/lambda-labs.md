@@ -14,6 +14,7 @@ featured: false
 rank: 7
 alternatives:
   - coreweave-ai
+  - crusoe-ai
   - runpod-ai
   - vast-ai
   - paperspace-ai

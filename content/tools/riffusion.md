@@ -12,14 +12,12 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - mubert
-  - udio
-  - aiva
-  - loudly
-  - soundraw
-  - beatoven-ai
-  - boomy
   - suno
+  - udio
+  - stable-audio
+  - mubert
+  - soundraw
+  - aiva
 date: '2025-06-15'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, open_source, image_based, voice_enabled]
 ---

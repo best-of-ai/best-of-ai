@@ -11,12 +11,14 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-07-29'
 alternatives:
   - manus
-  - openclaw
-  - crewai
-  - langchain
   - openai-operator
+  - perplexity-comet
+  - perplexity-computer
+  - claude-cowork
+  - chatgpt-work
+  - openclaw
+date: '2026-07-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, image_based, model_based]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - salesforce
+  - attio
   - hubspot-crm
   - pipedrive
-  - attio
-  - zoho-crm
   - close
   - copper
-  - freshsales
+  - lightfield-ai
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable]
 ---

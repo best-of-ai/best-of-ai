@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - roboflow
-  - vertex-ai
-  - llamaindex
-  - replit
+  - together-ai
   - fireworks-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - groq
+  - replicate
+  - modal-ai
+  - deepinfra
+  - fal-ai
+  - baseten
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, cloud_based, image_based]
 ---

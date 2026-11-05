@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - snapgene
   - benchling
+  - dotmatics
   - dnanexus
-  - stripe
-  - bloomerang
-  - arcgis
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

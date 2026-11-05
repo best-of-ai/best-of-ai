@@ -13,9 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - leetify
-  - hudl
-  - catapult-sports
-  - stats-perform
 date: '2025-10-01'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, collaboration, customizable, analytics]
 ---

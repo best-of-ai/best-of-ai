@@ -13,13 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - clipdrop
   - erasebg
-  - cutout-pro
+  - clipdrop
   - photoroom
-  - adobe-lightroom-ai
-  - adobe-premiere-pro-ai
-  - asana
+  - cutout-pro
+  - pixelcut-ai
   - canva
 date: '2025-01-01'
 tags: [image_editing, design, creative, background, image_processing, cutout, transparency, photo_editing, visual, api_available, image_based, fast]

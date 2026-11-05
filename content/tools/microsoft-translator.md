@@ -15,12 +15,9 @@ rank: 7
 alternatives:
   - google-translate
   - deepl
-  - lokalise-ai
-  - smartling
   - reverso
-  - memoq
-  - phrase-ai
-  - smartcat-ai
+  - systran
+  - smartling
 date: '2025-09-21'
 tags: [translation, language, multilingual, communication, localization, globalization, language_ai, interpretation, text, api_available, browser_extension, mobile_app]
 ---

@@ -14,12 +14,6 @@ rank: 7
 alternatives:
   - kinedu
   - homer-learning
-  - mostly-ai
-  - xmind
-  - mermaid-chart
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [free_tier, secure, ai_powered, intelligent, platform, tool, service, solution]
 ---

@@ -13,14 +13,10 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - metahuman
   - character-creator
+  - animaze
   - adobe-character-animator
-  - persona
-  - homer-learning
-  - virtuous
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

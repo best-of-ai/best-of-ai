@@ -13,14 +13,12 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - google-assistant
-  - siri
-  - meta-ai
+  - chatgpt
+  - claude
   - replika
-  - brave-leo
-  - alexa-ai
-  - kin-personal-ai
-  - littlebird-ai
+  - character-ai
+  - nomi-ai
+  - meta-ai
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, mobile_app]
 ---

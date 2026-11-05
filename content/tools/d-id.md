@@ -13,14 +13,14 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - colossyan
   - heygen
+  - synthesia
+  - colossyan
   - elai
+  - hour-one
   - hedra
   - vidnoz
-  - synthesia
-  - hour-one
-  - invideo
+  - movio
 date: '2025-09-21'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, voice_enabled, training]
 ---

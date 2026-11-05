@@ -12,13 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - deel
-  - gusto
-  - hiredscore
-  - bamboohr
   - workday
+  - ukg
+  - hibob-ai
   - lattice-ai
-  - eightfold-ai
+  - culture-amp-ai
+  - hiredscore
 date: '2026-10-03'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, analytics]
 ---

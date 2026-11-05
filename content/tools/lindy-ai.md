@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - coze
-  - crewai
+  - cassidy-ai
+  - relevance-ai
+  - dust
+  - microsoft-copilot-studio
+  - zapier-mcp
+  - n8n
+  - stack-ai
   - manus
-  - langchain
-  - smolagents
-  - agentgpt
-  - autogpt
-  - dify
 date: '2025-06-15'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic]
 ---

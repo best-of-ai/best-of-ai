@@ -15,7 +15,6 @@ alternatives:
   - metricool
   - predis-ai
   - sprout-social
-  - missinglettr
   - buffer
   - flick-ai
   - taplio

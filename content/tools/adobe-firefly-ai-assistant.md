@@ -12,10 +12,12 @@ category_name: 'Graphic Design'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2026-11-05'
 alternatives:
-  - adobe-firefly
   - canva
+  - figma-weave
+  - claude-design
+  - microsoft-designer
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

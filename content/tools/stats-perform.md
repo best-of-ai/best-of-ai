@@ -15,12 +15,7 @@ rank: 8
 alternatives:
   - hudl
   - catapult-sports
-  - derwent-innovation
-  - brex
-  - sight-machine
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - kinexon
 date: '2025-10-01'
 tags: [real_time, nlp, analytics, powerful, ai_powered, intelligent, platform, tool]
 ---

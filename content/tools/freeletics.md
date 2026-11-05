@@ -13,13 +13,8 @@ featured: false
 rank: 7
 alternatives:
   - fitbod
+  - trainerize
   - whoop
-  - noom
-  - headspace
-  - ready-player-me
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [free_tier, customizable, training, ai_powered, intelligent, platform, tool, service]
 ---

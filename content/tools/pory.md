@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - softr-ai
+  - glide
+  - bubble
   - plasmic
-  - bubble-nocode
-  - dora-ai
   - webflow
-  - airtable
-  - zapier-nocode
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-06-15'
 tags: [no_code, automation, app_builder, lowcode, visual, drag_and_drop, workflow, builder, citizen_developer, customizable, image_based]
 ---

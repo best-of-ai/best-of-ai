@@ -13,12 +13,11 @@ rank: 5
 alternatives:
   - linear
   - taskade
-  - smartsheet-ai
   - height
   - asana-pm
   - jira
   - monday
-  - adobe-premiere-pro-ai
+  - trello
 date: '2025-01-01'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

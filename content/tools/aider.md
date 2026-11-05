@@ -14,13 +14,11 @@ featured: false
 rank: 9
 alternatives:
   - cline
-  - amazon-codewhisperer
-  - amazon-q
-  - aide
-  - bolt-new
-  - cursor
   - claude-code
-  - windsurf
+  - codex
+  - opencode
+  - continue-dev
+  - plandex
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, cloud_based, nlp]
 ---

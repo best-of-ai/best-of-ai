@@ -13,14 +13,10 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - google-assistant
-  - siri
-  - alexa-ai
-  - meta-ai
-  - pi-ai
-  - kin-personal-ai
-  - littlebird-ai
-  - notis-ai
+  - clockwise-ai
+  - motion
+  - reclaim-ai
+  - akiflow
 date: '2026-09-17'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart]
 ---

@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - zapier
+  - make
   - n8n
   - activepieces
   - pipedream
-  - zapier
-  - komos-ai
-  - make
-  - adobe-premiere-pro-ai
-  - asana
+  - uipath
 date: '2025-09-21'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, customizable, cloud_based]
 ---

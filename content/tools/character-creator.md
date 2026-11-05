@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - metahuman
   - ready-player-me
-  - adobe-character-animator
-  - persona
-  - betterup
-  - avalara
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - blender
+  - autodesk-maya
+  - cartoon-animator
 date: '2025-10-01'
 tags: [real_time, customizable, integrations, powerful, ai_powered, intelligent, platform, tool]
 ---

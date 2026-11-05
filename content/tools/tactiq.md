@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - zoom-ai
-  - fireflies-ai
   - otter-ai
-  - avoma
-  - claap
+  - fireflies-ai
   - fathom
-  - grain
-  - meetgeek
+  - read-ai
+  - tldv
+  - sembly-ai
+  - noty-ai
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, browser_extension, secure, extensible]
 ---

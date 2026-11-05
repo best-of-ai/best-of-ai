@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - novelai
-  - writerly
-  - scalenut
-  - writesonic
-  - copy-ai
-  - grammarly
+  - writer
   - jasper
-  - quillbot
+  - writerly
+  - hypotenuse-ai
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, customizable, nlp, analytics]
 ---

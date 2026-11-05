@@ -12,12 +12,14 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-07-17'
 alternatives:
   - lovable
   - bolt-new
   - v0
   - replit
-  - flutterflow
+  - claude-design
+  - builder-io
+  - base44
+date: '2026-07-17'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, image_based]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - linear
-  - smartsheet-ai
-  - height
+  - clickup
+  - notion
+  - coda-ai
   - asana-pm
-  - team-pulse-ai
-  - jira
   - monday
-  - adobe-premiere-pro-ai
+  - trello
 date: '2025-09-21'
 tags: [project_management, productivity, team, collaboration, planning, tasks, milestones, tracking, agile]
 ---

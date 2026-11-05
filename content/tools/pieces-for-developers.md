@@ -12,14 +12,12 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - replit
-  - mintlify
-  - cursor
-  - amazon-bedrock
   - github-copilot
-  - azure-openai
-  - google-ai-studio
-  - groq
+  - sourcegraph-cody
+  - mem0
+  - beacon-sh
+  - gitlens-ai
+  - swimm-ai
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, fast]
 ---

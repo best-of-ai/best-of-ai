@@ -11,13 +11,9 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - alphasense
-  - expensify-ai
   - marketalerts-ai
-  - mosaic-tech
-  - zeni-ai
-  - morningstar-ai
-  - botkeeper
+  - goai-app
+  - rogo-ai
   - kensho
 date: '2026-06-22'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time, training]

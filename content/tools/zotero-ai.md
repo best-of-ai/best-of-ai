@@ -12,14 +12,12 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - semantic-scholar
-  - lens-org
-  - scinapse
-  - notebook-lm-plus
-  - perplexity-research
+  - mendeley
   - scispace
-  - connected-papers
-  - explainpaper
+  - elicit
+  - scite-ai
+  - consensus
+  - lens-org
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, open_source, free_tier, community_driven]
 ---

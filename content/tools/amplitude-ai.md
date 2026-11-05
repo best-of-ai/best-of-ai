@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - tableau
-  - h2o-ai
-  - datarobot
-  - hex
-  - julius-ai
-  - power-bi
-  - scale-ai
-  - airbyte-ai
+  - mixpanel
+  - posthog-ai
+  - heap
+  - hotjar-ai
+  - glassbox
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, fast]
 ---

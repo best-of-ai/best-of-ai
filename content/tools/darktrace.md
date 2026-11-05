@@ -14,13 +14,9 @@ featured: false
 rank: 8
 alternatives:
   - crowdstrike
+  - sentinelone
+  - vectra-ai
   - wiz
-  - ghostwall
-  - autogrid
-  - bigid
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-06-15'
 tags: [secure, autonomous, ai_powered, intelligent, platform, tool, service, solution]
 ---

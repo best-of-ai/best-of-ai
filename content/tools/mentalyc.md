@@ -13,10 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - upheal
-  - jane-app
-  - glass-health
-  - wysa
-  - woebot
+  - simplepractice
+  - noterro
+  - freed
 date: '2026-10-03'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

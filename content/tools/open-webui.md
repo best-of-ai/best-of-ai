@@ -12,14 +12,11 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - llamaindex
-  - replit
-  - tabnine
-  - vertex-ai
+  - ollama
+  - lm-studio
   - jan-ai
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - anything-llm
+  - typingmind
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, integrations]
 ---

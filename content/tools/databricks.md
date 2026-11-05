@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - obviously-ai
-  - scale-ai
-  - dbt-cloud
-  - cleanlab
+  - snowflake
+  - bigquery
+  - dataiku
   - datarobot
-  - amplitude-ai
-  - power-bi
-  - tableau
+  - amazon-sagemaker
 date: '2026-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, integrations, cloud_based]
 ---

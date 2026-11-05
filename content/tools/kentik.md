@@ -13,6 +13,9 @@ featured: false
 rank: 5
 alternatives:
   - datadog
+  - dynatrace
+  - new-relic
+  - grafana
 date: '2026-10-03'
 tags: [cloud_based, analytics, fast, ai_powered, intelligent, platform, tool, service]
 ---

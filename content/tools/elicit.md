@@ -14,13 +14,12 @@ featured: false
 rank: 9
 alternatives:
   - consensus
-  - litmaps
-  - scholarcy
-  - research-rabbit
   - scispace
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - undermind
+  - scite-ai
+  - research-rabbit
+  - litmaps
+  - semantic-scholar
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university]
 ---

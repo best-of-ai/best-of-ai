@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - canva
-  - adobe-firefly
-  - midjourney
+  - visily
+  - figma-make
+  - magic-patterns
+  - google-stitch
   - figma
-  - galileo-ai
-  - adobe-express
-  - adobe-sensei
-  - khroma
+  - canva
+  - claude-design
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, image_based]
 ---

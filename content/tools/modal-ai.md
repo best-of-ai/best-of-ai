@@ -14,10 +14,13 @@ featured: false
 rank: 5
 alternatives:
   - runpod-ai
+  - replicate
+  - baseten
   - together-inference
-  - vast-ai
   - lambda-labs
-  - paperspace-ai
+  - vast-ai
+  - anyscale
+  - e2b-ai
 date: '2025-09-21'
 tags: [llm, foundation_model, ai_model, machine_learning, neural, inference, fine_tuning, api, open_source, cloud_based, model_based]
 ---

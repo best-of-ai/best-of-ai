@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - promethean-ai
-  - convai
-  - scenario
-  - ai-dungeon
-  - charisma-ai
-  - inworld-ai
-  - ludo-ai
-  - unakin
+  - langfuse
+  - braintrust
+  - promptlayer
+  - vellum
+  - helicone
+  - promptfoo
 date: '2025-06-15'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, collaboration, model_based]
 ---

@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - fly-io
-  - openrouter
-  - wandb-weave
-  - cursor
-  - pinecone
-  - amazon-bedrock
-  - azure-openai
-  - github-copilot
+  - firecrawl
+  - apify
+  - jina-ai
+  - diffbot
+  - browserbase
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, customizable, integrations, nlp]
 ---

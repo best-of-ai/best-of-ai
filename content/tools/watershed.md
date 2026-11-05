@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - carbon-trust
-  - planet-labs
-  - climate-trace
-  - patch
+  - persefoni
   - sylvera
+  - carbon-trust
+  - patch
   - pachama
-  - adobe-premiere-pro-ai
-  - asana
+  - climate-trace
 date: '2025-09-21'
 tags: [climate, environment, sustainability, emissions, green, carbon, renewable_energy, esg, net_zero, enterprise]
 ---

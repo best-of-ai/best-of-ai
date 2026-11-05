@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - amazon-codewhisperer
-  - sourcegraph-cody
-  - supermaven
-  - qodo-ai
-  - coderabbit
-  - aider
+  - github-copilot
+  - gemini-code-assist
   - amazon-q
-  - bolt-new
+  - tabnine
+  - cursor
+  - sourcegraph-cody
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, integrations]
 ---

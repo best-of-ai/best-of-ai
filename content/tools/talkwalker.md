@@ -12,13 +12,10 @@ featured: false
 rank: 5
 alternatives:
   - brandwatch
-  - crimson-hexagon
-  - attention-insight
-  - similarweb
-  - hotjar-ai
-  - cb-insights-ai
-  - competitor-analyzer
-  - cresh-ai
+  - meltwater
+  - sprinklr
+  - sprout-social
+  - muck-rack
 date: '2026-06-15'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, collaboration]
 ---

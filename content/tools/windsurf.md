@@ -12,15 +12,15 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 9
-date: '2025-01-01'
 alternatives:
   - cursor
   - github-copilot
   - claude-code
-  - replit
-  - codeium
+  - codex
+  - kiro
+  - google-antigravity
+  - zed-ai
   - cline
-  - aider
-  - amazon-q
+date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, autonomous]
 ---

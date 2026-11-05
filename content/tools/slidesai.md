@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - decktopus
-  - pitch
-  - plus-ai
-  - slidebean
-  - tome
-  - beautiful-ai
-  - visme-ai
   - gamma
+  - plus-ai
+  - decktopus
+  - slidebean
+  - pitch
+  - beautiful-ai
+  - tome
 date: '2025-09-21'
 tags: [presentation, productivity, design, slides, communication, pitch_deck, storytelling, visual, templates]
 ---

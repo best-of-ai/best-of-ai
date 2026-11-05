@@ -11,15 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - hubspot-business
-  - zoho
-  - pandadoc-ai
-  - salesforce-einstein
-  - docusign-ai
-  - servicenow
-  - c3-ai
-  - proposify-ai
+  - bonsai
+  - honeybook
   - born-to-found
+  - hubspot-business
 date: '2025-01-01'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

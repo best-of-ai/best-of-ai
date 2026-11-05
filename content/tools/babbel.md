@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - rosetta-stone
   - duolingo
   - busuu
+  - rosetta-stone
   - pimsleur
+  - speak
+  - memrise
   - preply
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [language_learning, education, languages, learning, multilingual, vocabulary, grammar, speaking, immersion]
 ---

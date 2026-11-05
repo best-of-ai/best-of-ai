@@ -12,10 +12,15 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2026-11-05'
 alternatives:
   - claude-code
+  - codex
   - cursor
+  - google-jules
+  - devin
+  - copilot-workspace
+  - factory-ai
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

@@ -12,11 +12,14 @@ category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 7
-date: '2026-11-05'
 alternatives:
-  - perplexity-comet
+  - manus
+  - genspark
   - openai-operator
   - claude-cowork
+  - chatgpt-work
+  - notion-custom-agents
+date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 

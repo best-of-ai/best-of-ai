@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - inworld-ai
-  - ludo-ai
   - scenario
-  - unakin
-  - latitude
-  - ai-dungeon
-  - charisma-ai
-  - convai
+  - ludo-ai
+  - sloyd
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, collaboration]
 ---

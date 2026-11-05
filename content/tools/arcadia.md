@@ -13,13 +13,8 @@ featured: false
 rank: 5
 alternatives:
   - palmetto
-  - aurora-solar
-  - stripe
-  - autogrid
-  - stem-ai
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - uplight
+  - energycap
 date: '2025-10-01'
 tags: [api_available, customizable, integrations, ai_powered, intelligent, platform, tool, service]
 ---

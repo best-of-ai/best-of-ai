@@ -14,13 +14,12 @@ featured: false
 rank: 9
 alternatives:
   - power-bi
-  - amplitude-ai
+  - looker
+  - qlik
+  - thoughtspot
   - domo-ai
-  - h2o-ai
-  - julius-ai
-  - scale-ai
-  - airbyte-ai
-  - datarobot
+  - sisense-ai
+  - metabase-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, image_based]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - semantic-scholar
-  - iris-ai
-  - lens-org
-  - paper-digest
-  - scinapse
+  - notebooklm
+  - chatpdf
+  - humata
   - perplexity-research
+  - elicit
   - scispace
-  - connected-papers
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration, free_tier, customizable]
 ---

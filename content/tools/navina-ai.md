@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - abridge-ai
   - suki-ai
-  - tempus-ai
-  - babylon-health
+  - glass-health
   - nuance-dax
-  - ada-health
-  - aidoc-ai
-  - alphafold-ai
+  - abridge-ai
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

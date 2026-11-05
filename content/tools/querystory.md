@@ -13,12 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - dataiku
+  - thoughtspot
+  - hex
+  - julius-ai
+  - anomaly-ai
   - databricks
-  - datarobot
-  - dbt-cloud
-  - airbyte-ai
-  - amplitude-ai
+  - dataiku
 date: '2026-08-31'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, customizable]
 ---

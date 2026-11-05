@@ -12,15 +12,16 @@ category_name: 'Healthcare'
 price: 'Paid'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Babylon Health went into administration in August 2023, and its UK business was sold to eMed.'
+dead_date: '2023-08'
 alternatives:
-  - tempus-ai
   - ada-health
-  - aidoc-ai
   - buoy-health
   - k-health
-  - abridge-ai
-  - alphafold-ai
-  - benevolentai
+  - infermedica-ai
+  - teladoc
+  - amwell
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

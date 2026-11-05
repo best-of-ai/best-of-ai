@@ -12,14 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - quillbot
-  - languagetool
-  - copy-ai
-  - wordtune
-  - grammarly
-  - jasper
-  - writesonic
-  - ai-writer
+  - substack
+  - beehiiv
+  - wordpress
+  - convertkit
+  - paragraph-ai
 date: '2025-06-15'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, open_source, analytics, powerful]
 ---

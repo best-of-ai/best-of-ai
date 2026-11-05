@@ -11,14 +11,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - n8n
-  - power-automate
-  - activepieces
+  - uipath
+  - bardeen
+  - multion
   - zapier
-  - pipedream
   - make
-  - adobe-premiere-pro-ai
-  - asana
+  - power-automate
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, enterprise, customizable]
 ---

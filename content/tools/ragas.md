@@ -11,14 +11,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - llamaindex
-  - github-copilot
-  - jan-ai
-  - lm-studio
-  - ollama
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - promptfoo
+  - giskard
+  - patronus-ai
+  - langfuse
+  - evidently-ai
+  - arize
+  - braintrust
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, community_driven]
 ---

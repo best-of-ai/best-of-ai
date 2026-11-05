@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - confluence-ai
+  - readme-io
+  - mintlify
   - archbee
-  - storychief
-  - new-relic
-  - bugsnag
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - document360
+  - confluence-ai
+  - notion-ai
+  - slab
 date: '2025-10-01'
 tags: [api_available, collaboration, easy_to_use, community_driven, ai_powered, intelligent, platform, tool]
 ---

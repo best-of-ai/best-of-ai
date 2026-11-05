@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - clay
-  - gong
-  - instantly
   - outreach
+  - gong
   - apollo
-  - amplemarket
-  - chorus-ai
-  - lavender
+  - clay
+  - instantly
+  - lemlist
+  - smartlead
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise, customizable]
 ---

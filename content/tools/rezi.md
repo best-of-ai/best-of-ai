@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - zety
   - kickresume
+  - zety
   - resume-io
   - enhancv
   - jobscan
   - reztune
-  - adobe-premiere-pro-ai
-  - asana
 date: '2025-09-21'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional, real_time]
 ---

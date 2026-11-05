@@ -12,8 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - jane-app
+  - noterro
+  - mentalyc
+  - upheal
   - doxy-me
-  - teladoc
 date: '2026-10-03'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, easy_to_use]
 ---

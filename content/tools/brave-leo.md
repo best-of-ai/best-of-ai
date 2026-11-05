@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - siri
-  - meta-ai
-  - google-assistant
-  - replika
-  - kin-personal-ai
-  - alexa-ai
-  - pi-ai
-  - littlebird-ai
+  - perplexity-comet
+  - dia-browser
+  - arc-browser
+  - chatgpt-atlas
+  - microsoft-copilot
+  - gemini
 date: '2025-09-21'
 tags: [ai_assistant, productivity, chatbot, support, helpful, personal, tasks, reminders, smart, secure, model_based]
 ---

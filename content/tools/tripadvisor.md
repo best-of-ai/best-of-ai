@@ -13,14 +13,11 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
+  - kayak
   - hopper
   - wanderlog
   - mova-guide
-  - betterhelp
-  - dubverse
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - google-maps
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

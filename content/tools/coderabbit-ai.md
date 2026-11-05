@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - amazon-codewhisperer
-  - amazon-q
-  - bolt-new
-  - sourcegraph-cody
-  - supermaven
-  - aider
-  - cline
-  - codeium
+  - qodo-ai
+  - greptile
+  - graphite
+  - github-copilot
+  - bito-ai
+  - codiga
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, integrations, secure]
 ---

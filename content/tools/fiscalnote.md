@@ -13,8 +13,6 @@ featured: false
 rank: 5
 alternatives:
   - quorum
-  - palantir-gotham
-  - ibm-watson-gov
 date: '2026-10-03'
 tags: [government, civic, public, policy, official, compliance, federal, public_sector, security, collaboration]
 ---

@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
+  - coachhub
+  - lyra-health
+  - spring-health
   - headspace
   - calm
-  - character-creator
-  - fitbod
-  - stats-perform
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [enterprise, powerful, ai_powered, intelligent, platform, tool, service, solution]
 ---

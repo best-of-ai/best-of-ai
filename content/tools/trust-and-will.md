@@ -12,10 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - legalzoom
+  - rocket-lawyer
   - wealth-com
-  - harvey
-  - docusign-ai
-  - casetext
+  - donotpay
 date: '2025-10-01'
 tags: [legal, document_ai, business, contracts, compliance, law, legal_research, due_diligence, drafting, easy_to_use]
 ---

@@ -12,9 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - ntopology
-  - physna
-  - bluebeam
+  - matterport
+  - polycam-ai
+  - trimble-construction
+  - pix4d
 date: '2026-02-01'
 tags: [3d, design, creative, modeling, rendering, visualization, 3d_art, digital_art, sculpting, cloud_based]
 ---

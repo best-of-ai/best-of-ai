@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - zoom-ai
+  - fathom
   - fireflies-ai
   - otter-ai
+  - tldv
   - avoma
   - claap
-  - fathom
-  - meetgeek
-  - noty-ai
+  - read-ai
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, training]
 ---

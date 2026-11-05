@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notion-notes
   - obsidian
+  - notion-notes
   - remnote
   - heptabase
   - roam-research
   - amplenote
   - tana-ai
-  - adobe-premiere-pro-ai
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync, mobile_app, powerful]
 ---

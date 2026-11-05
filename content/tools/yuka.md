@@ -12,14 +12,9 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - sidechef
-  - whisk
-  - plantnet
+  - myfitnesspal
   - lifesum
-  - surfer-seo
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - cronometer
 date: '2025-09-21'
 tags: [food, lifestyle, cooking, recipes, nutrition, meal_planning, ingredients, diet, culinary]
 ---

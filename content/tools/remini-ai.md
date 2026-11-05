@@ -12,13 +12,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - topaz-photo-ai
+  - lets-enhance
   - picsart-ai
-  - pixlr
-  - adobe-lightroom-ai
-  - luminar-neo
-  - befunky
-  - cleanup-pictures
   - fotor
+  - neural-love
   - lensa-ai
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, powerful]

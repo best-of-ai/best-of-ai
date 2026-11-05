@@ -12,8 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - articulate-360
-  - docebo
+  - quizlet-ai
+  - studysmarter
+  - magicschool-ai
+  - schole
 date: '2026-10-03'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

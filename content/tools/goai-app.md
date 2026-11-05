@@ -11,14 +11,11 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - rogo-ai
   - alphasense
-  - morningstar-ai
-  - kensho
-  - ramp
   - evalyze
-  - botkeeper
-  - plaid
-  - yodlee
+  - kensho
+  - morningstar-ai
 date: '2025-01-01'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

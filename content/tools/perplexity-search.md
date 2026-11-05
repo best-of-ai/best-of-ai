@@ -12,15 +12,15 @@ category_name: 'Search Engines'
 price: 'Freemium'
 featured: false
 rank: 8
-date: '2025-09-21'
 alternatives:
+  - kagi
+  - you-search
+  - phind
+  - andi-search
+  - exa-ai
+  - devv-ai
   - chatgpt
   - gemini
-  - claude
-  - grok
-  - perplexity
-  - kagi
-  - andi-search
-  - phind
+date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, real_time, nlp, model_based]
 ---

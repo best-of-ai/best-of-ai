@@ -11,15 +11,17 @@ category_name: 'Graphic Design'
 price: 'Freemium'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Google acquired Galileo AI in May 2025 and folded it into Google Stitch.'
+dead_date: '2025-05'
 alternatives:
-  - canva
-  - figma
-  - adobe-firefly
-  - midjourney
-  - lucidchart-ai
-  - adobe-express
-  - adobe-sensei
-  - khroma
+  - google-stitch
+  - uizard
+  - visily
+  - figma-make
+  - magic-patterns
+  - claude-design
+  - v0
 date: '2025-01-01'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, collaboration, image_based]
 ---

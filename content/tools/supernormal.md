@@ -13,13 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - avoma
-  - tldv
-  - zoom-ai
   - fireflies-ai
   - otter-ai
-  - claap
+  - tldv
   - fathom
+  - avoma
+  - read-ai
   - grain
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable, templates]

@@ -11,14 +11,12 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - arc-browser
-  - kagi
-  - you-search
-  - bing-chat
-  - perplexity-search
-  - devv-ai
-  - exa-ai
-  - phind
+  - futurepedia
+  - theres-an-ai-for-that
+  - toolify-ai
+  - topai-tools
+  - altern
+  - dang-ai
 date: '2026-06-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval]
 ---

@@ -12,15 +12,15 @@ category_name: 'DevTools'
 price: 'Freemium'
 featured: false
 rank: 10
-date: '2025-09-21'
 alternatives:
   - github-copilot
   - windsurf
-  - codeium
   - claude-code
-  - replit
+  - codex
+  - zed-ai
+  - kiro
   - cline
-  - aider
-  - amazon-q
+  - google-antigravity
+date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api]
 ---

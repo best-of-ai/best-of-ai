@@ -8,6 +8,10 @@ website: 'https://www.braintrust.dev/'
 company: 'braintrust-data'
 logo_url: ''
 category: 'devtools'
+category_name: 'DevTools'
+price: 'Freemium'
+featured: false
+rank: 5
 alternatives:
   - langfuse
   - langsmith
@@ -15,10 +19,7 @@ alternatives:
   - patronus-ai
   - promptfoo
   - helicone
-category_name: 'DevTools'
-price: 'Freemium'
-featured: false
-rank: 5
+  - humanloop
 date: '2026-07-17'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
 ---

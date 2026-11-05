@@ -15,12 +15,6 @@ rank: 8
 alternatives:
   - next-insurance
   - root-insurance
-  - atomwise
-  - lever
-  - arterys
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [customizable, machine_learning, model_based, easy_to_use, ai_powered, intelligent, platform, tool]
 ---

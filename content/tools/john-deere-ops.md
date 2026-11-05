@@ -12,14 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - granular
   - climate-fieldview
+  - granular
   - farmlogs
-  - carbon-trust
-  - watershed
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [farming, agriculture, agritech, crops, sustainability, precision_agriculture, soil, yield, irrigation]
 ---

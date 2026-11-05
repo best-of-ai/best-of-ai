@@ -18,9 +18,7 @@ alternatives:
   - subtitlebee
   - submagic
   - notta
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - sonix
 date: '2025-09-21'
 tags: [video_editing, transcription, subtitle, accessibility, video, captions, multilingual, auto_subtitle, srt, collaboration]
 ---

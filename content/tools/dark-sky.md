@@ -11,15 +11,14 @@ category_name: 'Weather'
 price: 'Paid'
 featured: false
 rank: 7
+dead: true
+dead_reason: 'Apple bought Dark Sky in 2020 and shut down the app and API. Its forecasting now lives in Apple Weather and WeatherKit.'
+dead_date: '2023'
 alternatives:
-  - weather-ai
   - tomorrow-io
   - weatherbug
-  - apple-maps
-  - gemini
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - weather-ai
+  - accuweather
 date: '2025-09-21'
 tags: [weather, data_analysis, climate, forecasting, real_time, meteorology, alerts, temperature, precipitation, mobile_app, machine_learning]
 ---

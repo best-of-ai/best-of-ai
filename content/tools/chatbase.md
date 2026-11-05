@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - freshdesk
-  - drift
+  - botpress
+  - voiceflow
   - tidio
   - intercom
-  - zendesk
-  - forethought-ai
-  - gorgias
-  - kustomer-ai
+  - kommunicate
+  - landbot
+  - fastbots-ai
 date: '2025-09-21'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, api_available, customizable, cloud_based]
 ---

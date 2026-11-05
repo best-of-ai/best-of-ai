@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
+  - suno
+  - stable-audio
+  - riffusion
+  - soundful
+  - aiva
   - loudly
   - mubert
-  - soundraw
-  - aiva
-  - jammable
   - beatoven-ai
-  - boomy
-  - suno
 date: '2025-01-01'
 tags: [music_generation, audio, creative, music, composition, ai_music, beats, melody, soundtrack, voice_enabled]
 ---

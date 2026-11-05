@@ -12,15 +12,14 @@ category_name: 'Code Assistant'
 price: 'Freemium'
 featured: false
 rank: 9
-date: '2025-01-01'
 alternatives:
   - lovable
   - v0
   - replit
-  - cursor
-  - windsurf
   - base44
-  - stack-ai
-  - flutterflow
+  - gptengineer
+  - cursor-composer
+  - figma-make
+date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration]
 ---

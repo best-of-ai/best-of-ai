@@ -8,17 +8,17 @@ website: 'https://intl.cloud.baidu.com/en/product/qianfan.html'
 company: 'baidu'
 logo_url: ''
 category: 'ai-agents'
-alternatives:
-  - tencent-cloud-adp
-  - cohere-north
-  - stack-ai
-  - dify
-  - coze
-  - relevance-ai
 category_name: 'AI Agents'
 price: 'Paid'
 featured: false
 rank: 5
+alternatives:
+  - tencent-cloud-adp
+  - amazon-bedrock
+  - azure-ai-foundry
+  - vertex-ai
+  - dify
+  - coze
 date: '2026-07-17'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, enterprise, model_based]
 ---

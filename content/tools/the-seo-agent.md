@@ -11,11 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - ahrefs
-  - clearscope
   - surfer-seo
-  - semrush
+  - clearscope
   - frase
+  - semrush
   - alli-ai
   - growthbar
   - blogseo

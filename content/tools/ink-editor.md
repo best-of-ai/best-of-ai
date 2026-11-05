@@ -15,11 +15,9 @@ alternatives:
   - writesonic
   - koala-ai
   - longshot-ai
-  - copy-ai
-  - grammarly
-  - jasper
-  - quillbot
-  - wordtune
+  - surfer-seo
+  - frase
+  - scalenut
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, real_time]
 ---

@@ -13,14 +13,8 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - foxglove
   - intrinsic
-  - covariant
-  - samsara
-  - datadog
-  - geotab
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [collaboration, cloud_based, autonomous, ai_powered, intelligent, platform, tool, service]
 ---

@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - squarespace
   - framer
-  - 10web
+  - wordpress
+  - webflow
   - durable
-  - instawebai
+  - 10web
   - hocoos
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-09-21'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, customizable, image_based, fast]
 ---

@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - nearmap
+  - qgis
+  - carto
   - mapbox
-  - maxar
-  - datadog
-  - geneious
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - nearmap
+  - planet-labs
 date: '2025-10-01'
 tags: [enterprise, cloud_based, analytics, powerful, ai_powered, intelligent, platform, tool]
 ---

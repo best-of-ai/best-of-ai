@@ -15,12 +15,10 @@ rank: 8
 alternatives:
   - semantic-scholar
   - lens-org
-  - notebook-lm-plus
-  - perplexity-research
+  - dimensions-ai
+  - scopus
+  - web-of-science
   - scispace
-  - connected-papers
-  - explainpaper
-  - inciteful
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, free_tier]
 ---

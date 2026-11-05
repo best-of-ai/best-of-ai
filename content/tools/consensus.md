@@ -14,13 +14,12 @@ featured: false
 rank: 9
 alternatives:
   - elicit
-  - litmaps
-  - scholarcy
+  - scispace
+  - scite-ai
+  - undermind
+  - semantic-scholar
   - research-rabbit
-  - explainpaper
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - litmaps
 date: '2025-09-21'
 tags: [research, education, academic, papers, scholars, literature, citations, peer_review, university, powerful]
 ---

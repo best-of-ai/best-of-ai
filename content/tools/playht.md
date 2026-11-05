@@ -13,14 +13,14 @@ price: 'Freemium'
 featured: false
 rank: 9
 alternatives:
-  - amazon-polly
+  - elevenlabs
   - wellsaid-labs
   - cartesia
-  - hume-ai
-  - fish-audio
-  - kokoro
+  - murf
   - lovo
-  - neets-ai
+  - resemble-ai
+  - google-cloud-text-to-speech
+  - amazon-polly
 date: '2025-01-01'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, voice_enabled, model_based]
 ---

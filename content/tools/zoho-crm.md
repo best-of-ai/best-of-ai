@@ -16,9 +16,8 @@ alternatives:
   - hubspot-crm
   - salesforce
   - pipedrive
+  - microsoft-dynamics-365
   - freshsales
-  - streak
-  - attio
   - close
   - copper
 date: '2025-09-21'

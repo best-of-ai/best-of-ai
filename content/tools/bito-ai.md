@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - amazon-q
-  - bolt-new
-  - devin
-  - coderabbit
-  - amazon-codewhisperer
-  - aider
-  - cline
+  - github-copilot
+  - tabnine
   - codeium
+  - qodo-ai
+  - coderabbit
+  - sourcegraph-cody
+  - amazon-q
 date: '2025-09-21'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, collaboration, secure, training]
 ---

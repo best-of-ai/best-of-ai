@@ -14,13 +14,12 @@ featured: false
 rank: 8
 alternatives:
   - befunky
-  - cleanup-pictures
-  - neural-love
-  - photoroom
+  - pixlr
   - picsart-ai
-  - adobe-lightroom-ai
-  - lensa-ai
-  - luminar-neo
+  - canva
+  - photoroom
+  - adobe-express
+  - cleanup-pictures
 date: '2025-01-01'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, templates, image_based]
 ---

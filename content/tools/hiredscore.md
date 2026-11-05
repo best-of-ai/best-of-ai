@@ -13,9 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - eightfold-ai
-  - hirevue
-  - greenhouse
-  - visier
+  - beamery
+  - phenom
+  - seekout
+  - paradox-ai
+  - gem
   - workday
 date: '2026-10-03'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent, collaboration, fast]

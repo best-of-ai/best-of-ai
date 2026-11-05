@@ -16,11 +16,8 @@ alternatives:
   - topaz-video-ai
   - real-esrgan
   - waifu2x
-  - topaz-photo-ai
-  - artbreeder
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - upscayl
+  - lets-enhance
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, collaboration, image_based, model_based]
 ---

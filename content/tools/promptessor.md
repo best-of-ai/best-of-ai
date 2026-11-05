@@ -14,11 +14,8 @@ alternatives:
   - promptbase
   - prompthero
   - flowgpt
-  - covariant
-  - neon-db
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - aiprm
+  - cuey
 date: '2025-01-01'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

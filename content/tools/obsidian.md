@@ -18,9 +18,9 @@ alternatives:
   - notion-notes
   - remnote
   - roam-research
-  - amplenote
-  - tana-ai
-  - adobe-premiere-pro-ai
+  - logseq
+  - anytype-ai
+  - appflowy
 date: '2025-09-21'
 tags: [note_taking, productivity, knowledge_base, organization, documentation, markdown, journaling, tasks, sync, image_based, model_based, extensible]
 ---

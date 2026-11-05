@@ -2,7 +2,7 @@
 {{ $p    := .Params }}
 {{ $slug := or $p.slug .File.BaseFileName }}
 {{ $self := . }}
-{{ $companyTools := sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $companyTools := partial "dead-last.html" (sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc") }}
 {{ $companyHardware := sort (where (where .Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
 {{ $companyModels := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
 {{ $faq := partial "company-faq.html" . }}

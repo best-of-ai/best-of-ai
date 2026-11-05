@@ -12,15 +12,16 @@ category_name: 'Graphic Design'
 price: 'Paid'
 featured: false
 rank: 8
-date: '2025-09-21'
 alternatives:
   - dalle
-  - stable-diffusion
-  - adobe-firefly
-  - ideogram
   - flux
+  - ideogram
+  - adobe-firefly
   - leonardo-ai
+  - stable-diffusion
   - krea-ai
-  - freepik-ai
+  - gpt-image
+  - nano-banana-pro
+date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, image_based]
 ---

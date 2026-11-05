@@ -14,13 +14,11 @@ featured: false
 rank: 8
 alternatives:
   - sanebox
-  - mailchimp
+  - superhuman
   - shortwave
   - spark-mail
-  - activecampaign-ai
-  - brevo-ai
-  - klaviyo-ai
   - mixmax
+  - spike
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful, extensible]
 ---

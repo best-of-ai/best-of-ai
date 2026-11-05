@@ -13,14 +13,11 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - zebra-medical
+  - aidoc-ai
   - viz-ai
-  - transifex
-  - avalara
-  - aws-rekognition
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - zebra-medical
+  - lunit-ai
+  - qure-ai
 date: '2025-10-01'
 tags: [cloud_based, machine_learning, ai_powered, intelligent, platform, tool, service, solution]
 ---

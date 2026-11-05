@@ -54,7 +54,7 @@
     {{ range $catList }}
       {{ $cat     := .cat }}
       {{ $total   := .count }}
-      {{ $sorted  := sort .tools "Params.rank" "desc" }}
+      {{ $sorted  := partial "dead-last.html" (sort .tools "Params.rank" "desc") }}
       {{ $visible := first 3 $sorted }}
       <section class="tool-section" id="{{ $cat.slug }}" data-cat="{{ $cat.slug }}">
         <h2 class="tool-section__title">

@@ -14,13 +14,12 @@ featured: false
 rank: 5
 alternatives:
   - abbyy
-  - humata
-  - nanonets
-  - adobe-acrobat-ai
-  - chatpdf
-  - notebooklm
-  - docsumo
   - instabase
+  - rossum
+  - docsumo
+  - nanonets
+  - uipath
+  - amazon-textract
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, enterprise, machine_learning]
 ---

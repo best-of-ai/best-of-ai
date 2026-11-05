@@ -12,15 +12,15 @@ category_name: 'Audio'
 price: 'Freemium'
 featured: false
 rank: 10
-date: '2025-09-21'
 alternatives:
+  - playht
   - murf
-  - whisper
-  - assemblyai
-  - adobe-podcast
-  - deepgram
-  - sonix
-  - speechmatics
+  - wellsaid-labs
+  - cartesia
   - resemble-ai
+  - hume-ai
+  - lovo
+  - fish-audio
+date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, mobile_app, voice_enabled]
 ---

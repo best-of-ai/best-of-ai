@@ -13,14 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - pandadoc-ai
-  - hubspot-business
   - qwilr-ai
+  - honeybook
+  - bonsai
   - docusign-ai
-  - salesforce-einstein
-  - servicenow
-  - zoho
-  - c3-ai
-  - born-to-found
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, collaboration, fast, powerful]
 ---

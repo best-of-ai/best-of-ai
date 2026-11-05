@@ -13,14 +13,8 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - jumio
-  - persona
-  - onetrust
-  - bigid
-  - cloudhealth
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - auth0
+  - microsoft-entra-id
 date: '2025-10-01'
 tags: [collaboration, enterprise, customizable, secure, ai_powered, intelligent, platform, tool]
 ---

@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
+  - openevidence
+  - glass-health
+  - heidi-health
+  - nabla
   - abridge-ai
-  - ada-health
-  - nuance-dax
-  - suki-ai
-  - babylon-health
-  - aidoc-ai
-  - alphafold-ai
-  - benevolentai
 date: '2025-01-01'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, secure, powerful]
 ---

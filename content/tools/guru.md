@@ -13,14 +13,15 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - notion-ai
-  - capacities
-  - obsidian-ai
   - glean
-  - logseq
-  - readwise-reader
-  - reflect
-  - anything-llm
+  - notion-ai
+  - slab
+  - tettra
+  - bloomfire
+  - almanac-ai
+  - document360
+  - box-ai
+  - confluence-ai
 date: '2025-06-15'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, browser_extension, fast, extensible]
 ---

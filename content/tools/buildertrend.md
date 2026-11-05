@@ -15,6 +15,7 @@ alternatives:
   - procore
   - autodesk-construction
   - buildxact
+  - trimble-construction
 date: '2026-10-03'
 tags: [model_based, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - inworld-ai
-  - ludo-ai
   - promethean-ai
-  - unakin
-  - ai-dungeon
-  - charisma-ai
-  - convai
-  - latitude
+  - ludo-ai
+  - sloyd
+  - inworld-ai
+  - leonardo-ai
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
 ---

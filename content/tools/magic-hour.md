@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - runway
+  - runway-gen3
   - kling-ai
   - luma-dream-machine
   - pika-video
   - sora
   - hailuo-ai
-  - haiper
-  - synthesia
 date: '2026-08-31'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, collaboration, image_based]
 ---

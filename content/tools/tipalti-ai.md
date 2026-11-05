@@ -12,14 +12,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - alphasense
-  - morningstar-ai
-  - botkeeper
-  - kensho
-  - plaid
-  - ramp
-  - yodlee
   - bill-com-ai
+  - coupa
+  - stampli-ai
+  - sap-concur
+  - ramp
+  - vic-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

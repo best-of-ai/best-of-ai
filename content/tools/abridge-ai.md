@@ -15,12 +15,11 @@ rank: 7
 alternatives:
   - nuance-dax
   - suki-ai
-  - doximity
-  - tempus-ai
-  - benevolentai
-  - ada-health
-  - aidoc-ai
-  - alphafold-ai
+  - ambience-healthcare
+  - deepscribe
+  - heidi-health
+  - nabla
+  - freed
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---

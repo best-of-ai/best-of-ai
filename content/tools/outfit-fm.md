@@ -11,14 +11,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - fashwell
   - vue-ai
   - theyes
-  - stitchfix
-  - runway
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - fashwell
+  - heuritech
 date: '2025-01-01'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, image_based, model_based, powerful]
 ---

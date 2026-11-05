@@ -12,12 +12,13 @@ category_name: 'AI Agents'
 price: 'Freemium'
 featured: false
 rank: 5
-date: '2026-09-18'
 alternatives:
-  - chatgpt-atlas
-  - perplexity-comet
-  - grok
-  - genspark
   - openclaw
+  - chatgpt-work
+  - claude-duet
+  - gemini-spark
+  - manus
+  - genspark
+date: '2026-09-18'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based]
 ---

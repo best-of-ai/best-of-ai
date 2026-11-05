@@ -13,9 +13,12 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
+  - aisera
+  - kore-ai
+  - yellow-ai
+  - forethought-ai
+  - glean
   - servicenow
-  - freshdesk
-  - zendesk
 date: '2026-10-03'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, collaboration, enterprise]
 ---

@@ -15,12 +15,8 @@ rank: 8
 alternatives:
   - myfitnesspal
   - cronometer
-  - homer-learning
-  - virtuous
-  - ready-player-me
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - lifesum
+  - whoop
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

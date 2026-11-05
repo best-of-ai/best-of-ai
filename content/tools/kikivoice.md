@@ -11,14 +11,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - altered-ai
-  - murf-voice
-  - speechify
-  - elevenlabs-voice
   - resemble-ai
+  - murf-voice
+  - elevenlabs-voice
+  - respeecher
   - replica-studios
   - kits-ai
-  - respeecher
+  - altered-ai
 date: '2025-01-01'
 tags: [voice_cloning, audio, creative, voice, synthesis, tts, custom_voice, realistic, voice_ai, free_tier, voice_enabled]
 ---

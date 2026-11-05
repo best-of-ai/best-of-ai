@@ -12,14 +12,11 @@ price: 'Free'
 featured: false
 rank: 7
 alternatives:
-  - google-ai-studio
-  - llamaindex
-  - amazon-bedrock
-  - groq
+  - ollama
   - jan-ai
-  - cursor
-  - azure-openai
-  - github-copilot
+  - open-webui
+  - anything-llm
+  - gpt4all
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, customizable]
 ---

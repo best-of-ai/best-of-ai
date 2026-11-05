@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - adobe-lightroom-ai
-  - cleanup-pictures
-  - lensa-ai
+  - lets-enhance
+  - magnific-ai
+  - upscayl
+  - remini-ai
   - neural-love
-  - photoroom
-  - befunky
-  - fotor
-  - luminar-neo
+  - adobe-lightroom-ai
+  - dxo-photolab
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, mobile_app, image_based, model_based]
 ---

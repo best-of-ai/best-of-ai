@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - myfitnesspal
+  - lifesum
   - noom
-  - woebot
-  - wysa
-  - stripe
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - nutrium
+  - esha-genesis
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

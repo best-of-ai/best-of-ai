@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - tabnine
-  - vertex-ai
-  - replit
-  - wandb-weave
+  - mlflow
   - weights-biases
-  - cursor
-  - amazon-bedrock
-  - azure-openai
+  - wandb-weave
+  - clearml
+  - langfuse
+  - evidently-ai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, integrations, machine_learning]
 ---

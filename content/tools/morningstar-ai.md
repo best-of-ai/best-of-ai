@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - botkeeper
-  - kensho
-  - ramp
+  - factset
+  - bloomberg-terminal
   - alphasense
-  - mosaic-tech
-  - plaid
-  - yodlee
-  - bill-com-ai
+  - pitchbook-ai
+  - kensho
+  - rogo-ai
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, nlp, fast]
 ---

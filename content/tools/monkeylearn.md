@@ -12,15 +12,13 @@ category_name: 'Sentiment Analysis'
 price: 'Freemium'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Medallia acquired MonkeyLearn in 2022 and wound down the standalone product.'
+dead_date: '2023'
 alternatives:
   - repustate
   - lexalytics
-  - stripe
-  - prompthero
-  - datadog
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - qualtrics
 date: '2025-10-01'
 tags: [collaboration, customizable, integrations, analytics, training, model_based, ai_powered, intelligent]
 ---

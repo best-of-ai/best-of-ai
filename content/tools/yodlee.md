@@ -13,13 +13,7 @@ featured: false
 rank: 7
 alternatives:
   - plaid
-  - botkeeper
-  - alphasense
-  - morningstar-ai
-  - pilot-ai
-  - kensho
-  - ramp
-  - bill-com-ai
+  - mx-technologies
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, secure]
 ---

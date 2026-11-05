@@ -13,14 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - tableau
-  - amplitude-ai
-  - posthog-ai
-  - airbyte-ai
+  - dataiku
   - datarobot
-  - power-bi
-  - scale-ai
-  - dbt-cloud
+  - databricks
+  - amazon-sagemaker
+  - c3-ai
 date: '2025-09-21'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, open_source, collaboration, machine_learning]
 ---

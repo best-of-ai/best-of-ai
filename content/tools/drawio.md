@@ -13,14 +13,13 @@ price: 'Free'
 featured: false
 rank: 8
 alternatives:
+  - lucidchart-ai
   - mermaid-chart
   - creately
-  - cvat
-  - prusaslicer
-  - ultimaker-cura
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - whimsical-ai
+  - miro-ai
+  - eraser-io
+  - excalidraw
 date: '2025-10-01'
 tags: [open_source, free_tier, integrations, machine_learning, community_driven, ai_powered, intelligent, platform]
 ---

@@ -13,14 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - openread
-  - perplexity-pages
-  - scite-ai
-  - perplexity-research
-  - scispace
-  - semantic-scholar
-  - explainpaper
+  - litmaps
+  - research-rabbit
   - inciteful
+  - scite-ai
+  - semantic-scholar
+  - openread
+  - elicit
 date: '2025-01-01'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, image_based, fast]
 ---

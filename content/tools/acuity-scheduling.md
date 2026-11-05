@@ -13,14 +13,10 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - x-ai
   - calendly
-  - motion
-  - fantastical
   - cal-com
-  - clockwise-ai
-  - adobe-premiere-pro-ai
-  - asana
+  - savvycal
+  - vagaro
 date: '2025-09-21'
 tags: [scheduling, productivity, calendar, time_management, meetings, appointments, booking, availability, planning]
 ---

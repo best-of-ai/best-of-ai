@@ -12,11 +12,8 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - eyenuk
-  - viz-ai
-  - arterys
-  - zebra-medical
-  - paige-ai
+  - irhythm
+  - alivecor
 date: '2026-10-03'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, easy_to_use]
 ---

@@ -12,14 +12,10 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
+  - instapage
+  - optimizely
+  - mutiny
   - hubspot
-  - typeform
-  - persado
-  - marketmuse
-  - 6sense-ai
-  - crayon
-  - jasper-marketing
-  - arcade-software
 date: '2025-09-21'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, integrations, powerful]
 ---

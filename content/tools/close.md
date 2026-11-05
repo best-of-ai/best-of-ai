@@ -12,10 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - salesforce
   - pipedrive
-  - copper
   - hubspot-crm
+  - salesforce
+  - copper
   - freshsales
   - zoho-crm
   - attio

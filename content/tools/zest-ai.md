@@ -12,13 +12,10 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - kasisto
-  - feedzai
+  - upstart
+  - ncino
+  - finastra
   - personetics
-  - plaid
-  - kensho
-  - yodlee
-  - botkeeper
 date: '2025-09-21'
 tags: [machine_learning, model_based, fast, ai_powered, intelligent, platform, tool, service]
 ---

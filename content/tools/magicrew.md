@@ -15,10 +15,9 @@ alternatives:
   - crewai
   - autogpt
   - agentgpt
-  - langflow
-  - flowise
+  - langgraph
   - dify
-  - coze
+  - flowise
   - smolagents
 date: '2026-09-03'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, open_source, collaboration, image_based]

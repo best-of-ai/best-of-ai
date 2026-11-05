@@ -13,6 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - flutterflow
+  - locofy
+  - anima-ai
+  - builder-io
+  - bubble
 date: '2026-10-03'
 tags: [no_code, app_builder, developer_tools, app_development, lowcode, rapid_prototyping, mobile_apps, web_apps, deployment, api_available]
 ---

@@ -14,13 +14,10 @@ featured: false
 rank: 8
 alternatives:
   - real-esrgan
-  - aive
-  - topaz-video-ai
   - upscayl
-  - deepseek
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - topaz-video-ai
+  - aive
+  - lets-enhance
 date: '2025-09-21'
 tags: [video_editing, upscaling, creative, quality, enhancement, restoration, sharpening, resolution, denoising, open_source, free_tier, machine_learning]
 ---

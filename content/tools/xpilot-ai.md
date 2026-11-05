@@ -11,14 +11,13 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
-  - luma-dream-machine
-  - kling-ai
-  - sora
+  - pictory
+  - invideo
+  - fliki-ai
+  - lumen5
+  - steve-ai
+  - synthesia
   - biteable-ai
-  - pixverse
-  - hailuo-ai
-  - haiper
-  - moovly
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, collaboration, training, powerful]
 ---

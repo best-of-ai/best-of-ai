@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - krisp
+  - respeecher
   - altered-ai
-  - elevenlabs
-  - descript
-  - murf
-  - adobe-podcast
-  - ace-studio
-  - adobe-enhance-speech
+  - elevenlabs-voice
+  - resemble-ai
+  - kits-ai
+  - krisp
 date: '2025-09-21'
 tags: [audio, creative, sound, music, recording, audio_editing, sound_design, mixing, production, real_time, customizable, secure]
 ---

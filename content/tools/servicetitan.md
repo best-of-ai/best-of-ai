@@ -13,9 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - jobber
-  - bonsai
-  - styleseat
-  - kajabi
+  - housecall-pro
 date: '2025-11-02'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow]
 ---

@@ -12,15 +12,13 @@ category_name: 'Document AI'
 price: 'Free'
 featured: false
 rank: 8
-date: '2025-01-01'
 alternatives:
-  - chatgpt
+  - humata
+  - chatpdf
+  - anything-llm
+  - notion-ai
   - claude
-  - perplexity
-  - elicit
-  - notion
-  - gemini
-  - grok
-  - microsoft-copilot
+  - chatgpt
+date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---

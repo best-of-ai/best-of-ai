@@ -11,14 +11,14 @@ category_name: 'Code Assistant'
 price: 'Free'
 featured: false
 rank: 5
-date: '2026-08-31'
 alternatives:
   - claude-code
   - codex
-  - cursor
+  - gemini-cli
   - aider
-  - windsurf
   - cline
+  - cursor
   - github-copilot
+date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, api_available, collaboration]
 ---

@@ -13,14 +13,12 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - khanmigo
   - quizlet-ai
-  - brilliant
-  - carnegie-learning
-  - coursera
+  - khanmigo
+  - brainly
+  - course-hero
   - chegg-ai
-  - dreambox-learning
-  - gptzero
+  - photomath
 date: '2025-09-21'
 tags: [education, learning, teaching, courses, training, tutoring, study, assessment, e_learning]
 ---

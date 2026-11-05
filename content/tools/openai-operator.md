@@ -13,14 +13,13 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - dify
-  - agno-ai
-  - autogpt
-  - coze
-  - crewai
-  - langchain
-  - agentgpt
-  - flowise
+  - manus
+  - genspark
+  - perplexity-comet
+  - claude-cowork
+  - multion
+  - browserbase
+  - perplexity-computer
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, api_available]
 ---

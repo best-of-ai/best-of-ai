@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - canva
-  - adobe-sensei
   - figma
-  - adobe-express
-  - adobe-firefly
-  - midjourney
-  - galileo-ai
-  - khroma
+  - penpot-ai
+  - framer
+  - canva
+  - uizard
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, powerful]
 ---

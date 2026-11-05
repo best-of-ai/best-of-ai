@@ -12,14 +12,11 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - hotjar-ai
-  - brandwatch
-  - crimson-hexagon
-  - attention-insight
+  - qualtrics
+  - dovetail-ai
   - maze-ai
-  - similarweb
-  - cb-insights-ai
-  - competitor-analyzer
+  - surveymonkey
+  - quantilope
 date: '2025-06-15'
 tags: [market_research, business, analytics, consumer, insights, surveys, competitive_analysis, trends, intelligence, fast]
 ---

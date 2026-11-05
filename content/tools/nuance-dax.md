@@ -13,14 +13,12 @@ price: 'Paid'
 featured: false
 rank: 7
 alternatives:
-  - nabla
   - abridge-ai
   - suki-ai
-  - doximity
-  - benevolentai
-  - ada-health
-  - aidoc-ai
-  - alphafold-ai
+  - ambience-healthcare
+  - nabla
+  - heidi-health
+  - deepscribe
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, integrations]
 ---

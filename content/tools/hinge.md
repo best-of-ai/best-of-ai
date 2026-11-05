@@ -12,14 +12,10 @@ price: 'Freemium'
 featured: false
 rank: 5
 alternatives:
+  - tinder
+  - bumble
   - iris-dating
   - wingman
-  - bizzabo
-  - dubverse
-  - grip-events
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
 date: '2025-10-01'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

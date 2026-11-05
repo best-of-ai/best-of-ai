@@ -12,9 +12,9 @@ price: 'Paid'
 featured: false
 rank: 5
 alternatives:
-  - abridge-ai
-  - aidoc-ai
-  - amwell
+  - hippocratic-ai
+  - notable-health
+  - qventus
 date: '2026-08-17'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine, integrations, voice_enabled]
 ---

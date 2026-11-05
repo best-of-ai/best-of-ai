@@ -13,14 +13,9 @@ price: 'Paid'
 featured: false
 rank: 8
 alternatives:
-  - satellogic
+  - planet-labs
   - maxar
-  - patsnap
-  - datadog
-  - spot-io
-  - adobe-premiere-pro-ai
-  - asana
-  - canva
+  - satellogic
 date: '2025-10-01'
 tags: [customizable, cloud_based, analytics, ai_powered, intelligent, platform, tool, service]
 ---

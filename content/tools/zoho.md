@@ -13,15 +13,11 @@ price: 'Freemium'
 featured: false
 rank: 7
 alternatives:
-  - hubspot-business
   - salesforce-einstein
-  - qwilr-ai
-  - pandadoc-ai
-  - denovo-ai
-  - docusign-ai
+  - microsoft-dynamics-365
+  - hubspot-business
   - servicenow
-  - c3-ai
-  - born-to-found
+  - netsuite
 date: '2025-09-21'
 tags: [business, productivity, enterprise, operations, management, documents, contracts, proposals, workflow, analytics]
 ---
