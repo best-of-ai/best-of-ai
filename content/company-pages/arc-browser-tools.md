@@ -2,6 +2,6 @@
 title: 'Arc Browser tools'
 name: 'Arc Browser'
 company: 'arc-browser'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/arc-browser/tools/'
 ---

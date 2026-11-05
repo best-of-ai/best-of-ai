@@ -2,6 +2,6 @@
 title: 'Todoist tools'
 name: 'Todoist'
 company: 'todoist'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/todoist/tools/'
 ---

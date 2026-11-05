@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $kind := .Params.kind }}
+{{ $kind := .Params.list_kind }}
 {{ $slug := .Params.company }}
 {{ $co   := index (where (where .Site.RegularPages "Section" "companies") "Params.slug" $slug) 0 }}
 {{ $cp   := $co.Params }}

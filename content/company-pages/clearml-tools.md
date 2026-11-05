@@ -2,6 +2,6 @@
 title: 'ClearML tools'
 name: 'ClearML'
 company: 'clearml'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/clearml/tools/'
 ---

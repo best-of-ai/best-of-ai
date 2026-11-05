@@ -2,6 +2,6 @@
 title: 'Motion tools'
 name: 'Motion'
 company: 'motion'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/motion/tools/'
 ---

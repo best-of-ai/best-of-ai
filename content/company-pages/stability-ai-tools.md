@@ -2,6 +2,6 @@
 title: 'Stability AI tools'
 name: 'Stability AI'
 company: 'stability-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/stability-ai/tools/'
 ---

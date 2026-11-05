@@ -2,6 +2,6 @@
 title: 'Scale AI tools'
 name: 'Scale AI'
 company: 'scale-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/scale-ai/tools/'
 ---

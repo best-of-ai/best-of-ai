@@ -2,6 +2,6 @@
 title: 'ZipRecruiter tools'
 name: 'ZipRecruiter'
 company: 'ziprecruiter'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/ziprecruiter/tools/'
 ---

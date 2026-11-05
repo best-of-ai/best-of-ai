@@ -2,6 +2,6 @@
 title: 'Spellbook tools'
 name: 'Spellbook'
 company: 'spellbook-legal'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/spellbook-legal/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Sembly AI tools'
 name: 'Sembly AI'
 company: 'sembly-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/sembly-ai/tools/'
 ---

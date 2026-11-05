@@ -2,6 +2,6 @@
 title: 'Sunsama tools'
 name: 'Sunsama'
 company: 'sunsama'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/sunsama/tools/'
 ---

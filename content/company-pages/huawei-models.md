@@ -2,6 +2,6 @@
 title: 'Huawei models'
 name: 'Huawei'
 company: 'huawei'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/huawei/models/'
 ---

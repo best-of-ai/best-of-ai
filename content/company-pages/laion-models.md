@@ -2,6 +2,6 @@
 title: 'LAION models'
 name: 'LAION'
 company: 'laion'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/laion/models/'
 ---

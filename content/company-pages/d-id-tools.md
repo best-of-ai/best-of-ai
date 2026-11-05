@@ -2,6 +2,6 @@
 title: 'D-ID tools'
 name: 'D-ID'
 company: 'd-id'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/d-id/tools/'
 ---

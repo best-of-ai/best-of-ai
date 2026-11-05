@@ -2,6 +2,6 @@
 title: 'Intel hardware'
 name: 'Intel'
 company: 'intel'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/intel/hardware/'
 ---

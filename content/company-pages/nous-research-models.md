@@ -2,6 +2,6 @@
 title: 'Nous Research models'
 name: 'Nous Research'
 company: 'nous-research'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/nous-research/models/'
 ---

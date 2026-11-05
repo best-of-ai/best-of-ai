@@ -2,6 +2,6 @@
 title: 'Braintrust tools'
 name: 'Braintrust'
 company: 'braintrust-data'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/braintrust-data/tools/'
 ---

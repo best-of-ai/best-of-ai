@@ -2,6 +2,6 @@
 title: 'Durable tools'
 name: 'Durable'
 company: 'durable-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/durable-ai/tools/'
 ---

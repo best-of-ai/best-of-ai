@@ -2,6 +2,6 @@
 title: 'scite tools'
 name: 'scite'
 company: 'scite-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/scite-ai/tools/'
 ---

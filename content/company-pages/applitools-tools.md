@@ -2,6 +2,6 @@
 title: 'Applitools tools'
 name: 'Applitools'
 company: 'applitools'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/applitools/tools/'
 ---

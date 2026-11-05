@@ -2,6 +2,6 @@
 title: 'Podcastle tools'
 name: 'Podcastle'
 company: 'podcastle'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/podcastle/tools/'
 ---

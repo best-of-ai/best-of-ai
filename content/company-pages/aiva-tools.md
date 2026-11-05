@@ -2,6 +2,6 @@
 title: 'AIVA tools'
 name: 'AIVA'
 company: 'aiva'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/aiva/tools/'
 ---

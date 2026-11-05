@@ -2,6 +2,6 @@
 title: 'Roboflow tools'
 name: 'Roboflow'
 company: 'roboflow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/roboflow/tools/'
 ---

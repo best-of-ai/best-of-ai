@@ -2,6 +2,6 @@
 title: 'Busuu tools'
 name: 'Busuu'
 company: 'busuu'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/busuu/tools/'
 ---

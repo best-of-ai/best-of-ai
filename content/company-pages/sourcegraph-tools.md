@@ -2,6 +2,6 @@
 title: 'Sourcegraph tools'
 name: 'Sourcegraph'
 company: 'sourcegraph'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/sourcegraph/tools/'
 ---

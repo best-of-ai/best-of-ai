@@ -2,6 +2,6 @@
 title: 'Mixmax tools'
 name: 'Mixmax'
 company: 'mixmax'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mixmax/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Freshdesk tools'
 name: 'Freshdesk'
 company: 'freshdesk'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/freshdesk/tools/'
 ---

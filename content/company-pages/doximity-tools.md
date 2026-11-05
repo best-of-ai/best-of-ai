@@ -2,6 +2,6 @@
 title: 'Doximity tools'
 name: 'Doximity'
 company: 'doximity'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/doximity/tools/'
 ---

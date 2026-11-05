@@ -2,6 +2,6 @@
 title: 'Airtable tools'
 name: 'Airtable'
 company: 'airtable'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/airtable/tools/'
 ---

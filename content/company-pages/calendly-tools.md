@@ -2,6 +2,6 @@
 title: 'Calendly tools'
 name: 'Calendly'
 company: 'calendly'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/calendly/tools/'
 ---

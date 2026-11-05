@@ -2,6 +2,6 @@
 title: 'PromptLayer tools'
 name: 'PromptLayer'
 company: 'promptlayer'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/promptlayer/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Make tools'
 name: 'Make'
 company: 'make-integromat'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/make-integromat/tools/'
 ---

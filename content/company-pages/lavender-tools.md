@@ -2,6 +2,6 @@
 title: 'Lavender tools'
 name: 'Lavender'
 company: 'lavender'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lavender/tools/'
 ---

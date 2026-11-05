@@ -2,6 +2,6 @@
 title: 'Moonvalley tools'
 name: 'Moonvalley'
 company: 'moonvalley'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/moonvalley/tools/'
 ---

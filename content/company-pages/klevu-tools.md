@@ -2,6 +2,6 @@
 title: 'Klevu tools'
 name: 'Klevu'
 company: 'klevu'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/klevu/tools/'
 ---

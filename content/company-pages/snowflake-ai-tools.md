@@ -2,6 +2,6 @@
 title: 'Snowflake tools'
 name: 'Snowflake'
 company: 'snowflake-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/snowflake-ai/tools/'
 ---

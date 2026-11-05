@@ -2,6 +2,6 @@
 title: 'Elicit tools'
 name: 'Elicit'
 company: 'elicit-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/elicit-ai/tools/'
 ---

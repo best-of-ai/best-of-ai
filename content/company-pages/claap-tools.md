@@ -2,6 +2,6 @@
 title: 'Claap tools'
 name: 'Claap'
 company: 'claap'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/claap/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Persado tools'
 name: 'Persado'
 company: 'persado'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/persado/tools/'
 ---

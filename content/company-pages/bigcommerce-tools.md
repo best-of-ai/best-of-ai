@@ -2,6 +2,6 @@
 title: 'BigCommerce tools'
 name: 'BigCommerce'
 company: 'bigcommerce'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/bigcommerce/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Pictory tools'
 name: 'Pictory'
 company: 'pictory'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/pictory/tools/'
 ---

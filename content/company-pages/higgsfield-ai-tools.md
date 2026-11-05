@@ -2,6 +2,6 @@
 title: 'Higgsfield AI tools'
 name: 'Higgsfield AI'
 company: 'higgsfield-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/higgsfield-ai/tools/'
 ---

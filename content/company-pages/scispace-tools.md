@@ -2,6 +2,6 @@
 title: 'SciSpace tools'
 name: 'SciSpace'
 company: 'scispace'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/scispace/tools/'
 ---

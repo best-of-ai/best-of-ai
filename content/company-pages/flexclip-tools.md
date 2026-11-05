@@ -2,6 +2,6 @@
 title: 'FlexClip tools'
 name: 'FlexClip'
 company: 'flexclip'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/flexclip/tools/'
 ---

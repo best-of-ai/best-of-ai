@@ -2,6 +2,6 @@
 title: 'Rogo tools'
 name: 'Rogo'
 company: 'rogo-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/rogo-ai/tools/'
 ---

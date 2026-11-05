@@ -2,6 +2,6 @@
 title: 'Capacities tools'
 name: 'Capacities'
 company: 'capacities'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/capacities/tools/'
 ---

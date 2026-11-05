@@ -2,6 +2,6 @@
 title: 'Happy Scribe tools'
 name: 'Happy Scribe'
 company: 'happy-scribe'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/happy-scribe/tools/'
 ---

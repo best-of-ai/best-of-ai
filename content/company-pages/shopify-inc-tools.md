@@ -2,6 +2,6 @@
 title: 'Shopify tools'
 name: 'Shopify'
 company: 'shopify-inc'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/shopify-inc/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Canva models'
 name: 'Canva'
 company: 'canva'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/canva/models/'
 ---

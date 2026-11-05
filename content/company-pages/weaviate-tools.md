@@ -2,6 +2,6 @@
 title: 'Weaviate tools'
 name: 'Weaviate'
 company: 'weaviate'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/weaviate/tools/'
 ---

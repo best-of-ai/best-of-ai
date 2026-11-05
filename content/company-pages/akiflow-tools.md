@@ -2,6 +2,6 @@
 title: 'Akiflow tools'
 name: 'Akiflow'
 company: 'akiflow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/akiflow/tools/'
 ---

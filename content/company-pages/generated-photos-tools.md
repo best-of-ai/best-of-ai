@@ -2,6 +2,6 @@
 title: 'Generated Photos tools'
 name: 'Generated Photos'
 company: 'generated-photos'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/generated-photos/tools/'
 ---

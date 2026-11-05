@@ -2,6 +2,6 @@
 title: 'Gamma tools'
 name: 'Gamma'
 company: 'gamma-app'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/gamma-app/tools/'
 ---

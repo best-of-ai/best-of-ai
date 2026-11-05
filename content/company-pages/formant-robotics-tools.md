@@ -2,6 +2,6 @@
 title: 'Formant tools'
 name: 'Formant'
 company: 'formant-robotics'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/formant-robotics/tools/'
 ---

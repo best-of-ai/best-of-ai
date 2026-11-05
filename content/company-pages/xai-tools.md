@@ -2,6 +2,6 @@
 title: 'xAI tools'
 name: 'xAI'
 company: 'xai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/xai/tools/'
 ---

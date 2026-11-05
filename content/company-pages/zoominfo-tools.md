@@ -2,6 +2,6 @@
 title: 'ZoomInfo tools'
 name: 'ZoomInfo'
 company: 'zoominfo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/zoominfo/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'TurboTax tools'
 name: 'TurboTax'
 company: 'turbotax'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/turbotax/tools/'
 ---

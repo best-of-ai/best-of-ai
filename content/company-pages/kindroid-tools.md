@@ -2,6 +2,6 @@
 title: 'Kindroid tools'
 name: 'Kindroid'
 company: 'kindroid'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/kindroid/tools/'
 ---

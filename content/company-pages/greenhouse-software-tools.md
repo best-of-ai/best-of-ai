@@ -2,6 +2,6 @@
 title: 'Greenhouse tools'
 name: 'Greenhouse'
 company: 'greenhouse-software'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/greenhouse-software/tools/'
 ---

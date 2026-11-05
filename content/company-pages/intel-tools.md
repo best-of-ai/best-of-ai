@@ -2,6 +2,6 @@
 title: 'Intel tools'
 name: 'Intel'
 company: 'intel'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/intel/tools/'
 ---

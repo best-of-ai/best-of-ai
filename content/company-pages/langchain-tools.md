@@ -2,6 +2,6 @@
 title: 'LangChain tools'
 name: 'LangChain'
 company: 'langchain'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/langchain/tools/'
 ---

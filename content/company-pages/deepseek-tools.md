@@ -2,6 +2,6 @@
 title: 'DeepSeek tools'
 name: 'DeepSeek'
 company: 'deepseek'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/deepseek/tools/'
 ---

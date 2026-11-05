@@ -2,6 +2,6 @@
 title: 'GetIMG.ai tools'
 name: 'GetIMG.ai'
 company: 'getimgai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/getimgai/tools/'
 ---

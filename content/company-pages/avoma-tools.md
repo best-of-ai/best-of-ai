@@ -2,6 +2,6 @@
 title: 'Avoma tools'
 name: 'Avoma'
 company: 'avoma'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/avoma/tools/'
 ---

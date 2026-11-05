@@ -2,6 +2,6 @@
 title: 'Hopper tools'
 name: 'Hopper'
 company: 'hopper'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hopper/tools/'
 ---

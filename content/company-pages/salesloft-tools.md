@@ -2,6 +2,6 @@
 title: 'Salesloft tools'
 name: 'Salesloft'
 company: 'salesloft'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/salesloft/tools/'
 ---

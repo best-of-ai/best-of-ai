@@ -2,6 +2,6 @@
 title: 'Dataiku tools'
 name: 'Dataiku'
 company: 'dataiku'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/dataiku/tools/'
 ---

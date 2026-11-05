@@ -2,6 +2,6 @@
 title: 'JetBrains models'
 name: 'JetBrains'
 company: 'jetbrains'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/jetbrains/models/'
 ---

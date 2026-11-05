@@ -2,6 +2,6 @@
 title: 'Vidyo.ai tools'
 name: 'Vidyo.ai'
 company: 'vidyoai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/vidyoai/tools/'
 ---

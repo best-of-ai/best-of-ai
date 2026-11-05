@@ -2,6 +2,6 @@
 title: 'Vercel tools'
 name: 'Vercel'
 company: 'vercel'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/vercel/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Spline tools'
 name: 'Spline'
 company: 'spline'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/spline/tools/'
 ---

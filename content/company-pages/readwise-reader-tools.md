@@ -2,6 +2,6 @@
 title: 'Readwise Reader tools'
 name: 'Readwise Reader'
 company: 'readwise-reader'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/readwise-reader/tools/'
 ---

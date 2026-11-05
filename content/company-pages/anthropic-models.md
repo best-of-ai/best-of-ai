@@ -2,6 +2,6 @@
 title: 'Anthropic models'
 name: 'Anthropic'
 company: 'anthropic'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/anthropic/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'deepset tools'
 name: 'deepset'
 company: 'haystack-deepset'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/haystack-deepset/tools/'
 ---

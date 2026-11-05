@@ -2,6 +2,6 @@
 title: 'OpenAI models'
 name: 'OpenAI'
 company: 'openai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/openai/models/'
 ---

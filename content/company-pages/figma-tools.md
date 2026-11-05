@@ -2,6 +2,6 @@
 title: 'Figma tools'
 name: 'Figma'
 company: 'figma'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/figma/tools/'
 ---

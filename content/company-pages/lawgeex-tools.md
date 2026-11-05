@@ -2,6 +2,6 @@
 title: 'LawGeex tools'
 name: 'LawGeex'
 company: 'lawgeex'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lawgeex/tools/'
 ---

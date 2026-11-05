@@ -2,6 +2,6 @@
 title: 'Zapier tools'
 name: 'Zapier'
 company: 'zapier-inc'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/zapier-inc/tools/'
 ---

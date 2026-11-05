@@ -2,6 +2,6 @@
 title: 'Chroma tools'
 name: 'Chroma'
 company: 'chroma-db'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/chroma-db/tools/'
 ---

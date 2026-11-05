@@ -2,6 +2,6 @@
 title: 'Amplitude AI tools'
 name: 'Amplitude AI'
 company: 'amplitude-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/amplitude-ai/tools/'
 ---

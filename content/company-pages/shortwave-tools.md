@@ -2,6 +2,6 @@
 title: 'Shortwave tools'
 name: 'Shortwave'
 company: 'shortwave'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/shortwave/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Climate TRACE tools'
 name: 'Climate TRACE'
 company: 'climate-trace'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/climate-trace/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Brandwatch tools'
 name: 'Brandwatch'
 company: 'brandwatch'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/brandwatch/tools/'
 ---

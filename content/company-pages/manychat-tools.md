@@ -2,6 +2,6 @@
 title: 'ManyChat tools'
 name: 'ManyChat'
 company: 'manychat'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/manychat/tools/'
 ---

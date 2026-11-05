@@ -2,6 +2,6 @@
 title: 'Baidu models'
 name: 'Baidu'
 company: 'baidu'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/baidu/models/'
 ---

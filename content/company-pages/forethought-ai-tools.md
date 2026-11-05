@@ -2,6 +2,6 @@
 title: 'Forethought tools'
 name: 'Forethought'
 company: 'forethought-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/forethought-ai/tools/'
 ---

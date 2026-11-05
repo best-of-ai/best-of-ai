@@ -2,6 +2,6 @@
 title: 'Vectara tools'
 name: 'Vectara'
 company: 'vectara'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/vectara/tools/'
 ---

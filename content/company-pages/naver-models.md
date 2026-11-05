@@ -2,6 +2,6 @@
 title: 'Naver models'
 name: 'Naver'
 company: 'naver'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/naver/models/'
 ---

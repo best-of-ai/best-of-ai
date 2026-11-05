@@ -2,6 +2,6 @@
 title: 'Cartesia tools'
 name: 'Cartesia'
 company: 'cartesia'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cartesia/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Noom tools'
 name: 'Noom'
 company: 'noom'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/noom/tools/'
 ---

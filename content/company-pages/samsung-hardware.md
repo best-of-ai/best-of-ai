@@ -2,6 +2,6 @@
 title: 'Samsung hardware'
 name: 'Samsung'
 company: 'samsung'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/samsung/hardware/'
 ---

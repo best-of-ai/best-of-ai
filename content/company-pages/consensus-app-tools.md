@@ -2,6 +2,6 @@
 title: 'Consensus tools'
 name: 'Consensus'
 company: 'consensus-app'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/consensus-app/tools/'
 ---

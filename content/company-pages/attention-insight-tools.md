@@ -2,6 +2,6 @@
 title: 'Attention Insight tools'
 name: 'Attention Insight'
 company: 'attention-insight'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/attention-insight/tools/'
 ---

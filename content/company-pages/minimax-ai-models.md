@@ -2,6 +2,6 @@
 title: 'MiniMax models'
 name: 'MiniMax'
 company: 'minimax-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/minimax-ai/models/'
 ---

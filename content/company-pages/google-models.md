@@ -2,6 +2,6 @@
 title: 'Google models'
 name: 'Google'
 company: 'google'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/google/models/'
 ---

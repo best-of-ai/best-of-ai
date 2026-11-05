@@ -2,6 +2,6 @@
 title: 'Ideogram tools'
 name: 'Ideogram'
 company: 'ideogram'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/ideogram/tools/'
 ---

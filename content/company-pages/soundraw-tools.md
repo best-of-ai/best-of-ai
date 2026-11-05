@@ -2,6 +2,6 @@
 title: 'Soundraw tools'
 name: 'Soundraw'
 company: 'soundraw'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/soundraw/tools/'
 ---

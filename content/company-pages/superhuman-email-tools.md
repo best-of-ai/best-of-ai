@@ -2,6 +2,6 @@
 title: 'Superhuman tools'
 name: 'Superhuman'
 company: 'superhuman-email'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/superhuman-email/tools/'
 ---

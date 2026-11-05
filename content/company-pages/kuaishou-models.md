@@ -2,6 +2,6 @@
 title: 'Kuaishou models'
 name: 'Kuaishou'
 company: 'kuaishou'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/kuaishou/models/'
 ---

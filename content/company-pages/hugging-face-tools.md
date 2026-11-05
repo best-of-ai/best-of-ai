@@ -2,6 +2,6 @@
 title: 'Hugging Face tools'
 name: 'Hugging Face'
 company: 'hugging-face'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hugging-face/tools/'
 ---

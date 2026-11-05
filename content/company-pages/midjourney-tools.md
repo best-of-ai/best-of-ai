@@ -2,6 +2,6 @@
 title: 'Midjourney tools'
 name: 'Midjourney'
 company: 'midjourney'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/midjourney/tools/'
 ---

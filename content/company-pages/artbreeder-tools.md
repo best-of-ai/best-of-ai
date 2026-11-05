@@ -2,6 +2,6 @@
 title: 'Artbreeder tools'
 name: 'Artbreeder'
 company: 'artbreeder'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/artbreeder/tools/'
 ---

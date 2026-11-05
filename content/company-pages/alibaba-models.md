@@ -2,6 +2,6 @@
 title: 'Alibaba models'
 name: 'Alibaba'
 company: 'alibaba'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/alibaba/models/'
 ---

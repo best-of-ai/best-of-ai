@@ -2,6 +2,6 @@
 title: 'Eightfold AI tools'
 name: 'Eightfold AI'
 company: 'eightfold-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/eightfold-ai/tools/'
 ---

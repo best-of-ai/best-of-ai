@@ -2,6 +2,6 @@
 title: 'Bizzabo tools'
 name: 'Bizzabo'
 company: 'bizzabo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/bizzabo/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Augment Code tools'
 name: 'Augment Code'
 company: 'augment-code'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/augment-code/tools/'
 ---

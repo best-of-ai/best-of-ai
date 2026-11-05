@@ -2,6 +2,6 @@
 title: 'Highspot tools'
 name: 'Highspot'
 company: 'highspot'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/highspot/tools/'
 ---

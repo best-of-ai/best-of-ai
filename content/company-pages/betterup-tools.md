@@ -2,6 +2,6 @@
 title: 'BetterUp tools'
 name: 'BetterUp'
 company: 'betterup'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/betterup/tools/'
 ---

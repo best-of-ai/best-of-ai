@@ -2,6 +2,6 @@
 title: 'Playground AI tools'
 name: 'Playground AI'
 company: 'playground-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/playground-ai/tools/'
 ---

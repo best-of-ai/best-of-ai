@@ -2,6 +2,6 @@
 title: 'Mistral AI models'
 name: 'Mistral AI'
 company: 'mistral-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/mistral-ai/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'Cognition AI tools'
 name: 'Cognition AI'
 company: 'cognition-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cognition-ai/tools/'
 ---

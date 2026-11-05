@@ -2,6 +2,6 @@
 title: 'Magic Hour tools'
 name: 'Magic Hour'
 company: 'magic-hour'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/magic-hour/tools/'
 ---

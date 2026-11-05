@@ -2,6 +2,6 @@
 title: 'Amazon hardware'
 name: 'Amazon'
 company: 'amazon'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/amazon/hardware/'
 ---

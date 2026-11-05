@@ -2,6 +2,6 @@
 title: 'Poolside models'
 name: 'Poolside'
 company: 'poolside-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/poolside-ai/models/'
 ---

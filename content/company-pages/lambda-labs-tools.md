@@ -2,6 +2,6 @@
 title: 'Lambda tools'
 name: 'Lambda'
 company: 'lambda-labs'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lambda-labs/tools/'
 ---

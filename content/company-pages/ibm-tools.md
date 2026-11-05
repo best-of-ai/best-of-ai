@@ -2,6 +2,6 @@
 title: 'IBM tools'
 name: 'IBM'
 company: 'ibm'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/ibm/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Appen tools'
 name: 'Appen'
 company: 'appen'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/appen/tools/'
 ---

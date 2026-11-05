@@ -2,6 +2,6 @@
 title: 'Codeium tools'
 name: 'Codeium'
 company: 'codeium'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/codeium/tools/'
 ---

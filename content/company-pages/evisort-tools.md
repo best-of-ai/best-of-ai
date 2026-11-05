@@ -2,6 +2,6 @@
 title: 'Evisort tools'
 name: 'Evisort'
 company: 'evisort'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/evisort/tools/'
 ---

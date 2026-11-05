@@ -2,6 +2,6 @@
 title: 'Amplemarket tools'
 name: 'Amplemarket'
 company: 'amplemarket'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/amplemarket/tools/'
 ---

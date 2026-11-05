@@ -2,6 +2,6 @@
 title: 'Workable tools'
 name: 'Workable'
 company: 'workable'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/workable/tools/'
 ---

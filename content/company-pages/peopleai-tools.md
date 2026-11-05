@@ -2,6 +2,6 @@
 title: 'People.ai tools'
 name: 'People.ai'
 company: 'peopleai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/peopleai/tools/'
 ---

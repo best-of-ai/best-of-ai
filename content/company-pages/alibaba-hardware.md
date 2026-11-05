@@ -2,6 +2,6 @@
 title: 'Alibaba hardware'
 name: 'Alibaba'
 company: 'alibaba'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/alibaba/hardware/'
 ---

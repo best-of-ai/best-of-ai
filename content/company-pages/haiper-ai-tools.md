@@ -2,6 +2,6 @@
 title: 'Haiper tools'
 name: 'Haiper'
 company: 'haiper-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/haiper-ai/tools/'
 ---

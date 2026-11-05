@@ -2,6 +2,6 @@
 title: 'Botpress tools'
 name: 'Botpress'
 company: 'botpress'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/botpress/tools/'
 ---

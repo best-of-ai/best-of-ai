@@ -2,6 +2,6 @@
 title: 'CrewAI tools'
 name: 'CrewAI'
 company: 'crewai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/crewai/tools/'
 ---

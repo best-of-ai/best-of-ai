@@ -2,6 +2,6 @@
 title: 'You.com tools'
 name: 'You.com'
 company: 'you-com'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/you-com/tools/'
 ---

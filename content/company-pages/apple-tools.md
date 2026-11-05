@@ -2,6 +2,6 @@
 title: 'Apple tools'
 name: 'Apple'
 company: 'apple'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/apple/tools/'
 ---

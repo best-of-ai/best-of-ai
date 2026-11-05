@@ -2,6 +2,6 @@
 title: 'Reflect tools'
 name: 'Reflect'
 company: 'reflect'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/reflect/tools/'
 ---

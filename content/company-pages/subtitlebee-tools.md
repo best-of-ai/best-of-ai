@@ -2,6 +2,6 @@
 title: 'SubtitleBee tools'
 name: 'SubtitleBee'
 company: 'subtitlebee'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/subtitlebee/tools/'
 ---

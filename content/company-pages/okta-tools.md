@@ -2,6 +2,6 @@
 title: 'Okta tools'
 name: 'Okta'
 company: 'okta'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/okta/tools/'
 ---

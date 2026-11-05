@@ -2,6 +2,6 @@
 title: 'AssemblyAI tools'
 name: 'AssemblyAI'
 company: 'assemblyai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/assemblyai/tools/'
 ---

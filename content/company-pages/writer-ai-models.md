@@ -2,6 +2,6 @@
 title: 'Writer models'
 name: 'Writer'
 company: 'writer-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/writer-ai/models/'
 ---

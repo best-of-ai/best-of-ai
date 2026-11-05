@@ -2,6 +2,6 @@
 title: 'Mabl tools'
 name: 'Mabl'
 company: 'mabl'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mabl/tools/'
 ---

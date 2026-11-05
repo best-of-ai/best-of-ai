@@ -2,6 +2,6 @@
 title: 'Midjourney models'
 name: 'Midjourney'
 company: 'midjourney'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/midjourney/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'Semantic Scholar tools'
 name: 'Semantic Scholar'
 company: 'semantic-scholar'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/semantic-scholar/tools/'
 ---

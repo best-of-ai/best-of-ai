@@ -2,6 +2,6 @@
 title: 'Coursera tools'
 name: 'Coursera'
 company: 'coursera'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/coursera/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'CoreWeave tools'
 name: 'CoreWeave'
 company: 'coreweave'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/coreweave/tools/'
 ---

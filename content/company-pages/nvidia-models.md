@@ -2,6 +2,6 @@
 title: 'NVIDIA models'
 name: 'NVIDIA'
 company: 'nvidia'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/nvidia/models/'
 ---

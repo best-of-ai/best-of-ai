@@ -2,6 +2,6 @@
 title: 'Meshcapade tools'
 name: 'Meshcapade'
 company: 'meshcapade'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/meshcapade/tools/'
 ---

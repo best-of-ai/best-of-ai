@@ -2,6 +2,6 @@
 title: 'Ahrefs tools'
 name: 'Ahrefs'
 company: 'ahrefs'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/ahrefs/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Bonterra tools'
 name: 'Bonterra'
 company: 'bonterra'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/bonterra/tools/'
 ---

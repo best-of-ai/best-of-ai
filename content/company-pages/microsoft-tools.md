@@ -2,6 +2,6 @@
 title: 'Microsoft tools'
 name: 'Microsoft'
 company: 'microsoft'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/microsoft/tools/'
 ---

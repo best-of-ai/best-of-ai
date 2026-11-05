@@ -2,6 +2,6 @@
 title: 'Pitch tools'
 name: 'Pitch'
 company: 'pitch'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/pitch/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'ServiceNow tools'
 name: 'ServiceNow'
 company: 'servicenow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/servicenow/tools/'
 ---

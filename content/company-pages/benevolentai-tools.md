@@ -2,6 +2,6 @@
 title: 'BenevolentAI tools'
 name: 'BenevolentAI'
 company: 'benevolentai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/benevolentai/tools/'
 ---

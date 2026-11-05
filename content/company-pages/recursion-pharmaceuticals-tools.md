@@ -2,6 +2,6 @@
 title: 'Recursion tools'
 name: 'Recursion'
 company: 'recursion-pharmaceuticals'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/recursion-pharmaceuticals/tools/'
 ---

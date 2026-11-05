@@ -2,6 +2,6 @@
 title: 'SlidesAI tools'
 name: 'SlidesAI'
 company: 'slidesai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/slidesai/tools/'
 ---

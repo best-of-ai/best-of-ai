@@ -2,6 +2,6 @@
 title: 'Cohere tools'
 name: 'Cohere'
 company: 'cohere'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cohere/tools/'
 ---

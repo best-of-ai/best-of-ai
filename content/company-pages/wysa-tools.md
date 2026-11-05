@@ -2,6 +2,6 @@
 title: 'Wysa tools'
 name: 'Wysa'
 company: 'wysa'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/wysa/tools/'
 ---

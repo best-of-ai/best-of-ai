@@ -2,6 +2,6 @@
 title: 'SEMrush tools'
 name: 'SEMrush'
 company: 'semrush'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/semrush/tools/'
 ---

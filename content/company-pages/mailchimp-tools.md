@@ -2,6 +2,6 @@
 title: 'Mailchimp tools'
 name: 'Mailchimp'
 company: 'mailchimp'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mailchimp/tools/'
 ---

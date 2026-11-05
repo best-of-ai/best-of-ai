@@ -2,6 +2,6 @@
 title: 'Captions AI tools'
 name: 'Captions AI'
 company: 'captions-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/captions-ai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Bloomerang tools'
 name: 'Bloomerang'
 company: 'bloomerang'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/bloomerang/tools/'
 ---

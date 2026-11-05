@@ -2,6 +2,6 @@
 title: 'LMSYS models'
 name: 'LMSYS'
 company: 'lmsys'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/lmsys/models/'
 ---

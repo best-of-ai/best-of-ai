@@ -2,6 +2,6 @@
 title: 'FlutterFlow tools'
 name: 'FlutterFlow'
 company: 'flutterflow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/flutterflow/tools/'
 ---

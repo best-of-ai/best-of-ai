@@ -2,6 +2,6 @@
 title: 'Pika models'
 name: 'Pika'
 company: 'pika-labs'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/pika-labs/models/'
 ---

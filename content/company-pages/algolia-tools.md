@@ -2,6 +2,6 @@
 title: 'Algolia tools'
 name: 'Algolia'
 company: 'algolia'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/algolia/tools/'
 ---

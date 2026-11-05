@@ -2,6 +2,6 @@
 title: 'Moonshot AI tools'
 name: 'Moonshot AI'
 company: 'moonshot-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/moonshot-ai/tools/'
 ---

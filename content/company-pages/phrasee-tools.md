@@ -2,6 +2,6 @@
 title: 'Phrasee tools'
 name: 'Phrasee'
 company: 'phrasee'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/phrasee/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'MonkeyLearn tools'
 name: 'MonkeyLearn'
 company: 'monkeylearn'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/monkeylearn/tools/'
 ---

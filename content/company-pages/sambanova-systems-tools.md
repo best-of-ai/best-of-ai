@@ -2,6 +2,6 @@
 title: 'SambaNova Systems tools'
 name: 'SambaNova Systems'
 company: 'sambanova-systems'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/sambanova-systems/tools/'
 ---

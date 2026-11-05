@@ -2,6 +2,6 @@
 title: 'CrowdStrike tools'
 name: 'CrowdStrike'
 company: 'crowdstrike'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/crowdstrike/tools/'
 ---

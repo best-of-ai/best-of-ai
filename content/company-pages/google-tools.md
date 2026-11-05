@@ -2,6 +2,6 @@
 title: 'Google tools'
 name: 'Google'
 company: 'google'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/google/tools/'
 ---

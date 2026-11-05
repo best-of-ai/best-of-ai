@@ -2,6 +2,6 @@
 title: 'Qualcomm hardware'
 name: 'Qualcomm'
 company: 'qualcomm'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/qualcomm/hardware/'
 ---

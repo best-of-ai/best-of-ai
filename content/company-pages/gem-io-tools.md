@@ -2,6 +2,6 @@
 title: 'Gem tools'
 name: 'Gem'
 company: 'gem-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/gem-io/tools/'
 ---

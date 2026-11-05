@@ -2,6 +2,6 @@
 title: 'Wanderlog tools'
 name: 'Wanderlog'
 company: 'wanderlog'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/wanderlog/tools/'
 ---

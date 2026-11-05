@@ -2,6 +2,6 @@
 title: 'CVAT tools'
 name: 'CVAT'
 company: 'cvat'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cvat/tools/'
 ---

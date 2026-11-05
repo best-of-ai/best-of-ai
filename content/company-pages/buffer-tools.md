@@ -2,6 +2,6 @@
 title: 'Buffer tools'
 name: 'Buffer'
 company: 'buffer'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/buffer/tools/'
 ---

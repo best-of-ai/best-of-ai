@@ -2,6 +2,6 @@
 title: 'Suno tools'
 name: 'Suno'
 company: 'suno'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/suno/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Pipedrive tools'
 name: 'Pipedrive'
 company: 'pipedrive'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/pipedrive/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Cohere models'
 name: 'Cohere'
 company: 'cohere'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/cohere/models/'
 ---

@@ -15,3 +15,9 @@ ai_native: true
 date: '2026-07-16'
 rank: 9
 ---
+
+ElevenLabs started with realistic text-to-speech and has widened into a voice platform. The newest models are Eleven v4 and v4 Turbo, released in October 2026. v4 aims for expressive, emotional speech, and Turbo targets real-time uses like voice agents with a median latency near 100 milliseconds. Both run in ElevenCreative, ElevenAgents and the API.
+
+The agents product matters as much as the models now. Companies use it to build phone and chat agents that speak in a cloned or designed voice, and the company has pushed it into customer support. Dubbing, voice isolation and sound effects round out the creative side.
+
+Money has followed quickly. ElevenLabs raised $500 million at an $11 billion valuation in February 2026, with a third close in May. A staff share sale at around $22 billion has been reported, though we only found secondary sources for that figure.

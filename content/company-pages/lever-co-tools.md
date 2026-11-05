@@ -2,6 +2,6 @@
 title: 'Lever tools'
 name: 'Lever'
 company: 'lever-co'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lever-co/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Elai.io tools'
 name: 'Elai.io'
 company: 'elai-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/elai-io/tools/'
 ---

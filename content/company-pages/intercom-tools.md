@@ -2,6 +2,6 @@
 title: 'Intercom tools'
 name: 'Intercom'
 company: 'intercom'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/intercom/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'ElevenLabs tools'
 name: 'ElevenLabs'
 company: 'elevenlabs'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/elevenlabs/tools/'
 ---

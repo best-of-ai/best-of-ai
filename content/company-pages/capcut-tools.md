@@ -2,6 +2,6 @@
 title: 'CapCut tools'
 name: 'CapCut'
 company: 'capcut'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/capcut/tools/'
 ---

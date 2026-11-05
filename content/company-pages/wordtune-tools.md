@@ -2,6 +2,6 @@
 title: 'Wordtune tools'
 name: 'Wordtune'
 company: 'wordtune'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/wordtune/tools/'
 ---

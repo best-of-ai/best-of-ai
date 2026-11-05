@@ -2,6 +2,6 @@
 title: 'StepFun models'
 name: 'StepFun'
 company: 'stepfun'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/stepfun/models/'
 ---

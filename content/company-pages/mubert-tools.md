@@ -2,6 +2,6 @@
 title: 'Mubert tools'
 name: 'Mubert'
 company: 'mubert'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mubert/tools/'
 ---

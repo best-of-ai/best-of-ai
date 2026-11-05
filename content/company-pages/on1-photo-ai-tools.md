@@ -2,6 +2,6 @@
 title: 'ON1 Photo AI tools'
 name: 'ON1 Photo AI'
 company: 'on1-photo-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/on1-photo-ai/tools/'
 ---

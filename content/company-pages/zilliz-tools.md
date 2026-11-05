@@ -2,6 +2,6 @@
 title: 'Zilliz tools'
 name: 'Zilliz'
 company: 'zilliz'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/zilliz/tools/'
 ---

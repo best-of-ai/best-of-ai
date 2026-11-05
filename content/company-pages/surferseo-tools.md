@@ -2,6 +2,6 @@
 title: 'Surfer tools'
 name: 'Surfer'
 company: 'surferseo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/surferseo/tools/'
 ---

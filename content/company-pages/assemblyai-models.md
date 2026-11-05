@@ -2,6 +2,6 @@
 title: 'AssemblyAI models'
 name: 'AssemblyAI'
 company: 'assemblyai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/assemblyai/models/'
 ---

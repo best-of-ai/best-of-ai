@@ -2,6 +2,6 @@
 title: 'HubSpot tools'
 name: 'HubSpot'
 company: 'hubspot'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hubspot/tools/'
 ---

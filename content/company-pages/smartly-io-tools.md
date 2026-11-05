@@ -2,6 +2,6 @@
 title: 'Smartly tools'
 name: 'Smartly'
 company: 'smartly-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/smartly-io/tools/'
 ---

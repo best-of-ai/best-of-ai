@@ -2,6 +2,6 @@
 title: 'Langflow tools'
 name: 'Langflow'
 company: 'langflow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/langflow/tools/'
 ---

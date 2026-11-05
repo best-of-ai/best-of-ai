@@ -2,6 +2,6 @@
 title: 'Clarifai tools'
 name: 'Clarifai'
 company: 'clarifai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/clarifai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Hex tools'
 name: 'Hex'
 company: 'hex-tech'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hex-tech/tools/'
 ---

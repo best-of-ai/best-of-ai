@@ -2,6 +2,6 @@
 title: 'Gladly tools'
 name: 'Gladly'
 company: 'gladly'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/gladly/tools/'
 ---

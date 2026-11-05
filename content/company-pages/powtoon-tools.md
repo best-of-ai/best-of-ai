@@ -2,6 +2,6 @@
 title: 'Powtoon tools'
 name: 'Powtoon'
 company: 'powtoon'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/powtoon/tools/'
 ---

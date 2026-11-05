@@ -2,6 +2,6 @@
 title: 'Pixelcut tools'
 name: 'Pixelcut'
 company: 'pixelcut'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/pixelcut/tools/'
 ---

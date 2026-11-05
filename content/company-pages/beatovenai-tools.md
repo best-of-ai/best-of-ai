@@ -2,6 +2,6 @@
 title: 'Beatoven.ai tools'
 name: 'Beatoven.ai'
 company: 'beatovenai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/beatovenai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Udio tools'
 name: 'Udio'
 company: 'udio'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/udio/tools/'
 ---

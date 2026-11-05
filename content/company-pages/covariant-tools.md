@@ -2,6 +2,6 @@
 title: 'Covariant tools'
 name: 'Covariant'
 company: 'covariant'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/covariant/tools/'
 ---

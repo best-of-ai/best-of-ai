@@ -2,6 +2,6 @@
 title: 'Grammarly tools'
 name: 'Grammarly'
 company: 'grammarly'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/grammarly/tools/'
 ---

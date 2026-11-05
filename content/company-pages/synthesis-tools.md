@@ -2,6 +2,6 @@
 title: 'Synthesis tools'
 name: 'Synthesis'
 company: 'synthesis'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/synthesis/tools/'
 ---

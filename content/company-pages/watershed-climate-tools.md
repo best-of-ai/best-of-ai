@@ -2,6 +2,6 @@
 title: 'Watershed tools'
 name: 'Watershed'
 company: 'watershed-climate'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/watershed-climate/tools/'
 ---

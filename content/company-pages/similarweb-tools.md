@@ -2,6 +2,6 @@
 title: 'SimilarWeb tools'
 name: 'SimilarWeb'
 company: 'similarweb'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/similarweb/tools/'
 ---

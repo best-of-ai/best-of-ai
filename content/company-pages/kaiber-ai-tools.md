@@ -2,6 +2,6 @@
 title: 'Kaiber tools'
 name: 'Kaiber'
 company: 'kaiber-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/kaiber-ai/tools/'
 ---

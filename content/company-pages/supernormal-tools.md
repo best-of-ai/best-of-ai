@@ -2,6 +2,6 @@
 title: 'Supernormal tools'
 name: 'Supernormal'
 company: 'supernormal'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/supernormal/tools/'
 ---

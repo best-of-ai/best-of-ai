@@ -2,6 +2,6 @@
 title: 'BrowserStack tools'
 name: 'BrowserStack'
 company: 'browserstack'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/browserstack/tools/'
 ---

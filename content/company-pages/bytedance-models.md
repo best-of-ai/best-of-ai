@@ -2,6 +2,6 @@
 title: 'ByteDance models'
 name: 'ByteDance'
 company: 'bytedance'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/bytedance/models/'
 ---

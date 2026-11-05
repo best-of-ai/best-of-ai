@@ -2,6 +2,6 @@
 title: 'Slack tools'
 name: 'Slack'
 company: 'slack'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/slack/tools/'
 ---

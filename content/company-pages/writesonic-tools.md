@@ -2,6 +2,6 @@
 title: 'Writesonic tools'
 name: 'Writesonic'
 company: 'writesonic'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/writesonic/tools/'
 ---

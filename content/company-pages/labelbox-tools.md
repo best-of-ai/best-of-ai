@@ -2,6 +2,6 @@
 title: 'Labelbox tools'
 name: 'Labelbox'
 company: 'labelbox'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/labelbox/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Topaz Labs tools'
 name: 'Topaz Labs'
 company: 'topaz-labs'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/topaz-labs/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Height tools'
 name: 'Height'
 company: 'height'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/height/tools/'
 ---

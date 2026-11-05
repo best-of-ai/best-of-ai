@@ -2,6 +2,6 @@
 title: 'Coda tools'
 name: 'Coda'
 company: 'coda-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/coda-io/tools/'
 ---

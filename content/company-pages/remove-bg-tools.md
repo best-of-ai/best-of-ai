@@ -2,6 +2,6 @@
 title: 'Kaleido AI tools'
 name: 'Kaleido AI'
 company: 'remove-bg'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/remove-bg/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Animaker tools'
 name: 'Animaker'
 company: 'animaker'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/animaker/tools/'
 ---

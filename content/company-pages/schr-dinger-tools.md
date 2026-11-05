@@ -2,6 +2,6 @@
 title: 'Schrödinger tools'
 name: 'Schrödinger'
 company: 'schr-dinger'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/schr-dinger/tools/'
 ---

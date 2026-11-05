@@ -2,6 +2,6 @@
 title: 'Groq hardware'
 name: 'Groq'
 company: 'groq'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/groq/hardware/'
 ---

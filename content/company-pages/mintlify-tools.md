@@ -2,6 +2,6 @@
 title: 'Mintlify tools'
 name: 'Mintlify'
 company: 'mintlify'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mintlify/tools/'
 ---

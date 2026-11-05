@@ -2,6 +2,6 @@
 title: 'Futurepedia tools'
 name: 'Futurepedia'
 company: 'futurepedia'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/futurepedia/tools/'
 ---

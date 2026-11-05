@@ -2,6 +2,6 @@
 title: 'Munch tools'
 name: 'Munch'
 company: 'munch'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/munch/tools/'
 ---

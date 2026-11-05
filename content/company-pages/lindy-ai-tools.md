@@ -2,6 +2,6 @@
 title: 'Lindy tools'
 name: 'Lindy'
 company: 'lindy-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lindy-ai/tools/'
 ---

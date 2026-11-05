@@ -2,6 +2,6 @@
 title: 'Anyword tools'
 name: 'Anyword'
 company: 'anyword'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/anyword/tools/'
 ---

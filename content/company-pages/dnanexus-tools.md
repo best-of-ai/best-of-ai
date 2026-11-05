@@ -2,6 +2,6 @@
 title: 'DNAnexus tools'
 name: 'DNAnexus'
 company: 'dnanexus'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/dnanexus/tools/'
 ---

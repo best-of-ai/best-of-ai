@@ -2,6 +2,6 @@
 title: 'Instabase tools'
 name: 'Instabase'
 company: 'instabase'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/instabase/tools/'
 ---

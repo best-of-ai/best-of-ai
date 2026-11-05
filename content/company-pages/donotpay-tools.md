@@ -2,6 +2,6 @@
 title: 'DoNotPay tools'
 name: 'DoNotPay'
 company: 'donotpay'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/donotpay/tools/'
 ---

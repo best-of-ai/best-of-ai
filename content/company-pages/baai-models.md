@@ -2,6 +2,6 @@
 title: 'BAAI models'
 name: 'BAAI'
 company: 'baai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/baai/models/'
 ---

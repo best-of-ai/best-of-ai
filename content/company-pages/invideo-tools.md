@@ -2,6 +2,6 @@
 title: 'InVideo tools'
 name: 'InVideo'
 company: 'invideo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/invideo/tools/'
 ---

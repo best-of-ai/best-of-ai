@@ -2,6 +2,6 @@
 title: 'Ambarella hardware'
 name: 'Ambarella'
 company: 'ambarella'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/ambarella/hardware/'
 ---

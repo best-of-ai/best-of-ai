@@ -2,6 +2,6 @@
 title: 'AutoGrid tools'
 name: 'AutoGrid'
 company: 'autogrid'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/autogrid/tools/'
 ---

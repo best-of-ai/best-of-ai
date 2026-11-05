@@ -2,6 +2,6 @@
 title: 'IBM models'
 name: 'IBM'
 company: 'ibm'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/ibm/models/'
 ---

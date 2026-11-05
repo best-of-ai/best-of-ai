@@ -2,6 +2,6 @@
 title: 'Spire Global tools'
 name: 'Spire Global'
 company: 'spire-global'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/spire-global/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'SenseTime models'
 name: 'SenseTime'
 company: 'sensetime'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/sensetime/models/'
 ---

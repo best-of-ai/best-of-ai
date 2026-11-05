@@ -2,6 +2,6 @@
 title: 'Etched hardware'
 name: 'Etched'
 company: 'etched'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/etched/hardware/'
 ---

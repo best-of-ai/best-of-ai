@@ -2,6 +2,6 @@
 title: 'AutoGPT tools'
 name: 'AutoGPT'
 company: 'autogpt'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/autogpt/tools/'
 ---

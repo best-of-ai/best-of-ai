@@ -2,6 +2,6 @@
 title: 'Brex tools'
 name: 'Brex'
 company: 'brex'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/brex/tools/'
 ---

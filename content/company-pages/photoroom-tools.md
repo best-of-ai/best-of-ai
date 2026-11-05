@@ -2,6 +2,6 @@
 title: 'Photoroom tools'
 name: 'Photoroom'
 company: 'photoroom'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/photoroom/tools/'
 ---

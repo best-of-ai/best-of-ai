@@ -2,6 +2,6 @@
 title: 'XMind tools'
 name: 'XMind'
 company: 'xmind'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/xmind/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Canva tools'
 name: 'Canva'
 company: 'canva'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/canva/tools/'
 ---

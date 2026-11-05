@@ -2,6 +2,6 @@
 title: 'MyFitnessPal tools'
 name: 'MyFitnessPal'
 company: 'myfitnesspal'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/myfitnesspal/tools/'
 ---

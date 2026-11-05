@@ -2,6 +2,6 @@
 title: 'Qdrant tools'
 name: 'Qdrant'
 company: 'qdrant'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/qdrant/tools/'
 ---

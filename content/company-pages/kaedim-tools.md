@@ -2,6 +2,6 @@
 title: 'Kaedim tools'
 name: 'Kaedim'
 company: 'kaedim'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/kaedim/tools/'
 ---

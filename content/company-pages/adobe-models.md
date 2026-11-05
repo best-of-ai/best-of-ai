@@ -2,6 +2,6 @@
 title: 'Adobe models'
 name: 'Adobe'
 company: 'adobe'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/adobe/models/'
 ---

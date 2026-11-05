@@ -2,6 +2,6 @@
 title: 'Abridge tools'
 name: 'Abridge'
 company: 'abridge'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/abridge/tools/'
 ---

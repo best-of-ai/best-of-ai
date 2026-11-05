@@ -2,6 +2,6 @@
 title: 'n8n tools'
 name: 'n8n'
 company: 'n8n'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/n8n/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Resume.io tools'
 name: 'Resume.io'
 company: 'resumeio'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/resumeio/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'BetterHelp tools'
 name: 'BetterHelp'
 company: 'betterhelp'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/betterhelp/tools/'
 ---

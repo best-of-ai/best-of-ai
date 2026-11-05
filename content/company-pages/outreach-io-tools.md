@@ -2,6 +2,6 @@
 title: 'Outreach tools'
 name: 'Outreach'
 company: 'outreach-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/outreach-io/tools/'
 ---

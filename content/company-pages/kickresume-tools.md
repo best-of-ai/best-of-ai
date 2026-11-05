@@ -2,6 +2,6 @@
 title: 'Kickresume tools'
 name: 'Kickresume'
 company: 'kickresume'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/kickresume/tools/'
 ---

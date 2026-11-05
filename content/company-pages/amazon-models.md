@@ -2,6 +2,6 @@
 title: 'Amazon models'
 name: 'Amazon'
 company: 'amazon'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/amazon/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'Databricks tools'
 name: 'Databricks'
 company: 'databricks'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/databricks/tools/'
 ---

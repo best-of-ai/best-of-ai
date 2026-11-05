@@ -2,6 +2,6 @@
 title: 'Samsung models'
 name: 'Samsung'
 company: 'samsung'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/samsung/models/'
 ---

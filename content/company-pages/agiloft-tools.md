@@ -2,6 +2,6 @@
 title: 'Agiloft tools'
 name: 'Agiloft'
 company: 'agiloft'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/agiloft/tools/'
 ---

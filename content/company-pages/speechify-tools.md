@@ -2,6 +2,6 @@
 title: 'Speechify tools'
 name: 'Speechify'
 company: 'speechify'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/speechify/tools/'
 ---

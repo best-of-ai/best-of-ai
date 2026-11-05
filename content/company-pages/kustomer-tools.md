@@ -2,6 +2,6 @@
 title: 'Kustomer tools'
 name: 'Kustomer'
 company: 'kustomer'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/kustomer/tools/'
 ---

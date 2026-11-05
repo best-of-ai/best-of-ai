@@ -2,6 +2,6 @@
 title: 'SeekOut tools'
 name: 'SeekOut'
 company: 'seekout'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/seekout/tools/'
 ---

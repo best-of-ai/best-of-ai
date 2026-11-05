@@ -2,6 +2,6 @@
 title: 'Explainpaper tools'
 name: 'Explainpaper'
 company: 'explainpaper'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/explainpaper/tools/'
 ---

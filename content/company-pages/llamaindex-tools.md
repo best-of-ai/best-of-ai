@@ -2,6 +2,6 @@
 title: 'LlamaIndex tools'
 name: 'LlamaIndex'
 company: 'llamaindex'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/llamaindex/tools/'
 ---

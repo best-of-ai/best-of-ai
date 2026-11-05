@@ -2,6 +2,6 @@
 title: 'Chorus.ai tools'
 name: 'Chorus.ai'
 company: 'chorus-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/chorus-ai/tools/'
 ---

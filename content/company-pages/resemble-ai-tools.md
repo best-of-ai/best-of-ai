@@ -2,6 +2,6 @@
 title: 'Resemble AI tools'
 name: 'Resemble AI'
 company: 'resemble-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/resemble-ai/tools/'
 ---

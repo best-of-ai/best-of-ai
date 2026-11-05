@@ -2,6 +2,6 @@
 title: 'Luminance tools'
 name: 'Luminance'
 company: 'luminance'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/luminance/tools/'
 ---

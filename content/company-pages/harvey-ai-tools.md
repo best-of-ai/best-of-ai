@@ -2,6 +2,6 @@
 title: 'Harvey tools'
 name: 'Harvey'
 company: 'harvey-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/harvey-ai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Mapbox tools'
 name: 'Mapbox'
 company: 'mapbox'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mapbox/tools/'
 ---

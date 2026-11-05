@@ -2,6 +2,6 @@
 title: 'Colossyan tools'
 name: 'Colossyan'
 company: 'colossyan'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/colossyan/tools/'
 ---

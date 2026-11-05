@@ -2,6 +2,6 @@
 title: 'ContractSafe tools'
 name: 'ContractSafe'
 company: 'contractsafe'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/contractsafe/tools/'
 ---

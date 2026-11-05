@@ -2,6 +2,6 @@
 title: 'Read AI tools'
 name: 'Read AI'
 company: 'read-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/read-ai/tools/'
 ---

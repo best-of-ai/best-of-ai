@@ -2,6 +2,6 @@
 title: 'HeyGen tools'
 name: 'HeyGen'
 company: 'heygen'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/heygen/tools/'
 ---

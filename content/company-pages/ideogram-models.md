@@ -2,6 +2,6 @@
 title: 'Ideogram models'
 name: 'Ideogram'
 company: 'ideogram'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/ideogram/models/'
 ---

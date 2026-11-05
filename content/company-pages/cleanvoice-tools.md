@@ -2,6 +2,6 @@
 title: 'Cleanvoice tools'
 name: 'Cleanvoice'
 company: 'cleanvoice'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cleanvoice/tools/'
 ---

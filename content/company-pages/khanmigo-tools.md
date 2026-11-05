@@ -2,6 +2,6 @@
 title: 'Khan Academy tools'
 name: 'Khan Academy'
 company: 'khanmigo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/khanmigo/tools/'
 ---

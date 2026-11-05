@@ -2,6 +2,6 @@
 title: 'Seismic tools'
 name: 'Seismic'
 company: 'seismic'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/seismic/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Flowise tools'
 name: 'Flowise'
 company: 'flowise'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/flowise/tools/'
 ---

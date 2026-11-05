@@ -2,6 +2,6 @@
 title: 'Erase.bg tools'
 name: 'Erase.bg'
 company: 'erasebg'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/erasebg/tools/'
 ---

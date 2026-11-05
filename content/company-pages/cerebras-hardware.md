@@ -2,6 +2,6 @@
 title: 'Cerebras Systems hardware'
 name: 'Cerebras Systems'
 company: 'cerebras'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/cerebras/hardware/'
 ---

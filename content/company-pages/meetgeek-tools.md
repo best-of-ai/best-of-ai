@@ -2,6 +2,6 @@
 title: 'MeetGeek tools'
 name: 'MeetGeek'
 company: 'meetgeek'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/meetgeek/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Supermaven tools'
 name: 'Supermaven'
 company: 'supermaven'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/supermaven/tools/'
 ---

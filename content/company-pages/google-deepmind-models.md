@@ -2,6 +2,6 @@
 title: 'Google DeepMind models'
 name: 'Google DeepMind'
 company: 'google-deepmind'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/google-deepmind/models/'
 ---

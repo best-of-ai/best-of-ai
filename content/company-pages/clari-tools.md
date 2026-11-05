@@ -2,6 +2,6 @@
 title: 'Clari tools'
 name: 'Clari'
 company: 'clari'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/clari/tools/'
 ---

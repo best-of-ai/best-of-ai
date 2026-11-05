@@ -2,6 +2,6 @@
 title: 'Meta AI models'
 name: 'Meta AI'
 company: 'meta-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/meta-ai/models/'
 ---

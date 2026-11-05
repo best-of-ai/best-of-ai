@@ -2,6 +2,6 @@
 title: 'ContractPodAi tools'
 name: 'ContractPodAi'
 company: 'contractpodai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/contractpodai/tools/'
 ---

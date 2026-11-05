@@ -2,6 +2,6 @@
 title: 'Fleetio tools'
 name: 'Fleetio'
 company: 'fleetio'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/fleetio/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'OpenBMB models'
 name: 'OpenBMB'
 company: 'openbmb'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/openbmb/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'Fireworks AI tools'
 name: 'Fireworks AI'
 company: 'fireworks-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/fireworks-ai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'NVIDIA hardware'
 name: 'NVIDIA'
 company: 'nvidia'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/nvidia/hardware/'
 ---

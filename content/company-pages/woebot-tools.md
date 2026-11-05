@@ -2,6 +2,6 @@
 title: 'Woebot tools'
 name: 'Woebot'
 company: 'woebot'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/woebot/tools/'
 ---

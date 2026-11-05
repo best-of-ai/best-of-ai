@@ -2,6 +2,6 @@
 title: 'Landbot tools'
 name: 'Landbot'
 company: 'landbot'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/landbot/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Riverside tools'
 name: 'Riverside'
 company: 'riverside'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/riverside/tools/'
 ---

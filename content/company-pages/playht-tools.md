@@ -2,6 +2,6 @@
 title: 'PlayHT tools'
 name: 'PlayHT'
 company: 'playht'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/playht/tools/'
 ---

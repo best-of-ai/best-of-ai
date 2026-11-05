@@ -2,6 +2,6 @@
 title: 'Hippocratic AI tools'
 name: 'Hippocratic AI'
 company: 'hippocratic-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hippocratic-ai/tools/'
 ---

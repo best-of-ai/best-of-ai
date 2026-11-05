@@ -2,6 +2,6 @@
 title: 'Latitude tools'
 name: 'Latitude'
 company: 'latitude-ai-dungeon'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/latitude-ai-dungeon/tools/'
 ---

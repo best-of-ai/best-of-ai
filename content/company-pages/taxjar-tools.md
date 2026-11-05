@@ -2,6 +2,6 @@
 title: 'TaxJar tools'
 name: 'TaxJar'
 company: 'taxjar'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/taxjar/tools/'
 ---

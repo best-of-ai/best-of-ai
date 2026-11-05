@@ -2,6 +2,6 @@
 title: 'Hyperscience tools'
 name: 'Hyperscience'
 company: 'hyperscience'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/hyperscience/tools/'
 ---

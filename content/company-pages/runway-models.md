@@ -2,6 +2,6 @@
 title: 'Runway models'
 name: 'Runway'
 company: 'runway'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/runway/models/'
 ---

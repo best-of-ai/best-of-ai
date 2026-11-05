@@ -2,6 +2,6 @@
 title: 'Helicone tools'
 name: 'Helicone'
 company: 'helicone'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/helicone/tools/'
 ---

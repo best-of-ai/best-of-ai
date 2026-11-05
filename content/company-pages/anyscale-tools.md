@@ -2,6 +2,6 @@
 title: 'Anyscale tools'
 name: 'Anyscale'
 company: 'anyscale'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/anyscale/tools/'
 ---

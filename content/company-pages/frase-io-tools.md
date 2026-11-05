@@ -2,6 +2,6 @@
 title: 'Frase tools'
 name: 'Frase'
 company: 'frase-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/frase-io/tools/'
 ---

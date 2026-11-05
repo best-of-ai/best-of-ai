@@ -2,6 +2,6 @@
 title: 'Replit models'
 name: 'Replit'
 company: 'replit'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/replit/models/'
 ---

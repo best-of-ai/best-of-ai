@@ -2,6 +2,6 @@
 title: 'Pachama tools'
 name: 'Pachama'
 company: 'pachama'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/pachama/tools/'
 ---

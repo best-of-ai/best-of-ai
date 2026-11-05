@@ -2,6 +2,6 @@
 title: 'Exa tools'
 name: 'Exa'
 company: 'exa-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/exa-ai/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Browserbase tools'
 name: 'Browserbase'
 company: 'browserbase'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/browserbase/tools/'
 ---

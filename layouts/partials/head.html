@@ -69,7 +69,7 @@
   {{ $hwTypeLabel := .Params.hardware_type | default "AI" }}
   {{ $pageTitle = printf "%s — %s AI Hardware | Best of AI" $name $hwTypeLabel }}
 {{ else if eq .Section "company-pages" }}
-  {{ $pageTitle = printf "AI %s by %s — Best of AI" (.Params.kind | title) .Params.name }}
+  {{ $pageTitle = printf "AI %s by %s — Best of AI" (.Params.list_kind | title) .Params.name }}
 {{ else if $isCompany }}
   {{ $companySlug := or .Params.slug .File.BaseFileName }}
   {{ $companyCount := len (where .Site.RegularPages "Params.company" $companySlug) }}
@@ -129,9 +129,9 @@
 {{ else if $isSubmit }}
   {{ $desc = "Submit your AI tool to Best of AI and get listed under Professionals, on competitor alternative pages, in the newsletter, and on our GitHub awesome list — plus a real direct-follow backlink. Free, reviewed by hand." }}
 {{ else if eq .Section "company-pages" }}
-  {{ $subField := cond (eq .Params.kind "hardware") "Params.manufacturer" "Params.company" }}
-  {{ $subCount := len (where (where .Site.RegularPages "Section" .Params.kind) $subField .Params.company) }}
-  {{ $desc = printf "All %d AI %s from %s, ranked best first, with pricing and details." $subCount .Params.kind .Params.name }}
+  {{ $subField := cond (eq .Params.list_kind "hardware") "Params.manufacturer" "Params.company" }}
+  {{ $subCount := len (where (where .Site.RegularPages "Section" .Params.list_kind) $subField .Params.company) }}
+  {{ $desc = printf "All %d AI %s from %s, ranked best first, with pricing and details." $subCount .Params.list_kind .Params.name }}
 {{ else if $isTool }}
   {{ $price    := .Params.price | default "" }}
   {{ $cat      := .Params.category_name | default "AI" }}

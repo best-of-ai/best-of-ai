@@ -2,6 +2,6 @@
 title: 'Grip tools'
 name: 'Grip'
 company: 'grip'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/grip/tools/'
 ---

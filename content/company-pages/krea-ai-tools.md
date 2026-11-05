@@ -2,6 +2,6 @@
 title: 'Krea AI tools'
 name: 'Krea AI'
 company: 'krea-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/krea-ai/tools/'
 ---

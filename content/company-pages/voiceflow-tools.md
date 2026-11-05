@@ -2,6 +2,6 @@
 title: 'Voiceflow tools'
 name: 'Voiceflow'
 company: 'voiceflow'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/voiceflow/tools/'
 ---

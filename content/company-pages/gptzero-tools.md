@@ -2,6 +2,6 @@
 title: 'GPTZero tools'
 name: 'GPTZero'
 company: 'gptzero'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/gptzero/tools/'
 ---

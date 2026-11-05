@@ -2,6 +2,6 @@
 title: 'OpenRead tools'
 name: 'OpenRead'
 company: 'openread'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/openread/tools/'
 ---

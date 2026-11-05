@@ -2,6 +2,6 @@
 title: 'Adobe tools'
 name: 'Adobe'
 company: 'adobe'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/adobe/tools/'
 ---

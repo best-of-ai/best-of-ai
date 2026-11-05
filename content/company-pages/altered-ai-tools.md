@@ -2,6 +2,6 @@
 title: 'Altered AI tools'
 name: 'Altered AI'
 company: 'altered-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/altered-ai/tools/'
 ---

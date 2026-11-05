@@ -2,6 +2,6 @@
 title: 'Cartesia models'
 name: 'Cartesia'
 company: 'cartesia'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/cartesia/models/'
 ---

@@ -2,6 +2,6 @@
 title: 'Lemonade tools'
 name: 'Lemonade'
 company: 'lemonade-insurance'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lemonade-insurance/tools/'
 ---

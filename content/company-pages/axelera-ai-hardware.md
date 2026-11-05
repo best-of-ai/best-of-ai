@@ -2,6 +2,6 @@
 title: 'Axelera AI hardware'
 name: 'Axelera AI'
 company: 'axelera-ai'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/axelera-ai/hardware/'
 ---

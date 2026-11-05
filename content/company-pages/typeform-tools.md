@@ -2,6 +2,6 @@
 title: 'Typeform tools'
 name: 'Typeform'
 company: 'typeform'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/typeform/tools/'
 ---

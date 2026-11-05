@@ -2,6 +2,6 @@
 title: 'Cambricon Technologies hardware'
 name: 'Cambricon Technologies'
 company: 'cambricon-technologies'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/cambricon-technologies/hardware/'
 ---

@@ -2,6 +2,6 @@
 title: 'Cronometer tools'
 name: 'Cronometer'
 company: 'cronometer'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cronometer/tools/'
 ---

@@ -2,6 +2,6 @@
 title: 'Gong tools'
 name: 'Gong'
 company: 'gong-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/gong-io/tools/'
 ---

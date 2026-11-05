@@ -2,6 +2,6 @@
 title: 'MOSTLY AI tools'
 name: 'MOSTLY AI'
 company: 'mostly-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/mostly-ai/tools/'
 ---

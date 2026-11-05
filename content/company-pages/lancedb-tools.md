@@ -2,6 +2,6 @@
 title: 'LanceDB tools'
 name: 'LanceDB'
 company: 'lancedb'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/lancedb/tools/'
 ---

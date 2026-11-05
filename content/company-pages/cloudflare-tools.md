@@ -2,6 +2,6 @@
 title: 'Cloudflare tools'
 name: 'Cloudflare'
 company: 'cloudflare'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/cloudflare/tools/'
 ---

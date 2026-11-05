@@ -2,6 +2,6 @@
 title: 'Adalo tools'
 name: 'Adalo'
 company: 'adalo'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/adalo/tools/'
 ---

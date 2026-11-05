@@ -2,6 +2,6 @@
 title: 'FuriosaAI hardware'
 name: 'FuriosaAI'
 company: 'furiosaai'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/furiosaai/hardware/'
 ---

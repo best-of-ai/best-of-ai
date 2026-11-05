@@ -2,6 +2,6 @@
 title: 'Casetext tools'
 name: 'Casetext'
 company: 'casetext'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/casetext/tools/'
 ---

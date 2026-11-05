@@ -2,6 +2,6 @@
 title: 'Upscayl tools'
 name: 'Upscayl'
 company: 'upscayl'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/upscayl/tools/'
 ---

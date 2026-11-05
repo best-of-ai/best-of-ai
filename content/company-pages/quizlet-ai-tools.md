@@ -2,6 +2,6 @@
 title: 'Quizlet AI tools'
 name: 'Quizlet AI'
 company: 'quizlet-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/quizlet-ai/tools/'
 ---

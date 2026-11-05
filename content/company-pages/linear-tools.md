@@ -2,6 +2,6 @@
 title: 'Linear tools'
 name: 'Linear'
 company: 'linear'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/linear/tools/'
 ---

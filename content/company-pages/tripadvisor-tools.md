@@ -2,6 +2,6 @@
 title: 'Tripadvisor tools'
 name: 'Tripadvisor'
 company: 'tripadvisor'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/tripadvisor/tools/'
 ---

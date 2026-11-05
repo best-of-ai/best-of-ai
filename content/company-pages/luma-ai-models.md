@@ -2,6 +2,6 @@
 title: 'Luma AI models'
 name: 'Luma AI'
 company: 'luma-ai'
-kind: 'models'
+list_kind: 'models'
 url: '/companies/luma-ai/models/'
 ---

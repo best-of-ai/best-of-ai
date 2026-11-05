@@ -2,6 +2,6 @@
 title: 'BigID tools'
 name: 'BigID'
 company: 'bigid'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/bigid/tools/'
 ---

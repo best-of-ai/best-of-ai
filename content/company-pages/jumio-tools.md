@@ -2,6 +2,6 @@
 title: 'Jumio tools'
 name: 'Jumio'
 company: 'jumio'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/jumio/tools/'
 ---

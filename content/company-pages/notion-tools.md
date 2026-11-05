@@ -2,6 +2,6 @@
 title: 'Notion tools'
 name: 'Notion'
 company: 'notion'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/notion/tools/'
 ---

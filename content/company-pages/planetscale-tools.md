@@ -2,6 +2,6 @@
 title: 'PlanetScale tools'
 name: 'PlanetScale'
 company: 'planetscale'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/planetscale/tools/'
 ---

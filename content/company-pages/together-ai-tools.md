@@ -2,6 +2,6 @@
 title: 'Together AI tools'
 name: 'Together AI'
 company: 'together-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/together-ai/tools/'
 ---

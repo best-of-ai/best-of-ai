@@ -2,6 +2,6 @@
 title: 'Unstructured tools'
 name: 'Unstructured'
 company: 'unstructured-io'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/unstructured-io/tools/'
 ---

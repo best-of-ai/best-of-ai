@@ -2,6 +2,6 @@
 title: 'Google hardware'
 name: 'Google'
 company: 'google'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/google/hardware/'
 ---

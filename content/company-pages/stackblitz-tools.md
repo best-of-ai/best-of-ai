@@ -2,6 +2,6 @@
 title: 'StackBlitz tools'
 name: 'StackBlitz'
 company: 'stackblitz'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/stackblitz/tools/'
 ---

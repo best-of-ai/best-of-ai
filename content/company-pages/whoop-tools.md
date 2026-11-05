@@ -2,6 +2,6 @@
 title: 'Whoop tools'
 name: 'Whoop'
 company: 'whoop'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/whoop/tools/'
 ---

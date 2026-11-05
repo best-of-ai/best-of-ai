@@ -2,6 +2,6 @@
 title: 'Rev tools'
 name: 'Rev'
 company: 'rev'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/rev/tools/'
 ---

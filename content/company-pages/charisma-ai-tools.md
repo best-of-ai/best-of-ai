@@ -2,6 +2,6 @@
 title: 'Charisma.ai tools'
 name: 'Charisma.ai'
 company: 'charisma-ai'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/charisma-ai/tools/'
 ---

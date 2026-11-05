@@ -2,6 +2,6 @@
 title: 'PatSnap tools'
 name: 'PatSnap'
 company: 'patsnap'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/patsnap/tools/'
 ---

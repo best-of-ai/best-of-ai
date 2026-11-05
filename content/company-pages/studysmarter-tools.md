@@ -2,6 +2,6 @@
 title: 'StudySmarter tools'
 name: 'StudySmarter'
 company: 'studysmarter'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/studysmarter/tools/'
 ---

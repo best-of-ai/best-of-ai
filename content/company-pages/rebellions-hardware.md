@@ -2,6 +2,6 @@
 title: 'Rebellions hardware'
 name: 'Rebellions'
 company: 'rebellions'
-kind: 'hardware'
+list_kind: 'hardware'
 url: '/companies/rebellions/hardware/'
 ---

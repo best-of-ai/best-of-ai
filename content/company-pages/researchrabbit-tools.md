@@ -2,6 +2,6 @@
 title: 'ResearchRabbit tools'
 name: 'ResearchRabbit'
 company: 'researchrabbit'
-kind: 'tools'
+list_kind: 'tools'
 url: '/companies/researchrabbit/tools/'
 ---
