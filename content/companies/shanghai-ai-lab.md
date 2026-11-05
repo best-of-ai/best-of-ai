@@ -10,6 +10,7 @@ founded: '2020'
 headquarters: 'Shanghai, China'
 founders:
   - 'Chinese Academy of Sciences'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

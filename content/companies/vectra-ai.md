@@ -10,6 +10,7 @@ founded: '2010'
 headquarters: 'San Jose, California'
 founders:
   - 'Hitesh Sheth'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

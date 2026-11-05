@@ -12,6 +12,7 @@
   {{ $ranked = $ranked | append (dict "page" . "count" (len $compTools) "rank" $rank "score" $score "tools" ($compTools | first 2)) }}
 {{ end }}
 {{ $ranked = sort $ranked "score" "desc" }}
+{{ $nativeCount := len (where $allCompanies "Params.ai_native" true) }}
 
 <div class="home-layout">
 
@@ -25,51 +26,56 @@
       <span class="breadcrumb__cur">Companies</span>
     </nav>
 
-    <div class="pg-hero">
-      <h1 class="pg-hero__title">Top AI <span>Companies</span> in the World</h1>
-      <p class="pg-hero__desc">The labs and companies building the tools in this directory.</p>
+    <header class="pg-hero">
+      <h1 class="pg-hero__title">Top AI <span>Companies</span> &amp; Labs</h1>
+      <p class="pg-hero__desc">Who is building the AI tools you use. Every company here ships at least one product in the directory, with headquarters, founding year, and a link to everything they have built.</p>
       <div class="pg-hero__meta">
         <strong>{{ partial "count.html" (len $allCompanies) }}</strong> companies
         <span class="sep">·</span>
         <strong>{{ partial "count.html" (len $tools) }}</strong> tools
       </div>
-    </div>
+    </header>
 
     <div class="company-search">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <input type="text" id="company-search-input" placeholder="Search companies by name or headquarters…" autocomplete="off" spellcheck="false" aria-label="Search companies">
     </div>
 
-    <div class="price-bar" id="company-sort-bar">
+    <div class="price-bar" id="company-sort-bar" role="group" aria-label="Sort companies">
       <span class="price-bar__label">// sort by</span>
       <button class="pf active" data-sort="popularity" data-dir="desc">popularity <span class="pf__arrow">↓</span></button>
       <button class="pf" data-sort="founded" data-dir="desc">founded year <span class="pf__arrow">↓</span></button>
       <button class="pf" data-sort="az" data-dir="asc">a–z <span class="pf__arrow">↓</span></button>
     </div>
 
-    <div class="company-list" id="company-grid">
-      {{ range $ranked }}
+    <div class="price-bar" id="company-native-bar" role="group" aria-label="Filter by AI native">
+      <span class="price-bar__label">// type</span>
+      <button class="pf active" data-native="all">all <span class="pf__n">{{ len $allCompanies }}</span></button>
+      <button class="pf" data-native="yes">AI native <span class="pf__n">{{ $nativeCount }}</span></button>
+      <button class="pf" data-native="no">established <span class="pf__n">{{ sub (len $allCompanies) $nativeCount }}</span></button>
+    </div>
+
+    <div class="company-list" id="company-grid" data-sort="popularity">
+      {{ range $i, $r := $ranked }}
+        {{ with $r }}
         {{ $p := .page.Params }}
         {{ $count := .count }}
         {{ $companyTools := .tools }}
         {{ $founded := 0 }}
         {{ with $p.founded }}{{ $founded = . | int }}{{ end }}
-        <a href="{{ .page.RelPermalink }}" class="company-row" data-name="{{ lower $p.name }}" data-hq="{{ lower ($p.headquarters | default "") }}" data-founded="{{ $founded }}" data-count="{{ $count }}" data-score="{{ .score }}">
+        <article class="company-row" data-name="{{ lower $p.name }}" data-hq="{{ lower ($p.headquarters | default "") }}" data-founded="{{ $founded }}" data-count="{{ $count }}" data-native="{{ if $p.ai_native }}yes{{ else }}no{{ end }}" data-score="{{ .score }}">
+          <span class="company-row__rank" aria-hidden="true">{{ add $i 1 }}</span>
           <div class="company-row__logo">
-            {{ if $p.logo_url }}
-              <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-            {{ else }}
-              <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=64" alt="{{ $p.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-              <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
-            {{ end }}
+            {{ $logo := or $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" $p.website) }}
+            <img src="{{ $logo }}" alt="" width="24" height="24" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
           </div>
           <div class="company-row__body">
-            <span class="company-row__name">{{ $p.name }}</span>
-            <span class="company-row__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</span>
+            <h2 class="company-row__name"><a href="{{ .page.RelPermalink }}" class="company-row__link">{{ $p.name }}</a>{{ if $p.ai_native }} <span class="native-badge" title="Built around AI from day one">AI native</span>{{ end }}</h2>
+            <p class="company-row__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</p>
             <div class="company-row__meta">
               {{ with $p.headquarters }}<span>{{ . }}</span><span class="stat-sep">·</span>{{ end }}
-              {{ if gt $founded 0 }}<span>founded {{ $founded }}</span><span class="stat-sep">·</span>{{ end }}
+              {{ if gt $founded 0 }}<span>Founded {{ $founded }}</span><span class="stat-sep">·</span>{{ end }}
               <span class="company-row__count">{{ partial "count.html" $count }} tool{{ if ne $count 1 }}s{{ end }}</span>
             </div>
           </div>
@@ -77,24 +83,27 @@
           <div class="company-row__tools">
             {{ range $companyTools }}
             {{ $tp := .Params }}
-            <span class="company-row__tool" onclick="event.stopPropagation();window.location='{{ .RelPermalink }}'" title="{{ $tp.name }}">
-              {{ if $tp.logo_url }}
-                <img src="{{ $tp.logo_url }}" alt="{{ $tp.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <span class="tool-logo-fallback" style="display:none">{{ substr $tp.name 0 1 }}</span>
-              {{ else }}
-                <img src="https://www.google.com/s2/favicons?domain={{ $tp.website }}&sz=32" alt="{{ $tp.name }}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <span class="tool-logo-fallback" style="display:none">{{ substr $tp.name 0 1 }}</span>
-              {{ end }}
-            </span>
+            <a class="company-row__tool" href="{{ .RelPermalink }}" title="{{ $tp.name }}" aria-label="{{ $tp.name }}">
+              {{ $tlogo := or $tp.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $tp.website) }}
+              <img src="{{ $tlogo }}" alt="" width="18" height="18" loading="lazy" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <span class="tool-logo-fallback" style="display:none">{{ substr $tp.name 0 1 }}</span>
+            </a>
             {{ end }}
           </div>
           {{ end }}
-          <svg class="company-row__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
+          <svg class="company-row__chev" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </article>
+        {{ end }}
       {{ end }}
     </div>
 
     <p class="company-empty" id="company-empty" style="display:none">No companies match your search.</p>
+
+    <section class="company-about">
+      <h2>About this list</h2>
+      <p>This directory covers {{ partial "count.html" (len $allCompanies) }} AI companies, from frontier labs such as {{ range $i, $r := first 3 $ranked }}{{ if $i }}{{ if eq $i 2 }}, and {{ else }}, {{ end }}{{ end }}<a href="{{ $r.page.RelPermalink }}">{{ $r.page.Params.name }}</a>{{ end }} to small teams shipping a single product. The default order weighs how widely used a company's products are, then how many of its tools are listed here.</p>
+      <p>Switch to founded year to see the oldest names first, or search by city to find who is building AI near you. Open any company to see its full lineup, founders, and the tools it makes.</p>
+    </section>
 
   </main>
 
@@ -111,12 +120,15 @@
   var rows       = Array.from(container.querySelectorAll('.company-row'));
   var activeSort = 'popularity';
   var activeDir  = 'desc';
+  var activeNative = 'all';
+  var nativeBtns = document.querySelectorAll('#company-native-bar .pf');
 
   function applyFilter() {
     var q = search.value.trim().toLowerCase();
     var visible = 0;
     rows.forEach(function(row) {
-      var show = !q || row.dataset.name.includes(q) || row.dataset.hq.includes(q);
+      var matchQ = !q || row.dataset.name.includes(q) || row.dataset.hq.includes(q);
+      var show = matchQ && (activeNative === 'all' || row.dataset.native === activeNative);
       row.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -141,6 +153,14 @@
 
   if (search) search.addEventListener('input', applyFilter);
 
+  nativeBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      activeNative = btn.dataset.native;
+      nativeBtns.forEach(function(b) { b.classList.toggle('active', b === btn); });
+      applyFilter();
+    });
+  });
+
   sortBtns.forEach(function(btn) {
     btn.addEventListener('click', function() {
       if (btn.dataset.sort === activeSort) {
@@ -154,6 +174,7 @@
         var arrow = b.querySelector('.pf__arrow');
         if (arrow) arrow.textContent = (b === btn && activeDir === 'asc') ? '↑' : '↓';
       });
+      container.dataset.sort = activeSort;
       applySort();
     });
   });

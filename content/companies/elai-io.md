@@ -10,6 +10,7 @@ founded: '2020'
 headquarters: 'Tallinn, Estonia'
 founders:
   - 'Anton Zabannykh'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

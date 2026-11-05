@@ -10,6 +10,7 @@ founded: '1969'
 headquarters: 'Santa Clara, California'
 founders:
   - 'Jerry Sanders'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

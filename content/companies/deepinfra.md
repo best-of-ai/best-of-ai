@@ -10,6 +10,7 @@ founded: '2022'
 headquarters: 'Redwood City, California'
 founders:
   - 'Yusuf Sarwar'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

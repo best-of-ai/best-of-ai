@@ -12,6 +12,7 @@ founders:
   - 'Manu Sharma'
   - 'Daniel Rasmuson'
   - 'Brian Rieger'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

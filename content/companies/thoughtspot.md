@@ -11,6 +11,7 @@ headquarters: 'Sunnyvale, California'
 founders:
   - 'Ajeet Singh'
   - 'Amit Prakash'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

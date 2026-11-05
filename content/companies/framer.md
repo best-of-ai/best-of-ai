@@ -11,6 +11,7 @@ headquarters: 'Amsterdam, Netherlands'
 founders:
   - 'Koen Bok'
   - 'Jorn van Dijk'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

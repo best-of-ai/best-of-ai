@@ -1,13 +1,25 @@
 {{ define "main" }}
 {{ $p    := .Params }}
 {{ $slug := or $p.slug .File.BaseFileName }}
-{{ $tools       := where .Site.RegularPages "Section" "tools" }}
-{{ $companyTools := where $tools "Params.company" $slug }}
-{{ $companyTools  = sort $companyTools "Params.name" "asc" }}
-{{ $hardware        := where .Site.RegularPages "Section" "hardware" }}
-{{ $companyHardware := sort (where $hardware "Params.manufacturer" $slug) "Params.rank" "desc" }}
-{{ $models        := where .Site.RegularPages "Section" "models" }}
-{{ $companyModels := sort (where $models "Params.company" $slug) "Params.rank" "desc" }}
+{{ $self := . }}
+{{ $companyTools := sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $companyHardware := sort (where (where .Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
+{{ $companyModels := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $faq := partial "company-faq.html" . }}
+
+{{/* Categories this company's tools fall into */}}
+{{ $cats := dict }}
+{{ range $companyTools }}{{ if and .Params.category .Params.category_name }}{{ $cats = merge $cats (dict .Params.category .Params.category_name) }}{{ end }}{{ end }}
+
+{{/* Other companies from the same headquarters */}}
+{{ $related := slice }}
+{{ with $p.headquarters }}
+  {{ $sameHq := where (where $self.Site.RegularPages "Section" "companies") "Params.headquarters" . }}
+  {{ $related = first 6 (sort (complement (slice $self) $sameHq) "Params.rank" "desc") }}
+{{ end }}
+
+{{ $logo := or $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=128" $p.website) }}
+{{ $host := "" }}{{ with $p.website }}{{ $host = (urls.Parse .).Host | strings.TrimPrefix "www." }}{{ end }}
 
 <div class="home-layout">
 
@@ -15,8 +27,7 @@
 
   <main class="hl-center">
 
-    <!-- Breadcrumb -->
-    <nav class="breadcrumb">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="{{ "/" | relURL }}">Home</a>
       <span class="breadcrumb__sep">/</span>
       <a href="{{ "/companies/" | relURL }}">Companies</a>
@@ -24,82 +35,126 @@
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
 
-    <!-- Company hero -->
-    <div class="cat-hero company-hero">
-      <div class="cat-hero__icon company-hero__icon">
-        {{ if $p.logo_url }}
-          <img src="{{ $p.logo_url }}" alt="{{ $p.name }}" loading="lazy" style="width:100%;height:100%;object-fit:contain;border-radius:inherit" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <header class="co-hero">
+      <div class="co-hero__top">
+        <div class="co-hero__logo">
+          <img src="{{ $logo }}" alt="{{ $p.name }} logo" width="64" height="64" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <span style="display:none">{{ substr $p.name 0 1 }}</span>
-        {{ else }}
-          <img src="https://www.google.com/s2/favicons?domain={{ $p.website }}&sz=128" alt="{{ $p.name }}" loading="lazy" style="width:100%;height:100%;object-fit:contain;border-radius:inherit" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <span style="display:none">{{ substr $p.name 0 1 }}</span>
-        {{ end }}
-      </div>
-      <div>
-        <h1 class="cat-hero__title">{{ $p.name }}</h1>
-        {{ with $p.subtitle }}<p class="cat-hero__subtitle">{{ . }}</p>{{ end }}
-        <p class="cat-hero__desc">{{ $p.description }}</p>
-        <div class="cat-hero__meta">
-          <span><strong>{{ partial "count.html" (len $companyTools) }}</strong> tools</span>
-          {{ if $companyHardware }}<span class="stat-sep">·</span><span><strong>{{ partial "count.html" (len $companyHardware) }}</strong> GPUs</span>{{ end }}
-          {{ if $companyModels }}<span class="stat-sep">·</span><span><strong>{{ partial "count.html" (len $companyModels) }}</strong> models</span>{{ end }}
-          {{ with $p.founded }}<span class="stat-sep">·</span><span>founded {{ . }}</span>{{ end }}
-          {{ with $p.headquarters }}<span class="stat-sep">·</span><span>{{ . }}</span>{{ end }}
         </div>
+        <div class="co-hero__id">
+          <h1 class="co-hero__title">{{ $p.name }}</h1>
+          {{ with $p.subtitle }}<p class="co-hero__subtitle">{{ . }}</p>{{ end }}
+          {{ if $p.ai_native }}<span class="native-badge native-badge--lg" title="Built around AI from day one">AI native</span>{{ end }}
+        </div>
+      </div>
+
+      <p class="co-hero__desc">{{ $p.description }}</p>
+
+      <div class="co-hero__actions">
         {{ if $p.website }}
-        <a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary company-hero__cta">
-          Visit {{ $p.name }}
-          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <a href="{{ $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          Visit {{ with $host }}{{ . }}{{ else }}website{{ end }}
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
         </a>
         {{ end }}
+        {{ if or $companyTools $companyModels $companyHardware }}
+        <a href="#{{ cond (gt (len $companyTools) 0) "tools" (cond (gt (len $companyModels) 0) "models" "hardware") }}" class="co-hero__ghost">See what {{ $p.name }} builds ↓</a>
+        {{ end }}
       </div>
-    </div>
 
-    <!-- Founders card -->
-    {{ if $p.founders }}
-    <div class="detail-meta-card" style="margin-bottom:2rem">
-      <div class="detail-meta__title">// founders</div>
-      <dl class="detail-meta-list">
-        <div class="detail-meta-row">
-          <dt>{{ if gt (len $p.founders) 1 }}Founders{{ else }}Founder{{ end }}</dt>
-          <dd>{{ delimit $p.founders ", " }}</dd>
-        </div>
+      <dl class="co-stats">
+        {{ if $companyTools }}<div class="co-stat"><dt>Tools</dt><dd>{{ partial "count.html" (len $companyTools) }}</dd></div>{{ end }}
+        {{ if $companyModels }}<div class="co-stat"><dt>Models</dt><dd>{{ partial "count.html" (len $companyModels) }}</dd></div>{{ end }}
+        {{ if $companyHardware }}<div class="co-stat"><dt>Chips</dt><dd>{{ partial "count.html" (len $companyHardware) }}</dd></div>{{ end }}
+        {{ with $p.founded }}<div class="co-stat"><dt>Founded</dt><dd>{{ . }}</dd></div>{{ end }}
+        {{ if isset $p "ai_native" }}<div class="co-stat"><dt>AI native</dt><dd>{{ if $p.ai_native }}Yes{{ else }}No{{ end }}</dd></div>{{ end }}
+        {{ with $p.headquarters }}<div class="co-stat co-stat--wide"><dt>Headquarters</dt><dd>{{ . }}</dd></div>{{ end }}
       </dl>
-    </div>
+    </header>
+
+    {{ if or $p.founders $cats }}
+    <section class="co-facts" aria-label="About {{ $p.name }}">
+      {{ if $p.founders }}
+      <div class="co-facts__col">
+        <h2 class="co-label">// {{ if gt (len $p.founders) 1 }}founders{{ else }}founder{{ end }}</h2>
+        <ul class="co-chips">
+          {{ range $p.founders }}<li class="co-chip">{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ if $cats }}
+      <div class="co-facts__col">
+        <h2 class="co-label">// works in</h2>
+        <ul class="co-chips">
+          {{ range $k, $v := $cats }}<li><a class="co-chip co-chip--link" href="{{ printf "/categories/%s/" $k | relURL }}">{{ $v }}</a></li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </section>
     {{ end }}
 
-    <!-- Tools grid -->
     {{ if $companyTools }}
-    <h2 class="other-cats__title">// tools by {{ $p.name }}</h2>
-    <div class="tools-grid" id="company-tools-grid">
-      {{ range $companyTools }}
-      {{ partial "tool-card.html" (dict "page" . "p" .Params) }}
-      {{ end }}
-    </div>
-    {{ else if not $companyHardware }}
-    {{ if not $companyModels }}
-    <p style="color:var(--fg-muted);padding:2rem 0">No tools listed for this company yet.</p>
-    {{ end }}
+    <section class="co-section" id="tools">
+      <h2 class="co-section__title">AI tools by {{ $p.name }} <span class="co-section__count">{{ len $companyTools }}</span></h2>
+      <div class="tools-grid">
+        {{ range $companyTools }}{{ partial "tool-card.html" (dict "page" . "p" .Params) }}{{ end }}
+      </div>
+    </section>
     {{ end }}
 
-    <!-- Hardware grid -->
-    {{ if $companyHardware }}
-    <h2 class="other-cats__title">// hardware by {{ $p.name }}</h2>
-    <div class="tools-grid" id="company-hardware-grid">
-      {{ range $companyHardware }}
-      {{ partial "gpu-card.html" (dict "page" . "p" .Params) }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <!-- Models grid -->
     {{ if $companyModels }}
-    <h2 class="other-cats__title">// models by {{ $p.name }}</h2>
-    <div class="tools-grid" id="company-models-grid">
-      {{ range $companyModels }}
-      {{ partial "model-card.html" (dict "page" . "p" .Params) }}
-      {{ end }}
-    </div>
+    <section class="co-section" id="models">
+      <h2 class="co-section__title">AI models by {{ $p.name }} <span class="co-section__count">{{ len $companyModels }}</span></h2>
+      <div class="tools-grid">
+        {{ range $companyModels }}{{ partial "model-card.html" (dict "page" . "p" .Params) }}{{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if $companyHardware }}
+    <section class="co-section" id="hardware">
+      <h2 class="co-section__title">AI hardware by {{ $p.name }} <span class="co-section__count">{{ len $companyHardware }}</span></h2>
+      <div class="tools-grid">
+        {{ range $companyHardware }}{{ partial "gpu-card.html" (dict "page" . "p" .Params) }}{{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if not (or $companyTools $companyModels $companyHardware) }}
+    <p class="co-empty">No tools listed for {{ $p.name }} yet. <a href="{{ "/submit/" | relURL }}">Submit one</a>.</p>
+    {{ end }}
+
+    {{ if $faq }}
+    <section class="co-section co-faq" id="faq">
+      <h2 class="co-section__title">{{ $p.name }} FAQ</h2>
+      <dl class="co-faq__list">
+        {{ range $faq }}
+        <div class="co-faq__item">
+          <dt>{{ .q }}</dt>
+          <dd>{{ .a }}</dd>
+        </div>
+        {{ end }}
+      </dl>
+    </section>
+    {{ end }}
+
+    {{ if $related }}
+    <section class="co-section" id="related">
+      <h2 class="co-section__title">More AI companies in {{ $p.headquarters }}</h2>
+      <ul class="co-related">
+        {{ range $related }}
+        {{ $rl := or .Params.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" .Params.website) }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="co-related__item">
+            <span class="co-related__logo"><img src="{{ $rl }}" alt="" width="20" height="20" loading="lazy" decoding="async" onerror="this.style.display='none'"></span>
+            <span class="co-related__name">{{ .Params.name }}</span>
+            {{ with .Params.subtitle }}<span class="co-related__sub">{{ . }}</span>{{ end }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      <p class="co-related__all"><a href="{{ "/companies/" | relURL }}">Browse all AI companies →</a></p>
+    </section>
     {{ end }}
 
   </main>

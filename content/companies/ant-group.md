@@ -10,6 +10,7 @@ founded: '2014'
 headquarters: 'Hangzhou, China'
 founders:
   - 'Jack Ma'
+ai_native: false
 date: '2026-08-09'
 rank: 5
 ---

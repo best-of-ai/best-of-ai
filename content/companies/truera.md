@@ -12,6 +12,7 @@ founders:
   - 'Anupam Datta'
   - 'Will Uppington'
   - 'Shayak Sen'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

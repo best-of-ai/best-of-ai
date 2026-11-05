@@ -11,6 +11,7 @@ headquarters: 'London, United Kingdom'
 founders:
   - 'Richard Robinson'
   - 'James Clough'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

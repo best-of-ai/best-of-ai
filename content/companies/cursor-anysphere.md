@@ -13,6 +13,7 @@ founders:
   - 'Sualeh Asif'
   - 'Arvid Lunnemark'
   - 'Aman Sanger'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

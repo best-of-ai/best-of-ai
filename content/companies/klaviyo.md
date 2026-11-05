@@ -11,6 +11,7 @@ headquarters: 'Boston, Massachusetts'
 founders:
   - 'Andrew Bialecki'
   - 'Ed Hallen'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

@@ -10,6 +10,7 @@ founded: '2015'
 headquarters: 'Beijing, China'
 founders:
   - 'Yu Kai'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -11,6 +11,7 @@ headquarters: 'Atlanta, Georgia'
 founders:
   - 'Kyle Porter'
   - 'David Cummings'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

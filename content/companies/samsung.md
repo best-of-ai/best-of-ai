@@ -10,6 +10,7 @@ founded: '1938'
 headquarters: 'Suwon, South Korea'
 founders:
   - 'Lee Byung-chul'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

@@ -11,6 +11,7 @@ headquarters: 'Berkeley, California'
 founders:
   - 'Jason Lopatecki'
   - 'Aparna Dhinakaran'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

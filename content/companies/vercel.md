@@ -10,6 +10,7 @@ founded: '2015'
 headquarters: 'San Francisco, California'
 founders:
   - 'Guillermo Rauch'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

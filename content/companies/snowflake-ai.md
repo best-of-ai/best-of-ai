@@ -12,6 +12,7 @@ founders:
   - 'Benoit Dageville'
   - 'Thierry Cruanes'
   - 'Marcin Zukowski'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

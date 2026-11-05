@@ -10,6 +10,7 @@ founded: '1911'
 headquarters: 'Armonk, New York'
 founders:
   []
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

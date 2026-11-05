@@ -10,6 +10,7 @@ founded: '2018'
 headquarters: 'South San Francisco, California'
 founders:
   - 'Daphne Koller'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -11,6 +11,7 @@ headquarters: 'Mountain View, California'
 founders:
   - 'Abel Mengistu'
   - 'Alex Greaves'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

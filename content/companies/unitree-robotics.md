@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Hangzhou, China'
 founders:
   - 'Wang Xingxing'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

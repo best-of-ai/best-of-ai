@@ -10,6 +10,7 @@ founded: '2012'
 headquarters: 'Oxford, United Kingdom'
 founders:
   - 'Andrew Hopkins'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

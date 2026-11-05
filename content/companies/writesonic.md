@@ -10,6 +10,7 @@ founded: '2020'
 headquarters: 'San Francisco, California'
 founders:
   - 'Samanyou Garg'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

@@ -11,6 +11,7 @@ headquarters: 'Beijing, China'
 founders:
   - 'Chen Tianshi'
   - 'Chen Yunji'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

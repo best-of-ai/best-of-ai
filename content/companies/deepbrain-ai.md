@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Seoul, South Korea'
 founders:
   - 'Eric Jang'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

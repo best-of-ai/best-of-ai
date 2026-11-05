@@ -8,6 +8,7 @@ website: 'https://allenai.org'
 logo_url: ''
 founded: '2014'
 headquarters: 'Seattle, WA'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

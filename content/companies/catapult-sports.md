@@ -11,6 +11,7 @@ headquarters: 'Melbourne, Australia'
 founders:
   - 'Shaun Holthouse'
   - 'Igor van de Griendt'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

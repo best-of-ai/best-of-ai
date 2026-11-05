@@ -11,6 +11,7 @@ headquarters: 'Portland, Oregon'
 founders:
   - 'Ofer Smadari'
   - 'Leonid Belkind'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

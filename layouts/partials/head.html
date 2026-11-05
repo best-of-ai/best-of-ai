@@ -71,7 +71,11 @@
 {{ else if $isCompany }}
   {{ $companySlug := or .Params.slug .File.BaseFileName }}
   {{ $companyCount := len (where .Site.RegularPages "Params.company" $companySlug) }}
-  {{ $pageTitle = printf "%s — AI Company (%d Tools) | Best of AI" $name $companyCount }}
+  {{ if gt $companyCount 0 }}
+    {{ $pageTitle = printf "%s AI Tools, Models & Company Profile (%d) | Best of AI" $name $companyCount }}
+  {{ else }}
+    {{ $pageTitle = printf "%s — AI Company Profile | Best of AI" $name }}
+  {{ end }}
 {{ else if and .IsPage $isJournal }}
   {{ $pageTitle = printf "%s — The AI Journal | Best of AI" (.Params.title | default .Title) }}
 {{ else if and .IsPage (eq .Section "leaderboard") }}
@@ -82,7 +86,7 @@
   {{ else if eq .Section "professionals" }}
     {{ $pageTitle = "AI Tools by Profession — Best of AI" }}
   {{ else if eq .Section "companies" }}
-    {{ $pageTitle = printf "Top AI Companies in the World (%d) — Best of AI" (len (where .Site.RegularPages "Section" "companies")) }}
+    {{ $pageTitle = printf "Top %d AI Companies & Labs in 2026 — Best of AI" (len (where .Site.RegularPages "Section" "companies")) }}
   {{ else if eq .Section "hardware" }}
     {{ $pageTitle = printf "Top AI Hardware & GPUs (%d) — Best of AI" (len (where .Site.RegularPages "Section" "hardware")) }}
   {{ else if eq .Section "models" }}
@@ -166,8 +170,23 @@
 {{ else if $isCompany }}
   {{ $companySlug   := or .Params.slug .File.BaseFileName }}
   {{ $companyCount  := len (where .Site.RegularPages "Params.company" $companySlug) }}
-  {{ $companyDesc   := .Params.description | default .Params.subtitle | default "" }}
-  {{ $desc = printf "%s — %d AI tools listed on Best of AI. %s" .Params.name $companyCount $companyDesc }}
+  {{ $companyBits := slice }}
+  {{ with .Params.headquarters }}{{ $companyBits = $companyBits | append (printf "based in %s" .) }}{{ end }}
+  {{ with .Params.founded }}{{ $companyBits = $companyBits | append (printf "founded %s" .) }}{{ end }}
+  {{ $companyLead := .Params.name }}
+  {{ if $companyBits }}{{ $companyLead = printf "%s (%s)" .Params.name (delimit $companyBits ", ") }}{{ end }}
+  {{ $companySub := .Params.subtitle | default "" }}
+  {{ if $companySub }}{{ $companySub = printf "%s. " $companySub }}{{ end }}
+  {{ $coToolN  := len (where (where .Site.RegularPages "Section" "tools") "Params.company" $companySlug) }}
+  {{ $coModelN := len (where (where .Site.RegularPages "Section" "models") "Params.company" $companySlug) }}
+  {{ $coCounts := slice }}
+  {{ if gt $coToolN 0 }}{{ $coCounts = $coCounts | append (printf "%d AI tool%s" $coToolN (cond (eq $coToolN 1) "" "s")) }}{{ end }}
+  {{ if gt $coModelN 0 }}{{ $coCounts = $coCounts | append (printf "%d model%s" $coModelN (cond (eq $coModelN 1) "" "s")) }}{{ end }}
+  {{ if $coCounts }}
+    {{ $desc = printf "%s: %s%s listed, plus founders and company facts." $companyLead $companySub (delimit $coCounts " and ") }}
+  {{ else }}
+    {{ $desc = printf "%s: %s%s" $companyLead $companySub (.Params.description | default "") }}
+  {{ end }}
 {{ else if and .IsPage $isJournal }}
   {{ $desc = .Params.subtitle | default .Params.description | default .Site.Params.description }}
 {{ else if eq .Kind "section" }}
@@ -176,7 +195,7 @@
   {{ else if eq .Section "professionals" }}
     {{ $desc = printf "Find AI tools tailored to your role — %d profession guides with handpicked tools on Best of AI." (len .Pages) }}
   {{ else if eq .Section "companies" }}
-    {{ $desc = printf "The top %d AI companies and labs in the world — ranked by tools featured on Best of AI." (len .Pages) }}
+    {{ $desc = printf "Browse %d top AI companies and labs, from OpenAI to Anthropic to new startups. See where they're based, when they started, and the tools they build." (len .Pages) }}
   {{ else if eq .Section "hardware" }}
     {{ $desc = printf "Browse %d AI GPUs and accelerators, with full specs — VRAM, memory bandwidth, TDP, and price — from the companies building them." (len .Pages) }}
   {{ else if eq .Section "models" }}
@@ -239,7 +258,7 @@
 {{ range .Params.tags }}{{ $hwKws = $hwKws | append . }}{{ end }}
 <meta name="keywords" content="{{ delimit $hwKws ", " }}">
 {{ else if $isCompany }}
-{{ $ckws := slice .Params.name "AI company" (printf "%s AI" .Params.name) (printf "%s tools" .Params.name) }}
+{{ $ckws := slice .Params.name "AI company" (printf "%s AI" .Params.name) (printf "%s AI tools" .Params.name) (printf "%s products" .Params.name) (printf "who founded %s" .Params.name) (printf "%s headquarters" .Params.name) (printf "%s alternatives" .Params.name) }}
 {{ with .Params.headquarters }}{{ $ckws = $ckws | append . }}{{ end }}
 {{ range .Params.founders }}{{ $ckws = $ckws | append . }}{{ end }}
 <meta name="keywords" content="{{ delimit $ckws ", " }}">
@@ -255,6 +274,8 @@
     {{ $profKws = $profKws | append (printf "%s AI tools" (. | humanize | lower)) }}
   {{ end }}
 <meta name="keywords" content="{{ delimit $profKws ", " }}">
+{{ else if and (eq .Kind "section") (eq .Section "companies") }}
+<meta name="keywords" content="top AI companies, AI companies list, best AI companies, AI labs, artificial intelligence companies, AI startups, AI companies 2026, largest AI companies, generative AI companies">
 {{ else if and (eq .Kind "section") (eq .Section "hardware") }}
 <meta name="keywords" content="AI hardware, AI GPUs, GPU specs, AI accelerators, best AI GPUs, AI chips, GPU comparison, NVIDIA GPU, AMD GPU, TPU, datacenter GPU">
 {{ else if and (eq .Kind "section") (or (eq .Section "models") (eq .Section "model-categories")) }}

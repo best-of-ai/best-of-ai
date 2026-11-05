@@ -10,6 +10,7 @@ founded: '2012'
 headquarters: 'Beijing, China'
 founders:
   - 'Zhang Yiming'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

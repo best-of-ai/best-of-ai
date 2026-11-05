@@ -10,6 +10,7 @@ founded: '2019'
 headquarters: 'Heidelberg, Germany'
 founders:
   - 'Jonas Andrulis'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

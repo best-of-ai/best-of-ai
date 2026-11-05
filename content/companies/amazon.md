@@ -10,6 +10,7 @@ founded: '1994'
 headquarters: 'Seattle, Washington'
 founders:
   - 'Jeff Bezos'
+ai_native: false
 date: '2026-07-16'
 rank: 10
 ---

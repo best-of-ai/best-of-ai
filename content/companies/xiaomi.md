@@ -10,6 +10,7 @@ founded: '2010'
 headquarters: 'Beijing, China'
 founders:
   - 'Lei Jun'
+ai_native: false
 date: '2026-10-03'
 rank: 7
 ---

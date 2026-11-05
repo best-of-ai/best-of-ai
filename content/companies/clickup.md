@@ -10,6 +10,7 @@ founded: '2017'
 headquarters: 'San Diego, California'
 founders:
   - 'Zeb Evans'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

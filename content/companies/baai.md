@@ -8,6 +8,7 @@ website: 'https://www.baai.ac.cn'
 logo_url: ''
 founded: '2018'
 headquarters: 'Beijing, China'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

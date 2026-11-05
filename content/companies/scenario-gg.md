@@ -11,6 +11,7 @@ headquarters: 'Paris, France'
 founders:
   - 'Emmanuel Nataf'
   - 'Victor Guimard'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

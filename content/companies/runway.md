@@ -12,6 +12,7 @@ founders:
   - 'Cristóbal Valenzuela'
   - 'Anastasis Germanidis'
   - 'Alejandro Matamala'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

@@ -10,6 +10,7 @@ founded: '2004'
 headquarters: 'Santa Clara, California'
 founders:
   - 'Fred Luddy'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

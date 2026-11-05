@@ -10,6 +10,7 @@ founded: '2019'
 headquarters: 'San Diego, California'
 founders:
   - 'Fred Manby'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

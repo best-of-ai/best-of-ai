@@ -11,6 +11,7 @@ headquarters: 'Belmont, California'
 founders:
   - 'Jike Chong'
   - 'Yueshi Shen'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

@@ -10,6 +10,7 @@ founded: '2018'
 headquarters: 'Pittsburgh, Pennsylvania'
 founders:
   - 'Shiv Rao'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Stephen Balaban'
   - 'Michael Balaban'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

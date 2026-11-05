@@ -11,6 +11,7 @@ headquarters: 'Redmond, Washington'
 founders:
   - 'Bill Gates'
   - 'Paul Allen'
+ai_native: false
 date: '2026-07-16'
 rank: 10
 ---

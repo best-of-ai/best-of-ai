@@ -11,6 +11,7 @@ headquarters: 'Tel Aviv, Israel'
 founders:
   - 'Itamar Friedman'
   - 'Dedy Kredo'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

@@ -11,6 +11,7 @@ headquarters: 'Menlo Park, California'
 founders:
   - 'Noam Shazeer'
   - 'Daniel De Freitas'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

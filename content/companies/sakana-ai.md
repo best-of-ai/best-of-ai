@@ -11,6 +11,7 @@ headquarters: 'Tokyo, Japan'
 founders:
   - 'David Ha'
   - 'Llion Jones'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

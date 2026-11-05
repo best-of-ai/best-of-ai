@@ -11,6 +11,7 @@ headquarters: 'Palo Alto, California'
 founders:
   - 'Amit Jain'
   - 'Alex Yu'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

@@ -10,6 +10,7 @@ founded: '2015'
 headquarters: 'San Francisco, California'
 founders:
   - 'Joshua Browder'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

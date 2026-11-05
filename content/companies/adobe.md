@@ -11,6 +11,7 @@ headquarters: 'San Jose, California'
 founders:
   - 'John Warnock'
   - 'Charles Geschke'
+ai_native: false
 date: '2026-07-16'
 rank: 10
 ---

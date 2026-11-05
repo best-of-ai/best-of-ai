@@ -11,6 +11,7 @@ headquarters: 'Paris, France'
 founders:
   - 'Jason Warner'
   - 'Eiso Kant'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

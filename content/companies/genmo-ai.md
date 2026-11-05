@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Paras Jain'
   - 'Ajay Jain'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

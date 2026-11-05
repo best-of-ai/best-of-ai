@@ -10,6 +10,7 @@ founded: '2025'
 headquarters: 'San Francisco, California'
 founders:
   - 'Mira Murati'
+ai_native: true
 date: '2026-07-25'
 rank: 5
 ---

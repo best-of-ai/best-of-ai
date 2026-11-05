@@ -11,6 +11,7 @@ headquarters: 'Toronto, Canada'
 founders:
   - 'Scott Stevenson'
   - 'Rui Fang'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

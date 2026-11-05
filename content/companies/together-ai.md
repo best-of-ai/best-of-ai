@@ -13,6 +13,7 @@ founders:
   - 'Ce Zhang'
   - 'Chris Ré'
   - 'Percy Liang'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

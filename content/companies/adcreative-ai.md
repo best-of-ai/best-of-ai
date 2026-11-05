@@ -10,6 +10,7 @@ founded: '2021'
 headquarters: 'Istanbul, Turkey'
 founders:
   - 'Iuga Cristian Constantin'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

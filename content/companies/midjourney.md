@@ -10,6 +10,7 @@ founded: '2021'
 headquarters: 'San Francisco, California'
 founders:
   - 'David Holz'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

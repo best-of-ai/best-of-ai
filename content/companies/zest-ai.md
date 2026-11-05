@@ -10,6 +10,7 @@ founded: '2009'
 headquarters: 'Los Angeles, California'
 founders:
   - 'Douglas Merrill'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -12,6 +12,7 @@ founders:
   - 'Lukas Biewald'
   - 'Chris Van Pelt'
   - 'Shawn Lewis'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

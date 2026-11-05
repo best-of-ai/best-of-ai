@@ -1,0 +1,40 @@
+{{/* Returns a slice of {q, a} dicts for a company page. Used by the page body and the FAQPage JSON-LD. */}}
+{{ $page := . }}
+{{ $p := $page.Params }}
+{{ $slug := or $p.slug $page.File.BaseFileName }}
+{{ $tools := sort (where (where $page.Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $models := sort (where (where $page.Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $hw := sort (where (where $page.Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
+{{ $faq := slice }}
+
+{{ with $p.description }}
+  {{ $faq = $faq | append (dict "q" (printf "What is %s?" $p.name) "a" .) }}
+{{ end }}
+
+{{ if $p.founders }}
+  {{ $when := "" }}{{ with $p.founded }}{{ $when = printf " in %s" . }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (printf "Who founded %s?" $p.name) "a" (printf "%s was founded%s by %s." $p.name $when (delimit $p.founders ", " " and "))) }}
+{{ else if $p.founded }}
+  {{ $faq = $faq | append (dict "q" (printf "When was %s founded?" $p.name) "a" (printf "%s was founded in %s." $p.name $p.founded)) }}
+{{ end }}
+
+{{ with $p.headquarters }}
+  {{ $faq = $faq | append (dict "q" (printf "Where is %s headquartered?" $p.name) "a" (printf "%s is headquartered in %s." $p.name .)) }}
+{{ end }}
+
+{{ if $tools }}
+  {{ $names := slice }}{{ range first 5 $tools }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (printf "What AI tools does %s make?" $p.name) "a" (printf "Best of AI lists %d %s tool%s, including %s." (len $tools) $p.name (cond (eq (len $tools) 1) "" "s") (delimit $names ", " " and "))) }}
+{{ end }}
+
+{{ if $models }}
+  {{ $names := slice }}{{ range first 5 $models }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (printf "Which AI models has %s released?" $p.name) "a" (printf "%s has %d model%s in our directory, including %s." $p.name (len $models) (cond (eq (len $models) 1) "" "s") (delimit $names ", " " and "))) }}
+{{ end }}
+
+{{ if $hw }}
+  {{ $names := slice }}{{ range first 5 $hw }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (printf "What AI hardware does %s make?" $p.name) "a" (printf "%s makes %d AI chip%s we track, including %s." $p.name (len $hw) (cond (eq (len $hw) 1) "" "s") (delimit $names ", " " and "))) }}
+{{ end }}
+
+{{ return $faq }}

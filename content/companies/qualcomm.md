@@ -10,6 +10,7 @@ founded: '1985'
 headquarters: 'San Diego, California'
 founders:
   - 'Irwin Jacobs'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

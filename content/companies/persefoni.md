@@ -11,6 +11,7 @@ headquarters: 'Scottsdale, Arizona'
 founders:
   - 'Kentaro Kawamori'
   - 'Michael Kobori'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

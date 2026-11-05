@@ -10,6 +10,7 @@ founded: '2021'
 headquarters: 'Berlin, Germany'
 founders:
   - 'Andre Zayarni'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

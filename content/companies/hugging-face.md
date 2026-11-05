@@ -12,6 +12,7 @@ founders:
   - 'Clément Delangue'
   - 'Julien Chaumond'
   - 'Thomas Wolf'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

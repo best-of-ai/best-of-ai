@@ -10,6 +10,7 @@ founded: '2020'
 headquarters: 'Seoul, South Korea'
 founders:
   - 'Sunghyun Park'
+ai_native: true
 date: '2026-08-17'
 rank: 5
 ---

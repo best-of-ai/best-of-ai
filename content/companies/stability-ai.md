@@ -10,6 +10,7 @@ founded: '2019'
 headquarters: 'London, United Kingdom'
 founders:
   - 'Emad Mostaque'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

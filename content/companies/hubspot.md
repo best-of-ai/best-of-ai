@@ -11,6 +11,7 @@ headquarters: 'Cambridge, Massachusetts'
 founders:
   - 'Brian Halligan'
   - 'Dharmesh Shah'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

@@ -8,6 +8,7 @@ website: 'https://www.navercorp.com'
 logo_url: ''
 founded: '1999'
 headquarters: 'Seongnam, South Korea'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

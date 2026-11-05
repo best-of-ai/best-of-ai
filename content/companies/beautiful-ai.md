@@ -12,6 +12,7 @@ founders:
   - 'Yates Jarvis'
   - 'Adam Tucker'
   - 'Peter Kena'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

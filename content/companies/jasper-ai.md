@@ -12,6 +12,7 @@ founders:
   - 'Dave Rogenmoser'
   - 'John Philip Morgan'
   - 'Chris Hull'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

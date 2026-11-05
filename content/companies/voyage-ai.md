@@ -8,6 +8,7 @@ website: 'https://www.voyageai.com'
 logo_url: ''
 founded: '2023'
 headquarters: 'San Francisco, CA'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

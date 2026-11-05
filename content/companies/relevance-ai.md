@@ -11,6 +11,7 @@ headquarters: 'Sydney, Australia'
 founders:
   - 'Daniel Vassilev'
   - 'Jacky Koh'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

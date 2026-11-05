@@ -8,6 +8,7 @@ website: 'https://www.tii.ae'
 logo_url: ''
 founded: '2020'
 headquarters: 'Abu Dhabi, UAE'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

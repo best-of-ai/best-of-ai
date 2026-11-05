@@ -70,9 +70,12 @@
 {{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
-{{/* ── Organization (company pages) ── */}}
+{{/* ── Organization + ItemList + FAQPage (company pages) ── */}}
 {{ else if and .IsPage (eq .Section "companies") }}
 {{ $p := .Params }}
+{{ $coSlug := or $p.slug .File.BaseFileName }}
+{{ $coTools := sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $coSlug) "Params.rank" "desc" }}
+{{ $coModels := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $coSlug) "Params.rank" "desc" }}
 {{ $schema := dict
   "@context" "https://schema.org"
   "@type" "Organization"
@@ -80,16 +83,39 @@
   "name" ($p.name | default "")
   "description" ($p.description | default "")
   "url" ($p.website | default "")
+  "mainEntityOfPage" .Permalink
 }}
+{{ if $p.subtitle }}{{ $schema = merge $schema (dict "slogan" $p.subtitle) }}{{ end }}
 {{ if $p.logo_url }}{{ $schema = merge $schema (dict "logo" $p.logo_url) }}{{ end }}
-{{ if $p.founded }}{{ $schema = merge $schema (dict "foundingDate" $p.founded) }}{{ end }}
-{{ if $p.headquarters }}{{ $schema = merge $schema (dict "address" (dict "@type" "PostalAddress" "addressLocality" $p.headquarters)) }}{{ end }}
+{{ if $p.founded }}{{ $schema = merge $schema (dict "foundingDate" (printf "%v" $p.founded)) }}{{ end }}
+{{ if $p.headquarters }}{{ $schema = merge $schema (dict "location" (dict "@type" "Place" "name" $p.headquarters) "address" (dict "@type" "PostalAddress" "addressLocality" $p.headquarters)) }}{{ end }}
 {{ if $p.founders }}
   {{ $founderList := slice }}
   {{ range $p.founders }}{{ $founderList = $founderList | append (dict "@type" "Person" "name" .) }}{{ end }}
   {{ $schema = merge $schema (dict "founder" $founderList) }}
 {{ end }}
+{{ $coTopics := slice }}
+{{ range $coTools }}{{ with .Params.category_name }}{{ $coTopics = $coTopics | append . }}{{ end }}{{ end }}
+{{ $coTopics = first 10 (uniq $coTopics) }}
+{{ if $coTopics }}{{ $schema = merge $schema (dict "knowsAbout" $coTopics) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
+{{ $coItems := slice }}
+{{ range $i, $t := first 20 (union $coModels $coTools) }}
+  {{ $coItems = $coItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
+{{ end }}
+{{ if $coItems }}
+  {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (printf "AI tools and models by %s" $p.name) "numberOfItems" (add (len $coTools) (len $coModels)) "itemListElement" $coItems }}
+  <script type="application/ld+json">{{ $listSchema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ $coFaq := partial "company-faq.html" . }}
+{{ if $coFaq }}
+  {{ $coFaqItems := slice }}
+  {{ range $coFaq }}{{ $coFaqItems = $coFaqItems | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+  {{ $coFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $coFaqItems }}
+  <script type="application/ld+json">{{ $coFaqSchema | jsonify | safeJS }}</script>
+{{ end }}
 
 {{/* ── SoftwareApplication (model pages) ── */}}
 {{ else if and .IsPage (eq .Section "models") }}
@@ -389,19 +415,20 @@
   {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (printf "AI Tools tagged %s" .Title) "itemListElement" $listItems }}
   <script type="application/ld+json">{{ $listSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "companies") }}
-  {{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+  {{ $allCompanies := sort (where .Site.RegularPages "Section" "companies") "Params.rank" "desc" }}
   {{ $listItems := slice }}
-  {{ range $i, $c := $allCompanies | first 20 }}
+  {{ range $i, $c := $allCompanies | first 50 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.Params.name "url" $c.Permalink) }}
   {{ end }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Top AI Companies in the World"
-    "description" "The top AI companies and labs in the world, ranked by tools featured on Best of AI."
+    "name" "Top AI Companies & Labs"
+    "description" (printf "A directory of %d AI companies and labs, with headquarters, founding year, and the AI tools each one has built." (len $allCompanies))
     "url" .Permalink
-    "numberOfItems" (len $allCompanies)
-    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Companies in the World" "numberOfItems" (len $allCompanies) "itemListElement" $listItems)
+    "inLanguage" "en"
+    "isPartOf" (dict "@type" "WebSite" "name" "Best of AI" "url" (printf "%s/" $siteURL))
+    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Companies & Labs" "numberOfItems" (len $allCompanies) "itemListOrder" "https://schema.org/ItemListOrderDescending" "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "hardware") }}

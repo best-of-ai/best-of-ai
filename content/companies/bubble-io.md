@@ -11,6 +11,7 @@ headquarters: 'New York City, New York'
 founders:
   - 'Josh Haas'
   - 'Emmanuel Straschnov'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

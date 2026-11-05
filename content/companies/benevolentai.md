@@ -10,6 +10,7 @@ founded: '2013'
 headquarters: 'London, United Kingdom'
 founders:
   - 'Ken Mulvany'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

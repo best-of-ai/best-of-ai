@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Toronto, Canada'
 founders:
   - 'Ljubisa Bajic'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

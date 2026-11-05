@@ -11,6 +11,7 @@ headquarters: 'Pittsburgh, Pennsylvania'
 founders:
   - 'Deepak Pathak'
   - 'Abhinav Gupta'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

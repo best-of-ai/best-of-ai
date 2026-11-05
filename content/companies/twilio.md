@@ -12,6 +12,7 @@ founders:
   - 'Jeff Lawson'
   - 'Evan Cooke'
   - 'John Wolthuis'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

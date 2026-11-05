@@ -10,6 +10,7 @@ founded: '2011'
 headquarters: 'Mountain View, California'
 founders:
   - 'Salvatore Sanfilippo'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

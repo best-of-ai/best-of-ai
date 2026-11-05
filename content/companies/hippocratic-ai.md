@@ -10,6 +10,7 @@ founded: '2023'
 headquarters: 'Palo Alto, California'
 founders:
   - 'Munjal Shah'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Mountain View, California'
 founders:
   - 'Jonathan Ross'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

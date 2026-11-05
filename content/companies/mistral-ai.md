@@ -12,6 +12,7 @@ founders:
   - 'Arthur Mensch'
   - 'Guillaume Lample'
   - 'Timothée Lacroix'
+ai_native: true
 date: '2026-07-16'
 rank: 9
 ---

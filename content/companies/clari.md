@@ -11,6 +11,7 @@ headquarters: 'Sunnyvale, California'
 founders:
   - 'Andy Byrne'
   - 'Venkat Rangan'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

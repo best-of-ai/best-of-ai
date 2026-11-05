@@ -12,6 +12,7 @@ founders:
   - 'Vikram Chatterji'
   - 'Yash Sheth'
   - 'Atindriyo Sanyal'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Sam Udotong'
   - 'Krish Ramineni'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

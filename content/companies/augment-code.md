@@ -11,6 +11,7 @@ headquarters: 'Palo Alto, California'
 founders:
   - 'Igor Ostrovsky'
   - 'Scott Dietzen'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

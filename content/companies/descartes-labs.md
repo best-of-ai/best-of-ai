@@ -10,6 +10,7 @@ founded: '2014'
 headquarters: 'Santa Fe, New Mexico'
 founders:
   - 'Mark Johnson'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

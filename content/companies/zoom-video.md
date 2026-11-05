@@ -10,6 +10,7 @@ founded: '2011'
 headquarters: 'San Jose, California'
 founders:
   - 'Eric Yuan'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

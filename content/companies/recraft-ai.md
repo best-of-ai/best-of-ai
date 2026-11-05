@@ -10,6 +10,7 @@ founded: '2022'
 headquarters: 'London, United Kingdom'
 founders:
   - 'Igor Zaytsev'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

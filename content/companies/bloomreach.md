@@ -11,6 +11,7 @@ headquarters: 'Mountain View, California'
 founders:
   - 'Raj De Datta'
   - 'Ashutosh Garg'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

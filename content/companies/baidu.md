@@ -11,6 +11,7 @@ headquarters: 'Beijing, China'
 founders:
   - 'Robin Li'
   - 'Eric Xu'
+ai_native: false
 date: '2026-07-16'
 rank: 9
 ---

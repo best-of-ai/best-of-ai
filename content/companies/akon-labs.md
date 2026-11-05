@@ -9,6 +9,7 @@ logo_url: ''
 founded: ''
 headquarters: ''
 founders: []
+ai_native: true
 date: '2026-09-02'
 rank: 4
 ---

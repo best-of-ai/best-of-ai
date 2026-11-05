@@ -12,6 +12,7 @@ founders:
   - 'Naghibzadeh'
   - 'Stanley Yang'
   - 'David Glusic'
+ai_native: true
 date: '2026-09-02'
 rank: 3
 ---

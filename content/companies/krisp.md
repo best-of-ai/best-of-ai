@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Davit Baghdasaryan'
   - 'Artavazd Mehrabyan'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---
