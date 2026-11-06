@@ -19,6 +19,7 @@ alternatives:
   - fish-audio
   - wellsaid-labs
   - openai-realtime-api
+  - speechify-api
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, api_available, real_time, voice_enabled]
 ---
