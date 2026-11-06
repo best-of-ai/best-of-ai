@@ -3,7 +3,7 @@ title: 'Descript'
 name: 'Descript'
 subtitle: 'AI video editor with text-based editing'
 slug: 'descript-video'
-description: 'Descript is an audio and video editor that turns recordings into editable text documents — you edit the media by editing the words. Its AI features include Overdub (voice cloning for corrections), Studio Sound (one-click noise removal), and automatic filler-word removal. Podcasters, YouTubers, and online course creators use it to slash post-production time.'
+description: 'Descript is an audio and video editor that turns recordings into editable text. You edit media by editing the words, and AI features remove filler words, clean up sound, and generate transcripts, captions, and clips.'
 website: 'https://descript.com'
 company: 'descript'
 logo_url: ''
@@ -23,3 +23,9 @@ alternatives:
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, voice_enabled]
 ---
+
+Descript changed how many people edit podcasts and videos. After recording, Descript transcribes the audio, and deleting a word from the transcript cuts it from the media. That makes editing feel like working in a document, which is friendlier for people without video editing experience.
+
+AI tools extend the idea. Studio Sound improves audio quality in one click, filler word removal cleans speech, eye contact correction adjusts gaze, and the underlord assistant performs edits from instructions. Voice cloning lets you fix a word by typing it, and text can drive screen recording, multi-track editing, and clips for social media.
+
+Descript has a free plan with limits and paid tiers by hours of transcription and features. Complex video projects with heavy effects may outgrow it, and AI voice features should be used with consent. Alternatives include Adobe Premiere Pro, Riverside, CapCut, Podcastle, and Kapwing. Descript suits podcasters, marketers, and creators who prefer editing by text.

@@ -3,7 +3,7 @@ title: 'Komos'
 name: 'Komos'
 subtitle: 'AI coworker for browser automation and enterprise RPA'
 slug: 'komos-ai'
-description: 'Komos is an AI automation platform for enterprise teams that handles browser automation and RPA through plain-language task descriptions rather than brittle scripts. Operations and IT teams use it to automate repetitive web-based workflows, data entry, and multi-step processes without building and maintaining custom automation code. Its AI-driven approach means automations adapt to UI changes rather than breaking when a web page layout updates, reducing the ongoing maintenance that makes traditional RPA expensive.'
+description: 'Komos is an AI automation platform for enterprise teams that handles browser automation and RPA through plain-language task descriptions instead of brittle scripts. Operations and IT teams use it to automate repetitive web work.'
 website: 'https://komos.ai'
 category: 'automation'
 category_name: 'Automation'
@@ -20,3 +20,9 @@ alternatives:
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, enterprise, customizable]
 ---
+
+Komos aims to replace fragile recorded scripts with instructions in natural language. A user describes a task, such as downloading reports from a portal or entering data across systems, and an AI agent carries it out by operating a browser, adjusting when a page changes.
+
+That approach targets a known weakness of traditional robotic process automation, where small interface changes break bots. Enterprise teams use such tools for back-office tasks in systems that lack APIs.
+
+Independent information about Komos is limited, so evaluate it on your own workflows and ask about reliability, logging, and access controls. Alternatives include UiPath, Automation Anywhere, Microsoft Power Automate, Browserbase with agents, and Skyvern. Komos suits operations teams exploring AI-driven automation.

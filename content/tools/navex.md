@@ -3,7 +3,7 @@ title: 'NAVEX'
 name: 'NAVEX'
 subtitle: 'Ethics and compliance platform for whistleblower hotlines and policy management'
 slug: 'navex'
-description: "NAVEX runs the anonymous whistleblower hotlines that employees call or submit reports to at thousands of companies, then routes each case through an investigation workflow so nothing sits unresolved in someone's inbox. Ethics officers use its policy management tools to publish codes of conduct and track who has actually read and acknowledged them, with AI flagging report patterns that might point to a systemic problem rather than a one-off complaint. Its benchmarking data also lets compliance teams see how their case volume and resolution times compare to similar organizations."
+description: 'NAVEX runs ethics and compliance software, including the anonymous whistleblower hotlines employees use to report concerns, then routes each case through an investigation workflow so nothing sits unresolved.'
 website: 'https://www.navex.com'
 logo_url: ''
 category: 'compliance'
@@ -16,3 +16,9 @@ alternatives:
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---
+
+NAVEX serves compliance and risk teams at large organizations. Its best-known service is a reporting hotline and web portal where employees can raise concerns about misconduct anonymously. Reports flow into a case management system that assigns investigators, tracks actions, and keeps records.
+
+The company also provides policy management, training courses, third-party risk tools, and analytics that reveal patterns across reports. Newer features use AI to summarize cases, categorize reports, and surface trends for compliance leaders.
+
+NAVEX is sold on subscription to enterprises and public institutions. Effective programs depend on trust and follow-through by management, not only on tools. Alternatives include Convercent (acquired by NAVEX), EthicsPoint, Case IQ, Whistleblower Software, and Vault Platform. NAVEX suits organizations running formal ethics programs.

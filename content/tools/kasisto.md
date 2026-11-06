@@ -3,7 +3,7 @@ title: 'Kasisto'
 name: 'Kasisto'
 subtitle: 'Conversational AI platform for digital banking'
 slug: 'kasisto'
-description: "Kasisto's KAI platform powers the conversational banking assistants built into mobile banking apps, letting customers check balances, move money, and get account help through chat instead of digging through menus. Its finance-specific language models understand banking terms and regulatory nuance that general-purpose chatbots tend to miss. Banks license KAI to launch a branded assistant without building conversational AI themselves."
+description: 'Kasisto''s KAI platform powers conversational banking assistants inside mobile banking apps. Customers check balances, move money, and get answers through chat. Backbase acquired the company.'
 website: 'https://kasisto.com'
 logo_url: ''
 category: 'fintech'
@@ -19,3 +19,9 @@ alternatives:
 date: '2025-09-21'
 tags: [customizable, nlp, model_based, ai_powered, intelligent, platform, tool, service]
 ---
+
+Kasisto builds AI assistants for banks. Its KAI technology understands banking questions and can carry out actions, such as showing recent transactions, transferring funds, or explaining a fee, in a chat within a bank's mobile app or website. The language models are tuned to the vocabulary and rules of finance.
+
+A newer product, KAI Answers, uses generative AI to answer questions from a bank's own policies and documents, with citations so staff and customers can see the source. Banks use it to cut call volumes and improve self-service, and the company has worked with institutions around the world.
+
+Backbase, a digital banking software company, acquired Kasisto to build assistant technology into its banking platform, so roadmap and packaging may change. Competitors include Personetics, Interface.ai, Clinc, and the AI features of core banking vendors. Kasisto suits banks that want conversational assistants in their apps.

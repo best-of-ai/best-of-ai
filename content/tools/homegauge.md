@@ -16,3 +16,9 @@ alternatives:
 date: '2026-11-05'
 tags: [real_estate, business, property, housing, investment, listings, mortgage, valuation, market_data]
 ---
+
+HomeGauge is software for the home inspection trade. Inspectors collect findings on-site, add photos, and generate reports with standard language, ratings, and summaries for buyers and agents. Repair estimate features give clients an idea of costs.
+
+The product has been around for years and has a loyal user base, along with scheduling and business tools. Newer rivals emphasize modern interfaces and automation, and AI features that draft report language.
+
+HomeGauge is sold by subscription or license. Inspectors remain responsible for accuracy and compliance with standards of practice. Alternatives include Spectora, ISN, Horizon, Palmetto, and ITB. HomeGauge suits home inspectors.

@@ -3,7 +3,7 @@ title: 'NemoClaw'
 name: 'NemoClaw'
 subtitle: 'NVIDIAs open platform for running enterprise AI agents with security controls'
 slug: 'nemoclaw'
-description: 'NemoClaw is an open enterprise agent platform announced at NVIDIA GTC in March 2026. It builds on the OpenClaw agent project and adds security and policy controls aimed at companies worried about running autonomous agents.'
+description: 'NemoClaw is NVIDIA''s open-source enterprise layer for OpenClaw agents. It adds a sandboxed runtime, policy and privacy controls, and NVIDIA''s Nemotron models, aimed at companies concerned about security when running autonomous agents.'
 website: 'https://www.nvidia.com'
 company: 'nvidia'
 logo_url: ''
@@ -22,4 +22,8 @@ date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 
-NemoClaw was announced at GTC 2026 as NVIDIA's answer to enterprise concerns about agents acting on their own. It starts from the open-source OpenClaw agent and adds sandboxing and policy controls so companies can decide what an agent is allowed to touch. It is designed to work with Nemotron models but is not tied to them.
+OpenClaw is an open-source agent project that can carry out tasks on a user's computer and accounts, which made it popular and also raised security worries. NemoClaw is NVIDIA's response for organizations: it installs OpenClaw inside an isolated runtime, called OpenShell, with strict default permissions, so the agent can only touch what administrators allow. A privacy router helps decide which requests can use outside models and which stay local.
+
+NVIDIA pairs the platform with its Nemotron models and with its NeMo software for building and managing agents, but says NemoClaw works on different hardware and with other models. It was announced with a group of enterprise partners and early integrations with agent frameworks, positioning NVIDIA to offer software as well as chips for the agent era.
+
+NemoClaw is free and open source, and was described as an early-stage release, so teams should treat it as something to pilot, not a finished product. Running agents still needs careful governance. Alternatives include OpenAI's enterprise agent platform, Microsoft Copilot Studio, Salesforce Agentforce, Amazon Bedrock AgentCore, and Claude's enterprise agent features. NemoClaw suits companies exploring open, controllable agent infrastructure.

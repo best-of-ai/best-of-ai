@@ -3,7 +3,7 @@ title: 'Almanac'
 name: 'Almanac'
 subtitle: 'An AI agent that builds a running wiki of a company''s work and answers questions from it'
 slug: 'almanac-ai'
-description: "Almanac, a Y Combinator Summer 2026 company founded by Kushagra Chitkara, Rohan Sharma, and Divit Sheth, connects to Gmail, Calendar, Slack, GitHub, and similar tools to build a personal and company wiki that it checks before acting. It then proactively flags tasks through Slack, iMessage, or text rather than waiting to be asked. It launched through Y Combinator around September 1, 2026, and is priced from $30 per user per month. This is a separate product from the earlier, unrelated documentation tool Almanac.io."
+description: 'Almanac is an AI agent that connects to your work accounts, such as Gmail, Calendar, Slack, and GitHub, and builds a self-updating wiki of your company. It reads that wiki before acting on requests.'
 website: 'https://usealmanac.com/'
 logo_url: ''
 category: 'knowledge-management'
@@ -21,3 +21,9 @@ alternatives:
 date: '2026-09-01'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, community_driven]
 ---
+
+Almanac builds memory for an AI agent. Once you connect work accounts, it reads messages, calendar events, documents, and code activity and compiles what it learns into a wiki covering people, projects, and decisions. The wiki updates as new information arrives, so the agent does not start from zero each time.
+
+The agent then uses that knowledge to do work. Teammates can send requests through tools such as Slack, and it checks the wiki for context before acting, which aims to reduce the repeated explaining that other assistants need. Connections can be personal or shared, so a company can decide how much of its information the agent sees.
+
+Almanac is a young product from a recent startup batch, with a free trial and paid plans. Giving an agent access to email and chat raises privacy and security questions, so review permissions and what data is stored. Alternatives include Glean, Notion AI, Dust, Mem, and ChatGPT or Claude with connectors. Almanac suits small teams that want an assistant with company context.

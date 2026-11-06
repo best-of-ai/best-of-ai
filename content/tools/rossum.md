@@ -3,7 +3,7 @@ title: 'Rossum'
 name: 'Rossum'
 subtitle: 'AI-powered document data capture for finance and operations'
 slug: 'rossum'
-description: 'Rossum is an AI document processing platform that automates data extraction from invoices, purchase orders, and other transactional documents. Its cognitive data capture engine learns document layouts and handles exceptions, integrating with ERP and AP automation workflows.'
+description: 'Rossum is an AI document processing platform that automates data extraction from invoices, purchase orders, and other transactional documents. It learns document layouts and routes exceptions to human review.'
 website: 'https://rossum.ai'
 logo_url: ''
 category: 'document-ai'
@@ -22,3 +22,9 @@ alternatives:
 date: '2025-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
 ---
+
+Rossum reads business documents without fixed templates. Companies receive invoices in many formats, and Rossum identifies fields such as vendor, amount, and line items, validates them against rules, and sends clean data to accounting or ERP systems.
+
+A review interface lets staff correct uncertain fields, and the system learns from corrections. Workflows handle approvals and matching with purchase orders. The company has moved to a transactional language model approach for understanding documents.
+
+Rossum is sold on enterprise subscriptions by document volume. Alternatives include Nanonets, Docsumo, Hypatos, ABBYY, and Amazon Textract. Rossum suits finance teams processing high volumes of invoices.

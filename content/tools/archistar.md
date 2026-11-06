@@ -18,3 +18,9 @@ alternatives:
 date: '2026-11-05'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---
+
+Archistar addresses the slow, rule-heavy process of getting buildings approved. Its platform reads planning regulations and site data to show what can be built on a lot, such as height, setbacks, and density. Developers and architects can test ideas and see the potential of a site before they invest.
+
+For design checking, the tool compares a proposed building against local codes and flags issues, which reduces the back and forth with planning authorities. Councils use it to review applications faster and with more consistency. Generative design features create massing options that fit the rules, and reports summarize feasibility.
+
+Archistar began in Australia and has expanded to other markets, including the US, where rules vary widely and coverage depends on the jurisdiction. Automated checks are decision support and do not replace professional review. Alternatives include TestFit, Autodesk Forma, Finch3D, Hypar, and Deepblocks. Archistar suits developers, architects, and planning authorities.

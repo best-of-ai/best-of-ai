@@ -19,3 +19,9 @@ alternatives:
 date: '2026-11-05'
 tags: [supply_chain, logistics, business, inventory, management, procurement, distribution, forecasting, operations, model_based]
 ---
+
+o9 targets the planning process in big supply chains. Instead of separate systems for forecasting, inventory, production, and finance, it builds one connected model of the business, called the Enterprise Knowledge Graph, so a change in demand updates the supply plan and the financial outlook. Planners can run what-if scenarios to compare options before choosing.
+
+Machine learning forecasts demand using sales history, promotions, weather, and other signals, and the platform recommends actions such as shifting inventory or changing production. Generative AI features let planners ask questions in natural language and summarize risks. Customers include consumer goods, retail, and manufacturing companies with complex networks.
+
+o9 is sold on enterprise contracts, and implementation is a major project with consulting support. It suits companies ready to change planning processes, not just software. Competitors include Kinaxis, Blue Yonder, SAP Integrated Business Planning, Oracle, and Anaplan. o9 suits large organizations with complex planning needs.

@@ -3,7 +3,7 @@ title: 'Adobe Firefly AI Assistant'
 name: 'Adobe Firefly AI Assistant'
 subtitle: 'Adobes agent that works across Creative Cloud apps from one prompt'
 slug: 'adobe-firefly-ai-assistant'
-description: 'Firefly AI Assistant is Adobe''s agent for Creative Cloud, launched in April 2026. It can plan and carry out tasks across Photoshop, Premiere, Illustrator, InDesign and Frame.io, with the user able to step in at any point.'
+description: 'Firefly AI Assistant is Adobe''s agent for Creative Cloud. You describe the result you want, and it plans and carries out the work across apps such as Photoshop, Premiere, Illustrator, InDesign, and Frame.io, while you can step in at any point.'
 website: 'https://www.adobe.com/products/firefly.html'
 company: 'adobe'
 logo_url: ''
@@ -21,4 +21,8 @@ date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
 ---
 
-The assistant started as Project Moonlight and launched as Firefly AI Assistant in April 2026. You describe the result you want, and it works through the right apps in order. It draws on Firefly credits, and Adobe has not said how it will price the feature separately. Adobe says it is exploring support for third-party models.
+Firefly AI Assistant is Adobe's attempt to bring an agent into its creative apps. Instead of opening each application and applying tools by hand, you describe an outcome, such as adapting a campaign image into several social formats or preparing a video with captions, and the assistant works out the steps. It then carries them out across the right apps in order. The project began under the name Project Moonlight before launching as Firefly AI Assistant.
+
+Control stays with the person. The assistant shows what it plans to do, and you can step in, change direction, or take over manually at any point. Because it works across Photoshop, Premiere, Illustrator, InDesign, and Frame.io, it can handle jobs that normally mean moving files between programs and repeating edits. Adobe has said it is exploring support for models from other companies.
+
+The assistant draws on Firefly generative credits, and Adobe has not detailed how it will be priced on its own, so costs depend on your Creative Cloud plan and usage. Like other agents, it is best on well-defined, repetitive production work, and its output still needs a designer's review. Canva's AI features and Figma's AI tools aim at similar convenience for less professional users. For people already working in Adobe's apps all day, it is the most natural agent to try.

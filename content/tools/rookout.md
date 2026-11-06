@@ -3,7 +3,7 @@ title: 'Rookout'
 name: 'Rookout'
 subtitle: 'Cloud-native debugging and observability platform that lets developers collect debugging data fro...'
 slug: 'rookout'
-description: 'Rookout is a cloud-native debugging platform that lets developers collect logs, metrics, and traces from production applications without deploying code changes. Engineering teams use it to set non-breaking breakpoints that capture variable state and execution context in live environments where traditional debuggers cannot be attached. It supports Python, Node.js, Java, and other runtimes and is designed for containerized and microservices architectures where reproducing bugs locally is often impractical.'
+description: 'Rookout was a debugging platform that let developers collect logs, metrics, and traces from running applications without redeploying. Dynatrace acquired it and folded the technology into its platform as Live Debugger.'
 website: 'https://www.rookout.com'
 logo_url: ''
 category: 'debugging'
@@ -22,3 +22,9 @@ alternatives:
 date: '2025-10-01'
 tags: [collaboration, cloud_based, ai_powered, intelligent, platform, tool, service, solution]
 ---
+
+Rookout solved a frustrating problem: figuring out what is happening inside production code. Normally, finding a bug means adding logging, redeploying, and waiting for the problem to recur. Rookout let developers set non-breaking breakpoints in live applications, so they could capture variable values, stack traces, and logs on demand without stopping the program or changing and restarting it.
+
+It supported cloud-native environments with containers, serverless functions, and Kubernetes, and integrated with the tools developers already used for logging and monitoring. The data could be sent to existing observability systems, so debugging fit into current workflows. It was used by engineering teams that needed to debug complex, distributed applications quickly.
+
+Dynatrace acquired Rookout and built the technology into its observability platform as a Live Debugger, and the standalone Rookout product was retired. Teams looking for similar capabilities can use Dynatrace's Live Debugger, Sentry, Lightrun, which offers live logging and debugging, Datadog's tools, and OpenTelemetry-based tracing. This entry stays for reference because older articles still mention Rookout.

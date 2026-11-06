@@ -3,7 +3,7 @@ title: 'Superhuman'
 name: 'Superhuman'
 subtitle: 'AI-enhanced email client for productivity'
 slug: 'superhuman'
-description: 'Superhuman is a blazing-fast email client for Gmail and Outlook built around keyboard shortcuts, AI triage, and a philosophy of achieving inbox zero every day. Its AI writes reply drafts from short prompts, predicts which emails can be triaged quickly, and provides a split inbox that puts the highest-priority messages front and centre. Executives and operators who live in email pay the premium tier for the speed and focus it provides.'
+description: 'Superhuman is an email app for Gmail and Outlook built around speed, keyboard shortcuts, and AI that writes and triages mail. It now belongs to the company that makes Grammarly, which has adopted the Superhuman name.'
 website: 'https://superhuman.com'
 company: 'superhuman-email'
 logo_url: ''
@@ -22,3 +22,9 @@ alternatives:
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, fast]
 ---
+
+Superhuman became known as the fastest email client. It's designed so you can process your inbox with the keyboard, using commands for archiving, replying, snoozing, and reminders, and everything loads instantly. The interface is minimal, with Split Inbox sections that separate important mail from newsletters and notifications. Features such as send later, follow-up reminders, read statuses, and a command palette are built into the workflow.
+
+AI is now part of the experience. It drafts replies in your voice, summarizes long threads, searches your mail in plain language, and can write emails from short prompts. The company that owns Superhuman acquired it, changed its own name to Superhuman, and groups it with Grammarly's writing assistant and the Coda workspace in a combined suite.
+
+Superhuman is a premium paid product, noticeably more expensive than other email apps, and it works with Gmail and Google Workspace and Outlook accounts. The learning curve is steep at first, and its speed claims matter most to people who handle high volumes of mail. Alternatives include Shortwave, Spark, Hey, and the default Gmail and Outlook apps, which are free. Superhuman suits professionals whose work is dominated by email.

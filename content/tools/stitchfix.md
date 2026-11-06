@@ -3,7 +3,7 @@ title: 'Stitch Fix'
 name: 'Stitch Fix'
 subtitle: 'AI-powered personal styling service'
 slug: 'stitchfix'
-description: 'Stitch Fix is an AI-powered personal styling service that sends a curated box of clothing and accessories to your door based on your style profile, size, and budget. Its combination of machine-learning algorithms and human stylists selects items tailored to each individual client, and your feedback on each box makes future selections more accurate over time. It''s turned traditional fashion retail into a personalised, subscription-like experience.'
+description: 'Stitch Fix is an online personal styling service that pairs data-driven recommendations with human stylists. Clients share their size, budget, and style and receive clothing to try at home, paying for what they keep.'
 website: 'https://stitchfix.com'
 logo_url: ''
 category: 'fashion'
@@ -20,3 +20,9 @@ alternatives:
 date: '2025-09-21'
 tags: [fashion, design, style, clothing, retail, styling, outfit, trend, wardrobe, customizable]
 ---
+
+Stitch Fix popularized personal styling by mail. A client fills out a style profile, and a stylist assisted by algorithms selects pieces, ships them in a box, and the client keeps what they like and returns the rest. Feedback improves later selections.
+
+Data science is central to the company. Algorithms analyze preferences, item attributes, and inventory to predict what each customer will like, while stylists add judgment. Generative AI tools support outfit suggestions and visual try-on, and customers can also shop directly.
+
+A styling fee is credited toward purchases. Growth slowed as shopping habits changed. Alternatives include Amazon Prime Wardrobe, Nordstrom services, Rent the Runway, and AI shopping assistants. Stitch Fix suits people who want clothing selected for them.

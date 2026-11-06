@@ -3,7 +3,7 @@ title: 'Tavily'
 name: 'Tavily'
 subtitle: 'AI search API optimized for LLM agents and RAG'
 slug: 'tavily'
-description: 'Tavily is a search API designed specifically for AI agents and retrieval-augmented generation pipelines. It returns clean, relevant search results formatted for LLM consumption, with options for deep research mode and domain-filtered search to reduce hallucination in AI applications.'
+description: 'Tavily is a search API designed for AI agents and retrieval-augmented generation. It returns clean, relevant results formatted for language models, with options for extraction and crawling.'
 website: 'https://tavily.com'
 logo_url: ''
 category: 'devtools'
@@ -20,3 +20,9 @@ alternatives:
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
 ---
+
+Tavily provides web search for machines. A developer sends a query and receives ranked results with cleaned content and sources, trimmed to what a language model needs, so agents can ground answers in current information. Extra endpoints extract text from pages, crawl sites, and run deeper research.
+
+It integrates with frameworks like LangChain and LlamaIndex and with the Model Context Protocol, which made it a common choice for adding web access to agents. A free tier supports experimentation.
+
+Tavily charges by API credits. Search results still need fact-checking, and costs scale with usage. Alternatives include Exa, Brave Search API, Perplexity's API, SerpAPI, and Firecrawl. Tavily suits developers giving agents web search.

@@ -3,7 +3,7 @@ title: 'ChatGPT'
 name: 'ChatGPT'
 subtitle: 'Advanced AI chatbot by OpenAI for conversations and assistance'
 slug: 'chatgpt'
-description: 'ChatGPT is OpenAI''s flagship conversational AI, capable of answering questions, drafting documents, writing and explaining code, analysing data, and generating images. Powered by GPT-4o, it remembers context across a conversation and can read files, browse the web, and run code inside a sandbox. With over 200 million weekly active users, it''s the most widely used AI assistant in the world.'
+description: 'ChatGPT is OpenAI''s AI assistant for answering questions, writing, coding, analyzing files, and generating images. It also browses the web, remembers context across chats, and can carry out multi-step tasks as an agent.'
 website: 'https://chat.openai.com'
 company: 'openai'
 logo_url: ''
@@ -25,8 +25,8 @@ date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, image_based]
 ---
 
-ChatGPT launched in November 2022 and reached a million users in five days, faster than any consumer product before it. It runs on OpenAI's GPT-4o model, which handles text, images, files, and voice inside a single conversation thread. The interface is approachable enough for someone who's never used AI before, yet the underlying capabilities are deep enough that developers, lawyers, analysts, and writers treat it as a daily work tool.
+ChatGPT is a chat interface to OpenAI's language models. You type or speak a request and it answers in plain language, whether that means drafting an email, explaining a concept, debugging a function, or summarizing a long PDF. It can take images and files as input and generate images in return. For many people it is the first AI tool they ever used, and that familiarity is a big part of why it remains the default comparison for every other assistant.
 
-Beyond plain text chat, the paid version covers a surprising amount of ground. You can upload a PDF and ask it to pull out specific sections or compare two documents, paste in spreadsheet data for quick analysis, have it write and execute Python inside a sandbox environment, and browse the web to pull in current information. Voice mode supports natural spoken conversations, not just dictated commands. Custom GPTs let anyone configure a specialised version of ChatGPT (a customer support assistant, a lesson planner, a legal drafter) and share it through a link.
+The product has grown well beyond a single text box. It can search the web and cite what it finds, run Python in a sandbox to analyze spreadsheets and make charts, and keep a memory of your preferences between conversations. Deep research mode works through a topic for several minutes and returns a long report. Agent mode can use a browser on your behalf, and Codex handles software tasks in the cloud. Projects group chats and files around one piece of work, and custom GPTs package instructions and tools into something you can share.
 
-The free tier covers basic use with rate limits; ChatGPT Plus at $20/month gives priority access and higher capacity. Team and Enterprise plans add data privacy controls, longer context windows, and admin tooling for organisations. The OpenAI API gives developers direct model access for building their own products. With over 200 million weekly active users as of late 2024, it remains the reference point every other AI assistant is measured against.
+ChatGPT has a free tier with limits, paid personal plans that raise those limits and unlock more features, and business and enterprise plans with admin controls and stronger data protections. Which features and models you get depends on the plan, and OpenAI changes the lineup often, so check its pricing page before choosing. There is also an API for developers who want to build on the same models. By default, consumer conversations can be used to improve the models unless you turn that off in settings, so sensitive work belongs on a business plan or with that setting disabled.

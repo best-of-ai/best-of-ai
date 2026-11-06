@@ -3,7 +3,7 @@ title: 'Viktor'
 name: 'Viktor'
 subtitle: 'AI employee that works inside Slack and Microsoft Teams'
 slug: 'viktor-ai'
-description: 'Viktor is an AI agent built by Zeta Labs that operates directly inside Slack and Microsoft Teams channels rather than a separate app. It connects to thousands of workplace tools, watches how a team actually works, and proposes or runs automations on its own, from building small internal apps to writing reports and code. Zeta Labs previously built the AI email assistant Jace, and Viktor is aimed at teams who want an AI coworker embedded in the chat tools they already use instead of another dashboard to check.'
+description: 'Viktor is an AI coworker from Zeta Labs that works inside Slack and Microsoft Teams. Teammates mention it in a channel to get reports, code, and small apps, and it connects to thousands of workplace tools.'
 website: 'https://viktor.com'
 company: 'zeta-labs'
 logo_url: ''
@@ -23,6 +23,8 @@ date: '2026-08-31'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, collaboration, analytics]
 ---
 
-Viktor is an AI agent from Zeta Labs that lives inside Slack and Microsoft Teams instead of a standalone interface. It connects to a company's existing tools, learns the patterns of how a team works over time, and steps in with suggestions or completed work such as campaign drafts, internal apps, and reports, without waiting for someone to open a separate app.
+Viktor lives where teams already talk. Instead of a separate app, a colleague mentions Viktor in a channel and asks for something, such as pulling numbers from a dashboard, building a report, or writing a script, and it replies in the thread. It watches how the team works and picks up context over time.
 
-Zeta Labs, the team behind the earlier AI email assistant Jace, launched Viktor on Slack first and expanded it to Microsoft Teams in mid-2026. The company says tens of thousands of teams have adopted it, and it has raised a $75 million Series A led by Accel. Viktor targets teams that want an AI agent that acts inside the channels where work already happens rather than one more tool to switch into.
+It connects to a very large number of business tools, so it can read from and act in systems like CRMs, analytics, and ad platforms, and it can produce artifacts such as documents and simple web apps. Skills can be added for specialized work.
+
+Viktor is a paid product with credits. Giving an agent access to company systems requires care with permissions and review of what it does. Alternatives include Slackbot, Lindy, Glean, Dust, and Microsoft Copilot in Teams. Viktor suits teams that want an agent inside their chat.

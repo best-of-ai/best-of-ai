@@ -19,3 +19,9 @@ alternatives:
 date: '2026-11-05'
 tags: [no_code, automation, app_builder, lowcode, visual, drag_and_drop, workflow, builder, citizen_developer, open_source, api_available, community_driven]
 ---
+
+NocoDB turns a database into something that feels like Airtable. Connect it to an existing SQL database or create a new one, and users see tables as spreadsheets they can filter, sort, and edit, with views as kanban boards, galleries, calendars, and forms. Non-technical colleagues get access to data without learning SQL.
+
+It generates REST and GraphQL APIs for tables, supports permissions and webhooks, and offers automation and an AI assistant to help with fields and queries. Because it is open source, teams can host it themselves and keep data on their own servers.
+
+NocoDB is free to self-host, with paid cloud and enterprise plans. Large installations require operational care. Alternatives include Airtable, Baserow, Teable, Grist, and Notion databases. NocoDB suits teams that want an Airtable-like layer on their own database.

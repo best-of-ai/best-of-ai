@@ -3,7 +3,7 @@ title: 'QueryStory'
 name: 'QueryStory'
 subtitle: 'Agentic data platform for decision-ready recommendations'
 slug: 'querystory'
-description: 'QueryStory is a data platform built around AI agents that reason over an organization''s data and business context rather than just storing and charting it. Instead of producing a dashboard for a person to interpret, it generates decision-ready recommendations and can help teams act on them and adjust as conditions change. The company came out of stealth in San Francisco in August 2026 with $6 million in seed funding and early customers among regulated Fortune 500 companies.'
+description: 'QueryStory is a data platform built around AI agents that reason over an organization''s data and business context. Instead of only producing dashboards, it answers questions and explains what changed and why.'
 website: 'https://querystory.ai'
 company: 'querystory'
 logo_url: ''
@@ -23,6 +23,8 @@ date: '2026-08-31'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, customizable]
 ---
 
-QueryStory built what it calls an agentic data platform, meaning the system does more than store and visualize data the way a traditional BI tool does. It reasons across an organization's data and business context, then produces recommendations meant to be acted on directly rather than dashboards a person still has to interpret and turn into a decision.
+QueryStory approaches analytics with agents. A team connects its data sources and describes the business, such as its metrics and definitions, and then asks questions in natural language. The agents write queries, analyze results, and respond with explanations and visuals.
 
-The company emerged from stealth in San Francisco in August 2026 with $6 million in seed funding raised in late 2025. Its founders include CEO Naghibzadeh, CTO Stanley Yang, previously lead engineer at EvolutionIQ, and CPO David Glusic, an Accenture veteran, and the company says it already has Fortune 500 customers in regulated industries.
+The point is to go beyond a static chart. When a number moves, a user can ask why, and the agent investigates by looking at breakdowns and related data. Business context helps the agent interpret questions the way an analyst on the team would.
+
+Independent information about QueryStory is limited, and AI answers over company data need validation, since a wrong query can produce a convincing but incorrect result. Alternatives include ThoughtSpot, Hex, Julius AI, Power BI with Copilot, and Looker with Gemini. QueryStory suits teams exploring agent-based analytics.

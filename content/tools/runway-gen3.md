@@ -3,7 +3,7 @@ title: 'Runway Gen-3'
 name: 'Runway Gen-3'
 subtitle: "Runway's third-generation video AI with cinematic quality"
 slug: 'runway-gen3'
-description: "Runway Gen-3 Alpha is the third generation of Runway's video generation model, producing high-fidelity, temporally consistent video clips up to 10 seconds from text or image prompts. Compared to Gen-2, it delivers significantly improved consistency, motion quality, and cinematic realism — generating footage that professional filmmakers are integrating into actual productions. Gen-3 Turbo offers a faster, lower-cost variant for rapid iteration. It has established Runway as the leading AI video tool for professional creative use cases."
+description: 'Runway Gen-3 Alpha is the third generation of Runway''s video model, producing detailed, consistent short clips from text or image prompts. Runway has released newer models since.'
 website: 'https://runwayml.com'
 company: 'runway'
 logo_url: ''
@@ -24,3 +24,9 @@ alternatives:
 date: '2025-09-21'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based, fast]
 ---
+
+Gen-3 Alpha improved on earlier versions with finer detail, better handling of motion, and more consistent results across frames. Users could generate clips of several seconds from a prompt, an image, or both, with controls for camera movement and style.
+
+It was trained on both images and video, aiming to understand how things move, and supported features such as image-to-video and video-to-video. Filmmakers and agencies used it for concept work, ads, and visual effects experiments.
+
+Runway has continued to release newer models, and the platform now centers on those, so users should check current options. Access is through Runway's credit-based plans. Alternatives include Google Veo, Kling, Luma, Pika, and Minimax Hailuo. Runway Gen-3 suits creators who want to understand this model generation.

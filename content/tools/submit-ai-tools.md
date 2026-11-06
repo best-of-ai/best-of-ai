@@ -2,7 +2,7 @@
 title: 'Submit AI Tools'
 name: 'Submit AI Tools'
 slug: 'submit-ai-tools'
-description: 'Submit AI Tools is a directory for discovering and evaluating AI tools, chatbots, and content generation apps across dozens of categories. Users browse or search the catalog to find tools for specific tasks, compare options in a category, and submit new tools for listing. It serves as a reference point for people tracking the AI tool landscape who want a structured index rather than relying on social media recommendations or search results.'
+description: 'Submit AI Tools is a directory for discovering and evaluating AI tools, chatbots, and content generation apps across many categories. Users browse or search the catalog and makers can submit their tools.'
 website: 'https://submitaitools.org'
 logo_url: ''
 category: 'search-engines'
@@ -20,3 +20,9 @@ alternatives:
 date: '2026-06-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval]
 ---
+
+Submit AI Tools collects AI products in a searchable list. Visitors browse by category, read short descriptions, and click through to the tools. Makers submit listings to get discovered.
+
+As with other directories, coverage depends on submissions and editorial review, so details can be incomplete or out of date. It works best as one of several places to scan.
+
+The site is free. Check each tool's own site for pricing and privacy information. Similar resources include Futurepedia, There's An AI For That, Aixploria, OpenTools, and Best of AI. Submit AI Tools suits people browsing for AI products.

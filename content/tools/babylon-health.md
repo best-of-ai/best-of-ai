@@ -3,7 +3,7 @@ title: 'Babylon Health'
 name: 'Babylon Health'
 subtitle: 'AI-powered healthcare platform and virtual consultations'
 slug: 'babylon-health'
-description: 'Babylon Health is a digital healthcare platform that combines an AI symptom checker with GP appointments, mental health support, and health monitoring. The AI triage engine assesses symptoms and routes patients to the right level of care — from self-care advice to urgent in-person referral. It has provided consultations to millions of patients across the UK, US, and sub-Saharan Africa.'
+description: 'Babylon Health was a digital healthcare company that offered an AI symptom checker alongside virtual GP appointments. It went into administration, and its UK business was sold, so the service no longer operates.'
 website: 'https://babylonhealth.com'
 company: 'babylon-health'
 logo_url: ''
@@ -25,3 +25,9 @@ alternatives:
 date: '2025-09-21'
 tags: [healthcare, medical, health, wellness, clinical, diagnosis, patient, ehr, telemedicine]
 ---
+
+Babylon Health set out to make primary care available through a smartphone. Its app offered an AI-powered symptom checker and chatbot, video consultations with doctors, prescriptions, and health tracking. It partnered with the UK's National Health Service, ran digital GP services, and expanded to countries including Rwanda and the United States, attracting large investment and a public listing.
+
+The company faced criticism over the safety claims made for its AI, the quality of its services, and its finances. Doctors and researchers questioned how well the chatbot performed in comparison to human clinicians, and contracts with public health systems brought scrutiny. It then ran into financial trouble, and the business went into administration, with parts sold, including its UK operations.
+
+Babylon's collapse is cited as a lesson about the challenges of scaling digital health and the importance of evidence for AI claims. People seeking similar services today can look at their own health system's telehealth, Teladoc, Amwell, K Health in the United States, and symptom checkers like Ada Health. In the UK, the NHS App and NHS 111 online provide guidance. This entry stays for reference because older articles still describe Babylon as a pioneer.

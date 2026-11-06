@@ -3,7 +3,7 @@ title: 'Aloud'
 name: 'Aloud'
 subtitle: 'Turns spoken feedback into tasks for coding agents'
 slug: 'aloud'
-description: 'Aloud is a macOS app that records a developer''s voice, screen, and a live transcript while they talk through an app and point at what needs to change. It then rewrites that rambling commentary into precise instructions, asks about anything ambiguous, pulls in the screenshots being referenced, and turns the session into tasks a coding agent like Claude Code, Cursor, or Codex can act on. Voice transcription runs on-device with Whisper, so audio and video never leave the Mac.'
+description: 'Aloud is a macOS app that records a developer''s voice, screen, and live transcript while they talk through an app. It turns that rambling commentary into clear instructions for coding agents.'
 website: 'https://aloud.dev'
 logo_url: ''
 category: 'code-assistant'
@@ -19,6 +19,8 @@ date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, voice_enabled]
 ---
 
-Aloud is built for the gap between what a developer means and what ends up in a written bug report or feature request. It records voice, screen, and a live transcript while someone talks through their app the way they naturally would, pointing at elements and changing their mind mid-sentence, then converts that into a clean set of instructions, flags anything that could be read two ways, and attaches the relevant screenshots.
+Aloud addresses the gap between what a developer means and what ends up in a written bug report or feature request. It records voice, screen, and a live transcript while someone talks through an app the way they naturally would, pointing at elements and changing their mind mid-sentence. It then converts the recording into a clean set of instructions.
 
-The output is a set of tasks formatted for coding agents such as Claude Code, Cursor, or Codex to execute directly. Speech transcription runs locally through Whisper, so recordings stay on the Mac rather than being uploaded, which matters for developers working with client or proprietary code. Aloud is free and launched on Product Hunt in mid-August 2026.
+The output is formatted so coding agents such as Claude Code, Cursor, or Codex can act on it directly. The tool flags anything that could be read two ways and attaches relevant screenshots, which cuts down on back-and-forth. Speech transcription runs locally through Whisper, so recordings stay on the Mac and are not uploaded, which matters for work on client or proprietary code.
+
+Aloud is free and runs on macOS only. As a new tool from a small team, expect features and polish to change. Spoken instructions still need review, because an agent will act on mistakes in them. Alternatives include dictation tools like Superwhisper and Wispr Flow, screen recorders like Loom, and writing issues by hand. Aloud suits developers who prefer to describe changes out loud.

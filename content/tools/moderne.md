@@ -19,3 +19,9 @@ alternatives:
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, secure]
 ---
+
+Moderne makes large-scale code change practical. OpenRewrite is an open-source refactoring engine that applies automated recipes to code, such as upgrading Java versions or replacing a deprecated API. Moderne indexes an organization's repositories and runs recipes across all of them, producing pull requests.
+
+That addresses the problem of maintaining hundreds of services. Instead of each team doing the same migration by hand, a platform team can run a recipe once and review the results. Search and analysis tools find where patterns occur, and AI assists in creating recipes and handling changes that rules cannot.
+
+Moderne is sold to enterprises, with the open-source OpenRewrite free to use. It focuses mainly on Java and related ecosystems. Alternatives include Sourcegraph Batch Changes, Codemod, Renovate and Dependabot for dependencies, and AI agents like Claude Code. Moderne suits large engineering organizations managing migrations.

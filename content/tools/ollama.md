@@ -3,7 +3,7 @@ title: 'Ollama'
 name: 'Ollama'
 subtitle: 'Run large language models locally on your own machine'
 slug: 'ollama'
-description: 'Ollama makes it trivially easy to download and run open-source LLMs — Llama 3, Mistral, Gemma, Phi, Qwen, and dozens more — entirely on your own hardware with a single command. It exposes a local REST API compatible with the OpenAI format, so any application built for GPT can be pointed at a local model instead. Privacy-conscious developers, researchers without cloud budgets, and anyone wanting offline AI capability have made Ollama one of the fastest-growing tools in the AI ecosystem.'
+description: 'Ollama is a free tool for running open large language models on your own computer. It downloads models with a simple command, serves a local API, and works on macOS, Windows, and Linux, with a growing library of models and a desktop app.'
 website: 'https://ollama.com'
 logo_url: ''
 category: 'devtools'
@@ -20,3 +20,9 @@ alternatives:
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, cloud_based]
 ---
+
+Ollama made local AI simple. You install it, run a command such as ollama run with a model name, and it downloads the model and starts a chat in your terminal. It handles the details of quantization and GPU acceleration, so models like Llama, Mistral, Gemma, Qwen, and many others run on ordinary laptops and desktops. Everything stays on your machine, so it's private and works offline.
+
+It is a building block for developers. Ollama exposes a local REST API, including an OpenAI-compatible endpoint, so apps and tools can use your local models, and many projects such as Open WebUI, coding assistants, and agent frameworks integrate with it. Modelfiles let you customize system prompts and parameters, and recent versions add a desktop app, support for multimodal models, and optional cloud-hosted models for those too big to run locally.
+
+Ollama is free and open source under the MIT license. Performance depends on hardware, and the largest models need substantial memory or a strong GPU. Local models are generally less capable than the best cloud models. Alternatives include LM Studio, which has a graphical interface, Jan, GPT4All, llama.cpp, and vLLM for production serving. Ollama suits developers and enthusiasts who want a simple way to run models locally.
