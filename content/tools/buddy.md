@@ -1,9 +1,9 @@
 ---
 title: 'Buddy'
 name: 'Buddy'
-subtitle: 'CI/CD platform that runs AI coding agents in pipelines and sandboxes'
+subtitle: 'Agentic cloud that runs AI coding agents in pipelines and sandboxes'
 slug: 'buddy'
-description: 'Buddy is a CI/CD and deployment platform that can run AI coding agents such as Claude Code, Codex CLI, and Cursor as pipeline actions or inside isolated cloud sandboxes. Agents on a developer''s machine can also control Buddy through a remote MCP server or the bdy CLI.'
+description: 'Buddy is an agentic cloud that runs AI coding agents such as Claude Code, Codex CLI, and Cursor as pipeline actions or inside isolated cloud sandboxes, and deploys code from the same pipelines. Agents on a developer''s machine can also control Buddy through a remote MCP server or the bdy CLI.'
 website: 'https://buddy.works'
 logo_url: ''
 category: 'devtools'
