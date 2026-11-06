@@ -473,6 +473,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Fireflies.ai](https://fireflies.ai)** — [review](https://bestofai.io/tools/fireflies-ai/) — AI notetaker for meetings with transcription and analysis ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Otter.ai](https://otter.ai)** — [review](https://bestofai.io/tools/otter-ai/) — AI meeting transcription and note-taking assistant ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Avoma](https://avoma.com)** — [review](https://bestofai.io/tools/avoma/) — AI meeting assistant with coaching and revenue intelligence ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[OneMira C1](https://onemira.com/products/c1)** — [MCP Server](https://github.com/onemira-space/onemira-mcp) — Standalone AI voice recorder with Local AI summaries, automatic Speaker ID, and Zero Cloud privacy ($0/mo) ![Free](https://img.shields.io/badge/-No_Subscription-3fb950?style=flat-square)
 - *[View all 22 Meeting Assistants tools on bestofai.io →](https://bestofai.io/categories/meeting-assistants/)*
 
 ---
