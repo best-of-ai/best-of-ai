@@ -11,16 +11,22 @@ categories:
   - 3d
   - geospatial
   - home-design
-featured_tools:
-  - chatgpt
+specific_tools:
   - arcgis
   - sketchup
+  - rhino
   - spacemaker-ai
-  - midjourney
   - finch3d
   - mapbox
-  - alpha3d
-  - kaedim
+  - urbanfootprint
+  - testfit
+  - enscape
+  - d5-render
+  - felt
+  - midjourney
   - luma-ai
-
+general_tools:
+  - chatgpt
+  - claude
+  - canva
 ---

@@ -11,14 +11,17 @@ categories:
   - fitness
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - webpt
+  - physitrack
+  - jane-app
   - suki-ai
   - freed
-  - fitbod
   - trainerize
+  - fitbod
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - notebooklm
-  - grammarly
-
 ---

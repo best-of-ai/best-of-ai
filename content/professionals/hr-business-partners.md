@@ -12,16 +12,22 @@ categories:
   - data
   - document-ai
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - workday
   - visier
-  - paradox-ai
+  - eightfold-ai
   - lattice-ai
-  - bamboohr
-  - greenhouse
-  - lever
+  - culture-amp-ai
+  - leapsome-ai
+  - betterworks-ai
+  - 15five-ai
+  - hibob-ai
+  - personio-ai
+  - textio
+general_tools:
+  - chatgpt
+  - claude
   - zapier
   - grammarly
-
+  - notion-ai
 ---

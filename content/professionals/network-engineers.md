@@ -12,16 +12,22 @@ categories:
   - automation
   - cybersecurity
   - diagramming
-featured_tools:
-  - chatgpt
+specific_tools:
   - kentik
+  - wireshark
   - datadog
+  - splunk
+  - grafana
+  - darktrace
+  - vectra-ai
+  - tenable
+  - better-stack
+  - terraform
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
-  - drawio
   - cursor
-  - snyk-ai
+  - drawio
   - mintlify
-  - amazon-bedrock
-  - azure-openai
-
 ---

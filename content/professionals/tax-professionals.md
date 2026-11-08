@@ -12,14 +12,22 @@ categories:
   - finance
   - research-tools
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
+  - drake-tax
   - turbotax
+  - hr-block
   - taxjar
   - avalara
+  - vertex-inc
+  - holistiplan
+  - quickbooks
+  - xero
+  - dext
+general_tools:
+  - chatgpt
+  - claude
   - zapier
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-
 ---

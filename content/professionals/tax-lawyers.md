@@ -11,14 +11,18 @@ categories:
   - tax-accounting
   - research-tools
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - bloomberg-tax
   - harvey
-  - casetext
+  - legora
+  - lexisnexis-protege
+  - clio
   - avalara
-  - turbotax
+  - vertex-inc
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
-  - perplexity-research
-
+  - perplexity
 ---

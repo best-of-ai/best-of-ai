@@ -13,16 +13,30 @@ categories:
   - workflow-automation
   - code-assistant
   - productivity
-featured_tools:
-  - github-copilot
-  - cursor
-  - chatgpt
+specific_tools:
   - datadog
   - honeycomb
   - pagerduty
+  - grafana
+  - new-relic
+  - dynatrace
+  - splunk
+  - better-stack
+  - terraform
+  - github-actions
+  - snyk-ai
+  - sonarqube
+  - cast-ai
+  - gitlab-duo
+  - codacy
+  - semgrep-ai
+  - temporal
+  - prefect
+general_tools:
+  - chatgpt
+  - claude
+  - github-copilot
+  - cursor
+  - claude-code
   - n8n
-  - aider
-  - amazon-bedrock
-  - amazon-codewhisperer
-
 ---

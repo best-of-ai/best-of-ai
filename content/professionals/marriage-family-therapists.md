@@ -11,16 +11,20 @@ categories:
   - healthcare
   - document-ai
   - telemedicine
-featured_tools:
+specific_tools:
   - simplepractice
-  - chatgpt
-  - betterhelp
+  - mentalyc
+  - upheal
   - doxy-me
-  - teladoc
-  - woebot
+  - talkspace
   - wysa
+  - nuance-dax
+  - freed
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-
+  - otter-ai
 ---

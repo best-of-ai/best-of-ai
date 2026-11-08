@@ -11,16 +11,18 @@ categories:
   - data
   - automation
   - compliance
-featured_tools:
+specific_tools:
+  - ansys
+  - comsol
+  - matlab
+  - wolfram-mathematica
+  - ibm-maximo
+  - cognite
+  - aveva
+general_tools:
   - chatgpt
-  - wolfram-alpha-ai
-  - tableau
+  - claude
   - semantic-scholar
-  - drata
   - notebooklm
-  - zapier
   - julius-ai
-  - make
-  - n8n
-
 ---

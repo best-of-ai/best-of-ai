@@ -12,16 +12,21 @@ categories:
   - data
   - code-assistant
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - aws-iot
   - azure-iot
   - edge-impulse
   - particle-iot
+  - platformio
+  - qualcomm-ai-hub
+  - openvino
+  - grafana
+  - datadog
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - mintlify
   - n8n
   - amazon-bedrock
-
 ---

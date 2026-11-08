@@ -11,15 +11,26 @@ categories:
   - no-code
   - research-tools
   - app-builders
-featured_tools:
-  - chatgpt
+specific_tools:
   - figma
   - uizard
-  - galileo-ai
   - framer
+  - visily
+  - magic-patterns
+  - penpot-ai
+  - google-stitch
+  - figma-make
+  - v0
+  - lovable
+  - maze-ai
+  - dovetail-ai
+  - miro-ai
+  - whimsical-ai
   - midjourney
+  - sketch-ai
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - ideogram
-  - adobe-express
-
 ---

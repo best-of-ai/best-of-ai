@@ -11,13 +11,16 @@ categories:
   - contract-management
   - marketing
   - data
-featured_tools:
+specific_tools:
+  - imdbpro
+  - backstage
+  - casting-networks
+  - muck-rack
+  - docusign-ai
+general_tools:
   - chatgpt
-  - lever
-  - linkedin
+  - claude
   - hubspot-crm
   - grammarly
   - canva
-  - power-bi
-
 ---

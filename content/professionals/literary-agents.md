@@ -11,16 +11,19 @@ categories:
   - research-tools
   - contract-management
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - publishers-marketplace
+  - goodreads
   - autocrit
-  - sudowrite
+  - prowritingaid
+  - originality-ai
+  - gptzero
+  - docusign-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
-  - quillbot
   - perplexity
   - notion-ai
-  - adobe-acrobat-ai
-  - prowritingaid
-
 ---

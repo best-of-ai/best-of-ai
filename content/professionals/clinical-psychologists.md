@@ -12,16 +12,19 @@ categories:
   - research-tools
   - writing-assistants
   - healthcare
-featured_tools:
-  - chatgpt
-  - nuance-dax
+specific_tools:
   - mentalyc
-  - wysa
+  - upheal
+  - simplepractice
+  - nuance-dax
+  - freed
+  - heidi-health
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - grammarly
   - semantic-scholar
   - notebooklm
   - adobe-acrobat-ai
-  - copy-ai
-
 ---

@@ -12,16 +12,24 @@ categories:
   - project-management
   - documentation
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - autocad
+  - autodesk-civil-3d
+  - autodesk-revit
   - procore
   - autodesk-construction
   - bluebeam
-  - buildxact
+  - trimble-construction
+  - pix4d
+  - dronedeploy
+  - faro
+  - arcgis
+  - buildertrend
+general_tools:
+  - chatgpt
+  - claude
   - drawio
-  - tableau
   - power-bi
-  - gitbook
-  - docusign-ai
-
+  - microsoft-365-copilot
+  - notebooklm
 ---

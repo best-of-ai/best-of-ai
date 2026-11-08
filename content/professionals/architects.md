@@ -14,16 +14,26 @@ categories:
   - image-generation
   - presentation
   - graphic-design
-featured_tools:
-  - spline
+specific_tools:
   - finch3d
   - spacemaker-ai
   - testfit
+  - archistar
+  - sketchup
+  - autodesk-revit
+  - rhino
+  - enscape
+  - d5-render
+  - matterport
   - homestyler
+  - planner5d
   - midjourney
+general_tools:
+  - flux
+  - adobe-photoshop
   - figma
   - canva
-  - adobe-express
+  - chatgpt
+  - claude
   - gamma
-
 ---

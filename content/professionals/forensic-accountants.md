@@ -12,15 +12,21 @@ categories:
   - document-ai
   - legal-assistants
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - caseware
   - relativity
+  - everlaw
+  - disco
   - julius-ai
+  - hyperscience
+  - amazon-textract
+  - chainalysis
+  - feedzai
+  - unit21
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - notebooklm
-  - harvey
-  - casetext
-  - grammarly
   - adobe-acrobat-ai
-
 ---

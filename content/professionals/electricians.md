@@ -11,16 +11,17 @@ categories:
   - business-tools
   - document-ai
   - fleet-management
-featured_tools:
+specific_tools:
   - servicetitan
-  - adobe-acrobat-ai
-  - autodesk-construction
-  - chatpdf
-  - fleetio
-  - humata
-  - notebooklm
-  - procore
-  - abbyy
+  - housecall-pro
+  - jobber
   - buildxact
-
+  - fleetio
+  - autodesk-construction
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
+  - chatpdf
+  - notebooklm
 ---

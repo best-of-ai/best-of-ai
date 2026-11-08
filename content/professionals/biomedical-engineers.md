@@ -13,16 +13,26 @@ categories:
   - healthcare
   - writing-assistants
   - medical-imaging
-featured_tools:
-  - chatgpt
+specific_tools:
   - viz-ai
   - paige-ai
-  - benchling
+  - aidoc-ai
+  - qure-ai
+  - heartflow
+  - subtle-medical
+  - edge-impulse
+  - solidworks
+  - matlab
+  - greenlight-guru
+  - qualio
+  - mastercontrol
+  - ansys
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - elicit
   - scispace
   - grammarly
   - adobe-acrobat-ai
-  - copy-ai
-
 ---

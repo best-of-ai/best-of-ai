@@ -11,14 +11,22 @@ categories:
   - compliance
   - research-tools
   - document-ai
-featured_tools:
-  - chatgpt
-  - snyk-ai
+specific_tools:
+  - burp-suite
+  - nmap
+  - metasploit
+  - wireshark
+  - tenable
   - wiz
+  - snyk-ai
   - vanta
   - drata
+  - onetrust
+  - microsoft-security-copilot
+  - recorded-future
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - perplexity-research
-  - chatpdf
-
+  - notebooklm
 ---

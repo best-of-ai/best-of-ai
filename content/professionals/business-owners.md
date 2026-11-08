@@ -16,16 +16,29 @@ categories:
   - automation
   - customer-support
   - presentation
-featured_tools:
-  - chatgpt
-  - linear
-  - zapier
-  - n8n
-  - hubspot-crm
-  - gamma
+specific_tools:
   - ramp
-  - asana
+  - brex
+  - quickbooks
+  - xero
+  - gusto
+  - deel
+  - bonsai
+  - pipedrive
   - hubspot-business
+  - pitch
+  - slidebean
+  - evalyze
+  - zeni-ai
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
+  - zapier
+  - gamma
+  - asana
   - clickup
-
+  - microsoft-365-copilot
+  - slack-ai
+  - otter-ai
 ---

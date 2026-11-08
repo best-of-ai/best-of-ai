@@ -17,15 +17,31 @@ categories:
   - translator
   - document-ai
   - reading
-featured_tools:
+specific_tools:
+  - sudowrite
+  - novelai
+  - lex-page
+  - hemingway-editor
+  - prowritingaid
+  - autocrit
+  - hyperwrite
+  - substack
+  - ghost
+  - beehiiv
+  - longshot-ai
+  - squibler
+  - writeabookai
+  - aiwritebook
+  - bookbud-ai
+  - automateed
+  - final-draft
+  - duotrope
+  - goodreads
+general_tools:
   - chatgpt
+  - claude
   - grammarly
   - notion-ai
-  - prowritingaid
-  - hemingway-editor
-  - jasper
-  - sudowrite
-  - adobe-acrobat-ai
   - consensus
-
+  - notebooklm
 ---

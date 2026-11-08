@@ -11,13 +11,21 @@ categories:
   - background-remover
   - productivity
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - adobe-lightroom-ai
+  - aftershoot
+  - imagen-ai
+  - pic-time
+  - pixieset
+  - photo-mechanic
   - luminar-neo
   - topaz-photo-ai
+  - on1-photo-ai
   - removebg
-  - canva
   - photoroom
-
+  - honeybook
+general_tools:
+  - chatgpt
+  - claude
+  - canva
 ---

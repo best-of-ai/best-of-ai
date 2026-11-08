@@ -11,14 +11,22 @@ categories:
   - business-tools
   - data
   - hr
-featured_tools:
-  - chatgpt
+specific_tools:
   - blue-yonder
   - shopify
+  - square
+  - 7shifts
+  - deputy
+  - dynamic-yield
+  - nosto-ai
+  - gorgias
+  - afresh
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - mailchimp
   - canva
   - zapier
   - power-bi
-
 ---

@@ -11,16 +11,19 @@ categories:
   - wellness
   - business-tools
   - productivity
-featured_tools:
+specific_tools:
+  - massagebook
   - vagaro
   - noterro
+  - jane-app
+  - fresha
+  - square
+  - acuity-scheduling
+general_tools:
   - chatgpt
-  - hubspot-business
+  - claude
   - canva
   - calm
   - headspace
   - akiflow
-  - clickup
-  - slack-ai
-
 ---

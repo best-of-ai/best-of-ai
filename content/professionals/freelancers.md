@@ -12,16 +12,22 @@ categories:
   - automation
   - crm
   - project-management
-featured_tools:
-  - chatgpt
+specific_tools:
   - bonsai
+  - honeybook
+  - upwork
+  - qwilr-ai
+  - proposify-ai
+  - pandadoc-ai
+  - quickbooks
+  - wise
+general_tools:
+  - chatgpt
+  - claude
   - notion-ai
   - grammarly
   - zapier
   - canva
-  - hubspot-crm
   - gamma
   - clickup
-  - calendly
-
 ---

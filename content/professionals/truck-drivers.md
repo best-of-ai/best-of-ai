@@ -11,12 +11,16 @@ categories:
   - travel
   - weather
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - samsara
   - geotab
+  - motive
   - fleetio
-  - wanderlog
-  - hopper
-
+  - google-maps
+  - waze
+  - windy
+  - accuweather
+general_tools:
+  - chatgpt
+  - claude
 ---

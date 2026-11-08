@@ -14,16 +14,34 @@ categories:
   - video-editor
   - content-moderation
   - meme-generator
-featured_tools:
-  - chatgpt
+specific_tools:
   - buffer
-  - adobe-premiere-pro-ai
-  - canva
-  - midjourney
   - later
   - sprout-social
-  - flux
+  - hootsuite-social
+  - metricool
+  - planable
+  - loomly
+  - pallyy
+  - publer
+  - socialbee-ai
+  - vista-social
+  - predis-ai
+  - flick-ai
+  - contentstudio-ai
+  - latte-social
+  - iconosquare
+  - missinglettr
+  - typefully
+  - taplio
+  - capcut
+  - submagic
+  - kapwing
+  - imgflip
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - midjourney
   - hubspot
-  - ideogram
-
 ---

@@ -11,16 +11,16 @@ categories:
   - healthcare
   - image-generation
   - document-ai
-featured_tools:
-  - midjourney
-  - ideogram
-  - chatgpt
+specific_tools:
+  - mentalyc
+  - upheal
+  - simplepractice
+  - procreate
   - wysa
-  - notebooklm
-  - betterhelp
+general_tools:
+  - chatgpt
+  - claude
   - canva
+  - midjourney
   - adobe-acrobat-ai
-  - flux
-  - artbreeder
-
 ---

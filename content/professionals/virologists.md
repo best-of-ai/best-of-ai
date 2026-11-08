@@ -11,15 +11,23 @@ categories:
   - drug-discovery
   - research-tools
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphafold-ai
+  - rosettafold
   - benchling
+  - geneious
+  - dnanexus
+  - nextflow
+  - bluedot
+  - airfinity
+  - graphpad-prism
+  - biorender
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - scite-ai
   - connected-papers
   - notebooklm
   - elicit
-  - perplexity-research
-
 ---

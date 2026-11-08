@@ -12,15 +12,23 @@ categories:
   - document-ai
   - computer-vision
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - aidoc-ai
   - viz-ai
-  - paige-ai
+  - qure-ai
+  - annalise-ai
+  - brainomix
+  - gleamer
+  - lunit-ai
+  - rapidai
+  - subtle-medical
+  - zebra-medical
+  - heartflow
   - nuance-dax
-  - aws-rekognition
-  - clarifai
-  - adobe-acrobat-ai
+  - paige-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-
+  - adobe-acrobat-ai
 ---

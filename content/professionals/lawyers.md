@@ -12,16 +12,25 @@ categories:
   - research-tools
   - writing-assistants
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - harvey
-  - casetext
   - spellbook
   - kira-systems
   - luminance-ai
   - lawgeex
+  - legora
+  - lexisnexis-protege
+  - clio
+  - filevine
+  - everlaw
+  - disco
+  - relativity
+  - legalon
+  - ironclad-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - grammarly
   - adobe-acrobat-ai
-
+  - grammarly
 ---

@@ -11,14 +11,18 @@ categories:
   - data
   - document-ai
   - identity
-featured_tools:
-  - chatgpt
+specific_tools:
   - tracers
+  - maltego
+  - hunchly
+  - tineye
   - clarifai
-  - perplexity-research
-  - power-bi
-  - tableau
-  - chatpdf
+  - familysearch
+  - ancestry
+  - documentcloud
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
   - adobe-acrobat-ai
-
 ---

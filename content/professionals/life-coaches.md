@@ -11,16 +11,24 @@ categories:
   - productivity
   - business-tools
   - learning-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - kajabi
+  - teachable
+  - thinkific
+  - mighty-networks
+  - circle-so
   - betterup
+  - coachhub
   - headspace
   - calm
+  - insight-timer
+  - acuity-scheduling
+  - honeybook
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
+  - canva
   - otter-ai
-  - notion
-  - akiflow
-  - todoist
   - grammarly
-  - brilliant
-
 ---

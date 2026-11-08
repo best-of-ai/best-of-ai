@@ -12,16 +12,23 @@ categories:
   - image-generation
   - presentation
   - graphic-design
-featured_tools:
-  - midjourney
+specific_tools:
   - roomgpt
   - collov-ai
   - homestyler
   - houzz
   - planner5d
-  - canva
   - sketchup
+  - midjourney
   - adobe-firefly
   - flux
-
+  - matterport
+  - d5-render
+  - enscape
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - figma
+  - gamma
 ---

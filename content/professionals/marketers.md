@@ -18,16 +18,26 @@ categories:
   - copywriting
   - ai-newsletters
   - local-search-engines
-featured_tools:
-  - chatgpt
-  - semrush
-  - jasper
-  - canva
-  - surfer-seo
+specific_tools:
   - hubspot
-  - adcreative-ai
+  - semrush
   - ahrefs
+  - surfer-seo
+  - jasper-marketing
+  - adcreative-ai
   - clearscope
+  - klaviyo-ai
+  - activecampaign-ai
   - sprout-social
-
+  - hootsuite-social
+  - buzzsumo
+  - optimizely
+  - apollo
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - notion-ai
+  - zapier
+  - grammarly
 ---

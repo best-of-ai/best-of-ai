@@ -12,16 +12,28 @@ categories:
   - automation
   - crm
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - zendesk
   - intercom
   - freshdesk
+  - help-scout
+  - front
+  - gorgias
   - forethought-ai
   - tidio
-  - hubspot-crm
-  - front
+  - ada
+  - kustomer-ai
+  - gladly-ai
+  - helpshift-ai
+  - sapling
+  - cresta
+  - observe-ai
+  - balto-ai
+general_tools:
+  - chatgpt
   - claude
-  - gemini
-
+  - hubspot-crm
+  - slack-ai
+  - notion-ai
+  - grammarly
 ---

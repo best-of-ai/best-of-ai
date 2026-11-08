@@ -11,15 +11,21 @@ categories:
   - image-generation
   - home-design
   - graphic-design
-featured_tools:
-  - midjourney
-  - ideogram
-  - spline
-  - canva
+specific_tools:
   - sketchup
-  - adobe-firefly
+  - vectorworks
+  - rhino
+  - blender
+  - unreal-engine
+  - d5-render
+  - enscape
+  - midjourney
+  - spline
+  - krea-ai
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - ideogram
   - figma
-  - adobe-express
-  - flux
-
 ---

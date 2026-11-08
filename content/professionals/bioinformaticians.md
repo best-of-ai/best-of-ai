@@ -11,16 +11,22 @@ categories:
   - data
   - research-tools
   - drug-discovery
-featured_tools:
-  - chatgpt
-  - benchling
+specific_tools:
   - dnanexus
   - geneious
   - alphafold-ai
-  - atomwise
-  - connected-papers
+  - rosettafold
+  - nextflow
+  - benchling
+  - deepnote
+  - kaggle
+  - biorender
+  - graphpad-prism
+general_tools:
+  - chatgpt
+  - claude
+  - github-copilot
+  - elicit
   - scispace
   - semantic-scholar
-  - elicit
-
 ---

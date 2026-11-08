@@ -12,16 +12,16 @@ categories:
   - data
   - document-ai
   - nutrition
-featured_tools:
-  - chatgpt
+specific_tools:
   - esha-genesis
   - fooddocs
   - benchling
+  - graphpad-prism
+  - posit
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - elicit
   - notebooklm
-  - tableau
-  - adobe-acrobat-ai
-  - perplexity-research
-
 ---

@@ -12,16 +12,26 @@ categories:
   - project-management
   - data
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - celonis
   - uipath
+  - power-automate
+  - nintex
+  - relay-app
+  - workato-ai
+  - tray-io
+  - boomi
+  - monday
+  - asana
+  - smartsheet-ai
+  - airtable
+  - sap-signavio
+general_tools:
+  - chatgpt
+  - claude
   - zapier
   - make
   - n8n
-  - monday
-  - airtable
   - tableau
-  - linear
-
+  - notion-ai
 ---

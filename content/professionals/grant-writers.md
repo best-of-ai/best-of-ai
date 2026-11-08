@@ -13,16 +13,18 @@ categories:
   - academia
   - productivity
   - nonprofit
-featured_tools:
-  - chatgpt
+specific_tools:
   - instrumentl
+  - candid
+  - bonterra
+  - blackbaud
+  - virtuous
+  - keela
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
-  - jasper
   - elicit
   - notebooklm
-  - research-rabbit
-  - asana
-  - adobe-acrobat-ai
-  - consensus
-
+  - perplexity
 ---

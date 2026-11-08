@@ -12,14 +12,23 @@ categories:
   - documentation
   - devtools
   - research-tools
-featured_tools:
+specific_tools:
+  - mermaid-chart
+  - drawio
+  - excalidraw
+  - eraser-io
+  - lucidchart-ai
+  - swimm-ai
+  - archbee
+  - gitbook
+  - sourcegraph-cody
+  - augment-code
+  - creately
+general_tools:
   - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - claude
-  - drawio
-  - cline
+  - claude-code
   - notion-ai
-  - aider
-
 ---

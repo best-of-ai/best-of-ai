@@ -12,8 +12,7 @@ categories:
   - automation
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - julius-ai
   - tableau
   - power-bi
@@ -23,5 +22,16 @@ featured_tools:
   - databricks
   - dbt-cloud
   - amplitude-ai
-
+  - mixpanel
+  - metabase-ai
+  - qlik
+  - deepnote
+  - bigquery
+  - formula-bot
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - github-copilot
+  - notion-ai
 ---

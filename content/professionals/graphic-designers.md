@@ -12,16 +12,28 @@ categories:
   - image-editing
   - logo-generator
   - background-remover
-featured_tools:
-  - midjourney
-  - canva
-  - adobe-firefly
+specific_tools:
+  - adobe-photoshop
+  - adobe-illustrator
+  - affinity
   - figma
-  - ideogram
+  - canva
   - adobe-express
+  - adobe-firefly
   - looka
+  - brandmark
   - recraft
+  - vectorizer-ai
+  - removebg
+  - coolors
+  - khroma
+  - inkscape
+  - penpot-ai
+general_tools:
+  - chatgpt
+  - claude
+  - midjourney
+  - ideogram
   - flux
-  - adobe-lightroom-ai
-
+  - clipdrop
 ---

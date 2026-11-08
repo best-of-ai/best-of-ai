@@ -13,16 +13,22 @@ categories:
   - automation
   - social-media-tools
   - events
-featured_tools:
-  - chatgpt
+specific_tools:
+  - cvent
   - bizzabo
-  - hopin
+  - grip-events
+  - eventbrite
+  - tripleseat
+  - honeybook
+  - canary-technologies
+  - mentimeter
+  - opentable
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - gamma
-  - hubspot-business
   - mailchimp
   - zapier
   - buffer
-  - clickup
-
 ---

@@ -11,15 +11,16 @@ categories:
   - sports-analytics
   - data
   - video
-featured_tools:
+specific_tools:
   - mobalytics
   - leetify
   - hudl
-  - catapult-sports
   - stats-perform
+  - kinexon
+  - obs-studio
+general_tools:
+  - chatgpt
+  - claude
   - runway
   - power-bi
-  - tableau
-  - dataiku
-
 ---

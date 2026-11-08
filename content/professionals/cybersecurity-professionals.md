@@ -12,16 +12,26 @@ categories:
   - automation
   - code-assistant
   - data
-featured_tools:
-  - chatgpt
-  - vanta
-  - snyk-ai
-  - wiz
+specific_tools:
   - crowdstrike
+  - sentinelone
   - darktrace
+  - vectra-ai
+  - wiz
+  - snyk-ai
+  - microsoft-security-copilot
+  - splunk
+  - tenable
+  - burp-suite
+  - vanta
   - drata
+  - semgrep-ai
+  - lakera
+  - nightfall
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
   - zapier
-
 ---

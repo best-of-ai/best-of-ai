@@ -12,14 +12,20 @@ categories:
   - market-research
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphasense
   - morningstar-ai
   - pitchbook-ai
   - kensho
+  - bloomberg-terminal
+  - factset
+  - yodlee
+  - goai-app
+  - marketalerts-ai
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - julius-ai
-  - perplexity-research
-
+  - perplexity
 ---

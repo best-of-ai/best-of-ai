@@ -12,16 +12,21 @@ categories:
   - geospatial
   - document-ai
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - palantir-gotham
   - arcgis
+  - maxar
+  - planet-labs
+  - spire-global
+  - satellogic
+  - maltego
+  - hunchly
+  - recorded-future
+  - tineye
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - perplexity
   - notebooklm
-  - semantic-scholar
-  - scispace
-  - adobe-acrobat-ai
-  - copy-ai
-
 ---

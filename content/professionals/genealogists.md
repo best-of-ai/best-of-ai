@@ -12,16 +12,18 @@ categories:
   - transcription
   - writing-assistants
   - knowledge-management
-featured_tools:
-  - chatgpt
-  - myheritage
+specific_tools:
   - ancestry
+  - myheritage
+  - familysearch
+  - findmypast
   - transkribus
-  - otter-ai
+  - abbyy
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - assemblyai
   - adobe-acrobat-ai
+  - otter-ai
   - grammarly
-  - notion-ai
-
 ---

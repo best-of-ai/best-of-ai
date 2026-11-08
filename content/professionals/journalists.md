@@ -12,16 +12,23 @@ categories:
   - transcription
   - document-ai
   - search-engines
-featured_tools:
-  - chatgpt
-  - perplexity
+specific_tools:
   - otter-ai
   - trint
+  - assemblyai
+  - documentcloud
+  - datawrapper
+  - flourish
+  - hunchly
+  - tineye
+  - perplexity
+  - exa-ai
+  - kagi
   - notebooklm
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - hemingway-editor
   - adobe-acrobat-ai
-  - assemblyai
-  - copy-ai
-
 ---

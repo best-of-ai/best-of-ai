@@ -12,16 +12,25 @@ categories:
   - data
   - biotech
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphafold-ai
   - isomorphic-labs
-  - exscientia
   - atomwise
   - recursion
   - schrodinger
   - benchling
   - insilico-medicine
-  - perplexity-research
-
+  - benevolentai
+  - rosettafold
+  - dotmatics
+  - reaxys
+  - scifinder
+  - chemdraw
+  - tempus-ai
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - elicit
+  - semantic-scholar
 ---

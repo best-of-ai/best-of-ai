@@ -11,16 +11,24 @@ categories:
   - medical-imaging
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
-  - nuance-dax
+specific_tools:
   - cardiologs
+  - alivecor
+  - irhythm
+  - heartflow
+  - nuance-dax
+  - abridge-ai
+  - openevidence
   - aidoc-ai
   - viz-ai
-  - arterys
+  - rapidai
+  - suki-ai
+  - glass-health
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
+  - perplexity
   - adobe-acrobat-ai
-  - perplexity-research
-
 ---

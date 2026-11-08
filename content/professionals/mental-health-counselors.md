@@ -12,16 +12,22 @@ categories:
   - writing-assistants
   - productivity
   - healthcare
-featured_tools:
-  - chatgpt
+specific_tools:
   - upheal
+  - mentalyc
+  - simplepractice
   - nabla
-  - adobe-acrobat-ai
-  - quillbot
+  - wysa
+  - spring-health
+  - lyra-health
+  - freed
+  - heidi-health
+  - talkspace
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - notebooklm
-  - clickup
-  - copy-ai
+  - adobe-acrobat-ai
   - grammarly
-
 ---

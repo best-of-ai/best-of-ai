@@ -12,14 +12,19 @@ categories:
   - automation
   - business-tools
   - local-search-engines
-featured_tools:
-  - chatgpt
+specific_tools:
   - wanderlog
   - hopper
+  - kayak
   - tripadvisor
+  - mova-guide
+  - google-maps
+  - nomadlist
+  - deepl
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
-  - deepl
   - zapier
-
 ---

@@ -11,16 +11,23 @@ categories:
   - fitness
   - video-editor
   - productivity
-featured_tools:
+specific_tools:
   - whoop
+  - oura-ring
+  - strava
+  - trainingpeaks
   - catapult-sports
   - hudl
+  - kinexon
   - stats-perform
   - fitbod
   - freeletics
+  - cronometer
+  - myfitnesspal
+  - mobalytics
+  - leetify
+general_tools:
+  - chatgpt
+  - claude
   - capcut
-  - adobe-premiere-pro-ai
-  - asana
-  - clickup
-
 ---

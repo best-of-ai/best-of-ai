@@ -13,16 +13,23 @@ categories:
   - document-ai
   - climate
   - geospatial
-featured_tools:
-  - chatgpt
+specific_tools:
   - arcgis
+  - qgis
   - tomorrow-io
-  - tableau
+  - google-earth-engine
+  - planet-labs
+  - climate-trace
+  - seequent
+  - carto
+  - watershed
+  - persefoni
+  - comsol
+general_tools:
+  - chatgpt
+  - claude
   - power-bi
+  - tableau
   - semantic-scholar
   - notebooklm
-  - adobe-acrobat-ai
-  - perplexity-research
-  - grammarly
-
 ---

@@ -11,16 +11,24 @@ categories:
   - legal-assistants
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - harvey
-  - casetext
   - spellbook
   - kira-systems
   - luminance-ai
+  - legora
+  - lexisnexis-protege
   - relativity
+  - everlaw
+  - disco
+  - clio
+  - filevine
   - lawgeex
+  - evisort
+  - ironclad-ai
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - notebooklm
-
 ---

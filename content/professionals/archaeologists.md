@@ -11,16 +11,19 @@ categories:
   - research-tools
   - 3d
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
   - arcgis
-  - mapbox
+  - qgis
+  - pix4d
+  - agisoft-metashape
+  - polycam-ai
   - luma-ai
-  - semantic-scholar
-  - clarifai
-  - research-rabbit
-  - aws-rekognition
-  - perplexity-research
-  - scispace
-
+  - transkribus
+  - faro
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notebooklm
+  - zotero-ai
 ---

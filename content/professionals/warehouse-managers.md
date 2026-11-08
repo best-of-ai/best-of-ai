@@ -12,13 +12,21 @@ categories:
   - data
   - productivity
   - e-commerce
-featured_tools:
-  - chatgpt
+specific_tools:
+  - manhattan-associates
   - blue-yonder
+  - kinaxis
+  - oracle-scm
+  - o9-solutions
   - fourkites
-  - tableau
+  - project44
+  - coupa
+  - sortly
+  - netsuite
   - shopify
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
   - zapier
-  - make
-
 ---

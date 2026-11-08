@@ -12,16 +12,20 @@ categories:
   - weather
   - data
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - climate-fieldview
   - farmlogs
   - granular
   - john-deere-ops
-  - tomorrow-io
   - planet-labs
-  - tableau
+  - tomorrow-io
+  - accuweather
+  - dronedeploy
+  - plantnet
+  - taranis
+general_tools:
+  - chatgpt
+  - claude
   - zapier
-  - make
-
+  - tableau
 ---

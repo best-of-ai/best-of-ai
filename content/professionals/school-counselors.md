@@ -12,14 +12,19 @@ categories:
   - productivity
   - document-ai
   - learning-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - naviance
+  - scoir
   - khanmigo
-  - quillbot
+  - wysa
+  - magicschool-ai
+  - studysmarter
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
   - gamma
   - adobe-acrobat-ai
   - notebooklm
-
 ---

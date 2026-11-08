@@ -11,16 +11,22 @@ categories:
   - data
   - automation
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - seequent
   - datarock
   - arcgis
+  - qgis
+  - pix4d
+  - dronedeploy
+  - propeller-aero
+  - maxar
+  - planet-labs
+  - aspentech
+  - cognite
+  - augury
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - notebooklm
-  - drawio
-  - zapier
-  - make
-  - perplexity-research
-
 ---

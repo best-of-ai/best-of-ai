@@ -11,16 +11,18 @@ categories:
   - medical-imaging
   - computer-vision
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - skinvision
+  - perfectcorp
   - nuance-dax
-  - clarifai
-  - aidoc-ai
+  - heidi-health
+  - freed
+  - openevidence
+  - glass-health
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - semantic-scholar
-  - viz-ai
   - adobe-acrobat-ai
-  - aws-rekognition
-  - arterys
-
 ---

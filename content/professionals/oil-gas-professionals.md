@@ -12,16 +12,20 @@ categories:
   - research-tools
   - compliance
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - slb-petrel
   - cognite
   - aspentech
+  - aveva
+  - seequent
+  - ibm-maximo
+  - augury
+  - sight-machine
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-  - arcgis
-  - drata
+  - power-bi
   - notebooklm
   - adobe-acrobat-ai
-  - perplexity-research
-  - power-bi
-
 ---

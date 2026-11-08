@@ -12,16 +12,26 @@ categories:
   - video-generator
   - writing-assistants
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - docebo
+  - articulate-360
+  - 360learning
+  - adobe-captivate
+  - cornerstone-ondemand
   - synthesia
   - heygen
+  - colossyan
+  - elai
+  - quizgecko
+  - mentimeter
+  - xpilot-ai
+  - schole
+general_tools:
+  - chatgpt
+  - claude
   - gamma
-  - khanmigo
   - canva
   - grammarly
   - notion-ai
   - zapier
-
 ---

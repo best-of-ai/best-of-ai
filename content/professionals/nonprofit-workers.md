@@ -12,16 +12,22 @@ categories:
   - social-media-tools
   - productivity
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - keela
+  - givebutter
+  - bloomerang
+  - bonterra
+  - blackbaud
+  - virtuous
+  - instrumentl
+  - candid
+  - nationbuilder
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - mailchimp
   - grammarly
-  - jasper
   - gamma
-  - amplitude-ai
   - buffer
-  - clickup
-
 ---

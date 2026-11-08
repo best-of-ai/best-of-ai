@@ -13,15 +13,19 @@ categories:
   - marketing
   - business-tools
   - market-research
-featured_tools:
-  - chatgpt
+specific_tools:
   - muck-rack
   - meltwater
+  - cision
   - brandwatch
+  - talkwalker
   - sprout-social
+  - hootsuite-social
+general_tools:
+  - chatgpt
+  - claude
   - jasper
   - canva
   - buffer
   - hubspot
-
 ---

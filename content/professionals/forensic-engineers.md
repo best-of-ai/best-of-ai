@@ -11,16 +11,20 @@ categories:
   - document-ai
   - 3d
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
   - faro
   - matterport
   - luma-ai
-  - arcgis
-  - tableau
+  - polycam-ai
+  - agisoft-metashape
+  - pix4d
+  - ansys
+  - comsol
+  - solidworks
+  - autocad
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - scispace
   - adobe-acrobat-ai
-  - aws-rekognition
-
 ---

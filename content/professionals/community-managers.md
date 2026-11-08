@@ -13,16 +13,20 @@ categories:
   - productivity
   - market-research
   - content-moderation
-featured_tools:
-  - chatgpt
+specific_tools:
+  - discord
   - circle-so
+  - mighty-networks
+  - skool
+  - hive-moderation
   - intercom
-  - buffer
-  - sprout-social
-  - canva
   - brandwatch
-  - asana
-  - clickup
-  - copy-ai
-
+  - sprout-social
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - buffer
+  - notion-ai
+  - typefully
 ---

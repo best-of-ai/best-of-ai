@@ -11,16 +11,20 @@ categories:
   - image-generation
   - business-tools
   - social-media-tools
-featured_tools:
-  - perfect365
+specific_tools:
   - styleseat
-  - ideogram
-  - stable-diffusion
-  - bing-image-creator
-  - adobe-lightroom-ai
-  - artbreeder
-  - civitai
-  - befunky
+  - vagaro
+  - fresha
+  - perfect365
+  - perfectcorp
+  - square
+  - acuity-scheduling
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - later
   - buffer
-
+  - capcut
+  - ideogram
 ---

@@ -11,13 +11,15 @@ categories:
   - productivity
   - image-generation
   - marketing
-featured_tools:
-  - chatgpt
+specific_tools:
+  - propared
+  - final-draft
+  - vectorworks
   - midjourney
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
   - gamma
-  - ideogram
-  - flux
-
 ---

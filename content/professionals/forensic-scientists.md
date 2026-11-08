@@ -12,16 +12,21 @@ categories:
   - data
   - writing-assistants
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
+  - autopsy
   - cellebrite
+  - magnet-forensics
+  - maltego
+  - hunchly
+  - relativity
   - clarifai
   - aws-rekognition
   - assemblyai
-  - tableau
+  - trint
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - semantic-scholar
-  - scispace
   - adobe-acrobat-ai
-
 ---

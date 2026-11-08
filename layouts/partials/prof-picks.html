@@ -1,0 +1,18 @@
+{{/*
+  Resolves a profession page's specific_tools and general_tools slugs into tool pages.
+  Usage: {{ $picks := partialCached "prof-picks.html" . .RelPermalink }}
+  Returns a dict: spec (specific tool pages), gen (general tool pages, max 10),
+  all (spec then gen, in on-page order).
+*/}}
+{{- $tools := where .Site.RegularPages "Section" "tools" -}}
+{{- $spec := slice -}}
+{{- range .Params.specific_tools -}}
+  {{- $slug := . -}}
+  {{- range first 1 (where $tools "Params.slug" $slug) -}}{{- $spec = $spec | append . -}}{{- end -}}
+{{- end -}}
+{{- $gen := slice -}}
+{{- range first 10 .Params.general_tools -}}
+  {{- $slug := . -}}
+  {{- range first 1 (where $tools "Params.slug" $slug) -}}{{- $gen = $gen | append . -}}{{- end -}}
+{{- end -}}
+{{- return (dict "spec" $spec "gen" $gen "all" ($spec | append $gen)) -}}

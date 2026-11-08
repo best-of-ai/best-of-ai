@@ -17,16 +17,36 @@ categories:
   - automation
   - workflow-automation
   - database-tools
-featured_tools:
+specific_tools:
   - github-copilot
   - cursor
-  - claude
-  - chatgpt
-  - v0
   - windsurf
-  - replit
-  - lovable
+  - claude-code
+  - codex
+  - cline
   - aider
-  - amazon-bedrock
-
+  - continue-dev
+  - zed-ai
+  - v0
+  - lovable
+  - bolt-new
+  - replit
+  - sourcegraph-cody
+  - coderabbit
+  - greptile
+  - jetbrains-ai
+  - tabnine
+  - gemini-code-assist
+  - amazon-q
+  - devin
+  - google-jules
+  - warp
+  - sentry
+  - postman
+general_tools:
+  - chatgpt
+  - claude
+  - gemini
+  - perplexity
+  - notion-ai
 ---

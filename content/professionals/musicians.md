@@ -14,16 +14,26 @@ categories:
   - voice-cloning
   - text-to-speech
   - transcription
-featured_tools:
+specific_tools:
   - suno
   - udio
-  - elevenlabs
-  - landr-ai
   - aiva
-  - murf
-  - krisp
+  - moises
+  - splice
+  - landr-ai
+  - emastered
+  - kits-ai
+  - ace-studio
+  - ableton-live
+  - logic-pro
+  - fl-studio
+  - audacity
+  - izotope-rx
+  - riffusion
+general_tools:
+  - chatgpt
+  - claude
+  - elevenlabs
   - descript
-  - adobe-podcast
-  - amazon-polly
-
+  - krisp
 ---

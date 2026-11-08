@@ -11,14 +11,20 @@ categories:
   - research-tools
   - spreadsheets
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - stata
+  - posit
+  - sas-viya
+  - jamovi
   - julius-ai
+  - matlab
+  - graphpad-prism
+  - wolfram-alpha-ai
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - power-bi
-  - wolfram-alpha-ai
   - semantic-scholar
   - connected-papers
-  - perplexity-research
-
 ---

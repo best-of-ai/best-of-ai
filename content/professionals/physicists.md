@@ -11,15 +11,21 @@ categories:
   - research-tools
   - data
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - arxiv
+  - wolfram-mathematica
+  - matlab
+  - overleaf
   - wolfram-alpha-ai
+  - nasa-ads
   - semantic-scholar
-  - elicit
   - connected-papers
-  - tableau
+  - scispace
+general_tools:
+  - chatgpt
+  - claude
+  - elicit
   - notebooklm
   - consensus
   - grammarly
-
 ---

@@ -11,16 +11,21 @@ categories:
   - legal-assistants
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - verbit
-  - otter-ai
-  - casetext
   - trint
-  - notebooklm
-  - grammarly
+  - otter-ai
   - assemblyai
+  - rev
+  - sonix
+  - deepgram
+  - speechmatics
+  - happyscribe
+  - whisper
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
   - adobe-acrobat-ai
-  - asana
-
+  - notebooklm
 ---

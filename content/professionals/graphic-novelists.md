@@ -11,16 +11,21 @@ categories:
   - storytelling
   - writing-assistants
   - character-design
-featured_tools:
+specific_tools:
+  - clip-studio-paint
+  - procreate
+  - character-creator
   - midjourney
+  - leonardo-ai
+  - flux
   - ideogram
-  - chatgpt
   - adobe-firefly
   - stable-diffusion
-  - character-creator
-  - leonardo-ai
+  - comfyui
+general_tools:
+  - chatgpt
+  - claude
+  - sudowrite
   - notion-ai
   - grammarly
-  - flux
-
 ---

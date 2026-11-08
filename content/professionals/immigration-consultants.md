@@ -12,16 +12,20 @@ categories:
   - translator
   - crm
   - automation
-featured_tools:
-  - chatgpt
-  - harvey
+specific_tools:
   - boundless
   - docketwise
+  - clio
+  - filevine
+  - harvey
   - deepl
   - google-translate
+  - microsoft-translator
+  - legora
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - grammarly
   - adobe-acrobat-ai
   - zapier
-
 ---

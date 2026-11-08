@@ -12,16 +12,31 @@ categories:
   - video-enhancer
   - writing-assistants
   - audio
-featured_tools:
+specific_tools:
   - runway
-  - descript
-  - capcut
+  - luma-dream-machine
+  - veo-3
+  - kling-ai
+  - pika-labs
+  - hailuo-ai
+  - moonvalley
+  - higgsfield
   - topaz-video-ai
   - elevenlabs
-  - midjourney
+  - descript
+  - davinci-resolve
   - adobe-premiere-pro-ai
-  - luma-dream-machine
-  - sora
+  - final-cut-pro
+  - avid-media-composer
+  - capcut
+  - metahuman
+  - unreal-engine
+  - final-draft
+  - studiobinder
+general_tools:
+  - chatgpt
+  - claude
+  - midjourney
   - sudowrite
-
+  - perplexity
 ---

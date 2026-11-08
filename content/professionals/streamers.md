@@ -11,15 +11,21 @@ categories:
   - social-media-tools
   - chatbot-builders
   - audio
-featured_tools:
-  - chatgpt
+specific_tools:
+  - obs-studio
+  - streamlabs
+  - twitch
+  - discord
   - elevenlabs
-  - runway
-  - pika-labs
-  - descript
-  - adobe-podcast
-  - murf
+  - voicemod
   - krisp
+  - opus-clip
+  - clipfinder-ai
+  - submagic
+  - runway
+general_tools:
+  - chatgpt
+  - claude
+  - descript
   - botpress
-
 ---

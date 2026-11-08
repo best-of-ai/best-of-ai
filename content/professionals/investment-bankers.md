@@ -13,16 +13,24 @@ categories:
   - market-research
   - document-ai
   - presentation
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphasense
   - rogo-ai
   - daloopa
   - pitchbook-ai
   - cb-insights-ai
   - morningstar-ai
+  - bloomberg-terminal
+  - factset
+  - kensho
+  - crunchbase-ai
   - gamma
+  - beautiful-ai
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - perplexity-research
-
+  - perplexity
+  - microsoft-365-copilot
+  - notebooklm
 ---

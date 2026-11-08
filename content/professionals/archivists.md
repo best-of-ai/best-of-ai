@@ -11,16 +11,20 @@ categories:
   - knowledge-management
   - research-tools
   - data
-featured_tools:
+specific_tools:
+  - transkribus
+  - abbyy
+  - documentcloud
+  - hyperscience
+  - google-document-ai
+  - amazon-textract
+  - unstructured
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - glean
   - notion-ai
   - adobe-acrobat-ai
-  - abbyy
-  - notebooklm
   - chatpdf
-  - glean
-  - capacities
-  - semantic-scholar
-  - scispace
-  - power-bi
-
 ---

@@ -11,7 +11,9 @@ categories:
   - medical-imaging
   - 3d
   - document-ai
-featured_tools:
+specific_tools:
+  - 3shape
+  - dolphin-imaging
   - cephx
   - diagnocat
   - softsmile
@@ -21,5 +23,10 @@ featured_tools:
   - overjet
   - pearl-dental
   - videahealth
+  - dentrix
+  - weave-communications
+general_tools:
   - chatgpt
+  - claude
+  - canva
 ---

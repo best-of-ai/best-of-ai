@@ -12,16 +12,23 @@ categories:
   - research-tools
   - productivity
   - transcription
-featured_tools:
-  - chatgpt
+specific_tools:
   - openevidence
+  - uptodate
   - nuance-dax
   - abridge-ai
   - suki-ai
   - heidi-health
+  - freed
+  - ambience-healthcare
+  - nabla
+  - glass-health
+  - deepscribe
+  - doximity
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - semantic-scholar
   - adobe-acrobat-ai
-  - assemblyai
-
 ---

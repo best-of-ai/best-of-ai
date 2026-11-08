@@ -11,16 +11,23 @@ categories:
   - fitness
   - nutrition
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - noom
   - lifesum
   - myfitnesspal
+  - cronometer
   - fitbod
   - headspace
+  - calm
+  - insight-timer
+  - oura-ring
+  - whoop
+  - kajabi
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
   - akiflow
   - todoist
-
 ---

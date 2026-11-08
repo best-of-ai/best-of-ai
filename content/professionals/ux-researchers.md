@@ -13,13 +13,23 @@ categories:
   - productivity
   - note-taking-apps
   - transcription
-featured_tools:
-  - chatgpt
+specific_tools:
   - dovetail-ai
-  - hotjar-ai
   - maze-ai
+  - hotjar-ai
+  - fullstory
+  - microsoft-clarity
+  - qualtrics
+  - prolific
   - otter-ai
-  - tableau
   - assemblyai
-
+  - attention-insight
+  - remesh
+  - nvivo
+  - atlas-ti
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
+  - notebooklm
 ---

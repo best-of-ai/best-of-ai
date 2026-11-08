@@ -11,14 +11,23 @@ categories:
   - data
   - automation
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - blue-yonder
-  - fourkites
-  - coupa
   - kinaxis
+  - o9-solutions
+  - oracle-scm
+  - sap-ariba
+  - coupa
+  - fourkites
+  - project44
+  - flexport
+  - llamasoft
+  - zycus
+  - freightos
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - zapier
   - make
-
 ---

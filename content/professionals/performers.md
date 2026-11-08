@@ -11,16 +11,18 @@ categories:
   - music-generation
   - social-media-tools
   - writing-assistants
-featured_tools:
-  - chatgpt
-  - elevenlabs
-  - udio
-  - suno
-  - descript
-  - canva
-  - adobe-podcast
+specific_tools:
+  - backstage
+  - casting-networks
   - voicemod
-  - grammarly
+  - moises
+  - riverside
+  - capcut
+  - descript
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - buffer
-
+  - grammarly
 ---

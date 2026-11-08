@@ -12,16 +12,23 @@ categories:
   - data
   - healthcare
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
   - benchling
   - alphafold-ai
   - geneious
-  - dnanexus
+  - snapgene
+  - biorender
+  - graphpad-prism
   - inaturalist
-  - semantic-scholar
+  - plantnet
+  - merlin-bird-id
+  - dnanexus
+general_tools:
+  - chatgpt
+  - claude
   - elicit
+  - semantic-scholar
   - scispace
-  - connected-papers
-
+  - notebooklm
+  - perplexity
 ---

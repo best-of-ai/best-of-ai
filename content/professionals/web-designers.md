@@ -11,16 +11,29 @@ categories:
   - graphic-design
   - no-code
   - image-generation
-featured_tools:
-  - chatgpt
+specific_tools:
   - figma
   - webflow
   - framer
+  - wordpress
+  - squarespace
+  - 10web
+  - durable
+  - dora-ai
+  - instawebai
+  - hocoos
+  - uizard
+  - visily
+  - magic-patterns
+  - builder-io
+  - plasmic
+  - v0
   - midjourney
+  - recraft
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - ideogram
-  - adobe-firefly
   - adobe-express
-  - flux
-
+  - ideogram
 ---

@@ -11,14 +11,19 @@ categories:
   - document-ai
   - data
   - automation
-featured_tools:
+specific_tools:
+  - intelex
+  - navex
+  - mastercontrol
+  - everbridge
+  - sight-machine
+  - landing-ai
+  - aws-rekognition
+  - ansys
+general_tools:
   - chatgpt
-  - drata
-  - adobe-acrobat-ai
+  - claude
   - tableau
-  - zapier
+  - adobe-acrobat-ai
   - notebooklm
-  - grammarly
-  - make
-
 ---

@@ -13,16 +13,27 @@ categories:
   - spreadsheets
   - tax-accounting
   - market-research
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphasense
   - causal-app
   - kensho
   - mosaic-tech
   - julius-ai
-  - tableau
-  - power-bi
   - ramp
   - expensify-ai
-
+  - pigment
+  - anaplan
+  - bloomberg-terminal
+  - factset
+  - pilot-ai
+  - bill-com-ai
+  - netsuite
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
+  - power-bi
+  - microsoft-365-copilot
+  - formula-bot
+  - notebooklm
 ---

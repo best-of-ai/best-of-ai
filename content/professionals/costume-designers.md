@@ -12,16 +12,19 @@ categories:
   - image-editing
   - research-tools
   - productivity
-featured_tools:
+specific_tools:
+  - clo3d
+  - browzwear
   - midjourney
   - ideogram
-  - clo3d
-  - canva
   - adobe-firefly
-  - chatgpt
-  - notebooklm
   - stable-diffusion
   - flux
+  - procreate
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - notebooklm
   - asana
-
 ---

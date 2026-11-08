@@ -11,16 +11,27 @@ categories:
   - resume-tools
   - productivity
   - learning-tools
-featured_tools:
-  - chatgpt
-  - linkedin
+specific_tools:
   - resume-io
   - kickresume
   - jobscan
+  - rezi
   - teal
   - huntr
+  - reztune
   - yoodli
+  - jobgpt-ai
   - betterup
+  - linkedin
+  - poised
+  - enhancv
+  - zety
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
-
+  - notion-ai
+  - calendly
+  - canva
+  - otter-ai
 ---

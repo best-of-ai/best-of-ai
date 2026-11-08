@@ -12,16 +12,20 @@ categories:
   - computer-vision
   - 3d
   - video
-featured_tools:
+specific_tools:
   - dronedeploy
   - pix4d
   - skydio
+  - agisoft-metashape
+  - propeller-aero
+  - litchi
   - arcgis
   - mapbox
-  - runway
+  - nearmap
   - luma-ai
-  - alpha3d
-  - aws-rekognition
-  - clarifai
-
+general_tools:
+  - chatgpt
+  - claude
+  - davinci-resolve
+  - capcut
 ---

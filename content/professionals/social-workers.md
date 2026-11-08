@@ -11,13 +11,20 @@ categories:
   - document-ai
   - writing-assistants
   - automation
-featured_tools:
-  - chatgpt
-  - grammarly
+specific_tools:
+  - commcare
+  - simplepractice
+  - upheal
+  - mentalyc
   - otter-ai
+  - pointclickcare
+  - bonterra
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
   - notebooklm
-  - chatpdf
   - adobe-acrobat-ai
   - zapier
-
+  - google-translate
 ---

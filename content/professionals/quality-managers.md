@@ -12,14 +12,19 @@ categories:
   - compliance
   - document-ai
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
+  - greenlight-guru
+  - qualio
+  - mastercontrol
   - tulip
   - sight-machine
+  - landing-ai
   - aws-rekognition
   - clarifai
   - drata
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - adobe-acrobat-ai
-
 ---

@@ -11,16 +11,17 @@ categories:
   - research-tools
   - writing-assistants
   - compliance
-featured_tools:
-  - chatgpt
+specific_tools:
   - quorum
   - fiscalnote
+  - muck-rack
+  - meltwater
+  - cision
+general_tools:
+  - chatgpt
+  - claude
   - perplexity
-  - perplexity-research
   - notebooklm
-  - semantic-scholar
-  - grammarly
   - gamma
-  - copy-ai
-
+  - grammarly
 ---

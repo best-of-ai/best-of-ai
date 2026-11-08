@@ -11,15 +11,24 @@ categories:
   - computer-vision
   - geospatial
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - wildlife-insights
+  - megadetector
+  - movebank
+  - wildbook
+  - inaturalist
+  - merlin-bird-id
+  - birdnet
+  - roboflow
+  - cvat
   - arcgis
-  - clarifai
-  - aws-rekognition
+  - qgis
+  - posit
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
-  - connected-papers
   - notebooklm
   - elicit
-  - perplexity-research
-
+  - perplexity
 ---

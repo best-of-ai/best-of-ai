@@ -12,16 +12,25 @@ categories:
   - research-tools
   - writing-assistants
   - geospatial
-featured_tools:
-  - chatgpt
+specific_tools:
+  - bluedot
+  - airfinity
   - arcgis
   - datarobot
+  - posit
+  - stata
+  - redcap
+  - tempus-ai
+  - flatiron-health
+  - openevidence
+  - google-earth-engine
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - semantic-scholar
   - elicit
   - notebooklm
   - scite-ai
-  - copy-ai
   - grammarly
-
 ---

@@ -12,16 +12,20 @@ categories:
   - automation
   - diagramming
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - anylogic
   - tulip
-  - augury
   - sight-machine
-  - aspentech
   - landing-ai
+  - celonis
+  - sap-signavio
+  - aspentech
+  - augury
+  - blue-yonder
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - drawio
   - zapier
-  - amplitude-ai
-
 ---

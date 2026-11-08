@@ -12,15 +12,18 @@ categories:
   - marketing
   - automation
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - givebutter
   - bonterra
   - bloomerang
+  - instrumentl
+  - candid
+  - keela
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
   - mailchimp
   - gamma
-  - hubspot
-
 ---

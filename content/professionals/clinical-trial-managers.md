@@ -11,16 +11,19 @@ categories:
   - research-tools
   - document-ai
   - compliance
-featured_tools:
-  - chatgpt
+specific_tools:
   - medidata
-  - elicit
-  - notebooklm
+  - veeva-systems
+  - iqvia
+  - redcap
+  - openevidence
   - abbyy
-  - adobe-acrobat-ai
-  - semantic-scholar
-  - chatpdf
-  - humata
   - onetrust
-
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - adobe-acrobat-ai
+  - chatpdf
+  - elicit
 ---

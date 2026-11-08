@@ -11,14 +11,20 @@ categories:
   - research-tools
   - writing-assistants
   - productivity
-featured_tools:
-  - chatgpt
-  - perplexity
+specific_tools:
+  - philpapers
   - semantic-scholar
   - connected-papers
-  - notebooklm
-  - grammarly
+  - overleaf
+  - zotero-ai
+  - mendeley
   - elicit
   - consensus
-
+  - scholarcy
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notebooklm
+  - grammarly
 ---

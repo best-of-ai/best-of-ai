@@ -12,16 +12,28 @@ categories:
   - image-generation
   - data
   - 3d-printing
-featured_tools:
-  - chatgpt
+specific_tools:
+  - keyshot
+  - solidworks
+  - autodesk-fusion
+  - rhino
   - ntopology
   - physna
   - spline
   - tripo3d
+  - meshy-ai
+  - kaedim
+  - vizcom
+  - bambu-studio
+  - prusaslicer
+  - ultimaker-cura
+  - orca-slicer
   - midjourney
-  - ideogram
+general_tools:
+  - chatgpt
+  - claude
   - figma
   - canva
-  - adobe-express
-
+  - adobe-photoshop
+  - ideogram
 ---

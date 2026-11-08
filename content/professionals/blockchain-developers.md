@@ -13,16 +13,24 @@ categories:
   - debugging
   - documentation
   - cybersecurity
-featured_tools:
-  - github-copilot
-  - cursor
-  - chatgpt
+specific_tools:
   - alchemy-web3
   - moralis
   - dune-analytics
   - forta-network
+  - infura
+  - quicknode
+  - nansen
+  - certik
+  - chainalysis
+  - openzeppelin
+  - tenderly
+general_tools:
+  - github-copilot
+  - cursor
+  - chatgpt
+  - claude
+  - claude-code
   - cline
   - sentry
-  - aider
-
 ---

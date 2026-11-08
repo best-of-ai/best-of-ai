@@ -2,13 +2,9 @@
 {{ $p            := .Params }}
 {{ $cats         := $p.categories }}
 {{ $tools        := where .Site.RegularPages "Section" "tools" }}
-{{ $featSlugs    := $p.featured_tools }}
-{{ $featTools    := slice }}
-{{ range $featSlugs }}
-  {{ $slug := . }}
-  {{ $t := index (where $tools "Params.slug" $slug) 0 }}
-  {{ if $t }}{{ $featTools = $featTools | append $t }}{{ end }}
-{{ end }}
+{{ $picks        := partialCached "prof-picks.html" . .RelPermalink }}
+{{ $specTools    := $picks.spec }}
+{{ $genTools     := $picks.gen }}
 
 {{ $totalCount := 0 }}
 {{ range $cats }}
@@ -17,6 +13,7 @@
 
 {{ $allProfs := where .Site.RegularPages "Section" "professionals" }}
 {{ $scored   := slice }}
+{{ $mySpec   := $p.specific_tools | default slice }}
 {{ range $allProfs }}
   {{ if ne .Params.slug $p.slug }}
     {{ $shared := 0 }}
@@ -24,8 +21,10 @@
     {{ range $cats }}
       {{ if in $otherCats . }}{{ $shared = add $shared 1 }}{{ end }}
     {{ end }}
-    {{ if gt $shared 0 }}
-      {{ $scored = $scored | append (dict "page" . "shared" $shared) }}
+    {{ $sharedSpec := len (intersect $mySpec (.Params.specific_tools | default slice)) }}
+    {{ $score := add (mul $sharedSpec 3) (mul $shared 2) }}
+    {{ if gt $score 0 }}
+      {{ $scored = $scored | append (dict "page" . "shared" $score) }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -67,10 +66,13 @@
     <!-- Filter bar -->
     <div class="prof-cat-tabs" id="prof-cat-tabs">
       <button class="pf active" data-cat="all">all <span class="prof-cat-count">{{ partial "count.html" $totalCount }}</span></button>
-      {{ if $featTools }}
-      <button class="pf prof-picks-tab" data-cat="picks">★ top picks <span class="prof-cat-count">{{ partial "count.html" (len $featTools) }}</span></button>
-      <span class="prof-cat-tabs__sep">·</span>
+      {{ if $specTools }}
+      <button class="pf prof-picks-tab" data-cat="specific">◎ specific <span class="prof-cat-count">{{ partial "count.html" (len $specTools) }}</span></button>
       {{ end }}
+      {{ if $genTools }}
+      <button class="pf prof-picks-tab" data-cat="general">★ general <span class="prof-cat-count">{{ partial "count.html" (len $genTools) }}</span></button>
+      {{ end }}
+      {{ if or $specTools $genTools }}<span class="prof-cat-tabs__sep">·</span>{{ end }}
       {{ range $cats }}
         {{ $c        := . }}
         {{ $catTools := where $tools "Params.category" $c }}
@@ -90,15 +92,15 @@
     <!-- Tools grid grouped by category -->
     {{ if gt $totalCount 0 }}
     <div id="prof-tools-grid">
-      {{ if $featTools }}
-      <section class="prof-cat-section prof-picks-section" data-cat="picks">
+      {{ if $specTools }}
+      <section class="prof-cat-section prof-picks-section" data-cat="specific">
         <div class="prof-picks-header">
           <div class="prof-picks-header__left">
             <h2 class="prof-picks-title">
-              <span class="prof-picks-star">★</span>
-              Top AI Tools for {{ $p.name }}
+              <span class="prof-picks-star">◎</span>
+              Specific AI Tools for {{ $p.name }}
             </h2>
-            <p class="prof-picks-sub">{{ partial "count.html" (len $featTools) }} tools handpicked by our team</p>
+            <p class="prof-picks-sub">{{ partial "count.html" (len $specTools) }} tools built for this kind of work</p>
           </div>
           <a href="{{ "/contribute/" | relURL }}" class="prof-picks-cta">
             <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
@@ -106,8 +108,26 @@
           </a>
         </div>
         <div class="tools-grid">
-          {{ range partial "dead-last.html" $featTools }}
-          {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "picks") }}
+          {{ range partial "dead-last.html" $specTools }}
+          {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "specific") }}
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+      {{ if $genTools }}
+      <section class="prof-cat-section prof-picks-section" data-cat="general">
+        <div class="prof-picks-header">
+          <div class="prof-picks-header__left">
+            <h2 class="prof-picks-title">
+              <span class="prof-picks-star">★</span>
+              General AI Tools for {{ $p.name }}
+            </h2>
+            <p class="prof-picks-sub">{{ partial "count.html" (len $genTools) }} broadly useful tools worth having in the toolbox</p>
+          </div>
+        </div>
+        <div class="tools-grid">
+          {{ range partial "dead-last.html" $genTools }}
+          {{ partial "tool-card.html" (dict "page" . "p" .Params "cat" "general") }}
           {{ end }}
         </div>
       </section>

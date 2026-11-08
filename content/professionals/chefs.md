@@ -12,16 +12,20 @@ categories:
   - nutrition
   - image-editing
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - meez
+  - marketman
   - whisk
   - sidechef
+  - esha-genesis
+  - fooddocs
+  - cronometer
+  - toast
+general_tools:
+  - chatgpt
+  - claude
   - midjourney
   - canva
   - ideogram
-  - marketman
-  - myfitnesspal
   - grammarly
-  - copy-ai
-
 ---

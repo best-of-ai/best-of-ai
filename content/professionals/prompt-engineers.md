@@ -11,15 +11,28 @@ categories:
   - ai-agents
   - code-assistant
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - promptlayer
   - langfuse
-  - humanloop
-  - cursor-composer
-  - aider
-  - cline
-  - codeium
-  - devin
-
+  - langsmith
+  - promptfoo
+  - braintrust
+  - helicone
+  - vellum
+  - arize
+  - ragas
+  - patronus-ai
+  - flowgpt
+  - promptbase
+  - prompthero
+  - litellm
+  - portkey
+  - agentops
+  - wandb-weave
+general_tools:
+  - chatgpt
+  - claude
+  - gemini
+  - deepseek
+  - cursor
 ---

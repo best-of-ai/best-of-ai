@@ -12,14 +12,19 @@ categories:
   - data
   - compliance
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - watershed
+  - persefoni
   - carbon-trust
   - climate-trace
+  - sylvera
+  - energycap
   - uplight
+  - google-earth-engine
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - notebooklm
   - grammarly
-
 ---

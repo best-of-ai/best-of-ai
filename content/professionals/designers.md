@@ -18,16 +18,33 @@ categories:
   - home-design
   - infographics
   - fashion
-featured_tools:
-  - midjourney
-  - canva
+specific_tools:
   - figma
-  - ideogram
+  - canva
+  - adobe-photoshop
+  - adobe-illustrator
+  - affinity
+  - sketch-ai
+  - penpot-ai
+  - uizard
+  - visily
+  - figma-weave
   - adobe-firefly
-  - adobe-express
+  - coolors
+  - khroma
+  - looka
+  - vectorizer-ai
+  - removebg
+  - clipdrop
+  - recraft
+  - framer
+  - webflow
   - spline
-  - leonardo-ai
-  - canva-infographics
+general_tools:
+  - chatgpt
+  - claude
+  - midjourney
+  - ideogram
+  - adobe-express
   - flux
-
 ---

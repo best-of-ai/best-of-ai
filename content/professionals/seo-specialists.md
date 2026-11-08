@@ -12,14 +12,22 @@ categories:
   - writing-assistants
   - research-tools
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - screaming-frog
   - semrush
   - ahrefs
   - surfer-seo
   - clearscope
-  - jasper
   - frase
-  - grammarly
-
+  - moz-ai
+  - brightedge
+  - mangools
+  - spyfu
+  - seojuice
+  - keyword-insights
+  - alli-ai
+  - google-analytics
+general_tools:
+  - chatgpt
+  - claude
 ---

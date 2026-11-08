@@ -12,14 +12,24 @@ categories:
   - productivity
   - knowledge-management
   - document-ai
-featured_tools:
+specific_tools:
+  - madcap-flare
+  - mintlify
+  - gitbook
+  - readme-io
+  - archbee
+  - document360
+  - confluence-ai
+  - swimm-ai
+  - hemingway-editor
+  - prowritingaid
+  - languagetool
+  - eraser-io
+  - mermaid-chart
+general_tools:
   - chatgpt
+  - claude
   - grammarly
   - notion-ai
-  - mintlify
-  - prowritingaid
-  - hemingway-editor
   - cursor
-  - adobe-acrobat-ai
-
 ---

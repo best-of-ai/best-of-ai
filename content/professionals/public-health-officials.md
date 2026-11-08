@@ -12,15 +12,23 @@ categories:
   - research-tools
   - writing-assistants
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - bluedot
+  - airfinity
   - arcgis
+  - redcap
+  - posit
+  - stata
+  - datawrapper
+  - flourish
+  - commcare
+  - google-earth-engine
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - semantic-scholar
   - notebooklm
   - grammarly
-  - elicit
   - buffer
-
 ---

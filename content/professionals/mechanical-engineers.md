@@ -12,16 +12,24 @@ categories:
   - diagramming
   - documentation
   - project-management
-featured_tools:
-  - chatgpt
-  - wolfram-alpha-ai
+specific_tools:
+  - solidworks
+  - autodesk-fusion
+  - ansys
+  - comsol
+  - matlab
   - ntopology
   - physna
+  - autocad
+  - keyshot
+  - wolfram-alpha-ai
+  - bambu-studio
+  - prusaslicer
+general_tools:
+  - chatgpt
+  - claude
   - drawio
-  - tableau
   - notebooklm
   - linear
-  - perplexity-research
-  - power-bi
-
+  - perplexity
 ---

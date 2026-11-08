@@ -11,16 +11,22 @@ categories:
   - writing-assistants
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - magicschool-ai
+  - khanmigo
+  - articulate-360
+  - adobe-captivate
+  - quizgecko
   - docebo
+  - 360learning
+  - xpilot-ai
+  - thea-ai
+general_tools:
+  - chatgpt
+  - claude
   - notion-ai
   - canva
-  - khanmigo
   - grammarly
-  - synthesia
-  - asana
-  - adobe-acrobat-ai
-  - clickup
-
+  - gamma
+  - notebooklm
 ---

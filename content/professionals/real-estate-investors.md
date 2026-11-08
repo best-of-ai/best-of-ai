@@ -11,14 +11,22 @@ categories:
   - finance
   - data
   - market-research
-featured_tools:
-  - chatgpt
+specific_tools:
   - zillow
+  - redfin
   - matterport
+  - costar
+  - reonomy
+  - propstream
   - kensho
   - alphasense
+  - appfolio
+  - buildium
+  - zumper
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - power-bi
   - perplexity
-
 ---

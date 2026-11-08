@@ -16,14 +16,26 @@ categories:
   - app-builders
   - presentation
   - ai-directories
-featured_tools:
-  - chatgpt
+specific_tools:
+  - lovable
+  - bolt-new
+  - base44
+  - durable
+  - carta
+  - stripe
+  - pitch
+  - slidebean
+  - evalyze
+  - crunchbase-ai
+  - product-hunt
   - hubspot-crm
+  - bubble
+general_tools:
+  - chatgpt
+  - claude
   - gamma
   - perplexity
   - zapier
   - canva
   - asana
-  - bubble
-
 ---

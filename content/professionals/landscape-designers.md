@@ -11,16 +11,20 @@ categories:
   - 3d
   - image-generation
   - graphic-design
-featured_tools:
-  - midjourney
+specific_tools:
   - sketchup
+  - planner5d
+  - homestyler
+  - houzz
   - plantnet
-  - ideogram
+  - picturethis
+  - midjourney
+  - roomgpt
+  - vectorworks
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - flux
   - adobe-express
-  - adobe-firefly
-  - alpha3d
   - figma
-
 ---

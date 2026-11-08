@@ -12,16 +12,23 @@ categories:
   - geospatial
   - climate
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - google-earth-engine
   - arcgis
-  - tableau
+  - qgis
   - planet-labs
+  - spire-global
+  - global-fishing-watch
   - climate-trace
+  - kaggle
+  - posit
+  - matlab
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
   - elicit
   - scispace
-  - grammarly
-
+  - overleaf
 ---

@@ -18,16 +18,29 @@ categories:
   - ai-directories
   - ai-newsletters
   - reading
-featured_tools:
-  - chatgpt
+specific_tools:
   - elicit
-  - semantic-scholar
-  - notebooklm
-  - notion-ai
-  - research-rabbit
-  - perplexity
   - consensus
-  - google-translate
+  - semantic-scholar
+  - scispace
+  - research-rabbit
+  - connected-papers
+  - scite-ai
+  - undermind
+  - zotero-ai
+  - mendeley
+  - perplexity-research
+  - explainpaper
+  - arxiv
+  - paperpal
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notion-ai
   - obsidian
-
+  - google-translate
+  - grammarly
+  - deepl
+  - notebooklm
 ---

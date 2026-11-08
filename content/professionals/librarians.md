@@ -11,16 +11,24 @@ categories:
   - document-ai
   - productivity
   - academia
-featured_tools:
-  - chatgpt
-  - elicit
+specific_tools:
+  - worldcat
   - semantic-scholar
-  - notebooklm
-  - research-rabbit
+  - scopus
+  - web-of-science
+  - zotero-ai
+  - mendeley
+  - lens-org
+  - dimensions-ai
   - connected-papers
+  - scite-ai
+  - documentcloud
+  - transkribus
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - elicit
   - consensus
-  - adobe-acrobat-ai
   - grammarly
-  - chatpdf
-
 ---

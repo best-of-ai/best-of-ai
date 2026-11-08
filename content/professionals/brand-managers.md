@@ -12,16 +12,23 @@ categories:
   - social-media-tools
   - image-generation
   - market-research
-featured_tools:
+specific_tools:
+  - brandwatch
+  - talkwalker
+  - sprout-social
+  - hootsuite-social
+  - meltwater
+  - loomly
+  - planable
+  - coolors
+  - khroma
+  - frontify
+general_tools:
   - chatgpt
+  - claude
   - canva
   - midjourney
-  - talkwalker
-  - brandwatch
-  - sprout-social
-  - buffer
   - figma
   - adobe-express
   - semrush
-
 ---

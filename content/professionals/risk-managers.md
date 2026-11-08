@@ -12,14 +12,23 @@ categories:
   - data
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
-  - drata
+specific_tools:
   - kensho
   - alphasense
+  - feedzai
+  - sardine
+  - complyadvantage
+  - onetrust
+  - drata
+  - auditboard
+  - credo-ai
+  - persefoni
+  - watershed
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - power-bi
   - adobe-acrobat-ai
-  - perplexity-research
-
+  - perplexity
 ---

@@ -11,16 +11,18 @@ categories:
   - translator
   - productivity
   - document-ai
-featured_tools:
+specific_tools:
+  - commcare
+  - ada-health
+  - infermedica-ai
+  - medisafe
+  - mytherapy
+  - openevidence
+general_tools:
   - chatgpt
-  - notebooklm
-  - otter-ai
+  - claude
   - google-translate
-  - nuance-dax
-  - grammarly
   - deepl
-  - asana
-  - adobe-acrobat-ai
-  - clickup
-
+  - otter-ai
+  - canva
 ---

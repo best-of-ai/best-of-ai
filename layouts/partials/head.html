@@ -237,7 +237,18 @@
     {{ $profDescCount = add $profDescCount (len (where $profDescTools "Params.category" .)) }}
   {{ end }}
   {{ $profSub := .Params.subtitle | default "" }}
-  {{ if $profSub }}
+  {{ $profPicks := partialCached "prof-picks.html" . .RelPermalink }}
+  {{ $profTop := first 3 (cond (gt (len $profPicks.spec) 0) $profPicks.spec $profPicks.gen) }}
+  {{ $profNames := slice }}
+  {{ range $profTop }}{{ $profNames = $profNames | append .Params.name }}{{ end }}
+  {{ if $profNames }}
+    {{ $desc = printf "%d AI tools for %s, including %s." $profDescCount .Params.name (delimit $profNames ", " " and ") }}
+    {{ if $profSub }}
+      {{ $profSub = strings.TrimSuffix "." $profSub }}
+      {{ if hasPrefix $profSub "AI tools for " }}{{ $profSub = printf "Covers %s" (strings.TrimPrefix "AI tools for " $profSub) }}{{ end }}
+      {{ $desc = printf "%s %s." $desc $profSub }}
+    {{ end }}
+  {{ else if $profSub }}
     {{ $desc = printf "%d AI tools for %s — %s" $profDescCount .Params.name $profSub }}
   {{ else }}
     {{ $desc = printf "Discover %d handpicked AI tools for %s — curated for quality and real-world impact on Best of AI." $profDescCount .Params.name }}
@@ -297,6 +308,10 @@
   {{ $profKws := slice (printf "AI for %s" .Params.name) (printf "best AI tools for %s" .Params.name) (printf "free AI tools for %s" .Params.name) (printf "AI %s tools" (lower .Params.name)) }}
   {{ range .Params.categories }}
     {{ $profKws = $profKws | append (printf "%s AI tools" (. | humanize | lower)) }}
+  {{ end }}
+  {{ $kwPicks := partialCached "prof-picks.html" . .RelPermalink }}
+  {{ range first 5 $kwPicks.spec }}
+    {{ $profKws = $profKws | append (printf "%s for %s" .Params.name (lower $.Params.name)) }}
   {{ end }}
 <meta name="keywords" content="{{ delimit $profKws ", " }}">
 {{ else if and (eq .Kind "section") (eq .Section "companies") }}

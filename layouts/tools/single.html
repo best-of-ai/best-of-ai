@@ -19,7 +19,7 @@
 {{ $altPages = partial "dead-last.html" $altPages }}
 {{ $topPickProfessions := slice }}
 {{ range where .Site.RegularPages "Section" "professionals" }}
-  {{ if in .Params.featured_tools $toolSlug }}
+  {{ if or (in .Params.specific_tools $toolSlug) (in .Params.general_tools $toolSlug) }}
     {{ $topPickProfessions = $topPickProfessions | append . }}
   {{ end }}
 {{ end }}

@@ -12,16 +12,34 @@ categories:
   - voice-cloning
   - writing-assistants
   - productivity
-featured_tools:
+specific_tools:
+  - ableton-live
+  - fl-studio
+  - logic-pro
   - suno
   - udio
-  - elevenlabs
-  - landr-ai
-  - murf
+  - aiva
+  - stable-audio
   - mubert
+  - soundraw
+  - beatoven-ai
+  - boomy
+  - loudly
+  - soundful
+  - splice
+  - moises
+  - landr-ai
+  - emastered
+  - izotope-rx
+  - kits-ai
+  - ace-studio
+  - synthesizer-v
+  - jammable
+  - musicfy
+  - riffusion
+general_tools:
+  - chatgpt
+  - claude
+  - elevenlabs
   - descript
-  - adobe-podcast
-  - krisp
-  - asana
-
 ---

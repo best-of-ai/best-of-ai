@@ -12,16 +12,28 @@ categories:
   - devtools
   - api-tools
   - compliance
-featured_tools:
+specific_tools:
+  - stripe
+  - plaid
+  - adyen
+  - unit21
+  - sardine
+  - feedzai
+  - persona
+  - jumio
+  - sumsub
+  - drata
+  - vanta
+  - natural
+  - mx-technologies
+  - finastra
+  - postman
+  - mintlify
+general_tools:
   - github-copilot
   - cursor
   - chatgpt
-  - stripe
-  - plaid
-  - unit21
-  - drata
-  - mintlify
-  - postman
+  - claude
   - amazon-bedrock
-
+  - claude-code
 ---

@@ -12,16 +12,21 @@ categories:
   - data
   - productivity
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - holistiplan
+  - morningstar-ai
+  - wealth-com
+  - ynab
+  - monarch-money
+  - yodlee
+  - plaid
+general_tools:
+  - chatgpt
+  - claude
   - julius-ai
   - tableau
-  - power-bi
   - adobe-acrobat-ai
-  - morningstar-ai
-  - calendly
-  - clickup
   - docusign-ai
-
+  - calendly
+  - otter-ai
 ---

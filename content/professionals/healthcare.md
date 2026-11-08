@@ -9,16 +9,25 @@ sort_order: 14
 sidebar: true
 categories:
   - healthcare
-featured_tools:
-  - chatgpt
+specific_tools:
   - nuance-dax
-  - tempus-ai
   - abridge-ai
   - suki-ai
-  - aidoc-ai
-  - notebooklm
-  - hippocratic-ai
+  - heidi-health
+  - freed
+  - nabla
+  - ambience-healthcare
+  - openevidence
+  - uptodate
   - glass-health
+  - aidoc-ai
   - viz-ai
-
+  - tempus-ai
+  - hippocratic-ai
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - perplexity
+  - semantic-scholar
 ---

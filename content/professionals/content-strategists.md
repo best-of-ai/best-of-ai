@@ -12,16 +12,22 @@ categories:
   - marketing
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - semrush
-  - notion-ai
+  - ahrefs
   - frase
   - surfer-seo
+  - clearscope
+  - marketmuse
+  - buzzsumo
+  - keyword-insights
+  - spyfu
+  - mangools
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
   - grammarly
   - perplexity
   - asana
-  - ahrefs
-  - clearscope
-
 ---

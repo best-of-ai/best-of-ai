@@ -12,16 +12,23 @@ categories:
   - sentiment-analysis
   - data
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - qualtrics
+  - medallia
+  - hotjar-ai
+  - fullstory
+  - microsoft-clarity
+  - amplitude-ai
+  - pendo
+  - gainsight
+  - planhat
   - zendesk
   - intercom
-  - hotjar-ai
+general_tools:
+  - chatgpt
+  - claude
   - salesforce
-  - brandwatch
   - zapier
   - hubspot-crm
-  - amplitude-ai
-
+  - notion-ai
 ---

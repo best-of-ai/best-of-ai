@@ -12,16 +12,27 @@ categories:
   - audio
   - voice-cloning
   - social-media-tools
-featured_tools:
-  - chatgpt
-  - descript
+specific_tools:
   - riverside
-  - elevenlabs
-  - transistor
+  - descript
+  - zencastr
+  - podcastle
   - cleanvoice
+  - auphonic
+  - buzzsprout
+  - transistor
+  - libsyn
   - adobe-podcast
   - krisp
-  - buffer
+  - elevenlabs
   - assemblyai
-
+  - spotify-podcasters
+  - opus-clip
+  - submagic
+  - cleanfeed-ai
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - buffer
 ---

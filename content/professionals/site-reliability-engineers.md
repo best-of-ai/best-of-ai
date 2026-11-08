@@ -12,14 +12,25 @@ categories:
   - workflow-automation
   - data
   - code-assistant
-featured_tools:
-  - chatgpt
+specific_tools:
   - pagerduty
   - datadog
+  - honeycomb
+  - grafana
+  - new-relic
+  - dynatrace
+  - splunk
+  - better-stack
+  - kentik
+  - terraform
+  - github-actions
+  - snyk-ai
+  - temporal
+  - cast-ai
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - snyk-ai
-  - aider
-  - mintlify
-
+  - claude-code
 ---

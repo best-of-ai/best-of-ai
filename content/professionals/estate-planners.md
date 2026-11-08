@@ -13,16 +13,21 @@ categories:
   - writing-assistants
   - productivity
   - contract-management
-featured_tools:
-  - chatgpt
-  - harvey
+specific_tools:
   - trust-and-will
   - wealth-com
+  - legalzoom
+  - rocket-lawyer
+  - clio
+  - filevine
   - docusign-ai
+  - holistiplan
+  - harvey
+  - legora
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-  - clickup
-  - asana
-
 ---

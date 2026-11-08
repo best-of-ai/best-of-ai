@@ -12,16 +12,24 @@ categories:
   - image-editing
   - productivity
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - overjet
   - pearl-dental
-  - nuance-dax
-  - suki-ai
-  - notebooklm
+  - diagnocat
+  - videahealth
+  - dental-monitoring
+  - cephx
+  - dentrix
+  - weave-communications
+  - align-technology
+  - softsmile
+  - ulab-systems
+  - heidi-health
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - hubspot-business
-  - clickup
+  - notebooklm
   - adobe-lightroom-ai
-
+  - hubspot-business
 ---

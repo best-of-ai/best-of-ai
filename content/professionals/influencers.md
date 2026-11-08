@@ -12,16 +12,26 @@ categories:
   - copywriting
   - marketing
   - meme-generator
-featured_tools:
-  - chatgpt
-  - canva
+specific_tools:
   - capcut
-  - midjourney
   - opus-clip
   - captions-ai
   - vidyo-ai
   - vidiq
   - klap
   - metricool
-
+  - later
+  - taplio
+  - typefully
+  - submagic
+  - tubebuddy
+  - thumbnailcreator
+  - veed-io
+  - kapwing
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - midjourney
+  - buffer
 ---

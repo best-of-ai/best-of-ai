@@ -12,14 +12,21 @@ categories:
   - text-to-speech
   - social-media-tools
   - travel
-featured_tools:
-  - chatgpt
+specific_tools:
+  - wanderlog
+  - mova-guide
+  - tripadvisor
+  - smartify
   - deepl
+  - google-translate
   - elevenlabs
   - amazon-polly
+  - alltrails
+  - google-maps
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - wanderlog
   - grammarly
   - buffer
-
 ---

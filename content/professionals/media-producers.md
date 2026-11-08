@@ -12,16 +12,31 @@ categories:
   - podcast
   - video-subtitling
   - video-generator
-featured_tools:
-  - chatgpt
+specific_tools:
   - descript
   - capcut
   - elevenlabs
   - runway
   - opus-clip
   - adobe-premiere-pro-ai
-  - luma-dream-machine
-  - sora
+  - final-cut-pro
+  - davinci-resolve
+  - riverside
+  - podcastle
+  - auphonic
   - adobe-podcast
-
+  - rev
+  - happyscribe
+  - subtitlebee
+  - submagic
+  - luma-dream-machine
+  - veo-3
+  - buzzsprout
+  - libsyn
+  - zencastr
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - ffmpeg
 ---

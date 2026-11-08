@@ -14,16 +14,37 @@ categories:
   - automation
   - document-ai
   - workflow-automation
-featured_tools:
-  - chatgpt
-  - botkeeper
+specific_tools:
+  - pilot-ai
   - vic-ai
   - trullion
   - avalara
+  - stampli-ai
+  - bill-com-ai
+  - tipalti-ai
+  - expensify-ai
   - ramp
+  - quickbooks
+  - xero
+  - netsuite
+  - taxjar
+  - vertex-inc
+  - rossum
+  - nanonets
+  - docsumo
+  - zeni-ai
+  - sap-concur
+  - brex
+  - dext
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
   - adobe-acrobat-ai
   - zapier
+  - power-bi
   - tableau
-  - pilot-ai
-
+  - formula-bot
+  - numerous
+  - notebooklm
 ---

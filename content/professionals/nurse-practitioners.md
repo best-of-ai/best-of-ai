@@ -11,16 +11,21 @@ categories:
   - document-ai
   - transcription
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - freed
   - nuance-dax
   - abridge-ai
   - suki-ai
+  - heidi-health
+  - nabla
+  - ambience-healthcare
+  - openevidence
+  - uptodate
+  - glass-health
+  - infermedica-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - semantic-scholar
-  - assemblyai
-  - perplexity-research
-  - scispace
-
 ---

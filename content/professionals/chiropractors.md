@@ -12,16 +12,19 @@ categories:
   - calendar-scheduling
   - writing-assistants
   - marketing
-featured_tools:
-  - chatgpt
+specific_tools:
+  - chirotouch
   - jane-app
   - suki-ai
+  - heidi-health
+  - freed
+  - deepscribe
+  - vagaro
+general_tools:
+  - chatgpt
+  - claude
   - calendly
-  - reclaim-ai
-  - grammarly
   - canva
-  - adobe-acrobat-ai
-  - copy-ai
-  - hubspot
-
+  - grammarly
+  - mailchimp
 ---

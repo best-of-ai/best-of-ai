@@ -11,16 +11,25 @@ categories:
   - data
   - research-tools
   - spreadsheets
-featured_tools:
-  - chatgpt
-  - wolfram-alpha-ai
-  - kensho
+specific_tools:
   - datarobot
   - h2o-ai
-  - alphasense
+  - dataiku
+  - sas-viya
+  - julius-ai
+  - obviously-ai
+  - shift-technology
+  - tractable
+  - zest-ai
+  - kensho
+  - wolfram-alpha-ai
+  - matlab
+general_tools:
+  - chatgpt
+  - claude
   - power-bi
-  - formula-bot
-  - semantic-scholar
-  - perplexity-research
-
+  - tableau
+  - microsoft-365-copilot
+  - notebooklm
+  - perplexity
 ---

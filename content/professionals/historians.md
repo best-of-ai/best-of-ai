@@ -12,16 +12,21 @@ categories:
   - transcription
   - document-ai
   - writing-assistants
-featured_tools:
-  - chatgpt
-  - elicit
-  - semantic-scholar
+specific_tools:
   - transkribus
-  - otter-ai
+  - familysearch
+  - ancestry
+  - documentcloud
+  - abbyy
+  - zotero-ai
+  - semantic-scholar
+  - elicit
+  - scopus
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - assemblyai
-  - consensus
-  - adobe-acrobat-ai
+  - otter-ai
   - grammarly
-
+  - consensus
 ---

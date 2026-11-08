@@ -12,16 +12,23 @@ categories:
   - diagramming
   - presentation
   - spreadsheets
-featured_tools:
-  - chatgpt
+specific_tools:
   - tableau
   - power-bi
   - looker
   - datawrapper
+  - flourish
   - infogram
   - piktochart
   - venngage
-  - amplitude-ai
   - canva-infographics
-
+  - domo-ai
+  - qlik
+  - observable
+general_tools:
+  - chatgpt
+  - claude
+  - figma
+  - canva
+  - adobe-illustrator
 ---

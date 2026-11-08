@@ -13,16 +13,24 @@ categories:
   - writing-assistants
   - productivity
   - mind-mapping
-featured_tools:
-  - chatgpt
-  - perplexity
+specific_tools:
   - gamma
-  - notion-ai
-  - tableau
-  - grammarly
-  - notebooklm
-  - asana
+  - pitch
+  - beautiful-ai
+  - slidebean
+  - cb-insights-ai
+  - crunchbase-ai
+  - alphasense
+  - similarweb
   - exa-ai
-  - clickup
-
+  - perplexity
+  - miro-ai
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
+  - notebooklm
+  - grammarly
+  - tableau
+  - microsoft-365-copilot
 ---

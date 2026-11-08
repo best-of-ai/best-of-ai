@@ -12,15 +12,17 @@ categories:
   - calendar-scheduling
   - productivity
   - travel
-featured_tools:
-  - chatgpt
-  - deepl
-  - google-translate
+specific_tools:
   - duolingo
   - babbel
+  - speak
+  - pimsleur
+  - deepl
+  - google-translate
+  - microsoft-translator
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
-  - clockwise-ai
-  - clickup
   - akiflow
-
 ---

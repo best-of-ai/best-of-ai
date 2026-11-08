@@ -11,12 +11,18 @@ categories:
   - copywriting
   - productivity
   - note-taking-apps
-featured_tools:
-  - chatgpt
+specific_tools:
+  - final-draft
+  - studiobinder
   - sudowrite
-  - notion-ai
+  - novelai
+  - lex-page
   - prowritingaid
-  - grammarly
+  - hemingway-editor
   - obsidian
-
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
+  - grammarly
 ---

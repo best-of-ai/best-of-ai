@@ -12,14 +12,16 @@ categories:
   - document-ai
   - research-tools
   - pets
-featured_tools:
+specific_tools:
+  - idexx
+  - ezyvet
+  - digitail
+  - wisdom-panel
+  - embark
+general_tools:
   - chatgpt
-  - nuance-dax
-  - suki-ai
+  - claude
   - notebooklm
-  - semantic-scholar
   - grammarly
   - adobe-acrobat-ai
-  - perplexity-research
-
 ---

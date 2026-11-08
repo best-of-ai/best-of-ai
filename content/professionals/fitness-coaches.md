@@ -11,16 +11,23 @@ categories:
   - wellness
   - nutrition
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - trainerize
+  - truecoach
   - fitbod
   - whoop
-  - myfitnesspal
-  - canva
+  - oura-ring
+  - strava
+  - trainingpeaks
   - cronometer
+  - myfitnesspal
   - freeletics
+  - noom
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - clickup
   - akiflow
-
+  - capcut
 ---

@@ -11,16 +11,31 @@ categories:
   - fintech
   - compliance
   - customer-support
-featured_tools:
-  - chatgpt
+specific_tools:
   - zest-ai
   - feedzai
   - kasisto
   - personetics
   - plaid
   - yodlee
+  - sardine
+  - unit21
+  - complyadvantage
+  - ncino
+  - finastra
+  - blend
   - alphasense
   - onetrust
+  - persona
+  - jumio
+  - sumsub
+  - mx-technologies
+  - upstart
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
   - zendesk
-
+  - power-bi
+  - tableau
 ---

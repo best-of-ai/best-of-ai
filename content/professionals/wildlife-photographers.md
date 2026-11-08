@@ -11,14 +11,22 @@ categories:
   - research-tools
   - computer-vision
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - merlin-bird-id
+  - birdnet
+  - inaturalist
+  - picturethis
   - adobe-lightroom-ai
   - luminar-neo
   - topaz-photo-ai
-  - aws-rekognition
-  - clarifai
+  - dxo-photolab
+  - on1-photo-ai
+  - capture-one
+  - windy
+  - accuweather
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - midjourney
-
 ---

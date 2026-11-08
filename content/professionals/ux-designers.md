@@ -12,15 +12,23 @@ categories:
   - app-builders
   - image-generation
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - figma
   - uizard
-  - galileo-ai
+  - framer
+  - maze-ai
   - hotjar-ai
+  - fullstory
+  - microsoft-clarity
+  - miro-ai
+  - whimsical-ai
+  - visily
+  - magic-patterns
+  - dovetail-ai
+general_tools:
+  - chatgpt
+  - claude
   - midjourney
   - canva
   - adobe-express
-  - bubble
-
 ---

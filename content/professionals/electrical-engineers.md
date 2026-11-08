@@ -12,16 +12,21 @@ categories:
   - documentation
   - diagramming
   - code-assistant
-featured_tools:
-  - chatgpt
+specific_tools:
+  - altium-designer
+  - kicad
   - jitx
+  - ltspice
+  - matlab
   - wolfram-alpha-ai
-  - drawio
-  - tableau
+  - ansys
+  - comsol
+  - edge-impulse
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
+  - drawio
   - notebooklm
   - mintlify
-  - aider
-  - amazon-q
-
 ---

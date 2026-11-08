@@ -11,14 +11,22 @@ categories:
   - data
   - finance
   - project-management
-featured_tools:
-  - chatgpt
+specific_tools:
   - testfit
   - spacemaker-ai
+  - archistar
   - arcgis
+  - costar
+  - reonomy
+  - zillow
+  - redfin
+  - compass
+  - procore
+  - alphasense
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - power-bi
-  - alphasense
   - gamma
-
 ---

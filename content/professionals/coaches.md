@@ -12,16 +12,23 @@ categories:
   - productivity
   - learning-tools
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - kajabi
+  - teachable
+  - thinkific
+  - mighty-networks
+  - circle-so
+  - coachhub
   - betterup
+  - honeybook
+  - acuity-scheduling
+  - calendly
+  - fathom
+general_tools:
+  - chatgpt
+  - claude
   - notion-ai
   - canva
   - grammarly
-  - copy-ai
   - zapier
-  - hubspot-business
-  - clickup
-
 ---

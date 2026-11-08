@@ -13,16 +13,29 @@ categories:
   - lead-generation
   - email-assistants
   - meeting-assistants
-featured_tools:
-  - chatgpt
-  - salesforce
-  - hubspot-crm
+specific_tools:
   - gong
+  - salesloft
   - outreach
   - apollo
+  - clari-ai
+  - people-ai
+  - salesforce
+  - hubspot-crm
+  - pipedrive
+  - attio
+  - close
+  - folk
+  - lavender
+  - avoma
+  - jiminny
+  - chorus-ai
+  - zoominfo
+general_tools:
+  - chatgpt
+  - claude
   - zoom-ai
   - fireflies-ai
   - otter-ai
-  - pipedrive
-
+  - gamma
 ---

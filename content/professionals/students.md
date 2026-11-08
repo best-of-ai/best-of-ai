@@ -15,14 +15,25 @@ categories:
   - note-taking-apps
   - mind-mapping
   - reading
-featured_tools:
-  - chatgpt
+specific_tools:
   - notebooklm
-  - grammarly
+  - quizlet-ai
+  - studysmarter
   - khanmigo
   - chegg-ai
+  - course-hero
+  - brainly
+  - photomath
+  - mathway-ai
+  - remnote
+  - anki
+  - obsidian
+  - coursera
   - quillbot
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
   - elicit
   - consensus
-
 ---

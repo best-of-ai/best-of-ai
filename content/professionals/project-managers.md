@@ -15,16 +15,25 @@ categories:
   - automation
   - productivity
   - mind-mapping
-featured_tools:
-  - chatgpt
-  - linear
-  - zoom-ai
+specific_tools:
   - asana
-  - fireflies-ai
-  - zapier
-  - reclaim-ai
+  - monday
+  - jira
   - clickup
+  - smartsheet-ai
+  - wrike
+  - trello
+  - basecamp
+  - taskade
+  - team-pulse-ai
+  - linear
+  - fireflies-ai
+  - reclaim-ai
+general_tools:
+  - chatgpt
+  - claude
+  - zoom-ai
+  - zapier
   - make
   - n8n
-
 ---

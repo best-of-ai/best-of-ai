@@ -11,14 +11,21 @@ categories:
   - video-enhancer
   - transcription
   - productivity
-featured_tools:
-  - chatgpt
-  - capcut
+specific_tools:
+  - davinci-resolve
   - adobe-premiere-pro-ai
-  - runway
+  - final-cut-pro
+  - frame-io
   - topaz-video-ai
+  - capcut
+  - descript
   - whisper
   - otter-ai
   - assemblyai
-
+  - runway
+general_tools:
+  - chatgpt
+  - claude
+  - elevenlabs
+  - ffmpeg
 ---

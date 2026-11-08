@@ -11,15 +11,23 @@ categories:
   - image-generation
   - graphic-design
   - market-research
-featured_tools:
-  - chatgpt
-  - midjourney
-  - ideogram
+specific_tools:
   - heuritech
   - fashwell
-  - stable-diffusion
+  - clo3d
+  - browzwear
+  - adobe-illustrator
+  - adobe-photoshop
+  - procreate
+  - midjourney
+  - ideogram
   - adobe-firefly
+  - stable-diffusion
+  - recraft
+general_tools:
+  - chatgpt
+  - claude
   - figma
   - flux
-
+  - canva
 ---

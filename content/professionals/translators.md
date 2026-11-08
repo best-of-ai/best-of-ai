@@ -12,13 +12,24 @@ categories:
   - productivity
   - document-ai
   - dubbing
-featured_tools:
-  - chatgpt
+specific_tools:
   - deepl
+  - trados
+  - memoq
+  - smartcat-ai
+  - phrase-ai
+  - smartling
+  - systran
+  - reverso
+  - lokalise-ai
+  - crowdin
+  - languagetool
   - google-translate
+  - microsoft-translator
   - dubverse
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - quillbot
-  - adobe-acrobat-ai
-
 ---

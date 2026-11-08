@@ -12,16 +12,28 @@ categories:
   - market-research
   - seo
   - social-media-tools
-featured_tools:
-  - chatgpt
-  - semrush
+specific_tools:
+  - google-analytics
   - tableau
   - power-bi
   - similarweb
   - brandwatch
   - julius-ai
   - ahrefs
+  - semrush
   - amplitude-ai
+  - mixpanel
   - hotjar-ai
-
+  - looker
+  - fullstory
+  - microsoft-clarity
+  - plausible
+  - heap
+  - posthog-ai
+  - metricool
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - formula-bot
 ---

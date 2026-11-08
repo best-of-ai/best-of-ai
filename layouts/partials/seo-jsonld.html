@@ -349,31 +349,28 @@
 
 {{/* ── CollectionPage + ItemList (category, profession, tag term pages) ── */}}
 {{ if and .IsPage (eq .Section "professionals") }}
-  {{ $profCats     := .Params.categories }}
-  {{ $allTools     := where .Site.RegularPages "Section" "tools" }}
-  {{ $profTools    := slice }}
-  {{ $profTotalCt  := 0 }}
-  {{ range $profCats }}
-    {{ $c     := . }}
-    {{ $cList := where $allTools "Params.category" $c }}
-    {{ $profTotalCt = add $profTotalCt (len $cList) }}
-    {{ range $cList | first 5 }}
-      {{ $profTools = $profTools | append . }}
+  {{ $profPicks := partialCached "prof-picks.html" . .RelPermalink }}
+  {{ $profTools := $profPicks.all }}
+  {{ if not $profTools }}
+    {{ $allTools := where .Site.RegularPages "Section" "tools" }}
+    {{ range .Params.categories }}
+      {{ $profTools = $profTools | append (first 5 (where $allTools "Params.category" .)) }}
     {{ end }}
   {{ end }}
   {{ if $profTools }}
   {{ $listItems := slice }}
-  {{ range $i, $t := $profTools | first 20 }}
+  {{ range $i, $t := $profTools | first 30 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
   {{ end }}
+  {{ $listCount := len $listItems }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
     "name" (printf "Best AI Tools for %s" $.Params.name)
     "description" (or $.Params.description (printf "The best AI tools for %s, handpicked and curated." $.Params.name))
     "url" $.Permalink
-    "numberOfItems" $profTotalCt
-    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI Tools for %s" $.Params.name) "numberOfItems" $profTotalCt "itemListElement" $listItems)
+    "about" (dict "@type" "Occupation" "name" $.Params.name)
+    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI Tools for %s" $.Params.name) "itemListOrder" "https://schema.org/ItemListOrderAscending" "numberOfItems" $listCount "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
   {{ end }}

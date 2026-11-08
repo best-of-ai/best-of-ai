@@ -12,14 +12,23 @@ categories:
   - code-assistant
   - data
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
+  - ros
+  - nvidia-isaac-sim
+  - intrinsic
   - covariant
+  - formant
+  - foxglove
+  - physical-intelligence
+  - skydio
+  - nvidia-cuda
+  - roboflow
+  - edge-impulse
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - azure-openai
-  - aider
+  - claude-code
   - drawio
-  - mintlify
-
 ---

@@ -12,16 +12,22 @@ categories:
   - learning-tools
   - transcription
   - productivity
-featured_tools:
-  - chatgpt
-  - khanmigo
+specific_tools:
   - duolingo
+  - babbel
+  - busuu
+  - speak
+  - memrise
+  - pimsleur
   - preply
+  - rosetta-stone
   - deepl
+  - quizlet-ai
+  - khanmigo
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
-  - speechify
-  - assemblyai
   - gamma
-  - copy-ai
-
+  - canva
 ---

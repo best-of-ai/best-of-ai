@@ -12,16 +12,22 @@ categories:
   - finance
   - academia
   - writing-assistants
-featured_tools:
-  - chatgpt
-  - wolfram-alpha-ai
-  - tableau
-  - semantic-scholar
-  - alphasense
+specific_tools:
+  - stata
+  - posit
+  - matlab
   - julius-ai
-  - scispace
-  - elicit-research
+  - wolfram-alpha-ai
+  - bloomberg-terminal
+  - factset
+  - kaggle
+  - overleaf
+general_tools:
+  - chatgpt
+  - claude
+  - semantic-scholar
   - consensus
+  - elicit
+  - scispace
   - grammarly
-
 ---

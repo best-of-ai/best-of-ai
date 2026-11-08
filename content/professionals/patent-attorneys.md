@@ -12,15 +12,20 @@ categories:
   - research-tools
   - document-ai
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - patsnap
   - derwent-innovation
   - iplytics
+  - questel
+  - lens-org
   - harvey
-  - casetext
+  - luminance-ai
+  - spellbook
+  - dimensions-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
   - adobe-acrobat-ai
-
 ---

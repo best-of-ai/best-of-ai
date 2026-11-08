@@ -11,16 +11,20 @@ categories:
   - food
   - productivity
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - nutrium
-  - myfitnesspal
   - cronometer
+  - myfitnesspal
   - noom
+  - lifesum
+  - esha-genesis
+  - whisk
+  - yuka
+  - openevidence
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
   - zapier
-  - clickup
-  - make
-
 ---

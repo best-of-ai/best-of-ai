@@ -11,14 +11,23 @@ categories:
   - crm
   - presentation
   - documentation
-featured_tools:
+specific_tools:
+  - storylane
+  - navattic
+  - supademo
+  - arcade-software
+  - gong
+  - chorus-ai
+  - clari-ai
+  - highspot
+  - seismic
+  - confluence-ai
+  - mermaid-chart
+general_tools:
   - chatgpt
+  - claude
   - salesforce
   - hubspot-crm
   - beautiful-ai
-  - chorus-ai
   - clay
-  - confluence-ai
-  - apollo
-
 ---

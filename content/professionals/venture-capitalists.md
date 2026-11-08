@@ -11,14 +11,18 @@ categories:
   - market-research
   - data
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - pitchbook-ai
   - cb-insights-ai
   - crunchbase-ai
-  - kensho
+  - carta
+  - evalyze
   - alphasense
+  - kensho
+general_tools:
+  - chatgpt
+  - claude
   - gamma
-  - perplexity-research
-
+  - perplexity
+  - notebooklm
 ---

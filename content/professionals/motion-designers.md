@@ -12,16 +12,28 @@ categories:
   - video-generator
   - image-generation
   - 3d
-featured_tools:
+specific_tools:
   - after-effects
-  - runway
-  - midjourney
-  - kaiber
-  - capcut
-  - lottie
+  - cavalry
   - rive
-  - adobe-premiere-pro-ai
+  - lottie
+  - cinema-4d
+  - houdini
+  - blender
+  - runway
+  - kaiber
   - luma-dream-machine
-  - sora
-
+  - kling-ai
+  - pika-labs
+  - higgsfield
+  - viggle
+  - adobe-premiere-pro-ai
+  - capcut
+  - topaz-video-ai
+general_tools:
+  - midjourney
+  - chatgpt
+  - claude
+  - elevenlabs
+  - figma
 ---

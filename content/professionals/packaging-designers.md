@@ -11,16 +11,20 @@ categories:
   - 3d
   - image-generation
   - cleantech
-featured_tools:
-  - midjourney
+specific_tools:
   - esko
-  - canva
+  - adobe-illustrator
+  - rhino
+  - keyshot
+  - solidworks
   - spline
-  - ideogram
-  - adobe-firefly
-  - figma
-  - adobe-express
-  - flux
   - alpha3d
-
+  - midjourney
+  - adobe-firefly
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - figma
+  - flux
 ---

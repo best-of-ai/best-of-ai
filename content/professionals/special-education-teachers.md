@@ -11,14 +11,19 @@ categories:
   - accessibility
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - goalbook
+  - texthelp-readwrite
+  - naturalreader
+  - speechify
   - khanmigo
+  - magicschool-ai
+  - brisk-teaching
+  - diffit
   - carnegie-learning
-  - brilliant
-  - chatpdf
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - chegg-ai
-  - coursera
-
+  - canva
 ---

@@ -14,16 +14,28 @@ categories:
   - market-research
   - email-assistants
   - lead-generation
-featured_tools:
-  - chatgpt
+specific_tools:
   - semrush
-  - hubspot
-  - adcreative-ai
-  - klaviyo-ai
-  - tableau
-  - jasper
   - ahrefs
+  - adcreative-ai
+  - madgicx
+  - klaviyo-ai
   - amplitude-ai
-  - clearscope
-
+  - mixpanel
+  - optimizely
+  - unbounce-ai
+  - instapage
+  - hotjar-ai
+  - apollo
+  - clay
+  - lemlist
+  - instantly
+  - braze
+general_tools:
+  - chatgpt
+  - claude
+  - hubspot
+  - canva
+  - zapier
+  - jasper
 ---

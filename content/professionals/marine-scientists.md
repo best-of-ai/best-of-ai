@@ -12,16 +12,25 @@ categories:
   - computer-vision
   - geospatial
   - writing-assistants
-featured_tools:
-  - chatgpt
-  - arcgis
+specific_tools:
   - wildbook
-  - tableau
+  - global-fishing-watch
+  - google-earth-engine
+  - arcgis
+  - qgis
+  - planet-labs
+  - spire-global
+  - kaggle
+  - roboflow
+  - inaturalist
+  - posit
+  - graphpad-prism
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
   - elicit
   - scispace
-  - aws-rekognition
-  - clarifai
-
+  - overleaf
 ---

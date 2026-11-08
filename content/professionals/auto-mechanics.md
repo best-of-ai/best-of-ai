@@ -11,16 +11,18 @@ categories:
   - document-ai
   - fleet-management
   - customer-support
-featured_tools:
-  - hubspot-business
-  - freshdesk
-  - zendesk
-  - chatbase
+specific_tools:
+  - shopmonkey
+  - tekmetric
   - fleetio
   - geotab
-  - samsara
+  - tractable
+  - aquant
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - chatpdf
-  - drift
-
+  - canva
+  - mailchimp
 ---

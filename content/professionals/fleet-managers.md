@@ -12,15 +12,19 @@ categories:
   - automation
   - productivity
   - supply-chain
-featured_tools:
-  - chatgpt
+specific_tools:
   - samsara
   - geotab
   - fleetio
-  - tableau
+  - motive
   - blue-yonder
+  - project44
+  - fourkites
+  - flexport
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
   - zapier
-  - clickup
   - make
-
 ---

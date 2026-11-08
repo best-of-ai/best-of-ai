@@ -12,16 +12,20 @@ categories:
   - document-ai
   - research-tools
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - nuance-dax
-  - otter-ai
+  - abridge-ai
+  - heidi-health
+  - freed
+  - jane-app
+  - openevidence
+  - naturalreader
   - deepgram
+general_tools:
+  - chatgpt
+  - claude
+  - otter-ai
   - grammarly
   - semantic-scholar
   - notebooklm
-  - adobe-acrobat-ai
-  - assemblyai
-  - abridge-ai
-
 ---

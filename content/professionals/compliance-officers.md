@@ -12,16 +12,24 @@ categories:
   - legal-assistants
   - contract-management
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - drata
   - vanta
-  - complyadvantage
+  - secureframe
   - onetrust
+  - complyadvantage
+  - navex
+  - osano
+  - bigid
+  - securiti
+  - credo-ai
+  - auditboard
+  - fiscalnote
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - harvey
-  - contractsafe
   - adobe-acrobat-ai
   - power-bi
-
+  - microsoft-365-copilot
 ---
