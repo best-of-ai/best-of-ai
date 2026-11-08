@@ -32,8 +32,13 @@
     </nav>
 
     <div class="pg-hero">
+      {{ if eq $activeSlug "all" }}
       <h1 class="pg-hero__title">Top AI <span>Skill</span> Repos for LLM Agents</h1>
       <p class="pg-hero__desc">GitHub repositories that package Agent Skills for Claude and other LLMs, ranked by GitHub stars.</p>
+      {{ else }}
+      <h1 class="pg-hero__title">Best <span>{{ $activeName }}</span> Agent Skills</h1>
+      <p class="pg-hero__desc">{{ with $page.Params.description }}{{ . }} {{ end }}{{ len $tableSkills }} GitHub {{ cond (eq (len $tableSkills) 1) "repo that packages" "repos that package" }} {{ $activeName | lower }} Agent Skills for Claude Code, Codex, Cursor and other agents{{ with index $tableSkills 0 }}, led by {{ .Params.name }} by {{ .Params.author }}{{ end }}. Ranked by GitHub stars.</p>
+      {{ end }}
       <div class="pg-hero__meta">
         <strong>{{ partial "count.html" (len $tableSkills) }}</strong> repos
         <span class="sep">·</span>

@@ -154,6 +154,20 @@
     <priority>0.7</priority>
   </url>
 {{- end }}
+  <url>
+    <loc>{{ "/skills/category/" | absURL }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- range where .Site.RegularPages "Section" "skill-categories" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{{- end }}
 {{- range where .Site.RegularPages "Section" "professionals" }}
   <url>
     <loc>{{ .Permalink }}</loc>

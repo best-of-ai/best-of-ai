@@ -117,20 +117,6 @@
     {{ end }}
   </nav>
 
-  <div class="sb-divider"></div>
-  <div class="hl-section-label">Skills by Category</div>
-  <nav class="hl-cat-nav">
-    {{ range hugo.Data.skill_categories }}
-      {{ $cat := . }}
-      {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
-      {{ if gt $count 0 }}
-      <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeSkillCat $cat.slug }} active{{ end }}">
-        {{ $cat.name }}<span class="cat-count">{{ partial "count.html" $count }}</span>
-      </a>
-      {{ end }}
-    {{ end }}
-  </nav>
-
   {{ $sidebarProfs := where .Site.RegularPages "Params.sidebar" true }}
   {{ $sidebarProfs = where $sidebarProfs "Section" "professionals" }}
   {{ $sidebarProfs = sort $sidebarProfs "Params.sort_order" }}
@@ -146,4 +132,18 @@
     <a href="{{ "/professionals/" | relURL }}" class="cat-link prof-all-link">All professions →</a>
   </nav>
   {{ end }}
+
+  <div class="sb-divider"></div>
+  <div class="hl-section-label">Skills by Category</div>
+  <nav class="hl-cat-nav">
+    {{ range hugo.Data.skill_categories }}
+      {{ $cat := . }}
+      {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
+      {{ if gt $count 0 }}
+      <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeSkillCat $cat.slug }} active{{ end }}">
+        {{ $cat.name }}<span class="cat-count">{{ partial "count.html" $count }}</span>
+      </a>
+      {{ end }}
+    {{ end }}
+  </nav>
 </aside>

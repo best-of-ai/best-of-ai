@@ -8,6 +8,7 @@
 {{ $isHardware := and .IsPage (eq .Section "hardware") }}
 {{ $isModel   := and .IsPage (eq .Section "models") }}
 {{ $isModelCategory := and .IsPage (eq .Section "model-categories") }}
+{{ $isSkillCategory := and .IsPage (eq .Section "skill-categories") }}
 {{ $isJournal := eq .Section "journal" }}
 {{ $isFree   := eq .RelPermalink "/free/" }}
 {{ $isSubmit := eq .RelPermalink "/submit/" }}
@@ -33,6 +34,12 @@
     {{ $mcExtra   := where $allModels "Params.extra_model_types" "intersect" (slice .Params.filter_value) }}
     {{ $modelCatCount = len (union $mcPrimary $mcExtra) }}
   {{ end }}
+{{ end }}
+
+{{/* ── Skill category count ── */}}
+{{ $skillCatCount := 0 }}
+{{ if $isSkillCategory }}
+  {{ $skillCatCount = len (where (where .Site.RegularPages "Section" "skills") "Params.skill_type" .Params.filter_value) }}
 {{ end }}
 
 {{/* ── Robots ── */}}
@@ -63,6 +70,8 @@
   {{ else }}
     {{ $pageTitle = printf "Best %s AI Models (%d) — Best of AI" .Params.name $modelCatCount }}
   {{ end }}
+{{ else if $isSkillCategory }}
+  {{ $pageTitle = printf "Best %s Agent Skills (%d) — Best of AI" .Params.name $skillCatCount }}
 {{ else if $isModel }}
   {{ $pageTitle = printf "%s — %s AI Model | Best of AI" $name (.Params.model_type | default "AI") }}
 {{ else if $isHardware }}
@@ -154,6 +163,8 @@
   {{ else }}
     {{ $desc = printf "Browse %d best %s AI models — %s" $modelCatCount .Params.name $mcDesc }}
   {{ end }}
+{{ else if $isSkillCategory }}
+  {{ $desc = printf "%s %d %s agent %s for Claude Code and Codex, ranked by GitHub stars." (.Params.description | default "") $skillCatCount .Params.name (cond (eq $skillCatCount 1) "skill" "skills") }}
 {{ else if $isModel }}
   {{ $modelPrice   := .Params.price | default "" }}
   {{ $modelType    := .Params.model_type | default "AI" }}
@@ -260,6 +271,8 @@
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }}, best AI {{ .Params.name }} tools, artificial intelligence {{ lower .Params.name }}">
 {{ else if $isModelCategory }}
 <meta name="keywords" content="{{ .Params.name }}, AI {{ .Params.name }} models, best {{ .Params.name }} AI models, {{ lower .Params.name }} LLMs">
+{{ else if $isSkillCategory }}
+<meta name="keywords" content="{{ .Params.name }} agent skills, best {{ lower .Params.name }} skills, Claude skills {{ lower .Params.name }}, Claude Code skills, Agent Skills GitHub, SKILL.md, {{ lower .Params.name }} AI agent">
 {{ else if $isModel }}
 {{ $mkws := slice $name (.Params.model_type | default "") "AI model" "LLM" }}
 {{ range .Params.tags }}{{ $mkws = $mkws | append . }}{{ end }}

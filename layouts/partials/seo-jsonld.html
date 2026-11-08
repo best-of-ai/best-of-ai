@@ -323,6 +323,9 @@
 {{ else if and .IsPage (eq .Section "model-categories") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "skill-categories") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Skills" "item" (printf "%s/skills/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "models") }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
@@ -416,6 +419,23 @@
     "url" .Permalink
     "numberOfItems" $mcCount
     "mainEntity" (dict "@type" "ItemList" "name" $mcName "numberOfItems" $mcCount "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and .IsPage (eq .Section "skill-categories") }}
+  {{ $scSkills := sort (where (where .Site.RegularPages "Section" "skills") "Params.skill_type" .Params.filter_value) "Params.stars" "desc" }}
+  {{ $scName   := printf "Best %s Agent Skills" .Params.name }}
+  {{ $listItems := slice }}
+  {{ range $i, $s := $scSkills | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $s.Params.name "url" $s.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" $scName
+    "description" (or .Params.description (printf "%s, ranked by GitHub stars." $scName))
+    "url" .Permalink
+    "numberOfItems" (len $scSkills)
+    "mainEntity" (dict "@type" "ItemList" "name" $scName "numberOfItems" (len $scSkills) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if eq .Kind "term" }}
