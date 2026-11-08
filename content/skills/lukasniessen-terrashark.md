@@ -2,13 +2,13 @@
 title: 'terrashark'
 name: 'terrashark'
 slug: 'lukasniessen-terrashark'
-subtitle: 'A Terraform skill meant to cut hallucinations by grounding code in HashiCorp best practices.'
-description: 'TerraShark targets a common failure of LLMs, which is inventing Terraform syntax and resources. It grounds output in the official HashiCorp best practices and steers agents toward modular, secure infrastructure code.'
+subtitle: 'Cuts Terraform hallucinations by grounding the agent in HashiCorp best practices.'
+description: 'TerraShark has good, bad and neutral examples so the model avoids common mistakes, and defaults to modular, security-first design. It was de-duplicated to spend fewer tokens than skills that dump entire docs.'
 author: 'LukasNiessen'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/LukasNiessen/terrashark'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repo, or use the marketplace, Codex, Antigravity or Gemini CLI routes in the README.'
 price: 'Free'
 open_source: true
 license: 'MIT'

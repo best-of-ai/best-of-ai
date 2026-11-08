@@ -2,13 +2,13 @@
 title: 'agent-skills'
 name: 'agent-skills'
 slug: 'apify-agent-skills'
-subtitle: 'Agent skills for Apify''s web scraping and automation platform.'
-description: 'Official skills from Apify for agents that use its platform of Actors. They help agents run scrapers and automations and work with the results.'
+subtitle: 'Web scraping and automation skills for the Apify platform.'
+description: 'Install apify-ultimate-scraper and the agent handles Actor selection, input shaping, run management and result formatting. A separate apify-actor-commands pack adds slash commands such as /create-actor. It works in Claude Code, Cursor, Windsurf, Codex and Gemini CLI.'
 author: 'apify'
 skill_type: 'Browser & Agent Automation'
 source_url: 'https://github.com/apify/agent-skills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add https://github.com/apify/agent-skills --skill apify-ultimate-scraper.'
 price: 'Free'
 open_source: true
 stars: 2495

@@ -2,13 +2,13 @@
 title: 'superdesign-skill'
 name: 'superdesign-skill'
 slug: 'superdesigndev-superdesign-skill'
-subtitle: 'A design skill that turns generic AI UI into tasteful frontend.'
-description: 'Superdesign is meant to stop agents from shipping bland interfaces and push them toward polished frontend work.'
+subtitle: 'Finds design direction and generates UI, presentations and graphics on an infinite canvas.'
+description: 'Example prompts are /superdesign help me redesign this settings page, set up a design system from my codebase, and create an 8-slide presentation. It works in Claude Code, Cursor, Codex and 70+ others.'
 author: 'superdesigndev'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/superdesigndev/superdesign-skill'
 compatible_with: ['Claude Code', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'In Claude Code run /plugin marketplace add superdesigndev/superdesign-skill. Elsewhere use npx skills add superdesigndev/superdesign-skill.'
 price: 'Free'
 open_source: true
 license: 'MIT'

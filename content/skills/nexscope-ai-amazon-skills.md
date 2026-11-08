@@ -2,13 +2,13 @@
 title: 'Amazon-Skills'
 name: 'Amazon-Skills'
 slug: 'nexscope-ai-amazon-skills'
-subtitle: 'Free skills for Amazon sellers covering keyword research and listing audits.'
-description: 'The skills help sellers with keyword research, competitor analysis, and listing audits. They work with any agent that supports the Skills format.'
+subtitle: 'Plain-text Amazon seller skills for keywords, listings, FBA fees and PPC.'
+description: 'The collection covers product research and keywords, competitor analysis, pricing and profitability, advertising, listing optimization and analytics. It''s markdown only, with no API keys.'
 author: 'nexscope-ai'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/nexscope-ai/Amazon-Skills'
 compatible_with: ['Claude Code', 'Cursor', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add nexscope-ai/Amazon-Skills -g, or one skill such as amazon-keyword-research.'
 price: 'Free'
 open_source: true
 license: 'MIT'

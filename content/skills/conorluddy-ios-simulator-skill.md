@@ -2,13 +2,13 @@
 title: 'ios-simulator-skill'
 name: 'ios-simulator-skill'
 slug: 'conorluddy-ios-simulator-skill'
-subtitle: 'Lets agents build, run, and interact with iOS apps in the Simulator.'
-description: 'This skill improves an agent''s ability to build, run, and drive apps in the iOS Simulator. It also proxies xcodebuild output to save tokens.'
+subtitle: '30 scripts for building, testing and driving iOS apps in the Xcode simulator.'
+description: 'The scripts handle Xcode builds and simulator navigation, written for both developers and agents. Build output is shown progressively so it doesn''t flood the context. An MCP version of the toolkit, XC-MCP, came first.'
 author: 'conorluddy'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/conorluddy/ios-simulator-skill'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'In Claude Code run /plugin marketplace add conorluddy/ios-simulator-skill. In Codex use codex plugin marketplace add conorluddy/ios-simulator-skill.'
 price: 'Free'
 open_source: true
 license: 'MIT'

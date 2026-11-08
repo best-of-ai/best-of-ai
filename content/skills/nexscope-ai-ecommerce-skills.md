@@ -2,13 +2,13 @@
 title: 'eCommerce-Skills'
 name: 'eCommerce-Skills'
 slug: 'nexscope-ai-ecommerce-skills'
-subtitle: 'E-commerce skills for product research, marketing, and supply chain work.'
-description: 'The skills cover product research, marketing automation, supply chain optimization, and business analytics for sellers on Amazon, Shopify, Etsy, TikTok Shop, and other platforms.'
+subtitle: 'Plain-text e-commerce skills for pricing, listings, ads, growth and competitor analysis.'
+description: 'The collection has dozens of skills grouped into competitor analysis, pricing and profitability, growth and expansion, marketing, listing optimization, advertising and monitoring. They are markdown only, with no binaries or API keys.'
 author: 'nexscope-ai'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/nexscope-ai/eCommerce-Skills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add nexscope-ai/eCommerce-Skills -g, or add one with --skill ecommerce-growth-strategy.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -7,8 +7,8 @@ description: 'Aidoc is a clinical AI company whose platform analyzes medical ima
 website: 'https://aidoc.com'
 company: 'aidoc'
 logo_url: ''
-category: 'healthcare'
-category_name: 'Healthcare'
+category: 'medical-imaging'
+category_name: 'Medical Imaging'
 price: 'Paid'
 featured: false
 rank: 7

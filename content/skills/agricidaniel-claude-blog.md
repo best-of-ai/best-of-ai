@@ -2,13 +2,13 @@
 title: 'claude-blog'
 name: 'claude-blog'
 slug: 'agricidaniel-claude-blog'
-subtitle: 'A blog writing skill that researches sources and scores each post.'
-description: 'It researches current sources and writes answer-first posts aimed at search and AI answers. An independent reviewer scores each draft out of 100, and posts ship only after five delivery gates.'
+subtitle: 'A blogging system of 32 skills and 5 agents that researches, writes and reviews posts.'
+description: 'Claude Blog has 30 /blog commands that cover strategy, topic clusters, audits, refreshes, images and audio, and a post passes five quality gates before it ships. It needs Claude Code and Python 3.11 or newer.'
 author: 'AgriciDaniel'
 skill_type: 'Communication & Writing'
 source_url: 'https://github.com/AgriciDaniel/claude-blog'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'In Claude Code run /plugin marketplace add AgriciDaniel/claude-blog and /plugin install claude-blog@agricidaniel-blog, then restart.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -2,13 +2,13 @@
 title: 'pg-aiguide'
 name: 'pg-aiguide'
 slug: 'timescale-pg-aiguide'
-subtitle: 'An MCP server and Claude plugin that helps agents write better PostgreSQL.'
-description: 'Timescale''s plugin pairs Postgres skills with searchable documentation through an MCP server. It helps AI coding tools generate more correct PostgreSQL code.'
+subtitle: 'Gives agents versioned PostgreSQL knowledge so they write better schemas.'
+description: 'AI tools often produce weak Postgres code. pg-aiguide supplies curated best practices as a skill, plus an MCP server for documentation search and a second skill for exploring an existing database.'
 author: 'timescale'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/timescale/pg-aiguide'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add timescale/pg-aiguide --skill postgres.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'

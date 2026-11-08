@@ -2,13 +2,13 @@
 title: 'golive-skill'
 name: 'golive-skill'
 slug: 'mikehasa-golive-skill'
-subtitle: 'Takes an agent-built product live with hosting, database, domain, email, and payments.'
-description: 'This skill and its zero-dependency Node CLI walk through detect, plan, approve, apply, and verify steps for going live. Everything is set up on the developer''s own accounts, with no GoLive account, backend, or telemetry.'
+subtitle: 'Takes an app from working locally to live with real users.'
+description: 'GoLive detects what the app needs, plans the exact changes, asks for your approval, applies them with your own logins and verifies what works. It records what it created, re-checks for drift and can remove it again. It is alpha software.'
 author: 'mikehasa'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/mikehasa/golive-skill'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add https://github.com/mikehasa/golive-skill --skill golive --global.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -2,13 +2,13 @@
 title: 'agent-rules-books'
 name: 'agent-rules-books'
 slug: 'ciembor-agent-rules-books'
-subtitle: 'AGENTS.md rules and skills distilled from classic programming books.'
-description: 'These rules draw on Clean Code, Refactoring, domain-driven design, Clean Architecture, and Designing Data-Intensive Applications. They load into coding agents as AGENTS.md rules or skills.'
+subtitle: 'Rule sets for coding agents distilled from classic software engineering books.'
+description: 'The rules draw on books about refactoring, architecture, domain-driven design, legacy code, reliability and data-intensive systems, including A Philosophy of Software Design, Clean Architecture, Clean Code and Designing Data-Intensive Applications. Each is released as AGENTS.md rules or a skill, and USAGE.md covers always-on and on-demand setups for Codex, Claude Code and Cursor.'
 author: 'ciembor'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/ciembor/agent-rules-books'
 compatible_with: ['Codex', 'Cursor', 'Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add ciembor/agent-rules-books --all, or --list to see the books.'
 price: 'Free'
 open_source: true
 license: 'MIT'

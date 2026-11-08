@@ -2,13 +2,13 @@
 title: 'startup-skill'
 name: 'startup-skill'
 slug: 'ferdinandobons-startup-skill'
-subtitle: 'Skills for startup validation, competitive intelligence, and planning.'
-description: 'The skills cover market research, competitive analysis, battle cards, and pricing analysis for early-stage companies.'
+subtitle: 'Consultant-style startup analysis: research, battle cards, positioning and a 30-day plan.'
+description: 'It covers market research, competitive battle cards, positioning, financial projections and a 30-day action plan. If the idea shouldn''t survive, it says so. Commands include /startup:startup-design, /startup:startup-competitors, /startup:startup-positioning and /startup:startup-pitch.'
 author: 'ferdinandobons'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/ferdinandobons/startup-skill'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run claude plugin marketplace add ferdinandobons/startup-skill, or upload a .skill file from Releases in Settings.'
 price: 'Free'
 open_source: true
 license: 'MIT'

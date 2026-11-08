@@ -2,13 +2,13 @@
 title: 'Waza'
 name: 'Waza'
 slug: 'tw93-waza'
-subtitle: 'Familiar engineering habits packaged as skills for coding assistants.'
-description: 'Waza turns routine engineering practices into skills that assistants such as Claude Code, Codex, and Cursor can run.'
+subtitle: 'Eight skills built from one engineer''s habits, each with reference docs and scripts.'
+description: 'Each engineering habit becomes an installed skill: a folder with reference docs, helper scripts and notes on gotchas from real failures. In Claude Code you type the slash command, such as /check or /think. In Codex you invoke the skill by name. One copy lands in the shared ~/.agents/skills directory, which Codex, Cursor, Gemini CLI, Copilot and others read.'
 author: 'tw93'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/tw93/Waza'
 compatible_with: ['Claude Code', 'Codex', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add tw93/Waza -a claude-code codex cursor -g -y.'
 price: 'Free'
 open_source: true
 license: 'MIT'

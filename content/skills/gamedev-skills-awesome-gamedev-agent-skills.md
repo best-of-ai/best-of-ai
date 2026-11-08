@@ -2,13 +2,13 @@
 title: 'awesome-gamedev-agent-skills'
 name: 'awesome-gamedev-agent-skills'
 slug: 'gamedev-skills-awesome-gamedev-agent-skills'
-subtitle: '77 game development skills for Godot, Unity, Unreal, three.js, and more.'
-description: 'A library of portable SKILL.md skills for game development across engines and frameworks including Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LOVE, and Roblox. A router loads the right skill for the engine and task.'
+subtitle: '77 game-development skills plus a router that picks the right ones for your project.'
+description: 'You describe what you''re building and the router loads the matching engine and skill families. Outputs are normalized deterministically and checked inside the game. The catalog is split into engines, 15 disciplines, 9 genres and 4 workflows, and each skill is checked against a validator and an engine release.'
 author: 'gamedev-skills'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/gamedev-skills/awesome-gamedev-agent-skills'
 compatible_with: ['Claude Code', 'Cursor', 'Codex', 'GitHub Copilot', 'Gemini CLI']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add gamedev-skills/awesome-gamedev-agent-skills. Add --list to preview, -g for every project, or -a to target one agent. Claude Code users can use claude plugin marketplace add gamedev-skills/awesome-gamedev-agent-skills.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'

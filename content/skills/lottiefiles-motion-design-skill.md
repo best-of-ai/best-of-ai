@@ -2,13 +2,13 @@
 title: 'motion-design-skill'
 name: 'motion-design-skill'
 slug: 'lottiefiles-motion-design-skill'
-subtitle: 'Motion design principles for AI agents, covering timing, easing, and choreography.'
-description: 'LottieFiles applies established animation principles, including Disney''s, to interface motion. The skill covers timing, easing, and choreography.'
+subtitle: 'Teaches agents motion principles such as timing, easing and choreography before they write animation code.'
+description: 'The skill is philosophy-first and works with any animation system: CSS, Framer Motion, GSAP, Lottie or springs. It pushes the agent to decide emotional intent first. Example prompts include choreographing a dashboard entrance so the hero chart lands first and the stats cards follow. It supports 40+ agents.'
 author: 'LottieFiles'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/LottieFiles/motion-design-skill'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add LottieFiles/motion-design-skill.'
 price: 'Free'
 open_source: true
 license: 'MIT'

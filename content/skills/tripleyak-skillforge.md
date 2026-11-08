@@ -2,13 +2,13 @@
 title: 'SkillForge'
 name: 'SkillForge'
 slug: 'tripleyak-skillforge'
-subtitle: 'A skill creator that tests its skills against a baseline.'
-description: 'SkillForge builds skills with baseline-tested generation and per-skill regression evals. It also includes an ecosystem doctor and a cross-runtime compile step.'
+subtitle: 'Routes skill requests and builds new skills through an evidence-driven pipeline.'
+description: 'SkillForge holds that skill quality is behavior, not documents: a skill is done when a fresh agent does demonstrably better with it. Triage sends a request to use, improve, create or compose, and a fresh subagent attempts the task first as a baseline. Version 6 followed an external audit.'
 author: 'tripleyak'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/tripleyak/SkillForge'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repo into ~/.claude/skills/skillforge and delete the extra files listed in the README.'
 price: 'Free'
 open_source: true
 license: 'MIT'

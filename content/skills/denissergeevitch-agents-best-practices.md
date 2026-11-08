@@ -2,13 +2,13 @@
 title: 'agents-best-practices'
 name: 'agents-best-practices'
 slug: 'denissergeevitch-agents-best-practices'
-subtitle: 'A provider-neutral skill for designing agentic harnesses.'
-description: 'This skill collects best practices for building agents and the harnesses around them. It is written to work across providers, including Codex and Claude Code.'
+subtitle: 'Runtime discipline for building agents, with use cases from blueprints to audits.'
+description: 'The guidance applies beyond coding agents, to research, support, finance, legal and workflow-automation agents. Use cases include generating an MVP agent blueprint, auditing an existing harness and designing tools, permissions and connectors.'
 author: 'DenisSergeevitch'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/DenisSergeevitch/agents-best-practices'
 compatible_with: ['Codex', 'Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add DenisSergeevitch/agents-best-practices -g.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -2,13 +2,13 @@
 title: 'kotlin-footguns'
 name: 'kotlin-footguns'
 slug: 'maxrave-dev-kotlin-footguns'
-subtitle: 'Skills mapping the footguns of Kotlin, Compose Multiplatform, and the desktop JVM.'
-description: 'The skills were mined from a production music app rather than from documentation. They record the pitfalls developers actually hit in Kotlin, Compose Multiplatform, and desktop JVM work.'
+subtitle: '228 documented traps for Kotlin, Compose Multiplatform and desktop JVM development.'
+description: 'The traps were mined from a production codebase, not written from documentation. They''re grouped into ten area skills plus a scanner that checks a change against them. Each trap is a standalone markdown file the agent opens when the work matches, across more than 28,000 lines.'
 author: 'maxrave-dev'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/maxrave-dev/kotlin-footguns'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Install as a Claude Code plugin, or copy the files into your agent''s skills folder.'
 price: 'Free'
 open_source: true
 license: 'GPL-3.0'

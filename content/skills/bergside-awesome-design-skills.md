@@ -2,13 +2,13 @@
 title: 'awesome-design-skills'
 name: 'awesome-design-skills'
 slug: 'bergside-awesome-design-skills'
-subtitle: 'A list of 67 DESIGN.md and SKILL.md design files for agentic tools.'
-description: 'A curated index of design skill files that work with tools such as Claude Design, Google Stitch, Codex, and Cursor.'
+subtitle: 'A registry of design skills you pull into a project with the TypeUI CLI.'
+description: 'Each design skill is a folder with a SKILL.md that tells an agent how to generate consistent, accessible UI, and a DESIGN.md for human readers. The CLI writes the file to your provider paths, such as .cursor/skills or .claude/skills. Glassmorphism is one of the styles.'
 author: 'bergside'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/bergside/awesome-design-skills'
 compatible_with: ['Claude Code', 'Codex', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx typeui.sh pull to browse, or npx typeui.sh pull glassmorphism for one style.'
 price: 'Free'
 open_source: true
 license: 'MIT'

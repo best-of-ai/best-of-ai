@@ -2,13 +2,13 @@
 title: 'agent-skills'
 name: 'agent-skills'
 slug: 'oxylabs-agent-skills'
-subtitle: 'Official agent skills for Oxylabs web data products.'
-description: 'Skills published by Oxylabs that let agents use its web scraping and browser products. They cover collecting public web data from within an agent session.'
+subtitle: 'Official skills for using Oxylabs scraping products from an agent.'
+description: 'Five skills give structured instructions for Oxylabs services. The README says to start with the most specific product that fits, validate one small request, then scale with explicit limits. Authentication uses environment variables in a .env file.'
 author: 'oxylabs'
 skill_type: 'Browser & Agent Automation'
 source_url: 'https://github.com/oxylabs/agent-skills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Add it as a Claude Code plugin marketplace, or run npx skills add https://github.com/oxylabs/agent-skills.git.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -2,13 +2,13 @@
 title: 'linkedin-skills'
 name: 'linkedin-skills'
 slug: 'sergebulaev-linkedin-skills'
-subtitle: '12 skills for writing LinkedIn posts, comments, and publishing plans.'
-description: 'The skills write posts that sound human, draft comments, analyze a feed, and plan a publishing cadence from the terminal.'
+subtitle: 'Twelve skills for founders who write and run their presence on LinkedIn.'
+description: 'The plugin activates when you ask about LinkedIn. You can optionally read LinkedIn data through Apify and set up auto-posting. It installs in Codex CLI, claude.ai, Claude Desktop, Claude Code, OpenClaw and Hermes Agent.'
 author: 'sergebulaev'
 skill_type: 'Communication & Writing'
 source_url: 'https://github.com/sergebulaev/linkedin-skills'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'In claude.ai open Customize, add a marketplace from a repository, and paste sergebulaev/linkedin-skills. Codex users run codex plugin marketplace add sergebulaev/linkedin-skills.'
 price: 'Free'
 open_source: true
 license: 'MIT'

@@ -2,13 +2,13 @@
 title: 'design-extract'
 name: 'design-extract'
 slug: 'manavarya09-design-extract'
-subtitle: 'Extracts a website''s full design system with a single command.'
-description: 'The tool pulls design tokens, components, and styles from any site and emits them for Tailwind, shadcn/ui, Figma variables, SwiftUI, Compose, Flutter, and WordPress. It also includes an MCP server, a CSS health audit, and WCAG remediation.'
+subtitle: 'Extracts a site''s design system, scores how generic it looks, and checks UI against it.'
+description: 'designlang pulls tokens, Tailwind config, shadcn and Figma files and a DESIGN.md from any URL. It also measures layout patterns, responsive behavior across four breakpoints, hover and focus states, WCAG contrast and drift against a live source. A slop command scores how generic a site looks out of 100, and verify-ui checks whether it''s on brand.'
 author: 'Manavarya09'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/Manavarya09/design-extract'
 compatible_with: ['Claude Code', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx designlang https://stripe.com to extract everything, or use the Claude Code plugin.'
 price: 'Free'
 open_source: true
 license: 'MIT'

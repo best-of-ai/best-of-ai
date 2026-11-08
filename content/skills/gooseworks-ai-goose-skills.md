@@ -2,13 +2,13 @@
 title: 'goose-skills'
 name: 'goose-skills'
 slug: 'gooseworks-ai-goose-skills'
-subtitle: 'Growth and go-to-market skills plus data APIs for agents.'
-description: 'A library of skills for running ads, social, content, lead generation, SEO, and data scraping.'
+subtitle: '14 marketing playbooks and the video-ad skills behind GooseWorks.'
+description: 'The playbooks research customers and competitors, analyze what works, create the next campaign and learn from the result. The older GTM library was deleted on 23 October 2026, and retired-skills.json maps each old name to its replacement.'
 author: 'gooseworks-ai'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/gooseworks-ai/goose-skills'
 compatible_with: ['Claude Code', 'Codex', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'Point your agent at https://gooseworks.ai/install.md. It asks before installing anything.'
 price: 'Free'
 open_source: true
 license: 'MIT'

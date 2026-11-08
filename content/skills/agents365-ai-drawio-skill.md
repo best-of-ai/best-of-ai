@@ -2,13 +2,13 @@
 title: 'drawio-skill'
 name: 'drawio-skill'
 slug: 'agents365-ai-drawio-skill'
-subtitle: 'Turns text, code, and infrastructure files into editable draw.io diagrams.'
-description: 'The skill generates draw.io architecture diagrams from natural language or from sources such as Terraform, Kubernetes, SQL, OpenAPI, Protobuf, and GraphQL. It supports incremental sync, CI architecture tests, and exports to HTML, PPTX, and Mermaid.'
+subtitle: 'Turns plain language or real system sources into editable draw.io architecture models.'
+description: 'The skill does more than generate diagrams. It syncs changes without throwing away your manual layout, projects several views from one model, enforces architecture contracts, queries dependencies and simulates how failures spread. It can also publish interactive walkthroughs with no dependencies. It works with Claude Code, Cursor, Copilot, OpenClaw, Codex, Hermes and other agents that read the Agent Skills format.'
 author: 'Agents365-ai'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/Agents365-ai/drawio-skill'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Install the draw.io desktop CLI first, then add the skill as described in the README.'
 price: 'Free'
 open_source: true
 license: 'MIT'

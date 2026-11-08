@@ -2,13 +2,13 @@
 title: 'pstack'
 name: 'pstack'
 slug: 'backnotprop-pstack'
-subtitle: 'Skills and principles for rigorous AI-assisted engineering.'
-description: 'pstack bundles skills and working principles meant to keep AI-assisted engineering disciplined. It supports Claude, Codex, and Pi.'
+subtitle: 'A standalone mirror of Poteto''s pstack skills, installable in any agent.'
+description: 'pstack is a folder of plain Agent Skills, so you don''t need Cursor. The skills include unslop, bro, how, tdd, typescript-best-practices, arena and swarm, and none of them calls another, so each works alone. The mirror is kept in sync with the original and sponsored by Plannotator.'
 author: 'backnotprop'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/backnotprop/pstack'
 compatible_with: ['Claude Code', 'Codex', 'Cursor']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add backnotprop/pstack, then pick skills and agents from the list.'
 price: 'Free'
 open_source: true
 license: 'MIT'

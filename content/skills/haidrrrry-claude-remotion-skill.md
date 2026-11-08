@@ -2,13 +2,13 @@
 title: 'claude-remotion-skill'
 name: 'claude-remotion-skill'
 slug: 'haidrrrry-claude-remotion-skill'
-subtitle: 'Teaches Claude to create and edit motion graphics videos with Remotion.'
-description: 'This skill gives Claude the knowledge to build videos in Remotion, including B-roll, captions, and sound design, from a single prompt.'
+subtitle: 'Makes Claude produce motion graphics with proper easing, timing and color grading in Remotion.'
+description: 'Everything runs in code with Remotion (React and TypeScript), with no timeline software. The skill extracts and inspects frames to verify a render before delivery. It lists 10 rules, such as staggered timing, grain and captions.'
 author: 'haidrrrry'
 skill_type: 'Design & Creative'
 source_url: 'https://github.com/haidrrrry/claude-remotion-skill'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repo and copy remotion-motion-graphics into ~/.claude/skills/.'
 price: 'Free'
 open_source: true
 license: 'MIT'

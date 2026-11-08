@@ -12,15 +12,14 @@ categories:
   - 3d
   - document-ai
 featured_tools:
-  - chatgpt
+  - cephx
+  - diagnocat
+  - softsmile
+  - ulab-systems
+  - align-technology
+  - dental-monitoring
   - overjet
   - pearl-dental
-  - dental-monitoring
-  - nuance-dax
-  - adobe-acrobat-ai
-  - notebooklm
-  - canva
-  - alpha3d
-  - chatpdf
-
+  - videahealth
+  - chatgpt
 ---

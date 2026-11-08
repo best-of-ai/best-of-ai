@@ -2,13 +2,13 @@
 title: 'claude-ads'
 name: 'claude-ads'
 slug: 'agricidaniel-claude-ads'
-subtitle: 'A paid media skill that audits ads across 12 platforms.'
-description: 'Claude Ads covers Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, and X. It produces source-grounded audits and versioned JSON reports, and account changes sit behind capability gates.'
+subtitle: 'Audits ad account data across twelve platforms and tells you what to fix first.'
+description: 'Give Claude Ads your ad account data and it reports what is working, what is broken and what to fix first. It is built for agencies, consultants and in-house teams. It only reads and reports. It never changes your accounts, and the README warns against pasting API keys into chat.'
 author: 'AgriciDaniel'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/AgriciDaniel/claude-ads'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'In Claude Code run /plugin marketplace add agricidaniel/claude-ads, then /plugin install claude-ads@ai-marketing-hub-claude-ads, then /ads setup.'
 price: 'Free'
 open_source: true
 license: 'MIT'

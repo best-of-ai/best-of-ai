@@ -2,13 +2,13 @@
 title: 'academic-pptx-skill'
 name: 'academic-pptx-skill'
 slug: 'gabberflast-academic-pptx-skill'
-subtitle: 'A skill for conference talks, seminar slides, and thesis defenses.'
-description: 'It enforces action titles, structured arguments, exhibit discipline, and citation standards. It is designed to work alongside Anthropic''s built-in PPTX skill.'
+subtitle: 'Replaces design-forward slide defaults with communication-first academic presentations.'
+description: 'It targets conference talks, seminar slides, thesis defenses and grant briefings. Claude detects the academic context and loads it automatically. A PDF summarizing the advice is included.'
 author: 'Gabberflast'
 skill_type: 'Document Automation'
 source_url: 'https://github.com/Gabberflast/academic-pptx-skill'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Download the repo as a zip, upload it as a skill in Claude, and toggle it on.'
 price: 'Free'
 open_source: true
 license: 'MIT'

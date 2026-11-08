@@ -2,13 +2,13 @@
 title: 'Awesome-finance-skills'
 name: 'Awesome-finance-skills'
 slug: 'rkiding-awesome-finance-skills'
-subtitle: 'Free, open-source finance analysis skills that are easy to start with.'
-description: 'A collection of finance-focused Agent Skills for analysis tasks.'
+subtitle: 'Finance skills such as news retrieval, installable one at a time.'
+description: 'The skills cover financial news and analysis. The README is in English and Chinese. A related project offers a complete autonomous financial analysis framework.'
 author: 'RKiding'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/RKiding/Awesome-finance-skills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add RKiding/Awesome-finance-skills@alphaear-news for one skill, or copy skills/* into ~/.config/opencode/skills/.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'

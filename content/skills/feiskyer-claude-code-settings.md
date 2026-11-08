@@ -2,13 +2,13 @@
 title: 'claude-code-settings'
 name: 'claude-code-settings'
 slug: 'feiskyer-claude-code-settings'
-subtitle: 'Curated skills, sub-agents, and config templates for Claude Code.'
-description: 'A personal configuration repository that has grown into a shared set of Claude Code skills, sub-agents, and templates. It covers research, image generation, and GitHub automation, among other things.'
+subtitle: 'A ready-made Claude Code setup with research, image generation and GitHub automation.'
+description: 'The main plugin bundles skills like brainstorming, deep-research, github-fix-issue, github-review-pr, grill-me, handoff, translate, youtube-transcribe-skill and skill-creator. It also sets up switching between models. The README is in Chinese.'
 author: 'feiskyer'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/feiskyer/claude-code-settings'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run /plugin marketplace add feiskyer/claude-code-settings, or npx -y skills add --all feiskyer/claude-code-settings.'
 price: 'Free'
 open_source: true
 license: 'MIT'

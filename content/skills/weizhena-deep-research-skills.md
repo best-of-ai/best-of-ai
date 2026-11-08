@@ -2,13 +2,13 @@
 title: 'Deep-Research-skills'
 name: 'Deep-Research-skills'
 slug: 'weizhena-deep-research-skills'
-subtitle: 'A structured deep research skill with human-in-the-loop control.'
-description: 'This skill runs multi-step research in Claude Code, OpenCode, and Codex, and keeps a person in charge at key decision points.'
+subtitle: 'A human-in-the-loop research workflow with an outline phase and a deep investigation phase.'
+description: 'You generate an outline first, extend it if you''re not satisfied, then run the investigation and produce a report. It works in Claude Code, OpenCode and Codex, with English and Chinese variants.'
 author: 'Weizhena'
 skill_type: 'Workflow & Productivity'
 source_url: 'https://github.com/Weizhena/Deep-Research-skills'
 compatible_with: ['Claude Code', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repo and copy skills/research-en/* into ~/.claude/skills/. OpenCode and Codex need the agent files copied too.'
 price: 'Free'
 open_source: true
 license: 'MIT'

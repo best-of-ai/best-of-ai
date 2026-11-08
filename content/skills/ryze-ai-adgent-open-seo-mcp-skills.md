@@ -2,13 +2,13 @@
 title: 'open-seo-mcp-skills'
 name: 'open-seo-mcp-skills'
 slug: 'ryze-ai-adgent-open-seo-mcp-skills'
-subtitle: 'A free SEO MCP server plus SEO and GEO skills for Claude.'
-description: 'The skills cover keyword research, rank tracking, audits, backlinks, and AI visibility, using your own Search Console, GA4, and ads data.'
+subtitle: 'SEO and GEO skills that run on your own Search Console and Analytics data.'
+description: 'These skills cover keyword research, rank tracking, site audits, backlinks, competitor gaps and AI visibility. They work through the Ryze MCP connector with your Search Console, Analytics and ads data, and DataForSEO supplies what Google doesn''t. The skills are MIT, with no subscription for the tool and no markup on API calls.'
 author: 'Ryze-AI-Adgent'
 skill_type: 'Business & Finance'
 source_url: 'https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Run claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp, then claude plugin marketplace add Ryze-AI-Adgent/open-seo-mcp-skills and claude plugin install open-seo-mcp-skills@ryze.'
 price: 'Free'
 open_source: true
 license: 'MIT'

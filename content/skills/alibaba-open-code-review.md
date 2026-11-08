@@ -2,13 +2,13 @@
 title: 'open-code-review'
 name: 'open-code-review'
 slug: 'alibaba-open-code-review'
-subtitle: 'A hybrid code review tool that mixes deterministic pipelines with an LLM agent.'
-description: 'Alibaba''s code review tool combines fixed analysis pipelines with an LLM agent to produce line-level comments. It ships a multi-language ruleset covering issues such as null pointers, thread safety, XSS, and SQL injection, and works with OpenAI and Anthropic models.'
+subtitle: 'Alibaba''s code review CLI, which reads git diffs and posts line-level comments through an LLM agent.'
+description: 'Open Code Review began as Alibaba''s internal AI review assistant and was open sourced after use by tens of thousands of developers. It reads a git diff, sends the changed files to a model you configure, and returns structured comments tied to specific lines. The agent can read whole files and search the codebase. A fixed analysis pipeline handles the deterministic checks so the model isn''t left to find everything alone.'
 author: 'alibaba'
 skill_type: 'Code Review & Quality'
 source_url: 'https://github.com/alibaba/open-code-review'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Install the CLI with npm install -g @alibaba-group/open-code-review, then point it at a model endpoint.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'

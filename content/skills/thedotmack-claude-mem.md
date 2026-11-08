@@ -2,13 +2,13 @@
 title: 'claude-mem'
 name: 'claude-mem'
 slug: 'thedotmack-claude-mem'
-subtitle: 'Persistent memory that captures, compresses, and replays session context.'
-description: 'claude-mem records what your agent does during a session, compresses it with AI, and injects relevant context into later sessions. It works with Claude Code and a range of other agents.'
+subtitle: 'Runs a second agent beside yours that takes notes and feeds them into the next session.'
+description: 'Your agent starts every session from zero and re-reads the same files. claude-mem runs a second agent next to it that takes notes while it works. The next session opens with a short index of what matters and pulls in details only when needed. It works with Claude Code, Codex, Cursor, OpenCode and 11 more agents. Copilot CLI, Goose, Roo Code and Warp can search the memory, but their sessions aren''t recorded.'
 author: 'thedotmack'
 skill_type: 'Workflow & Productivity'
 source_url: 'https://github.com/thedotmack/claude-mem'
 compatible_with: ['Claude Code', 'Codex', 'Gemini CLI', 'GitHub Copilot']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx claude-mem install, or use /plugin marketplace add thedotmack/claude-mem followed by /plugin install claude-mem in Claude Code.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'

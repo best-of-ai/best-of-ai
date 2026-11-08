@@ -2,13 +2,13 @@
 title: 'skills'
 name: 'skills'
 slug: 'microsoft-skills'
-subtitle: 'Microsoft skills, MCP servers, and custom agents for grounding coding agents in its SDKs.'
-description: 'A Microsoft repository that bundles skills, MCP servers, custom agents, and Agents.md files for its SDKs, so coding agents have reliable context on libraries like the Azure and Foundry ones.'
+subtitle: 'Skills, agents and MCP configs for building with Azure SDKs and Microsoft AI Foundry.'
+description: 'Coding agents lack knowledge of your SDKs. This repo supplies it for Python, .NET, TypeScript, Java and Rust, plus language-agnostic Foundry skills, custom agents and AGENTS.md templates. A wizard installs the ones you pick into your agent''s folder, for example .github/skills for Copilot, and symlinks them if you use several agents.'
 author: 'microsoft'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/microsoft/skills'
 compatible_with: ['Claude Code', 'GitHub Copilot']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx skills add microsoft/skills.'
 price: 'Free'
 open_source: true
 license: 'MIT'

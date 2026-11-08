@@ -2,13 +2,13 @@
 title: 'ClaudeSkills'
 name: 'ClaudeSkills'
 slug: 'staruhub-claudeskills'
-subtitle: '13 portable skills for research, product decisions, decks, and audits.'
-description: 'A small curated set of Agent Skills that work across skills-compatible agents. Topics include deep research, product decisions, slide decks, publishing, and audits.'
+subtitle: '13 skill packages with steps, templates, scripts and acceptance checks.'
+description: 'A prompt works once, but a skill keeps the method around so it can be reused and improved. Packages include deck-studio, for example for turning a quarterly review into an 8-slide consulting deck.'
 author: 'staruhub'
 skill_type: 'Workflow & Productivity'
 source_url: 'https://github.com/staruhub/ClaudeSkills'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repo and run python3 scripts/install_skill.py deck-studio.'
 price: 'Free'
 open_source: true
 license: 'MIT'

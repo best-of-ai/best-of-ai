@@ -2,13 +2,13 @@
 title: 'karpathy-llm-wiki'
 name: 'karpathy-llm-wiki'
 slug: 'astro-han-karpathy-llm-wiki'
-subtitle: 'Builds a Karpathy-style LLM wiki from raw sources, with citations and linting.'
-description: 'This Agent Skills-compatible skill turns raw sources into a maintained knowledge base. It adds citations and a lint step to keep pages consistent.'
+subtitle: 'Packages Karpathy''s LLM Wiki idea as a single skill that ingests, answers and lints.'
+description: 'Your agent adds sources to raw/, compiles durable pages into wiki/, answers questions with citations, and lints the wiki for consistency. The point is that knowledge improves over time instead of being re-searched from raw documents on every question.'
 author: 'Astro-Han'
 skill_type: 'Workflow & Productivity'
 source_url: 'https://github.com/Astro-Han/karpathy-llm-wiki'
 compatible_with: ['Claude Code', 'Cursor', 'Codex']
-install: 'See the repository README for setup instructions.'
+install: 'Run npx add-skill Astro-Han/karpathy-llm-wiki.'
 price: 'Free'
 open_source: true
 license: 'MIT'

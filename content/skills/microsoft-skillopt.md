@@ -2,13 +2,13 @@
 title: 'SkillOpt'
 name: 'SkillOpt'
 slug: 'microsoft-skillopt'
-subtitle: 'A text-space optimizer that trains reusable skills for frozen LLM agents.'
-description: 'SkillOpt improves natural-language skills through trajectory-driven edits and validation-gated updates. The output is a deployable best_skill.md file.'
+subtitle: 'Treats a skill document like model weights and improves it with scored rollouts.'
+description: 'SkillOpt is Microsoft research code that optimizes a single skill document. A separate optimizer model reads scored rollouts and proposes bounded add, delete or replace edits. In the default path an edit is kept only when it strictly improves a held-out validation score, and a text learning-rate budget limits how much can change per step. It has a WebUI and lets you add new backends and benchmarks.'
 author: 'microsoft'
 skill_type: 'Development & Engineering'
 source_url: 'https://github.com/microsoft/SkillOpt'
 compatible_with: ['Claude Code']
-install: 'See the repository README for setup instructions.'
+install: 'Clone the repository and follow the README to configure a backend and benchmark.'
 price: 'Free'
 open_source: true
 license: 'MIT'
