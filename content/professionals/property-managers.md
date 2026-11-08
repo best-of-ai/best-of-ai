@@ -22,6 +22,12 @@ specific_tools:
   - boxbrownie
   - docusign-ai
   - tidio
+  - doorloop
+  - hemlane
+  - turbotenant
+  - hospitable
+  - hostaway
+  - pricelabs
 general_tools:
   - chatgpt
   - claude

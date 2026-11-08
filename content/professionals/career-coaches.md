@@ -26,6 +26,8 @@ specific_tools:
   - poised
   - enhancv
   - zety
+  - interview-warmup
+  - final-round-ai
 general_tools:
   - chatgpt
   - claude

@@ -37,6 +37,7 @@ specific_tools:
   - jammable
   - musicfy
   - riffusion
+  - songscription
 general_tools:
   - chatgpt
   - claude

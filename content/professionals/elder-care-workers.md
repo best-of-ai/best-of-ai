@@ -19,6 +19,7 @@ specific_tools:
   - hippocratic-ai
   - careforce-ai
   - alexa-ai
+  - elliq
 general_tools:
   - chatgpt
   - claude

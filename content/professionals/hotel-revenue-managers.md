@@ -20,6 +20,8 @@ specific_tools:
   - dynamic-yield
   - kayak
   - tripadvisor
+  - pricelabs
+  - airdna
 general_tools:
   - chatgpt
   - claude

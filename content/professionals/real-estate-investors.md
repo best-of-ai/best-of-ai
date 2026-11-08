@@ -23,6 +23,10 @@ specific_tools:
   - appfolio
   - buildium
   - zumper
+  - airdna
+  - turbotenant
+  - doorloop
+  - pricelabs
 general_tools:
   - chatgpt
   - claude

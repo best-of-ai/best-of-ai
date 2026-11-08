@@ -22,6 +22,7 @@ specific_tools:
   - yodlee
   - goai-app
   - marketalerts-ai
+  - hebbia
 general_tools:
   - chatgpt
   - claude

@@ -37,6 +37,7 @@ specific_tools:
   - final-draft
   - duotrope
   - goodreads
+  - novelcrafter
 general_tools:
   - chatgpt
   - claude

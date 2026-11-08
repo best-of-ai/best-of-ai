@@ -27,6 +27,7 @@ specific_tools:
   - keyword-insights
   - alli-ai
   - google-analytics
+  - peec-ai
 general_tools:
   - chatgpt
   - claude

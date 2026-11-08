@@ -24,6 +24,9 @@ specific_tools:
   - deepl
   - quizlet-ai
   - khanmigo
+  - talkpal
+  - elsa-speak
+  - praktika
 general_tools:
   - chatgpt
   - claude

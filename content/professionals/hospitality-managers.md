@@ -21,6 +21,10 @@ specific_tools:
   - deputy
   - kayak
   - tripadvisor
+  - nory
+  - winnow
+  - popmenu
+  - pricelabs
 general_tools:
   - chatgpt
   - claude

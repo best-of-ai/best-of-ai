@@ -29,6 +29,11 @@ specific_tools:
   - metricool
   - buffer
   - sprout-social
+  - optmyzr
+  - adalysis
+  - vidmob
+  - peec-ai
+  - omnisend
 general_tools:
   - chatgpt
   - claude

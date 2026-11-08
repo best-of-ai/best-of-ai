@@ -27,6 +27,7 @@ specific_tools:
   - rossum
   - hyperscience
   - docsumo
+  - datasnipper
 general_tools:
   - chatgpt
   - claude

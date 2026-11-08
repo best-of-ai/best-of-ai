@@ -32,6 +32,10 @@ specific_tools:
   - bloomreach
   - photoroom
   - pixelcut-ai
+  - helium-10
+  - jungle-scout
+  - omnisend
+  - flair-ai
 general_tools:
   - chatgpt
   - claude

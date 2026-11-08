@@ -30,6 +30,8 @@ specific_tools:
   - audacity
   - izotope-rx
   - riffusion
+  - songscription
+  - yousician
 general_tools:
   - chatgpt
   - claude

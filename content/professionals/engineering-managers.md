@@ -26,6 +26,7 @@ specific_tools:
   - linearb
   - swarmia
   - jellyfish
+  - cubic
 general_tools:
   - chatgpt
   - claude

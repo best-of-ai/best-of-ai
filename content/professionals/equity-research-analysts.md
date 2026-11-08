@@ -22,6 +22,8 @@ specific_tools:
   - pitchbook-ai
   - crunchbase-ai
   - goai-app
+  - hebbia
+  - seeking-alpha
 general_tools:
   - chatgpt
   - claude

@@ -21,6 +21,9 @@ specific_tools:
   - goai-app
   - morningstar-ai
   - factset
+  - trendspider
+  - prospero-ai
+  - seeking-alpha
 general_tools:
   - claude
   - chatgpt

@@ -23,6 +23,11 @@ specific_tools:
   - similarweb
   - sensor-tower
   - amplitude-ai
+  - optmyzr
+  - adalysis
+  - vidmob
+  - redtrack
+  - voluum
 general_tools:
   - chatgpt
   - claude

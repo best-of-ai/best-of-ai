@@ -21,6 +21,8 @@ specific_tools:
   - fooddocs
   - cronometer
   - toast
+  - winnow
+  - nory
 general_tools:
   - chatgpt
   - claude

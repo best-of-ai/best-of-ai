@@ -28,6 +28,7 @@ specific_tools:
   - bill-com-ai
   - zeni-ai
   - mosaic-tech
+  - datarails
 general_tools:
   - chatgpt
   - claude

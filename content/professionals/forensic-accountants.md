@@ -23,6 +23,7 @@ specific_tools:
   - chainalysis
   - feedzai
   - unit21
+  - datasnipper
 general_tools:
   - chatgpt
   - claude

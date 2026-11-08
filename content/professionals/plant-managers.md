@@ -21,6 +21,8 @@ specific_tools:
   - samsara
   - ibm-maximo
   - kinaxis
+  - fiix
+  - upkeep
 general_tools:
   - chatgpt
   - claude

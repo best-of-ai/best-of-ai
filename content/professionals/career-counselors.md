@@ -24,6 +24,7 @@ specific_tools:
   - glassdoor
   - ziprecruiter
   - reztune
+  - interview-warmup
 general_tools:
   - chatgpt
   - claude

@@ -26,6 +26,7 @@ specific_tools:
   - crunchbase-ai
   - gamma
   - beautiful-ai
+  - hebbia
 general_tools:
   - chatgpt
   - claude

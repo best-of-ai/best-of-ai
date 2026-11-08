@@ -31,6 +31,10 @@ specific_tools:
   - lemlist
   - instantly
   - braze
+  - redtrack
+  - voluum
+  - optmyzr
+  - peec-ai
 general_tools:
   - chatgpt
   - claude
