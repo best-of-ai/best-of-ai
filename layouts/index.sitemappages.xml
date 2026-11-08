@@ -177,11 +177,13 @@
   </url>
 {{- end }}
 {{- range .Site.Taxonomies.tags }}
+{{- if ge .Count (site.Params.tagMinPages | default 5) }}
   <url>
     <loc>{{ .Page.Permalink }}</loc>
     <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+{{- end }}
 {{- end }}
 </urlset>

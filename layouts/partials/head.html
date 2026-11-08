@@ -3,6 +3,8 @@
 
 {{ $is404    := hasPrefix (lower .Title) "404" }}
 {{ $isSaved  := eq .Params.layout "saved" }}
+{{ $isUtility := in (slice "edit" "report") .Params.layout }}
+{{ $isThinTag := and (eq .Kind "term") (lt (len .Pages) (site.Params.tagMinPages | default 5)) }}
 {{ $isTool    := and .IsPage (eq .Section "tools") }}
 {{ $isCompany := and .IsPage (eq .Section "companies") }}
 {{ $isHardware := and .IsPage (eq .Section "hardware") }}
@@ -45,6 +47,8 @@
 {{/* ── Robots ── */}}
 {{ if or $is404 $isSaved }}
 <meta name="robots" content="noindex, nofollow">
+{{ else if or $isUtility $isThinTag }}
+<meta name="robots" content="noindex, follow">
 {{ else }}
 <meta name="robots" content="index, follow">
 {{ end }}
