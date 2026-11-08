@@ -1,0 +1,3 @@
+---
+title: 'GraphPad Prism Alternatives'
+---

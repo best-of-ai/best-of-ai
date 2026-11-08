@@ -13,6 +13,9 @@ featured: false
 rank: 6
 alternatives:
   - 7shifts
+  - ukg
+  - workday
+  - factorial-ai
 date: '2026-11-05'
 tags: [hr, business, recruitment, employees, human_resources, onboarding, performance, payroll, talent]
 ---

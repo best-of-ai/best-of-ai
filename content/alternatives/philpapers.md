@@ -1,0 +1,3 @@
+---
+title: 'PhilPapers Alternatives'
+---
