@@ -18,7 +18,7 @@ Thanks for helping make this the best curated AI tools list. This guide explains
 
 ## Adding a tool via PR
 
-Each tool is a Markdown file in `content/tools/`. Create a new file named after the tool's slug:
+Each tool is a Markdown file in `content/tools/`. Write it in English only; we translate it into the other languages. Create a new file named after the tool's slug:
 
 ```
 content/tools/my-tool.md
@@ -98,7 +98,7 @@ cd best-of-ai
 hugo server
 # → open http://localhost:1313/
 
-# Regenerate README from content files
+# Regenerate README.md and README_ES.md from content files
 python3 scripts/generate-readme.py
 ```
 
@@ -112,7 +112,7 @@ python3 scripts/import-data.py
 
 ## How README auto-update works
 
-On every push to `main` that touches `content/tools/`, `data/categories.yaml`, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` back automatically.
+On every push to `main` that touches `content/tools/`, `content_es/tools/`, `data/categories.yaml`, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` and `README_<LANG>.md` files back automatically. Each README links to the others, and the Spanish one links to the `/es/` pages of the site. To add a language, see the `LANGS` and `STRINGS` blocks in `scripts/generate-readme.py`.
 
 ---
 
@@ -124,9 +124,11 @@ Be respectful. Submissions and reviews should be about the tools and the data, n
 
 ## Translations
 
+**You only need to add or change things in English.** Open your PR with the English files in `content/` (and English strings in `i18n/en.yaml`); the maintainers translate it into the other languages and keep those versions in sync. Please don't add or edit `content_es/` or other language files in a regular contribution, unless you are specifically fixing a translation.
+
 The site is available in English (`/`) and Spanish (`/es/`). English files live in `content/`; Spanish files live in `content_es/` with the same path and filename. If a Spanish file is missing, the Spanish page shows the English text and is hidden from search engines until someone translates it.
 
-To translate or fix a page:
+To translate or fix a page (optional, for translation contributors):
 
 1. Read the style guide: `scripts/i18n/glossary-es.md`.
 2. Copy `content/<section>/<name>.md` to `content_es/<section>/<name>.md`. Translate the text fields and the body. Leave slugs, URLs, tags, prices, ranks, dates and tool lists exactly as they are.

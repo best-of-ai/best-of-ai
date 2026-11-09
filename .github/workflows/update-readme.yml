@@ -6,8 +6,12 @@ on:
     paths:
       - 'content/tools/**'
       - 'content/professionals/**'
+      - 'content_es/tools/**'
+      - 'content_es/professionals/**'
       - 'data/categories.yaml'
+      - 'data/categories_es.yaml'
       - 'data/leaderboard.yaml'
+      - 'data/badges_es.yaml'
       - 'scripts/generate-readme.py'
   workflow_dispatch:
 
@@ -27,14 +31,14 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate README
+      - name: Generate READMEs
         run: python3 scripts/generate-readme.py
 
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md README_*.md
           if git diff --staged --quiet; then
             echo "README unchanged, nothing to commit."
           else
