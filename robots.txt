@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /saved/
+Disallow: /es/saved/
 
 Sitemap: https://bestofai.io/sitemap.xml

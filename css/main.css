@@ -5161,3 +5161,50 @@ a.co-chip--link:hover { border-color: var(--accent); color: var(--accent); backg
 .skills-search input { width: 100%; min-width: 0; padding: 0; border: 0; background: transparent; box-shadow: none; }
 .skills-search svg { flex: 0 0 auto; }
 .skills-toolbar { padding-bottom: 1rem; border-bottom: 1px solid var(--border); margin-bottom: 1.25rem; }
+
+/* ── Language switcher (partials/lang-switcher.html) ── */
+.lang-switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  height: 32px;
+  padding: 0 1.65rem 0 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--fg-muted);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color 0.15s, color 0.15s;
+}
+.lang-switch:hover,
+.lang-switch:focus-within { border-color: var(--accent); color: var(--fg); }
+.lang-switch__select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+.lang-switch__select option { background: var(--surface); color: var(--fg); }
+.lang-switch__icon,
+.lang-switch__chev { flex-shrink: 0; pointer-events: none; }
+.lang-switch__chev { position: absolute; right: 0.55rem; top: 50%; transform: translateY(-50%); }
+.lang-switch--footer {
+  height: 22px;
+  padding: 0 1.4rem 0 0.45rem;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 0.7rem;
+}
+.lang-switch--footer .lang-switch__chev { right: 0.45rem; }
+.lang-switch--drawer { width: 100%; height: 38px; margin-bottom: 0.6rem; font-size: 0.8rem; }
+.lang-switch--drawer .lang-switch__select { flex: 1; }
