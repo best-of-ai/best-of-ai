@@ -20,6 +20,7 @@ alternatives:
   - lovo
   - amazon-polly
   - resemble-ai
+  - speechify-api
 date: '2025-09-21'
 tags: [text_to_speech, audio, voice, narration, accessibility, tts, speech_synthesis, voiceover, reading, enterprise, customizable, voice_enabled]
 ---
