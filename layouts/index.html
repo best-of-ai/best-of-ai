@@ -50,7 +50,7 @@
       <h2 class="tool-section__title">
         <a href="{{ "/leaderboard/" | relLangURL }}" class="tool-section__title-link">{{ i18n "top_100_ai_tools" }}</a>
         <a href="{{ "/leaderboard/" | relLangURL }}" class="tool-section__more-link">
-          View all 100
+          {{ i18n "view_all_n_count" (dict "n" 100) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -60,7 +60,7 @@
           {{ $page  := index (where $tools "Params.slug" $entry.slug) 0 }}
           {{ if $page }}
           {{ $p := $page.Params }}
-          {{ $badgeDesc := or $entry.badge $p.subtitle ($p.description | truncate 80) }}
+          {{ $badgeDesc := or (and $entry.badge (partial "badge-label.html" $entry.badge)) $p.subtitle ($p.description | truncate 80) }}
           {{ partial "tool-card.html" (dict "page" $page "p" $p "desc" $badgeDesc) }}
           {{ end }}
         {{ end }}
@@ -74,7 +74,7 @@
       <h2 class="tool-section__title">
         <a href="{{ "/new/" | relLangURL }}" class="tool-section__title-link">{{ i18n "recently_added_tools" }}</a>
         <a href="{{ "/new/" | relLangURL }}" class="tool-section__more-link">
-          View all recently added
+          {{ i18n "view_all_recently_added" }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -94,7 +94,7 @@
       <h2 class="tool-section__title">
         <a href="{{ "/skills/" | relLangURL }}" class="tool-section__title-link">{{ i18n "trending_skills" }}</a>
         <a href="{{ "/skills/" | relLangURL }}" class="tool-section__more-link">
-          View all {{ partial "count.html" (len $allSkills) }}
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allSkills))) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -114,7 +114,7 @@
       <h2 class="tool-section__title">
         <a href="{{ "/models/" | relLangURL }}" class="tool-section__title-link">{{ i18n "new_ai_models" }}</a>
         <a href="{{ "/models/" | relLangURL }}" class="tool-section__more-link">
-          View all {{ partial "count.html" (len $allModels) }}
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allModels))) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -134,7 +134,7 @@
       <h2 class="tool-section__title">
         <a href="{{ "/hardware/" | relLangURL }}" class="tool-section__title-link">{{ i18n "popular_ai_hardware" }}</a>
         <a href="{{ "/hardware/" | relLangURL }}" class="tool-section__more-link">
-          View all {{ partial "count.html" (len $allHardware) }}
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allHardware))) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -168,7 +168,7 @@
           <span class="tool-section__count">{{ partial "count.html" $total }}</span>
           {{ if gt $total 3 }}
           <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__more-link">
-            View all {{ $total }}
+            {{ i18n "view_all_n_count" (dict "n" $total) }}
             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
           {{ end }}

@@ -45,7 +45,7 @@
         <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
       </div>
       <h2 class="lb-pod__name">{{ $p.name }}</h2>
-      {{ with .entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
+      {{ with .entry.badge }}<span class="lb-badge">{{ partial "badge-label.html" . }}</span>{{ end }}
       <p class="lb-pod__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</p>
       <div class="lb-pod__foot">
         <span class="lb-cat">{{ $p.category_name }}</span>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="lb-meta">
-          {{ with .entry.badge }}<span class="lb-badge">{{ . }}</span>{{ end }}
+          {{ with .entry.badge }}<span class="lb-badge">{{ partial "badge-label.html" . }}</span>{{ end }}
           <span class="lb-cat">{{ $p.category_name }}</span>
           {{ partial "price-icon.html" $p.price }}
           {{ partial "leaderboard-move.html" (dict "hasPrev" $hasPrev "new" .new "delta" .delta) }}

@@ -802,3 +802,5 @@ kw_models_list: "modelos de IA, LLMs, modelos fundacionales, mejores modelos de 
 kw_by_month: "por mes"
 kw_lb_archive: "archivo del ranking de herramientas de IA, historial de rankings de IA, mejores herramientas de IA {{ .period }}, herramientas de IA del mes, instantánea del ranking de IA"
 kw_lb: "mejores herramientas de IA, ranking de herramientas de IA, top de herramientas de IA, mejores herramientas de IA 2026, rankings de herramientas de IA, herramientas de IA mejor valoradas, mejores apps de IA, comparación de herramientas de IA"
+view_all_n_count: "Ver todo ({{ .n }})"
+view_all_recently_added: "Ver todo lo añadido recientemente"

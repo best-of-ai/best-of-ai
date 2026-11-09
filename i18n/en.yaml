@@ -802,3 +802,5 @@ kw_models_list: "AI models, LLMs, foundation models, best AI models, open-weight
 kw_by_month: "by month"
 kw_lb_archive: "ai tools leaderboard archive, ai tool rankings history, best ai tools {{ .period }}, top ai tools monthly, ai tools ranking snapshot"
 kw_lb: "best ai tools, ai tools leaderboard, top ai tools, best ai tools 2026, ai tool rankings, top rated ai tools, best ai apps, ai tools comparison"
+view_all_n_count: "View all {{ .n }}"
+view_all_recently_added: "View all recently added"

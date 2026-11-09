@@ -62,7 +62,7 @@
           <span class="tool-section__count">{{ partial "count.html" $total }}</span>
           {{ if gt $total 3 }}
           <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__more-link">
-            View all {{ $total }}
+            {{ i18n "view_all_n_count" (dict "n" $total) }}
             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
           {{ end }}
