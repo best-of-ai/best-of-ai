@@ -9,40 +9,40 @@
   <main class="hl-center" id="home-main">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Free Tools</span>
+      <span class="breadcrumb__cur">{{ i18n "free_tools" }}</span>
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Free <span>AI Tools</span></h1>
-      <p class="pg-hero__desc">Writing tools, image generators, coding helpers — you can try most of the good ones without paying. This list covers tools with a free tier or a free plan that actually does something useful.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_free_tools" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "writing_tools_image_generators_coding_helpers" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $freeTools) }}</strong> tools
+        <strong>{{ partial "count.html" (len $freeTools) }}</strong> {{ i18n "tools" }}
         <span class="sep">·</span>
-        <span>{{ len hugo.Data.categories }} categories</span>
+        <span>{{ i18n "n_categories" (dict "count" (len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang)) "n" (len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang))) }}</span>
         <span class="sep">·</span>
-        <span>free &amp; freemium</span>
+        <span>{{ i18n "free_freemium" }}</span>
       </div>
     </div>
 
     <div class="pg-toolbar">
       <div class="pg-search">
         <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="free-search" placeholder="Search tools..." autocomplete="off" aria-label="Search free tools">
+        <input type="search" id="free-search" placeholder="{{ i18n "search_tools" }}" autocomplete="off" aria-label="{{ i18n "search_free_tools" }}">
       </div>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Freemium">freemium</button>
+      <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+      <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+      <button class="pf" data-price="Freemium">{{ i18n "freemium" }}</button>
     </div>
 
     <div class="no-results" id="no-results" hidden>
-      <p>No tools found.</p>
+      <p>{{ i18n "no_tools_found" }}</p>
     </div>
 
     {{/* Build category list sorted by free tool count desc */}}
     {{ $catList := slice }}
-    {{ range hugo.Data.categories }}
+    {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
       {{ $slug := .slug }}
       {{ $catFree := where $freeTools "Params.category" $slug }}
       {{ if gt (len $catFree) 0 }}
@@ -58,10 +58,10 @@
       {{ $visible := first 3 $sorted }}
       <section class="tool-section" id="{{ $cat.slug }}" data-cat="{{ $cat.slug }}">
         <h2 class="tool-section__title">
-          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__title-link">{{ $cat.name }}</a>
+          <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__title-link">{{ $cat.name }}</a>
           <span class="tool-section__count">{{ partial "count.html" $total }}</span>
           {{ if gt $total 3 }}
-          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__more-link">
+          <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__more-link">
             View all {{ $total }}
             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
@@ -76,33 +76,33 @@
     {{ end }}
 
     <section class="free-faq" itemscope itemtype="https://schema.org/FAQPage">
-      <h2 class="free-faq__title">// common questions</h2>
+      <h2 class="free-faq__title">{{ i18n "common_questions" }}</h2>
 
       <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="free-faq__q" itemprop="name">What is the difference between free and freemium AI tools?</h3>
+        <h3 class="free-faq__q" itemprop="name">{{ i18n "what_is_the_difference_between_free" }}</h3>
         <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">Free tools cost nothing. Freemium tools have a free tier with limited usage or features; paid plans unlock more.</span>
+          <span itemprop="text">{{ i18n "free_tools_cost_nothing_freemium_tools" }}</span>
         </p>
       </div>
 
       <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="free-faq__q" itemprop="name">Are these AI tools actually free to use?</h3>
+        <h3 class="free-faq__q" itemprop="name">{{ i18n "are_these_ai_tools_actually_free" }}</h3>
         <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">Yes. Every tool listed here is either fully free or has a free tier you can use without a credit card.</span>
+          <span itemprop="text">{{ i18n "yes_every_tool_listed_here_is" }}</span>
         </p>
       </div>
 
       <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="free-faq__q" itemprop="name">Which free AI tools are best for writing?</h3>
+        <h3 class="free-faq__q" itemprop="name">{{ i18n "which_free_ai_tools_are_best" }}</h3>
         <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">ChatGPT, Claude, and Gemini all have solid free tiers for writing. Browse the <a href="{{ "/categories/writing-assistants/" | relURL }}">Writing Assistants</a> category for the full list.</span>
+          <span itemprop="text">{{ i18n "free_faq_writing" (dict "url" ("/categories/writing-assistants/" | relLangURL)) | safeHTML }}</span>
         </p>
       </div>
 
       <div class="free-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="free-faq__q" itemprop="name">Are there free AI tools for image generation?</h3>
+        <h3 class="free-faq__q" itemprop="name">{{ i18n "are_there_free_ai_tools_for" }}</h3>
         <p class="free-faq__a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <span itemprop="text">Yes. Several tools including Adobe Firefly offer free image generation. See the <a href="{{ "/categories/image-generation/" | relURL }}">Image Generation</a> category.</span>
+          <span itemprop="text">{{ i18n "free_faq_image" (dict "url" ("/categories/image-generation/" | relLangURL)) | safeHTML }}</span>
         </p>
       </div>
     </section>

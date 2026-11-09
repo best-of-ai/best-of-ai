@@ -1,189 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{{ "/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>{{ "/about/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>{{ "/submit/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>{{ "/leaderboard/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ "/leaderboard/archive/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ partial "sitemap-url.html" (dict "path" "/" "lastmod" (now.Format "2006-01-02") "freq" "daily" "prio" "1.0") }}
+  {{ partial "sitemap-url.html" (dict "path" "/about/" "lastmod" (now.Format "2006-01-02") "freq" "monthly" "prio" "0.5") }}
+  {{ partial "sitemap-url.html" (dict "path" "/submit/" "lastmod" (now.Format "2006-01-02") "freq" "monthly" "prio" "0.6") }}
+  {{ partial "sitemap-url.html" (dict "path" "/leaderboard/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
+  {{ partial "sitemap-url.html" (dict "path" "/leaderboard/archive/" "lastmod" (now.Format "2006-01-02") "freq" "monthly" "prio" "0.5") }}
 {{- range where .Site.RegularPages "Section" "leaderboard" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (.Lastmod.Format "2006-01-02") "freq" "monthly" "prio" "0.5") }}
 {{- end }}
-  <url>
-    <loc>{{ "/new-tools/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>{{ "/professionals/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ "/categories/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ "/companies/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/new-tools/" "lastmod" (now.Format "2006-01-02") "freq" "daily" "prio" "0.7") }}
+  {{ partial "sitemap-url.html" (dict "path" "/professionals/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.8") }}
+  {{ partial "sitemap-url.html" (dict "path" "/categories/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.8") }}
+  {{ partial "sitemap-url.html" (dict "path" "/companies/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.8") }}
 {{- range where .Site.RegularPages "Section" "companies" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- end }}
 {{- range where .Site.RegularPages "Section" "company-pages" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.5") }}
 {{- end }}
-  <url>
-    <loc>{{ "/tags/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>{{ "/alternatives/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/tags/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.6") }}
+  {{ partial "sitemap-url.html" (dict "path" "/alternatives/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- range where .Site.RegularPages "Section" "alternatives" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "monthly" "prio" "0.7") }}
 {{- end }}
-  <url>
-    <loc>{{ "/journal/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/journal/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- range where .Site.RegularPages "Section" "journal" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (.Lastmod.Format "2006-01-02") "freq" "monthly" "prio" "0.6") }}
 {{- end }}
-  <url>
-    <loc>{{ "/help/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/help/" "lastmod" (now.Format "2006-01-02") "freq" "monthly" "prio" "0.6") }}
 {{- range where .Site.RegularPages "Section" "help" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ .Lastmod.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (.Lastmod.Format "2006-01-02") "freq" "monthly" "prio" "0.5") }}
 {{- end }}
 {{- range where .Site.RegularPages "Section" "categories" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.8") }}
 {{- end }}
-  <url>
-    <loc>{{ "/models/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{{ "/models/category/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/models/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.8") }}
+  {{ partial "sitemap-url.html" (dict "path" "/models/category/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- range where .Site.RegularPages "Section" "model-categories" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- end }}
-  <url>
-    <loc>{{ "/skills/category/" | absURL }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "path" "/skills/category/" "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- range where .Site.RegularPages "Section" "skill-categories" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- end }}
 {{- range where .Site.RegularPages "Section" "professionals" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.7") }}
 {{- end }}
 {{- range .Site.Taxonomies.tags }}
 {{- if ge .Count (site.Params.tagMinPages | default 5) }}
-  <url>
-    <loc>{{ .Page.Permalink }}</loc>
-    <lastmod>{{ now.Format "2006-01-02" }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" .Page "lastmod" (now.Format "2006-01-02") "freq" "weekly" "prio" "0.5") }}
 {{- end }}
 {{- end }}
 </urlset>

@@ -8,33 +8,33 @@
 {{ $faq := slice }}
 
 {{ with $p.description }}
-  {{ $faq = $faq | append (dict "q" (printf "What is %s?" $p.name) "a" .) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_what" (dict "name" $p.name)) "a" .) }}
 {{ end }}
 
 {{ if $p.founders }}
-  {{ $when := "" }}{{ with $p.founded }}{{ $when = printf " in %s" . }}{{ end }}
-  {{ $faq = $faq | append (dict "q" (printf "Who founded %s?" $p.name) "a" (printf "%s was founded%s by %s." $p.name $when (delimit $p.founders ", " " and "))) }}
+  {{ $when := "" }}{{ with $p.founded }}{{ $when = i18n "fq_co_in_year" (dict "v" .) }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_who" (dict "name" $p.name)) "a" (i18n "fq_co_who_a" (dict "name" $p.name "when" $when "founders" (delimit $p.founders ", " (i18n "seo_co_and"))))) }}
 {{ else if $p.founded }}
-  {{ $faq = $faq | append (dict "q" (printf "When was %s founded?" $p.name) "a" (printf "%s was founded in %s." $p.name $p.founded)) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_when" (dict "name" $p.name)) "a" (i18n "fq_co_when_a" (dict "name" $p.name "year" $p.founded))) }}
 {{ end }}
 
 {{ with $p.headquarters }}
-  {{ $faq = $faq | append (dict "q" (printf "Where is %s headquartered?" $p.name) "a" (printf "%s is headquartered in %s." $p.name .)) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_hq" (dict "name" $p.name)) "a" (i18n "fq_co_hq_a" (dict "name" $p.name "place" .))) }}
 {{ end }}
 
 {{ if $tools }}
   {{ $names := slice }}{{ range first 5 $tools }}{{ $names = $names | append .Params.name }}{{ end }}
-  {{ $faq = $faq | append (dict "q" (printf "What AI tools does %s make?" $p.name) "a" (printf "Best of AI lists %d %s tool%s, including %s." (len $tools) $p.name (cond (eq (len $tools) 1) "" "s") (delimit $names ", " " and "))) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_tools" (dict "name" $p.name)) "a" (i18n "fq_co_tools_a" (dict "count" (len $tools) "n" (len $tools) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
 {{ end }}
 
 {{ if $models }}
   {{ $names := slice }}{{ range first 5 $models }}{{ $names = $names | append .Params.name }}{{ end }}
-  {{ $faq = $faq | append (dict "q" (printf "Which AI models has %s released?" $p.name) "a" (printf "%s has %d model%s in our directory, including %s." $p.name (len $models) (cond (eq (len $models) 1) "" "s") (delimit $names ", " " and "))) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_models" (dict "name" $p.name)) "a" (i18n "fq_co_models_a" (dict "count" (len $models) "n" (len $models) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
 {{ end }}
 
 {{ if $hw }}
   {{ $names := slice }}{{ range first 5 $hw }}{{ $names = $names | append .Params.name }}{{ end }}
-  {{ $faq = $faq | append (dict "q" (printf "What AI hardware does %s make?" $p.name) "a" (printf "%s makes %d AI chip%s we track, including %s." $p.name (len $hw) (cond (eq (len $hw) 1) "" "s") (delimit $names ", " " and "))) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_hw" (dict "name" $p.name)) "a" (i18n "fq_co_hw_a" (dict "count" (len $hw) "n" (len $hw) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
 {{ end }}
 
 {{ return $faq }}

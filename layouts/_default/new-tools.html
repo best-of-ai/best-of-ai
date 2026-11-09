@@ -9,18 +9,18 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Recently Added</span>
+      <span class="breadcrumb__cur">{{ i18n "recently_added" }}</span>
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Recently <span>Added</span> AI Tools</h1>
-      <p class="pg-hero__desc">The newest tools added to Best of AI, most recent first.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_recently_added" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "the_newest_tools_added_to_best" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $recentTools) }}</strong> tools
+        <strong>{{ partial "count.html" (len $recentTools) }}</strong> {{ i18n "tools" }}
         <span class="sep">·</span>
-        <span>newest first</span>
+        <span>{{ i18n "newest_first" }}</span>
       </div>
     </div>
 

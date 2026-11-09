@@ -4,8 +4,8 @@
   pages with the same key share one render.
 */}}
 {{- $fixed := "" -}}
-{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") .RelPermalink }}{{ $fixed = .RelPermalink }}{{ end -}}
+{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") (partial "page-path.html" .) }}{{ $fixed = partial "page-path.html" . }}{{ end -}}
 {{- $active := "" -}}
 {{- if eq .Section "tools" }}{{ $active = .Params.category }}
 {{- else if in (slice "categories" "professionals" "model-categories" "skill-categories") .Section }}{{ $active = .Params.slug }}{{ end -}}
-{{- return printf "%s|%t|%s|%s" .Section .IsHome $fixed ($active | string) -}}
+{{- return printf "%s|%s|%t|%s|%s" .Language.Lang .Section .IsHome $fixed ($active | string) -}}

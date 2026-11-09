@@ -19,22 +19,22 @@
   <span class="skill-row__main">
     <span class="skill-row__title">
       <span class="skill-row__name">{{ $p.name }}</span>
-      {{ with $p.author }}<span class="skill-row__author">by {{ . }}</span>{{ end }}
+      {{ with $p.author }}<span class="skill-row__author">{{ i18n "by_author" (dict "name" .) }}</span>{{ end }}
     </span>
     <span class="skill-row__desc">{{ $desc }}</span>
     <span class="skill-row__meta">
-      {{ with $p.skill_type }}<span class="skill-row__chip">{{ . }}</span>{{ end }}
+      {{ with $p.skill_type }}<span class="skill-row__chip">{{ partial "enum-label.html" . }}</span>{{ end }}
       {{ with $p.license }}<span class="skill-row__lic">{{ . }}</span>{{ end }}
     </span>
   </span>
   <span class="skill-row__stats">
     {{ if $stars }}
-    <span class="skill-row__stars" title="{{ lang.FormatNumberCustom 0 $stars ". ," }} stars">
+    <span class="skill-row__stars" title="{{ i18n "n_stars" (dict "n" (lang.FormatNumberCustom 0 $stars ". ,")) }}">
       <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
       {{ partial "fmt-stars.html" $stars }}
     </span>
     {{ end }}
-    {{ if $week }}<span class="skill-row__week">+{{ partial "fmt-stars.html" $week }} this week</span>{{ end }}
+    {{ if $week }}<span class="skill-row__week">{{ i18n "plus_n_this_week" (dict "n" (partial "fmt-stars.html" $week)) }}</span>{{ end }}
   </span>
   {{ partial "price-icon.html" $price }}
 </a>

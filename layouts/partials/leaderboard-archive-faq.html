@@ -6,15 +6,15 @@
 {{ $n := len $snaps }}
 {{ $faq := slice }}
 
-{{ $faq = $faq | append (dict "q" "What is the AI tools leaderboard archive?" "a" "It is a saved copy of the Best of AI leaderboard from the end of each month. Every snapshot is frozen, so the order you see is the order that was live at the time.") }}
+{{ $faq = $faq | append (dict "q" (i18n "fq_ar_what") "a" (i18n "fq_ar_what_a")) }}
 
 {{ if $n }}
   {{ $first := (index $snaps (sub $n 1)).Params.period }}
   {{ $last := (index $snaps 0).Params.period }}
-  {{ $faq = $faq | append (dict "q" "How far back does the archive go?" "a" (printf "The archive has %d monthly %s, from %s to %s. A new one is added each month when the leaderboard is updated." $n (cond (eq $n 1) "snapshot" "snapshots") $first $last)) }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_ar_far") "a" (i18n "fq_ar_far_a" (dict "count" $n "n" $n "first" $first "last" $last))) }}
 {{ end }}
 
-{{ $faq = $faq | append (dict "q" "How can I see how an AI tool's ranking changed over time?" "a" "Open any two snapshots and compare the tool's position. Each snapshot also marks tools that moved up, moved down, or were new compared with the month before.") }}
-{{ $faq = $faq | append (dict "q" "Where can I find the current AI tools ranking?" "a" "The current leaderboard shows the latest order, and it is the page to use if you are choosing a tool today. Archived snapshots are for looking back, not for current recommendations.") }}
+{{ $faq = $faq | append (dict "q" (i18n "fq_ar_change") "a" (i18n "fq_ar_change_a")) }}
+{{ $faq = $faq | append (dict "q" (i18n "fq_ar_current") "a" (i18n "fq_ar_current_a")) }}
 
 {{ return $faq }}

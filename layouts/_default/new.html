@@ -9,33 +9,33 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Recently Added</span>
+      <span class="breadcrumb__cur">{{ i18n "recently_added" }}</span>
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Recently Added <span>AI Tools</span></h1>
-      <p class="pg-hero__desc">New AI tools added to the directory as we find them. Recent releases and tools worth knowing about.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_recently_added" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "new_ai_tools_added_to_the" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ len $recent }}</strong> tools
+        <strong>{{ len $recent }}</strong> {{ i18n "tools" }}
         <span class="sep">·</span>
-        <span>sorted by date added</span>
+        <span>{{ i18n "sorted_by_date_added" }}</span>
       </div>
     </div>
 
     <div class="pg-toolbar">
       <div class="pg-search">
         <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="new-search" placeholder="Search tools..." autocomplete="off" aria-label="Search recently added tools">
+        <input type="search" id="new-search" placeholder="{{ i18n "search_tools" }}" autocomplete="off" aria-label="{{ i18n "search_recently_added_tools" }}">
       </div>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Freemium">freemium</button>
-      <button class="pf" data-price="Paid">paid</button>
+      <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+      <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+      <button class="pf" data-price="Freemium">{{ i18n "freemium" }}</button>
+      <button class="pf" data-price="Paid">{{ i18n "paid" }}</button>
     </div>
 
-    <p id="new-no-results" hidden style="padding:2rem 0;color:var(--fg-muted);text-align:center;font-size:0.9rem">No tools match your search.</p>
+    <p id="new-no-results" hidden style="padding:2rem 0;color:var(--fg-muted);text-align:center;font-size:0.9rem">{{ i18n "no_tools_match_your_search" }}</p>
 
     <section class="tool-section">
       <div class="tools-grid" id="new-grid">

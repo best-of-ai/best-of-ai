@@ -1,6 +1,6 @@
 {{ $price := . }}
 {{ if $price }}
-<span class="tool-card__price-icon price-{{ lower $price }}" title="{{ $price }}">
+<span class="tool-card__price-icon price-{{ lower $price }}" title="{{ partial "enum-label.html" $price }}">
   {{ if eq $price "Free" }}
   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
   {{ else if eq $price "Freemium" }}

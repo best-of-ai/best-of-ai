@@ -29,38 +29,38 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Hardware</span>
+      <span class="breadcrumb__cur">{{ i18n "hardware" }}</span>
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Top AI <span>Hardware</span> &amp; GPUs</h1>
-      <p class="pg-hero__desc">GPUs and AI accelerators, with full specs, from the companies building them.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_hardware" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "gpus_and_ai_accelerators_with_full" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $allHardware) }}</strong> parts
+        <strong>{{ partial "count.html" (len $allHardware) }}</strong> {{ i18n "parts" }}
         <span class="sep">·</span>
-        <strong>{{ partial "count.html" (len $manufacturers) }}</strong> manufacturers
+        <strong>{{ partial "count.html" (len $manufacturers) }}</strong> {{ i18n "manufacturers" }}
       </div>
     </div>
 
     <div class="company-search">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="hardware-search-input" placeholder="Search hardware by name or manufacturer…" autocomplete="off" spellcheck="false" aria-label="Search hardware">
+      <input type="text" id="hardware-search-input" placeholder="{{ i18n "search_hardware_by_name_or_manufacturer" }}" autocomplete="off" spellcheck="false" aria-label="{{ i18n "search_hardware" }}">
     </div>
 
     <div class="prof-cat-tabs" id="hardware-type-tabs">
-      <button class="pf active" data-type="all">all <span class="prof-cat-count">{{ partial "count.html" (len $allHardware) }}</span></button>
+      <button class="pf active" data-type="all">{{ i18n "all" }} <span class="prof-cat-count">{{ partial "count.html" (len $allHardware) }}</span></button>
       {{ range $types }}
         {{ $t := . }}
         {{ $count := len (where $allHardware "Params.hardware_type" $t) }}
-        <button class="pf" data-type="{{ $t }}">{{ $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></button>
+        <button class="pf" data-type="{{ $t }}">{{ partial "enum-label.html" $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></button>
       {{ end }}
     </div>
 
     <div class="price-bar" id="hardware-filter-bar">
-      <select class="hw-select" id="hardware-manufacturer-select" aria-label="Filter by manufacturer">
-        <option value="all">all manufacturers</option>
+      <select class="hw-select" id="hardware-manufacturer-select" aria-label="{{ i18n "filter_by_manufacturer" }}">
+        <option value="all">{{ i18n "all_manufacturers" }}</option>
         {{ range $manufacturers }}
           {{ $slug := . }}
           {{ $name := $slug }}
@@ -75,43 +75,43 @@
           <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="models-cols__panel" id="hardware-cols-panel" hidden>
-          <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> Hardware</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="manufacturer" checked> Manufacturer</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="type" checked> Type</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="vram" checked> VRAM</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="bandwidth" checked> Bandwidth</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="tdp" checked> TDP</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="released" checked> Released</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="rank"> Popularity</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="architecture"> Architecture</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="process"> Process Node</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="memory_type"> Memory Type</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="tflops"> FP32 TFLOPS</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="interface"> Interface</label>
-          <label class="models-cols__item"><input type="checkbox" data-col="price"> Price</label>
+          <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> {{ i18n "hardware" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="manufacturer" checked> {{ i18n "manufacturer" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="type" checked> {{ i18n "type_2" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="vram" checked> {{ i18n "vram" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="bandwidth" checked> {{ i18n "bandwidth" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="tdp" checked> {{ i18n "tdp" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="released" checked> {{ i18n "released" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="rank"> {{ i18n "popularity_2" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="architecture"> {{ i18n "architecture" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="process"> {{ i18n "process_node" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="memory_type"> {{ i18n "memory_type" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="tflops"> {{ i18n "fp32_tflops" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="interface"> {{ i18n "interface" }}</label>
+          <label class="models-cols__item"><input type="checkbox" data-col="price"> {{ i18n "price_2" }}</label>
         </div>
       </div>
-      <span class="price-bar__label">// sorted by popularity — click a column to resort</span>
+      <span class="price-bar__label">{{ i18n "sorted_by_popularity_click_a_column" }}</span>
     </div>
 
     <div class="models-table-wrap">
       <table class="models-table" id="hardware-table">
         <thead>
           <tr>
-            <th data-sort="name" data-type="string" data-col="name">Hardware</th>
-            <th data-sort="manufacturer" data-type="string" data-col="manufacturer">Manufacturer</th>
-            <th data-sort="type" data-type="string" data-col="type">Type</th>
-            <th data-sort="vram" data-type="number" data-col="vram">VRAM</th>
-            <th data-sort="bandwidth" data-type="number" data-col="bandwidth">Bandwidth</th>
-            <th data-sort="tdp" data-type="number" data-col="tdp">TDP</th>
-            <th data-sort="released" data-type="date" data-col="released">Released</th>
-            <th class="models-table__sorted models-table__sorted--desc" data-sort="rank" data-type="number" data-col="rank">Popularity</th>
-            <th data-sort="architecture" data-type="string" data-col="architecture" style="display:none">Architecture</th>
-            <th data-sort="process" data-type="string" data-col="process" style="display:none">Process Node</th>
-            <th data-sort="memory_type" data-type="string" data-col="memory_type" style="display:none">Memory Type</th>
-            <th data-sort="tflops" data-type="number" data-col="tflops" style="display:none">FP32 TFLOPS</th>
-            <th data-sort="interface" data-type="string" data-col="interface" style="display:none">Interface</th>
-            <th data-sort="price" data-type="number" data-col="price" style="display:none">Price</th>
+            <th data-sort="name" data-type="string" data-col="name">{{ i18n "hardware" }}</th>
+            <th data-sort="manufacturer" data-type="string" data-col="manufacturer">{{ i18n "manufacturer" }}</th>
+            <th data-sort="type" data-type="string" data-col="type">{{ i18n "type_2" }}</th>
+            <th data-sort="vram" data-type="number" data-col="vram">{{ i18n "vram" }}</th>
+            <th data-sort="bandwidth" data-type="number" data-col="bandwidth">{{ i18n "bandwidth" }}</th>
+            <th data-sort="tdp" data-type="number" data-col="tdp">{{ i18n "tdp" }}</th>
+            <th data-sort="released" data-type="date" data-col="released">{{ i18n "released" }}</th>
+            <th class="models-table__sorted models-table__sorted--desc" data-sort="rank" data-type="number" data-col="rank">{{ i18n "popularity_2" }}</th>
+            <th data-sort="architecture" data-type="string" data-col="architecture" style="display:none">{{ i18n "architecture" }}</th>
+            <th data-sort="process" data-type="string" data-col="process" style="display:none">{{ i18n "process_node" }}</th>
+            <th data-sort="memory_type" data-type="string" data-col="memory_type" style="display:none">{{ i18n "memory_type" }}</th>
+            <th data-sort="tflops" data-type="number" data-col="tflops" style="display:none">{{ i18n "fp32_tflops" }}</th>
+            <th data-sort="interface" data-type="string" data-col="interface" style="display:none">{{ i18n "interface" }}</th>
+            <th data-sort="price" data-type="number" data-col="price" style="display:none">{{ i18n "price_2" }}</th>
           </tr>
         </thead>
         <tbody id="hardware-table-body">
@@ -153,11 +153,11 @@
               <a href="{{ .RelPermalink }}" class="models-table__name-link">{{ $p.name }}</a>
             </td>
             <td data-col="manufacturer">{{ $manufacturer }}</td>
-            <td data-col="type">{{ if $p.hardware_type }}<span class="models-table__badge">{{ $p.hardware_type }}</span>{{ end }}</td>
+            <td data-col="type">{{ if $p.hardware_type }}<span class="models-table__badge">{{ partial "enum-label.html" $p.hardware_type }}</span>{{ end }}</td>
             <td data-col="vram">{{ if $p.vram_gb }}{{ $p.vram_gb }}GB{{ else }}—{{ end }}</td>
             <td data-col="bandwidth">{{ if $p.memory_bandwidth_gbps }}{{ $p.memory_bandwidth_gbps }} GB/s{{ else }}—{{ end }}</td>
             <td data-col="tdp">{{ if $p.tdp_watts }}{{ $p.tdp_watts }}W{{ else }}—{{ end }}</td>
-            <td data-col="released">{{ if $p.release_date }}{{ (time $p.release_date).Format "Jan 2006" }}{{ else }}—{{ end }}</td>
+            <td data-col="released">{{ if $p.release_date }}{{ time.Format "Jan 2006" $p.release_date }}{{ else }}—{{ end }}</td>
             <td data-col="rank" style="display:none">{{ $p.rank | default "—" }}</td>
             <td data-col="architecture" style="display:none">{{ $p.architecture | default "—" }}</td>
             <td data-col="process" style="display:none">{{ $p.process_node | default "—" }}</td>
@@ -171,7 +171,7 @@
       </table>
     </div>
 
-    <p class="company-empty" id="hardware-empty" style="display:none">No hardware matches your search.</p>
+    <p class="company-empty" id="hardware-empty" style="display:none">{{ i18n "no_hardware_matches_your_search" }}</p>
 
   </main>
 

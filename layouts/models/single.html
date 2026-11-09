@@ -22,10 +22,10 @@
 {{ $priceLabel := or $p.price "N/A" }}
 
 {{ $keyStats := slice }}
-{{ if $p.context_window_tokens }}{{ $keyStats = $keyStats | append (dict "val" (lang.FormatNumberCustom 0 $p.context_window_tokens ". ,") "label" "context tokens") }}{{ end }}
-{{ if $p.param_count }}{{ $keyStats = $keyStats | append (dict "val" $p.param_count "label" "parameters") }}{{ end }}
-{{ if $p.license }}{{ $keyStats = $keyStats | append (dict "val" $p.license "label" "license") }}{{ end }}
-{{ if $p.release_date }}{{ $keyStats = $keyStats | append (dict "val" ((time $p.release_date).Format "Jan 2006") "label" "released") }}{{ end }}
+{{ if $p.context_window_tokens }}{{ $keyStats = $keyStats | append (dict "val" (lang.FormatNumberCustom 0 $p.context_window_tokens ". ,") "label" (i18n "context_tokens")) }}{{ end }}
+{{ if $p.param_count }}{{ $keyStats = $keyStats | append (dict "val" $p.param_count "label" (i18n "parameters_2")) }}{{ end }}
+{{ if $p.license }}{{ $keyStats = $keyStats | append (dict "val" $p.license "label" (i18n "license_2")) }}{{ end }}
+{{ if $p.release_date }}{{ $keyStats = $keyStats | append (dict "val" (time.Format "Jan 2006" $p.release_date) "label" (i18n "released_2")) }}{{ end }}
 
 <div class="home-layout">
 
@@ -35,9 +35,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/models/" | relURL }}">Models</a>
+      <a href="{{ "/models/" | relLangURL }}">{{ i18n "models" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
@@ -56,14 +56,14 @@
           <h1 class="detail-name">{{ $p.name }}</h1>
           {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
           <div class="detail-badges">
-            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
-            {{ if $p.model_type }}<span class="badge badge-cat">{{ $p.model_type }}</span>{{ end }}
+            <span class="badge badge-gpu-price">{{ partial "enum-label.html" $priceLabel }}</span>
+            {{ if $p.model_type }}<span class="badge badge-cat">{{ partial "enum-label.html" $p.model_type }}</span>{{ end }}
           </div>
         </div>
 
         {{ if $p.product_url }}
         <a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
-          Visit Product Page →
+          {{ i18n "visit_product_page" }}
         </a>
         {{ end }}
       </div>
@@ -87,7 +87,7 @@
         {{ with .Content }}
           <div class="prose">{{ . }}</div>
         {{ else }}
-        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <h2 class="detail-body__title">{{ i18n "c_about_name" (dict "name" $p.name) }}</h2>
         <p class="detail-body__text">{{ $p.description }}</p>
         {{ end }}
       </div>
@@ -95,7 +95,7 @@
       <aside class="detail-sidebar">
         {{ if $companyPage }}
         <div class="sidebar-alternatives">
-          <div class="sidebar-alternatives__title">// from {{ $companyPage.Params.name }}</div>
+          <div class="sidebar-alternatives__title">{{ i18n "c_from_name" (dict "name" $companyPage.Params.name) }}</div>
           {{ if $companySiblings }}
           <div class="sidebar-alternatives__list">
             {{ range first 3 $companySiblings }}
@@ -114,52 +114,52 @@
           </div>
           {{ end }}
           <a href="{{ $companyPage.RelPermalink }}" class="sidebar-alternatives__all">
-            View all on {{ $companyPage.Params.name }} →
+            {{ i18n "view_all_on" (dict "name" $companyPage.Params.name) }}
           </a>
         </div>
         {{ end }}
 
         <div class="detail-meta-card">
-          <div class="detail-meta__title">// specs</div>
+          <div class="detail-meta__title">{{ i18n "specs" }}</div>
           <dl class="detail-meta-list">
             {{ if $companyPage }}
             <div class="detail-meta-row">
-              <dt>Company</dt>
+              <dt>{{ i18n "company" }}</dt>
               <dd><a href="{{ $companyPage.RelPermalink }}">{{ $companyPage.Params.name }}</a></dd>
             </div>
             {{ end }}
-            {{ with $p.model_type }}<div class="detail-meta-row"><dt>Type</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Release date</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.param_count }}<div class="detail-meta-row"><dt>Parameters</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ if $p.context_window_tokens }}<div class="detail-meta-row"><dt>Context window</dt><dd>{{ lang.FormatNumberCustom 0 $p.context_window_tokens ". ," }} tokens</dd></div>{{ end }}
-            {{ if $p.modality }}<div class="detail-meta-row"><dt>Modality</dt><dd>{{ delimit $p.modality ", " }}</dd></div>{{ end }}
-            {{ with $p.license }}<div class="detail-meta-row"><dt>License</dt><dd>{{ . }}</dd></div>{{ end }}
-            <div class="detail-meta-row"><dt>Open weight</dt><dd>{{ if $p.open_weight }}Yes{{ else }}No{{ end }}</dd></div>
-            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
-            {{ if $p.input_price_usd_per_m }}<div class="detail-meta-row"><dt>Input price</dt><dd>${{ $p.input_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
-            {{ if $p.output_price_usd_per_m }}<div class="detail-meta-row"><dt>Output price</dt><dd>${{ $p.output_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
-            <div class="detail-meta-row"><dt>API available</dt><dd>{{ if $p.api_available }}Yes{{ else }}No{{ end }}</dd></div>
-            {{ with $p.mmlu_score }}<div class="detail-meta-row"><dt>MMLU</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.humaneval_score }}<div class="detail-meta-row"><dt>HumanEval</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.lmarena_score }}<div class="detail-meta-row"><dt>LMArena Elo</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ if $p.access_methods }}<div class="detail-meta-row"><dt>Access</dt><dd>{{ delimit $p.access_methods ", " }}</dd></div>{{ end }}
-            {{ if $p.platforms }}<div class="detail-meta-row"><dt>Platforms</dt><dd>{{ delimit $p.platforms ", " }}</dd></div>{{ end }}
+            {{ with $p.model_type }}<div class="detail-meta-row"><dt>{{ i18n "type_2" }}</dt><dd>{{ partial "enum-label.html" . }}</dd></div>{{ end }}
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>{{ i18n "release_date" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.param_count }}<div class="detail-meta-row"><dt>{{ i18n "parameters" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.context_window_tokens }}<div class="detail-meta-row"><dt>{{ i18n "context_window" }}</dt><dd>{{ lang.FormatNumberCustom 0 $p.context_window_tokens ". ," }} tokens</dd></div>{{ end }}
+            {{ if $p.modality }}<div class="detail-meta-row"><dt>{{ i18n "modality" }}</dt><dd>{{ delimit $p.modality ", " }}</dd></div>{{ end }}
+            {{ with $p.license }}<div class="detail-meta-row"><dt>{{ i18n "license" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>{{ i18n "open_weight" }}</dt><dd>{{ if $p.open_weight }}{{ i18n "answer_yes" }}{{ else }}{{ i18n "answer_no" }}{{ end }}</dd></div>
+            <div class="detail-meta-row"><dt>{{ i18n "price_2" }}</dt><dd>{{ partial "enum-label.html" $priceLabel }}</dd></div>
+            {{ if $p.input_price_usd_per_m }}<div class="detail-meta-row"><dt>{{ i18n "input_price" }}</dt><dd>${{ $p.input_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
+            {{ if $p.output_price_usd_per_m }}<div class="detail-meta-row"><dt>{{ i18n "output_price" }}</dt><dd>${{ $p.output_price_usd_per_m }} / 1M tokens</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>{{ i18n "api_available" }}</dt><dd>{{ if $p.api_available }}{{ i18n "answer_yes" }}{{ else }}{{ i18n "answer_no" }}{{ end }}</dd></div>
+            {{ with $p.mmlu_score }}<div class="detail-meta-row"><dt>{{ i18n "mmlu" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.humaneval_score }}<div class="detail-meta-row"><dt>{{ i18n "humaneval" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.lmarena_score }}<div class="detail-meta-row"><dt>{{ i18n "lmarena_elo" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $p.access_methods }}<div class="detail-meta-row"><dt>{{ i18n "access" }}</dt><dd>{{ delimit $p.access_methods ", " }}</dd></div>{{ end }}
+            {{ if $p.platforms }}<div class="detail-meta-row"><dt>{{ i18n "platforms" }}</dt><dd>{{ delimit $p.platforms ", " }}</dd></div>{{ end }}
             {{ if $p.product_url }}
             <div class="detail-meta-row">
-              <dt>Product page</dt>
+              <dt>{{ i18n "product_page" }}</dt>
               <dd><a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">
-              <dt>Added</dt>
-              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+              <dt>{{ i18n "added" }}</dt>
+              <dd>{{ .Date | time.Format "Jan 2006" }}</dd>
             </div>
             {{ if $p.tags }}
             <div class="detail-meta-row">
-              <dt>Tags</dt>
+              <dt>{{ i18n "tags" }}</dt>
               <dd class="detail-meta-tags">
                 {{ range $p.tags }}
-                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                <a href="{{ printf "/tags/%s/" . | relLangURL }}" class="tag-chip">{{ . }}</a>
                 {{ end }}
               </dd>
             </div>
@@ -172,7 +172,7 @@
     <!-- Similar models -->
     {{ if $similar }}
     <section class="related-section">
-      <h2 class="related-title">// similar models{{ with $p.model_type }} in {{ . }}{{ end }}</h2>
+      <h2 class="related-title">{{ with $p.model_type }}{{ i18n "c_similar_models_in" (dict "type" (partial "enum-label.html" .)) }}{{ else }}{{ i18n "c_similar_models" }}{{ end }}</h2>
       <div class="tools-grid tools-grid--related">
         {{ range $similar }}
         {{ partial "model-card.html" (dict "page" . "p" .Params) }}

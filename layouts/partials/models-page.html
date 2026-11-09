@@ -38,39 +38,39 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
       {{ if eq $activeSlug "all" }}
-      <span class="breadcrumb__cur">Models</span>
+      <span class="breadcrumb__cur">{{ i18n "models" }}</span>
       {{ else }}
-      <a href="{{ "/models/" | relURL }}">Models</a>
+      <a href="{{ "/models/" | relLangURL }}">{{ i18n "models" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $activeName }}</span>
       {{ end }}
     </nav>
 
     <div class="pg-hero">
-      <h1 class="pg-hero__title">Top AI <span>Models</span> &amp; LLMs</h1>
-      <p class="pg-hero__desc">Foundation models and LLMs, with specs and benchmarks, from the labs building them.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_models" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "foundation_models_and_llms_with_specs" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $tableModels) }}</strong> models
+        <strong>{{ partial "count.html" (len $tableModels) }}</strong> {{ i18n "models_2" }}
         <span class="sep">·</span>
-        <strong>{{ partial "count.html" (len $companies) }}</strong> labs
+        <strong>{{ partial "count.html" (len $companies) }}</strong> {{ i18n "labs_2" }}
       </div>
     </div>
 
     <div class="prof-cat-tabs" id="models-type-tabs">
-      <a href="{{ "/models/" | relURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">all <span class="prof-cat-count">{{ partial "count.html" (len $allModels) }}</span></a>
-      <a href="{{ "/models/category/runs-at-home/" | relURL }}" class="pf{{ if eq $activeSlug "runs-at-home" }} active{{ end }}">runs at home <span class="prof-cat-count">{{ partial "count.html" (len $homeCapable) }}</span></a>
+      <a href="{{ "/models/" | relLangURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">{{ i18n "all" }} <span class="prof-cat-count">{{ partial "count.html" (len $allModels) }}</span></a>
+      <a href="{{ "/models/category/runs-at-home/" | relLangURL }}" class="pf{{ if eq $activeSlug "runs-at-home" }} active{{ end }}">{{ i18n "runs_at_home" }} <span class="prof-cat-count">{{ partial "count.html" (len $homeCapable) }}</span></a>
       {{ range $types }}
         {{ $t := . }}
         {{ $primary := where $allModels "Params.model_type" $t }}
         {{ $extra   := where $allModels "Params.extra_model_types" "intersect" (slice $t) }}
         {{ $count := len (union $primary $extra) }}
         {{ $slug := "" }}
-        {{ $match := where site.Data.model_categories "filter_value" $t }}
+        {{ $match := where (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang) "filter_value" $t }}
         {{ if $match }}{{ $slug = (index $match 0).slug }}{{ end }}
-        <a href="{{ printf "/models/category/%s/" $slug | relURL }}" class="pf{{ if eq $activeSlug $slug }} active{{ end }}">{{ $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
+        <a href="{{ printf "/models/category/%s/" $slug | relLangURL }}" class="pf{{ if eq $activeSlug $slug }} active{{ end }}">{{ partial "enum-label.html" $t }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
       {{ end }}
     </div>
 

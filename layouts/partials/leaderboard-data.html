@@ -31,7 +31,7 @@
 {{ $prevPeriod := "" }}
 {{ with $prevKey }}
   {{ range index $archive . }}{{ $prevRank = merge $prevRank (dict .slug .rank) }}{{ end }}
-  {{ $prevPeriod = (time.AsTime (printf "%s-01" (strings.TrimPrefix "leaderboard-" .))).Format "January 2006" }}
+  {{ $prevPeriod = time.Format "January 2006" (time.AsTime (printf "%s-01" (strings.TrimPrefix "leaderboard-" .))) }}
 {{ end }}
 {{ $hasPrev := ne $prevKey "" }}
 

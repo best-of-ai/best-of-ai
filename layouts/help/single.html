@@ -8,10 +8,10 @@
 
   <main class="hl-center" id="main-content">
 
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+    <nav class="breadcrumb" aria-label="{{ i18n "breadcrumb" }}">
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">/</span>
-      <a href="{{ "/help/" | relURL }}">Help Center</a>
+      <a href="{{ "/help/" | relLangURL }}">{{ i18n "help_center" }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">/</span>
       <span class="breadcrumb__cur" aria-current="page">{{ $p.title | default .Title }}</span>
     </nav>
@@ -19,7 +19,7 @@
     <article class="journal-post">
 
       <header class="journal-post__header">
-        <p class="journal-post__eyebrow"><a href="{{ "/help/" | relURL }}">Help Center</a></p>
+        <p class="journal-post__eyebrow"><a href="{{ "/help/" | relLangURL }}">{{ i18n "help_center" }}</a></p>
         <h1 class="journal-post__title">{{ $p.title | default .Title }}</h1>
         {{ with $p.subtitle }}<p class="journal-post__sub">{{ . }}</p>{{ end }}
       </header>
@@ -31,7 +31,7 @@
     </article>
 
     {{ if gt (len $siblings) 1 }}
-    <nav class="journal-list help-siblings" aria-label="Other help articles">
+    <nav class="journal-list help-siblings" aria-label="{{ i18n "other_help_articles" }}">
       {{ range $siblings }}
       {{ if ne .RelPermalink $.RelPermalink }}
       <a href="{{ .RelPermalink }}" class="journal-card">

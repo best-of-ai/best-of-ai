@@ -1,6 +1,6 @@
 {{ $tools    := where .Site.RegularPages "Section" "tools" }}
 {{ $profs    := where .Site.RegularPages "Section" "professionals" }}
-{{ $catCount := len hugo.Data.categories }}
+{{ $catCount := len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
 
 <footer class="site-footer">
   <div class="footer-inner container">
@@ -8,7 +8,7 @@
     <!-- ── Top: brand + stats + CTA ── -->
     <div class="footer-top">
       <div class="footer-brand-block">
-        <a href="{{ "/" | relURL }}" class="footer-logo">
+        <a href="{{ "/" | relLangURL }}" class="footer-logo">
           <img src="{{ "favicon/favicon.svg" | relURL }}" width="32" height="32" alt="Best of AI" aria-hidden="true">
           <span class="footer-logo__name">Best of <span class="footer-logo__accent">AI</span></span>
         </a>
@@ -17,65 +17,65 @@
         <div class="footer-stats">
           <div class="footer-stat">
             <span class="footer-stat__num">{{ partial "count.html" (len $tools) }}</span>
-            <span class="footer-stat__label">tools</span>
+            <span class="footer-stat__label">{{ i18n "tools" }}</span>
           </div>
           <span class="footer-stat__dot">·</span>
           <div class="footer-stat">
             <span class="footer-stat__num">{{ $catCount }}</span>
-            <span class="footer-stat__label">categories</span>
+            <span class="footer-stat__label">{{ i18n "categories" }}</span>
           </div>
           <span class="footer-stat__dot">·</span>
           <div class="footer-stat">
             <span class="footer-stat__num">{{ len $profs }}</span>
-            <span class="footer-stat__label">professions</span>
+            <span class="footer-stat__label">{{ i18n "professions" }}</span>
           </div>
         </div>
 
-        <a href="{{ "/submit/" | relURL }}" class="footer-cta">
+        <a href="{{ "/submit/" | relLangURL }}" class="footer-cta">
           <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-          Submit a Tool
+          {{ i18n "submit_a_tool" }}
         </a>
       </div>
 
       <!-- ── Link columns ── -->
-      <nav class="footer-nav" aria-label="Footer navigation">
+      <nav class="footer-nav" aria-label="{{ i18n "footer_navigation" }}">
 
         <div class="footer-col">
-          <div class="footer-col__title">Browse</div>
-          <a href="{{ "/" | relURL }}" class="footer-link">All tools</a>
-          <a href="{{ "/categories/" | relURL }}" class="footer-link">Categories</a>
-          <a href="{{ "/professionals/" | relURL }}" class="footer-link">AI by Profession</a>
-          <a href="{{ "/leaderboard/" | relURL }}" class="footer-link">Leaderboard</a>
-          <a href="{{ "/journal/" | relURL }}" class="footer-link">The AI Journal</a>
-          <a href="{{ "/tags/" | relURL }}" class="footer-link">Browse by Tag</a>
-          <a href="{{ "/saved/" | relURL }}" class="footer-link">Saved tools</a>
+          <div class="footer-col__title">{{ i18n "browse" }}</div>
+          <a href="{{ "/" | relLangURL }}" class="footer-link">{{ i18n "all_tools" }}</a>
+          <a href="{{ "/categories/" | relLangURL }}" class="footer-link">{{ i18n "categories_2" }}</a>
+          <a href="{{ "/professionals/" | relLangURL }}" class="footer-link">{{ i18n "ai_by_profession" }}</a>
+          <a href="{{ "/leaderboard/" | relLangURL }}" class="footer-link">{{ i18n "leaderboard_2" }}</a>
+          <a href="{{ "/journal/" | relLangURL }}" class="footer-link">{{ i18n "the_ai_journal" }}</a>
+          <a href="{{ "/tags/" | relLangURL }}" class="footer-link">{{ i18n "browse_by_tag" }}</a>
+          <a href="{{ "/saved/" | relLangURL }}" class="footer-link">{{ i18n "saved_tools_2" }}</a>
         </div>
 
         <div class="footer-col">
-          <div class="footer-col__title">Professions</div>
+          <div class="footer-col__title">{{ i18n "professions_2" }}</div>
           {{ range first 6 (sort $profs "Params.sort_order") }}
           <a href="{{ .RelPermalink }}" class="footer-link">{{ .Params.name }}</a>
           {{ end }}
-          <a href="{{ "/professionals/" | relURL }}" class="footer-link footer-link--more">All {{ len $profs }} professions →</a>
+          <a href="{{ "/professionals/" | relLangURL }}" class="footer-link footer-link--more">{{ i18n "all_n_professions" (dict "n" (len $profs)) }}</a>
         </div>
 
         <div class="footer-col">
-          <div class="footer-col__title">Project</div>
-          <a href="{{ "/about/" | relURL }}" class="footer-link">About</a>
-          <a href="{{ "/help/" | relURL }}" class="footer-link">Help Center</a>
-          <a href="{{ "/submit/" | relURL }}" class="footer-link">Submit a Tool</a>
+          <div class="footer-col__title">{{ i18n "project" }}</div>
+          <a href="{{ "/about/" | relLangURL }}" class="footer-link">{{ i18n "about" }}</a>
+          <a href="{{ "/help/" | relLangURL }}" class="footer-link">{{ i18n "help_center" }}</a>
+          <a href="{{ "/submit/" | relLangURL }}" class="footer-link">{{ i18n "submit_a_tool" }}</a>
           <a href="{{ partial "utm-url.html" .Site.Params.githubRepo }}" target="_blank" rel="noopener" class="footer-link">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-            Star on GitHub
+            {{ i18n "star_on_github" }}
           </a>
-          <a href="{{ partial "utm-url.html" (printf "%s/issues/new" .Site.Params.githubRepo) }}" target="_blank" rel="noopener" class="footer-link">Report an issue</a>
+          <a href="{{ partial "utm-url.html" (printf "%s/issues/new" .Site.Params.githubRepo) }}" target="_blank" rel="noopener" class="footer-link">{{ i18n "report_an_issue" }}</a>
         </div>
 
         <div class="footer-col">
-          <div class="footer-col__title">Resources</div>
-          <a href="{{ "/sitemap.xml" | relURL }}" class="footer-link">sitemap.xml</a>
-          <a href="{{ "/index.json" | relURL }}" class="footer-link">index.json</a>
-          <a href="{{ "/leaderboard/" | relURL }}" class="footer-link">Top rated tools</a>
+          <div class="footer-col__title">{{ i18n "resources" }}</div>
+          <a href="{{ "/sitemap.xml" | relLangURL }}" class="footer-link">sitemap.xml</a>
+          <a href="{{ "/index.json" | relLangURL }}" class="footer-link">index.json</a>
+          <a href="{{ "/leaderboard/" | relLangURL }}" class="footer-link">{{ i18n "top_rated_tools" }}</a>
         </div>
 
       </nav>
@@ -91,11 +91,13 @@
         Best of AI
       </span>
       <span class="footer-bottom__sep">·</span>
-      <span>Open source</span>
+      <span>{{ i18n "open_source_cap" }}</span>
       <span class="footer-bottom__sep">·</span>
-      <span>Built with Hugo</span>
+      <span>{{ i18n "built_with_hugo" }}</span>
       <span class="footer-bottom__sep">·</span>
-      <span>Hosted on GitHub Pages</span>
+      <span>{{ i18n "hosted_on_github_pages" }}</span>
+      <span class="footer-bottom__sep">·</span>
+      {{ partial "lang-switcher.html" (dict "page" . "where" "footer") }}
       <span class="footer-bottom__copy">© {{ now.Year }} Best of AI</span>
     </div>
   </div>

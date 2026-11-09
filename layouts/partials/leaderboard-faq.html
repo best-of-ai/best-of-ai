@@ -15,21 +15,21 @@
   {{ $n2 := (index $rows 1).page.Params.name }}
   {{ $n3 := (index $rows 2).page.Params.name }}
   {{ if .archive }}
-    {{ $faq = $faq | append (dict "q" (printf "What was the best AI tool in %s?" $period) "a" (printf "%s was ranked #1 in %s, followed by %s and %s. Best of AI ranks tools by real-world usefulness and impact." $n1 $period $n2 $n3)) }}
-    {{ $faq = $faq | append (dict "q" "Is this ranking still current?" "a" (printf "No. This page is a frozen snapshot of the %s leaderboard. The current leaderboard has the latest order." $period)) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_best_in" (dict "period" $period)) "a" (i18n "fq_lb_best_in_a" (dict "n1" $n1 "n2" $n2 "n3" $n3 "period" $period))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_current") "a" (i18n "fq_lb_current_a" (dict "period" $period))) }}
     {{ if and $d.hasPrev $d.climber }}
-      {{ $faq = $faq | append (dict "q" (printf "Which AI tool climbed the most in %s?" $period) "a" (printf "%s moved up %d places since %s, the biggest jump on the list." $d.climber $d.climberDelta $d.prevPeriod)) }}
+      {{ $faq = $faq | append (dict "q" (i18n "fq_lb_climb" (dict "period" $period)) "a" (i18n "fq_lb_climb_a" (dict "name" $d.climber "n" $d.climberDelta "prev" $d.prevPeriod))) }}
     {{ end }}
   {{ else }}
-    {{ $faq = $faq | append (dict "q" "What is the best AI tool right now?" "a" (printf "%s is ranked #1 on the %s leaderboard, followed by %s and %s. The ranking reflects real-world usefulness and impact, not benchmark scores alone." $n1 $period $n2 $n3)) }}
-    {{ $faq = $faq | append (dict "q" "How are AI tools ranked on this leaderboard?" "a" (printf "Tools are ranked by real-world usefulness and impact: how much they help people get work done, how widely they are relied on, and how much they shape what other tools do. The list covers %d tools across %d categories." (len $rows) $d.catCount)) }}
-    {{ $faq = $faq | append (dict "q" "How often is the leaderboard updated?" "a" "Once a month. Each update is saved as a frozen snapshot in the leaderboard archive, so you can see how the order changed over time.") }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_best_now") "a" (i18n "fq_lb_best_now_a" (dict "n1" $n1 "n2" $n2 "n3" $n3 "period" $period))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_how") "a" (i18n "fq_lb_how_a" (dict "n" (len $rows) "cats" $d.catCount))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_often") "a" (i18n "fq_lb_often_a")) }}
     {{ if and $d.hasPrev $d.climber }}
-      {{ $moved := printf "%s moved up %d places since %s, the biggest jump on the list." $d.climber $d.climberDelta $d.prevPeriod }}
-      {{ if gt $d.newCount 0 }}{{ $moved = printf "%s %d %s joined the list this month." $moved $d.newCount (cond (eq $d.newCount 1) "tool" "tools") }}{{ end }}
-      {{ $faq = $faq | append (dict "q" "Which AI tools moved up the most this month?" "a" $moved) }}
+      {{ $moved := i18n "fq_lb_moved_nonew" (dict "name" $d.climber "delta" $d.climberDelta "prev" $d.prevPeriod) }}
+      {{ if gt $d.newCount 0 }}{{ $moved = i18n "fq_lb_moved" (dict "count" $d.newCount "n" $d.newCount "name" $d.climber "delta" $d.climberDelta "prev" $d.prevPeriod) }}{{ end }}
+      {{ $faq = $faq | append (dict "q" (i18n "fq_lb_movers") "a" $moved) }}
     {{ end }}
-    {{ $faq = $faq | append (dict "q" "Can I suggest a change to the ranking?" "a" "Yes. Use the improve this list page to send a suggestion, or submit a tool that is missing from the directory.") }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_suggest") "a" (i18n "fq_lb_suggest_a")) }}
   {{ end }}
 {{ end }}
 

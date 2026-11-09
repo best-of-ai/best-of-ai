@@ -4,4 +4,4 @@
 */}}
 {{- $active := "" -}}
 {{- if in (slice "help" "professionals") .Section }}{{ $active = printf "%s:%s" .Section (.Params.slug | string) }}{{ end -}}
-{{- return $active -}}
+{{- return printf "%s|%s" .Language.Lang $active -}}

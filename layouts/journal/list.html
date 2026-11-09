@@ -8,14 +8,14 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">The AI Journal</span>
+      <span class="breadcrumb__cur">{{ i18n "the_ai_journal" }}</span>
     </nav>
 
     <div class="journal-hero">
-      <h1 class="journal-hero__title">The AI Journal</h1>
-      <p class="journal-hero__sub">Essays, guides, and notes on AI tools — from the people who maintain this directory.</p>
+      <h1 class="journal-hero__title">{{ i18n "the_ai_journal" }}</h1>
+      <p class="journal-hero__sub">{{ i18n "essays_guides_and_notes_on_ai" }}</p>
     </div>
 
     {{ if $posts }}

@@ -28,10 +28,10 @@
 
   <main class="hl-center">
 
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+    <nav class="breadcrumb" aria-label="{{ i18n "breadcrumb" }}">
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/companies/" | relURL }}">Companies</a>
+      <a href="{{ "/companies/" | relLangURL }}">{{ i18n "companies" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
@@ -39,13 +39,13 @@
     <header class="co-hero">
       <div class="co-hero__top">
         <div class="co-hero__logo">
-          <img src="{{ $logo }}" alt="{{ $p.name }} logo" width="64" height="64" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <img src="{{ $logo }}" alt="{{ i18n "logo_of" (dict "name" $p.name) }}" width="64" height="64" decoding="async" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <span style="display:none">{{ substr $p.name 0 1 }}</span>
         </div>
         <div class="co-hero__id">
           <h1 class="co-hero__title">{{ $p.name }}</h1>
           {{ with $p.subtitle }}<p class="co-hero__subtitle">{{ . }}</p>{{ end }}
-          {{ if $p.ai_native }}<span class="native-badge native-badge--lg" title="Built around AI from day one">AI native</span>{{ end }}
+          {{ if $p.ai_native }}<span class="native-badge native-badge--lg" title="{{ i18n "built_around_ai_from_day_one" }}">{{ i18n "ai_native" }}</span>{{ end }}
         </div>
       </div>
 
@@ -59,32 +59,32 @@
         </a>
         {{ end }}
         {{ if or $companyTools $companyModels $companyHardware }}
-        <a href="#{{ cond (gt (len $companyTools) 0) "tools" (cond (gt (len $companyModels) 0) "models" "hardware") }}" class="co-hero__ghost">See what {{ $p.name }} builds ↓</a>
+        <a href="#{{ cond (gt (len $companyTools) 0) "tools" (cond (gt (len $companyModels) 0) "models" "hardware") }}" class="co-hero__ghost">{{ i18n "see_what_builds" (dict "name" $p.name) }}</a>
         {{ end }}
       </div>
 
       <dl class="co-stats">
-        {{ if $companyTools }}<div class="co-stat"><dt>Tools</dt><dd>{{ partial "count.html" (len $companyTools) }}</dd></div>{{ end }}
-        {{ if $companyModels }}<div class="co-stat"><dt>Models</dt><dd>{{ partial "count.html" (len $companyModels) }}</dd></div>{{ end }}
-        {{ if $companyHardware }}<div class="co-stat"><dt>Chips</dt><dd>{{ partial "count.html" (len $companyHardware) }}</dd></div>{{ end }}
-        {{ with $p.founded }}<div class="co-stat"><dt>Founded</dt><dd>{{ . }}</dd></div>{{ end }}
-        {{ if isset $p "ai_native" }}<div class="co-stat"><dt>AI native</dt><dd>{{ if $p.ai_native }}Yes{{ else }}No{{ end }}</dd></div>{{ end }}
-        {{ with $p.headquarters }}<div class="co-stat co-stat--wide"><dt>Headquarters</dt><dd>{{ . }}</dd></div>{{ end }}
+        {{ if $companyTools }}<div class="co-stat"><dt>{{ i18n "tools_2" }}</dt><dd>{{ partial "count.html" (len $companyTools) }}</dd></div>{{ end }}
+        {{ if $companyModels }}<div class="co-stat"><dt>{{ i18n "models" }}</dt><dd>{{ partial "count.html" (len $companyModels) }}</dd></div>{{ end }}
+        {{ if $companyHardware }}<div class="co-stat"><dt>{{ i18n "chips" }}</dt><dd>{{ partial "count.html" (len $companyHardware) }}</dd></div>{{ end }}
+        {{ with $p.founded }}<div class="co-stat"><dt>{{ i18n "founded" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+        {{ if isset $p "ai_native" }}<div class="co-stat"><dt>{{ i18n "ai_native" }}</dt><dd>{{ if $p.ai_native }}{{ i18n "answer_yes" }}{{ else }}{{ i18n "answer_no" }}{{ end }}</dd></div>{{ end }}
+        {{ with $p.headquarters }}<div class="co-stat co-stat--wide"><dt>{{ i18n "headquarters" }}</dt><dd>{{ . }}</dd></div>{{ end }}
       </dl>
     </header>
 
     {{ with .Content }}
-    <section class="co-about" aria-label="{{ $p.name }} and AI">
-      <h2 class="co-section__title">{{ $p.name }} and AI</h2>
+    <section class="co-about" aria-label="{{ i18n "name_and_ai" (dict "name" $p.name) }}">
+      <h2 class="co-section__title">{{ i18n "name_and_ai" (dict "name" $p.name) }}</h2>
       {{ . }}
     </section>
     {{ end }}
 
     {{ if or $p.founders $cats }}
-    <section class="co-facts" aria-label="About {{ $p.name }}">
+    <section class="co-facts" aria-label="{{ i18n "about_name" (dict "name" $p.name) }}">
       {{ if $p.founders }}
       <div class="co-facts__col">
-        <h2 class="co-label">// {{ if gt (len $p.founders) 1 }}founders{{ else }}founder{{ end }}</h2>
+        <h2 class="co-label">// {{ if gt (len $p.founders) 1 }}{{ i18n "founders" }}{{ else }}{{ i18n "founder" }}{{ end }}</h2>
         <ul class="co-chips">
           {{ range $p.founders }}<li class="co-chip">{{ . }}</li>{{ end }}
         </ul>
@@ -92,9 +92,9 @@
       {{ end }}
       {{ if $cats }}
       <div class="co-facts__col">
-        <h2 class="co-label">// works in</h2>
+        <h2 class="co-label">{{ i18n "works_in" }}</h2>
         <ul class="co-chips">
-          {{ range $k, $v := $cats }}<li><a class="co-chip co-chip--link" href="{{ printf "/categories/%s/" $k | relURL }}">{{ $v }}</a></li>{{ end }}
+          {{ range $k, $v := $cats }}<li><a class="co-chip co-chip--link" href="{{ printf "/categories/%s/" $k | relLangURL }}">{{ $v }}</a></li>{{ end }}
         </ul>
       </div>
       {{ end }}
@@ -104,8 +104,8 @@
     {{ if $companyTools }}
     <section class="co-section" id="tools">
       <div class="co-section__head">
-        <h2 class="co-section__title">AI tools by {{ $p.name }} <span class="co-section__count">{{ len $companyTools }}</span></h2>
-        {{ if gt (len $companyTools) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/tools/" $slug | relURL }}">View all {{ len $companyTools }} →</a>{{ end }}
+        <h2 class="co-section__title">{{ i18n "ai_tools_by" (dict "name" $p.name) }} <span class="co-section__count">{{ len $companyTools }}</span></h2>
+        {{ if gt (len $companyTools) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/tools/" $slug | relLangURL }}">{{ i18n "view_all_n" (dict "n" (len $companyTools)) }}</a>{{ end }}
       </div>
       <div class="tools-grid">
         {{ range first $preview $companyTools }}{{ partial "tool-card.html" (dict "page" . "p" .Params) }}{{ end }}
@@ -116,8 +116,8 @@
     {{ if $companyModels }}
     <section class="co-section" id="models">
       <div class="co-section__head">
-        <h2 class="co-section__title">AI models by {{ $p.name }} <span class="co-section__count">{{ len $companyModels }}</span></h2>
-        {{ if gt (len $companyModels) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/models/" $slug | relURL }}">View all {{ len $companyModels }} →</a>{{ end }}
+        <h2 class="co-section__title">{{ i18n "ai_models_by" (dict "name" $p.name) }} <span class="co-section__count">{{ len $companyModels }}</span></h2>
+        {{ if gt (len $companyModels) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/models/" $slug | relLangURL }}">{{ i18n "view_all_n" (dict "n" (len $companyModels)) }}</a>{{ end }}
       </div>
       <div class="tools-grid">
         {{ range first $preview $companyModels }}{{ partial "model-card.html" (dict "page" . "p" .Params) }}{{ end }}
@@ -128,8 +128,8 @@
     {{ if $companyHardware }}
     <section class="co-section" id="hardware">
       <div class="co-section__head">
-        <h2 class="co-section__title">AI hardware by {{ $p.name }} <span class="co-section__count">{{ len $companyHardware }}</span></h2>
-        {{ if gt (len $companyHardware) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/hardware/" $slug | relURL }}">View all {{ len $companyHardware }} →</a>{{ end }}
+        <h2 class="co-section__title">{{ i18n "ai_hardware_by" (dict "name" $p.name) }} <span class="co-section__count">{{ len $companyHardware }}</span></h2>
+        {{ if gt (len $companyHardware) $preview }}<a class="co-section__all" href="{{ printf "/companies/%s/hardware/" $slug | relLangURL }}">{{ i18n "view_all_n" (dict "n" (len $companyHardware)) }}</a>{{ end }}
       </div>
       <div class="tools-grid">
         {{ range first $preview $companyHardware }}{{ partial "gpu-card.html" (dict "page" . "p" .Params) }}{{ end }}
@@ -138,12 +138,12 @@
     {{ end }}
 
     {{ if not (or $companyTools $companyModels $companyHardware) }}
-    <p class="co-empty">No tools listed for {{ $p.name }} yet. <a href="{{ "/submit/" | relURL }}">Submit one</a>.</p>
+    <p class="co-empty">{{ i18n "no_tools_for" (dict "name" $p.name) }} <a href="{{ "/submit/" | relLangURL }}">{{ i18n "submit_one" }}</a>.</p>
     {{ end }}
 
     {{ if $faq }}
     <section class="co-section co-faq" id="faq">
-      <h2 class="co-section__title">{{ $p.name }} FAQ</h2>
+      <h2 class="co-section__title">{{ i18n "name_faq" (dict "name" $p.name) }}</h2>
       <dl class="co-faq__list">
         {{ range $faq }}
         <div class="co-faq__item">
@@ -157,7 +157,7 @@
 
     {{ if $related }}
     <section class="co-section" id="related">
-      <h2 class="co-section__title">More AI companies in {{ $p.headquarters }}</h2>
+      <h2 class="co-section__title">{{ i18n "more_companies_in" (dict "place" $p.headquarters) }}</h2>
       <ul class="co-related">
         {{ range $related }}
         {{ $rl := or .Params.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" .Params.website) }}
@@ -170,7 +170,7 @@
         </li>
         {{ end }}
       </ul>
-      <p class="co-related__all"><a href="{{ "/companies/" | relURL }}">Browse all AI companies →</a></p>
+      <p class="co-related__all"><a href="{{ "/companies/" | relLangURL }}">{{ i18n "browse_all_ai_companies" }}</a></p>
     </section>
     {{ end }}
 

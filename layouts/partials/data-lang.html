@@ -1,0 +1,23 @@
+{{/*
+  Category-style data for the current language. data/<name>.yaml is the English source; for other
+  languages data/<name>_<lang>.yaml overlays name and description by slug, so sort order, filter
+  values and ids always come from the English file.
+  Usage: {{ range partialCached "data-lang.html" "categories" "categories" site.Language.Lang }}
+*/}}
+{{- $name := . -}}
+{{- $base := index hugo.Data $name -}}
+{{- $lang := site.Language.Lang -}}
+{{- $out := $base -}}
+{{- if ne $lang (index site.Languages 0).Lang -}}
+  {{- $tr := index hugo.Data (printf "%s_%s" $name $lang) -}}
+  {{- if $tr -}}
+    {{- $bySlug := dict -}}
+    {{- range $tr }}{{ $bySlug = merge $bySlug (dict .slug .) }}{{ end -}}
+    {{- $out = slice -}}
+    {{- range $base -}}
+      {{- $item := . -}}
+      {{- with index $bySlug .slug }}{{ $out = $out | append (merge $item .) }}{{ else }}{{ $out = $out | append $item }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

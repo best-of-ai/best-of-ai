@@ -8,20 +8,20 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/models/" | relURL }}">Models</a>
+      <a href="{{ "/models/" | relLangURL }}">{{ i18n "models" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Categories</span>
+      <span class="breadcrumb__cur">{{ i18n "categories_2" }}</span>
     </nav>
 
     <div class="cat-list-hero">
-      <h1 class="cat-list-hero__title">Model Categories</h1>
-      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len hugo.Data.model_categories) }} categories of AI models and LLMs.</p>
+      <h1 class="cat-list-hero__title">{{ i18n "model_categories" }}</h1>
+      <p class="cat-list-hero__sub">{{ i18n "browse_n_model_categories" (dict "n" (partial "count.html" (len (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang)))) }}</p>
     </div>
 
     <div class="cat-list-grid">
-      {{ range sort hugo.Data.model_categories "sort_order" }}
+      {{ range sort (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang) "sort_order" }}
         {{ $cat := . }}
         {{ $count := 0 }}
         {{ if eq $cat.filter_field "runs_at_home" }}
@@ -32,7 +32,7 @@
           {{ $count = len (union $primary $extra) }}
         {{ end }}
         {{ if gt $count 0 }}
-        <a href="{{ printf "/models/category/%s/" $cat.slug | relURL }}" class="cat-list-card">
+        <a href="{{ printf "/models/category/%s/" $cat.slug | relLangURL }}" class="cat-list-card">
           <div class="cat-list-card__icon">{{ substr $cat.name 0 1 }}</div>
           <div class="cat-list-card__body">
             <span class="cat-list-card__name">{{ $cat.name }}</span>

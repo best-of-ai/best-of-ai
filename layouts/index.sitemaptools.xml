@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {{- range sort (where .Site.RegularPages "Section" "tools") "RelPermalink" }}
-  <url>
-    <loc>{{ .Permalink }}</loc>
-    <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  {{ partial "sitemap-url.html" (dict "page" . "lastmod" (.Date.Format "2006-01-02") "freq" "monthly" "prio" "0.7") }}
 {{- end }}
 </urlset>

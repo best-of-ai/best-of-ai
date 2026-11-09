@@ -14,72 +14,72 @@
 <aside class="hl-left" id="hl-left">
   {{ partial "ad-slot.html" (dict "ad" hugo.Data.ads.left_sidebar "variant" "sidebar") }}
 
-  <nav class="sb-quick" aria-label="Quick links">
-    <a href="{{ "/" | relURL }}" class="sb-quick__link{{ if .IsHome }} active{{ end }}">
+  <nav class="sb-quick" aria-label="{{ i18n "quick_links_2" }}">
+    <a href="{{ "/" | relLangURL }}" class="sb-quick__link{{ if .IsHome }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-      Home
+      {{ i18n "home" }}
     </a>
-    <a href="{{ "/new/" | relURL }}" class="sb-quick__link{{ if eq .RelPermalink "/new/" }} active{{ end }}">
+    <a href="{{ "/new/" | relLangURL }}" class="sb-quick__link{{ if eq (partial "page-path.html" .) "/new/" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-      Recently Added
+      {{ i18n "recently_added" }}
     </a>
-    <a href="{{ "/leaderboard/" | relURL }}" class="sb-quick__link{{ if eq .RelPermalink "/leaderboard/" }} active{{ end }}">
+    <a href="{{ "/leaderboard/" | relLangURL }}" class="sb-quick__link{{ if eq (partial "page-path.html" .) "/leaderboard/" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-      Leaderboard
+      {{ i18n "leaderboard_2" }}
     </a>
-    <a href="{{ "/companies/" | relURL }}" class="sb-quick__link{{ if eq .Section "companies" }} active{{ end }}">
+    <a href="{{ "/companies/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "companies" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 9h1M9 13h1M9 17h1M14 9h1M14 13h1M14 17h1"/></svg>
-      Companies
+      {{ i18n "companies" }}
     </a>
-    <a href="{{ "/hardware/" | relURL }}" class="sb-quick__link{{ if eq .Section "hardware" }} active{{ end }}">
+    <a href="{{ "/hardware/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "hardware" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
-      Hardware
+      {{ i18n "hardware" }}
     </a>
-    <a href="{{ "/models/" | relURL }}" class="sb-quick__link{{ if eq .Section "models" }} active{{ end }}">
+    <a href="{{ "/models/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "models" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
-      Models
+      {{ i18n "models" }}
     </a>
-    <a href="{{ "/skills/" | relURL }}" class="sb-quick__link{{ if eq .Section "skills" }} active{{ end }}">
+    <a href="{{ "/skills/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "skills" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.6h7.6z"/></svg>
-      Skills
+      {{ i18n "skills" }}
     </a>
-    <a href="{{ "/professionals/" | relURL }}" class="sb-quick__link{{ if eq .Section "professionals" }} active{{ end }}">
+    <a href="{{ "/professionals/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "professionals" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M2 13h20"/></svg>
-      Professions
+      {{ i18n "professions_2" }}
     </a>
-    <a href="{{ "/journal/" | relURL }}" class="sb-quick__link{{ if eq .Section "journal" }} active{{ end }}">
+    <a href="{{ "/journal/" | relLangURL }}" class="sb-quick__link{{ if eq .Section "journal" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-      Journal
+      {{ i18n "journal" }}
     </a>
-    <a href="{{ "/free/" | relURL }}" class="sb-quick__link{{ if eq .RelPermalink "/free/" }} active{{ end }}">
+    <a href="{{ "/free/" | relLangURL }}" class="sb-quick__link{{ if eq (partial "page-path.html" .) "/free/" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
-      Free Tools
+      {{ i18n "free_tools" }}
     </a>
-    <a href="{{ "/saved/" | relURL }}" class="sb-quick__link{{ if eq .RelPermalink "/saved/" }} active{{ end }}">
+    <a href="{{ "/saved/" | relLangURL }}" class="sb-quick__link{{ if eq (partial "page-path.html" .) "/saved/" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-      Saved
+      {{ i18n "nav_saved" }}
       <span class="saved-count" hidden></span>
     </a>
-    <a href="{{ "/contribute/" | relURL }}" class="sb-quick__link{{ if eq .RelPermalink "/contribute/" }} active{{ end }}">
+    <a href="{{ "/contribute/" | relLangURL }}" class="sb-quick__link{{ if eq (partial "page-path.html" .) "/contribute/" }} active{{ end }}">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-      Contribute
+      {{ i18n "contribute" }}
     </a>
     <a href="{{ partial "utm-url.html" .Site.Params.githubRepo }}" target="_blank" rel="noopener" class="sb-quick__link sb-quick__link--github">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-      Star on GitHub
+      {{ i18n "star_on_github" }}
     </a>
   </nav>
 
   <div class="sb-divider"></div>
 
-  <div class="hl-section-label">Categories</div>
-  <input class="sidebar-search" id="cat-search" type="text" placeholder="Filter..." autocomplete="off" spellcheck="false" aria-label="Filter categories">
+  <div class="hl-section-label">{{ i18n "categories_2" }}</div>
+  <input class="sidebar-search" id="cat-search" type="text" placeholder="Filter..." autocomplete="off" spellcheck="false" aria-label="{{ i18n "filter_categories" }}">
   <nav class="hl-cat-nav" id="cat-sidebar">
-    <a href="{{ "/" | relURL }}" class="cat-link{{ if not $activeCat }} active{{ end }}" data-filter="all">
-      All tools <span class="cat-count">{{ partial "count.html" (len $tools) }}</span>
+    <a href="{{ "/" | relLangURL }}" class="cat-link{{ if not $activeCat }} active{{ end }}" data-filter="all">
+      {{ i18n "all_tools" }} <span class="cat-count">{{ partial "count.html" (len $tools) }}</span>
     </a>
     {{ $catList := slice }}
-    {{ range hugo.Data.categories }}
+    {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
       {{ $cat := . }}
       {{ if $cat.sidebar }}
         {{ $catTools := where $tools "Params.category" $cat.slug }}
@@ -90,16 +90,16 @@
     {{ end }}
     {{ range sort $catList "count" "desc" }}
       {{ $cat := .cat }}
-      <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeCat $cat.slug }} active{{ end }}" data-filter="{{ $cat.slug }}">
+      <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="cat-link{{ if eq $activeCat $cat.slug }} active{{ end }}" data-filter="{{ $cat.slug }}">
         {{ $cat.name }}<span class="cat-count">{{ partial "count.html" .count }}</span>
       </a>
     {{ end }}
   </nav>
 
   <div class="sb-divider"></div>
-  <div class="hl-section-label">Models by Usecase</div>
+  <div class="hl-section-label">{{ i18n "models_by_usecase" }}</div>
   <nav class="hl-cat-nav">
-    {{ range sort hugo.Data.model_categories "sort_order" }}
+    {{ range sort (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang) "sort_order" }}
       {{ $cat := . }}
       {{ $count := 0 }}
       {{ if eq $cat.filter_field "runs_at_home" }}
@@ -110,7 +110,7 @@
         {{ $count = len (union $primary $extra) }}
       {{ end }}
       {{ if gt $count 0 }}
-      <a href="{{ printf "/models/category/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeModelCat $cat.slug }} active{{ end }}">
+      <a href="{{ printf "/models/category/%s/" $cat.slug | relLangURL }}" class="cat-link{{ if eq $activeModelCat $cat.slug }} active{{ end }}">
         {{ $cat.name }}<span class="cat-count">{{ partial "count.html" $count }}</span>
       </a>
       {{ end }}
@@ -122,25 +122,25 @@
   {{ $sidebarProfs = sort $sidebarProfs "Params.sort_order" }}
   {{ if $sidebarProfs }}
   <div class="sb-divider"></div>
-  <div class="hl-section-label sidebar-profs-label">By Profession</div>
+  <div class="hl-section-label sidebar-profs-label">{{ i18n "by_profession" }}</div>
   <nav class="hl-cat-nav hl-prof-nav">
     {{ range $sidebarProfs }}
       <a href="{{ .RelPermalink }}" class="cat-link{{ if eq $activeProf .Params.slug }} active{{ end }}">
         {{ .Params.name }}
       </a>
     {{ end }}
-    <a href="{{ "/professionals/" | relURL }}" class="cat-link prof-all-link">All professions →</a>
+    <a href="{{ "/professionals/" | relLangURL }}" class="cat-link prof-all-link">{{ i18n "all_professions" }}</a>
   </nav>
   {{ end }}
 
   <div class="sb-divider"></div>
-  <div class="hl-section-label">Skills by Category</div>
+  <div class="hl-section-label">{{ i18n "skills_by_category" }}</div>
   <nav class="hl-cat-nav">
-    {{ range hugo.Data.skill_categories }}
+    {{ range (partialCached "data-lang.html" "skill_categories" "skill_categories" site.Language.Lang) }}
       {{ $cat := . }}
       {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
       {{ if gt $count 0 }}
-      <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="cat-link{{ if eq $activeSkillCat $cat.slug }} active{{ end }}">
+      <a href="{{ printf "/skills/category/%s/" $cat.slug | relLangURL }}" class="cat-link{{ if eq $activeSkillCat $cat.slug }} active{{ end }}">
         {{ $cat.name }}<span class="cat-count">{{ partial "count.html" $count }}</span>
       </a>
       {{ end }}

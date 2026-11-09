@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Language.Lang }}">
 <head>
   <script>
     (function() {
       var t = localStorage.getItem('bai-theme');
       if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  {{ $langs := slice }}{{ range site.Languages }}{{ $langs = $langs | append .Lang }}{{ end }}
+  {{/* Saved language: the first page a visitor opens sets it, the language switcher overwrites it.
+       Only the default-language home is ever redirected; deep links are left alone. */}}
+  <script>
+    (function() {
+      try {
+        var langs = {{ $langs | jsonify | safeJS }};
+        var page = document.documentElement.lang;
+        var saved = localStorage.getItem('bai-lang');
+        if (langs.indexOf(saved) < 0) { localStorage.setItem('bai-lang', page); return; }
+        if (saved !== page && location.pathname === '/') location.replace('/' + saved + '/');
+      } catch (e) {}
     })();
   </script>
   {{ partial "head.html" . }}
@@ -15,6 +29,6 @@
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  {{ partialCached "footer.html" . "footer" }}
+  {{ partialCached "footer.html" . (printf "footer-%s" .Language.Lang) }}
 </body>
 </html>

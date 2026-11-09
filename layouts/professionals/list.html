@@ -9,19 +9,19 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">AI by Profession</span>
+      <span class="breadcrumb__cur">{{ i18n "ai_by_profession" }}</span>
     </nav>
 
     <div class="cat-list-hero">
-      <h1 class="cat-list-hero__title">AI by Profession</h1>
-      <p class="cat-list-hero__sub">Handpicked AI tools for <strong>{{ partial "count.html" (len $profs) }}</strong> professions — find what's built for your role.</p>
+      <h1 class="cat-list-hero__title">{{ i18n "ai_by_profession" }}</h1>
+      <p class="cat-list-hero__sub">{{ i18n "prof_list_sub" (dict "n" (partial "count.html" (len $profs))) | safeHTML }}</p>
     </div>
 
     <div class="company-search">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="prof-search-input" placeholder="Search professions…" autocomplete="off" spellcheck="false" aria-label="Search professions">
+      <input type="text" id="prof-search-input" placeholder="{{ i18n "search_professions" }}" autocomplete="off" spellcheck="false" aria-label="{{ i18n "search_professions_2" }}">
     </div>
 
     <div class="prof-list-grid" id="prof-grid">
@@ -43,7 +43,7 @@
       </a>
       {{ end }}
     </div>
-    <p id="prof-empty" style="display:none;color:var(--muted,#888);padding:1rem 0">No professions match your search.</p>
+    <p id="prof-empty" style="display:none;color:var(--muted,#888);padding:1rem 0">{{ i18n "no_professions_match_your_search" }}</p>
 
   </main>
 

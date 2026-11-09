@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $lb := partialCached "leaderboard-data.html" (dict "entries" hugo.Data.leaderboard "key" "" "ctx" .) "current" }}
+{{ $lb := partialCached "leaderboard-data.html" (dict "entries" hugo.Data.leaderboard "key" "" "ctx" .) (printf "current-%s" .Language.Lang) }}
 {{ $faq := partial "leaderboard-faq.html" (dict "data" $lb "period" .Params.period "archive" false) }}
 
 <div class="home-layout">
@@ -9,36 +9,36 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Leaderboard</span>
+      <span class="breadcrumb__cur">{{ i18n "leaderboard_2" }}</span>
     </nav>
 
     <header class="pg-hero lb-head">
       <div class="lb-head__row">
         <div class="lb-head__main">
-          <p class="lb-eyebrow"><span class="lb-eyebrow__dot" aria-hidden="true"></span>Updated {{ .Params.period }}</p>
-          <h1 class="pg-hero__title">Best AI Tools <span>Leaderboard</span></h1>
-          <p class="pg-hero__desc">The {{ len $lb.rows }} best AI tools, ranked by real-world usefulness and impact. Rankings are reviewed every month, and past months are saved in the archive.</p>
+          <p class="lb-eyebrow"><span class="lb-eyebrow__dot" aria-hidden="true"></span>{{ i18n "updated_period" (dict "period" .Params.period) }}</p>
+          <h1 class="pg-hero__title">{{ i18n "best_ai_tools" }} <span>{{ i18n "leaderboard_2" }}</span></h1>
+          <p class="pg-hero__desc">{{ i18n "lb_desc" (dict "n" (len $lb.rows)) }}</p>
         </div>
         <div class="lb-head__side">
-          <a href="{{ "/leaderboard/archive/" | relURL }}" class="btn btn-primary">Browse the archive</a>
+          <a href="{{ "/leaderboard/archive/" | relLangURL }}" class="btn btn-primary">{{ i18n "browse_the_archive" }}</a>
         </div>
       </div>
       <div class="pg-hero__meta">
-        <span><strong>{{ len $lb.rows }}</strong> tools</span>
+        <span><strong>{{ len $lb.rows }}</strong> {{ i18n "tools" }}</span>
         <span class="sep">·</span>
-        <span><strong>{{ $lb.catCount }}</strong> categories</span>
+        <span><strong>{{ $lb.catCount }}</strong> {{ i18n "categories" }}</span>
         {{ if and $lb.hasPrev $lb.climber }}
         <span class="sep">·</span>
-        <span>biggest climber <strong>{{ $lb.climber }}</strong> <span class="lb-move lb-move--up"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>{{ $lb.climberDelta }}</span></span>
+        <span>{{ i18n "biggest_climber" }} <strong>{{ $lb.climber }}</strong> <span class="lb-move lb-move--up"><svg width="8" height="8" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1l4 7H1z" fill="currentColor"/></svg>{{ $lb.climberDelta }}</span></span>
         {{ end }}
         {{ if gt $lb.newCount 0 }}
         <span class="sep">·</span>
-        <span><strong>{{ $lb.newCount }}</strong> new</span>
+        <span><strong>{{ $lb.newCount }}</strong> {{ i18n "new" }}</span>
         {{ end }}
         <span class="sep">·</span>
-        <a href="{{ "/ranking/" | relURL }}">improve this list</a>
+        <a href="{{ "/ranking/" | relLangURL }}">{{ i18n "improve_this_list" }}</a>
       </div>
     </header>
 

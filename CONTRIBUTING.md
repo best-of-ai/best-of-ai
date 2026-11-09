@@ -12,6 +12,7 @@ Thanks for helping make this the best curated AI tools list. This guide explains
 | Fix tool info | Edit `content/tools/{slug}.md` and open a PR |
 | Add a category | Edit `data/categories.yaml` and open a PR |
 | Report a bug | [Open an issue](https://github.com/best-of-ai/best-of-ai/issues/new) |
+| Fix or add a translation | Edit or add the file under `content_es/` and open a PR (see "Translations") |
 
 ---
 
@@ -118,3 +119,18 @@ On every push to `main` that touches `content/tools/`, `data/categories.yaml`, o
 ## Code of Conduct
 
 Be respectful. Submissions and reviews should be about the tools and the data, not the people.
+
+---
+
+## Translations
+
+The site is available in English (`/`) and Spanish (`/es/`). English files live in `content/`; Spanish files live in `content_es/` with the same path and filename. If a Spanish file is missing, the Spanish page shows the English text and is hidden from search engines until someone translates it.
+
+To translate or fix a page:
+
+1. Read the style guide: `scripts/i18n/glossary-es.md`.
+2. Copy `content/<section>/<name>.md` to `content_es/<section>/<name>.md`. Translate the text fields and the body. Leave slugs, URLs, tags, prices, ranks, dates and tool lists exactly as they are.
+3. Run `python3 scripts/validate-translation.py --stamp content_es/<section>/<name>.md` (needs `pip install pyyaml`). Fix anything it reports.
+4. Open a PR.
+
+Changing an English file makes its Spanish copy stale. `python3 scripts/translation-status.py` lists what is missing or stale. UI text (menus, buttons, labels) is in `i18n/en.yaml` and `i18n/es.yaml`; keep both files in sync (`python3 scripts/check-i18n.py`).

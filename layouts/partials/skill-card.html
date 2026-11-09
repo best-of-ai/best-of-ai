@@ -32,7 +32,7 @@
   <div class="tool-card__body">
     <span class="tool-card__name">{{ $p.name }}</span>
     <span class="tool-card__desc">{{ $desc }}</span>
-    <span class="tool-card__desc" style="opacity:0.7">{{ with $p.author }}{{ . }}{{ end }}{{ with $p.skill_type }} · {{ . }}{{ end }}{{ if $stars }} · ★ {{ lang.FormatNumberCustom 0 $stars ". ," }}{{ end }}</span>
+    <span class="tool-card__desc" style="opacity:0.7">{{ with $p.author }}{{ . }}{{ end }}{{ with $p.skill_type }} · {{ partial "enum-label.html" . }}{{ end }}{{ if $stars }} · ★ {{ lang.FormatNumberCustom 0 $stars ". ," }}{{ end }}</span>
   </div>
   {{ partial "price-icon.html" $priceLabel }}
   <svg class="tool-card__ext" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>

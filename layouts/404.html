@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="container err404">
   <h1 class="err404__title">404</h1>
-  <p class="err404__message">Page not found.</p>
-  <p class="err404__desc">The page you're looking for doesn't exist or may have been moved.</p>
-  <a href="{{ "/" | relURL }}" class="btn btn-primary">Back to home</a>
+  <p class="err404__message">{{ i18n "page_not_found" }}</p>
+  <p class="err404__desc">{{ i18n "the_page_youre_looking_for_doesnt" }}</p>
+  <a href="{{ "/" | relLangURL }}" class="btn btn-primary">{{ i18n "back_to_home" }}</a>
 </div>
 {{ end }}

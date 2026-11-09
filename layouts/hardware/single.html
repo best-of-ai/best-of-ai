@@ -24,11 +24,11 @@
 
 {{ $keyStats := slice }}
 {{ if $p.vram_gb }}{{ $keyStats = $keyStats | append (dict "val" (printf "%vGB" $p.vram_gb) "label" (or $p.memory_type "VRAM")) }}{{ end }}
-{{ if $p.memory_bandwidth_gbps }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.memory_bandwidth_gbps) "label" "GB/s bandwidth") }}{{ end }}
+{{ if $p.memory_bandwidth_gbps }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.memory_bandwidth_gbps) "label" (i18n "gb_s_bandwidth")) }}{{ end }}
 {{ if $p.fp32_tflops }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.fp32_tflops) "label" "FP32 TFLOPS") }}{{ end }}
 {{ if $p.tdp_watts }}{{ $keyStats = $keyStats | append (dict "val" (printf "%vW" $p.tdp_watts) "label" "TDP") }}{{ end }}
-{{ if $p.core_count }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.core_count) "label" "cores") }}{{ end }}
-{{ if $p.process_node }}{{ $keyStats = $keyStats | append (dict "val" $p.process_node "label" "process") }}{{ end }}
+{{ if $p.core_count }}{{ $keyStats = $keyStats | append (dict "val" (printf "%v" $p.core_count) "label" (i18n "stat_cores")) }}{{ end }}
+{{ if $p.process_node }}{{ $keyStats = $keyStats | append (dict "val" $p.process_node "label" (i18n "process")) }}{{ end }}
 
 <div class="home-layout">
 
@@ -38,9 +38,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/hardware/" | relURL }}">Hardware</a>
+      <a href="{{ "/hardware/" | relLangURL }}">{{ i18n "hardware" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
@@ -59,14 +59,14 @@
           <h1 class="detail-name">{{ $p.name }}</h1>
           {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
           <div class="detail-badges">
-            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
-            {{ if $p.hardware_type }}<span class="badge badge-cat">{{ $p.hardware_type }}</span>{{ end }}
+            <span class="badge badge-gpu-price">{{ partial "enum-label.html" $priceLabel }}</span>
+            {{ if $p.hardware_type }}<span class="badge badge-cat">{{ partial "enum-label.html" $p.hardware_type }}</span>{{ end }}
           </div>
         </div>
 
         {{ if $p.product_url }}
         <a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
-          Visit Product Page →
+          {{ i18n "visit_product_page" }}
         </a>
         {{ end }}
       </div>
@@ -90,7 +90,7 @@
         {{ with .Content }}
           <div class="prose">{{ . }}</div>
         {{ else }}
-        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <h2 class="detail-body__title">{{ i18n "c_about_name" (dict "name" $p.name) }}</h2>
         <p class="detail-body__text">{{ $p.description }}</p>
         {{ end }}
       </div>
@@ -98,7 +98,7 @@
       <aside class="detail-sidebar">
         {{ if $manufacturerPage }}
         <div class="sidebar-alternatives">
-          <div class="sidebar-alternatives__title">// from {{ $manufacturerPage.Params.name }}</div>
+          <div class="sidebar-alternatives__title">{{ i18n "c_from_name" (dict "name" $manufacturerPage.Params.name) }}</div>
           {{ if $manufacturerSiblings }}
           <div class="sidebar-alternatives__list">
             {{ range first 3 $manufacturerSiblings }}
@@ -117,52 +117,52 @@
           </div>
           {{ end }}
           <a href="{{ $manufacturerPage.RelPermalink }}" class="sidebar-alternatives__all">
-            View all on {{ $manufacturerPage.Params.name }} →
+            {{ i18n "view_all_on" (dict "name" $manufacturerPage.Params.name) }}
           </a>
         </div>
         {{ end }}
 
         <div class="detail-meta-card">
-          <div class="detail-meta__title">// specs</div>
+          <div class="detail-meta__title">{{ i18n "specs" }}</div>
           <dl class="detail-meta-list">
             {{ if $manufacturerPage }}
             <div class="detail-meta-row">
-              <dt>Manufacturer</dt>
+              <dt>{{ i18n "manufacturer" }}</dt>
               <dd><a href="{{ $manufacturerPage.RelPermalink }}">{{ $manufacturerPage.Params.name }}</a></dd>
             </div>
             {{ end }}
-            {{ with $p.hardware_type }}<div class="detail-meta-row"><dt>Type</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.architecture }}<div class="detail-meta-row"><dt>Architecture</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Release date</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.process_node }}<div class="detail-meta-row"><dt>Process node</dt><dd>{{ . }}</dd></div>{{ end }}
-            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
-            {{ with $p.vram_gb }}<div class="detail-meta-row"><dt>VRAM</dt><dd>{{ . }} GB</dd></div>{{ end }}
-            {{ with $p.memory_type }}<div class="detail-meta-row"><dt>Memory type</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.memory_bus_bit }}<div class="detail-meta-row"><dt>Memory bus</dt><dd>{{ . }}-bit</dd></div>{{ end }}
-            {{ with $p.memory_bandwidth_gbps }}<div class="detail-meta-row"><dt>Memory bandwidth</dt><dd>{{ . }} GB/s</dd></div>{{ end }}
-            {{ with $p.core_count }}<div class="detail-meta-row"><dt>Cores</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.tensor_cores }}<div class="detail-meta-row"><dt>Tensor / matrix cores</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.base_clock_mhz }}<div class="detail-meta-row"><dt>Base clock</dt><dd>{{ . }} MHz</dd></div>{{ end }}
-            {{ with $p.boost_clock_mhz }}<div class="detail-meta-row"><dt>Boost clock</dt><dd>{{ . }} MHz</dd></div>{{ end }}
-            {{ with $p.fp32_tflops }}<div class="detail-meta-row"><dt>FP32 performance</dt><dd>{{ . }} TFLOPS</dd></div>{{ end }}
-            {{ with $p.tdp_watts }}<div class="detail-meta-row"><dt>TDP</dt><dd>{{ . }} W</dd></div>{{ end }}
-            {{ with $p.interface }}<div class="detail-meta-row"><dt>Interface</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.hardware_type }}<div class="detail-meta-row"><dt>{{ i18n "type_2" }}</dt><dd>{{ partial "enum-label.html" . }}</dd></div>{{ end }}
+            {{ with $p.architecture }}<div class="detail-meta-row"><dt>{{ i18n "architecture" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>{{ i18n "release_date" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.process_node }}<div class="detail-meta-row"><dt>{{ i18n "process_node_2" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>{{ i18n "price_2" }}</dt><dd>{{ partial "enum-label.html" $priceLabel }}</dd></div>
+            {{ with $p.vram_gb }}<div class="detail-meta-row"><dt>{{ i18n "vram" }}</dt><dd>{{ . }} GB</dd></div>{{ end }}
+            {{ with $p.memory_type }}<div class="detail-meta-row"><dt>{{ i18n "memory_type_2" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.memory_bus_bit }}<div class="detail-meta-row"><dt>{{ i18n "memory_bus" }}</dt><dd>{{ . }}-bit</dd></div>{{ end }}
+            {{ with $p.memory_bandwidth_gbps }}<div class="detail-meta-row"><dt>{{ i18n "memory_bandwidth" }}</dt><dd>{{ . }} GB/s</dd></div>{{ end }}
+            {{ with $p.core_count }}<div class="detail-meta-row"><dt>{{ i18n "cores" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.tensor_cores }}<div class="detail-meta-row"><dt>{{ i18n "tensor_matrix_cores" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.base_clock_mhz }}<div class="detail-meta-row"><dt>{{ i18n "base_clock" }}</dt><dd>{{ . }} MHz</dd></div>{{ end }}
+            {{ with $p.boost_clock_mhz }}<div class="detail-meta-row"><dt>{{ i18n "boost_clock" }}</dt><dd>{{ . }} MHz</dd></div>{{ end }}
+            {{ with $p.fp32_tflops }}<div class="detail-meta-row"><dt>{{ i18n "fp32_performance" }}</dt><dd>{{ . }} TFLOPS</dd></div>{{ end }}
+            {{ with $p.tdp_watts }}<div class="detail-meta-row"><dt>{{ i18n "tdp" }}</dt><dd>{{ . }} W</dd></div>{{ end }}
+            {{ with $p.interface }}<div class="detail-meta-row"><dt>{{ i18n "interface" }}</dt><dd>{{ . }}</dd></div>{{ end }}
             {{ if $p.product_url }}
             <div class="detail-meta-row">
-              <dt>Product page</dt>
+              <dt>{{ i18n "product_page" }}</dt>
               <dd><a href="{{ partial "utm-url.html" $p.product_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.product_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">
-              <dt>Added</dt>
-              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+              <dt>{{ i18n "added" }}</dt>
+              <dd>{{ .Date | time.Format "Jan 2006" }}</dd>
             </div>
             {{ if $p.tags }}
             <div class="detail-meta-row">
-              <dt>Tags</dt>
+              <dt>{{ i18n "tags" }}</dt>
               <dd class="detail-meta-tags">
                 {{ range $p.tags }}
-                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                <a href="{{ printf "/tags/%s/" . | relLangURL }}" class="tag-chip">{{ . }}</a>
                 {{ end }}
               </dd>
             </div>
@@ -175,7 +175,7 @@
     <!-- Similar hardware -->
     {{ if $similar }}
     <section class="related-section">
-      <h2 class="related-title">// similar hardware{{ with $p.hardware_type }} in {{ . }}{{ end }}</h2>
+      <h2 class="related-title">{{ with $p.hardware_type }}{{ i18n "c_similar_hardware_in" (dict "type" (partial "enum-label.html" .)) }}{{ else }}{{ i18n "c_similar_hardware" }}{{ end }}</h2>
       <div class="tools-grid tools-grid--related">
         {{ range $similar }}
         {{ partial "gpu-card.html" (dict "page" . "p" .Params) }}

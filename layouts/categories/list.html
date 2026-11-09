@@ -8,22 +8,22 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Categories</span>
+      <span class="breadcrumb__cur">{{ i18n "categories_2" }}</span>
     </nav>
 
     <div class="cat-list-hero">
-      <h1 class="cat-list-hero__title">AI Tool Categories</h1>
-      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len hugo.Data.categories) }} categories of handpicked AI tools.</p>
+      <h1 class="cat-list-hero__title">{{ i18n "ai_tool_categories" }}</h1>
+      <p class="cat-list-hero__sub">{{ i18n "browse_n_categories" (dict "n" (partial "count.html" (len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang)))) }}</p>
     </div>
 
     <div class="cat-list-grid">
-      {{ range hugo.Data.categories }}
+      {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
         {{ $cat := . }}
         {{ $ct  := where $tools "Params.category" $cat.slug }}
         {{ if $ct }}
-        <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="cat-list-card">
+        <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="cat-list-card">
           <div class="cat-list-card__icon">{{ substr $cat.name 0 1 }}</div>
           <div class="cat-list-card__body">
             <span class="cat-list-card__name">{{ $cat.name }}</span>

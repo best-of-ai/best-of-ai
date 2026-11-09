@@ -12,11 +12,11 @@
 {{ $ranked := sort $allSkills "Params.stars" "desc" }}
 {{ $rankPos := 0 }}{{ range $i, $x := $ranked }}{{ if eq $x.RelPermalink $.RelPermalink }}{{ $rankPos = add $i 1 }}{{ end }}{{ end }}
 {{ $keyStats := slice }}
-{{ if $rankPos }}{{ $keyStats = $keyStats | append (dict "val" (printf "#%d" $rankPos) "label" (printf "of %d skill repos" (len $allSkills))) }}{{ end }}
-{{ if $stars }}{{ $keyStats = $keyStats | append (dict "val" (partial "fmt-stars.html" $stars) "label" "GitHub stars") }}{{ end }}
-{{ if $p.stars_this_week }}{{ $keyStats = $keyStats | append (dict "val" (printf "+%s" (partial "fmt-stars.html" $p.stars_this_week)) "label" "stars this week") }}{{ end }}
+{{ if $rankPos }}{{ $keyStats = $keyStats | append (dict "val" (printf "#%d" $rankPos) "label" (i18n "stat_of_skill_repos" (dict "n" (len $allSkills)))) }}{{ end }}
+{{ if $stars }}{{ $keyStats = $keyStats | append (dict "val" (partial "fmt-stars.html" $stars) "label" (i18n "github_stars")) }}{{ end }}
+{{ if $p.stars_this_week }}{{ $keyStats = $keyStats | append (dict "val" (printf "+%s" (partial "fmt-stars.html" $p.stars_this_week)) "label" (i18n "stat_stars_this_week")) }}{{ end }}
 
-{{ if $p.author }}{{ $keyStats = $keyStats | append (dict "val" $p.author "label" "author") }}{{ end }}
+{{ if $p.author }}{{ $keyStats = $keyStats | append (dict "val" $p.author "label" (i18n "stat_author")) }}{{ end }}
 
 
 <div class="home-layout">
@@ -27,9 +27,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <a href="{{ "/skills/" | relLangURL }}">{{ i18n "skills" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
@@ -48,15 +48,15 @@
           <h1 class="detail-name">{{ $p.name }}</h1>
           {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
           <div class="detail-badges">
-            <span class="badge badge-gpu-price">{{ $priceLabel }}</span>
-            {{ if $p.skill_type }}<span class="badge badge-cat">{{ $p.skill_type }}</span>{{ end }}
+            <span class="badge badge-gpu-price">{{ partial "enum-label.html" $priceLabel }}</span>
+            {{ if $p.skill_type }}<span class="badge badge-cat">{{ partial "enum-label.html" $p.skill_type }}</span>{{ end }}
             {{ if $stars }}<span class="badge badge-cat">★ {{ lang.FormatNumberCustom 0 $stars ". ," }}</span>{{ end }}
           </div>
         </div>
 
         {{ if $p.source_url }}
         <a href="{{ partial "utm-url.html" $p.source_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
-          View on GitHub →
+          {{ i18n "view_on_github" }}
         </a>
         {{ end }}
       </div>
@@ -77,56 +77,56 @@
     <!-- Details card -->
     <div class="detail-layout">
       <div class="detail-body">
-        <h2 class="skill-section-title">// about</h2>
+        <h2 class="skill-section-title">{{ i18n "about_2" }}</h2>
         <p class="detail-body__text" style="margin-bottom:1.5rem">{{ $p.description }}</p>
 
         {{ with $p.install }}
         <div class="skill-install">
-          <div class="skill-install__head"><span>// how to install</span><button type="button" class="skill-install__copy" id="skill-copy">copy</button></div>
+          <div class="skill-install__head"><span>{{ i18n "how_to_install" }}</span><button type="button" class="skill-install__copy" id="skill-copy">{{ i18n "copy" }}</button></div>
           <pre class="skill-install__body" id="skill-install-text">{{ . }}</pre>
         </div>
         {{ end }}
 
         {{ if $p.compatible_with }}
         <div class="skill-compat">
-          <span class="skill-compat__label">// works with</span>
+          <span class="skill-compat__label">{{ i18n "works_with" }}</span>
           {{ range $p.compatible_with }}<span class="tag-chip">{{ . }}</span>{{ end }}
         </div>
         {{ end }}
 
         {{ with .Content }}
-          <h2 class="skill-section-title">// what&rsquo;s inside</h2>
+          <h2 class="skill-section-title">{{ i18n "whats_inside" }}</h2>
           <div class="prose prose--skill">{{ . }}</div>
         {{ end }}
       </div>
 
       <aside class="detail-sidebar">
         <div class="detail-meta-card">
-          <div class="detail-meta__title">// details</div>
+          <div class="detail-meta__title">{{ i18n "details_2" }}</div>
           <dl class="detail-meta-list">
-            {{ with $p.author }}<div class="detail-meta-row"><dt>Author</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ if $stars }}<div class="detail-meta-row"><dt>GitHub stars</dt><dd>{{ lang.FormatNumberCustom 0 $stars "," }}{{ if $p.stars_this_week }} (+{{ lang.FormatNumberCustom 0 $p.stars_this_week "," }} this week){{ end }}{{ with $p.stars_updated }}<br><span style="opacity:0.6;font-size:0.85em">via GitHub star history API, {{ (time .).Format "Jan 2" }}</span>{{ end }}</dd></div>{{ end }}
-            {{ with $p.skill_type }}<div class="detail-meta-row"><dt>Category</dt><dd>{{ . }}</dd></div>{{ end }}
-            {{ with $p.license }}<div class="detail-meta-row"><dt>License</dt><dd>{{ . }}</dd></div>{{ end }}
-            <div class="detail-meta-row"><dt>Price</dt><dd>{{ $priceLabel }}</dd></div>
-            <div class="detail-meta-row"><dt>Open source</dt><dd>{{ if $p.open_source }}Yes{{ else }}No{{ end }}</dd></div>
-            {{ with $p.release_date }}<div class="detail-meta-row"><dt>Released</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with $p.author }}<div class="detail-meta-row"><dt>{{ i18n "author" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ if $stars }}<div class="detail-meta-row"><dt>{{ i18n "github_stars" }}</dt><dd>{{ lang.FormatNumberCustom 0 $stars "," }}{{ if $p.stars_this_week }} ({{ i18n "plus_n_this_week" (dict "n" (lang.FormatNumberCustom 0 $p.stars_this_week ",")) }}){{ end }}{{ with $p.stars_updated }}<br><span style="opacity:0.6;font-size:0.85em">{{ i18n "via_star_api" (dict "date" (cond (eq site.Language.Lang "en") ((time .).Format "Jan 2") ((time .) | time.Format ":date_medium"))) }}</span>{{ end }}</dd></div>{{ end }}
+            {{ with $p.skill_type }}<div class="detail-meta-row"><dt>{{ i18n "category" }}</dt><dd>{{ partial "enum-label.html" . }}</dd></div>{{ end }}
+            {{ with $p.license }}<div class="detail-meta-row"><dt>{{ i18n "license" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            <div class="detail-meta-row"><dt>{{ i18n "price_2" }}</dt><dd>{{ partial "enum-label.html" $priceLabel }}</dd></div>
+            <div class="detail-meta-row"><dt>{{ i18n "open_source_cap" }}</dt><dd>{{ if $p.open_source }}{{ i18n "answer_yes" }}{{ else }}{{ i18n "answer_no" }}{{ end }}</dd></div>
+            {{ with $p.release_date }}<div class="detail-meta-row"><dt>{{ i18n "released" }}</dt><dd>{{ . }}</dd></div>{{ end }}
             {{ if $p.source_url }}
             <div class="detail-meta-row">
-              <dt>Source</dt>
+              <dt>{{ i18n "source" }}</dt>
               <dd><a href="{{ partial "utm-url.html" $p.source_url }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.source_url | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">
-              <dt>Added</dt>
-              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+              <dt>{{ i18n "added" }}</dt>
+              <dd>{{ .Date | time.Format "Jan 2006" }}</dd>
             </div>
             {{ if $p.tags }}
             <div class="detail-meta-row">
-              <dt>Tags</dt>
+              <dt>{{ i18n "tags" }}</dt>
               <dd class="detail-meta-tags">
                 {{ range $p.tags }}
-                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                <a href="{{ printf "/tags/%s/" . | relLangURL }}" class="tag-chip">{{ . }}</a>
                 {{ end }}
               </dd>
             </div>
@@ -139,7 +139,7 @@
     <!-- Similar skills -->
     {{ if $similar }}
     <section class="related-section">
-      <h2 class="related-title">// similar skills{{ with $p.skill_type }} in {{ . }}{{ end }}</h2>
+      <h2 class="related-title">{{ with $p.skill_type }}{{ i18n "c_similar_skills_in" (dict "type" (partial "enum-label.html" .)) }}{{ else }}{{ i18n "c_similar_skills" }}{{ end }}</h2>
       <div class="tools-grid tools-grid--related">
         {{ range $similar }}
         {{ partial "skill-card.html" (dict "page" . "p" .Params) }}
@@ -163,7 +163,7 @@
   if (!b || !t) return;
   b.addEventListener('click', function() {
     navigator.clipboard.writeText(t.textContent).then(function() {
-      b.textContent = 'copied'; setTimeout(function() { b.textContent = 'copy'; }, 1500);
+      var T = window.BAI_I18N || {}; b.textContent = T.copied || 'copied'; setTimeout(function() { b.textContent = T.copy || 'copy'; }, 1500);
     });
   });
 })();

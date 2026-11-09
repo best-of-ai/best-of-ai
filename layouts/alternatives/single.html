@@ -38,9 +38,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/alternatives/" | relURL }}">Alternatives</a>
+      <a href="{{ "/alternatives/" | relLangURL }}">{{ i18n "alternatives" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $toolName }}</span>
     </nav>
@@ -57,17 +57,17 @@
           </div>
         {{ end }}
         <div>
-          <h1 class="pg-hero__title">Best <span>{{ $toolName }}</span> Alternatives</h1>
+          <h1 class="pg-hero__title">{{ i18n "h1_alternatives" (dict "name" ($toolName | htmlEscape)) | safeHTML }}</h1>
           {{ if $tool }}<p class="pg-hero__desc">{{ $tool.Params.subtitle }}</p>{{ end }}
         </div>
       </div>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $altPages) }}</strong> alternatives
+        <strong>{{ partial "count.html" (len $altPages) }}</strong> {{ i18n "alternatives_2" }}
         <span class="sep">·</span>
-        <span>curated picks</span>
+        <span>{{ i18n "curated_picks" }}</span>
         {{ if $tool }}
         <span class="sep">·</span>
-        <a href="{{ $tool.RelPermalink }}">View {{ $toolName }}</a>
+        <a href="{{ $tool.RelPermalink }}">{{ i18n "view_name" (dict "name" $toolName) }}</a>
         {{ end }}
       </div>
     </div>
@@ -79,7 +79,7 @@
       {{ $p := $page.Params }}
       {{ $rank := add $index 1 }}
       {{ $logoSrc := cond (ne $p.logo_url "") $p.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=32" $p.website) }}
-      <a href="{{ $page.RelPermalink }}" class="alt-ranking-row{{ if $p.dead }} alt-ranking-row--dead{{ end }}"{{ if $p.dead }} title="{{ with $p.dead_reason }}Discontinued: {{ . }}{{ else }}This tool is no longer active{{ end }}"{{ end }}>
+      <a href="{{ $page.RelPermalink }}" class="alt-ranking-row{{ if $p.dead }} alt-ranking-row--dead{{ end }}"{{ if $p.dead }} title="{{ with $p.dead_reason }}{{ i18n "discontinued" (dict "reason" .) }}{{ else }}{{ i18n "this_tool_is_no_longer_active" }}{{ end }}"{{ end }}>
         <span class="alt-ranking-row__rank">{{ if $p.dead }}<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-label="Discontinued"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>{{ else }}#{{ $rank }}{{ end }}</span>
         <span class="alt-ranking-row__logo">
           <img src="{{ $logoSrc }}" alt="{{ $p.name }}" loading="lazy"
@@ -99,17 +99,21 @@
       {{ end }}
     </div>
     {{ else }}
-    <p style="color:var(--fg-muted);padding:2rem 0">No alternatives listed yet.</p>
+    <p style="color:var(--fg-muted);padding:2rem 0">{{ i18n "no_alternatives_listed_yet" }}</p>
     {{ end }}
 
     <!-- Browse all alternatives -->
     {{ if $comparePages }}
     <section class="other-cats-section">
-      <h2 class="other-cats__title">// compare other tools</h2>
+      <h2 class="other-cats__title">{{ i18n "compare_other_tools" }}</h2>
       <div class="other-cats-grid alt-compare-list">
         {{ range $comparePages }}
+        {{ $cmpName := .Title | strings.TrimSuffix " Alternatives" }}
+        {{ $cmpTool := index (where $allTools "Params.slug" .File.BaseFileName) 0 }}
+        {{ if not $cmpTool }}{{ $cmpTool = index (where $allTools "File.BaseFileName" .File.BaseFileName) 0 }}{{ end }}
+        {{ if $cmpTool }}{{ with $cmpTool.Params.name }}{{ $cmpName = . }}{{ end }}{{ end }}
         <a href="{{ .RelPermalink }}" class="other-cat-card">
-          <span class="other-cat-card__name">{{ .Title }}</span>
+          <span class="other-cat-card__name">{{ i18n "alt_list_name" (dict "name" $cmpName) }}</span>
         </a>
         {{ end }}
       </div>

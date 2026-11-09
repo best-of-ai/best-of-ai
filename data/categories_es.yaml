@@ -1,0 +1,573 @@
+# Spanish name/description overlay for data/categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: '3d'
+  name: '3D'
+  description: 'Herramientas de IA para modelado 3D, renderizado, texturizado y automatización del diseño.'
+-
+  slug: 'ai-agents'
+  name: 'Agentes de IA'
+  description: 'Agentes de IA autónomos que planifican, razonan y completan tareas de varios pasos con muy poca intervención humana.'
+-
+  slug: 'ai-companion'
+  name: 'Compañeros de IA'
+  description: 'Chats con compañeros de IA, amigos virtuales y personajes de IA personales.'
+-
+  slug: 'ad-generator'
+  name: 'Generadores de anuncios'
+  description: 'Herramientas de IA para crear y optimizar anuncios digitales en Google, Meta y redes sociales.'
+-
+  slug: 'animation'
+  name: 'Animación'
+  description: 'Herramientas de animación con IA para crear motion graphics, vídeos animados y animaciones de personajes.'
+-
+  slug: 'app-builders'
+  name: 'Creadores de apps'
+  description: 'Plataformas con IA para crear apps móviles y web sin saber programar.'
+-
+  slug: 'background-remover'
+  name: 'Eliminadores de fondo'
+  description: 'Herramientas de IA que quitan o reemplazan automáticamente el fondo de las imágenes.'
+-
+  slug: 'business-tools'
+  name: 'Herramientas empresariales'
+  description: 'Herramientas de IA para agilizar las operaciones, la estrategia y las decisiones basadas en datos de una empresa.'
+-
+  slug: 'crm'
+  name: 'CRM'
+  description: 'Herramientas de gestión de relaciones con clientes potenciadas con IA para ventas, contactos y seguimiento del embudo.'
+-
+  slug: 'calendar-scheduling'
+  name: 'Gestión de calendario'
+  description: 'Asistentes de agenda con IA que automatizan la reserva de reuniones, la gestión del calendario y la optimización del tiempo.'
+-
+  slug: 'climate'
+  name: 'Clima'
+  description: 'Herramientas de IA para modelar el clima, seguir las emisiones de carbono y analizar el impacto ambiental.'
+-
+  slug: 'code-assistant'
+  name: 'Asistentes de código'
+  description: 'Asistentes de programación con IA, autocompletado de código y herramientas de pair programming.'
+-
+  slug: 'copywriting'
+  name: 'Copywriting'
+  description: 'Herramientas de IA para escribir textos de marketing persuasivos, anuncios, landing pages y descripciones de producto.'
+-
+  slug: 'devtools'
+  name: 'Herramientas para desarrolladores'
+  description: 'Herramientas para desarrolladores con IA para revisión de código, CI/CD, gestión de infraestructura y flujos de ingeniería.'
+-
+  slug: 'document-ai'
+  name: 'IA para documentos'
+  description: 'Herramientas de IA para leer, analizar y extraer información de documentos y PDF.'
+-
+  slug: 'e-commerce'
+  name: 'Comercio electrónico'
+  description: 'Herramientas de IA para optimizar fichas de producto, personalizar la experiencia y gestionar tiendas online.'
+-
+  slug: 'email-assistants'
+  name: 'Asistentes de correo'
+  description: 'Herramientas de correo con IA para redactar, resumir y gestionar mensajes más rápido.'
+-
+  slug: 'farming'
+  name: 'Agricultura'
+  description: 'Herramientas de IA para agricultura de precisión, seguimiento de cultivos, previsión de cosechas y gestión de explotaciones.'
+-
+  slug: 'fashion'
+  name: 'Moda'
+  description: 'Herramientas de IA para diseño de moda, previsión de tendencias y pruebas virtuales de ropa.'
+-
+  slug: 'finance'
+  name: 'Finanzas'
+  description: 'Herramientas de IA para finanzas personales, análisis de inversiones, presupuestos y planificación financiera.'
+-
+  slug: 'government'
+  name: 'Gobierno'
+  description: 'Herramientas de IA para que las administraciones públicas mejoren la atención ciudadana, el análisis de datos y el diseño de políticas.'
+-
+  slug: 'hr'
+  name: 'Recursos humanos'
+  description: 'Herramientas de IA para recursos humanos, como incorporación, compromiso de los empleados y analítica de plantilla.'
+-
+  slug: 'home-design'
+  name: 'Diseño del hogar'
+  description: 'Herramientas de IA para diseño de interiores, distribución de espacios y visualización de reformas.'
+-
+  slug: 'image-editing'
+  name: 'Edición de imágenes'
+  description: 'Herramientas de IA para editar, mejorar y transformar imágenes existentes.'
+-
+  slug: 'image-generation'
+  name: 'Generación de imágenes'
+  description: 'Herramientas de IA para generar imágenes e ilustraciones a partir de texto.'
+-
+  slug: 'infographics'
+  name: 'Infografías'
+  description: 'Herramientas de IA para crear visualizaciones de datos, infografías e informes visuales fáciles de compartir.'
+-
+  slug: 'job-tools'
+  name: 'Herramientas de empleo'
+  description: 'Herramientas de IA para buscar trabajo, seguir candidaturas y desarrollar la carrera profesional.'
+-
+  slug: 'knowledge-management'
+  name: 'Gestión del conocimiento'
+  description: 'Herramientas de IA para organizar, conectar y recuperar el conocimiento personal y de equipo.'
+-
+  slug: 'language-learning'
+  name: 'Aprendizaje de idiomas'
+  description: 'Tutores y apps de idiomas con IA para aprender practicando conversaciones interactivas.'
+-
+  slug: 'lead-generation'
+  name: 'Generación de leads'
+  description: 'Herramientas de IA para identificar, cualificar y convertir clientes potenciales.'
+-
+  slug: 'learning-tools'
+  name: 'Herramientas de aprendizaje'
+  description: 'Herramientas educativas con IA para el aprendizaje personalizado, las tutorías y el desarrollo de habilidades.'
+-
+  slug: 'logo-generator'
+  name: 'Generadores de logos'
+  description: 'Creadores de logos con IA para diseñar logotipos profesionales e identidades visuales de marca en minutos.'
+-
+  slug: 'market-research'
+  name: 'Estudios de mercado'
+  description: 'Herramientas de IA para conocer al consumidor, analizar a la competencia e investigar tendencias de mercado.'
+-
+  slug: 'meme-generator'
+  name: 'Generadores de memes'
+  description: 'Herramientas de IA para crear y editar memes para redes sociales y marketing de contenidos.'
+-
+  slug: 'music-generation'
+  name: 'Generación de música'
+  description: 'Herramientas de IA para generar música original, ritmos y bandas sonoras.'
+-
+  slug: 'no-code'
+  name: 'No-code'
+  description: 'Plataformas no-code con IA para crear apps, automatizaciones y flujos de trabajo sin escribir código.'
+-
+  slug: 'note-taking-apps'
+  name: 'Apps de notas'
+  description: 'Apps de notas con IA que capturan, organizan y recuperan la información automáticamente.'
+-
+  slug: 'podcast'
+  name: 'Podcast'
+  description: 'Herramientas de IA para producir podcasts, transcribirlos, editarlos y generar contenido de cada episodio.'
+-
+  slug: 'presentation'
+  name: 'Presentaciones'
+  description: 'Herramientas de presentaciones con IA para crear diapositivas y presentaciones visuales atractivas con rapidez.'
+-
+  slug: 'project-management'
+  name: 'Gestión de proyectos'
+  description: 'Herramientas de gestión de proyectos con IA para planificar, seguir y colaborar en el trabajo en equipo.'
+-
+  slug: 'real-estate'
+  name: 'Inmobiliaria'
+  description: 'Herramientas de IA para tasar propiedades, optimizar anuncios y analizar el mercado inmobiliario.'
+-
+  slug: 'resume-tools'
+  name: 'Herramientas de currículum'
+  description: 'Creadores y optimizadores de currículums con IA para que quienes buscan empleo preparen CV y candidaturas que destaquen.'
+-
+  slug: 'sales-tools'
+  name: 'Herramientas de ventas'
+  description: 'Herramientas de ventas con IA para automatizar la prospección, entender las oportunidades y prever ingresos.'
+-
+  slug: 'social-media-tools'
+  name: 'Herramientas de redes sociales'
+  description: 'Herramientas de IA para crear y programar contenido en redes sociales y analizar su rendimiento.'
+-
+  slug: 'supply-chain'
+  name: 'Cadena de suministro'
+  description: 'Herramientas de IA para optimizar la cadena de suministro, prever la demanda y gestionar la logística.'
+-
+  slug: 'talking-avatar-generator'
+  name: 'Generadores de avatares parlantes'
+  description: 'Herramientas de IA para crear avatares parlantes realistas y presentadores digitales en vídeo.'
+-
+  slug: 'text-to-speech'
+  name: 'Texto a voz'
+  description: 'Herramientas de IA que convierten texto escrito en voz con sonido natural.'
+-
+  slug: 'transcription'
+  name: 'Transcripción'
+  description: 'Herramientas con IA para transcribir audio y vídeo a texto.'
+-
+  slug: 'translator'
+  name: 'Traductores'
+  description: 'Herramientas de traducción con IA para traducir textos y documentos con precisión y en tiempo real entre idiomas.'
+-
+  slug: 'video-editor'
+  name: 'Editores de vídeo'
+  description: 'Herramientas de edición de vídeo con IA para cortar, recortar y producir vídeos pulidos sin esfuerzo.'
+-
+  slug: 'video-enhancer'
+  name: 'Mejora de vídeo'
+  description: 'Herramientas de IA para escalar, reducir el ruido y mejorar la calidad de vídeos existentes.'
+-
+  slug: 'video-generator'
+  name: 'Generadores de vídeo'
+  description: 'Herramientas de IA para generar vídeos originales a partir de texto y guiones.'
+-
+  slug: 'video-subtitling'
+  name: 'Subtitulado de vídeo'
+  description: 'Herramientas de IA para añadir subtítulos y closed captions automáticos a los vídeos.'
+-
+  slug: 'voice-cloning'
+  name: 'Clonación de voz'
+  description: 'Herramientas de clonación de voz con IA para replicar y sintetizar perfiles de voz personalizados.'
+-
+  slug: 'website-builders'
+  name: 'Creadores de sitios web'
+  description: 'Creadores de sitios web con IA para diseñar y lanzar webs profesionales sin escribir código.'
+-
+  slug: 'workflow-automation'
+  name: 'Automatización de flujos de trabajo'
+  description: 'Plataformas de automatización con IA para conectar apps y automatizar procesos de negocio repetitivos.'
+-
+  slug: 'productivity'
+  name: 'Productividad'
+  description: 'Herramientas de productividad con IA para concentrarte, gestionar tareas y lograr más cada día.'
+-
+  slug: 'chatbots'
+  name: 'Chatbots'
+  description: 'Chatbots de IA para automatizar conversaciones, responder preguntas y mejorar la relación con los clientes.'
+-
+  slug: 'academia'
+  name: 'Mundo académico'
+  description: 'Herramientas de IA para la investigación académica, la gestión de citas, la revisión bibliográfica y la escritura científica.'
+-
+  slug: 'audio'
+  name: 'Audio'
+  description: 'Herramientas de audio con IA para editar, mejorar, limpiar y generar sonido y música.'
+-
+  slug: 'automation'
+  name: 'Automatización'
+  description: 'Herramientas de automatización con IA para simplificar tareas repetitivas y optimizar los flujos de trabajo de la empresa.'
+-
+  slug: 'customer-support'
+  name: 'Atención al cliente'
+  description: 'Herramientas de IA para automatizar la atención al cliente con chatbots, enrutamiento de tickets y centros de ayuda.'
+-
+  slug: 'data'
+  name: 'Datos'
+  description: 'Herramientas de datos con IA para analizar, visualizar y extraer información de grandes conjuntos de datos.'
+-
+  slug: 'food'
+  name: 'Alimentación'
+  description: 'Herramientas de IA para generar recetas, descubrir comida, planificar la nutrición y gestionar restaurantes.'
+-
+  slug: 'gaming'
+  name: 'Videojuegos'
+  description: 'Herramientas de IA para desarrollar videojuegos, diseñar el comportamiento de NPC y personalizar la experiencia de juego.'
+-
+  slug: 'graphic-design'
+  name: 'Diseño gráfico'
+  description: 'Herramientas de diseño gráfico con IA para crear logotipos, ilustraciones, banners y recursos visuales.'
+-
+  slug: 'healthcare'
+  name: 'Salud'
+  description: 'Herramientas de IA para el apoyo a decisiones clínicas, la relación con pacientes y el análisis de datos de salud.'
+-
+  slug: 'legal-assistants'
+  name: 'Asistentes legales'
+  description: 'Herramientas jurídicas con IA para analizar contratos, investigar legislación y redactar documentos.'
+-
+  slug: 'local-search-engines'
+  name: 'Buscadores locales'
+  description: 'Buscadores locales con IA para descubrir negocios y servicios cercanos.'
+-
+  slug: 'marketing'
+  name: 'Marketing'
+  description: 'Herramientas de marketing con IA para automatizar campañas, analizar resultados y personalizar la comunicación con clientes.'
+-
+  slug: 'meeting-assistants'
+  name: 'Asistentes de reuniones'
+  description: 'Herramientas de reuniones con IA para transcribir, tomar notas, seguir tareas pendientes y automatizar los seguimientos.'
+-
+  slug: 'personal-assistants'
+  name: 'Asistentes personales'
+  description: 'Asistentes personales con IA para gestionar la agenda, los recordatorios y tu día a día sin usar las manos.'
+-
+  slug: 'research-tools'
+  name: 'Herramientas de investigación'
+  description: 'Herramientas de investigación con IA para acelerar la revisión bibliográfica, la síntesis y el descubrimiento de conocimiento.'
+-
+  slug: 'seo'
+  name: 'SEO'
+  description: 'Herramientas de SEO con IA para investigar palabras clave, optimizar contenido y mejorar el posicionamiento en buscadores.'
+-
+  slug: 'search-engines'
+  name: 'Buscadores'
+  description: 'Buscadores con IA que ofrecen resultados web más inteligentes y con más contexto.'
+-
+  slug: 'spreadsheets'
+  name: 'Hojas de cálculo'
+  description: 'Herramientas de IA que traen consultas en lenguaje natural y automatización a hojas de cálculo y tablas de datos.'
+-
+  slug: 'video'
+  name: 'Vídeo'
+  description: 'Herramientas de vídeo con IA para crear, editar, mejorar y distribuir contenido en vídeo.'
+-
+  slug: 'weather'
+  name: 'Meteorología'
+  description: 'Herramientas de IA para pronosticar el tiempo, analizar datos climáticos y vigilar el medio ambiente.'
+-
+  slug: 'writing-assistants'
+  name: 'Asistentes de escritura'
+  description: 'Asistentes de escritura con IA para redactar, editar y mejorar textos en cualquier formato.'
+-
+  slug: 'models'
+  name: 'Modelos'
+  description: 'Modelos fundacionales de IA y grandes modelos de lenguaje que impulsan la próxima generación de aplicaciones de IA.'
+-
+  slug: 'ai-directories'
+  name: 'Directorios de IA'
+  description: 'Directorios completos de herramientas y servicios de IA.'
+-
+  slug: 'cybersecurity'
+  name: 'Ciberseguridad'
+  description: 'Herramientas de IA para detectar amenazas, escanear vulnerabilidades y monitorizar la seguridad.'
+-
+  slug: 'mental-health'
+  name: 'Salud mental'
+  description: 'Herramientas de IA para el bienestar mental, el apoyo terapéutico, el seguimiento del ánimo y el equilibrio emocional.'
+-
+  slug: 'fitness'
+  name: 'Fitness'
+  description: 'Entrenadores personales con IA, generadores de rutinas y herramientas de seguimiento del ejercicio.'
+-
+  slug: 'diagramming'
+  name: 'Diagramas'
+  description: 'Herramientas de IA para crear diagramas de flujo, diagramas de arquitectura y documentación visual.'
+-
+  slug: 'data-labeling'
+  name: 'Etiquetado de datos'
+  description: 'Herramientas de IA para anotar y etiquetar conjuntos de datos usados en el entrenamiento de machine learning.'
+-
+  slug: 'prompt-tools'
+  name: 'Herramientas de prompts'
+  description: 'Herramientas para la ingeniería de prompts, la gestión de prompts y la optimización de las respuestas de la IA.'
+-
+  slug: 'travel'
+  name: 'Viajes'
+  description: 'Herramientas de IA para planificar itinerarios, investigar destinos y ayudar con la reserva de viajes.'
+-
+  slug: 'contract-management'
+  name: 'Gestión de contratos'
+  description: 'Herramientas de IA para redactar, revisar y gestionar contratos y acuerdos.'
+-
+  slug: 'compliance'
+  name: 'Cumplimiento normativo'
+  description: 'Herramientas de IA para el cumplimiento normativo, la gestión de riesgos y el seguimiento de políticas.'
+-
+  slug: 'computer-vision'
+  name: 'Visión artificial'
+  description: 'Herramientas de IA para reconocer imágenes, detectar objetos y hacer análisis visual.'
+-
+  slug: 'synthetic-data'
+  name: 'Datos sintéticos'
+  description: 'Herramientas de IA para generar conjuntos de datos sintéticos con los que entrenar y probar modelos de ML.'
+-
+  slug: 'ar-vr'
+  name: 'RA/RV'
+  description: 'Herramientas de IA para experiencias de realidad aumentada y realidad virtual.'
+-
+  slug: 'accessibility'
+  name: 'Accesibilidad'
+  description: 'Herramientas de IA para tecnología de apoyo y para que el contenido sea accesible para todos.'
+-
+  slug: 'construction'
+  name: 'Construcción'
+  description: 'Herramientas de IA para gestionar proyectos de construcción, planificar y supervisar obras.'
+-
+  slug: 'manufacturing'
+  name: 'Fabricación'
+  description: 'Herramientas de IA para producción industrial, control de calidad y automatización de fábricas.'
+-
+  slug: 'energy'
+  name: 'Energía'
+  description: 'Herramientas de IA para gestionar la energía, optimizar redes eléctricas y seguir la sostenibilidad.'
+-
+  slug: 'drug-discovery'
+  name: 'Descubrimiento de fármacos'
+  description: 'Herramientas de IA para la investigación farmacéutica, el diseño molecular y los ensayos clínicos.'
+-
+  slug: 'tax-accounting'
+  name: 'Impuestos y contabilidad'
+  description: 'Herramientas de IA para preparar impuestos, llevar la contabilidad y gestionar registros financieros.'
+-
+  slug: 'insurance'
+  name: 'Seguros'
+  description: 'Herramientas de IA para la suscripción, la tramitación de siniestros y la evaluación de riesgos de seguros.'
+-
+  slug: 'events'
+  name: 'Eventos'
+  description: 'Herramientas de IA para planificar y gestionar eventos y para conectar con los asistentes.'
+-
+  slug: 'sports-analytics'
+  name: 'Analítica deportiva'
+  description: 'Herramientas de IA para analizar el rendimiento deportivo, aportar ideas a los entrenadores y seguir a los jugadores.'
+-
+  slug: 'content-moderation'
+  name: 'Moderación de contenido'
+  description: 'Herramientas de IA para confianza y seguridad, detección de contenido dañino y aplicación de políticas.'
+-
+  slug: 'chatbot-builders'
+  name: 'Creadores de chatbots'
+  description: 'Plataformas y herramientas para crear, desplegar y gestionar chatbots de IA.'
+-
+  slug: 'localization'
+  name: 'Localización'
+  description: 'Herramientas de IA para localizar software, apps y contenido para mercados globales.'
+-
+  slug: 'mind-mapping'
+  name: 'Mapas mentales'
+  description: 'Herramientas de IA para generar ideas, trazar mapas de ideas y pensar de forma visual.'
+-
+  slug: 'medical-imaging'
+  name: 'Imagen médica'
+  description: 'Herramientas de IA para radiología, patología y análisis de imágenes médicas de diagnóstico.'
+-
+  slug: 'patent-tools'
+  name: 'Herramientas de patentes'
+  description: 'Herramientas de IA para investigar patentes, buscar antecedentes y redactar solicitudes de patente.'
+-
+  slug: 'recruiting'
+  name: 'Reclutamiento'
+  description: 'Herramientas de IA para captar talento, filtrar candidatos y gestionar procesos de selección.'
+-
+  slug: 'telemedicine'
+  name: 'Telemedicina'
+  description: 'Herramientas de IA para consultas médicas a distancia, monitorización de pacientes y salud digital.'
+-
+  slug: 'fleet-management'
+  name: 'Gestión de flotas'
+  description: 'Herramientas de IA para el seguimiento de flotas, la optimización de rutas y las operaciones logísticas.'
+-
+  slug: 'privacy'
+  name: 'Privacidad'
+  description: 'Herramientas de IA para la privacidad de datos, la anonimización y la protección de la información personal.'
+-
+  slug: 'robotics'
+  name: 'Robótica'
+  description: 'Herramientas de IA para diseñar y simular robots y para sistemas autónomos.'
+-
+  slug: 'web3'
+  name: 'Web3'
+  description: 'Herramientas de IA para blockchain, DeFi, NFT y aplicaciones descentralizadas.'
+-
+  slug: 'biotech'
+  name: 'Biotecnología'
+  description: 'Herramientas de IA para genómica, proteómica e investigación en ciencias de la vida.'
+-
+  slug: 'geospatial'
+  name: 'Geoespacial'
+  description: 'Herramientas de IA para SIG, análisis de imágenes de satélite e inteligencia de localización.'
+-
+  slug: 'architecture'
+  name: 'Arquitectura'
+  description: 'Herramientas de IA para el diseño arquitectónico, la planificación de edificios y la visualización de espacios.'
+-
+  slug: 'nutrition'
+  name: 'Nutrición'
+  description: 'Herramientas de IA para planificar comidas, seguir la dieta y analizar la nutrición.'
+-
+  slug: 'parenting'
+  name: 'Crianza'
+  description: 'Herramientas de IA para el desarrollo infantil, la orientación a madres y padres y la organización familiar.'
+-
+  slug: 'pets'
+  name: 'Mascotas'
+  description: 'Herramientas de IA para el cuidado de mascotas, el control de su salud y la orientación veterinaria.'
+-
+  slug: 'fintech'
+  name: 'FinTech'
+  description: 'Herramientas de IA para pagos, banca, préstamos e innovación en servicios financieros.'
+-
+  slug: 'cleantech'
+  name: 'CleanTech'
+  description: 'Herramientas de IA para energía limpia, reducción de carbono y sostenibilidad ambiental.'
+-
+  slug: 'reading'
+  name: 'Lectura'
+  description: 'Herramientas de IA para resúmenes de libros, lectura rápida y comprensión lectora.'
+-
+  slug: 'storytelling'
+  name: 'Narrativa'
+  description: 'Herramientas de IA para escribir narrativa, ficción interactiva y construir mundos.'
+-
+  slug: 'dubbing'
+  name: 'Doblaje'
+  description: 'Herramientas de IA para doblar vídeos, sincronizar labios y reemplazar voces en varios idiomas.'
+-
+  slug: 'identity'
+  name: 'Identidad'
+  description: 'Herramientas de IA para verificar la identidad, la biometría y la autenticación.'
+-
+  slug: 'wellness'
+  name: 'Bienestar'
+  description: 'Herramientas de IA para mindfulness, seguimiento del sueño, meditación y bienestar integral.'
+-
+  slug: 'dating'
+  name: 'Citas'
+  description: 'Herramientas de IA para optimizar perfiles de citas, encontrar pareja y recibir consejos de pareja.'
+-
+  slug: 'nonprofit'
+  name: 'Organizaciones sin ánimo de lucro'
+  description: 'Herramientas de IA pensadas para organizaciones sin ánimo de lucro, la captación de fondos y el impacto social.'
+-
+  slug: 'debugging'
+  name: 'Depuración'
+  description: 'Herramientas de IA para identificar, diagnosticar y corregir errores y fallos de software.'
+-
+  slug: 'api-tools'
+  name: 'Herramientas de API'
+  description: 'Herramientas de IA para diseñar, probar, documentar y gestionar APIs.'
+-
+  slug: 'database-tools'
+  name: 'Herramientas de bases de datos'
+  description: 'Herramientas de IA para diseñar, consultar, optimizar y gestionar bases de datos.'
+-
+  slug: 'cloud-management'
+  name: 'Gestión de la nube'
+  description: 'Herramientas de IA para optimizar la infraestructura en la nube, controlar costes y gestionar operaciones.'
+-
+  slug: 'iot'
+  name: 'IoT'
+  description: 'Herramientas de IA para gestionar dispositivos del Internet de las cosas y para inteligencia en el edge.'
+-
+  slug: '3d-printing'
+  name: 'Impresión 3D'
+  description: 'Herramientas de IA para diseño generativo, preparación de modelos y fabricación aditiva.'
+-
+  slug: 'space-tech'
+  name: 'Tecnología espacial'
+  description: 'Herramientas de IA para ingeniería aeroespacial, operaciones de satélites y exploración espacial.'
+-
+  slug: 'sentiment-analysis'
+  name: 'Análisis de sentimiento'
+  description: 'Herramientas de IA para analizar opiniones, emociones y sentimiento en texto y voz.'
+-
+  slug: 'documentation'
+  name: 'Documentación'
+  description: 'Herramientas de IA para escribir, mantener y generar documentación técnica.'
+-
+  slug: 'observability'
+  name: 'Observabilidad'
+  description: 'Herramientas de IA para registros, trazas, monitorización y conocimiento del rendimiento de las aplicaciones.'
+-
+  slug: 'software-testing'
+  name: 'Pruebas de software'
+  description: 'Herramientas de IA para pruebas automatizadas, generación de tests y flujos de control de calidad.'
+-
+  slug: 'character-design'
+  name: 'Diseño de personajes'
+  description: 'Herramientas de IA para diseñar personajes, avatares y personas digitales.'
+-
+  slug: 'ai-newsletters'
+  name: 'Boletines de IA'
+  description: 'Boletines de IA que merece la pena seguir, con herramientas nuevas, lanzamientos de modelos y lo que de verdad se mueve en el sector.'
+-
+  slug: 'others'
+  name: 'Otros'
+  description: 'Herramientas y recursos adicionales.'

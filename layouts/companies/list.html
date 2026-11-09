@@ -21,38 +21,38 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Companies</span>
+      <span class="breadcrumb__cur">{{ i18n "companies" }}</span>
     </nav>
 
     <header class="pg-hero">
-      <h1 class="pg-hero__title">Top AI <span>Companies</span> &amp; Labs</h1>
-      <p class="pg-hero__desc">Who is building the AI tools you use. Every company here ships at least one product in the directory, with headquarters, founding year, and a link to everything they have built.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_companies" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "who_is_building_the_ai_tools" }}</p>
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $allCompanies) }}</strong> companies
+        <strong>{{ partial "count.html" (len $allCompanies) }}</strong> {{ i18n "companies_2" }}
         <span class="sep">·</span>
-        <strong>{{ partial "count.html" (len $tools) }}</strong> tools
+        <strong>{{ partial "count.html" (len $tools) }}</strong> {{ i18n "tools" }}
       </div>
     </header>
 
     <div class="company-search">
       <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="company-search-input" placeholder="Search companies by name or headquarters…" autocomplete="off" spellcheck="false" aria-label="Search companies">
+      <input type="text" id="company-search-input" placeholder="{{ i18n "search_companies_by_name_or_headquarters" }}" autocomplete="off" spellcheck="false" aria-label="{{ i18n "search_companies" }}">
     </div>
 
-    <div class="price-bar" id="company-sort-bar" role="group" aria-label="Sort companies">
-      <span class="price-bar__label">// sort by</span>
-      <button class="pf active" data-sort="popularity" data-dir="desc">popularity <span class="pf__arrow">↓</span></button>
-      <button class="pf" data-sort="founded" data-dir="desc">founded year <span class="pf__arrow">↓</span></button>
+    <div class="price-bar" id="company-sort-bar" role="group" aria-label="{{ i18n "sort_companies" }}">
+      <span class="price-bar__label">{{ i18n "sort_by" }}</span>
+      <button class="pf active" data-sort="popularity" data-dir="desc">{{ i18n "popularity" }} <span class="pf__arrow">↓</span></button>
+      <button class="pf" data-sort="founded" data-dir="desc">{{ i18n "founded_year" }} <span class="pf__arrow">↓</span></button>
       <button class="pf" data-sort="az" data-dir="asc">a–z <span class="pf__arrow">↓</span></button>
     </div>
 
-    <div class="price-bar" id="company-native-bar" role="group" aria-label="Filter by AI native">
-      <span class="price-bar__label">// type</span>
-      <button class="pf active" data-native="all">all <span class="pf__n">{{ len $allCompanies }}</span></button>
-      <button class="pf" data-native="yes">AI native <span class="pf__n">{{ $nativeCount }}</span></button>
-      <button class="pf" data-native="no">established <span class="pf__n">{{ sub (len $allCompanies) $nativeCount }}</span></button>
+    <div class="price-bar" id="company-native-bar" role="group" aria-label="{{ i18n "filter_by_ai_native" }}">
+      <span class="price-bar__label">{{ i18n "type" }}</span>
+      <button class="pf active" data-native="all">{{ i18n "all" }} <span class="pf__n">{{ len $allCompanies }}</span></button>
+      <button class="pf" data-native="yes">{{ i18n "ai_native" }} <span class="pf__n">{{ $nativeCount }}</span></button>
+      <button class="pf" data-native="no">{{ i18n "established" }} <span class="pf__n">{{ sub (len $allCompanies) $nativeCount }}</span></button>
     </div>
 
     <div class="company-list" id="company-grid" data-sort="popularity">
@@ -71,12 +71,12 @@
             <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
           </div>
           <div class="company-row__body">
-            <h2 class="company-row__name"><a href="{{ .page.RelPermalink }}" class="company-row__link">{{ $p.name }}</a>{{ if $p.ai_native }} <span class="native-badge" title="Built around AI from day one">AI native</span>{{ end }}</h2>
+            <h2 class="company-row__name"><a href="{{ .page.RelPermalink }}" class="company-row__link">{{ $p.name }}</a>{{ if $p.ai_native }} <span class="native-badge" title="{{ i18n "built_around_ai_from_day_one" }}">{{ i18n "ai_native" }}</span>{{ end }}</h2>
             <p class="company-row__desc">{{ or $p.subtitle ($p.description | truncate 110) }}</p>
             <div class="company-row__meta">
               {{ with $p.headquarters }}<span>{{ . }}</span><span class="stat-sep">·</span>{{ end }}
-              {{ if gt $founded 0 }}<span>Founded {{ $founded }}</span><span class="stat-sep">·</span>{{ end }}
-              <span class="company-row__count">{{ partial "count.html" $count }} tool{{ if ne $count 1 }}s{{ end }}</span>
+              {{ if gt $founded 0 }}<span>{{ i18n "founded_in" (dict "year" $founded) }}</span><span class="stat-sep">·</span>{{ end }}
+              <span class="company-row__count">{{ i18n "n_tools" (dict "count" $count "n" (partial "count.html" $count)) }}</span>
             </div>
           </div>
           {{ if $companyTools }}
@@ -97,12 +97,12 @@
       {{ end }}
     </div>
 
-    <p class="company-empty" id="company-empty" style="display:none">No companies match your search.</p>
+    <p class="company-empty" id="company-empty" style="display:none">{{ i18n "no_companies_match_your_search" }}</p>
 
     <section class="company-about">
-      <h2>About this list</h2>
-      <p>This directory covers {{ partial "count.html" (len $allCompanies) }} AI companies, from frontier labs such as {{ range $i, $r := first 3 $ranked }}{{ if $i }}{{ if eq $i 2 }}, and {{ else }}, {{ end }}{{ end }}<a href="{{ $r.page.RelPermalink }}">{{ $r.page.Params.name }}</a>{{ end }} to small teams shipping a single product. The default order weighs how widely used a company's products are, then how many of its tools are listed here.</p>
-      <p>Switch to founded year to see the oldest names first, or search by city to find who is building AI near you. Open any company to see its full lineup, founders, and the tools it makes.</p>
+      <h2>{{ i18n "about_this_list" }}</h2>
+      {{ $names := slice }}{{ range first 3 $ranked }}{{ $names = $names | append (printf "<a href=\"%s\">%s</a>" .page.RelPermalink (.page.Params.name | htmlEscape)) }}{{ end }}<p>{{ i18n "companies_intro" (dict "n" (partial "count.html" (len $allCompanies)) "names" (delimit $names ", " (i18n "list_last_sep"))) | safeHTML }}</p>
+      <p>{{ i18n "switch_to_founded_year_to_see" }}</p>
     </section>
 
   </main>

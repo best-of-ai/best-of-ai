@@ -21,7 +21,7 @@
 {{ $relatedCats := slice }}
 {{ range $p.related_categories }}
   {{ $slug := . }}
-  {{ range hugo.Data.categories }}
+  {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
     {{ if eq .slug $slug }}{{ $relatedCats = $relatedCats | append . }}{{ end }}
   {{ end }}
 {{ end }}
@@ -32,10 +32,10 @@
 
   <main class="hl-center" id="main-content">
 
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+    <nav class="breadcrumb" aria-label="{{ i18n "breadcrumb" }}">
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">/</span>
-      <a href="{{ "/journal/" | relURL }}">The AI Journal</a>
+      <a href="{{ "/journal/" | relLangURL }}">{{ i18n "the_ai_journal" }}</a>
       <span class="breadcrumb__sep" aria-hidden="true">/</span>
       <span class="breadcrumb__cur" aria-current="page">{{ $p.title | default .Title }}</span>
     </nav>
@@ -43,7 +43,7 @@
     <article class="journal-post">
 
       <header class="journal-post__header">
-        <p class="journal-post__eyebrow"><a href="{{ "/journal/" | relURL }}">The AI Journal</a></p>
+        <p class="journal-post__eyebrow"><a href="{{ "/journal/" | relLangURL }}">{{ i18n "the_ai_journal" }}</a></p>
         <h1 class="journal-post__title">{{ $p.title | default .Title }}</h1>
         {{ with $p.subtitle }}<p class="journal-post__sub">{{ . }}</p>{{ end }}
 
@@ -65,9 +65,9 @@
 
           {{ if or $relatedCats $relatedTools $relatedProfs }}
           <span class="journal-post__meta-sep" aria-hidden="true">·</span>
-          <nav class="journal-post__related" aria-label="Related topics">
+          <nav class="journal-post__related" aria-label="{{ i18n "related_topics" }}">
             {{ range $relatedCats }}
-            <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="tag-chip journal-tag journal-tag--cat" rel="tag">{{ .name }}</a>
+            <a href="{{ printf "/categories/%s/" .slug | relLangURL }}" class="tag-chip journal-tag journal-tag--cat" rel="tag">{{ .name }}</a>
             {{ end }}
             {{ range $relatedTools }}
             <a href="{{ .RelPermalink }}" class="tag-chip journal-tag journal-tag--tool">{{ .Params.name }}</a>

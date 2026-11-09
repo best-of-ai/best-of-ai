@@ -8,9 +8,9 @@
 {{ $models   := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
 {{ $hardware := sort (where (where .Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
 
-{{ $items := $tools }}{{ $label := "AI tools" }}{{ $card := "tool-card.html" }}
-{{ if eq $kind "models" }}{{ $items = $models }}{{ $label = "AI models" }}{{ $card = "model-card.html" }}{{ end }}
-{{ if eq $kind "hardware" }}{{ $items = $hardware }}{{ $label = "AI hardware" }}{{ $card = "gpu-card.html" }}{{ end }}
+{{ $items := $tools }}{{ $label := "ai_tools" }}{{ $what := "what_ai_tools" }}{{ $by := "ai_tools_by" }}{{ $card := "tool-card.html" }}
+{{ if eq $kind "models" }}{{ $items = $models }}{{ $label = "ai_models" }}{{ $what = "what_ai_models" }}{{ $by = "ai_models_by" }}{{ $card = "model-card.html" }}{{ end }}
+{{ if eq $kind "hardware" }}{{ $items = $hardware }}{{ $label = "ai_hardware" }}{{ $what = "what_ai_hardware" }}{{ $by = "ai_hardware_by" }}{{ $card = "gpu-card.html" }}{{ end }}
 
 {{ $logo := or $cp.logo_url (printf "https://www.google.com/s2/favicons?domain=%s&sz=64" $cp.website) }}
 
@@ -20,14 +20,14 @@
 
   <main class="hl-center">
 
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+    <nav class="breadcrumb" aria-label="{{ i18n "breadcrumb" }}">
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/companies/" | relURL }}">Companies</a>
+      <a href="{{ "/companies/" | relLangURL }}">{{ i18n "companies" }}</a>
       <span class="breadcrumb__sep">/</span>
       <a href="{{ $co.RelPermalink }}">{{ $cp.name }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">{{ title $kind }}</span>
+      <span class="breadcrumb__cur">{{ i18n (printf "kind_%s" $kind) }}</span>
     </nav>
 
     <header class="co-sub__head">
@@ -37,15 +37,15 @@
           <span style="display:none">{{ substr $cp.name 0 1 }}</span>
         </div>
         <div>
-          <h1 class="co-sub__title">{{ $label | title }} by {{ $cp.name }} <span class="co-section__count">{{ len $items }}</span></h1>
-          <p class="co-sub__lede">The full list of {{ $label }} from <a href="{{ $co.RelPermalink }}">{{ $cp.name }}</a>, best rated first.</p>
+          <h1 class="co-sub__title">{{ i18n $by (dict "name" $cp.name) }} <span class="co-section__count">{{ len $items }}</span></h1>
+          <p class="co-sub__lede">{{ i18n "co_sub_lede" (dict "what" (i18n $what) "url" $co.RelPermalink "name" ($cp.name | htmlEscape)) | safeHTML }}</p>
         </div>
       </div>
       {{ if gt (len (where (slice (len $tools) (len $models) (len $hardware)) "ne" 0)) 1 }}
-      <nav class="co-sub__nav" aria-label="{{ $cp.name }} sections">
-        {{ if $tools }}<a class="co-sub__tab{{ if eq $kind "tools" }} active{{ end }}" href="{{ printf "/companies/%s/tools/" $slug | relURL }}">Tools<span>{{ len $tools }}</span></a>{{ end }}
-        {{ if $models }}<a class="co-sub__tab{{ if eq $kind "models" }} active{{ end }}" href="{{ printf "/companies/%s/models/" $slug | relURL }}">Models<span>{{ len $models }}</span></a>{{ end }}
-        {{ if $hardware }}<a class="co-sub__tab{{ if eq $kind "hardware" }} active{{ end }}" href="{{ printf "/companies/%s/hardware/" $slug | relURL }}">Hardware<span>{{ len $hardware }}</span></a>{{ end }}
+      <nav class="co-sub__nav" aria-label="{{ i18n "name_sections" (dict "name" $cp.name) }}">
+        {{ if $tools }}<a class="co-sub__tab{{ if eq $kind "tools" }} active{{ end }}" href="{{ printf "/companies/%s/tools/" $slug | relLangURL }}">{{ i18n "tools_2" }}<span>{{ len $tools }}</span></a>{{ end }}
+        {{ if $models }}<a class="co-sub__tab{{ if eq $kind "models" }} active{{ end }}" href="{{ printf "/companies/%s/models/" $slug | relLangURL }}">{{ i18n "models" }}<span>{{ len $models }}</span></a>{{ end }}
+        {{ if $hardware }}<a class="co-sub__tab{{ if eq $kind "hardware" }} active{{ end }}" href="{{ printf "/companies/%s/hardware/" $slug | relLangURL }}">{{ i18n "hardware" }}<span>{{ len $hardware }}</span></a>{{ end }}
       </nav>
       {{ end }}
     </header>
@@ -54,7 +54,7 @@
       {{ range $i, $it := $items }}{{ partial $card (dict "page" $it "p" $it.Params) }}{{ end }}
     </div>
 
-    <a class="co-sub__back" href="{{ $co.RelPermalink }}">← Back to {{ $cp.name }}</a>
+    <a class="co-sub__back" href="{{ $co.RelPermalink }}">{{ i18n "back_to_name" (dict "name" $cp.name) }}</a>
 
   </main>
 

@@ -4,5 +4,5 @@
   needs far fewer variants than nav-key.html.
 */}}
 {{- $fixed := "" -}}
-{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") .RelPermalink }}{{ $fixed = .RelPermalink }}{{ end -}}
-{{- return printf "%s|%t|%s" .Section .IsHome $fixed -}}
+{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") (partial "page-path.html" .) }}{{ $fixed = partial "page-path.html" . }}{{ end -}}
+{{- return printf "%s|%s|%t|%s" .Language.Lang .Section .IsHome $fixed -}}

@@ -8,14 +8,14 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Help Center</span>
+      <span class="breadcrumb__cur">{{ i18n "help_center" }}</span>
     </nav>
 
     <div class="journal-hero">
-      <h1 class="journal-hero__title">Help Center</h1>
-      <p class="journal-hero__sub">{{ .Params.description | default "How Best of AI works, from curation to contributing." }}</p>
+      <h1 class="journal-hero__title">{{ i18n "help_center" }}</h1>
+      <p class="journal-hero__sub">{{ .Params.description | default (i18n "help_default_desc") }}</p>
     </div>
 
     {{ if $posts }}

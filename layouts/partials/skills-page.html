@@ -20,12 +20,12 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
       {{ if eq $activeSlug "all" }}
-      <span class="breadcrumb__cur">Skills</span>
+      <span class="breadcrumb__cur">{{ i18n "skills" }}</span>
       {{ else }}
-      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <a href="{{ "/skills/" | relLangURL }}">{{ i18n "skills" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $activeName }}</span>
       {{ end }}
@@ -33,51 +33,51 @@
 
     <div class="pg-hero">
       {{ if eq $activeSlug "all" }}
-      <h1 class="pg-hero__title">Top AI <span>Skill</span> Repos for LLM Agents</h1>
-      <p class="pg-hero__desc">GitHub repositories that package Agent Skills for Claude and other LLMs, ranked by GitHub stars.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_skill_repos" | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ i18n "github_repositories_that_package_agent_skills" }}</p>
       {{ else }}
-      <h1 class="pg-hero__title">Best <span>{{ $activeName }}</span> Agent Skills</h1>
-      <p class="pg-hero__desc">{{ with $page.Params.description }}{{ . }} {{ end }}{{ len $tableSkills }} GitHub {{ cond (eq (len $tableSkills) 1) "repo that packages" "repos that package" }} {{ $activeName | lower }} Agent Skills for Claude Code, Codex, Cursor and other agents{{ with index $tableSkills 0 }}, led by {{ .Params.name }} by {{ .Params.author }}{{ end }}. Ranked by GitHub stars.</p>
+      <h1 class="pg-hero__title">{{ i18n "h1_agent_skills" (dict "name" ($activeName | htmlEscape)) | safeHTML }}</h1>
+      <p class="pg-hero__desc">{{ with $page.Params.description }}{{ . }} {{ end }}{{ $lead := "" }}{{ with index $tableSkills 0 }}{{ $lead = i18n "led_by" (dict "name" .Params.name "author" .Params.author) }}{{ end }}{{ i18n "skills_page_desc" (dict "count" (len $tableSkills) "n" (len $tableSkills) "cat" ($activeName | lower) "lead" $lead) }}</p>
       {{ end }}
       <div class="pg-hero__meta">
-        <strong>{{ partial "count.html" (len $tableSkills) }}</strong> repos
+        <strong>{{ partial "count.html" (len $tableSkills) }}</strong> {{ i18n "repos" }}
         <span class="sep">·</span>
-        <strong>{{ partial "count.html" (len $authors) }}</strong> authors
+        <strong>{{ partial "count.html" (len $authors) }}</strong> {{ i18n "authors" }}
         <span class="sep">·</span>
-        <span>ranked by stars</span>
+        <span>{{ i18n "ranked_by_stars" }}</span>
       </div>
     </div>
 
     <div class="skills-toolbar">
       <label class="skills-search">
         <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input type="search" id="skills-q" placeholder="Filter skills by name, author or topic…" autocomplete="off">
+        <input type="search" id="skills-q" placeholder="{{ i18n "filter_skills_by_name_author_or" }}" autocomplete="off">
       </label>
       <div class="price-bar" id="skills-price-bar">
-        <span class="price-bar__label">// price</span>
-        <button class="pf active" data-price="all">all</button>
-        <button class="pf" data-price="Free">free</button>
-        <button class="pf" data-price="Paid">paid</button>
+        <span class="price-bar__label">{{ i18n "price" }}</span>
+        <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+        <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+        <button class="pf" data-price="Paid">{{ i18n "paid" }}</button>
       </div>
       <div class="price-bar" id="skills-sort-bar">
-        <span class="price-bar__label">// sort</span>
-        <button class="pf active" data-sort="stars">top stars</button>
-        <button class="pf" data-sort="week">trending</button>
+        <span class="price-bar__label">{{ i18n "sort" }}</span>
+        <button class="pf active" data-sort="stars">{{ i18n "top_stars" }}</button>
+        <button class="pf" data-sort="week">{{ i18n "trending" }}</button>
       </div>
     </div>
 
     <div class="prof-cat-tabs" id="skills-type-tabs">
-      <a href="{{ "/skills/" | relURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">all <span class="prof-cat-count">{{ partial "count.html" (len $allSkills) }}</span></a>
-      {{ range sort hugo.Data.skill_categories "sort_order" }}
+      <a href="{{ "/skills/" | relLangURL }}" class="pf{{ if eq $activeSlug "all" }} active{{ end }}">{{ i18n "all" }} <span class="prof-cat-count">{{ partial "count.html" (len $allSkills) }}</span></a>
+      {{ range sort (partialCached "data-lang.html" "skill_categories" "skill_categories" site.Language.Lang) "sort_order" }}
         {{ $cat := . }}
         {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
         {{ if gt $count 0 }}
-        <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="pf{{ if eq $activeSlug $cat.slug }} active{{ end }}">{{ $cat.name }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
+        <a href="{{ printf "/skills/category/%s/" $cat.slug | relLangURL }}" class="pf{{ if eq $activeSlug $cat.slug }} active{{ end }}">{{ $cat.name }} <span class="prof-cat-count">{{ partial "count.html" $count }}</span></a>
         {{ end }}
       {{ end }}
     </div>
 
-    <p class="skills-empty" id="skills-empty" hidden>No skills match your filter.</p>
+    <p class="skills-empty" id="skills-empty" hidden>{{ i18n "no_skills_match_your_filter" }}</p>
 
     {{ if $tableSkills }}
     <div class="skill-list" id="skills-grid">
@@ -86,7 +86,7 @@
       {{ end }}
     </div>
     {{ else }}
-    <p style="color:var(--fg-muted);padding:2rem 0">No skills in this category yet.</p>
+    <p style="color:var(--fg-muted);padding:2rem 0">{{ i18n "no_skills_in_this_category_yet" }}</p>
     {{ end }}
 
   </main>

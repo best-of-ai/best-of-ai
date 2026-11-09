@@ -1,8 +1,55 @@
 baseURL = "https://bestofai.io/"
-locale = "en-US"
 title = "Best of AI"
 enableRobotsTXT = true
 disableKinds = ["sitemap"]
+
+# English lives at the root, other languages under /<lang>/
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    label        = "English"
+    locale       = "en-US"
+    weight       = 1
+  [languages.es]
+    label        = "Español"
+    locale       = "es-ES"
+    weight       = 2
+    [languages.es.params]
+      description = "Herramientas de IA elegidas a mano, sin relleno ni apps mediocres. Cada una está seleccionada por su calidad, su innovación y su impacto real."
+
+# English content is mounted into every language so each page exists everywhere.
+# content_es/ is mounted over it for Spanish: a translated file replaces its English source.
+[module]
+  [[module.mounts]]
+    source = "content_es"
+    target = "content"
+    [module.mounts.sites.matrix]
+      languages = ["es"]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    [module.mounts.sites.matrix]
+      languages = ["en", "es"]
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
 
 [params]
   description = "Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact."

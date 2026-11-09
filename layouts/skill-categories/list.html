@@ -8,24 +8,24 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/skills/" | relURL }}">Skills</a>
+      <a href="{{ "/skills/" | relLangURL }}">{{ i18n "skills" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Categories</span>
+      <span class="breadcrumb__cur">{{ i18n "categories_2" }}</span>
     </nav>
 
     <div class="cat-list-hero">
-      <h1 class="cat-list-hero__title">Skill Categories</h1>
-      <p class="cat-list-hero__sub">Browse {{ partial "count.html" (len hugo.Data.skill_categories) }} categories of AI Agent Skills.</p>
+      <h1 class="cat-list-hero__title">{{ i18n "skill_categories" }}</h1>
+      <p class="cat-list-hero__sub">{{ i18n "browse_n_skill_categories" (dict "n" (partial "count.html" (len (partialCached "data-lang.html" "skill_categories" "skill_categories" site.Language.Lang)))) }}</p>
     </div>
 
     <div class="cat-list-grid">
-      {{ range sort hugo.Data.skill_categories "sort_order" }}
+      {{ range sort (partialCached "data-lang.html" "skill_categories" "skill_categories" site.Language.Lang) "sort_order" }}
         {{ $cat := . }}
         {{ $count := len (where $allSkills "Params.skill_type" $cat.filter_value) }}
         {{ if gt $count 0 }}
-        <a href="{{ printf "/skills/category/%s/" $cat.slug | relURL }}" class="cat-list-card">
+        <a href="{{ printf "/skills/category/%s/" $cat.slug | relLangURL }}" class="cat-list-card">
           <div class="cat-list-card__icon">{{ substr $cat.name 0 1 }}</div>
           <div class="cat-list-card__body">
             <span class="cat-list-card__name">{{ $cat.name }}</span>

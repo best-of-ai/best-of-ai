@@ -8,20 +8,20 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <span class="breadcrumb__cur">Tags</span>
+      <span class="breadcrumb__cur">{{ i18n "tags" }}</span>
     </nav>
 
     <div class="cat-hero">
       <div class="cat-hero__icon">T</div>
       <div>
-        <h1 class="cat-hero__title">Browse by Tag</h1>
-        <p class="cat-hero__desc">Explore AI tools grouped by topic, use-case, and capability.</p>
+        <h1 class="cat-hero__title">{{ i18n "browse_by_tag" }}</h1>
+        <p class="cat-hero__desc">{{ i18n "explore_ai_tools_grouped_by_topic" }}</p>
         <div class="cat-hero__meta">
-          <span><strong>{{ partial "count.html" (len .Data.Terms) }}</strong> tags</span>
+          <span><strong>{{ partial "count.html" (len .Data.Terms) }}</strong> {{ i18n "tags_2" }}</span>
           <span class="stat-sep">·</span>
-          <span><strong>{{ partial "count.html" (len $allTools) }}</strong> tools</span>
+          <span><strong>{{ partial "count.html" (len $allTools) }}</strong> {{ i18n "tools" }}</span>
         </div>
       </div>
     </div>

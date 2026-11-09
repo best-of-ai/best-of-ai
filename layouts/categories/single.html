@@ -16,9 +16,9 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/categories/" | relURL }}">Categories</a>
+      <a href="{{ "/categories/" | relLangURL }}">{{ i18n "categories_2" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $p.name }}</span>
     </nav>
@@ -27,23 +27,23 @@
     <div class="cat-hero">
       <div class="cat-hero__icon">{{ substr $p.name 0 1 }}</div>
       <div>
-        <h1 class="cat-hero__title">Best AI {{ $p.name }} Tools</h1>
+        <h1 class="cat-hero__title">{{ i18n "best_ai_cat_tools" (dict "name" $p.name) }}</h1>
         <p class="cat-hero__desc">{{ $p.description }}</p>
         <div class="cat-hero__meta">
-          <span><strong>{{ partial "count.html" (len $catTools) }}</strong> tools</span>
+          <span><strong>{{ partial "count.html" (len $catTools) }}</strong> {{ i18n "tools" }}</span>
           <span class="stat-sep">·</span>
-          <span>handpicked &amp; curated</span>
+          <span>{{ i18n "handpicked_curated" }}</span>
         </div>
       </div>
     </div>
 
     <!-- Price filter -->
     <div class="price-bar" id="price-bar" style="margin-bottom:1.5rem">
-      <span class="price-bar__label">// price</span>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Freemium">freemium</button>
-      <button class="pf" data-price="Paid">paid</button>
+      <span class="price-bar__label">{{ i18n "price" }}</span>
+      <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+      <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+      <button class="pf" data-price="Freemium">{{ i18n "freemium" }}</button>
+      <button class="pf" data-price="Paid">{{ i18n "paid" }}</button>
     </div>
 
     <!-- Tools grid -->
@@ -54,21 +54,21 @@
       {{ end }}
     </div>
     {{ else }}
-    <p style="color:var(--fg-muted);padding:2rem 0">No tools in this category yet.</p>
+    <p style="color:var(--fg-muted);padding:2rem 0">{{ i18n "no_tools_in_this_category_yet" }}</p>
     {{ end }}
 
     <!-- Other categories -->
     <section class="other-cats-section">
-      <h2 class="other-cats__title">// browse other categories</h2>
+      <h2 class="other-cats__title">{{ i18n "browse_other_categories" }}</h2>
       <div class="other-cats-grid">
-        {{ range hugo.Data.categories }}
+        {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
           {{ $cat := . }}
           {{ if ne $cat.slug $slug }}
             {{ $ctP := where $tools "Params.category" $cat.slug }}
             {{ $ctE := where $tools "Params.extra_categories" "intersect" (slice $cat.slug) }}
             {{ $ct  := union $ctP $ctE }}
             {{ if $ct }}
-            <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="other-cat-card">
+            <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="other-cat-card">
               <span class="other-cat-card__name">{{ $cat.name }}</span>
               <span class="other-cat-card__count">{{ partial "count.html" (len $ct) }}</span>
             </a>

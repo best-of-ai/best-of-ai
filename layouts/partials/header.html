@@ -4,7 +4,7 @@
 
 {{/* Top categories sorted by tool count */}}
 {{ $catList := slice }}
-{{ range hugo.Data.categories }}
+{{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
   {{ $count := len (where $tools "Params.category" .slug) }}
   {{ if gt $count 0 }}
     {{ $catList = $catList | append (dict "name" .name "slug" .slug "count" $count) }}
@@ -25,7 +25,7 @@
 
   <!-- Row 1: Logo + search + theme -->
   <div class="site-header__top">
-    <a href="{{ "/" | relURL }}" class="site-logo">
+    <a href="{{ "/" | relLangURL }}" class="site-logo">
       <img src="{{ "favicon/favicon.svg" | relURL }}" width="30" height="30" alt="Best of AI" aria-hidden="true">
       <span>Best of <span class="logo-accent">AI</span></span>
     </a>
@@ -33,24 +33,24 @@
     <!-- Inline search (row 1 on desktop, row 2 on mobile) -->
     <div class="header-search" id="header-search">
       <div class="header-search__wrap">
-        <input type="text" class="header-search__input" id="header-search-input" placeholder="Search tools and professions..." autocomplete="off" spellcheck="false">
+        <input type="text" class="header-search__input" id="header-search-input" placeholder="{{ i18n "search_tools_and_professions" }}" autocomplete="off" spellcheck="false">
         <kbd class="header-search__kbd">⌘K</kbd>
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" style="color:var(--fg-muted);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
       </div>
       <div class="header-search__dropdown" id="header-search-dropdown" role="listbox"></div>
     </div>
 
-    <a href="{{ "/saved/" | relURL }}" class="mob-saved-btn" aria-label="Saved tools">
+    <a href="{{ "/saved/" | relLangURL }}" class="mob-saved-btn" aria-label="{{ i18n "saved_tools_2" }}">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
       <span class="saved-count" hidden></span>
     </a>
 
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+    <button class="theme-toggle" id="theme-toggle" aria-label="{{ i18n "toggle_theme" }}">
       <svg class="icon-sun" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
       <svg class="icon-moon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
     </button>
 
-    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="{{ i18n "open_menu" }}" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -71,7 +71,7 @@
             <circle cx="9" cy="7" r="4"/>
             <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
           </svg>
-          AI for Professionals
+          {{ i18n "ai_for_professionals" }}
           <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
 
@@ -84,8 +84,8 @@
             {{ end }}
           </div>
           <div class="mega-menu__footer">
-            <span class="mega-menu__footer-note">{{ partial "count.html" (len $profs) }} professions</span>
-            <a href="{{ "/professionals/" | relURL }}" class="mega-more-link">View all {{ partial "count.html" (len $profs) }} →</a>
+            <span class="mega-menu__footer-note">{{ i18n "n_professions" (dict "count" (len $profs) "n" (partial "count.html" (len $profs))) }}</span>
+            <a href="{{ "/professionals/" | relLangURL }}" class="mega-more-link">{{ i18n "view_all_n" (dict "n" (partial "count.html" (len $profs))) }}</a>
           </div>
         </div>
       </div>
@@ -97,59 +97,60 @@
             <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
             <rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
           </svg>
-          Categories
+          {{ i18n "categories_2" }}
           <svg class="nav-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
 
         <div class="mega-menu mega-menu--cats" role="menu">
           <div class="mega-cats-body">
             <div class="mega-cats-col">
-              <div class="mega-col-title">// top categories</div>
+              <div class="mega-col-title">{{ i18n "top_categories" }}</div>
               {{ range $topCats }}
-              <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="mega-cat-item" role="menuitem">
+              <a href="{{ printf "/categories/%s/" .slug | relLangURL }}" class="mega-cat-item" role="menuitem">
                 <span>{{ .name }}</span>
                 <span class="mega-cat-count">{{ .count }}</span>
               </a>
               {{ end }}
-              <a href="{{ "/categories/" | relURL }}" class="mega-more-link" style="display:block;margin-top:0.6rem">All categories →</a>
+              <a href="{{ "/categories/" | relLangURL }}" class="mega-more-link" style="display:block;margin-top:0.6rem">{{ i18n "all_categories" }}</a>
             </div>
             <div class="mega-cats-col">
-              <div class="mega-col-title">// top tags</div>
+              <div class="mega-col-title">{{ i18n "top_tags" }}</div>
               <div class="mega-tag-cloud">
                 {{ range $topTags }}
-                <a href="{{ printf "/tags/%s/" .name | relURL }}" class="tag-chip mega-tag-chip" role="menuitem">#{{ .name }}</a>
+                <a href="{{ printf "/tags/%s/" .name | relLangURL }}" class="tag-chip mega-tag-chip" role="menuitem">#{{ .name }}</a>
                 {{ end }}
               </div>
-              <a href="{{ "/tags/" | relURL }}" class="mega-more-link" style="display:block;margin-top:0.6rem">All tags →</a>
+              <a href="{{ "/tags/" | relLangURL }}" class="mega-more-link" style="display:block;margin-top:0.6rem">{{ i18n "all_tags" }}</a>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Leaderboard link -->
-      <a href="{{ "/leaderboard/" | relURL }}" class="nav-btn nav-btn--link">Leaderboard</a>
+      <a href="{{ "/leaderboard/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "leaderboard_2" }}</a>
 
       <!-- Hardware link -->
-      <a href="{{ "/hardware/" | relURL }}" class="nav-btn nav-btn--link">Hardware</a>
+      <a href="{{ "/hardware/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "hardware" }}</a>
 
       <!-- Models link -->
-      <a href="{{ "/models/" | relURL }}" class="nav-btn nav-btn--link">Models</a>
+      <a href="{{ "/models/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "models" }}</a>
 
       <!-- Skills link -->
-      <a href="{{ "/skills/" | relURL }}" class="nav-btn nav-btn--link">Skills</a>
+      <a href="{{ "/skills/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "skills" }}</a>
 
       <!-- Journal link -->
-      <a href="{{ "/journal/" | relURL }}" class="nav-btn nav-btn--link">Journal</a>
+      <a href="{{ "/journal/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "journal" }}</a>
 
       <!-- Help link -->
-      <a href="{{ "/help/" | relURL }}" class="nav-btn nav-btn--link">Help</a>
+      <a href="{{ "/help/" | relLangURL }}" class="nav-btn nav-btn--link">{{ i18n "help" }}</a>
 
     </nav>
 
     <div class="site-header__actions">
-      <a href="{{ "/submit/" | relURL }}" class="btn btn-submit">
+      {{ partial "lang-switcher.html" (dict "page" . "where" "header") }}
+      <a href="{{ "/submit/" | relLangURL }}" class="btn btn-submit">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-        Submit Tool
+        {{ i18n "submit_tool" }}
       </a>
     </div>
 
@@ -162,70 +163,70 @@
   <div class="mob-drawer">
 
     <div class="mob-drawer__head">
-      <a href="{{ "/" | relURL }}" class="mob-drawer__logo">
+      <a href="{{ "/" | relLangURL }}" class="mob-drawer__logo">
         <img src="{{ "favicon/favicon.svg" | relURL }}" width="18" height="18" alt="">
         Best of <span class="logo-accent">AI</span>
       </a>
-      <button class="mob-drawer__close" id="mob-close" aria-label="Close menu">
+      <button class="mob-drawer__close" id="mob-close" aria-label="{{ i18n "close_menu" }}">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
       </button>
     </div>
 
     <!-- Quick links -->
-    <nav class="mob-quick" aria-label="Quick links">
-      <div class="mob-section-label">// quick links</div>
-      <a href="{{ "/" | relURL }}" class="mob-link{{ if .IsHome }} mob-link--active{{ end }}">
+    <nav class="mob-quick" aria-label="{{ i18n "quick_links_2" }}">
+      <div class="mob-section-label">{{ i18n "quick_links" }}</div>
+      <a href="{{ "/" | relLangURL }}" class="mob-link{{ if .IsHome }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        Home
+        {{ i18n "home" }}
       </a>
-      <a href="{{ "/new/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/new/" }} mob-link--active{{ end }}">
+      <a href="{{ "/new/" | relLangURL }}" class="mob-link{{ if eq (partial "page-path.html" .) "/new/" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-        Recently Added
+        {{ i18n "recently_added" }}
       </a>
-      <a href="{{ "/leaderboard/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/leaderboard/" }} mob-link--active{{ end }}">
+      <a href="{{ "/leaderboard/" | relLangURL }}" class="mob-link{{ if eq (partial "page-path.html" .) "/leaderboard/" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
-        Leaderboard
+        {{ i18n "leaderboard_2" }}
       </a>
-      <a href="{{ "/companies/" | relURL }}" class="mob-link{{ if eq .Section "companies" }} mob-link--active{{ end }}">
+      <a href="{{ "/companies/" | relLangURL }}" class="mob-link{{ if eq .Section "companies" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
-        Companies
+        {{ i18n "companies" }}
       </a>
-      <a href="{{ "/hardware/" | relURL }}" class="mob-link{{ if eq .Section "hardware" }} mob-link--active{{ end }}">
+      <a href="{{ "/hardware/" | relLangURL }}" class="mob-link{{ if eq .Section "hardware" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
-        Hardware
+        {{ i18n "hardware" }}
       </a>
-      <a href="{{ "/models/" | relURL }}" class="mob-link{{ if eq .Section "models" }} mob-link--active{{ end }}">
+      <a href="{{ "/models/" | relLangURL }}" class="mob-link{{ if eq .Section "models" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg>
-        Models
+        {{ i18n "models" }}
       </a>
-      <a href="{{ "/skills/" | relURL }}" class="mob-link{{ if eq .Section "skills" }} mob-link--active{{ end }}">
+      <a href="{{ "/skills/" | relLangURL }}" class="mob-link{{ if eq .Section "skills" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.6h7.6z"/></svg>
-        Skills
+        {{ i18n "skills" }}
       </a>
-      <a href="{{ "/journal/" | relURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
+      <a href="{{ "/journal/" | relLangURL }}" class="mob-link{{ if eq .Section "journal" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        Journal
+        {{ i18n "journal" }}
       </a>
-      <a href="{{ "/help/" | relURL }}" class="mob-link{{ if eq .Section "help" }} mob-link--active{{ end }}">
+      <a href="{{ "/help/" | relLangURL }}" class="mob-link{{ if eq .Section "help" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 2-3 4"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-        Help
+        {{ i18n "help" }}
       </a>
-      <a href="{{ "/free/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/free/" }} mob-link--active{{ end }}">
+      <a href="{{ "/free/" | relLangURL }}" class="mob-link{{ if eq (partial "page-path.html" .) "/free/" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
-        Free Tools
+        {{ i18n "free_tools" }}
       </a>
-      <a href="{{ "/saved/" | relURL }}" class="mob-link">
+      <a href="{{ "/saved/" | relLangURL }}" class="mob-link">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-        Saved
+        {{ i18n "nav_saved" }}
         <span class="saved-count" hidden></span>
       </a>
-      <a href="{{ "/submit/" | relURL }}" class="mob-link{{ if eq .RelPermalink "/submit/" }} mob-link--active{{ end }}">
+      <a href="{{ "/submit/" | relLangURL }}" class="mob-link{{ if eq (partial "page-path.html" .) "/submit/" }} mob-link--active{{ end }}">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
-        Submit a Tool
+        {{ i18n "submit_a_tool" }}
       </a>
       <a href="{{ partial "utm-url.html" .Site.Params.githubRepo }}" target="_blank" rel="noopener" class="mob-link">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-        Star on GitHub
+        {{ i18n "star_on_github" }}
       </a>
     </nav>
 
@@ -235,7 +236,7 @@
     <div class="mob-acc-section">
       <button class="mob-acc-btn" data-acc="mob-profs">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        AI for Professionals
+        {{ i18n "ai_for_professionals" }}
         <svg class="mob-acc-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="mob-acc-body" id="mob-profs">
@@ -244,7 +245,7 @@
           <a href="{{ .RelPermalink }}" class="mob-acc-item">{{ .Params.name }}</a>
           {{ end }}
         </div>
-        <a href="{{ "/professionals/" | relURL }}" class="mob-acc-more">All {{ partial "count.html" (len $profs) }} professions →</a>
+        <a href="{{ "/professionals/" | relLangURL }}" class="mob-acc-more">{{ i18n "all_n_professions" (dict "n" (partial "count.html" (len $profs))) }}</a>
       </div>
     </div>
 
@@ -252,24 +253,25 @@
     <div class="mob-acc-section">
       <button class="mob-acc-btn" data-acc="mob-cats">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-        Categories
+        {{ i18n "categories_2" }}
         <svg class="mob-acc-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="mob-acc-body" id="mob-cats">
         {{ range $topCats }}
-        <a href="{{ printf "/categories/%s/" .slug | relURL }}" class="mob-cat-item">
+        <a href="{{ printf "/categories/%s/" .slug | relLangURL }}" class="mob-cat-item">
           <span>{{ .name }}</span>
           <span class="mob-cat-count">{{ .count }}</span>
         </a>
         {{ end }}
-        <a href="{{ "/categories/" | relURL }}" class="mob-acc-more">All categories →</a>
+        <a href="{{ "/categories/" | relLangURL }}" class="mob-acc-more">{{ i18n "all_categories" }}</a>
       </div>
     </div>
 
     <div class="mob-footer">
-      <a href="{{ "/submit/" | relURL }}" class="btn btn-submit mob-footer__submit">
+      {{ partial "lang-switcher.html" (dict "page" . "where" "drawer") }}
+      <a href="{{ "/submit/" | relLangURL }}" class="btn btn-submit mob-footer__submit">
         <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
-        Submit a Tool
+        {{ i18n "submit_a_tool" }}
       </a>
     </div>
 
@@ -368,7 +370,7 @@
   var searchSel   = -1;
 
   function loadSearchIndex() {
-    fetch('{{ "/index.json" | relURL }}')
+    fetch('{{ "/index.json" | relLangURL }}')
       .then(function(r) { return r.json(); })
       .then(function(d) { searchIndex = d; })
       .catch(function() { searchIndex = []; });
@@ -402,6 +404,8 @@
     return 0;
   }
 
+  var T = window.BAI_I18N || {};
+
   function renderItem(it, q) {
     var desc = it.description ? it.description.slice(0, 80) : '';
     return '<a href="' + esc(it.url) + '" class="search-result" role="option" tabindex="-1">'
@@ -410,7 +414,7 @@
       +   '<span class="sr-name">' + hi(it.name || it.slug, q) + '</span>'
       +   (desc ? '<span class="sr-desc">' + hi(desc, q) + '</span>' : '')
       + '</span>'
-      + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price) + '</span>' : '')
+      + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price_label || it.price) + '</span>' : '')
       + '</a>';
   }
 
@@ -438,17 +442,17 @@
     var skills    = groups.skill.slice(0, 4);
     var tools     = groups.tool.slice(0, 8);
     if (!profs.length && !cats.length && !companies.length && !hardware.length && !models.length && !skills.length && !tools.length) {
-      searchDrop.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
+      searchDrop.innerHTML = '<div class="search-empty">' + esc(T.noResultsFor) + ' <strong>' + esc(q) + '</strong></div>';
       return;
     }
     var html = '';
-    if (profs.length)     { html += '<div class="sr-group-label">Professions</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (cats.length)      { html += '<div class="sr-group-label">Categories &amp; Tags</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (companies.length) { html += '<div class="sr-group-label">Companies</div>'; companies.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (hardware.length)  { html += '<div class="sr-group-label">Hardware</div>'; hardware.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (models.length)    { html += '<div class="sr-group-label">Models</div>'; models.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (skills.length)    { html += '<div class="sr-group-label">Skills</div>'; skills.forEach(function(r){ html += renderItem(r.it, q); }); }
-    if (tools.length)     { html += '<div class="sr-group-label">Tools</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (profs.length)     { html += '<div class="sr-group-label">' + esc(T.gProfessions) + '</div>'; profs.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (cats.length)      { html += '<div class="sr-group-label">' + esc(T.gCategoriesTags) + '</div>'; cats.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (companies.length) { html += '<div class="sr-group-label">' + esc(T.gCompanies) + '</div>'; companies.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (hardware.length)  { html += '<div class="sr-group-label">' + esc(T.gHardware) + '</div>'; hardware.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (models.length)    { html += '<div class="sr-group-label">' + esc(T.gModels) + '</div>'; models.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (skills.length)    { html += '<div class="sr-group-label">' + esc(T.gSkills) + '</div>'; skills.forEach(function(r){ html += renderItem(r.it, q); }); }
+    if (tools.length)     { html += '<div class="sr-group-label">' + esc(T.gTools) + '</div>'; tools.forEach(function(r){ html += renderItem(r.it, q); }); }
     searchDrop.innerHTML = html;
   }
 

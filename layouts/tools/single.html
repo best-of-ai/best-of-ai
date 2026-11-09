@@ -46,10 +46,10 @@
 
     <!-- Breadcrumb -->
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
       {{ if $p.category_name }}
-      <a href="{{ printf "/categories/%s/" $p.category | relURL }}">{{ $p.category_name }}</a>
+      <a href="{{ printf "/categories/%s/" $p.category | relLangURL }}">{{ $p.category_name }}</a>
       <span class="breadcrumb__sep">/</span>
       {{ end }}
       <span class="breadcrumb__cur">{{ $p.name }}</span>
@@ -69,27 +69,27 @@
           <h1 class="detail-name">{{ $p.name }}</h1>
           {{ with $p.subtitle }}<p class="detail-subtitle">{{ . }}</p>{{ end }}
           <div class="detail-badges">
-            {{ if $p.price }}<span class="badge badge-{{ lower $p.price }}">{{ $p.price }}</span>{{ end }}
+            {{ if $p.price }}<span class="badge badge-{{ lower $p.price }}">{{ partial "enum-label.html" $p.price }}</span>{{ end }}
             {{ if $p.category_name }}<span class="badge badge-cat">{{ $p.category_name }}</span>{{ end }}
           </div>
         </div>
 
         {{ if $p.dead }}
-        <span class="btn btn-dead detail-cta" title="This tool is no longer active">
+        <span class="btn btn-dead detail-cta" title="{{ i18n "this_tool_is_no_longer_active" }}">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px;margin-right:0.3em"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>
-          Discontinued
+          {{ i18n "discontinued_word" }}
         </span>
         {{ else }}
         {{ if $p.website }}
         <a href="{{ partial "utm-url.html" $p.website }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary detail-cta">
-          Visit Tool →
+          {{ i18n "visit_tool" }}
         </a>
         {{ end }}
         {{ $slug := or $p.slug .File.BaseFileName }}
         {{ $info := dict "slug" $slug "name" $p.name "url" .RelPermalink "price" ($p.price | default "") "subtitle" ($p.subtitle | default "") "logo_url" ($p.logo_url | default "") "website" ($p.website | default "") }}
-        <button class="btn btn-secondary detail-save js-save-btn" data-slug="{{ $slug }}" data-info="{{ $info | jsonify }}" title="Save tool" aria-label="Save {{ $p.name }}" aria-pressed="false">
+        <button class="btn btn-secondary detail-save js-save-btn" data-slug="{{ $slug }}" data-info="{{ $info | jsonify }}" title="{{ i18n "save_tool" }}" aria-label="{{ i18n "save_name" (dict "name" $p.name) }}" aria-pressed="false">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-          <span class="save-label">Save</span>
+          <span class="save-label">{{ i18n "save" }}</span>
         </button>
         {{ end }}
       </div>
@@ -98,7 +98,7 @@
     {{ if $p.dead }}
     <div class="dead-notice" role="note">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>
-      <p><strong>{{ $p.name }} is no longer active.</strong>{{ with $p.dead_reason }} {{ . }}{{ end }}{{ with $p.dead_date }} <span class="dead-notice__date">({{ . }})</span>{{ end }}{{ if $p.alternatives }} See the alternatives below.{{ end }}</p>
+      <p><strong>{{ i18n "name_no_longer_active" (dict "name" $p.name) }}</strong>{{ with $p.dead_reason }} {{ . }}{{ end }}{{ with $p.dead_date }} <span class="dead-notice__date">({{ . }})</span>{{ end }}{{ if $p.alternatives }} {{ i18n "see_alternatives_below" }}{{ end }}</p>
     </div>
     {{ end }}
 
@@ -108,7 +108,7 @@
         {{ with .Content }}
           <div class="prose">{{ . }}</div>
         {{ else }}
-        <h2 class="detail-body__title">// about {{ $p.name }}</h2>
+        <h2 class="detail-body__title">{{ i18n "c_about_name" (dict "name" $p.name) }}</h2>
         <p class="detail-body__text">{{ $p.description }}</p>
         {{ end }}
       </div>
@@ -116,7 +116,7 @@
       <aside class="detail-sidebar">
         {{ if $companyPage }}
         <div class="sidebar-alternatives">
-          <div class="sidebar-alternatives__title">// from {{ $companyPage.Params.name }}</div>
+          <div class="sidebar-alternatives__title">{{ i18n "c_from_name" (dict "name" $companyPage.Params.name) }}</div>
           {{ if $companySiblings }}
           <div class="sidebar-alternatives__list">
             {{ range first 3 $companySiblings }}
@@ -135,13 +135,13 @@
           </div>
           {{ end }}
           <a href="{{ $companyPage.RelPermalink }}" class="sidebar-alternatives__all">
-            View all on {{ $companyPage.Params.name }} →
+            {{ i18n "view_all_on" (dict "name" $companyPage.Params.name) }}
           </a>
         </div>
         {{ end }}
         {{ if $altPages }}
         <div class="sidebar-alternatives">
-          <div class="sidebar-alternatives__title">// alternatives</div>
+          <div class="sidebar-alternatives__title">{{ i18n "alternatives_3" }}</div>
           <div class="sidebar-alternatives__list">
             {{ range first 3 $altPages }}
             {{ $alt := .Params }}
@@ -157,14 +157,14 @@
             </a>
             {{ end }}
           </div>
-          <a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}" class="sidebar-alternatives__all">
-            View all {{ len $altPages }} alternatives →
+          <a href="{{ printf "/alternatives/%s/" $toolSlug | relLangURL }}" class="sidebar-alternatives__all">
+            {{ i18n "view_all_n_alternatives" (dict "n" (len $altPages)) }}
           </a>
         </div>
         {{ end }}
         {{ if $topPickProfessions }}
         <div class="top-pick-section">
-          <div class="top-pick-section__title">// top pick for</div>
+          <div class="top-pick-section__title">{{ i18n "top_pick_for" }}</div>
           {{ range $topPickProfessions }}
           <a href="{{ .RelPermalink }}" class="top-pick-badge">
             <span class="top-pick-badge__star">★</span>
@@ -174,61 +174,61 @@
         </div>
         {{ end }}
         <div class="detail-tool-actions">
-          <a href="{{ printf "/edit/?tool=%s&url=%s" ($p.name | urlquery) ($p.website | urlquery) | relURL }}" class="detail-action-btn" rel="nofollow">
+          <a href="{{ printf "/edit/?tool=%s&url=%s" ($p.name | urlquery) ($p.website | urlquery) | relLangURL }}" class="detail-action-btn" rel="nofollow">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-            Suggest an edit
+            {{ i18n "suggest_an_edit" }}
           </a>
-          <a href="{{ printf "/report/?tool=%s&url=%s" ($p.name | urlquery) ($p.website | urlquery) | relURL }}" class="detail-action-btn detail-action-btn--red" rel="nofollow">
+          <a href="{{ printf "/report/?tool=%s&url=%s" ($p.name | urlquery) ($p.website | urlquery) | relLangURL }}" class="detail-action-btn detail-action-btn--red" rel="nofollow">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-            Report
+            {{ i18n "report_word" }}
           </a>
         </div>
         <div class="detail-meta-card">
-          <div class="detail-meta__title">// details</div>
+          <div class="detail-meta__title">{{ i18n "details_2" }}</div>
           <dl class="detail-meta-list">
             {{ if $p.company }}
             {{ $companyPage := index (where (where .Site.RegularPages "Section" "companies") "Params.slug" $p.company) 0 }}
             {{ if $companyPage }}
             <div class="detail-meta-row">
-              <dt>Company</dt>
+              <dt>{{ i18n "company" }}</dt>
               <dd><a href="{{ $companyPage.RelPermalink }}">{{ $companyPage.Params.name }}</a></dd>
             </div>
             {{ end }}
             {{ end }}
             {{ if $p.category_name }}
             <div class="detail-meta-row">
-              <dt>Category</dt>
-              <dd><a href="{{ printf "/categories/%s/" $p.category | relURL }}">{{ $p.category_name }}</a></dd>
+              <dt>{{ i18n "category" }}</dt>
+              <dd><a href="{{ printf "/categories/%s/" $p.category | relLangURL }}">{{ $p.category_name }}</a></dd>
             </div>
             {{ end }}
             {{ if $p.price }}
             <div class="detail-meta-row">
-              <dt>Pricing</dt>
-              <dd><span class="badge badge-{{ lower $p.price }}">{{ $p.price }}</span></dd>
+              <dt>{{ i18n "pricing" }}</dt>
+              <dd><span class="badge badge-{{ lower $p.price }}">{{ partial "enum-label.html" $p.price }}</span></dd>
             </div>
             {{ end }}
             {{ if $p.website }}
             <div class="detail-meta-row">
-              <dt>Website</dt>
+              <dt>{{ i18n "website" }}</dt>
               <dd><a href="{{ partial "utm-url.html" $p.website }}" target="_blank" rel="noopener noreferrer" class="truncate-url">{{ $p.website | replaceRE "https?://" "" | strings.TrimRight "/" }}</a></dd>
             </div>
             {{ end }}
             {{ if $p.alternatives }}
             <div class="detail-meta-row">
-              <dt>Alternatives</dt>
-              <dd><a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}">View alternatives</a></dd>
+              <dt>{{ i18n "alternatives" }}</dt>
+              <dd><a href="{{ printf "/alternatives/%s/" $toolSlug | relLangURL }}">{{ i18n "view_alternatives" }}</a></dd>
             </div>
             {{ end }}
             <div class="detail-meta-row">
-              <dt>Added</dt>
-              <dd>{{ .Date.Format "Jan 2006" }}</dd>
+              <dt>{{ i18n "added" }}</dt>
+              <dd>{{ .Date | time.Format "Jan 2006" }}</dd>
             </div>
             {{ if $p.tags }}
             <div class="detail-meta-row">
-              <dt>Tags</dt>
+              <dt>{{ i18n "tags" }}</dt>
               <dd class="detail-meta-tags">
                 {{ range $p.tags }}
-                <a href="{{ printf "/tags/%s/" . | relURL }}" class="tag-chip">{{ . }}</a>
+                <a href="{{ printf "/tags/%s/" . | relLangURL }}" class="tag-chip">{{ . }}</a>
                 {{ end }}
               </dd>
             </div>
@@ -242,8 +242,8 @@
     {{ if $p.alternatives }}
     {{ if $altPages }}
     <section class="related-section">
-      <h2 class="related-title">// alternatives to {{ $p.name }}
-        <a href="{{ printf "/alternatives/%s/" $toolSlug | relURL }}" class="related-title__more">see all →</a>
+      <h2 class="related-title">{{ i18n "c_alternatives_to" (dict "name" $p.name) }}
+        <a href="{{ printf "/alternatives/%s/" $toolSlug | relLangURL }}" class="related-title__more">{{ i18n "see_all" }}</a>
       </h2>
       <div class="tools-grid tools-grid--related">
         {{ range $altPages }}
@@ -257,7 +257,7 @@
     <!-- Related tools -->
     {{ if $related }}
     <section class="related-section">
-      <h2 class="related-title">// related tools in {{ $p.category_name }}</h2>
+      <h2 class="related-title">{{ i18n "c_related_tools_in" (dict "cat" $p.category_name) }}</h2>
       <div class="tools-grid tools-grid--related">
         {{ range $related }}
         {{ partial "tool-card.html" (dict "page" . "p" .Params) }}

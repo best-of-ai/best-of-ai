@@ -3,17 +3,17 @@
   <div class="search-modal__box">
     <div class="search-modal__header">
       <span class="search-modal__title">Best of <span style="color:var(--accent)">AI</span></span>
-      <button class="search-modal__close" id="search-close" aria-label="Close search"><kbd>esc</kbd></button>
+      <button class="search-modal__close" id="search-close" aria-label="{{ i18n "close_search" }}"><kbd>{{ i18n "esc" }}</kbd></button>
     </div>
     <div class="search-modal__input-wrap">
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color:var(--fg-muted);flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-3.5-3.5"/></svg>
-      <input type="text" id="search-input" class="search-modal__input" placeholder="Search tools and professions..." autocomplete="off" spellcheck="false">
+      <input type="text" id="search-input" class="search-modal__input" placeholder="{{ i18n "search_tools_and_professions" }}" autocomplete="off" spellcheck="false">
     </div>
     <div id="search-results" class="search-results" role="listbox"></div>
     <div class="search-modal__footer">
-      <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
-      <span><kbd>↵</kbd> open</span>
-      <span><kbd>esc</kbd> close</span>
+      <span><kbd>↑</kbd><kbd>↓</kbd> {{ i18n "navigate" }}</span>
+      <span><kbd>↵</kbd> {{ i18n "open" }}</span>
+      <span><kbd>{{ i18n "esc" }}</kbd> {{ i18n "close" }}</span>
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@
   }
 
   function loadIndex() {
-    fetch('{{ "/index.json" | relURL }}')
+    fetch('{{ "/index.json" | relLangURL }}')
       .then(function(r) { return r.json(); })
       .then(function(d) { index = d; })
       .catch(function() { index = []; });
@@ -76,19 +76,21 @@
     return 0;
   }
 
+  var T = window.BAI_I18N || {};
+
   function renderItem(it, q) {
     var desc = it.description ? it.description.slice(0, 80) : '';
     var ghost = it.dead
-      ? '<svg class="sr-ghost" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-label="Discontinued"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>'
+      ? '<svg class="sr-ghost" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-label="' + esc(T.discontinuedWord) + '"><path d="M12 2C8.13 2 5 5.13 5 9v11l2.5-1.5 2.5 1.5 2.5-1.5 2.5 1.5 2.5-1.5V9c0-3.87-3.13-7-7-7zm-2.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm5 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>'
       : '';
-    return '<a href="' + esc(it.url) + '" class="search-result' + (it.dead ? ' search-result--dead' : '') + '" role="option" tabindex="-1"' + (it.dead ? ' title="' + esc(it.dead_reason ? 'Discontinued: ' + it.dead_reason : 'This tool is no longer active') + '"' : '') + '>'
+    return '<a href="' + esc(it.url) + '" class="search-result' + (it.dead ? ' search-result--dead' : '') + '" role="option" tabindex="-1"' + (it.dead ? ' title="' + esc(it.dead_reason ? T.discontinued.replace('__REASON__', it.dead_reason) : T.noLongerActive) + '"' : '') + '>'
       + '<span class="sr-cat">' + esc(it.category || '') + '</span>'
       + '<span class="sr-body">'
       +   '<span class="sr-name">' + hi(it.name || it.slug, q) + '</span>'
       +   (desc ? '<span class="sr-desc">' + hi(desc, q) + '</span>' : '')
       + '</span>'
       + ghost
-      + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price) + '</span>' : '')
+      + (it.price && it.price !== 'Free' ? '<span class="badge badge-' + it.price.toLowerCase() + '">' + esc(it.price_label || it.price) + '</span>' : '')
       + '</a>';
   }
 
@@ -119,28 +121,28 @@
     var tools     = groups.tool.slice(0, 8);
     var total = profs.length + cats.length + companies.length + hardware.length + tools.length;
     if (!total) {
-      results.innerHTML = '<div class="search-empty">No results for <strong>' + esc(q) + '</strong></div>';
+      results.innerHTML = '<div class="search-empty">' + esc(T.noResultsFor) + ' <strong>' + esc(q) + '</strong></div>';
       return;
     }
     var html = '';
     if (profs.length) {
-      html += '<div class="sr-group-label">Professions</div>';
+      html += '<div class="sr-group-label">' + esc(T.gProfessions) + '</div>';
       profs.forEach(function(r){ html += renderItem(r.it, q); });
     }
     if (cats.length) {
-      html += '<div class="sr-group-label">Categories &amp; Tags</div>';
+      html += '<div class="sr-group-label">' + esc(T.gCategoriesTags) + '</div>';
       cats.forEach(function(r){ html += renderItem(r.it, q); });
     }
     if (companies.length) {
-      html += '<div class="sr-group-label">Companies</div>';
+      html += '<div class="sr-group-label">' + esc(T.gCompanies) + '</div>';
       companies.forEach(function(r){ html += renderItem(r.it, q); });
     }
     if (hardware.length) {
-      html += '<div class="sr-group-label">Hardware</div>';
+      html += '<div class="sr-group-label">' + esc(T.gHardware) + '</div>';
       hardware.forEach(function(r){ html += renderItem(r.it, q); });
     }
     if (tools.length) {
-      html += '<div class="sr-group-label">Tools</div>';
+      html += '<div class="sr-group-label">' + esc(T.gTools) + '</div>';
       tools.forEach(function(r){ html += renderItem(r.it, q); });
     }
     results.innerHTML = html;

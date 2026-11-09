@@ -9,9 +9,9 @@
   <main class="hl-center">
 
     <nav class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a>
       <span class="breadcrumb__sep">/</span>
-      <a href="{{ "/tags/" | relURL }}">Tags</a>
+      <a href="{{ "/tags/" | relLangURL }}">{{ i18n "tags" }}</a>
       <span class="breadcrumb__sep">/</span>
       <span class="breadcrumb__cur">{{ $tag }}</span>
     </nav>
@@ -20,22 +20,22 @@
       <div class="cat-hero__icon">#</div>
       <div>
         <h1 class="cat-hero__title">{{ $tag }}</h1>
-        <p class="cat-hero__desc">AI tools tagged <strong>{{ $tag }}</strong>.</p>
+        <p class="cat-hero__desc">{{ i18n "ai_tools_tagged" }} <strong>{{ $tag }}</strong>.</p>
         <div class="cat-hero__meta">
-          <span><strong>{{ partial "count.html" (len $tools) }}</strong> tools</span>
+          <span><strong>{{ partial "count.html" (len $tools) }}</strong> {{ i18n "tools" }}</span>
           <span class="stat-sep">·</span>
-          <span>handpicked &amp; curated</span>
+          <span>{{ i18n "handpicked_curated" }}</span>
         </div>
       </div>
     </div>
 
     <!-- Price filter -->
     <div class="price-bar" id="price-bar" style="margin-bottom:1.5rem">
-      <span class="price-bar__label">// price</span>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Freemium">freemium</button>
-      <button class="pf" data-price="Paid">paid</button>
+      <span class="price-bar__label">{{ i18n "price" }}</span>
+      <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+      <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+      <button class="pf" data-price="Freemium">{{ i18n "freemium" }}</button>
+      <button class="pf" data-price="Paid">{{ i18n "paid" }}</button>
     </div>
 
     {{ if $tools }}
@@ -45,7 +45,7 @@
       {{ end }}
     </div>
     {{ else }}
-    <p style="color:var(--fg-muted);padding:2rem 0">No tools found for this tag.</p>
+    <p style="color:var(--fg-muted);padding:2rem 0">{{ i18n "no_tools_found_for_this_tag" }}</p>
     {{ end }}
 
   </main>
