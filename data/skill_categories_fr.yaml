@@ -1,0 +1,37 @@
+# French name/description overlay for data/skill_categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: 'document-automation'
+  name: 'Automatisation de documents'
+  description: 'Skills qui lisent, génèrent ou modifient des fichiers Word, PDF, Excel et PowerPoint.'
+-
+  slug: 'development-engineering'
+  name: 'Développement et ingénierie'
+  description: 'Skills pour créer du logiciel, des serveurs MCP et des outils pour agents.'
+-
+  slug: 'code-review-quality'
+  name: 'Revue de code et qualité'
+  description: 'Skills qui relisent, simplifient ou durcissent le code avant publication.'
+-
+  slug: 'testing-debugging'
+  name: 'Tests et débogage'
+  description: 'Skills qui poussent le développement guidé par les tests et le débogage jusqu''à la cause.'
+-
+  slug: 'workflow-productivity'
+  name: 'Flux de travail et productivité'
+  description: 'Skills qui gèrent la planification, l''agenda et le flux de travail quotidien de l''agent.'
+-
+  slug: 'design-creative'
+  name: 'Design et création'
+  description: 'Skills pour le design visuel, l''illustration et la génération de ressources.'
+-
+  slug: 'communication-writing'
+  name: 'Communication et rédaction'
+  description: 'Skills pour rédiger des messages internes, ajuster le ton et calibrer un texte.'
+-
+  slug: 'business-finance'
+  name: 'Entreprise et finance'
+  description: 'Skills pour les déclarations fiscales, l''analyse e-commerce et d''autres flux de travail d''entreprise.'
+-
+  slug: 'browser-agent-automation'
+  name: 'Automatisation du navigateur et des agents'
+  description: 'Skills qui permettent à un agent de contrôler directement un navigateur ou d''autres outils en direct.'

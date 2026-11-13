@@ -1,0 +1,7 @@
+---
+title: 'Pitch tools'
+name: 'Pitch'
+company: 'pitch'
+list_kind: 'tools'
+url: '/fr/companies/pitch/tools/'
+---

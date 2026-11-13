@@ -95,6 +95,7 @@ def parse_leaderboard_yaml(text):
 LANGS = [
     {'code': 'en', 'label': 'English', 'out': 'README.md',    'content': ROOT / 'content',    'prefix': '',    'cats': None},
     {'code': 'es', 'label': 'Español', 'out': 'README_ES.md', 'content': ROOT / 'content_es', 'prefix': '/es', 'cats': ROOT / 'data' / 'categories_es.yaml'},
+    {'code': 'fr', 'label': 'Français', 'out': 'README_FR.md', 'content': ROOT / 'content_fr', 'prefix': '/fr', 'cats': ROOT / 'data' / 'categories_fr.yaml'},
 ]
 
 STRINGS = {
@@ -144,6 +145,29 @@ STRINGS = {
         'license_h': 'Licencia', 'license_p': 'MIT — consulta [LICENSE](LICENSE).',
         'auto': 'Este archivo se genera automáticamente a partir de [`{src}`]({src}). Edita los archivos fuente, no este.',
         'price': {'Free': 'Gratis', 'Freemium': 'Freemium', 'Paid': 'De pago'},
+    },
+    'fr': {
+        'tagline': "Outils d'IA choisis à la main, sans remplissage ni applications médiocres. Chacun est retenu pour sa qualité, son innovation et son impact concret.",
+        'website': 'Site web', 'submit': 'Proposer un outil', 'contributing': 'Contribuer',
+        'what_h': "Qu'est-ce que c'est ?",
+        'what_p': "**Best of AI** est un annuaire tenu par la communauté, avec les meilleurs outils d'IA dans {cats} catégories. On suit plus de {tools} outils et on retient à la main ceux qui valent ton temps, pour que tu trouves ceux qui servent vraiment.",
+        'different': 'Ce qui distingue cette liste :',
+        'b_quality': "**La qualité avant la quantité** : chaque outil est relu et noté, pas recopié d'une autre liste",
+        'b_practical': "**Un critère pratique** : on les choisit pour leur utilité réelle, pas pour le bruit autour",
+        'b_coverage': "**Une large couverture** : {cats} catégories, des [assistants de code]({code}) à la [vidéo]({video}) et à la [santé]({health})",
+        'b_updated': "**Toujours à jour** : de nouveaux outils arrivent à mesure que le paysage de l'IA change",
+        'b_prof': "**Par métier** : des sélections d'outils pour [designers, développeurs, gens du marketing et d'autres métiers]({url})",
+        'visit': "Va sur **[bestofai.io]({url})** pour l'annuaire interactif complet, avec la recherche, les filtres et les fiches.",
+        'contents': 'Sommaire', 'leaderboard': 'Classement', 'categories': 'Catégories', 'professionals': 'IA pour les métiers',
+        'lb_note': "Les outils d'IA les mieux notés pour leur qualité, leur innovation et leur impact concret.",
+        'prof_note': "Des sélections d'outils d'IA pensées pour chaque métier et chaque secteur.",
+        'review': 'fiche',
+        'view_all': "*[Voir les {n} outils de {name} sur bestofai.io →]({url})*",
+        'contrib_p': 'Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour ajouter ou mettre à jour des outils.',
+        'issue_p': 'Tu as trouvé un bug ou tu veux proposer quelque chose ? [Ouvre un issue]({url}).',
+        'license_h': 'Licence', 'license_p': 'MIT — voir [LICENSE](LICENSE).',
+        'auto': 'Ce fichier est généré automatiquement à partir de [`{src}`]({src}). Modifie les fichiers source, pas celui-ci.',
+        'price': {'Free': 'Gratuit', 'Freemium': 'Freemium', 'Paid': 'Payant'},
     },
 }
 

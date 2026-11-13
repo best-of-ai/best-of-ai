@@ -11,7 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "content"
-LANGS = {"es": ROOT / "content_es"}
+LANGS = {"es": ROOT / "content_es", "fr": ROOT / "content_fr"}
 
 # Sections that are frontmatter-only stubs with no prose of their own (page titles come from templates).
 SKIP_SECTIONS = {"alternatives", "company-pages"}

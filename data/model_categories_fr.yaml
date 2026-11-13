@@ -1,0 +1,37 @@
+# French name/description overlay for data/model_categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: 'language'
+  name: 'Langage'
+  description: 'Grands modèles de langage faits pour le chat, l''écriture et les tâches de texte générales.'
+-
+  slug: 'multimodal'
+  name: 'Multimodal'
+  description: 'Modèles qui travaillent sur le texte, les images, l''audio ou la vidéo dans un seul système.'
+-
+  slug: 'reasoning'
+  name: 'Raisonnement'
+  description: 'Modèles ajustés pour le raisonnement en plusieurs étapes, les maths et les problèmes complexes.'
+-
+  slug: 'image-generation'
+  name: 'Génération d''images'
+  description: 'Modèles qui génèrent ou modifient des images à partir de texte et d''images de référence.'
+-
+  slug: 'audio-generation'
+  name: 'Génération audio'
+  description: 'Modèles qui génèrent de la voix, de la musique et d''autres sons à partir de texte ou d''audio.'
+-
+  slug: 'video-generation'
+  name: 'Génération vidéo'
+  description: 'Modèles qui génèrent ou modifient des extraits vidéo à partir de texte, d''images ou de vidéo.'
+-
+  slug: 'embedding'
+  name: 'Embeddings'
+  description: 'Modèles qui transforment le texte, les images ou l''audio en vecteurs pour la recherche et la récupération.'
+-
+  slug: 'code'
+  name: 'Code'
+  description: 'Modèles entraînés pour la complétion, la génération de code et les tâches d''ingénierie logicielle.'
+-
+  slug: 'runs-at-home'
+  name: 'En local'
+  description: 'Modèles à poids ouverts que tu peux télécharger et faire tourner sur ton propre hardware.'

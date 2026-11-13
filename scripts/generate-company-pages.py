@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Generate content/company-pages/*.md: one stub per company per list that has items.
 
+Run scripts/i18n/sync-stubs.py afterwards: each stub sets an explicit `url:`, and Hugo adds no language
+prefix to that, so the Spanish copies in content_es/company-pages/ are generated from these.
+
 Each stub renders at /companies/<slug>/{tools,models,hardware}/ and holds the full
 list the company page only previews. Deletes and recreates the directory, so run it
 after adding tools, models or hardware for a company.

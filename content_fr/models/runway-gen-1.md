@@ -1,0 +1,25 @@
+---
+title: 'Runway Gen-1'
+name: 'Runway Gen-1'
+slug: 'runway-gen-1'
+subtitle: "Le premier modèle de génération vidéo-vers-vidéo de Runway"
+description: "Le premier modèle de génération vidéo-vers-vidéo de Runway"
+company: 'runway'
+model_type: 'Video Generation'
+logo_url: ''
+product_url: 'https://runwayml.com/research/gen-1'
+price: 'Paid'
+rank: 5
+release_date: '2023-02-08'
+param_count: 'Undisclosed'
+modality: [video, text]
+open_weight: false
+license: 'Proprietary'
+api_available: false
+access_methods: [Chat UI]
+runs_at_home: false
+platforms: ['Runway app']
+date: '2026-07-16'
+tags: [video-generation, legacy]
+i18n_source: 'f4cf4660b9c5'
+---

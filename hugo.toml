@@ -18,9 +18,15 @@ defaultContentLanguageInSubdir = false
     weight       = 2
     [languages.es.params]
       description = "Herramientas de IA elegidas a mano, sin relleno ni apps mediocres. Cada una está seleccionada por su calidad, su innovación y su impacto real."
+  [languages.fr]
+    label        = "Français"
+    locale       = "fr-FR"
+    weight       = 3
+    [languages.fr.params]
+      description = "Outils d'IA choisis à la main, sans remplissage ni applications médiocres. Chacun est retenu pour sa qualité, son innovation et son impact concret."
 
 # English content is mounted into every language so each page exists everywhere.
-# content_es/ is mounted over it for Spanish: a translated file replaces its English source.
+# content_<lang>/ is mounted over it: a translated file replaces its English source.
 [module]
   [[module.mounts]]
     source = "content_es"
@@ -28,10 +34,15 @@ defaultContentLanguageInSubdir = false
     [module.mounts.sites.matrix]
       languages = ["es"]
   [[module.mounts]]
+    source = "content_fr"
+    target = "content"
+    [module.mounts.sites.matrix]
+      languages = ["fr"]
+  [[module.mounts]]
     source = "content"
     target = "content"
     [module.mounts.sites.matrix]
-      languages = ["en", "es"]
+      languages = ["en", "es", "fr"]
   [[module.mounts]]
     source = "data"
     target = "data"

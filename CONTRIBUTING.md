@@ -112,7 +112,7 @@ python3 scripts/import-data.py
 
 ## How README auto-update works
 
-On every push to `main` that touches `content/tools/`, `content_es/tools/`, `data/categories.yaml`, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` and `README_<LANG>.md` files back automatically. Each README links to the others, and the Spanish one links to the `/es/` pages of the site. To add a language, see the `LANGS` and `STRINGS` blocks in `scripts/generate-readme.py`.
+On every push to `main` that touches `content/tools/`, `content_es/tools/`, `content_fr/tools/`, `data/categories.yaml`, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` and `README_<LANG>.md` files back automatically. Each README links to the others. The Spanish one links to `/es/` pages and the French one to `/fr/` pages. To add a language, see the `LANGS` and `STRINGS` blocks in `scripts/generate-readme.py`.
 
 ---
 
@@ -126,13 +126,13 @@ Be respectful. Submissions and reviews should be about the tools and the data, n
 
 **You only need to add or change things in English.** Open your PR with the English files in `content/` (and English strings in `i18n/en.yaml`); the maintainers translate it into the other languages and keep those versions in sync. Please don't add or edit `content_es/` or other language files in a regular contribution, unless you are specifically fixing a translation.
 
-The site is available in English (`/`) and Spanish (`/es/`). English files live in `content/`; Spanish files live in `content_es/` with the same path and filename. If a Spanish file is missing, the Spanish page shows the English text and is hidden from search engines until someone translates it.
+The site is available in English (`/`), Spanish (`/es/`), and French (`/fr/`). English files live in `content/`. Spanish files live in `content_es/` and French files in `content_fr/`, with the same path and filename. If a translation is missing, that language's page shows the English text and is hidden from search engines until someone translates it.
 
 To translate or fix a page (optional, for translation contributors):
 
-1. Read the style guide: `scripts/i18n/glossary-es.md`.
-2. Copy `content/<section>/<name>.md` to `content_es/<section>/<name>.md`. Translate the text fields and the body. Leave slugs, URLs, tags, prices, ranks, dates and tool lists exactly as they are.
-3. Run `python3 scripts/validate-translation.py --stamp content_es/<section>/<name>.md` (needs `pip install pyyaml`). Fix anything it reports.
+1. Read the style guide: `scripts/i18n/glossary-es.md` or `scripts/i18n/glossary-fr.md`.
+2. Copy `content/<section>/<name>.md` to `content_es/<section>/<name>.md` or `content_fr/<section>/<name>.md`. Translate the text fields and the body. Leave slugs, URLs, tags, prices, ranks, dates and tool lists exactly as they are.
+3. Run `python3 scripts/validate-translation.py --stamp --lang es content_es/<section>/<name>.md` (or `--lang fr` and the `content_fr` path). Fix anything it reports.
 4. Open a PR.
 
-Changing an English file makes its Spanish copy stale. `python3 scripts/translation-status.py` lists what is missing or stale. UI text (menus, buttons, labels) is in `i18n/en.yaml` and `i18n/es.yaml`; keep both files in sync (`python3 scripts/check-i18n.py`).
+Changing an English file makes its Spanish and French copies stale. `python3 scripts/translation-status.py` lists what is missing or stale. UI text (menus, buttons, labels) is in `i18n/en.yaml`, `i18n/es.yaml`, and `i18n/fr.yaml`; keep them in sync (`python3 scripts/check-i18n.py`).

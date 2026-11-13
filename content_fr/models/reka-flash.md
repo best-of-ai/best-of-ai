@@ -1,0 +1,29 @@
+---
+title: 'Reka Flash'
+name: 'Reka Flash'
+slug: 'reka-flash'
+subtitle: "Le modèle multimodal de milieu de gamme de Reka, le plus économe"
+description: "Le modèle multimodal de milieu de gamme de Reka, le plus économe"
+company: 'reka-ai'
+model_type: 'Multimodal'
+logo_url: ''
+product_url: 'https://www.reka.ai/'
+price: 'Paid'
+rank: 3
+release_date: '2024-02-16'
+param_count: '21B'
+context_window_tokens: 128000
+modality: [text, image, video]
+open_weight: false
+license: 'Proprietary'
+input_price_usd_per_m: 0.2
+output_price_usd_per_m: 0.6
+api_available: true
+mmlu_score: 73.5
+access_methods: [API]
+runs_at_home: false
+platforms: ['API']
+date: '2026-07-16'
+tags: [llm, multimodal, api]
+i18n_source: 'fe538408a2d6'
+---

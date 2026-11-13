@@ -1,0 +1,18 @@
+---
+title: 'Featurespace'
+name: 'Featurespace'
+slug: 'featurespace'
+subtitle: "Prévention de la fraude et de la criminalité financière par IA"
+description: "Featurespace développe des modèles d'IA en temps réel, utilisés par les banques et les processeurs de paiement pour détecter la fraude et le blanchiment d'argent."
+website: 'https://featurespace.com'
+logo_url: ''
+founded: '2008'
+headquarters: 'Cambridge, United Kingdom'
+founders:
+  - 'David Excell'
+  - 'William Yorke-Long'
+ai_native: true
+date: '2026-07-16'
+rank: 5
+i18n_source: '627e1bae7490'
+---
