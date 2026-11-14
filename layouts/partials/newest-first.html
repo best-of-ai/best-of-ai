@@ -1,12 +1,12 @@
 {{/*
-  Picks the recently added tools and orders them by rank (highest first).
-  "Recent" = dated within 45 days of the newest tool; newer date breaks rank ties.
+  Picks the recently added tools and orders them newest first.
+  "Recent" = dated within 45 days of the newest tool; rank only breaks ties between tools added on the same day.
   Usage: {{ $tools = partial "newest-first.html" $tools }}
 */}}
-{{- $byDate := sort . "Date" "desc" -}}
+{{- $byDate := sort (sort . "Params.rank" "desc") "Date" "desc" -}}
 {{- $recent := slice -}}
 {{- if $byDate -}}
   {{- $cutoff := (index $byDate 0).Date.AddDate 0 0 -45 -}}
   {{- $recent = where $byDate "Date" "ge" $cutoff -}}
 {{- end -}}
-{{- return (sort $recent "Params.rank" "desc") -}}
+{{- return $recent -}}
