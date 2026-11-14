@@ -1,0 +1,37 @@
+# Japanese name/description overlay for data/skill_categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: 'document-automation'
+  name: '文書自動化'
+  description: 'Word、PDF、Excel、PowerPointのファイルを読み取り、生成、または編集するスキルです。'
+-
+  slug: 'development-engineering'
+  name: '開発・エンジニアリング'
+  description: 'ソフトウェア、MCPサーバー、エージェント用ツールを作るためのスキルです。'
+-
+  slug: 'code-review-quality'
+  name: 'コードレビュー・品質'
+  description: '公開前のコードを、レビュー、単純化、または堅牢化するスキルです。'
+-
+  slug: 'testing-debugging'
+  name: 'テスト・デバッグ'
+  description: 'テストファーストの開発と、根本原因を追うデバッグを進めるスキルです。'
+-
+  slug: 'workflow-productivity'
+  name: 'ワークフロー・生産性'
+  description: '計画、スケジュール、エージェントの日々のワークフローを管理するスキルです。'
+-
+  slug: 'design-creative'
+  name: 'デザイン・クリエイティブ'
+  description: 'ビジュアルデザイン、イラスト、制作素材の生成向けスキルです。'
+-
+  slug: 'communication-writing'
+  name: 'コミュニケーション・文章'
+  description: '社内連絡を下書きし、トーンを直し、メッセージの調子を合わせるスキルです。'
+-
+  slug: 'business-finance'
+  name: 'ビジネス・財務'
+  description: '税務申告、eコマース分析、その他の業務ワークフロー向けのスキルです。'
+-
+  slug: 'browser-agent-automation'
+  name: 'ブラウザ・エージェント自動化'
+  description: 'エージェントがブラウザや他の実行中ツールを直接操作できるようにするスキルです。'

@@ -8,10 +8,18 @@ on:
       - 'content/professionals/**'
       - 'content_es/tools/**'
       - 'content_es/professionals/**'
+      - 'content_fr/tools/**'
+      - 'content_fr/professionals/**'
+      - 'content_ja/tools/**'
+      - 'content_ja/professionals/**'
       - 'data/categories.yaml'
       - 'data/categories_es.yaml'
+      - 'data/categories_fr.yaml'
+      - 'data/categories_ja.yaml'
       - 'data/leaderboard.yaml'
       - 'data/badges_es.yaml'
+      - 'data/badges_fr.yaml'
+      - 'data/badges_ja.yaml'
       - 'scripts/generate-readme.py'
   workflow_dispatch:
 

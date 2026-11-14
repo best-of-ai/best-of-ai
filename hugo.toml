@@ -24,6 +24,12 @@ defaultContentLanguageInSubdir = false
     weight       = 3
     [languages.fr.params]
       description = "Outils d'IA choisis à la main, sans remplissage ni applications médiocres. Chacun est retenu pour sa qualité, son innovation et son impact concret."
+  [languages.ja]
+    label        = "日本語"
+    locale       = "ja-JP"
+    weight       = 4
+    [languages.ja.params]
+      description = "手で選んだAIツール。水増しも、中身のないアプリもない。品質と、実際に役立つことだけで選んでいます。"
 
 # English content is mounted into every language so each page exists everywhere.
 # content_<lang>/ is mounted over it: a translated file replaces its English source.
@@ -39,10 +45,15 @@ defaultContentLanguageInSubdir = false
     [module.mounts.sites.matrix]
       languages = ["fr"]
   [[module.mounts]]
+    source = "content_ja"
+    target = "content"
+    [module.mounts.sites.matrix]
+      languages = ["ja"]
+  [[module.mounts]]
     source = "content"
     target = "content"
     [module.mounts.sites.matrix]
-      languages = ["en", "es", "fr"]
+      languages = ["en", "es", "fr", "ja"]
   [[module.mounts]]
     source = "data"
     target = "data"

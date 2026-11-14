@@ -96,6 +96,7 @@ LANGS = [
     {'code': 'en', 'label': 'English', 'out': 'README.md',    'content': ROOT / 'content',    'prefix': '',    'cats': None},
     {'code': 'es', 'label': 'Español', 'out': 'README_ES.md', 'content': ROOT / 'content_es', 'prefix': '/es', 'cats': ROOT / 'data' / 'categories_es.yaml'},
     {'code': 'fr', 'label': 'Français', 'out': 'README_FR.md', 'content': ROOT / 'content_fr', 'prefix': '/fr', 'cats': ROOT / 'data' / 'categories_fr.yaml'},
+    {'code': 'ja', 'label': '日本語', 'out': 'README_JA.md', 'content': ROOT / 'content_ja', 'prefix': '/ja', 'cats': ROOT / 'data' / 'categories_ja.yaml'},
 ]
 
 STRINGS = {
@@ -169,6 +170,29 @@ STRINGS = {
         'auto': 'Ce fichier est généré automatiquement à partir de [`{src}`]({src}). Modifie les fichiers source, pas celui-ci.',
         'price': {'Free': 'Gratuit', 'Freemium': 'Freemium', 'Paid': 'Payant'},
     },
+    'ja': {
+        'tagline': '手で選んだAIツール。水増しも、中身のないアプリもない。品質と、実際に役立つことだけで選んでいます。',
+        'website': 'ウェブサイト', 'submit': 'ツールを投稿', 'contributing': '貢献する',
+        'what_h': 'これは何？',
+        'what_p': '**Best of AI** は、コミュニティで運営するAIツールのディレクトリです。{cats}のカテゴリにわたって{tools}件以上を追い、時間を使う価値のあるものだけを手で選んでいます。',
+        'different': 'このリストがほかと違うところ：',
+        'b_quality': '**数より質**：ほかのリストからコピーせず、1件ずつ見て順位をつけています',
+        'b_practical': '**実用で選ぶ**：話題になっているかどうかではなく、仕事に使えるかどうかで残しています',
+        'b_coverage': '**幅が広い**：{cats}カテゴリ。[コード補助]({code})から[動画]({video})、[医療]({health})まで',
+        'b_updated': '**更新し続ける**：AIの状況が変わるたびに、新しいツールを足しています',
+        'b_prof': '**職種別**：[デザイナー、開発者、マーケターなど]({url})向けに、使うツールをまとめています',
+        'visit': '検索、フィルタ、詳しいページは **[bestofai.io]({url})** で見てください。',
+        'contents': '目次', 'leaderboard': 'ランキング', 'categories': 'カテゴリ', 'professionals': '職種別のAI',
+        'lb_note': '品質と、実際にどれだけ役立つことで上位に置いたAIツールです。',
+        'prof_note': '職種と業種ごとに選んだAIツールの一覧です。',
+        'review': 'レビュー',
+        'view_all': '*[{name}のツール{n}件を bestofai.io で見る →]({url})*',
+        'contrib_p': 'ツールの追加や更新は [CONTRIBUTING.md](CONTRIBUTING.md) を見てください。',
+        'issue_p': '不具合や提案は [issue を開く]({url}) からどうぞ。',
+        'license_h': 'ライセンス', 'license_p': 'MIT。[LICENSE](LICENSE) を見てください。',
+        'auto': 'このファイルは [`{src}`]({src}) から自動生成しています。このファイル自体は編集しないでください。',
+        'price': {'Free': '無料', 'Freemium': 'フリーミアム', 'Paid': '有料'},
+    },
 }
 
 PRICE_COLOR = {'Free': '3fb950', 'Freemium': 'd29922', 'Paid': '8b949e'}
@@ -218,8 +242,18 @@ def build(lang):
                 c['description'] = o.get('description', c.get('description', ''))
     categories.sort(key=lambda c: (0 if c.get('sort_order', 0) > 0 else 1, c.get('sort_order', 99), c.get('name', '')))
 
+    def section_dir(name):
+        """Use this language's files when they exist. A new language has none yet, so the list falls back to English."""
+        d = content / name
+        if d.is_dir() and any(p.name != '_index.md' for p in d.glob('*.md')):
+            return d
+        return ROOT / 'content' / name
+
+    tools_dir = section_dir('tools')
+    profs_dir = section_dir('professionals')
+
     tools_by_cat, tools_by_slug = defaultdict(list), {}
-    for f in sorted((content / 'tools').glob('*.md')):
+    for f in sorted(tools_dir.glob('*.md')):
         tool = parse_frontmatter(f.read_text())
         if tool.get('category'):
             tools_by_cat[tool['category']].append(tool)
@@ -234,7 +268,7 @@ def build(lang):
     badges = parse_badges_overlay(ROOT / 'data' / f'badges_{code}.yaml')
 
     professions = []
-    for f in sorted((content / 'professionals').glob('*.md')):
+    for f in sorted(profs_dir.glob('*.md')):
         if f.name == '_index.md':
             continue
         prof = parse_frontmatter(f.read_text())
@@ -339,7 +373,7 @@ def build(lang):
         lines.append(entry)
     lines += ['', '---', '']
 
-    src = f'{content.name}/tools/'
+    src = f'{tools_dir.parent.name}/tools/'
     lines += [
         f'## {S["contributing"]}', '', S['contrib_p'], '',
         S['issue_p'].format(url=REPO_URL + '/issues/new'), '',
