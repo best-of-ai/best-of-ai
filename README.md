@@ -379,6 +379,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Google Analytics](https://marketingplatform.google.com/about/analytics/)** — [review](https://bestofai.io/tools/google-analytics/) — Web and app analytics from Google ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Power BI](https://powerbi.microsoft.com)** — [review](https://bestofai.io/tools/power-bi/) — Microsoft's AI-powered business intelligence tool ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Scale AI](https://scale.com)** — [review](https://bestofai.io/tools/scale-ai/) — Data labeling and AI evaluation platform for training foundation models ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
+- **[No Stairs Please](https://nostairsplease.com/)** — Independent US & BC live-music venue directory with a public [MCP server](https://nostairsplease.com/mcp) for tour routing and accessibility data ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - *[View all 44 Data tools on bestofai.io →](https://bestofai.io/categories/data/)*
 
 ---
