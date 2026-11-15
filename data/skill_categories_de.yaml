@@ -1,0 +1,45 @@
+# German labels for data/skill_categories.yaml
+-
+  slug: 'document-automation'
+  name: 'Dokumentenautomatisierung'
+  description: 'Skills zum Lesen, Erstellen und Bearbeiten von Word-, PDF-, Excel- und PowerPoint-Dateien.'
+
+-
+  slug: 'development-engineering'
+  name: 'Entwicklung und Engineering'
+  description: 'Skills für Software, MCP-Server und Agent-Tools.'
+
+-
+  slug: 'code-review-quality'
+  name: 'Code-Review und Qualität'
+  description: 'Skills, die Code vor der Veröffentlichung prüfen, vereinfachen oder robuster machen.'
+
+-
+  slug: 'testing-debugging'
+  name: 'Tests und Fehlersuche'
+  description: 'Skills für testgetriebene Entwicklung und systematische Fehlersuche.'
+
+-
+  slug: 'workflow-productivity'
+  name: 'Workflows und Produktivität'
+  description: 'Skills für Planung, Terminierung und tägliche Agent-Workflows.'
+
+-
+  slug: 'design-creative'
+  name: 'Design und Kreatives'
+  description: 'Skills für visuelles Design, Illustration und kreative Assets.'
+
+-
+  slug: 'communication-writing'
+  name: 'Kommunikation und Schreiben'
+  description: 'Skills für interne Mitteilungen, Tonalitätsbearbeitung und präzise Kommunikation.'
+
+-
+  slug: 'business-finance'
+  name: 'Wirtschaft und Finanzen'
+  description: 'Skills für Steuererklärungen, E-Commerce-Analysen und andere Geschäftsabläufe.'
+
+-
+  slug: 'browser-agent-automation'
+  name: 'Browser- und Agent-Automatisierung'
+  description: 'Skills, mit denen ein Agent Browser oder andere Live-Tools direkt steuern kann.'

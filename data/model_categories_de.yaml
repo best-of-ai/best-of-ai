@@ -1,0 +1,45 @@
+# German labels for data/model_categories.yaml
+-
+  slug: 'language'
+  name: 'Sprachmodelle'
+  description: 'Große Sprachmodelle für Chat, Schreiben und allgemeine Textaufgaben.'
+
+-
+  slug: 'multimodal'
+  name: 'Multimodal'
+  description: 'Modelle, die Text, Bilder, Audio oder Video in einem System verarbeiten.'
+
+-
+  slug: 'reasoning'
+  name: 'Reasoning'
+  description: 'Modelle für mehrstufiges Schlussfolgern, Mathematik und komplexe Problemlösungen.'
+
+-
+  slug: 'image-generation'
+  name: 'Bildgenerierung'
+  description: 'Modelle, die Bilder aus Text- und Bild-Prompts erstellen oder bearbeiten.'
+
+-
+  slug: 'audio-generation'
+  name: 'Audiogenerierung'
+  description: 'Modelle, die Sprache, Musik und andere Audiodaten aus Text- oder Audio-Prompts erzeugen.'
+
+-
+  slug: 'video-generation'
+  name: 'Videogenerierung'
+  description: 'Modelle, die Videoclips aus Text-, Bild- oder Video-Prompts erstellen oder bearbeiten.'
+
+-
+  slug: 'embedding'
+  name: 'Embeddings'
+  description: 'Modelle, die Text, Bilder oder Audio für Suche und Abruf in Vektor-Embeddings umwandeln.'
+
+-
+  slug: 'code'
+  name: 'Code'
+  description: 'Modelle für Codevervollständigung, Codegenerierung und Softwareentwicklung.'
+
+-
+  slug: 'runs-at-home'
+  name: 'Lokal ausführbar'
+  description: 'Open-Weight-Modelle, die sich herunterladen und auf eigener Hardware ausführen lassen.'

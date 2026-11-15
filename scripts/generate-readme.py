@@ -9,6 +9,7 @@ Usage:
 """
 
 import re
+import argparse
 from pathlib import Path
 from collections import defaultdict
 
@@ -97,6 +98,7 @@ LANGS = [
     {'code': 'es', 'label': 'Español', 'out': 'README_ES.md', 'content': ROOT / 'content_es', 'prefix': '/es', 'cats': ROOT / 'data' / 'categories_es.yaml'},
     {'code': 'fr', 'label': 'Français', 'out': 'README_FR.md', 'content': ROOT / 'content_fr', 'prefix': '/fr', 'cats': ROOT / 'data' / 'categories_fr.yaml'},
     {'code': 'ja', 'label': '日本語', 'out': 'README_JA.md', 'content': ROOT / 'content_ja', 'prefix': '/ja', 'cats': ROOT / 'data' / 'categories_ja.yaml'},
+    {'code': 'de', 'label': 'Deutsch', 'out': 'README_DE.md', 'content': ROOT / 'content_de', 'prefix': '/de', 'cats': ROOT / 'data' / 'categories_de.yaml'},
 ]
 
 STRINGS = {
@@ -192,6 +194,29 @@ STRINGS = {
         'license_h': 'ライセンス', 'license_p': 'MIT。[LICENSE](LICENSE) を見てください。',
         'auto': 'このファイルは [`{src}`]({src}) から自動生成しています。このファイル自体は編集しないでください。',
         'price': {'Free': '無料', 'Freemium': 'フリーミアム', 'Paid': '有料'},
+    },
+    'de': {
+        'tagline': 'Handverlesene KI-Tools, ohne Füllmaterial und mittelmäßige Apps. Jedes Tool wird nach Qualität, Innovation und praktischem Nutzen ausgewählt.',
+        'website': 'Website', 'submit': 'Tool einreichen', 'contributing': 'Mitwirken',
+        'what_h': 'Was ist das?',
+        'what_p': '**Best of AI** ist ein kuratiertes, gemeinschaftlich gepflegtes Verzeichnis der besten KI-Tools aus {cats} Kategorien. Wir beobachten mehr als {tools} Tools und wählen diejenigen aus, die deine Zeit wert sind.',
+        'different': 'Was diese Liste auszeichnet:',
+        'b_quality': '**Qualität vor Quantität** — jedes Tool wird geprüft und bewertet, statt nur aus anderen Listen übernommen zu werden',
+        'b_practical': '**Praktischer Nutzen** — wir wählen Tools nach ihrem tatsächlichen Nutzen aus, nicht nach dem Hype',
+        'b_coverage': '**Breite Auswahl** — {cats} Kategorien, von [Code-Assistenten]({code}) über [Video]({video}) bis zu [Gesundheit]({health})',
+        'b_updated': '**Regelmäßig aktualisiert** — neue Tools kommen hinzu, wenn sich die KI-Landschaft verändert',
+        'b_prof': '**Nach Beruf stöbern** — ausgewählte Tool-Sammlungen für [Design, Entwicklung, Marketing und mehr]({url})',
+        'visit': 'Das vollständige interaktive Verzeichnis mit Suche, Filtern und ausführlichen Einträgen findest du auf **[bestofai.io]({url})**.',
+        'contents': 'Inhalt', 'leaderboard': 'Rangliste', 'categories': 'Kategorien', 'professionals': 'KI für Berufe',
+        'lb_note': 'Die bestbewerteten KI-Tools nach Qualität, Innovation und praktischem Nutzen.',
+        'prof_note': 'Ausgewählte KI-Tools passend zu bestimmten Berufen und Branchen.',
+        'review': 'Eintrag',
+        'view_all': '*[Alle {n} {name}-Tools auf bestofai.io ansehen →]({url})*',
+        'contrib_p': 'In [CONTRIBUTING.md](CONTRIBUTING.md) steht, wie du Tools hinzufügst oder aktualisierst.',
+        'issue_p': 'Einen Fehler gefunden oder einen Vorschlag? [Issue eröffnen]({url}).',
+        'license_h': 'Lizenz', 'license_p': 'MIT — siehe [LICENSE](LICENSE).',
+        'auto': 'Diese Datei wird automatisch aus [`{src}`]({src}) erstellt. Bearbeite die Quelldateien, nicht diese Datei.',
+        'price': {'Free': 'Kostenlos', 'Freemium': 'Freemium', 'Paid': 'Kostenpflichtig'},
     },
 }
 
@@ -386,5 +411,10 @@ def build(lang):
           f"{len(leaderboard)} leaderboard entries, {len(professions)} professions")
 
 
-for lang in LANGS:
-    build(lang)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--lang', choices=[lang['code'] for lang in LANGS], help='generate only one language README')
+    args = parser.parse_args()
+    selected = [lang for lang in LANGS if not args.lang or lang['code'] == args.lang]
+    for lang in selected:
+        build(lang)
