@@ -3,5 +3,6 @@ Disallow: /saved/
 Disallow: /es/saved/
 Disallow: /fr/saved/
 Disallow: /ja/saved/
+Disallow: /de/saved/
 
 Sitemap: https://bestofai.io/sitemap.xml
