@@ -12,16 +12,25 @@ categories:
   - document-ai
   - software-testing
   - dubbing
-featured_tools:
-  - google-translate
-  - deepl
+specific_tools:
   - smartling
   - lokalise-ai
   - memoq
   - phrase-ai
   - crowdin
-  - abbyy
-  - adobe-acrobat-ai
+  - transifex
+  - weglot
+  - trados
+  - smartcat-ai
+  - systran
+  - deepl
+  - google-translate
+  - dubverse
+  - rask-ai
+  - deepdub
+  - applitools
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-
 ---

@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Generate README.md from Hugo content files.
+Generate README.md (English) and README_<LANG>.md (one per translated language)
+from the Hugo content files. Each README links to the others, and its website
+links point at the matching /<lang>/ pages.
 
 Usage:
     python3 scripts/generate-readme.py
 """
 
 import re
+import argparse
 from pathlib import Path
 from collections import defaultdict
 
@@ -15,7 +18,6 @@ TOOLS_DIR  = ROOT / "content" / "tools"
 PROFS_DIR  = ROOT / "content" / "professionals"
 CATS_FILE  = ROOT / "data" / "categories.yaml"
 LB_FILE    = ROOT / "data" / "leaderboard.yaml"
-README_OUT = ROOT / "README.md"
 
 REPO_URL   = "https://github.com/best-of-ai/best-of-ai"
 SITE_URL   = "https://bestofai.io"
@@ -87,222 +89,332 @@ def parse_leaderboard_yaml(text):
     return entries
 
 
-# ── Load data ─────────────────────────────────────────────────────────────────
+# ── Languages ─────────────────────────────────────────────────────────────────
+# To add a language: add an entry here, a STRINGS block below, and (optionally) a
+# data/badges_<code>.yaml overlay. The code must match the Hugo language code.
 
-categories = parse_categories_yaml(CATS_FILE.read_text())
-categories.sort(key=lambda c: (0 if c.get('sort_order', 0) > 0 else 1, c.get('sort_order', 99), c.get('name', '')))
-cat_by_slug = {c['slug']: c for c in categories}
+LANGS = [
+    {'code': 'en', 'label': 'English', 'out': 'README.md',    'content': ROOT / 'content',    'prefix': '',    'cats': None},
+    {'code': 'es', 'label': 'Español', 'out': 'README_ES.md', 'content': ROOT / 'content_es', 'prefix': '/es', 'cats': ROOT / 'data' / 'categories_es.yaml'},
+    {'code': 'fr', 'label': 'Français', 'out': 'README_FR.md', 'content': ROOT / 'content_fr', 'prefix': '/fr', 'cats': ROOT / 'data' / 'categories_fr.yaml'},
+    {'code': 'ja', 'label': '日本語', 'out': 'README_JA.md', 'content': ROOT / 'content_ja', 'prefix': '/ja', 'cats': ROOT / 'data' / 'categories_ja.yaml'},
+    {'code': 'de', 'label': 'Deutsch', 'out': 'README_DE.md', 'content': ROOT / 'content_de', 'prefix': '/de', 'cats': ROOT / 'data' / 'categories_de.yaml'},
+]
 
-tools_by_cat  = defaultdict(list)
-tools_by_slug = {}
-for f in sorted(TOOLS_DIR.glob('*.md')):
-    tool = parse_frontmatter(f.read_text())
-    if tool.get('category'):
-        tools_by_cat[tool['category']].append(tool)
-    if tool.get('slug'):
-        tools_by_slug[tool['slug']] = tool
-
-for slug in tools_by_cat:
-    tools_by_cat[slug].sort(key=lambda t: t.get('name', '').lower())
-
-total_tools = sum(len(v) for v in tools_by_cat.values())
-active_cats = [c for c in categories if tools_by_cat.get(c['slug'])]
-
-leaderboard = parse_leaderboard_yaml(LB_FILE.read_text())
-
-professions = []
-for f in sorted(PROFS_DIR.glob('*.md')):
-    if f.name == '_index.md':
-        continue
-    prof = parse_frontmatter(f.read_text())
-    if prof.get('slug'):
-        professions.append(prof)
-professions.sort(key=lambda p: (p.get('sort_order', 999) or 999, p.get('name', '')))
-
-
-# ── Price badge ───────────────────────────────────────────────────────────────
-
-PRICE_BADGE = {
-    'Free':     '![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)',
-    'Freemium': '![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)',
-    'Paid':     '![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)',
+STRINGS = {
+    'en': {
+        'tagline': 'Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.',
+        'website': 'Website', 'submit': 'Submit a Tool', 'contributing': 'Contributing',
+        'what_h': 'What is this?',
+        'what_p': '**Best of AI** is a curated, community-driven directory of the best AI tools across {cats} categories. We track {tools}+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.',
+        'different': 'What makes this list different:',
+        'b_quality': '**Quality over quantity** — every tool is reviewed and ranked, not just scraped from a list',
+        'b_practical': '**Practical focus** — tools are selected for real-world usefulness, not hype',
+        'b_coverage': '**Broad coverage** — {cats} categories from [Code Assistants]({code}) to [Video]({video}) to [Healthcare]({health})',
+        'b_updated': '**Always updated** — new tools added regularly as the AI landscape evolves',
+        'b_prof': '**Browse by profession** — curated tool stacks for [designers, developers, marketers, and more]({url})',
+        'visit': 'Visit **[bestofai.io]({url})** for the full interactive directory with search, filters, and detailed reviews.',
+        'contents': 'Contents', 'leaderboard': 'Leaderboard', 'categories': 'Categories', 'professionals': 'AI for Professionals',
+        'lb_note': 'The top-ranked AI tools by quality, innovation, and real-world impact.',
+        'prof_note': 'Curated AI tool collections tailored for specific roles and industries.',
+        'review': 'review',
+        'view_all': '*[View all {n} {name} tools on bestofai.io →]({url})*',
+        'contrib_p': 'See [CONTRIBUTING.md](CONTRIBUTING.md) to add or update tools.',
+        'issue_p': 'Found a bug or want to suggest something? [Open an issue]({url}).',
+        'license_h': 'License', 'license_p': 'MIT — see [LICENSE](LICENSE).',
+        'auto': 'This file is auto-generated from [`{src}`]({src}). Edit the source files, not this file directly.',
+        'price': {'Free': 'Free', 'Freemium': 'Freemium', 'Paid': 'Paid'},
+        'cat_url': '{site}/categories/code-assistant/',
+    },
+    'es': {
+        'tagline': 'Herramientas de IA elegidas a mano, sin relleno ni apps mediocres. Cada una está seleccionada por su calidad, su innovación y su impacto real.',
+        'website': 'Sitio web', 'submit': 'Enviar una herramienta', 'contributing': 'Contribuir',
+        'what_h': '¿Qué es esto?',
+        'what_p': '**Best of AI** es un directorio curado y hecho por la comunidad con las mejores herramientas de IA en {cats} categorías. Seguimos más de {tools} herramientas y elegimos a mano las que merecen tu tiempo, para que encuentres las que de verdad funcionan.',
+        'different': 'Qué hace distinta a esta lista:',
+        'b_quality': '**Calidad antes que cantidad**: cada herramienta se revisa y se puntúa, no se copia de otra lista',
+        'b_practical': '**Enfoque práctico**: se eligen por su utilidad real, no por el bombo',
+        'b_coverage': '**Amplia cobertura**: {cats} categorías, desde [asistentes de código]({code}) hasta [vídeo]({video}) y [salud]({health})',
+        'b_updated': '**Siempre al día**: se añaden herramientas nuevas a medida que cambia el panorama de la IA',
+        'b_prof': '**Explora por profesión**: selecciones de herramientas para [diseñadores, desarrolladores, profesionales del marketing y más]({url})',
+        'visit': 'Visita **[bestofai.io]({url})** para ver el directorio interactivo completo, con búsqueda, filtros y reseñas detalladas.',
+        'contents': 'Contenido', 'leaderboard': 'Ranking', 'categories': 'Categorías', 'professionals': 'IA para profesionales',
+        'lb_note': 'Las herramientas de IA mejor valoradas por calidad, innovación e impacto real.',
+        'prof_note': 'Colecciones de herramientas de IA pensadas para cada profesión y sector.',
+        'review': 'reseña',
+        'view_all': '*[Ver las {n} herramientas de {name} en bestofai.io →]({url})*',
+        'contrib_p': 'Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para añadir o actualizar herramientas.',
+        'issue_p': '¿Has encontrado un error o quieres proponer algo? [Abre un issue]({url}).',
+        'license_h': 'Licencia', 'license_p': 'MIT — consulta [LICENSE](LICENSE).',
+        'auto': 'Este archivo se genera automáticamente a partir de [`{src}`]({src}). Edita los archivos fuente, no este.',
+        'price': {'Free': 'Gratis', 'Freemium': 'Freemium', 'Paid': 'De pago'},
+    },
+    'fr': {
+        'tagline': "Outils d'IA choisis à la main, sans remplissage ni applications médiocres. Chacun est retenu pour sa qualité, son innovation et son impact concret.",
+        'website': 'Site web', 'submit': 'Proposer un outil', 'contributing': 'Contribuer',
+        'what_h': "Qu'est-ce que c'est ?",
+        'what_p': "**Best of AI** est un annuaire tenu par la communauté, avec les meilleurs outils d'IA dans {cats} catégories. On suit plus de {tools} outils et on retient à la main ceux qui valent ton temps, pour que tu trouves ceux qui servent vraiment.",
+        'different': 'Ce qui distingue cette liste :',
+        'b_quality': "**La qualité avant la quantité** : chaque outil est relu et noté, pas recopié d'une autre liste",
+        'b_practical': "**Un critère pratique** : on les choisit pour leur utilité réelle, pas pour le bruit autour",
+        'b_coverage': "**Une large couverture** : {cats} catégories, des [assistants de code]({code}) à la [vidéo]({video}) et à la [santé]({health})",
+        'b_updated': "**Toujours à jour** : de nouveaux outils arrivent à mesure que le paysage de l'IA change",
+        'b_prof': "**Par métier** : des sélections d'outils pour [designers, développeurs, gens du marketing et d'autres métiers]({url})",
+        'visit': "Va sur **[bestofai.io]({url})** pour l'annuaire interactif complet, avec la recherche, les filtres et les fiches.",
+        'contents': 'Sommaire', 'leaderboard': 'Classement', 'categories': 'Catégories', 'professionals': 'IA pour les métiers',
+        'lb_note': "Les outils d'IA les mieux notés pour leur qualité, leur innovation et leur impact concret.",
+        'prof_note': "Des sélections d'outils d'IA pensées pour chaque métier et chaque secteur.",
+        'review': 'fiche',
+        'view_all': "*[Voir les {n} outils de {name} sur bestofai.io →]({url})*",
+        'contrib_p': 'Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour ajouter ou mettre à jour des outils.',
+        'issue_p': 'Tu as trouvé un bug ou tu veux proposer quelque chose ? [Ouvre un issue]({url}).',
+        'license_h': 'Licence', 'license_p': 'MIT — voir [LICENSE](LICENSE).',
+        'auto': 'Ce fichier est généré automatiquement à partir de [`{src}`]({src}). Modifie les fichiers source, pas celui-ci.',
+        'price': {'Free': 'Gratuit', 'Freemium': 'Freemium', 'Paid': 'Payant'},
+    },
+    'ja': {
+        'tagline': '手で選んだAIツール。水増しも、中身のないアプリもない。品質と、実際に役立つことだけで選んでいます。',
+        'website': 'ウェブサイト', 'submit': 'ツールを投稿', 'contributing': '貢献する',
+        'what_h': 'これは何？',
+        'what_p': '**Best of AI** は、コミュニティで運営するAIツールのディレクトリです。{cats}のカテゴリにわたって{tools}件以上を追い、時間を使う価値のあるものだけを手で選んでいます。',
+        'different': 'このリストがほかと違うところ：',
+        'b_quality': '**数より質**：ほかのリストからコピーせず、1件ずつ見て順位をつけています',
+        'b_practical': '**実用で選ぶ**：話題になっているかどうかではなく、仕事に使えるかどうかで残しています',
+        'b_coverage': '**幅が広い**：{cats}カテゴリ。[コード補助]({code})から[動画]({video})、[医療]({health})まで',
+        'b_updated': '**更新し続ける**：AIの状況が変わるたびに、新しいツールを足しています',
+        'b_prof': '**職種別**：[デザイナー、開発者、マーケターなど]({url})向けに、使うツールをまとめています',
+        'visit': '検索、フィルタ、詳しいページは **[bestofai.io]({url})** で見てください。',
+        'contents': '目次', 'leaderboard': 'ランキング', 'categories': 'カテゴリ', 'professionals': '職種別のAI',
+        'lb_note': '品質と、実際にどれだけ役立つことで上位に置いたAIツールです。',
+        'prof_note': '職種と業種ごとに選んだAIツールの一覧です。',
+        'review': 'レビュー',
+        'view_all': '*[{name}のツール{n}件を bestofai.io で見る →]({url})*',
+        'contrib_p': 'ツールの追加や更新は [CONTRIBUTING.md](CONTRIBUTING.md) を見てください。',
+        'issue_p': '不具合や提案は [issue を開く]({url}) からどうぞ。',
+        'license_h': 'ライセンス', 'license_p': 'MIT。[LICENSE](LICENSE) を見てください。',
+        'auto': 'このファイルは [`{src}`]({src}) から自動生成しています。このファイル自体は編集しないでください。',
+        'price': {'Free': '無料', 'Freemium': 'フリーミアム', 'Paid': '有料'},
+    },
+    'de': {
+        'tagline': 'Handverlesene KI-Tools, ohne Füllmaterial und mittelmäßige Apps. Jedes Tool wird nach Qualität, Innovation und praktischem Nutzen ausgewählt.',
+        'website': 'Website', 'submit': 'Tool einreichen', 'contributing': 'Mitwirken',
+        'what_h': 'Was ist das?',
+        'what_p': '**Best of AI** ist ein kuratiertes, gemeinschaftlich gepflegtes Verzeichnis der besten KI-Tools aus {cats} Kategorien. Wir beobachten mehr als {tools} Tools und wählen diejenigen aus, die deine Zeit wert sind.',
+        'different': 'Was diese Liste auszeichnet:',
+        'b_quality': '**Qualität vor Quantität** — jedes Tool wird geprüft und bewertet, statt nur aus anderen Listen übernommen zu werden',
+        'b_practical': '**Praktischer Nutzen** — wir wählen Tools nach ihrem tatsächlichen Nutzen aus, nicht nach dem Hype',
+        'b_coverage': '**Breite Auswahl** — {cats} Kategorien, von [Code-Assistenten]({code}) über [Video]({video}) bis zu [Gesundheit]({health})',
+        'b_updated': '**Regelmäßig aktualisiert** — neue Tools kommen hinzu, wenn sich die KI-Landschaft verändert',
+        'b_prof': '**Nach Beruf stöbern** — ausgewählte Tool-Sammlungen für [Design, Entwicklung, Marketing und mehr]({url})',
+        'visit': 'Das vollständige interaktive Verzeichnis mit Suche, Filtern und ausführlichen Einträgen findest du auf **[bestofai.io]({url})**.',
+        'contents': 'Inhalt', 'leaderboard': 'Rangliste', 'categories': 'Kategorien', 'professionals': 'KI für Berufe',
+        'lb_note': 'Die bestbewerteten KI-Tools nach Qualität, Innovation und praktischem Nutzen.',
+        'prof_note': 'Ausgewählte KI-Tools passend zu bestimmten Berufen und Branchen.',
+        'review': 'Eintrag',
+        'view_all': '*[Alle {n} {name}-Tools auf bestofai.io ansehen →]({url})*',
+        'contrib_p': 'In [CONTRIBUTING.md](CONTRIBUTING.md) steht, wie du Tools hinzufügst oder aktualisierst.',
+        'issue_p': 'Einen Fehler gefunden oder einen Vorschlag? [Issue eröffnen]({url}).',
+        'license_h': 'Lizenz', 'license_p': 'MIT — siehe [LICENSE](LICENSE).',
+        'auto': 'Diese Datei wird automatisch aus [`{src}`]({src}) erstellt. Bearbeite die Quelldateien, nicht diese Datei.',
+        'price': {'Free': 'Kostenlos', 'Freemium': 'Freemium', 'Paid': 'Kostenpflichtig'},
+    },
 }
 
-def price_badge(price):
-    return PRICE_BADGE.get(price, f'`{price}`')
+PRICE_COLOR = {'Free': '3fb950', 'Freemium': 'd29922', 'Paid': '8b949e'}
 
 
-# ── Build README ──────────────────────────────────────────────────────────────
+def price_badge(price, labels):
+    if price not in PRICE_COLOR:
+        return f'`{price}`'
+    label = labels.get(price, price)
+    return f'![{label}](https://img.shields.io/badge/-{label.replace(" ", "_")}-{PRICE_COLOR[price]}?style=flat-square)'
 
-lines = []
 
-# Header
-lines += [
-    '<div align="center">',
-    '',
-    '# Awesome Best of AI',
-    '',
-    '> Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.',
-    '',
-    f'[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)',
-    f'[![Tools](https://img.shields.io/badge/tools-{total_tools}-f97316?style=flat-square)]({REPO_URL})',
-    f'[![Categories](https://img.shields.io/badge/categories-{len(active_cats)}-f97316?style=flat-square)]({REPO_URL})',
-    f'[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)',
-    '',
-    f'**[🌐 Website]({SITE_URL})** &nbsp;·&nbsp; **[➕ Submit a Tool]({REPO_URL}/issues/new?template=submit-tool.md&title=Submit+Tool%3A+)** &nbsp;·&nbsp; **[🤝 Contributing](CONTRIBUTING.md)**',
-    '',
-    '</div>',
-    '',
-    '---',
-    '',
-    '## What is this?',
-    '',
-    f'**Best of AI** is a curated, community-driven directory of the best AI tools across {len(active_cats)} categories. We track {total_tools}+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.',
-    '',
-    'What makes this list different:',
-    '',
-    '- **Quality over quantity** — every tool is reviewed and ranked, not just scraped from a list',
-    '- **Practical focus** — tools are selected for real-world usefulness, not hype',
-    f'- **Broad coverage** — {len(active_cats)} categories from [Code Assistants]({SITE_URL}/categories/code-assistant/) to [Video]({SITE_URL}/categories/video/) to [Healthcare]({SITE_URL}/categories/healthcare/)',
-    '- **Always updated** — new tools added regularly as the AI landscape evolves',
-    f'- **Browse by profession** — curated tool stacks for [designers, developers, marketers, and more]({SITE_URL}/professionals/)',
-    '',
-    f'Visit **[bestofai.io]({SITE_URL})** for the full interactive directory with search, filters, and detailed reviews.',
-    '',
-    '---',
-    '',
-]
+def gh_anchor(text):
+    """GitHub heading anchor: lowercase, drop punctuation, spaces to hyphens."""
+    t = re.sub(r'[^\w\s-]', '', text.lower(), flags=re.UNICODE)
+    return re.sub(r'\s', '-', t.strip())
 
-# Table of Contents
-lines += ['## Contents', '']
-lines.append('- [🏆 Leaderboard](#leaderboard)')
-lines.append('- **Categories**')
-for cat in active_cats:
-    slug   = cat['slug']
-    name   = cat['name']
-    count  = len(tools_by_cat[slug])
-    anchor = slug.lower()
-    lines.append(f'  - [{name}](#{anchor}) ({count})')
-lines.append('- [👔 AI for Professionals](#ai-for-professionals)')
-lines += ['', '---', '']
 
-# Leaderboard section
-lines += ['## Leaderboard', '']
-lines.append('> The top-ranked AI tools by quality, innovation, and real-world impact.')
-lines.append('')
-for entry in leaderboard:
-    rank  = entry.get('rank', '')
-    slug  = entry.get('slug', '')
-    badge = entry.get('badge', '')
-    tool  = tools_by_slug.get(slug)
-    if not tool:
-        continue
-    name        = tool.get('name', slug)
-    website     = tool.get('website', '')
-    price       = tool.get('price', '')
-    review_url  = f'{SITE_URL}/tools/{slug}/'
+def parse_badges_overlay(path):
+    out = {}
+    if not path.exists():
+        return out
+    for line in path.read_text().splitlines():
+        m = re.match(r'^"(.*)":\s*"(.*)"\s*$', line)
+        if m:
+            out[m.group(1)] = m.group(2)
+    return out
 
-    name_part  = f'**[{name}]({website})**' if website else f'**{name}**'
-    review     = f'[review]({review_url})'
-    badge_part = f'`{badge}`' if badge else ''
-    pbadge     = price_badge(price) if price else ''
 
-    entry_line = f'{rank}. {name_part} — {review}'
-    if badge_part:
-        entry_line += f' — {badge_part}'
-    if pbadge:
-        entry_line += f' {pbadge}'
-    lines.append(entry_line)
+# ── Build ─────────────────────────────────────────────────────────────────────
 
-lines += ['', '---', '']
+def build(lang):
+    code, S = lang['code'], STRINGS[lang['code']]
+    content = lang['content']
+    site = SITE_URL + lang['prefix']
+    home = site if not lang['prefix'] else site + '/'
+    submit = (f'{REPO_URL}/issues/new?template=submit-tool.md&title=Submit+Tool%3A+'
+              if not lang['prefix'] else f'{site}/submit/')
 
-# Category sections (top 6 by rank per category)
-for cat in active_cats:
-    slug  = cat['slug']
-    name  = cat['name']
-    desc  = cat.get('description', '').strip()
-    count = len(tools_by_cat[slug])
-    cat_url = f'{SITE_URL}/categories/{slug}/'
+    categories = parse_categories_yaml(CATS_FILE.read_text())
+    if lang['cats'] and lang['cats'].exists():
+        overlay = {c['slug']: c for c in parse_categories_yaml(lang['cats'].read_text())}
+        for c in categories:
+            o = overlay.get(c['slug'])
+            if o:
+                c['name'] = o.get('name', c['name'])
+                c['description'] = o.get('description', c.get('description', ''))
+    categories.sort(key=lambda c: (0 if c.get('sort_order', 0) > 0 else 1, c.get('sort_order', 99), c.get('name', '')))
 
-    all_tools = tools_by_cat[slug]
-    top_tools = sorted(all_tools, key=lambda t: t.get('rank', 0), reverse=True)[:4]
+    def section_dir(name):
+        """Use this language's files when they exist. A new language has none yet, so the list falls back to English."""
+        d = content / name
+        if d.is_dir() and any(p.name != '_index.md' for p in d.glob('*.md')):
+            return d
+        return ROOT / 'content' / name
 
-    lines.append(f'## [{name}]({cat_url})')
-    lines.append('')
-    if desc:
-        lines.append(f'> {desc}')
-        lines.append('')
+    tools_dir = section_dir('tools')
+    profs_dir = section_dir('professionals')
 
-    for t in top_tools:
-        tool_name = t.get('name', '')
-        website   = t.get('website', '')
-        tslug     = t.get('slug', '')
-        desc_text = t.get('subtitle', '') or t.get('description', '')
-        price     = t.get('price', '')
+    tools_by_cat, tools_by_slug = defaultdict(list), {}
+    for f in sorted(tools_dir.glob('*.md')):
+        tool = parse_frontmatter(f.read_text())
+        if tool.get('category'):
+            tools_by_cat[tool['category']].append(tool)
+        if tool.get('slug'):
+            tools_by_slug[tool['slug']] = tool
+    for slug in tools_by_cat:
+        tools_by_cat[slug].sort(key=lambda t: t.get('name', '').lower())
 
-        if len(desc_text) > 120:
-            desc_text = desc_text[:117].rstrip() + '...'
+    total_tools = sum(len(v) for v in tools_by_cat.values())
+    active_cats = [c for c in categories if tools_by_cat.get(c['slug'])]
+    leaderboard = parse_leaderboard_yaml(LB_FILE.read_text())
+    badges = parse_badges_overlay(ROOT / 'data' / f'badges_{code}.yaml')
 
-        badge      = price_badge(price) if price else ''
-        review_url = f'{SITE_URL}/tools/{tslug}/'
-        review     = f'[review]({review_url})'
+    professions = []
+    for f in sorted(profs_dir.glob('*.md')):
+        if f.name == '_index.md':
+            continue
+        prof = parse_frontmatter(f.read_text())
+        if prof.get('slug'):
+            professions.append(prof)
+    professions.sort(key=lambda p: (p.get('sort_order', 999) or 999, p.get('name', '')))
 
-        if website:
-            entry = f'- **[{tool_name}]({website})**'
-        else:
-            entry = f'- **{tool_name}**'
+    def pb(price):
+        return price_badge(price, S['price'])
 
-        entry += f' — {review}'
-        if desc_text:
-            entry += f' — {desc_text}'
-        if badge:
-            entry += f' {badge}'
+    switch = ' &nbsp;·&nbsp; '.join(
+        f"**{l['label']}**" if l['code'] == code else f"[{l['label']}]({l['out']})" for l in LANGS)
 
-        lines.append(entry)
+    lines = [
+        '<div align="center">', '',
+        f'🌐 {switch}', '',
+        '# Awesome Best of AI', '',
+        f'> {S["tagline"]}', '',
+        '[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)',
+        f'[![Tools](https://img.shields.io/badge/tools-{total_tools}-f97316?style=flat-square)]({REPO_URL})',
+        f'[![Categories](https://img.shields.io/badge/categories-{len(active_cats)}-f97316?style=flat-square)]({REPO_URL})',
+        '[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)', '',
+        f'**[🌐 {S["website"]}]({home})** &nbsp;·&nbsp; **[➕ {S["submit"]}]({submit})** &nbsp;·&nbsp; **[🤝 {S["contributing"]}](CONTRIBUTING.md)**', '',
+        '</div>', '', '---', '',
+        f'## {S["what_h"]}', '',
+        S['what_p'].format(cats=len(active_cats), tools=total_tools), '',
+        S['different'], '',
+        '- ' + S['b_quality'],
+        '- ' + S['b_practical'],
+        '- ' + S['b_coverage'].format(cats=len(active_cats), code=f'{site}/categories/code-assistant/',
+                                       video=f'{site}/categories/video/', health=f'{site}/categories/healthcare/'),
+        '- ' + S['b_updated'],
+        '- ' + S['b_prof'].format(url=f'{site}/professionals/'), '',
+        S['visit'].format(url=home), '', '---', '',
+    ]
 
-    lines.append(f'- *[View all {count} {name} tools on bestofai.io →]({cat_url})*')
-
+    # Table of contents
+    lines += [f'## {S["contents"]}', '']
+    lines.append(f'- [🏆 {S["leaderboard"]}](#{gh_anchor(S["leaderboard"])})')
+    lines.append(f'- **{S["categories"]}**')
+    for cat in active_cats:
+        lines.append(f'  - [{cat["name"]}](#{gh_anchor(cat["name"])}) ({len(tools_by_cat[cat["slug"]])})')
+    lines.append(f'- [👔 {S["professionals"]}](#{gh_anchor(S["professionals"])})')
     lines += ['', '---', '']
 
-# AI for Professionals section
-lines += ['## AI for Professionals', '']
-lines.append('> Curated AI tool collections tailored for specific roles and industries.')
-lines.append('')
-for prof in professions:
-    name      = prof.get('name', '')
-    slug      = prof.get('slug', '')
-    icon      = prof.get('icon', '')
-    subtitle  = prof.get('subtitle', '') or prof.get('description', '')
-    prof_url  = f'{SITE_URL}/professionals/{slug}/'
+    # Leaderboard
+    lines += [f'## {S["leaderboard"]}', '', f'> {S["lb_note"]}', '']
+    for entry in leaderboard:
+        slug = entry.get('slug', '')
+        tool = tools_by_slug.get(slug)
+        if not tool:
+            continue
+        name, website, price = tool.get('name', slug), tool.get('website', ''), tool.get('price', '')
+        badge = entry.get('badge', '')
+        badge = badges.get(badge, badge)
+        name_part = f'**[{name}]({website})**' if website else f'**{name}**'
+        line = f'{entry.get("rank", "")}. {name_part} — [{S["review"]}]({site}/tools/{slug}/)'
+        if badge:
+            line += f' — `{badge}`'
+        if price:
+            line += f' {pb(price)}'
+        lines.append(line)
+    lines += ['', '---', '']
 
-    if len(subtitle) > 100:
-        subtitle = subtitle[:97].rstrip() + '...'
+    # Categories (top 4 by rank each)
+    for cat in active_cats:
+        slug, name = cat['slug'], cat['name']
+        desc = cat.get('description', '').strip()
+        count = len(tools_by_cat[slug])
+        cat_url = f'{site}/categories/{slug}/'
+        top = sorted(tools_by_cat[slug], key=lambda t: t.get('rank', 0), reverse=True)[:4]
 
-    icon_part = f'{icon} ' if icon else ''
-    entry = f'- {icon_part}**[{name}]({prof_url})**'
-    if subtitle:
-        entry += f' — {subtitle}'
-    lines.append(entry)
+        lines += [f'## [{name}]({cat_url})', '']
+        if desc:
+            lines += [f'> {desc}', '']
+        for t in top:
+            tname, website, tslug = t.get('name', ''), t.get('website', ''), t.get('slug', '')
+            text = t.get('subtitle', '') or t.get('description', '')
+            price = t.get('price', '')
+            if len(text) > 120:
+                text = text[:117].rstrip() + '...'
+            entry = f'- **[{tname}]({website})**' if website else f'- **{tname}**'
+            entry += f' — [{S["review"]}]({site}/tools/{tslug}/)'
+            if text:
+                entry += f' — {text}'
+            if price:
+                entry += f' {pb(price)}'
+            lines.append(entry)
+        lines.append('- ' + S['view_all'].format(n=count, name=name, url=cat_url))
+        lines += ['', '---', '']
 
-lines += ['', '---', '']
+    # Professions
+    lines += [f'## {S["professionals"]}', '', f'> {S["prof_note"]}', '']
+    for prof in professions:
+        name, slug, icon = prof.get('name', ''), prof.get('slug', ''), prof.get('icon', '')
+        subtitle = prof.get('subtitle', '') or prof.get('description', '')
+        if len(subtitle) > 100:
+            subtitle = subtitle[:97].rstrip() + '...'
+        entry = f'- {icon + " " if icon else ""}**[{name}]({site}/professionals/{slug}/)**'
+        if subtitle:
+            entry += f' — {subtitle}'
+        lines.append(entry)
+    lines += ['', '---', '']
 
-# Footer
-lines += [
-    '## Contributing',
-    '',
-    f'See [CONTRIBUTING.md](CONTRIBUTING.md) to add or update tools.',
-    '',
-    f'Found a bug or want to suggest something? [Open an issue]({REPO_URL}/issues/new).',
-    '',
-    '## License',
-    '',
-    'MIT — see [LICENSE](LICENSE).',
-    '',
-    '---',
-    '',
-    f'<sub>This file is auto-generated from [`content/tools/`](content/tools/). Edit the source files, not this file directly.</sub>',
-    '',
-]
+    src = f'{tools_dir.parent.name}/tools/'
+    lines += [
+        f'## {S["contributing"]}', '', S['contrib_p'], '',
+        S['issue_p'].format(url=REPO_URL + '/issues/new'), '',
+        f'## {S["license_h"]}', '', S['license_p'], '', '---', '',
+        f'<sub>{S["auto"].format(src=src)}</sub>', '',
+    ]
 
-README_OUT.write_text('\n'.join(lines), encoding='utf-8')
-print(f"README.md written — {total_tools} tools, {len(active_cats)} categories, {len(leaderboard)} leaderboard entries, {len(professions)} professions")
+    (ROOT / lang['out']).write_text('\n'.join(lines), encoding='utf-8')
+    print(f"{lang['out']} written — {total_tools} tools, {len(active_cats)} categories, "
+          f"{len(leaderboard)} leaderboard entries, {len(professions)} professions")
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--lang', choices=[lang['code'] for lang in LANGS], help='generate only one language README')
+    args = parser.parse_args()
+    selected = [lang for lang in LANGS if not args.lang or lang['code'] == args.lang]
+    for lang in selected:
+        build(lang)

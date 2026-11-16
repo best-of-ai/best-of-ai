@@ -12,16 +12,20 @@ categories:
   - social-media-tools
   - email-assistants
   - market-research
-featured_tools:
-  - chatgpt
-  - jasper
-  - grammarly
+specific_tools:
+  - muck-rack
+  - meltwater
+  - cision
   - talkwalker
   - brandwatch
-  - canva
+  - sprout-social
   - hootsuite-social
-  - hubspot
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
+  - canva
   - mailchimp
-  - boomerang
-
+  - hubspot
+  - jasper
 ---

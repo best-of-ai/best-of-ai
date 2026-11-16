@@ -11,6 +11,7 @@ headquarters: 'Santa Clara, California'
 founders:
   - 'Fermi Wang'
   - 'Les Kohn'
+ai_native: false
 date: '2026-10-03'
 rank: 5
 ---

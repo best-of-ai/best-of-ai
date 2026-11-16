@@ -11,16 +11,19 @@ categories:
   - research-tools
   - data
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - wolfram-mathematica
+  - geogebra
   - wolfram-alpha-ai
+  - matlab
+  - overleaf
   - semantic-scholar
-  - tableau
-  - notion-ai
+general_tools:
+  - chatgpt
+  - claude
   - elicit
   - consensus
   - scholarcy
   - notebooklm
   - grammarly
-
 ---

@@ -10,6 +10,7 @@ founded: '2017'
 headquarters: 'San Francisco, California'
 founders:
   - 'Eugenia Kuyda'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

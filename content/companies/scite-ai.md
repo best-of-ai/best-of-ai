@@ -11,6 +11,7 @@ headquarters: 'Brooklyn, New York'
 founders:
   - 'Josh Nicholson'
   - 'Yuri Lazebnik'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

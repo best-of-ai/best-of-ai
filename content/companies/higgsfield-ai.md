@@ -10,6 +10,7 @@ founded: '2023'
 headquarters: 'London, United Kingdom'
 founders:
   - 'Alex Mashrabov'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -11,16 +11,18 @@ categories:
   - document-ai
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - navex
-  - drata
   - onetrust
+  - drata
+  - vanta
+  - credo-ai
+  - auditboard
+  - secureframe
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - semantic-scholar
   - adobe-acrobat-ai
-  - grammarly
-  - clickup
-  - perplexity-research
-
 ---

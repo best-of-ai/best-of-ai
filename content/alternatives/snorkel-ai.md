@@ -1,0 +1,3 @@
+---
+title: 'Snorkel AI Alternatives'
+---

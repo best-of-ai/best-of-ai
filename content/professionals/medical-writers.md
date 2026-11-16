@@ -12,16 +12,24 @@ categories:
   - document-ai
   - healthcare
   - compliance
-featured_tools:
-  - chatgpt
+specific_tools:
   - trinka
   - paperpal
   - semantic-scholar
   - elicit
   - scite-ai
-  - notebooklm
   - prowritingaid
+  - openevidence
+  - covidence
+  - zotero-ai
+  - mendeley
+  - overleaf
+  - scopus
+  - uptodate
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
   - adobe-acrobat-ai
   - grammarly
-
 ---

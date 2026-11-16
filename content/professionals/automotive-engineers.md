@@ -12,16 +12,23 @@ categories:
   - diagramming
   - documentation
   - computer-vision
-featured_tools:
+specific_tools:
+  - ansys
+  - matlab
+  - solidworks
+  - autodesk-fusion
+  - ntopology
+  - altium-designer
+  - cvat
+  - labelbox
+  - roboflow
+  - foxglove
+general_tools:
   - chatgpt
-  - drawio
-  - mermaid-chart
-  - tableau
+  - claude
+  - github-copilot
   - wolfram-alpha-ai
-  - clarifai
+  - mermaid-chart
+  - drawio
   - confluence-ai
-  - semantic-scholar
-  - aws-rekognition
-  - perplexity-research
-
 ---

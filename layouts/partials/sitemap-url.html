@@ -1,0 +1,42 @@
+{{/*
+  One <url> entry with hreflang alternates.
+  Args (dict): page | path, lastmod, freq, prio
+    page - a page (use for content pages)
+    path - a site path like "/about/" (use for listing pages; resolved with site.GetPage when it exists)
+  Non-default languages only list pages with a real translation (see is-translated.html), so the
+  mounted English fallback never reaches the Spanish sitemap. The default language lists everything.
+*/}}
+{{- $page := .page -}}
+{{- if and (not $page) .path -}}
+  {{- $page = site.GetPage (strings.TrimSuffix "/" (strings.TrimPrefix "/" .path)) -}}
+{{- end -}}
+{{- $translated := true -}}
+{{- if $page }}{{ $translated = partial "is-translated.html" $page }}{{ end -}}
+{{- $default := (index site.Languages 0).Lang -}}
+{{- if or (eq site.Language.Lang $default) $translated }}
+  <url>
+    <loc>{{ if $page }}{{ $page.Permalink }}{{ else }}{{ .path | absLangURL }}{{ end }}</loc>
+    {{- if $translated }}
+    {{- if $page }}
+    {{- range $page.AllTranslations }}
+    <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+    {{- if eq .Language.Lang $default }}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ .Permalink }}"/>
+    {{- end }}
+    {{- end }}
+    {{- else if .path }}
+    {{- $base := strings.TrimSuffix "/" site.BaseURL }}
+    {{- range site.Languages }}
+    {{- $href := printf "%s%s%s" $base (cond (eq .Lang $default) "" (printf "/%s" .Lang)) $.path }}
+    <xhtml:link rel="alternate" hreflang="{{ .Lang }}" href="{{ $href }}"/>
+    {{- if eq .Lang $default }}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ $href }}"/>
+    {{- end }}
+    {{- end }}
+    {{- end }}
+    {{- end }}
+    <lastmod>{{ .lastmod }}</lastmod>
+    <changefreq>{{ .freq }}</changefreq>
+    <priority>{{ .prio }}</priority>
+  </url>
+{{- end }}

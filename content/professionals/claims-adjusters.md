@@ -11,16 +11,22 @@ categories:
   - document-ai
   - image-editing
   - computer-vision
-featured_tools:
-  - chatgpt
-  - lemonade
+specific_tools:
+  - xactimate
+  - ccc-intelligent-solutions
   - tractable
+  - shift-technology
+  - matterport
+  - nearmap
   - aws-rekognition
   - clarifai
+  - abbyy
+  - hyperscience
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - chatpdf
   - humata
-  - adobe-lightroom-ai
-  - fotor
-
+  - notebooklm
 ---

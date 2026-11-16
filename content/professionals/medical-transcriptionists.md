@@ -11,16 +11,24 @@ categories:
   - healthcare
   - document-ai
   - automation
-featured_tools:
-  - chatgpt
-  - otter-ai
+specific_tools:
   - nuance-dax
+  - otter-ai
   - verbit
   - deepgram
   - assemblyai
-  - notebooklm
+  - speechmatics
+  - trint
+  - rev
+  - sonix
+  - happyscribe
+  - whisper
+  - abridge-ai
+  - freed
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - adobe-acrobat-ai
   - zapier
-
 ---

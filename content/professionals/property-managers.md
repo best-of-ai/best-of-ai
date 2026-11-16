@@ -12,14 +12,27 @@ categories:
   - automation
   - document-ai
   - chatbots
-featured_tools:
-  - chatgpt
+specific_tools:
   - appfolio
-  - hubspot-crm
+  - yardi
+  - buildium
+  - zumper
+  - matterport
+  - virtual-staging-ai
+  - boxbrownie
+  - docusign-ai
+  - tidio
+  - doorloop
+  - hemlane
+  - turbotenant
+  - hospitable
+  - hostaway
+  - pricelabs
+general_tools:
+  - chatgpt
+  - claude
   - zapier
-  - zillow
-  - salesforce
+  - hubspot-crm
   - canva
   - mailchimp
-
 ---

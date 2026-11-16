@@ -10,12 +10,18 @@ categories:
   - wellness
   - fitness
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - mindbody
+  - zen-planner
+  - vagaro
+  - acuity-scheduling
+  - insight-timer
   - headspace
   - calm
-  - myfitnesspal
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - grammarly
-
+  - capcut
 ---

@@ -12,16 +12,24 @@ categories:
   - writing-assistants
   - presentation
   - no-code
-featured_tools:
-  - chatgpt
+specific_tools:
   - articulate-360
+  - adobe-captivate
+  - 360learning
+  - docebo
   - synthesia
-  - gamma
   - heygen
   - colossyan
+  - elai
+  - quizgecko
+  - xpilot-ai
+  - elevenlabs
+  - murf
+general_tools:
+  - chatgpt
+  - claude
+  - gamma
   - canva
-  - notebooklm
   - grammarly
-  - khanmigo
-
+  - notebooklm
 ---

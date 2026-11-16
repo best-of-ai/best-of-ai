@@ -10,6 +10,7 @@ founded: '1999'
 headquarters: 'Jerusalem, Israel'
 founders:
   - 'Amnon Shashua'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

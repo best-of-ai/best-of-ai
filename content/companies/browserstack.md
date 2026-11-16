@@ -11,6 +11,7 @@ headquarters: 'Mumbai, India'
 founders:
   - 'Ritesh Arora'
   - 'Nakul Aggarwal'
+ai_native: false
 date: '2026-08-08'
 rank: 5
 ---

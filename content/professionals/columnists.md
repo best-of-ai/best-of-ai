@@ -12,16 +12,21 @@ categories:
   - copywriting
   - productivity
   - transcription
-featured_tools:
-  - chatgpt
+specific_tools:
   - perplexity
-  - notebooklm
   - trint
-  - grammarly
+  - otter-ai
+  - substack
+  - beehiiv
+  - ghost
   - hemingway-editor
+  - languagetool
+  - originality-ai
+  - prowritingaid
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
+  - grammarly
   - wordtune
-  - asana
-  - clickup
-  - copy-ai
-
 ---

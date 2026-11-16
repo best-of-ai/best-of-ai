@@ -10,6 +10,7 @@ founded: '2018'
 headquarters: 'Palo Alto, California'
 founders:
   - 'Vladimir Prelovac'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

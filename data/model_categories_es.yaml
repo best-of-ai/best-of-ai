@@ -1,0 +1,37 @@
+# Spanish name/description overlay for data/model_categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: 'language'
+  name: 'Lenguaje'
+  description: 'Grandes modelos de lenguaje pensados para chatear, escribir y tareas de texto de propósito general.'
+-
+  slug: 'multimodal'
+  name: 'Multimodal'
+  description: 'Modelos que trabajan con texto, imágenes, audio o vídeo en un único sistema.'
+-
+  slug: 'reasoning'
+  name: 'Razonamiento'
+  description: 'Modelos ajustados para razonar en varios pasos, resolver problemas de matemáticas y problemas complejos.'
+-
+  slug: 'image-generation'
+  name: 'Generación de imágenes'
+  description: 'Modelos que generan o editan imágenes a partir de texto e imágenes de referencia.'
+-
+  slug: 'audio-generation'
+  name: 'Generación de audio'
+  description: 'Modelos que generan voz, música y otro audio a partir de texto o audio.'
+-
+  slug: 'video-generation'
+  name: 'Generación de vídeo'
+  description: 'Modelos que generan o editan clips de vídeo a partir de texto, imágenes o vídeo.'
+-
+  slug: 'embedding'
+  name: 'Embeddings'
+  description: 'Modelos que convierten texto, imágenes o audio en vectores para búsqueda y recuperación.'
+-
+  slug: 'code'
+  name: 'Código'
+  description: 'Modelos entrenados para completar y generar código y para tareas de ingeniería de software.'
+-
+  slug: 'runs-at-home'
+  name: 'Funciona en casa'
+  description: 'Modelos de pesos abiertos que puedes descargar y ejecutar en tu propio hardware.'

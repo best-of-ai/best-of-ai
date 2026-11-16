@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Arif Nathoo'
   - 'Web Sun'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

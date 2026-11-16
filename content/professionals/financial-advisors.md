@@ -14,16 +14,22 @@ categories:
   - lead-generation
   - market-research
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - alphasense
   - holistiplan
   - catchlight-ai
   - morningstar-ai
   - pitchbook-ai
-  - tableau
-  - julius-ai
+  - wealth-com
+  - kensho
+  - plaid
+  - yodlee
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notebooklm
   - adobe-acrobat-ai
-  - perplexity-research
-
+  - otter-ai
+  - fathom
 ---

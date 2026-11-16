@@ -11,16 +11,20 @@ categories:
   - image-generation
   - business-tools
   - social-media-tools
-featured_tools:
+specific_tools:
   - perfectcorp
+  - perfect365
   - vagaro
-  - ideogram
-  - stable-diffusion
+  - styleseat
+  - fresha
+  - acuity-scheduling
+  - honeybook
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - adobe-lightroom-ai
-  - civitai
-  - bing-image-creator
-  - sprout-social
+  - later
   - buffer
-  - hubspot-business
-
+  - capcut
 ---

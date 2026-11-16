@@ -11,16 +11,18 @@ categories:
   - privacy
   - cybersecurity
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - onetrust
   - osano
+  - bigid
+  - securiti
+  - transcend-privacy
   - drata
   - vanta
-  - wiz
+  - nightfall
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
-  - bigid
-  - crowdstrike
-
 ---

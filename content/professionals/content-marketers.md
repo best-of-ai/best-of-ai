@@ -11,16 +11,24 @@ categories:
   - seo
   - copywriting
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - semrush
-  - jasper
-  - buffer
-  - canva
-  - surfer-seo
-  - grammarly
   - ahrefs
+  - surfer-seo
   - clearscope
+  - frase
+  - marketmuse
+  - buzzsumo
+  - jasper-marketing
+  - storychief
+  - neuronwriter
+  - scalenut
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - buffer
+  - grammarly
   - hubspot
-
+  - notion-ai
 ---

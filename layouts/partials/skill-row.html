@@ -1,0 +1,40 @@
+{{/*
+  One skill repo per row, used on the skills list pages.
+  Context (dict): page, p (page.Params), n (1-based position)
+*/}}
+{{ $page := .page }}
+{{ $p    := .p }}
+{{ $desc := or $p.subtitle ($p.description | truncate 140) }}
+{{ $price := or $p.price "Free" }}
+{{ $stars := int ($p.stars | default 0) }}
+{{ $week  := int ($p.stars_this_week | default 0) }}
+
+
+<a href="{{ $page.RelPermalink }}" class="skill-row" data-price="{{ $price }}" data-stars="{{ $stars }}" data-week="{{ $week }}" data-search="{{ lower (printf "%s %s %s %s" $p.name $p.author $p.skill_type $p.subtitle) }}">
+  <span class="skill-row__rank">{{ .n }}</span>
+  <span class="skill-row__logo">
+    <img src="{{ partial "skill-logo-src.html" $p }}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <span class="tool-logo-fallback" style="display:none">{{ substr $p.name 0 1 }}</span>
+  </span>
+  <span class="skill-row__main">
+    <span class="skill-row__title">
+      <span class="skill-row__name">{{ $p.name }}</span>
+      {{ with $p.author }}<span class="skill-row__author">{{ i18n "by_author" (dict "name" .) }}</span>{{ end }}
+    </span>
+    <span class="skill-row__desc">{{ $desc }}</span>
+    <span class="skill-row__meta">
+      {{ with $p.skill_type }}<span class="skill-row__chip">{{ partial "enum-label.html" . }}</span>{{ end }}
+      {{ with $p.license }}<span class="skill-row__lic">{{ . }}</span>{{ end }}
+    </span>
+  </span>
+  <span class="skill-row__stats">
+    {{ if $stars }}
+    <span class="skill-row__stars" title="{{ i18n "n_stars" (dict "n" (lang.FormatNumberCustom 0 $stars ". ,")) }}">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>
+      {{ partial "fmt-stars.html" $stars }}
+    </span>
+    {{ end }}
+    {{ if $week }}<span class="skill-row__week">{{ i18n "plus_n_this_week" (dict "n" (partial "fmt-stars.html" $week)) }}</span>{{ end }}
+  </span>
+  {{ partial "price-icon.html" $price }}
+</a>

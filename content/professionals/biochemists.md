@@ -11,16 +11,26 @@ categories:
   - drug-discovery
   - research-tools
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - benchling
   - alphafold-ai
   - schrodinger
   - dnanexus
+  - rosettafold
+  - snapgene
+  - geneious
+  - reaxys
+  - recursion
+  - isomorphic-labs
+  - atomwise
+  - graphpad-prism
+  - biorender
+  - connected-papers
+general_tools:
+  - chatgpt
+  - claude
   - elicit
   - semantic-scholar
   - scispace
-  - connected-papers
-  - recursion
-
+  - perplexity
 ---

@@ -10,6 +10,7 @@ founded: '2019'
 headquarters: 'Berlin, Germany'
 founders:
   - 'Jan Oberhauser'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

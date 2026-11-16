@@ -1,0 +1,22 @@
+{{/*
+  Whether a page has a real translation, not just the English source mounted into the language.
+  Translations live in content_<lang>/ (see hugo.toml mounts), so a page counts as translated when its
+  source file sits there. Pages with no source file (taxonomy lists, generated pages) are always
+  translated: their text comes from i18n/. The alternatives and company-pages sections are
+  frontmatter-only stubs, so they count as translated too. For the default language, the answer is whether any
+  translation of the page is real.
+  Usage: {{ if partial "is-translated.html" . }}
+*/}}
+{{- $page := . -}}
+{{- $default := (index site.Languages 0).Lang -}}
+{{- $translated := false -}}
+{{- if or (not $page.File) (in (slice "alternatives" "company-pages") $page.Section) -}}
+  {{- $translated = true -}}
+{{- else if ne $page.Language.Lang $default -}}
+  {{- $translated = strings.Contains $page.File.Filename (printf "/content_%s/" $page.Language.Lang) -}}
+{{- else -}}
+  {{- range $page.Translations -}}
+    {{- if and .File (strings.Contains .File.Filename (printf "/content_%s/" .Language.Lang)) -}}{{- $translated = true -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $translated -}}

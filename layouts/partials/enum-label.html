@@ -1,0 +1,11 @@
+{{/*
+  Display label for a frontmatter enum value (price, model_type, hardware_type, skill_type).
+  The stored value stays English because filters and `where` queries match on it; only the text
+  shown to visitors changes. Looks up i18n key enum_<value> and falls back to the raw value.
+  Usage: {{ partial "enum-label.html" $p.price }}
+*/}}
+{{- $v := . | string -}}
+{{- $slug := strings.Trim (lower $v | replaceRE "[^a-z0-9]+" "_") "_" -}}
+{{- $label := "" -}}
+{{- if and $slug (not (findRE "^[0-9]+$" $slug)) }}{{ $label = i18n (printf "enum_%s" $slug) }}{{ end -}}
+{{- return (cond (ne $label "") $label $v) -}}

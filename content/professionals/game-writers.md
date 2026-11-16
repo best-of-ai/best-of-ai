@@ -12,16 +12,20 @@ categories:
   - storytelling
   - copywriting
   - character-design
-featured_tools:
-  - chatgpt
-  - sudowrite
+specific_tools:
+  - twine
+  - articy-draft
   - novelai
+  - sudowrite
   - charisma-ai
   - ai-dungeon
   - inworld-ai
   - convai
+  - ludo-ai
+general_tools:
+  - chatgpt
+  - claude
   - notion-ai
   - grammarly
-  - copy-ai
-
+  - obsidian
 ---

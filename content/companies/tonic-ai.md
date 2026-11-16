@@ -12,6 +12,7 @@ founders:
   - 'Ian Coe'
   - 'Adam Kamor'
   - 'Karl Hanson'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

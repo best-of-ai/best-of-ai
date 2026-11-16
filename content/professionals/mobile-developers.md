@@ -12,16 +12,24 @@ categories:
   - devtools
   - no-code
   - automation
-featured_tools:
+specific_tools:
+  - flutterflow
+  - dhiwise
+  - thunkable
+  - adalo
+  - glide
+  - firebase
+  - locofy
+  - anima-ai
+  - bolt-new
+  - lovable
+  - replit
+  - sentry
+general_tools:
   - github-copilot
   - cursor
   - chatgpt
-  - flutterflow
-  - dhiwise
-  - bolt-new
-  - replit
-  - codeium
-  - aider
-  - amazon-bedrock
-
+  - claude
+  - windsurf
+  - claude-code
 ---

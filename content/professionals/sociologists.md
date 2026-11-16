@@ -12,15 +12,22 @@ categories:
   - writing-assistants
   - academia
   - market-research
-featured_tools:
-  - chatgpt
+specific_tools:
+  - nvivo
+  - atlas-ti
+  - stata
+  - posit
+  - prolific
+  - qualtrics
+  - dovetail-ai
+  - brandwatch
   - semantic-scholar
+general_tools:
+  - chatgpt
+  - claude
   - elicit
   - connected-papers
-  - tableau
   - notebooklm
-  - brandwatch
-  - scispace
   - consensus
-
+  - tableau
 ---

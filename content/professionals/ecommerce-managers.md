@@ -13,16 +13,34 @@ categories:
   - social-media-tools
   - email-assistants
   - copywriting
-featured_tools:
-  - chatgpt
+specific_tools:
   - shopify
-  - semrush
-  - adcreative-ai
+  - bigcommerce
+  - woocommerce
   - klaviyo-ai
+  - yotpo-ai
+  - okendo-ai
+  - gorgias
+  - nosto-ai
+  - dynamic-yield
+  - recharge-ai
+  - privy-ai
+  - octane-ai
+  - klevu
+  - syte
+  - constructor
+  - bloomreach
+  - photoroom
+  - pixelcut-ai
+  - helium-10
+  - jungle-scout
+  - omnisend
+  - flair-ai
+general_tools:
+  - chatgpt
+  - claude
   - canva
+  - semrush
   - jasper
   - buffer
-  - hubspot
-  - sprout-social
-
 ---

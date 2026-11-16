@@ -12,16 +12,25 @@ categories:
   - chatbots
   - automation
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - canary-technologies
   - duve
+  - opentable
+  - toast
+  - 7shifts
+  - deputy
+  - kayak
+  - tripadvisor
+  - nory
+  - winnow
+  - popmenu
+  - pricelabs
+general_tools:
+  - chatgpt
+  - claude
   - intercom
-  - hubspot-crm
-  - salesforce
+  - canva
   - mailchimp
   - zapier
-  - canva
-  - notion
-
+  - hubspot-crm
 ---

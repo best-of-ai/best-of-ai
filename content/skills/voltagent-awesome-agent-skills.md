@@ -12,11 +12,11 @@ install: 'Browse skills through the officialskills.sh companion site, which link
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 33868
-stars_this_week: 67
-stars_updated: '2026-09-07'
+stars: 36831
+stars_this_week: 350
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [directory, development, curated]
 ---
 This repository bundles the following skills:

@@ -10,6 +10,7 @@ founded: '2022'
 headquarters: 'Beijing, China'
 founders:
   - 'Tsinghua University NLP Lab'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

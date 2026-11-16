@@ -12,10 +12,10 @@ install: 'In Claude Code, run /plugin marketplace add cathrynlavery/diagram-desi
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 32989
-stars_this_week: 1145
-stars_updated: '2026-09-07'
-rank: 8
-date: '2026-09-07'
+stars: 64820
+stars_this_week: 4172
+stars_updated: '2026-11-04'
+rank: 9
+date: '2026-11-04'
 tags: [diagrams, design]
 ---

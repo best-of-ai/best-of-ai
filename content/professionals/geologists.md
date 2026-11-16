@@ -12,15 +12,19 @@ categories:
   - research-tools
   - writing-assistants
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - seequent
+  - datarock
   - arcgis
+  - qgis
   - planet-labs
-  - tableau
+  - google-earth-engine
+  - pix4d
+  - dronedeploy
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
   - elicit
-  - adobe-acrobat-ai
-  - grammarly
-
 ---

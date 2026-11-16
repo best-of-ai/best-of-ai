@@ -12,16 +12,22 @@ categories:
   - document-ai
   - data
   - computer-vision
-featured_tools:
-  - chatgpt
+specific_tools:
   - procore
   - autodesk-construction
   - buildertrend
-  - buildxact
+  - trimble-construction
+  - bluebeam
+  - dronedeploy
+  - matterport
+  - samsara
+  - pix4d
+  - icc-digital-codes
+  - openspace
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - tableau
-  - aws-rekognition
-  - clarifai
-  - samsara
-
+  - power-bi
 ---

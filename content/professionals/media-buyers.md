@@ -12,16 +12,27 @@ categories:
   - data
   - social-media-tools
   - marketing
-featured_tools:
-  - chatgpt
-  - semrush
+specific_tools:
   - adcreative-ai
   - smartly
-  - tableau
+  - madgicx
+  - pattern89
+  - pencil
+  - clickcease
+  - ghostwall
   - similarweb
+  - sensor-tower
   - amplitude-ai
-  - buffer
-  - hubspot
+  - optmyzr
+  - adalysis
+  - vidmob
+  - redtrack
+  - voluum
+general_tools:
+  - chatgpt
+  - claude
+  - semrush
+  - tableau
   - power-bi
-
+  - hubspot
 ---

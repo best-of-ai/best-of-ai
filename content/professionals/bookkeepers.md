@@ -11,16 +11,26 @@ categories:
   - tax-accounting
   - spreadsheets
   - document-ai
-featured_tools:
-  - chatgpt
-  - botkeeper
-  - vic-ai
+specific_tools:
   - pilot-ai
+  - vic-ai
+  - dext
+  - quickbooks
+  - xero
+  - bill-com-ai
+  - expensify-ai
+  - jupid
+  - zeni-ai
   - avalara
   - taxjar
-  - turbotax
+  - nanonets
+  - rossum
   - abbyy
-  - chatpdf
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - formula-bot
+  - adobe-acrobat-ai
   - notebooklm
-
 ---

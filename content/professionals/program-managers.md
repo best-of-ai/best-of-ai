@@ -12,14 +12,20 @@ categories:
   - productivity
   - data
   - presentation
-featured_tools:
-  - chatgpt
-  - linear
+specific_tools:
   - asana
   - monday
-  - make
-  - zapier
-  - gamma
+  - smartsheet-ai
+  - jira
+  - wrike
+  - linear
   - clickup
-
+  - celonis
+general_tools:
+  - chatgpt
+  - claude
+  - gamma
+  - zapier
+  - make
+  - notion-ai
 ---

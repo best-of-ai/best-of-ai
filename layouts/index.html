@@ -6,36 +6,36 @@
 <div class="home-layout">
 
   <!-- ── Left column: brand + categories ── -->
-  {{ partial "left-sidebar.html" . }}
+  {{ partialCached "left-sidebar.html" . (partial "nav-key.html" .) }}
 
   <!-- ── Center column: search + tools ── -->
   <main class="hl-center" id="home-main">
 
     <div class="hl-hero">
       <h1 class="hl-hero__title">Best of <span>AI</span></h1>
-      <p class="hl-hero__desc">The best AI tools, handpicked. No fluff, no noise.</p>
+      <p class="hl-hero__desc">{{ i18n "the_best_ai_tools_handpicked_no" }}</p>
       <div class="hl-hero__stats">
-        <span class="hl-hero__stat-count">{{ partial "count.html" (len $tools) }} tools</span>
+        <span class="hl-hero__stat-count">{{ i18n "n_tools" (dict "count" (len $tools) "n" (partial "count.html" (len $tools))) }}</span>
         <span class="hl-hero__stat-dot">·</span>
-        <span>{{ len hugo.Data.categories }} categories</span>
+        <span>{{ i18n "n_categories" (dict "count" (len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang)) "n" (len (partialCached "data-lang.html" "categories" "categories" site.Language.Lang))) }}</span>
         <span class="hl-hero__stat-dot">·</span>
-        <span>free &amp; paid</span>
+        <span>{{ i18n "free_paid" }}</span>
       </div>
     </div>
 
     <div class="price-bar" id="price-bar">
-      <span class="price-bar__label">// filter</span>
-      <button class="pf active" data-price="all">all</button>
-      <button class="pf" data-price="Free">free</button>
-      <button class="pf" data-price="Freemium">freemium</button>
-      <button class="pf" data-price="Paid">paid</button>
+      <span class="price-bar__label">{{ i18n "filter" }}</span>
+      <button class="pf active" data-price="all">{{ i18n "all" }}</button>
+      <button class="pf" data-price="Free">{{ i18n "free_2" }}</button>
+      <button class="pf" data-price="Freemium">{{ i18n "freemium" }}</button>
+      <button class="pf" data-price="Paid">{{ i18n "paid" }}</button>
     </div>
 
     <!-- ── Sponsored (home leaderboard) ── -->
     {{ $homeAds := where hugo.Data.ads.home_leaderboard "enabled" true }}
     {{ if $homeAds }}
     <section class="ad-cards-section">
-      <div class="ad-cards-label">// sponsored</div>
+      <div class="ad-cards-label">{{ i18n "sponsored" }}</div>
       <div class="ad-cards-grid">
         {{ range $homeAds }}
         {{ partial "ad-slot.html" (dict "ad" . "variant" "card") }}
@@ -48,9 +48,9 @@
     {{ $top6 := first 6 hugo.Data.leaderboard }}
     <section class="tool-section home-top100" id="top-100" data-cat="top-100">
       <h2 class="tool-section__title">
-        <a href="{{ "/leaderboard/" | relURL }}" class="tool-section__title-link">Top 100 AI Tools</a>
-        <a href="{{ "/leaderboard/" | relURL }}" class="tool-section__more-link">
-          View all 100
+        <a href="{{ "/leaderboard/" | relLangURL }}" class="tool-section__title-link">{{ i18n "top_100_ai_tools" }}</a>
+        <a href="{{ "/leaderboard/" | relLangURL }}" class="tool-section__more-link">
+          {{ i18n "view_all_n_count" (dict "n" 100) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -60,7 +60,7 @@
           {{ $page  := index (where $tools "Params.slug" $entry.slug) 0 }}
           {{ if $page }}
           {{ $p := $page.Params }}
-          {{ $badgeDesc := or $entry.badge $p.subtitle ($p.description | truncate 80) }}
+          {{ $badgeDesc := or (and $entry.badge (partial "badge-label.html" $entry.badge)) $p.subtitle ($p.description | truncate 80) }}
           {{ partial "tool-card.html" (dict "page" $page "p" $p "desc" $badgeDesc) }}
           {{ end }}
         {{ end }}
@@ -68,13 +68,13 @@
     </section>
 
     <!-- ── Recently Added Tools ── -->
-    {{ $recentTools := first 9 (sort $tools "Params.date" "desc") }}
+    {{ $recentTools := first 9 (partial "dead-last.html" (partial "newest-first.html" $tools)) }}
     {{ if $recentTools }}
     <section class="tool-section home-recent" id="recently-added" data-cat="recently-added">
       <h2 class="tool-section__title">
-        <a href="{{ "/new/" | relURL }}" class="tool-section__title-link">Recently Added Tools</a>
-        <a href="{{ "/new/" | relURL }}" class="tool-section__more-link">
-          View all recently added
+        <a href="{{ "/new/" | relLangURL }}" class="tool-section__title-link">{{ i18n "recently_added_tools" }}</a>
+        <a href="{{ "/new/" | relLangURL }}" class="tool-section__more-link">
+          {{ i18n "view_all_recently_added" }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -86,15 +86,35 @@
     </section>
     {{ end }}
 
+    <!-- ── Trending Skills ── -->
+    {{ $allSkills := where .Site.RegularPages "Section" "skills" }}
+    {{ $trendingSkills := first 3 (sort $allSkills "Params.stars_this_week" "desc") }}
+    {{ if $trendingSkills }}
+    <section class="tool-section home-skills" id="trending-skills" data-cat="trending-skills">
+      <h2 class="tool-section__title">
+        <a href="{{ "/skills/" | relLangURL }}" class="tool-section__title-link">{{ i18n "trending_skills" }}</a>
+        <a href="{{ "/skills/" | relLangURL }}" class="tool-section__more-link">
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allSkills))) }}
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </h2>
+      <div class="skill-list">
+        {{ range $i, $s := $trendingSkills }}
+          {{ partial "skill-row.html" (dict "page" $s "p" $s.Params "n" (add $i 1)) }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
     <!-- ── New AI Models ── -->
     {{ $allModels := where .Site.RegularPages "Section" "models" }}
     {{ $newModels := first 6 (sort $allModels "Params.release_date" "desc") }}
     {{ if $newModels }}
     <section class="tool-section home-models" id="new-models" data-cat="new-models">
       <h2 class="tool-section__title">
-        <a href="{{ "/models/" | relURL }}" class="tool-section__title-link">New AI Models</a>
-        <a href="{{ "/models/" | relURL }}" class="tool-section__more-link">
-          View all {{ partial "count.html" (len $allModels) }}
+        <a href="{{ "/models/" | relLangURL }}" class="tool-section__title-link">{{ i18n "new_ai_models" }}</a>
+        <a href="{{ "/models/" | relLangURL }}" class="tool-section__more-link">
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allModels))) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -112,9 +132,9 @@
     {{ if $popHardware }}
     <section class="tool-section home-hardware" id="popular-hardware" data-cat="popular-hardware">
       <h2 class="tool-section__title">
-        <a href="{{ "/hardware/" | relURL }}" class="tool-section__title-link">Popular AI Hardware</a>
-        <a href="{{ "/hardware/" | relURL }}" class="tool-section__more-link">
-          View all {{ partial "count.html" (len $allHardware) }}
+        <a href="{{ "/hardware/" | relLangURL }}" class="tool-section__title-link">{{ i18n "popular_ai_hardware" }}</a>
+        <a href="{{ "/hardware/" | relLangURL }}" class="tool-section__more-link">
+          {{ i18n "view_all_n_count" (dict "n" (partial "count.html" (len $allHardware))) }}
           <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </h2>
@@ -128,7 +148,7 @@
 
     {{/* Build sortable slice: [{cat, count}] sorted by count desc */}}
     {{ $catList := slice }}
-    {{ range hugo.Data.categories }}
+    {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
       {{ $count := len (where $tools "Params.category" .slug) }}
       {{ if gt $count 0 }}
         {{ $catList = $catList | append (dict "cat" . "count" $count) }}
@@ -140,15 +160,15 @@
       {{ $cat   := .cat }}
       {{ $total := .count }}
       {{ $catTools := where $tools "Params.category" $cat.slug }}
-      {{ $sorted   := sort $catTools "Params.rank" "desc" }}
+      {{ $sorted   := partial "dead-last.html" (sort $catTools "Params.rank" "desc") }}
       {{ $visible  := $sorted | first 3 }}
       <section class="tool-section" id="{{ $cat.slug }}" data-cat="{{ $cat.slug }}">
         <h2 class="tool-section__title">
-          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__title-link">{{ $cat.name }}</a>
+          <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__title-link">{{ $cat.name }}</a>
           <span class="tool-section__count">{{ partial "count.html" $total }}</span>
           {{ if gt $total 3 }}
-          <a href="{{ printf "/categories/%s/" $cat.slug | relURL }}" class="tool-section__more-link">
-            View all {{ $total }}
+          <a href="{{ printf "/categories/%s/" $cat.slug | relLangURL }}" class="tool-section__more-link">
+            {{ i18n "view_all_n_count" (dict "n" $total) }}
             <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
           {{ end }}
@@ -163,7 +183,7 @@
   </main>
 
   <!-- ── Right column: professions ── -->
-  {{ partial "right-sidebar.html" . }}
+  {{ partialCached "right-sidebar.html" . (partial "right-sidebar-key.html" .) }}
 
 </div>
 

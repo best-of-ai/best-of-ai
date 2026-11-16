@@ -11,16 +11,23 @@ categories:
   - market-research
   - copywriting
   - graphic-design
-featured_tools:
-  - chatgpt
-  - semrush
-  - similarweb
+specific_tools:
   - brandwatch
-  - crayon
   - talkwalker
+  - crayon
+  - similarweb
+  - cb-insights-ai
+  - klue
+  - theo-ai
+  - quantilope
+  - qualtrics
+  - meltwater
+general_tools:
+  - chatgpt
+  - claude
+  - semrush
   - canva
-  - copy-ai
   - figma
-  - adobe-express
-
+  - gamma
+  - midjourney
 ---

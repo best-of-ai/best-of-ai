@@ -35,7 +35,7 @@
     </div>
     <div class="gpu-row__id-text">
       <span class="gpu-row__name">{{ $p.name }}</span>
-      <span class="gpu-row__sub">{{ if $company }}{{ $company }}{{ end }}{{ with $p.model_type }}{{ if $company }} · {{ end }}{{ . }}{{ end }}</span>
+      <span class="gpu-row__sub">{{ if $company }}{{ $company }}{{ end }}{{ with $p.model_type }}{{ if $company }} · {{ end }}{{ partial "enum-label.html" . }}{{ end }}</span>
     </div>
   </div>
 
@@ -43,31 +43,31 @@
     {{ if $p.context_window_tokens }}
     <div class="gpu-row__stat">
       <span class="gpu-row__stat-val">{{ lang.FormatNumberCustom 0 $p.context_window_tokens ". ," }}</span>
-      <span class="gpu-row__stat-label">context tokens</span>
+      <span class="gpu-row__stat-label">{{ i18n "context_tokens" }}</span>
     </div>
     {{ end }}
     {{ if $p.param_count }}
     <div class="gpu-row__stat">
       <span class="gpu-row__stat-val">{{ $p.param_count }}</span>
-      <span class="gpu-row__stat-label">parameters</span>
+      <span class="gpu-row__stat-label">{{ i18n "parameters_2" }}</span>
     </div>
     {{ end }}
     {{ if $p.license }}
     <div class="gpu-row__stat">
       <span class="gpu-row__stat-val">{{ $p.license }}</span>
-      <span class="gpu-row__stat-label">license</span>
+      <span class="gpu-row__stat-label">{{ i18n "license_2" }}</span>
     </div>
     {{ end }}
     {{ if $p.lmarena_score }}
     <div class="gpu-row__stat">
       <span class="gpu-row__stat-val">{{ $p.lmarena_score }}</span>
-      <span class="gpu-row__stat-label">arena elo</span>
+      <span class="gpu-row__stat-label">{{ i18n "arena_elo" }}</span>
     </div>
     {{ end }}
     {{ if $p.release_date }}
     <div class="gpu-row__stat">
-      <span class="gpu-row__stat-val">{{ (time $p.release_date).Format "Jan 2006" }}</span>
-      <span class="gpu-row__stat-label">released</span>
+      <span class="gpu-row__stat-val">{{ time.Format "Jan 2006" $p.release_date }}</span>
+      <span class="gpu-row__stat-label">{{ i18n "released_2" }}</span>
     </div>
     {{ end }}
   </div>
@@ -75,7 +75,7 @@
   {{ with $p.subtitle }}<p class="gpu-row__desc">{{ . }}</p>{{ end }}
 
   <div class="gpu-row__price">
-    <span class="gpu-row__price-val">{{ $priceLabel }}</span>
+    <span class="gpu-row__price-val">{{ partial "enum-label.html" $priceLabel }}</span>
     <svg class="gpu-row__ext" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
   </div>
 </a>

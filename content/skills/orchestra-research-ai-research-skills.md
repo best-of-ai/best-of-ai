@@ -12,11 +12,11 @@ install: 'Run npx @orchestra-research/ai-research-skills, which auto-detects sup
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 12390
-stars_this_week: 43
-stars_updated: '2026-09-07'
+stars: 14252
+stars_this_week: 218
+stars_updated: '2026-11-04'
 rank: 7
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [ai-research, machine-learning]
 ---
 This repository bundles the following skills:

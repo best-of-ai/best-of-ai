@@ -1,0 +1,715 @@
+# German name/description overlay for data/categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: '3d'
+  name: '3D'
+  description: 'KI-Tools für 3D-Modellierung, Rendering, Texturierung und automatisiertes Design.'
+
+-
+  slug: 'ai-agents'
+  name: 'KI-Agenten'
+  description: 'Autonome KI-Agenten, die planen, schlussfolgern und mehrstufige Aufgaben mit wenig menschlicher Unterstützung erledigen.'
+
+-
+  slug: 'ai-companion'
+  name: 'KI-Begleiter'
+  description: 'KI-Chatbegleiter, virtuelle Freund:innen und persönliche KI-Figuren.'
+
+-
+  slug: 'ad-generator'
+  name: 'Anzeigengeneratoren'
+  description: 'KI-Tools zum Erstellen und Optimieren digitaler Anzeigen auf Google, Meta und sozialen Plattformen.'
+
+-
+  slug: 'animation'
+  name: 'Animation'
+  description: 'KI-gestützte Animationstools für Motion Graphics, animierte Videos und Figurenanimationen.'
+
+-
+  slug: 'app-builders'
+  name: 'App-Entwicklung'
+  description: 'KI-Plattformen zum Erstellen mobiler Apps und Web-Apps ohne klassische Programmierkenntnisse.'
+
+-
+  slug: 'background-remover'
+  name: 'Hintergrund entfernen'
+  description: 'KI-Tools, die Bildhintergründe automatisch entfernen oder ersetzen.'
+
+-
+  slug: 'business-tools'
+  name: 'Business-Tools'
+  description: 'KI-Tools, die Geschäftsabläufe, Strategie und datengestützte Entscheidungen vereinfachen.'
+
+-
+  slug: 'crm'
+  name: 'CRM'
+  description: 'KI-gestützte Kundenverwaltung für Vertrieb, Kontaktpflege und Pipeline-Tracking.'
+
+-
+  slug: 'calendar-scheduling'
+  name: 'Kalender und Terminplanung'
+  description: 'KI-Assistenten für Terminbuchungen, Kalenderverwaltung und bessere Zeitplanung.'
+
+-
+  slug: 'climate'
+  name: 'Klima'
+  description: 'KI-Tools zur Klimamodellierung, CO₂-Erfassung und Analyse von Umweltauswirkungen.'
+
+-
+  slug: 'code-assistant'
+  name: 'Programmierassistenten'
+  description: 'KI-Programmierassistenten, Codevervollständigung und Tools für Pair Programming.'
+
+-
+  slug: 'copywriting'
+  name: 'Werbetexte'
+  description: 'KI-Tools für überzeugende Marketingtexte, Anzeigen, Landingpages und Produktbeschreibungen.'
+
+-
+  slug: 'devtools'
+  name: 'Entwicklertools'
+  description: 'KI-Entwicklertools für Code-Reviews, CI/CD, Infrastrukturverwaltung und Entwicklungsabläufe.'
+
+-
+  slug: 'document-ai'
+  name: 'Dokument-KI'
+  description: 'KI-Tools zum Lesen und Analysieren von Dokumenten und PDFs sowie zum Extrahieren wichtiger Informationen.'
+
+-
+  slug: 'e-commerce'
+  name: 'E-Commerce'
+  description: 'KI-Tools zur Optimierung von Produktangeboten, Personalisierung und Online-Shop-Verwaltung.'
+
+-
+  slug: 'email-assistants'
+  name: 'E-Mail-Assistenten'
+  description: 'KI-Tools zum schnelleren Verfassen, Zusammenfassen und Verwalten von E-Mails.'
+
+-
+  slug: 'farming'
+  name: 'Landwirtschaft'
+  description: 'KI-Tools für Präzisionslandwirtschaft, Ernteüberwachung, Ertragsprognosen und Betriebsführung.'
+
+-
+  slug: 'fashion'
+  name: 'Mode'
+  description: 'KI-Tools für Modedesign, Trendprognosen und virtuelle Anproben.'
+
+-
+  slug: 'finance'
+  name: 'Finanzen'
+  description: 'KI-Tools für persönliche Finanzen, Anlageanalysen, Budgetplanung und Finanzplanung.'
+
+-
+  slug: 'government'
+  name: 'Öffentlicher Sektor'
+  description: 'KI-Tools für Behörden zur Verbesserung von Bürgerservices, Datenanalysen und politischen Entscheidungsgrundlagen.'
+
+-
+  slug: 'hr'
+  name: 'Personalwesen'
+  description: 'KI-Tools für Personalwesen, darunter Onboarding, Mitarbeiterengagement und Personalplanung.'
+
+-
+  slug: 'home-design'
+  name: 'Wohnen und Einrichtung'
+  description: 'KI-Tools für Innenarchitektur, Raumplanung und Visualisierung von Renovierungen.'
+
+-
+  slug: 'image-editing'
+  name: 'Bildbearbeitung'
+  description: 'KI-Tools zum Bearbeiten, Verbessern und Umgestalten vorhandener Bilder.'
+
+-
+  slug: 'image-generation'
+  name: 'Bildgenerierung'
+  description: 'KI-Tools, die Bilder und Grafiken aus Text-Prompts erstellen.'
+
+-
+  slug: 'infographics'
+  name: 'Infografiken'
+  description: 'KI-Tools für Datenvisualisierungen, Infografiken und teilbare visuelle Berichte.'
+
+-
+  slug: 'job-tools'
+  name: 'Jobsuche'
+  description: 'KI-Tools für Jobsuche, Bewerbungsverwaltung und berufliche Entwicklung.'
+
+-
+  slug: 'knowledge-management'
+  name: 'Wissensmanagement'
+  description: 'KI-Tools zum Organisieren, Verknüpfen und Abrufen des Wissens von Einzelpersonen und Teams.'
+
+-
+  slug: 'language-learning'
+  name: 'Sprachenlernen'
+  description: 'KI-Sprachlehrkräfte und Apps zum interaktiven Lernen von Sprachen.'
+
+-
+  slug: 'lead-generation'
+  name: 'Leadgenerierung'
+  description: 'KI-Tools, um potenzielle Kund:innen zu finden, zu qualifizieren und als Leads zu gewinnen.'
+
+-
+  slug: 'learning-tools'
+  name: 'Lernwerkzeuge'
+  description: 'KI-Lernwerkzeuge für personalisiertes Lernen, Nachhilfe und Kompetenzaufbau.'
+
+-
+  slug: 'logo-generator'
+  name: 'Logogeneratoren'
+  description: 'KI-Tools, mit denen sich professionelle Markenlogos und visuelle Identitäten schnell gestalten lassen.'
+
+-
+  slug: 'market-research'
+  name: 'Marktforschung'
+  description: 'KI-Tools für Verbraucheranalysen, Wettbewerbsbeobachtung und Markttrends.'
+
+-
+  slug: 'meme-generator'
+  name: 'Meme-Generatoren'
+  description: 'KI-Tools zum Erstellen und Bearbeiten von Memes für soziale Medien und Content-Marketing.'
+
+-
+  slug: 'music-generation'
+  name: 'Musikgenerierung'
+  description: 'KI-Tools zum Erstellen eigener Musik, Beats und Soundtracks.'
+
+-
+  slug: 'no-code'
+  name: 'No-Code'
+  description: 'KI-No-Code-Plattformen für Apps, Automatisierungen und Workflows ohne Programmierung.'
+
+-
+  slug: 'note-taking-apps'
+  name: 'Notiz-Apps'
+  description: 'KI-Notiz-Apps, die Informationen automatisch erfassen, ordnen und wieder auffindbar machen.'
+
+-
+  slug: 'podcast'
+  name: 'Podcasts'
+  description: 'KI-Tools für Podcastproduktion, Transkription, Schnitt und Episodeninhalte.'
+
+-
+  slug: 'presentation'
+  name: 'Präsentationen'
+  description: 'KI-Präsentationstools zum schnellen Erstellen von Folien, Decks und überzeugenden visuellen Präsentationen.'
+
+-
+  slug: 'project-management'
+  name: 'Projektmanagement'
+  description: 'KI-Tools zur Planung, Nachverfolgung und Zusammenarbeit in Teams.'
+
+-
+  slug: 'real-estate'
+  name: 'Immobilien'
+  description: 'KI-Tools für Immobilienbewertung, Angebotsoptimierung und Marktanalyse.'
+
+-
+  slug: 'resume-tools'
+  name: 'Lebensläufe'
+  description: 'KI-Tools, mit denen Arbeitssuchende überzeugende Lebensläufe und Bewerbungen erstellen und optimieren.'
+
+-
+  slug: 'sales-tools'
+  name: 'Vertrieb'
+  description: 'KI-Vertriebstools für automatisierte Ansprache, Deal-Analysen und Umsatzprognosen.'
+
+-
+  slug: 'social-media-tools'
+  name: 'Soziale Medien'
+  description: 'KI-Tools für Social-Media-Inhalte, Planung und Leistungsanalysen.'
+
+-
+  slug: 'supply-chain'
+  name: 'Lieferketten'
+  description: 'KI-Tools zur Optimierung von Lieferketten, Nachfrageprognosen und Logistik.'
+
+-
+  slug: 'talking-avatar-generator'
+  name: 'Sprechende Avatare'
+  description: 'KI-Tools für realistische sprechende Avatare und digitale Videopräsentationen.'
+
+-
+  slug: 'text-to-speech'
+  name: 'Text-to-Speech'
+  description: 'KI-Tools, die geschriebenen Text in natürlich klingende Sprache umwandeln.'
+
+-
+  slug: 'transcription'
+  name: 'Transkription'
+  description: 'KI-Tools, die Audio und Video in Text transkribieren.'
+
+-
+  slug: 'translator'
+  name: 'Übersetzung'
+  description: 'KI-Übersetzungstools für präzise Text- und Dokumentübersetzungen in Echtzeit.'
+
+-
+  slug: 'video-editor'
+  name: 'Videoschnitt'
+  description: 'KI-Tools zum Schneiden und Bearbeiten von Videos und für den fertigen Videoschnitt.'
+
+-
+  slug: 'video-enhancer'
+  name: 'Videoverbesserung'
+  description: 'KI-Tools, die bestehende Videos hochskalieren, entrauschen und qualitativ verbessern.'
+
+-
+  slug: 'video-generator'
+  name: 'Videogenerierung'
+  description: 'KI-Tools zum Erstellen neuer Videos aus Text-Prompts und Skripten.'
+
+-
+  slug: 'video-subtitling'
+  name: 'Video-Untertitel'
+  description: 'KI-Tools zum automatischen Hinzufügen von Untertiteln und Untertiteln für Hörgeschädigte.'
+
+-
+  slug: 'voice-cloning'
+  name: 'Stimmenklonen'
+  description: 'KI-Tools zum Nachbilden und Synthetisieren individueller Stimmen.'
+
+-
+  slug: 'website-builders'
+  name: 'Website-Baukästen'
+  description: 'KI-Website-Baukästen zum Entwerfen und Veröffentlichen professioneller Websites ohne Programmierung.'
+
+-
+  slug: 'workflow-automation'
+  name: 'Workflow-Automatisierung'
+  description: 'KI-Plattformen, die Apps verbinden und wiederkehrende Geschäftsabläufe automatisieren.'
+
+-
+  slug: 'productivity'
+  name: 'Produktivität'
+  description: 'KI-Tools, die beim Fokussieren, Aufgabenverwalten und Erledigen des Tagesgeschäfts helfen.'
+
+-
+  slug: 'chatbots'
+  name: 'Chatbots'
+  description: 'KI-Chatbots zur Automatisierung von Gesprächen, Beantwortung von Fragen und Verbesserung des Kundenservice.'
+
+-
+  slug: 'academia'
+  name: 'Wissenschaft'
+  description: 'KI-Tools für akademische Forschung, Zitationsverwaltung, Literaturrecherche und wissenschaftliches Schreiben.'
+
+-
+  slug: 'audio'
+  name: 'Audio'
+  description: 'KI-Audiotools zum Bearbeiten, Verbessern, Bereinigen und Erzeugen von Klang und Musik.'
+
+-
+  slug: 'automation'
+  name: 'Automatisierung'
+  description: 'KI-Tools zur Vereinfachung wiederkehrender Aufgaben und Optimierung von Geschäftsabläufen.'
+
+-
+  slug: 'customer-support'
+  name: 'Kundenservice'
+  description: 'KI-Tools zur Automatisierung des Kundenservice mit Chatbots, Ticketzuweisung und Helpdesk-Abläufen.'
+
+-
+  slug: 'data'
+  name: 'Daten'
+  description: 'KI-Datentools für Analyse, Visualisierung und Erkenntnisse aus großen Datensätzen.'
+
+-
+  slug: 'food'
+  name: 'Ernährung und Gastronomie'
+  description: 'KI-Tools für Rezeptideen, Essenssuche, Ernährungsplanung und Restaurantverwaltung.'
+
+-
+  slug: 'gaming'
+  name: 'Gaming'
+  description: 'KI-Tools für Spieleentwicklung, NPC-Verhalten und personalisierte Spielerlebnisse.'
+
+-
+  slug: 'graphic-design'
+  name: 'Grafikdesign'
+  description: 'KI-Tools für Logos, Illustrationen, Banner und visuelle Inhalte.'
+
+-
+  slug: 'healthcare'
+  name: 'Gesundheitswesen'
+  description: 'KI-Tools zur Unterstützung klinischer Entscheidungen, Patientenbegleitung und Analyse von Gesundheitsdaten.'
+
+-
+  slug: 'legal-assistants'
+  name: 'Rechtsassistenz'
+  description: 'KI-Rechtstools für Vertragsanalyse, juristische Recherche und Dokumententwürfe.'
+
+-
+  slug: 'local-search-engines'
+  name: 'Lokale Suchmaschinen'
+  description: 'KI-Suchmaschinen, die passende Unternehmen und Dienstleistungen in der Nähe finden.'
+
+-
+  slug: 'marketing'
+  name: 'Marketing'
+  description: 'KI-Marketingtools für Kampagnenautomatisierung, Analysen und personalisierte Kundenansprache.'
+
+-
+  slug: 'meeting-assistants'
+  name: 'Meeting-Assistenten'
+  description: 'KI-Tools für Transkription, Notizen, Aufgabenverfolgung und automatische Nachbereitung von Meetings.'
+
+-
+  slug: 'personal-assistants'
+  name: 'Persönliche Assistenten'
+  description: 'KI-Assistenten für Terminplanung, Erinnerungen und die freihändige Organisation des Alltags.'
+
+-
+  slug: 'research-tools'
+  name: 'Forschung'
+  description: 'KI-Forschungstools für schnellere Literaturrecherche, Zusammenfassungen und Wissensentdeckung.'
+
+-
+  slug: 'seo'
+  name: 'SEO'
+  description: 'KI-SEO-Tools für Keyword-Recherche, Inhaltsoptimierung und bessere Suchmaschinenplatzierungen.'
+
+-
+  slug: 'search-engines'
+  name: 'Suchmaschinen'
+  description: 'KI-Suchmaschinen mit intelligenteren und kontextbezogeneren Websuchergebnissen.'
+
+-
+  slug: 'spreadsheets'
+  name: 'Tabellenkalkulation'
+  description: 'KI-Tools für natürlichsprachliche Abfragen und Automatisierung in Tabellen.'
+
+-
+  slug: 'video'
+  name: 'Video'
+  description: 'KI-Videotools für Erstellung, Schnitt, Verbesserung und Verbreitung von Videoinhalten.'
+
+-
+  slug: 'weather'
+  name: 'Wetter'
+  description: 'KI-Wettertools für Prognosen, Klimadatenanalysen und Umweltbeobachtung.'
+
+-
+  slug: 'writing-assistants'
+  name: 'Schreibassistenten'
+  description: 'KI-Schreibassistenten zum Entwerfen, Bearbeiten und Verbessern verschiedenster Texte.'
+
+-
+  slug: 'models'
+  name: 'Modelle'
+  description: 'KI-Grundlagenmodelle und große Sprachmodelle für die nächste Generation von KI-Anwendungen.'
+
+-
+  slug: 'ai-directories'
+  name: 'KI-Verzeichnisse'
+  description: 'Umfassende Verzeichnisse und Übersichten zu KI-Tools und -Diensten.'
+
+-
+  slug: 'cybersecurity'
+  name: 'Cybersicherheit'
+  description: 'KI-Tools zur Bedrohungserkennung, Schwachstellenprüfung und Sicherheitsüberwachung.'
+
+-
+  slug: 'mental-health'
+  name: 'Psychische Gesundheit'
+  description: 'KI-Tools für psychisches Wohlbefinden, Therapieunterstützung, Stimmungserfassung und emotionale Gesundheit.'
+
+-
+  slug: 'fitness'
+  name: 'Fitness'
+  description: 'KI-Personaltrainer, Trainingsgeneratoren und Fitness-Tracking-Tools.'
+
+-
+  slug: 'diagramming'
+  name: 'Diagramme'
+  description: 'KI-Tools für Flussdiagramme, Architekturdiagramme und visuelle Dokumentation.'
+
+-
+  slug: 'data-labeling'
+  name: 'Datenlabeling'
+  description: 'KI-Tools zum Annotieren und Kennzeichnen von Datensätzen für das Training von Machine-Learning-Modellen.'
+
+-
+  slug: 'prompt-tools'
+  name: 'Prompt-Tools'
+  description: 'Tools für Prompt Engineering, Prompt-Verwaltung und Optimierung von KI-Ausgaben.'
+
+-
+  slug: 'travel'
+  name: 'Reisen'
+  description: 'KI-Tools für Reiseplanung, Recherche und Unterstützung bei Buchungen.'
+
+-
+  slug: 'contract-management'
+  name: 'Vertragsverwaltung'
+  description: 'KI-Tools zum Erstellen, Prüfen und Verwalten von Verträgen und Vereinbarungen.'
+
+-
+  slug: 'compliance'
+  name: 'Compliance'
+  description: 'KI-Tools für regulatorische Compliance, Risikomanagement und Richtlinienüberwachung.'
+
+-
+  slug: 'computer-vision'
+  name: 'Computer Vision'
+  description: 'KI-Tools zur Bilderkennung, Objekterkennung und visuellen Analyse.'
+
+-
+  slug: 'synthetic-data'
+  name: 'Synthetische Daten'
+  description: 'KI-Tools zum Erzeugen synthetischer Datensätze für das Training und Testen von ML-Modellen.'
+
+-
+  slug: 'ar-vr'
+  name: 'AR/VR'
+  description: 'KI-Tools für Augmented-Reality- und Virtual-Reality-Erlebnisse.'
+
+-
+  slug: 'accessibility'
+  name: 'Barrierefreiheit'
+  description: 'KI-Tools für Assistenztechnologien und barrierefreie Inhalte.'
+
+-
+  slug: 'construction'
+  name: 'Bauwesen'
+  description: 'KI-Tools für Bauprojektmanagement, Planung und Baustellenüberwachung.'
+
+-
+  slug: 'manufacturing'
+  name: 'Fertigung'
+  description: 'KI-Tools für industrielle Produktion, Qualitätskontrolle und Fabrikautomatisierung.'
+
+-
+  slug: 'energy'
+  name: 'Energie'
+  description: 'KI-Tools für Energiemanagement, Netzoptimierung und Nachhaltigkeitsmessung.'
+
+-
+  slug: 'drug-discovery'
+  name: 'Arzneimittelforschung'
+  description: 'KI-Tools für pharmazeutische Forschung, Moleküldesign und klinische Studien.'
+
+-
+  slug: 'tax-accounting'
+  name: 'Steuern und Buchhaltung'
+  description: 'KI-Tools für Steuererklärungen, Buchführung und Finanzverwaltung.'
+
+-
+  slug: 'insurance'
+  name: 'Versicherungen'
+  description: 'KI-Tools für Risikoprüfung, Schadenbearbeitung und Versicherungsrisiken.'
+
+-
+  slug: 'events'
+  name: 'Veranstaltungen'
+  description: 'KI-Tools für Veranstaltungsplanung, Organisation und Gästebetreuung.'
+
+-
+  slug: 'sports-analytics'
+  name: 'Sportanalyse'
+  description: 'KI-Tools für Sportleistungsanalyse, Coaching-Erkenntnisse und Spielerverfolgung.'
+
+-
+  slug: 'content-moderation'
+  name: 'Inhaltsmoderation'
+  description: 'KI-Tools für Vertrauen und Sicherheit, Erkennung schädlicher Inhalte und Durchsetzung von Richtlinien.'
+
+-
+  slug: 'chatbot-builders'
+  name: 'Chatbot-Baukästen'
+  description: 'Plattformen und Tools zum Erstellen, Einführen und Verwalten von KI-Chatbots.'
+
+-
+  slug: 'localization'
+  name: 'Lokalisierung'
+  description: 'KI-Tools zur Lokalisierung von Software, Apps und Inhalten für internationale Märkte.'
+
+-
+  slug: 'mind-mapping'
+  name: 'Mindmaps'
+  description: 'KI-Tools für Brainstorming, Ideenlandkarten und visuelles Denken.'
+
+-
+  slug: 'medical-imaging'
+  name: 'Medizinische Bildgebung'
+  description: 'KI-Tools für radiologische, pathologische und diagnostische Bildanalysen.'
+
+-
+  slug: 'patent-tools'
+  name: 'Patentrecherche'
+  description: 'KI-Tools für Patentrecherche, Stand-der-Technik-Suche und Patentanträge.'
+
+-
+  slug: 'recruiting'
+  name: 'Personalbeschaffung'
+  description: 'KI-Tools für Personalgewinnung, Vorauswahl von Kandidat:innen und Einstellungsprozesse.'
+
+-
+  slug: 'telemedicine'
+  name: 'Telemedizin'
+  description: 'KI-Tools für medizinische Fernberatungen, Patientenüberwachung und digitale Gesundheit.'
+
+-
+  slug: 'fleet-management'
+  name: 'Fuhrparkverwaltung'
+  description: 'KI-Tools für Flottenverfolgung, Routenoptimierung und Logistik.'
+
+-
+  slug: 'privacy'
+  name: 'Datenschutz'
+  description: 'KI-Tools für Datenschutz, Anonymisierung und den Schutz persönlicher Informationen.'
+
+-
+  slug: 'robotics'
+  name: 'Robotik'
+  description: 'KI-Tools für Robotikdesign, Simulation und autonome Systeme.'
+
+-
+  slug: 'web3'
+  name: 'Web3'
+  description: 'KI-Tools für Blockchain, DeFi, NFTs und dezentrale Anwendungen.'
+
+-
+  slug: 'biotech'
+  name: 'Biotechnologie'
+  description: 'KI-Tools für Genomik, Proteomik und Forschung in den Lebenswissenschaften.'
+
+-
+  slug: 'geospatial'
+  name: 'Geodaten'
+  description: 'KI-Tools für GIS, Satellitenbildanalyse und standortbezogene Informationen.'
+
+-
+  slug: 'architecture'
+  name: 'Architektur'
+  description: 'KI-Tools für Architekturentwurf, Gebäudeplanung und räumliche Visualisierung.'
+
+-
+  slug: 'nutrition'
+  name: 'Ernährung'
+  description: 'KI-Tools für Essensplanung, Ernährungstracking und Nährwertanalyse.'
+
+-
+  slug: 'parenting'
+  name: 'Elternschaft'
+  description: 'KI-Tools für kindliche Entwicklung, Erziehungsberatung und Familienorganisation.'
+
+-
+  slug: 'pets'
+  name: 'Haustiere'
+  description: 'KI-Tools für Haustierpflege, Gesundheitsüberwachung und tierärztliche Beratung.'
+
+-
+  slug: 'fintech'
+  name: 'FinTech'
+  description: 'KI-Tools für Zahlungsverkehr, Banking, Kredite und Innovationen im Finanzdienstleistungsbereich.'
+
+-
+  slug: 'cleantech'
+  name: 'Umwelttechnologie'
+  description: 'KI-Tools für saubere Energie, CO₂-Reduktion und ökologische Nachhaltigkeit.'
+
+-
+  slug: 'reading'
+  name: 'Lesen'
+  description: 'KI-Tools für Buchzusammenfassungen, schnelleres Lesen und Leseverständnis.'
+
+-
+  slug: 'storytelling'
+  name: 'Geschichtenerzählen'
+  description: 'KI-Tools für Erzähltexte, interaktive Fiktion und den Aufbau fiktiver Welten.'
+
+-
+  slug: 'dubbing'
+  name: 'Synchronisation'
+  description: 'KI-Tools für Videosynchronisation, Lippensynchronität und mehrsprachigen Stimmenersatz.'
+
+-
+  slug: 'identity'
+  name: 'Identität'
+  description: 'KI-Tools zur Identitätsprüfung, Biometrie und Authentifizierung.'
+
+-
+  slug: 'wellness'
+  name: 'Wohlbefinden'
+  description: 'KI-Tools für Achtsamkeit, Schlaftracking, Meditation und ganzheitliches Wohlbefinden.'
+
+-
+  slug: 'dating'
+  name: 'Dating'
+  description: 'KI-Tools für Dating-Profile, Partnervermittlung und Beziehungsberatung.'
+
+-
+  slug: 'nonprofit'
+  name: 'Gemeinnützige Organisationen'
+  description: 'KI-Tools für gemeinnützige Organisationen, Fundraising und gesellschaftliche Wirkung.'
+
+-
+  slug: 'debugging'
+  name: 'Fehlersuche'
+  description: 'KI-Tools zum Finden, Diagnostizieren und Beheben von Softwarefehlern.'
+
+-
+  slug: 'api-tools'
+  name: 'API-Tools'
+  description: 'KI-Tools für API-Design, Tests, Dokumentation und Verwaltung.'
+
+-
+  slug: 'database-tools'
+  name: 'Datenbanken'
+  description: 'KI-Tools für Datenbankdesign, Abfragen, Optimierung und Verwaltung.'
+
+-
+  slug: 'cloud-management'
+  name: 'Cloud-Verwaltung'
+  description: 'KI-Tools für Cloud-Infrastruktur, Kostenmanagement und Betrieb.'
+
+-
+  slug: 'iot'
+  name: 'IoT'
+  description: 'KI-Tools für die Verwaltung von IoT-Geräten und Edge Intelligence.'
+
+-
+  slug: '3d-printing'
+  name: '3D-Druck'
+  description: 'KI-Tools für generatives Design, Modellvorbereitung und additive Fertigung.'
+
+-
+  slug: 'space-tech'
+  name: 'Raumfahrttechnik'
+  description: 'KI-Tools für Luft- und Raumfahrttechnik, Satellitenbetrieb und Weltraumforschung.'
+
+-
+  slug: 'sentiment-analysis'
+  name: 'Stimmungsanalyse'
+  description: 'KI-Tools zur Analyse von Meinungen, Emotionen und Stimmungen in Text und Sprache.'
+
+-
+  slug: 'documentation'
+  name: 'Dokumentation'
+  description: 'KI-Tools zum Schreiben, Pflegen und Erstellen technischer Dokumentation.'
+
+-
+  slug: 'observability'
+  name: 'Observability'
+  description: 'KI-Tools für Logs, Tracing, Überwachung und Einblicke in die Anwendungsleistung.'
+
+-
+  slug: 'software-testing'
+  name: 'Softwaretests'
+  description: 'KI-Tools für automatisierte Tests, Testgenerierung und Qualitätssicherungsabläufe.'
+
+-
+  slug: 'character-design'
+  name: 'Figurendesign'
+  description: 'KI-Tools zum Entwerfen von Figuren, Avataren und digitalen Persönlichkeiten.'
+
+-
+  slug: 'ai-newsletters'
+  name: 'KI-Newsletter'
+  description: 'Empfehlenswerte KI-Newsletter zu neuen Tools, Modellveröffentlichungen und wichtigen Branchenentwicklungen.'
+
+-
+  slug: 'others'
+  name: 'Weitere'
+  description: 'Zusätzliche Tools und Ressourcen.'

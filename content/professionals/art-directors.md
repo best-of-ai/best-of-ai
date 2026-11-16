@@ -12,16 +12,27 @@ categories:
   - graphic-design
   - presentation
   - background-remover
-featured_tools:
+specific_tools:
   - midjourney
   - ideogram
   - adobe-firefly
+  - figma-weave
+  - recraft
+  - krea-ai
+  - magnific-ai
+  - coolors
+  - khroma
+  - clipdrop
+  - topaz-photo-ai
+  - freepik-ai
+  - vizcom
+  - claude-design
+  - runway
+general_tools:
+  - chatgpt
+  - claude
   - canva
+  - adobe-photoshop
   - figma
   - adobe-express
-  - topaz-photo-ai
-  - clipdrop
-  - flux
-  - tome
-
 ---

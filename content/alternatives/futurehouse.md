@@ -1,0 +1,3 @@
+---
+title: 'FutureHouse Alternatives'
+---

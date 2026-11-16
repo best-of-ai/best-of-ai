@@ -11,6 +11,7 @@ headquarters: 'Toronto, Canada'
 founders:
   - 'Zohaib Ahmed'
   - 'Saqib Muhammad'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

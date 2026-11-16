@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Shenzhen, China'
 founders:
   - 'Jianxiong Xiao'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

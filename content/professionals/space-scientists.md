@@ -12,15 +12,22 @@ categories:
   - data
   - writing-assistants
   - academia
-featured_tools:
-  - chatgpt
-  - wolfram-alpha-ai
+specific_tools:
+  - nasa-ads
+  - arxiv
   - maxar
   - spire-global
+  - satellogic
+  - planet-labs
+  - stellarium
+  - pixinsight
+  - wolfram-mathematica
+  - matlab
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
-  - connected-papers
-  - tableau
   - notebooklm
   - consensus
-
+  - overleaf
 ---

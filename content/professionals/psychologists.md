@@ -11,15 +11,22 @@ categories:
   - research-tools
   - document-ai
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - simplepractice
+  - mentalyc
+  - upheal
   - wysa
-  - betterhelp
   - semantic-scholar
   - scispace
   - elicit
+  - zotero-ai
+  - prolific
+  - graphpad-prism
+  - posit
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
-  - perplexity-research
-
+  - overleaf
 ---

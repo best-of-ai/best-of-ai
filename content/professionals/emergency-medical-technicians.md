@@ -11,16 +11,15 @@ categories:
   - document-ai
   - productivity
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - pulsara
   - eso-solutions
+  - imagetrend
+  - everbridge
+  - nuance-dax
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - notebooklm
-  - adobe-acrobat-ai
-  - grammarly
-  - abbyy
-  - asana
-  - zapier
-
 ---

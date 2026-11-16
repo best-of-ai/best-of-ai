@@ -11,7 +11,7 @@ categories:
   - image-editing
   - graphic-design
   - 3d
-featured_tools:
+specific_tools:
   - midjourney
   - stable-diffusion
   - flux
@@ -21,6 +21,21 @@ featured_tools:
   - ideogram
   - civitai
   - playground-ai
+  - comfyui
+  - invokeai
+  - nightcafe
+  - artbreeder
+  - magnific-ai
+  - procreate
+  - adobe-photoshop
+  - topaz-photo-ai
+  - gpt-image
+  - recraft
+  - nano-banana-pro
+general_tools:
+  - chatgpt
+  - claude
   - canva
-
+  - affinity
+  - clipdrop
 ---

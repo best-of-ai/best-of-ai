@@ -1,0 +1,3 @@
+---
+title: 'Seeing AI Alternatives'
+---

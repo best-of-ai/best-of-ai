@@ -11,15 +11,17 @@ categories:
   - graphic-design
   - business-tools
   - productivity
-featured_tools:
-  - midjourney
-  - canva
-  - ideogram
-  - chatgpt
+specific_tools:
+  - floranext
+  - plantnet
   - square
-  - grammarly
+  - honeybook
+  - midjourney
+  - ideogram
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - adobe-express
-  - hubspot-business
-  - adobe-sensei
-
+  - later
 ---

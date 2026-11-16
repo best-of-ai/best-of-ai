@@ -8,6 +8,7 @@ website: 'https://www.nomic.ai'
 logo_url: ''
 founded: '2022'
 headquarters: 'New York, NY'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

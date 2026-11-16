@@ -11,16 +11,25 @@ categories:
   - legal-assistants
   - document-ai
   - compliance
-featured_tools:
-  - chatgpt
+specific_tools:
   - contractpodai
   - ironclad-ai
-  - harvey
   - spellbook
   - robin-ai
   - agiloft
+  - contractsafe
+  - icertis
+  - evisort
+  - juro-ai
+  - lexion-ai
+  - legalon
+  - ivo
+  - docusign-ai
+  - pandadoc-ai
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - chatpdf
-  - contractsafe
-
+  - harvey
 ---

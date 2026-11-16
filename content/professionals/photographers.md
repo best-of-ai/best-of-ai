@@ -12,15 +12,25 @@ categories:
   - background-remover
   - graphic-design
   - image-generation
-featured_tools:
+specific_tools:
   - adobe-lightroom-ai
+  - adobe-photoshop
   - luminar-neo
   - topaz-photo-ai
+  - on1-photo-ai
+  - capture-one
+  - dxo-photolab
+  - aftershoot
+  - imagen-ai
+  - photo-mechanic
   - removebg
+  - photoroom
+  - remini-ai
+  - magnific-ai
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - midjourney
-  - photoroom
   - figma
-  - adobe-express
-
 ---

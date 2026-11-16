@@ -11,11 +11,11 @@ compatible_with: ['Claude Code', 'Cursor', 'Windsurf', 'Claude.ai']
 install: 'Browse the list and clone or install individual linked skill repositories.'
 price: 'Free'
 open_source: true
-stars: 10109
-stars_this_week: 8
-stars_updated: '2026-09-07'
+stars: 10348
+stars_this_week: 27
+stars_updated: '2026-11-04'
 rank: 7
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [directory, curated]
 ---
 This repository bundles the following skills:

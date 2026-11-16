@@ -14,16 +14,26 @@ categories:
   - knowledge-management
   - data-labeling
   - synthetic-data
-featured_tools:
-  - chatgpt
-  - claude
-  - julius-ai
-  - databricks
+specific_tools:
+  - kaggle
   - weights-biases
   - h2o-ai
+  - databricks
+  - hex
+  - deepnote
+  - datarobot
+  - dataiku
+  - julius-ai
+  - mlflow
+  - hugging-face
+  - posit
+  - clearml
+  - comet-ml
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - hex
-  - perplexity-research
-
+  - perplexity
+  - gemini
 ---

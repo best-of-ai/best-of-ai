@@ -12,11 +12,11 @@ install: 'Install through the Claude Code plugin marketplace: /plugin marketplac
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 11348
-stars_this_week: 16
-stars_updated: '2026-09-07'
+stars: 12208
+stars_this_week: 98
+stars_updated: '2026-11-04'
 rank: 7
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [full-stack, development]
 ---
 This repository bundles the following skills:

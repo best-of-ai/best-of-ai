@@ -12,13 +12,20 @@ categories:
   - social-media-tools
   - image-generation
   - writing-assistants
-featured_tools:
+specific_tools:
+  - aisle-planner
+  - zola
+  - honeybook
+  - bonsai
+  - tripleseat
+  - opentable
+general_tools:
   - chatgpt
+  - claude
   - canva
   - midjourney
   - gamma
   - grammarly
   - mailchimp
   - buffer
-
 ---

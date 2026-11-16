@@ -11,16 +11,19 @@ categories:
   - data
   - document-ai
   - market-research
-featured_tools:
-  - chatgpt
-  - adobe-acrobat-ai
+specific_tools:
   - zillow
+  - redfin
+  - compass
   - matterport
   - nearmap
-  - compass
-  - redfin
+  - costar
+  - archistar
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
   - tableau
-  - notebooklm
   - power-bi
-
+  - notebooklm
 ---

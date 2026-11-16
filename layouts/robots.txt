@@ -1,4 +1,7 @@
 User-agent: *
-Disallow: /saved/
+{{- $default := (index site.Languages 0).Lang }}
+{{- range site.Languages }}
+Disallow: {{ cond (eq .Lang $default) "" (printf "/%s" .Lang) }}/saved/
+{{- end }}
 
 Sitemap: {{ "sitemap.xml" | absURL }}

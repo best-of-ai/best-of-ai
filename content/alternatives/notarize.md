@@ -1,0 +1,3 @@
+---
+title: 'Notarize (Proof) Alternatives'
+---

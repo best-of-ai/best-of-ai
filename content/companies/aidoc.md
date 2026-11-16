@@ -12,6 +12,7 @@ founders:
   - 'Elad Walach'
   - 'Michael Braginsky'
   - 'Guy Reiner'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

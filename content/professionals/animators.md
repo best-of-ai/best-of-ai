@@ -12,16 +12,41 @@ categories:
   - video-generator
   - video-editor
   - image-generation
-featured_tools:
-  - runway
-  - veo-3
-  - luma-dream-machine
-  - kling-ai
-  - midjourney
-  - after-effects
+specific_tools:
+  - toon-boom-harmony
+  - cavalry
   - rive
-  - adobe-premiere-pro-ai
+  - lottie
+  - cartoon-animator
+  - animaze
+  - adobe-animate
+  - moho
+  - dragonframe
+  - adobe-character-animator
+  - blender
+  - cinema-4d
+  - after-effects
+  - animaker
+  - vyond
+  - powtoon
+  - runway
+  - kling-ai
+  - luma-dream-machine
+  - pika-labs
+  - veo-3
+  - hailuo-ai
+  - wan-video
+  - viggle
+  - moonvalley
+  - higgsfield
+  - kaiber
+general_tools:
+  - midjourney
   - flux
-  - ideogram
-
+  - adobe-premiere-pro-ai
+  - davinci-resolve
+  - elevenlabs
+  - chatgpt
+  - claude
+  - topaz-video-ai
 ---

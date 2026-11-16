@@ -12,16 +12,33 @@ categories:
   - seo
   - email-assistants
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - semrush
-  - jasper
-  - canva
-  - buffer
-  - adcreative-ai
-  - mailchimp
   - ahrefs
-  - clearscope
+  - adcreative-ai
+  - madgicx
   - hubspot
-
+  - mailchimp
+  - klaviyo-ai
+  - activecampaign-ai
+  - brevo-ai
+  - optimizely
+  - unbounce-ai
+  - instapage
+  - hotjar-ai
+  - metricool
+  - buffer
+  - sprout-social
+  - optmyzr
+  - adalysis
+  - vidmob
+  - peec-ai
+  - omnisend
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - jasper
+  - notion-ai
+  - zapier
 ---

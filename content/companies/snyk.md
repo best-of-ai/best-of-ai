@@ -12,6 +12,7 @@ founders:
   - 'Guy Podjarny'
   - 'Assaf Hefetz'
   - 'Danny Grander'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

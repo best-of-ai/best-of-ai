@@ -11,16 +11,21 @@ categories:
   - productivity
   - document-ai
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - freed
   - nuance-dax
   - suki-ai
+  - abridge-ai
+  - heidi-health
+  - epic-systems
+  - pointclickcare
+  - medisafe
+  - uptodate
+  - openevidence
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - notebooklm
   - adobe-acrobat-ai
-  - clickup
-  - make
-  - zapier
-
 ---

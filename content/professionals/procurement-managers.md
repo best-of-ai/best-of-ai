@@ -12,14 +12,21 @@ categories:
   - data
   - automation
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - coupa
   - sap-ariba
   - zycus
+  - icertis
+  - agiloft
+  - ironclad-ai
+  - contractpodai
+  - flexport
+  - project44
+  - fourkites
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - zapier
   - adobe-acrobat-ai
-  - make
-
 ---

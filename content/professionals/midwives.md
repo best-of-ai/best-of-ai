@@ -12,16 +12,18 @@ categories:
   - transcription
   - writing-assistants
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - freed
+  - heidi-health
   - nuance-dax
+  - nabla
+  - jane-app
+  - openevidence
+  - uptodate
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - notebooklm
   - grammarly
-  - adobe-acrobat-ai
-  - assemblyai
-  - clickup
-  - copy-ai
-
 ---

@@ -11,6 +11,7 @@ headquarters: 'New York City, New York'
 founders:
   - 'Hammad Syed'
   - 'Mansoor Ahmed Khan'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

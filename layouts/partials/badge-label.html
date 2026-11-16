@@ -1,0 +1,5 @@
+{{- /* Leaderboard badge text in the current language. Input: the English badge string.
+       Overlay lives in data/badges_<lang>.yaml (English string -> translation); missing entries fall back to English. */ -}}
+{{- $badge := . -}}
+{{- $tr := index hugo.Data (printf "badges_%s" site.Language.Lang) -}}
+{{- if and $tr (index $tr $badge) -}}{{ index $tr $badge }}{{- else -}}{{ $badge }}{{- end -}}

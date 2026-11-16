@@ -12,16 +12,23 @@ categories:
   - biotech
   - drug-discovery
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - chemdraw
+  - scifinder
+  - reaxys
   - schrodinger
   - benchling
-  - reaxys
+  - dotmatics
   - wolfram-alpha-ai
+  - rosettafold
+  - graphpad-prism
+  - biorender
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - elicit
   - consensus
-  - tableau
-  - perplexity-research
-
+  - perplexity
+  - scispace
 ---

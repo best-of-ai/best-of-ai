@@ -11,16 +11,23 @@ categories:
   - research-tools
   - compliance
   - document-ai
-featured_tools:
-  - chatgpt
-  - semantic-scholar
+specific_tools:
   - greenlight-guru
-  - drata
+  - qualio
+  - mastercontrol
+  - solidworks
+  - ansys
+  - comsol
+  - matlab
+  - edge-impulse
+  - viz-ai
+  - subtle-medical
+  - aidoc-ai
+general_tools:
+  - chatgpt
+  - claude
+  - semantic-scholar
   - notebooklm
-  - tableau
   - elicit
-  - scispace
   - adobe-acrobat-ai
-  - perplexity-research
-
 ---

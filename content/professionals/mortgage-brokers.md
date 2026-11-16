@@ -11,16 +11,23 @@ categories:
   - real-estate
   - document-ai
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - blend
   - sales-boomerang
   - floify
+  - ncino
+  - persona
+  - docsumo
+  - hyperscience
+  - abbyy
+  - docusign-ai
+  - zillow
+  - redfin
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - hubspot-crm
-  - notebooklm
   - canva
   - zapier
-  - make
-
 ---

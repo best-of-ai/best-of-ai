@@ -1,0 +1,7 @@
+{{- /* Logo URL for a skill: explicit logo_url, else the GitHub owner avatar, else a favicon. Context: page Params */ -}}
+{{- $p := . -}}
+{{- if $p.logo_url -}}{{ $p.logo_url }}
+{{- else if and $p.source_url (findRE `^https://github\.com/[^/]+` $p.source_url) -}}
+{{- $owner := index (findRE `^https://github\.com/([^/]+)` $p.source_url 1) 0 | replaceRE `^https://github\.com/` "" -}}
+https://github.com/{{ $owner }}.png?size=80
+{{- else -}}https://www.google.com/s2/favicons?domain={{ $p.source_url | default "github.com" }}&sz=64{{- end -}}

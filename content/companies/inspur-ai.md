@@ -10,6 +10,7 @@ founded: '1945'
 headquarters: 'Jinan, China'
 founders:
   - 'Inspur Group'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

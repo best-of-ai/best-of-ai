@@ -12,11 +12,11 @@ install: 'Clone the repository into ~/.claude/skills/gstack, then run its ./setu
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 131845
-stars_this_week: 270
-stars_updated: '2026-09-07'
+stars: 138992
+stars_this_week: 842
+stars_updated: '2026-11-04'
 rank: 10
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [workflow, engineering-team, productivity]
 ---
 This repository bundles the following skills:

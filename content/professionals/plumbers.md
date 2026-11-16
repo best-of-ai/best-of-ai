@@ -11,15 +11,15 @@ categories:
   - business-tools
   - document-ai
   - fleet-management
-featured_tools:
-  - chatgpt
+specific_tools:
+  - servicetitan
+  - housecall-pro
+  - jobber
   - buildxact
-  - procore
-  - autodesk-construction
   - fleetio
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - chatpdf
-  - abbyy
   - notebooklm
-
 ---

@@ -15,16 +15,26 @@ categories:
   - research-tools
   - ai-directories
   - ai-newsletters
-featured_tools:
-  - chatgpt
+specific_tools:
   - lovable
-  - hubspot-business
+  - bolt-new
+  - base44
+  - durable
+  - denovo-ai
+  - born-to-found
   - gamma
-  - canva
+  - pitch
+  - slidebean
+  - evalyze
+  - product-hunt
+  - crunchbase-ai
+  - stripe
+  - shopify
+general_tools:
+  - chatgpt
+  - claude
   - zapier
-  - hubspot-crm
   - perplexity
-  - make
-  - n8n
-
+  - notion-ai
+  - canva
 ---

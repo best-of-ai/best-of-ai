@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'San Francisco, California'
 founders:
   - 'Bernard Huang'
+ai_native: false
 date: '2026-07-16'
 rank: 8
 ---

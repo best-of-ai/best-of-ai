@@ -1,0 +1,3 @@
+---
+title: 'Manhattan Associates Alternatives'
+---

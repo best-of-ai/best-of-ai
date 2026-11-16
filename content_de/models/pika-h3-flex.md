@@ -1,0 +1,26 @@
+---
+title: 'Pika H3 Flex'
+name: 'Pika H3 Flex'
+slug: 'pika-h3-flex'
+subtitle: 'Pika H3 Flex ist eine nachtrainierte Version von MiniMax H3 für iterative Videobearbeitung'
+description: 'Pika H3 Flex ist eine nachtrainierte Version von MiniMax H3 für iterative Videobearbeitung'
+company: 'pika-labs'
+model_type: 'Video Generation'
+logo_url: ''
+product_url: 'https://pika.art/blog/pika-h3-flex'
+price: 'Paid'
+rank: 5
+release_date: '2026-10-29'
+param_count: 'Undisclosed'
+modality: [video, audio, image]
+open_weight: false
+license: 'Proprietary'
+api_available: true
+access_methods: [API]
+runs_at_home: false
+platforms: ['Pika']
+date: '2026-11-04'
+tags: [video-generation, reference-to-video]
+i18n_source: 'a0ac9695ccd3'
+---
+Pika H3 Flex ist eine nachtrainierte Version von MiniMax H3 für iterative Videobearbeitung. Es verarbeitet bis zu zwölf Referenzen und erzeugt synchronisiertes Audio.

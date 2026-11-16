@@ -1,0 +1,27 @@
+---
+title: 'text-embedding-3-small'
+name: 'text-embedding-3-small'
+slug: 'text-embedding-3-small'
+subtitle: 'Modelo de embeddings de texto de OpenAI, más pequeño y más barato'
+description: 'Modelo de embeddings de texto de OpenAI, más pequeño y más barato'
+company: 'openai'
+model_type: 'Embedding'
+logo_url: ''
+product_url: 'https://openai.com/index/new-embedding-models-and-api-updates/'
+price: 'Paid'
+rank: 5
+release_date: '2024-01-25'
+param_count: 'Undisclosed'
+context_window_tokens: 8191
+modality: [text]
+open_weight: false
+license: 'Proprietary'
+input_price_usd_per_m: 0.02
+api_available: true
+access_methods: [API]
+runs_at_home: false
+platforms: ['API']
+date: '2026-07-16'
+tags: [embedding, retrieval, api, low-latency]
+i18n_source: '446c9c1ec68b'
+---

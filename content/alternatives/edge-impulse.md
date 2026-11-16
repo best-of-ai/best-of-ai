@@ -1,0 +1,3 @@
+---
+title: 'Edge Impulse Alternatives'
+---

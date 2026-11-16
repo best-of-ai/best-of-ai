@@ -1,0 +1,7 @@
+---
+title: 'C3.ai tools'
+name: 'C3.ai'
+company: 'c3-ai'
+list_kind: 'tools'
+url: '/ja/companies/c3-ai/tools/'
+---

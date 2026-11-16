@@ -13,6 +13,7 @@ founders:
   - 'Steven Schuurman'
   - 'Uri Boness'
   - 'Simon Willnauer'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

@@ -12,16 +12,21 @@ categories:
   - document-ai
   - automation
   - data
-featured_tools:
-  - chatgpt
-  - microsoft-copilot
+specific_tools:
   - aws-govcloud
-  - asana
-  - grammarly
-  - gamma
-  - zapier
+  - microsoft-gov-cloud
+  - palantir-gotham
+  - ibm-watson-gov
+  - fiscalnote
+  - quorum
+  - docusign-ai
+  - deepl
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - gemini
   - notebooklm
   - adobe-acrobat-ai
-  - clickup
-
+  - zapier
 ---

@@ -11,16 +11,18 @@ categories:
   - medical-imaging
   - robotics
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - touch-surgery
   - nuance-dax
+  - openevidence
+  - uptodate
+  - viz-ai
   - aidoc-ai
-  - adobe-acrobat-ai
+  - heartflow
+  - rapidai
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
-  - viz-ai
-  - arterys
-  - chatpdf
-  - covariant
-
 ---

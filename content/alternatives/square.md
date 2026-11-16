@@ -1,0 +1,3 @@
+---
+title: 'Square Alternatives'
+---

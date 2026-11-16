@@ -12,16 +12,21 @@ categories:
   - research-tools
   - academia
   - data
-featured_tools:
-  - chatgpt
-  - deepl
-  - google-translate
-  - otter-ai
+specific_tools:
+  - praat
+  - sketch-engine
   - whisper
   - assemblyai
+  - speechmatics
+  - transkribus
   - memoq
+general_tools:
+  - chatgpt
+  - claude
+  - deepl
+  - google-translate
   - semantic-scholar
-  - consensus
   - elicit
-
+  - consensus
+  - otter-ai
 ---

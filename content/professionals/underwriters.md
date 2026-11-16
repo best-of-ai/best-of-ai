@@ -11,16 +11,21 @@ categories:
   - insurance
   - data
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - zest-ai
   - feedzai
+  - shift-technology
+  - tractable
   - lemonade
+  - hyperscience
+  - applied-epic
   - dataiku
+  - datarobot
   - alphasense
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - power-bi
-  - chatpdf
   - adobe-acrobat-ai
-
 ---

@@ -12,15 +12,23 @@ categories:
   - computer-vision
   - infographics
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - arcgis
+  - qgis
   - mapbox
+  - carto
+  - felt
   - planet-labs
-  - tableau
+  - maxar
+  - nearmap
+  - google-earth-engine
   - clarifai
-  - aws-rekognition
-  - canva-infographics
-  - perplexity-research
-
+  - roboflow
+  - dronedeploy
+  - pix4d
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
+  - perplexity
 ---

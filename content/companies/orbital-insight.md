@@ -10,6 +10,7 @@ founded: '2013'
 headquarters: 'Palo Alto, California'
 founders:
   - 'James Crawford'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

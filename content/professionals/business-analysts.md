@@ -11,16 +11,25 @@ categories:
   - business-tools
   - diagramming
   - productivity
-featured_tools:
-  - chatgpt
-  - tableau
-  - power-bi
+specific_tools:
+  - lucidchart-ai
+  - miro-ai
   - drawio
   - mermaid-chart
+  - whimsical-ai
+  - creately
+  - visily
+  - jira
+  - productboard
   - domo-ai
-  - microsoft-copilot
-  - hubspot-business
-  - asana
-  - clickup
-
+  - thoughtspot
+  - looker
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - notion-ai
+  - power-bi
+  - tableau
+  - otter-ai
 ---

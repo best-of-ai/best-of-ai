@@ -1,0 +1,40 @@
+{{/* Returns a slice of {q, a} dicts for a company page. Used by the page body and the FAQPage JSON-LD. */}}
+{{ $page := . }}
+{{ $p := $page.Params }}
+{{ $slug := or $p.slug $page.File.BaseFileName }}
+{{ $tools := sort (where (where $page.Site.RegularPages "Section" "tools") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $models := sort (where (where $page.Site.RegularPages "Section" "models") "Params.company" $slug) "Params.rank" "desc" }}
+{{ $hw := sort (where (where $page.Site.RegularPages "Section" "hardware") "Params.manufacturer" $slug) "Params.rank" "desc" }}
+{{ $faq := slice }}
+
+{{ with $p.description }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_what" (dict "name" $p.name)) "a" .) }}
+{{ end }}
+
+{{ if $p.founders }}
+  {{ $when := "" }}{{ with $p.founded }}{{ $when = i18n "fq_co_in_year" (dict "v" .) }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_who" (dict "name" $p.name)) "a" (i18n "fq_co_who_a" (dict "name" $p.name "when" $when "founders" (delimit $p.founders ", " (i18n "seo_co_and"))))) }}
+{{ else if $p.founded }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_when" (dict "name" $p.name)) "a" (i18n "fq_co_when_a" (dict "name" $p.name "year" $p.founded))) }}
+{{ end }}
+
+{{ with $p.headquarters }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_hq" (dict "name" $p.name)) "a" (i18n "fq_co_hq_a" (dict "name" $p.name "place" .))) }}
+{{ end }}
+
+{{ if $tools }}
+  {{ $names := slice }}{{ range first 5 $tools }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_tools" (dict "name" $p.name)) "a" (i18n "fq_co_tools_a" (dict "count" (len $tools) "n" (len $tools) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
+{{ end }}
+
+{{ if $models }}
+  {{ $names := slice }}{{ range first 5 $models }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_models" (dict "name" $p.name)) "a" (i18n "fq_co_models_a" (dict "count" (len $models) "n" (len $models) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
+{{ end }}
+
+{{ if $hw }}
+  {{ $names := slice }}{{ range first 5 $hw }}{{ $names = $names | append .Params.name }}{{ end }}
+  {{ $faq = $faq | append (dict "q" (i18n "fq_co_hw" (dict "name" $p.name)) "a" (i18n "fq_co_hw_a" (dict "count" (len $hw) "n" (len $hw) "name" $p.name "names" (delimit $names ", " (i18n "seo_co_and"))))) }}
+{{ end }}
+
+{{ return $faq }}

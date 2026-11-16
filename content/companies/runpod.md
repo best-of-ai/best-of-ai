@@ -11,6 +11,7 @@ headquarters: 'Charlotte, North Carolina'
 founders:
   - 'Zhen Lu'
   - 'Pardeep Sharma'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

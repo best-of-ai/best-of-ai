@@ -1,0 +1,36 @@
+{{/*
+  Returns a slice of {q, a} dicts for a leaderboard page. Used by the page body and the FAQPage JSON-LD.
+  Call with: (dict "data" $lb "period" $period "archive" false)
+    data    - result of leaderboard-data.html
+    period  - e.g. "November 2026"
+    archive - true on a frozen monthly snapshot
+*/}}
+{{ $d := .data }}
+{{ $period := .period }}
+{{ $rows := $d.rows }}
+{{ $faq := slice }}
+
+{{ if ge (len $rows) 3 }}
+  {{ $n1 := (index $rows 0).page.Params.name }}
+  {{ $n2 := (index $rows 1).page.Params.name }}
+  {{ $n3 := (index $rows 2).page.Params.name }}
+  {{ if .archive }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_best_in" (dict "period" $period)) "a" (i18n "fq_lb_best_in_a" (dict "n1" $n1 "n2" $n2 "n3" $n3 "period" $period))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_current") "a" (i18n "fq_lb_current_a" (dict "period" $period))) }}
+    {{ if and $d.hasPrev $d.climber }}
+      {{ $faq = $faq | append (dict "q" (i18n "fq_lb_climb" (dict "period" $period)) "a" (i18n "fq_lb_climb_a" (dict "name" $d.climber "n" $d.climberDelta "prev" $d.prevPeriod))) }}
+    {{ end }}
+  {{ else }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_best_now") "a" (i18n "fq_lb_best_now_a" (dict "n1" $n1 "n2" $n2 "n3" $n3 "period" $period))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_how") "a" (i18n "fq_lb_how_a" (dict "n" (len $rows) "cats" $d.catCount))) }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_often") "a" (i18n "fq_lb_often_a")) }}
+    {{ if and $d.hasPrev $d.climber }}
+      {{ $moved := i18n "fq_lb_moved_nonew" (dict "name" $d.climber "delta" $d.climberDelta "prev" $d.prevPeriod) }}
+      {{ if gt $d.newCount 0 }}{{ $moved = i18n "fq_lb_moved" (dict "count" $d.newCount "n" $d.newCount "name" $d.climber "delta" $d.climberDelta "prev" $d.prevPeriod) }}{{ end }}
+      {{ $faq = $faq | append (dict "q" (i18n "fq_lb_movers") "a" $moved) }}
+    {{ end }}
+    {{ $faq = $faq | append (dict "q" (i18n "fq_lb_suggest") "a" (i18n "fq_lb_suggest_a")) }}
+  {{ end }}
+{{ end }}
+
+{{ return $faq }}

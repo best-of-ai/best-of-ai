@@ -12,6 +12,7 @@ founders:
   - 'Scott Wu'
   - 'Steven Hao'
   - 'Walden Yan'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

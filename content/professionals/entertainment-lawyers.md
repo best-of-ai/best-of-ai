@@ -11,16 +11,20 @@ categories:
   - contract-management
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - harvey
-  - casetext
-  - adobe-acrobat-ai
   - spellbook
   - evisort
   - ironclad-ai
+  - legora
+  - lexisnexis-protege
+  - clio
+  - juro-ai
+  - luminance-ai
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
   - notebooklm
-  - grammarly
-  - perplexity-research
-
+  - perplexity
 ---

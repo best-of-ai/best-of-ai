@@ -1,0 +1,3 @@
+---
+title: 'DaVinci Resolve Alternatives'
+---

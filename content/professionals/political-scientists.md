@@ -12,16 +12,22 @@ categories:
   - writing-assistants
   - academia
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - stata
+  - posit
+  - prolific
+  - qualtrics
+  - nvivo
+  - atlas-ti
+  - dimensions-ai
   - semantic-scholar
+  - overleaf
+  - zotero-ai
+general_tools:
+  - chatgpt
+  - claude
   - elicit
-  - connected-papers
-  - tableau
   - notebooklm
   - grammarly
-  - scispace
   - consensus
-  - buffer
-
 ---

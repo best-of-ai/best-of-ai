@@ -11,14 +11,18 @@ categories:
   - 3d
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - csi-etabs
+  - tekla-structures
+  - autodesk-revit
+  - autocad
+  - ansys
   - finch3d
-  - drawio
   - autodesk-construction
-  - tableau
+  - bluebeam
+general_tools:
+  - chatgpt
+  - claude
+  - drawio
   - adobe-acrobat-ai
-  - perplexity-research
-  - semantic-scholar
-
 ---

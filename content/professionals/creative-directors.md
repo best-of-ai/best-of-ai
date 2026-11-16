@@ -12,16 +12,24 @@ categories:
   - presentation
   - image-editing
   - video-generator
-featured_tools:
+specific_tools:
   - midjourney
   - ideogram
   - krea-ai
   - adobe-firefly
-  - canva
-  - figma
-  - sora
   - runway
   - luma-dream-machine
+  - kling-ai
+  - veo-3
+  - magnific-ai
+  - claude-design
+  - figma-weave
+  - recraft
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - figma
   - adobe-express
-
+  - gamma
 ---

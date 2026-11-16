@@ -11,16 +11,23 @@ categories:
   - writing-assistants
   - productivity
   - storytelling
-featured_tools:
-  - chatgpt
+specific_tools:
   - gamma
   - beautiful-ai
   - decktopus
+  - pitch
+  - plus-ai
+  - slidesai
+  - prezi
+  - mentimeter
   - yoodli
+  - poised
+  - visme-ai
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - midjourney
   - notion-ai
   - grammarly
-  - copy-ai
-
 ---

@@ -12,15 +12,17 @@ categories:
   - document-ai
   - computer-vision
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - eyenuk
+  - digital-diagnostics
   - nuance-dax
-  - suki-ai
+  - heidi-health
+  - freed
+  - jane-app
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - notebooklm
-  - aws-rekognition
-  - clarifai
   - grammarly
-
 ---

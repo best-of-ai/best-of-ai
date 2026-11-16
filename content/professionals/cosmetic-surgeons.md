@@ -11,16 +11,17 @@ categories:
   - medical-imaging
   - image-editing
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - crisalix
   - nuance-dax
-  - viz-ai
-  - aidoc-ai
-  - notebooklm
-  - adobe-acrobat-ai
-  - grammarly
+  - heidi-health
+  - freed
+  - jane-app
+general_tools:
+  - chatgpt
+  - claude
   - adobe-lightroom-ai
-  - arterys
-
+  - canva
+  - grammarly
+  - notebooklm
 ---

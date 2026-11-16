@@ -11,6 +11,7 @@ headquarters: 'Tel Aviv, Israel'
 founders:
   - 'Omri Geller'
   - 'Ronen Dar'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

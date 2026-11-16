@@ -12,16 +12,22 @@ categories:
   - data
   - presentation
   - document-ai
-featured_tools:
-  - chatgpt
-  - tableau
-  - power-bi
-  - mosaic-tech
+specific_tools:
+  - pigment
+  - anaplan
   - causal-app
+  - mosaic-tech
   - formula-bot
-  - kensho
+  - numerous
+  - sheet-plus
+  - ajelix
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - power-bi
+  - tableau
   - gamma
   - adobe-acrobat-ai
   - notion-ai
-
 ---

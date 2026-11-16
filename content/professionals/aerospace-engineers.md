@@ -12,16 +12,21 @@ categories:
   - diagramming
   - documentation
   - space-tech
-featured_tools:
-  - chatgpt
-  - wolfram-alpha-ai
-  - semantic-scholar
-  - power-bi
+specific_tools:
+  - ansys
+  - matlab
+  - solidworks
+  - autodesk-fusion
+  - ntopology
   - maxar
   - spire-global
-  - drawio
+general_tools:
+  - chatgpt
+  - claude
+  - wolfram-alpha-ai
+  - semantic-scholar
   - mermaid-chart
+  - drawio
   - confluence-ai
-  - scispace
-
+  - github-copilot
 ---

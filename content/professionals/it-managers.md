@@ -12,16 +12,21 @@ categories:
   - devtools
   - customer-support
   - cybersecurity
-featured_tools:
-  - chatgpt
+specific_tools:
   - servicenow
   - pagerduty
   - moveworks
   - freshdesk
   - drata
-  - microsoft-copilot
-  - zapier
-  - drift
+  - datadog
+  - new-relic
+  - okta
+  - microsoft-entra-id
+  - jira
   - linear
-
+general_tools:
+  - chatgpt
+  - claude
+  - microsoft-365-copilot
+  - zapier
 ---

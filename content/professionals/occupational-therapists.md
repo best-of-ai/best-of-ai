@@ -12,15 +12,19 @@ categories:
   - telemedicine
   - transcription
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - freed
   - heidi-health
   - suki-ai
   - nabla
   - abridge-ai
+  - jane-app
+  - simplepractice
+  - openevidence
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - adobe-acrobat-ai
   - notebooklm
-
 ---

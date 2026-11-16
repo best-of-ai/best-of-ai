@@ -11,15 +11,16 @@ categories:
   - document-ai
   - automation
   - productivity
-featured_tools:
-  - chatgpt
-  - suki-ai
+specific_tools:
+  - eso-solutions
+  - imagetrend
+  - pulsara
+  - openevidence
+  - uptodate
+  - nuance-dax
   - freed
-  - heidi-health
-  - adobe-acrobat-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - grammarly
-  - zapier
-  - make
-
 ---

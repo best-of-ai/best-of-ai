@@ -11,6 +11,7 @@ headquarters: 'Copenhagen, Denmark'
 founders:
   - 'Andreas Cleve'
   - 'Lars Maaløe'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -12,16 +12,27 @@ categories:
   - data
   - computer-vision
   - documentation
-featured_tools:
-  - chatgpt
+specific_tools:
   - tulip
   - sight-machine
   - augury
   - landing-ai
+  - aveva
+  - aspentech
+  - ansys
+  - solidworks
+  - autodesk-fusion
+  - kicad
+  - altium-designer
+  - roboflow
+  - aws-rekognition
+  - intrinsic
+  - covariant
+  - formant
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - drawio
   - zapier
-  - aws-rekognition
-  - clarifai
-
 ---

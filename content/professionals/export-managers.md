@@ -12,16 +12,21 @@ categories:
   - translator
   - market-research
   - document-ai
-featured_tools:
-  - chatgpt
-  - deepl
-  - google-translate
+specific_tools:
   - flexport
+  - freightos
+  - zonos
   - avalara
+  - project44
+  - fourkites
+  - sap-ariba
+  - coupa
+  - deepl
+general_tools:
+  - chatgpt
+  - claude
   - salesforce
-  - tableau
   - notebooklm
   - adobe-acrobat-ai
   - zapier
-
 ---

@@ -10,6 +10,7 @@ founded: '2009'
 headquarters: 'Redwood City, California'
 founders:
   - 'Thomas Siebel'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

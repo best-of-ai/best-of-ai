@@ -12,10 +12,10 @@ install: 'Run npx skills add virgiliojr94/book-to-skill, or clone the repo manua
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 28883
-stars_this_week: 182
-stars_updated: '2026-09-07'
+stars: 36919
+stars_this_week: 1072
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [meta, documentation]
 ---

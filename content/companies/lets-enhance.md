@@ -10,6 +10,7 @@ founded: '2017'
 headquarters: 'Kyiv, Ukraine'
 founders:
   - 'Vlad Pranskevicius'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

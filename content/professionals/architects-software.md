@@ -12,16 +12,25 @@ categories:
   - writing-assistants
   - productivity
   - document-ai
-featured_tools:
-  - github-copilot
-  - cursor
-  - claude
-  - sourcegraph-cody
+specific_tools:
   - mermaid-chart
   - drawio
-  - notion-ai
+  - excalidraw
+  - eraser-io
+  - lucidchart-ai
+  - swimm-ai
+  - archbee
+  - gitbook
+  - confluence-ai
+  - creately
+  - sourcegraph-cody
+  - augment-code
+general_tools:
   - chatgpt
-  - adobe-acrobat-ai
-  - aider
-
+  - claude
+  - github-copilot
+  - cursor
+  - claude-code
+  - notion-ai
+  - perplexity
 ---

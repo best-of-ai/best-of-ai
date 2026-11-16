@@ -1,0 +1,25 @@
+---
+title: 'Runway Gen-2'
+name: 'Runway Gen-2'
+slug: 'runway-gen-2'
+subtitle: 'Gen-3 Alphaに先立つRunway初のテキストから動画を生成するモデル'
+description: 'Gen-3 Alphaに先立つRunway初のテキストから動画を生成するモデル'
+company: 'runway'
+model_type: 'Video Generation'
+logo_url: ''
+product_url: 'https://runwayml.com/research/gen-2'
+price: 'Freemium'
+rank: 6
+release_date: '2023-06-07'
+param_count: 'Undisclosed'
+modality: [text, video]
+open_weight: false
+license: 'Proprietary'
+api_available: true
+access_methods: [API, Chat UI]
+runs_at_home: false
+platforms: ['Runway app', 'API']
+date: '2026-07-16'
+tags: [video-generation, api, legacy]
+i18n_source: '97da8d5dfec9'
+---

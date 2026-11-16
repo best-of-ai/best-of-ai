@@ -11,16 +11,20 @@ categories:
   - fitness
   - sports-analytics
   - document-ai
-featured_tools:
-  - chatgpt
-  - nuance-dax
-  - adobe-acrobat-ai
+specific_tools:
   - catapult-sports
   - whoop
+  - hudl
+  - kinexon
+  - nuance-dax
+  - openevidence
+  - uptodate
+  - webpt
+  - physitrack
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
   - notebooklm
   - semantic-scholar
-  - chatpdf
-  - fitbod
-  - hudl
-
 ---

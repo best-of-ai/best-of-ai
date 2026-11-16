@@ -12,11 +12,11 @@ install: 'Install a skill directly from its GitHub folder URL, or download the S
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 20482
-stars_this_week: 40
-stars_updated: '2026-09-07'
+stars: 21930
+stars_this_week: 170
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [personal, productivity]
 ---
 This repository bundles the following skills:

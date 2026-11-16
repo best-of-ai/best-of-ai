@@ -11,14 +11,18 @@ categories:
   - video-editor
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - hudl
   - catapult-sports
   - stats-perform
+  - statsbomb
+  - kinexon
+  - whoop
+  - trainingpeaks
   - adobe-premiere-pro-ai
   - capcut
-  - whoop
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-
 ---

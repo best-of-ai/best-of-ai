@@ -11,16 +11,18 @@ categories:
   - legal-assistants
   - business-tools
   - identity
-featured_tools:
+specific_tools:
   - notarize
-  - adobe-acrobat-ai
+  - docusign-ai
+  - dropbox-sign
   - jumio
-  - chatpdf
-  - donotpay
-  - harvey
-  - humata
-  - kira-systems
-  - lawgeex
-  - hubspot-business
-
+  - persona
+  - sumsub
+  - legalzoom
+  - rocket-lawyer
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
+  - calendly
 ---

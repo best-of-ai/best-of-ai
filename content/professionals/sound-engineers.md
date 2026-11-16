@@ -11,16 +11,23 @@ categories:
   - music-generation
   - podcast
   - transcription
-featured_tools:
-  - descript
+specific_tools:
+  - pro-tools
   - izotope-rx
+  - izotope-ozone
   - adobe-podcast
-  - elevenlabs
   - auphonic
   - adobe-enhance-speech
-  - murf
-  - assemblyai
+  - descript-studio-sound
+  - moises
+  - emastered
+  - landr-ai
+  - audacity
   - cleanvoice
   - krisp
-
+general_tools:
+  - chatgpt
+  - claude
+  - elevenlabs
+  - assemblyai
 ---

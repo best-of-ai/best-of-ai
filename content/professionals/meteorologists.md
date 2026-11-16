@@ -12,16 +12,22 @@ categories:
   - research-tools
   - infographics
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - ecmwf
   - tomorrow-io
-  - tableau
+  - windy
+  - accuweather
+  - weather-ai
+  - weatherbug
   - wolfram-alpha-ai
   - arcgis
   - infogram
-  - piktochart
-  - canva-infographics
-  - copy-ai
-  - grammarly
-
+  - datawrapper
+  - flourish
+general_tools:
+  - chatgpt
+  - claude
+  - tableau
+  - posit
+  - canva
 ---

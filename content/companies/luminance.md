@@ -10,6 +10,7 @@ founded: '2015'
 headquarters: 'Cambridge, United Kingdom'
 founders:
   - 'Emily Foges'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

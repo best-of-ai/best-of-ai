@@ -12,12 +12,13 @@ Thanks for helping make this the best curated AI tools list. This guide explains
 | Fix tool info | Edit `content/tools/{slug}.md` and open a PR |
 | Add a category | Edit `data/categories.yaml` and open a PR |
 | Report a bug | [Open an issue](https://github.com/best-of-ai/best-of-ai/issues/new) |
+| Fix or add a translation | Edit or add the file under the matching `content_<lang>/` directory and open a PR (see "Translations") |
 
 ---
 
 ## Adding a tool via PR
 
-Each tool is a Markdown file in `content/tools/`. Create a new file named after the tool's slug:
+Each tool is a Markdown file in `content/tools/`. Write it in English only; we translate it into the other languages. Create a new file named after the tool's slug:
 
 ```
 content/tools/my-tool.md
@@ -97,7 +98,7 @@ cd best-of-ai
 hugo server
 # → open http://localhost:1313/
 
-# Regenerate README from content files
+# Regenerate README.md and README_ES.md from content files
 python3 scripts/generate-readme.py
 ```
 
@@ -111,10 +112,27 @@ python3 scripts/import-data.py
 
 ## How README auto-update works
 
-On every push to `main` that touches `content/tools/`, `data/categories.yaml`, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` back automatically.
+On every push to `main` that touches tool or profession content, category data, or `scripts/generate-readme.py`, the [Update README](.github/workflows/update-readme.yml) workflow runs `generate-readme.py` and commits the updated `README.md` and `README_<LANG>.md` files back automatically. Each README links to the others. To add a language, see the `LANGS` and `STRINGS` blocks in `scripts/generate-readme.py`.
 
 ---
 
 ## Code of Conduct
 
 Be respectful. Submissions and reviews should be about the tools and the data, not the people.
+
+---
+
+## Translations
+
+**You only need to add or change things in English.** Open your PR with the English files in `content/` (and English strings in `i18n/en.yaml`); the maintainers translate it into the other languages and keep those versions in sync. Please don't add or edit `content_es/` or other language files in a regular contribution, unless you are specifically fixing a translation.
+
+The site is available in English (`/`), Spanish (`/es/`), French (`/fr/`), Japanese (`/ja/`), and German (`/de/`). English files live in `content/`; translated files live in `content_<lang>/` with the same path and filename. If a translation is missing, that language's page shows the English text and is hidden from search engines until someone translates it.
+
+To translate or fix a page (optional, for translation contributors):
+
+1. Read the style guide for your language in `scripts/i18n/`.
+2. Copy `content/<section>/<name>.md` to the matching path under `content_<lang>/`. Translate the text fields and the body. Leave slugs, URLs, tags, prices, ranks, dates and tool lists exactly as they are.
+3. Run `python3 scripts/validate-translation.py --stamp --lang <lang> content_<lang>/<section>/<name>.md`. Fix anything it reports.
+4. Open a PR.
+
+Changing an English file makes its translated copies stale. `python3 scripts/translation-status.py` lists what is missing or stale. UI text (menus, buttons, labels) is in `i18n/`; keep every language file in sync (`python3 scripts/check-i18n.py`).

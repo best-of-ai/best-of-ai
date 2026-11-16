@@ -11,6 +11,7 @@ headquarters: 'Redwood City, California'
 founders:
   - 'Alex Ratner'
   - 'Christopher Ré'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

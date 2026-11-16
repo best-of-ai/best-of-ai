@@ -11,6 +11,7 @@ headquarters: 'San Francisco, California'
 founders:
   - 'Deon Nicholas'
   - 'Sami Ghoche'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

@@ -12,16 +12,20 @@ categories:
   - document-ai
   - automation
   - compliance
-featured_tools:
-  - chatgpt
+specific_tools:
   - qventus
   - leantaas
+  - epic-systems
+  - pointclickcare
+  - navina-ai
+  - notable-health
+  - careforce-ai
+  - hippocratic-ai
+  - everbridge
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-  - drata
-  - notebooklm
-  - adobe-acrobat-ai
   - zapier
-  - make
-  - n8n
-
+  - power-bi
 ---

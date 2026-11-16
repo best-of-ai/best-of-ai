@@ -12,10 +12,10 @@ install: 'In Claude Code, run /plugin marketplace add OthmanAdi/planning-with-fi
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 26686
-stars_this_week: 41
-stars_updated: '2026-09-07'
+stars: 27865
+stars_this_week: 140
+stars_updated: '2026-11-04'
 rank: 8
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [productivity, planning, memory]
 ---

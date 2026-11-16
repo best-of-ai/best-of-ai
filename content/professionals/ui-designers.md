@@ -12,16 +12,24 @@ categories:
   - no-code
   - app-builders
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - figma
   - uizard
-  - galileo-ai
   - framer
+  - visily
+  - magic-patterns
+  - google-stitch
+  - figma-make
+  - v0
+  - penpot-ai
+  - sketch-ai
   - midjourney
-  - canva
   - ideogram
+  - lottie
+  - rive
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - adobe-express
-  - bubble
-
 ---

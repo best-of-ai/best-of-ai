@@ -4,12 +4,12 @@
 
 <div class="company-search">
   <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-  <input type="text" id="models-search-input" placeholder="Search models by name or lab…" autocomplete="off" spellcheck="false" aria-label="Search models">
+  <input type="text" id="models-search-input" placeholder="{{ i18n "search_models_by_name_or_lab" }}" autocomplete="off" spellcheck="false" aria-label="{{ i18n "search_models" }}">
 </div>
 
 <div class="price-bar" id="models-filter-bar">
-  <select class="hw-select" id="models-company-select" aria-label="Filter by company">
-    <option value="all">all labs</option>
+  <select class="hw-select" id="models-company-select" aria-label="{{ i18n "filter_by_company" }}">
+    <option value="all">{{ i18n "all_labs" }}</option>
     {{ range $companies }}
       {{ $slug := . }}
       {{ $name := $slug }}
@@ -24,45 +24,45 @@
       <svg width="11" height="11" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
     </button>
     <div class="models-cols__panel" id="models-cols-panel" hidden>
-      <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> Model</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="company" checked> Lab</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="type" checked> Type</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="params" checked> Params</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="context" checked> Context</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="license" checked> License</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="released" checked> Released</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="price"> Price</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="open_weight"> Open Weight</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="runs_at_home"> Runs at Home</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="modality"> Modality</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="input_price"> Input $/M</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="output_price"> Output $/M</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="mmlu"> MMLU</label>
-      <label class="models-cols__item"><input type="checkbox" data-col="lmarena"> LMArena</label>
+      <label class="models-cols__item models-cols__item--locked"><input type="checkbox" checked disabled> {{ i18n "model" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="company" checked> {{ i18n "lab" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="type" checked> {{ i18n "type_2" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="params" checked> {{ i18n "params" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="context" checked> {{ i18n "context" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="license" checked> {{ i18n "license" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="released" checked> {{ i18n "released" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="price"> {{ i18n "price_2" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="open_weight"> {{ i18n "open_weight_2" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="runs_at_home"> {{ i18n "runs_at_home_2" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="modality"> {{ i18n "modality" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="input_price"> {{ i18n "input_m" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="output_price"> {{ i18n "output_m" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="mmlu"> {{ i18n "mmlu" }}</label>
+      <label class="models-cols__item"><input type="checkbox" data-col="lmarena"> {{ i18n "lmarena" }}</label>
     </div>
   </div>
-  <span class="price-bar__label">// sorted by newest — click a column to resort</span>
+  <span class="price-bar__label">{{ i18n "sorted_by_newest_click_a_column" }}</span>
 </div>
 
 <div class="models-table-wrap">
   <table class="models-table" id="models-table">
     <thead>
       <tr>
-        <th data-sort="name" data-type="string" data-col="name">Model</th>
-        <th data-sort="company" data-type="string" data-col="company">Lab</th>
-        <th data-sort="type" data-type="string" data-col="type">Type</th>
-        <th data-sort="params" data-type="string" data-col="params">Params</th>
-        <th data-sort="context" data-type="number" data-col="context">Context</th>
-        <th data-sort="license" data-type="string" data-col="license">License</th>
-        <th class="models-table__sorted models-table__sorted--desc" data-sort="released" data-type="date" data-col="released">Released</th>
-        <th data-sort="price" data-type="string" data-col="price" style="display:none">Price</th>
-        <th data-sort="open_weight" data-type="string" data-col="open_weight" style="display:none">Open Weight</th>
-        <th data-sort="runs_at_home" data-type="string" data-col="runs_at_home" style="display:none">Runs at Home</th>
-        <th data-sort="modality" data-type="string" data-col="modality" style="display:none">Modality</th>
-        <th data-sort="input_price" data-type="number" data-col="input_price" style="display:none">Input $/M</th>
-        <th data-sort="output_price" data-type="number" data-col="output_price" style="display:none">Output $/M</th>
-        <th data-sort="mmlu" data-type="number" data-col="mmlu" style="display:none">MMLU</th>
-        <th data-sort="lmarena" data-type="number" data-col="lmarena" style="display:none">LMArena</th>
+        <th data-sort="name" data-type="string" data-col="name">{{ i18n "model" }}</th>
+        <th data-sort="company" data-type="string" data-col="company">{{ i18n "lab" }}</th>
+        <th data-sort="type" data-type="string" data-col="type">{{ i18n "type_2" }}</th>
+        <th data-sort="params" data-type="string" data-col="params">{{ i18n "params" }}</th>
+        <th data-sort="context" data-type="number" data-col="context">{{ i18n "context" }}</th>
+        <th data-sort="license" data-type="string" data-col="license">{{ i18n "license" }}</th>
+        <th class="models-table__sorted models-table__sorted--desc" data-sort="released" data-type="date" data-col="released">{{ i18n "released" }}</th>
+        <th data-sort="price" data-type="string" data-col="price" style="display:none">{{ i18n "price_2" }}</th>
+        <th data-sort="open_weight" data-type="string" data-col="open_weight" style="display:none">{{ i18n "open_weight_2" }}</th>
+        <th data-sort="runs_at_home" data-type="string" data-col="runs_at_home" style="display:none">{{ i18n "runs_at_home_2" }}</th>
+        <th data-sort="modality" data-type="string" data-col="modality" style="display:none">{{ i18n "modality" }}</th>
+        <th data-sort="input_price" data-type="number" data-col="input_price" style="display:none">{{ i18n "input_m" }}</th>
+        <th data-sort="output_price" data-type="number" data-col="output_price" style="display:none">{{ i18n "output_m" }}</th>
+        <th data-sort="mmlu" data-type="number" data-col="mmlu" style="display:none">{{ i18n "mmlu" }}</th>
+        <th data-sort="lmarena" data-type="number" data-col="lmarena" style="display:none">{{ i18n "lmarena" }}</th>
       </tr>
     </thead>
     <tbody id="models-table-body">
@@ -89,7 +89,7 @@
       {{ $runsAtHome := "No" }}{{ if $p.runs_at_home }}{{ $runsAtHome = "Yes" }}{{ end }}
       {{ $modality := "—" }}{{ if $p.modality }}{{ $modality = delimit $p.modality ", " }}{{ end }}
       {{ $typeSlug := "" }}
-      {{ $typeMatch := where site.Data.model_categories "filter_value" $p.model_type }}
+      {{ $typeMatch := where (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang) "filter_value" $p.model_type }}
       {{ if $typeMatch }}{{ $typeSlug = (index $typeMatch 0).slug }}{{ end }}
       <tr
         class="models-table__row"
@@ -122,15 +122,15 @@
         <td data-col="company">{{ $company }}</td>
         <td data-col="type">
           {{ if $typeSlug }}
-          <a href="{{ printf "/models/category/%s/" $typeSlug | relURL }}" class="models-table__badge" onclick="event.stopPropagation()">{{ $p.model_type }}</a>
+          <a href="{{ printf "/models/category/%s/" $typeSlug | relLangURL }}" class="models-table__badge" onclick="event.stopPropagation()">{{ partial "enum-label.html" $p.model_type }}</a>
           {{ else }}
-          <span class="models-table__badge">{{ $p.model_type }}</span>
+          <span class="models-table__badge">{{ partial "enum-label.html" $p.model_type }}</span>
           {{ end }}
         </td>
         <td data-col="params">{{ $p.param_count }}</td>
         <td data-col="context">{{ $contextLabel }}</td>
         <td data-col="license">{{ $p.license | default "—" }}</td>
-        <td data-col="released">{{ if $p.release_date }}{{ (time $p.release_date).Format "Jan 2006" }}{{ else }}—{{ end }}</td>
+        <td data-col="released">{{ if $p.release_date }}{{ time.Format "Jan 2006" $p.release_date }}{{ else }}—{{ end }}</td>
         <td data-col="price" style="display:none">{{ $p.price | default "—" }}</td>
         <td data-col="open_weight" style="display:none">{{ $openWeight }}</td>
         <td data-col="runs_at_home" style="display:none">{{ $runsAtHome }}</td>
@@ -145,7 +145,7 @@
   </table>
 </div>
 
-<p class="company-empty" id="models-empty" style="display:none">No models match your search.</p>
+<p class="company-empty" id="models-empty" style="display:none">{{ i18n "no_models_match_your_search" }}</p>
 
 <script>
 (function() {

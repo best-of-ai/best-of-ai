@@ -11,14 +11,20 @@ categories:
   - language-learning
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - khanmigo
-  - babbel
+  - photomath
+  - mathway-ai
   - brilliant
-  - busuu
   - carnegie-learning
-  - chatpdf
+  - quizlet-ai
+  - studysmarter
+  - babbel
+  - busuu
+  - preply
+  - geogebra
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-
 ---

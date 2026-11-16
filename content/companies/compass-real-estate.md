@@ -11,6 +11,7 @@ headquarters: 'New York City, New York'
 founders:
   - 'Robert Reffkin'
   - 'Ori Allon'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

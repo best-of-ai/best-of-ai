@@ -12,16 +12,24 @@ categories:
   - writing-assistants
   - academia
   - document-ai
-featured_tools:
-  - chatgpt
-  - otter-ai
+specific_tools:
+  - nvivo
+  - atlas-ti
+  - transkribus
+  - trint
+  - sonix
+  - happyscribe
+  - dovetail-ai
+  - zotero-ai
+  - mendeley
   - elicit
+  - semantic-scholar
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
-  - semantic-scholar
-  - jenni-ai
-  - adobe-acrobat-ai
-  - assemblyai
-  - consensus
-
+  - otter-ai
+  - perplexity
+  - deepl
 ---

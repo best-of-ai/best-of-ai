@@ -11,16 +11,17 @@ categories:
   - productivity
   - fleet-management
   - customer-support
-featured_tools:
+specific_tools:
   - jobber
+  - housecall-pro
+  - servicetitan
   - acuity-scheduling
   - calendly
-  - chatbase
+general_tools:
+  - chatgpt
+  - claude
   - intercom
-  - zendesk
-  - drift
   - hubspot-business
-  - akiflow
   - todoist
-
+  - akiflow
 ---

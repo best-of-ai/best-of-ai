@@ -12,14 +12,18 @@ categories:
   - productivity
   - document-ai
   - research-tools
-featured_tools:
-  - chatgpt
-  - suki-ai
+specific_tools:
+  - simplepractice
+  - mentalyc
+  - upheal
+  - nabla
+  - freed
+  - theraplatform
   - wysa
-  - betterhelp
+general_tools:
+  - chatgpt
+  - claude
   - otter-ai
   - notebooklm
-  - wordtune
   - adobe-acrobat-ai
-
 ---

@@ -12,16 +12,24 @@ categories:
   - meeting-assistants
   - email-assistants
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - gainsight
+  - planhat
+  - totango
+  - churnzero
   - fireflies-ai
+  - gong
+  - avoma
+  - fathom
+  - grain
   - intercom
-  - otter-ai
   - hubspot-crm
-  - notion-ai
   - superhuman
+general_tools:
+  - chatgpt
+  - claude
+  - otter-ai
+  - notion-ai
   - salesforce
   - zoom-ai
-
 ---

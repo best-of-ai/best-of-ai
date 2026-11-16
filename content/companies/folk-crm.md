@@ -11,6 +11,7 @@ headquarters: 'Paris, France'
 founders:
   - 'Baptiste Jamin'
   - 'Charles Duchene'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

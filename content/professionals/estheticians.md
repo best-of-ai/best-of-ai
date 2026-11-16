@@ -12,15 +12,21 @@ categories:
   - business-tools
   - social-media-tools
   - calendar-scheduling
-featured_tools:
-  - chatgpt
+specific_tools:
   - perfectcorp
-  - adobe-lightroom-ai
-  - cleanup-pictures
-  - luminar-neo
+  - perfect365
+  - skinvision
+  - vagaro
+  - styleseat
+  - fresha
+  - square
   - acuity-scheduling
+general_tools:
+  - chatgpt
+  - claude
   - canva
+  - adobe-lightroom-ai
+  - later
   - buffer
-  - sprout-social
-
+  - capcut
 ---

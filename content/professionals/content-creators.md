@@ -13,16 +13,29 @@ categories:
   - image-generation
   - social-media-tools
   - meme-generator
-featured_tools:
-  - chatgpt
+specific_tools:
   - capcut
-  - canva
-  - runway
   - opus-clip
-  - buffer
+  - descript
+  - riverside
+  - veed-io
+  - submagic
+  - vidiq
+  - tubebuddy
+  - thumbnailcreator
+  - captions-ai
+  - klap
+  - vizard
   - elevenlabs
-  - adobe-premiere-pro-ai
+  - runway
   - luma-dream-machine
-  - sora
-
+  - kling-ai
+  - midjourney
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - adobe-premiere-pro-ai
+  - buffer
+  - davinci-resolve
 ---

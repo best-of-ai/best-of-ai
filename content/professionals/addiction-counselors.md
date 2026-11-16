@@ -11,16 +11,17 @@ categories:
   - healthcare
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - mentalyc
+  - upheal
+  - simplepractice
   - wysa
-  - woebot
-  - betterhelp
-  - otter-ai
-  - nuance-dax
-  - abridge-ai
-  - asana
-  - adobe-acrobat-ai
   - spring-health
-
+  - lyra-health
+general_tools:
+  - chatgpt
+  - claude
+  - otter-ai
+  - notion-ai
+  - adobe-acrobat-ai
 ---

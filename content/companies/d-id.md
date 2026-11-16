@@ -12,6 +12,7 @@ founders:
   - 'Gil Perry'
   - 'Sella Blondheim'
   - 'Eliran Kuta'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

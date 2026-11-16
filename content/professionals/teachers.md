@@ -13,14 +13,26 @@ categories:
   - productivity
   - document-ai
   - presentation
-featured_tools:
-  - chatgpt
+specific_tools:
+  - magicschool-ai
   - khanmigo
+  - brisk-teaching
+  - diffit
+  - kahoot
+  - google-classroom
+  - quizgecko
+  - quizlet-ai
+  - mentimeter
+  - turnitin-ai
+  - gptzero
+  - copyleaks-ai
+  - gradescope
+  - goalbook
+general_tools:
+  - chatgpt
+  - claude
   - gamma
   - canva
   - grammarly
-  - turnitin-ai
   - notebooklm
-  - quillbot
-
 ---

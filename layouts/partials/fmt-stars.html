@@ -1,0 +1,1 @@
+{{ $n := int . }}{{ if ge $n 1000 }}{{ printf "%vk" (div (math.Round (div (float $n) 100)) 10) }}{{ else }}{{ $n }}{{ end }}

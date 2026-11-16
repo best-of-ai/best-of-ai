@@ -12,16 +12,25 @@ categories:
   - diagramming
   - presentation
   - 3d
-featured_tools:
-  - midjourney
+specific_tools:
   - sketchup
+  - rhino
+  - autodesk-revit
+  - autocad
+  - vectorworks
+  - enscape
+  - d5-render
   - spacemaker-ai
   - plantnet
+  - picturethis
+  - midjourney
+  - krea-ai
+  - arcgis
+general_tools:
+  - chatgpt
+  - claude
   - ideogram
   - flux
   - canva
   - gamma
-  - krea-ai
-  - alpha3d
-
 ---

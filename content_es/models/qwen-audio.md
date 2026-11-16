@@ -1,0 +1,25 @@
+---
+title: 'Qwen-Audio'
+name: 'Qwen-Audio'
+slug: 'qwen-audio'
+subtitle: 'El primer modelo de audio y lenguaje de Alibaba para entender el habla y el sonido'
+description: 'El primer modelo de audio y lenguaje de Alibaba para entender el habla y el sonido'
+company: 'alibaba'
+model_type: 'Audio Generation'
+logo_url: ''
+product_url: 'https://qwenlm.github.io/blog/qwen-audio/'
+price: 'Free'
+rank: 5
+release_date: '2023-11-14'
+param_count: '8.4B'
+modality: [audio, text]
+open_weight: true
+license: 'Tongyi Qianwen License'
+api_available: false
+access_methods: [Self-hosted]
+runs_at_home: true
+platforms: ['Hugging Face']
+date: '2026-07-16'
+tags: [audio, open-weight, legacy]
+i18n_source: 'f7d430e79973'
+---

@@ -10,6 +10,7 @@ founded: '1998'
 headquarters: 'Barcelona, Spain'
 founders:
   - 'Lluis de Carreras Serra'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

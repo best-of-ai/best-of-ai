@@ -11,14 +11,20 @@ categories:
   - fitness
   - automation
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - trainerize
+  - truecoach
   - fitbod
   - whoop
-  - trainerize
-  - freeletics
+  - oura-ring
+  - strava
+  - trainingpeaks
+  - cronometer
   - myfitnesspal
+  - freeletics
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - grammarly
-
+  - capcut
 ---

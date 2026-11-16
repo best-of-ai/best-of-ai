@@ -11,15 +11,20 @@ categories:
   - research-tools
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
-  - harvey
-  - casetext
+specific_tools:
   - everlaw
   - relativity
+  - lexisnexis-protege
+  - harvey
+  - legora
+  - clio
+  - filevine
+  - otter-ai
+  - trint
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-  - perplexity-research
-
 ---

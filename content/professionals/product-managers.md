@@ -12,14 +12,25 @@ categories:
   - data
   - productivity
   - note-taking-apps
-featured_tools:
-  - chatgpt
-  - linear
-  - dovetail-ai
+specific_tools:
   - productboard
+  - linear
+  - jira
+  - dovetail-ai
   - amplitude-ai
-  - perplexity
+  - mixpanel
+  - pendo
+  - posthog-ai
+  - heap
+  - hotjar-ai
+  - fullstory
+  - maze-ai
+  - miro-ai
   - gamma
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notion-ai
   - obsidian
-
 ---

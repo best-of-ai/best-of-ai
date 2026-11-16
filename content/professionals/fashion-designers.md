@@ -12,16 +12,22 @@ categories:
   - graphic-design
   - 3d
   - market-research
-featured_tools:
-  - midjourney
+specific_tools:
   - clo3d
+  - browzwear
+  - heuritech
+  - vizcom
+  - adobe-illustrator
+  - procreate
+  - midjourney
   - ideogram
   - adobe-firefly
-  - fashwell
-  - vue-ai
   - stable-diffusion
-  - figma
   - flux
+general_tools:
+  - chatgpt
+  - claude
   - canva
-
+  - figma
+  - perplexity
 ---

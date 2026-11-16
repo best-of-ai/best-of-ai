@@ -1,0 +1,37 @@
+# Japanese name/description overlay for data/model_categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: 'language'
+  name: '言語'
+  description: 'チャット、文章作成、汎用のテキスト処理向けに作られた大規模言語モデル（LLM）です。'
+-
+  slug: 'multimodal'
+  name: 'マルチモーダル'
+  description: 'テキスト、画像、音声、動画を一つのシステムで扱うモデルです。'
+-
+  slug: 'reasoning'
+  name: '推論'
+  description: '複数ステップの推論、数学、複雑な問題解決向けに調整したモデルです。'
+-
+  slug: 'image-generation'
+  name: '画像生成'
+  description: 'テキストと参照画像から、画像を生成または編集するモデルです。'
+-
+  slug: 'audio-generation'
+  name: '音声生成'
+  description: 'テキストまたは音声のプロンプトから、話し声、音楽、その他の音声を生成するモデルです。'
+-
+  slug: 'video-generation'
+  name: '動画生成'
+  description: 'テキスト、画像、動画のプロンプトから、動画クリップを生成または編集するモデルです。'
+-
+  slug: 'embedding'
+  name: '埋め込み'
+  description: '検索と取得のため、テキスト、画像、音声をベクトル埋め込みに変換するモデルです。'
+-
+  slug: 'code'
+  name: 'コード'
+  description: 'コード補完、コード生成、ソフトウェアエンジニアリングの作業向けに学習したモデルです。'
+-
+  slug: 'runs-at-home'
+  name: 'ローカルで動く'
+  description: 'ダウンロードして自分のハードウェアで動かせるオープンウェイトのモデルです。'

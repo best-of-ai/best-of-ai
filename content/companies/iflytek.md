@@ -10,6 +10,7 @@ founded: '1999'
 headquarters: 'Hefei, China'
 founders:
   - 'Liu Qingfeng'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

@@ -11,14 +11,20 @@ categories:
   - image-editing
   - social-media-tools
   - business-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - tattoojinn
+  - procreate
   - midjourney
   - ideogram
   - stable-diffusion
   - civitai
-  - bing-image-creator
-  - adobe-lightroom-ai
+  - vagaro
+  - square
+  - acuity-scheduling
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - buffer
-
+  - later
 ---

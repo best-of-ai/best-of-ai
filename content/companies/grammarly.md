@@ -12,6 +12,7 @@ founders:
   - 'Alex Shevchenko'
   - 'Max Lytvyn'
   - 'Dmytro Lider'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

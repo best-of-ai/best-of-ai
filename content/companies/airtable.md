@@ -12,6 +12,7 @@ founders:
   - 'Howie Liu'
   - 'Andrew Ofstad'
   - 'Emmett Nicholas'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

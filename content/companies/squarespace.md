@@ -10,6 +10,7 @@ founded: '2003'
 headquarters: 'New York City, New York'
 founders:
   - 'Anthony Casalena'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

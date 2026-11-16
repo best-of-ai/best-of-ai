@@ -11,16 +11,23 @@ categories:
   - document-ai
   - data
   - transcription
-featured_tools:
-  - chatgpt
-  - perplexity
+specific_tools:
   - documentcloud
   - hunchly
-  - otter-ai
-  - assemblyai
-  - notebooklm
+  - maltego
+  - tineye
   - datawrapper
+  - flourish
+  - assemblyai
+  - otter-ai
+  - trint
+  - exa-ai
+  - perplexity
+  - kagi
+  - transkribus
+general_tools:
+  - chatgpt
+  - claude
+  - notebooklm
   - adobe-acrobat-ai
-  - perplexity-research
-
 ---

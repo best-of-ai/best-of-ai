@@ -12,13 +12,19 @@ categories:
   - automation
   - cloud-management
   - documentation
-featured_tools:
+specific_tools:
+  - kentik
+  - wireshark
+  - matlab
+  - grafana
+  - splunk
+  - datadog
+  - nmap
+  - qualcomm-ai-hub
+general_tools:
   - chatgpt
+  - claude
   - github-copilot
-  - cursor
   - drawio
   - tableau
-  - mintlify
-  - zapier
-
 ---

@@ -11,16 +11,20 @@ categories:
   - document-ai
   - compliance
   - translator
-featured_tools:
+specific_tools:
+  - zonos
   - flexport
+  - freightos
+  - project44
+  - fourkites
+  - avalara
+  - abbyy
+  - zycus
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - google-translate
-  - chatpdf
-  - humata
-  - notebooklm
-  - onetrust
-  - abbyy
-  - blue-yonder
   - deepl
-
+  - notebooklm
 ---

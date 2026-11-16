@@ -12,11 +12,11 @@ install: 'Add via the Claude Code marketplace with /plugin marketplace add trail
 price: 'Free'
 open_source: true
 license: 'CC-BY-SA-4.0'
-stars: 6995
-stars_this_week: 17
-stars_updated: '2026-09-07'
+stars: 7992
+stars_this_week: 108
+stars_updated: '2026-11-04'
 rank: 6
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [security, code-review, audit]
 ---
 This repository bundles the following skills:

@@ -11,6 +11,7 @@ headquarters: 'San Diego, California'
 founders:
   - 'Adam Markowitz'
   - 'Daniel Marashlian'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

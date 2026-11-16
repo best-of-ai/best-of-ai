@@ -11,15 +11,21 @@ categories:
   - healthcare
   - document-ai
   - telemedicine
-featured_tools:
-  - chatgpt
+specific_tools:
   - nuance-dax
   - suki-ai
-  - wysa
-  - betterhelp
+  - heidi-health
+  - freed
+  - mentalyc
+  - upheal
+  - simplepractice
   - doxy-me
-  - adobe-acrobat-ai
+  - openevidence
+  - uptodate
+  - lexicomp
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - chatpdf
-
+  - adobe-acrobat-ai
 ---

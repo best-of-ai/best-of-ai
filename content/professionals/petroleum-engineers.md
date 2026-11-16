@@ -11,14 +11,19 @@ categories:
   - data
   - geospatial
   - research-tools
-featured_tools:
-  - chatgpt
-  - aspentech
+specific_tools:
+  - slb-petrel
   - cognite
-  - arcgis
+  - aspentech
+  - seequent
+  - aveva
+  - augury
+  - ibm-maximo
+  - matlab
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-  - wolfram-alpha-ai
   - notebooklm
-  - drawio
-
+  - wolfram-alpha-ai
 ---

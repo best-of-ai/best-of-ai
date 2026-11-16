@@ -12,16 +12,24 @@ categories:
   - data
   - automation
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - aspentech
-  - wolfram-alpha-ai
+  - ansys
+  - comsol
+  - matlab
+  - cognite
+  - aveva
+  - reaxys
   - schrodinger
-  - tableau
+  - augury
+  - sight-machine
+  - wolfram-alpha-ai
+general_tools:
+  - chatgpt
+  - claude
   - elicit
   - semantic-scholar
   - scispace
-  - zapier
   - adobe-acrobat-ai
-
+  - tableau
 ---

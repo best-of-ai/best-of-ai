@@ -11,16 +11,22 @@ categories:
   - research-tools
   - translator
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - harvey
-  - casetext
   - luminance-ai
   - everlaw
+  - legora
+  - hunchly
+  - maltego
+  - tineye
   - deepl
   - google-translate
+  - transkribus
+  - documentcloud
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - elicit
-  - perplexity-research
-
+  - perplexity
 ---

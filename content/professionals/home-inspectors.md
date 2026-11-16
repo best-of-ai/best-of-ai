@@ -11,16 +11,17 @@ categories:
   - document-ai
   - image-editing
   - computer-vision
-featured_tools:
+specific_tools:
   - spectora
-  - adobe-acrobat-ai
+  - homegauge
+  - matterport
   - aws-rekognition
   - clarifai
   - adobe-lightroom-ai
+  - boxbrownie
+general_tools:
+  - chatgpt
+  - claude
+  - adobe-acrobat-ai
   - chatpdf
-  - cleanup-pictures
-  - fotor
-  - humata
-  - lensa-ai
-
 ---

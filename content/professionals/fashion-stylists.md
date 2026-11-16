@@ -12,16 +12,19 @@ categories:
   - image-editing
   - social-media-tools
   - research-tools
-featured_tools:
-  - midjourney
-  - canva
-  - ideogram
-  - adobe-firefly
+specific_tools:
   - outfit-fm
-  - stitchfix
+  - stitch-fix
+  - heuritech
   - fashwell
-  - flux
+  - perfectcorp
+  - midjourney
+  - adobe-firefly
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - buffer
-  - perplexity-research
-
+  - perplexity
+  - ideogram
 ---

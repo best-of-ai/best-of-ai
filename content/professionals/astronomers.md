@@ -11,16 +11,19 @@ categories:
   - data
   - computer-vision
   - space-tech
-featured_tools:
-  - chatgpt
+specific_tools:
+  - nasa-ads
+  - pixinsight
+  - stellarium
   - wolfram-alpha-ai
-  - semantic-scholar
-  - tableau
-  - maxar
-  - spire-global
-  - satellogic
   - scispace
-  - aws-rekognition
-  - clarifai
-
+  - semantic-scholar
+  - topaz-photo-ai
+  - kaggle
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notebooklm
+  - overleaf
 ---

@@ -12,14 +12,27 @@ categories:
   - writing-assistants
   - character-design
   - storytelling
-featured_tools:
-  - chatgpt
-  - midjourney
-  - stable-diffusion
+specific_tools:
+  - unreal-engine
+  - unity
+  - godot
+  - ludo-ai
+  - scenario
+  - inworld-ai
+  - convai
+  - tripo3d
+  - meshy-ai
   - character-creator
-  - ready-player-me
+  - metahuman
   - suno
   - elevenlabs
+  - midjourney
   - flux
-
+  - leonardo-ai
+  - articy-draft
+general_tools:
+  - chatgpt
+  - claude
+  - github-copilot
+  - notion-ai
 ---

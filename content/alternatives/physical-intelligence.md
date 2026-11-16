@@ -1,0 +1,3 @@
+---
+title: 'Physical Intelligence Alternatives'
+---

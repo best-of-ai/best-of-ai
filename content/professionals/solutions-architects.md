@@ -11,16 +11,23 @@ categories:
   - diagramming
   - documentation
   - api-tools
-featured_tools:
+specific_tools:
   - postman
-  - cloudhealth
-  - confluence-ai
-  - creately
-  - drawio
-  - gitbook
-  - turbonomic
-  - archbee
   - insomnia
   - mermaid-chart
-
+  - drawio
+  - creately
+  - eraser-io
+  - confluence-ai
+  - gitbook
+  - archbee
+  - terraform
+  - cloudhealth
+  - turbonomic
+  - amazon-bedrock
+general_tools:
+  - chatgpt
+  - claude
+  - github-copilot
+  - gamma
 ---

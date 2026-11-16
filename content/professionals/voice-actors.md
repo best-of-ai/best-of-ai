@@ -12,16 +12,25 @@ categories:
   - text-to-speech
   - podcast
   - transcription
-featured_tools:
+specific_tools:
   - elevenlabs
   - murf
-  - replica-studios
+  - resemble-ai
+  - respeecher
+  - lovo
+  - fish-audio
   - descript
   - riverside
-  - playht
   - krisp
   - adobe-podcast
-  - amazon-polly
+  - adobe-enhance-speech
+  - izotope-rx
+  - audacity
+  - pro-tools
+  - backstage
+  - casting-networks
+general_tools:
+  - chatgpt
+  - claude
   - assemblyai
-
 ---

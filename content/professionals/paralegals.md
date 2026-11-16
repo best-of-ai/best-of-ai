@@ -12,16 +12,24 @@ categories:
   - research-tools
   - transcription
   - productivity
-featured_tools:
-  - chatgpt
-  - harvey
-  - casetext
-  - everlaw
+specific_tools:
+  - clio
+  - filevine
   - relativity
-  - spellbook
+  - everlaw
+  - disco
   - litera
+  - docketwise
+  - lexisnexis-protege
+  - harvey
+  - legora
+  - otter-ai
+  - trint
+  - verbit
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-
 ---

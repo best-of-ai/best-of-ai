@@ -12,16 +12,20 @@ categories:
   - crm
   - email-assistants
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
   - givebutter
   - bloomerang
   - bonterra
+  - blackbaud
+  - virtuous
+  - keela
+  - instrumentl
+  - nationbuilder
+general_tools:
+  - chatgpt
+  - claude
   - mailchimp
   - canva
   - grammarly
   - hubspot-crm
-  - copy-ai
-  - salesforce
-
 ---

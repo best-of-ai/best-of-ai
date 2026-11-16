@@ -11,14 +11,20 @@ categories:
   - productivity
   - data
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - webpt
+  - physitrack
+  - jane-app
   - suki-ai
   - freed
-  - fitbod
+  - heidi-health
+  - nabla
+  - openevidence
+  - uptodate
   - trainerize
-  - adobe-acrobat-ai
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
-
 ---

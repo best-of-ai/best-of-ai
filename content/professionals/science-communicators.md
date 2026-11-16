@@ -11,15 +11,24 @@ categories:
   - infographics
   - research-tools
   - social-media-tools
-featured_tools:
+specific_tools:
+  - biorender
+  - infogram
+  - canva-infographics
+  - datawrapper
+  - flourish
+  - piktochart
+  - venngage
+  - descript
+  - riverside
+  - podcastle
+general_tools:
   - chatgpt
+  - claude
   - grammarly
   - canva
   - gamma
   - midjourney
-  - infogram
   - perplexity
   - buffer
-  - canva-infographics
-
 ---

@@ -11,6 +11,7 @@ headquarters: 'Bristol, United Kingdom'
 founders:
   - 'Nigel Toon'
   - 'Simon Knowles'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

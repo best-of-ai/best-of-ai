@@ -12,16 +12,23 @@ categories:
   - automation
   - document-ai
   - customer-support
-featured_tools:
-  - chatgpt
+specific_tools:
   - tractable
   - shift-technology
+  - ccc-intelligent-solutions
+  - xactimate
   - lemonade
   - next-insurance
   - root-insurance
+  - zest-ai
+  - feedzai
+  - sardine
+  - hyperscience
+  - applied-epic
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - notebooklm
   - salesforce
-  - drift
-
 ---

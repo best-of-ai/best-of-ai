@@ -1,0 +1,7 @@
+{{- /*
+  Markdown links. Root-relative links ("/leaderboard/") keep the same target in every language's
+  source file and get the language prefix here, so a Spanish page links to /es/leaderboard/.
+*/ -}}
+{{- $dest := .Destination -}}
+{{- if and (hasPrefix $dest "/") (not (hasPrefix $dest "//")) }}{{ $dest = $dest | relLangURL }}{{ end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

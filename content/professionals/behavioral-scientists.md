@@ -12,16 +12,22 @@ categories:
   - academia
   - sentiment-analysis
   - market-research
-featured_tools:
-  - chatgpt
-  - elicit
-  - semantic-scholar
-  - scite-ai
-  - scispace
-  - consensus
-  - otter-ai
+specific_tools:
+  - prolific
+  - qualtrics
   - remesh
   - quantilope
-  - brandwatch
-
+  - dovetail-ai
+  - maze-ai
+  - kaggle
+  - elicit
+  - scite-ai
+general_tools:
+  - chatgpt
+  - claude
+  - perplexity
+  - notebooklm
+  - otter-ai
+  - grammarly
+  - overleaf
 ---

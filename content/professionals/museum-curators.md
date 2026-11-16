@@ -12,16 +12,22 @@ categories:
   - image-generation
   - document-ai
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - smartify
+  - transkribus
+  - abbyy
+  - matterport
+  - polycam-ai
+  - luma-ai
+  - documentcloud
+  - familysearch
+general_tools:
+  - chatgpt
+  - claude
   - midjourney
   - notebooklm
   - canva
-  - scispace
-  - semantic-scholar
-  - adobe-acrobat-ai
   - gamma
   - grammarly
-
+  - semantic-scholar
 ---

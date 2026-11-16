@@ -11,16 +11,22 @@ categories:
   - medical-imaging
   - 3d
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
+  - 3shape
+  - dolphin-imaging
+  - cephx
+  - diagnocat
+  - softsmile
+  - ulab-systems
+  - align-technology
+  - dental-monitoring
   - overjet
   - pearl-dental
-  - dental-monitoring
-  - nuance-dax
-  - adobe-acrobat-ai
-  - notebooklm
+  - videahealth
+  - dentrix
+  - weave-communications
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - alpha3d
-  - chatpdf
-
 ---

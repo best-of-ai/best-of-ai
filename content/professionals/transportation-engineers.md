@@ -11,14 +11,19 @@ categories:
   - data
   - automation
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - ptv-vissim
   - arcgis
+  - qgis
   - mapbox
+  - carto
+  - felt
+  - autocad
+  - autodesk-civil-3d
+  - pix4d
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-  - drawio
-  - zapier
   - notebooklm
-  - make
-
 ---

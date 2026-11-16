@@ -10,6 +10,7 @@ founded: '2024'
 headquarters: 'Palo Alto, California'
 founders:
   - 'Stefano Ermon'
+ai_native: true
 date: '2026-09-18'
 rank: 4
 ---

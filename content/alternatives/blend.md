@@ -1,0 +1,3 @@
+---
+title: 'Blend Alternatives'
+---

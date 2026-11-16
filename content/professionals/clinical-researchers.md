@@ -12,16 +12,27 @@ categories:
   - data
   - writing-assistants
   - academia
-featured_tools:
-  - chatgpt
-  - elicit
+specific_tools:
+  - covidence
   - rayyan
+  - redcap
+  - medidata
+  - openevidence
+  - elicit
   - litmaps
+  - scite-ai
+  - consensus
+  - research-rabbit
   - semantic-scholar
   - scispace
+  - graphpad-prism
+  - posit
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
-  - research-rabbit
-  - consensus
   - grammarly
-
+  - perplexity
+  - zotero-ai
+  - overleaf
 ---

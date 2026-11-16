@@ -12,11 +12,11 @@ install: 'Install with npx skills@latest add mattpocock/skills for most agents, 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 255564
-stars_this_week: 2522
-stars_updated: '2026-09-07'
+stars: 311987
+stars_this_week: 6858
+stars_updated: '2026-11-04'
 rank: 10
-date: '2026-09-07'
+date: '2026-11-04'
 tags: [development, engineering, planning]
 ---
 This repository bundles the following skills:

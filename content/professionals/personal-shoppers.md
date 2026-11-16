@@ -11,15 +11,16 @@ categories:
   - fashion
   - business-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - stitch-fix
   - fashwell
   - heuritech
+  - outfit-fm
+  - perfectcorp
   - shopify
-  - bigcommerce
+general_tools:
+  - chatgpt
+  - claude
   - canva
-  - slack-ai
-  - hubspot-business
-
+  - perplexity
 ---

@@ -12,14 +12,17 @@ categories:
   - computer-vision
   - research-tools
   - writing-assistants
-featured_tools:
-  - chatgpt
-  - catapult-sports
-  - hudl
+specific_tools:
+  - statsbomb
   - stats-perform
-  - tableau
-  - julius-ai
+  - hudl
+  - catapult-sports
+  - kinexon
   - aws-rekognition
   - clarifai
-
+  - tableau
+general_tools:
+  - chatgpt
+  - claude
+  - julius-ai
 ---

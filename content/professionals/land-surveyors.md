@@ -11,16 +11,22 @@ categories:
   - 3d
   - document-ai
   - automation
-featured_tools:
-  - chatgpt
-  - arcgis
+specific_tools:
   - pix4d
   - propeller-aero
+  - dronedeploy
+  - agisoft-metashape
+  - arcgis
+  - qgis
   - mapbox
-  - tableau
-  - notebooklm
+  - faro
+  - nearmap
+  - seequent
+  - autocad
+  - autodesk-civil-3d
+  - trimble-construction
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - zapier
-  - n8n
-
 ---

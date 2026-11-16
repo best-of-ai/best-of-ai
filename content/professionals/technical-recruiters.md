@@ -11,14 +11,21 @@ categories:
   - hr
   - job-tools
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
+  - hackerrank
+  - codesignal
   - greenhouse
-  - linkedin
-  - textio
   - lever
+  - ashby
+  - gem
+  - seekout
   - eightfold-ai
   - hirevue
+  - textio
+  - linkedin-sales-navigator
+general_tools:
+  - chatgpt
+  - claude
+  - linkedin
   - grammarly
-
 ---

@@ -12,6 +12,7 @@ founders:
   - 'Tuhin Srivastava'
   - 'Amir Haghighat'
   - 'Philip Howes'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

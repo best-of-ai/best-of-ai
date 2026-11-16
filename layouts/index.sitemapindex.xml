@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>{{ "sitemap-tools.xml" | absURL }}</loc></sitemap>
-  <sitemap><loc>{{ "sitemap-hardware.xml" | absURL }}</loc></sitemap>
-  <sitemap><loc>{{ "sitemap-models.xml" | absURL }}</loc></sitemap>
-  <sitemap><loc>{{ "sitemap-skills.xml" | absURL }}</loc></sitemap>
-  <sitemap><loc>{{ "sitemap-pages.xml" | absURL }}</loc></sitemap>
+{{- $default := (index site.Languages 0).Lang }}
+{{- range site.Languages }}
+{{- $prefix := cond (eq .Lang $default) "" (printf "%s/" .Lang) }}
+{{- range slice "tools" "hardware" "models" "skills" "pages" }}
+  <sitemap><loc>{{ printf "%ssitemap-%s.xml" $prefix . | absURL }}</loc></sitemap>
+{{- end }}
+{{- end }}
 </sitemapindex>

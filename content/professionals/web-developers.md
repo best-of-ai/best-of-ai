@@ -12,14 +12,28 @@ categories:
   - app-builders
   - website-builders
   - no-code
-featured_tools:
-  - chatgpt
+specific_tools:
   - github-copilot
   - cursor
-  - replit
-  - bolt-new
   - v0
+  - bolt-new
+  - replit
   - windsurf
+  - lovable
+  - netlify-ai
+  - vercel-ai-platform
+  - builder-io
+  - supabase-ai
+  - firebase
+  - sentry
+  - postman
+  - claude-code
+  - codex
+  - cline
   - aider
-
+general_tools:
+  - chatgpt
+  - claude
+  - gemini
+  - perplexity
 ---

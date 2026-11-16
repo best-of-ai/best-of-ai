@@ -10,6 +10,7 @@ founded: '2020'
 headquarters: 'Beijing, China'
 founders:
   - 'Zhang Jianzhong'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

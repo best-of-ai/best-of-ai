@@ -11,14 +11,17 @@ categories:
   - data
   - sports-analytics
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - stats-perform
+  - statsbomb
   - hudl
-  - grammarly
   - otter-ai
+  - trint
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
   - notebooklm
   - perplexity
   - buffer
-
 ---

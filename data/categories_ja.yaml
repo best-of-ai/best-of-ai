@@ -1,0 +1,573 @@
+# Japanese name/description overlay for data/categories.yaml (matched by slug; other fields come from the English file)
+-
+  slug: '3d'
+  name: '3D'
+  description: '3Dモデリング、レンダリング、テクスチャリング、デザインの自動化に使うAIツールです。'
+-
+  slug: 'ai-agents'
+  name: 'AIエージェント'
+  description: '計画し、推論し、人の手をほとんど借りずに複数ステップの作業を終える自律型のAIエージェントです。'
+-
+  slug: 'ai-companion'
+  name: 'AIコンパニオン'
+  description: 'AIとのチャット相手、バーチャルな友人、個人用のAIキャラクターです。'
+-
+  slug: 'ad-generator'
+  name: '広告生成'
+  description: 'Google、Meta、SNSのデジタル広告を作り、最適化するAIツールです。'
+-
+  slug: 'animation'
+  name: 'アニメーション'
+  description: 'モーショングラフィックス、アニメーション動画、キャラクターアニメーションを作るAIツールです。'
+-
+  slug: 'app-builders'
+  name: 'アプリ作成'
+  description: '従来のプログラミングのスキルがなくても、モバイルアプリとWebアプリを作れるAIのプラットフォームです。'
+-
+  slug: 'background-remover'
+  name: '背景除去'
+  description: '画像の背景を自動で消す、または差し替えるAIツールです。'
+-
+  slug: 'business-tools'
+  name: 'ビジネス'
+  description: '業務、戦略、データに基づく意思決定の手間を減らすAIツールです。'
+-
+  slug: 'crm'
+  name: 'CRM'
+  description: '営業、連絡先の管理、パイプラインの追跡に使う、AIを加えたCRMツールです。'
+-
+  slug: 'calendar-scheduling'
+  name: '予定調整'
+  description: '会議の予約、カレンダーの管理、時間の配分を自動化するAIの予定調整アシスタントです。'
+-
+  slug: 'climate'
+  name: '気候'
+  description: '気候のモデル化、炭素の追跡、環境への影響の分析に使うAIツールです。'
+-
+  slug: 'code-assistant'
+  name: 'コードアシスタント'
+  description: 'プログラミングの補助、コード補完、ペアプログラミングに使うAIツールです。'
+-
+  slug: 'copywriting'
+  name: 'コピーライティング'
+  description: '説得力のあるマーケティング文、広告、ランディングページ、商品説明を書くAIのコピーライティングツールです。'
+-
+  slug: 'devtools'
+  name: '開発者向け'
+  description: 'コードレビュー、CI/CD、インフラの管理、開発のワークフローに使うAIの開発者向けツールです。'
+-
+  slug: 'document-ai'
+  name: 'ドキュメントAI'
+  description: '文書やPDFを読み、分析し、要点を取り出すAIツールです。'
+-
+  slug: 'e-commerce'
+  name: 'Eコマース'
+  description: '商品掲載の最適化、パーソナライズ、オンラインストアの運営に使うAIツールです。'
+-
+  slug: 'email-assistants'
+  name: 'メールアシスタント'
+  description: 'メールの作成、要約、管理を速くするAIツールです。'
+-
+  slug: 'farming'
+  name: '農業'
+  description: '精密農業、作物のモニタリング、収量の予測、農場の管理に使うAIツールです。'
+-
+  slug: 'fashion'
+  name: 'ファッション'
+  description: 'ファッションのデザイン、トレンドの予測、バーチャル試着に使うAIツールです。'
+-
+  slug: 'finance'
+  name: 'ファイナンス'
+  description: '家計、投資の分析、予算、ファイナンシャルプランニングに使うAIツールです。'
+-
+  slug: 'government'
+  name: '行政'
+  description: '行政機関が住民サービスを良くし、データを分析し、政策を把握するためのAIツールです。'
+-
+  slug: 'hr'
+  name: '人事'
+  description: 'オンボーディング、従業員エンゲージメント、人員の分析など、人事に使うAIツールです。'
+-
+  slug: 'home-design'
+  name: '住宅デザイン'
+  description: 'インテリアデザイン、部屋の計画、住宅リフォームの可視化に使うAIツールです。'
+-
+  slug: 'image-editing'
+  name: '画像編集'
+  description: '既存の画像を編集し、補正し、作り変えるAIツールです。'
+-
+  slug: 'image-generation'
+  name: '画像生成'
+  description: 'テキストのプロンプトから画像やアートワークを生成するAIツールです。'
+-
+  slug: 'infographics'
+  name: 'インフォグラフィック'
+  description: 'データの可視化、インフォグラフィック、共有できる視覚的なレポートを作るAIツールです。'
+-
+  slug: 'job-tools'
+  name: '仕事探し'
+  description: '求人の検索、応募の管理、キャリアの形成に使うAIツールです。'
+-
+  slug: 'knowledge-management'
+  name: 'ナレッジ管理'
+  description: '個人やチームの知識を整理し、つなぎ、取り出すAIツールです。'
+-
+  slug: 'language-learning'
+  name: '語学学習'
+  description: '会話のやりとりで新しい言語を学ぶ、AIの語学チューターとアプリです。'
+-
+  slug: 'lead-generation'
+  name: 'リード獲得'
+  description: '見込み客を見つけ、見極め、リードに変えるAIツールです。'
+-
+  slug: 'learning-tools'
+  name: '学習'
+  description: '一人ひとりに合わせた学習、チュータリング、スキルの習得に使うAIの教育ツールです。'
+-
+  slug: 'logo-generator'
+  name: 'ロゴ生成'
+  description: '数分で、業務で使えるブランドロゴとビジュアルアイデンティティを作るAIのロゴメーカーです。'
+-
+  slug: 'market-research'
+  name: '市場調査'
+  description: '消費者の傾向、競合の分析、市場トレンドの調査に使うAIツールです。'
+-
+  slug: 'meme-generator'
+  name: 'ミーム生成'
+  description: 'SNSとコンテンツマーケティング向けのミームを作り、編集するAIツールです。'
+-
+  slug: 'music-generation'
+  name: '音楽生成'
+  description: 'オリジナルの音楽、ビート、サウンドトラックを生成するAIツールです。'
+-
+  slug: 'no-code'
+  name: 'ノーコード'
+  description: 'コードを書かずにアプリ、自動化、ワークフローを作るAIのノーコードプラットフォームです。'
+-
+  slug: 'note-taking-apps'
+  name: 'メモアプリ'
+  description: '情報を自動で記録し、整理し、必要なときに出すAIのメモアプリです。'
+-
+  slug: 'podcast'
+  name: 'ポッドキャスト'
+  description: 'ポッドキャストの制作、文字起こし、編集、エピソードの内容生成に使うAIツールです。'
+-
+  slug: 'presentation'
+  name: 'プレゼン'
+  description: 'スライド、デッキ、伝わる視覚的なプレゼンを短時間で作るAIツールです。'
+-
+  slug: 'project-management'
+  name: 'プロジェクト管理'
+  description: 'チームの作業を計画し、追跡し、一緒に進めるAIのプロジェクト管理ツールです。'
+-
+  slug: 'real-estate'
+  name: '不動産'
+  description: '物件の査定、掲載情報の最適化、不動産市場の分析に使うAIツールです。'
+-
+  slug: 'resume-tools'
+  name: '履歴書'
+  description: '求職者が印象に残る履歴書と応募書類を作るための、AIの作成・調整ツールです。'
+-
+  slug: 'sales-tools'
+  name: '営業'
+  description: '営業のアウトリーチ自動化、案件の状況把握、売上の予測に使うAIツールです。'
+-
+  slug: 'social-media-tools'
+  name: 'SNS'
+  description: 'SNSの投稿作成、予約投稿、成果の分析に使うAIツールです。'
+-
+  slug: 'supply-chain'
+  name: 'サプライチェーン'
+  description: 'サプライチェーンの最適化、需要予測、物流の管理に使うAIツールです。'
+-
+  slug: 'talking-avatar-generator'
+  name: '話すアバター'
+  description: '本物らしい話すアバターと、デジタルヒューマンの動画プレゼンターを作るAIツールです。'
+-
+  slug: 'text-to-speech'
+  name: '音声合成'
+  description: '書いた文章を、自然に聞こえる音声へ変換するAIツールです。'
+-
+  slug: 'transcription'
+  name: '文字起こし'
+  description: '音声と動画をテキストに文字起こしするAIツールです。'
+-
+  slug: 'translator'
+  name: '翻訳'
+  description: '複数の言語で、テキストと文書を正確に、リアルタイムで翻訳するAIツールです。'
+-
+  slug: 'video-editor'
+  name: '動画編集'
+  description: '動画をカット、トリミングし、仕上がった動画を楽に作るAIの動画編集ツールです。'
+-
+  slug: 'video-enhancer'
+  name: '動画補正'
+  description: '既存の動画をアップスケールし、ノイズを減らし、画質を上げるAIツールです。'
+-
+  slug: 'video-generator'
+  name: '動画生成'
+  description: 'テキストのプロンプトと台本から、オリジナルの動画を生成するAIツールです。'
+-
+  slug: 'video-subtitling'
+  name: '動画字幕'
+  description: '動画に自動字幕、キャプション、クローズドキャプションを付けるAIツールです。'
+-
+  slug: 'voice-cloning'
+  name: '音声クローン'
+  description: '個別の声のプロファイルを再現し、合成するAIの音声クローンツールです。'
+-
+  slug: 'website-builders'
+  name: 'サイト作成'
+  description: 'コードを書かずに、業務で使えるウェブサイトをデザインして公開するAIのサイト作成ツールです。'
+-
+  slug: 'workflow-automation'
+  name: 'ワークフロー自動化'
+  description: 'アプリをつなぎ、繰り返す業務を自動化するAIのワークフロー自動化プラットフォームです。'
+-
+  slug: 'productivity'
+  name: '生産性'
+  description: '集中し、タスクを管理し、毎日やることをより多く片付けるためのAIツールです。'
+-
+  slug: 'chatbots'
+  name: 'チャットボット'
+  description: '会話を自動化し、質問に答え、顧客との関わりを良くするAIチャットボットです。'
+-
+  slug: 'academia'
+  name: '学術'
+  description: '学術研究、引用の管理、文献レビュー、論文の執筆に使うAIツールです。'
+-
+  slug: 'audio'
+  name: 'オーディオ'
+  description: '音と音楽の編集、音質の向上、ノイズ除去、生成に使うAIツールです。'
+-
+  slug: 'automation'
+  name: '自動化'
+  description: '繰り返す作業の手間を減らし、業務のワークフローを整えるAIの自動化ツールです。'
+-
+  slug: 'customer-support'
+  name: 'カスタマーサポート'
+  description: 'チャットボット、チケットの振り分け、ヘルプデスクの自動化で顧客サポートを自動化するAIツールです。'
+-
+  slug: 'data'
+  name: 'データ'
+  description: '大規模なデータセットの分析、可視化、要点の取り出しに使うAIツールです。'
+-
+  slug: 'food'
+  name: '食'
+  description: 'レシピの生成、食べ物探し、栄養の計画、飲食店の運営に使うAIツールです。'
+-
+  slug: 'gaming'
+  name: 'ゲーム'
+  description: 'ゲーム開発、NPCの行動設計、プレイヤーに合わせたゲーム体験に使うAIツールです。'
+-
+  slug: 'graphic-design'
+  name: 'グラフィックデザイン'
+  description: 'ロゴ、イラスト、バナー、ビジュアル素材を作るAIのグラフィックデザインツールです。'
+-
+  slug: 'healthcare'
+  name: '医療'
+  description: '臨床判断の支援、患者とのやりとり、健康データの分析に使うAIツールです。'
+-
+  slug: 'legal-assistants'
+  name: '法律アシスタント'
+  description: '契約の分析、法律の調査、文書の下書きに使うAIツールです。'
+-
+  slug: 'local-search-engines'
+  name: '地域検索'
+  description: '近くの店やサービスを見つけるAIの地域検索エンジンです。'
+-
+  slug: 'marketing'
+  name: 'マーケティング'
+  description: 'キャンペーンの自動化、分析、顧客ごとのアウトリーチに使うAIのマーケティングツールです。'
+-
+  slug: 'meeting-assistants'
+  name: '会議アシスタント'
+  description: '文字起こし、メモ、アクション項目の追跡、フォローアップの自動化に使うAIの会議ツールです。'
+-
+  slug: 'personal-assistants'
+  name: '個人アシスタント'
+  description: '予定、リマインダー、日常生活の管理を、手を使わずに行うAIの個人アシスタントです。'
+-
+  slug: 'research-tools'
+  name: 'リサーチ'
+  description: '文献レビュー、内容の統合、知識の発見を速めるAIの調査ツールです。'
+-
+  slug: 'seo'
+  name: 'SEO'
+  description: 'キーワード調査、コンテンツの最適化、検索順位の改善に使うAIのSEOツールです。'
+-
+  slug: 'search-engines'
+  name: '検索エンジン'
+  description: 'より的確で、文脈に沿ったウェブ検索結果を返すAIの検索エンジンです。'
+-
+  slug: 'spreadsheets'
+  name: '表計算'
+  description: '表計算とデータ表に、自然言語での問い合わせと自動化を加えるAIツールです。'
+-
+  slug: 'video'
+  name: '動画'
+  description: '動画の作成、編集、補正、配信に使うAIツールです。'
+-
+  slug: 'weather'
+  name: '天気'
+  description: '予報、気候データの分析、環境のモニタリングに使うAIの天気ツールです。'
+-
+  slug: 'writing-assistants'
+  name: '執筆アシスタント'
+  description: 'どの形式でも、文章の下書き、編集、改善に使うAIの執筆アシスタントです。'
+-
+  slug: 'models'
+  name: 'モデル'
+  description: '次の世代のAIアプリを動かす基盤モデルと大規模言語モデル（LLM）です。'
+-
+  slug: 'ai-directories'
+  name: 'AIディレクトリ'
+  description: 'AIツールとサービスを幅広く集めたディレクトリと一覧です。'
+-
+  slug: 'cybersecurity'
+  name: 'サイバーセキュリティ'
+  description: '脅威の検知、脆弱性のスキャン、セキュリティの監視に使うAIツールです。'
+-
+  slug: 'mental-health'
+  name: 'メンタルヘルス'
+  description: '心の健康、セラピーの補助、気分の記録、情緒面の健康に使うAIツールです。'
+-
+  slug: 'fitness'
+  name: 'フィットネス'
+  description: 'AIのパーソナルトレーナー、ワークアウトの生成、フィットネスの記録ツールです。'
+-
+  slug: 'diagramming'
+  name: '図解'
+  description: 'フローチャート、アーキテクチャ図、視覚的なドキュメントを作るAIツールです。'
+-
+  slug: 'data-labeling'
+  name: 'データラベリング'
+  description: '機械学習の学習に使うデータセットへ、注釈とラベルを付けるAIツールです。'
+-
+  slug: 'prompt-tools'
+  name: 'プロンプト'
+  description: 'プロンプトエンジニアリング、プロンプトの管理、AI出力の最適化に使うツールです。'
+-
+  slug: 'travel'
+  name: '旅行'
+  description: '旅程の計画、旅行先の調査、予約の補助に使うAIツールです。'
+-
+  slug: 'contract-management'
+  name: '契約管理'
+  description: '契約と合意文書の下書き、確認、管理に使うAIツールです。'
+-
+  slug: 'compliance'
+  name: 'コンプライアンス'
+  description: '規制への対応、リスク管理、ポリシーの監視に使うAIツールです。'
+-
+  slug: 'computer-vision'
+  name: 'コンピュータビジョン'
+  description: '画像認識、物体検出、視覚的な分析に使うAIツールです。'
+-
+  slug: 'synthetic-data'
+  name: '合成データ'
+  description: '機械学習モデルの学習とテストに使う合成データセットを生成するAIツールです。'
+-
+  slug: 'ar-vr'
+  name: 'AR/VR'
+  description: '拡張現実と仮想現実の体験を作るAIツールです。'
+-
+  slug: 'accessibility'
+  name: 'アクセシビリティ'
+  description: '支援技術に使い、コンテンツを誰でも利用できるようにするAIツールです。'
+-
+  slug: 'construction'
+  name: '建設'
+  description: '建設プロジェクトの管理、計画、現場のモニタリングに使うAIツールです。'
+-
+  slug: 'manufacturing'
+  name: '製造'
+  description: '工業生産、品質管理、工場の自動化に使うAIツールです。'
+-
+  slug: 'energy'
+  name: 'エネルギー'
+  description: 'エネルギー管理、送電網の最適化、持続可能性の追跡に使うAIツールです。'
+-
+  slug: 'drug-discovery'
+  name: '創薬'
+  description: '医薬品の研究、分子設計、臨床試験に使うAIツールです。'
+-
+  slug: 'tax-accounting'
+  name: '税務・会計'
+  description: '税務申告の準備、簿記、財務記録の管理に使うAIツールです。'
+-
+  slug: 'insurance'
+  name: '保険'
+  description: '引受審査、保険金請求の処理、保険のリスク評価に使うAIツールです。'
+-
+  slug: 'events'
+  name: 'イベント'
+  description: 'イベントの計画、運営、参加者とのやりとりに使うAIツールです。'
+-
+  slug: 'sports-analytics'
+  name: 'スポーツ分析'
+  description: 'スポーツのパフォーマンス分析、コーチングに使う分析、選手のトラッキングに使うAIツールです。'
+-
+  slug: 'content-moderation'
+  name: 'コンテンツモデレーション'
+  description: '信頼と安全、有害なコンテンツの検知、ポリシーの適用に使うAIツールです。'
+-
+  slug: 'chatbot-builders'
+  name: 'チャットボット作成'
+  description: 'AIチャットボットを作り、デプロイし、管理するプラットフォームとツールです。'
+-
+  slug: 'localization'
+  name: 'ローカライズ'
+  description: 'ソフトウェア、アプリ、コンテンツを世界の市場向けにローカライズするAIツールです。'
+-
+  slug: 'mind-mapping'
+  name: 'マインドマップ'
+  description: 'ブレインストーミング、アイデアの図解、視覚的な思考に使うAIツールです。'
+-
+  slug: 'medical-imaging'
+  name: '医用画像'
+  description: '放射線、病理、診断用の医用画像の分析に使うAIツールです。'
+-
+  slug: 'patent-tools'
+  name: '特許'
+  description: '特許の調査、先行技術の検索、特許出願の下書きに使うAIツールです。'
+-
+  slug: 'recruiting'
+  name: '採用'
+  description: '人材の獲得、候補者の選考、採用のワークフローに使うAIツールです。'
+-
+  slug: 'telemedicine'
+  name: '遠隔医療'
+  description: '遠隔の診療、患者のモニタリング、デジタルヘルスに使うAIツールです。'
+-
+  slug: 'fleet-management'
+  name: 'フリート管理'
+  description: '車両の追跡、経路の最適化、物流の運営に使うAIツールです。'
+-
+  slug: 'privacy'
+  name: 'プライバシー'
+  description: 'データのプライバシー、匿名化、個人情報の保護に使うAIツールです。'
+-
+  slug: 'robotics'
+  name: 'ロボティクス'
+  description: 'ロボットの設計、シミュレーション、自律システムに使うAIツールです。'
+-
+  slug: 'web3'
+  name: 'Web3'
+  description: 'ブロックチェーン、DeFi、NFT、分散型アプリに使うAIツールです。'
+-
+  slug: 'biotech'
+  name: 'バイオテック'
+  description: 'ゲノミクス、プロテオミクス、生命科学の研究に使うAIツールです。'
+-
+  slug: 'geospatial'
+  name: '地理空間'
+  description: 'GIS、衛星画像の分析、位置情報の分析に使うAIツールです。'
+-
+  slug: 'architecture'
+  name: '建築'
+  description: '建築デザイン、建物の計画、空間の可視化に使うAIツールです。'
+-
+  slug: 'nutrition'
+  name: '栄養'
+  description: '食事の計画、食事内容の記録、栄養の分析に使うAIツールです。'
+-
+  slug: 'parenting'
+  name: '子育て'
+  description: '子どもの発達、子育ての案内、家族の段取りに使うAIツールです。'
+-
+  slug: 'pets'
+  name: 'ペット'
+  description: 'ペットの世話、健康のモニタリング、獣医療の案内に使うAIツールです。'
+-
+  slug: 'fintech'
+  name: 'FinTech'
+  description: '決済、銀行、融資、金融サービスの新しい取り組みに使うAIツールです。'
+-
+  slug: 'cleantech'
+  name: 'CleanTech'
+  description: 'クリーンエネルギー、炭素の削減、環境面の持続可能性に使うAIツールです。'
+-
+  slug: 'reading'
+  name: '読書'
+  description: '本の要約、速読、読解に使うAIツールです。'
+-
+  slug: 'storytelling'
+  name: '物語'
+  description: '物語の執筆、インタラクティブフィクション、世界観作りに使うAIツールです。'
+-
+  slug: 'dubbing'
+  name: '吹き替え'
+  description: '動画の吹き替え、リップシンク、多言語の音声差し替えに使うAIツールです。'
+-
+  slug: 'identity'
+  name: '本人確認'
+  description: '本人確認、生体認証、認証に使うAIツールです。'
+-
+  slug: 'wellness'
+  name: 'ウェルネス'
+  description: 'マインドフルネス、睡眠の記録、瞑想、全体としての健康に使うAIツールです。'
+-
+  slug: 'dating'
+  name: '出会い'
+  description: '出会いのプロフィールの最適化、マッチング、交際のコーチングに使うAIツールです。'
+-
+  slug: 'nonprofit'
+  name: '非営利'
+  description: '非営利団体、資金調達、社会的な影響向けに作られたAIツールです。'
+-
+  slug: 'debugging'
+  name: 'デバッグ'
+  description: 'ソフトウェアのバグとエラーを見つけ、原因を切り分け、直すAIツールです。'
+-
+  slug: 'api-tools'
+  name: 'API'
+  description: 'APIの設計、テスト、ドキュメント作成、管理に使うAIツールです。'
+-
+  slug: 'database-tools'
+  name: 'データベース'
+  description: 'データベースの設計、クエリ、最適化、管理に使うAIツールです。'
+-
+  slug: 'cloud-management'
+  name: 'クラウド管理'
+  description: 'クラウドインフラの最適化、費用の管理、運用に使うAIツールです。'
+-
+  slug: 'iot'
+  name: 'IoT'
+  description: 'モノのインターネット（IoT）の機器管理と、エッジでの分析に使うAIツールです。'
+-
+  slug: '3d-printing'
+  name: '3Dプリント'
+  description: 'ジェネレーティブデザイン、モデルの準備、積層造形に使うAIツールです。'
+-
+  slug: 'space-tech'
+  name: '宇宙技術'
+  description: '航空宇宙工学、衛星の運用、宇宙探査に使うAIツールです。'
+-
+  slug: 'sentiment-analysis'
+  name: '感情分析'
+  description: 'テキストと音声に含まれる意見、感情、センチメントを分析するAIツールです。'
+-
+  slug: 'documentation'
+  name: '技術文書'
+  description: '技術ドキュメントを書き、保守し、生成するAIツールです。'
+-
+  slug: 'observability'
+  name: 'オブザーバビリティ'
+  description: 'ログ、トレーシング、監視、アプリケーションの性能の把握に使うAIツールです。'
+-
+  slug: 'software-testing'
+  name: 'ソフトウェアテスト'
+  description: '自動テスト、テストの生成、品質保証のワークフローに使うAIツールです。'
+-
+  slug: 'character-design'
+  name: 'キャラクターデザイン'
+  description: 'キャラクター、アバター、デジタルなペルソナをデザインするAIツールです。'
+-
+  slug: 'ai-newsletters'
+  name: 'AIニュースレター'
+  description: '新しいツール、モデルの公開、業界で実際に動いていることを扱う、フォローする価値のあるAIニュースレターです。'
+-
+  slug: 'others'
+  name: 'その他'
+  description: 'そのほかのツールとリソースです。'

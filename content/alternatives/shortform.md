@@ -1,0 +1,3 @@
+---
+title: 'Shortform Alternatives'
+---

@@ -1,10 +1,11 @@
 {{ $siteURL := .Site.BaseURL | strings.TrimRight "/" }}
+{{ $langURL := "/" | absLangURL | strings.TrimRight "/" }}
 
 {{/* ── WebSite + Organization (home only) ── */}}
 {{ if .IsHome }}
 {{ $orgSchema := dict "@context" "https://schema.org" "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL "logo" (printf "%s/img/favicon/web-app-manifest-512x512.png" $siteURL) "description" .Site.Params.description "sameAs" (slice "https://github.com/best-of-ai") }}
 <script type="application/ld+json">{{ $orgSchema | jsonify | safeJS }}</script>
-{{ $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" "Best of AI" "url" .Site.BaseURL "description" .Site.Params.description "publisher" (dict "@type" "Organization" "name" "Best of AI") }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" "Best of AI" "url" .Site.Home.Permalink "description" .Site.Params.description "publisher" (dict "@type" "Organization" "name" "Best of AI") }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
 {{/* ── SoftwareApplication (tool pages) ── */}}
@@ -70,9 +71,12 @@
 {{ if not .Lastmod.IsZero }}{{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
-{{/* ── Organization (company pages) ── */}}
+{{/* ── Organization + ItemList + FAQPage (company pages) ── */}}
 {{ else if and .IsPage (eq .Section "companies") }}
 {{ $p := .Params }}
+{{ $coSlug := or $p.slug .File.BaseFileName }}
+{{ $coTools := sort (where (where .Site.RegularPages "Section" "tools") "Params.company" $coSlug) "Params.rank" "desc" }}
+{{ $coModels := sort (where (where .Site.RegularPages "Section" "models") "Params.company" $coSlug) "Params.rank" "desc" }}
 {{ $schema := dict
   "@context" "https://schema.org"
   "@type" "Organization"
@@ -80,16 +84,39 @@
   "name" ($p.name | default "")
   "description" ($p.description | default "")
   "url" ($p.website | default "")
+  "mainEntityOfPage" .Permalink
 }}
+{{ if $p.subtitle }}{{ $schema = merge $schema (dict "slogan" $p.subtitle) }}{{ end }}
 {{ if $p.logo_url }}{{ $schema = merge $schema (dict "logo" $p.logo_url) }}{{ end }}
-{{ if $p.founded }}{{ $schema = merge $schema (dict "foundingDate" $p.founded) }}{{ end }}
-{{ if $p.headquarters }}{{ $schema = merge $schema (dict "address" (dict "@type" "PostalAddress" "addressLocality" $p.headquarters)) }}{{ end }}
+{{ if $p.founded }}{{ $schema = merge $schema (dict "foundingDate" (printf "%v" $p.founded)) }}{{ end }}
+{{ if $p.headquarters }}{{ $schema = merge $schema (dict "location" (dict "@type" "Place" "name" $p.headquarters) "address" (dict "@type" "PostalAddress" "addressLocality" $p.headquarters)) }}{{ end }}
 {{ if $p.founders }}
   {{ $founderList := slice }}
   {{ range $p.founders }}{{ $founderList = $founderList | append (dict "@type" "Person" "name" .) }}{{ end }}
   {{ $schema = merge $schema (dict "founder" $founderList) }}
 {{ end }}
+{{ $coTopics := slice }}
+{{ range $coTools }}{{ with .Params.category_name }}{{ $coTopics = $coTopics | append . }}{{ end }}{{ end }}
+{{ $coTopics = first 10 (uniq $coTopics) }}
+{{ if $coTopics }}{{ $schema = merge $schema (dict "knowsAbout" $coTopics) }}{{ end }}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+
+{{ $coItems := slice }}
+{{ range $i, $t := first 20 (union $coModels $coTools) }}
+  {{ $coItems = $coItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
+{{ end }}
+{{ if $coItems }}
+  {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (i18n "jl_co_list" (dict "name" $p.name)) "numberOfItems" (add (len $coTools) (len $coModels)) "itemListElement" $coItems }}
+  <script type="application/ld+json">{{ $listSchema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ $coFaq := partial "company-faq.html" . }}
+{{ if $coFaq }}
+  {{ $coFaqItems := slice }}
+  {{ range $coFaq }}{{ $coFaqItems = $coFaqItems | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+  {{ $coFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $coFaqItems }}
+  <script type="application/ld+json">{{ $coFaqSchema | jsonify | safeJS }}</script>
+{{ end }}
 
 {{/* ── SoftwareApplication (model pages) ── */}}
 {{ else if and .IsPage (eq .Section "models") }}
@@ -134,12 +161,12 @@
 {{ $allTools := where .Site.RegularPages "Section" "tools" }}
 {{ $allProfs := where .Site.RegularPages "Section" "professionals" }}
 {{ $about := slice }}
-{{ $keywords := slice ($p.title | default .Title) "The AI Journal" }}
+{{ $keywords := slice ($p.title | default .Title) (i18n "the_ai_journal") }}
 {{ range $p.related_categories }}
   {{ $catSlug := . }}
-  {{ range hugo.Data.categories }}
+  {{ range (partialCached "data-lang.html" "categories" "categories" site.Language.Lang) }}
     {{ if eq .slug $catSlug }}
-      {{ $about = $about | append (dict "@type" "Thing" "name" .name "url" (printf "%scategories/%s/" $siteURL .slug)) }}
+      {{ $about = $about | append (dict "@type" "Thing" "name" .name "url" (printf "%s/categories/%s/" $langURL .slug)) }}
       {{ $keywords = $keywords | append .name }}
     {{ end }}
   {{ end }}
@@ -168,9 +195,9 @@
   "headline" ($p.title | default .Title)
   "description" ($p.subtitle | default "")
   "url" .Permalink
-  "articleSection" "The AI Journal"
-  "inLanguage" "en-US"
-  "isPartOf" (dict "@type" "Blog" "name" "The AI Journal" "url" (printf "%sjournal/" $siteURL))
+  "articleSection" (i18n "the_ai_journal")
+  "inLanguage" (i18n "in_language")
+  "isPartOf" (dict "@type" "Blog" "name" (i18n "the_ai_journal") "url" (printf "%s/journal/" $langURL))
   "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL "logo" (dict "@type" "ImageObject" "url" (printf "%s/img/favicon/web-app-manifest-512x512.png" $siteURL)))
   "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
   "keywords" (delimit ($keywords | uniq) ", ")
@@ -196,8 +223,8 @@
   "headline" ($p.title | default .Title)
   "description" ($p.subtitle | default "")
   "url" .Permalink
-  "inLanguage" "en-US"
-  "isPartOf" (dict "@type" "CollectionPage" "name" "Help Center" "url" (printf "%s/help/" $siteURL))
+  "inLanguage" (i18n "in_language")
+  "isPartOf" (dict "@type" "CollectionPage" "name" (i18n "help_center") "url" (printf "%s/help/" $langURL))
   "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL "logo" (dict "@type" "ImageObject" "url" (printf "%s/img/favicon/web-app-manifest-512x512.png" $siteURL)))
   "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
 }}
@@ -215,11 +242,11 @@
 {{ $collectionSchema := dict
   "@context" "https://schema.org"
   "@type" "CollectionPage"
-  "name" "Help Center"
-  "description" (.Params.description | default "How Best of AI works.")
+  "name" (i18n "help_center")
+  "description" (.Params.description | default (i18n "jl_help_desc"))
   "url" .Permalink
   "numberOfItems" (len $helpPages)
-  "mainEntity" (dict "@type" "ItemList" "name" "Help Center" "numberOfItems" (len $helpPages) "itemListElement" $listItems)
+  "mainEntity" (dict "@type" "ItemList" "name" (i18n "help_center") "numberOfItems" (len $helpPages) "itemListElement" $listItems)
 }}
 <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}
@@ -230,11 +257,11 @@
 {{ $blogSchema := dict
   "@context" "https://schema.org"
   "@type" "Blog"
-  "name" "The AI Journal"
-  "description" (.Params.description | default "Essays, guides, and notes on AI tools from Best of AI.")
+  "name" (i18n "the_ai_journal")
+  "description" (.Params.description | default (i18n "jl_journal_desc"))
   "url" .Permalink
   "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL)
-  "inLanguage" "en-US"
+  "inLanguage" (i18n "in_language")
 }}
 <script type="application/ld+json">{{ $blogSchema | jsonify | safeJS }}</script>
 {{ if $posts }}
@@ -245,11 +272,11 @@
 {{ $collectionSchema := dict
   "@context" "https://schema.org"
   "@type" "CollectionPage"
-  "name" "The AI Journal"
-  "description" (.Params.description | default "Essays, guides, and notes on AI tools from Best of AI.")
+  "name" (i18n "the_ai_journal")
+  "description" (.Params.description | default (i18n "jl_journal_desc"))
   "url" .Permalink
   "numberOfItems" (len $posts)
-  "mainEntity" (dict "@type" "ItemList" "name" "The AI Journal" "numberOfItems" (len $posts) "itemListElement" $listItems)
+  "mainEntity" (dict "@type" "ItemList" "name" (i18n "the_ai_journal") "numberOfItems" (len $posts) "itemListElement" $listItems)
 }}
 <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}
@@ -257,50 +284,64 @@
 
 {{/* ── BreadcrumbList (all non-home) ── */}}
 {{ if not .IsHome }}
-{{ $home  := dict "@type" "ListItem" "position" 1 "name" "Home" "item" (printf "%s/" $siteURL) }}
+{{ $home  := dict "@type" "ListItem" "position" 1 "name" (i18n "home") "item" (printf "%s/" $langURL) }}
 {{ $items := slice $home }}
 
-{{ if eq .RelPermalink "/free/" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Free AI Tools" "item" .Permalink) }}
-{{ else if eq .RelPermalink "/leaderboard/" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "AI Tools Leaderboard" "item" .Permalink) }}
-{{ else if eq .RelPermalink "/new/" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Recently Added AI Tools" "item" .Permalink) }}
+{{ if eq (partial "page-path.html" .) "/free/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "bc_free_ai_tools") "item" .Permalink) }}
+{{ else if eq (partial "page-path.html" .) "/leaderboard/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "ai_tools_leaderboard") "item" .Permalink) }}
+{{ else if eq (partial "page-path.html" .) "/leaderboard/archive/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "ai_tools_leaderboard") "item" (printf "%s/leaderboard/" $langURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (i18n "archive") "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "leaderboard") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "ai_tools_leaderboard") "item" (printf "%s/leaderboard/" $langURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (i18n "archive") "item" (printf "%s/leaderboard/archive/" $langURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 4 "name" .Params.period "item" .Permalink) }}
+{{ else if eq (partial "page-path.html" .) "/new/" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "bc_recently_added") "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "tools") }}
   {{ if .Params.category_name }}
-    {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Params.category_name "item" (printf "%s/categories/%s/" $siteURL .Params.category)) }}
+    {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Params.category_name "item" (printf "%s/categories/%s/" $langURL .Params.category)) }}
   {{ end }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" (len $items | add 1) "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "categories") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Categories" "item" (printf "%s/categories/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "categories_2") "item" (printf "%s/categories/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "professionals") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "AI by Profession" "item" (printf "%s/professionals/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "ai_by_profession") "item" (printf "%s/professionals/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "companies") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Companies" "item" (printf "%s/companies/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "companies") "item" (printf "%s/companies/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if eq .Section "company-pages" }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "companies") "item" (printf "%s/companies/" $langURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" (printf "%s/companies/%s/" $langURL .Params.company)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 4 "name" (i18n (printf "kind_%s" (.Params.list_kind | default "tools"))) "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "hardware") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Hardware" "item" (printf "%s/hardware/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "hardware") "item" (printf "%s/hardware/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "model-categories") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "models") "item" (printf "%s/models/" $langURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
+{{ else if and .IsPage (eq .Section "skill-categories") }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "skills") "item" (printf "%s/skills/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "models") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Models" "item" (printf "%s/models/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "models") "item" (printf "%s/models/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Params.name "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "journal") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "The AI Journal" "item" (printf "%s/journal/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "the_ai_journal") "item" (printf "%s/journal/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
 {{ else if and .IsPage (eq .Section "help") }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Help Center" "item" (printf "%s/help/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "help_center") "item" (printf "%s/help/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" (.Params.title | default .Title) "item" .Permalink) }}
 {{ else if eq .Kind "section" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (.Title | default "Categories") "item" .Permalink) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (.Title | default (i18n "categories_2")) "item" .Permalink) }}
 {{ else if eq .Kind "taxonomy" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Tags" "item" .Permalink) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "tags") "item" .Permalink) }}
 {{ else if eq .Kind "term" }}
-  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" "Tags" "item" (printf "%s/tags/" $siteURL)) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (i18n "tags") "item" (printf "%s/tags/" $langURL)) }}
   {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) }}
 {{ end }}
 
@@ -309,31 +350,28 @@
 
 {{/* ── CollectionPage + ItemList (category, profession, tag term pages) ── */}}
 {{ if and .IsPage (eq .Section "professionals") }}
-  {{ $profCats     := .Params.categories }}
-  {{ $allTools     := where .Site.RegularPages "Section" "tools" }}
-  {{ $profTools    := slice }}
-  {{ $profTotalCt  := 0 }}
-  {{ range $profCats }}
-    {{ $c     := . }}
-    {{ $cList := where $allTools "Params.category" $c }}
-    {{ $profTotalCt = add $profTotalCt (len $cList) }}
-    {{ range $cList | first 5 }}
-      {{ $profTools = $profTools | append . }}
+  {{ $profPicks := partialCached "prof-picks.html" . .RelPermalink }}
+  {{ $profTools := $profPicks.all }}
+  {{ if not $profTools }}
+    {{ $allTools := where .Site.RegularPages "Section" "tools" }}
+    {{ range .Params.categories }}
+      {{ $profTools = $profTools | append (first 5 (where $allTools "Params.category" .)) }}
     {{ end }}
   {{ end }}
   {{ if $profTools }}
   {{ $listItems := slice }}
-  {{ range $i, $t := $profTools | first 20 }}
+  {{ range $i, $t := $profTools | first 30 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
   {{ end }}
+  {{ $listCount := len $listItems }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" (printf "Best AI Tools for %s" $.Params.name)
-    "description" (or $.Params.description (printf "The best AI tools for %s, handpicked and curated." $.Params.name))
+    "name" (i18n "best_ai_tools_for" (dict "name" $.Params.name))
+    "description" (or $.Params.description (i18n "jl_prof_desc" (dict "name" $.Params.name)))
     "url" $.Permalink
-    "numberOfItems" $profTotalCt
-    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI Tools for %s" $.Params.name) "numberOfItems" $profTotalCt "itemListElement" $listItems)
+    "about" (dict "@type" "Occupation" "name" $.Params.name)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "best_ai_tools_for" (dict "name" $.Params.name)) "itemListOrder" "https://schema.org/ItemListOrderAscending" "numberOfItems" $listCount "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
   {{ end }}
@@ -347,11 +385,11 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" (printf "Best AI %s Tools" .Params.name)
-    "description" (or .Params.description (printf "The best AI %s tools, handpicked and curated." .Params.name))
+    "name" (i18n "best_ai_cat_tools" (dict "name" .Params.name))
+    "description" (or .Params.description (i18n "jl_cat_desc" (dict "name" .Params.name)))
     "url" .Permalink
     "numberOfItems" $count
-    "mainEntity" (dict "@type" "ItemList" "name" (printf "Best AI %s Tools" .Params.name) "numberOfItems" $count "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "best_ai_cat_tools" (dict "name" .Params.name)) "numberOfItems" $count "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if and .IsPage (eq .Section "model-categories") }}
@@ -365,8 +403,8 @@
     {{ $mcModels = union $mcPrimary $mcExtra }}
   {{ end }}
   {{ $mcCount    := len $mcModels }}
-  {{ $mcName     := printf "Best %s AI Models" .Params.name }}
-  {{ if eq .Params.filter_field "runs_at_home" }}{{ $mcName = "AI Models That Run at Home" }}{{ end }}
+  {{ $mcName     := i18n "jl_best_models" (dict "name" .Params.name) }}
+  {{ if eq .Params.filter_field "runs_at_home" }}{{ $mcName = i18n "jl_runs_home" }}{{ end }}
   {{ $listItems := slice }}
   {{ range $i, $m := $mcModels | first 20 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $m.Params.name "url" $m.Permalink) }}
@@ -375,10 +413,27 @@
     "@context" "https://schema.org"
     "@type" "CollectionPage"
     "name" $mcName
-    "description" (or .Params.description (printf "%s, handpicked and curated." $mcName))
+    "description" (or .Params.description (i18n "jl_handpicked" (dict "name" $mcName)))
     "url" .Permalink
     "numberOfItems" $mcCount
     "mainEntity" (dict "@type" "ItemList" "name" $mcName "numberOfItems" $mcCount "itemListElement" $listItems)
+  }}
+  <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+{{ else if and .IsPage (eq .Section "skill-categories") }}
+  {{ $scSkills := sort (where (where .Site.RegularPages "Section" "skills") "Params.skill_type" .Params.filter_value) "Params.stars" "desc" }}
+  {{ $scName   := i18n "jl_best_skills" (dict "name" .Params.name) }}
+  {{ $listItems := slice }}
+  {{ range $i, $s := $scSkills | first 20 }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $s.Params.name "url" $s.Permalink) }}
+  {{ end }}
+  {{ $collectionSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" $scName
+    "description" (or .Params.description (i18n "jl_ranked_stars" (dict "name" $scName)))
+    "url" .Permalink
+    "numberOfItems" (len $scSkills)
+    "mainEntity" (dict "@type" "ItemList" "name" $scName "numberOfItems" (len $scSkills) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if eq .Kind "term" }}
@@ -386,22 +441,23 @@
   {{ range $i, $t := (.Pages | first 20) }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
   {{ end }}
-  {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (printf "AI Tools tagged %s" .Title) "itemListElement" $listItems }}
+  {{ $listSchema := dict "@context" "https://schema.org" "@type" "ItemList" "name" (i18n "jl_tools_tagged" (dict "tag" .Title)) "itemListElement" $listItems }}
   <script type="application/ld+json">{{ $listSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "companies") }}
-  {{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+  {{ $allCompanies := sort (where .Site.RegularPages "Section" "companies") "Params.rank" "desc" }}
   {{ $listItems := slice }}
-  {{ range $i, $c := $allCompanies | first 20 }}
+  {{ range $i, $c := $allCompanies | first 50 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.Params.name "url" $c.Permalink) }}
   {{ end }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Top AI Companies in the World"
-    "description" "The top AI companies and labs in the world, ranked by tools featured on Best of AI."
+    "name" (i18n "jl_top_companies")
+    "description" (i18n "jl_companies_desc" (dict "n" (len $allCompanies)))
     "url" .Permalink
-    "numberOfItems" (len $allCompanies)
-    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Companies in the World" "numberOfItems" (len $allCompanies) "itemListElement" $listItems)
+    "inLanguage" .Language.Lang
+    "isPartOf" (dict "@type" "WebSite" "name" "Best of AI" "url" (printf "%s/" $langURL))
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "jl_top_companies") "numberOfItems" (len $allCompanies) "itemListOrder" "https://schema.org/ItemListOrderDescending" "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "hardware") }}
@@ -414,11 +470,11 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Top AI Hardware & GPUs"
-    "description" "GPUs and AI accelerators, with full specs, from the companies building them."
+    "name" (i18n "jl_top_hardware")
+    "description" (i18n "gpus_and_ai_accelerators_with_full")
     "url" .Permalink
     "numberOfItems" (len $allHw)
-    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Hardware & GPUs" "numberOfItems" (len $allHw) "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "jl_top_hardware") "numberOfItems" (len $allHw) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "models") }}
@@ -431,32 +487,32 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Top AI Models & LLMs"
-    "description" "Foundation models and LLMs, with specs and benchmarks, from the labs building them."
+    "name" (i18n "jl_top_models")
+    "description" (i18n "foundation_models_and_llms_with_specs")
     "url" .Permalink
     "numberOfItems" (len $allModelsSec)
-    "mainEntity" (dict "@type" "ItemList" "name" "Top AI Models & LLMs" "numberOfItems" (len $allModelsSec) "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "jl_top_models") "numberOfItems" (len $allModelsSec) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ else if and (eq .Kind "section") (eq .Section "model-categories") }}
   {{ $listItems := slice }}
-  {{ range $i, $cat := sort hugo.Data.model_categories "sort_order" }}
-    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $cat.name "url" (printf "%s/models/category/%s/" $siteURL $cat.slug)) }}
+  {{ range $i, $cat := sort (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang) "sort_order" }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $cat.name "url" (printf "%s/models/category/%s/" $langURL $cat.slug)) }}
   {{ end }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "AI Model Categories"
-    "description" "Browse AI models and LLMs by category — reasoning, code, image generation, and more."
+    "name" (i18n "seo_modelcats_name")
+    "description" (i18n "jl_modelcats_desc")
     "url" .Permalink
-    "numberOfItems" (len hugo.Data.model_categories)
-    "mainEntity" (dict "@type" "ItemList" "name" "AI Model Categories" "numberOfItems" (len hugo.Data.model_categories) "itemListElement" $listItems)
+    "numberOfItems" (len (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang))
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "seo_modelcats_name") "numberOfItems" (len (partialCached "data-lang.html" "model_categories" "model_categories" site.Language.Lang)) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}
 
 {{/* ── CollectionPage + FAQPage (/free/) ── */}}
-{{ if eq .RelPermalink "/free/" }}
+{{ if eq (partial "page-path.html" .) "/free/" }}
   {{ $allTools   := where .Site.RegularPages "Section" "tools" }}
   {{ $freeTools  := union (where $allTools "Params.price" "Free") (where $allTools "Params.price" "Freemium") }}
   {{ $freeCount  := len $freeTools }}
@@ -467,19 +523,19 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Top Free AI Tools"
-    "description" (printf "%d free and freemium AI tools, handpicked across writing, coding, image generation, and more. No credit card required." $freeCount)
+    "name" (i18n "jl_top_free")
+    "description" (i18n "seo_free_desc" (dict "n" $freeCount))
     "url" .Permalink
     "numberOfItems" $freeCount
-    "mainEntity" (dict "@type" "ItemList" "name" "Top Free AI Tools" "numberOfItems" $freeCount "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "jl_top_free") "numberOfItems" $freeCount "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
   {{ $faqs := slice
-    (dict "question" "What is the difference between free and freemium AI tools?" "answer" "Free tools cost nothing. Freemium tools have a free tier with limited usage or features; paid plans unlock more.")
-    (dict "question" "Are these AI tools actually free to use?" "answer" "Yes. Every tool listed here is either fully free or has a free tier you can use without a credit card.")
-    (dict "question" "Which free AI tools are best for writing?" "answer" "ChatGPT, Claude, and Gemini all have solid free tiers for writing. Browse the Writing Assistants category on Best of AI for the full list.")
-    (dict "question" "Are there free AI tools for image generation?" "answer" "Yes. Several tools including Adobe Firefly offer free image generation. See the Image Generation category on Best of AI.")
-    (dict "question" "How many free AI tools are listed here?" "answer" (printf "Best of AI currently lists %d free and freemium AI tools across all categories." $freeCount))
+    (dict "question" (i18n "what_is_the_difference_between_free") "answer" (i18n "free_tools_cost_nothing_freemium_tools"))
+    (dict "question" (i18n "are_these_ai_tools_actually_free") "answer" (i18n "yes_every_tool_listed_here_is"))
+    (dict "question" (i18n "which_free_ai_tools_are_best") "answer" (i18n "faq_free_writing_plain"))
+    (dict "question" (i18n "are_there_free_ai_tools_for") "answer" (i18n "faq_free_image_plain"))
+    (dict "question" (i18n "faq_free_count_q") "answer" (i18n "faq_free_count_a" (dict "n" $freeCount)))
   }}
   {{ $faqItems := slice }}
   {{ range $faqs }}
@@ -490,13 +546,13 @@
 {{ end }}
 
 {{/* ── FAQPage (/submit/) ── */}}
-{{ if eq .RelPermalink "/submit/" }}
+{{ if eq (partial "page-path.html" .) "/submit/" }}
   {{ $submitFaqs := slice
-    (dict "question" "How do I submit my AI tool?" "answer" "Open the submission form at submit.bestofai.io and fill in your tool's name, website, and a short description. It takes about two minutes.")
-    (dict "question" "Is it free to get listed?" "answer" "Yes. There's no fee to submit a tool or to stay listed.")
-    (dict "question" "How long does review take?" "answer" "Most submissions get reviewed within a few days. Once approved, your listing goes live with the next site deploy.")
-    (dict "question" "What happens after my tool is approved?" "answer" "It gets placed on your category page, any profession pages that fit, relevant alternative pages, the homepage's Recently Added section, and our GitHub awesome list. It also becomes eligible for the leaderboard, with a direct-follow backlink to your site throughout.")
-    (dict "question" "Why wasn't my tool approved?" "answer" "Usually because the site didn't load, the AI feature wasn't real, or it didn't fit an existing category. Fix the issue and submit again. There's no limit on resubmissions.")
+    (dict "question" (i18n "how_do_i_submit_my_ai") "answer" (i18n "faq_submit_plain"))
+    (dict "question" (i18n "is_it_free_to_get_listed") "answer" (i18n "yes_theres_no_fee_to_submit"))
+    (dict "question" (i18n "how_long_does_review_take") "answer" (i18n "most_submissions_get_reviewed_within_a"))
+    (dict "question" (i18n "what_happens_after_my_tool_is") "answer" (i18n "it_gets_placed_on_your_category"))
+    (dict "question" (i18n "why_wasnt_my_tool_approved") "answer" (i18n "usually_because_the_site_didnt_load"))
   }}
   {{ $submitFaqItems := slice }}
   {{ range $submitFaqs }}
@@ -506,33 +562,79 @@
   <script type="application/ld+json">{{ $submitFaqSchema | jsonify | safeJS }}</script>
 {{ end }}
 
-{{/* ── CollectionPage (/leaderboard/) ── */}}
-{{ if eq .RelPermalink "/leaderboard/" }}
-  {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
-  {{ $lbCount   := len hugo.Data.leaderboard }}
+{{/* ── CollectionPage + ItemList + FAQPage (/leaderboard/ and monthly snapshots) ── */}}
+{{ $isLbCurrent := eq (partial "page-path.html" .) "/leaderboard/" }}
+{{ $isLbSnapshot := and .IsPage (eq .Section "leaderboard") }}
+{{ if or $isLbCurrent $isLbSnapshot }}
+  {{ $lbEntries := hugo.Data.leaderboard }}
+  {{ $lbKey := "" }}
+  {{ $lbName := i18n "jl_lb_name" }}
+  {{ if $isLbSnapshot }}
+    {{ $lbKey = .Params.data_key }}
+    {{ $lbEntries = index (index hugo.Data "archive") $lbKey }}
+    {{ $lbName = i18n "jl_lb_name_period" (dict "period" .Params.period) }}
+  {{ end }}
+  {{ $lb := partialCached "leaderboard-data.html" (dict "entries" $lbEntries "key" $lbKey "ctx" .) (printf "%s-%s" (or $lbKey "current") .Language.Lang) }}
   {{ $listItems := slice }}
-  {{ range $i, $entry := hugo.Data.leaderboard | first 20 }}
-    {{ $page := index (where $allTools "Params.slug" $entry.slug) 0 }}
-    {{ if $page }}
-      {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $page.Params.name "url" $page.Permalink) }}
-    {{ end }}
+  {{ range $lb.rows }}
+    {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" .entry.rank "name" .page.Params.name "url" .page.Permalink) }}
   {{ end }}
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Best AI Tools Leaderboard"
-    "description" (printf "The top %d best AI tools, ranked by real-world usefulness and impact." $lbCount)
+    "name" $lbName
+    "description" (i18n "jl_lb_desc" (dict "n" (len $lb.rows) "period" .Params.period))
     "url" .Permalink
-    "numberOfItems" $lbCount
-    "mainEntity" (dict "@type" "ItemList" "name" "Best AI Tools Leaderboard" "numberOfItems" $lbCount "itemListElement" $listItems)
+    "inLanguage" .Language.Lang
+    "isPartOf" (dict "@type" "WebSite" "name" "Best of AI" "url" .Site.Home.Permalink)
+    "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL)
+    "numberOfItems" (len $lb.rows)
+    "mainEntity" (dict "@type" "ItemList" "name" $lbName "itemListOrder" "https://schema.org/ItemListOrderAscending" "numberOfItems" (len $lb.rows) "itemListElement" $listItems)
   }}
+  {{ if not .Lastmod.IsZero }}{{ $collectionSchema = merge $collectionSchema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}{{ end }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
+
+  {{ $lbFaq := partial "leaderboard-faq.html" (dict "data" $lb "period" .Params.period "archive" $isLbSnapshot) }}
+  {{ if $lbFaq }}
+    {{ $lbFaqItems := slice }}
+    {{ range $lbFaq }}{{ $lbFaqItems = $lbFaqItems | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+    {{ $lbFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $lbFaqItems }}
+    <script type="application/ld+json">{{ $lbFaqSchema | jsonify | safeJS }}</script>
+  {{ end }}
+{{ end }}
+
+{{/* ── CollectionPage + ItemList + FAQPage (/leaderboard/archive/) ── */}}
+{{ if eq (partial "page-path.html" .) "/leaderboard/archive/" }}
+  {{ $arSnaps := sort (where (where .Site.RegularPages "Section" "leaderboard") "Params.data_key" "!=" nil) "Date" "desc" }}
+  {{ $arItems := slice }}
+  {{ range $i, $sn := $arSnaps }}
+    {{ $arItems = $arItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" (i18n "jl_lb_name_period" (dict "period" $sn.Params.period)) "url" $sn.Permalink) }}
+  {{ end }}
+  {{ $arSchema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" (i18n "jl_lb_archive")
+    "description" (i18n "jl_lb_archive_desc")
+    "url" .Permalink
+    "inLanguage" .Language.Lang
+    "isPartOf" (dict "@type" "WebSite" "name" "Best of AI" "url" .Site.Home.Permalink)
+    "publisher" (dict "@type" "Organization" "name" "Best of AI" "url" .Site.BaseURL)
+    "numberOfItems" (len $arSnaps)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "jl_lb_snapshots") "numberOfItems" (len $arSnaps) "itemListElement" $arItems)
+  }}
+  <script type="application/ld+json">{{ $arSchema | jsonify | safeJS }}</script>
+
+  {{ $arFaq := partial "leaderboard-archive-faq.html" (dict "snaps" $arSnaps) }}
+  {{ $arFaqItems := slice }}
+  {{ range $arFaq }}{{ $arFaqItems = $arFaqItems | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+  {{ $arFaqSchema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $arFaqItems }}
+  <script type="application/ld+json">{{ $arFaqSchema | jsonify | safeJS }}</script>
 {{ end }}
 
 {{/* ── CollectionPage (/new/) ── */}}
-{{ if eq .RelPermalink "/new/" }}
+{{ if eq (partial "page-path.html" .) "/new/" }}
   {{ $allTools  := where .Site.RegularPages "Section" "tools" }}
-  {{ $recent    := first 60 (sort $allTools "Date" "desc") }}
+  {{ $recent    := first 60 (partial "newest-first.html" $allTools) }}
   {{ $listItems := slice }}
   {{ range $i, $t := $recent | first 20 }}
     {{ $listItems = $listItems | append (dict "@type" "ListItem" "position" (add $i 1) "name" $t.Params.name "url" $t.Permalink) }}
@@ -540,11 +642,11 @@
   {{ $collectionSchema := dict
     "@context" "https://schema.org"
     "@type" "CollectionPage"
-    "name" "Recently Added AI Tools"
-    "description" "The latest AI tools added to Best of AI. New releases and tools worth knowing about."
+    "name" (i18n "bc_recently_added")
+    "description" (i18n "jl_new_desc")
     "url" .Permalink
     "numberOfItems" (len $recent)
-    "mainEntity" (dict "@type" "ItemList" "name" "Recently Added AI Tools" "numberOfItems" (len $recent) "itemListElement" $listItems)
+    "mainEntity" (dict "@type" "ItemList" "name" (i18n "bc_recently_added") "numberOfItems" (len $recent) "itemListElement" $listItems)
   }}
   <script type="application/ld+json">{{ $collectionSchema | jsonify | safeJS }}</script>
 {{ end }}

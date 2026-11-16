@@ -12,16 +12,19 @@ categories:
   - transcription
   - productivity
   - data
-featured_tools:
+specific_tools:
+  - pulsara
+  - eso-solutions
+  - imagetrend
+  - everbridge
+  - arcgis
+  - carto
+  - tomorrow-io
+  - windy
+general_tools:
   - chatgpt
-  - asana
+  - claude
   - otter-ai
   - notebooklm
   - adobe-acrobat-ai
-  - arcgis
-  - everbridge
-  - pulsara
-  - assemblyai
-  - clickup
-
 ---

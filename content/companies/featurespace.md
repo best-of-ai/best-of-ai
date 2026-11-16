@@ -11,6 +11,7 @@ headquarters: 'Cambridge, United Kingdom'
 founders:
   - 'David Excell'
   - 'William Yorke-Long'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

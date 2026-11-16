@@ -13,16 +13,24 @@ categories:
   - diagramming
   - code-assistant
   - database-tools
-featured_tools:
+specific_tools:
+  - terraform
+  - cast-ai
+  - spot-io
+  - turbonomic
+  - cloudhealth
+  - datadog
+  - new-relic
+  - grafana
+  - dynatrace
+  - snyk-ai
+  - eraser-io
+general_tools:
   - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - amazon-bedrock
+  - claude-code
+  - amazon-q
   - drawio
-  - n8n
-  - zapier
-  - turbonomic
-  - spot-io
-  - cast-ai
-
 ---

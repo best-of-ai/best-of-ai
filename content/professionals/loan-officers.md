@@ -11,16 +11,26 @@ categories:
   - document-ai
   - compliance
   - customer-support
-featured_tools:
+specific_tools:
   - blend
   - ncino
+  - floify
+  - sales-boomerang
+  - finastra
+  - zest-ai
+  - upstart
+  - persona
+  - jumio
+  - sumsub
+  - plaid
+  - abbyy
+  - docsumo
+  - hyperscience
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
   - chatpdf
-  - alphasense
   - intercom
-  - zendesk
-  - drift
-  - chatbase
-  - forethought-ai
-
+  - docusign-ai
 ---

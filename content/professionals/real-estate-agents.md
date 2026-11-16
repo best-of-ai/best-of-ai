@@ -14,15 +14,22 @@ categories:
   - marketing
   - copywriting
   - local-search-engines
-featured_tools:
-  - chatgpt
+specific_tools:
   - zillow
+  - redfin
+  - compass
   - matterport
   - boxbrownie
+  - virtual-staging-ai
+  - homestyler
+  - pipedrive
   - hubspot-crm
+  - zumper
+  - apollo-leads
+general_tools:
+  - chatgpt
+  - claude
   - canva
   - mailchimp
   - grammarly
-  - pipedrive
-
 ---

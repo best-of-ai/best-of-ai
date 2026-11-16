@@ -12,16 +12,23 @@ categories:
   - data
   - academia
   - geospatial
-featured_tools:
-  - chatgpt
+specific_tools:
+  - google-earth-engine
   - arcgis
+  - qgis
+  - planet-labs
   - tomorrow-io
-  - tableau
+  - climate-trace
+  - kaggle
+  - posit
+  - inaturalist
+  - watershed
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - notebooklm
   - scispace
   - elicit
   - consensus
-  - perplexity-research
-
 ---

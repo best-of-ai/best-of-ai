@@ -1,0 +1,902 @@
+page_not_found: Seite nicht gefunden.
+the_page_youre_looking_for_doesnt: Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.
+back_to_home: Zurück zur Startseite
+an_open_source_directory_free_to: Ein Open-Source-Verzeichnis – kostenlos nutzbar, frei zugängliche Daten und offen für alle.
+tools: Tools
+categories: Kategorien
+open_source: Open Source
+free_forever: Für immer kostenlos
+what_this_is: // Was das ist
+the_data_lives_in_plain_markdown: Die Daten liegen in einfachen Markdown-Dateien – eine Datei pro Tool, gespeichert in einem
+  öffentlichen Repository. Alle können sie lesen, durchsuchen und weiterverwenden.
+open_data_free_to_use: // Offene Daten, frei nutzbar
+each_tool_entry_is_a_markdown: 'Jeder Tool-Eintrag ist eine Markdown-Datei mit einem einheitlichen Frontmatter-Schema: Name,
+  Beschreibung, Website, Kategorie, Preis und Schlagwörter. Wenn du ein Projekt mit einer strukturierten Liste von KI-Tools
+  baust, kannst du diese Daten frei nutzen.'
+most_ai_tool_directories_sit_behind: Die meisten KI-Tool-Verzeichnisse verstecken sich hinter einem Login oder verlangen Geld
+  für den Datenzugriff. Dieses nicht. Wir wollen die passenden Tools für alle zugänglich machen, nicht nur für Menschen, die
+  sich ein Abo leisten können.
+contributing: // Mitwirken
+this_runs_on_pull_requests_if: Das wird bei Pull Requests geprüft. Fehlt ein Tool, stimmt eine Beschreibung nicht oder passt
+  eine Kategorie nicht? Öffne ein Issue oder sende eine Korrektur auf GitHub. Du brauchst niemandes Erlaubnis, um die Daten
+  zu verbessern.
+open_source_2: // Open Source
+contribute: Mitwirken
+the_community_built_this_and_keeps: Die Community hat dieses Projekt aufgebaut und hält es am Laufen. Alle Daten liegen als
+  Markdown-Dateien auf GitHub, ohne Datenbank und ohne Backend. Wenn dir das Verzeichnis geholfen hat, hilf mit, es aktuell
+  zu halten.
+submit_a_tool_model_or_hardware: Tool, Modell oder Hardware einreichen
+know_an_ai_tool_model_or: Kennst du ein KI-Tool, Modell oder ein Stück Hardware, das hier noch fehlt? Füge es über unsere
+  Einreichungsseite hinzu.
+suggest_an_edit: Änderung vorschlagen
+something_off_about_a_listing_fix: Stimmt etwas an einem Eintrag nicht? Korrigiere URL, Beschreibung oder Kategorie, ohne
+  den Eintrag zu entfernen.
+suggest_a_ranking_change: Änderung der Rangliste vorschlagen
+think_a_tool_deserves_a_different: Sollte ein Tool in der Rangliste weiter oben oder unten stehen? Sag uns warum.
+report_a_tool: Tool melden
+dead_link_abandoned_project_something_that: Toter Link? Eingestelltes Projekt? Ein Tool, das hier nicht hingehört? Melde es.
+how_it_works: // So funktioniert es
+correct_a_listing: // Eintrag korrigieren
+wrong_url_description_category_or_pricing: Falsche URL, Beschreibung, Kategorie oder Preise? Sag uns, was nicht stimmt und
+  was korrekt wäre. Beim Absenden wird ein vorausgefülltes GitHub-Issue geöffnet.
+suggest_an_edit_2: Änderung vorschlagen
+you_only_need_a_github_account: Zum Veröffentlichen brauchst du nur ein GitHub-Konto.
+tool_name: Toolname
+name_is_required: Name ist erforderlich.
+tool_url: Tool-URL
+whats_wrong: Was stimmt nicht?
+e_g_the_website_url_changed: z. B. Die Website-URL hat sich geändert, der Preis stimmt nicht oder die Kategorie ist falsch.
+please_describe_whats_wrong: Beschreibe bitte, was nicht stimmt.
+correct_value: Korrekte Angabe
+what_should_it_say_instead: Was sollte stattdessen dort stehen?
+please_provide_the_correct_value: Gib bitte die korrekte Angabe ein.
+what_we_fix: // Was wir korrigieren
+wrong_urls_outdated_descriptions_wrong_categorie: Falsche URLs, veraltete Beschreibungen, falsche Kategorien oder geänderte
+  Preise. Wenn das Tool noch existiert, aber sein Eintrag nicht stimmt, nutze dieses Formular.
+prefer_a_pull_request: // Lieber einen Pull Request?
+reporting_a_dead_tool: // Ein inaktives Tool melden?
+e_g_midjourney: z. B. Midjourney
+describe_whats_incorrect: Beschreibe, was nicht stimmt …
+the_correct_information: Die korrekten Angaben …
+home: Startseite
+free_tools: Kostenlose Tools
+writing_tools_image_generators_coding_helpers: Schreibtools, Bildgeneratoren und Programmierhilfen – viele gute Tools kannst
+  du kostenlos ausprobieren. Hier findest du Tools mit einer kostenlosen Stufe oder einem Gratisplan, der tatsächlich nützlich
+  ist.
+free_freemium: kostenlos und Freemium
+all: alle
+free_2: kostenlos
+freemium: Freemium
+no_tools_found: Keine Tools gefunden.
+common_questions: // Häufige Fragen
+what_is_the_difference_between_free: Was ist der Unterschied zwischen kostenlosen und Freemium-KI-Tools?
+free_tools_cost_nothing_freemium_tools: Kostenlose Tools kosten nichts. Freemium-Tools bieten eine kostenlose Stufe mit begrenzter
+  Nutzung oder Funktionen; kostenpflichtige Tarife schalten mehr frei.
+are_these_ai_tools_actually_free: Sind diese KI-Tools wirklich kostenlos?
+yes_every_tool_listed_here_is: Ja. Jedes aufgeführte Tool ist entweder vollständig kostenlos oder hat eine kostenlose Stufe,
+  die du ohne Kreditkarte nutzen kannst.
+which_free_ai_tools_are_best: Welche kostenlosen KI-Tools eignen sich am besten zum Schreiben?
+are_there_free_ai_tools_for: Gibt es kostenlose KI-Tools zur Bildgenerierung?
+search_tools: Tools suchen …
+search_free_tools: Kostenlose Tools suchen
+help_us_improve: // Hilf uns, besser zu werden
+keep_the_directory_honest: Das Verzeichnis verlässlich halten
+the_leaderboard_is_updated_by_hand: Die Rangliste wird anhand eurer Rückmeldungen von Hand aktualisiert. Fehlt ein Tool, passt
+  sein Rang nicht mehr oder wurde es eingestellt? Wir erfahren es, wenn du uns Bescheid gibst.
+leaderboard: Rangliste
+tell_us_what_should_change_and: Sag uns, was sich ändern sollte und warum. Wir prüfen jede Meldung.
+what_are_you_suggesting: Was möchtest du vorschlagen?
+add_a_tool: Tool hinzufügen
+remove_a_tool: Tool entfernen
+please_pick_an_action: Wähle bitte eine Aktion.
+why: Warum?
+is_it_widely_used_should_it: Wird es häufig genutzt? Sollte es auf der Liste stehen, fehlt aber? Oder steht es an einem Platz,
+  den es nicht mehr verdient?
+please_explain_your_reasoning: Erkläre bitte deine Gründe.
+also: außerdem
+wrong_url_description_category_or_pricing_2: Falsche URL, Beschreibung, Kategorie oder Preis? Korrigiere den Eintrag, ohne
+  ihn zu entfernen.
+leaderboard_criteria: // Kriterien für die Rangliste
+usage_matters_but_the_leaderboard_isnt: Nutzung ist wichtig, aber die Rangliste ist keine reine Beliebtheitsskala. Auch ein
+  gutes Tool mit kleiner Zielgruppe kann dazugehören. Ein virales Tool, das nicht funktioniert, eher nicht. Entscheidend ist,
+  ob es für seine Nutzerinnen und Nutzer hält, was es verspricht.
+what_gets_removed: // Was entfernt wird
+we_remove_tools_that_have_gone: Wir entfernen nicht mehr erreichbare Tools, lange Zeit inaktive Projekte, Produkte, die zwar
+  mit KI beworben wurden, aber nie etwas veröffentlicht haben, sowie Klone ohne echte Nutzerschaft.
+what_happens_next: // Wie es weitergeht
+report_posted: Meldung eingereicht
+your_report_goes_into_the_github: Deine Meldung landet in der GitHub-Issue-Warteschlange. Du kannst sie dort verfolgen und
+  bei Bedarf weitere Angaben ergänzen.
+maintainers_review: Das Maintainer-Team prüft
+reports_are_checked_in_batches_usually: Meldungen werden gesammelt geprüft, meist innerhalb weniger Tage. Wenn weitere Angaben
+  nötig sind, kommentiert das Team im Issue.
+change_goes_live: Änderung wird veröffentlicht
+accepted_changes_go_live_after_the: Angenommene Änderungen werden mit dem nächsten Deployment veröffentlicht. Das Issue wird
+  mit einer Notiz zu den Änderungen geschlossen.
+tell_us_why: Sag uns warum …
+leaderboard_2: Rangliste
+archive: Archiv
+ai_tools_leaderboard: Rangliste der KI-Tools
+past_snapshots_of_the_ai_tools: Frühere Momentaufnahmen der KI-Tool-Rangliste. Jede wird am Monatsende eingefroren, damit
+  du nachvollziehen kannst, wie sich die Platzierungen verändert haben.
+current_leaderboard: Aktuelle Rangliste
+snapshots: Momentaufnahmen
+improve_this_list: Diese Liste verbessern
+monthly_snapshots: // Monatliche Momentaufnahmen
+live: Aktuell
+frozen: Eingefroren
+new: neu
+frozen_snapshot: Eingefrorene Momentaufnahme
+all_archives: alle Archive
+other_monthly_snapshots: Weitere Monatsübersichten
+best_ai_tools: Beste KI-Tools
+browse_the_archive: Archiv durchsuchen
+biggest_climber: größter Aufsteiger
+recently_added: Kürzlich hinzugefügt
+added: Hinzugefügt
+the_newest_tools_added_to_best: Die zuletzt hinzugefügten Tools bei Best of AI, neueste zuerst.
+newest_first: neueste zuerst
+new_ai_tools_added_to_the: 'Neue KI-Tools, die wir ins Verzeichnis aufnehmen: aktuelle Veröffentlichungen und wissenswerte
+  Tools.'
+sorted_by_date_added: nach Hinzufügedatum sortiert
+paid: kostenpflichtig
+no_tools_match_your_search: Keine Tools entsprechen deiner Suche.
+search_recently_added_tools: Kürzlich hinzugefügte Tools suchen
+leaderboard_3: // Rangliste
+the_leaderboard_is_maintained_by_hand: Die Rangliste wird von Hand gepflegt. Sollte ein Tool höher oder niedriger stehen oder
+  ganz entfernt werden? Sag uns warum.
+ranking: Rang
+how_ranking_works: // So funktioniert die Rangliste
+suggestion_posted: Vorschlag eingereicht
+goes_into_the_github_issues_queue: Der Vorschlag landet in der GitHub-Issue-Warteschlange. Du kannst ihn dort verfolgen und
+  weitere Angaben ergänzen.
+checked_in_batches_usually_within_a: Vorschläge werden gesammelt geprüft, meist innerhalb weniger Tage. Wenn weitere Angaben
+  nötig sind, kommentiert das Team im Issue.
+view_the_leaderboard: // Rangliste ansehen
+report_a_problem: // Problem melden
+for_dead_links_abandoned_projects_spam: Für tote Links, aufgegebene Projekte, Spam und Tools, die nie richtig veröffentlicht
+  wurden. Beim Absenden wird ein vorausgefülltes GitHub-Issue geöffnet. Zum Veröffentlichen brauchst du ein GitHub-Konto.
+report_a_tool_2: Tool melden
+pick_a_reason_below_itll_write: Wähle unten einen Grund. Dadurch wird ein erster Text in das Detailfeld eingefügt, den du
+  bearbeiten kannst.
+reason: Grund
+dead_domain_gone: Nicht erreichbar / Domain gelöscht
+abandoned: Aufgegeben
+never_shipped: Nie veröffentlicht
+low_quality: Geringe Qualität
+spam_clone: Spam / Klon
+please_pick_a_reason: Wähle bitte einen Grund.
+details: Details
+please_add_some_details: Füge bitte weitere Angaben hinzu.
+wrong_info_instead: Angaben falsch?
+suggest_an_edit_instead: Stattdessen Änderung vorschlagen
+wrong_url_description_category_or_pricing_3: Falsche URL, Beschreibung, Kategorie oder Preise? Korrigiere den Eintrag, ohne
+  ihn zu entfernen.
+we_remove_tools_that_have_gone_2: Wir entfernen nicht erreichbare Tools, lange inaktive Projekte, Produkte, die zwar mit KI
+  beworben wurden, aber nie etwas veröffentlicht haben, sowie Klone ohne echte Nutzerschaft.
+accepted_removals_go_live_after_the: Angenommene Entfernungen werden mit dem nächsten Deployment umgesetzt. Das Issue wird
+  mit einer Notiz zu den Änderungen geschlossen.
+e_g_sometool_ai: z. B. SomeTool AI
+select_a_reason_above_to_get: Wähle oben einen Grund, um einen ersten Textvorschlag zu erhalten …
+saved_tools: Gespeicherte Tools
+tools_youve_bookmarked_to_revisit_later: Tools, die du gespeichert hast, um später zu ihnen zurückzukehren.
+no_saved_tools_yet: Du hast noch keine Tools gespeichert.
+browse_ai_tools: KI-Tools durchsuchen
+get_listed: // Aufgenommen werden
+submit_your_ai_tool: Dein KI-Tool einreichen
+one_approval_gets_you_listed_everywhere: 'Mit einer Freigabe erscheint dein Tool überall dort, wo Menschen tatsächlich nach
+  KI-Tools suchen: auf der passenden Kategorie- und Berufsseite, auf Vergleichsseiten und an weiteren Stellen.'
+free_reviewed_by_hand_usually_within: Kostenlos. Von Hand geprüft, normalerweise innerhalb weniger Tage.
+tools_listed: gelistete Tools
+professions: Berufe
+where_youll_show_up: // Wo dein Tool erscheint
+everywhere_people_look_for_ai_tools: Überall dort, wo Menschen nach KI-Tools suchen
+a_directory_listing_is_just_the: Ein Verzeichniseintrag ist erst der Anfang. Nach der Freigabe wird dein Tool automatisch
+  auch in anderen Bereichen von Best of AI angezeigt. Du musst nichts weiter tun.
+listed_under_professionals: Bei den Berufsseiten aufgeführt
+shown_on_professionals_where_people_browse: Auf /professionals, wo Menschen Tools nach ihrem Beruf statt nur nach Kategorie
+  durchsuchen.
+on_competitors_alternative_pages: Auf Vergleichsseiten für Alternativen
+most_major_tools_in_your_space: Für die meisten wichtigen Tools in deinem Bereich gibt es bereits eine Alternativenseite.
+  Nach der Aufnahme wird dein Tool dort beim Vergleichen als eine der Optionen angezeigt.
+on_the_homepage_and_your_category: Auf der Startseite und in deiner Kategorie
+new_2: Neu
+new_approvals_show_up_in_recently: Neu freigegebene Tools erscheinen auf der Startseite unter „Kürzlich hinzugefügt“ und bleiben
+  anschließend dauerhaft auf ihrer Kategorieseite.
+in_the_newsletter: Im Newsletter
+approved_tools_get_a_mention_in: Freigegebene Tools werden in unserem Newsletter erwähnt, den mehr als 10.000 Menschen abonniert
+  haben, um von neuen KI-Tools zu erfahren.
+on_our_github_awesome_list: In unserer GitHub-Awesome-Liste
+eligible_for_the_leaderboard: Für die Rangliste zugelassen
+once_youre_listed_your_tool_can: Sobald dein Tool gelistet ist, kann es in der Rangliste aufsteigen und einen der sichtbarsten
+  Plätze der Website erreichen.
+a_real_direct_follow_backlink: Ein echter Do-Follow-Backlink
+every_listing_links_straight_to_your: Jeder Eintrag verlinkt direkt auf deine Website. Kein Nofollow-Link im Fußbereich, sondern
+  ein Do-Follow-Link, den Suchmaschinen tatsächlich berücksichtigen.
+what_gets_approved: // Was freigegeben wird
+we_only_list_tools_that_actually: Wir listen nur Tools, die tatsächlich funktionieren. Die Website muss erreichbar sein, die
+  KI-Funktion muss echt sein und das Tool sollte im Wesentlichen halten, was die Startseite verspricht.
+wrapper_apps_that_call_someone_elses: Wrapper-Apps, die die API eines anderen Anbieters nutzen, sind in Ordnung, solange sie
+  einen sinnvollen Mehrwert bieten. Eine bloße Neugestaltung ohne zusätzliche Funktion reicht nicht.
+if_your_tool_is_still_in: Wenn dein Tool noch in einer geschlossenen Beta oder auf einer Warteliste ist, reiche es trotzdem
+  ein und erwähne das im Formular. Wir listen es, sobald es öffentlich verfügbar ist.
+while_your_tool_is_in_review: Während dein Tool geprüft wird, hilft ein Stern für unser GitHub-Repository anderen zu erkennen,
+  dass diese Liste tatsächlich gepflegt wird.
+not_sure_which_category_fits: // Unsicher, welche Kategorie passt?
+all_categories: Alle Kategorien →
+frequently_asked: // Häufige Fragen
+how_do_i_submit_my_ai: Wie reiche ich mein KI-Tool ein?
+is_it_free_to_get_listed: Ist ein Eintrag kostenlos?
+yes_theres_no_fee_to_submit: Ja. Es kostet nichts, ein Tool einzureichen oder gelistet zu bleiben.
+how_long_does_review_take: Wie lange dauert die Prüfung?
+most_submissions_get_reviewed_within_a: Die meisten Einreichungen werden innerhalb weniger Tage geprüft. Nach der Freigabe
+  erscheint dein Eintrag mit dem nächsten Website-Deployment.
+what_happens_after_my_tool_is: Was passiert, nachdem mein Tool freigegeben wurde?
+it_gets_placed_on_your_category: Es erscheint auf der passenden Kategorieseite, auf relevanten Berufs- und Vergleichsseiten,
+  im Bereich „Kürzlich hinzugefügt“ auf der Startseite und in unserer GitHub-Awesome-Liste. Außerdem kann es in die Rangliste
+  aufgenommen werden und erhält überall einen Do-Follow-Backlink zu deiner Website.
+why_wasnt_my_tool_approved: Warum wurde mein Tool nicht freigegeben?
+usually_because_the_site_didnt_load: Meist war die Website nicht erreichbar, die KI-Funktion nicht echt oder das Tool passte
+  zu keiner bestehenden Kategorie. Behebe das Problem und reiche es erneut ein. Du kannst es beliebig oft erneut versuchen.
+ready_to_get_listed: Möchtest du dein Tool listen lassen?
+submission_takes_about_two_minutes_every: Die Einreichung dauert etwa zwei Minuten. Jedes Tool wird von Hand geprüft, nicht
+  durch ein Skript.
+alternatives: Alternativen
+ai_tool_alternatives: Alternativen zu KI-Tools
+compare_the_best_alternatives_to_popular: Vergleiche die besten Alternativen zu beliebten KI-Tools und finde heraus, was zu
+  deinem Workflow passt.
+comparison_pages: Vergleichsseiten
+handpicked_curated: handverlesen und kuratiert
+alternatives_2: Alternativen
+curated_picks: handverlesene Empfehlungen
+no_alternatives_listed_yet: Noch sind keine Alternativen aufgeführt.
+compare_other_tools: // Andere Tools vergleichen
+categories_2: Kategorien
+ai_tool_categories: Kategorien für KI-Tools
+price: // Preis
+no_tools_in_this_category_yet: In dieser Kategorie gibt es noch keine Tools.
+browse_other_categories: // Andere Kategorien durchsuchen
+companies: Unternehmen
+who_is_building_the_ai_tools: Wer entwickelt die KI-Tools, die du nutzt? Jedes Unternehmen hier hat mindestens ein Produkt
+  im Verzeichnis, dazu Hauptsitz, Gründungsjahr und Links zu allen eigenen Produkten.
+companies_2: Unternehmen
+sort_by: // Sortieren nach
+popularity: Beliebtheit
+founded_year: Gründungsjahr
+type: // Typ
+ai_native: KI-Unternehmen
+established: Etabliert
+no_companies_match_your_search: Keine Unternehmen entsprechen deiner Suche.
+about_this_list: Über diese Liste
+switch_to_founded_year_to_see: Sortiere nach Gründungsjahr, um die ältesten Unternehmen zuerst zu sehen, oder suche nach einer
+  Stadt, um herauszufinden, wer in deiner Nähe KI entwickelt. Öffne ein Unternehmensprofil, um alle Produkte, Gründer und
+  Tools anzusehen.
+search_companies_by_name_or_headquarters: Unternehmen nach Name oder Hauptsitz suchen …
+search_companies: Unternehmen suchen
+sort_companies: Unternehmen sortieren
+filter_by_ai_native: Nach KI-Unternehmen filtern
+built_around_ai_from_day_one: Von Anfang an auf KI ausgerichtet
+tools_2: Tools
+models: Modelle
+chips: Chips
+founded: Gegründet
+headquarters: Hauptsitz
+works_in: // Tätigkeitsbereich
+submit_one: Unternehmen einreichen
+browse_all_ai_companies: Alle KI-Unternehmen durchsuchen →
+breadcrumb: Brotkrumennavigation
+hardware: Hardware
+gpus_and_ai_accelerators_with_full: GPUs und KI-Beschleuniger mit vollständigen technischen Daten von den Unternehmen, die
+  sie entwickeln.
+parts: Bauteile
+manufacturers: Hersteller
+all_manufacturers: alle Hersteller
+manufacturer: Hersteller
+type_2: Typ
+vram: VRAM
+bandwidth: Bandbreite
+tdp: TDP
+released: Veröffentlicht
+popularity_2: Beliebtheit
+architecture: Architektur
+process_node: Fertigungsprozess
+memory_type: Speichertyp
+fp32_tflops: FP32-TFLOPS
+interface: Schnittstelle
+price_2: Preis
+sorted_by_popularity_click_a_column: // Nach Beliebtheit sortiert – klicke auf eine Spalte, um neu zu sortieren
+no_hardware_matches_your_search: Keine Hardware entspricht deiner Suche.
+search_hardware_by_name_or_manufacturer: Hardware nach Name oder Hersteller suchen …
+search_hardware: Hardware suchen
+filter_by_manufacturer: Nach Hersteller filtern
+visit_product_page: Produktseite besuchen →
+specs: // Technische Daten
+release_date: Veröffentlichungsdatum
+process_node_2: Fertigungsprozess
+memory_type_2: Speichertyp
+memory_bus: Speicherbus
+memory_bandwidth: Speicherbandbreite
+cores: Kerne
+tensor_matrix_cores: Tensor-/Matrix-Kerne
+base_clock: Basistakt
+boost_clock: Boost-Takt
+fp32_performance: FP32-Leistung
+product_page: Produktseite
+tags: Schlagwörter
+help_center: Hilfe
+other_help_articles: Weitere Hilfeartikel
+the_best_ai_tools_handpicked_no: Die besten KI-Tools, handverlesen. Ohne Füllmaterial und Rauschen.
+free_paid: kostenlos und kostenpflichtig
+filter: // Filtern
+sponsored: // Gesponsert
+top_100_ai_tools: Top 100 KI-Tools
+recently_added_tools: Kürzlich hinzugefügte Tools
+trending_skills: Beliebte Skills
+new_ai_models: Neue KI-Modelle
+popular_ai_hardware: Beliebte KI-Hardware
+the_ai_journal: Das KI-Journal
+essays_guides_and_notes_on_ai: Essays, Anleitungen und Notizen zu KI-Tools – von den Menschen, die dieses Verzeichnis pflegen.
+related_topics: Verwandte Themen
+model_categories: Modellkategorien
+company: Unternehmen
+parameters: Parameter
+context_window: Kontextfenster
+modality: Modalität
+license: Lizenz
+open_weight: Offene Gewichte
+input_price: Eingabepreis
+output_price: Ausgabepreis
+api_available: API verfügbar
+mmlu: MMLU
+humaneval: HumanEval
+lmarena_elo: LMArena Elo
+access: Zugang
+platforms: Plattformen
+sponsored_2: Gesponsert
+browse: Durchsuchen
+all_tools: Alle Tools
+ai_by_profession: KI nach Beruf
+browse_by_tag: Nach Schlagwort durchsuchen
+saved_tools_2: Gespeicherte Tools
+professions_2: Berufe
+project: Projekt
+about: Über
+submit_a_tool: Tool einreichen
+report_an_issue: Problem melden
+resources: Ressourcen
+top_rated_tools: Am besten bewertete Tools
+built_with_hugo: Erstellt mit Hugo
+hosted_on_github_pages: Gehostet auf GitHub Pages
+footer_navigation: Fußzeilennavigation
+gb_s_bandwidth: GB/s Bandbreite
+process: Fertigungsprozess
+released_2: veröffentlicht
+top_categories: // Top-Kategorien
+top_tags: // Top-Schlagwörter
+all_tags: Alle Schlagwörter →
+skills: Skills
+journal: Journal
+help: Hilfe
+quick_links: // Schnellzugriffe
+search_tools_and_professions: Tools und Berufe suchen …
+toggle_theme: Design umschalten
+open_menu: Menü öffnen
+close_menu: Menü schließen
+quick_links_2: Schnellzugriffe
+all_2: Alle
+no_tools_match_your_filters: Keine Tools entsprechen deinen Filtern.
+clear_filters: Filter zurücksetzen
+places_gained: Plätze hinzugewonnen,
+places_lost: Plätze verloren,
+new_3: NEU
+explore_more: // Mehr entdecken
+free_ai_tools: Kostenlose KI-Tools
+recently_added_2: Kürzlich hinzugefügt
+search_leaderboard: Rangliste durchsuchen
+filter_by_category: Nach Kategorie filtern
+top_3_ai_tools: Top 3 KI-Tools
+browse_more_ai_tools: Weitere KI-Tools durchsuchen
+places_up: Plätze aufgestiegen
+places_down: Plätze gefallen
+new_since_last_month: Seit letztem Monat neu
+no_change_since_last_month: Seit letztem Monat unverändert
+no_change: Keine Änderung
+models_by_usecase: Modelle nach Anwendungsfall
+by_profession: Nach Beruf
+all_professions: Alle Berufe →
+skills_by_category: Skills nach Kategorie
+filter_categories: Kategorien filtern
+context_tokens: Kontext-Tokens
+parameters_2: Parameter
+license_2: Lizenz
+arena_elo: Arena-Elo
+foundation_models_and_llms_with_specs: Basismodelle und LLMs mit technischen Daten und Benchmarks von den Laboren, die sie
+  entwickeln.
+models_2: Modelle
+labs_2: Labore
+runs_at_home: lokal ausführbar
+all_labs: alle Labore
+model: Modell
+lab: Labor
+params: Parameter
+context: Kontext
+open_weight_2: Offene Gewichte
+runs_at_home_2: Lokal ausführbar
+input_m: Eingabe $/M
+output_m: Ausgabe $/M
+lmarena: LMArena
+sorted_by_newest_click_a_column: // Nach Neuheit sortiert – klicke auf eine Spalte, um neu zu sortieren
+no_models_match_your_search: Keine Modelle entsprechen deiner Suche.
+search_models_by_name_or_lab: Modelle nach Name oder Labor suchen …
+search_models: Modelle suchen
+filter_by_company: Nach Unternehmen filtern
+help_topics: Hilfethemen
+esc: Esc
+navigate: Navigieren
+open: Öffnen
+close: Schließen
+close_search: Suche schließen
+github_repositories_that_package_agent_skills: GitHub-Repositories mit Agent Skills für Claude und andere LLMs, sortiert nach
+  GitHub-Sternen.
+repos: Repositories
+authors: Autorinnen und Autoren
+ranked_by_stars: nach Sternen sortiert
+sort: // Sortieren
+top_stars: meiste Sterne
+trending: Im Trend
+no_skills_match_your_filter: Keine Skills entsprechen deinem Filter.
+no_skills_in_this_category_yet: In dieser Kategorie gibt es noch keine Skills.
+filter_skills_by_name_author_or: Skills nach Name, Autor oder Thema filtern …
+save_tool: Tool speichern
+no_professions_match_your_search: Keine Berufe entsprechen deiner Suche.
+search_professions: Berufe suchen …
+search_professions_2: Berufe suchen
+specific: ◎ speziell
+general: ★ allgemein
+view_all: Alle ansehen →
+no_tools_found_for_this_profession: Für diesen Beruf wurden noch keine Tools gefunden.
+related_professions: // Verwandte Berufe
+see_all: Alle ansehen →
+other_professions: // weitere Berufe
+skill_categories: Skill-Kategorien
+view_on_github: Auf GitHub ansehen →
+about_2: // über
+how_to_install: // Installation
+copy: kopieren
+works_with: // funktioniert mit
+whats_inside: // Inhalt
+details_2: // Details
+author: Autor
+github_stars: GitHub-Sterne
+category: Kategorie
+source: Quelle
+explore_ai_tools_grouped_by_topic: Entdecke KI-Tools nach Thema, Einsatzzweck und Funktion gruppiert.
+tags_2: Tags
+ai_tools_tagged: KI-Tools mit dem Tag
+no_tools_found_for_this_tag: Keine Tools mit diesem Tag gefunden.
+visit_tool: Tool besuchen →
+save: Speichern
+alternatives_3: // Alternativen
+top_pick_for: // Top-Empfehlung für
+pricing: Preise
+website: Website
+view_alternatives: Alternativen ansehen
+this_tool_is_no_longer_active: Dieses Tool ist nicht mehr aktiv
+h1_hardware: Top-KI-<span>Hardware</span> und GPUs
+h1_recently_added: Kürzlich hinzugefügte <span>KI-Tools</span>
+h1_free_tools: Kostenlose <span>KI-Tools</span>
+h1_alternatives: Die besten Alternativen zu <span>{{ .name }}</span>
+h1_skill_repos: Top-Repositories für <span>KI-Skills</span> für LLM-Agenten
+h1_agent_skills: Die besten Agent Skills für <span>{{ .name }}</span>
+h1_models: Top-<span>KI-Modelle</span> und LLMs
+h1_companies: Top-<span>KI-Unternehmen</span> und Labore
+n_tools:
+  one: '{{ .n }} Tool'
+  other: '{{ .n }} Tools'
+n_categories:
+  one: '{{ .n }} Kategorie'
+  other: '{{ .n }} Kategorien'
+n_professions:
+  one: '{{ .n }} Beruf'
+  other: '{{ .n }} Berufe'
+about_p_org: Best of AI ist ein kuratiertes Verzeichnis für KI-Tools, betrieben von der Organisation <a href="{{ .url }}"
+  target="_blank" rel="noopener">best-of-ai</a> auf GitHub. Dahinter steht kein Unternehmen, es gibt keine VC-Finanzierung
+  und nichts ist kostenpflichtig. Die Tools sind so geordnet, dass du findest, was du brauchst, ohne dich durch gesponserte
+  Ranglisten oder kostenpflichtige Testberichte zu arbeiten.
+about_p_index: Der vollständige Index ist unter <a href="{{ .url }}">/index.json</a> verfügbar. Du kannst ihn abrufen, forken
+  oder darauf aufbauen. Für die Nutzung brauchst du weder ein Konto noch einen API-Schlüssel.
+about_p_repo: Im <a href="{{ .url }}" target="_blank" rel="noopener">Repository</a> findest du Vorlagen, um ein neues Tool
+  einzureichen oder ein Problem zu melden. Korrekturen werden meist schnell übernommen. Ein Grund für einfache Dateien ist,
+  dass Beiträge leicht geprüft und zusammengeführt werden können.
+contribute_p_pr: 'Jeder Beitrag läuft über ein GitHub-Issue oder einen Pull Request. Die Daten liegen als einfaches Markdown
+  vor: Jedes Tool ist eine einzelne <code>.md</code>-Datei unter <a href="{{ .url }}" target="_blank" rel="noopener">content/tools/</a>.
+  Wenn du Git kennst, kannst du die Formulare überspringen und direkt einen PR öffnen.'
+edit_p_file: Bearbeite die Datei des Tools direkt auf GitHub unter <a href="{{ .url }}" target="_blank" rel="noopener">content/tools/</a>
+  und öffne einen PR. Der Dateiname entspricht dem Slug des Tools.
+edit_p_report: Wenn das Tool nicht mehr verfügbar ist oder nicht ins Verzeichnis gehört, nutze stattdessen die <a href="{{
+  .url }}">Meldeseite</a>.
+improve_p_file: Du kannst Tool-Dateien direkt auf GitHub unter <a href="{{ .url }}" target="_blank" rel="noopener">content/tools/</a>
+  bearbeiten und einen PR öffnen. Der Dateiname entspricht jeweils dem Tool-Slug.
+free_faq_writing: ChatGPT, Claude und Gemini bieten alle gute kostenlose Tarife zum Schreiben. In der Kategorie <a href="{{
+  .url }}">Schreibassistenten</a> findest du die vollständige Liste.
+free_faq_image: Ja. Mehrere Tools, darunter Adobe Firefly, ermöglichen kostenlose Bildgenerierung. Sieh dir die Kategorie
+  <a href="{{ .url }}">Bildgenerierung</a> an.
+lb_archive_desc: So sah die Rangliste im Zeitraum {{ .period }} aus. Diese Rangliste ist eingefroren. Die aktuelle Reihenfolge
+  findest du auf der <a href="{{ .url }}">aktuellen Rangliste</a>.
+submit_faq_form: Öffne das Einreichungsformular unter <a href="{{ .url }}" target="_blank" rel="noopener">submit.bestofai.io</a>
+  und gib den Namen deines Tools, die Website und eine kurze Beschreibung ein. Das dauert etwa zwei Minuten.
+prof_list_sub: Handverlesene KI-Tools für <strong>{{ .n }}</strong> Berufe – finde Tools für deine Tätigkeit.
+co_sub_lede: Die vollständige Liste von {{ .what }} von <a href="{{ .url }}">{{ .name }}</a>, sortiert nach Bewertung.
+companies_intro: Dieses Verzeichnis umfasst {{ .n }} KI-Unternehmen – von führenden Laboren wie {{ .names }} bis zu kleinen
+  Teams mit einem einzigen Produkt. Standardmäßig wird zuerst danach sortiert, wie verbreitet die Produkte eines Unternehmens
+  sind, danach nach der Anzahl seiner Tools in diesem Verzeichnis.
+list_last_sep: ' und '
+date_range: '{{ .from }} bis {{ .to }}'
+period_snapshot: Momentaufnahme für {{ .period }}
+updated_period: 'Aktualisiert: {{ .period }}'
+lb_desc: Die {{ .n }} besten KI-Tools, sortiert nach praktischem Nutzen und Wirkung. Die Rangliste wird monatlich geprüft;
+  ältere Ausgaben findest du im Archiv.
+see_current_rankings: Aktuelle Rangliste ansehen →
+submit_awesome: '{{ .repo }} ist eine beliebte Awesome-Liste auf GitHub. Aufgenommene Tools werden dort ebenfalls eingetragen
+  und erreichen so direkt Entwicklerinnen und Entwickler, die die Liste durchsuchen.'
+submit_cats_note: Best of AI hat {{ .n }} Kategorien. Wähle im Einreichungsformular die passendste aus. Wenn sie nicht stimmt,
+  korrigieren wir sie.
+view_name: '{{ .name }} ansehen'
+discontinued: 'Eingestellt: {{ .reason }}'
+browse_n_categories: Durchsuche {{ .n }} Kategorien mit handverlesenen KI-Tools.
+browse_n_model_categories: Durchsuche {{ .n }} Kategorien mit KI-Modellen und LLMs.
+browse_n_skill_categories: Durchsuche {{ .n }} Kategorien mit KI-Agenten-Skills.
+best_ai_cat_tools: Die besten KI-Tools für {{ .name }}
+founded_in: Gegründet {{ .year }}
+logo_of: Logo von {{ .name }}
+see_what_builds: Sieh dir an, was {{ .name }} entwickelt ↓
+answer_yes: Ja
+answer_no: Nein
+name_and_ai: '{{ .name }} und KI'
+about_name: Über {{ .name }}
+founders: Gründerinnen und Gründer
+founder: Gründer/in
+ai_tools_by: KI-Tools von {{ .name }}
+ai_models_by: KI-Modelle von {{ .name }}
+ai_hardware_by: KI-Hardware von {{ .name }}
+view_all_n: Alle {{ .n }} ansehen →
+no_tools_for: Noch keine Tools von {{ .name }} gelistet.
+name_faq: '{{ .name }}: häufige Fragen'
+more_companies_in: Weitere KI-Unternehmen in {{ .place }}
+name_sections: Bereiche von {{ .name }}
+back_to_name: ← Zurück zu {{ .name }}
+c_about_name: // über {{ .name }}
+c_from_name: // von {{ .name }}
+view_all_on: Alle auf {{ .name }} ansehen →
+c_similar_hardware_in: // ähnliche Hardware in {{ .type }}
+c_similar_hardware: // ähnliche Hardware
+c_similar_models_in: // ähnliche Modelle in {{ .type }}
+c_similar_models: // ähnliche Modelle
+c_similar_skills_in: // ähnliche Skills in {{ .type }}
+c_similar_skills: // ähnliche Skills
+all_n_professions: Alle {{ .n }} Berufe →
+open_source_cap: Open Source
+lb_new_note: nicht in der Rangliste für {{ .period }}. Die Veränderung wird mit {{ .period }} verglichen.
+up_since: Seit dem letzten Monat um {{ .n }} Plätze gestiegen
+down_since: Seit dem letzten Monat um {{ .n }} Plätze gefallen
+by_author: von {{ .name }}
+n_stars: '{{ .n }} Sterne'
+plus_n_this_week: +{{ .n }} diese Woche
+led_by: geleitet von {{ .name }} und {{ .author }}
+save_name: '{{ .name }} speichern'
+best_ai_tools_for: Die besten KI-Tools für {{ .name }}
+specific_ai_tools_for: Spezielle KI-Tools für {{ .name }}
+general_ai_tools_for: Allgemein nützliche KI-Tools für {{ .name }}
+prof_specific_sub: '{{ .n }} Tools für diese Art von Arbeit'
+prof_general_sub: '{{ .n }} vielseitige Tools, die in jedem Werkzeugkasten nützlich sind'
+via_star_api: über die GitHub-Star-Verlaufs-API, {{ .date }}
+name_no_longer_active: '{{ .name }} ist nicht mehr aktiv.'
+see_alternatives_below: Sieh dir die Alternativen unten an.
+view_all_n_alternatives: Alle {{ .n }} Alternativen ansehen →
+c_alternatives_to: // Alternativen zu {{ .name }}
+c_related_tools_in: // verwandte Tools in {{ .cat }}
+skills_page_desc:
+  one: '{{ .n }} GitHub-Repository mit {{ .cat }} Agent Skills für Claude Code, Codex, Cursor und andere Agenten{{ with .lead
+    }}, {{ . }}{{ end }}. Sortiert nach GitHub-Sternen.'
+  other: '{{ .n }} GitHub-Repositories mit {{ .cat }} Agent Skills für Claude Code, Codex, Cursor und andere Agenten{{ with
+    .lead }}, {{ . }}{{ end }}. Sortiert nach GitHub-Sternen.'
+kind_tools: Tools
+kind_models: Modelle
+kind_hardware: Hardware
+best_ai_cat_tools_short: Die besten KI-Tools für {{ .name }}
+seo_home_title: Best of AI – Verzeichnis handverlesener KI-Tools
+seo_free_title: Die besten kostenlosen KI-Tools ({{ .n }}) – Best of AI
+seo_submit_title: KI-Tool einreichen – Kostenloser Eintrag im KI-Verzeichnis | Best of AI
+seo_tool_title: '{{ .name }} – {{ .cat }}-KI-Tool | Best of AI'
+seo_category_title: Die besten KI-Tools für {{ .name }} ({{ .n }}) – Best of AI
+seo_home_models_title: KI-Modelle für den lokalen Betrieb ({{ .n }}) – Best of AI
+seo_modelcat_title: Die besten KI-Modelle für {{ .name }} ({{ .n }}) – Best of AI
+seo_skillcat_title: Die besten Agent Skills für {{ .name }} ({{ .n }}) – Best of AI
+seo_model_title: '{{ .name }} – {{ .type }}-KI-Modell | Best of AI'
+seo_hardware_title: '{{ .name }} – {{ .type }}-KI-Hardware | Best of AI'
+seo_cp_title_tools: KI-Tools von {{ .name }} – Best of AI
+seo_cp_title_models: KI-Modelle von {{ .name }} – Best of AI
+seo_cp_title_hardware: KI-Hardware von {{ .name }} – Best of AI
+seo_company_title: KI-Tools, Modelle und Unternehmensprofil von {{ .name }} ({{ .n }}) | Best of AI
+seo_company_nocount_title: '{{ .name }} – KI-Unternehmensprofil | Best of AI'
+seo_journal_post_title: '{{ .title }} – Das KI-Journal | Best of AI'
+seo_lb_archive_title: Rangliste der besten KI-Tools – Archiv {{ .period }} (Top {{ .n }}) | Best of AI
+seo_journal_title: Das KI-Journal – Best of AI
+seo_professions_title: KI-Tools nach Beruf – Best of AI
+seo_companies_title: Die {{ .n }} führenden KI-Unternehmen und Labore 2026 – Best of AI
+seo_hardware_list_title: Top-KI-Hardware und GPUs ({{ .n }}) – Best of AI
+seo_models_list_title: Top-KI-Modelle und LLMs ({{ .n }}) – Best of AI
+seo_modelcats_title: Kategorien für KI-Modelle – Best of AI
+seo_lb_title: Rangliste der besten KI-Tools (Top {{ .n }}, {{ .period }}) – Best of AI
+seo_lb_archive_index_title: Archiv der KI-Tool-Rangliste – monatliche Bestenlisten | Best of AI
+seo_prof_title: Die besten KI-Tools für {{ .name }} ({{ .n }}) – Best of AI
+seo_tags_title: KI-Tools nach Schlagwort durchsuchen – Best of AI
+seo_tag_title: 'KI-Tools mit #{{ .tag }} – Best of AI'
+seo_404_title: 404 – Seite nicht gefunden | Best of AI
+seo_free_desc: '{{ .n }} kostenlose und Freemium-KI-Tools für Schreiben, Programmieren, Bildgenerierung und mehr, handverlesen.
+  Keine Kreditkarte erforderlich.'
+seo_submit_desc: Reiche dein KI-Tool bei Best of AI ein und lass es unter „Berufe“, auf Alternativseiten von Wettbewerbern,
+  im Newsletter und in unserer GitHub-Awesome-Liste aufführen – inklusive echtem DoFollow-Backlink. Kostenlos und von Hand
+  geprüft.
+seo_cp_desc: Alle {{ .n }} KI-{{ .kind }} von {{ .name }}, nach Bewertung sortiert, mit Preisen und Details.
+kind_lc_tools: Tools
+kind_lc_models: Modelle
+kind_lc_hardware: Hardware
+seo_tool_desc: '{{ .name }} ist ein {{ .price }} {{ .cat }}-Tool. {{ .desc }}'
+seo_category_desc: Entdecke {{ .n }} der besten KI-Tools für {{ .name }} – {{ .desc }}
+seo_category_desc2: Entdecke {{ .n }} handverlesene KI-Tools für {{ .name }}, ausgewählt nach Qualität und praktischem Nutzen.
+seo_home_models_desc: '{{ .n }} KI-Modelle zum Herunterladen und Ausführen auf eigener Hardware – mit offenen Gewichten und
+  ohne API.'
+seo_modelcat_desc: Entdecke {{ .n }} der besten KI-Modelle für {{ .name }} – {{ .desc }}
+seo_skillcat_desc:
+  one: '{{ .desc }} {{ .n }} Agent Skill für {{ .name }}, für Claude Code und Codex, sortiert nach GitHub-Sternen.'
+  other: '{{ .desc }} {{ .n }} Agent Skills für {{ .name }}, für Claude Code und Codex, sortiert nach GitHub-Sternen.'
+seo_model_from: ' von {{ .name }}'
+seo_model_desc: '{{ .name }} ist ein {{ .price }} {{ .type }}-Modell{{ .company }}. {{ .desc }}'
+seo_hw_with: ' mit {{ .specs }}'
+seo_hw_desc: '{{ .name }} ist ein {{ .type }}-KI-Beschleuniger{{ .from }}{{ .specs }}. {{ .desc }}'
+seo_co_based: mit Sitz in {{ .v }}
+seo_co_founded: gegründet {{ .v }}
+seo_co_ntools:
+  one: '{{ .n }} KI-Tool'
+  other: '{{ .n }} KI-Tools'
+seo_co_nmodels:
+  one: '{{ .n }} Modell'
+  other: '{{ .n }} Modelle'
+seo_co_and: ' und '
+seo_co_desc: '{{ .lead }}: {{ .sub }}{{ .counts }} gelistet, außerdem Gründerinnen und Gründer sowie Unternehmensdaten.'
+seo_lb_archive_desc: So standen die {{ .n }} besten KI-Tools im {{ .period }} in der Rangliste. Eine eingefrorene monatliche
+  Momentaufnahme der Best-of-AI-Rangliste mit ChatGPT, Claude, Gemini und weiteren Tools.
+seo_journal_desc: Essays, Anleitungen und Notizen zu KI-Tools vom Best-of-AI-Team.
+seo_professions_desc: Finde KI-Tools für deinen Beruf – {{ .n }} Berufsratgeber mit handverlesenen Tools auf Best of AI.
+seo_companies_desc: Entdecke {{ .n }} führende KI-Unternehmen und -Labore, von OpenAI und Anthropic bis zu neuen Start-ups.
+  Sieh, wo sie sitzen, wann sie gegründet wurden und welche Tools sie entwickeln.
+seo_hardware_desc: Entdecke {{ .n }} KI-GPUs und Beschleuniger mit allen wichtigen Angaben – VRAM, Speicherbandbreite, TDP
+  und Preis – von den Unternehmen, die sie entwickeln.
+seo_models_desc: Basismodelle und LLMs mit technischen Daten und Benchmarks von den entwickelnden Laboren – inzwischen {{
+  .n }} Modelle.
+seo_modelcats_desc: Entdecke {{ .n }} Kategorien für KI-Modelle und LLMs – Schlussfolgern, Code, Bildgenerierung und mehr.
+seo_lb_desc: Die {{ .n }} besten KI-Tools, sortiert nach praktischem Nutzen und Wirkung, aktualisiert für {{ .period }}. Sieh,
+  was sich seit dem letzten Monat verändert hat.
+seo_lb_archive_index_desc: Frühere Monatsstände der Best-of-AI-Rangliste. Vergleiche, wie ChatGPT, Claude, Gemini und andere
+  KI-Tools von Monat zu Monat abgeschnitten haben.
+seo_categories_desc: Entdecke alle Kategorien für KI-Tools auf Best of AI – {{ .n }} Kategorien mit handverlesenen Tools.
+seo_prof_desc_a: '{{ .n }} KI-Tools für {{ .name }}, darunter {{ .names }}.'
+seo_prof_sub_prefix: 'KI-Tools für '
+seo_prof_covers: Umfasst {{ .v }}
+seo_prof_desc_b: '{{ .n }} KI-Tools für {{ .name }} – {{ .sub }}'
+seo_prof_desc_c: Entdecke {{ .n }} handverlesene KI-Tools für {{ .name }}, ausgewählt nach Qualität und praktischem Nutzen
+  auf Best of AI.
+seo_tags_desc: Entdecke {{ .n }} Tags für KI-Tools und finde Tools nach Thema, Einsatzzweck und Funktion auf Best of AI.
+seo_tag_desc: 'Entdecke die besten KI-Tools mit dem Tag #{{ .tag }} – handverlesen nach Qualität und praktischem Nutzen auf
+  Best of AI.'
+og_locale: de_DE
+enum_free: Kostenlos
+enum_freemium: Freemium
+enum_paid: Kostenpflichtig
+enum_n_a: k. A.
+enum_language: Sprache
+enum_multimodal: Multimodal
+enum_reasoning: Schlussfolgern
+enum_image_generation: Bildgenerierung
+enum_audio_generation: Audiogenerierung
+enum_code: Code
+enum_embedding: Embedding
+enum_video_generation: Videogenerierung
+enum_image: Bild
+enum_audio: Audio
+enum_datacenter: Rechenzentrum
+enum_consumer: Consumer
+enum_workstation: Workstation
+enum_edge: Edge
+enum_accelerator: Beschleuniger
+enum_mobile: Mobil
+enum_embedded: Eingebettet
+enum_development_engineering: Entwicklung und Engineering
+enum_design_creative: Design und Kreatives
+enum_workflow_productivity: Workflow und Produktivität
+enum_business_finance: Wirtschaft und Finanzen
+enum_communication_writing: Kommunikation und Schreiben
+enum_code_review_quality: Code-Review und Qualität
+enum_browser_agent_automation: Browser- und Agentenautomatisierung
+enum_document_automation: Dokumentenautomatisierung
+enum_testing_debugging: Testen und Debugging
+no_results_for: Keine Ergebnisse für
+categories_and_tags: Kategorien und Tags
+copied: Kopiert
+saved_label: Gespeichert
+remove_from_saved: Aus den gespeicherten Tools entfernen
+discontinued_word: Eingestellt
+sr_profession: Beruf
+sr_category: Kategorie
+sr_company: Unternehmen
+sr_hardware: Hardware
+sr_model: Modell
+sr_skill: Skill
+sr_tag: Tag
+fq_lb_best_in: Welches KI-Tool war im {{ .period }} das beste?
+fq_lb_best_in_a: '{{ .n1 }} stand im {{ .period }} auf Platz 1, gefolgt von {{ .n2 }} und {{ .n3 }}. Best of AI bewertet Tools
+  nach ihrem praktischen Nutzen und ihrer Wirkung.'
+fq_lb_current: Ist diese Rangliste noch aktuell?
+fq_lb_current_a: Nein. Diese Seite zeigt einen eingefrorenen Stand der Rangliste vom {{ .period }}. Die aktuelle Rangliste
+  enthält die neuesten Platzierungen.
+fq_lb_climb: Welches KI-Tool ist im {{ .period }} am stärksten aufgestiegen?
+fq_lb_climb_a: '{{ .name }} ist seit {{ .prev }} um {{ .n }} Plätze gestiegen – der größte Sprung in der Liste.'
+fq_lb_best_now: Was ist derzeit das beste KI-Tool?
+fq_lb_best_now_a: '{{ .n1 }} steht auf Platz 1 der Rangliste für {{ .period }}, gefolgt von {{ .n2 }} und {{ .n3 }}. Die Rangliste
+  spiegelt den praktischen Nutzen und die Wirkung wider, nicht nur Benchmark-Ergebnisse.'
+fq_lb_how: Wie werden die KI-Tools in dieser Rangliste bewertet?
+fq_lb_how_a: 'Die Bewertung richtet sich nach praktischem Nutzen und Wirkung: Wie sehr helfen die Tools bei der Arbeit, wie
+  viele Menschen verlassen sich darauf und wie stark beeinflussen sie andere Tools? Die Liste umfasst {{ .n }} Tools aus {{
+  .cats }} Kategorien.'
+fq_lb_often: Wie oft wird die Rangliste aktualisiert?
+fq_lb_often_a: Einmal im Monat. Jede Aktualisierung wird als eingefrorener Stand im Ranglistenarchiv gespeichert, damit du
+  sehen kannst, wie sich die Reihenfolge verändert hat.
+fq_lb_moved:
+  one: '{{ .name }} ist seit {{ .prev }} um {{ .delta }} Plätze gestiegen – der größte Sprung in der Liste. Diesen Monat kam
+    {{ .n }} Tool neu dazu.'
+  other: '{{ .name }} ist seit {{ .prev }} um {{ .delta }} Plätze gestiegen – der größte Sprung in der Liste. Diesen Monat
+    kamen {{ .n }} Tools neu dazu.'
+fq_lb_moved_nonew: '{{ .name }} ist seit {{ .prev }} um {{ .delta }} Plätze gestiegen – der größte Sprung in der Liste.'
+fq_lb_movers: Welche KI-Tools sind diesen Monat am stärksten aufgestiegen?
+fq_lb_suggest: Kann ich eine Änderung an der Rangliste vorschlagen?
+fq_lb_suggest_a: Ja. Nutze die Seite „Liste verbessern“, um einen Vorschlag zu senden, oder reiche ein Tool ein, das im Verzeichnis
+  fehlt.
+fq_ar_what: Was ist das Archiv der KI-Tool-Rangliste?
+fq_ar_what_a: Es ist eine gespeicherte Kopie der Best-of-AI-Rangliste vom Ende jedes Monats. Jeder Stand ist eingefroren und
+  zeigt die Reihenfolge, die zu diesem Zeitpunkt galt.
+fq_ar_far: Wie weit reicht das Archiv zurück?
+fq_ar_far_a:
+  one: Das Archiv enthält {{ .n }} monatlichen Stand von {{ .first }} bis {{ .last }}. Mit jeder Aktualisierung der Rangliste
+    kommt ein neuer hinzu.
+  other: Das Archiv enthält {{ .n }} monatliche Stände von {{ .first }} bis {{ .last }}. Mit jeder Aktualisierung der Rangliste
+    kommt ein neuer hinzu.
+fq_ar_change: Wie kann ich sehen, wie sich die Ranglistenposition eines KI-Tools verändert hat?
+fq_ar_change_a: Öffne zwei beliebige Stände und vergleiche die Position des Tools. Jeder Stand kennzeichnet außerdem Tools,
+  die im Vergleich zum Vormonat gestiegen, gefallen oder neu hinzugekommen sind.
+fq_ar_current: Wo finde ich die aktuelle Rangliste der KI-Tools?
+fq_ar_current_a: Die aktuelle Rangliste zeigt die neuesten Platzierungen und ist die richtige Seite, wenn du heute ein Tool
+  auswählst. Das Archiv ist für den Rückblick gedacht, nicht für aktuelle Empfehlungen.
+fq_co_what: Was ist {{ .name }}?
+fq_co_who: Wer hat {{ .name }} gegründet?
+fq_co_who_a: '{{ .name }} wurde{{ .when }} von {{ .founders }} gegründet.'
+fq_co_in_year: ' im Jahr {{ .v }}'
+fq_co_when: Wann wurde {{ .name }} gegründet?
+fq_co_when_a: '{{ .name }} wurde {{ .year }} gegründet.'
+fq_co_hq: Wo hat {{ .name }} seinen Hauptsitz?
+fq_co_hq_a: Der Hauptsitz von {{ .name }} befindet sich in {{ .place }}.
+fq_co_tools: Welche KI-Tools entwickelt {{ .name }}?
+fq_co_tools_a:
+  one: Best of AI führt {{ .n }} Tool von {{ .name }} auf, darunter {{ .names }}.
+  other: Best of AI führt {{ .n }} Tools von {{ .name }} auf, darunter {{ .names }}.
+fq_co_models: Welche KI-Modelle hat {{ .name }} veröffentlicht?
+fq_co_models_a:
+  one: In unserem Verzeichnis ist {{ .n }} Modell von {{ .name }} aufgeführt, darunter {{ .names }}.
+  other: In unserem Verzeichnis sind {{ .n }} Modelle von {{ .name }} aufgeführt, darunter {{ .names }}.
+fq_co_hw: Welche KI-Hardware stellt {{ .name }} her?
+fq_co_hw_a:
+  one: '{{ .name }} stellt {{ .n }} KI-Chip her, den wir erfassen, darunter {{ .names }}.'
+  other: '{{ .name }} stellt {{ .n }} KI-Chips her, die wir erfassen, darunter {{ .names }}.'
+in_language: de-DE
+bc_free_ai_tools: Kostenlose KI-Tools
+bc_recently_added: Kürzlich hinzugefügte KI-Tools
+faq_free_writing_plain: ChatGPT, Claude und Gemini bieten alle gute kostenlose Tarife zum Schreiben. Im Bereich „Schreibassistenten“
+  auf Best of AI findest du die vollständige Liste.
+faq_free_image_plain: Ja. Mehrere Tools, darunter Adobe Firefly, bieten kostenlose Bildgenerierung. Sieh dir die Kategorie
+  „Bildgenerierung“ auf Best of AI an.
+faq_free_count_q: Wie viele kostenlose KI-Tools sind hier aufgeführt?
+faq_free_count_a: Best of AI führt derzeit {{ .n }} kostenlose KI-Tools und Freemium-Tools aus allen Kategorien auf.
+faq_submit_plain: Öffne das Einreichungsformular unter submit.bestofai.io und trage den Namen deines Tools, die Website und
+  eine kurze Beschreibung ein. Das dauert etwa zwei Minuten.
+jl_prof_desc: Die besten KI-Tools für {{ .name }}, handverlesen und kuratiert.
+jl_cat_desc: Die besten KI-Tools für {{ .name }}, handverlesen und kuratiert.
+jl_runs_home: KI-Modelle für den lokalen Betrieb
+jl_handpicked: '{{ .name }}, handverlesen und kuratiert.'
+jl_best_skills: Die besten Agent Skills für {{ .name }}
+jl_ranked_stars: '{{ .name }}, sortiert nach GitHub-Sternen.'
+jl_tools_tagged: KI-Tools mit dem Tag {{ .tag }}
+jl_companies_desc: Ein Verzeichnis mit {{ .n }} KI-Unternehmen und -Laboren, ihren Hauptsitzen und Gründungsjahren sowie den
+  KI-Tools, die sie entwickelt haben.
+seo_modelcats_name: Kategorien für KI-Modelle
+jl_modelcats_desc: Entdecke KI-Modelle und LLMs nach Kategorie – Schlussfolgern, Code, Bildgenerierung und mehr.
+jl_top_free: Die besten kostenlosen KI-Tools
+jl_lb_name: Rangliste der besten KI-Tools
+jl_lb_name_period: Rangliste der besten KI-Tools, {{ .period }}
+jl_lb_desc: Die {{ .n }} besten KI-Tools, sortiert nach praktischem Nutzen und Wirkung ({{ .period }}).
+jl_lb_archive: Archiv der KI-Tool-Rangliste
+jl_lb_archive_desc: Frühere Monatsstände der Best-of-AI-Rangliste.
+jl_lb_snapshots: Monatsstände der KI-Tool-Rangliste
+jl_new_desc: Die neuesten KI-Tools auf Best of AI. Neue Veröffentlichungen und Tools, die du kennen solltest.
+jl_co_list: KI-Tools und Modelle von {{ .name }}
+jl_help_desc: So funktioniert Best of AI.
+jl_journal_desc: Essays, Anleitungen und Notizen zu KI-Tools von Best of AI.
+submit_a_tool_lc: Tool einreichen
+open_github_issue: GitHub-Issue öffnen
+star_on_github: GitHub-Stern vergeben
+ai_for_professionals: KI für Berufe
+submit_tool: Tool einreichen
+nav_saved: Gespeichert
+help_improve_page: Hilf uns, diese Seite zu verbessern
+report_word: Melden
+language: Sprache
+seo_alt_title: '{{ .name }}-Alternativen — Best of AI'
+alt_list_name: Alternativen zu {{ .name }}
+stat_cores: Kerne
+stat_of_skill_repos: von {{ .n }} Skill-Repositories
+stat_stars_this_week: Sterne diese Woche
+stat_author: Autor
+help_default_desc: So funktioniert Best of AI – von der Auswahl bis zur Mitwirkung.
+jl_best_models: Die besten KI-Modelle für {{ .name }}
+jl_top_companies: Führende KI-Unternehmen und -Labore
+jl_top_hardware: Führende KI-Hardware und GPUs
+jl_top_models: Führende KI-Modelle und LLMs
+what_ai_tools: KI-Tools
+what_ai_models: KI-Modelle
+what_ai_hardware: KI-Hardware
+kw_free: kostenlose KI-Tools, beste kostenlose KI-Tools, führende kostenlose KI-Tools, Freemium-KI-Tools, kostenlose Tools
+  für künstliche Intelligenz, KI-Tools kostenlos, kostenlose KI-Schreibtools, kostenlose KI-Coding-Tools, kostenloser KI-Bildgenerator,
+  KI-Tools ohne Kreditkarte
+kw_submit: KI-Tool einreichen, KI-Tool-Einreichung, KI-Tool listen, KI-Verzeichnis-Eintrag, KI-Tools vermarkten, KI-Launch-Plattform,
+  KI-Startup bewerben, KI-Tool listen lassen, KI-Produktstart, KI-Tool-Backlink, KI-Tool-Verzeichnis, Startup einreichen
+kw_ai: KI
+kw_ai_full: künstliche Intelligenz
+kw_category: '{{ .name }}, KI {{ .name }}, beste KI-Tools für {{ .name }}, künstliche Intelligenz {{ .lower }}'
+kw_model_category: '{{ .name }}, KI-Modelle für {{ .name }}, beste KI-Modelle für {{ .name }}, {{ .lower }}-LLMs'
+kw_skill_category: Agent Skills für {{ .name }}, beste {{ .lower }}-Skills, Claude-Skills {{ .lower }}, Claude-Code-Skills,
+  Agent Skills auf GitHub, SKILL.md, {{ .lower }}-KI-Agent
+kw_ai_model: KI-Modell
+kw_llm: LLM
+kw_ai_hardware: KI-Hardware
+kw_ai_gpu: KI-GPU
+kw_ai_accelerator: KI-Beschleuniger
+kw_name_gpu: '{{ .name }}-GPU'
+kw_ai_company: KI-Unternehmen
+kw_name_ai: '{{ .name }} und KI'
+kw_name_ai_tools: KI-Tools von {{ .name }}
+kw_name_products: Produkte von {{ .name }}
+kw_who_founded: Wer hat {{ .name }} gegründet
+kw_name_headquarters: Hauptsitz von {{ .name }}
+kw_name_alternatives: Alternativen zu {{ .name }}
+kw_journal_name: Das KI-Journal
+kw_ai_journal: KI-Journal
+kw_ai_tools: KI-Tools
+kw_open_source: Open Source
+kw_ai_for: KI für {{ .name }}
+kw_best_ai_tools_for: beste KI-Tools für {{ .name }}
+kw_free_ai_tools_for: kostenlose KI-Tools für {{ .name }}
+kw_ai_name_tools: KI-Tools für {{ .name }}
+kw_cat_ai_tools: KI-Tools für {{ .name }}
+kw_tool_for: '{{ .tool }} für {{ .name }}'
+kw_companies: führende KI-Unternehmen, Liste der KI-Unternehmen, beste KI-Unternehmen, KI-Labore, Unternehmen für künstliche
+  Intelligenz, KI-Start-ups, KI-Unternehmen 2026, größte KI-Unternehmen, Unternehmen für generative KI
+kw_hardware_list: KI-Hardware, KI-GPUs, GPU-Spezifikationen, KI-Beschleuniger, beste KI-GPUs, KI-Chips, GPU-Vergleich, NVIDIA-GPU,
+  AMD-GPU, TPU, Rechenzentrums-GPU
+kw_models_list: KI-Modelle, LLMs, Basismodelle, beste KI-Modelle, Modelle mit offenen Gewichten, KI-Modellvergleich, LLM-Rangliste,
+  KI-Modellkategorien
+kw_by_month: nach Monat
+kw_lb_archive: Archiv der KI-Tool-Rangliste, Verlauf der KI-Tool-Rangliste, beste KI-Tools {{ .period }}, monatliche Top-KI-Tools,
+  Ranglistenstand der KI-Tools
+kw_lb: beste KI-Tools, Rangliste der KI-Tools, führende KI-Tools, beste KI-Tools 2026, KI-Tool-Rangliste, bestbewertete KI-Tools,
+  beste KI-Apps, KI-Tool-Vergleich
+view_all_n_count: Alle {{ .n }} anzeigen
+view_all_recently_added: Alle zuletzt hinzugefügten Tools anzeigen

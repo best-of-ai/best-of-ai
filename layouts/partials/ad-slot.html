@@ -11,8 +11,8 @@
 {{ $target := $ad.link_target | default "_blank" }}
 {{ $rel    := cond (eq $target "_blank") "noopener noreferrer sponsored" "sponsored" }}
 
-<a href="{{ $ad.link }}" target="{{ $target }}" rel="{{ $rel }}" class="ad-slot ad-slot--{{ $variant }}">
-  <span class="ad-slot__label">Sponsored</span>
+<a href="{{ partial "utm-url.html" $ad.link }}" target="{{ $target }}" rel="{{ $rel }}" class="ad-slot ad-slot--{{ $variant }}">
+  <span class="ad-slot__label">{{ i18n "sponsored_2" }}</span>
 
   {{ if eq $variant "card" }}
     {{/* Horizontal card — mirrors tool-card layout */}}

@@ -12,14 +12,21 @@ categories:
   - research-tools
   - writing-assistants
   - legal-assistants
-featured_tools:
-  - chatgpt
-  - drata
+specific_tools:
+  - veeva-systems
+  - mastercontrol
+  - greenlight-guru
+  - qualio
+  - navex
   - onetrust
-  - harvey
+  - drata
+  - abbyy
+  - complyadvantage
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - adobe-acrobat-ai
   - grammarly
-  - perplexity-research
-
+  - perplexity
 ---

@@ -15,16 +15,26 @@ categories:
   - data-labeling
   - synthetic-data
   - database-tools
-featured_tools:
-  - chatgpt
+specific_tools:
   - databricks
   - dbt-cloud
   - airbyte-ai
   - snowflake
   - fivetran-ai
   - prefect
+  - apache-airflow
+  - dagster
+  - meltano
+  - matillion
+  - bigquery
+  - motherduck
+  - unstructured
+  - cleanlab
+  - gretel-ai
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
   - aider
-
 ---

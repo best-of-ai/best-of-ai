@@ -1,0 +1,11 @@
+{{/*
+  Page's RelPermalink without the language prefix, so templates can compare it
+  against fixed paths ("/free/", "/submit/") in every language.
+  Usage: {{ if eq (partial "page-path.html" .) "/free/" }}
+*/}}
+{{- $path := .RelPermalink -}}
+{{- $prefix := "/" | relLangURL -}}
+{{- if and (ne $prefix "/") (hasPrefix $path $prefix) -}}
+  {{- $path = printf "/%s" (strings.TrimPrefix $prefix $path) -}}
+{{- end -}}
+{{- return $path -}}

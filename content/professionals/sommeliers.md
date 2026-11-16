@@ -11,14 +11,13 @@ categories:
   - business-tools
   - e-commerce
   - social-media-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - wine-searcher
+  - cellartracker
   - vivino
+general_tools:
+  - chatgpt
+  - claude
   - hubspot-business
-  - shopify
-  - bigcommerce
-  - docusign-ai
-  - buffer
-  - later
-
+  - canva
 ---

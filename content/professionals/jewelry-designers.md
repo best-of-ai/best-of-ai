@@ -11,16 +11,22 @@ categories:
   - 3d
   - fashion
   - graphic-design
-featured_tools:
-  - midjourney
-  - ideogram
+specific_tools:
+  - rhino
+  - matrixgold
+  - keyshot
+  - blender
   - meshy-ai
   - tripo3d
-  - spline
+  - kaedim
+  - midjourney
+  - ideogram
   - adobe-firefly
+  - spline
+general_tools:
+  - chatgpt
+  - claude
   - figma
   - canva
-  - adobe-express
   - flux
-
 ---

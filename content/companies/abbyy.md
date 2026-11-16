@@ -10,6 +10,7 @@ founded: '1989'
 headquarters: 'Milpitas, California'
 founders:
   - 'David Yang'
+ai_native: false
 date: '2026-07-16'
 rank: 7
 ---

@@ -1,0 +1,3 @@
+---
+title: 'MadCap Flare Alternatives'
+---

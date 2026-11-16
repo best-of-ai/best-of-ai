@@ -12,16 +12,22 @@ categories:
   - research-tools
   - presentation
   - meeting-assistants
-featured_tools:
-  - chatgpt
-  - otter-ai
-  - gamma
+specific_tools:
   - glean
-  - perplexity
-  - microsoft-copilot
+  - otter-ai
+  - fathom
+  - gamma
+  - pitch
   - slack-ai
-  - asana
+  - microsoft-365-copilot
+  - gemini-workspace
+  - perplexity
+  - cb-insights-ai
+  - alphasense
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
   - zoom-ai
-  - clickup
-
+  - asana
 ---

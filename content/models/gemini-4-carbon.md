@@ -1,0 +1,26 @@
+---
+title: 'Gemini 4 Carbon'
+name: 'Gemini 4 Carbon'
+slug: 'gemini-4-carbon'
+subtitle: 'Gemini 4 Carbon targets cybersecurity defense and long-horizon tasks'
+description: 'Gemini 4 Carbon targets cybersecurity defense and long-horizon tasks'
+company: 'google-deepmind'
+model_type: 'Reasoning'
+logo_url: ''
+product_url: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/'
+price: 'Paid'
+rank: 6
+release_date: '2026-10-28'
+param_count: 'Undisclosed'
+modality: [text]
+open_weight: false
+license: 'Proprietary'
+api_available: true
+access_methods: [API]
+runs_at_home: false
+platforms: ['Fairwind Program']
+date: '2026-11-04'
+tags: [llm, reasoning, cybersecurity, agentic]
+---
+
+Gemini 4 Carbon targets cybersecurity defense and long-horizon tasks. Google rolled it out on October 28, 2026, to a limited group through the Fairwind Program.

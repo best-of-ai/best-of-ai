@@ -23,386 +23,409 @@
   badge: "Top Terminal-Bench Score"
 
 - rank: 7
+  slug: chatgpt-work
+  badge: "Best Workplace Agent"
+
+- rank: 8
   slug: github-copilot
   badge: "Biggest Market Share"
 
-- rank: 8
+- rank: 9
   slug: midjourney
   badge: "Best for Artistry"
 
-- rank: 9
+- rank: 10
   slug: gpt-image
   badge: "Best Image Gen"
 
-- rank: 10
+- rank: 11
   slug: nano-banana-pro
   badge: "Best Photorealism"
 
-- rank: 11
+- rank: 12
   slug: perplexity-search
   badge: "Best AI Search"
 
-- rank: 12
+- rank: 13
   slug: perplexity-comet
   badge: "First AI-Native Browser"
 
-- rank: 13
+- rank: 14
+  slug: meta-muse
+  badge: "Best Personal Agent"
+
+- rank: 15
+  slug: openai-dots
+  badge: "Best Always-On Agent"
+
+- rank: 16
+  slug: claude-duet
+  badge: "Best Proactive Agent"
+
+- rank: 17
   slug: chatgpt-atlas
   badge: "Best ChatGPT-Native Browser"
 
-- rank: 14
+- rank: 18
   slug: deepseek
   badge: "Best Open Reasoning"
 
-- rank: 15
+- rank: 19
   slug: veo-3
   badge: "Best All-Around Video AI"
 
-- rank: 16
+- rank: 20
+  slug: google-genie
+  badge: "Best World Model"
+
+- rank: 21
   slug: kling-ai
   badge: "Best Value Video AI"
 
-- rank: 17
+- rank: 22
   slug: elevenlabs
   badge: "Best Voice AI"
 
-- rank: 18
+- rank: 23
   slug: suno
   badge: "Best Music AI"
 
-- rank: 19
+- rank: 24
   slug: notebooklm
   badge: "Best Research AI"
 
-- rank: 20
+- rank: 25
   slug: lovable
   badge: "Best App Builder"
 
-- rank: 21
+- rank: 26
   slug: bolt-new
   badge: "Best for Prototyping"
 
-- rank: 22
+- rank: 27
   slug: v0
   badge: "Best UI Gen"
 
-- rank: 23
+- rank: 28
   slug: google-antigravity
   badge: "Best Free Agentic IDE"
 
-- rank: 24
+- rank: 29
   slug: kiro
   badge: "Best Spec-Driven IDE"
 
-- rank: 25
+- rank: 30
   slug: devin
   badge: "Absorbed Windsurf IDE"
 
-- rank: 26
+- rank: 31
   slug: flux
   badge: "Best Open Image"
 
-- rank: 27
+- rank: 32
   slug: stable-diffusion
   badge: "Best Open Source"
 
-- rank: 28
+- rank: 33
   slug: runway
   badge: "Best Video Platform"
 
-- rank: 29
+- rank: 34
   slug: grok
   badge: "Best Real-time AI"
 
-- rank: 30
+- rank: 35
   slug: claude-docs
   badge: "Best AI Document Editor"
 
-- rank: 31
+- rank: 36
   slug: notion-ai
   badge: "Best Productivity"
 
-- rank: 32
+- rank: 37
   slug: grammarly
   badge: "Best Writing AI"
 
-- rank: 33
+- rank: 38
   slug: canva
   badge: "Best Design AI"
 
-- rank: 34
+- rank: 39
   slug: openclaw
   badge: "Viral Open Agent"
 
-- rank: 35
+- rank: 40
   slug: gamma
   badge: "Best Slides AI"
 
-- rank: 36
+- rank: 41
   slug: claude-slides
   badge: "Best Claude-Native Slides"
 
-- rank: 37
+- rank: 42
   slug: adobe-firefly
   badge: "Best Creative AI"
 
-- rank: 38
+- rank: 43
   slug: ideogram
   badge: "Best Text-in-Image"
 
-- rank: 39
+- rank: 44
   slug: dalle
   badge: "Best in ChatGPT"
 
-- rank: 40
+- rank: 45
   slug: heygen
   badge: "Best Avatar AI"
 
-- rank: 41
+- rank: 46
   slug: descript
   badge: "Best Podcast AI"
 
-- rank: 42
+- rank: 47
   slug: otter-ai
   badge: "Best Meetings AI"
 
-- rank: 43
+- rank: 48
   slug: zapier
   badge: "Best Automation"
 
-- rank: 44
+- rank: 49
   slug: coderabbit
   badge: "Best Code Review"
 
-- rank: 45
+- rank: 50
   slug: leonardo-ai
   badge: "Best Game Art AI"
 
-- rank: 46
+- rank: 51
   slug: luma-dream-machine
   badge: "Best Video Quality"
 
-- rank: 47
+- rank: 52
   slug: cursor-composer
   badge: "Best Agentic Coding"
 
-- rank: 48
+- rank: 53
   slug: genspark
   badge: "Best No-Code Super Agent"
 
-- rank: 49
+- rank: 54
   slug: replit
   badge: "Best Online IDE"
 
-- rank: 50
+- rank: 55
   slug: codeium
   badge: "Best Free Copilot"
 
-- rank: 51
+- rank: 56
   slug: aider
   badge: "Best CLI Coding"
 
-- rank: 52
+- rank: 57
   slug: opencode
   badge: "Best Open-Source Coding Agent"
 
-- rank: 53
+- rank: 58
+  slug: kimi-code
+  badge: "Best Open-Weight Coding"
+
+- rank: 59
   slug: warp
   badge: "Best AI Terminal"
 
-- rank: 54
+- rank: 60
   slug: tabnine
   badge: "Best Private Copilot"
 
-- rank: 55
+- rank: 61
   slug: deepl
   badge: "Best Translator"
 
-- rank: 56
+- rank: 62
   slug: notion
   badge: "Best Knowledge Base"
 
-- rank: 57
+- rank: 63
   slug: linear
   badge: "Best for Engineers"
 
-- rank: 58
+- rank: 64
   slug: clickup
   badge: "Best Project Mgmt"
 
-- rank: 59
+- rank: 65
   slug: asana-pm
   badge: "Best Team Mgmt"
 
-- rank: 60
+- rank: 66
   slug: make
   badge: "Best No-Code Auto"
 
-- rank: 61
+- rank: 67
   slug: n8n
   badge: "Best Self-Hosted Auto"
 
-- rank: 62
+- rank: 68
   slug: fireflies-ai
   badge: "Best Meeting Notes"
 
-- rank: 63
+- rank: 69
   slug: fathom
   badge: "Best Free Meetings"
 
-- rank: 64
+- rank: 70
   slug: figma
   badge: "Best UI Design"
 
-- rank: 65
+- rank: 71
   slug: adobe-express
   badge: "Best Quick Design"
 
-- rank: 66
+- rank: 72
   slug: photoroom
   badge: "Best Background AI"
 
-- rank: 67
+- rank: 73
   slug: krea-ai
   badge: "Best Real-time Image"
 
-- rank: 68
+- rank: 74
   slug: jasper
   badge: "Best Marketing Copy"
 
-- rank: 69
+- rank: 75
   slug: copy-ai
   badge: "Best Copywriting"
 
-- rank: 70
+- rank: 76
   slug: quillbot
   badge: "Best Paraphrasing"
 
-- rank: 71
+- rank: 77
   slug: wordtune
   badge: "Best Rewriting"
 
-- rank: 72
+- rank: 78
   slug: beautiful-ai
   badge: "Best Presentations"
 
-- rank: 73
+- rank: 79
   slug: tome
   badge: "Best AI Deck"
 
-- rank: 74
+- rank: 80
   slug: gemini-pro
   badge: "Best Vision AI"
 
-- rank: 75
+- rank: 81
   slug: mistral
   badge: "Best European AI"
 
-- rank: 76
+- rank: 82
   slug: hugging-face
   badge: "Best Model Hub"
 
-- rank: 77
+- rank: 83
   slug: langchain
   badge: "Best AI Framework"
 
-- rank: 78
+- rank: 84
   slug: groq
   badge: "Fastest Inference"
 
-- rank: 79
+- rank: 85
   slug: openrouter
   badge: "Best Model Router"
 
-- rank: 80
+- rank: 86
   slug: together-ai
   badge: "Best Open Models"
 
-- rank: 81
+- rank: 87
   slug: replicate
   badge: "Best Model API"
 
-- rank: 82
+- rank: 88
   slug: amazon-bedrock
   badge: "Best Enterprise AI"
 
-- rank: 83
+- rank: 89
   slug: azure-openai
   badge: "Best Cloud AI"
 
-- rank: 84
+- rank: 90
   slug: vertex-ai
   badge: "Best GCP AI"
 
-- rank: 85
+- rank: 91
   slug: pinecone
   badge: "Best Vector DB"
 
-- rank: 86
+- rank: 92
   slug: perplexity
   badge: "Best AI Chat"
 
-- rank: 87
+- rank: 93
   slug: perplexity-pro
   badge: "Best Research Pro"
 
-- rank: 88
+- rank: 94
   slug: synthesia
   badge: "Best Video Avatar"
 
-- rank: 89
+- rank: 95
   slug: d-id
   badge: "Best Talking Photo"
 
-- rank: 90
+- rank: 96
   slug: murf
   badge: "Best TTS Studio"
 
-- rank: 91
+- rank: 97
   slug: deepgram
   badge: "Best Speech API"
 
-- rank: 92
+- rank: 98
   slug: whisper
   badge: "Best Open Transcription"
 
-- rank: 93
+- rank: 99
   slug: assemblyai
   badge: "Best Transcription API"
 
-- rank: 94
+- rank: 100
   slug: adobe-podcast
   badge: "Best Audio Enhance"
 
-- rank: 95
+- rank: 101
   slug: stable-audio
   badge: "Best Audio Gen"
 
-- rank: 96
+- rank: 102
   slug: luma-ai
   badge: "Best 3D AI"
 
-- rank: 97
+- rank: 103
   slug: invideo
   badge: "Best Video Creator"
 
-- rank: 98
+- rank: 104
   slug: pika-video
   badge: "Best Creative Video"
 
-- rank: 99
+- rank: 105
   slug: miro-ai
   badge: "Best Whiteboard AI"
 
-- rank: 100
+- rank: 106
   slug: raycast-ai
   badge: "Best Productivity Tool"
 
-- rank: 101
+- rank: 107
   slug: copilot-workspace
   badge: "Best AI Workspace"
 
-- rank: 102
+- rank: 108
   slug: superhuman
   badge: "Best AI Email"
-

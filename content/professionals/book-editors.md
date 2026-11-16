@@ -11,16 +11,21 @@ categories:
   - document-ai
   - productivity
   - research-tools
-featured_tools:
-  - chatgpt
-  - grammarly
+specific_tools:
   - prowritingaid
-  - sudowrite
   - autocrit
-  - quillbot
-  - adobe-acrobat-ai
-  - notebooklm
+  - hemingway-editor
+  - languagetool
+  - sudowrite
   - wordtune
+  - quillbot
+  - originality-ai
+  - lex-page
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
+  - notebooklm
+  - adobe-acrobat-ai
   - clickup
-
 ---

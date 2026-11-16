@@ -10,6 +10,7 @@ founded: '2016'
 headquarters: 'Quebec City, Canada'
 founders:
   - 'Sylvain Perron'
+ai_native: true
 date: '2026-07-16'
 rank: 8
 ---

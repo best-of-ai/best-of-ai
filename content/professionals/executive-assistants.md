@@ -12,16 +12,28 @@ categories:
   - meeting-assistants
   - productivity
   - automation
-featured_tools:
-  - chatgpt
-  - otter-ai
+specific_tools:
   - reclaim-ai
-  - clockwise-ai
-  - zoom-ai
-  - grammarly
+  - motion
+  - calendly
+  - savvycal
+  - fantastical
+  - morgen
+  - akiflow
   - superhuman
-  - zapier
-  - clickup
+  - shortwave
+  - sanebox
+  - spark-mail
+  - boomerang
   - fireflies-ai
-
+  - otter-ai
+  - fathom
+general_tools:
+  - chatgpt
+  - claude
+  - zapier
+  - notion-ai
+  - grammarly
+  - zoom-ai
+  - microsoft-365-copilot
 ---

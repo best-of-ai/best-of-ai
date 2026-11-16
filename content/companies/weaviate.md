@@ -10,6 +10,7 @@ founded: '2019'
 headquarters: 'Amsterdam, Netherlands'
 founders:
   - 'Bob van Luijt'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

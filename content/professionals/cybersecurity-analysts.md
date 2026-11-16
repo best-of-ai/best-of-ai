@@ -12,16 +12,27 @@ categories:
   - automation
   - data
   - research-tools
-featured_tools:
-  - chatgpt
+specific_tools:
+  - crowdstrike
+  - sentinelone
+  - darktrace
   - vectra-ai
   - wiz
   - snyk-ai
-  - crowdstrike
-  - darktrace
+  - microsoft-security-copilot
+  - splunk
+  - tenable
+  - burp-suite
+  - wireshark
+  - virustotal
+  - recorded-future
+  - magnet-forensics
+  - cellebrite
+  - elastic-ai-assistant
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
   - zapier
-  - amazon-bedrock
-
 ---

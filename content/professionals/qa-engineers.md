@@ -11,14 +11,23 @@ categories:
   - code-assistant
   - automation
   - workflow-automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - qodo-ai
   - applitools
   - mabl
+  - testim
+  - percy
+  - browserstack-test-companion
+  - qa-wolf
+  - momentic-mo
+  - testifly
+  - sentry
+  - postman
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
   - coderabbit
   - aider
-
 ---

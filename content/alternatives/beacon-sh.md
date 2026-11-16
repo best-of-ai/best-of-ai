@@ -1,0 +1,3 @@
+---
+title: 'beacon.sh Alternatives'
+---

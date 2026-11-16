@@ -12,15 +12,22 @@ categories:
   - data
   - document-ai
   - sentiment-analysis
-featured_tools:
-  - chatgpt
+specific_tools:
+  - fiscalnote
+  - quorum
+  - dimensions-ai
+  - stata
+  - posit
+  - datawrapper
+  - flourish
   - perplexity
   - elicit
   - semantic-scholar
-  - connected-papers
+general_tools:
+  - chatgpt
+  - claude
   - notebooklm
   - grammarly
   - tableau
   - adobe-acrobat-ai
-
 ---

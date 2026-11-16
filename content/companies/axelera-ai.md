@@ -10,6 +10,7 @@ founded: '2021'
 headquarters: 'Eindhoven, Netherlands'
 founders:
   - 'Fabrizio Del Maffeo'
+ai_native: true
 date: '2026-09-18'
 rank: 4
 ---

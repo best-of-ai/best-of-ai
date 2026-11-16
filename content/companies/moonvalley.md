@@ -11,6 +11,7 @@ headquarters: 'London, United Kingdom'
 founders:
   - 'Naeem Talukdar'
   - 'Mateusz Malinowski'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

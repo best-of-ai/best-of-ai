@@ -12,16 +12,27 @@ categories:
   - job-tools
   - resume-tools
   - meeting-assistants
-featured_tools:
-  - chatgpt
-  - workday
+specific_tools:
+  - greenhouse
+  - lever
+  - ashby
+  - workable
+  - smartrecruiters
+  - hirevue
+  - eightfold-ai
+  - beamery
+  - gem
+  - seekout
   - hiredscore
   - paradox-ai
-  - greenhouse
-  - bamboohr
+  - phenom
   - textio
-  - lattice-ai
+  - linkedin
+general_tools:
+  - chatgpt
+  - claude
   - fireflies-ai
   - otter-ai
-
+  - calendly
+  - notion-ai
 ---

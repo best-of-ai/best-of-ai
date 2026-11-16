@@ -14,16 +14,32 @@ categories:
   - automation
   - data-labeling
   - synthetic-data
-featured_tools:
-  - chatgpt
-  - github-copilot
-  - cursor
+specific_tools:
   - weights-biases
+  - mlflow
+  - comet-ml
+  - clearml
+  - zenml
+  - metaflow
+  - ray
   - modal-ai
   - replicate
   - vertex-ai
+  - amazon-sagemaker
   - hugging-face
+  - langsmith
+  - langfuse
+  - arize
+  - evidently-ai
+  - litellm
+  - together-ai
+  - fireworks-ai
+  - labelbox
+general_tools:
+  - chatgpt
   - claude
+  - github-copilot
+  - cursor
+  - claude-code
   - deepseek
-
 ---

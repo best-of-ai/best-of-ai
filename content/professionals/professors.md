@@ -11,15 +11,24 @@ categories:
   - research-tools
   - learning-tools
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - elicit
   - semantic-scholar
   - connected-papers
+  - consensus
+  - scite-ai
+  - zotero-ai
+  - mendeley
+  - turnitin-ai
+  - gptzero
+  - copyleaks-ai
+  - gradescope
+  - overleaf
   - notebooklm
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - gamma
-  - turnitin-ai
-  - consensus
-
+  - canva
 ---

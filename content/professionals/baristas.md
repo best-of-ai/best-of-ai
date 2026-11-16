@@ -11,16 +11,17 @@ categories:
   - business-tools
   - productivity
   - hr
-featured_tools:
-  - chatgpt
+specific_tools:
   - toast
   - square
-  - 7shifts
   - marketman
-  - clickup
-  - slack-ai
-  - akiflow
-  - sunsama
-  - hubspot-business
-
+  - 7shifts
+  - deputy
+general_tools:
+  - chatgpt
+  - claude
+  - canva
+  - capcut
+  - mailchimp
+  - todoist
 ---

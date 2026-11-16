@@ -1,0 +1,3 @@
+---
+title: 'StyleSeat Alternatives'
+---

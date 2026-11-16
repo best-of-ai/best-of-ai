@@ -11,14 +11,18 @@ categories:
   - research-tools
   - productivity
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - lexicomp
   - medisafe
+  - mytherapy
+  - openevidence
+  - uptodate
+  - doximity
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
   - scispace
   - elicit
   - notebooklm
-  - grammarly
-  - perplexity-research
-
 ---

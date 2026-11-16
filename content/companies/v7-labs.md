@@ -11,6 +11,7 @@ headquarters: 'London, United Kingdom'
 founders:
   - 'Alberto Rizzoli'
   - 'Simon Edwardsson'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

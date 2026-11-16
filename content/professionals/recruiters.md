@@ -12,14 +12,29 @@ categories:
   - automation
   - crm
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
   - greenhouse
-  - linkedin
-  - textio
+  - lever
+  - ashby
+  - workable
+  - smartrecruiters
+  - gem
+  - seekout
+  - beamery
   - eightfold-ai
   - hirevue
-  - zapier
+  - hiredscore
+  - paradox-ai
+  - textio
+  - linkedin-sales-navigator
+  - hunter
+  - lusha
+  - apollo
+general_tools:
+  - chatgpt
+  - claude
+  - linkedin
+  - calendly
   - grammarly
-
+  - zapier
 ---

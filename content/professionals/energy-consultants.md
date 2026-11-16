@@ -12,15 +12,21 @@ categories:
   - research-tools
   - writing-assistants
   - cleantech
-featured_tools:
-  - chatgpt
+specific_tools:
   - aurora-solar
+  - opensolar
   - uplight
   - autogrid
   - energycap
+  - stem-ai
+  - cognite
+  - arcadia
+  - palmetto
+  - aveva
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - notebooklm
-  - copy-ai
   - grammarly
-
 ---

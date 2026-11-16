@@ -11,14 +11,18 @@ categories:
   - audio
   - document-ai
   - productivity
-featured_tools:
-  - chatgpt
-  - otter-ai
+specific_tools:
+  - theraplatform
+  - simplepractice
+  - jane-app
+  - heidi-health
+  - speechify
+  - naturalreader
   - elevenlabs
-  - murf
+general_tools:
+  - chatgpt
+  - claude
+  - otter-ai
   - notebooklm
   - grammarly
-  - adobe-podcast
-  - adobe-acrobat-ai
-
 ---

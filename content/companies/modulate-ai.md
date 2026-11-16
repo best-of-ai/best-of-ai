@@ -11,6 +11,7 @@ headquarters: 'Cambridge, Massachusetts'
 founders:
   - 'Mike Pappas'
   - 'Carter Huffman'
+ai_native: true
 date: '2026-07-16'
 rank: 5
 ---

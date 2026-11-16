@@ -12,16 +12,19 @@ categories:
   - marketing
   - automation
   - sentiment-analysis
-featured_tools:
-  - chatgpt
+specific_tools:
   - meltwater
-  - sprout-social
   - brandwatch
-  - monkeylearn
+  - talkwalker
+  - muck-rack
+  - sprout-social
+  - everbridge
+  - sprinklr
+  - cision
+general_tools:
+  - chatgpt
+  - claude
   - grammarly
   - zapier
   - slack-ai
-  - buffer
-  - copy-ai
-
 ---

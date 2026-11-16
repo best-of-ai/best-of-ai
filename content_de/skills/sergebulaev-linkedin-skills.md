@@ -1,0 +1,22 @@
+---
+title: 'linkedin-skills'
+name: 'linkedin-skills'
+slug: 'sergebulaev-linkedin-skills'
+subtitle: 'Zwölf Skills für Gründer:innen, die auf LinkedIn schreiben und ihre Präsenz pflegen.'
+description: 'Das Plugin wird aktiviert, wenn du nach LinkedIn fragst. Optional kannst du LinkedIn-Daten über Apify auslesen und automatische Beiträge einrichten. Es lässt sich in Codex CLI, claude.ai, Claude Desktop, Claude Code, OpenClaw und Hermes Agent installieren.'
+author: 'sergebulaev'
+skill_type: 'Communication & Writing'
+source_url: 'https://github.com/sergebulaev/linkedin-skills'
+compatible_with: ['Claude Code', 'Codex']
+install: 'In claude.ai open Customize, add a marketplace from a repository, and paste sergebulaev/linkedin-skills. Codex users run codex plugin marketplace add sergebulaev/linkedin-skills.'
+price: 'Free'
+open_source: true
+license: 'MIT'
+stars: 5727
+stars_this_week: 0
+stars_updated: '2026-11-08'
+rank: 6
+date: '2026-11-08'
+tags: [linkedin, social-media, content, marketing]
+i18n_source: '4ab0cd9fbf8c'
+---

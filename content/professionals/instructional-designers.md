@@ -13,16 +13,25 @@ categories:
   - writing-assistants
   - audio
   - talking-avatar-generator
-featured_tools:
-  - chatgpt
-  - synthesia
-  - heygen
+specific_tools:
   - articulate-360
+  - adobe-captivate
+  - 360learning
   - docebo
   - quizgecko
+  - synthesia
+  - heygen
+  - colossyan
+  - elai
+  - elevenlabs
+  - xpilot-ai
+  - schole
+  - thea-ai
+  - storylane
+general_tools:
+  - chatgpt
+  - claude
   - gamma
   - canva
-  - elevenlabs
   - adobe-podcast
-
 ---

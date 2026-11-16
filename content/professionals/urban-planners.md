@@ -12,14 +12,21 @@ categories:
   - research-tools
   - data
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - urbanfootprint
   - arcgis
+  - qgis
+  - carto
+  - felt
   - spacemaker-ai
   - mapbox
+  - fiscalnote
+  - google-earth-engine
+general_tools:
+  - chatgpt
+  - claude
   - tableau
   - drawio
   - notebooklm
   - grammarly
-
 ---

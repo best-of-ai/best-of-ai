@@ -11,16 +11,27 @@ categories:
   - image-generation
   - 3d
   - animation
-featured_tools:
-  - runway
+specific_tools:
+  - houdini
+  - blender
+  - autodesk-maya
+  - cinema-4d
   - after-effects
-  - midjourney
-  - stable-diffusion
+  - zbrush
+  - adobe-substance-3d
+  - unreal-engine
+  - runway
   - topaz-video-ai
   - tripo3d
-  - ideogram
-  - adobe-premiere-pro-ai
+  - meshy-ai
+  - luma-ai
+  - metahuman
+  - davinci-resolve
+  - comfyui
+general_tools:
+  - midjourney
+  - stable-diffusion
   - flux
-  - alpha3d
-
+  - ideogram
+  - chatgpt
 ---

@@ -11,15 +11,21 @@ categories:
   - finance
   - compliance
   - document-ai
-featured_tools:
-  - chatgpt
+specific_tools:
   - gusto
-  - deel
   - adp
+  - paychex
+  - paycom
+  - paylocity
+  - ukg
+  - deel
+  - remote-com
+  - rippling-ai
+  - justworks
   - abbyy
+general_tools:
+  - chatgpt
+  - claude
   - adobe-acrobat-ai
-  - onetrust
   - notebooklm
-  - 15five-ai
-
 ---

@@ -16,16 +16,31 @@ categories:
   - talking-avatar-generator
   - video
   - dubbing
-featured_tools:
-  - chatgpt
+specific_tools:
   - capcut
-  - runway
   - opus-clip
-  - midjourney
-  - elevenlabs
   - invideo
-  - adobe-premiere-pro-ai
+  - veed-io
+  - descript
+  - captions-ai
+  - klap
+  - vizard
+  - submagic
+  - runway
   - luma-dream-machine
-  - sora
-
+  - kling-ai
+  - veo-3
+  - pika-labs
+  - heygen
+  - elevenlabs
+  - vidiq
+  - tubebuddy
+  - thumbnailcreator
+general_tools:
+  - chatgpt
+  - claude
+  - midjourney
+  - adobe-premiere-pro-ai
+  - davinci-resolve
+  - canva
 ---

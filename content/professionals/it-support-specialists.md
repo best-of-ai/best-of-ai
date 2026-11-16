@@ -12,16 +12,19 @@ categories:
   - knowledge-management
   - chatbots
   - productivity
-featured_tools:
-  - chatgpt
+specific_tools:
   - moveworks
   - servicenow
   - zendesk
   - freshdesk
   - intercom
+  - aisera
+  - help-scout
+  - front
+general_tools:
+  - chatgpt
+  - claude
   - notion-ai
   - zapier
-  - claude
   - gemini
-
 ---

@@ -1,0 +1,19 @@
+{{/*
+  Language select. Used in the navbar (row 2), the mobile drawer and the footer.
+  The header and footer are cached per language, so this markup cannot hold per-page URLs:
+  static/js/lang-switch.js builds the target URL from the current path (slugs are identical in every
+  language, only the /<lang>/ prefix differs) and saves the choice in localStorage.
+  Usage: {{ partial "lang-switcher.html" (dict "page" . "where" "header") }}
+*/}}
+{{- $page := .page -}}
+{{- if gt (len site.Languages) 1 -}}
+<label class="lang-switch lang-switch--{{ .where }}">
+  <svg class="lang-switch__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+  <select class="lang-switch__select" data-lang-switch aria-label="{{ i18n "language" }}">
+    {{- range site.Languages }}
+    <option value="{{ .Lang }}" lang="{{ .Lang }}"{{ if eq .Lang $page.Language.Lang }} selected{{ end }}>{{ .Label }}</option>
+    {{- end }}
+  </select>
+  <svg class="lang-switch__chev" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+</label>
+{{- end -}}

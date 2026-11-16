@@ -24,9 +24,10 @@
   function applyState(btn, saved) {
     btn.classList.toggle('is-saved', saved);
     btn.setAttribute('aria-pressed', String(saved));
-    btn.title = saved ? 'Remove from saved' : 'Save tool';
+    var T = window.BAI_I18N || {};
+    btn.title = saved ? (T.removeFromSaved || 'Remove from saved') : (T.saveTool || 'Save tool');
     var label = btn.querySelector('.save-label');
-    if (label) label.textContent = saved ? 'Saved' : 'Save';
+    if (label) label.textContent = saved ? (T.saved || 'Saved') : (T.save || 'Save');
   }
 
   function updateCount() {
@@ -61,7 +62,7 @@
     updateCount();
 
     // On /saved page: remove the card when unsaved
-    if (!nowSaved && window.location.pathname.replace(/\/$/, '') === '/saved') {
+    if (!nowSaved && window.location.pathname.replace(/^\/(?!saved)[a-z]{2}(?=\/)/, '').replace(/\/$/, '') === '/saved') {
       var card = btn.closest('.tool-card');
       if (card) {
         card.remove();

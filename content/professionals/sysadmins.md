@@ -12,14 +12,24 @@ categories:
   - automation
   - observability
   - cybersecurity
-featured_tools:
-  - chatgpt
+specific_tools:
   - datadog
   - pagerduty
+  - grafana
+  - splunk
+  - new-relic
+  - better-stack
+  - terraform
+  - ansible
+  - okta
+  - microsoft-entra-id
+  - snyk-ai
+  - tenable
+general_tools:
+  - chatgpt
+  - claude
   - github-copilot
   - cursor
-  - snyk-ai
   - n8n
   - zapier
-
 ---

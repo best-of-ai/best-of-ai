@@ -12,12 +12,16 @@ categories:
   - productivity
   - knowledge-management
   - note-taking-apps
-featured_tools:
-  - chatgpt
+specific_tools:
   - grammarly
-  - notion-ai
   - hemingway-editor
   - prowritingaid
+  - languagetool
   - wordtune
-
+  - textio
+  - figma
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
 ---

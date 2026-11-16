@@ -14,16 +14,27 @@ categories:
   - audio
   - ar-vr
   - animation
-featured_tools:
+specific_tools:
+  - unreal-engine
+  - unity
+  - godot
+  - inworld-ai
+  - convai
+  - promethean-ai
+  - scenario
+  - ludo-ai
+  - charisma-ai
+  - tripo3d
+  - meshy-ai
+  - elevenlabs
+  - suno
+  - blender
+  - leonardo-ai
+  - unakin
+general_tools:
   - github-copilot
   - cursor
   - chatgpt
+  - claude
   - midjourney
-  - elevenlabs
-  - suno
-  - tripo3d
-  - inworld-ai
-  - promethean-ai
-  - aider
-
 ---

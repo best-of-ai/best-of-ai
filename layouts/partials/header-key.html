@@ -1,0 +1,8 @@
+{{/*
+  Cache key for header.html. The header only varies by the current section, the
+  home flag, and the fixed pages it highlights (no active category/slug), so it
+  needs far fewer variants than nav-key.html.
+*/}}
+{{- $fixed := "" -}}
+{{- if in (slice "/new/" "/leaderboard/" "/free/" "/submit/" "/saved/" "/contribute/") (partial "page-path.html" .) }}{{ $fixed = partial "page-path.html" . }}{{ end -}}
+{{- return printf "%s|%s|%t|%s" .Language.Lang .Section .IsHome $fixed -}}

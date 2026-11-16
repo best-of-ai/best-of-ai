@@ -11,14 +11,17 @@ categories:
   - productivity
   - learning-tools
   - automation
-featured_tools:
-  - chatgpt
+specific_tools:
   - foreflight
+  - garmin-pilot
+  - windy
+  - flightaware
+  - flightradar24
+  - accuweather
+  - tomorrow-io
+general_tools:
+  - chatgpt
+  - claude
   - gamma
   - deepl
-  - wanderlog
-  - grammarly
-  - microsoft-copilot
-  - zapier
-
 ---

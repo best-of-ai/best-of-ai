@@ -11,16 +11,19 @@ categories:
   - copywriting
   - research-tools
   - productivity
-featured_tools:
-  - chatgpt
-  - grammarly
-  - jasper
-  - prowritingaid
+specific_tools:
   - sudowrite
-  - notion-ai
+  - lex-page
+  - hyperwrite
+  - prowritingaid
+  - autocrit
   - hemingway-editor
+  - wordtune
   - otter-ai
-  - asana
-  - copy-ai
-
+  - trint
+general_tools:
+  - chatgpt
+  - claude
+  - grammarly
+  - notion-ai
 ---

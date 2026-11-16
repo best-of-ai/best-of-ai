@@ -12,16 +12,21 @@ categories:
   - automation
   - personal-assistants
   - project-management
-featured_tools:
-  - chatgpt
-  - notion-ai
-  - asana
-  - zapier
+specific_tools:
+  - nomadlist
+  - wise
   - wanderlog
+  - hopper
+  - kayak
+  - deel
+  - remote-com
+general_tools:
+  - chatgpt
+  - claude
+  - notion-ai
+  - zapier
   - slack-ai
   - reclaim-ai
   - grammarly
-  - hopper
   - linear
-
 ---

@@ -11,6 +11,7 @@ headquarters: 'Palo Alto, California'
 founders:
   - 'Assaf Wand'
   - 'Eyal Navon'
+ai_native: false
 date: '2026-07-16'
 rank: 5
 ---

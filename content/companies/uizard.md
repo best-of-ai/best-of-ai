@@ -11,6 +11,7 @@ headquarters: 'Copenhagen, Denmark'
 founders:
   - 'Tony Beltramelli'
   - 'David Rica Peromingo'
+ai_native: true
 date: '2026-07-16'
 rank: 7
 ---

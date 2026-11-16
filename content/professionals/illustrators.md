@@ -11,16 +11,23 @@ categories:
   - graphic-design
   - image-editing
   - animation
-featured_tools:
+specific_tools:
+  - procreate
+  - adobe-illustrator
+  - adobe-photoshop
+  - affinity
   - midjourney
   - stable-diffusion
   - ideogram
   - adobe-firefly
   - recraft
   - vizcom
-  - canva
-  - after-effects
   - krea-ai
+  - clip-studio-paint
+  - scenario
+general_tools:
+  - chatgpt
+  - claude
+  - canva
   - figma
-
 ---

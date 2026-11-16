@@ -12,16 +12,24 @@ categories:
   - geospatial
   - data
   - writing-assistants
-featured_tools:
-  - chatgpt
+specific_tools:
+  - wildlife-insights
+  - megadetector
+  - movebank
+  - wildbook
+  - inaturalist
+  - merlin-bird-id
+  - birdnet
+  - qgis
   - arcgis
   - planet-labs
-  - clarifai
-  - aws-rekognition
+  - roboflow
+  - cvat
+  - posit
+general_tools:
+  - chatgpt
+  - claude
   - semantic-scholar
-  - connected-papers
   - notebooklm
   - elicit
-  - tableau
-
 ---

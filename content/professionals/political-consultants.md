@@ -11,14 +11,20 @@ categories:
   - sentiment-analysis
   - marketing
   - data
-featured_tools:
-  - chatgpt
+specific_tools:
+  - ngp-van
   - nationbuilder
+  - quantilope
+  - remesh
   - brandwatch
+  - talkwalker
+  - meltwater
+  - qualtrics
+  - prolific
+general_tools:
+  - chatgpt
+  - claude
   - tableau
-  - hubspot
-  - grammarly
-  - perplexity
   - power-bi
-
+  - perplexity
 ---
