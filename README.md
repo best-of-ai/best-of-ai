@@ -7,7 +7,7 @@
 > Handpicked AI tools — no fluff, no mediocre apps. Every tool carefully selected for quality, innovation, and real-world impact.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tools](https://img.shields.io/badge/tools-2174-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
+[![Tools](https://img.shields.io/badge/tools-2175-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![Categories](https://img.shields.io/badge/categories-143-f97316?style=flat-square)](https://github.com/best-of-ai/best-of-ai)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
@@ -19,7 +19,7 @@
 
 ## What is this?
 
-**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 2174+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
+**Best of AI** is a curated, community-driven directory of the best AI tools across 143 categories. We track 2175+ tools and hand-pick the ones worth your time — filtering out the noise so you can find tools that actually deliver.
 
 What makes this list different:
 
@@ -124,7 +124,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
   - [Insurance](#insurance) (7)
   - [IoT](#iot) (4)
   - [Job Tools](#job-tools) (15)
-  - [Knowledge Management](#knowledge-management) (21)
+  - [Knowledge Management](#knowledge-management) (22)
   - [Language Learning](#language-learning) (11)
   - [Lead Generation](#lead-generation) (10)
   - [Learning Tools](#learning-tools) (43)
@@ -1348,7 +1348,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Capacities](https://capacities.io)** — [review](https://bestofai.io/tools/capacities/) — AI-enhanced personal knowledge studio ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Glean](https://glean.com)** — [review](https://bestofai.io/tools/glean/) — Enterprise AI search and assistant across all company tools ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Logseq](https://logseq.com)** — [review](https://bestofai.io/tools/logseq/) — Open-source knowledge graph with AI-powered linking ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
-- *[View all 21 Knowledge Management tools on bestofai.io →](https://bestofai.io/categories/knowledge-management/)*
+- *[View all 22 Knowledge Management tools on bestofai.io →](https://bestofai.io/categories/knowledge-management/)*
 
 ---
 
