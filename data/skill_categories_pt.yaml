@@ -1,0 +1,60 @@
+# Rótulos e descrições em português; slugs e filtros seguem os valores em inglês.
+- name: Automação de documentos
+  slug: document-automation
+  description: Skills que leem, geram ou editam arquivos do Word, PDF, Excel e PowerPoint.
+  filter_field: skill_type
+  filter_value: Document Automation
+  sort_order: 0
+- name: Desenvolvimento e engenharia
+  slug: development-engineering
+  description: Skills para criar software, servidores MCP e ferramentas para agentes.
+  filter_field: skill_type
+  filter_value: Development & Engineering
+  sort_order: 1
+- name: Revisão e qualidade de código
+  slug: code-review-quality
+  description: Skills que revisam, simplificam ou reforçam o código antes da publicação.
+  filter_field: skill_type
+  filter_value: Code Review & Quality
+  sort_order: 2
+- name: Testes e depuração
+  slug: testing-debugging
+  description: Skills que promovem o desenvolvimento orientado a testes e a investigação
+    da causa raiz.
+  filter_field: skill_type
+  filter_value: Testing & Debugging
+  sort_order: 3
+- name: Fluxos de trabalho e produtividade
+  slug: workflow-productivity
+  description: Skills para gerenciar planejamento, agendamento e o fluxo de trabalho
+    diário de agentes.
+  filter_field: skill_type
+  filter_value: Workflow & Productivity
+  sort_order: 4
+- name: Design e criação
+  slug: design-creative
+  description: Skills para design visual, ilustração e geração de recursos criativos.
+  filter_field: skill_type
+  filter_value: Design & Creative
+  sort_order: 5
+- name: Comunicação e escrita
+  slug: communication-writing
+  description: Skills para redigir comunicações internas, ajustar o tom e calibrar
+    mensagens.
+  filter_field: skill_type
+  filter_value: Communication & Writing
+  sort_order: 6
+- name: Negócios e finanças
+  slug: business-finance
+  description: Skills para declaração de impostos, análise de comércio eletrônico
+    e outros fluxos de trabalho empresariais.
+  filter_field: skill_type
+  filter_value: Business & Finance
+  sort_order: 7
+- name: Automação de navegador e agentes
+  slug: browser-agent-automation
+  description: Skills que permitem a um agente controlar diretamente um navegador
+    ou outras ferramentas em tempo real.
+  filter_field: skill_type
+  filter_value: Browser & Agent Automation
+  sort_order: 8

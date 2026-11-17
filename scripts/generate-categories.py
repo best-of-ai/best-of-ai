@@ -36,6 +36,11 @@ LANG_OVERLAYS = {
         "out": ROOT / "content_de" / "categories",
         "title": "Die besten KI-Tools: {name}",
     },
+    "pt": {
+        "file": ROOT / "data" / "categories_pt.yaml",
+        "out": ROOT / "content_pt" / "categories",
+        "title": "Melhores ferramentas de IA: {name}",
+    },
 }
 
 

@@ -1,0 +1,64 @@
+# Rótulos e descrições em português; slugs e filtros seguem os valores em inglês.
+- name: Linguagem
+  slug: language
+  description: Grandes modelos de linguagem para conversas, escrita e tarefas gerais
+    com texto.
+  filter_field: model_type
+  filter_value: Language
+  sort_order: 0
+- name: Multimodal
+  slug: multimodal
+  description: Modelos que trabalham com texto, imagens, áudio ou vídeo em um único
+    sistema.
+  filter_field: model_type
+  filter_value: Multimodal
+  sort_order: 1
+- name: Raciocínio
+  slug: reasoning
+  description: Modelos ajustados para raciocinar em várias etapas, resolver problemas
+    matemáticos e lidar com desafios complexos.
+  filter_field: model_type
+  filter_value: Reasoning
+  sort_order: 2
+- name: Geração de imagens
+  slug: image-generation
+  description: Modelos que geram ou editam imagens a partir de prompts de texto e
+    imagem.
+  filter_field: model_type
+  filter_value: Image Generation
+  sort_order: 3
+- name: Geração de áudio
+  slug: audio-generation
+  description: Modelos que geram fala, música e outros tipos de áudio a partir de
+    prompts de texto ou áudio.
+  filter_field: model_type
+  filter_value: Audio Generation
+  sort_order: 4
+- name: Geração de vídeo
+  slug: video-generation
+  description: Modelos que geram ou editam clipes de vídeo a partir de prompts de
+    texto, imagem ou vídeo.
+  filter_field: model_type
+  filter_value: Video Generation
+  sort_order: 5
+- name: Embeddings
+  slug: embedding
+  description: Modelos que convertem texto, imagens ou áudio em embeddings vetoriais
+    para busca e recuperação.
+  filter_field: model_type
+  filter_value: Embedding
+  sort_order: 6
+- name: Código
+  slug: code
+  description: Modelos treinados para completar e gerar código e executar tarefas
+    de engenharia de software.
+  filter_field: model_type
+  filter_value: Code
+  sort_order: 7
+- name: Execução local
+  slug: runs-at-home
+  description: Modelos de pesos abertos que você pode baixar e executar no seu próprio
+    hardware.
+  filter_field: runs_at_home
+  filter_value: 'true'
+  sort_order: 8

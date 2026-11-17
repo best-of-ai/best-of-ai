@@ -1,0 +1,1017 @@
+# Traduções da interface em português. As chaves correspondem a i18n/en.yaml.
+page_not_found: Página não encontrada.
+the_page_youre_looking_for_doesnt: A página que você procura não existe ou pode ter
+  sido movida.
+back_to_home: Voltar ao início
+an_open_source_directory_free_to: 'Um diretório de código aberto: gratuito para explorar,
+  gratuito para usar e aberto a todos.'
+tools: ferramentas
+categories: categorias
+open_source: código aberto
+free_forever: gratuito para sempre
+what_this_is: // o que é isto
+the_data_lives_in_plain_markdown: Os dados ficam em arquivos Markdown simples, um
+  por ferramenta, em um repositório público. Qualquer pessoa pode ler, consultar ou
+  usar esse conteúdo como base para outro projeto.
+open_data_free_to_use: // dados abertos e gratuitos para usar
+each_tool_entry_is_a_markdown: 'Cada ferramenta tem um arquivo Markdown com um formato
+  de metadados consistente: nome, descrição, site, categoria, preço e tags. Se você
+  está criando um projeto que precisa de uma lista estruturada de ferramentas de IA,
+  os dados estão disponíveis para você usar.'
+most_ai_tool_directories_sit_behind: A maioria dos diretórios de ferramentas de IA
+  exige login ou cobra pelo acesso aos dados. Este não. A ideia é facilitar a busca
+  pela ferramenta certa para todos, não só para quem pode pagar uma assinatura.
+contributing: // como contribuir
+this_runs_on_pull_requests_if: Tudo funciona por pull requests. Se uma ferramenta
+  estiver faltando, uma descrição estiver errada ou uma categoria não fizer sentido,
+  abra uma issue ou envie uma correção pelo GitHub. Você não precisa pedir permissão
+  para melhorar os dados.
+open_source_2: // código aberto
+contribute: Contribuir
+the_community_built_this_and_keeps: A comunidade criou este projeto e o mantém. Todos
+  os dados são arquivos Markdown no GitHub; não há banco de dados nem back-end. Se
+  o diretório foi útil para você, ajude a mantê-lo atualizado.
+submit_a_tool_model_or_hardware: Enviar uma ferramenta, um modelo ou um componente
+  de hardware
+know_an_ai_tool_model_or: Conhece uma ferramenta de IA, um modelo ou um componente
+  de hardware que ainda não está aqui? Adicione-o pelo nosso site de envios.
+suggest_an_edit: Sugerir uma edição
+something_off_about_a_listing_fix: Encontrou algo errado em uma ficha? Corrija a URL,
+  a descrição ou a categoria sem remover o restante.
+suggest_a_ranking_change: Sugerir uma alteração no ranking
+think_a_tool_deserves_a_different: Acha que uma ferramenta merece outra posição no
+  ranking? Conte-nos por quê.
+report_a_tool: Relatar uma ferramenta
+dead_link_abandoned_project_something_that: Link quebrado? Projeto abandonado? Algo
+  que não deveria estar aqui? Avise-nos.
+how_it_works: // como funciona
+correct_a_listing: // corrigir uma ficha
+wrong_url_description_category_or_pricing: URL, descrição, categoria ou preço incorretos?
+  Conte-nos o que está errado e qual seria o valor correto. Ao enviar, você abre uma
+  issue do GitHub já preenchida.
+suggest_an_edit_2: sugerir uma edição
+you_only_need_a_github_account: Você só precisa de uma conta do GitHub para publicar.
+tool_name: Nome da ferramenta
+name_is_required: O nome é obrigatório.
+tool_url: URL da ferramenta
+whats_wrong: O que está errado?
+e_g_the_website_url_changed: 'por exemplo: a URL do site mudou, o preço está errado
+  ou a categoria não é adequada.'
+please_describe_whats_wrong: Descreva o que está errado.
+correct_value: Valor correto
+what_should_it_say_instead: O que deveria constar no lugar?
+please_provide_the_correct_value: Informe o valor correto.
+what_we_fix: // o que corrigimos
+wrong_urls_outdated_descriptions_wrong_categorie: URLs incorretas, descrições desatualizadas,
+  categorias erradas e preços que mudaram. Se a ferramenta ainda existe, mas a ficha
+  tem algum problema, use este formulário.
+prefer_a_pull_request: // prefere abrir um pull request?
+reporting_a_dead_tool: // vai relatar uma ferramenta desativada?
+e_g_midjourney: 'por exemplo: Midjourney'
+describe_whats_incorrect: Descreva o que está incorreto...
+the_correct_information: As informações corretas...
+home: Início
+free_tools: Ferramentas gratuitas
+writing_tools_image_generators_coding_helpers: 'Ferramentas de escrita, geradores
+  de imagens e assistentes de programação: muitas das melhores podem ser testadas
+  sem pagar. Esta lista reúne ferramentas com um plano gratuito que realmente é útil.'
+free_freemium: gratuitas e freemium
+all: todas
+free_2: gratuitas
+freemium: freemium
+no_tools_found: Nenhuma ferramenta encontrada.
+common_questions: // perguntas frequentes
+what_is_the_difference_between_free: Qual é a diferença entre ferramentas de IA gratuitas
+  e freemium?
+free_tools_cost_nothing_freemium_tools: As ferramentas gratuitas não custam nada.
+  As freemium oferecem um plano gratuito com uso ou recursos limitados; os planos
+  pagos liberam mais.
+are_these_ai_tools_actually_free: Estas ferramentas de IA são realmente gratuitas?
+yes_every_tool_listed_here_is: Sim. Todas as ferramentas desta lista são gratuitas
+  ou oferecem um plano gratuito que você pode usar sem cartão de crédito.
+which_free_ai_tools_are_best: Quais são as melhores ferramentas de IA gratuitas para
+  escrita?
+are_there_free_ai_tools_for: Há ferramentas de IA gratuitas para gerar imagens?
+search_tools: Buscar ferramentas...
+search_free_tools: Buscar ferramentas gratuitas
+help_us_improve: // ajude-nos a melhorar
+keep_the_directory_honest: Ajude a manter o diretório confiável
+the_leaderboard_is_updated_by_hand: O ranking é atualizado manualmente com base no
+  que as pessoas relatam. Se uma ferramenta estiver faltando, tiver uma posição que
+  já não faz sentido ou tiver sido encerrada, ficamos sabendo quando alguém nos avisa.
+leaderboard: ranking
+tell_us_what_should_change_and: Conte-nos o que deveria mudar e por quê. Analisamos
+  todos os relatos.
+what_are_you_suggesting: O que você sugere?
+add_a_tool: Adicionar uma ferramenta
+remove_a_tool: Remover uma ferramenta
+please_pick_an_action: Escolha uma ação.
+why: Por quê?
+is_it_widely_used_should_it: A ferramenta é muito usada? Deveria estar na lista, mas
+  não está? Ou ocupa uma posição que já não merece?
+please_explain_your_reasoning: Explique seu raciocínio.
+also: também
+wrong_url_description_category_or_pricing_2: URL, descrição, categoria ou preço incorretos?
+  Corrija a ficha sem removê-la.
+leaderboard_criteria: // critérios do ranking
+usage_matters_but_the_leaderboard_isnt: O uso importa, mas o ranking não é uma simples
+  lista de popularidade. Uma boa ferramenta com poucos usuários pode merecer um lugar.
+  Uma ferramenta viral que não funciona, provavelmente não. Avaliamos se ela cumpre
+  o que promete para quem a usa.
+what_gets_removed: // o que é removido
+we_remove_tools_that_have_gone: Removemos ferramentas que saíram do ar, projetos que
+  ficaram muito tempo sem atividade, produtos lançados com o rótulo de IA que nunca
+  chegaram a funcionar e clones sem uma base real de usuários.
+what_happens_next: // o que acontece depois
+report_posted: Relato enviado
+your_report_goes_into_the_github: Seu relato entra na fila de issues do GitHub. Você
+  pode acompanhá-lo lá e acrescentar contexto, se necessário.
+maintainers_review: A equipe mantenedora analisa
+reports_are_checked_in_batches_usually: Os relatos são analisados em lotes, geralmente
+  em poucos dias. Se precisarmos de mais informações, comentaremos na issue.
+change_goes_live: A alteração é publicada
+accepted_changes_go_live_after_the: As alterações aceitas entram no próximo deploy.
+  A issue é encerrada com uma observação sobre o que mudou.
+tell_us_why: Conte-nos por quê...
+leaderboard_2: Ranking
+archive: Arquivo
+ai_tools_leaderboard: Ranking de ferramentas de IA
+past_snapshots_of_the_ai_tools: Versões anteriores do ranking de ferramentas de IA.
+  Cada uma é congelada no fim do mês, para que você possa acompanhar as mudanças nas
+  posições.
+current_leaderboard: Ranking atual
+snapshots: versões mensais
+improve_this_list: melhorar esta lista
+monthly_snapshots: // versões mensais
+live: Atual
+frozen: Arquivado
+new: novo
+frozen_snapshot: versão arquivada
+all_archives: todos os arquivos
+other_monthly_snapshots: Outras versões mensais
+best_ai_tools: Melhores ferramentas de IA
+browse_the_archive: Explorar o arquivo
+biggest_climber: maior subida
+recently_added: Adicionadas recentemente
+added: Adicionada
+the_newest_tools_added_to_best: As ferramentas mais recentes adicionadas ao Best of
+  AI, da mais nova para a mais antiga.
+newest_first: mais recentes primeiro
+new_ai_tools_added_to_the: Novas ferramentas de IA adicionadas ao diretório. Veja
+  lançamentos recentes e ferramentas que vale a pena conhecer.
+sorted_by_date_added: ordenadas pela data de inclusão
+paid: pago
+no_tools_match_your_search: Nenhuma ferramenta corresponde à sua busca.
+search_recently_added_tools: Buscar ferramentas adicionadas recentemente
+leaderboard_3: // ranking
+the_leaderboard_is_maintained_by_hand: O ranking é atualizado manualmente. Se uma ferramenta
+  merece uma posição mais alta ou mais baixa, ou não deveria estar na lista, conte-nos por quê.
+ranking: ranking
+how_ranking_works: // como funciona o ranking
+suggestion_posted: Sugestão enviada
+goes_into_the_github_issues_queue: A sugestão entra na fila de issues do GitHub. Você
+  pode acompanhá-la e adicionar contexto por lá.
+checked_in_batches_usually_within_a: As sugestões são analisadas em lotes, geralmente
+  em poucos dias. Se precisarmos de mais informações, comentaremos na issue.
+view_the_leaderboard: // ver o ranking
+report_a_problem: // relatar um problema
+for_dead_links_abandoned_projects_spam: Para links quebrados, projetos abandonados,
+  spam e ferramentas que nunca chegaram a funcionar. Ao enviar, você abre uma issue
+  do GitHub já preenchida. Só precisa de uma conta do GitHub para publicá-la.
+report_a_tool_2: relatar uma ferramenta
+pick_a_reason_below_itll_write: Escolha um motivo abaixo. Vamos preencher um texto
+  inicial no campo de detalhes para você editar.
+reason: Motivo
+dead_domain_gone: Link quebrado / domínio fora do ar
+abandoned: Abandonado
+never_shipped: Nunca lançado
+low_quality: Baixa qualidade
+spam_clone: Spam / clone
+please_pick_a_reason: Escolha um motivo.
+details: Detalhes
+please_add_some_details: Acrescente alguns detalhes.
+wrong_info_instead: informações incorretas?
+suggest_an_edit_instead: Sugira uma edição
+wrong_url_description_category_or_pricing_3: URL, descrição, categoria ou preço incorretos?
+  Corrija a ficha sem removê-la.
+we_remove_tools_that_have_gone_2: Removemos ferramentas que saíram do ar, projetos
+  que ficaram muito tempo sem atividade, produtos lançados com o rótulo de IA que
+  nunca chegaram a funcionar e clones sem uma base real de usuários.
+accepted_removals_go_live_after_the: As remoções aceitas entram no próximo deploy.
+  A issue é encerrada com uma observação sobre o que mudou.
+e_g_sometool_ai: 'por exemplo: SomeTool AI'
+select_a_reason_above_to_get: Selecione um motivo acima para preencher um texto inicial...
+saved_tools: Ferramentas salvas
+tools_youve_bookmarked_to_revisit_later: Ferramentas que você salvou para consultar
+  novamente mais tarde.
+no_saved_tools_yet: Você ainda não salvou nenhuma ferramenta.
+browse_ai_tools: Explorar ferramentas de IA
+get_listed: // apareça no diretório
+submit_your_ai_tool: Envie sua ferramenta de IA
+one_approval_gets_you_listed_everywhere: 'Com uma aprovação, sua ferramenta aparece
+  nos lugares em que as pessoas procuram ferramentas de IA: na página da categoria,
+  nas páginas de profissões relevantes, nas páginas de alternativas e muito mais.'
+free_reviewed_by_hand_usually_within: Gratuito. A análise é feita manualmente, geralmente
+  em poucos dias.
+tools_listed: ferramentas listadas
+professions: profissões
+where_youll_show_up: // onde sua ferramenta aparece
+everywhere_people_look_for_ai_tools: Onde as pessoas procuram ferramentas de IA
+a_directory_listing_is_just_the: A ficha no diretório é só o começo. Depois da aprovação,
+  sua ferramenta também aparece em outras áreas do Best of AI. Você não precisa fazer
+  mais nada.
+listed_under_professionals: Listada em Profissionais
+shown_on_professionals_where_people_browse: Aparece em /professionals, onde as pessoas
+  encontram ferramentas pelo tipo de trabalho, e não apenas pelo nome da categoria.
+on_competitors_alternative_pages: Nas páginas de alternativas a concorrentes
+most_major_tools_in_your_space: Muitas das principais ferramentas da sua área já têm
+  uma página de alternativas aqui. Depois de listada, sua ferramenta aparece entre
+  as opções que as pessoas comparam.
+on_the_homepage_and_your_category: Na página inicial e na sua categoria
+new_2: Nova
+new_approvals_show_up_in_recently: Novas aprovações aparecem em Adicionadas recentemente
+  na página inicial e ficam na página da categoria.
+in_the_newsletter: Na newsletter
+approved_tools_get_a_mention_in: As ferramentas aprovadas são mencionadas na newsletter,
+  enviada a mais de 10 mil pessoas que se inscreveram para conhecer novas ferramentas
+  de IA.
+on_our_github_awesome_list: Na nossa lista awesome do GitHub
+eligible_for_the_leaderboard: Pode entrar no ranking
+once_youre_listed_your_tool_can: Depois de listada, sua ferramenta pode subir no ranking
+  e disputar um dos espaços de maior destaque do site.
+a_real_direct_follow_backlink: Um backlink direto e rastreável
+every_listing_links_straight_to_your: Cada ficha tem um link direto para o seu site,
+  não um link nofollow escondido no rodapé. Os mecanismos de busca consideram esse
+  link.
+what_gets_approved: // o que é aprovado
+we_only_list_tools_that_actually: Só listamos ferramentas que funcionam. O site precisa
+  abrir, o recurso de IA precisa ser real e a ferramenta deve cumprir, em linhas gerais,
+  o que promete na página inicial.
+wrapper_apps_that_call_someone_elses: Aplicativos que usam a API de outra empresa
+  são aceitos, desde que acrescentem algo útil. Uma simples mudança de aparência,
+  sem nada por trás, não basta.
+if_your_tool_is_still_in: Se sua ferramenta ainda estiver em beta fechado ou numa
+  lista de espera, envie-a mesmo assim e informe isso no formulário. Vamos listá-la
+  quando estiver aberta ao público.
+while_your_tool_is_in_review: Enquanto analisamos sua ferramenta, uma estrela no nosso
+  repositório do GitHub ajuda as pessoas a ver que a lista é mantida de verdade.
+not_sure_which_category_fits: // não sabe qual categoria escolher?
+all_categories: Todas as categorias →
+frequently_asked: // perguntas frequentes
+how_do_i_submit_my_ai: Como envio minha ferramenta de IA?
+is_it_free_to_get_listed: A inclusão no diretório é gratuita?
+yes_theres_no_fee_to_submit: Sim. Não há taxa para enviar uma ferramenta nem para
+  mantê-la no diretório.
+how_long_does_review_take: Quanto tempo leva a análise?
+most_submissions_get_reviewed_within_a: A maioria dos envios é analisada em poucos
+  dias. Depois da aprovação, a ficha é publicada no próximo deploy do site.
+what_happens_after_my_tool_is: O que acontece depois que minha ferramenta é aprovada?
+it_gets_placed_on_your_category: Ela aparece na página da categoria, nas páginas de
+  profissões relevantes, nas páginas de alternativas correspondentes, na seção Adicionadas
+  recentemente da página inicial e na nossa lista awesome do GitHub. Também pode entrar
+  no ranking e recebe um backlink direto para o site.
+why_wasnt_my_tool_approved: Por que minha ferramenta não foi aprovada?
+usually_because_the_site_didnt_load: Geralmente, porque o site não abriu, o recurso
+  de IA não era real ou não havia uma categoria adequada. Corrija o problema e envie
+  novamente. Não há limite de reenvios.
+ready_to_get_listed: Pronto para aparecer no diretório?
+submission_takes_about_two_minutes_every: O envio leva cerca de dois minutos. Todas
+  as ferramentas são analisadas manualmente, não por um script.
+alternatives: Alternativas
+ai_tool_alternatives: Alternativas a ferramentas de IA
+compare_the_best_alternatives_to_popular: Compare as melhores alternativas a ferramentas
+  populares de IA e encontre a que combina com seu fluxo de trabalho.
+comparison_pages: páginas de comparação
+handpicked_curated: selecionadas a dedo
+alternatives_2: alternativas
+curated_picks: seleções editoriais
+no_alternatives_listed_yet: Nenhuma alternativa listada ainda.
+compare_other_tools: // compare outras ferramentas
+categories_2: Categorias
+ai_tool_categories: Categorias de ferramentas de IA
+price: // preço
+no_tools_in_this_category_yet: Ainda não há ferramentas nesta categoria.
+browse_other_categories: // explorar outras categorias
+companies: Empresas
+who_is_building_the_ai_tools: Conheça as empresas por trás das ferramentas de IA que
+  você usa. Cada empresa listada tem pelo menos um produto no diretório, além de sede,
+  ano de fundação e links para seus produtos.
+companies_2: empresas
+sort_by: // ordenar por
+popularity: popularidade
+founded_year: ano de fundação
+type: // tipo
+ai_native: nativa de IA
+established: estabelecida
+no_companies_match_your_search: Nenhuma empresa corresponde à sua busca.
+about_this_list: Sobre esta lista
+switch_to_founded_year_to_see: Ordene pelo ano de fundação para ver as empresas mais
+  antigas ou busque por cidade para encontrar quem está desenvolvendo IA perto de
+  você. Abra uma ficha para ver produtos, fundadores e ferramentas da empresa.
+search_companies_by_name_or_headquarters: Buscar empresas por nome ou sede...
+search_companies: Buscar empresas
+sort_companies: Ordenar empresas
+filter_by_ai_native: Filtrar por empresa nativa de IA
+built_around_ai_from_day_one: Criada em torno da IA desde o início
+tools_2: Ferramentas
+models: Modelos
+chips: Chips
+founded: Fundada
+headquarters: Sede
+works_in: // atua em
+submit_one: Enviar uma
+browse_all_ai_companies: Explorar todas as empresas de IA →
+breadcrumb: Navegação estrutural
+hardware: Hardware
+gpus_and_ai_accelerators_with_full: GPUs e aceleradores de IA com especificações completas,
+  fornecidas pelas empresas que os desenvolvem.
+parts: componentes
+manufacturers: fabricantes
+all_manufacturers: todos os fabricantes
+manufacturer: Fabricante
+type_2: Tipo
+vram: VRAM
+bandwidth: Largura de banda
+tdp: TDP
+released: Lançado
+popularity_2: Popularidade
+architecture: Arquitetura
+process_node: Processo de fabricação
+memory_type: Tipo de memória
+fp32_tflops: TFLOPS FP32
+interface: Interface
+price_2: Preço
+sorted_by_popularity_click_a_column: // ordenado por popularidade — clique em uma
+  coluna para reordenar
+no_hardware_matches_your_search: Nenhum hardware corresponde à sua busca.
+search_hardware_by_name_or_manufacturer: Buscar hardware por nome ou fabricante...
+search_hardware: Buscar hardware
+filter_by_manufacturer: Filtrar por fabricante
+visit_product_page: Visitar página do produto →
+specs: // especificações
+release_date: Data de lançamento
+process_node_2: Processo de fabricação
+memory_type_2: Tipo de memória
+memory_bus: Barramento de memória
+memory_bandwidth: Largura de banda da memória
+cores: Núcleos
+tensor_matrix_cores: Núcleos tensoriais / matriciais
+base_clock: Clock base
+boost_clock: Clock boost
+fp32_performance: Desempenho FP32
+product_page: Página do produto
+tags: Tags
+help_center: Central de ajuda
+other_help_articles: Outros artigos de ajuda
+the_best_ai_tools_handpicked_no: As melhores ferramentas de IA, selecionadas a dedo.
+  Sem enrolação nem ruído.
+free_paid: gratuitas e pagas
+filter: // filtro
+sponsored: // patrocinado
+top_100_ai_tools: 100 melhores ferramentas de IA
+recently_added_tools: Ferramentas adicionadas recentemente
+trending_skills: Skills em alta
+new_ai_models: Novos modelos de IA
+popular_ai_hardware: Hardware de IA popular
+the_ai_journal: Revista de IA
+essays_guides_and_notes_on_ai: Artigos, guias e notas sobre ferramentas de IA, escritos
+  por quem mantém este diretório.
+related_topics: Tópicos relacionados
+model_categories: Categorias de modelos
+company: Empresa
+parameters: Parâmetros
+context_window: Janela de contexto
+modality: Modalidade
+license: Licença
+open_weight: Pesos abertos
+input_price: Preço de entrada
+output_price: Preço de saída
+api_available: API disponível
+mmlu: MMLU
+humaneval: HumanEval
+lmarena_elo: LMArena Elo
+access: Acesso
+platforms: Plataformas
+sponsored_2: Patrocinado
+browse: Explorar
+all_tools: Todas as ferramentas
+ai_by_profession: IA por profissão
+browse_by_tag: Explorar por tag
+saved_tools_2: Ferramentas salvas
+professions_2: Profissões
+project: Projeto
+about: Sobre
+submit_a_tool: Enviar uma ferramenta
+report_an_issue: Relatar um problema
+resources: Recursos
+top_rated_tools: Ferramentas mais bem avaliadas
+built_with_hugo: Feito com Hugo
+hosted_on_github_pages: Hospedado no GitHub Pages
+footer_navigation: Navegação do rodapé
+gb_s_bandwidth: largura de banda em GB/s
+process: processo
+released_2: lançado
+top_categories: // principais categorias
+top_tags: // principais tags
+all_tags: Todas as tags →
+skills: Skills
+journal: Revista
+help: Ajuda
+quick_links: // links rápidos
+search_tools_and_professions: Buscar ferramentas e profissões...
+toggle_theme: Alternar tema
+open_menu: Abrir menu
+close_menu: Fechar menu
+quick_links_2: Links rápidos
+all_2: Todas
+no_tools_match_your_filters: Nenhuma ferramenta corresponde aos filtros.
+clear_filters: Limpar filtros
+places_gained: posições conquistadas,
+places_lost: posições perdidas,
+new_3: NOVA
+explore_more: // explorar mais
+free_ai_tools: Ferramentas de IA gratuitas
+recently_added_2: Adicionadas recentemente
+search_leaderboard: Buscar no ranking
+filter_by_category: Filtrar por categoria
+top_3_ai_tools: 3 melhores ferramentas de IA
+browse_more_ai_tools: Explorar mais ferramentas de IA
+places_up: posições acima
+places_down: posições abaixo
+new_since_last_month: Novas desde o mês passado
+no_change_since_last_month: Sem mudanças desde o mês passado
+no_change: Sem mudanças
+models_by_usecase: Modelos por caso de uso
+by_profession: Por profissão
+all_professions: Todas as profissões →
+skills_by_category: Skills por categoria
+filter_categories: Filtrar categorias
+context_tokens: tokens de contexto
+parameters_2: parâmetros
+license_2: licença
+arena_elo: arena elo
+foundation_models_and_llms_with_specs: Modelos de fundação e LLMs com especificações
+  e benchmarks, desenvolvidos pelos laboratórios responsáveis.
+models_2: modelos
+labs_2: laboratórios
+runs_at_home: execução local
+all_labs: todos os laboratórios
+model: Modelo
+lab: Laboratório
+params: Parâmetros
+context: Contexto
+open_weight_2: Pesos abertos
+runs_at_home_2: Execução local
+input_m: Entrada US$/M
+output_m: Saída US$/M
+lmarena: LMArena
+sorted_by_newest_click_a_column: // ordenado pelos mais recentes — clique em uma coluna
+  para reordenar
+no_models_match_your_search: Nenhum modelo corresponde à sua busca.
+search_models_by_name_or_lab: Buscar modelos por nome ou laboratório...
+search_models: Buscar modelos
+filter_by_company: Filtrar por empresa
+help_topics: Tópicos de ajuda
+esc: esc
+navigate: navegar
+open: abrir
+close: fechar
+close_search: Fechar busca
+github_repositories_that_package_agent_skills: Repositórios do GitHub que reúnem Agent
+  Skills para Claude e outros LLMs, ordenados por estrelas no GitHub.
+repos: repositórios
+authors: autores
+ranked_by_stars: ordenados por estrelas
+sort: // ordenar
+top_stars: mais estrelas
+trending: em alta
+no_skills_match_your_filter: Nenhuma skill corresponde ao filtro.
+no_skills_in_this_category_yet: Ainda não há skills nesta categoria.
+filter_skills_by_name_author_or: Filtrar skills por nome, autor ou tópico...
+save_tool: Salvar ferramenta
+no_professions_match_your_search: Nenhuma profissão corresponde à sua busca.
+search_professions: Buscar profissões...
+search_professions_2: Buscar profissões
+specific: ◎ específicas
+general: ★ gerais
+view_all: ver todas →
+no_tools_found_for_this_profession: Ainda não há ferramentas para esta profissão.
+related_professions: // profissões relacionadas
+see_all: ver todas →
+other_professions: // outras profissões
+skill_categories: Categorias de skills
+view_on_github: Ver no GitHub →
+about_2: // sobre
+how_to_install: // como instalar
+copy: copiar
+works_with: // funciona com
+whats_inside: // o que inclui
+details_2: // detalhes
+author: Autor
+github_stars: Estrelas no GitHub
+category: Categoria
+source: Fonte
+explore_ai_tools_grouped_by_topic: Explore ferramentas de IA agrupadas por tópico,
+  caso de uso e capacidade.
+tags_2: tags
+ai_tools_tagged: Ferramentas de IA com a tag
+no_tools_found_for_this_tag: Nenhuma ferramenta encontrada para esta tag.
+visit_tool: Visitar ferramenta →
+save: Salvar
+alternatives_3: // alternativas
+top_pick_for: // melhor escolha para
+pricing: Preços
+website: Site
+view_alternatives: Ver alternativas
+this_tool_is_no_longer_active: Esta ferramenta não está mais ativa.
+h1_hardware: Principais <span>componentes</span> de hardware e GPUs de IA
+h1_recently_added: <span>Ferramentas de IA</span> adicionadas recentemente
+h1_free_tools: <span>Ferramentas de IA</span> gratuitas
+h1_alternatives: Melhores alternativas ao <span>{{ .name }}</span>
+h1_skill_repos: Principais repositórios de <span>Skills</span> para agentes de LLM
+h1_agent_skills: Melhores Agent Skills de <span>{{ .name }}</span>
+h1_models: Principais <span>modelos</span> de IA e LLMs
+h1_companies: Principais <span>empresas</span> e laboratórios de IA
+n_tools:
+  one: '{{ .n }} ferramenta'
+  other: '{{ .n }} ferramentas'
+n_categories:
+  one: '{{ .n }} categoria'
+  other: '{{ .n }} categorias'
+n_professions:
+  one: '{{ .n }} profissão'
+  other: '{{ .n }} profissões'
+about_p_org: O Best of AI é um diretório selecionado de ferramentas de IA, mantido
+  pela organização <a href="{{ .url }}" target="_blank" rel="noopener">best-of-ai</a>
+  no GitHub. Não há uma empresa por trás, financiamento de capital de risco nem cobrança
+  pelo uso. A lista organiza as ferramentas para ajudar você a encontrar o que precisa
+  sem rankings patrocinados nem sites de avaliação pagos.
+about_p_index: O índice completo está disponível em <a href="{{ .url }}">/index.json</a>.
+  Você pode baixá-lo, criar uma cópia ou desenvolver algo a partir dele. Não precisa
+  de conta nem chave de API para usá-lo.
+about_p_repo: O <a href="{{ .url }}" target="_blank" rel="noopener">repositório</a>
+  tem modelos para enviar uma ferramenta ou relatar um problema. As correções costumam
+  ser integradas rapidamente. Manter os dados em arquivos simples facilita a análise
+  e a integração das contribuições.
+contribute_p_pr: 'Toda contribuição passa por uma issue ou pull request no GitHub.
+  Os dados estão em Markdown: cada ferramenta é um arquivo <code>.md</code> em <a
+  href="{{ .url }}" target="_blank" rel="noopener">content/tools/</a>. Se você conhece
+  Git, pode pular os formulários e abrir um PR diretamente.'
+edit_p_file: Edite diretamente o arquivo da ferramenta em <a href="{{ .url }}" target="_blank"
+  rel="noopener">content/tools/</a> no GitHub e abra um PR. O nome do arquivo corresponde
+  ao slug da ferramenta.
+edit_p_report: Se a ferramenta saiu do ar ou não deveria estar no diretório, use a
+  <a href="{{ .url }}">página de relato</a>.
+improve_p_file: Você pode editar diretamente os arquivos das ferramentas em <a href="{{
+  .url }}" target="_blank" rel="noopener">content/tools/</a> no GitHub e abrir um
+  PR. O nome de cada arquivo corresponde ao slug da ferramenta.
+free_faq_writing: ChatGPT, Claude e Gemini oferecem bons planos gratuitos para escrita.
+  Consulte a categoria <a href="{{ .url }}">Assistentes de escrita</a> para ver a
+  lista completa.
+free_faq_image: Sim. Várias ferramentas, incluindo o Adobe Firefly, oferecem geração
+  gratuita de imagens. Veja a categoria <a href="{{ .url }}">Geração de imagens</a>.
+lb_archive_desc: Veja como estava o ranking em {{ .period }}. Esta versão está congelada.
+  Para ver a ordem atual, consulte o <a href="{{ .url }}">ranking atual</a>.
+submit_faq_form: Acesse o formulário em <a href="{{ .url }}" target="_blank" rel="noopener">submit.bestofai.io</a>
+  e informe o nome da ferramenta, o site e uma breve descrição. Leva cerca de dois
+  minutos.
+prof_list_sub: Ferramentas de IA selecionadas para <strong>{{ .n }}</strong> profissões.
+  Encontre opções criadas para sua área.
+co_sub_lede: A lista completa de {{ .what }} da <a href="{{ .url }}">{{ .name }}</a>,
+  das mais bem avaliadas para baixo.
+companies_intro: Este diretório reúne {{ .n }} empresas de IA, de laboratórios de
+  fronteira como {{ .names }} a pequenas equipes com um único produto. A ordem padrão
+  considera primeiro a popularidade dos produtos e depois quantas ferramentas da empresa
+  estão listadas aqui.
+list_last_sep: ', e '
+date_range: '{{ .from }} a {{ .to }}'
+period_snapshot: Versão de {{ .period }}
+updated_period: Atualizado em {{ .period }}
+lb_desc: As {{ .n }} melhores ferramentas de IA, ordenadas por utilidade e impacto
+  no mundo real. O ranking é revisado mensalmente, e as versões anteriores ficam no
+  arquivo.
+see_current_rankings: Ver o ranking atual →
+submit_awesome: '{{ .repo }} é uma lista awesome do GitHub com muitas estrelas. As
+  ferramentas listadas aqui também são adicionadas a ela, que é consultada por desenvolvedores.'
+submit_cats_note: O Best of AI tem {{ .n }} categorias. Escolha a mais próxima no
+  formulário de envio; corrigiremos se não for a adequada.
+view_name: Ver {{ .name }}
+discontinued: 'Descontinuada: {{ .reason }}'
+browse_n_categories: Explore {{ .n }} categorias de ferramentas de IA selecionadas.
+browse_n_model_categories: Explore {{ .n }} categorias de modelos de IA e LLMs.
+browse_n_skill_categories: Explore {{ .n }} categorias de Agent Skills para IA.
+best_ai_cat_tools: Melhores ferramentas de IA para {{ .name }}
+founded_in: Fundada em {{ .year }}
+logo_of: Logotipo de {{ .name }}
+see_what_builds: Veja o que {{ .name }} desenvolve ↓
+answer_yes: Sim
+answer_no: Não
+name_and_ai: '{{ .name }} e IA'
+about_name: Sobre {{ .name }}
+founders: fundadores
+founder: fundador
+ai_tools_by: Ferramentas de IA de {{ .name }}
+ai_models_by: Modelos de IA de {{ .name }}
+ai_hardware_by: Hardware de IA de {{ .name }}
+view_all_n: Ver todos os {{ .n }} →
+no_tools_for: Ainda não há ferramentas de {{ .name }} listadas.
+name_faq: Perguntas frequentes sobre {{ .name }}
+more_companies_in: Mais empresas de IA em {{ .place }}
+name_sections: Seções de {{ .name }}
+back_to_name: ← Voltar para {{ .name }}
+c_about_name: // sobre {{ .name }}
+c_from_name: // de {{ .name }}
+view_all_on: Ver tudo em {{ .name }} →
+c_similar_hardware_in: // hardware semelhante em {{ .type }}
+c_similar_hardware: // hardware semelhante
+c_similar_models_in: // modelos semelhantes em {{ .type }}
+c_similar_models: // modelos semelhantes
+c_similar_skills_in: // skills semelhantes em {{ .type }}
+c_similar_skills: // skills semelhantes
+all_n_professions: Todas as {{ .n }} profissões →
+open_source_cap: Código aberto
+lb_new_note: não estava no ranking de {{ .period }}. A variação é comparada com {{
+  .period }}.
+up_since: Subiu {{ .n }} posições desde o mês passado
+down_since: Caiu {{ .n }} posições desde o mês passado
+by_author: por {{ .name }}
+n_stars: '{{ .n }} estrelas'
+plus_n_this_week: +{{ .n }} nesta semana
+led_by: liderado por {{ .name }}, de {{ .author }}
+save_name: Salvar {{ .name }}
+best_ai_tools_for: Melhores ferramentas de IA para {{ .name }}
+specific_ai_tools_for: Ferramentas de IA específicas para {{ .name }}
+general_ai_tools_for: Ferramentas de IA gerais para {{ .name }}
+prof_specific_sub: '{{ .n }} ferramentas criadas para este tipo de trabalho'
+prof_general_sub: '{{ .n }} ferramentas úteis para ter à mão'
+via_star_api: via API do histórico de estrelas do GitHub, {{ .date }}
+name_no_longer_active: '{{ .name }} não está mais ativa.'
+see_alternatives_below: Veja as alternativas abaixo.
+view_all_n_alternatives: Ver todas as {{ .n }} alternativas →
+c_alternatives_to: // alternativas a {{ .name }}
+c_related_tools_in: // ferramentas relacionadas em {{ .cat }}
+skills_page_desc:
+  one: '{{ .n }} repositório do GitHub com Agent Skills de {{ .cat }} para Claude
+    Code, Codex, Cursor e outros agentes{{ with .lead }}, {{ . }}{{ end }}. Ordenado
+    por estrelas no GitHub.'
+  other: '{{ .n }} repositórios do GitHub com Agent Skills de {{ .cat }} para Claude
+    Code, Codex, Cursor e outros agentes{{ with .lead }}, {{ . }}{{ end }}. Ordenados
+    por estrelas no GitHub.'
+kind_tools: Ferramentas
+kind_models: Modelos
+kind_hardware: Hardware
+best_ai_cat_tools_short: Melhores ferramentas de IA para {{ .name }}
+seo_home_title: Best of AI — Diretório de ferramentas de IA selecionadas
+seo_free_title: '{{ .n }} melhores ferramentas de IA gratuitas — Best of AI'
+seo_submit_title: Envie sua ferramenta de IA — Inclusão gratuita no diretório | Best
+  of AI
+seo_tool_title: '{{ .name }} — Ferramenta de IA para {{ .cat }} | Best of AI'
+seo_category_title: Melhores ferramentas de IA para {{ .name }} ({{ .n }}) — Best
+  of AI
+seo_home_models_title: Modelos de IA que rodam localmente ({{ .n }}) — Best of AI
+seo_modelcat_title: Melhores modelos de IA para {{ .name }} ({{ .n }}) — Best of AI
+seo_skillcat_title: Melhores Agent Skills de {{ .name }} ({{ .n }}) — Best of AI
+seo_model_title: '{{ .name }} — Modelo de IA de {{ .type }} | Best of AI'
+seo_hardware_title: '{{ .name }} — Hardware de IA de {{ .type }} | Best of AI'
+seo_cp_title_tools: Ferramentas de IA de {{ .name }} — Best of AI
+seo_cp_title_models: Modelos de IA de {{ .name }} — Best of AI
+seo_cp_title_hardware: Hardware de IA de {{ .name }} — Best of AI
+seo_company_title: Ferramentas, modelos e perfil da empresa de IA {{ .name }} ({{
+  .n }}) | Best of AI
+seo_company_nocount_title: '{{ .name }} — Perfil de empresa de IA | Best of AI'
+seo_journal_post_title: '{{ .title }} — Revista de IA | Best of AI'
+seo_lb_archive_title: Ranking de ferramentas de IA — Arquivo de {{ .period }} ({{
+  .n }} principais) | Best of AI
+seo_journal_title: Revista de IA — Best of AI
+seo_professions_title: Ferramentas de IA por profissão — Best of AI
+seo_companies_title: '{{ .n }} principais empresas e laboratórios de IA em 2026 —
+  Best of AI'
+seo_hardware_list_title: Principais componentes de hardware e GPUs de IA ({{ .n }})
+  — Best of AI
+seo_models_list_title: Principais modelos de IA e LLMs ({{ .n }}) — Best of AI
+seo_modelcats_title: Categorias de modelos de IA — Best of AI
+seo_lb_title: Ranking de ferramentas de IA ({{ .n }} principais, {{ .period }}) —
+  Best of AI
+seo_lb_archive_index_title: Arquivo do ranking de ferramentas de IA — Classificações
+  mensais | Best of AI
+seo_prof_title: Melhores ferramentas de IA para {{ .name }} ({{ .n }}) — Best of AI
+seo_tags_title: Explore ferramentas de IA por tag — Best of AI
+seo_tag_title: 'Ferramentas de IA com a tag #{{ .tag }} — Best of AI'
+seo_404_title: 404 — Página não encontrada | Best of AI
+seo_free_desc: '{{ .n }} ferramentas de IA gratuitas e freemium, selecionadas em categorias
+  como escrita, programação, geração de imagens e outras. Sem cartão de crédito.'
+seo_submit_desc: Envie sua ferramenta de IA ao Best of AI e apareça em páginas de
+  profissões, alternativas a concorrentes, na newsletter e na nossa lista awesome
+  do GitHub. Você também recebe um backlink direto. Gratuito e analisado manualmente.
+seo_cp_desc: Todas as {{ .n }} {{ .kind }} de IA de {{ .name }}, ordenadas das melhores
+  para as demais, com preços e detalhes.
+kind_lc_tools: ferramentas
+kind_lc_models: modelos
+kind_lc_hardware: hardware
+seo_tool_desc: '{{ .name }} é uma ferramenta de {{ .cat }} com preço {{ .price }}.
+  {{ .desc }}'
+seo_category_desc: Explore {{ .n }} ferramentas de IA para {{ .name }} — {{ .desc
+  }}
+seo_category_desc2: Conheça {{ .n }} ferramentas de IA para {{ .name }}, selecionadas
+  pela qualidade e utilidade no mundo real.
+seo_home_models_desc: '{{ .n }} modelos de IA que você pode baixar e executar no seu
+  próprio hardware: pesos abertos, sem necessidade de API.'
+seo_modelcat_desc: Explore {{ .n }} modelos de IA de {{ .name }} — {{ .desc }}
+seo_skillcat_desc:
+  one: '{{ .desc }} {{ .n }} Agent Skill de {{ .name }} para Claude Code e Codex,
+    ordenada por estrelas no GitHub.'
+  other: '{{ .desc }} {{ .n }} Agent Skills de {{ .name }} para Claude Code e Codex,
+    ordenadas por estrelas no GitHub.'
+seo_model_from: ' de {{ .name }}'
+seo_model_desc: '{{ .name }} é um modelo de {{ .type }} com preço {{ .price }}{{ .company
+  }}. {{ .desc }}'
+seo_hw_with: ' com {{ .specs }}'
+seo_hw_desc: '{{ .name }} é um acelerador de IA de {{ .type }}{{ .from }}{{ .specs
+  }}. {{ .desc }}'
+seo_co_based: com sede em {{ .v }}
+seo_co_founded: fundada em {{ .v }}
+seo_co_ntools:
+  one: '{{ .n }} ferramenta de IA'
+  other: '{{ .n }} ferramentas de IA'
+seo_co_nmodels:
+  one: '{{ .n }} modelo'
+  other: '{{ .n }} modelos'
+seo_co_and: ' e '
+seo_co_desc: '{{ .lead }}: {{ .sub }}{{ .counts }} listados, além de fundadores e
+  informações sobre a empresa.'
+seo_lb_archive_desc: Veja como as {{ .n }} principais ferramentas de IA estavam classificadas
+  em {{ .period }}. Uma versão mensal congelada do ranking do Best of AI, com ChatGPT,
+  Claude, Gemini e outras.
+seo_journal_desc: Artigos, guias e notas sobre ferramentas de IA da equipe do Best
+  of AI.
+seo_professions_desc: 'Encontre ferramentas de IA para sua profissão: {{ .n }} guias
+  com ferramentas selecionadas no Best of AI.'
+seo_companies_desc: Explore {{ .n }} empresas e laboratórios de IA, de OpenAI e Anthropic
+  a startups recentes. Veja onde estão, quando foram fundados e quais ferramentas
+  desenvolvem.
+seo_hardware_desc: Explore {{ .n }} GPUs e aceleradores de IA com especificações completas
+  — VRAM, largura de banda da memória, TDP e preço — das empresas que os desenvolvem.
+seo_models_desc: Modelos de fundação e LLMs com especificações e benchmarks, criados
+  pelos laboratórios responsáveis — já são {{ .n }} modelos.
+seo_modelcats_desc: 'Explore {{ .n }} categorias de modelos de IA e LLMs: raciocínio,
+  código, geração de imagens e muito mais.'
+seo_lb_desc: As {{ .n }} principais ferramentas de IA, ordenadas por utilidade e impacto
+  no mundo real, com atualização de {{ .period }}. Veja o que mudou desde o mês passado.
+seo_lb_archive_index_desc: Versões mensais anteriores do ranking de ferramentas de
+  IA do Best of AI. Compare as posições de ChatGPT, Claude, Gemini e outras ferramentas
+  mês a mês.
+seo_categories_desc: 'Explore todas as categorias de ferramentas de IA do Best of
+  AI: {{ .n }} categorias de ferramentas selecionadas.'
+seo_prof_desc_a: '{{ .n }} ferramentas de IA para {{ .name }}, incluindo {{ .names
+  }}.'
+seo_prof_sub_prefix: 'Ferramentas de IA para '
+seo_prof_covers: Inclui {{ .v }}
+seo_prof_desc_b: '{{ .n }} ferramentas de IA para {{ .name }} — {{ .sub }}'
+seo_prof_desc_c: Conheça {{ .n }} ferramentas de IA para {{ .name }}, selecionadas
+  pela qualidade e utilidade no mundo real no Best of AI.
+seo_tags_desc: Explore {{ .n }} tags de ferramentas de IA e encontre opções por tópico,
+  caso de uso e capacidade no Best of AI.
+seo_tag_desc: 'Conheça as melhores ferramentas de IA com a tag #{{ .tag }}, selecionadas
+  pela qualidade e utilidade no mundo real no Best of AI.'
+og_locale: pt_BR
+enum_free: Gratuito
+enum_freemium: Freemium
+enum_paid: Pago
+enum_n_a: N/D
+enum_language: Linguagem
+enum_multimodal: Multimodal
+enum_reasoning: Raciocínio
+enum_image_generation: Geração de imagens
+enum_audio_generation: Geração de áudio
+enum_code: Código
+enum_embedding: Embeddings
+enum_video_generation: Geração de vídeo
+enum_image: Imagem
+enum_audio: Áudio
+enum_datacenter: Data center
+enum_consumer: Consumidor
+enum_workstation: Estação de trabalho
+enum_edge: Borda
+enum_accelerator: Acelerador
+enum_mobile: Móvel
+enum_embedded: Embarcado
+enum_development_engineering: Desenvolvimento e engenharia
+enum_design_creative: Design e criação
+enum_workflow_productivity: Fluxos de trabalho e produtividade
+enum_business_finance: Negócios e finanças
+enum_communication_writing: Comunicação e escrita
+enum_code_review_quality: Revisão e qualidade de código
+enum_browser_agent_automation: Automação de navegador e agentes
+enum_document_automation: Automação de documentos
+enum_testing_debugging: Testes e depuração
+no_results_for: Nenhum resultado para
+categories_and_tags: Categorias e tags
+copied: copiado
+saved_label: Salvo
+remove_from_saved: Remover dos salvos
+discontinued_word: Descontinuada
+sr_profession: Profissão
+sr_category: Categoria
+sr_company: Empresa
+sr_hardware: Hardware
+sr_model: Modelo
+sr_skill: Skill
+sr_tag: Tag
+fq_lb_best_in: Qual foi a melhor ferramenta de IA em {{ .period }}?
+fq_lb_best_in_a: '{{ .n1 }} ficou em primeiro lugar em {{ .period }}, seguida por
+  {{ .n2 }} e {{ .n3 }}. O Best of AI classifica ferramentas pela utilidade e impacto
+  no mundo real.'
+fq_lb_current: Este ranking ainda está atualizado?
+fq_lb_current_a: Não. Esta página mostra uma versão congelada do ranking de {{ .period
+  }}. Consulte o ranking atual para ver a ordem mais recente.
+fq_lb_climb: Qual ferramenta de IA mais subiu em {{ .period }}?
+fq_lb_climb_a: '{{ .name }} subiu {{ .n }} posições desde {{ .prev }}, a maior alta
+  da lista.'
+fq_lb_best_now: Qual é a melhor ferramenta de IA atualmente?
+fq_lb_best_now_a: '{{ .n1 }} está em primeiro lugar no ranking de {{ .period }}, seguida
+  por {{ .n2 }} e {{ .n3 }}. A classificação considera utilidade e impacto no mundo
+  real, não apenas pontuações de benchmarks.'
+fq_lb_how: Como as ferramentas de IA são classificadas neste ranking?
+fq_lb_how_a: 'As ferramentas são classificadas pela utilidade e impacto no mundo real:
+  quanto ajudam as pessoas a trabalhar, quão amplamente são usadas e quanto influenciam
+  outras ferramentas. A lista reúne {{ .n }} ferramentas em {{ .cats }} categorias.'
+fq_lb_often: Com que frequência o ranking é atualizado?
+fq_lb_often_a: Uma vez por mês. Cada atualização é salva como uma versão congelada
+  no arquivo do ranking, para que você acompanhe as mudanças ao longo do tempo.
+fq_lb_moved:
+  one: '{{ .name }} subiu {{ .delta }} posições desde {{ .prev }}, a maior alta da
+    lista. {{ .n }} ferramenta entrou na lista neste mês.'
+  other: '{{ .name }} subiu {{ .delta }} posições desde {{ .prev }}, a maior alta
+    da lista. {{ .n }} ferramentas entraram na lista neste mês.'
+fq_lb_moved_nonew: '{{ .name }} subiu {{ .delta }} posições desde {{ .prev }}, a maior
+  alta da lista.'
+fq_lb_movers: Quais ferramentas de IA mais subiram neste mês?
+fq_lb_suggest: Posso sugerir uma alteração no ranking?
+fq_lb_suggest_a: Sim. Use a página para melhorar esta lista e envie uma sugestão,
+  ou envie uma ferramenta que esteja faltando no diretório.
+fq_ar_what: O que é o arquivo do ranking de ferramentas de IA?
+fq_ar_what_a: É uma cópia do ranking do Best of AI salva no fim de cada mês. Cada
+  versão fica congelada, mostrando a ordem que estava valendo naquele momento.
+fq_ar_far: Até quando vai o arquivo?
+fq_ar_far_a:
+  one: O arquivo tem {{ .n }} versão mensal, de {{ .first }} a {{ .last }}. Uma nova
+    é adicionada todo mês, quando o ranking é atualizado.
+  other: O arquivo tem {{ .n }} versões mensais, de {{ .first }} a {{ .last }}. Uma
+    nova é adicionada todo mês, quando o ranking é atualizado.
+fq_ar_change: Como vejo a mudança de posição de uma ferramenta de IA ao longo do tempo?
+fq_ar_change_a: Abra duas versões e compare a posição da ferramenta. Cada versão também
+  indica quais ferramentas subiram, caíram ou foram adicionadas em relação ao mês
+  anterior.
+fq_ar_current: Onde encontro o ranking atual de ferramentas de IA?
+fq_ar_current_a: O ranking atual mostra a ordem mais recente e é a página certa para
+  escolher uma ferramenta hoje. As versões arquivadas servem para consultar o histórico,
+  não para recomendações atuais.
+fq_co_what: O que é {{ .name }}?
+fq_co_who: Quem fundou {{ .name }}?
+fq_co_who_a: '{{ .name }} foi fundada{{ .when }} por {{ .founders }}.'
+fq_co_in_year: ' em {{ .v }}'
+fq_co_when: Quando {{ .name }} foi fundada?
+fq_co_when_a: '{{ .name }} foi fundada em {{ .year }}.'
+fq_co_hq: Onde fica a sede de {{ .name }}?
+fq_co_hq_a: '{{ .name }} tem sede em {{ .place }}.'
+fq_co_tools: Quais ferramentas de IA {{ .name }} desenvolve?
+fq_co_tools_a:
+  one: O Best of AI lista {{ .n }} ferramenta de {{ .name }}, incluindo {{ .names
+    }}.
+  other: O Best of AI lista {{ .n }} ferramentas de {{ .name }}, incluindo {{ .names
+    }}.
+fq_co_models: Quais modelos de IA {{ .name }} lançou?
+fq_co_models_a:
+  one: '{{ .name }} tem {{ .n }} modelo no nosso diretório, incluindo {{ .names }}.'
+  other: '{{ .name }} tem {{ .n }} modelos no nosso diretório, incluindo {{ .names
+    }}.'
+fq_co_hw: Que hardware de IA {{ .name }} fabrica?
+fq_co_hw_a:
+  one: '{{ .name }} fabrica {{ .n }} chip de IA que acompanhamos, incluindo {{ .names
+    }}.'
+  other: '{{ .name }} fabrica {{ .n }} chips de IA que acompanhamos, incluindo {{
+    .names }}.'
+in_language: pt-BR
+bc_free_ai_tools: Ferramentas de IA gratuitas
+bc_recently_added: Ferramentas de IA adicionadas recentemente
+faq_free_writing_plain: ChatGPT, Claude e Gemini oferecem bons planos gratuitos para
+  escrita. Consulte a categoria Assistentes de escrita no Best of AI para ver a lista
+  completa.
+faq_free_image_plain: Sim. Várias ferramentas, incluindo o Adobe Firefly, oferecem
+  geração gratuita de imagens. Veja a categoria Geração de imagens no Best of AI.
+faq_free_count_q: Quantas ferramentas de IA gratuitas estão listadas aqui?
+faq_free_count_a: O Best of AI lista atualmente {{ .n }} ferramentas de IA gratuitas
+  e freemium em todas as categorias.
+faq_submit_plain: Acesse submit.bestofai.io e informe o nome da ferramenta, o site
+  e uma breve descrição. Leva cerca de dois minutos.
+jl_prof_desc: As melhores ferramentas de IA para {{ .name }}, selecionadas a dedo.
+jl_cat_desc: As melhores ferramentas de IA para {{ .name }}, selecionadas a dedo.
+jl_runs_home: Modelos de IA que rodam localmente
+jl_handpicked: '{{ .name }}, selecionado a dedo.'
+jl_best_skills: Melhores Agent Skills de {{ .name }}
+jl_ranked_stars: '{{ .name }}, ordenado por estrelas no GitHub.'
+jl_tools_tagged: Ferramentas de IA com a tag {{ .tag }}
+jl_companies_desc: Diretório de {{ .n }} empresas e laboratórios de IA, com sede,
+  ano de fundação e as ferramentas desenvolvidas por cada um.
+seo_modelcats_name: Categorias de modelos de IA
+jl_modelcats_desc: 'Explore modelos de IA e LLMs por categoria: raciocínio, código,
+  geração de imagens e muito mais.'
+jl_top_free: Melhores ferramentas de IA gratuitas
+jl_lb_name: Ranking de ferramentas de IA
+jl_lb_name_period: Ranking de ferramentas de IA, {{ .period }}
+jl_lb_desc: As {{ .n }} principais ferramentas de IA, ordenadas por utilidade e impacto
+  no mundo real ({{ .period }}).
+jl_lb_archive: Arquivo do ranking de ferramentas de IA
+jl_lb_archive_desc: Versões mensais anteriores do ranking de ferramentas de IA do
+  Best of AI.
+jl_lb_snapshots: Versões do ranking de ferramentas de IA
+jl_new_desc: As ferramentas de IA mais recentes adicionadas ao Best of AI. Lançamentos
+  novos e opções que vale a pena conhecer.
+jl_co_list: Ferramentas e modelos de IA de {{ .name }}
+jl_help_desc: Como funciona o Best of AI.
+jl_journal_desc: Artigos, guias e notas sobre ferramentas de IA da equipe do Best
+  of AI.
+submit_a_tool_lc: enviar uma ferramenta
+open_github_issue: Abrir issue no GitHub
+star_on_github: Dar uma estrela no GitHub
+ai_for_professionals: IA para profissionais
+submit_tool: Enviar ferramenta
+nav_saved: Salvas
+help_improve_page: Ajude a melhorar esta página
+report_word: Relatar
+language: Idioma
+seo_alt_title: Alternativas a {{ .name }} — Best of AI
+alt_list_name: Alternativas a {{ .name }}
+stat_cores: núcleos
+stat_of_skill_repos: de {{ .n }} repositórios de skills
+stat_stars_this_week: estrelas nesta semana
+stat_author: autor
+help_default_desc: Como funciona o Best of AI, da curadoria às contribuições.
+jl_best_models: Melhores modelos de IA para {{ .name }}
+jl_top_companies: Principais empresas e laboratórios de IA
+jl_top_hardware: Principais componentes de hardware e GPUs de IA
+jl_top_models: Principais modelos de IA e LLMs
+what_ai_tools: ferramentas de IA
+what_ai_models: modelos de IA
+what_ai_hardware: hardware de IA
+kw_free: ferramentas de IA gratuitas, melhores ferramentas de IA gratuitas, principais
+  ferramentas de IA gratuitas, ferramentas de IA freemium, ferramentas gratuitas de
+  inteligência artificial, ferramentas de IA grátis, ferramentas gratuitas de escrita
+  com IA, ferramentas gratuitas de programação com IA, gerador de imagens com IA grátis,
+  ferramentas de IA sem cartão de crédito
+kw_submit: enviar ferramenta de IA, envio de ferramenta de IA, listar ferramenta de
+  IA, inclusão em diretório de IA, marketing de ferramentas de IA, plataforma de lançamento
+  de IA, divulgar startup de IA, incluir ferramenta de IA no diretório, lançamento
+  de produto de IA, backlink para ferramenta de IA, diretório de ferramentas de IA,
+  enviar startup
+kw_ai: IA
+kw_ai_full: inteligência artificial
+kw_category: '{{ .name }}, IA {{ .name }}, melhores ferramentas de IA para {{ .name
+  }}, inteligência artificial {{ .lower }}'
+kw_model_category: '{{ .name }}, modelos de IA {{ .name }}, melhores modelos de IA
+  para {{ .name }}, LLMs de {{ .lower }}'
+kw_skill_category: Agent Skills de {{ .name }}, melhores skills de {{ .lower }}, skills
+  do Claude {{ .lower }}, skills do Claude Code, Agent Skills no GitHub, SKILL.md,
+  agente de IA de {{ .lower }}
+kw_ai_model: modelo de IA
+kw_llm: LLM
+kw_ai_hardware: hardware de IA
+kw_ai_gpu: GPU de IA
+kw_ai_accelerator: acelerador de IA
+kw_name_gpu: GPU {{ .name }}
+kw_ai_company: empresa de IA
+kw_name_ai: '{{ .name }} IA'
+kw_name_ai_tools: ferramentas de IA {{ .name }}
+kw_name_products: produtos {{ .name }}
+kw_who_founded: quem fundou {{ .name }}
+kw_name_headquarters: sede da {{ .name }}
+kw_name_alternatives: alternativas a {{ .name }}
+kw_journal_name: Revista de IA
+kw_ai_journal: revista de IA
+kw_ai_tools: ferramentas de IA
+kw_open_source: código aberto
+kw_ai_for: IA para {{ .name }}
+kw_best_ai_tools_for: melhores ferramentas de IA para {{ .name }}
+kw_free_ai_tools_for: ferramentas de IA gratuitas para {{ .name }}
+kw_ai_name_tools: ferramentas de IA {{ .name }}
+kw_cat_ai_tools: ferramentas de IA para {{ .name }}
+kw_tool_for: '{{ .tool }} para {{ .name }}'
+kw_companies: principais empresas de IA, lista de empresas de IA, melhores empresas
+  de IA, laboratórios de IA, empresas de inteligência artificial, startups de IA,
+  empresas de IA em 2026, maiores empresas de IA, empresas de IA generativa
+kw_hardware_list: hardware de IA, GPUs de IA, especificações de GPU, aceleradores
+  de IA, melhores GPUs de IA, chips de IA, comparação de GPUs, GPU NVIDIA, GPU AMD,
+  TPU, GPU para data center
+kw_models_list: modelos de IA, LLMs, modelos de fundação, melhores modelos de IA,
+  modelos de pesos abertos, comparação de modelos de IA, ranking de LLMs, categorias
+  de modelos de IA
+kw_by_month: por mês
+kw_lb_archive: arquivo do ranking de ferramentas de IA, histórico dos rankings de
+  ferramentas de IA, melhores ferramentas de IA {{ .period }}, principais ferramentas
+  de IA do mês, versão mensal do ranking de IA
+kw_lb: melhores ferramentas de IA, ranking de ferramentas de IA, principais ferramentas
+  de IA, melhores ferramentas de IA em 2026, classificações de ferramentas de IA,
+  ferramentas de IA mais bem avaliadas, melhores aplicativos de IA, comparação de
+  ferramentas de IA
+view_all_n_count: Ver todas as {{ .n }}
+view_all_recently_added: Ver todas as ferramentas adicionadas recentemente

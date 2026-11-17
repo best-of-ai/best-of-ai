@@ -99,6 +99,7 @@ LANGS = [
     {'code': 'fr', 'label': 'Français', 'out': 'README_FR.md', 'content': ROOT / 'content_fr', 'prefix': '/fr', 'cats': ROOT / 'data' / 'categories_fr.yaml'},
     {'code': 'ja', 'label': '日本語', 'out': 'README_JA.md', 'content': ROOT / 'content_ja', 'prefix': '/ja', 'cats': ROOT / 'data' / 'categories_ja.yaml'},
     {'code': 'de', 'label': 'Deutsch', 'out': 'README_DE.md', 'content': ROOT / 'content_de', 'prefix': '/de', 'cats': ROOT / 'data' / 'categories_de.yaml'},
+    {'code': 'pt', 'label': 'Português', 'out': 'README_PT.md', 'content': ROOT / 'content_pt', 'prefix': '/pt', 'cats': ROOT / 'data' / 'categories_pt.yaml'},
 ]
 
 STRINGS = {
@@ -217,6 +218,30 @@ STRINGS = {
         'license_h': 'Lizenz', 'license_p': 'MIT — siehe [LICENSE](LICENSE).',
         'auto': 'Diese Datei wird automatisch aus [`{src}`]({src}) erstellt. Bearbeite die Quelldateien, nicht diese Datei.',
         'price': {'Free': 'Kostenlos', 'Freemium': 'Freemium', 'Paid': 'Kostenpflichtig'},
+    },
+    'pt': {
+        'tagline': 'Ferramentas de IA selecionadas a dedo, sem enrolação nem aplicativos medianos. Cada uma é escolhida pela qualidade, inovação e impacto no mundo real.',
+        'website': 'Site', 'submit': 'Enviar uma ferramenta', 'contributing': 'Como contribuir',
+        'what_h': 'O que é isto?',
+        'what_p': '**Best of AI** é um diretório colaborativo com as melhores ferramentas de IA em {cats} categorias. Acompanhamos mais de {tools} ferramentas e selecionamos as que valem seu tempo, para ajudar você a encontrar opções que realmente funcionam.',
+        'different': 'O que diferencia esta lista:',
+        'b_quality': '**Qualidade acima de quantidade** — cada ferramenta é avaliada e classificada, não apenas copiada de outra lista',
+        'b_practical': '**Foco no uso prático** — as ferramentas são escolhidas pela utilidade real, não pelo hype',
+        'b_coverage': '**Ampla cobertura** — {cats} categorias, de [assistentes de programação]({code}) a [vídeo]({video}) e [saúde]({health})',
+        'b_updated': '**Sempre atualizada** — novas ferramentas são adicionadas conforme o cenário de IA evolui',
+        'b_prof': '**Explore por profissão** — seleções de ferramentas para [designers, desenvolvedores, profissionais de marketing e outros]({url})',
+        'visit': 'Acesse **[bestofai.io]({url})** para ver o diretório interativo completo, com busca, filtros e avaliações detalhadas.',
+        'contents': 'Conteúdo', 'leaderboard': 'Ranking', 'categories': 'Categorias', 'professionals': 'IA para profissionais',
+        'lb_note': 'As ferramentas de IA mais bem avaliadas por qualidade, inovação e impacto no mundo real.',
+        'prof_note': 'Coleções de ferramentas de IA selecionadas para diferentes funções e setores.',
+        'review': 'avaliação',
+        'view_all': '*[Veja todas as {n} ferramentas de {name} em bestofai.io →]({url})*',
+        'contrib_p': 'Consulte [CONTRIBUTING.md](CONTRIBUTING.md) para adicionar ou atualizar ferramentas.',
+        'issue_p': 'Encontrou um erro ou quer sugerir algo? [Abra uma issue]({url}).',
+        'license_h': 'Licença', 'license_p': 'MIT — consulte [LICENSE](LICENSE).',
+        'auto': 'Este arquivo é gerado automaticamente a partir de [`{src}`]({src}). Edite os arquivos de origem, não este.',
+        'price': {'Free': 'Gratuito', 'Freemium': 'Freemium', 'Paid': 'Pago'},
+        'cat_url': '{site}/categories/code-assistant/',
     },
 }
 
