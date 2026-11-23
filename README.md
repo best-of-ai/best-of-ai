@@ -547,6 +547,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 - **[Synthesia](https://synthesia.io)** — [review](https://bestofai.io/tools/synthesia/) — AI video creation platform with virtual presenters ![Paid](https://img.shields.io/badge/-Paid-8b949e?style=flat-square)
 - **[Twitch](https://www.twitch.tv)** — [review](https://bestofai.io/tools/twitch/) — Live streaming platform popular with gamers and creators ![Free](https://img.shields.io/badge/-Free-3fb950?style=flat-square)
 - **[Frame.io](https://frame.io)** — [review](https://bestofai.io/tools/frame-io/) — Video review and collaboration platform from Adobe ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
+- **[Free Image to Video](https://freeimagetovideo.ai)** — Free image to video AI with no daily cap: start with no sign-up, keep going on a free account. Every video comes with sound and no watermark. ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - *[View all 11 Video tools on bestofai.io →](https://bestofai.io/categories/video/)*
 
 ---
