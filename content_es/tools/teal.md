@@ -17,9 +17,10 @@ alternatives:
   - rezi
   - jobgpt-ai
   - linkedin
+  - hiringnow
 date: '2026-06-15'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: 'ffae669b4033'
+i18n_source: '80b6775b8749'
 ---
 
 Teal ayuda a organizar una búsqueda de empleo. Una extensión de Chrome guarda ofertas de portales de trabajo en un registro con etapas y notas, y las herramientas recuerdan cuándo hacer seguimiento. El editor de currículos crea versiones adaptadas a cada oferta y sugiere palabras clave y formulaciones.

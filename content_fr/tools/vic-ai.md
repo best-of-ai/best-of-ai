@@ -18,9 +18,10 @@ alternatives:
   - tipalti-ai
   - coupa
   - botkeeper
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
-i18n_source: 'd8029443a97e'
+i18n_source: '598f75a1376f'
 ---
 
 Vic.ai lit les factures et les traite avec peu de saisie manuelle. Il extrait les données, suggère l'imputation aux bons comptes, route les approbations et signale les éléments inhabituels, en apprenant de la façon dont les comptables le corrigent. Le but est un traitement sans intervention pour les factures courantes.

@@ -19,9 +19,10 @@ alternatives:
   - close
   - copper
   - lightfield-ai
+  - altercontacts
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable]
-i18n_source: '3ed7e2a43443'
+i18n_source: '1db4d61d077f'
 ---
 
 Folkは、従来のCRMが重いと感じる人向けの関係管理ツールです。利用者はメール、LinkedIn、表計算から連絡先を取り込み、グループに分け、会話と案件をすっきりした画面で追います。多くの関係を扱う代理店、採用担当、投資家、創業者に向いています。

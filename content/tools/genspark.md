@@ -19,6 +19,7 @@ alternatives:
   - claude-cowork
   - chatgpt-work
   - openclaw
+  - saparo
 date: '2026-07-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, image_based, model_based]
 ---

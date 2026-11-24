@@ -19,6 +19,7 @@ alternatives:
 - enhancv
 - teal
 - reztune
+- hiringnow
 date: '2026-06-15'
 tags:
 - resume
@@ -30,7 +31,7 @@ tags:
 - ats
 - interview
 - professional
-i18n_source: '30c947e0e7c6'
+i18n_source: 'd8c52edfb1dd'
 ---
 
 Jobscan hilft dabei, Lebensläufe auf einzelne Stellen zuzuschneiden. Du fügst deinen Lebenslauf und eine Stellenanzeige ein. Jobscan berechnet eine Übereinstimmung, listet fehlende oder zu wenig verwendete Schlüsselwörter und Kompetenzen auf und weist auf Formatierungsprobleme hin, die automatische Parser stören könnten.

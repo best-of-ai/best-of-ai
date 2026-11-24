@@ -16,9 +16,10 @@ alternatives:
   - jobbyo
   - linkedin
   - indeed
+  - hiringnow
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, customizable]
-i18n_source: '0c249f758a50'
+i18n_source: 'cc5c4123166c'
 ---
 JobGPT couvre une grande partie du flux de candidature. Il cherche des annonces qui collent à un profil, ajuste la formulation du CV pour chaque description, rédige une lettre de motivation et remplit les formulaires. On relit les résultats et on suit ses candidatures.
 

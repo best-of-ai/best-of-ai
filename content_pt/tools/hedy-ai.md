@@ -19,6 +19,7 @@ alternatives:
 - fathom
 - tactiq
 - sembly-ai
+- pauta
 date: '2025-01-01'
 tags:
 - meeting
@@ -33,7 +34,7 @@ tags:
 - real_time
 - analytics
 - powerful
-i18n_source: '6a876bc659e4'
+i18n_source: '05cb40852b71'
 ---
 
 O Hedy AI tem uma função diferente da de assistentes que resumem reuniões depois que elas terminam. Ele escuta durante uma chamada ou conversa e exibe sugestões no momento: uma resposta possível, uma pergunta a fazer ou um lembrete de contexto. O objetivo é ajudar o usuário a se sair melhor enquanto a conversa acontece.

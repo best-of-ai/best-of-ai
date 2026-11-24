@@ -19,9 +19,10 @@ alternatives:
   - boomerang
   - mixmax
   - spike
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful]
-i18n_source: '45f7f615b704'
+i18n_source: 'cff0cfdd40bc'
 ---
 
 O SaneBox combate o excesso de mensagens sem substituir seu aplicativo de e-mail. Ele se conecta à conta existente e analisa seu comportamento, como para quem você responde e quais mensagens abre; depois, move e-mails menos importantes para uma pasta chamada SaneLater. Newsletters, notificações e mensagens não solicitadas ficam nessa pasta, e você recebe um resumo para consultar quando quiser. As mensagens importantes permanecem na caixa de entrada.

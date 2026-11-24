@@ -17,9 +17,10 @@ alternatives:
   - heroku
   - vercel-ai-platform
   - netlify-ai
+  - spacefast
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based, easy_to_use]
-i18n_source: 'd8af8343740e'
+i18n_source: '8bd89bd0c34d'
 ---
 Fly.io permet aux développeurs de déployer des applications près de leurs utilisateurs. Tu packages une app, souvent en conteneur Docker, et Fly la fait tourner dans des machines virtuelles légères appelées Machines dans beaucoup de villes, ce qui réduit la latence par rapport à une seule région centralisée. Un outil en ligne de commande gère le déploiement, la montée en charge et la configuration, donc une petite équipe peut faire tourner une application mondiale sans gérer de serveurs.
 

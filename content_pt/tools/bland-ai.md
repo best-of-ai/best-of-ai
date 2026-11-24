@@ -20,6 +20,7 @@ alternatives:
 - yellow-ai
 - kore-ai
 - sierra-ai
+- call-e
 date: '2026-11-05'
 tags:
 - customer_support
@@ -32,7 +33,7 @@ tags:
 - service
 - resolution
 - enterprise
-i18n_source: 'c6aac2fd2e02'
+i18n_source: '5aeb03ff609c'
 ---
 
 A Bland oferece agentes de voz que conversam em chamadas telefônicas reais. Empresas os usam para atender ligações, contatar leads, confirmar compromissos e realizar pesquisas, substituindo ou complementando equipes de call center. Os agentes falam naturalmente, lidam com interrupções e podem funcionar o dia todo.

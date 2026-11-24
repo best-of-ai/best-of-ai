@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Prompt-Tools'
+title: 'Die besten KI-Tools fürs Prompting'
 name: 'Prompt-Tools'
 slug: 'prompt-tools'
 description: 'Tools für Prompt Engineering, Prompt-Verwaltung und die Optimierung von KI-Ausgaben.'

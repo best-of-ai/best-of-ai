@@ -21,9 +21,10 @@ alternatives:
   - clay
   - lavender
   - amplemarket
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, analytics]
-i18n_source: '9e07dcf56dac'
+i18n_source: '58f3d4b6a118'
 ---
 
 Instantly foi criada para prospecção por e-mail em escala. Você conecta quantas contas de envio quiser, e a plataforma as alterna para distribuir o volume, ajudando a manter cada conta dentro de limites seguros. Uma rede automática de aquecimento troca e-mails entre contas para construir reputação de remetente, e ferramentas verificam a entregabilidade para aumentar a chance de as campanhas chegarem à caixa de entrada. Sequências cuidam dos acompanhamentos e param quando alguém responde.

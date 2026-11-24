@@ -16,9 +16,11 @@ alternatives:
   - daytona
   - browserbase
   - cloudflare-kitesurf
+  - glasshand
+  - volcano-kong
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based, secure]
-i18n_source: '40ae218774d2'
+i18n_source: 'f5d881534c25'
 ---
 
 E2B da a los agentes de IA un ordenador seguro. Cuando un modelo de lenguaje escribe código, ejecutarlo directamente en un servidor es arriesgado. E2B crea un sandbox aislado en la nube, ejecuta el código, devuelve la salida y los archivos, y lo apaga. El arranque es lo bastante rápido como para usarlo dentro de un bucle de agente.

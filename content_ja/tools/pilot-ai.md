@@ -18,9 +18,10 @@ alternatives:
   - botkeeper
   - zeni-ai
   - bill-com-ai
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
-i18n_source: 'abc4963d5a39'
+i18n_source: '85d2a4055162'
 ---
 
 Pilotは、会計をサービスとして請け負います。企業が銀行口座やツールを接続すると、Pilotのチームとソフトウェアが帳簿をつけ、毎月の締めを行い、財務諸表を作成し、税務申告も担当します。顧客には専任の経理担当者とダッシュボードが付きます。

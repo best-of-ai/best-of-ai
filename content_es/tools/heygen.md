@@ -20,9 +20,10 @@ alternatives:
   - hour-one
   - hedra
   - vidnoz
+  - creatify
 date: '2025-09-21'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, voice_enabled, training, powerful]
-i18n_source: 'dfcc1b94bfa6'
+i18n_source: '5403376e2bf2'
 ---
 
 HeyGen permite hacer un vídeo de una persona hablando sin grabar nada. Eliges un avatar o creas el tuyo a partir de una grabación corta, pegas o escribes un guion, y HeyGen genera un vídeo con voz natural y movimiento de labios. Admite decenas de idiomas, y uno de sus usos más populares es la traducción de vídeo: subes un vídeo tuyo y produce una versión en otro idioma con tu voz y los labios sincronizados. Marketing, formación y ventas lo usan para producir contenido con rapidez.

@@ -17,9 +17,10 @@ alternatives:
   - firecrawl
   - apify
   - pinecone
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, multimodal]
-i18n_source: '34f87332a9be'
+i18n_source: 'f8e460d43e51'
 ---
 
 Jina AI se centra en la parte de recuperación de las aplicaciones de IA. Sus modelos de embeddings convierten texto e imágenes en vectores para buscar en muchos idiomas, los rerankers ordenan los resultados por relevancia y una API de lectura convierte una página web en texto limpio que los modelos de lenguaje pueden usar. Los endpoints de búsqueda y de investigación profunda se apoyan en estas piezas.

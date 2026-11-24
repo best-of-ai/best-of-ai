@@ -17,6 +17,7 @@ alternatives:
   - scalenut
   - semrush
   - marketmuse
+  - rankspot
 date: '2026-06-15'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, collaboration]
 ---

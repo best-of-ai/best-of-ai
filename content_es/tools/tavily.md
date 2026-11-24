@@ -17,9 +17,10 @@ alternatives:
   - jina-ai
   - firecrawl
   - apify
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
-i18n_source: 'ad24e95a3794'
+i18n_source: '41a02d972b9d'
 ---
 
 Tavily ofrece búsqueda web para máquinas. Un desarrollador envía una consulta y recibe resultados ordenados con contenido limpio y fuentes, reducidos a lo que necesita un modelo de lenguaje para fundamentar respuestas con información actual. Otras funciones de la API extraen texto de páginas, rastrean sitios y realizan investigaciones más profundas.

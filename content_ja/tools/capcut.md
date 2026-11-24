@@ -20,9 +20,10 @@ alternatives:
   - wondershare-filmora-ai
   - davinci-resolve
   - descript-video
+  - shot-video
 date: '2025-01-01'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, free_tier, voice_enabled, easy_to_use]
-i18n_source: '3ee2a78fe85a'
+i18n_source: 'cb396fd4b850'
 ---
 
 CapCutは、使いやすくTikTokとのつながりが強いことから、ショート動画で広まりました。タイムラインにクリップを並べ、トリミングやカットをし、音楽とトランジションを足し、エフェクト、フィルター、動くテキストを掛けられます。テンプレートに自分の映像を入れると、仕上がった編集になるので、整ったSNS動画への近道です。iOS、Android、Windows、macOS、ブラウザで動きます。

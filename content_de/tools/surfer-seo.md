@@ -22,6 +22,7 @@ alternatives:
 - scalenut
 - semrush
 - ahrefs
+- rankspot
 date: '2025-09-21'
 tags:
 - seo
@@ -35,7 +36,7 @@ tags:
 - serp
 - real_time
 - collaboration
-i18n_source: '668d97dd9955'
+i18n_source: '0dab260d7223'
 ---
 
 Surfer unterstützt Schreibende dabei, Inhalte zu erstellen, die zu bereits gut platzierten Seiten passen. Du gibst ein Keyword ein. Das Tool analysiert die oberen Suchtreffer und schlägt Begriffe, Überschriften, Länge und Struktur vor, die auf diesen Seiten häufig vorkommen. Während du im Editor schreibst, wird eine Content-Bewertung aktualisiert. So erkennst du schnell, wie umfassend deine Seite das Thema abdeckt. Schreibende und SEO-Teams nutzen das Tool, um Entwürfe zu lenken und ältere Beiträge zu überarbeiten, deren Rankings gesunken sind.

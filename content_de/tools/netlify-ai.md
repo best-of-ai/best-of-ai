@@ -18,6 +18,8 @@ alternatives:
 - railway-app
 - heroku
 - fly-io
+- spacefast
+- volcano-kong
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -30,7 +32,7 @@ tags:
 - cloud
 - api
 - integrations
-i18n_source: '5550d2c4f5f2'
+i18n_source: '2f9409ff018b'
 ---
 
 Netlify machte das Prinzip populär, Code in Git zu übertragen und Websites automatisch erstellen und bereitstellen zu lassen. Entwickler:innen verbinden ein Repository; Netlify erstellt bei jeder Änderung einen Build, erzeugt für jeden Pull Request eine Vorschau-URL und liefert die Website über ein globales Netzwerk aus. Serverlose Funktionen und Edge Functions ergänzen dynamisches Verhalten ohne eigene Server.

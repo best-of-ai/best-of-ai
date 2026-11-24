@@ -18,9 +18,10 @@ alternatives:
   - enhancv
   - teal
   - reztune
+  - hiringnow
 date: '2026-06-15'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
-i18n_source: '30c947e0e7c6'
+i18n_source: 'd8c52edfb1dd'
 ---
 
 Jobscanは、個別の求人に合わせて履歴書を直すのを助けます。利用者は履歴書と求人票を貼り付けます。Jobscanは一致スコアを出し、求人票にあって履歴書にない、または足りないキーワードとスキルを列挙し、自動パーサーがつまずきそうな書式の問題を指摘します。

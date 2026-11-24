@@ -15,9 +15,10 @@ alternatives:
   - e2b-ai
   - modal-ai
   - browserbase
+  - glasshand
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, community_driven]
-i18n_source: 'b5d73dd62c47'
+i18n_source: 'f82b9fcd833a'
 ---
 
 Daytona ofrece sandboxes para ejecutar código con seguridad. Los agentes de IA que escriben y ejecutan código necesitan un lugar donde los errores o las instrucciones maliciosas no puedan dañar sistemas reales, y Daytona crea un entorno aislado bajo demanda, ejecuta el código, devuelve los resultados y descarta el sandbox. El arranque rápido mantiene ágiles los bucles de los agentes.

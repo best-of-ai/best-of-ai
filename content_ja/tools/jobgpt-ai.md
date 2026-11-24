@@ -16,9 +16,10 @@ alternatives:
   - jobbyo
   - linkedin
   - indeed
+  - hiringnow
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, customizable]
-i18n_source: '0c249f758a50'
+i18n_source: 'cc5c4123166c'
 ---
 
 JobGPTは、求人応募のワークフローの多くをカバーします。プロフィールに合う求人を探し、各募集要項に合わせて履歴書の文言を直し、カバーレターを下書きし、応募フォームに入力します。利用者は結果を確認し、応募を追跡します。

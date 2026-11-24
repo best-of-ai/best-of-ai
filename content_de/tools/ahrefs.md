@@ -19,6 +19,7 @@ alternatives:
 - spyfu
 - mangools
 - similarweb
+- rankspot
 date: '2025-09-21'
 tags:
 - seo
@@ -31,7 +32,7 @@ tags:
 - backlinks
 - serp
 - real_time
-i18n_source: '414ccc409a8f'
+i18n_source: '53e56ac731c4'
 ---
 
 Ahrefs ist vor allem für seine Backlink-Daten bekannt. Der Crawler erfasst Links im Web. So kannst du bei jeder Website sehen, wer auf sie verweist, welche Seiten den meisten Traffic erhalten und welche Suchbegriffe Besucher:innen bringen. Viele öffnen zuerst Site Explorer, häufig um die Strategie eines Mitbewerbers zu untersuchen. Keywords Explorer schlägt Suchbegriffe vor und schätzt ein, wie schwierig es ist, dafür ein gutes Ranking zu erreichen.

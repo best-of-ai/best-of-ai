@@ -21,9 +21,11 @@ alternatives:
   - grain
   - meetgeek
   - sembly-ai
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
-i18n_source: '97a8840e4bb1'
+i18n_source: 'b1cd29e10611'
 ---
 
 Otterは、広く使われた最初期の会議向け文字起こしツールの一つです。カレンダーを連携すると、アシスタントがZoom、Google Meet、Teamsの通話に参加し、録音、文字起こし、話者のラベル付けを行います。文字起こしはリアルタイムで見られるので、参加者はそれを追えますし、終了後には要約、要点、アクションアイテムが届きます。すべて検索できるので、過去の会議で話されたことをキーワードで探せます。スマートフォンでも使え、対面の会話や講義にも対応します。

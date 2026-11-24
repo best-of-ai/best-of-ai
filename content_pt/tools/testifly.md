@@ -20,6 +20,8 @@ alternatives:
 - testim
 - momentic-mo
 - applitools
+- testsprite
+- seldon-wren
 date: '2026-11-02'
 tags:
 - qa
@@ -32,7 +34,7 @@ tags:
 - autonomous
 - web_apps
 - ci_cd
-i18n_source: cb86efa4d529
+i18n_source: 'd4eae75a9e64'
 ---
 
 Testifly usa agentes de IA para testar aplicativos web. Uma equipe fornece uma URL e dados de acesso; o sistema explora o aplicativo, planeja casos de teste, cria e executa os testes e depois os corrige automaticamente quando a interface muda. A proposta é ampliar a cobertura sem escrever e manter scripts.

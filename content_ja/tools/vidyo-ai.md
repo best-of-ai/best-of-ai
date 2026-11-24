@@ -19,9 +19,10 @@ alternatives:
   - munch
   - submagic
   - clipfinder-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '6d5d7f9cdc1a'
+i18n_source: 'f7ac42b52db1'
 ---
 
 Vidyo.aiは、ポッドキャスト、ウェビナー、長い動画から短いクリップを切り出す手間を、クリエイターから減らすために作られました。動画をアップロードするかリンクを貼ると、AIが内容を分析して単独で成立しそうな区間を見つけ、字幕と縦型レイアウトを付けたクリップを作ります。書き出す前に、文字起こしの編集、クリップの境界の調整、字幕スタイルのカスタマイズができます。

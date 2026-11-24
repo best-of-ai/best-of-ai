@@ -13,6 +13,7 @@ featured: false
 rank: 5
 alternatives:
   - alphasense
+  - latch
 date: '2026-11-08'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

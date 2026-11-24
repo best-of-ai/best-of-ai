@@ -17,9 +17,10 @@ alternatives:
   - firecrawl
   - apify
   - pinecone
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, api_available, multimodal]
-i18n_source: '34f87332a9be'
+i18n_source: 'f8e460d43e51'
 ---
 
 Jina AIは、AIアプリケーションの検索の側に力を入れています。埋め込みモデルはテキストと画像を多くの言語での検索用のベクトルに変え、リランカーは結果を関連性順に並べ替え、リーダーAPIはウェブページを言語モデルが使えるきれいなテキストに変換します。検索とディープリサーチのエンドポイントは、これらを土台にしています。

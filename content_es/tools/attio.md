@@ -20,9 +20,10 @@ alternatives:
   - close
   - copper
   - salesforce
+  - altercontacts
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable, analytics]
-i18n_source: 'ebeecc40b681'
+i18n_source: '4b3f4a938ea2'
 ---
 
 Attio parte de la idea de que cada empresa vende de una forma distinta. En lugar de objetos fijos como leads y oportunidades, los equipos construyen sus propias estructuras, como clientes, socios o inversores, y las enlazan. La interfaz se parece más a una hoja de cálculo y a una base de datos que a un CRM tradicional, así que es más fácil de remodelar.

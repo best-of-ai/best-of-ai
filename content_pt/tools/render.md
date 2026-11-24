@@ -18,6 +18,7 @@ alternatives:
 - heroku
 - vercel-ai-platform
 - netlify-ai
+- spacefast
 date: '2026-06-15'
 tags:
 - developer_tools
@@ -31,7 +32,7 @@ tags:
 - api
 - collaboration
 - cloud_based
-i18n_source: 4ea774d795a5
+i18n_source: '9f7b7548c912'
 ---
 
 Render simplifica a hospedagem. Um desenvolvedor conecta um repositório, e Render compila e executa o aplicativo, gerencia certificados TLS e aumenta a capacidade conforme necessário. Oferece serviços web, sites estáticos, tarefas agendadas, serviços privados e Postgres e Redis gerenciados.

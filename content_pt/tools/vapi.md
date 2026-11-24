@@ -20,6 +20,7 @@ alternatives:
 - synthflow
 - livekit
 - openai-realtime-api
+- call-e
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -34,7 +35,7 @@ tags:
 - customizable
 - integrations
 - voice_enabled
-i18n_source: 0eeab5fa6c57
+i18n_source: '21099541cf12'
 ---
 Vapi cuida das partes mais difíceis dos agentes de voz. Desenvolvedores definem um assistente com instruções e ferramentas, conectam um número de telefone, e a Vapi coordena o reconhecimento de fala, o modelo de linguagem e a síntese de voz, incluindo o tratamento de interrupções e turnos de fala. A opção de usar provedores próprios permite trocar componentes.
 

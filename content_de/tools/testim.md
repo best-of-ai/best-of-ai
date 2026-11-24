@@ -19,9 +19,10 @@ alternatives:
   - browserstack-test-companion
   - momentic-mo
   - percy
+  - testsprite
 date: '2025-10-01'
 tags: [integrations, fast, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: 'b2b384c69c23'
+i18n_source: '10b2afda1362'
 ---
 Testim adressiert einen der größten Schmerzpunkte automatisierter Tests: Tests, die bei jeder Änderung der Oberfläche kaputtgehen. Statt sich auf eine einzelne, anfällige Kennung für jedes Element zu verlassen, lernt das System mit maschinellem Lernen mehrere Attribute. So kann ein Test eine Schaltfläche weiterhin finden, wenn ein Entwickler sie umbenennt oder verschiebt. Dieses selbstheilende Verhalten reduziert die Zeit, die Ingenieure mit der Reparatur von Tests verbringen.
 

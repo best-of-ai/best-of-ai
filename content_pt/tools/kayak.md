@@ -17,6 +17,7 @@ alternatives:
 - hopper
 - tripadvisor
 - wanderlog
+- tripmojo
 date: '2026-11-05'
 tags:
 - ai_powered
@@ -27,7 +28,7 @@ tags:
 - solution
 - saas
 - online
-i18n_source: '35133227b6d0'
+i18n_source: 'e9dba417019c'
 ---
 
 O KAYAK não vende viagens diretamente. Em vez disso, pesquisa simultaneamente companhias aéreas, agências de viagens online e sites de hotéis e reúne as opções em um só lugar, com filtros de preço, escalas, companhias aéreas e horários. Ao escolher uma opção, você é direcionado ao provedor para fazer a reserva. Isso economiza tempo em comparação com verificar muitos sites um por um; a interface também oferece tabelas de datas flexíveis e busca por aeroportos próximos para encontrar alternativas mais baratas.

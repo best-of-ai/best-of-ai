@@ -20,6 +20,7 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, easy_to_use]
 ---

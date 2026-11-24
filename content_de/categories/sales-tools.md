@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Vertriebstools'
+title: 'Die besten KI-Tools für den Vertrieb'
 name: 'Vertriebstools'
 slug: 'sales-tools'
 description: 'KI-Vertriebstools für automatisierte Ansprache, Vertriebsanalysen und Umsatzprognosen.'

@@ -15,9 +15,10 @@ alternatives:
   - pilot-ai
   - vic-ai
   - expensify-ai
+  - latch
 date: '2026-11-08'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '8215da835924'
+i18n_source: '99b5da73d604'
 ---
 
 顧客はレシートを撮影するか、請求書をメールで転送します。Dextは仕入先、日付、金額、税額を読み取ります。抽出したデータはXero、QuickBooks、Sageなどのプラットフォームに同期され、確認待ちの下書き取引になります。仕入先の請求書を自動で取り込むこともできます。

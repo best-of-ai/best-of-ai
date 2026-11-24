@@ -23,6 +23,7 @@ alternatives:
 - evidently-ai
 - comet-ml
 - helicone
+- plurai
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -37,7 +38,7 @@ tags:
 - real_time
 - collaboration
 - machine_learning
-i18n_source: '405da4fbccea'
+i18n_source: '49cc5a90641f'
 ---
 Arize ajuda equipes a entender o comportamento dos modelos após a implantação. Em aprendizado de máquina tradicional, acompanha o desempenho, detecta quando os dados de entrada se afastam dos dados de treinamento e identifica segmentos de usuários para os quais o modelo falha. Alertas apontam problemas antes que afetem o negócio.
 

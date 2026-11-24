@@ -18,6 +18,7 @@ alternatives:
 - rezi
 - jobgpt-ai
 - linkedin
+- hiringnow
 date: '2026-06-15'
 tags:
 - career
@@ -29,7 +30,7 @@ tags:
 - resume
 - interview
 - hiring
-i18n_source: 'ffae669b4033'
+i18n_source: '80b6775b8749'
 ---
 
 Teal hilft bei der Organisation der Jobsuche. Eine Chrome-Erweiterung speichert Stellenanzeigen aus Jobbörsen in einem Tracker mit Statusstufen und Notizen; Werkzeuge erinnern an Nachfassaktionen. Mit einem Lebenslaufgenerator erstellst du auf jede Ausschreibung zugeschnittene Versionen samt Vorschlägen zu Schlüsselwörtern und Formulierungen.

@@ -13,9 +13,11 @@ featured: false
 rank: 5
 alternatives:
   - optmyzr
+  - synter
+  - maxma
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
-i18n_source: 'eb12817b759e'
+i18n_source: '7265b40f03ee'
 ---
 
 Adalysis é uma plataforma de gestão de PPC para Google Ads e Microsoft Ads. Ela audita contas em busca de gastos desperdiçados e oportunidades perdidas, monitora o desempenho e automatiza otimizações rotineiras, com o objetivo de poupar o tempo que especialistas gastariam em verificações manuais.

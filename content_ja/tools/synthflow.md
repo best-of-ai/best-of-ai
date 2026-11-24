@@ -15,9 +15,10 @@ alternatives:
   - retell-ai
   - vapi
   - bland-ai
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, image_based, voice_enabled]
-i18n_source: 'd6f54483ee45'
+i18n_source: '652aeb8cf411'
 ---
 
 Synthflowはノーコードの音声エージェントプラットフォームです。ユーザーはビジュアルエディタで通話の流れを設計し、音声を選び、電話番号を接続します。するとエージェントが、質問への回答、予約の受付、見込み客の選別といった電話対応をこなします。カレンダーやCRMとは連携でつなげます。

@@ -15,9 +15,10 @@ alternatives:
   - scenario
   - promethean-ai
   - inworld-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, image_based]
-i18n_source: '0af84ad0e249'
+i18n_source: 'd09918508888'
 ---
 
 Ludo.aiは、ゲーム開発の初期段階を速めることを狙っています。デザイナーは、ゲームのコンセプトやメカニクスをブレインストーミングし、アプリストアのトレンドに基づく提案を受け、説明文や機能リストを生成できます。市場調査ツールは、成績の良いゲームを分析して、どのジャンルやテーマが人気かを示すので、インディースタジオやパブリッシャーが何を作るかを決めるのに役立ちます。

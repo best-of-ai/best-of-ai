@@ -16,6 +16,7 @@ alternatives:
   - qgis
   - mapbox
   - nearmap
+  - waldo-wherobots
 date: '2026-11-05'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
 ---

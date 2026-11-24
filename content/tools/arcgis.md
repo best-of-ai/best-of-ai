@@ -18,6 +18,7 @@ alternatives:
   - mapbox
   - nearmap
   - planet-labs
+  - waldo-wherobots
 date: '2025-10-01'
 tags: [enterprise, cloud_based, analytics, powerful, ai_powered, intelligent, platform, tool]
 ---

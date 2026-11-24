@@ -19,9 +19,10 @@ alternatives:
   - arize
   - wandb-weave
   - promptlayer
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based]
-i18n_source: '1a337eb081d2'
+i18n_source: '3455e6780a69'
 ---
 
 LangSmithは、チームがAIアプリケーションを理解し、改善するのを助けます。開発者がアプリケーションからトレースを送ると、LangSmithがプロンプト、取得したドキュメント、ツール呼び出し、モデルの出力を、時間とコストとともに各ステップで表示します。エージェントがどこでつまずいたかを見つけられます。

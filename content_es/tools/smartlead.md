@@ -17,9 +17,10 @@ alternatives:
   - apollo
   - clay
   - amplemarket
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting]
-i18n_source: '3ae88e16410c'
+i18n_source: '6c241717a74e'
 ---
 
 Smartlead está diseñada para el correo saliente a gran escala. Los usuarios conectan muchos buzones y la plataforma reparte los envíos entre ellos, ajusta el volumen y calienta las cuentas nuevas para que los mensajes lleguen a las bandejas de entrada. Las secuencias, los seguimientos y la gestión de respuestas organizan las campañas.

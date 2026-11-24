@@ -1,6 +1,6 @@
 ---
-title: 'Die besten KI-Tools für Lern-Tools'
-name: 'Lern-Tools'
+title: 'Die besten KI-Tools zum Lernen'
+name: 'Lernwerkzeuge'
 slug: 'learning-tools'
 description: 'KI-gestützte Lernangebote für personalisiertes Lernen, Nachhilfe und den Ausbau von Fähigkeiten.'
 sort_order: 0

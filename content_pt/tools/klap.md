@@ -21,6 +21,7 @@ alternatives:
 - vidyo-ai
 - submagic
 - clipfinder-ai
+- videco
 date: '2025-06-15'
 tags:
 - video_editing
@@ -32,7 +33,7 @@ tags:
 - transitions
 - effects
 - export
-i18n_source: '84e70fa39d01'
+i18n_source: 'a96497c3912d'
 ---
 
 O Klap ajuda criadores e profissionais de marketing a transformar vídeos longos em clipes curtos. O usuário envia um vídeo ou cola um link, e a ferramenta seleciona trechos promissores, corta-os para o formato vertical acompanhando o falante e adiciona legendas. Uma pontuação estima a probabilidade de desempenho de cada clipe.

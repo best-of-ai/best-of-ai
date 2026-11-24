@@ -18,9 +18,11 @@ alternatives:
   - e2b-ai
   - multion
   - diffbot
+  - glasshand
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based]
-i18n_source: '1bca8660de3d'
+i18n_source: '46d7e812e665'
 ---
 
 Browserbaseは、ソフトウェアが操作できるブラウザを渡します。ブラウザを大規模に動かすのは難しく、メモリの使用量、ボット検知、セッション管理といった問題があります。Browserbaseはクラウド上でホストし、PlaywrightやPuppeteerなどのAPIとライブラリ経由で使えるようにします。エージェントはページを開き、クリックし、フォームに入力し、データを取り出せます。

@@ -17,9 +17,10 @@ alternatives:
   - claude-code
   - cursor
   - cline
+  - skillbox
 date: '2026-10-29'
 tags: [developer_tools, terminal, coding_agents, open_source, desktop_app, multiplexer, agent_management, productivity, cross_platform, automation]
-i18n_source: '3491a22de0f6'
+i18n_source: '6e0e65b13465'
 ---
 
 Herdr gestiona el montón creciente de sesiones de agentes que ejecutan los desarrolladores. En lugar de muchas ventanas de terminal, presenta los agentes en una sola interfaz con pestañas y muestra si cada uno está trabajando, ha terminado o espera una respuesta, cuando el agente informa de su estado. Admite cualquier agente que se ejecute en una terminal.

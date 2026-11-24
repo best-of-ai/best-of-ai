@@ -20,9 +20,10 @@ alternatives:
   - scalenut
   - semrush
   - ahrefs
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, real_time, collaboration]
-i18n_source: '668d97dd9955'
+i18n_source: '0dab260d7223'
 ---
 
 Surfer aide à écrire du contenu qui ressemble à ce qui se classe déjà. Tu entres un mot-clé et il analyse les premiers résultats, puis suggère les termes, les titres, la longueur et la structure que ces pages partagent. Pendant que tu écris dans son éditeur, un score de contenu se met à jour, ce qui donne vite une idée de la couverture du sujet. Rédacteurs et équipes SEO s'en servent pour guider des brouillons et pour mettre à jour d'anciens posts qui ont perdu des positions.

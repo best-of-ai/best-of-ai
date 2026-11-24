@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Modelle für Multimodal'
+title: 'Die besten multimodalen KI-Modelle'
 name: 'Multimodal'
 slug: 'multimodal'
 description: 'Modelle, die in einem System mit Text, Bildern, Audio oder Video arbeiten.'

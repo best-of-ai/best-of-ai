@@ -18,9 +18,10 @@ alternatives:
   - openai-realtime-api
   - bland-ai
   - retell-ai
+  - call-e
 date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
-i18n_source: '09fae406af0d'
+i18n_source: 'a1e8d9af8b84'
 ---
 
 ConversationRelay relie les appels téléphoniques à l'IA. Quand un appel arrive sur un numéro Twilio, le service convertit la parole de l'appelant en texte en temps réel et l'envoie par WebSocket au serveur du développeur. Le serveur renvoie du texte, que Twilio transforme en parole, pour que l'appelant entende une réponse naturelle. Les équipes peuvent ainsi brancher n'importe quel grand modèle de langage et leur propre logique métier.

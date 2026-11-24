@@ -19,9 +19,11 @@ alternatives:
   - momentic-mo
   - browserstack-test-companion
   - qa-wolf
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [integrations, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '4f160a4b8313'
+i18n_source: 'dea5794d0838'
 ---
 
 Applitools traite un problème que les tests automatisés ordinaires ratent : est-ce que la page a l'air correcte. Un test fonctionnel peut confirmer qu'un bouton existe alors que la mise en page est cassée, superposée ou hors écran. Applitools Eyes prend des captures pendant les tests et les compare à des références validées avec une IA visuelle qui comprend la mise en page, le texte et la couleur comme une personne. Ça évite le flot de fausses alertes d'une comparaison pixel par pixel, où de minuscules différences de rendu font tomber chaque contrôle.

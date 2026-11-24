@@ -15,9 +15,10 @@ alternatives:
   - optimizely
   - mutiny
   - hubspot
+  - letter-dev
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, customizable, analytics]
-i18n_source: 'a4e16f413673'
+i18n_source: 'e5ab6e1659f4'
 ---
 Instapage se concentre sur la page que les visiteurs atteignent après avoir cliqué sur une annonce. Les marketeurs construisent des pages dans un éditeur en glisser-déposer, avec des modèles, les relient aux campagnes publicitaires et suivent les taux de conversion. Des fonctions de collaboration permettent aux équipes et aux clients de commenter directement les designs.
 

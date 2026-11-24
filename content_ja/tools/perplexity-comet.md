@@ -19,9 +19,10 @@ alternatives:
   - brave-leo
   - genspark
   - sider-omni-sidebar
+  - saparo
 date: '2026-07-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app, free_tier]
-i18n_source: 'eaab61389ca2'
+i18n_source: 'ad4a31d55728'
 ---
 
 Cometは、アシスタントをブラウザの一部にします。内容をチャットボットにコピーする代わりに、見ているページについて質問したり、タブ間で情報を比べたり、スレッドを要約したり、アシスタントに検索と結果の収集を頼んだりできます。検索には、Perplexityの回答エンジンが標準で使われます。

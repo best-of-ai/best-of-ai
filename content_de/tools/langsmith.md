@@ -20,6 +20,7 @@ alternatives:
 - arize
 - wandb-weave
 - promptlayer
+- plurai
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -32,7 +33,7 @@ tags:
 - cloud
 - api
 - model_based
-i18n_source: '1a337eb081d2'
+i18n_source: '3455e6780a69'
 ---
 
 LangSmith hilft Teams, KI-Anwendungen zu verstehen und zu verbessern. Entwickler:innen senden Traces aus ihren Anwendungen; LangSmith zeigt jeden Schritt mit Prompts, abgerufenen Dokumenten, Werkzeugaufrufen und Modellausgaben samt Zeit- und Kostenangaben. So lässt sich nachvollziehen, wo ein Agent einen Fehler gemacht hat.

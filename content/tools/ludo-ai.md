@@ -15,6 +15,7 @@ alternatives:
   - scenario
   - promethean-ai
   - inworld-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, image_based]
 ---

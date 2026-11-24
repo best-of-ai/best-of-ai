@@ -15,6 +15,7 @@ alternatives:
   - interview-warmup
   - teal
   - huntr
+  - hiringnow
 date: '2026-11-08'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
 ---

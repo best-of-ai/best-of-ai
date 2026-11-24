@@ -18,6 +18,7 @@ alternatives:
 - firecrawl
 - apify
 - pinecone
+- tabstack
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -32,7 +33,7 @@ tags:
 - open_source
 - api_available
 - multimodal
-i18n_source: '34f87332a9be'
+i18n_source: 'f8e460d43e51'
 ---
 
 Jina AI konzentriert sich auf die Abrufkomponente von KI-Anwendungen. Embedding-Modelle wandeln Text und Bilder für die mehrsprachige Suche in Vektoren um, Reranker sortieren Ergebnisse nach Relevanz und eine Reader-API wandelt Webseiten in sauberen Text um, den Sprachmodelle verarbeiten können. Darauf bauen Such- und Deep-Research-Endpunkte auf.

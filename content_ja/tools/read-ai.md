@@ -21,9 +21,10 @@ alternatives:
   - grain
   - meetgeek
   - sembly-ai
+  - bluedot-notetaker
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
-i18n_source: 'fd71b8f8ff90'
+i18n_source: '6cf843069d84'
 ---
 
 Read AIは、会議の分析ツールとして始まりました。Zoom、Google Meet、Microsoft Teamsなどの通話に参加し、文字起こし、要約、アクションアイテム、チャプターを作ります。他と違っていたのは測定で、エンゲージメント、発言時間、感情のレポートにより、会議の主催者は会話がどう進み、誰が参加したかを把握できます。

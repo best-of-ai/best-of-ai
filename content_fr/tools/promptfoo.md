@@ -18,9 +18,10 @@ alternatives:
   - braintrust
   - lakera
   - evidently-ai
+  - plurai
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, customizable]
-i18n_source: '823d157b80c8'
+i18n_source: 'fba3d3d57a19'
 ---
 
 Promptfoo aide les développeurs à tester des systèmes d'IA de façon systématique. On définit des cas de test et des critères dans un fichier de configuration, on lance des prompts sur plusieurs modèles et on compare les sorties côte à côte, avec des assertions qui vérifient le contenu attendu, le format ou la sécurité. Il se lance en ligne de commande et dans des pipelines de CI.

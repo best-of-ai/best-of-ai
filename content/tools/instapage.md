@@ -15,6 +15,7 @@ alternatives:
   - optimizely
   - mutiny
   - hubspot
+  - letter-dev
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, customizable, analytics]
 ---

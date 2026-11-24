@@ -14,9 +14,10 @@ rank: 9
 alternatives:
   - unreal-engine
   - godot
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
-i18n_source: '129d983dacab'
+i18n_source: '8a34d23fe6dd'
 ---
 
 L'éditeur prend en charge la 2D et la 3D, un grand magasin d'assets et le scripting en C#. Unity inclut des outils de physique, d'animation et de multijoueur. Des aides IA dans l'éditeur peuvent répondre aux questions et générer des assets et du code.

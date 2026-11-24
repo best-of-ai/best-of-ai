@@ -20,6 +20,7 @@ alternatives:
   - seamless-ai
   - instantly
   - 11x-ai
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
 ---

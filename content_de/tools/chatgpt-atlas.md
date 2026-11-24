@@ -20,6 +20,7 @@ alternatives:
 - arc-browser
 - brave-leo
 - genspark
+- saparo
 date: '2026-08-31'
 tags:
 - ai_agent
@@ -32,7 +33,7 @@ tags:
 - orchestration
 - agentic
 - mobile_app
-i18n_source: 'fce700d351aa'
+i18n_source: 'fdfb38157f05'
 ---
 
 Atlas integriert ChatGPT in den Browser. Der Assistent in der Seitenleiste kann die gerade geöffnete Seite sehen. Du kannst ihn bitten, einen Artikel zusammenzufassen, eine Tabelle zu erklären, Produkte in mehreren Tabs zu vergleichen oder kontextbezogen eine Antwort zu verfassen. Auch die Adressleiste lässt sich als Chat-Prompt verwenden. Wenn du es aktivierst, kann der Browser Kontext aus deinem Verlauf behalten.

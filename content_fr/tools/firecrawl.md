@@ -17,9 +17,11 @@ alternatives:
   - diffbot
   - tavily
   - browserbase
+  - glasshand
+  - tabstack
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
-i18n_source: 'c781e9f64190'
+i18n_source: 'dfe25fc2b020'
 ---
 Firecrawl résout une étape courante des projets d'IA : mettre le contenu web sous une forme que les modèles de langage peuvent utiliser. Un développeur lui donne une URL, et il récupère la page, gère le rendu JavaScript, retire le boilerplate et renvoie du Markdown propre. Il peut aussi parcourir un site entier, cartographier ses liens, ou extraire des champs structurés des pages à partir d'un schéma.
 

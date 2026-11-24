@@ -17,9 +17,11 @@ alternatives:
   - diffbot
   - tavily
   - browserbase
+  - glasshand
+  - tabstack
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
-i18n_source: 'c781e9f64190'
+i18n_source: 'dfe25fc2b020'
 ---
 
 Firecrawl übernimmt einen häufigen Schritt in KI-Projekten: Webinhalte in eine für Sprachmodelle nutzbare Form zu bringen. Entwickler geben eine URL an; Firecrawl ruft die Seite ab, rendert JavaScript, entfernt überflüssige Elemente und liefert sauberes Markdown zurück. Es kann ganze Websites crawlen, Links erfassen oder strukturierte Felder anhand eines Schemas extrahieren.

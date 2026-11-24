@@ -20,6 +20,7 @@ alternatives:
 - close
 - copper
 - lightfield-ai
+- altercontacts
 date: '2025-06-15'
 tags:
 - crm
@@ -33,7 +34,7 @@ tags:
 - customer_data
 - collaboration
 - customizable
-i18n_source: '3ed7e2a43443'
+i18n_source: '1db4d61d077f'
 ---
 
 Folk ist ein Beziehungsmanager für alle, denen klassische CRM-Systeme zu umfangreich sind. Du importierst Kontakte aus E-Mail, LinkedIn und Tabellen, gruppierst sie und verfolgst Gespräche und Geschäftschancen in einer übersichtlichen Oberfläche. Das Tool eignet sich für Agenturen, Personalvermittlungen, Investor:innen und Gründer:innen mit vielen Kontakten.

@@ -18,9 +18,10 @@ alternatives:
   - botkeeper
   - zeni-ai
   - bill-com-ai
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
-i18n_source: 'abc4963d5a39'
+i18n_source: '85d2a4055162'
 ---
 
 Pilot bietet Buchhaltung als Dienstleistung. Unternehmen verbinden Bankkonten und Werkzeuge; Pilots Team und Software führen Bücher, schließen Monatsperioden ab, erstellen Finanzberichte und kümmern sich um Steuererklärungen. Kunden erhalten einen festen Buchhalter und ein Dashboard.

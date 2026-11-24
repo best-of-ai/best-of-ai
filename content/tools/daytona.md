@@ -15,6 +15,7 @@ alternatives:
   - e2b-ai
   - modal-ai
   - browserbase
+  - glasshand
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, community_driven]
 ---

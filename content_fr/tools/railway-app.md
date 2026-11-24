@@ -17,9 +17,11 @@ alternatives:
   - heroku
   - vercel-ai-platform
   - netlify-ai
+  - spacefast
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, machine_learning, nlp, model_based]
-i18n_source: '786d62415cca'
+i18n_source: 'c40784a89fdc'
 ---
 
 Railway rend l'hébergement simple. Un développeur connecte un dépôt GitHub, et Railway détecte le langage, construit l'app et la fait tourner, avec des bases comme Postgres, Redis et MySQL ajoutées en un clic. Environnements, variables et réseau se gèrent sur un canevas visuel.

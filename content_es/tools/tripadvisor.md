@@ -18,9 +18,10 @@ alternatives:
   - wanderlog
   - mova-guide
   - google-maps
+  - tripmojo
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '574156254f20'
+i18n_source: 'adb80eb85dd2'
 ---
 
 Tripadvisor hizo su nombre con las reseñas de viajeros. Los visitantes puntúan y describen hoteles, restaurantes, excursiones y lugares de interés, y el sitio clasifica los sitios según esas opiniones, que la gente usa para decidir dónde alojarse y comer. Las fotos, los foros y las preguntas y respuestas añaden detalle. Cubre millones de lugares en todo el mundo y es gratis de consultar.

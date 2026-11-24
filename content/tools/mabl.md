@@ -20,6 +20,8 @@ alternatives:
   - browserstack-test-companion
   - percy
   - testifly
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [mobile_app, integrations, ai_powered, intelligent, platform, tool, service, solution]
 ---

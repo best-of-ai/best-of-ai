@@ -20,9 +20,10 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '99876c321ce4'
+i18n_source: 'ab2bee41c6a1'
 ---
 
 Opus Clip automatiza uma tarefa que consome horas de podcasters, streamers e profissionais de marketing: transformar uma gravação longa em vídeos curtos. Você cola um link ou envia um vídeo, e a IA analisa a transcrição e as imagens para encontrar trechos com um gancho forte e uma ideia completa. Ela gera vários clipes, cada um com título, legendas e formato vertical que mantém o apresentador no enquadramento.

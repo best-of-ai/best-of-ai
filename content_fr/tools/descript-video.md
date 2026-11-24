@@ -20,9 +20,11 @@ alternatives:
   - riverside
   - wisecut
   - clipchamp
+  - videco
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, voice_enabled]
-i18n_source: 'a853fe85ebb6'
+i18n_source: 'a76b96b7c680'
 ---
 
 Descript a changé la façon dont beaucoup de gens montent podcasts et vidéos. Après l'enregistrement, Descript transcrit l'audio, et supprimer un mot de la transcription le coupe du média. Le montage ressemble alors à un travail dans un document, plus accessible pour les gens sans expérience du montage vidéo.

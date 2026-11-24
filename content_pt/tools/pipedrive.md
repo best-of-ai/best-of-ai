@@ -24,6 +24,7 @@ alternatives:
 - attio
 - copper
 - folk
+- altercontacts
 date: '2025-09-21'
 tags:
 - crm
@@ -36,7 +37,7 @@ tags:
 - deals
 - customer_data
 - collaboration
-i18n_source: e53244c40d36
+i18n_source: '0cb02dab9884'
 ---
 
 Pipedrive foi projetado por e para profissionais de vendas, com o funil no centro. Negócios aparecem como cartões que avançam por etapas, do primeiro contato ao fechamento, para que representantes vejam rapidamente o que exige atenção. Cada negócio reúne atividades, e-mails, anotações e arquivos; o sistema lembra os acompanhamentos para que nada seja esquecido. Em comparação com grandes suítes de CRM, a interface é clara e fácil de aprender, adequada a equipes de vendas pequenas e em crescimento.

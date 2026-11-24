@@ -18,6 +18,8 @@ alternatives:
   - applitools
   - percy
   - browserstack-test-companion
+  - testsprite
+  - seldon-wren
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

@@ -21,9 +21,10 @@ alternatives:
   - grain
   - supernormal
   - sembly-ai
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable]
-i18n_source: 'a10aeb4c4b2c'
+i18n_source: 'cd6e3527d8c7'
 ---
 tl;dv, kurz für „too long; didn’t view“, erspart das erneute Ansehen von Meetings. Ein Bot nimmt an Anrufen teil und zeichnet sie in vielen Sprachen auf und transkribiert sie. Während des Gesprächs können wichtige Momente markiert werden. Anschließend stehen Aufnahme und KI-Zusammenfassung mit Aufgabenliste bereit. Zeitstempel ermöglichen den Sprung zur relevanten Stelle. Clips lassen sich mit Personen teilen, die beim Meeting gefehlt haben.
 

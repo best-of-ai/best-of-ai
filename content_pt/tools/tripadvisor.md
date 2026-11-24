@@ -18,9 +18,10 @@ alternatives:
   - wanderlog
   - mova-guide
   - google-maps
+  - tripmojo
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '574156254f20'
+i18n_source: 'adb80eb85dd2'
 ---
 
 O Tripadvisor construiu sua reputação com avaliações de viajantes. Visitantes avaliam e descrevem hotéis, restaurantes, passeios e atrações, e o site classifica os lugares com base nessas opiniões, ajudando pessoas a decidir onde ficar e comer. Fotos, fóruns e perguntas e respostas acrescentam detalhes. A plataforma abrange milhões de lugares no mundo todo e é gratuita para navegar.

@@ -13,9 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - alphasense
+  - latch
 date: '2026-11-08'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '3a14430c3bf0'
+i18n_source: '9d437376c6b8'
 ---
 
 DataSnipperは監査人向けのExcelアドインとして始まり、監査と財務の作業向けのエージェント型プラットフォームに広がりました。エージェントは詳細テスト、内部統制のテスト、財務諸表の確認などの標準手続きを実行し、人が各結果を確認してから承認します。

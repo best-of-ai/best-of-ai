@@ -15,6 +15,7 @@ alternatives:
   - pilot-ai
   - vic-ai
   - expensify-ai
+  - latch
 date: '2026-11-08'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

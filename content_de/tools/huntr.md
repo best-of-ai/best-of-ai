@@ -16,6 +16,7 @@ alternatives:
 - jobgpt-ai
 - jobscan
 - jobbyo
+- hiringnow
 date: '2026-06-15'
 tags:
 - career
@@ -29,7 +30,7 @@ tags:
 - hiring
 - browser_extension
 - extensible
-i18n_source: '11f4c2e8bde7'
+i18n_source: 'acb1799e4e18'
 ---
 
 Huntr hilft, die Jobsuche zu organisieren. Nutzer:innen speichern Stellenanzeigen über eine Browsererweiterung, verschieben sie im Bewerbungsprozess und hängen Notizen, Kontakte und Dokumente an. Erinnerungen regen zum Nachfassen an, damit Chancen nicht untergehen.

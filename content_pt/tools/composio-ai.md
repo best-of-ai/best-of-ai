@@ -17,9 +17,10 @@ alternatives:
   - langchain
   - e2b-ai
   - mastra
+  - scalekit
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, integrations, model_based, community_driven]
-i18n_source: 'a6cbde9a87c9'
+i18n_source: '42baddd8fb8f'
 ---
 
 Composio é uma camada de integração para agentes de IA. Agentes precisam executar ações em outros softwares, o que exige lidar com autenticação e detalhes de API de cada serviço. Composio fornece um catálogo de conectores que cuidam dos fluxos de login e expõem ações em um formato que os modelos podem chamar; assim, um desenvolvedor dá acesso do agente a muitos aplicativos com poucas linhas de código.

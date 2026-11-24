@@ -22,6 +22,7 @@ alternatives:
 - browserstack-test-companion
 - momentic-mo
 - percy
+- testsprite
 date: '2025-10-01'
 tags:
 - integrations
@@ -32,7 +33,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: b2b384c69c23
+i18n_source: '10b2afda1362'
 ---
 
 Testim enfrenta um dos maiores problemas da automação de testes: testes que quebram a cada mudança na interface. Em vez de depender de um único identificador frágil para cada elemento, usa aprendizado de máquina para reconhecer vários atributos, permitindo que o teste localize um botão mesmo depois de ele ser renomeado ou movido por um desenvolvedor. Esse comportamento de autorreparação reduz o tempo que engenheiros gastam consertando testes.

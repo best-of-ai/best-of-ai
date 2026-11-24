@@ -21,6 +21,9 @@ alternatives:
 - madgicx
 - creatopy
 - aiter-io
+- creatify
+- synter
+- maxma
 date: '2025-09-21'
 tags:
 - advertising
@@ -33,7 +36,7 @@ tags:
 - performance
 - targeting
 - fast
-i18n_source: '1d8ff8db7543'
+i18n_source: '2174007a3ee2'
 ---
 
 Smartly, früher Smartly.io, richtet sich an Marken und Agenturen mit großen Werbeprogrammen. Die Plattform verbindet sich mit wichtigen sozialen Netzwerken und ermöglicht Teams, viele Kampagnen über eine Oberfläche zu erstellen, zu starten, mit Regeln zu versehen und Tausende Anzeigen gleichzeitig zu aktualisieren. Händler:innen mit umfangreichen Produktkatalogen erstellen dynamische Anzeigen automatisch aus Produktdaten und passen sie an Lagerbestand und Preis an.

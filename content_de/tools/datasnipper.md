@@ -13,9 +13,10 @@ featured: false
 rank: 5
 alternatives:
   - alphasense
+  - latch
 date: '2026-11-08'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '3a14430c3bf0'
+i18n_source: '9d437376c6b8'
 ---
 
 DataSnipper begann als Excel-Erweiterung für Auditoren und wurde zu einer Agentenplattform für Audit- und Finanzarbeit. Agenten führen Standardverfahren wie Einzelpostenprüfungen, Kontrolltests und Abschlussprüfungen aus. Anschließend prüft eine Person jedes Ergebnis und zeichnet es ab.

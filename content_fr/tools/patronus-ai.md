@@ -19,9 +19,10 @@ alternatives:
   - langfuse
   - arize
   - evidently-ai
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, customizable, model_based]
-i18n_source: '95e670be7fe4'
+i18n_source: '235551204f06'
 ---
 
 Patronus AI aide les équipes à trouver des problèmes dans les applications d'IA. Les développeurs font passer des jeux de tests dans leurs systèmes, et Patronus note les sorties avec des évaluateurs qui vérifient les hallucinations, le contenu dangereux, les fuites de données sensibles et les violations de politique. Des outils de red teaming sondent les faiblesses avec des entrées adverses.

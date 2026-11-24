@@ -19,9 +19,10 @@ alternatives:
   - spike
   - boomerang
   - mixmax
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, mobile_app, collaboration, cloud_based]
-i18n_source: 'd735e17e49ef'
+i18n_source: '904bf3340eac'
 ---
 
 Spark est un client e-mail qui fonctionne avec Gmail, Outlook, iCloud, Yahoo et d'autres comptes. Sa Smart Inbox classe les messages, met en avant les personnes et le courrier important, et écarte les newsletters et les notifications. Le report, l'envoi différé, les rappels de suivi et les réponses rapides accélèrent le traitement, et une boîte unifiée réunit les comptes.

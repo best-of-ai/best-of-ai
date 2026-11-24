@@ -18,9 +18,11 @@ alternatives:
   - aiter-io
   - smartly
   - canva
+  - creatify
+  - adside
 date: '2026-11-05'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting]
-i18n_source: 'a01cc959b65a'
+i18n_source: '4ac14ab21c14'
 ---
 
 Creatopy est fait pour la production d'annonces. Designers ou marketeurs créent une mise en page dans un éditeur, et l'outil l'adapte à des dizaines de tailles de bannières et de formats sociaux, ce qui évite le redimensionnement manuel qui mange d'habitude des heures. Des outils d'animation transforment des annonces statiques en bannières HTML5, et des kits de marque gardent couleurs, polices et logos cohérents.

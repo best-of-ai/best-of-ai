@@ -19,9 +19,12 @@ alternatives:
   - madgicx
   - creatopy
   - aiter-io
+  - creatify
+  - synter
+  - maxma
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, fast]
-i18n_source: '1d8ff8db7543'
+i18n_source: '2174007a3ee2'
 ---
 
 Smartlyは、旧名をSmartly.ioといい、大規模な広告プログラムを運用するブランドと代理店を対象にしています。主要なソーシャルネットワークに接続し、一つの画面から多数のキャンペーンを作って公開し、ルールを適用し、数千の広告を一度に更新できます。大きなカタログを持つ小売業者向けには、商品フィードから動的広告が自動で生成され、在庫と価格に合わせて調整されます。

@@ -21,6 +21,7 @@ alternatives:
   - outreach
   - salesloft
   - instantly
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
 ---

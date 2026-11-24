@@ -16,9 +16,10 @@ alternatives:
   - bland-ai
   - synthflow
   - openai-realtime-api
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution]
-i18n_source: 'cf1b06cae3a2'
+i18n_source: '55a57adae067'
 ---
 
 Retell fournit l'infrastructure des agents vocaux. Un développeur définit le prompt et les outils d'un agent, connecte un numéro de téléphone, et la plateforme gère la reconnaissance vocale, le modèle de langage, la synthèse vocale et le contrôle d'appel, avec une prise de tour naturelle et la gestion des interruptions.

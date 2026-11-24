@@ -21,9 +21,10 @@ alternatives:
   - grain
   - meetgeek
   - sembly-ai
+  - bluedot-notetaker
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
-i18n_source: 'fd71b8f8ff90'
+i18n_source: '6cf843069d84'
 ---
 
 Read AI a commencé comme un outil d'analytique de réunion. Il rejoint les appels sur Zoom, Google Meet, Microsoft Teams et d'autres plateformes, puis produit une transcription, un résumé, des actions et des chapitres. Ce qui le distinguait, c'était la mesure : des rapports sur l'engagement, le temps de parole et le sentiment, qui donnent aux organisateurs une idée du déroulement de la conversation et de qui a participé.

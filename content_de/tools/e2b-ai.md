@@ -17,6 +17,8 @@ alternatives:
 - daytona
 - browserbase
 - cloudflare-kitesurf
+- glasshand
+- volcano-kong
 date: '2025-09-21'
 tags:
 - ai_agent
@@ -30,7 +32,7 @@ tags:
 - agentic
 - cloud_based
 - secure
-i18n_source: '40ae218774d2'
+i18n_source: 'f5d881534c25'
 ---
 
 E2B gibt KI-Agenten einen sicheren Computer. Wenn ein Sprachmodell Code schreibt, ist die direkte Ausführung auf einem Server riskant. E2B startet eine isolierte Cloud-Sandbox, führt den Code aus, gibt Ergebnisse und Dateien zurück und beendet die Umgebung. Der schnelle Start macht sie für Agenten-Schleifen geeignet.

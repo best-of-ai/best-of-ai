@@ -1,0 +1,3 @@
+---
+title: 'Bluedot Notetaker Alternatives'
+---

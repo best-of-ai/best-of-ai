@@ -18,9 +18,10 @@ alternatives:
   - spyfu
   - mangools
   - similarweb
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, real_time]
-i18n_source: '414ccc409a8f'
+i18n_source: '53e56ac731c4'
 ---
 
 Ahrefsがよく知られているのは、被リンクのデータです。クローラーはウェブ上のリンクを地図にするので、どのサイトでも、誰がリンクしているか、どのページが最も多くのアクセスを集めているか、どのキーワードが訪問者を連れてきているかを見られます。Site Explorerは多くの人が最初に開くツールで、競合の戦略を調べるのによく使われます。Keywords Explorerは検索語を提案し、それぞれで順位を取る難しさを見積もります。

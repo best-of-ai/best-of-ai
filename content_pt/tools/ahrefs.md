@@ -18,9 +18,10 @@ alternatives:
   - spyfu
   - mangools
   - similarweb
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, real_time]
-i18n_source: '414ccc409a8f'
+i18n_source: '53e56ac731c4'
 ---
 
 Ahrefs é mais conhecido por seus dados de backlinks. Seu rastreador mapeia links na web, permitindo analisar qualquer site e ver quem cria links para ele, quais páginas atraem mais tráfego e quais palavras-chave trazem visitantes. Site Explorer é a ferramenta que a maioria abre primeiro e costuma ser usada para estudar a estratégia de concorrentes. Keywords Explorer sugere termos de pesquisa e estima a dificuldade para obter boas posições.

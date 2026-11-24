@@ -21,9 +21,10 @@ alternatives:
   - canva
   - invideo
   - wondershare-filmora-ai
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, collaboration, powerful]
-i18n_source: 'b92d36f2c1a4'
+i18n_source: '77bd5f7fb56a'
 ---
 
 VEEDは、よくある編集を簡単にするオンライン動画エディターです。クリップをアップロードし、タイムライン上でトリミングして並べ、テキスト、音楽、エフェクトを加え、各プラットフォーム向けの形式で書き出します。チュートリアルやメッセージ用の画面・ウェブカメラ録画、SNS動画のテンプレート、ストック素材も含まれます。すべてブラウザで動くため、ソフトをインストールせずに共同作業ができます。

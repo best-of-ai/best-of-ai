@@ -16,9 +16,10 @@ alternatives:
   - botkeeper
   - vic-ai
   - stampli-ai
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
-i18n_source: '2be121cfd4cb'
+i18n_source: 'b47599b4e033'
 ---
 
 Trullionは、契約書を読む必要がある会計基準を扱います。リースや収益の契約では、経理チームが支払額、日付、オプションなどの条件を計算に取り込まなければなりません。TrullionのAIは文書を読んでデータを抽出し、スケジュールと仕訳を作ります。

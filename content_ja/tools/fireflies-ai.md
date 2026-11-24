@@ -21,9 +21,11 @@ alternatives:
   - sembly-ai
   - tactiq
   - grain
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
-i18n_source: '2677aac23678'
+i18n_source: 'b8048edce74b'
 ---
 
 Firefliesは、たいていはFredという名前のボットを会議に入れ、通話を録音して話者ラベル付きの文字起こしを作ります。会議のあと、アクション項目と主要な話題を含む要約を作り、チームが作業している場所へ投稿します。すべての会議が検索できるテキストになるので、先月顧客が何と言ったか、いつ決定したかを探せます。数十の言語に対応し、主要なビデオ通話のプラットフォームと、アップロードした録音で使えます。

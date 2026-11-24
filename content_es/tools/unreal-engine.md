@@ -14,9 +14,10 @@ rank: 9
 alternatives:
   - metahuman
   - character-creator
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, real_time, image_based]
-i18n_source: '235fcea1fd97'
+i18n_source: 'e95de2275b1b'
 ---
 
 El motor incluye un sistema de programación visual llamado Blueprints, con el que se puede crear la jugabilidad sin escribir C++. Lumen se encarga de la iluminación dinámica y Nanite de la geometría muy detallada, lo que va bien para escenas cinematográficas. MetaHuman Creator, que funciona junto con el motor, genera personajes digitales realistas.

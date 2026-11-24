@@ -18,9 +18,10 @@ alternatives:
   - figma-make
   - v0
   - webflow
+  - letter-dev
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, image_based]
-i18n_source: 'a46f3f237259'
+i18n_source: '26d336432dbd'
 ---
 
 Builder.io tiende un puente entre desarrolladores y personas que no programan. Los ingenieros lo integran en un sitio web creado con React, Vue, Next.js u otros frameworks y registran sus componentes; después, marketing y diseño montan y editan páginas de forma visual con esos componentes sin esperar a una versión de código. Eso reduce los cuellos de botella en páginas de aterrizaje, campañas y contenido, mientras el código sigue bajo el control de los desarrolladores.

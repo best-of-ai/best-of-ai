@@ -15,9 +15,10 @@ alternatives:
   - optimizely
   - mutiny
   - hubspot
+  - letter-dev
 date: '2026-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration, customizable, analytics]
-i18n_source: 'a4e16f413673'
+i18n_source: 'e5ab6e1659f4'
 ---
 
 Instapageは、広告をクリックしたあと訪問者が着地するページに特化しています。マーケターはテンプレート付きのドラッグ＆ドロップ編集でページを作り、広告キャンペーンにつなぎ、コンバージョン率を追います。共同作業の機能では、チームとクライアントがデザインに直接コメントできます。

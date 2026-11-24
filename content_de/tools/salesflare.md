@@ -19,9 +19,10 @@ alternatives:
   - folk
   - zoho-crm
   - copper
+  - altercontacts
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
-i18n_source: '4e88840b1ef5'
+i18n_source: 'b291f5a592df'
 ---
 
 Salesflare füllt sich selbst. Es verbindet E-Mail, Kalender und Telefon und erstellt Kontakt- und Unternehmensprofile mit Gesprächsverlauf, sozialen Daten und Notizen. So müssen Vertriebsmitarbeiter nicht alles manuell eingeben. Eine Zeitleiste zeigt jede Interaktion.

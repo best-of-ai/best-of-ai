@@ -22,6 +22,7 @@ alternatives:
 - mapbox
 - nearmap
 - planet-labs
+- waldo-wherobots
 date: '2025-10-01'
 tags:
 - enterprise
@@ -32,7 +33,7 @@ tags:
 - intelligent
 - platform
 - tool
-i18n_source: 'af2b634aed73'
+i18n_source: '831416d5c56e'
 ---
 ArcGIS é a principal plataforma comercial de GIS. Governos, concessionárias, agências ambientais, planejadores urbanos e empresas usam o sistema para coletar dados de localização, exibi-los em mapas e analisar relações espaciais, como quais bairros estão em uma zona de inundação ou onde abrir uma loja. A família inclui ArcGIS Pro para análise em desktop, ArcGIS Online como serviço na nuvem para criar e compartilhar mapas e ArcGIS Enterprise para organizações que operam seus próprios servidores.
 

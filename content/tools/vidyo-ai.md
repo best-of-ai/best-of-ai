@@ -19,6 +19,7 @@ alternatives:
   - munch
   - submagic
   - clipfinder-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
 ---

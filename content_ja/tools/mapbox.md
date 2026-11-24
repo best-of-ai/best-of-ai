@@ -17,9 +17,10 @@ alternatives:
   - carto
   - qgis
   - google-maps
+  - waldo-wherobots
 date: '2025-10-01'
 tags: [enterprise, customizable, image_based, analytics, ai_powered, intelligent, platform, tool]
-i18n_source: '43467e57ec18'
+i18n_source: '0913bbbbcea1'
 ---
 
 Mapboxは、多くのアプリの裏にある地図ツールキットです。開発者はSDKで、ウェブサイトやiOS、Androidアプリにインタラクティブな地図を埋め込み、スタイル、レイヤー、データを制御します。Mapbox Studioではデザイナーが地図の見た目をカスタマイズでき、ベクタータイルのおかげで地図は速く鮮明に表示されます。物流、旅行、不動産、モビリティの企業が、ルート、場所、ライブデータの表示に使っています。

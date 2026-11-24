@@ -18,9 +18,11 @@ alternatives:
   - railway-app
   - heroku
   - fly-io
+  - spacefast
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, cloud_based, fast]
-i18n_source: 'ec1d39421b4b'
+i18n_source: 'c58168ee0633'
 ---
 
 Vercel rend simple le déploiement d'applications web. Les développeurs relient un dépôt, et chaque push construit et déploie sur un réseau mondial, avec des URL d'aperçu pour chaque changement. C'est la maison de Next.js, et beaucoup d'équipes s'en servent pour des sites et des apps.

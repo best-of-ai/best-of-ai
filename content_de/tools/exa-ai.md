@@ -21,6 +21,7 @@ alternatives:
 - jina-ai
 - kagi
 - you-search
+- tabstack
 date: '2025-09-21'
 tags:
 - search
@@ -33,7 +34,7 @@ tags:
 - knowledge
 - retrieval
 - api_available
-i18n_source: '00d2aeffd1ff'
+i18n_source: '2f074c69cfb1'
 ---
 
 Exa, früher Metaphor, denkt Suche für Maschinen statt für Menschen neu. Eine traditionelle Suchmaschine gleicht Stichwörter ab. Exa nutzt neuronale Einbettungen, um Seiten mit ähnlicher Bedeutung zu einer Anfrage zu finden, selbst wenn sie nicht dieselben Wörter enthalten. Du kannst natürliche Beschreibungen eingeben, etwa eine Liste von Start-ups, die eine bestimmte Art von Roboter bauen. Exa liefert Ergebnisse, die zur Idee passen. Auch einen Link kannst du eingeben, um ähnliche Seiten zu finden.

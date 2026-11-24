@@ -17,6 +17,7 @@ alternatives:
 - inngest
 - trigger-dev
 - prefect
+- volcano-kong
 date: '2026-11-05'
 tags:
 - developer_tools
@@ -29,7 +30,7 @@ tags:
 - cloud
 - api
 - collaboration
-i18n_source: 'db4f201d9543'
+i18n_source: 'a198c08a8d0c'
 ---
 
 Temporal löst eine schwierige Aufgabe zuverlässiger Software: lang laufende, mehrstufige Prozesse müssen Ausfälle überstehen. Entwickler:innen schreiben Workflows in einer gewöhnlichen Programmiersprache wie Go, Java, Python oder TypeScript. Temporal protokolliert jeden Schritt und Zustand. Stürzt ein Server ab oder schlägt ein Netzwerkaufruf fehl, wird der Ablauf ohne Fortschrittsverlust fortgesetzt. Wiederholungen, Zeitlimits und Timer sind integriert.

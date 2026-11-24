@@ -15,9 +15,10 @@ alternatives:
   - e2b-ai
   - modal-ai
   - browserbase
+  - glasshand
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, community_driven]
-i18n_source: 'b5d73dd62c47'
+i18n_source: 'f82b9fcd833a'
 ---
 
 Daytona propose des bacs à sable pour exécuter du code en sécurité. Les agents d'IA qui écrivent et exécutent du code ont besoin d'un endroit où les erreurs ou des instructions malveillantes ne peuvent pas nuire aux vrais systèmes, et Daytona lance un environnement isolé à la demande, exécute le code, renvoie les résultats et jette le bac à sable. Un démarrage rapide garde les boucles d'agents réactives.

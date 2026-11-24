@@ -16,6 +16,7 @@ alternatives:
   - kayak
   - tripadvisor
   - wanderlog
+  - tripmojo
 date: '2025-10-01'
 tags: [free_tier, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

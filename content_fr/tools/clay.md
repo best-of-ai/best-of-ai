@@ -20,9 +20,10 @@ alternatives:
   - seamless-ai
   - instantly
   - 11x-ai
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
-i18n_source: 'a4594ec23bb3'
+i18n_source: '9c691f39bfa8'
 ---
 
 Clay fonctionne comme un tableur pour les données de vente et de marketing. On part d'une liste d'entreprises ou de personnes, et Clay ajoute des colonnes qui cherchent des informations, comme des e-mails, des intitulés de poste, des financements, des technologies utilisées et des actualités récentes, en tirant de nombreux fournisseurs de données. Son enrichissement en cascade essaie une source après l'autre jusqu'à trouver un résultat, ce qui améliore la couverture par rapport à un seul vendeur.

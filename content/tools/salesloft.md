@@ -20,6 +20,7 @@ alternatives:
   - instantly
   - lemlist
   - smartlead
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise, customizable]
 ---

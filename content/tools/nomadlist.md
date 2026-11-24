@@ -15,6 +15,7 @@ alternatives:
   - wanderlog
   - hopper
   - kayak
+  - tripmojo
 date: '2026-11-08'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

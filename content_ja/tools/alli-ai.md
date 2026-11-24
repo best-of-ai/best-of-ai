@@ -17,9 +17,10 @@ alternatives:
   - scalenut
   - semrush
   - marketmuse
+  - rankspot
 date: '2026-06-15'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, collaboration]
-i18n_source: 'd38bd0695d9f'
+i18n_source: '09f5d3cf8a84'
 ---
 
 Alli AIが扱うのは、SEOでよくある障害です。推奨された変更を実装するには、開発者の時間が要ることが多い、という点です。Alliはウェブサイトにスニペットを入れ、そのあとSEOチームはダッシュボードから、タイトル、メタディスクリプション、見出し、スキーママークアップ、内部リンクなどのオンページ要素を編集し、多数のページへ一度に反映できます。変更はテストして元に戻すことができ、プラットフォームは結果を追跡します。

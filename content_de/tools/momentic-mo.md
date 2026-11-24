@@ -18,9 +18,11 @@ alternatives:
   - applitools
   - percy
   - browserstack-test-companion
+  - testsprite
+  - seldon-wren
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '3297f5822f46'
+i18n_source: '2e019c706c0e'
 ---
 
 Mo verfolgt einen explorativen Testansatz. Statt für jeden Test Skripte zu schreiben, geben Teams Mo eine App und Anmeldedaten. KI-Agenten navigieren durch die Oberfläche, probieren Abläufe und ungewöhnliche Eingaben aus und prüfen auf Fehler oder fehlerhaftes Verhalten. Anschließend berichten sie ihre Funde.

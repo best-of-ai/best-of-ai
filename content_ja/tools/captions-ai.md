@@ -20,9 +20,10 @@ alternatives:
   - opus-clip
   - kapwing
   - vizard
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '6839d4b71e73'
+i18n_source: '60bb19f6ef85'
 ---
 
 Captionsは、自分で話しているところを撮る制作者向けです。動画を録画するかアップロードすると、音声を文字起こしし、見た目を整えた動きのある字幕を付けます。SNSの動画は音を消して見る人が多いので、これは重要です。フィラーや無音を消し、より短い版に切り、視聴を続けるズームやエフェクトを足せます。スマホでもよく動き、撮影の合間に編集する制作者に向きます。

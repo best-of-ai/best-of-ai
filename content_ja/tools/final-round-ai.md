@@ -15,9 +15,10 @@ alternatives:
   - interview-warmup
   - teal
   - huntr
+  - hiringnow
 date: '2026-11-08'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: 'c13c880853b6'
+i18n_source: 'ddefbd51bac3'
 ---
 
 Final Round AIは、練習から本番まで面接の準備をカバーします。AIの練習面接を行い、目標を立て、回答の弱かったところを指摘する自動の振り返りを受け取れます。ライブ機能を使わなくても、準備の側だけでも役に立ちます。

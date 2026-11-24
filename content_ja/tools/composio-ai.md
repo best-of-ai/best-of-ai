@@ -17,9 +17,10 @@ alternatives:
   - langchain
   - e2b-ai
   - mastra
+  - scalekit
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, integrations, model_based, community_driven]
-i18n_source: 'a6cbde9a87c9'
+i18n_source: '42baddd8fb8f'
 ---
 
 Composioは、AIエージェント向けの連携の層です。エージェントがほかのソフトで操作するには、サービスごとの認証とAPIの詳細を扱う必要があります。Composioは、サインインの流れを処理し、モデルが呼べる形で操作を出すコネクタの一覧を用意しているので、開発者は数行のコードで、エージェントに多くのアプリへのアクセスを与えられます。

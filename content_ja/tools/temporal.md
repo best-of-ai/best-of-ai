@@ -15,9 +15,10 @@ alternatives:
   - inngest
   - trigger-dev
   - prefect
+  - volcano-kong
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
-i18n_source: 'db4f201d9543'
+i18n_source: 'a198c08a8d0c'
 ---
 
 Temporalが扱うのは、信頼できるソフトウェアを作るうえで難しい部分、つまり長く続く複数ステップの処理を障害から守ることです。開発者はGo、Java、Python、TypeScriptなどふつうのプログラミング言語でワークフローを書きます。Temporalが各ステップとその状態を記録するので、サーバーが落ちたりネットワーク呼び出しが失敗したりしても、ワークフローは止まった場所から進み、それまでの進捗は失われません。リトライ、タイムアウト、タイマーは組み込みです。

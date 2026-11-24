@@ -19,9 +19,10 @@ alternatives:
   - boomerang
   - mixmax
   - spike
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful]
-i18n_source: '45f7f615b704'
+i18n_source: 'cff0cfdd40bc'
 ---
 
 SaneBox resuelve la sobrecarga de la bandeja de entrada sin sustituir tu aplicación de correo. Se conecta a tu cuenta actual y analiza tu comportamiento, como a quién respondes y qué mensajes abres, y luego mueve el correo menos importante a una carpeta llamada SaneLater. Allí acaban los boletines, las notificaciones y los contactos en frío, y recibes un resumen para ojear cuando quieras. El correo importante se queda en la bandeja de entrada.

@@ -19,9 +19,10 @@ alternatives:
   - browserstack-test-companion
   - momentic-mo
   - percy
+  - testsprite
 date: '2025-10-01'
 tags: [integrations, fast, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: 'b2b384c69c23'
+i18n_source: '10b2afda1362'
 ---
 
 Testimは、テスト自動化で最も悩ましい問題の一つ、インターフェースが変わるたびにテストが壊れる点に取り組みます。要素ごとに壊れやすい識別子一つに頼る代わりに、機械学習で各要素の複数の属性を学習するので、開発者がボタンの名前を変えたり移動したりしても、テストはそのボタンを見つけられます。この自己修復の動作が、エンジニアがテストの修正に使う時間を減らします。

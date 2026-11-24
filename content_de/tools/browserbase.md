@@ -19,6 +19,8 @@ alternatives:
 - e2b-ai
 - multion
 - diffbot
+- glasshand
+- tabstack
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -31,7 +33,7 @@ tags:
 - cloud
 - api
 - cloud_based
-i18n_source: '1bca8660de3d'
+i18n_source: '46d7e812e665'
 ---
 
 Browserbase stellt Software einen steuerbaren Browser bereit. Browser in großem Maßstab zu betreiben ist schwierig: Speicherverbrauch, Bot-Erkennung und Sitzungsverwaltung sind typische Probleme. Browserbase hostet die Browser in der Cloud und stellt APIs sowie Bibliotheken wie Playwright und Puppeteer bereit. Agenten können damit Seiten öffnen, klicken, Formulare ausfüllen und Daten auslesen.

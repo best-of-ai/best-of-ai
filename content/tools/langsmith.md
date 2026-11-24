@@ -19,6 +19,7 @@ alternatives:
   - arize
   - wandb-weave
   - promptlayer
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based]
 ---

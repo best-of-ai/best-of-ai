@@ -17,9 +17,11 @@ alternatives:
   - diffbot
   - browserbase
   - jina-ai
+  - glasshand
+  - tabstack
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based, templates]
-i18n_source: '5fb26f46eab9'
+i18n_source: '56a3cc76cf74'
 ---
 Apify macht das Web zu einer Quelle strukturierter Daten. Der Marktplatz Apify Store bietet Tausende von Actors: Cloudprogramme, die bestimmte Websites und Aufgaben durchsuchen oder automatisieren. Sie extrahieren etwa Einträge aus Google Maps, Beiträge aus sozialen Netzwerken, Produktdetails aus Online-Shops oder Kontaktangaben von Webseiten. Nutzer konfigurieren einen Actor, führen ihn in der Cloud aus und erhalten Ergebnisse als JSON, CSV oder über eine API, ohne Server oder Proxys verwalten zu müssen.
 

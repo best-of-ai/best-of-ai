@@ -20,9 +20,10 @@ alternatives:
   - plasmic
   - builder-io
   - bubble-nocode
+  - letter-dev
 date: '2025-09-21'
 tags: [no_code, automation, app_builder, lowcode, visual, drag_and_drop, workflow, builder, citizen_developer, collaboration, enterprise, free_tier]
-i18n_source: '7bbdb8e82e7f'
+i18n_source: 'b9af3e1e9b43'
 ---
 Webflow liegt zwischen einfachen Website-Baukästen und handgeschriebenen Websites. Designer arbeiten auf einer Fläche, die den Aufbau des Webs abbildet, legen Klassen, Flexbox- und Rasterlayouts sowie Haltepunkte fest. Die Plattform erzeugt produktionsfähigen Code und hostet das Ergebnis. Das bietet mehr Kontrolle als vorlagenbasierte Baukästen und spricht Agenturen sowie interne Designteams an.
 

@@ -20,9 +20,10 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, easy_to_use]
-i18n_source: '3de4f710621b'
+i18n_source: '44b0a0e93581'
 ---
 
 Munch se centra en reaprovechar vídeo. Subes un webinar, un podcast, una entrevista o un directo, o conectas un enlace, e identifica los fragmentos con más probabilidad de funcionar como clips cortos. En lugar de cortar a intervalos fijos, analiza la transcripción y el contenido, lo compara con temas y palabras clave de moda, y propone clips con subtítulos, títulos y formato para TikTok, Instagram Reels, YouTube Shorts y LinkedIn.

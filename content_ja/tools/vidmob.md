@@ -14,9 +14,11 @@ rank: 5
 alternatives:
   - adcreative-ai
   - smartly
+  - creatify
+  - adside
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration]
-i18n_source: '082e8424da8a'
+i18n_source: 'c5849765847c'
 ---
 
 Vidmobは広告のクリエイティブ面に注目しています。広告を生成するのではなく、分析します。モデルが配信前のクリエイティブにスコアを付け、配信後には、ビジュアル、メッセージ、フォーマットなどのどの要素が成果の良し悪しと結びついているかを分解して示します。

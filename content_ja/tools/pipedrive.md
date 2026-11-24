@@ -21,9 +21,10 @@ alternatives:
   - attio
   - copper
   - folk
+  - altercontacts
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration]
-i18n_source: 'e53244c40d36'
+i18n_source: '0cb02dab9884'
 ---
 
 Pipedriveは営業担当者による営業担当者のためのツールで、パイプラインが中心にあります。商談はカードとして表示され、最初の接触から成約まで各段階を移動するので、担当者は何に対応すべきかをひと目で把握できます。各商談には活動、メール、メモ、ファイルが紐づき、システムがフォローアップをリマインドするので、取りこぼしが出ません。大規模なCRMスイートに比べてインターフェースがすっきりしていて覚えやすく、小規模で成長中の営業チームに合います。

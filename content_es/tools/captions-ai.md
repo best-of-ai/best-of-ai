@@ -20,9 +20,10 @@ alternatives:
   - opus-clip
   - kapwing
   - vizard
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '6839d4b71e73'
+i18n_source: '60bb19f6ef85'
 ---
 
 Captions está pensada para creadores que se graban hablando. Grabas o subes un vídeo, y la app transcribe el habla y añade subtítulos animados con estilo, algo importante porque mucha gente ve los vídeos de redes sin sonido. Puede quitar muletillas y silencios, recortar el vídeo para dejarlo más compacto y añadir zooms y efectos que mantienen la atención del público. Funciona bien en el móvil, lo que va bien a quienes editan sobre la marcha.

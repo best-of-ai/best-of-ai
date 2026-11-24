@@ -21,9 +21,10 @@ alternatives:
   - outreach
   - salesloft
   - instantly
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
-i18n_source: 'dbd658020428'
+i18n_source: '69a5d88418e6'
 ---
 
 Apollo est l'un des outils les plus utilisés pour la vente sortante. Au centre, une base cherchable de contacts professionnels et d'entreprises, filtrable par intitulé de poste, secteur, taille, lieu, technologies utilisées, et plus. Tu exportes les correspondances ou tu les pousses dans des séquences, et Apollo fournit e-mails et numéros de téléphone. Les startups et les petites équipes commerciales aiment que données et prise de contact soient dans un produit abordable.

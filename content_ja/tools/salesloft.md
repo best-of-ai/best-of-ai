@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - lemlist
   - smartlead
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise, customizable]
-i18n_source: '7b4b98a8cfb1'
+i18n_source: 'c18106b04d92'
 ---
 
 Salesloftは、営業チームがアウトバウンドとフォローアップの作業を整理するのを助けます。担当者は、メール、電話、ソーシャルでの接点を順序立てて並べたケイデンスに従い、プラットフォームは次に連絡する相手を教え、各アクティビティをCRMに記録します。マネージャーは、どのメッセージやシーケンスが返信や商談につながっているかを確認し、通話の録音と分析でコーチングできます。

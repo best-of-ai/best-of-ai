@@ -20,6 +20,7 @@ alternatives:
 - letta
 - pieces-for-developers
 - continue-dev
+- skillbox
 date: '2026-11-02'
 tags:
 - developer_tools
@@ -32,7 +33,7 @@ tags:
 - self_improving
 - github
 - automation
-i18n_source: '571d5c464f5f'
+i18n_source: 'ad0c4bf9672c'
 ---
 beacon.sh aborda um limite dos agentes de programação: eles começam cada sessão sabendo pouco sobre o projeto. Beacon observa o que o agente faz, como comandos que funcionam, erros cometidos e convenções descobertas, e armazena essas informações em notas para uso futuro.
 

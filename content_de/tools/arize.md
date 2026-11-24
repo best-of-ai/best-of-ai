@@ -21,6 +21,7 @@ alternatives:
 - evidently-ai
 - comet-ml
 - helicone
+- plurai
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -35,7 +36,7 @@ tags:
 - real_time
 - collaboration
 - machine_learning
-i18n_source: '405da4fbccea'
+i18n_source: '49cc5a90641f'
 ---
 
 Arize hilft Teams zu erkennen, was ihre Modelle nach der Bereitstellung tun. Bei klassischem maschinellem Lernen verfolgt die Plattform die Leistung, erkennt Abweichungen zwischen aktuellen Eingabedaten und Trainingsdaten und hilft herauszufinden, bei welchen Nutzergruppen ein Modell versagt. Warnmeldungen machen Teams auf Probleme aufmerksam, bevor sie das Geschäft beeinträchtigen.

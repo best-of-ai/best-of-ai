@@ -22,6 +22,7 @@ alternatives:
 - seamless-ai
 - instantly
 - 11x-ai
+- alsona
 date: '2025-01-01'
 tags:
 - sales
@@ -35,7 +36,7 @@ tags:
 - forecasting
 - collaboration
 - customizable
-i18n_source: 'a4594ec23bb3'
+i18n_source: '9c691f39bfa8'
 ---
 
 Clay funktioniert wie eine Tabelle für Vertriebs- und Marketingdaten. Du startest mit einer Liste von Unternehmen oder Personen. Clay ergänzt Spalten mit Informationen wie E-Mail-Adressen, Berufsbezeichnungen, Finanzierungen, verwendeten Technologien und aktuellen Nachrichten. Die Daten stammen von vielen Anbietern. Bei der gestaffelten Anreicherung versucht das Tool Quelle um Quelle, bis es ein Ergebnis findet. Das erhöht die Abdeckung gegenüber der Nutzung eines einzigen Anbieters.

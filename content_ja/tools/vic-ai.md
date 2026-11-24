@@ -18,9 +18,10 @@ alternatives:
   - tipalti-ai
   - coupa
   - botkeeper
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
-i18n_source: 'd8029443a97e'
+i18n_source: '598f75a1376f'
 ---
 
 Vic.aiは請求書を読み取り、手作業をほとんど挟まずに処理します。データを抽出し、適切な勘定科目への仕訳を提案し、承認の回付先を決め、通常と違う項目にはフラグを立てます。経理担当者の修正から学習していきます。目指しているのは、定型の請求書をタッチレスで処理することです。

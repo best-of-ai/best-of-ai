@@ -19,6 +19,8 @@ alternatives:
   - smartly
   - madgicx
   - creatopy
+  - creatify
+  - adside
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, image_based]
 ---

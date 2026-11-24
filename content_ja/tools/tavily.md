@@ -17,9 +17,10 @@ alternatives:
   - jina-ai
   - firecrawl
   - apify
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
-i18n_source: 'ad24e95a3794'
+i18n_source: '41a02d972b9d'
 ---
 
 Tavilyは機械のためのウェブ検索を提供します。開発者がクエリを送ると、整形済みの内容と出典を付けた順位付きの結果が、言語モデルに必要な分だけ返ってきます。これでエージェントは、最新の情報に基づいて回答できます。追加のエンドポイントで、ページからのテキスト抽出、サイトのクロール、より深いリサーチもできます。

@@ -18,9 +18,11 @@ alternatives:
   - e2b-ai
   - multion
   - diffbot
+  - glasshand
+  - tabstack
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based]
-i18n_source: '1bca8660de3d'
+i18n_source: '46d7e812e665'
 ---
 
 Browserbase donne au logiciel un navigateur qu'il peut contrôler. Faire tourner des navigateurs à grande échelle est difficile, avec des problèmes comme l'usage mémoire, la détection de bots et la gestion des sessions. Browserbase les héberge dans le cloud et les expose via des API et des bibliothèques comme Playwright et Puppeteer, pour qu'un agent puisse ouvrir des pages, cliquer, remplir des formulaires et extraire des données.

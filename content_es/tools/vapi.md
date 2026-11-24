@@ -17,9 +17,10 @@ alternatives:
   - synthflow
   - livekit
   - openai-realtime-api
+  - call-e
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, customizable, integrations, voice_enabled]
-i18n_source: '0eeab5fa6c57'
+i18n_source: '21099541cf12'
 ---
 
 Vapi se encarga de las partes difíciles de los agentes de voz. Los desarrolladores definen un asistente con un prompt y herramientas, conectan un número de teléfono y Vapi coordina la conversión de voz a texto, el modelo de lenguaje y la conversión de texto a voz. También gestiona las interrupciones y los turnos de palabra. La posibilidad de elegir proveedores propios permite cambiar los componentes.

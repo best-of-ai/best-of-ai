@@ -20,9 +20,10 @@ alternatives:
   - plasmic
   - builder-io
   - bubble-nocode
+  - letter-dev
 date: '2025-09-21'
 tags: [no_code, automation, app_builder, lowcode, visual, drag_and_drop, workflow, builder, citizen_developer, collaboration, enterprise, free_tier]
-i18n_source: '7bbdb8e82e7f'
+i18n_source: 'b9af3e1e9b43'
 ---
 
 Webflowは、簡単なサイト作成ツールと手書きのコードの中間にあります。デザイナーはウェブの仕組みをそのまま写したキャンバスで、クラス、flexboxとグリッドのレイアウト、ブレークポイントを設定します。プラットフォームが本番用のコードを生成し、できあがったサイトをホスティングします。テンプレート型のツールよりずっと細かく制御できるため、制作会社や社内のデザインチームに好まれています。

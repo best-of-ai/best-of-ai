@@ -14,9 +14,10 @@ rank: 9
 alternatives:
   - unreal-engine
   - godot
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
-i18n_source: '129d983dacab'
+i18n_source: '8a34d23fe6dd'
 ---
 
 エディタは2Dと3D、大規模なアセットストア、C#スクリプトに対応しています。Unityには、物理、アニメーション、マルチプレイヤーのツールが含まれます。エディタ内のAIヘルパーが質問に答え、アセットやコードを生成できます。

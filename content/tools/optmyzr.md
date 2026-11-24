@@ -14,6 +14,8 @@ rank: 5
 alternatives:
   - adalysis
   - madgicx
+  - synter
+  - maxma
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
 ---

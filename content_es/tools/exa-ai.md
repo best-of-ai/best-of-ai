@@ -19,9 +19,10 @@ alternatives:
   - jina-ai
   - kagi
   - you-search
+  - tabstack
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, api_available]
-i18n_source: '00d2aeffd1ff'
+i18n_source: '2f074c69cfb1'
 ---
 
 Exa, antes llamado Metaphor, replantea la búsqueda pensando en las máquinas y no en las personas. Mientras un buscador tradicional compara palabras clave, Exa usa embeddings neuronales para encontrar páginas semánticamente parecidas a una consulta, aunque no compartan palabras. Puedes buscar con descripciones en lenguaje natural, como una lista de startups que construyen un tipo concreto de robot, y devuelve resultados que encajan con la idea. También puede tomar un enlace y encontrar páginas similares.

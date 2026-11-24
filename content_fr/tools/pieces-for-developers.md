@@ -18,9 +18,10 @@ alternatives:
   - beacon-sh
   - gitlens-ai
   - swimm-ai
+  - skillbox
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, fast]
-i18n_source: 'e9f57fe860df'
+i18n_source: '7897b0478e7d'
 ---
 
 Pieces aide les développeurs à ne pas perdre ce qu'ils ont déjà trouvé. Il fait tourner un service local qui capture et organise des extraits de code, des liens, des captures d'écran et des notes, les enrichit d'un contexte comme leur origine, et les rend cherchables. Des plugins pour VS Code, JetBrains, les navigateurs et d'autres outils enregistrent un extrait en un clic et le ramènent au moment voulu, pour ne pas rechercher comment tu as résolu quelque chose le mois dernier.

@@ -17,9 +17,10 @@ alternatives:
   - pipedrive
   - close
   - salesforce
+  - altercontacts
 date: '2025-01-01'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
-i18n_source: '538d3847f3df'
+i18n_source: 'cdcaf48cb134'
 ---
 
 Lightfieldは、CRMを自分で埋まるシステムとして考え直しています。メール、カレンダー、通話の録音とつなぎ、連絡先、企業、案件、メモを自動で抽出するので、担当者が打ち込まなくても記録が最新に保たれます。CRMが嫌われる原因のデータ入力をなくすことが狙いです。

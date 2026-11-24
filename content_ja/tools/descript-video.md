@@ -20,9 +20,11 @@ alternatives:
   - riverside
   - wisecut
   - clipchamp
+  - videco
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, voice_enabled]
-i18n_source: 'a853fe85ebb6'
+i18n_source: 'a76b96b7c680'
 ---
 
 Descriptは、多くの人がポッドキャストと動画を編集するやり方を変えました。録音のあと、Descriptが音声を文字起こしし、文字起こしから単語を消すと、その部分がメディアからも切れます。編集が文書を扱う感覚になり、動画編集の経験がない人にも入りやすいです。

@@ -19,9 +19,10 @@ alternatives:
   - boomerang
   - mixmax
   - spike
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, nlp]
-i18n_source: '458c08270893'
+i18n_source: 'c498ce68adaf'
 ---
 
 Shortwaveは、受信箱を作り直すGmailクライアントです。関連するメッセージはスレッドにまとめられ、ニュースレターや領収書はバンドルして、メインの表示を散らかさないようにできます。スヌーズ、予約送信、分割受信箱で、メールを速く処理できます。Mac、Windows、iOS、Android、ウェブで動き、Gmailアカウントに接続します。

@@ -19,6 +19,7 @@ alternatives:
 - jobbyo
 - linkedin
 - indeed
+- hiringnow
 date: '2025-01-01'
 tags:
 - career
@@ -31,7 +32,7 @@ tags:
 - interview
 - hiring
 - customizable
-i18n_source: '0c249f758a50'
+i18n_source: 'cc5c4123166c'
 ---
 
 O JobGPT cobre boa parte do processo de candidatura a empregos. Pesquisa vagas compatíveis com um perfil, ajusta a redação do currículo para cada descrição, prepara uma carta de apresentação e preenche formulários de candidatura. Usuários revisam os resultados e acompanham suas candidaturas.

@@ -15,6 +15,7 @@ alternatives:
   - retell-ai
   - vapi
   - bland-ai
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, image_based, voice_enabled]
 ---

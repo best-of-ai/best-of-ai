@@ -17,9 +17,10 @@ alternatives:
   - synthflow
   - livekit
   - openai-realtime-api
+  - call-e
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, customizable, integrations, voice_enabled]
-i18n_source: '0eeab5fa6c57'
+i18n_source: '21099541cf12'
 ---
 
 Vapi gère les parties difficiles des agents vocaux. Les développeurs définissent un assistant avec un prompt et des outils, relient un numéro de téléphone, et Vapi orchestre la reconnaissance vocale, le modèle de langage et la synthèse vocale, avec la gestion des interruptions et des tours de parole. Le choix d'apporter son propre fournisseur permet de changer les composants.

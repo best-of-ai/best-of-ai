@@ -20,6 +20,7 @@ alternatives:
 - botkeeper
 - zeni-ai
 - bill-com-ai
+- latch
 date: '2025-09-21'
 tags:
 - finance
@@ -31,7 +32,7 @@ tags:
 - budgeting
 - fintech
 - reporting
-i18n_source: abc4963d5a39
+i18n_source: '85d2a4055162'
 ---
 
 Pilot oferece contabilidade como serviço. A empresa conecta contas bancárias e ferramentas, e a equipe e o software da Pilot mantêm os registros contábeis, fecham cada mês, preparam demonstrações financeiras e cuidam de declarações fiscais. Os clientes têm um contador dedicado e um painel.

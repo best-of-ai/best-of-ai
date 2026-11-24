@@ -23,6 +23,8 @@ alternatives:
 - avoma
 - supernormal
 - zoom-ai
+- pauta
+- bluedot-notetaker
 date: '2025-09-21'
 tags:
 - meeting
@@ -35,7 +37,7 @@ tags:
 - video_calls
 - recap
 - fast
-i18n_source: '166b2e4d8878'
+i18n_source: '5f27bf243d51'
 ---
 
 Fathom ist dafür bekannt, Besprechungsnotizen kostenlos zu erstellen. Der Assistent nimmt an deinen Gesprächen in Zoom, Google Meet oder Microsoft Teams teil, zeichnet sie auf und erstellt ein Transkript in Echtzeit. Während des Gesprächs kannst du wichtige Momente mit einem Klick markieren. Innerhalb weniger Sekunden nach Ende der Besprechung erhältst du eine Zusammenfassung mit Entscheidungen, Aufgaben und wichtigen Punkten, die du teilen kannst. Der kostenlose Tarif umfasst unbegrenzt viele Aufzeichnungen und Transkripte. Damit hebt sich Fathom von Wettbewerbern ab, die die Gratisnutzung begrenzen.

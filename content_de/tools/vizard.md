@@ -19,9 +19,10 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-06-15'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '0d59eb14b2b6'
+i18n_source: '659e5bf1ccbb'
 ---
 
 Vizard hilft Kreativen, lange Inhalte weiterzuverwenden. Nutzer laden Podcast, Webinar oder Interview hoch. Das Werkzeug findet Höhepunkte, schneidet Clips, formatiert sie vertikal und fügt Untertitel hinzu. Ein textbasierter Editor ermöglicht den Schnitt durch Bearbeitung des Transkripts.

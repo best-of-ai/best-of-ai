@@ -18,9 +18,11 @@ alternatives:
   - railway-app
   - heroku
   - fly-io
+  - spacefast
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, cloud_based, fast]
-i18n_source: 'ec1d39421b4b'
+i18n_source: 'c58168ee0633'
 ---
 
 Vercel vereinfacht die Bereitstellung von Webanwendungen. Entwickler verbinden ein Repository; jeder Push wird erstellt und weltweit bereitgestellt. Für jede Änderung gibt es eine Vorschau-URL. Vercel ist die Heimat von Next.js und wird für Websites und Apps genutzt.

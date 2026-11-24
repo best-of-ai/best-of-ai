@@ -21,6 +21,7 @@ alternatives:
   - attio
   - copper
   - folk
+  - altercontacts
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration]
 ---

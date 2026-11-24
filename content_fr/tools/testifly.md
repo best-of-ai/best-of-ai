@@ -18,9 +18,11 @@ alternatives:
   - testim
   - momentic-mo
   - applitools
+  - testsprite
+  - seldon-wren
 date: '2026-11-02'
 tags: [qa, software_testing, test_automation, ai_agents, end_to_end, developer_tools, self_healing, autonomous, web_apps, ci_cd]
-i18n_source: 'cb86efa4d529'
+i18n_source: 'd4eae75a9e64'
 ---
 
 Testifly utilise des agents d'IA pour tester des applications web. Une équipe lui donne une URL et des identifiants, et le système explore l'app, planifie des cas de test, génère les tests et les exécute, puis répare les tests quand l'interface change. Le but est une couverture sans écrire ni maintenir de scripts.

@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - smartlead
   - lemlist
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
-i18n_source: 'bbb11bc7b942'
+i18n_source: '784b2095422e'
 ---
 Vertriebsteams nutzen Outreach, um strukturierte Kontaktaufnahme und Nachfassaktionen in großem Umfang zu steuern. Mitarbeitende nehmen Leads in Sequenzen auf, die E-Mails, Anrufe, LinkedIn-Schritte und Aufgaben kombinieren. Die Plattform plant die Schritte, verfolgt Antworten und protokolliert Aktivitäten im CRM. Führungskräfte sehen, welche Nachrichten und Abläufe am besten funktionieren; automatische Regeln leiten Leads weiter und organisieren die Arbeit.
 

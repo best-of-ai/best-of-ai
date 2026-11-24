@@ -19,9 +19,10 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-06-15'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '0d59eb14b2b6'
+i18n_source: '659e5bf1ccbb'
 ---
 
 Vizard ayuda a los creadores a reutilizar contenido largo. El usuario sube un pódcast, seminario web o entrevista, y la herramienta lo analiza para elegir los momentos destacados, los recorta en clips, los adapta a formatos verticales y añade subtítulos. Un editor basado en texto permite recortar el vídeo editando la transcripción.

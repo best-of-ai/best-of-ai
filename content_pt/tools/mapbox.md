@@ -21,6 +21,7 @@ alternatives:
 - carto
 - qgis
 - google-maps
+- waldo-wherobots
 date: '2025-10-01'
 tags:
 - enterprise
@@ -31,7 +32,7 @@ tags:
 - intelligent
 - platform
 - tool
-i18n_source: 43467e57ec18
+i18n_source: '0913bbbbcea1'
 ---
 
 Mapbox é o conjunto de ferramentas de mapas por trás de muitos aplicativos. Desenvolvedores usam seus SDKs para incorporar mapas interativos a sites e aplicativos para iOS e Android, controlando estilos, camadas e dados. Mapbox Studio permite personalizar a aparência dos mapas, enquanto blocos vetoriais os mantêm rápidos e nítidos. Empresas de logística, viagens, imóveis e mobilidade usam a solução para mostrar rotas, locais e dados em tempo real.

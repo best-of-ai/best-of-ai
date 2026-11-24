@@ -19,6 +19,7 @@ alternatives:
   - browserstack-test-companion
   - momentic-mo
   - percy
+  - testsprite
 date: '2025-10-01'
 tags: [integrations, fast, ai_powered, intelligent, platform, tool, service, solution]
 ---

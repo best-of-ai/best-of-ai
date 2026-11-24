@@ -18,9 +18,10 @@ alternatives:
   - arc-browser
   - brave-leo
   - genspark
+  - saparo
 date: '2026-08-31'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app]
-i18n_source: 'fce700d351aa'
+i18n_source: 'fdfb38157f05'
 ---
 
 Atlasは、ブラウザの中にChatGPTを置きます。サイドバーのアシスタントは開いているページを見られるので、記事の要約、表の説明、タブをまたいだ製品の比較、文脈に沿った返信の下書きを頼めます。アドレスバーもチャットのプロンプトとして使え、その設定をオンにすると、閲覧の文脈をブラウザが覚えます。

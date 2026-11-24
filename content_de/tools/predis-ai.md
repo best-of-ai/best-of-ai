@@ -22,6 +22,7 @@ alternatives:
 - sprout-social
 - taplio
 - typefully
+- creatify
 date: '2025-01-01'
 tags:
 - social_media
@@ -34,7 +35,7 @@ tags:
 - audience
 - platform
 - image_based
-i18n_source: 'e00b0cac5f60'
+i18n_source: 'f6fb377e1f68'
 ---
 
 Predis.ai soll kleinen Unternehmen und Kreativen die schnelle Erstellung von Social-Media-Inhalten ermöglichen. Du gibst einen Prompt ein oder fügst einen Link zu einer Produktseite oder Website ein, wählst ein Format wie Einzelbild, Karussell oder Kurzvideo und erhältst einen Beitrag mit Bildunterschrift, Hashtags und Markendesign. Bearbeitungswerkzeuge ändern Text, Bilder und Layout und wenden Markenfarben und Logo an.

@@ -20,9 +20,10 @@ alternatives:
   - hour-one
   - hedra
   - vidnoz
+  - creatify
 date: '2025-09-21'
 tags: [avatar, video_generation, creative, video, animation, digital_human, lip_sync, presenter, synthetic_media, voice_enabled, training, powerful]
-i18n_source: 'dfcc1b94bfa6'
+i18n_source: '5403376e2bf2'
 ---
 
 HeyGenでは、撮影せずに顔を出して話す動画を作れます。アバターを選ぶか、短い録画から自分のアバターを作り、台本を貼るか書いて、HeyGenが自然な話し方と口の動きの動画を生成します。数十の言語に対応し、よく使われるのが動画翻訳です。自分の動画をアップロードすると、声と口の動きを合わせた別の言語版を作ります。マーケター、研修担当、営業チームが、コンテンツを早く作るために使います。

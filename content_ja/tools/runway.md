@@ -20,9 +20,10 @@ alternatives:
   - hailuo-ai
   - runway-gen3
   - adobe-firefly
+  - youart
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
-i18n_source: 'f8e4e66118c0'
+i18n_source: 'af0bd9e3a070'
 ---
 
 Runwayは最初期のAI動画企業のひとつで、映画制作者やアーティストを念頭にツールを作ってきました。製品の中核は動画のGenモデルで、テキストのプロンプト、静止画、またはその両方から短いクリップを作ります。参照画像を使うと、ショットが変わってもキャラクターや舞台を一貫させやすくなります。1クリップより長いものを作るときに難しいのがこの点です。会社はブラウザ上の編集ツール群として始まり、背景除去、モーショントラッキング、インペイントなど、その一部は今も残っています。

@@ -18,9 +18,10 @@ alternatives:
   - beacon-sh
   - gitlens-ai
   - swimm-ai
+  - skillbox
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, fast]
-i18n_source: 'e9f57fe860df'
+i18n_source: '7897b0478e7d'
 ---
 
 Piecesは、開発者が一度見つけたものを失わずに済むようにします。ローカルのサービスを動かし、コードスニペット、リンク、スクリーンショット、メモを取り込んで整理し、取得元などのコンテキストを加えて検索できるようにします。VS Code、JetBrains、ブラウザなどのプラグインで、スニペットをワンクリックで保存し、必要なときに呼び戻せるので、先月どう解決したかをもう一度調べ直す必要はありません。

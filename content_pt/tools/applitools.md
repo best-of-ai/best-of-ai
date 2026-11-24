@@ -23,6 +23,8 @@ alternatives:
 - momentic-mo
 - browserstack-test-companion
 - qa-wolf
+- testsprite
+- seldon-wren
 date: '2025-10-01'
 tags:
 - integrations
@@ -33,7 +35,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: '4f160a4b8313'
+i18n_source: 'dea5794d0838'
 ---
 A Applitools resolve um problema que testes automatizados comuns não detectam: se uma página está visualmente correta. Um teste funcional pode confirmar que um botão existe mesmo que o layout esteja quebrado, sobreposto ou fora da tela. O Applitools Eyes captura telas durante os testes e compara-as a referências aprovadas usando IA visual que entende layout, texto e cor de forma semelhante a uma pessoa. Isso evita o excesso de falsos alertas da comparação pixel a pixel, em que pequenas diferenças de renderização acionam todas as verificações.
 

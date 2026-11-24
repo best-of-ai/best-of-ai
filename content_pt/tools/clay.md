@@ -23,6 +23,7 @@ alternatives:
 - seamless-ai
 - instantly
 - 11x-ai
+- alsona
 date: '2025-01-01'
 tags:
 - sales
@@ -36,7 +37,7 @@ tags:
 - forecasting
 - collaboration
 - customizable
-i18n_source: 'a4594ec23bb3'
+i18n_source: '9c691f39bfa8'
 ---
 
 O Clay funciona como uma planilha para dados de vendas e marketing. Você começa com uma lista de empresas ou pessoas, e o Clay adiciona colunas que buscam informações como e-mails, cargos, investimentos, tecnologias usadas e notícias recentes, recorrendo a muitos provedores de dados. O enriquecimento em cascata tenta uma fonte depois da outra até encontrar um resultado, ampliando a cobertura em comparação com o uso de um único fornecedor.

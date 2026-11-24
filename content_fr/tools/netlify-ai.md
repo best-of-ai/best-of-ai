@@ -17,9 +17,11 @@ alternatives:
   - railway-app
   - heroku
   - fly-io
+  - spacefast
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, integrations]
-i18n_source: '5550d2c4f5f2'
+i18n_source: '2f9409ff018b'
 ---
 
 Netlify a popularisé l'idée de pousser du code vers Git et de voir un site se construire et se déployer tout seul. Les développeurs connectent un dépôt, et Netlify construit à chaque changement, donne une URL de preview à chaque pull request et sert le site depuis un réseau mondial. Les fonctions serverless et les fonctions edge ajoutent du comportement dynamique sans serveurs.

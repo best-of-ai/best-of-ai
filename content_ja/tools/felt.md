@@ -15,9 +15,10 @@ alternatives:
   - qgis
   - arcgis
   - mapbox
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: 'dcf19d12490c'
+i18n_source: 'fa3bb2a869bf'
 ---
 
 ユーザーはGISファイルと表計算を取り込み、地図に描き、コメントを付けます。地図はリンクで共有でき、ウェブサイトに埋め込めます。AIの機能は、普通の言葉での依頼から、レイヤーのスタイルを整えたりデータを変換したりする助けになります。

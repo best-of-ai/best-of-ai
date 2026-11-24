@@ -15,6 +15,7 @@ alternatives:
 - wanderlog
 - hopper
 - kayak
+- tripmojo
 date: '2026-11-08'
 tags:
 - fast
@@ -25,7 +26,7 @@ tags:
 - service
 - solution
 - saas
-i18n_source: 'aec99ebf29f8'
+i18n_source: 'a07b8d618ff3'
 ---
 
 Nutzer:innen filtern Städte nach Budget, Wetter und weiteren Kriterien und lesen Berichte anderer Nomad:innen. Mitglieder erhalten Zugriff auf Chat, Treffen und Reiseverfolgung. Visa- und Steuerleitfäden decken viele Reiseziele ab.

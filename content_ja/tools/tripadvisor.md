@@ -18,9 +18,10 @@ alternatives:
   - wanderlog
   - mova-guide
   - google-maps
+  - tripmojo
 date: '2025-10-01'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '574156254f20'
+i18n_source: 'adb80eb85dd2'
 ---
 
 Tripadvisorは、旅行者のクチコミで名を上げました。訪問者がホテル、レストラン、ツアー、名所を評価して書き込み、サイトはその意見をもとに場所をランキングします。人々は泊まる場所や食べる場所を決める参考にしています。写真、フォーラム、Q&Aが詳細を補います。世界中の何百万もの場所を扱い、閲覧は無料です。

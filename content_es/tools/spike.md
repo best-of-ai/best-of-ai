@@ -17,9 +17,10 @@ alternatives:
   - spark-mail
   - front
   - mixmax
+  - glassmail
 date: '2025-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, real_time, collaboration, fast]
-i18n_source: '7783eae7d71c'
+i18n_source: '8afe69ae8205'
 ---
 
 Spike presenta el correo como un chat. Los hilos se convierten en conversaciones, lo que puede resultar más rápido, y una vista unificada reúne correo, notas, tareas y calendario. Los equipos pueden comentar mensajes en privado sin reenviarlos.

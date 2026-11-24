@@ -20,6 +20,8 @@ alternatives:
 - applitools
 - percy
 - browserstack-test-companion
+- testsprite
+- seldon-wren
 date: '2026-09-28'
 tags:
 - collaboration
@@ -30,7 +32,7 @@ tags:
 - service
 - solution
 - saas
-i18n_source: '06e72981cbd6'
+i18n_source: '1fab3a7610c3'
 ---
 
 QA Wolf bietet Testing als Dienstleistung. Statt eigene automatisierte Tests zu schreiben und zu pflegen, übergibt ein Unternehmen dies dem QA-Wolf-Team. Es erstellt Playwright-Tests für wichtige Abläufe, führt sie bei jeder Veröffentlichung parallel aus und repariert Tests bei Änderungen. Echte Fehler werden gemeldet, instabile Fehlschläge aussortiert.

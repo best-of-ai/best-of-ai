@@ -19,9 +19,11 @@ alternatives:
   - smartly
   - creatopy
   - aiter-io
+  - creatify
+  - adside
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, training]
-i18n_source: '367a6a9e3ae2'
+i18n_source: '3a044ceadd80'
 ---
 
 Pencilは、マーケティングチームが広告を絶えず作り続けるのを助けます。ブランドの素材と商品情報を接続すると、Pencilは、Meta、TikTok、YouTubeなどのプラットフォーム向けに、コピーとナレーション付きの動画広告と画像広告をさまざまな形式で生成します。チームは多くのバリエーションを作れるため、広告を1本ずつ手作業でデザインするよりもテストがしやすくなります。

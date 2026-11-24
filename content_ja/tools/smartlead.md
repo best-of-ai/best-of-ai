@@ -17,9 +17,10 @@ alternatives:
   - apollo
   - clay
   - amplemarket
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting]
-i18n_source: '3ae88e16410c'
+i18n_source: '6c241717a74e'
 ---
 
 Smartleadは大量のアウトバウンドメール向けに作られています。多数のメールボックスをつなぐと、送信を各ボックスに振り分け、送信量を調整し、新しいアカウントをウォームアップして、メッセージが受信箱に届くようにします。シーケンス、フォローアップ、返信管理でキャンペーンのロジックを組めます。

@@ -18,6 +18,7 @@ alternatives:
 - neon
 - planetscale
 - mongodb-atlas
+- volcano-kong
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -32,7 +33,7 @@ tags:
 - open_source
 - integrations
 - analytics
-i18n_source: '4abda2153225'
+i18n_source: 'dc01dc48ba2d'
 ---
 
 Supabase bietet die Backend-Bausteine für Anwendungen. Entwickler:innen erhalten eine gehostete Postgres-Datenbank mit automatisch erzeugten APIs, Nutzerauthentifizierung, Dateispeicher, Echtzeitaktualisierungen und serverlosen Edge Functions. Alles wird über ein Web-Dashboard verwaltet. Supabase gilt oft als quelloffene Alternative zu Firebase und bietet dabei Standard-SQL und eine portable Datenbank.

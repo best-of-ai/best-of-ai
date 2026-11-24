@@ -16,6 +16,7 @@ rank: 9
 alternatives:
 - unreal-engine
 - godot
+- wanaka-studio
 date: '2026-11-08'
 tags:
 - gaming
@@ -27,7 +28,7 @@ tags:
 - procedural
 - npcs
 - immersive
-i18n_source: 129d983dacab
+i18n_source: '8a34d23fe6dd'
 ---
 O editor oferece suporte a 2D e 3D, uma grande loja de ativos e programação em C#. Unity inclui ferramentas para física, animação e jogos multiplayer. Assistentes de IA integrados ao editor podem responder perguntas e gerar ativos e código.
 

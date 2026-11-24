@@ -18,9 +18,10 @@ alternatives:
   - arc-browser
   - brave-leo
   - genspark
+  - saparo
 date: '2026-08-31'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app]
-i18n_source: 'fce700d351aa'
+i18n_source: 'fdfb38157f05'
 ---
 
 Atlas coloca ChatGPT dentro do navegador. Um assistente na barra lateral consegue ver a página aberta, então você pode pedir um resumo de um artigo, uma explicação de uma tabela, uma comparação de produtos entre abas ou uma resposta redigida com o contexto da página. A barra de endereço também pode funcionar como prompt de chat, e o navegador pode lembrar o contexto da sua navegação se você ativar essa opção.

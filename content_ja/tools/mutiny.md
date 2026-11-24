@@ -17,9 +17,10 @@ alternatives:
   - demandbase-ai
   - instapage
   - hubspot
+  - letter-dev
 date: '2025-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable]
-i18n_source: 'a3b3b30c4eda'
+i18n_source: '5febc5521d17'
 ---
 
 Mutinyは、訪問者に合わせてウェブサイトの文言を変えます。ターゲット企業、業界、キャンペーンのどれから来た訪問者かに応じて、企業属性データや広告の情報をもとに、見出し、実績、行動喚起を差し替えます。設定はビジュアルエディタで行い、開発者は不要です。

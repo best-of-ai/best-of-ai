@@ -22,6 +22,7 @@ alternatives:
 - instantly
 - lemlist
 - smartlead
+- alsona
 date: '2025-09-21'
 tags:
 - sales
@@ -36,7 +37,7 @@ tags:
 - collaboration
 - enterprise
 - customizable
-i18n_source: '7b4b98a8cfb1'
+i18n_source: 'c18106b04d92'
 ---
 
 Salesloft hilft Vertriebsteams, ausgehende Kontaktaufnahme und Nachfassaktionen zu organisieren. Mitarbeitende arbeiten Cadences ab – strukturierte Folgen von E-Mails, Anrufen und Kontakten über soziale Netzwerke. Die Plattform zeigt, wen sie als Nächstes kontaktieren sollten, und protokolliert jede Aktivität im CRM. Führungskräfte sehen, welche Nachrichten und Sequenzen Antworten und Termine bringen, und unterstützen Mitarbeitende mithilfe von Gesprächsaufzeichnungen und Analysen.

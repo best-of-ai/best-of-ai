@@ -17,6 +17,7 @@ alternatives:
   - claude-code
   - cursor
   - cline
+  - skillbox
 date: '2026-10-29'
 tags: [developer_tools, terminal, coding_agents, open_source, desktop_app, multiplexer, agent_management, productivity, cross_platform, automation]
 ---

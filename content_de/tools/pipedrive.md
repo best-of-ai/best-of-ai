@@ -23,6 +23,7 @@ alternatives:
 - attio
 - copper
 - folk
+- altercontacts
 date: '2025-09-21'
 tags:
 - crm
@@ -35,7 +36,7 @@ tags:
 - deals
 - customer_data
 - collaboration
-i18n_source: 'e53244c40d36'
+i18n_source: '0cb02dab9884'
 ---
 
 Pipedrive wurde von Vertriebsprofis für den Vertrieb entwickelt. Im Mittelpunkt steht die Pipeline. Verkaufschancen erscheinen als Karten, die du von der ersten Kontaktaufnahme bis zum Abschluss durch die einzelnen Phasen bewegst. So erkennst du auf einen Blick, worauf du achten musst. Zu jeder Verkaufschance gehören Aktivitäten, E-Mails, Notizen und Dateien. Das System erinnert dich an Nachfassaktionen, damit nichts untergeht. Im Vergleich zu großen CRM-Suiten ist die Oberfläche übersichtlich und schnell zu erlernen. Das passt zu kleinen und wachsenden Vertriebsteams.

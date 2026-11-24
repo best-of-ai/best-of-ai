@@ -21,9 +21,10 @@ alternatives:
   - grain
   - supernormal
   - sembly-ai
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable]
-i18n_source: 'a10aeb4c4b2c'
+i18n_source: 'cd6e3527d8c7'
 ---
 
 tl;dvは「too long; didn't view(長すぎて見ていない)」の略で、会議を見返す手間を省きます。ボットが通話に参加して録画し、多くの言語で文字起こしします。通話中にハイライトを付けることもできます。終わったあとは、AIが作った要約とアクション項目の一覧がつき、録画を見られます。タイムスタンプがあるので、大事な部分にジャンプできます。クリップは、会議に出られなかった人と共有できます。

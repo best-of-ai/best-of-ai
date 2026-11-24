@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - smartlead
   - lemlist
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
-i18n_source: 'bbb11bc7b942'
+i18n_source: '784b2095422e'
 ---
 
 Outreach sert aux équipes commerciales à mener une prospection et un suivi structurés à grande échelle. Les commerciaux inscrivent des leads dans des séquences qui combinent e-mails, appels, étapes LinkedIn et tâches, et la plateforme planifie chaque étape, suit les réponses et journalise l'activité dans le CRM. Les managers peuvent voir quels messages et quelles cadences performent le mieux, et des règles automatiques routent les leads et gardent le travail organisé.

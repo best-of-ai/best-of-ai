@@ -19,9 +19,10 @@ alternatives:
   - runway-gen3
   - sora
   - veo-3
+  - youart
 date: '2026-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips]
-i18n_source: '1eff5ef24c49'
+i18n_source: 'b13a79dcc0c0'
 ---
 
 Higgsfieldは演出に重点を置いています。テキストでシーンを説明するほかに、dolly、orbit、crash zoomなどのカメラの動きを選び、見た目と動きを整えるプリセットを適用します。自社のモデルと他社のモデルをまとめ、ショットをまたいでキャラクターを一貫させるツールもあります。

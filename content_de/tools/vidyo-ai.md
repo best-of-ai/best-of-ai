@@ -20,6 +20,7 @@ alternatives:
 - munch
 - submagic
 - clipfinder-ai
+- videco
 date: '2025-09-21'
 tags:
 - video_editing
@@ -31,7 +32,7 @@ tags:
 - transitions
 - effects
 - export
-i18n_source: '6d5d7f9cdc1a'
+i18n_source: 'f7ac42b52db1'
 ---
 
 Vidyo.ai sollte Kreativen Zeit beim Schneiden kurzer Clips aus Podcasts, Webinaren und langen Videos sparen. Du lädst ein Video hoch oder fügst einen Link ein. Die KI analysiert den Inhalt, findet eigenständige Ausschnitte und erstellt daraus Clips mit Untertiteln und Hochformat. Du kannst das Transkript bearbeiten, Clipgrenzen anpassen und den Untertitelstil vor dem Export ändern.

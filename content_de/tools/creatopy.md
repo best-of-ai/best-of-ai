@@ -19,6 +19,8 @@ alternatives:
 - aiter-io
 - smartly
 - canva
+- creatify
+- adside
 date: '2026-11-05'
 tags:
 - advertising
@@ -30,7 +32,7 @@ tags:
 - digital_ads
 - performance
 - targeting
-i18n_source: 'a01cc959b65a'
+i18n_source: '4ac14ab21c14'
 ---
 
 Creatopy ist auf die Anzeigenproduktion ausgelegt. Designer:innen und Marketingteams erstellen ein Layout im Editor; das Tool passt es an Dutzende Bannergrößen und Social-Media-Formate an. So entfällt das zeitaufwendige manuelle Ändern der Größe. Animationswerkzeuge machen aus statischen Anzeigen HTML5-Banner, und Markenbibliotheken sorgen für einheitliche Farben, Schriften und Logos.

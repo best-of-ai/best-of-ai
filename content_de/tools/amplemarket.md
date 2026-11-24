@@ -21,6 +21,7 @@ alternatives:
 - instantly
 - lavender
 - zoominfo
+- alsona
 date: '2026-06-15'
 tags:
 - sales
@@ -34,7 +35,7 @@ tags:
 - forecasting
 - collaboration
 - customizable
-i18n_source: '6a98c0cb5a79'
+i18n_source: 'e886a09088ad'
 ---
 
 Amplemarket hilft Vertriebsteams, potenzielle Kunden zu finden und anzusprechen. Die Plattform kombiniert eine Datenbank mit B2B-Kontakten und Unternehmen mit Suchfiltern und Kaufsignalen. So können Vertriebsmitarbeiter Listen von Personen erstellen, die zum idealen Kundenprofil passen und Interesse erkennen lassen, etwa durch Einstellungen, Finanzierungsrunden oder Aktivitäten auf einer Website. Kontaktdaten werden geprüft und ergänzt, um unzustellbare E-Mails und falsche Telefonnummern zu verringern.

@@ -21,9 +21,10 @@ alternatives:
   - outreach
   - salesloft
   - instantly
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable]
-i18n_source: 'dbd658020428'
+i18n_source: '69a5d88418e6'
 ---
 
 Apolloは、アウトバウンド営業でよく使われるツールの一つです。中心は、検索できる企業の連絡先と企業のデータベースで、役職、業種、企業規模、所在地、使っている技術などで絞り込めます。一致した相手を書き出すかシーケンスへ送り込み、Apolloがメールアドレスと電話番号を出します。スタートアップと少人数の営業チームが好むのは、データとアウトリーチを、手頃な一つの製品にまとめている点です。

@@ -20,9 +20,10 @@ alternatives:
   - wondershare-filmora-ai
   - davinci-resolve
   - descript-video
+  - shot-video
 date: '2025-01-01'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, free_tier, voice_enabled, easy_to_use]
-i18n_source: '3ee2a78fe85a'
+i18n_source: 'cb396fd4b850'
 ---
 
 CapCut s'est imposé pour la vidéo courte parce qu'il est simple à utiliser et bien relié à TikTok. On assemble des plans sur une timeline, on coupe, on ajoute de la musique et des transitions, et on applique des effets, des filtres et du texte animé. Les modèles permettent de glisser ses images dans un montage déjà prêt, un chemin rapide vers une vidéo soignée pour les réseaux. Il tourne sur iOS, Android, Windows, macOS et dans le navigateur.

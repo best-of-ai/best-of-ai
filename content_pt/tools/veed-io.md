@@ -23,6 +23,7 @@ alternatives:
 - canva
 - invideo
 - wondershare-filmora-ai
+- shot-video
 date: '2025-09-21'
 tags:
 - video_editing
@@ -36,7 +37,7 @@ tags:
 - export
 - collaboration
 - powerful
-i18n_source: b92d36f2c1a4
+i18n_source: '77bd5f7fb56a'
 ---
 VEED é um editor de vídeo online que simplifica as edições mais comuns. Você envia clipes, corta e organiza o material em uma linha do tempo, adiciona texto, música e efeitos e exporta em formatos para diferentes plataformas. Inclui um gravador de tela e webcam para tutoriais e mensagens, modelos para vídeos sociais e mídia de catálogo. Tudo funciona no navegador, facilitando a colaboração sem instalar software.
 

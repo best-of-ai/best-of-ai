@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - smartlead
   - lemlist
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
-i18n_source: 'bbb11bc7b942'
+i18n_source: '784b2095422e'
 ---
 
 Los equipos de ventas usan Outreach para llevar a escala la prospección y el seguimiento de forma estructurada. Los comerciales inscriben a los leads en secuencias que combinan correos, llamadas, pasos en LinkedIn y tareas, y la plataforma programa cada paso, sigue las respuestas y registra la actividad en el CRM. Los responsables pueden ver qué mensajes y cadencias funcionan mejor, y las reglas automáticas distribuyen los leads y mantienen el trabajo ordenado.

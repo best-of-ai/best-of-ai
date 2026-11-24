@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Patent-Tools'
+title: 'Die besten KI-Tools für Patente'
 name: 'Patent-Tools'
 slug: 'patent-tools'
 description: 'KI-Tools für Patentrecherche, die Suche nach Stand der Technik und das Verfassen von Patentanmeldungen.'

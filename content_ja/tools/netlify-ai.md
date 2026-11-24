@@ -17,9 +17,11 @@ alternatives:
   - railway-app
   - heroku
   - fly-io
+  - spacefast
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, integrations]
-i18n_source: '5550d2c4f5f2'
+i18n_source: '2f9409ff018b'
 ---
 
 Netlifyは、コードをGitにプッシュするとサイトが自動でビルドされ、デプロイされるという流れを広めたサービスです。開発者がリポジトリを接続すると、変更のたびにビルドが走り、プルリクエストごとにプレビューURLが発行され、サイトは世界中に分散したネットワークから配信されます。サーバーレス関数とエッジ関数を使えば、サーバーを用意せずに動的な処理を加えられます。

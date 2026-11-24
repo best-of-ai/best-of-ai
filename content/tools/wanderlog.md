@@ -17,6 +17,7 @@ alternatives:
   - kayak
   - hopper
   - mova-guide
+  - tripmojo
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

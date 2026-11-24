@@ -18,6 +18,7 @@ alternatives:
   - activepieces
   - trigger-dev
   - inngest
+  - scalekit
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, integrations, powerful]
 ---

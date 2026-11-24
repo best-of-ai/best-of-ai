@@ -23,6 +23,7 @@ alternatives:
 - outreach
 - salesloft
 - instantly
+- alsona
 date: '2025-09-21'
 tags:
 - sales
@@ -35,7 +36,7 @@ tags:
 - closing
 - forecasting
 - customizable
-i18n_source: 'dbd658020428'
+i18n_source: '69a5d88418e6'
 ---
 
 Apollo gehört zu den meistgenutzten Werkzeugen für Outbound-Vertrieb. Im Kern steht eine durchsuchbare Datenbank mit Geschäftskontakten und Unternehmen. Du kannst nach Berufsbezeichnung, Branche, Unternehmensgröße, Standort, verwendeter Technologie und weiteren Kriterien filtern. Die passenden Kontakte kannst du exportieren oder in Sequenzen übernehmen. Apollo liefert E-Mail-Adressen und Telefonnummern dazu. Start-ups und kleine Vertriebsteams schätzen, dass Daten und Kundenansprache in einem erschwinglichen Produkt gebündelt sind.

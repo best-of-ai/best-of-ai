@@ -16,9 +16,10 @@ alternatives:
   - qgis
   - mapbox
   - nearmap
+  - waldo-wherobots
 date: '2026-11-05'
 tags: [ai_powered, intelligent, platform, tool, service, solution, saas, online]
-i18n_source: '56831a848fc9'
+i18n_source: 'e6b279724042'
 ---
 
 CARTOは、規模の大きい位置情報データを扱います。データを別のツールへコピーするのではなく、データがある場所で、ウェアハウスの計算資源を使って動きます。分析者は結合、クラスタリング、経路計算などの空間処理を実行し、ライブデータにつながったままの対話型の地図を作れます。

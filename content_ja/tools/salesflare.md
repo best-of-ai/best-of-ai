@@ -19,9 +19,10 @@ alternatives:
   - folk
   - zoho-crm
   - copper
+  - altercontacts
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
-i18n_source: '4e88840b1ef5'
+i18n_source: 'b291f5a592df'
 ---
 
 Salesflareは、自分で情報を埋めてくれます。メール、カレンダー、電話に接続し、やり取りの履歴、ソーシャルデータ、メモを含む連絡先と企業のプロフィールを作るので、営業担当がすべてを入力する必要はありません。タイムラインには、連絡先とのやり取りがすべて並びます。

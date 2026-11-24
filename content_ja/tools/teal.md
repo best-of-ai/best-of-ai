@@ -17,9 +17,10 @@ alternatives:
   - rezi
   - jobgpt-ai
   - linkedin
+  - hiringnow
 date: '2026-06-15'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: 'ffae669b4033'
+i18n_source: '80b6775b8749'
 ---
 
 Tealは就職活動の管理を助けます。Chromeの拡張機能が求人サイトの募集を、段階とメモの付いたトラッカーに保存し、フォローアップを促すリマインダーもあります。履歴書ビルダーは募集ごとに調整した版を作り、キーワードや言い回しの提案をします。

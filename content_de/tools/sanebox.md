@@ -21,6 +21,7 @@ alternatives:
 - boomerang
 - mixmax
 - spike
+- glassmail
 date: '2025-09-21'
 tags:
 - email
@@ -33,7 +34,7 @@ tags:
 - scheduling
 - follow_up
 - powerful
-i18n_source: '45f7f615b704'
+i18n_source: 'cff0cfdd40bc'
 ---
 
 SaneBox hilft gegen einen überfüllten Posteingang, ohne deine E-Mail-App zu ersetzen. Der Dienst verbindet sich mit deinem bestehenden Konto und analysiert dein Verhalten, etwa wem du antwortest und welche Nachrichten du öffnest. Weniger wichtige E-Mails verschiebt er in den Ordner SaneLater. Newsletter, Benachrichtigungen und unerwünschte Kontaktaufnahmen landen dort; du kannst sie später in einer Übersicht durchsehen. Wichtige Nachrichten bleiben im Posteingang.

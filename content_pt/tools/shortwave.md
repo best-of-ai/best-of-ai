@@ -21,6 +21,7 @@ alternatives:
 - boomerang
 - mixmax
 - spike
+- glassmail
 date: '2025-09-21'
 tags:
 - email
@@ -33,7 +34,7 @@ tags:
 - scheduling
 - follow_up
 - nlp
-i18n_source: 458c08270893
+i18n_source: 'c498ce68adaf'
 ---
 
 Shortwave é um cliente de Gmail que repensa a caixa de entrada. Mensagens relacionadas são agrupadas em conversas, newsletters e recibos podem ser reunidos para não poluir a visualização principal, e recursos de adiamento, agendamento e caixas de entrada separadas ajudam a processar e-mails mais rapidamente. Funciona em Mac, Windows, iOS, Android e na web e se conecta à conta do Gmail.

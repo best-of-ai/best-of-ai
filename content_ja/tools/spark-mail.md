@@ -19,9 +19,10 @@ alternatives:
   - spike
   - boomerang
   - mixmax
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, mobile_app, collaboration, cloud_based]
-i18n_source: 'd735e17e49ef'
+i18n_source: '904bf3340eac'
 ---
 
 Sparkは、Gmail、Outlook、iCloud、Yahooなどのアカウントで使えるメールクライアントです。スマート受信トレイはメールをカテゴリーに分け、人からのメールや重要なメールを上に表示し、ニュースレターや通知は目立たない場所に置きます。スヌーズ、送信予約、フォローアップのリマインダー、クイック返信などの機能でメール処理が速くなり、統合受信トレイで複数のアカウントをまとめられます。

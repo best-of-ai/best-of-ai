@@ -18,6 +18,7 @@ alternatives:
 - apollo
 - clay
 - amplemarket
+- alsona
 date: '2026-11-05'
 tags:
 - sales
@@ -29,7 +30,7 @@ tags:
 - prospecting
 - closing
 - forecasting
-i18n_source: '3ae88e16410c'
+i18n_source: '6c241717a74e'
 ---
 
 Smartlead ist für ausgehende E-Mails in großem Umfang ausgelegt. Nutzer:innen verbinden viele Postfächer; die Plattform verteilt Sendungen, passt Volumen an und wärmt neue Konten auf, damit Nachrichten im Posteingang landen. Sequenzen, Nachfassaktionen und Antwortverwaltung bilden die Kampagnenlogik ab.

@@ -15,9 +15,10 @@ alternatives:
   - pilot-ai
   - vic-ai
   - expensify-ai
+  - latch
 date: '2026-11-08'
 tags: [voice_enabled, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '8215da835924'
+i18n_source: '99b5da73d604'
 ---
 
 Les clients photographient un reçu ou transfèrent une facture par e-mail, et Dext lit le fournisseur, la date, le montant et la taxe. Les données extraites se synchronisent vers des plateformes comme Xero, QuickBooks et Sage, où elles deviennent une écriture brouillon prête à relire. Il peut aussi récupérer automatiquement les factures fournisseurs.

@@ -15,6 +15,7 @@ alternatives:
   - qgis
   - arcgis
   - mapbox
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
 ---

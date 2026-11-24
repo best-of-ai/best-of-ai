@@ -14,9 +14,10 @@ rank: 5
 alternatives:
   - semrush
   - ahrefs
+  - rankspot
 date: '2026-11-08'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp]
-i18n_source: '20014d304b7c'
+i18n_source: '40c69e785a60'
 ---
 
 Peec AIは、従来のSEOツールが扱わない領域、つまりAIアシスタントが自社のブランドについて何と言っているかを埋めるツールです。ChatGPT、Perplexity、GeminiなどのAIエンジンにプロンプトを実行し、ブランドが何回言及され、どの順位で、どんな評価で出たかを報告します。

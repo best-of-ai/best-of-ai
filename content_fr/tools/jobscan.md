@@ -18,9 +18,10 @@ alternatives:
   - enhancv
   - teal
   - reztune
+  - hiringnow
 date: '2026-06-15'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
-i18n_source: '30c947e0e7c6'
+i18n_source: 'd8c52edfb1dd'
 ---
 Jobscan aide à adapter les CV à des offres précises. On colle un CV et une annonce, et Jobscan renvoie un score de correspondance, liste les mots-clés et les compétences de l'annonce qui manquent ou sont sous-utilisés, et signale des problèmes de mise en forme qui pourraient faire trébucher les analyseurs automatiques.
 

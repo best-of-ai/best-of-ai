@@ -16,6 +16,7 @@ alternatives:
 - qgis
 - arcgis
 - mapbox
+- waldo-wherobots
 date: '2026-11-08'
 tags:
 - collaboration
@@ -26,7 +27,7 @@ tags:
 - service
 - solution
 - saas
-i18n_source: 'dcf19d12490c'
+i18n_source: 'fa3bb2a869bf'
 ---
 
 Os usuários importam arquivos GIS e planilhas, desenham no mapa e adicionam comentários. Os mapas podem ser compartilhados por link e incorporados a sites. Recursos de IA ajudam a estilizar camadas e transformar dados a partir de uma solicitação em linguagem natural.

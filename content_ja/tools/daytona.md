@@ -15,9 +15,10 @@ alternatives:
   - e2b-ai
   - modal-ai
   - browserbase
+  - glasshand
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, community_driven]
-i18n_source: 'b5d73dd62c47'
+i18n_source: 'f82b9fcd833a'
 ---
 
 Daytonaは、コードを安全に実行するサンドボックスを提供します。コードを書いて実行するAIエージェントには、ミスや悪意のある指示が本物のシステムを傷つけない場所が必要です。Daytonaは隔離された環境を必要に応じて立ち上げ、コードを実行し、結果を返し、サンドボックスを破棄します。起動が速いので、エージェントが繰り返す処理も待たされません。

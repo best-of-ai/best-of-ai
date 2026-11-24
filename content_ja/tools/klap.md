@@ -18,9 +18,10 @@ alternatives:
   - vidyo-ai
   - submagic
   - clipfinder-ai
+  - videco
 date: '2025-06-15'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '84e70fa39d01'
+i18n_source: 'a96497c3912d'
 ---
 
 Klapは、制作者とマーケターが長い動画をショートにするのを助けます。利用者が動画をアップロードするかリンクを貼ると、ツールは有望な区間を選び、話者を追いながら縦型に切り出し、字幕を付けます。スコアは、各クリップがどれだけ成果を出しそうかを見積もります。

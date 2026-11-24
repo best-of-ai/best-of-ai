@@ -17,6 +17,7 @@ alternatives:
 - synthflow
 - livekit
 - openai-realtime-api
+- call-e
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -31,7 +32,7 @@ tags:
 - customizable
 - integrations
 - voice_enabled
-i18n_source: '0eeab5fa6c57'
+i18n_source: '21099541cf12'
 ---
 
 Vapi übernimmt die komplexen Teile von Sprachagenten. Entwickler:innen definieren einen Assistenten mit Prompt und Werkzeugen, verbinden eine Telefonnummer und Vapi koordiniert Sprache-zu-Text, Sprachmodell und Text-zu-Sprache. Unterbrechungen und Gesprächswechsel werden berücksichtigt. Komponenten lassen sich je nach bevorzugtem Anbieter austauschen.

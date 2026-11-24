@@ -16,6 +16,7 @@ alternatives:
 - scenario
 - promethean-ai
 - inworld-ai
+- wanaka-studio
 date: '2025-09-21'
 tags:
 - gaming
@@ -29,7 +30,7 @@ tags:
 - immersive
 - mobile_app
 - image_based
-i18n_source: '0af84ad0e249'
+i18n_source: 'd09918508888'
 ---
 
 Ludo.ai soll die frühen Schritte der Spieleentwicklung beschleunigen. Designer:innen sammeln Ideen zu Konzepten und Spielmechaniken, erhalten Vorschläge anhand von App-Store-Trends und erstellen Beschreibungen und Funktionslisten. Ein Marktforschungswerkzeug analysiert erfolgreiche Spiele und zeigt beliebte Genres und Themen. So können Indie-Studios und Verlage besser entscheiden, was sie entwickeln.

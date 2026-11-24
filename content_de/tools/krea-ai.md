@@ -21,6 +21,7 @@ alternatives:
 - comfyui
 - invokeai
 - ideogram
+- youart
 date: '2025-01-01'
 tags:
 - image_generation
@@ -35,7 +36,7 @@ tags:
 - real_time
 - image_based
 - easy_to_use
-i18n_source: 'c813c7c8f47b'
+i18n_source: 'a03af7197c1f'
 ---
 
 Krea wurde durch seine Leinwand in Echtzeit bekannt. Während du einen Prompt eingibst oder Formen skizzierst, aktualisiert sich das Bild fast sofort. Dadurch wird die Bilderzeugung zu einem laufenden Erkundungsprozess statt zu einer Reihe von Wartezeiten. Das unmittelbare Feedback eignet sich für Designer und Künstler, die visuell arbeiten und Komposition und Stil mit Gesten statt durch wiederholtes Umschreiben von Prompts anpassen.

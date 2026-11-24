@@ -20,9 +20,11 @@ alternatives:
   - riverside
   - wisecut
   - clipchamp
+  - videco
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, voice_enabled]
-i18n_source: 'a853fe85ebb6'
+i18n_source: 'a76b96b7c680'
 ---
 
 O Descript mudou a maneira como muitas pessoas editam podcasts e vídeos. Depois da gravação, o Descript transcreve o áudio, e excluir uma palavra da transcrição também a remove da mídia. Assim, editar se parece com trabalhar em um documento, algo mais acessível para quem não tem experiência com edição de vídeo.

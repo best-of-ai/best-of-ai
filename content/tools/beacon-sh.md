@@ -17,6 +17,7 @@ alternatives:
   - letta
   - pieces-for-developers
   - continue-dev
+  - skillbox
 date: '2026-11-02'
 tags: [developer_tools, agent_memory, coding_agents, open_source, context, mcp, productivity, self_improving, github, automation]
 ---

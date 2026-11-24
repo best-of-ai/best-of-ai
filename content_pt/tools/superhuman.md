@@ -19,9 +19,10 @@ alternatives:
   - spike
   - front
   - boomerang
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, fast]
-i18n_source: 'ea97bb0a286e'
+i18n_source: '807f18857145'
 ---
 
 Superhuman ficou conhecida como o cliente de e-mail mais rápido. Foi projetada para processar a caixa de entrada pelo teclado, com comandos para arquivar, responder, adiar e definir lembretes; tudo carrega instantaneamente. A interface é minimalista, com seções Split Inbox que separam e-mails importantes de newsletters e notificações. Recursos como envio programado, lembretes de acompanhamento, status de leitura e paleta de comandos fazem parte do fluxo de trabalho.

@@ -1,6 +1,6 @@
 ---
-title: 'Die besten KI-Modelle für Sprache'
-name: 'Sprache'
+title: 'Die besten Sprachmodelle'
+name: 'Sprachmodelle'
 slug: 'language'
 description: 'Große Sprachmodelle für Chat, Schreiben und allgemeine Textaufgaben.'
 filter_field: 'model_type'

@@ -17,9 +17,10 @@ alternatives:
   - apollo
   - clay
   - amplemarket
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting]
-i18n_source: '3ae88e16410c'
+i18n_source: '6c241717a74e'
 ---
 Smartlead est construit pour l'e-mail sortant à l'échelle. On connecte beaucoup de boîtes, et la plateforme répartit les envois entre elles, ajuste le volume, et chauffe les nouveaux comptes pour que les messages arrivent en boîte de réception. Séquences, relances et gestion des réponses gèrent la logique de campagne.
 

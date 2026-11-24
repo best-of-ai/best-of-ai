@@ -19,9 +19,11 @@ alternatives:
   - smartly
   - creatopy
   - aiter-io
+  - creatify
+  - adside
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, training]
-i18n_source: '367a6a9e3ae2'
+i18n_source: '3a044ceadd80'
 ---
 
 Pencil aide les équipes marketing à produire un flux régulier d'annonces. Tu connectes les assets de marque et les informations produit, et Pencil génère des annonces vidéo et image avec textes et voix off dans différents formats pour des plateformes comme Meta, TikTok et YouTube. Les équipes peuvent créer beaucoup de variations, ce qui rend les tests plus faciles que de designer chaque annonce à la main.

@@ -18,9 +18,10 @@ alternatives:
   - sloyd
   - inworld-ai
   - leonardo-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
-i18n_source: 'd239ba9e2fe2'
+i18n_source: '7fbf1cc86cd8'
 ---
 
 Scenario foi desenvolvida para manter consistência, o principal desafio do uso de IA generativa na produção de jogos. Um estúdio envia exemplos de sua arte, e Scenario treina um modelo personalizado que aprende o estilo, para que personagens, objetos e cenários gerados pareçam pertencer ao mesmo jogo. Artistas podem usá-la para criar conceitos, variações e materiais finalizados com mais rapidez.

@@ -22,6 +22,8 @@ alternatives:
 - browserstack-test-companion
 - percy
 - testifly
+- testsprite
+- seldon-wren
 date: '2025-10-01'
 tags:
 - mobile_app
@@ -32,7 +34,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: 08f159f6aa94
+i18n_source: '64d589bfd54b'
 ---
 
 A Mabl busca tornar os testes automatizados menos frágeis. As equipes gravam ou descrevem fluxos de usuários, como entrar na conta ou finalizar uma compra, e a plataforma os transforma em testes automatizados executados na nuvem em diferentes navegadores e dispositivos. A abordagem de pouco código permite que profissionais de QA e desenvolvimento criem testes sem escrever tudo em código, embora também seja possível usar scripts. Os testes podem ser executados em uma agenda ou em pipelines de CI/CD quando o código muda.

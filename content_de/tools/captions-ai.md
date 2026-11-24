@@ -22,6 +22,7 @@ alternatives:
 - opus-clip
 - kapwing
 - vizard
+- shot-video
 date: '2025-09-21'
 tags:
 - video_editing
@@ -33,7 +34,7 @@ tags:
 - transitions
 - effects
 - export
-i18n_source: '6839d4b71e73'
+i18n_source: '60bb19f6ef85'
 ---
 
 Captions richtet sich an Kreative, die sich selbst beim Sprechen aufnehmen. Du nimmst ein Video auf oder lädst es hoch. Das Tool transkribiert die Sprache und fügt animierte Untertitel im passenden Stil hinzu. Das ist wichtig, weil viele Menschen Social-Media-Videos ohne Ton ansehen. Captions kann Füllwörter und Pausen entfernen, das Video straffer schneiden und Zooms sowie Effekte ergänzen, die die Aufmerksamkeit halten. Die App eignet sich gut für Smartphones und damit für Kreative, die ihre Videos unterwegs bearbeiten.

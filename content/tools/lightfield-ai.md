@@ -17,6 +17,7 @@ alternatives:
   - pipedrive
   - close
   - salesforce
+  - altercontacts
 date: '2025-01-01'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
 ---

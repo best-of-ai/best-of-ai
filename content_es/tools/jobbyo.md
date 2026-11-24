@@ -16,9 +16,10 @@ alternatives:
   - jobgpt-ai
   - linkedin
   - indeed
+  - hiringnow
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: '4bb5f5f1ba45'
+i18n_source: '8dcda628e9e4'
 ---
 
 Jobbyo automatiza las partes repetitivas de buscar trabajo. La persona sube su currículum e indica los puestos que quiere, y el agente busca ofertas que encajen, rellena las candidaturas y hace seguimiento de las respuestas. La idea es postular a muchos más empleos de los que se podrían a mano.

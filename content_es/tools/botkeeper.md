@@ -20,9 +20,10 @@ alternatives:
   - zeni-ai
   - bill-com-ai
   - vic-ai
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, integrations, machine_learning, fast]
-i18n_source: 'c4e408b36e86'
+i18n_source: 'bbf12ede788e'
 ---
 
 Botkeeper ofrecía a los despachos contables una forma de escalar la contabilidad con automatización. Su software se conectaba a los sistemas contables de los clientes, categorizaba transacciones con aprendizaje automático, conciliaba cuentas y preparaba estados financieros, con revisores humanos que comprobaban el trabajo. El objetivo era que los despachos pudieran atender a más clientes con el mismo personal y reducir la introducción rutinaria de datos.

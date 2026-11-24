@@ -17,9 +17,10 @@ alternatives:
   - synthflow
   - livekit
   - openai-realtime-api
+  - call-e
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, customizable, integrations, voice_enabled]
-i18n_source: '0eeab5fa6c57'
+i18n_source: '21099541cf12'
 ---
 
 Vapiは、音声エージェントの面倒な部分を引き受けます。開発者はプロンプトとツールでアシスタントを定義して電話番号をつなぎ、Vapiが音声認識、言語モデル、音声合成を取りまとめます。割り込みや発話の順番の扱いも含まれます。プロバイダーを自分で選んで持ち込めるので、部品を入れ替えられます。

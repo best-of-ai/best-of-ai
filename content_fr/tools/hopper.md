@@ -16,9 +16,10 @@ alternatives:
   - kayak
   - tripadvisor
   - wanderlog
+  - tripmojo
 date: '2025-10-01'
 tags: [free_tier, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '94d1ab9e6b52'
+i18n_source: '3aa05ed61728'
 ---
 Hopper a commencé comme une app de prévision des prix des vols. Elle analyse l'historique et les tarifs en direct pour estimer si un billet va baisser ou monter, et elle dit d'acheter tout de suite ou d'attendre. On peut suivre une liaison et recevoir une notification quand les prix baissent. Elle met aussi en avant les dates flexibles et les aéroports proches pour faire des économies. La même approche s'étend aux hôtels et aux voitures de location.
 

@@ -16,6 +16,7 @@ alternatives:
   - carto
   - mapbox
   - seequent
+  - waldo-wherobots
 date: '2026-11-05'
 tags: [free_tier, machine_learning, extensible, ai_powered, intelligent, platform, tool, service]
 ---

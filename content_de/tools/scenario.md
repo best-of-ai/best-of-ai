@@ -18,9 +18,10 @@ alternatives:
   - sloyd
   - inworld-ai
   - leonardo-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
-i18n_source: 'd239ba9e2fe2'
+i18n_source: '7fbf1cc86cd8'
 ---
 Scenario ist auf Konsistenz ausgerichtet – eine zentrale Herausforderung generativer KI in der Spieleproduktion. Ein Studio lädt Beispiele seiner Grafiken hoch; Scenario trainiert daraus ein eigenes Modell, damit Figuren, Objekte und Umgebungen wie Teile desselben Spiels aussehen. Künstler erstellen damit schneller Konzepte, Varianten und fertige Inhalte.
 

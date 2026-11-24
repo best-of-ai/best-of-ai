@@ -19,9 +19,10 @@ alternatives:
   - instantly
   - lavender
   - zoominfo
+  - alsona
 date: '2026-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
-i18n_source: '6a98c0cb5a79'
+i18n_source: 'e886a09088ad'
 ---
 Amplemarket ajuda equipes de vendas a encontrar e contatar clientes em potencial. Combina um banco de dados de contatos e empresas B2B com filtros de busca e sinais de intenção, para que representantes montem listas de pessoas que correspondam ao perfil de cliente ideal e demonstrem interesse, por exemplo, por contratações, financiamento ou atividade no site. Os dados de contato são verificados e enriquecidos para reduzir e-mails devolvidos e números incorretos.
 

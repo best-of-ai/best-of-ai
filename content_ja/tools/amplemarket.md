@@ -19,9 +19,10 @@ alternatives:
   - instantly
   - lavender
   - zoominfo
+  - alsona
 date: '2026-06-15'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
-i18n_source: '6a98c0cb5a79'
+i18n_source: 'e886a09088ad'
 ---
 
 Amplemarketは、営業チームが見込み客を見つけ、連絡するのを助けます。B2Bの連絡先と企業のデータベースに、検索フィルタと意図のシグナルを組み合わせます。担当者は、理想の顧客に合い、採用、資金調達、ウェブサイト上の行動といった関心の兆しがある人のリストを作れます。連絡先データは検証され、情報が補完されるので、届かないメールや誤った電話番号が減ります。

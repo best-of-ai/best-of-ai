@@ -18,6 +18,7 @@ alternatives:
 - yellow-ai
 - kore-ai
 - sierra-ai
+- call-e
 date: '2026-11-05'
 tags:
 - customer_support
@@ -30,7 +31,7 @@ tags:
 - service
 - resolution
 - enterprise
-i18n_source: 'c6aac2fd2e02'
+i18n_source: '5aeb03ff609c'
 ---
 
 Bland bietet Sprachagenten für echte Telefonate. Unternehmen setzen sie ein, um eingehende Anrufe anzunehmen, Interessierte anzurufen, Termine zu bestätigen und Umfragen durchzuführen. Die Agenten sprechen natürlich, gehen auf Unterbrechungen ein und sind rund um die Uhr verfügbar.

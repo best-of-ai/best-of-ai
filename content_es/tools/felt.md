@@ -15,9 +15,10 @@ alternatives:
   - qgis
   - arcgis
   - mapbox
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: 'dcf19d12490c'
+i18n_source: 'fa3bb2a869bf'
 ---
 
 Los usuarios importan archivos GIS y hojas de cálculo, dibujan sobre el mapa y añaden comentarios. Los mapas se comparten con un enlace y se incrustan en sitios web. Las funciones de IA pueden ayudar a dar estilo a las capas y a transformar datos a partir de una petición en lenguaje natural.

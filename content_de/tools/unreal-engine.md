@@ -15,6 +15,7 @@ rank: 9
 alternatives:
 - metahuman
 - character-creator
+- wanaka-studio
 date: '2026-11-08'
 tags:
 - gaming
@@ -28,7 +29,7 @@ tags:
 - immersive
 - real_time
 - image_based
-i18n_source: '235fcea1fd97'
+i18n_source: 'e95de2275b1b'
 ---
 
 Die Engine enthält ein visuelles Skriptsystem namens Blueprints, mit dem du Spielmechaniken ohne C++ programmieren kannst. Lumen übernimmt dynamische Beleuchtung, Nanite sehr detaillierte Geometrie. Beides eignet sich für filmreife Szenen. MetaHuman Creator, das mit der Engine läuft, erzeugt realistische digitale Figuren.

@@ -17,6 +17,7 @@ alternatives:
 - qgis
 - mapbox
 - nearmap
+- waldo-wherobots
 date: '2026-11-05'
 tags:
 - ai_powered
@@ -27,7 +28,7 @@ tags:
 - solution
 - saas
 - online
-i18n_source: '56831a848fc9'
+i18n_source: 'e6b279724042'
 ---
 
 CARTO konzentriert sich auf Standortdaten in großem Maßstab. Statt Daten in ein separates Werkzeug zu kopieren, arbeitet die Plattform direkt dort, wo die Daten bereits liegen, und nutzt die Rechenleistung des Data Warehouse. Analyst:innen können räumliche Vorgänge wie Verknüpfungen, Gruppierungen und Routenberechnungen ausführen und interaktive Karten erstellen, die mit aktuellen Daten verbunden bleiben.

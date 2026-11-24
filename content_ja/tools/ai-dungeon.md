@@ -17,9 +17,10 @@ alternatives:
   - inworld-ai
   - character-ai
   - latitude
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
-i18n_source: '151fe38ee6eb'
+i18n_source: '9743cd9ac3e3'
 ---
 
 AI Dungeonは、AIで物語を進めるゲームの先駆けです。ファンタジー、ミステリー、サバイバルなどの舞台を選ぶか、自分で作り、それからキャラクターが何をするかを入力します。AIは次に何が起きるかを返し、決まった台本はないので、何を試みても物語は合わせます。結果は、従来のアドベンチャーとは違う種類のゲームで、終わりの見えない可能性と、ときに意外な展開があります。

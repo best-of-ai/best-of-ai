@@ -21,6 +21,7 @@ alternatives:
 - enhancv
 - teal
 - reztune
+- hiringnow
 date: '2026-06-15'
 tags:
 - resume
@@ -32,7 +33,7 @@ tags:
 - ats
 - interview
 - professional
-i18n_source: '30c947e0e7c6'
+i18n_source: 'd8c52edfb1dd'
 ---
 
 O Jobscan ajuda pessoas a adaptar currículos a vagas específicas. O usuário cola um currículo e um anúncio de emprego, e o Jobscan apresenta uma pontuação de compatibilidade, lista palavras-chave e competências do anúncio que estão ausentes ou pouco utilizadas e aponta problemas de formatação que podem confundir sistemas automatizados de análise.

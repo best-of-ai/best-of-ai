@@ -18,9 +18,10 @@ alternatives:
   - activepieces
   - trigger-dev
   - inngest
+  - scalekit
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, integrations, powerful]
-i18n_source: '2dcbfbc24bdd'
+i18n_source: '37c9fd00f5d9'
 ---
 
 Pipedreamは、ノーコード自動化と、すべて自前で書く開発の中間に位置します。ワークフローは、Webhookや表の新しい行といったトリガーと、アプリ用の既製アクションを呼ぶか自分のコードを動かすステップで組みます。npmやPyPIのパッケージも使えます。この組み合わせにより、Zapierのようなツールより速く作れて、本格的なプログラミングが要るロジックも扱えるため、連携や社内の自動化に向いています。

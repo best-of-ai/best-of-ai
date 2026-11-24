@@ -16,9 +16,10 @@ alternatives:
   - neon
   - planetscale
   - mongodb-atlas
+  - volcano-kong
 date: '2025-09-21'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, integrations, analytics]
-i18n_source: '4abda2153225'
+i18n_source: 'dc01dc48ba2d'
 ---
 
 Supabase oferece os componentes de que um aplicativo precisa nos bastidores. Fornece aos desenvolvedores um banco de dados Postgres hospedado com APIs geradas automaticamente, autenticação de usuários, armazenamento de arquivos, atualizações em tempo real e funções de borda sem servidor, tudo gerenciável em um painel web. É frequentemente descrita como uma alternativa de código aberto ao Firebase, com a vantagem de usar SQL padrão e um banco de dados portável.

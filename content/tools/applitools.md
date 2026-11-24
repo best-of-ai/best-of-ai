@@ -19,6 +19,8 @@ alternatives:
   - momentic-mo
   - browserstack-test-companion
   - qa-wolf
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [integrations, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

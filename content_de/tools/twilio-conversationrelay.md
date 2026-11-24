@@ -19,6 +19,7 @@ alternatives:
 - openai-realtime-api
 - bland-ai
 - retell-ai
+- call-e
 date: '2026-11-05'
 tags:
 - ai
@@ -27,7 +28,7 @@ tags:
 - productivity
 - enterprise
 - agent
-i18n_source: '09fae406af0d'
+i18n_source: 'a1e8d9af8b84'
 ---
 
 ConversationRelay verbindet Telefonate mit KI. Bei einem Anruf auf einer Twilio-Nummer wandelt der Dienst die Sprache des Anrufers oder der Anruferin in Echtzeit in Text um und streamt ihn per WebSocket zum Server der Entwickler:innen. Der Server sendet Text zurück, den Twilio in Sprache umwandelt. So können Teams jedes große Sprachmodell und ihre eigene Geschäftslogik einbinden.

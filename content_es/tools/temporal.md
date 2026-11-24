@@ -15,9 +15,10 @@ alternatives:
   - inngest
   - trigger-dev
   - prefect
+  - volcano-kong
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
-i18n_source: 'db4f201d9543'
+i18n_source: 'a198c08a8d0c'
 ---
 
 Temporal aborda una parte difícil de crear software fiable: lograr que los procesos largos y de varios pasos sobrevivan a los fallos. Los desarrolladores escriben los flujos de trabajo en un lenguaje de programación normal como Go, Java, Python o TypeScript, y Temporal registra cada paso y su estado, de modo que si un servidor se cae o falla una llamada de red, el flujo continúa desde donde se detuvo sin perder progreso. Los reintentos, los tiempos de espera y los temporizadores vienen incluidos.

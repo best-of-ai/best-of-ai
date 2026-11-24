@@ -17,9 +17,11 @@ alternatives:
   - diffbot
   - tavily
   - browserbase
+  - glasshand
+  - tabstack
 date: '2026-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, api_available, model_based]
-i18n_source: 'c781e9f64190'
+i18n_source: 'dfe25fc2b020'
 ---
 
 Firecrawlが解くのは、AIプロジェクトでよくある段階です。ウェブの内容を、言語モデルが使える形にすることです。開発者がURLを渡すと、ページを取得し、JavaScriptの描画に対応し、定型部分を除いて、きれいなMarkdownを返します。サイト全体のクロール、リンクの一覧化、スキーマを使ったページからの構造化フィールドの抽出もできます。

@@ -16,6 +16,7 @@ alternatives:
 - qgis
 - arcgis
 - planet-labs
+- waldo-wherobots
 date: '2026-11-08'
 tags:
 - cloud_based
@@ -26,7 +27,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: 'b3eee4cff62b'
+i18n_source: '68e5fcd8641e'
 ---
 
 Die Plattform hostet jahrzehntelange Satelliten- und Klimadatensätze, darunter Landsat und Sentinel. Nutzer:innen schreiben JavaScript- oder Python-Skripte, um Veränderungen im Zeitverlauf zu berechnen, etwa Waldverlust oder Meereis. Ergebnisse lassen sich als Karten und Tabellen exportieren.

@@ -15,9 +15,10 @@ alternatives:
   - interview-warmup
   - teal
   - huntr
+  - hiringnow
 date: '2026-11-08'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: 'c13c880853b6'
+i18n_source: 'ddefbd51bac3'
 ---
 Final Round AI couvre la préparation d'entretien, de l'entraînement à l'entretien réel. Tu peux lancer des entretiens d'entraînement par IA, fixer des objectifs, et recevoir des débriefs automatiques qui indiquent où tes réponses étaient faibles. Le côté préparation est utile en soi, même si tu n'utilises jamais les fonctions en direct.
 

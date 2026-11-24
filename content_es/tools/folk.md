@@ -19,9 +19,10 @@ alternatives:
   - close
   - copper
   - lightfield-ai
+  - altercontacts
 date: '2025-06-15'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, collaboration, customizable]
-i18n_source: '3ed7e2a43443'
+i18n_source: '1db4d61d077f'
 ---
 
 Folk es un gestor de relaciones para quienes encuentran pesados los CRM tradicionales. Los usuarios importan contactos desde el correo, LinkedIn y hojas de cálculo, los organizan en grupos y siguen conversaciones y negocios en una interfaz limpia. Encaja con agencias, reclutadores, inversores y fundadores que gestionan muchas relaciones.

@@ -21,6 +21,8 @@ alternatives:
 - momentic-mo
 - browserstack-test-companion
 - qa-wolf
+- testsprite
+- seldon-wren
 date: '2025-10-01'
 tags:
 - integrations
@@ -31,7 +33,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: '4f160a4b8313'
+i18n_source: 'dea5794d0838'
 ---
 
 Applitools löst ein Problem, das herkömmliche automatisierte Tests übersehen: ob eine Seite richtig aussieht. Ein Funktionstest kann bestätigen, dass eine Schaltfläche vorhanden ist, obwohl das Layout kaputt ist, sich Elemente überlagern oder Inhalte außerhalb des Bildschirms liegen. Applitools Eyes erstellt Screenshots während der Tests und vergleicht sie mit freigegebenen Vorlagen. Dabei nutzt es visuelle KI, die Layout, Text und Farbe ähnlich wie ein Mensch versteht. So entstehen weniger Fehlalarme als bei pixelgenauen Vergleichen, bei denen schon kleine Darstellungsunterschiede jede Prüfung auslösen.

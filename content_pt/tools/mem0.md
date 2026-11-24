@@ -16,9 +16,10 @@ alternatives:
   - langgraph
   - pieces-for-developers
   - beacon-sh
+  - skillbox
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, model_based, community_driven]
-i18n_source: '71c5b3468ed7'
+i18n_source: '52c67fdb5bb6'
 ---
 
 Mem0 dá às aplicações de IA uma memória de longo prazo. Modelos de linguagem esquecem tudo entre conversas, a menos que a aplicação forneça contexto. Mem0 extrai fatos importantes das interações, armazena-os e recupera os relevantes quando necessário, permitindo que um chatbot recorde preferências ou solicitações anteriores de um usuário.

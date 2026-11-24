@@ -18,6 +18,7 @@ alternatives:
   - sloyd
   - inworld-ai
   - leonardo-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
 ---

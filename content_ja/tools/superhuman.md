@@ -19,9 +19,10 @@ alternatives:
   - spike
   - front
   - boomerang
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, fast]
-i18n_source: 'ea97bb0a286e'
+i18n_source: '807f18857145'
 ---
 
 Superhumanは、最速のメールクライアントとして知られるようになりました。アーカイブ、返信、スヌーズ、リマインダーのコマンドを使い、キーボードで受信トレイを処理できるように設計されており、すべてが即座に読み込まれます。インターフェースは最小限で、Split Inboxのセクションが重要なメールとニュースレターや通知を分けます。送信予約、フォローアップのリマインダー、既読の表示、コマンドパレットなどの機能がワークフローに組み込まれています。

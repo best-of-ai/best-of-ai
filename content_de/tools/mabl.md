@@ -22,6 +22,8 @@ alternatives:
 - browserstack-test-companion
 - percy
 - testifly
+- testsprite
+- seldon-wren
 date: '2025-10-01'
 tags:
 - mobile_app
@@ -32,7 +34,7 @@ tags:
 - tool
 - service
 - solution
-i18n_source: '08f159f6aa94'
+i18n_source: '64d589bfd54b'
 ---
 
 Mabl soll automatisierte Tests weniger anfällig machen. Teams zeichnen Nutzerabläufe auf oder beschreiben sie, etwa die Anmeldung oder den Bezahlvorgang. Die Plattform erstellt daraus automatisierte Tests, die in der Cloud auf verschiedenen Browsern und Geräten laufen. Dank des Low-Code-Ansatzes können QA-Fachkräfte und Entwickler:innen Tests erstellen, ohne alles selbst programmieren zu müssen; bei Bedarf ist auch Scripting möglich. Die Tests laufen nach Zeitplan oder bei Codeänderungen in CI/CD-Pipelines.

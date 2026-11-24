@@ -20,9 +20,10 @@ alternatives:
   - zeni-ai
   - bill-com-ai
   - vic-ai
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, integrations, machine_learning, fast]
-i18n_source: 'c4e408b36e86'
+i18n_source: 'bbf12ede788e'
 ---
 
 Botkeeperは、会計事務所が自動化で簿記の処理を広げられるようにしていました。ソフトウェアは顧客の会計システムにつながり、機械学習で取引を分類し、口座を照合し、財務諸表を作り、人が内容を確認していました。狙いは、同じ人数でより多くの顧客を扱い、日常のデータ入力を減らすことでした。

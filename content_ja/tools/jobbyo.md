@@ -16,9 +16,10 @@ alternatives:
   - jobgpt-ai
   - linkedin
   - indeed
+  - hiringnow
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: '4bb5f5f1ba45'
+i18n_source: '8dcda628e9e4'
 ---
 
 Jobbyoは、仕事探しのなかで繰り返される作業を自動化します。利用者は履歴書をアップロードし、希望する職種を伝えます。エージェントは条件に合う求人を探し、応募欄を埋め、返信を追跡します。狙いは、手作業では届かない件数の求人に応募することです。

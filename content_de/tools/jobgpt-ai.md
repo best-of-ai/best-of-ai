@@ -16,6 +16,7 @@ alternatives:
 - jobbyo
 - linkedin
 - indeed
+- hiringnow
 date: '2025-01-01'
 tags:
 - career
@@ -28,7 +29,7 @@ tags:
 - interview
 - hiring
 - customizable
-i18n_source: '0c249f758a50'
+i18n_source: 'cc5c4123166c'
 ---
 
 JobGPT deckt große Teile des Bewerbungsablaufs ab. Es sucht passende Stellen, formuliert den Lebenslauf für jede Beschreibung um, entwirft ein Anschreiben und füllt Bewerbungsformulare aus. Nutzer:innen prüfen die Ergebnisse und behalten ihre Bewerbungen im Blick.

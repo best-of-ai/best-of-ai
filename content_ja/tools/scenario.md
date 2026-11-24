@@ -18,9 +18,10 @@ alternatives:
   - sloyd
   - inworld-ai
   - leonardo-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
-i18n_source: 'd239ba9e2fe2'
+i18n_source: '7fbf1cc86cd8'
 ---
 
 Scenarioは、ゲーム制作で生成AIを使うときの最大の課題である、一貫性を軸に作られています。スタジオが自社のアートの例をアップロードすると、Scenarioが画風を学ぶカスタムモデルを作ります。そのため、生成されるキャラクター、小道具、背景が同じゲームの一部に見えます。アーティストは、コンセプト、バリエーション、完成アセットをより速く作れます。

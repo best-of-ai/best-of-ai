@@ -15,9 +15,10 @@ alternatives:
   - wanderlog
   - hopper
   - kayak
+  - tripmojo
 date: '2026-11-08'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: 'aec99ebf29f8'
+i18n_source: 'a07b8d618ff3'
 ---
 
 Los usuarios filtran ciudades por presupuesto, clima y otros criterios, y leen informes de otros nómadas digitales. Los miembros acceden a chats, encuentros y seguimiento de viajes. Las guías sobre visados e impuestos cubren muchos destinos.

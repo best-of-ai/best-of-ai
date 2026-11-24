@@ -16,9 +16,10 @@ alternatives:
   - carto
   - mapbox
   - seequent
+  - waldo-wherobots
 date: '2026-11-05'
 tags: [free_tier, machine_learning, extensible, ai_powered, intelligent, platform, tool, service]
-i18n_source: '2bc76bf1339b'
+i18n_source: 'eb744ca96067'
 ---
 
 QGIS da a cualquiera acceso gratuito a cartografía y análisis espacial de nivel profesional. Se cargan datos vectoriales y ráster desde archivos, bases de datos y servicios web, se da estilo a los mapas, se editan geometrías y se ejecutan análisis como áreas de influencia, superposiciones, análisis del terreno y rutas. Una caja de herramientas de procesamiento reúne cientos de algoritmos, y se integra con GRASS y SAGA para tareas especializadas. Admite muchos formatos y proyecciones, y los diseños de impresión producen mapas con calidad de publicación.

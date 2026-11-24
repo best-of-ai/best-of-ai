@@ -17,9 +17,10 @@ alternatives:
   - apollo
   - outreach
   - salesloft
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, machine_learning, image_based]
-i18n_source: '63eb164b2cab'
+i18n_source: '9561532582d3'
 ---
 
 lemlistは、営業チームや代理店が見込み客に大規模にアプローチするのを助けます。メール、LinkedInのステップ、電話のタスクを組み合わせたシーケンスを作り、名前や会社名などの変数でメッセージをパーソナライズします。受信者ごとに変わるパーソナライズ画像や動画で名を上げ、あふれる受信箱の中で目立つ方法として知られています。

@@ -15,9 +15,10 @@ alternatives:
   - jobgpt-ai
   - jobscan
   - jobbyo
+  - hiringnow
 date: '2026-06-15'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, browser_extension, extensible]
-i18n_source: '11f4c2e8bde7'
+i18n_source: 'acb1799e4e18'
 ---
 
 Huntrは、仕事探しのあいだ整理を保つのを助けます。利用者はブラウザ拡張で求人を保存し、応募や面接に合わせて段階を移し、それぞれにメモ、連絡先、文書を付けます。リマインダーがフォローを促すので、機会を取りこぼしにくくなります。

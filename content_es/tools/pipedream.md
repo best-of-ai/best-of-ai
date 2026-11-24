@@ -18,9 +18,10 @@ alternatives:
   - activepieces
   - trigger-dev
   - inngest
+  - scalekit
 date: '2025-01-01'
 tags: [automation, workflow, productivity, repetitive_tasks, efficiency, process_automation, triggers, scheduling, bots, collaboration, integrations, powerful]
-i18n_source: '2dcbfbc24bdd'
+i18n_source: '37c9fd00f5d9'
 ---
 
 Pipedream se sitúa entre la automatización no-code y escribirlo todo uno mismo. Los flujos se construyen con disparadores, como un webhook o una fila nueva en una hoja, y pasos que llaman a una acción ya preparada de una app o ejecutan código propio, con acceso a paquetes de npm y PyPI. Esa mezcla permite a los desarrolladores avanzar más rápido que con herramientas como Zapier y seguir manejando lógica que exige programación de verdad, y encaja con integraciones y automatizaciones internas.

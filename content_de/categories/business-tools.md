@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Business-Tools'
+title: 'Die besten KI-Tools für Geschäftsabläufe'
 name: 'Business-Tools'
 slug: 'business-tools'
 description: 'KI-Tools zur Optimierung von Geschäftsabläufen, Strategie und datengestützten Entscheidungen.'

@@ -17,9 +17,10 @@ alternatives:
   - yellow-ai
   - kore-ai
   - sierra-ai
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, enterprise]
-i18n_source: 'c6aac2fd2e02'
+i18n_source: '5aeb03ff609c'
 ---
 
 Blandは、実際の電話で話す音声エージェントを提供します。企業は、受電への応答、見込み客への架電、予約の確認、調査の実施に使い、コールセンターの人員を置き換えたり補ったりします。エージェントは自然に話し、途中の割り込みに対応し、昼夜を問わず働けます。

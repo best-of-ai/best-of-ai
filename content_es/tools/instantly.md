@@ -21,9 +21,10 @@ alternatives:
   - clay
   - lavender
   - amplemarket
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, analytics]
-i18n_source: '9e07dcf56dac'
+i18n_source: '58f3d4b6a118'
 ---
 
 Instantly está pensada para el correo saliente a gran escala. Conectas tantas cuentas de envío como quieras y la plataforma las rota para repartir el volumen, lo que ayuda a mantener cada cuenta dentro de límites seguros. Una red automática de calentamiento intercambia correos entre cuentas para construir reputación como remitente, y hay herramientas que revisan la entregabilidad para que las campañas lleguen con más probabilidad a la bandeja de entrada. Las secuencias gestionan los seguimientos y se detienen cuando alguien responde.

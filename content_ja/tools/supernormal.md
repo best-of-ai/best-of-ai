@@ -20,9 +20,10 @@ alternatives:
   - avoma
   - read-ai
   - grain
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable, templates]
-i18n_source: '0063ee46b790'
+i18n_source: 'b5dbc5e66ada'
 ---
 
 Supernormalは、会議のメモに手間をかけずに済むことを目指しています。ボットが予定された会議に参加して録音と文字起こしを行い、営業の通話、面接、1on1、スタンドアップなど会議の種類ごとのテンプレートに沿って整理したメモを作ります。メモには決定事項、アクションアイテム、要点が並び、出席者に共有されるか、チームが使うツールに保存されます。

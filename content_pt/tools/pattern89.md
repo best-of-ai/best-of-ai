@@ -19,9 +19,11 @@ alternatives:
   - smartly
   - creatopy
   - aiter-io
+  - synter
+  - maxma
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, image_based]
-i18n_source: 'e0f169622276'
+i18n_source: '7c0d0881106f'
 ---
 
 Pattern89 buscava trazer dados às decisões criativas. Anunciantes produzem muitas imagens e vídeos, mas muitas vezes não sabem quais elementos impulsionam os resultados. A plataforma analisava anúncios anteriores e dados de desempenho, identificando elementos visuais e textuais de cada peça, como cores, rostos, produtos e chamadas para ação, e aprendia quais combinações funcionavam para cada público e canal.

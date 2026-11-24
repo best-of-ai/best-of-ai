@@ -20,6 +20,7 @@ alternatives:
 - activepieces
 - trigger-dev
 - inngest
+- scalekit
 date: '2025-01-01'
 tags:
 - automation
@@ -34,7 +35,7 @@ tags:
 - collaboration
 - integrations
 - powerful
-i18n_source: '2dcbfbc24bdd'
+i18n_source: '37c9fd00f5d9'
 ---
 
 Pipedream liegt zwischen No-Code-Automatisierung und vollständig selbst programmierter Lösung. Du erstellst Workflows aus Auslösern – etwa einem Webhook oder einer neuen Tabellenzeile – und Schritten, die entweder eine vorgefertigte App-Aktion aufrufen oder eigenen Code ausführen. Dabei stehen npm- und PyPI-Pakete zur Verfügung. So sind Entwickler:innen oft schneller als mit Werkzeugen wie Zapier und können trotzdem Logik programmieren. Das eignet sich für Integrationen und interne Automatisierungen.

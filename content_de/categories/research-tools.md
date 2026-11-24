@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Recherche-Tools'
+title: 'Die besten KI-Tools für Recherche'
 name: 'Recherche-Tools'
 slug: 'research-tools'
 description: 'KI-Recherchetools, die Literaturübersichten, Synthesen und die Gewinnung neuer Erkenntnisse beschleunigen.'

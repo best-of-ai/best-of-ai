@@ -17,9 +17,11 @@ alternatives:
   - diffbot
   - browserbase
   - jina-ai
+  - glasshand
+  - tabstack
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, cloud_based, templates]
-i18n_source: '5fb26f46eab9'
+i18n_source: '56a3cc76cf74'
 ---
 
 Apifyはウェブを、構造化されたデータの供給源にします。Apify Storeというマーケットプレイスには、特定のウェブサイトや作業をスクレイピングまたは自動化するクラウドプログラム、Actorが数千あります。Google Mapsからの掲載情報、SNSの投稿、Eコマースサイトの商品詳細、ページからの連絡先の抽出などです。Actorを設定してクラウドで実行し、サーバーやプロキシを自分で管理せずに、JSON、CSV、またはAPIで結果を受け取れます。

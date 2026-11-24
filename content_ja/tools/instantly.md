@@ -21,9 +21,10 @@ alternatives:
   - clay
   - lavender
   - amplemarket
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, analytics]
-i18n_source: '9e07dcf56dac'
+i18n_source: '58f3d4b6a118'
 ---
 
 Instantlyは、規模の大きいアウトバウンドメール向けに作られています。送りたい送信アカウントを好きな数だけつなぎ、プラットフォームがそれらをローテーションして送信量を分散するので、各アカウントを安全な送信上限の中に収めやすくなります。自動化されたウォームアップのネットワークは、アカウント間でメールをやり取りして送信者の評価を積み、ツールは到達性を確認するので、キャンペーンが受信箱に届きやすくなります。シーケンスはフォローアップを扱い、誰かが返信すると止まります。

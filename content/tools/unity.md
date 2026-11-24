@@ -14,6 +14,7 @@ rank: 9
 alternatives:
   - unreal-engine
   - godot
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
 ---

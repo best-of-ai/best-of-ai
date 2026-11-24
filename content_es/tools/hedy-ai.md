@@ -17,9 +17,10 @@ alternatives:
   - fathom
   - tactiq
   - sembly-ai
+  - pauta
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics, powerful]
-i18n_source: '6a876bc659e4'
+i18n_source: '05cb40852b71'
 ---
 
 Hedy AI tiene un papel distinto al de los asistentes que toman notas y resumen después. Escucha durante una llamada o conversación y muestra avisos en el momento: una respuesta sugerida, una pregunta que hacer o un recordatorio del contexto. El objetivo es ayudar al usuario a desenvolverse mejor mientras la conversación ocurre.

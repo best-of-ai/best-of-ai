@@ -19,6 +19,7 @@ alternatives:
 - beacon-sh
 - gitlens-ai
 - swimm-ai
+- skillbox
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -31,7 +32,7 @@ tags:
 - cloud
 - api
 - fast
-i18n_source: 'e9f57fe860df'
+i18n_source: '7897b0478e7d'
 ---
 
 Pieces hilft Entwickler:innen, bereits gefundene Lösungen nicht zu verlieren. Ein lokaler Dienst erfasst und organisiert Codeausschnitte, Links, Screenshots und Notizen, ergänzt Kontext wie Herkunft und macht alles durchsuchbar. Plugins für VS Code, JetBrains, Browser und weitere Tools speichern Inhalte mit einem Klick und holen sie bei Bedarf zurück. So musst du nicht erneut suchen, wie du ein Problem letzten Monat gelöst hast.

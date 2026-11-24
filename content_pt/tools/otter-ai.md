@@ -21,9 +21,11 @@ alternatives:
   - grain
   - meetgeek
   - sembly-ai
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap]
-i18n_source: '97a8840e4bb1'
+i18n_source: 'b1cd29e10611'
 ---
 
 Otter foi uma das primeiras ferramentas de transcrição de reuniões amplamente usadas. Você conecta seu calendário, e o assistente participa de chamadas no Zoom, Google Meet ou Teams para gravar, transcrever e identificar participantes. A transcrição fica disponível ao vivo para que participantes acompanhem; depois, você recebe um resumo, pontos principais e itens de ação. Tudo pode ser pesquisado, permitindo encontrar por palavra-chave o que foi dito em uma reunião anterior. O aplicativo também funciona em celulares para conversas presenciais e aulas.

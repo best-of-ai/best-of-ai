@@ -20,9 +20,11 @@ alternatives:
   - browserstack-test-companion
   - percy
   - testifly
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [mobile_app, integrations, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '08f159f6aa94'
+i18n_source: '64d589bfd54b'
 ---
 
 Mabl busca que las pruebas automatizadas sean menos frágiles. Los equipos graban o describen flujos de usuario, como iniciar sesión o pagar, y la plataforma los convierte en pruebas automáticas que se ejecutan en la nube en varios navegadores y dispositivos. El enfoque low-code permite que ingenieros de QA y desarrolladores creen pruebas sin escribirlo todo en código, aunque también se puede programar cuando hace falta. Las pruebas se ejecutan según una programación o en pipelines de CI/CD cuando cambia el código.

@@ -15,9 +15,10 @@ alternatives:
   - qgis
   - arcgis
   - planet-labs
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: 'b3eee4cff62b'
+i18n_source: '68e5fcd8641e'
 ---
 
 数十年分の衛星と気候のデータセットを置いており、LandsatやSentinelなどがあります。利用者はJavaScriptかPythonでスクリプトを書き、森林の減少や海氷のように、時間に伴う変化を計算します。結果は地図と表へ書き出せます。

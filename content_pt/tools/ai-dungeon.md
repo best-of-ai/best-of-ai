@@ -17,9 +17,10 @@ alternatives:
   - inworld-ai
   - character-ai
   - latitude
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
-i18n_source: '151fe38ee6eb'
+i18n_source: '9743cd9ac3e3'
 ---
 
 AI Dungeon foi pioneiro nos jogos de narrativa por IA. Você escolhe um cenário, como fantasia, mistério ou sobrevivência, ou cria o próprio, e depois digita o que seu personagem faz. A IA responde contando o que acontece em seguida, sem roteiro fixo; você pode tentar qualquer coisa e a história se adapta. O resultado difere de aventuras tradicionais, com possibilidades abertas e, às vezes, reviravoltas surpreendentes.

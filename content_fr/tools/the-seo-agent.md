@@ -18,9 +18,10 @@ alternatives:
   - alli-ai
   - growthbar
   - blogseo
+  - rankspot
 date: '2025-01-01'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, collaboration, fast]
-i18n_source: '6ffe1b55d160'
+i18n_source: '460f1ccf9e37'
 ---
 
 The SEO Agent automatise le flux de contenu. On entre un site ou un sujet, et l'outil trouve des mots-clés, planifie des articles et écrit des brouillons optimisés pour la recherche, avec des options de publication vers un système de gestion de contenu.

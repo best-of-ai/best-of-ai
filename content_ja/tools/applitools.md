@@ -19,9 +19,11 @@ alternatives:
   - momentic-mo
   - browserstack-test-companion
   - qa-wolf
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [integrations, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '4f160a4b8313'
+i18n_source: 'dea5794d0838'
 ---
 
 Applitoolsが解くのは、普通の自動テストが見逃す問題、つまりページの見た目が正しいかどうかです。機能テストは、レイアウトが崩れていたり、重なっていたり、画面の外に出ていても、ボタンがあることだけは確認できます。Applitools Eyesはテスト中にスクリーンショットを撮り、レイアウト、文字、色を人のように理解するビジュアルAIで、承認済みの基準画像と比べます。画素を一つずつ比べると、わずかな描画の差のたびにチェックが失敗し、誤報が溢れますが、それを避けます。

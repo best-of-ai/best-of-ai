@@ -20,9 +20,10 @@ alternatives:
   - evidently-ai
   - promptlayer
   - comet-ml
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, collaboration, model_based]
-i18n_source: '6f2af07f4035'
+i18n_source: 'e28218090c0f'
 ---
 
 Langfuse da visibilidad a los desarrolladores sobre las aplicaciones LLM. Al añadir su SDK o una integración, cada petición se traza con sus prompts, respuestas del modelo, llamadas a herramientas, latencia y coste, incluidos los pasos anidados de los flujos de agentes. Los ingenieros inspeccionan los fallos en una interfaz web y ven el uso por usuarios y sesiones.

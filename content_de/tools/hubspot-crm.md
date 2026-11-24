@@ -23,6 +23,7 @@ alternatives:
 - close
 - copper
 - folk
+- altercontacts
 date: '2025-09-21'
 tags:
 - crm
@@ -37,7 +38,7 @@ tags:
 - free_tier
 - customizable
 - machine_learning
-i18n_source: '176dbc792656'
+i18n_source: '0d9394edfe11'
 ---
 
 HubSpot CRM ist die gemeinsame Datenbank aller HubSpot-Produkte, lässt sich aber auch kostenlos allein nutzen. Es speichert Kontakte, Unternehmen, Deals und Tickets, protokolliert E-Mails und Anrufe bei den jeweiligen Datensätzen und zeigt Deals nach ihrer Phase in einer Pipeline. Wenn du Gmail oder Outlook verbindest, werden gesendete und empfangene Nachrichten automatisch dem passenden Kontakt zugeordnet. So fällt weniger manuelle Dateneingabe an. Für kleine Unternehmen, die bisher Tabellen verwenden, ist es ein einfacher Einstieg in ein richtiges CRM.

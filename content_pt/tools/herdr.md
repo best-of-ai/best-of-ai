@@ -21,6 +21,7 @@ alternatives:
 - claude-code
 - cursor
 - cline
+- skillbox
 date: '2026-10-29'
 tags:
 - developer_tools
@@ -33,7 +34,7 @@ tags:
 - productivity
 - cross_platform
 - automation
-i18n_source: '3491a22de0f6'
+i18n_source: '6e0e65b13465'
 ---
 
 O Herdr gerencia a quantidade crescente de sessões de agentes executadas por desenvolvedores. Em vez de várias janelas de terminal, ele exibe os agentes em uma interface com abas e indica se cada um está trabalhando, terminou ou aguarda uma entrada, conforme o status informado pelo agente. Dá suporte a qualquer agente executado em um terminal.

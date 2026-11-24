@@ -21,9 +21,10 @@ alternatives:
   - grain
   - supernormal
   - sembly-ai
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable]
-i18n_source: 'a10aeb4c4b2c'
+i18n_source: 'cd6e3527d8c7'
 ---
 
 tl;dv, abreviação de “too long; didn’t view” (longo demais; não assisti), evita que as pessoas precisem rever reuniões. Um bot entra nas chamadas para gravar e transcrever em vários idiomas, e você pode marcar destaques durante a conversa. Depois, a gravação fica disponível com resumo gerado por IA e lista de itens de ação, além de marcações de tempo para ir diretamente aos trechos relevantes. Clipes podem ser compartilhados com quem não participou da reunião.

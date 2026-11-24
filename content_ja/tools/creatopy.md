@@ -18,9 +18,11 @@ alternatives:
   - aiter-io
   - smartly
   - canva
+  - creatify
+  - adside
 date: '2026-11-05'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting]
-i18n_source: 'a01cc959b65a'
+i18n_source: '4ac14ab21c14'
 ---
 
 Creatopyは広告制作向けです。デザイナーやマーケターがエディタでレイアウトを作り、ツールがそれを何十種類ものバナーサイズとSNSのフォーマットに合わせます。通常は何時間もかかる手作業のリサイズを省けます。アニメーション機能は静止画の広告をHTML5バナーにし、ブランドキットで色、フォント、ロゴをそろえます。

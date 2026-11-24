@@ -20,9 +20,10 @@ alternatives:
   - comfyui
   - invokeai
   - ideogram
+  - youart
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, real_time, image_based, easy_to_use]
-i18n_source: 'c813c7c8f47b'
+i18n_source: 'a03af7197c1f'
 ---
 
 Kreaは、リアルタイムのキャンバスで人気になりました。プロンプトを入力したり形をスケッチしたりすると、画像がほぼ即座に更新され、結果を待つのではなく、生成が探りながら進めるライブの作業になります。この即時性は、プロンプトを書き直すのではなく、ジェスチャーで構図やスタイルを調整しながら視覚的に試行を重ねるデザイナーやアーティストに合います。

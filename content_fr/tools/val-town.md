@@ -18,9 +18,10 @@ alternatives:
   - render
   - vercel-ai-platform
   - trigger-dev
+  - spacefast
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, easy_to_use]
-i18n_source: '420020146622'
+i18n_source: '5cda8a0479c1'
 ---
 
 Val Town rend faciles les petits morceaux de code serveur. Un développeur écrit un val, comme un endpoint HTTP, un job cron ou un gestionnaire d'e-mail, et il tourne tout de suite sans installation. Les vals peuvent être forkés, partagés et combinés, ce qui donne à la plateforme un côté social.

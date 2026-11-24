@@ -16,9 +16,10 @@ alternatives:
   - jobbyo
   - linkedin
   - indeed
+  - hiringnow
 date: '2025-01-01'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, customizable]
-i18n_source: '0c249f758a50'
+i18n_source: 'cc5c4123166c'
 ---
 
 JobGPT cubre buena parte del flujo de trabajo de postulación. Busca ofertas que encajen con un perfil, ajusta la redacción del currículum a cada descripción, redacta una carta de presentación y rellena los formularios. Los usuarios revisan los resultados y hacen seguimiento de sus candidaturas.

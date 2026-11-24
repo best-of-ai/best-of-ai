@@ -19,9 +19,10 @@ alternatives:
   - boomerang
   - mixmax
   - spike
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful]
-i18n_source: '45f7f615b704'
+i18n_source: 'cff0cfdd40bc'
 ---
 SaneBox s'attaque à la surcharge de la boîte de réception sans remplacer ton app e-mail. Il se connecte à ton compte existant et analyse ton comportement, par exemple à qui tu réponds et quels messages tu ouvres, puis déplace le courrier moins important dans un dossier appelé SaneLater. Newsletters, notifications et démarchage à froid y atterrissent, et tu reçois un digest à parcourir quand tu veux. Le courrier important reste dans la boîte de réception.
 

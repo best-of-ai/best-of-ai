@@ -19,9 +19,10 @@ alternatives:
   - flexclip
   - wondershare-filmora-ai
   - invideo
+  - shot-video
 date: '2026-11-05'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, templates, easy_to_use]
-i18n_source: 'fd04e214ab1a'
+i18n_source: 'c9fb118ae1ca'
 ---
 
 Clipchamp est conçu pour les gens qui ont besoin d'une vidéo sans apprendre un logiciel professionnel. L'éditeur a une timeline en glisser-déposer, du découpage et des filtres, du texte, des transitions, et une bibliothèque de modèles pour des posts sociaux, des annonces et des présentations. Il enregistre l'écran et la webcam, donc il gère les tutoriels et les explications rapides.

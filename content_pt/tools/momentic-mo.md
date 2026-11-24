@@ -18,9 +18,11 @@ alternatives:
   - applitools
   - percy
   - browserstack-test-companion
+  - testsprite
+  - seldon-wren
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '3297f5822f46'
+i18n_source: '2e019c706c0e'
 ---
 
 Mo adota uma abordagem exploratória para testes. Em vez de escrever scripts para cada teste, uma equipe indica um aplicativo ao Mo e fornece credenciais de acesso; agentes de IA navegam pela interface, experimentam fluxos, inserem dados incomuns e verificam erros ou comportamentos incorretos. Os agentes relatam o que encontram.

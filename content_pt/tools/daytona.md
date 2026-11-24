@@ -15,9 +15,10 @@ alternatives:
   - e2b-ai
   - modal-ai
   - browserbase
+  - glasshand
 date: '2026-11-05'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, community_driven]
-i18n_source: 'b5d73dd62c47'
+i18n_source: 'f82b9fcd833a'
 ---
 
 A Daytona oferece ambientes isolados para executar código com segurança. Agentes de IA que escrevem e executam código precisam de um local onde erros ou instruções maliciosas não prejudiquem sistemas reais. A Daytona inicia um ambiente isolado sob demanda, executa o código, retorna os resultados e descarta o ambiente. A inicialização rápida mantém os ciclos dos agentes ágeis.

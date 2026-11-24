@@ -20,9 +20,10 @@ alternatives:
   - sprout-social
   - taplio
   - typefully
+  - creatify
 date: '2025-01-01'
 tags: [social_media, marketing, content_creation, engagement, posting, scheduling, analytics, audience, platform, image_based]
-i18n_source: 'e00b0cac5f60'
+i18n_source: 'f6fb377e1f68'
 ---
 
 Predis.ai vise à rendre la création de contenu social rapide pour les petites entreprises et les créateurs. Tu entres un prompt ou tu colles un lien vers ta page produit ou ton site, tu choisis un format comme une image seule, un carrousel ou une courte vidéo, et l'outil génère un post avec une légende, des hashtags et un design à ta marque. Des outils d'édition permettent de changer le texte, les images et la mise en page, et d'appliquer tes couleurs et ton logo.

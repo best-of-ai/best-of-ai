@@ -19,9 +19,11 @@ alternatives:
   - smartly
   - madgicx
   - creatopy
+  - creatify
+  - adside
 date: '2025-09-21'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, image_based]
-i18n_source: '13bb86ac493f'
+i18n_source: '7bd4fc223b36'
 ---
 
 AdCreative.ai vise les marketeurs qui ont besoin de beaucoup de variantes d'annonces, vite. Tu indiques les couleurs de marque, le logo et les détails produit, et il produit des jeux de bannières et d'annonces sociales en plusieurs formats, avec titres et texte. Au lieu de partir d'une page blanche, tu choisis parmi des designs et tu les ajustes. Ce volume sert aux tests, car la performance d'une annonce dépend souvent d'essayer beaucoup de variantes.

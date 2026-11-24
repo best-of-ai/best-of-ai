@@ -23,6 +23,7 @@ alternatives:
 - photoroom
 - adobe-express
 - adobe-photoshop
+- youart
 date: '2025-09-21'
 tags:
 - image_editing
@@ -36,7 +37,7 @@ tags:
 - manipulation
 - image_based
 - powerful
-i18n_source: bf706b8eef45
+i18n_source: '5783a4d34f39'
 ---
 
 Picsart começou como editor de fotos para dispositivos móveis e se expandiu para uma suíte criativa ampla. Usuários editam fotos com filtros, colagens, adesivos e textos, criam vídeos e montam publicações para redes sociais usando modelos. Uma comunidade permite compartilhar e remixar conteúdo, o que ajudou a popularizar a ferramenta entre criadores jovens e pequenas empresas.

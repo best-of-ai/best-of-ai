@@ -19,6 +19,7 @@ alternatives:
   - jina-ai
   - kagi
   - you-search
+  - tabstack
 date: '2025-09-21'
 tags: [search, ai_assistant, discovery, information, query, web_search, answers, knowledge, retrieval, api_available]
 ---

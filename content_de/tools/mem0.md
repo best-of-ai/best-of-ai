@@ -17,6 +17,7 @@ alternatives:
 - langgraph
 - pieces-for-developers
 - beacon-sh
+- skillbox
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -31,7 +32,7 @@ tags:
 - open_source
 - model_based
 - community_driven
-i18n_source: '71c5b3468ed7'
+i18n_source: '52c67fdb5bb6'
 ---
 
 Mem0 gibt KI-Anwendungen ein Langzeitgedächtnis. Sprachmodelle vergessen Gesprächsinhalte, sofern die Anwendung keinen Kontext bereitstellt. Mem0 extrahiert wichtige Fakten, speichert sie und ruft passende Informationen später ab. So kann ein Chatbot Vorlieben und frühere Anliegen wiedererkennen.

@@ -14,6 +14,7 @@ rank: 5
 alternatives:
   - semrush
   - ahrefs
+  - rankspot
 date: '2026-11-08'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp]
 ---

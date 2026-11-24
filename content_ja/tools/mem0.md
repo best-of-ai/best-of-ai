@@ -16,9 +16,10 @@ alternatives:
   - langgraph
   - pieces-for-developers
   - beacon-sh
+  - skillbox
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, open_source, model_based, community_driven]
-i18n_source: '71c5b3468ed7'
+i18n_source: '52c67fdb5bb6'
 ---
 
 Mem0はAIアプリに長期記憶を持たせます。言語モデルは、アプリが文脈を渡さない限り、会話が終わるたびにすべてを忘れます。Mem0はやり取りから重要な事実を取り出して保存し、必要なときに関連するものを取得するので、チャットボットがユーザーの好みや過去の依頼を思い出せます。

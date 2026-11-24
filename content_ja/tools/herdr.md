@@ -17,9 +17,10 @@ alternatives:
   - claude-code
   - cursor
   - cline
+  - skillbox
 date: '2026-10-29'
 tags: [developer_tools, terminal, coding_agents, open_source, desktop_app, multiplexer, agent_management, productivity, cross_platform, automation]
-i18n_source: '3491a22de0f6'
+i18n_source: '6e0e65b13465'
 ---
 
 Herdrは、開発者が増やしていくエージェントのセッションをまとめます。たくさんのターミナルウィンドウの代わりに、タブの画面でエージェントを並べ、エージェントが状態を報告するときは、作業中か、終わったか、入力待ちかを示します。ターミナルで動くエージェントならどれでも使えます。

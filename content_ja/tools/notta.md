@@ -19,9 +19,10 @@ alternatives:
   - otter-ai
   - rev
   - happyscribe
+  - pauta
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, integrations, voice_enabled]
-i18n_source: '0840174b0c97'
+i18n_source: '2582cc688152'
 ---
 
 Nottaは、多くの会話に参加する人のために、音声をテキストにします。モバイルアプリやウェブアプリで録音するか、音声や動画のファイルをアップロードするか、アシスタントをZoom、Google Meet、Teamsの通話に参加させます。文字起こしは話者ラベルとタイムスタンプ付きでアプリに表示され、検索、編集、共有ができます。対応言語が非常に多いため、国際的なチーム、ジャーナリスト、研究者に向いています。

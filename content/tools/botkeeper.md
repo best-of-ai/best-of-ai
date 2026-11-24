@@ -20,6 +20,7 @@ alternatives:
   - zeni-ai
   - bill-com-ai
   - vic-ai
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, integrations, machine_learning, fast]
 ---

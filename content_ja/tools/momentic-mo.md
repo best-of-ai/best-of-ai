@@ -18,9 +18,11 @@ alternatives:
   - applitools
   - percy
   - browserstack-test-companion
+  - testsprite
+  - seldon-wren
 date: '2026-09-28'
 tags: [customizable, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '3297f5822f46'
+i18n_source: '2e019c706c0e'
 ---
 
 Moは探索的なアプローチでテストします。テストごとにスクリプトを書く代わりに、チームがアプリを指定してログイン情報を渡すと、AIエージェントが画面を操作し、フローを試し、普通でない入力をして、エラーや壊れた動作を確認します。エージェントは見つけた内容を報告します。

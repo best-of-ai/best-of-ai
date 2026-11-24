@@ -19,9 +19,10 @@ alternatives:
   - langfuse
   - arize
   - evidently-ai
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration, customizable, model_based]
-i18n_source: '95e670be7fe4'
+i18n_source: '235551204f06'
 ---
 
 Patronus AIは、AIアプリの問題点を見つけるのを手伝います。開発者が自分のシステムにテストセットを流すと、Patronusが評価器で出力を採点し、ハルシネーション、安全でない内容、機密データの漏えい、ポリシー違反を調べます。レッドチーミングのツールは、敵対的な入力で弱点を探ります。

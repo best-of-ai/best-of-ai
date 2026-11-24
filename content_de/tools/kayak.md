@@ -16,6 +16,7 @@ alternatives:
 - hopper
 - tripadvisor
 - wanderlog
+- tripmojo
 date: '2026-11-05'
 tags:
 - ai_powered
@@ -26,7 +27,7 @@ tags:
 - solution
 - saas
 - online
-i18n_source: '35133227b6d0'
+i18n_source: 'e9dba417019c'
 ---
 
 KAYAK verkauft selbst keine Reisen. Die Suchmaschine durchsucht gleichzeitig Fluggesellschaften, Online-Reisebüros und Hotelseiten und zeigt Optionen an einem Ort. Filter helfen dir, Preis, Zwischenstopps, Anbieter und Zeiten einzugrenzen. Wenn du dich entschieden hast, wirst du zur Buchungsseite des Anbieters weitergeleitet. Das spart Zeit gegenüber der Suche auf vielen einzelnen Websites. Flexible Kalender und die Suche nach Flughäfen in der Nähe zeigen günstigere Möglichkeiten.

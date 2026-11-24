@@ -20,9 +20,10 @@ alternatives:
   - scalenut
   - semrush
   - ahrefs
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, real_time, collaboration]
-i18n_source: '668d97dd9955'
+i18n_source: '0dab260d7223'
 ---
 
 Surferは、すでに上位表示されているものに合ったコンテンツを書く手助けをします。キーワードを入力すると上位の検索結果を分析し、それらのページに共通する用語、見出し、長さ、構成を提案します。エディタで書き進めるとコンテンツスコアが更新され、ページがそのテーマをどれだけカバーできているかがすぐ分かります。ライターやSEOチームは、下書きの指針にしたり、順位が落ちた古い記事を更新したりするのに使っています。

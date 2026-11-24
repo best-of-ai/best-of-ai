@@ -20,9 +20,10 @@ alternatives:
   - promptfoo
   - helicone
   - humanloop
+  - plurai
 date: '2026-07-17'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
-i18n_source: 'ada8565cf06b'
+i18n_source: '38a6b44e5ac1'
 ---
 
 Braintrust ayuda a los equipos a tratar la calidad de la IA como la calidad del software. Los desarrolladores registran cada llamada al modelo y cada paso del agente, y luego construyen conjuntos de datos de casos de prueba a partir del tráfico real. Los evaluadores (scorers), que incluyen comprobaciones programáticas y modelos de lenguaje que actúan como jueces, puntúan las salidas, de modo que un cambio de prompt o de modelo se puede probar antes de publicarlo.

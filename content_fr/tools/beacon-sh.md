@@ -17,9 +17,10 @@ alternatives:
   - letta
   - pieces-for-developers
   - continue-dev
+  - skillbox
 date: '2026-11-02'
 tags: [developer_tools, agent_memory, coding_agents, open_source, context, mcp, productivity, self_improving, github, automation]
-i18n_source: '571d5c464f5f'
+i18n_source: 'ad0c4bf9672c'
 ---
 
 beacon.sh répond à une limite des agents de programmation : chaque session commence en sachant peu de choses sur le projet. Beacon observe ce que fait l'agent, comme les commandes qui marchent, les erreurs qu'il commet et les conventions qu'il découvre, et les stocke sous forme de notes que l'agent peut réutiliser la fois suivante.

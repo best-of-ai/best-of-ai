@@ -20,9 +20,10 @@ alternatives:
   - tldv
   - sembly-ai
   - noty-ai
+  - pauta
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, browser_extension, secure, extensible]
-i18n_source: '130775bbca80'
+i18n_source: '2a1eeb33b7c9'
 ---
 Tactiq verfolgt einen leichtgewichtigen Ansatz für Meetingnotizen. Statt einen Aufnahme-Bot in den Anruf zu schicken, läuft es als Browsererweiterung und erfasst Untertitel und Audio lokal auf dem Gerät. Während des Gesprächs erscheint ein Live-Transkript in einer Seitenleiste, und wichtige Momente können markiert werden. So ist es in Anrufen weniger aufdringlich, wenn ein unbekannter Bot auffallen würde.
 

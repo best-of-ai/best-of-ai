@@ -15,6 +15,7 @@ alternatives:
   - loom
   - vimeo
   - claap
+  - videco
 date: '2026-11-05'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, customizable, integrations, analytics]
 ---

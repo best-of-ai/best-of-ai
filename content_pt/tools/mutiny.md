@@ -17,9 +17,10 @@ alternatives:
   - demandbase-ai
   - instapage
   - hubspot
+  - letter-dev
 date: '2025-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable]
-i18n_source: 'a3b3b30c4eda'
+i18n_source: '5febc5521d17'
 ---
 
 Mutiny altera o conteúdo de um site conforme o visitante. Se alguém chega por meio de uma conta-alvo, um setor ou uma campanha, Mutiny troca títulos, argumentos de credibilidade e chamadas para ação para adequá-los à pessoa, usando dados empresariais e informações de anúncios. Profissionais de marketing configuram isso em um editor visual sem desenvolvedores.

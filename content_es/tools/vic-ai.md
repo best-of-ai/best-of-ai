@@ -18,9 +18,10 @@ alternatives:
   - tipalti-ai
   - coupa
   - botkeeper
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
-i18n_source: 'd8029443a97e'
+i18n_source: '598f75a1376f'
 ---
 
 Vic.ai lee facturas y las procesa con poca intervención manual. Extrae datos, sugiere las cuentas contables correctas, dirige las aprobaciones y marca elementos inusuales; aprende de las correcciones que hacen los contables. Su objetivo es procesar facturas rutinarias sin intervención humana.

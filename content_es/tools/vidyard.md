@@ -15,9 +15,10 @@ alternatives:
   - loom
   - vimeo
   - claap
+  - videco
 date: '2026-11-05'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, customizable, integrations, analytics]
-i18n_source: '80fb9bd0b87c'
+i18n_source: 'aeb74b397ff5'
 ---
 
 Vidyard es una plataforma de vídeo para equipos empresariales. Los comerciales graban vídeos rápidos con la cámara web o la pantalla para posibles clientes, los envían por correo o enlace y ven quién los miró y durante cuánto tiempo. Los equipos de marketing alojan vídeos en sus sitios web con reproductores de marca y formularios de acceso.

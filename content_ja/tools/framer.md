@@ -20,9 +20,10 @@ alternatives:
   - 10web
   - dora-ai
   - plasmic
+  - letter-dev
 date: '2025-09-21'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, image_based]
-i18n_source: 'bf3fbb20e063'
+i18n_source: 'd8db335aebdb'
 ---
 
 Framerはプロトタイピングのツールとして始まり、サイト全体を作れるツールになりました。デザイナーはFigmaと同じようにキャンバス上でページを組み、レスポンシブの挙動を設定し、アニメーションとインタラクションを足し、独自ドメイン付きの速いホスティングサイトへ公開します。見た目と動きを細かく制御できるため、ポートフォリオ、ランディングページ、マーケティングサイトでよく使われます。

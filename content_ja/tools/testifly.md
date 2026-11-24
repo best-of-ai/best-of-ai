@@ -18,9 +18,11 @@ alternatives:
   - testim
   - momentic-mo
   - applitools
+  - testsprite
+  - seldon-wren
 date: '2026-11-02'
 tags: [qa, software_testing, test_automation, ai_agents, end_to_end, developer_tools, self_healing, autonomous, web_apps, ci_cd]
-i18n_source: 'cb86efa4d529'
+i18n_source: 'd4eae75a9e64'
 ---
 
 Testiflyは、AIエージェントでウェブアプリケーションをテストします。チームがURLとログイン情報を渡すと、システムがアプリを探索し、テストケースを計画し、テストを生成して実行します。UIが変わったときは、テストを自己修復します。スクリプトを書いて保守しなくても、カバレッジを得ることが狙いです。

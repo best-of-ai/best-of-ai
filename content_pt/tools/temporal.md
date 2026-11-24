@@ -18,6 +18,7 @@ alternatives:
 - inngest
 - trigger-dev
 - prefect
+- volcano-kong
 date: '2026-11-05'
 tags:
 - developer_tools
@@ -30,7 +31,7 @@ tags:
 - cloud
 - api
 - collaboration
-i18n_source: db4f201d9543
+i18n_source: 'a198c08a8d0c'
 ---
 
 Temporal resolve uma parte difícil da criação de software confiável: fazer processos longos e com várias etapas sobreviverem a falhas. Desenvolvedores escrevem fluxos em linguagens comuns, como Go, Java, Python ou TypeScript, e Temporal registra cada etapa e seu estado. Assim, se um servidor falha ou uma chamada de rede não funciona, o fluxo continua do ponto onde parou, sem perder o progresso. Repetições, limites de tempo e temporizadores já estão integrados.

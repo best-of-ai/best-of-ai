@@ -22,6 +22,9 @@ alternatives:
 - madgicx
 - creatopy
 - aiter-io
+- creatify
+- synter
+- maxma
 date: '2025-09-21'
 tags:
 - advertising
@@ -34,7 +37,7 @@ tags:
 - performance
 - targeting
 - fast
-i18n_source: 1d8ff8db7543
+i18n_source: '2174007a3ee2'
 ---
 
 Smartly atende marcas e agências que executam grandes programas de publicidade. A plataforma se conecta às principais redes sociais e permite criar e lançar muitas campanhas em uma interface, aplicar regras e atualizar milhares de anúncios de uma vez. Para varejistas com catálogos extensos, anúncios dinâmicos são gerados automaticamente a partir de feeds de produtos e ajustados conforme estoque e preço.

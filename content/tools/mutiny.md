@@ -17,6 +17,7 @@ alternatives:
   - demandbase-ai
   - instapage
   - hubspot
+  - letter-dev
 date: '2025-06-15'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, customizable]
 ---

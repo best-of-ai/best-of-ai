@@ -21,6 +21,7 @@ alternatives:
 - promptfoo
 - helicone
 - humanloop
+- plurai
 date: '2026-07-17'
 tags:
 - developer_tools
@@ -33,7 +34,7 @@ tags:
 - cloud
 - api
 - collaboration
-i18n_source: 'ada8565cf06b'
+i18n_source: '38a6b44e5ac1'
 ---
 
 Braintrust hilft Teams, KI-Qualität so systematisch wie Softwarequalität zu behandeln. Entwickler:innen protokollieren Modellaufrufe und Agentenschritte und erstellen aus echtem Datenverkehr Testdatensätze. Bewertungsfunktionen – darunter programmatische Prüfungen und Sprachmodell-Judges – bewerten Ausgaben, damit Änderungen an Prompts oder Modellen vor dem Release getestet werden können.

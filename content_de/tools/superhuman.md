@@ -19,9 +19,10 @@ alternatives:
   - spike
   - front
   - boomerang
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, fast]
-i18n_source: 'ea97bb0a286e'
+i18n_source: '807f18857145'
 ---
 Superhuman wurde als schnellster E-Mail-Client bekannt. Die Anwendung ist auf die Bearbeitung des Posteingangs per Tastatur ausgelegt. Befehle ermöglichen Archivieren, Antworten, Zurückstellen und Erinnerungen; alles lädt sofort. Die minimalistische Oberfläche bietet getrennte Bereiche im Split Inbox, um wichtige Nachrichten von Newslettern und Benachrichtigungen zu trennen. Später senden, Erinnerungen zum Nachfassen, Lesestatus und eine Befehlspalette sind in den Arbeitsablauf integriert.
 

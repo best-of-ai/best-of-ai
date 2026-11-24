@@ -19,6 +19,7 @@ alternatives:
   - otter-ai
   - rev
   - happyscribe
+  - pauta
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, integrations, voice_enabled]
 ---

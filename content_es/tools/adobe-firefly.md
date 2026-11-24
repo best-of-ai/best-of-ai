@@ -20,9 +20,10 @@ alternatives:
   - stable-diffusion
   - flux
   - canva
+  - youart
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, cloud_based, image_based, training]
-i18n_source: 'bc3bede44f52'
+i18n_source: 'fac5082529ba'
 ---
 
 Firefly es la plataforma de IA generativa de Adobe. La app web de Firefly genera imágenes a partir de una descripción, amplía o edita las que ya tienes, crea clips de vídeo cortos y produce audio y arte vectorial. Adobe entrenó sus propios modelos con contenido con licencia, como Adobe Stock y material de dominio público, y los presenta como más seguros para uso comercial que los modelos entrenados con imágenes extraídas de la web. Los resultados llevan credenciales de contenido que indican que se hicieron con IA.

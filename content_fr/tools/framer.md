@@ -20,9 +20,10 @@ alternatives:
   - 10web
   - dora-ai
   - plasmic
+  - letter-dev
 date: '2025-09-21'
 tags: [website_builder, no_code, design, web, creation, cms, hosting, templates, publishing, image_based]
-i18n_source: 'bf3fbb20e063'
+i18n_source: 'd8db335aebdb'
 ---
 Framer a commencé comme un outil de prototypage et est devenu un créateur de sites complet. Les designers composent les pages sur un canevas un peu comme dans Figma, règlent le comportement responsive, ajoutent animations et interactions, et publient sur un site hébergé rapide avec un domaine personnalisé. Comme il donne aux designers un contrôle précis sur le visuel et le mouvement, il est populaire pour les portfolios, les landing pages et les sites marketing.
 

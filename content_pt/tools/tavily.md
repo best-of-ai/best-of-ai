@@ -19,6 +19,7 @@ alternatives:
 - jina-ai
 - firecrawl
 - apify
+- tabstack
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -32,7 +33,7 @@ tags:
 - api
 - api_available
 - model_based
-i18n_source: ad24e95a3794
+i18n_source: '41a02d972b9d'
 ---
 
 Tavily oferece busca na web para máquinas. Um desenvolvedor envia uma consulta e recebe resultados ordenados, com conteúdo limpo e fontes resumidas ao que um modelo de linguagem precisa; assim, agentes podem fundamentar respostas em informações atuais. Endpoints adicionais extraem texto de páginas, percorrem sites e executam pesquisas aprofundadas.

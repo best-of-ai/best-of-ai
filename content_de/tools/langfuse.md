@@ -21,6 +21,7 @@ alternatives:
 - evidently-ai
 - promptlayer
 - comet-ml
+- plurai
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -35,7 +36,7 @@ tags:
 - open_source
 - collaboration
 - model_based
-i18n_source: '6f2af07f4035'
+i18n_source: 'e28218090c0f'
 ---
 
 Langfuse verschafft Entwickler:innen Einblick in LLM-Anwendungen. Über das SDK oder eine Integration wird jede Anfrage mit Prompts, Modellantworten, Werkzeugaufrufen, Latenz und Kosten aufgezeichnet – auch verschachtelte Schritte in Agentenabläufen. In einer Weboberfläche untersuchen Entwickler:innen Fehler und sehen die Nutzung nach Personen und Sitzungen.

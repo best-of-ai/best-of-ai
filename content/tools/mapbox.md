@@ -17,6 +17,7 @@ alternatives:
   - carto
   - qgis
   - google-maps
+  - waldo-wherobots
 date: '2025-10-01'
 tags: [enterprise, customizable, image_based, analytics, ai_powered, intelligent, platform, tool]
 ---

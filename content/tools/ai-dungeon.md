@@ -17,6 +17,7 @@ alternatives:
   - inworld-ai
   - character-ai
   - latitude
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive]
 ---

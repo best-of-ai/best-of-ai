@@ -21,9 +21,10 @@ alternatives:
   - close
   - copper
   - folk
+  - altercontacts
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, free_tier, customizable, machine_learning]
-i18n_source: '176dbc792656'
+i18n_source: '0d9394edfe11'
 ---
 
 HubSpot CRM é o banco de dados compartilhado por todos os produtos HubSpot e também pode ser usado sozinho, sem custo. Armazena contatos, empresas, negócios e chamados, registra e-mails e ligações em cada registro e mostra um funil de negócios por etapa. Ao conectar Gmail ou Outlook, mensagens enviadas e recebidas são associadas automaticamente ao contato correto, reduzindo a digitação manual. Para uma pequena empresa que usa planilhas, é uma maneira simples de começar com um CRM de verdade.

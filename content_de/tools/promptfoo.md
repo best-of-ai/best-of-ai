@@ -19,6 +19,7 @@ alternatives:
 - braintrust
 - lakera
 - evidently-ai
+- plurai
 date: '2026-06-15'
 tags:
 - developer_tools
@@ -33,7 +34,7 @@ tags:
 - open_source
 - collaboration
 - customizable
-i18n_source: '823d157b80c8'
+i18n_source: 'fba3d3d57a19'
 ---
 
 Promptfoo hilft Entwickler:innen, KI-Systeme systematisch zu testen. Testfälle und Kriterien werden in einer Konfigurationsdatei definiert; Prompts laufen über mehrere Modelle und Ausgaben lassen sich nebeneinander vergleichen. Prüfregeln kontrollieren erwartete Inhalte, Formate oder Sicherheit. Das Werkzeug läuft lokal und in CI-Pipelines.

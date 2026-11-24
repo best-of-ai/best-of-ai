@@ -20,9 +20,10 @@ alternatives:
   - hailuo-ai
   - runway-gen3
   - adobe-firefly
+  - youart
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
-i18n_source: 'f8e4e66118c0'
+i18n_source: 'af0bd9e3a070'
 ---
 Runway est l'une des premières entreprises de vidéo par IA, et elle a construit ses outils en pensant aux cinéastes et aux artistes. Le cœur du produit, ce sont ses modèles vidéo Gen, qui créent de courts clips à partir d'un prompt texte, d'une image fixe, ou des deux. Les images de référence aident à garder un personnage ou un décor cohérent d'un plan à l'autre, ce qui est le plus difficile dès qu'on dépasse un seul clip. L'entreprise a commencé par un ensemble d'outils de montage dans le navigateur, et une partie reste, comme la suppression de fond, le suivi de mouvement et l'inpainting.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Social-Media-Tools'
+title: 'Die besten KI-Tools für soziale Medien'
 name: 'Social-Media-Tools'
 slug: 'social-media-tools'
 description: 'KI-Tools zum Erstellen und Planen von Social-Media-Inhalten sowie zur Analyse ihrer Leistung.'

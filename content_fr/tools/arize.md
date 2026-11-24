@@ -20,9 +20,10 @@ alternatives:
   - evidently-ai
   - comet-ml
   - helicone
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, real_time, collaboration, machine_learning]
-i18n_source: '405da4fbccea'
+i18n_source: '49cc5a90641f'
 ---
 
 Arize aide les équipes à voir ce que font leurs modèles après le déploiement. Pour le machine learning classique, il suit la performance, détecte quand les données d'entrée dérivent par rapport aux données d'entraînement, et aide à identifier les segments d'utilisateurs sur lesquels un modèle échoue. Des alertes pointent les problèmes avant qu'ils touchent l'activité.

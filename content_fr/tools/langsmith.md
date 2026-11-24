@@ -19,9 +19,10 @@ alternatives:
   - arize
   - wandb-weave
   - promptlayer
+  - plurai
 date: '2025-06-15'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, model_based]
-i18n_source: '1a337eb081d2'
+i18n_source: '3455e6780a69'
 ---
 LangSmith aide les équipes à comprendre et à améliorer des applications d'IA. Les développeurs envoient des traces depuis leurs applications, et LangSmith montre chaque étape : prompts, documents récupérés, appels d'outils et sorties du modèle, avec le temps et le coût. Ça permet de trouver où un agent s'est trompé.
 

@@ -20,9 +20,10 @@ alternatives:
   - opus-clip
   - kapwing
   - vizard
+  - shot-video
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '6839d4b71e73'
+i18n_source: '60bb19f6ef85'
 ---
 
 Captions foi criado para criadores que gravam a si mesmos falando. Você grava ou envia um vídeo, e o aplicativo transcreve a fala e adiciona legendas animadas e estilizadas, importantes porque muitas pessoas assistem a vídeos sociais sem som. Ele remove vícios de linguagem e silêncios, encurta o vídeo e acrescenta zooms e efeitos que mantêm a atenção. Funciona bem no celular, o que atende criadores que editam durante a gravação.

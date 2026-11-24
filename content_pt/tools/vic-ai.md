@@ -18,9 +18,10 @@ alternatives:
   - tipalti-ai
   - coupa
   - botkeeper
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
-i18n_source: 'd8029443a97e'
+i18n_source: '598f75a1376f'
 ---
 
 Vic.ai lê faturas e as processa com pouca intervenção manual. Extrai dados, sugere a classificação nas contas corretas, encaminha aprovações e sinaliza itens incomuns, aprendendo com as correções feitas por contadores. O objetivo é processar automaticamente faturas rotineiras.

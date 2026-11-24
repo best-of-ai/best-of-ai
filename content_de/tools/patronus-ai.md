@@ -20,6 +20,7 @@ alternatives:
 - langfuse
 - arize
 - evidently-ai
+- plurai
 date: '2025-06-15'
 tags:
 - developer_tools
@@ -34,7 +35,7 @@ tags:
 - collaboration
 - customizable
 - model_based
-i18n_source: '95e670be7fe4'
+i18n_source: '235551204f06'
 ---
 
 Patronus AI hilft Teams, Probleme in KI-Anwendungen aufzudecken. Entwickler:innen lassen Testdatensätze durch ihre Systeme laufen; Evaluatoren prüfen die Ausgaben auf Halluzinationen, unsichere Inhalte, Offenlegung sensibler Daten und Regelverstöße. Red-Team-Werkzeuge suchen mit gezielten gegnerischen Eingaben nach Schwachstellen.

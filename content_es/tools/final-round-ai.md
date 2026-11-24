@@ -15,9 +15,10 @@ alternatives:
   - interview-warmup
   - teal
   - huntr
+  - hiringnow
 date: '2026-11-08'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring]
-i18n_source: 'c13c880853b6'
+i18n_source: 'ddefbd51bac3'
 ---
 
 Final Round AI cubre la preparación de entrevistas, desde la práctica hasta la entrevista real. Puedes hacer entrevistas de práctica con IA, fijar objetivos y recibir análisis automáticos que señalan dónde fueron débiles tus respuestas. La parte de preparación es útil por sí sola, aunque nunca uses las funciones en vivo.

@@ -17,9 +17,10 @@ alternatives:
   - apollo
   - outreach
   - salesloft
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, customizable, machine_learning, image_based]
-i18n_source: '63eb164b2cab'
+i18n_source: '9561532582d3'
 ---
 
 lemlist ajuda equipes de vendas e agências a alcançar potenciais clientes em escala. Usuários criam sequências que combinam e-mails, etapas no LinkedIn e tarefas por telefone e personalizam mensagens com variáveis como nome e empresa. A marca ficou conhecida por imagens e vídeos personalizados que mudam para cada destinatário, uma forma de se destacar em caixas de entrada concorridas.

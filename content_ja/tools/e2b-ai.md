@@ -16,9 +16,11 @@ alternatives:
   - daytona
   - browserbase
   - cloudflare-kitesurf
+  - glasshand
+  - volcano-kong
 date: '2025-09-21'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, cloud_based, secure]
-i18n_source: '40ae218774d2'
+i18n_source: 'f5d881534c25'
 ---
 
 E2Bは、AIエージェントに安全なコンピュータを渡します。言語モデルがコードを書いたとき、それをサーバー上で直接動かすのは危険です。E2Bはクラウドに隔離されたサンドボックスを作り、コードを実行し、出力とファイルを返して終了します。起動は、エージェントのループの中で使えるほど速いです。

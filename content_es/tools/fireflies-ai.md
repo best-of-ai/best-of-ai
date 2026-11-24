@@ -21,9 +21,11 @@ alternatives:
   - sembly-ai
   - tactiq
   - grain
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, integrations]
-i18n_source: '2677aac23678'
+i18n_source: 'b8048edce74b'
 ---
 
 Fireflies envía un bot a tus reuniones, normalmente llamado Fred, que graba la llamada y crea una transcripción con etiquetas de quién habla. Después de la reunión genera un resumen con tareas pendientes y temas clave, y los publica donde trabaja tu equipo. Cada reunión se convierte en texto en el que se puede buscar, así que puedes encontrar lo que dijo un cliente el mes pasado o cuándo se tomó una decisión. Admite decenas de idiomas y funciona con las principales plataformas de videollamada y con grabaciones subidas.

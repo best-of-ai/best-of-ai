@@ -21,9 +21,11 @@ alternatives:
   - avoma
   - supernormal
   - zoom-ai
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, fast]
-i18n_source: '166b2e4d8878'
+i18n_source: '5f27bf243d51'
 ---
 Fathom est connu pour rendre les notes de réunion gratuites. Il rejoint tes appels Zoom, Google Meet ou Microsoft Teams, les enregistre et crée une transcription en temps réel. Tu peux surligner les moments importants pendant l'appel d'un clic, et quelques secondes après la fin, il produit un résumé avec les décisions, les actions à suivre et les points clés, que tu peux partager. L'offre gratuite inclut des enregistrements et des transcriptions illimités, ce qui le distingue des concurrents qui plafonnent l'usage gratuit.
 

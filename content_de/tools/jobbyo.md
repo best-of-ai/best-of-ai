@@ -17,6 +17,7 @@ alternatives:
 - jobgpt-ai
 - linkedin
 - indeed
+- hiringnow
 date: '2025-01-01'
 tags:
 - career
@@ -28,7 +29,7 @@ tags:
 - resume
 - interview
 - hiring
-i18n_source: '4bb5f5f1ba45'
+i18n_source: '8dcda628e9e4'
 ---
 
 Jobbyo automatisiert wiederkehrende Aufgaben der Jobsuche. Du lädst deinen Lebenslauf hoch und gibst an, welche Stellen du suchst. Der Agent findet passende Ausschreibungen, füllt Bewerbungen aus und verfolgt Rückmeldungen. So sollst du dich auf mehr Stellen bewerben können, als es manuell möglich wäre.

@@ -20,9 +20,10 @@ alternatives:
   - promptfoo
   - helicone
   - humanloop
+  - plurai
 date: '2026-07-17'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
-i18n_source: 'ada8565cf06b'
+i18n_source: '38a6b44e5ac1'
 ---
 
 Braintrustは、チームがAIの品質をソフトウェアの品質と同じように扱えるようにします。開発者は各モデル呼び出しとエージェントのステップを記録し、実際のトラフィックからテストケースのデータセットを作ります。プログラムによる検査や言語モデルの判定を含む採点機能が出力を評価するので、プロンプトやモデルの変更を出荷前に試せます。

@@ -19,6 +19,7 @@ alternatives:
 - ramp
 - quickbooks
 - mosaic-tech
+- latch
 date: '2025-09-21'
 tags:
 - finance
@@ -31,7 +32,7 @@ tags:
 - fintech
 - reporting
 - real_time
-i18n_source: '91a7e1611616'
+i18n_source: 'a0f1944f91a3'
 ---
 
 Zeni übernimmt Finanzaufgaben für Startups. Unternehmen verbinden Bankkonten; Zeni erledigt Buchhaltung, Kreditoren, Steuern und CFO-Dienste. Ein Dashboard zeigt Bargeldbestand, Ausgabenrate und Reichweite in Echtzeit. Menschen prüfen KI-Arbeit.

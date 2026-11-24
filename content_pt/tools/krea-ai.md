@@ -20,9 +20,10 @@ alternatives:
   - comfyui
   - invokeai
   - ideogram
+  - youart
 date: '2025-01-01'
 tags: [image_generation, creative, text_to_image, visual, graphics, generative_ai, art, diffusion, prompting, real_time, image_based, easy_to_use]
-i18n_source: 'c813c7c8f47b'
+i18n_source: 'a03af7197c1f'
 ---
 
 Krea tornou-se popular por sua tela em tempo real. Enquanto você digita um prompt ou esboça formas, a imagem se atualiza quase instantaneamente, transformando a geração em um processo exploratório ao vivo em vez de exigir espera por cada resultado. Essa rapidez atende designers e artistas que iteram visualmente, ajustando composição e estilo por gestos em vez de reescrever prompts.

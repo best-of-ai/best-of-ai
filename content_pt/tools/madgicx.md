@@ -21,6 +21,10 @@ alternatives:
 - smartly
 - creatopy
 - aiter-io
+- creatify
+- synter
+- maxma
+- adside
 date: '2025-06-15'
 tags:
 - advertising
@@ -33,7 +37,7 @@ tags:
 - performance
 - targeting
 - analytics
-i18n_source: dc2a2500f70b
+i18n_source: 'c1cb9603f2c3'
 ---
 
 A Madgicx foi criada para profissionais de marketing de performance e marcas de comércio eletrônico que anunciam em redes sociais. Ela se conecta às contas de anúncios e analisa as campanhas, depois recomenda ou aplica mudanças, como direcionar o orçamento para conjuntos de anúncios com melhor desempenho, pausar os piores ou testar novos públicos. Regras de automação executam essas mudanças continuamente.

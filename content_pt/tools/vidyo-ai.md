@@ -19,9 +19,10 @@ alternatives:
   - munch
   - submagic
   - clipfinder-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '6d5d7f9cdc1a'
+i18n_source: 'f7ac42b52db1'
 ---
 
 Vidyo.ai foi criada para poupar o tempo que criadores gastam recortando clipes curtos de podcasts, webinars e vídeos longos. Você envia um vídeo ou cola um link, e a IA analisa o conteúdo para encontrar trechos que funcionem sozinhos; depois, gera clipes com legendas e formato vertical. Antes de exportar, você pode editar a transcrição, ajustar os limites do clipe e personalizar o estilo das legendas.

@@ -22,6 +22,7 @@ alternatives:
 - close
 - copper
 - salesforce
+- altercontacts
 date: '2025-06-15'
 tags:
 - crm
@@ -36,7 +37,7 @@ tags:
 - collaboration
 - customizable
 - analytics
-i18n_source: 'ebeecc40b681'
+i18n_source: '4b3f4a938ea2'
 ---
 
 Attio geht davon aus, dass jedes Unternehmen anders verkauft. Statt fester Objekte wie Leads und Verkaufschancen erstellen Teams eigene Strukturen, etwa für Kund:innen, Partner:innen oder Investor:innen, und verknüpfen sie miteinander. Die Oberfläche ähnelt eher einer Tabelle und Datenbank als einem klassischen CRM und lässt sich deshalb leichter anpassen.

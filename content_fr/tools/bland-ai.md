@@ -17,9 +17,10 @@ alternatives:
   - yellow-ai
   - kore-ai
   - sierra-ai
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution, enterprise]
-i18n_source: 'c6aac2fd2e02'
+i18n_source: '5aeb03ff609c'
 ---
 
 Bland fournit des agents vocaux qui parlent sur de vrais appels téléphoniques. Les entreprises s'en servent pour répondre aux appels entrants, appeler des leads, confirmer des rendez-vous et mener des enquêtes, en remplaçant ou en complétant le personnel des centres d'appels. Les agents parlent naturellement, gèrent les interruptions et peuvent travailler en continu.

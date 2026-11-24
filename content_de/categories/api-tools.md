@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für API-Tools'
+title: 'Die besten KI-Tools für APIs'
 name: 'API-Tools'
 slug: 'api-tools'
 description: 'KI-Tools für API-Design, Tests, Dokumentation und Verwaltung.'

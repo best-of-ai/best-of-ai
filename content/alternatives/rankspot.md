@@ -1,0 +1,3 @@
+---
+title: 'RankSpot Alternatives'
+---

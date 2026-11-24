@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - smartlead
   - lemlist
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, enterprise]
-i18n_source: 'bbb11bc7b942'
+i18n_source: '784b2095422e'
 ---
 
 Outreachは営業チームが、構造化されたプロスペクティングとフォローアップを大規模に回すために使います。担当者はメール、通話、LinkedInのステップ、タスクを組み合わせたシーケンスにリードを登録します。プラットフォームは各ステップをスケジュールし、返信を追跡し、活動をCRMに記録します。マネージャーはどのメッセージやケイデンスの成果がよいかを確認でき、自動ルールがリードの振り分けと作業の整理を行います。

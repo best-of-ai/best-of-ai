@@ -19,9 +19,10 @@ alternatives:
   - runway-gen3
   - sora
   - veo-3
+  - youart
 date: '2026-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips]
-i18n_source: '1eff5ef24c49'
+i18n_source: 'b13a79dcc0c0'
 ---
 Higgsfield se concentre sur la mise en scène. Au-delà de décrire une scène en texte, les utilisateurs choisissent des mouvements de caméra comme le travelling, l'orbite ou le crash zoom, et appliquent des presets qui façonnent le look et le mouvement. La plateforme réunit ses propres modèles et d'autres, et propose des outils pour garder un personnage cohérent d'un plan à l'autre.
 

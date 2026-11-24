@@ -19,9 +19,10 @@ alternatives:
   - claude-cowork
   - chatgpt-work
   - openclaw
+  - saparo
 date: '2026-07-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, image_based, model_based]
-i18n_source: '94b0e5384436'
+i18n_source: '4331b49c0148'
 ---
 
 Genspark empezó como un buscador con IA y ha crecido hasta convertirse en un espacio de trabajo de agentes. Quien lo usa plantea un objetivo, por ejemplo investigar un mercado y preparar una presentación, y el Super Agent planifica los pasos, busca en la web, usa herramientas y produce resultados como presentaciones, documentos, hojas de cálculo y contenido multimedia.

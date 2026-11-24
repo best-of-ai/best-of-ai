@@ -19,6 +19,7 @@ alternatives:
 - claude-cowork
 - chatgpt-work
 - openclaw
+- saparo
 date: '2026-07-29'
 tags:
 - ai_agent
@@ -32,7 +33,7 @@ tags:
 - agentic
 - image_based
 - model_based
-i18n_source: '94b0e5384436'
+i18n_source: '4331b49c0148'
 ---
 
 Genspark begann als KI-Suchmaschine und wurde zu einem Arbeitsbereich mit Agenten ausgebaut. Du gibst ein Ziel vor, etwa eine Marktanalyse mit Präsentation, und der Super Agent plant die Schritte, durchsucht das Web, nutzt Werkzeuge und erstellt Ergebnisse wie Präsentationen, Dokumente, Tabellen und Medien.

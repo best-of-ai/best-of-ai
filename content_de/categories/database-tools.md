@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Datenbank-Tools'
+title: 'Die besten KI-Tools für Datenbanken'
 name: 'Datenbank-Tools'
 slug: 'database-tools'
 description: 'KI-Tools für Datenbankdesign, Abfragen, Optimierung und Verwaltung.'

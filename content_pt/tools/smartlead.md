@@ -20,6 +20,7 @@ alternatives:
 - apollo
 - clay
 - amplemarket
+- alsona
 date: '2026-11-05'
 tags:
 - sales
@@ -31,7 +32,7 @@ tags:
 - prospecting
 - closing
 - forecasting
-i18n_source: 3ae88e16410c
+i18n_source: '6c241717a74e'
 ---
 
 Smartlead foi criada para campanhas de e-mail outbound em escala. Usuários conectam várias caixas de entrada, e a plataforma distribui os envios entre elas, ajusta o volume e aquece novas contas para que as mensagens cheguem à caixa de entrada. Sequências, acompanhamentos e gestão de respostas cuidam da lógica das campanhas.

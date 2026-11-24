@@ -19,9 +19,11 @@ alternatives:
   - applitools
   - percy
   - browserstack-test-companion
+  - testsprite
+  - seldon-wren
 date: '2026-09-28'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '06e72981cbd6'
+i18n_source: '1fab3a7610c3'
 ---
 
 QA Wolf oferece testes como serviço. Em vez de uma empresa escrever e manter seus próprios testes automatizados, a equipe da QA Wolf cria testes Playwright para os fluxos críticos, executa-os em paralelo em cada lançamento e corrige os testes quando o aplicativo muda. A equipe relata erros reais e filtra falhas instáveis.

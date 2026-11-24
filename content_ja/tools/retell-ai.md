@@ -16,9 +16,10 @@ alternatives:
   - bland-ai
   - synthflow
   - openai-realtime-api
+  - call-e
 date: '2026-11-05'
 tags: [customer_support, chatbot, business, help_desk, support, ticketing, live_chat, service, resolution]
-i18n_source: 'cf1b06cae3a2'
+i18n_source: '55a57adae067'
 ---
 
 Retellは音声エージェントの基盤を提供します。開発者がエージェントのプロンプトとツールを定義して電話番号をつなぐと、音声認識、言語モデル、音声合成、通話制御をプラットフォームが担い、自然な発話の交代や割り込みにも対応します。

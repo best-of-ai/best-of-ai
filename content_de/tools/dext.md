@@ -16,6 +16,7 @@ alternatives:
 - pilot-ai
 - vic-ai
 - expensify-ai
+- latch
 date: '2026-11-08'
 tags:
 - voice_enabled
@@ -26,7 +27,7 @@ tags:
 - service
 - solution
 - saas
-i18n_source: '8215da835924'
+i18n_source: '99b5da73d604'
 ---
 
 Kund:innen fotografieren einen Beleg oder leiten eine Rechnung per E-Mail weiter. Dext erkennt Lieferant, Datum, Betrag und Steuer. Die ausgelesenen Daten werden mit Plattformen wie Xero, QuickBooks und Sage synchronisiert und dort als zu prüfender Buchungsentwurf bereitgestellt. Lieferantenrechnungen können auch automatisch abgerufen werden.

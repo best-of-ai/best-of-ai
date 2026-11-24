@@ -16,9 +16,10 @@ alternatives:
   - botkeeper
   - vic-ai
   - stampli-ai
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
-i18n_source: '2be121cfd4cb'
+i18n_source: 'b47599b4e033'
 ---
 
 O Trullion atende a normas contábeis que exigem leitura de contratos. Para arrendamentos e contratos de receita, equipes financeiras precisam extrair termos como pagamentos, datas e opções para realizar cálculos. A IA do Trullion lê documentos, extrai os dados e gera cronogramas e lançamentos contábeis.

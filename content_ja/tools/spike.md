@@ -17,9 +17,10 @@ alternatives:
   - spark-mail
   - front
   - mixmax
+  - glassmail
 date: '2025-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, real_time, collaboration, fast]
-i18n_source: '7783eae7d71c'
+i18n_source: '8afe69ae8205'
 ---
 
 Spikeはメールをチャットのように見せます。スレッドが会話になるので、やり取りが速く感じられることがあります。統合ビューには、メールにメモ、タスク、カレンダーがまとまります。チームは、メッセージを転送せずに非公開で話し合えます。

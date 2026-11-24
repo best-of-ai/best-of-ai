@@ -20,9 +20,10 @@ alternatives:
   - stable-diffusion
   - flux
   - canva
+  - youart
 date: '2025-09-21'
 tags: [design, image_editing, creative, visual, branding, typography, layouts, ui_design, illustration, cloud_based, image_based, training]
-i18n_source: 'bc3bede44f52'
+i18n_source: 'fac5082529ba'
 ---
 
 FireflyはAdobeの生成AIプラットフォームです。Fireflyのウェブアプリは、テキストの説明から画像を生成し、既存の画像を広げたり編集したり、短い動画クリップを作り、音声とベクターの作品も出力します。Adobeは自社モデルを、Adobe Stockやパブリックドメインの素材など、ライセンスを受けたコンテンツで学習させ、スクレイピングした画像で学習したモデルより商用利用の安全性が高いと位置づけています。出力には、AIで作られたことを示すContent Credentialsが付きます。

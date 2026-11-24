@@ -17,9 +17,10 @@ alternatives:
   - fathom
   - tactiq
   - sembly-ai
+  - pauta
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics, powerful]
-i18n_source: '6a876bc659e4'
+i18n_source: '05cb40852b71'
 ---
 
 Hedy AI unterscheidet sich von Protokollwerkzeugen, die erst im Nachhinein zusammenfassen. Es hört während eines Anrufs oder Gesprächs zu und zeigt direkt Vorschläge an: eine mögliche Antwort, eine Rückfrage oder einen relevanten Kontext. Es soll Nutzern helfen, sich bereits im laufenden Gespräch besser zu schlagen.

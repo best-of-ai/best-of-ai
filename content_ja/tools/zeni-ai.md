@@ -18,9 +18,10 @@ alternatives:
   - ramp
   - quickbooks
   - mosaic-tech
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
-i18n_source: '91a7e1611616'
+i18n_source: 'a0f1944f91a3'
 ---
 
 Zeniは、スタートアップの経理業務を外部委託できるサービスです。銀行口座を連携すると、Zeniが記帳、買掛金、税務、CFO業務を担当します。ダッシュボードには、現金残高、バーンレート、資金が尽きるまでの期間がリアルタイムで表示されます。AIの作業は人が確認します。

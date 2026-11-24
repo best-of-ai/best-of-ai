@@ -16,6 +16,7 @@ alternatives:
   - botkeeper
   - vic-ai
   - stampli-ai
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting]
 ---

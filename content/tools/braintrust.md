@@ -20,6 +20,7 @@ alternatives:
   - promptfoo
   - helicone
   - humanloop
+  - plurai
 date: '2026-07-17'
 tags: [developer_tools, code_generation, infrastructure, deployment, development, devops, ci_cd, cloud, api, collaboration]
 ---

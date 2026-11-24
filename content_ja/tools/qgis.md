@@ -16,9 +16,10 @@ alternatives:
   - carto
   - mapbox
   - seequent
+  - waldo-wherobots
 date: '2026-11-05'
 tags: [free_tier, machine_learning, extensible, ai_powered, intelligent, platform, tool, service]
-i18n_source: '2bc76bf1339b'
+i18n_source: 'eb744ca96067'
 ---
 
 QGISを使えば、誰でも無料でプロレベルの地図作成と空間分析ができます。ファイル、データベース、ウェブサービスからベクターデータとラスターデータを読み込み、地図のスタイルを設定し、ジオメトリを編集し、バッファ、オーバーレイ、地形解析、ルート検索などの分析を実行します。処理ツールボックスには数百のアルゴリズムがまとまっており、専門的な作業のためにGRASSやSAGAとも連携します。多くの形式と投影法に対応し、印刷レイアウトで出版品質の地図を作れます。

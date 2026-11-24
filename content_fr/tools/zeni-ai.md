@@ -18,9 +18,10 @@ alternatives:
   - ramp
   - quickbooks
   - mosaic-tech
+  - latch
 date: '2025-09-21'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, real_time]
-i18n_source: '91a7e1611616'
+i18n_source: 'a0f1944f91a3'
 ---
 
 Zeni fournit de la finance externalisée pour les startups. Les entreprises connectent leurs comptes bancaires, et Zeni gère la tenue de comptes, les comptes fournisseurs, la fiscalité et des services de direction financière, avec un tableau de bord qui montre la trésorerie, le burn et le runway en temps réel. Des humains vérifient le travail de l'IA.

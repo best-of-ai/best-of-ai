@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Modelle für Lokal ausführbar'
+title: 'Die besten lokal ausführbaren KI-Modelle'
 name: 'Lokal ausführbar'
 slug: 'runs-at-home'
 description: 'Open-Weight-Modelle, die du herunterladen und auf eigener Hardware ausführen kannst.'

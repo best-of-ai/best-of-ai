@@ -17,9 +17,10 @@ alternatives:
   - spark-mail
   - front
   - mixmax
+  - glassmail
 date: '2025-06-15'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, real_time, collaboration, fast]
-i18n_source: '7783eae7d71c'
+i18n_source: '8afe69ae8205'
 ---
 
 Spike présente l'e-mail comme un chat. Les fils deviennent des conversations, ce qui peut sembler plus rapide, et une vue unifiée mélange e-mail, notes, tâches et agenda. Les équipes peuvent discuter d'un message en privé, sans le transférer.

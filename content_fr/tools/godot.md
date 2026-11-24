@@ -14,9 +14,10 @@ rank: 7
 alternatives:
   - unity
   - unreal-engine
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, open_source, free_tier, community_driven]
-i18n_source: '8be3f79e0a73'
+i18n_source: '748fb4762c2b'
 ---
 Il utilise un système de scènes et de nœuds et son propre langage de script, GDScript, et prend aussi en charge C#. Il n'y a ni frais de licence ni royalties. La communauté ajoute des plugins et des tutoriels.
 

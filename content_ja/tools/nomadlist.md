@@ -15,9 +15,10 @@ alternatives:
   - wanderlog
   - hopper
   - kayak
+  - tripmojo
 date: '2026-11-08'
 tags: [fast, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: 'aec99ebf29f8'
+i18n_source: 'a07b8d618ff3'
 ---
 
 予算や天気などの条件で都市を絞り込み、ほかのノマドの報告を読めます。メンバーはチャット、ミートアップ、旅の記録を使えます。多くの渡航先について、ビザと税金のガイドがあります。

@@ -22,6 +22,8 @@ alternatives:
 - grain
 - meetgeek
 - sembly-ai
+- pauta
+- bluedot-notetaker
 date: '2025-09-21'
 tags:
 - meeting
@@ -33,7 +35,7 @@ tags:
 - action_items
 - video_calls
 - recap
-i18n_source: '97a8840e4bb1'
+i18n_source: 'b1cd29e10611'
 ---
 
 Otter war eines der ersten weit verbreiteten Tools zur Besprechungstranskription. Du verbindest deinen Kalender. Der Assistent nimmt dann an Zoom-, Google-Meet- oder Teams-Anrufen teil, zeichnet sie auf, transkribiert sie und kennzeichnet Sprecher:innen. Das Transkript ist live verfügbar, sodass Teilnehmende mitlesen können. Anschließend erhältst du eine Zusammenfassung, wichtige Punkte und Aufgaben. Der gesamte Inhalt ist durchsuchbar. So findest du per Stichwort, was in einer früheren Besprechung gesagt wurde. Otter funktioniert auch auf Smartphones für persönliche Gespräche und Vorlesungen.

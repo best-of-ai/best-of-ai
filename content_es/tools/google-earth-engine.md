@@ -15,9 +15,10 @@ alternatives:
   - qgis
   - arcgis
   - planet-labs
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: 'b3eee4cff62b'
+i18n_source: '68e5fcd8641e'
 ---
 
 Aloja décadas de conjuntos de datos de satélite y de clima, como Landsat y Sentinel. Los usuarios escriben scripts en JavaScript o Python para calcular cambios a lo largo del tiempo, como la pérdida de bosques o de hielo marino. Los resultados se exportan a mapas y tablas.

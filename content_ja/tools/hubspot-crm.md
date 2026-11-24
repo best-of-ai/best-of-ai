@@ -21,9 +21,10 @@ alternatives:
   - close
   - copper
   - folk
+  - altercontacts
 date: '2025-09-21'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data, free_tier, customizable, machine_learning]
-i18n_source: '176dbc792656'
+i18n_source: '0d9394edfe11'
 ---
 
 HubSpot CRMは、すべてのHubSpot製品の下にある共有データベースで、単体でも無料で使えます。連絡先、企業、案件、チケットを保存し、各記録にメールと通話を残し、段階ごとの案件パイプラインを表示します。GmailまたはOutlookをつなぐと、送受信したメッセージが該当する連絡先に自動で付くため、手入力の時間は減ります。表計算で営業を回してきた中小企業にとって、本格的なCRMへの入りやすい第一歩です。

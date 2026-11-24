@@ -20,9 +20,10 @@ alternatives:
   - tldv
   - sembly-ai
   - noty-ai
+  - pauta
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, browser_extension, secure, extensible]
-i18n_source: '130775bbca80'
+i18n_source: '2a1eeb33b7c9'
 ---
 
 Tactiqは、会議メモに軽いやり方を取ります。録画ボットを通話に送る代わりに、ブラウザ拡張機能として動き、会議の字幕と音声を自分のデバイスで取り込みます。話すのに合わせてライブの文字起こしがサイドバーに表示され、会議の最中に重要な場面をハイライトできます。見慣れないボットがいると不審に思われる通話でも、目立ちにくくなります。

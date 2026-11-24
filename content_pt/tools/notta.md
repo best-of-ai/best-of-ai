@@ -19,9 +19,10 @@ alternatives:
   - otter-ai
   - rev
   - happyscribe
+  - pauta
 date: '2025-09-21'
 tags: [transcription, speech_to_text, audio, text, conversion, captions, subtitles, accuracy, real_time, collaboration, integrations, voice_enabled]
-i18n_source: '0840174b0c97'
+i18n_source: '2582cc688152'
 ---
 
 O Notta transforma fala em texto para quem participa de muitas conversas. Você pode gravar no aplicativo móvel ou web, enviar arquivos de áudio e vídeo ou permitir que o assistente entre em chamadas do Zoom, Google Meet e Teams. A transcrição aparece no aplicativo com identificação dos falantes e marcações de tempo; você pode pesquisá-la, editá-la e compartilhá-la. O suporte a muitos idiomas é útil para equipes internacionais, jornalistas e pesquisadores.

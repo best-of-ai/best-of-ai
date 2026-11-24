@@ -19,9 +19,10 @@ alternatives:
   - boomerang
   - mixmax
   - spike
+  - glassmail
 date: '2025-09-21'
 tags: [email, productivity, writing, communication, inbox, email_management, drafting, scheduling, follow_up, powerful]
-i18n_source: '45f7f615b704'
+i18n_source: 'cff0cfdd40bc'
 ---
 
 SaneBoxは、メールアプリを置き換えずに、受信トレイの混雑に取り組みます。既存のアカウントにつなぎ、誰に返信するか、どのメッセージを開くかといった行動を分析して、重要度の低いメールをSaneLaterというフォルダに移します。ニュースレター、通知、営業の一斉メールはそこに入り、好きなときに目を通せるダイジェストが届きます。重要なメールは受信トレイに残ります。

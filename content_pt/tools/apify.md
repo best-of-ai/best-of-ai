@@ -20,6 +20,8 @@ alternatives:
 - diffbot
 - browserbase
 - jina-ai
+- glasshand
+- tabstack
 date: '2026-11-05'
 tags:
 - developer_tools
@@ -33,7 +35,7 @@ tags:
 - api
 - cloud_based
 - templates
-i18n_source: '5fb26f46eab9'
+i18n_source: '56a3cc76cf74'
 ---
 A Apify transforma a web em uma fonte de dados estruturados. Seu marketplace, Apify Store, oferece milhares de Actors, programas na nuvem que fazem scraping ou automatizam sites e tarefas específicas: extrair listagens do Google Maps, publicações de redes sociais, detalhes de produtos de e-commerce ou informações de contato de páginas. Você configura um Actor, executa-o na nuvem e recebe resultados em JSON, CSV ou por API, sem gerenciar servidores ou proxies.
 

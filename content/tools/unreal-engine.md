@@ -14,6 +14,7 @@ rank: 9
 alternatives:
   - metahuman
   - character-creator
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, real_time, image_based]
 ---

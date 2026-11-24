@@ -23,6 +23,8 @@ alternatives:
 - sembly-ai
 - tactiq
 - grain
+- pauta
+- bluedot-notetaker
 date: '2025-09-21'
 tags:
 - meeting
@@ -35,7 +37,7 @@ tags:
 - video_calls
 - recap
 - integrations
-i18n_source: '2677aac23678'
+i18n_source: 'b8048edce74b'
 ---
 
 Fireflies schickt einen Bot in deine Besprechungen, meist mit dem Namen Fred. Er zeichnet das Gespräch auf und erstellt ein Transkript mit Sprecherkennzeichnung. Nach dem Meeting fasst er wichtige Themen und Aufgaben zusammen und veröffentlicht sie dort, wo dein Team arbeitet. Jede Besprechung wird zu durchsuchbarem Text. So findest du, was ein Kunde im letzten Monat gesagt hat oder wann eine Entscheidung getroffen wurde. Fireflies unterstützt Dutzende Sprachen und funktioniert mit den wichtigsten Videokonferenzplattformen sowie hochgeladenen Aufnahmen.

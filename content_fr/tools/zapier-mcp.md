@@ -18,9 +18,10 @@ alternatives:
   - zapier
   - n8n
   - make
+  - scalekit
 date: '2026-11-05'
 tags: [ai, assistant, automation, productivity, enterprise, agent]
-i18n_source: '6d09f25e8fb9'
+i18n_source: '90d8e24a6539'
 ---
 
 Zapier MCP transforme la bibliothèque d'apps de Zapier en outils qu'une IA peut utiliser. On crée un serveur MCP, on choisit les apps et les actions à autoriser, comme envoyer un message Slack, ajouter une ligne dans Google Sheets ou créer un contact CRM, et on connecte ce serveur à un client compatible. L'assistant peut alors appeler ces actions pendant une conversation.

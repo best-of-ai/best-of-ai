@@ -20,9 +20,10 @@ alternatives:
   - avoma
   - read-ai
   - grain
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, customizable, templates]
-i18n_source: '0063ee46b790'
+i18n_source: 'b5dbc5e66ada'
 ---
 
 Supernormal busca eliminar o trabalho de fazer anotações em reuniões. Um bot participa das reuniões agendadas, grava e transcreve e cria notas organizadas por modelos para diferentes tipos de encontro, como chamadas de vendas, entrevistas, reuniões individuais e reuniões rápidas de equipe. As notas listam decisões, itens de ação e pontos principais e são compartilhadas com participantes ou salvas nas ferramentas usadas pela equipe.

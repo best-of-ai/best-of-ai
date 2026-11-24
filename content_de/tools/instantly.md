@@ -21,9 +21,10 @@ alternatives:
   - clay
   - lavender
   - amplemarket
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable, analytics]
-i18n_source: '9e07dcf56dac'
+i18n_source: '58f3d4b6a118'
 ---
 Instantly ist auf E-Mail-Outreach in großem Umfang ausgelegt. Du kannst beliebig viele Versandkonten verbinden. Die Plattform verteilt das Versandvolumen auf sie, damit jedes Konto innerhalb sicherer Grenzen bleibt. Ein automatisches Warm-up-Netzwerk tauscht Nachrichten zwischen Konten aus, um den Ruf der Absender aufzubauen. Zustellbarkeitswerkzeuge erhöhen die Wahrscheinlichkeit, dass Kampagnen im Posteingang landen. Sequenzen übernehmen Nachfassnachrichten und stoppen, sobald jemand antwortet.
 

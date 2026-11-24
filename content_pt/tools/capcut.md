@@ -20,9 +20,10 @@ alternatives:
   - wondershare-filmora-ai
   - davinci-resolve
   - descript-video
+  - shot-video
 date: '2025-01-01'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export, free_tier, voice_enabled, easy_to_use]
-i18n_source: '3ee2a78fe85a'
+i18n_source: 'cb396fd4b850'
 ---
 
 CapCut se tornou popular para vídeos curtos por ser fácil de usar e bem integrado ao TikTok. Você organiza clipes em uma linha do tempo, apara e corta, adiciona música e transições e aplica efeitos, filtros e textos animados. Modelos permitem inserir suas gravações em uma edição pronta, um caminho rápido para criar vídeos sociais bem acabados. O aplicativo funciona em iOS, Android, Windows, macOS e no navegador.

@@ -14,9 +14,11 @@ rank: 5
 alternatives:
   - adalysis
   - madgicx
+  - synter
+  - maxma
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
-i18n_source: '39e4e1b8e522'
+i18n_source: 'a1d93451793e'
 ---
 
 Optmyzr est un logiciel pour les gens qui gèrent des comptes de recherche payante et de social payant. Il se connecte à Google Ads, Microsoft Ads, Amazon, Meta et d'autres plateformes et donne des outils d'automatisation, de surveillance, d'audits et de reporting, pour que le travail d'optimisation de routine ne mange pas la semaine.

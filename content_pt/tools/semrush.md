@@ -19,9 +19,10 @@ alternatives:
   - mangools
   - brightedge
   - similarweb
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, powerful]
-i18n_source: '19cd55daa0aa'
+i18n_source: '05cad2ea9bdd'
 ---
 
 Semrush é um dos conjuntos de ferramentas mais usados por profissionais de marketing de busca. Seu núcleo é um grande banco de dados de palavras-chave e domínios, que permite ver quais termos levam um concorrente a aparecer nos resultados, quanto tráfego uma página recebe, quem cria links para ela e qual é a posição do seu próprio site. Pesquisa de palavras-chave, acompanhamento de posições, auditorias de sites e análise de backlinks cobrem tarefas regulares de otimização de busca. Ferramentas separadas atendem a pesquisa paga, planejamento de conteúdo, listagens locais e redes sociais.

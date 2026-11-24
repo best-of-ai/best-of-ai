@@ -22,6 +22,7 @@ alternatives:
 - runway-gen3
 - sora
 - veo-3
+- youart
 date: '2026-06-15'
 tags:
 - video_generation
@@ -33,7 +34,7 @@ tags:
 - generative
 - short_form
 - clips
-i18n_source: '1eff5ef24c49'
+i18n_source: 'b13a79dcc0c0'
 ---
 
 O Higgsfield se concentra na direção. Além de descrever uma cena em texto, usuários escolhem movimentos de câmera, como travelling, órbita ou zoom rápido, e aplicam predefinições que definem a aparência e o movimento. A plataforma combina modelos próprios e de terceiros e oferece ferramentas para manter a consistência dos personagens entre cenas.

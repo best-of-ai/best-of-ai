@@ -18,6 +18,7 @@ alternatives:
 - spark-mail
 - front
 - mixmax
+- glassmail
 date: '2025-06-15'
 tags:
 - email
@@ -32,7 +33,7 @@ tags:
 - real_time
 - collaboration
 - fast
-i18n_source: '7783eae7d71c'
+i18n_source: '8afe69ae8205'
 ---
 
 Spike stellt E-Mail wie einen Chat dar. Nachrichten werden zu Unterhaltungen, was schneller wirken kann; eine gemeinsame Ansicht verbindet E-Mail, Notizen, Aufgaben und Kalender. Teams können Nachrichten intern besprechen, ohne sie weiterzuleiten.

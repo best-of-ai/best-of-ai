@@ -19,9 +19,10 @@ alternatives:
   - mangools
   - brightedge
   - similarweb
+  - rankspot
 date: '2025-09-21'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, powerful]
-i18n_source: '19cd55daa0aa'
+i18n_source: '05cad2ea9bdd'
 ---
 Semrush est parmi les boîtes à outils les plus utilisées par les marketeurs de la recherche. Son cœur est une grande base de mots-clés et de domaines, pour voir pour quels termes un concurrent se classe, quel trafic une page reçoit, qui la lie, et où se situe ton propre site. La recherche de mots-clés, le suivi de position, les audits de site et l'analyse de backlinks couvrent le travail régulier de l'optimisation pour la recherche. Des outils séparés gèrent la recherche payante, la planification de contenu, les fiches locales et les réseaux sociaux.
 

@@ -14,9 +14,10 @@ rank: 9
 alternatives:
   - metahuman
   - character-creator
+  - wanaka-studio
 date: '2026-11-08'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, real_time, image_based]
-i18n_source: '235fcea1fd97'
+i18n_source: 'e95de2275b1b'
 ---
 
 エンジンにはBlueprintsというビジュアルスクリプトの仕組みがあり、C++を書かなくてもゲームプレイを作れます。Lumenは動的なライティングを、Naniteは非常に細かいジオメトリを扱い、映画のようなシーンに向いています。エンジンと一緒に動くMetaHuman Creatorは、リアルなデジタルキャラクターを作ります。

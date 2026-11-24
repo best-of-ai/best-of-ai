@@ -18,9 +18,10 @@ alternatives:
   - enhancv
   - teal
   - reztune
+  - hiringnow
 date: '2026-06-15'
 tags: [resume, career, writing, job_search, cv, cover_letter, ats, interview, professional]
-i18n_source: '30c947e0e7c6'
+i18n_source: 'd8c52edfb1dd'
 ---
 
 Jobscan ayuda a adaptar los currículums a cada empleo. La persona pega un currículum y una oferta, y Jobscan indica una puntuación de coincidencia, enumera las palabras clave y habilidades de la oferta que faltan o que aparecen poco, y señala problemas de formato que podrían confundir a los analizadores automáticos.

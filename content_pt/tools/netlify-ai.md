@@ -19,6 +19,8 @@ alternatives:
 - railway-app
 - heroku
 - fly-io
+- spacefast
+- volcano-kong
 date: '2025-09-21'
 tags:
 - developer_tools
@@ -31,7 +33,7 @@ tags:
 - cloud
 - api
 - integrations
-i18n_source: 5550d2c4f5f2
+i18n_source: '2f9409ff018b'
 ---
 
 Netlify popularizou a ideia de enviar código ao Git e deixar que um site seja compilado e implantado automaticamente. Desenvolvedores conectam um repositório, e Netlify compila a cada mudança, fornece uma URL de pré-visualização para cada pull request e disponibiliza o site em uma rede global. Funções sem servidor e funções de borda acrescentam comportamento dinâmico sem servidores próprios.

@@ -18,9 +18,10 @@ alternatives:
   - tipalti-ai
   - coupa
   - botkeeper
+  - latch
 date: '2025-06-15'
 tags: [finance, business, analytics, accounting, investment, financial_planning, budgeting, fintech, reporting, voice_enabled, model_based]
-i18n_source: 'd8029443a97e'
+i18n_source: '598f75a1376f'
 ---
 
 Vic.ai liest Rechnungen und verarbeitet sie mit wenig manueller Eingabe. Es extrahiert Daten, schlägt passende Sachkonten vor, leitet Freigaben weiter und markiert Auffälligkeiten. Aus Korrekturen der Buchhaltung lernt es, um Routinebelege möglichst ohne Berührung zu verarbeiten.

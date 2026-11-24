@@ -15,6 +15,7 @@ alternatives:
   - jobgpt-ai
   - jobscan
   - jobbyo
+  - hiringnow
 date: '2026-06-15'
 tags: [career, hr, recruitment, jobs, employment, job_search, resume, interview, hiring, browser_extension, extensible]
 ---

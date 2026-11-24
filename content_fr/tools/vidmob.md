@@ -14,9 +14,11 @@ rank: 5
 alternatives:
   - adcreative-ai
   - smartly
+  - creatify
+  - adside
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi, collaboration]
-i18n_source: '082e8424da8a'
+i18n_source: 'c5849765847c'
 ---
 
 Vidmob se concentre sur le côté créatif de la publicité. Au lieu de générer des pubs, il les analyse. Ses modèles notent le créatif avant diffusion et décomposent quels éléments, comme les visuels, le message et les formats, sont liés à de meilleurs résultats après le lancement.

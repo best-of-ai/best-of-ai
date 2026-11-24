@@ -20,9 +20,10 @@ alternatives:
   - photoroom
   - adobe-express
   - adobe-photoshop
+  - youart
 date: '2025-09-21'
 tags: [image_editing, design, creative, photo, visual, retouching, filters, enhancement, manipulation, image_based, powerful]
-i18n_source: 'bf706b8eef45'
+i18n_source: '5783a4d34f39'
 ---
 
 Picsart a commencé comme éditeur photo mobile et est devenu une suite créative large. On retouche des photos avec des filtres, des collages, des stickers et du texte, on fait des vidéos et on compose des posts sociaux à partir de modèles. Une communauté permet de partager et de remixer des contenus, ce qui a aidé sa diffusion chez les jeunes créateurs et les petites entreprises.

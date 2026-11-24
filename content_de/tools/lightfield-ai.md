@@ -17,9 +17,10 @@ alternatives:
   - pipedrive
   - close
   - salesforce
+  - altercontacts
 date: '2025-01-01'
 tags: [crm, sales, business, customers, relationships, pipeline, contacts, deals, customer_data]
-i18n_source: '538d3847f3df'
+i18n_source: 'cdcaf48cb134'
 ---
 
 Lightfield denkt CRM als ein System neu, das sich selbst befüllt. Es verbindet E-Mail, Kalender und Anrufaufzeichnungen und extrahiert automatisch Kontakte, Unternehmen, Geschäfte und Notizen. So bleiben Datensätze aktuell, ohne dass Vertriebsmitarbeiter alles eintippen müssen. Ziel ist, die unbeliebte Dateneingabe zu beseitigen.

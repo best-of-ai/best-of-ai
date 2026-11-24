@@ -18,9 +18,13 @@ alternatives:
   - smartly
   - creatopy
   - aiter-io
+  - creatify
+  - synter
+  - maxma
+  - adside
 date: '2025-06-15'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting, analytics]
-i18n_source: 'dc2a2500f70b'
+i18n_source: 'c1cb9603f2c3'
 ---
 
 Madgicxは、有料のSNS広告を運用するパフォーマンスマーケターやEコマースのブランド向けです。広告アカウントと接続してキャンペーンを分析し、成果の高い広告セットへの予算の移動、成果の低いものの停止、新しいオーディエンスのテストなどを提案したり、実行したりします。自動化ルールがこうした変更を継続的に回します。

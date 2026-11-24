@@ -18,6 +18,7 @@ alternatives:
 - kayak
 - hopper
 - mova-guide
+- tripmojo
 date: '2025-10-01'
 tags:
 - collaboration
@@ -28,7 +29,7 @@ tags:
 - service
 - solution
 - saas
-i18n_source: '2667b5d6aa2f'
+i18n_source: 'b8ab238614b0'
 ---
 
 Wanderlog verbindet ein Reisetagebuch mit einer Karte. Du legst eine Reise an, fügst Hotels, Restaurants und Sehenswürdigkeiten hinzu und ordnest sie den einzelnen Tagen zu. Die App zeigt alles auf einer Karte samt Fahrtzeiten zwischen Stopps und kann die Reihenfolge optimieren, damit du nicht unnötig zurückfährst. Buchungsbestätigungen aus E-Mails lassen sich importieren, Ausgaben erfassen. Die mobilen Apps funktionieren auch offline – praktisch unterwegs.

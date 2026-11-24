@@ -17,6 +17,7 @@ alternatives:
   - apollo
   - clay
   - amplemarket
+  - alsona
 date: '2026-11-05'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting]
 ---

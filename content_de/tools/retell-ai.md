@@ -16,6 +16,7 @@ alternatives:
 - bland-ai
 - synthflow
 - openai-realtime-api
+- call-e
 date: '2026-11-05'
 tags:
 - customer_support
@@ -27,7 +28,7 @@ tags:
 - live_chat
 - service
 - resolution
-i18n_source: 'cf1b06cae3a2'
+i18n_source: '55a57adae067'
 ---
 
 Retell stellt die Infrastruktur für Sprachagenten bereit. Entwickler:innen definieren Prompt und Werkzeuge eines Agenten, verbinden eine Telefonnummer und überlassen der Plattform Spracherkennung, Sprachmodell, Sprachsynthese und Anrufsteuerung – einschließlich natürlicher Gesprächswechsel und Unterbrechungen.

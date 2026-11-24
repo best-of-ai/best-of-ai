@@ -20,9 +20,10 @@ alternatives:
   - instantly
   - lemlist
   - smartlead
+  - alsona
 date: '2025-09-21'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, enterprise, customizable]
-i18n_source: '7b4b98a8cfb1'
+i18n_source: 'c18106b04d92'
 ---
 
 O Salesloft ajuda equipes de vendas a organizar atividades de prospecção e acompanhamento. Representantes seguem cadências, sequências estruturadas de e-mails, chamadas e interações em redes sociais; a plataforma indica quem contatar em seguida e registra cada atividade no CRM. Gestores veem quais mensagens e sequências geram respostas e reuniões e orientam representantes com gravações e análises de chamadas.

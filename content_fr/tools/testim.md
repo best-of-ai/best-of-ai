@@ -19,9 +19,10 @@ alternatives:
   - browserstack-test-companion
   - momentic-mo
   - percy
+  - testsprite
 date: '2025-10-01'
 tags: [integrations, fast, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: 'b2b384c69c23'
+i18n_source: '10b2afda1362'
 ---
 
 Testim traite l'un des gros points douloureux de l'automatisation de tests : des tests qui cassent dès que l'interface change. Au lieu de s'appuyer sur un seul identifiant fragile pour chaque élément, la plateforme utilise l'apprentissage automatique pour retenir plusieurs attributs de chaque élément, afin que le test retrouve un bouton après qu'un développeur l'a renommé ou déplacé. Ce comportement auto-réparateur réduit le temps passé à réparer les tests.

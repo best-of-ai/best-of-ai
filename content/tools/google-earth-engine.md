@@ -15,6 +15,7 @@ alternatives:
   - qgis
   - arcgis
   - planet-labs
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

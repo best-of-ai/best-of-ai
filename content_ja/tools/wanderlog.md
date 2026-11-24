@@ -17,9 +17,10 @@ alternatives:
   - kayak
   - hopper
   - mova-guide
+  - tripmojo
 date: '2025-10-01'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: '2667b5d6aa2f'
+i18n_source: 'b8ab238614b0'
 ---
 
 Wanderlogは旅行ノートと地図を組み合わせています。旅行を作成し、ホテル、レストラン、観光地などの場所を追加して、日ごとに並べます。アプリはすべてを地図に表示し、地点間の移動時間も示し、戻り歩きを減らす順番に最適化できます。予約はメールから取り込め、経費を記録でき、モバイルアプリはオフラインでも動くので、旅行中に便利です。

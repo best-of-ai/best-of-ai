@@ -19,6 +19,7 @@ alternatives:
 - inworld-ai
 - character-ai
 - latitude
+- wanaka-studio
 date: '2025-09-21'
 tags:
 - gaming
@@ -30,7 +31,7 @@ tags:
 - procedural
 - npcs
 - immersive
-i18n_source: '151fe38ee6eb'
+i18n_source: '9743cd9ac3e3'
 ---
 
 AI Dungeon war ein Vorreiter bei KI-Erzählspielen. Du wählst eine Umgebung wie Fantasy, Mystery oder Survival oder erstellst eine eigene und beschreibst, was deine Figur tut. Die KI schildert, was als Nächstes geschieht. Da es kein festes Skript gibt, kannst du alles versuchen und die Geschichte passt sich an. So entsteht ein anderes Spielerlebnis als bei traditionellen Abenteuern – mit offenen Möglichkeiten und mitunter überraschenden Wendungen.

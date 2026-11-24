@@ -18,9 +18,10 @@ alternatives:
   - sloyd
   - inworld-ai
   - leonardo-ai
+  - wanaka-studio
 date: '2025-09-21'
 tags: [gaming, creative, entertainment, games, interactive, game_development, procedural, npcs, immersive, mobile_app, customizable, image_based]
-i18n_source: 'd239ba9e2fe2'
+i18n_source: '7fbf1cc86cd8'
 ---
 Scenario est construit autour de la cohérence, qui est le principal défi de l'IA générative en production de jeux. Un studio envoie des exemples de son art, et Scenario entraîne un modèle sur mesure qui apprend le style, pour que les personnages, les accessoires et les environnements générés aient l'air d'appartenir au même jeu. Les artistes peuvent s'en servir pour créer des concepts, des variations et des assets finis plus vite.
 

@@ -17,9 +17,10 @@ alternatives:
   - fathom
   - tactiq
   - sembly-ai
+  - pauta
 date: '2025-01-01'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, real_time, analytics, powerful]
-i18n_source: '6a876bc659e4'
+i18n_source: '05cb40852b71'
 ---
 
 Hedy AIは、あとから要約するメモ取りとは役割が違います。通話や会話の最中に聞き、その場で手がかりを出します。答えの案、聞くべき質問、文脈のリマインダーです。狙いは、会話が進んでいるあいだに、使う人がよりうまく話せるようにすることです。

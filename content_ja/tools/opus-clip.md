@@ -20,9 +20,10 @@ alternatives:
   - submagic
   - clipfinder-ai
   - captions-ai
+  - videco
 date: '2025-09-21'
 tags: [video_editing, creative, video, production, media, cutting, transitions, effects, export]
-i18n_source: '99876c321ce4'
+i18n_source: 'ab2bee41c6a1'
 ---
 
 Opus Clipは、ポッドキャスターやストリーマー、マーケターが何時間もかけている作業、つまり長い録画からショート動画を切り出す作業を自動化します。リンクを貼るか動画をアップロードすると、AIが書き起こしと映像を解析し、強い導入と完結した内容を持つ区間を探します。タイトル、字幕、話者を枠内に収める縦型レイアウトを備えたクリップが、複数本できあがります。

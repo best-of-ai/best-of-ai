@@ -21,9 +21,11 @@ alternatives:
   - avoma
   - supernormal
   - zoom-ai
+  - pauta
+  - bluedot-notetaker
 date: '2025-09-21'
 tags: [meeting, productivity, transcription, collaboration, notes, summaries, action_items, video_calls, recap, fast]
-i18n_source: '166b2e4d8878'
+i18n_source: '5f27bf243d51'
 ---
 
 Fathomは、会議メモを無料にしたことで知られています。Zoom、Google Meet、Microsoft Teamsの通話に参加し、録音して、リアルタイムで文字起こしを作ります。通話中はクリックで重要な場面を印付けでき、会議が終わってから数秒で、決定事項、アクション項目、要点を含む要約を作り、共有できます。無料プランには録音と文字起こしが無制限で含まれ、無料利用に上限を設ける競合とここが違います。

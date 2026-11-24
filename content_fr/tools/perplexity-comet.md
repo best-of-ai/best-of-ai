@@ -19,9 +19,10 @@ alternatives:
   - brave-leo
   - genspark
   - sider-omni-sidebar
+  - saparo
 date: '2026-07-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, mobile_app, free_tier]
-i18n_source: 'eaab61389ca2'
+i18n_source: 'ad4a31d55728'
 ---
 
 Comet fait de l'assistant une partie du navigateur. Au lieu de copier du contenu dans un chatbot, on peut poser des questions sur la page en cours, comparer de l'information entre onglets, résumer un fil, ou faire chercher et rassembler des résultats par l'assistant. Le moteur de réponses de Perplexity est la façon par défaut de chercher.

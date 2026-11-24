@@ -15,9 +15,10 @@ alternatives:
   - qgis
   - arcgis
   - mapbox
+  - waldo-wherobots
 date: '2026-11-08'
 tags: [collaboration, ai_powered, intelligent, platform, tool, service, solution, saas]
-i18n_source: 'dcf19d12490c'
+i18n_source: 'fa3bb2a869bf'
 ---
 On importe des fichiers SIG et des tableurs, on dessine sur la carte et on ajoute des commentaires. Les cartes se partagent par lien et s'intègrent dans des sites web. Des fonctions d'IA peuvent aider à styler les calques et à transformer les données à partir d'une demande en langage courant.
 

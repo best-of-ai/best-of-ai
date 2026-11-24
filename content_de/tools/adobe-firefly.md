@@ -22,6 +22,7 @@ alternatives:
 - stable-diffusion
 - flux
 - canva
+- youart
 date: '2025-09-21'
 tags:
 - design
@@ -36,7 +37,7 @@ tags:
 - cloud_based
 - image_based
 - training
-i18n_source: 'bc3bede44f52'
+i18n_source: 'fac5082529ba'
 ---
 
 Firefly ist Adobes Plattform für generative KI. Die Web-App erzeugt Bilder anhand von Textbeschreibungen, erweitert oder bearbeitet vorhandene Bilder, erstellt kurze Videoclips und generiert Audio und Vektorgrafiken. Adobe hat eigene Modelle mit lizenzierten Inhalten wie Adobe Stock und gemeinfreien Materialien trainiert. Das Unternehmen vermarktet sie als sicherer für die kommerzielle Nutzung als Modelle, die mit aus dem Web kopierten Bildern trainiert wurden. Die Ergebnisse enthalten Content Credentials, die auf ihre Erstellung mit KI hinweisen.

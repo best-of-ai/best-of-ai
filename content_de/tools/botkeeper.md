@@ -21,6 +21,7 @@ alternatives:
 - zeni-ai
 - bill-com-ai
 - vic-ai
+- latch
 date: '2025-09-21'
 tags:
 - finance
@@ -35,7 +36,7 @@ tags:
 - integrations
 - machine_learning
 - fast
-i18n_source: 'c4e408b36e86'
+i18n_source: 'bbf12ede788e'
 ---
 
 Botkeeper bot Buchhaltungskanzleien eine Möglichkeit, ihre Arbeit mithilfe von Automatisierung auszuweiten. Die Software verband sich mit den Buchhaltungssystemen der Kund:innen, kategorisierte Transaktionen mithilfe maschinellen Lernens, glich Konten ab und bereitete Finanzberichte vor. Menschen prüften die Ergebnisse. Ziel war, mit denselben Mitarbeitenden mehr Kund:innen zu bedienen und wiederkehrende Dateneingaben zu reduzieren.

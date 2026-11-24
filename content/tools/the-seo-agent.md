@@ -18,6 +18,7 @@ alternatives:
   - alli-ai
   - growthbar
   - blogseo
+  - rankspot
 date: '2025-01-01'
 tags: [seo, marketing, analytics, ranking, optimization, keywords, content_seo, backlinks, serp, collaboration, fast]
 ---

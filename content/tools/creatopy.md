@@ -18,6 +18,8 @@ alternatives:
   - aiter-io
   - smartly
   - canva
+  - creatify
+  - adside
 date: '2026-11-05'
 tags: [advertising, marketing, creative, ads, campaigns, ad_copy, digital_ads, performance, targeting]
 ---

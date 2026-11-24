@@ -20,6 +20,7 @@ alternatives:
 - alli-ai
 - growthbar
 - blogseo
+- rankspot
 date: '2025-01-01'
 tags:
 - seo
@@ -33,7 +34,7 @@ tags:
 - serp
 - collaboration
 - fast
-i18n_source: 6ffe1b55d160
+i18n_source: '460f1ccf9e37'
 ---
 
 The SEO Agent automatiza o fluxo de conteúdo. A pessoa informa um site ou tema, e a ferramenta encontra palavras-chave, planeja artigos e escreve rascunhos otimizados para buscas, com opções de publicação em um sistema de gestão de conteúdo.

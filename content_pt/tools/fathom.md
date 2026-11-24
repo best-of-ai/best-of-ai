@@ -24,6 +24,8 @@ alternatives:
 - avoma
 - supernormal
 - zoom-ai
+- pauta
+- bluedot-notetaker
 date: '2025-09-21'
 tags:
 - meeting
@@ -36,7 +38,7 @@ tags:
 - video_calls
 - recap
 - fast
-i18n_source: '166b2e4d8878'
+i18n_source: '5f27bf243d51'
 ---
 
 O Fathom é conhecido por oferecer anotações de reuniões gratuitamente. Ele participa de chamadas do Zoom, Google Meet ou Microsoft Teams, grava-as e cria uma transcrição em tempo real. Você pode destacar momentos importantes durante a chamada com um clique e, poucos segundos após o término da reunião, recebe um resumo com decisões, itens de ação e pontos principais para compartilhar. O plano gratuito inclui gravações e transcrições ilimitadas, o que o diferencia de concorrentes que limitam o uso gratuito.

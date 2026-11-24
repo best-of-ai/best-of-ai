@@ -20,9 +20,11 @@ alternatives:
   - browserstack-test-companion
   - percy
   - testifly
+  - testsprite
+  - seldon-wren
 date: '2025-10-01'
 tags: [mobile_app, integrations, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '08f159f6aa94'
+i18n_source: '64d589bfd54b'
 ---
 
 Mablは、自動テストを壊れにくくすることをめざしています。チームがサインインやチェックアウトなどのユーザーフローを記録するか言葉で説明すると、プラットフォームがそれを自動テストにして、ブラウザとデバイスをまたいでクラウドで実行します。ローコードなので、QAエンジニアも開発者も、すべてをコードで書かずにテストを作れます。必要ならスクリプトも書けます。テストはスケジュールで実行でき、コードの変更時にはCI/CDパイプラインでも実行されます。

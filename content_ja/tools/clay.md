@@ -20,9 +20,10 @@ alternatives:
   - seamless-ai
   - instantly
   - 11x-ai
+  - alsona
 date: '2025-01-01'
 tags: [sales, business, crm, revenue, conversion, pipeline, prospecting, closing, forecasting, collaboration, customizable]
-i18n_source: 'a4594ec23bb3'
+i18n_source: '9c691f39bfa8'
 ---
 
 Clayは、営業とマーケティングのデータ用の表計算のように動きます。企業や人物のリストから始め、Clayが列を足して情報を調べます。メール、役職、資金調達、使っている技術、最近のニュースなどで、多くのデータ提供者から取ります。ウォーターフォールの補完は、結果が出るまでソースを順に試し、1社だけに頼るよりカバーが広がります。

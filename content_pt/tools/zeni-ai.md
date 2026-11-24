@@ -20,6 +20,7 @@ alternatives:
 - ramp
 - quickbooks
 - mosaic-tech
+- latch
 date: '2025-09-21'
 tags:
 - finance
@@ -32,7 +33,7 @@ tags:
 - fintech
 - reporting
 - real_time
-i18n_source: 91a7e1611616
+i18n_source: 'a0f1944f91a3'
 ---
 Zeni oferece serviços financeiros terceirizados para startups. As empresas conectam suas contas bancárias, e a Zeni cuida da escrituração contábil, contas a pagar, impostos e serviços de CFO, com um painel que mostra caixa, queima de caixa e tempo de sobrevivência em tempo real. Pessoas revisam o trabalho da IA.
 

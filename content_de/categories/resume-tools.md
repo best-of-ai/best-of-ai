@@ -1,5 +1,5 @@
 ---
-title: 'Die besten KI-Tools für Lebenslauf-Tools'
+title: 'Die besten KI-Tools für Lebensläufe'
 name: 'Lebenslauf-Tools'
 slug: 'resume-tools'
 description: 'KI-Lebenslaufgeneratoren und Optimierungstools, mit denen Jobsuchende überzeugende Lebensläufe und Bewerbungen erstellen.'

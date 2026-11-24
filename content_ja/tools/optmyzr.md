@@ -14,9 +14,11 @@ rank: 5
 alternatives:
   - adalysis
   - madgicx
+  - synter
+  - maxma
 date: '2026-11-08'
 tags: [marketing, business, campaigns, growth, promotion, demand_generation, brand, digital_marketing, roi]
-i18n_source: '39e4e1b8e522'
+i18n_source: 'a1d93451793e'
 ---
 
 Optmyzrは、有料検索や有料ソーシャルのアカウントを運用する人向けのソフトウェアです。Google Ads、Microsoft Ads、Amazon、Metaなどに接続し、自動化、監視、監査、レポートのツールを使えるので、日常の最適化作業に1週間をとられずに済みます。

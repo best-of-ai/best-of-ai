@@ -18,9 +18,10 @@ alternatives:
   - mapbox
   - nearmap
   - planet-labs
+  - waldo-wherobots
 date: '2025-10-01'
 tags: [enterprise, cloud_based, analytics, powerful, ai_powered, intelligent, platform, tool]
-i18n_source: 'af2b634aed73'
+i18n_source: '831416d5c56e'
 ---
 
 ArcGISは、商用GISプラットフォームの中心です。政府、公益事業、環境機関、都市計画の担当者、企業が、位置データを集め、地図に示し、空間の関係を分析するために使います。たとえば、どの地区が洪水区域に入るか、新しい店舗をどこに置くか、といったことです。製品群には、デスクトップ分析のArcGIS Pro、地図を作って共有するクラウドサービスのArcGIS Online、自社のサーバーで動かす組織向けのArcGIS Enterpriseがあります。

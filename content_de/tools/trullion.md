@@ -16,6 +16,7 @@ alternatives:
 - botkeeper
 - vic-ai
 - stampli-ai
+- latch
 date: '2025-06-15'
 tags:
 - finance
@@ -27,7 +28,7 @@ tags:
 - budgeting
 - fintech
 - reporting
-i18n_source: '2be121cfd4cb'
+i18n_source: 'b47599b4e033'
 ---
 
 Trullion unterstützt Buchhaltungsstandards, bei denen Verträge ausgewertet werden müssen. Bei Leasing- und Umsatzverträgen entnehmen Finanzteams Zahlungsbedingungen, Daten und Optionen, um Berechnungen durchzuführen. Die KI von Trullion liest Dokumente aus, extrahiert Angaben und erstellt Zeitpläne und Buchungssätze.
