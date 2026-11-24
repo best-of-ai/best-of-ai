@@ -18,9 +18,10 @@ alternatives:
   - cvat
   - evidently-ai
   - giskard
+  - kalanos-grader
 date: '2025-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, training, model_based]
-i18n_source: '9ccef5f52a04'
+i18n_source: '81054c757173'
 ---
 
 Cleanlabは、モデルの質はデータの質による、という考えから始まります。実際のデータセットには誤りがあります。ラベルの違う画像、重複した例、外れ値です。Cleanlabのオープンソースのライブラリは、統計的な手法とモデルの予測で、間違っている可能性が高い例を見つけるので、チームは全部を見直さずにそれらを直せます。

@@ -14,9 +14,10 @@ rank: 6
 alternatives:
   - formant
   - intrinsic
+  - kalanos-grader
 date: '2026-11-05'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '945086c10637'
+i18n_source: 'fa9c258b85c3'
 ---
 Foxglove aide les équipes de robotique à comprendre ce que leurs machines ont fait. Les robots génèrent des flux de caméras, lidar, GPS, moteurs et logs, et le débogage demande de les regarder ensemble sur une timeline. Le viewer de Foxglove montre images, nuages de points, courbes, cartes et scènes 3D dans des panneaux personnalisables qui restent synchronisés, et il fonctionne avec ROS et d'autres frameworks.
 

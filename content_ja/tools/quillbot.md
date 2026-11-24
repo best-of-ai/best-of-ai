@@ -20,9 +20,10 @@ alternatives:
   - prowritingaid
   - writer
   - rytr
+  - getsolved-ai-humanizer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, powerful]
-i18n_source: '942ac71337a1'
+i18n_source: 'b9d461d24d89'
 ---
 
 QuillBotは言い換えツールとして始まり、いまも利用者の多くはその目的で使っています。文章を貼り付け、標準、流暢、フォーマル、短縮などのモードを選ぶと、意味を保ったまま書き直します。スライダーで、表現をどれだけ変えるかを調整できます。学生、英語が母語でない人、プロの書き手が、ぎこちない文の言い換え、下書きの短縮、文体の変化づけに使っています。

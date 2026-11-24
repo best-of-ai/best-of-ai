@@ -20,9 +20,10 @@ alternatives:
   - prowritingaid
   - writer
   - rytr
+  - getsolved-ai-humanizer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, voice_enabled]
-i18n_source: '9cc42fc2fdcc'
+i18n_source: 'b197b80e458b'
 ---
 
 Wordtune est bâti autour de la réécriture. Surligne une phrase dans ton brouillon et il propose plusieurs alternatives : plus courte, plus longue, plus décontractée ou plus formelle. Tu choisis celle qui sonne juste et tu gardes ta voix, au lieu de coller un bloc de texte généré. Ça en fait davantage un outil d'éditeur qu'un générateur de texte, ce qui convient aux gens qui savent déjà ce qu'ils veulent dire et ont besoin d'aide pour le formuler.

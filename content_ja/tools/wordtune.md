@@ -20,9 +20,10 @@ alternatives:
   - prowritingaid
   - writer
   - rytr
+  - getsolved-ai-humanizer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, voice_enabled]
-i18n_source: '9cc42fc2fdcc'
+i18n_source: 'b197b80e458b'
 ---
 
 Wordtuneは書き換えを軸に作られています。下書きの文をハイライトすると、短め、長め、くだけた調子、フォーマルな調子など、複数の候補が出ます。合うものを選べば、生成された長い文章を貼り付けるのではなく、自分の言葉を保てます。そのため、文章生成というより編集者のツールに近く、言いたいことは決まっていて、言い回しに手助けが欲しい人に向いています。

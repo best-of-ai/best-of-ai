@@ -19,9 +19,10 @@ alternatives:
   - wordtune
   - hemingway-editor
   - writer
+  - getsolved-ai-humanizer
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration]
-i18n_source: 'c5318ff5a759'
+i18n_source: '633e5cd9a85b'
 ---
 
 Grammarlyは文法チェッカーとして始まり、いろいろな場所に入れておく執筆の補助になりました。ブラウザ拡張、デスクトップアプリ、モバイルのキーボード、WordとGoogle Docs向けのプラグインが、入力中のメール、メッセージ、文書の誤りに下線を引きます。誤字と文法の誤りを拾い、冗長な文や分かりにくい文を指摘し、もっと自信のある調子や、もっと親しみやすい調子など、別のトーンを提案します。無料版は基本を扱います。

@@ -14,6 +14,7 @@ rank: 6
 alternatives:
   - formant
   - intrinsic
+  - kalanos-grader
 date: '2026-11-05'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
 ---

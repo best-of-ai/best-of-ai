@@ -20,9 +20,10 @@ alternatives:
   - prowritingaid
   - writer
   - rytr
+  - getsolved-ai-humanizer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, powerful]
-i18n_source: '942ac71337a1'
+i18n_source: 'b9d461d24d89'
 ---
 
 QuillBot a commencé comme un outil de paraphrase, et c'est encore ce qui attire la plupart de ses utilisateurs. On colle un passage, on choisit un mode comme standard, fluide, formel ou plus court, et il réécrit le texte en gardant le sens. Un curseur règle l'ampleur du changement de formulation. Étudiants, personnes dont l'anglais n'est pas la langue maternelle et auteurs professionnels s'en servent pour reformuler des phrases maladroites, raccourcir des brouillons et varier le style.

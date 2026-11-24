@@ -15,9 +15,10 @@ rank: 7
 alternatives:
   - foxglove
   - intrinsic
+  - kalanos-grader
 date: '2025-10-01'
 tags: [collaboration, cloud_based, autonomous, ai_powered, intelligent, platform, tool, service]
-i18n_source: 'ca0bcf05e3b9'
+i18n_source: '1ff2f3d59653'
 ---
 Formant résout des problèmes opérationnels qui apparaissent une fois que les robots quittent le labo. Les entreprises qui font tourner des flottes de robots mobiles, de drones ou de bras ont besoin de savoir ce que fait chaque machine, de diagnostiquer les problèmes, et parfois de prendre le contrôle. Formant collecte la télémétrie, la vidéo et les données de capteurs des robots, les montre dans des dashboards, et lève des alertes quand quelque chose tourne mal, en travaillant avec des robots qui tournent sous ROS ou un autre logiciel.
 

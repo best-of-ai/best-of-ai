@@ -18,6 +18,7 @@ alternatives:
   - cvat
   - evidently-ai
   - giskard
+  - kalanos-grader
 date: '2025-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, training, model_based]
 ---

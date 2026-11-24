@@ -15,9 +15,10 @@ rank: 7
 alternatives:
   - foxglove
   - intrinsic
+  - kalanos-grader
 date: '2025-10-01'
 tags: [collaboration, cloud_based, autonomous, ai_powered, intelligent, platform, tool, service]
-i18n_source: 'ca0bcf05e3b9'
+i18n_source: '1ff2f3d59653'
 ---
 
 Formantは、ロボットが研究室を出たあとに起きる運用の問題を扱います。移動ロボット、ドローン、アームのフリートを動かす会社は、各機械が何をしているかを知り、問題を診断し、ときには制御を取る必要があります。Formantはロボットからテレメトリ、動画、センサーデータを集め、ダッシュボードに示し、異常があればアラートを出します。ROSやそのほかのソフトで動くロボットに対応します。

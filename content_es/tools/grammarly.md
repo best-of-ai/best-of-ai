@@ -19,9 +19,10 @@ alternatives:
   - wordtune
   - hemingway-editor
   - writer
+  - getsolved-ai-humanizer
 date: '2025-09-21'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, collaboration]
-i18n_source: 'c5318ff5a759'
+i18n_source: '633e5cd9a85b'
 ---
 
 Grammarly empezó como corrector gramatical y se convirtió en el ayudante de escritura que la gente deja instalado en todas partes. Una extensión de navegador, una app de escritorio, un teclado móvil y complementos para Word y Google Docs subrayan los errores en correos, mensajes y documentos mientras escribes. Detecta erratas y errores gramaticales, señala frases largas o poco claras y sugiere otro tono, por ejemplo más seguro o más cercano. Una versión gratuita cubre lo básico.

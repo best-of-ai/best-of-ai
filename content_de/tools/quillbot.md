@@ -22,6 +22,7 @@ alternatives:
 - prowritingaid
 - writer
 - rytr
+- getsolved-ai-humanizer
 date: '2025-01-01'
 tags:
 - writing
@@ -34,7 +35,7 @@ tags:
 - ai_writing
 - drafting
 - powerful
-i18n_source: '942ac71337a1'
+i18n_source: 'b9d461d24d89'
 ---
 
 QuillBot begann als Werkzeug zum Umformulieren und wird dafür weiterhin am häufigsten genutzt. Du fügst einen Text ein, wählst einen Modus wie Standard, flüssig, formell oder kürzer und lässt ihn bei gleichbleibender Aussage neu formulieren. Mit einem Regler bestimmst du, wie stark sich der Wortlaut ändert. Studierende, Menschen mit Englisch als Zweitsprache und professionelle Schreibende nutzen das Tool, um holprige Sätze umzuformulieren, Entwürfe zu kürzen und ihren Stil zu variieren.

@@ -22,6 +22,7 @@ alternatives:
 - prowritingaid
 - writer
 - rytr
+- getsolved-ai-humanizer
 date: '2025-01-01'
 tags:
 - writing
@@ -34,7 +35,7 @@ tags:
 - ai_writing
 - drafting
 - voice_enabled
-i18n_source: '9cc42fc2fdcc'
+i18n_source: 'b197b80e458b'
 ---
 
 Wordtune konzentriert sich aufs Umformulieren. Markiere einen Satz in deinem Entwurf und erhalte mehrere Alternativen: kürzer, länger, lockerer oder formeller. Du wählst die passende Variante und behältst deine eigene Stimme, statt einen ganzen Block generierten Text einzufügen. Damit ist Wordtune eher ein Werkzeug für die Textbearbeitung als ein Textgenerator. Es passt zu Menschen, die schon wissen, was sie sagen möchten, aber Hilfe bei der Formulierung brauchen.

@@ -21,6 +21,7 @@ alternatives:
 - cvat
 - evidently-ai
 - giskard
+- kalanos-grader
 date: '2025-06-15'
 tags:
 - data_analysis
@@ -35,7 +36,7 @@ tags:
 - collaboration
 - training
 - model_based
-i18n_source: '9ccef5f52a04'
+i18n_source: '81054c757173'
 ---
 
 O Cleanlab parte da ideia de que a qualidade do modelo depende da qualidade dos dados. Conjuntos de dados reais contêm erros: imagens com rótulos incorretos, exemplos duplicados e valores atípicos. A biblioteca de código aberto do Cleanlab usa métodos estatísticos e previsões de modelos para localizar os exemplos com maior probabilidade de estarem incorretos, permitindo que a equipe os corrija em vez de revisar tudo.

@@ -17,6 +17,7 @@ rank: 7
 alternatives:
 - foxglove
 - intrinsic
+- kalanos-grader
 date: '2025-10-01'
 tags:
 - collaboration
@@ -27,7 +28,7 @@ tags:
 - platform
 - tool
 - service
-i18n_source: 'ca0bcf05e3b9'
+i18n_source: '1ff2f3d59653'
 ---
 
 Formant löst Betriebsprobleme, die auftreten, sobald Roboter das Labor verlassen. Unternehmen mit Flotten mobiler Roboter, Drohnen oder Roboterarmen müssen wissen, was jede Maschine tut, Probleme diagnostizieren und manchmal die Steuerung übernehmen. Formant sammelt Telemetrie-, Video- und Sensordaten, zeigt sie in Dashboards und löst bei Problemen Warnungen aus. Die Plattform funktioniert mit Robotern, auf denen ROS oder andere Software läuft.

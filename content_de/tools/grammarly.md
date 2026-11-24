@@ -21,6 +21,7 @@ alternatives:
 - wordtune
 - hemingway-editor
 - writer
+- getsolved-ai-humanizer
 date: '2025-09-21'
 tags:
 - writing
@@ -33,7 +34,7 @@ tags:
 - ai_writing
 - drafting
 - collaboration
-i18n_source: 'c5318ff5a759'
+i18n_source: '633e5cd9a85b'
 ---
 
 Grammarly begann als Grammatikprüfung und wurde zu einem Schreibassistenten, den viele überall installiert haben. Eine Browser-Erweiterung, Desktop-App, Mobil-Tastatur und Plugins für Word und Google Docs markieren beim Schreiben Fehler in E-Mails, Nachrichten und Dokumenten. Grammarly erkennt Tipp- und Grammatikfehler, weist auf umständliche oder unklare Sätze hin und schlägt einen anderen Ton vor, etwa selbstbewusster oder freundlicher. Eine kostenlose Version deckt die Grundlagen ab.

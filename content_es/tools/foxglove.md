@@ -14,9 +14,10 @@ rank: 6
 alternatives:
   - formant
   - intrinsic
+  - kalanos-grader
 date: '2026-11-05'
 tags: [cloud_based, image_based, ai_powered, intelligent, platform, tool, service, solution]
-i18n_source: '945086c10637'
+i18n_source: 'fa9c258b85c3'
 ---
 
 Foxglove ayuda a los equipos de robótica a entender lo que hicieron sus máquinas. Los robots generan flujos de cámaras, lidar, GPS, motores y registros, y depurar exige verlos juntos en una línea de tiempo. El visor de Foxglove muestra imágenes, nubes de puntos, gráficas, mapas y escenas 3D en paneles personalizables que se mantienen sincronizados, y funciona con ROS y otros marcos de trabajo.

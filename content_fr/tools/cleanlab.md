@@ -18,9 +18,10 @@ alternatives:
   - cvat
   - evidently-ai
   - giskard
+  - kalanos-grader
 date: '2025-06-15'
 tags: [data_analysis, analytics, business, insights, visualization, data_science, reporting, dashboards, sql, collaboration, training, model_based]
-i18n_source: '9ccef5f52a04'
+i18n_source: '81054c757173'
 ---
 
 Cleanlab part de l'idée que la qualité du modèle dépend de la qualité des données. Les vrais jeux de données contiennent des erreurs : images mal étiquetées, exemples dupliqués et valeurs aberrantes. La bibliothèque open source de Cleanlab utilise des méthodes statistiques et les prédictions du modèle pour trouver les exemples les plus probablement faux, pour qu'une équipe les corrige au lieu de tout relire.

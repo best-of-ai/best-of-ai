@@ -15,6 +15,7 @@ rank: 7
 alternatives:
   - foxglove
   - intrinsic
+  - kalanos-grader
 date: '2025-10-01'
 tags: [collaboration, cloud_based, autonomous, ai_powered, intelligent, platform, tool, service]
 ---

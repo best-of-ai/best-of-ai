@@ -15,9 +15,10 @@ rank: 7
 alternatives:
   - foxglove
   - intrinsic
+  - kalanos-grader
 date: '2025-10-01'
 tags: [collaboration, cloud_based, autonomous, ai_powered, intelligent, platform, tool, service]
-i18n_source: 'ca0bcf05e3b9'
+i18n_source: '1ff2f3d59653'
 ---
 
 Formant resolve problemas operacionais que surgem quando robôs saem do laboratório. Empresas que operam frotas de robôs móveis, drones ou braços robóticos precisam saber o que cada máquina está fazendo, diagnosticar problemas e, às vezes, assumir seu controle. Formant coleta telemetria, vídeo e dados de sensores dos robôs, exibe-os em painéis e gera alertas quando algo dá errado. Funciona com robôs que executam ROS ou outros softwares.
