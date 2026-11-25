@@ -12,9 +12,9 @@ install: 'Clone the repo and copy remotion-motion-graphics into ~/.claude/skills
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 876
+stars: 1304
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [remotion, video, motion-graphics]

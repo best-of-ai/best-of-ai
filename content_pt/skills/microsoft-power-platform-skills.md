@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1123
+stars: 1178
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [power-platform, power-apps, microsoft, plugins]
-i18n_source: '6f965e2dc239'
+i18n_source: '921b0a090af6'
 ---
 

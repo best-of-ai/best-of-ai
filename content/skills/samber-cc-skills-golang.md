@@ -12,9 +12,9 @@ install: 'Run npx skills add https://github.com/samber/cc-skills-golang --all, o
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3815
+stars: 3963
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [golang, go, backend]

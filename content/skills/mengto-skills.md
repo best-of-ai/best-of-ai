@@ -12,9 +12,9 @@ install: 'Reference the relevant skill from CLAUDE.md, or copy it into a Claude 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 7226
-stars_this_week: 165
-stars_updated: '2026-11-04'
+stars: 8215
+stars_this_week: 217
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-04'
 tags: [design, games, web]

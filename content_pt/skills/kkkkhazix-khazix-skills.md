@@ -12,13 +12,13 @@ install: 'Install a skill directly from its GitHub folder URL, or download the S
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 21930
-stars_this_week: 170
-stars_updated: '2026-11-04'
+stars: 22515
+stars_this_week: 69
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [personal, productivity]
-i18n_source: '622c4e3357dc'
+i18n_source: 'f232b953a2ce'
 ---
 Este repositório reúne as seguintes skills:
 

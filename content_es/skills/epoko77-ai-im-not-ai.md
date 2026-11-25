@@ -12,11 +12,11 @@ install: 'Run /plugin marketplace add epoko77-ai/im-not-ai, then /plugin install
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6444
+stars: 6758
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [humanizer, korean, rewriting, ai-detection]
-i18n_source: '65d344a20cb6'
+i18n_source: '3afc817a1ccc'
 ---

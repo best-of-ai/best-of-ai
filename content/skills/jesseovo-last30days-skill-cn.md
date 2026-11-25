@@ -11,9 +11,9 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'Ask your agent to install and configure last30days-cn from the repo, then check the available sources.'
 price: 'Free'
 open_source: true
-stars: 2080
+stars: 2229
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [research, trends, chinese, reports]

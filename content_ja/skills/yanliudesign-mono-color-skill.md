@@ -12,11 +12,11 @@ install: 'Clone the repo into ~/.claude/skills/mono-color.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3620
+stars: 3724
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [images, editorial, halftone, design]
-i18n_source: 'a671769090c4'
+i18n_source: '3ab1818a951b'
 ---

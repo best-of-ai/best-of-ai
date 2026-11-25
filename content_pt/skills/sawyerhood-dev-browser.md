@@ -20,9 +20,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 6726
+stars: 6754
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -30,7 +30,7 @@ tags:
 - automation
 - puppeteer
 - testing
-i18n_source: '9c8613807626'
+i18n_source: 'cfb753e28914'
 ---
 Este repositório reúne as seguintes skills:
 

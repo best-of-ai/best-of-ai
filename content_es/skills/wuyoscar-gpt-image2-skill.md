@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6037
+stars: 6194
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [image-generation, prompts, gpt-image, cli]
-i18n_source: '79a7d28810bf'
+i18n_source: '29088073fb6f'
 ---

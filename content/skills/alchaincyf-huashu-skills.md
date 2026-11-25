@@ -12,9 +12,9 @@ install: 'Clone the repo you want into ~/.claude/skills/, for example git clone 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2228
+stars: 2342
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [catalog, directory, chinese, skills-json]

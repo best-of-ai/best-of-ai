@@ -22,15 +22,15 @@ install: Install a chosen set of skills by running npx agentic-awesome-skills wi
 price: Free
 open_source: true
 license: MIT
-stars: 49121
-stars_this_week: 306
-stars_updated: '2026-11-04'
-rank: 8
+stars: 50248
+stars_this_week: 142
+stars_updated: '2026-11-24'
+rank: 9
 date: '2026-11-04'
 tags:
 - catalog
 - development
-i18n_source: '7e65ed75e2dc'
+i18n_source: 'b6e9115ae2f8'
 ---
 Este repositório reúne as seguintes skills:
 

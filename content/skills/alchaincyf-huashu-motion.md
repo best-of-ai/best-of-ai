@@ -12,9 +12,9 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2494
+stars: 3156
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [video, launch, motion, chinese]

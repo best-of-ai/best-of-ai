@@ -12,9 +12,9 @@ install: 'Run /plugin marketplace add Jakeschincariol/day-trader-skill, then /pl
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6046
+stars: 9431
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [trading, backtesting, stocks, charts]

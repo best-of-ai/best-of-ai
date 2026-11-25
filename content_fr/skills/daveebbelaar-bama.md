@@ -12,11 +12,11 @@ install: 'Run npx skills@latest add daveebbelaar/bama.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1677
+stars: 1963
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [macos, swift, swiftui, app-clone]
-i18n_source: '0fa003896e5c'
+i18n_source: 'cd31a769a4e3'
 ---

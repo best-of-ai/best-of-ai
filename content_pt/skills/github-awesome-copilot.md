@@ -20,15 +20,15 @@ install: Install a plugin with copilot plugin install <plugin-name>@awesome-copi
 price: Free
 open_source: true
 license: MIT
-stars: 40781
-stars_this_week: 243
-stars_updated: '2026-11-04'
+stars: 41518
+stars_this_week: 93
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags:
 - github-copilot
 - development
-i18n_source: '00c2d9215e26'
+i18n_source: 'd407dce98838'
 ---
 Este repositório reúne as seguintes skills:
 

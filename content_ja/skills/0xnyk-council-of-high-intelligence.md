@@ -12,12 +12,12 @@ install: 'In Claude Code run /plugin marketplace add 0xNyk/council-of-high-intel
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4812
+stars: 4880
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [decision-making, deliberation, debate]
-i18n_source: '15d6994ffdaf'
+i18n_source: 'b766ea35b01b'
 ---
 

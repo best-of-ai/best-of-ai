@@ -12,9 +12,9 @@ install: 'Install with pip install skill-seekers.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 15274
+stars: 15364
 stars_this_week: 0
-stars_updated: '2026-11-04'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [skill-generation, documentation, mcp, python]

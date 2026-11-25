@@ -18,9 +18,9 @@ install: Run /plugin marketplace add tigerless-labs/autoharness, then /plugin in
 price: Free
 open_source: true
 license: MIT
-stars: 10819
+stars: 11146
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - skills
 - plugin
 - agents
-i18n_source: '73cee599b741'
+i18n_source: 'df86bf378071'
 ---

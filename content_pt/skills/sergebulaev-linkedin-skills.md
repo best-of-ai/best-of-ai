@@ -19,9 +19,9 @@ install: In claude.ai open Customize, add a marketplace from a repository, and p
 price: Free
 open_source: true
 license: MIT
-stars: 5727
+stars: 6180
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -29,5 +29,5 @@ tags:
 - social-media
 - content
 - marketing
-i18n_source: '4ab0cd9fbf8c'
+i18n_source: '9e64cc1defd4'
 ---

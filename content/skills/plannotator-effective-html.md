@@ -12,9 +12,9 @@ install: 'Run npx skills add plannotator/effective-html, add --list to preview, 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4048
+stars: 4308
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [html, prototyping, wireframes, diagrams]

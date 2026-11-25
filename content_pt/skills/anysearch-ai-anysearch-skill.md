@@ -12,13 +12,13 @@ install: 'Install from your agent''s skill marketplace by searching for anysearc
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 6851
+stars: 6926
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [search, web-search, research, api]
-i18n_source: 'b0146073e4e5'
+i18n_source: 'ee8cea4e34fa'
 ---
 Este repositório reúne as seguintes skills:
 

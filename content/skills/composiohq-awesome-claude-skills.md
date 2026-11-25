@@ -12,9 +12,9 @@ install: 'For Claude Code, create ~/.config/claude-code/skills/ and copy a skill
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 78699
-stars_this_week: 466
-stars_updated: '2026-11-04'
+stars: 80230
+stars_this_week: 220
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [directory, development, curated]

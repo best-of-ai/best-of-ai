@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 7148
+stars: 7203
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [architecture, ddd, registry, security]
-i18n_source: '728514cba1d4'
+i18n_source: '5f7e4125055d'
 ---
 このリポジトリには次のスキルが含まれています。
 

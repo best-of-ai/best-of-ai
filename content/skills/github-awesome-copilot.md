@@ -12,9 +12,9 @@ install: 'Install a plugin with copilot plugin install <plugin-name>@awesome-cop
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 40781
-stars_this_week: 243
-stars_updated: '2026-11-04'
+stars: 41518
+stars_this_week: 93
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [github-copilot, development]

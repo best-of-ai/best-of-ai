@@ -12,11 +12,11 @@ install: 'Clone the repo, or use the marketplace, Codex, Antigravity or Gemini C
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 703
+stars: 534
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [terraform, iac, security, devops]
-i18n_source: 'ab413153424c'
+i18n_source: '01632b298fd8'
 ---

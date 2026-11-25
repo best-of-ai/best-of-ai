@@ -12,11 +12,11 @@ install: 'Install via npx skills add alchaincyf/huashu-design, or clone the repo
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 28635
-stars_this_week: 239
-stars_updated: '2026-11-04'
+stars: 30809
+stars_this_week: 501
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [design, html]
-i18n_source: '91a567910ec1'
+i18n_source: 'b1c46a5c9991'
 ---

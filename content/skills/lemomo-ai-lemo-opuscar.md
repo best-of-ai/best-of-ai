@@ -12,10 +12,10 @@ install: 'Run claude plugin marketplace add lemomo-ai/lemo-opuscar, then claude 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 13501
-stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 7
+stars: 20577
+stars_this_week: 981
+stars_updated: '2026-11-24'
+rank: 8
 date: '2026-11-08'
 tags: [video, animation, styles, film]
 ---

@@ -12,11 +12,11 @@ install: 'Run claude mcp add ryze --transport http https://connector.get-ryze.ai
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 8932
+stars: 10658
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [seo, geo, mcp, analytics]
-i18n_source: '8f764509aa9e'
+i18n_source: 'd801cf8808f6'
 ---

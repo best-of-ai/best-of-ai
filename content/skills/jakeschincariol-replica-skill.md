@@ -12,10 +12,10 @@ install: 'Run /plugin marketplace add Jakeschincariol/replica-skill, then /plugi
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 8283
+stars: 10518
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [app-clone, reverse-engineering, testing, rebuild]
 ---

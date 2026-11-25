@@ -12,11 +12,11 @@ install: 'Set AISA_API_KEY, then run uvx new-term-radar daily --out report.md.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2133
+stars: 2228
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [trends, keywords, seo, research]
-i18n_source: '3f899a340416'
+i18n_source: 'b4b85e088d61'
 ---

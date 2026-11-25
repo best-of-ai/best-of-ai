@@ -19,16 +19,16 @@ install: Add via the Claude Code marketplace with /plugin marketplace add trailo
 price: Free
 open_source: true
 license: CC-BY-SA-4.0
-stars: 7992
-stars_this_week: 108
-stars_updated: '2026-11-04'
+stars: 8392
+stars_this_week: 50
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-04'
 tags:
 - security
 - code-review
 - audit
-i18n_source: '073ad24e587b'
+i18n_source: '13a3fc025504'
 ---
 Este repositório reúne as seguintes skills:
 

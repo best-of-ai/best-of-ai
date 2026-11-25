@@ -12,9 +12,9 @@ install: 'Install with npx skills add blader/humanizer --global, or via /plugin 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 64590
-stars_this_week: 2257
-stars_updated: '2026-11-04'
+stars: 73044
+stars_this_week: 988
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [writing, editing]

@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 9458
+stars: 15958
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [html, decks, posters, editor]
-i18n_source: 'b80eb540ae3a'
+i18n_source: 'ae7c4e941761'
 ---
 

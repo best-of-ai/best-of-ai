@@ -12,12 +12,12 @@ install: 'See the repository README for the installer and plugin instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 296776
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 310008
+stars_this_week: 1584
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags: [harness, memory, security, development]
-i18n_source: '36730fbec715'
+i18n_source: '6d8fdfd647f6'
 ---
 

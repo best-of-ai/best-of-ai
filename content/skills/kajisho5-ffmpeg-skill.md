@@ -12,10 +12,10 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4758
-stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 5
+stars: 10547
+stars_this_week: 1159
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [ffmpeg, video, mcp, captions]
 ---

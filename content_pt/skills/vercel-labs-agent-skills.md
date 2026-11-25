@@ -16,9 +16,9 @@ compatible_with:
 install: Install with npx skills add vercel-labs/agent-skills.
 price: Free
 open_source: true
-stars: 33509
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 34851
+stars_this_week: 176
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags:
@@ -26,5 +26,5 @@ tags:
 - nextjs
 - react
 - web
-i18n_source: 'fa91beb4b874'
+i18n_source: '1aaa56b382b0'
 ---

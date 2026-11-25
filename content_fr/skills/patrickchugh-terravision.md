@@ -12,11 +12,11 @@ install: 'Install Graphviz, Git and uv, with Terraform optional for drawing from
 price: 'Free'
 open_source: true
 license: 'AGPL-3.0'
-stars: 1676
+stars: 1701
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [terraform, diagrams, aws, azure]
-i18n_source: 'ba11b771933d'
+i18n_source: 'b9fd28d0429b'
 ---

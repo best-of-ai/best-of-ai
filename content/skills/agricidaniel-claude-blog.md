@@ -12,9 +12,9 @@ install: 'In Claude Code run /plugin marketplace add AgriciDaniel/claude-blog an
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2672
+stars: 2850
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [blogging, seo, content, writing]

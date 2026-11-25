@@ -11,9 +11,9 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'Run npx skills add Vincentwei1021/video-talkcraft.'
 price: 'Free'
 open_source: true
-stars: 2184
+stars: 2520
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [video, remotion, voiceover, explainer]

@@ -12,9 +12,9 @@ install: 'Install with the skills CLI through npx, or add the Claude Code plugin
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 14676
+stars: 15742
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [design, video, frontend, image-generation]

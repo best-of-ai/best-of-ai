@@ -11,9 +11,9 @@ compatible_with: ['Claude Code']
 install: 'Browse the README and follow the install steps in each linked project.'
 price: 'Free'
 open_source: true
-stars: 57216
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 58723
+stars_this_week: 173
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [awesome-list, directory, plugins, claude-code]

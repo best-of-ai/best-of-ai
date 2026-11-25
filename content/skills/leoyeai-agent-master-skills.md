@@ -12,9 +12,9 @@ install: 'Clone the repo and copy the skills you want into ~/.claude/skills/.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2184
+stars: 2222
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [catalog, collection, directory, multi-agent]

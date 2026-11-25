@@ -12,13 +12,13 @@ install: 'Install via CLI commands for Codex, Claude Code, or Cursor; requires t
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 8672
-stars_this_week: 47
-stars_updated: '2026-11-04'
-rank: 6
+stars: 12552
+stars_this_week: 955
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-04'
 tags: [design, google, code-generation]
-i18n_source: '366c39b73723'
+i18n_source: 'a161154e5d38'
 ---
 このリポジトリには次のスキルが含まれます。
 

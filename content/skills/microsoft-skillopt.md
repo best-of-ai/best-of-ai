@@ -12,9 +12,9 @@ install: 'Clone the repository and follow the README to configure a backend and 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 18942
+stars: 19203
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [skill-optimization, research, self-evolving]

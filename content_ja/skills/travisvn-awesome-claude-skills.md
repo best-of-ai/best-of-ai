@@ -11,13 +11,13 @@ compatible_with: ['Claude.ai', 'Claude Code', 'Claude API', 'Claude Desktop']
 install: 'Browse the linked list and enable or install individual skills via Claude.ai, Claude Code''s /plugin command, or the Claude API.'
 price: 'Free'
 open_source: true
-stars: 15698
-stars_this_week: 78
-stars_updated: '2026-11-04'
+stars: 15926
+stars_this_week: 29
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [directory, curated]
-i18n_source: 'eec45be437c6'
+i18n_source: '27cc0a6be089'
 ---
 このリポジトリには次のスキルが含まれます。
 

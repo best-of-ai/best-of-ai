@@ -12,9 +12,9 @@ install: 'Run npx claude-mem install, or use /plugin marketplace add thedotmack/
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 114609
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 119474
+stars_this_week: 624
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-08'
 tags: [memory, context, sessions, plugin]

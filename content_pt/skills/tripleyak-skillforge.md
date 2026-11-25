@@ -20,14 +20,14 @@ install: Clone the repo into ~/.claude/skills/skillforge and delete the extra fi
 price: Free
 open_source: true
 license: MIT
-stars: 916
+stars: 919
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
 - skill-creation
 - evals
 - testing
-i18n_source: 'eef50f3afa5f'
+i18n_source: 'f63d0e2c73bb'
 ---

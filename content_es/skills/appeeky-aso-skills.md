@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2275
+stars: 2335
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [aso, app-store, mobile, marketing]
-i18n_source: 'd83dfffe7bfe'
+i18n_source: '7098b5709ca4'
 ---
 Este repositorio reúne los siguientes skills:
 

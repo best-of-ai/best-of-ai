@@ -12,11 +12,11 @@ install: 'Run npx skills@latest add appllama/appllama-skills.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4962
+stars: 5658
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 5
+stars_updated: '2026-11-24'
+rank: 6
 date: '2026-11-08'
 tags: [mobile, ui, app-design, patterns]
-i18n_source: '578b229b3057'
+i18n_source: '85407ec976f5'
 ---

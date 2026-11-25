@@ -11,9 +11,9 @@ compatible_with: ['Claude Code']
 install: 'Download the latest release from baocut.com or GitHub Releases.'
 price: 'Free'
 open_source: true
-stars: 1696
+stars: 1804
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [video-editing, subtitles, dubbing, timeline]

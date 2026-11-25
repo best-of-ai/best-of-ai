@@ -12,11 +12,11 @@ install: 'Run npm install -g @googleworkspace/cli, or cargo install --git https:
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 32173
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 32459
+stars_this_week: 34
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [google-workspace, gmail, drive, cli]
-i18n_source: '7793cd04ea81'
+i18n_source: '5a89876ec7ef'
 ---

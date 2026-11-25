@@ -19,14 +19,14 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 827
+stars: 766
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
 - fde
 - customer-engineering
 - integration
-i18n_source: '2d0d04a821df'
+i18n_source: '73e10ec746a9'
 ---

@@ -12,9 +12,9 @@ install: 'Run npx dashi-ppt-skill@latest. Needs Node.js 20+; exporting PPTX or P
 price: 'Free'
 open_source: true
 license: 'AGPL-3.0'
-stars: 10478
+stars: 11093
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [presentations, pptx, html, themes]

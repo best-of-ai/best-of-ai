@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 5710
+stars: 5907
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [recording, automation, copilot, microsoft]
-i18n_source: 'a5cd8a8f1948'
+i18n_source: '35585426e57a'
 ---

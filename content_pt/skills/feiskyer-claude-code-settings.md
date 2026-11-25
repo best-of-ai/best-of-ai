@@ -17,9 +17,9 @@ install: Run /plugin marketplace add feiskyer/claude-code-settings, or npx -y sk
 price: Free
 open_source: true
 license: MIT
-stars: 1675
+stars: 1687
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -27,5 +27,5 @@ tags:
 - subagents
 - github
 - templates
-i18n_source: '94afc38b0e46'
+i18n_source: '4b8a17ea98f6'
 ---

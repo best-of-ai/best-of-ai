@@ -18,9 +18,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 5925
+stars: 9004
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - canvas
 - animation
 - gamedev
-i18n_source: '0d672cdb232e'
+i18n_source: 'a74d16fd86cd'
 ---

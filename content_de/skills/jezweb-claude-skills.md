@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1103
+stars: 1128
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [cloudflare, react, tailwind, fullstack]
-i18n_source: '696f25cf25dd'
+i18n_source: '870deed24c7c'
 ---

@@ -12,13 +12,13 @@ install: 'Install with npx skills@latest add mattpocock/skills for most agents, 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 311987
-stars_this_week: 6858
-stars_updated: '2026-11-04'
+stars: 331970
+stars_this_week: 2144
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags: [development, engineering, planning]
-i18n_source: '5e95424d38eb'
+i18n_source: 'e99887450bca'
 ---
 このリポジトリには次のスキルが含まれます。
 

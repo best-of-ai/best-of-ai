@@ -12,11 +12,11 @@ install: 'Install as a Claude Code plugin, or copy the files into your agent''s 
 price: 'Free'
 open_source: true
 license: 'GPL-3.0'
-stars: 2099
+stars: 2677
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [kotlin, compose, android, jvm]
-i18n_source: 'a9b1dbc43fec'
+i18n_source: '0c2b80d42fb0'
 ---

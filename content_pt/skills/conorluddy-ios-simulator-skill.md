@@ -19,9 +19,9 @@ install: In Claude Code run /plugin marketplace add conorluddy/ios-simulator-ski
 price: Free
 open_source: true
 license: MIT
-stars: 1314
+stars: 1339
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -29,5 +29,5 @@ tags:
 - xcode
 - simulator
 - mobile
-i18n_source: '540e2d502b78'
+i18n_source: 'fcdf193e2df9'
 ---

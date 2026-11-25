@@ -12,11 +12,11 @@ install: 'Clone the repo and symlink it into ~/.claude/plugins/makerskills. See 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 893
+stars: 949
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [personal-productivity, research, decisions]
-i18n_source: '314e0a44570d'
+i18n_source: 'a1b41620d3a6'
 ---

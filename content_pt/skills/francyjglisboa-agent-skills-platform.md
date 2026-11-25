@@ -21,9 +21,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 2413
+stars: 2416
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -31,5 +31,5 @@ tags:
 - marketplace
 - lifecycle
 - testing
-i18n_source: 'af446ad4f5aa'
+i18n_source: 'e87e02beb743'
 ---

@@ -17,9 +17,9 @@ compatible_with:
 install: See the repository README for setup instructions.
 price: Free
 open_source: true
-stars: 3097
+stars: 3124
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -27,7 +27,7 @@ tags:
 - healthcare
 - genomics
 - drug-discovery
-i18n_source: '6e2e13976200'
+i18n_source: '3fefc923834f'
 ---
 Este repositório reúne as seguintes skills:
 

@@ -12,11 +12,11 @@ install: 'Download the repo as a ZIP and upload it via claude.ai under Customize
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 15478
-stars_this_week: 359
-stars_updated: '2026-11-04'
+stars: 16290
+stars_this_week: 71
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [prompt-engineering, productivity]
-i18n_source: 'ac535bf6e34d'
+i18n_source: 'ab9b0e9b0227'
 ---

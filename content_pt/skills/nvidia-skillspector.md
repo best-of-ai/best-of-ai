@@ -12,12 +12,12 @@ install: 'Create a Python virtual environment, then install with uv or pip as de
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 24827
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 27510
+stars_this_week: 300
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [security, scanner, prompt-injection, supply-chain]
-i18n_source: '7136820fc69d'
+i18n_source: '08863fc8410f'
 ---
 

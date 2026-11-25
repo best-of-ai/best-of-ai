@@ -12,11 +12,11 @@ install: 'Install the draw.io desktop CLI first, then add the skill as described
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 10629
+stars: 10928
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [diagrams, drawio, architecture, terraform]
-i18n_source: 'fe0e208eec0c'
+i18n_source: 'da96fe8c7a85'
 ---

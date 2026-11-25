@@ -12,13 +12,13 @@ install: 'Install with npx skills add K-Dense-AI/scientific-agent-skills, or by 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 56039
-stars_this_week: 1547
-stars_updated: '2026-11-04'
+stars: 58343
+stars_this_week: 289
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [science, research, bioinformatics]
-i18n_source: '225276b7c84a'
+i18n_source: 'd30ef3b57452'
 ---
 Este repositório reúne as seguintes skills:
 

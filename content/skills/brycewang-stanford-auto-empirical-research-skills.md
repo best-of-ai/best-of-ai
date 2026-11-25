@@ -11,10 +11,10 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'Run claude plugin marketplace add brycewang-stanford/Auto-Empirical-Research-Skills, then claude plugin install aer-skills@auto-empirical-research-skills. Or ask your agent to follow INSTALL.md.'
 price: 'Free'
 open_source: true
-stars: 4951
+stars: 5124
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 5
+stars_updated: '2026-11-24'
+rank: 6
 date: '2026-11-08'
 tags: [research, economics, stata, academic]
 ---

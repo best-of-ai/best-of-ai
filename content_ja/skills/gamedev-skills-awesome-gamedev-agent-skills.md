@@ -12,11 +12,11 @@ install: 'Run npx skills add gamedev-skills/awesome-gamedev-agent-skills. Add --
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 7682
+stars: 10704
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [gamedev, godot, unity, unreal]
-i18n_source: '94503ba203e8'
+i18n_source: 'cce2312c2a1d'
 ---

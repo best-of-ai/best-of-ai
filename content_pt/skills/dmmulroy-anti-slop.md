@@ -17,9 +17,9 @@ install: Run npx skills add dmmulroy/anti-slop --skill install-anti-slop, then a
 price: Free
 open_source: true
 license: MIT
-stars: 5995
+stars: 6363
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -27,5 +27,5 @@ tags:
 - linting
 - typescript
 - javascript
-i18n_source: 'c14d03035c68'
+i18n_source: '2e609c61671c'
 ---

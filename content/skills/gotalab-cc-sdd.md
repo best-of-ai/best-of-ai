@@ -12,9 +12,9 @@ install: 'Run npx cc-sdd@latest in your project. Flags such as --codex-skills, -
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3758
+stars: 3777
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [spec-driven, sdd, planning, harness]

@@ -12,12 +12,12 @@ install: 'Run npx skills add microsoft/skills.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3184
+stars: 3243
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [microsoft, azure, sdk, mcp]
-i18n_source: '26a0aff8ef0e'
+i18n_source: 'd1f7896accd2'
 ---
 

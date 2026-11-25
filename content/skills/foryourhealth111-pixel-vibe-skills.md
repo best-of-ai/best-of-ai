@@ -12,9 +12,9 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 3806
+stars: 3843
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [routing, orchestration, workflow, benchmark]

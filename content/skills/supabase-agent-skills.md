@@ -12,9 +12,9 @@ install: 'See the Supabase AI Skills documentation for installation steps.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3030
+stars: 3132
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [supabase, postgres, database, official]

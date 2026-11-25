@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 7851
+stars: 8036
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [app-store, screenshots, mobile, nextjs]
-i18n_source: 'a771a0b1323b'
+i18n_source: 'e59cc8135542'
 ---
 Ce dépôt regroupe les skills suivants :
 

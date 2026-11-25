@@ -18,9 +18,9 @@ install: Browse aitmpl.com, pick components, and run the install command it gene
 price: Free
 open_source: true
 license: MIT
-stars: 33194
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 34173
+stars_this_week: 103
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - cli
 - templates
 - hooks
-i18n_source: 'd52a2359c2cd'
+i18n_source: '590fa7d88dbe'
 ---

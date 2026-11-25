@@ -12,9 +12,9 @@ install: 'Run npx skills add DenisSergeevitch/agents-best-practices -g.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2423
+stars: 2446
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [agent-design, harness, best-practices]

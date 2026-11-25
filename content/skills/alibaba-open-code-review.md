@@ -12,10 +12,10 @@ install: 'Install the CLI with npm install -g @alibaba-group/open-code-review, t
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 49633
-stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 8
+stars: 55982
+stars_this_week: 814
+stars_updated: '2026-11-24'
+rank: 9
 date: '2026-11-08'
 tags: [code-review, security, llm, ruleset]
 ---

@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 5492
+stars: 5572
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [research, science, workbench, reproducibility]
-i18n_source: 'dad269cc94bf'
+i18n_source: '8956c5f0bde1'
 ---
 

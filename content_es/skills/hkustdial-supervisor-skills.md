@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: false
 license: 'CC BY-NC-SA 4.0'
-stars: 12022
+stars: 13485
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [academic, research, paper-writing, chinese]
-i18n_source: '905c35852284'
+i18n_source: '8b1223f4b832'
 ---
 Este repositorio agrupa los siguientes skills:
 

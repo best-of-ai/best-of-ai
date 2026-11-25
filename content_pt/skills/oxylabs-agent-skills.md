@@ -17,9 +17,9 @@ install: Add it as a Claude Code plugin marketplace, or run npx skills add https
 price: Free
 open_source: true
 license: MIT
-stars: 876
+stars: 868
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -27,5 +27,5 @@ tags:
 - scraping
 - web-data
 - browser
-i18n_source: 'b6cd3b166048'
+i18n_source: '93e4fffbb271'
 ---

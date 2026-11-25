@@ -12,9 +12,9 @@ install: 'Add it as a Claude Code plugin marketplace, or run npx skills add http
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 876
+stars: 868
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [oxylabs, scraping, web-data, browser]

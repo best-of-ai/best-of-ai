@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 10411
+stars: 10740
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [android, mobile, google, official]
-i18n_source: '1c2acddf735e'
+i18n_source: '4b2abb11a877'
 ---
 Este repositório reúne as seguintes skills:
 

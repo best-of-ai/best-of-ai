@@ -12,11 +12,11 @@ install: 'Run npx skills add tw93/Waza -a claude-code codex cursor -g -y.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 7533
+stars: 7646
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [engineering, habits, workflow]
-i18n_source: 'fb6cda3dcb78'
+i18n_source: 'a53b7b1faae5'
 ---

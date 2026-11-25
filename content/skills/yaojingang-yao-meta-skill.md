@@ -12,9 +12,9 @@ install: 'Run npx -y skills add yaojingang/yao-meta-skill -a codex -g -y, or use
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2720
+stars: 2742
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [meta-skill, evaluation, governance]

@@ -12,11 +12,11 @@ install: 'Run /plugin marketplace add EL4CTEO/blender-skills and /plugin install
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 769
+stars: 2843
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [blender, 3d, bpy, animation]
-i18n_source: '900e28e33750'
+i18n_source: 'dece9ae4e2ca'
 ---

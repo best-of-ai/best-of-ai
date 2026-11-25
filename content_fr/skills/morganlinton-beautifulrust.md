@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1759
+stars: 2128
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [rust, clippy, code-review]
-i18n_source: '9618962b811f'
+i18n_source: 'c53b5f1c28bf'
 ---

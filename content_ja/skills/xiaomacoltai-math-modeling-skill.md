@@ -11,11 +11,11 @@ compatible_with: ['Claude Code']
 install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
-stars: 1907
+stars: 1979
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [math-modeling, competitions, matlab, papers]
-i18n_source: '6e7d9f809c56'
+i18n_source: 'a9ae5a250809'
 ---

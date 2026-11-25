@@ -12,11 +12,11 @@ install: 'Run /plugin marketplace add Jakeschincariol/founder-skill, then /plugi
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2682
+stars: 4834
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [startup, business-plan, unit-economics, validation]
-i18n_source: 'b19f964112c9'
+i18n_source: 'b76216376a9f'
 ---

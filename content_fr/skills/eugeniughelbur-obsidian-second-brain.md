@@ -12,11 +12,11 @@ install: 'Run the quick-install script from the README, restart Claude Code, the
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 5217
+stars: 5450
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [obsidian, memory, second-brain, markdown]
-i18n_source: '5d7a405f6951'
+i18n_source: '7675a353dc57'
 ---

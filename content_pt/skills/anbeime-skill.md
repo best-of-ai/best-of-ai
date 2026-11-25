@@ -11,11 +11,11 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
-stars: 9299
+stars: 9863
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [catalog, skills-store, directory, chinese]
-i18n_source: '23da01ac7ca8'
+i18n_source: '50dc3b015902'
 ---

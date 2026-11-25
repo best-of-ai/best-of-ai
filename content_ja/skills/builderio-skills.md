@@ -12,13 +12,13 @@ install: 'Run npx @agent-native/skills@latest add to pick from the recommended s
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4651
+stars: 4685
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [workflow, pull-requests, orchestration, code-review]
-i18n_source: '0bfb058224a8'
+i18n_source: 'cc76aba2ae7c'
 ---
 このリポジトリには次のスキルが含まれます。
 

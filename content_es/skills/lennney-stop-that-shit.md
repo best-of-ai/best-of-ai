@@ -12,11 +12,11 @@ install: 'Run claude plugin marketplace add ./ then claude plugin install stop-t
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3722
+stars: 4085
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [hooks, guardrails, scope, codex]
-i18n_source: 'bb95cfc42d9e'
+i18n_source: '835cbcba3058'
 ---

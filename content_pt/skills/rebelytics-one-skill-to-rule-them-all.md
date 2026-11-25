@@ -17,14 +17,14 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: CC-BY-4.0
-stars: 3790
+stars: 4012
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
 - meta-skill
 - self-improvement
 - skills
-i18n_source: '182259bd0966'
+i18n_source: '1ef06dc5d184'
 ---

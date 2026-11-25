@@ -12,9 +12,9 @@ install: 'Run npx add-skill Astro-Han/karpathy-llm-wiki.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2697
+stars: 2799
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [wiki, knowledge-base, karpathy, citations]

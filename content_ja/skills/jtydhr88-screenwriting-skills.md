@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1993
+stars: 2162
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [screenwriting, writing, film, drama]
-i18n_source: '21d5e20e7748'
+i18n_source: '2d61b85d8bf6'
 ---
 このリポジトリには次のスキルが含まれています。
 

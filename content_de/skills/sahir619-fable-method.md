@@ -12,11 +12,11 @@ install: 'Run /plugin marketplace add Sahir619/fable-method and /plugin install 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2313
+stars: 2325
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [workflow, evals, reasoning, method]
-i18n_source: '238a45c0a2bf'
+i18n_source: '6d6c9649f4f0'
 ---

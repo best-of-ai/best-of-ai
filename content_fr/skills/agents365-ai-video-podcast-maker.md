@@ -12,11 +12,11 @@ install: 'Run npx skills add Agents365-ai/video-podcast-maker/skills/video-podca
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1717
+stars: 1731
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [video, podcast, tts, remotion]
-i18n_source: '83a62371b09e'
+i18n_source: '475179fe7c42'
 ---

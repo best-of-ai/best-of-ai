@@ -11,11 +11,11 @@ compatible_with: ['Claude Code']
 install: 'Run claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp, then claude plugin marketplace add irinabuht12-oss/marketing-skills and claude plugin install marketing-skills@ryze.'
 price: 'Free'
 open_source: true
-stars: 6977
+stars: 8419
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [marketing, seo, google-ads, meta-ads]
-i18n_source: 'aa3283977559'
+i18n_source: 'aaaf28ed810a'
 ---

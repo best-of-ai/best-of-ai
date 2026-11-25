@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'AGPL-3.0'
-stars: 2985
+stars: 3305
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [video-editing, remotion, mcp, timeline]
-i18n_source: 'ed6b2c6daa04'
+i18n_source: '37c8d12788f0'
 ---
 

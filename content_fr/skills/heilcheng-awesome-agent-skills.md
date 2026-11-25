@@ -12,11 +12,11 @@ install: 'Nothing to install. Browse the list and copy the skills you want.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6352
+stars: 6430
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [awesome-list, tutorials, directory]
-i18n_source: 'a2658acf4e39'
+i18n_source: '8e2250a765e0'
 ---

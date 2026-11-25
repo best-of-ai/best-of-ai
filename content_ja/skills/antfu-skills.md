@@ -12,11 +12,11 @@ install: 'Run pnpm i -D skills-npm @antfu/skills, then pnpx skills-npm setup. To
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6051
+stars: 6098
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [frontend, typescript, vite, curated]
-i18n_source: '1c42e8a6888d'
+i18n_source: '26ec8442ef77'
 ---

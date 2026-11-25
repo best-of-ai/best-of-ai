@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 5492
+stars: 20968
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 8
 date: '2026-11-08'
 tags: [security, bug-bounty, red-team, pentesting]
-i18n_source: '13bcf3400321'
+i18n_source: 'a867fc64ecb5'
 ---
 Dieses Repository bündelt folgende Skills:
 

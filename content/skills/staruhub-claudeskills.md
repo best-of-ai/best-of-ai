@@ -12,9 +12,9 @@ install: 'Clone the repo and run python3 scripts/install_skill.py deck-studio.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 733
+stars: 742
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [research, product, decks, audits]

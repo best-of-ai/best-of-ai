@@ -12,11 +12,11 @@ install: 'Run the install.sh script from the README. It adds one marked line to 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 8585
+stars: 9540
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [configuration, memory, mcp, personas]
-i18n_source: '21842d61d770'
+i18n_source: '5ec5143ef9af'
 ---

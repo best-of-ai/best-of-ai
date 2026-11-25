@@ -12,9 +12,9 @@ install: 'Run npx @orchestra-research/ai-research-skills, which auto-detects sup
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 14252
-stars_this_week: 218
-stars_updated: '2026-11-04'
+stars: 14797
+stars_this_week: 66
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [ai-research, machine-learning]

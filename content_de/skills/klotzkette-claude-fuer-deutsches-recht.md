@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 1811
+stars: 1877
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [legal, german-law, compliance, experimental]
-i18n_source: 'c610c13496ef'
+i18n_source: '1c21fc977e7b'
 ---

@@ -12,13 +12,13 @@ install: 'In Claude Code, add the marketplace with /plugin marketplace add anthr
 price: 'Free'
 open_source: true
 license: 'Apache-2.0 (most skills); source-available for the document skills'
-stars: 187231
+stars: 199779
 stars_this_week: 1190
-stars_updated: '2026-11-04'
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags: [anthropic, official, document-automation]
-i18n_source: '9475b5ee6597'
+i18n_source: '788f70a6ec30'
 ---
 Ce dépôt regroupe les skills suivants :
 

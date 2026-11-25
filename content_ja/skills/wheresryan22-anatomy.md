@@ -12,11 +12,11 @@ install: 'Run npx skills add wheresryan22/anatomy -g, then try /anatomy explain 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 25835
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 29010
+stars_this_week: 415
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [svg, illustration, isometric, visualization]
-i18n_source: 'd332096d05eb'
+i18n_source: 'a893f3341fc9'
 ---

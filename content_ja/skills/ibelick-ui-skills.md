@@ -12,13 +12,13 @@ install: 'Run npx ui-skills start to browse, or npx ui-skills get baseline-ui to
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 10815
+stars: 11375
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags: [ui, design-engineering, accessibility, frontend]
-i18n_source: '22fd0d03f481'
+i18n_source: '18d283f488b8'
 ---
 このリポジトリには次のスキルが含まれています。
 

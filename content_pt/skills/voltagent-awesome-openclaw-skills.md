@@ -12,11 +12,11 @@ install: 'Browse the README or the companion clawskills.sh site and install skil
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 53538
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 53970
+stars_this_week: 61
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [awesome-list, directory, openclaw, automation]
-i18n_source: '19fc2831dc8b'
+i18n_source: 'ba39b1fd8470'
 ---

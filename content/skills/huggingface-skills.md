@@ -12,9 +12,9 @@ install: 'See the repository README for per-agent install steps.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 11264
+stars: 11394
 stars_this_week: 0
-stars_updated: '2026-11-04'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [huggingface, machine-learning, models]

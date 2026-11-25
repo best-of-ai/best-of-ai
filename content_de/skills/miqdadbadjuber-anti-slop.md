@@ -12,11 +12,11 @@ install: 'Use the installer in the README, or install as a plugin for Claude Cod
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 8612
+stars: 10035
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 6
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [ui, copywriting, accessibility, quality]
-i18n_source: 'b047a4d0e48a'
+i18n_source: 'd37917bb6ded'
 ---

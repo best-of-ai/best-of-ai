@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6332
+stars: 6423
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [browser, automation, cli, multi-session]
-i18n_source: '00e18f3ab9f7'
+i18n_source: '80a1984ae1ee'
 ---

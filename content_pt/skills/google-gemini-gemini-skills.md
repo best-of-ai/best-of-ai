@@ -19,9 +19,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: Apache-2.0
-stars: 4428
+stars: 4694
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -29,7 +29,7 @@ tags:
 - google
 - api
 - sdk
-i18n_source: '5e9b6a115011'
+i18n_source: '6ce405b5818a'
 ---
 Este repositório reúne as seguintes skills:
 

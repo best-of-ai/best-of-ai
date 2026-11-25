@@ -12,11 +12,11 @@ install: 'In Claude Code use the plugin marketplace route (recommended), or inst
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6286
+stars: 7628
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [logo, branding, svg, design]
-i18n_source: '64d434809a0b'
+i18n_source: '440ca3799376'
 ---

@@ -12,13 +12,13 @@ install: 'Clone the repo, run python3 scripts/claude-obsidian.py init to create 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 16143
-stars_this_week: 157
-stars_updated: '2026-11-04'
+stars: 16735
+stars_this_week: 60
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [obsidian, knowledge-management]
-i18n_source: '00ed212456fc'
+i18n_source: 'b260df1ea0b7'
 ---
 このリポジトリには次のスキルが含まれています。
 

@@ -12,9 +12,9 @@ install: 'Install the skill, then run its scripts/verify_suite.py to check it.'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 2958
+stars: 2953
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [reasoning, verification, long-horizon, agents]

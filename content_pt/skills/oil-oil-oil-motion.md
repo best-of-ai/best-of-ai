@@ -12,12 +12,12 @@ install: 'Run npx skills add oil-oil/oil-motion, or ask your agent to install th
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2842
+stars: 2986
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [animation, web, scroll]
-i18n_source: 'dbf12aef3e27'
+i18n_source: '74b54d1cb646'
 ---
 

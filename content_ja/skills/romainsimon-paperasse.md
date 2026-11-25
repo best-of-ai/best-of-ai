@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2580
+stars: 2617
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [france, accounting, legal, administration]
-i18n_source: 'e778c1870e36'
+i18n_source: 'de5091b7eded'
 ---
 

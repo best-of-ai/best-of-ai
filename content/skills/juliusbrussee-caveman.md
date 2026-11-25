@@ -12,9 +12,9 @@ install: 'Install the skill alone with npx skills add JuliusBrussee/caveman, or 
 price: 'Free'
 open_source: true
 license: 'MIT (skill); BSL-1.1 (proxy)'
-stars: 117336
-stars_this_week: 1588
-stars_updated: '2026-11-04'
+stars: 122594
+stars_this_week: 613
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags: [productivity, token-optimization]

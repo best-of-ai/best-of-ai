@@ -18,9 +18,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 3134
+stars: 3227
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - accessibility
 - wcag
 - tokens
-i18n_source: 'a84a73652e7c'
+i18n_source: '6b4bf416b048'
 ---

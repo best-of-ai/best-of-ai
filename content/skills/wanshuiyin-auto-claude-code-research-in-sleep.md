@@ -12,9 +12,9 @@ install: 'For Claude Code, copy the skills/ folder into ~/.claude/skills/; for C
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 18608
-stars_this_week: 312
-stars_updated: '2026-11-04'
+stars: 19761
+stars_this_week: 202
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [research, machine-learning]

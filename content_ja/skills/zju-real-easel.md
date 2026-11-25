@@ -12,12 +12,12 @@ install: 'Clone the repo and run bash setup.sh (or setup.ps1 on Windows).'
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 4497
+stars: 4893
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [social-media, content, publishing, trends]
-i18n_source: 'c150db91457d'
+i18n_source: '9e3972bff189'
 ---
 

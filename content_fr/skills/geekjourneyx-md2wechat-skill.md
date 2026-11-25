@@ -11,11 +11,11 @@ compatible_with: ['Claude Code']
 install: 'Run npm install -g @geekjourneyx/md2wechat, then md2wechat config init --json and md2wechat config validate --json.'
 price: 'Free'
 open_source: true
-stars: 3784
+stars: 3824
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [wechat, markdown, publishing, cli]
-i18n_source: 'fb7561dc649f'
+i18n_source: 'b21b496dbc85'
 ---

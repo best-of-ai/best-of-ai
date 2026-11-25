@@ -18,9 +18,9 @@ compatible_with:
 install: See the repository README for setup instructions.
 price: Free
 open_source: true
-stars: 3934
+stars: 4453
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - motion
 - launch
 - demo
-i18n_source: '609d018fd692'
+i18n_source: '25a112a81983'
 ---

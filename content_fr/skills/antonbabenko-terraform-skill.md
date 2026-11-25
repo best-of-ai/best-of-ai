@@ -11,11 +11,11 @@ compatible_with: ['Claude Code']
 install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
-stars: 2452
+stars: 2486
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [terraform, opentofu, devops, iac]
-i18n_source: '43a09e4f7293'
+i18n_source: '837e1ca28a7c'
 ---

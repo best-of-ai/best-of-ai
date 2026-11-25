@@ -12,9 +12,9 @@ install: 'Run npx skills add ciembor/agent-rules-books --all, or --list to see t
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3221
+stars: 3348
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [clean-code, architecture, refactoring, agents-md]

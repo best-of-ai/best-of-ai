@@ -11,9 +11,9 @@ compatible_with: ['Codex']
 install: 'Install skills from the catalog with the Codex skill installer.'
 price: 'Free'
 open_source: true
-stars: 28507
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 29088
+stars_this_week: 211
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [openai, codex, catalog]

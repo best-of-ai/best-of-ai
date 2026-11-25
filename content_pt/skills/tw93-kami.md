@@ -18,9 +18,9 @@ install: Run npx skills add tw93/kami -a claude-code codex cursor -g -y.
 price: Free
 open_source: true
 license: MIT
-stars: 12411
+stars: 12642
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - pptx
 - typesetting
 - document-design
-i18n_source: 'cd0c0db9b855'
+i18n_source: 'f12591744110'
 ---

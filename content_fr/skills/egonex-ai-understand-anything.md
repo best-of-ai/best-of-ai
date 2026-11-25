@@ -12,11 +12,11 @@ install: 'Install it as a Claude Code plugin; the README lists routes for Codex,
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 91322
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 94032
+stars_this_week: 485
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-08'
 tags: [codebase-analysis, knowledge-graph, onboarding, visualization]
-i18n_source: '3a6a1d12b0da'
+i18n_source: '96d0e447da9e'
 ---

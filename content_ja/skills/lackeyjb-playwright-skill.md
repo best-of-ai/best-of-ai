@@ -12,12 +12,12 @@ install: 'Run npx skills add lackeyjb/playwright-skill (recommended), or install
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3273
+stars: 3318
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [playwright, browser, e2e-testing, automation]
-i18n_source: 'b62433b07db0'
+i18n_source: 'a530ebebc3df'
 ---
 

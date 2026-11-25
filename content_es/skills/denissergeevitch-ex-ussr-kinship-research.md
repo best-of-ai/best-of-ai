@@ -12,11 +12,11 @@ install: 'Run npx skills add https://github.com/DenisSergeevitch/ex-ussr-kinship
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2160
+stars: 2758
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [genealogy, archives, research, history]
-i18n_source: 'ae4affbc4267'
+i18n_source: '314f978e9e9c'
 ---

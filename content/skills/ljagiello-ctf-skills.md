@@ -12,9 +12,9 @@ install: 'Run npx skills add ljagiello/ctf-skills.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3650
+stars: 3781
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [ctf, security, reverse-engineering, forensics]

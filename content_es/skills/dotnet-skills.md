@@ -12,11 +12,11 @@ install: 'In Copilot Chat type /plugins to browse the marketplace. Add the whole
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 5851
+stars: 6348
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [dotnet, csharp, microsoft]
-i18n_source: '78f42e597bec'
+i18n_source: 'c8f35e155332'
 ---

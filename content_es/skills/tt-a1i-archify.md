@@ -12,11 +12,11 @@ install: 'Install with npx skills add tt-a1i/archify -g, or try it without insta
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 93269
-stars_this_week: 5651
-stars_updated: '2026-11-04'
+stars: 99429
+stars_this_week: 805
+stars_updated: '2026-11-24'
 rank: 9
 date: '2026-11-04'
 tags: [diagrams, design, architecture]
-i18n_source: 'a2f6688dd991'
+i18n_source: 'e695e05b0591'
 ---

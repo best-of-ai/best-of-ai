@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2909
+stars: 3485
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [japanese, rewriting, humanizer, editing]
-i18n_source: 'c91967dba710'
+i18n_source: '7b958c90c857'
 ---

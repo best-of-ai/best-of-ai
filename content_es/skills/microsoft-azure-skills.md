@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1627
+stars: 1672
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [azure, cloud, microsoft, mcp]
-i18n_source: 'c4ac562a21a6'
+i18n_source: '19ee1d55bc07'
 ---

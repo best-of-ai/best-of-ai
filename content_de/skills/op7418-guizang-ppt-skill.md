@@ -12,13 +12,13 @@ install: 'Run npx skills add https://github.com/op7418/guizang-ppt-skill --skill
 price: 'Free'
 open_source: true
 license: 'AGPL-3.0'
-stars: 29465
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 30363
+stars_this_week: 127
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [slides, presentations, html, design]
-i18n_source: 'e1c788b57abe'
+i18n_source: '8057cfdd9bf6'
 ---
 Dieses Repository bündelt folgende Skills:
 

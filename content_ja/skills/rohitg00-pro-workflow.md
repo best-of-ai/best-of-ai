@@ -11,12 +11,12 @@ compatible_with: ['Claude Code']
 install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
-stars: 2946
+stars: 2970
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [memory, worktrees, agent-teams, workflow]
-i18n_source: '9245c9e0f2ce'
+i18n_source: '10e6c07744d6'
 ---
 

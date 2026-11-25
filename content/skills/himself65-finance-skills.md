@@ -12,9 +12,9 @@ install: 'For Codex run codex plugin marketplace add himself65/finance-skills, t
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3515
+stars: 3595
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [finance, trading, analysis]

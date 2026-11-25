@@ -20,9 +20,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 5376
+stars: 5966
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -30,5 +30,5 @@ tags:
 - sprites
 - gamedev
 - gif
-i18n_source: '5d9a8360938b'
+i18n_source: '945fd66c3793'
 ---

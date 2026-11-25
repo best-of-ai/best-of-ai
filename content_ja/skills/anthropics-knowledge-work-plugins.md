@@ -12,11 +12,11 @@ install: 'Add the repository as a plugin marketplace in Claude Cowork or Claude 
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 34659
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 36785
+stars_this_week: 135
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [anthropic, plugins, knowledge-work, business]
-i18n_source: 'c04fd898739f'
+i18n_source: 'faab6047a784'
 ---

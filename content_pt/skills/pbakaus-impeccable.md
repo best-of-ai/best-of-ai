@@ -24,9 +24,9 @@ install: Run npx impeccable install from your project root, reload your tool, th
 price: Free
 open_source: true
 license: Apache-2.0
-stars: 101919
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 116090
+stars_this_week: 1487
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags:
@@ -34,5 +34,5 @@ tags:
 - ui
 - frontend
 - review
-i18n_source: 'd537407d17df'
+i18n_source: '5463ebbf6093'
 ---

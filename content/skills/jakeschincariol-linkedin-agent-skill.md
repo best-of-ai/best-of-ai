@@ -12,9 +12,9 @@ install: 'Clone the repo and copy skills/li-* into ~/.claude/skills/, then confi
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3325
+stars: 3933
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [linkedin, social-media, content, humanizer]

@@ -12,12 +12,12 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6045
+stars: 6111
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [office, data-analysis, documents, sensenova]
-i18n_source: '1fda6176a371'
+i18n_source: 'aba4cb4bf100'
 ---
 

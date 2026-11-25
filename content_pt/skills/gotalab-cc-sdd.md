@@ -23,9 +23,9 @@ install: Run npx cc-sdd@latest in your project. Flags such as --codex-skills, --
 price: Free
 open_source: true
 license: MIT
-stars: 3758
+stars: 3777
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -33,5 +33,5 @@ tags:
 - sdd
 - planning
 - harness
-i18n_source: '2a0293e7f316'
+i18n_source: '2408506a1044'
 ---

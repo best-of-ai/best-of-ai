@@ -12,13 +12,13 @@ install: 'Run npx skills add google/skills and choose the skills, agents and ins
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 23651
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 24608
+stars_this_week: 83
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [google, google-cloud, ads, official, sdk]
-i18n_source: '722372e5dc5b'
+i18n_source: 'faf4da53b784'
 ---
 Este repositorio agrupa los siguientes skills:
 

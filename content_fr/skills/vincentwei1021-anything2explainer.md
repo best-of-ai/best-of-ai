@@ -11,11 +11,11 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'Clone the repo and symlink it into ~/.claude/skills/ or ~/.codex/skills/.'
 price: 'Free'
 open_source: true
-stars: 3118
+stars: 3615
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [video, explainer, tts, motion-graphics]
-i18n_source: '96119209093b'
+i18n_source: 'f81742f4ed73'
 ---

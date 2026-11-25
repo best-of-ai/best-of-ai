@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1952
+stars: 2009
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [readme, github, documentation, design]
-i18n_source: '59fdc9e205ba'
+i18n_source: '93873b592b21'
 ---

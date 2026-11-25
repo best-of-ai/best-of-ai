@@ -12,9 +12,9 @@ install: 'Open your agent and ask it to install the repository, then name the pe
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 37774
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 38947
+stars_this_week: 180
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-08'
 tags: [persona, mental-models, distillation, chinese]

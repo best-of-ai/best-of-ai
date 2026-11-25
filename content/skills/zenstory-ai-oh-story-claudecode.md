@@ -12,9 +12,9 @@ install: 'Run npx skills add zenstory-ai/oh-story-claudecode -y -g.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 8412
+stars: 8882
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [fiction, web-novel, chinese, writing]

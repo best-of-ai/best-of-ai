@@ -18,9 +18,9 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: MIT
-stars: 10491
+stars: 11480
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-08'
 tags:
@@ -28,7 +28,7 @@ tags:
 - red-team
 - pentesting
 - offensive-security
-i18n_source: '7be6be85e09c'
+i18n_source: 'c655a5906d41'
 ---
 Este repositório reúne as seguintes skills:
 

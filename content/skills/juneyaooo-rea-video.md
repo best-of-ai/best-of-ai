@@ -12,10 +12,10 @@ install: 'Ask your agent to install https://github.com/JuneYaooo/rea-video, or c
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 3819
+stars: 12948
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 5
+stars_updated: '2026-11-24'
+rank: 7
 date: '2026-11-08'
 tags: [video, reverse-engineering, ffmpeg, analysis]
 ---

@@ -12,12 +12,12 @@ install: 'Run npx skills add Oldcircle/geo-sleuth.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 6465
+stars: 7497
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [geolocation, osint, images, openstreetmap]
-i18n_source: '7914d0f08e20'
+i18n_source: '158ab2da58dc'
 ---
 

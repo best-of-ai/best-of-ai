@@ -12,9 +12,9 @@ install: 'Clone the repo and copy skills/native-subtitle-quote-image into ~/.cod
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2861
+stars: 2898
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [subtitles, video, social-media, images]

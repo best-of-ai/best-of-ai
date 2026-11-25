@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2026
+stars: 2091
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [japanese, writing, editing, business]
-i18n_source: 'f61505069398'
+i18n_source: '6a518965c002'
 ---

@@ -12,13 +12,13 @@ install: 'Run npx skills add nvidia/skills with optional flags for specific skil
 price: 'Free'
 open_source: true
 license: 'Apache-2.0 (code); CC-BY-4.0 (documentation)'
-stars: 3857
-stars_this_week: 69
-stars_updated: '2026-11-04'
+stars: 4134
+stars_this_week: 27
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-04'
 tags: [nvidia, robotics, cuda]
-i18n_source: '81015ec6cd8c'
+i18n_source: '1c5d8a20af0e'
 ---
 Ce dépôt regroupe les skills suivants :
 

@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3287
+stars: 3488
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [design, ux, product-design, process]
-i18n_source: 'd0e9436e15fb'
+i18n_source: '0d638d1054a6'
 ---
 Este repositorio agrupa los siguientes skills:
 

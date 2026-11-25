@@ -19,9 +19,9 @@ install: Run npx skillkit init, then skillkit recommend and skillkit add anthrop
 price: Free
 open_source: true
 license: Apache-2.0
-stars: 1575
+stars: 1589
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -29,5 +29,5 @@ tags:
 - package-manager
 - portable
 - cross-agent
-i18n_source: '2038403dc183'
+i18n_source: 'b0e13b2cda4f'
 ---

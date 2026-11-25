@@ -12,11 +12,11 @@ install: 'Run /plugin marketplace add alirezarezvani/claude-skills then /plugin 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 29260
-stars_this_week: 458
-stars_updated: '2026-11-04'
+stars: 30415
+stars_this_week: 163
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [marketplace, development, personas]
-i18n_source: 'c3c09287ed02'
+i18n_source: '49e70eb44b6b'
 ---

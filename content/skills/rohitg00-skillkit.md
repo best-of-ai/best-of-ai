@@ -12,9 +12,9 @@ install: 'Run npx skillkit init, then skillkit recommend and skillkit add anthro
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 1575
+stars: 1589
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [cli, package-manager, portable, cross-agent]

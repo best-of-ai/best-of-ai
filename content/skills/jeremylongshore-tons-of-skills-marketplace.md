@@ -12,9 +12,9 @@ install: 'Run /plugin marketplace add jeremylongshore/claude-code-plugins, or pn
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2907
+stars: 2947
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [marketplace, package-manager, ccpi, catalog]

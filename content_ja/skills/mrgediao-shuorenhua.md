@@ -12,11 +12,11 @@ install: 'Run npx skills add MrGeDiao/shuorenhua, or /plugin marketplace add MrG
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2532
+stars: 2771
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [chinese, rewriting, anti-slop, humanizer]
-i18n_source: '23221329ed44'
+i18n_source: 'a7bc5baeb95e'
 ---

@@ -12,11 +12,11 @@ install: 'Not installed directly; developers author their own SKILL.md files fol
 price: 'Free'
 open_source: true
 license: 'Apache-2.0 (code); CC-BY-4.0 (documentation)'
-stars: 26923
-stars_this_week: 197
-stars_updated: '2026-11-04'
+stars: 27594
+stars_this_week: 79
+stars_updated: '2026-11-24'
 rank: 8
 date: '2026-11-04'
 tags: [specification, open-standard]
-i18n_source: 'c8f0df0692b2'
+i18n_source: '5bddb85cb1dd'
 ---

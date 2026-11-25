@@ -12,9 +12,9 @@ install: 'Ask your agent to install LCU from the latest release, following docs/
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2397
+stars: 2465
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [computer-use, accessibility, automation, desktop]

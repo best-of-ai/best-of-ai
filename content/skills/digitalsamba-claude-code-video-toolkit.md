@@ -12,9 +12,9 @@ install: 'Clone the repo, run uv sync, open Claude Code in the folder, and run /
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2481
+stars: 2746
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [video, voiceover, music, remotion]

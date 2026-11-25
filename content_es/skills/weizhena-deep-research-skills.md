@@ -12,11 +12,11 @@ install: 'Clone the repo and copy skills/research-en/* into ~/.claude/skills/. O
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2516
+stars: 2602
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [deep-research, research, human-in-the-loop]
-i18n_source: 'bafd7c67e605'
+i18n_source: 'd283b0383de6'
 ---

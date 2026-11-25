@@ -23,16 +23,16 @@ install: Install with npx skills add addyosmani/agent-skills, or via the Claude 
 price: Free
 open_source: true
 license: MIT
-stars: 113136
-stars_this_week: 2614
-stars_updated: '2026-11-04'
+stars: 120145
+stars_this_week: 536
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags:
 - development
 - engineering
 - lifecycle
-i18n_source: '2598743d7196'
+i18n_source: '32b329e9bccf'
 ---
 Este repositório reúne as seguintes skills:
 

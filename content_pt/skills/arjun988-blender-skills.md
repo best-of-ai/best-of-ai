@@ -12,11 +12,11 @@ install: 'Clone the repo and copy .claude/skills into your project''s skills fol
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2166
+stars: 4826
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [blender, 3d, mcp, gamedev]
-i18n_source: 'c51141f855ef'
+i18n_source: 'd9fbfd8e474f'
 ---

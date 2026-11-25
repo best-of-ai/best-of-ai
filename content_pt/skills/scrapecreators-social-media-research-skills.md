@@ -18,9 +18,9 @@ install: Run npx skills add ScrapeCreators/social-media-research-skills.
 price: Free
 open_source: true
 license: MIT
-stars: 5953
+stars: 7800
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - research
 - competitor-analysis
 - content
-i18n_source: 'b6dcfa6c1665'
+i18n_source: '9aae9fdc4c13'
 ---

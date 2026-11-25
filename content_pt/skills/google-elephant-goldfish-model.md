@@ -16,15 +16,15 @@ install: See the repository README for setup instructions.
 price: Free
 open_source: true
 license: Apache-2.0
-stars: 14205
+stars: 22575
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 7
+stars_updated: '2026-11-24'
+rank: 8
 date: '2026-11-08'
 tags:
 - design
 - review
 - plugin
 - google
-i18n_source: '2b50531fc0c0'
+i18n_source: '6421d2f4b263'
 ---

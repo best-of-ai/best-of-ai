@@ -11,12 +11,12 @@ compatible_with: ['Claude Code', 'Codex', 'Cursor', 'Gemini CLI', 'GitHub Copilo
 install: 'Run npx skills add https://github.com/isjiamu/gzh-design-skill, or clone it into ~/.claude/skills/gzh-design.'
 price: 'Free'
 open_source: true
-stars: 4289
+stars: 4458
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [wechat, markdown, html, publishing]
-i18n_source: '67bd8b40f3af'
+i18n_source: '351c9a2fdcac'
 ---
 

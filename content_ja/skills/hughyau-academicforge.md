@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2634
+stars: 2669
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [academic, research, bioinformatics, science]
-i18n_source: '33a3447bafb8'
+i18n_source: 'f9b0fd0a5c04'
 ---
 このリポジトリには次のスキルが含まれます。
 

@@ -16,14 +16,14 @@ install: See the repository README for install steps.
 price: Free
 open_source: true
 license: MIT
-stars: 184054
-stars_this_week: 0
-stars_updated: '2026-11-04'
+stars: 197909
+stars_this_week: 1448
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags:
 - development
 - simplicity
 - code-quality
-i18n_source: 'a771e2060382'
+i18n_source: '04917b1da93d'
 ---

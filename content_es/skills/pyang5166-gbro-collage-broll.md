@@ -12,11 +12,11 @@ install: 'Clone the repo into ~/.agents/skills/gbro-collage-broll.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1827
+stars: 2027
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [b-roll, collage, video, gemini]
-i18n_source: 'bfde7a9d23a2'
+i18n_source: '6d48ed8908ec'
 ---

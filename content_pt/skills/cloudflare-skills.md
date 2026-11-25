@@ -19,9 +19,9 @@ install: In Codex, run codex plugin marketplace add cloudflare/skills, then code
 price: Free
 open_source: true
 license: Apache-2.0
-stars: 3309
+stars: 3446
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags:
@@ -29,7 +29,7 @@ tags:
 - workers
 - cloud
 - official
-i18n_source: '0e34ac8f09c3'
+i18n_source: 'd3a1dbae8f4b'
 ---
 Este repositório reúne as seguintes skills:
 

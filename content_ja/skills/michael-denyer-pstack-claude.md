@@ -12,11 +12,11 @@ install: 'For Claude Code run /plugin marketplace add michael-denyer/pstack-clau
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 4137
+stars: 4818
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [workflows, pstack, ports, agents]
-i18n_source: 'd3e1c202aaf0'
+i18n_source: '7121d78c9039'
 ---

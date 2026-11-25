@@ -12,13 +12,13 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 2611
+stars: 2711
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [logo, svg, animation, design]
-i18n_source: '8114a3f27af2'
+i18n_source: '0ef17fd7228b'
 ---
 Ce dépôt regroupe les skills suivants :
 

@@ -12,11 +12,11 @@ install: 'Run npx typeui.sh pull to browse, or npx typeui.sh pull glassmorphism 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 3559
+stars: 3792
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [design, awesome-list, design-md]
-i18n_source: 'd6bb013f95f3'
+i18n_source: '2955d042e283'
 ---

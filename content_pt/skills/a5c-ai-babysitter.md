@@ -18,9 +18,9 @@ install: Run npm install -g @a5c-ai/babysitter, or npm install -g @a5c-ai/adapte
 price: Free
 open_source: true
 license: MIT
-stars: 1898
+stars: 1936
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - workflow
 - determinism
 - agents
-i18n_source: 'c9abab64e4c2'
+i18n_source: '80f2a238e0cc'
 ---

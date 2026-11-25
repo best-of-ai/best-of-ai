@@ -12,13 +12,13 @@ install: 'Install through the Claude Code plugin marketplace with /plugin instal
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 312082
-stars_this_week: 3200
-stars_updated: '2026-11-04'
+stars: 325714
+stars_this_week: 2172
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-04'
 tags: [superpowers, development, tdd, debugging]
-i18n_source: '23275f5dcdf7'
+i18n_source: '24ff5cd1d2dc'
 ---
 Este repositorio agrupa los siguientes skills:
 

@@ -12,13 +12,13 @@ install: 'Download themed packs from GitHub Releases and upload individual skill
 price: 'Free'
 open_source: true
 license: 'CC-BY-NC-SA-4.0'
-stars: 7866
-stars_this_week: 105
-stars_updated: '2026-11-04'
+stars: 8151
+stars_this_week: 35
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-04'
 tags: [product-management, business]
-i18n_source: 'e0599b8638da'
+i18n_source: '4ea100724e92'
 ---
 このリポジトリには次のスキルが含まれます。
 

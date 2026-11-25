@@ -12,9 +12,9 @@ install: 'Run claude mcp add openosint -- uvx --from openosint openosint-mcp, or
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1868
+stars: 1967
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [osint, mcp, research, cli]

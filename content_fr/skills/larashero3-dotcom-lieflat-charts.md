@@ -11,11 +11,11 @@ compatible_with: ['Claude Code', 'Codex']
 install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
-stars: 6760
+stars: 6981
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 6
 date: '2026-11-08'
 tags: [charts, data-visualization, html, svg]
-i18n_source: '849c25c5396d'
+i18n_source: 'd098b958e5c1'
 ---

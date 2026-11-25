@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1925
+stars: 1981
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [memory, claude-md, learning, preferences]
-i18n_source: 'fdf291048b5f'
+i18n_source: '9ec97a498ae1'
 ---

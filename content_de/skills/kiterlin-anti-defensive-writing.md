@@ -12,11 +12,11 @@ install: 'See the repository README for setup instructions.'
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1771
+stars: 2392
 stars_this_week: 0
-stars_updated: '2026-11-08'
-rank: 4
+stars_updated: '2026-11-24'
+rank: 5
 date: '2026-11-08'
 tags: [writing, editing, academic-writing]
-i18n_source: 'ac6ec4ecc6e7'
+i18n_source: '9e5d88d3b4f7'
 ---

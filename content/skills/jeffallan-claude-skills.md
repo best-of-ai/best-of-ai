@@ -12,9 +12,9 @@ install: 'Install through the Claude Code plugin marketplace: /plugin marketplac
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 12208
-stars_this_week: 98
-stars_updated: '2026-11-04'
+stars: 12507
+stars_this_week: 33
+stars_updated: '2026-11-24'
 rank: 7
 date: '2026-11-04'
 tags: [full-stack, development]

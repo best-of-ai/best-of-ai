@@ -12,9 +12,9 @@ install: 'Run npx skills add RKiding/Awesome-finance-skills@alphaear-news for on
 price: 'Free'
 open_source: true
 license: 'Apache-2.0'
-stars: 3107
+stars: 3140
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 5
 date: '2026-11-08'
 tags: [finance, fintech, analysis]

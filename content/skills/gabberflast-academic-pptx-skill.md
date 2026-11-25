@@ -12,9 +12,9 @@ install: 'Download the repo as a zip, upload it as a skill in Claude, and toggle
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 1476
+stars: 1677
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags: [academic, presentations, pptx, slides]

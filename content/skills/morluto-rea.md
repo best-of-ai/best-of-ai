@@ -12,9 +12,9 @@ install: 'Ask your agent to set up REA, which registers it as an MCP server, or 
 price: 'Free'
 open_source: true
 license: 'MIT'
-stars: 441806
-stars_this_week: 0
-stars_updated: '2026-11-08'
+stars: 476687
+stars_this_week: 3743
+stars_updated: '2026-11-24'
 rank: 10
 date: '2026-11-08'
 tags: [reverse-engineering, binaries, android, analysis]

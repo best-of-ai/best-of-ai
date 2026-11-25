@@ -18,9 +18,9 @@ install: Run claude plugin marketplace add ferdinandobons/startup-skill, or uplo
 price: Free
 open_source: true
 license: MIT
-stars: 1261
+stars: 1317
 stars_this_week: 0
-stars_updated: '2026-11-08'
+stars_updated: '2026-11-24'
 rank: 4
 date: '2026-11-08'
 tags:
@@ -28,5 +28,5 @@ tags:
 - competitive-intelligence
 - market-research
 - pricing
-i18n_source: 'd663cf1fd43d'
+i18n_source: '2e9535e25346'
 ---
