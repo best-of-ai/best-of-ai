@@ -20,9 +20,10 @@ alternatives:
   - openrouter
   - chatplayground-ai
   - microsoft-copilot
+  - obscurify-ai
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, model_based]
-i18n_source: '3639fe2ca154'
+i18n_source: 'b53373966e05'
 ---
 
 Poeを使うと、アカウントを分けずに多くのAIモデルを利用できます。1つのアプリとウェブサイトで、主要なチャットボット、画像生成、動画ツールを切り替え、回答を比べ、会話を1か所にまとめておけます。いろいろなモデルを試して、作業ごとに合うものを使いたい人に便利です。

@@ -19,9 +19,12 @@ alternatives:
   - deepseek
   - mistral-le-chat
   - perplexity
+  - duck-ai
+  - lumo-proton
+  - obscurify-ai
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, open_source, secure, image_based]
-i18n_source: '8e74f703cf31'
+i18n_source: 'a51ae55f3bca'
 ---
 
 Venice AI basa su propuesta en la privacidad y la libertad de uso. La empresa afirma que no registra ni almacena las conversaciones en sus servidores y que los chats se guardan en el navegador del usuario, algo que atrae a quienes no quieren que se conserven sus prompts ni que se usen para entrenar modelos. Funciona con modelos de código abierto, así que se puede elegir entre varios modelos de lenguaje y un generador de imágenes, y la plataforma aplica menos restricciones de contenido que muchos servicios generalistas.

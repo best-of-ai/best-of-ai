@@ -21,6 +21,7 @@ alternatives:
 - openrouter
 - chatplayground-ai
 - microsoft-copilot
+- obscurify-ai
 date: '2025-09-21'
 tags:
 - chatbot
@@ -33,7 +34,7 @@ tags:
 - general_ai
 - question_answering
 - model_based
-i18n_source: '3639fe2ca154'
+i18n_source: 'b53373966e05'
 ---
 
 Poe bietet Zugang zu vielen KI-Modellen, ohne dass du separate Konten brauchst. In einer App und auf einer Website wechselst du zwischen führenden Chatbots, Bildgeneratoren und Videowerkzeugen, vergleichst Antworten und behältst Unterhaltungen an einem Ort. Das ist hilfreich, wenn du verschiedene Modelle ausprobieren und je nach Aufgabe das passende nutzen möchtest.

@@ -1,0 +1,3 @@
+---
+title: 'Duck.ai Alternatives'
+---

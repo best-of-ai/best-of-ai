@@ -19,6 +19,9 @@ alternatives:
   - deepseek
   - mistral-le-chat
   - perplexity
+  - duck-ai
+  - lumo-proton
+  - obscurify-ai
 date: '2025-09-21'
 tags: [chatbot, text_generation, ai_assistant, conversational, nlp, dialogue, llm, general_ai, question_answering, open_source, secure, image_based]
 ---
