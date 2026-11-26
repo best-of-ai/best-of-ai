@@ -326,6 +326,7 @@ Visit **[bestofai.io](https://bestofai.io)** for the full interactive directory 
 
 > AI tools for academic research, citation management, literature review, and scholarly writing.
 
+- **[AshuTeacher](https://ashuteacher.vercel.app)** — Interactive AI Voice Blackboard, 195-country syllabus academy (KG to Doctoral), PDF/photo exam paper solver, and 6-milestone Thesis & Research Studio with live AI Viva Defense ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Consensus](https://consensus.app)** — [review](https://bestofai.io/tools/consensus/) — AI-powered academic search engine for research papers ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Elicit](https://elicit.org)** — [review](https://bestofai.io/tools/elicit/) — AI research assistant for finding and summarizing papers ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
 - **[Litmaps](https://litmaps.com)** — [review](https://bestofai.io/tools/litmaps/) — Visual literature mapping for academic research ![Freemium](https://img.shields.io/badge/-Freemium-d29922?style=flat-square)
