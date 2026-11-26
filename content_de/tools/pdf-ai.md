@@ -14,7 +14,7 @@ rank: 5
 alternatives:
 - chatpdf
 - humata
-- notebooklm
+- gemini-notebook
 - adobe-acrobat-ai
 - collate-ai
 date: '2026-06-15'
@@ -29,7 +29,7 @@ tags:
 - document_processing
 - parsing
 - fast
-i18n_source: '70e57cc171bc'
+i18n_source: '7136ec64c8fa'
 ---
 
 PDF.ai ermöglicht die Arbeit mit Dokumenten im Dialog. Du lädst ein PDF hoch und erhältst Antworten auf Fragen mit Verweisen auf die Seiten, auf denen die Informationen stehen. Das Tool kann Kapitel zusammenfassen, Kernaussagen herausarbeiten und Daten extrahieren.

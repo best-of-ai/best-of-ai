@@ -22,7 +22,7 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - glean
   - notion-ai
   - adobe-acrobat-ai

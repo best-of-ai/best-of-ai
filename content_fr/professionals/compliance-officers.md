@@ -28,9 +28,9 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - power-bi
   - microsoft-365-copilot
-i18n_source: '3e2d2197f42e'
+i18n_source: '1a44161d1053'
 ---

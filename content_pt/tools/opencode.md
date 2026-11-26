@@ -19,9 +19,10 @@ alternatives:
   - cline
   - cursor
   - github-copilot
+  - kilo-code
 date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, api_available, collaboration]
-i18n_source: '596483ee9e95'
+i18n_source: 'ccccee757337'
 ---
 
 O OpenCode é um agente de programação que funciona no terminal do desenvolvedor. Ele lê um repositório, planeja alterações, edita arquivos e executa comandos por meio de uma interface de texto para conversas. O mesmo mecanismo também está por trás de um aplicativo para desktop, uma extensão de editor e um cliente web.

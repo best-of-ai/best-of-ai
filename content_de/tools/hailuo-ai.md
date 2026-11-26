@@ -22,6 +22,7 @@ alternatives:
 - sora
 - wan-video
 - pixverse
+- gemini-omni
 date: '2025-01-01'
 tags:
 - video_generation
@@ -35,7 +36,7 @@ tags:
 - clips
 - image_based
 - model_based
-i18n_source: '50e2df27bb99'
+i18n_source: 'b45f4a844fa6'
 ---
 
 Hailuo AI ist das Verbraucherangebot für Videomodelle des chinesischen KI-Unternehmens MiniMax. Du gibst einen Prompt ein oder lädst ein Bild hoch und erhältst einen kurzen Videoclip. Viele Nutzer:innen schätzen die natürlichen Bewegungen, darunter komplexe Szenen wie Tanz, Sport und Kamerafahrten. Creator wurden durch die Qualität der Bild-zu-Video-Ergebnisse und die genaue Umsetzung ausführlicher Prompts aufmerksam.

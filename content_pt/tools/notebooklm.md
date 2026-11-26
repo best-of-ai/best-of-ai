@@ -15,7 +15,11 @@ category_name: Documentos
 price: Free
 featured: false
 rank: 8
+dead: true
+dead_reason: 'O Google renomeou o NotebookLM para Gemini Notebook em 16 de julho de 2026 e o combinou com o app Gemini, de modo que os cadernos criados em qualquer um dos dois são sincronizados com o outro.'
+dead_date: '2026-07-16'
 alternatives:
+- gemini-notebook
 - humata
 - chatpdf
 - anything-llm
@@ -34,7 +38,7 @@ tags:
 - document_processing
 - parsing
 - voice_enabled
-i18n_source: 93cf76824c50
+i18n_source: '64b50a79f1cb'
 ---
 
 NotebookLM se baseia na ideia de fundamentar a IA em suas próprias fontes. Você cria um caderno e adiciona materiais como PDFs, Google Docs, páginas da web, vídeos do YouTube e textos colados. A IA responde usando somente essas fontes e exibe citações vinculadas aos trechos exatos, reduzindo o risco de fatos inventados e facilitando a conferência. É popular entre estudantes, pesquisadores, redatores e profissionais que lidam com muitas leituras.

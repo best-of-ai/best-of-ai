@@ -13,12 +13,12 @@ rank: 5
 alternatives:
   - chatpdf
   - humata
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2026-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast]
-i18n_source: '70e57cc171bc'
+i18n_source: '7136ec64c8fa'
 ---
 
 PDF.aiでは、文書と対話できます。PDFをアップロードすると、AIが質問に答え、答えが載っているページも示します。章の要約、要点の抽出、データの抜き出しもできます。

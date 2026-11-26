@@ -42,5 +42,5 @@ general_tools:
   - google-translate
   - grammarly
   - deepl
-  - notebooklm
+  - gemini-notebook
 ---

@@ -35,7 +35,7 @@ general_tools:
 - power-bi
 - tableau
 - microsoft-365-copilot
-- notebooklm
+- gemini-notebook
 - perplexity
-i18n_source: 'aba3ec5bc715'
+i18n_source: '7792c771b810'
 ---

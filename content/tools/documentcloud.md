@@ -12,7 +12,7 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - chatpdf
   - humata

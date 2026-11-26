@@ -31,5 +31,5 @@ general_tools:
   - gamma
   - canva
   - grammarly
-  - notebooklm
+  - gemini-notebook
 ---

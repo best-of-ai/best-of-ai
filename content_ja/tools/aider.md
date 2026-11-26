@@ -19,9 +19,10 @@ alternatives:
   - opencode
   - continue-dev
   - plandex
+  - kilo-code
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, cloud_based, nlp]
-i18n_source: '5493c5f5781b'
+i18n_source: '7843ac037f85'
 ---
 
 Aiderは、言語モデルとペアプログラミングするためのコマンドラインツールです。gitリポジトリの中で起動し、作業するファイルを加え、やりたいことを平易な英語で説明します。ファイルを直接編集し、差分を示し、妥当なメッセージ付きで各変更をコミットするので、モデルがしたことは普通のgitコマンドで見直したり取り消したりできます。この密なgit連携があるから、実際のプロジェクトでも安心して使えます。

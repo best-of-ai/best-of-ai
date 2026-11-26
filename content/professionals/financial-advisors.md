@@ -28,7 +28,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - otter-ai
   - fathom

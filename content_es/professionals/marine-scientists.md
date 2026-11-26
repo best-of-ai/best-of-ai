@@ -29,9 +29,9 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - elicit
   - scispace
   - overleaf
-i18n_source: '62cb44ab02da'
+i18n_source: '214452e561c0'
 ---

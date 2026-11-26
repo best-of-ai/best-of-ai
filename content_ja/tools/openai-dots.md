@@ -18,9 +18,10 @@ alternatives:
   - gemini-spark
   - openclaw
   - chatgpt-work
+  - hermes-agent
 date: '2026-09-29'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, agentic, productivity, plugins, background_agent]
-i18n_source: '2746810d0494'
+i18n_source: 'd058e9a88f2b'
 ---
 
 Dotsは、ChatGPTを、開いて使うツールから、作業を続けてくれるアシスタントへと変えます。各dotはブラウザ付きの専用クラウドコンピュータを持っているので、手元のデバイスを占有せずに、ウェブサイトやアプリでタスクを実行できます。受信トレイの確認、会議の準備、プロジェクトの監視といった目標を与えると、バックグラウンドで作業し、入力が必要なときに確認してきます。時間がたつにつれ、フィードバックから学習します。

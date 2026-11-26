@@ -13,7 +13,7 @@ rank: 5
 alternatives:
   - chatpdf
   - humata
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2026-06-15'

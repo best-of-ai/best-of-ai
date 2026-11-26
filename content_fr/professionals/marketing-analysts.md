@@ -34,7 +34,7 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - formula-bot
-i18n_source: '74718bb6be26'
+i18n_source: '53184c4e4d2c'
 ---

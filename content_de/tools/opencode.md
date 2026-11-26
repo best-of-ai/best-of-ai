@@ -20,6 +20,7 @@ alternatives:
 - cline
 - cursor
 - github-copilot
+- kilo-code
 date: '2026-08-31'
 tags:
 - code_generation
@@ -34,7 +35,7 @@ tags:
 - open_source
 - api_available
 - collaboration
-i18n_source: '596483ee9e95'
+i18n_source: 'ccccee757337'
 ---
 
 OpenCode ist ein Coding-Agent für das Entwicklerterminal. Er liest ein Repository, plant Änderungen, bearbeitet Dateien und führt Befehle aus; die Unterhaltung erfolgt über eine Textoberfläche. Dieselbe Engine steckt auch hinter der Desktop-App, Editor-Erweiterung und Weboberfläche.

@@ -19,9 +19,10 @@ alternatives:
   - vidu
   - veo-3
   - pixverse
+  - gemini-omni
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based]
-i18n_source: '2bfbd735b8b1'
+i18n_source: 'e07a3f8af232'
 ---
 
 Wanは説明文から動画を生成します。プロンプトか画像を渡すと、モデルが動きとディテールのあるクリップを出力します。Alibabaは複数のバージョンを公開していて、ローカルのハードウェアで動くオープンウェイトモデルも含まれ、多くのツールやファインチューンを生む大きなコミュニティができました。

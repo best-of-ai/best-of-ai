@@ -25,7 +25,7 @@ general_tools:
   - claude
   - grammarly
   - elicit
-  - notebooklm
+  - gemini-notebook
   - perplexity
-i18n_source: 'c9496fa0f3b4'
+i18n_source: '7781829ec5ca'
 ---

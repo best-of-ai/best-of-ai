@@ -24,7 +24,7 @@ general_tools:
   - chatgpt
   - claude
   - otter-ai
-  - notebooklm
+  - gemini-notebook
   - grammarly
-i18n_source: 'ae687a8e425e'
+i18n_source: '21422064437b'
 ---

@@ -24,5 +24,5 @@ general_tools:
   - claude
   - gamma
   - perplexity
-  - notebooklm
+  - gemini-notebook
 ---

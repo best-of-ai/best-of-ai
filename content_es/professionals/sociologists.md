@@ -27,8 +27,8 @@ general_tools:
   - claude
   - elicit
   - connected-papers
-  - notebooklm
+  - gemini-notebook
   - consensus
   - tableau
-i18n_source: '31ed39c21f67'
+i18n_source: '718afbe22f60'
 ---

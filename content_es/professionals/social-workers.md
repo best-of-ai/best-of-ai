@@ -23,9 +23,9 @@ general_tools:
   - chatgpt
   - claude
   - grammarly
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - zapier
   - google-translate
-i18n_source: 'eb373d05b44e'
+i18n_source: 'c1a43e6a2195'
 ---

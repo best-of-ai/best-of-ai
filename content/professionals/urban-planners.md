@@ -27,6 +27,6 @@ general_tools:
   - claude
   - tableau
   - drawio
-  - notebooklm
+  - gemini-notebook
   - grammarly
 ---

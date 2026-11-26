@@ -20,9 +20,10 @@ alternatives:
   - github-copilot
   - opencode
   - pearai
+  - kilo-code
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, autonomous, model_based]
-i18n_source: '3b3ed4757e89'
+i18n_source: '4ab183706ead'
 ---
 
 Cline est un assistant de code autonome qui vit dans ton éditeur. Tu décris une tâche, et il la mène : lecture des fichiers pertinents, propositions de modifications, commandes lancées, et vérification du résultat. Il a un mode Plan, où il explore le projet et convient d'une approche avec toi, et un mode Act, où il exécute le plan. Chaque changement de fichier et chaque commande de terminal s'affiche pour ton accord, donc tu gardes la main, même si tu peux activer l'approbation automatique pour les actions à moindre risque.

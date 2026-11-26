@@ -12,13 +12,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - chatpdf
   - humata
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, cloud_based]
-i18n_source: '7eadff66ca8d'
+i18n_source: 'ba0e87fc5988'
 ---
 
 DocumentCloud es una plataforma pensada para las redacciones. Los periodistas suben documentos como escritos judiciales, informes del gobierno y archivos filtrados, y el sistema los hace buscables mediante reconocimiento óptico de caracteres. Pueden anotar pasajes, añadir notas y publicar documentos para que los lectores vean la fuente original de una noticia.

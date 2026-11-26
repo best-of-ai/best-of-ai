@@ -16,7 +16,7 @@ categories:
   - mind-mapping
   - reading
 specific_tools:
-  - notebooklm
+  - gemini-notebook
   - quizlet-ai
   - studysmarter
   - khanmigo

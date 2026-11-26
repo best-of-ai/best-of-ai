@@ -28,6 +28,6 @@ general_tools:
   - adobe-acrobat-ai
   - chatpdf
   - humata
-  - notebooklm
-i18n_source: '217f82bc476b'
+  - gemini-notebook
+i18n_source: '0508f5a8c66b'
 ---

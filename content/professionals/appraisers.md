@@ -25,5 +25,5 @@ general_tools:
   - adobe-acrobat-ai
   - tableau
   - power-bi
-  - notebooklm
+  - gemini-notebook
 ---

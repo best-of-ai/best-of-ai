@@ -27,8 +27,8 @@ general_tools:
   - chatgpt
   - claude
   - zapier
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - grammarly
-i18n_source: 'f447f088c610'
+i18n_source: 'd49b8d0090af'
 ---

@@ -29,8 +29,8 @@ general_tools:
   - chatgpt
   - claude
   - canva
-  - notebooklm
+  - gemini-notebook
   - adobe-lightroom-ai
   - hubspot-business
-i18n_source: 'b4731f7a8910'
+i18n_source: 'c693bfcec346'
 ---

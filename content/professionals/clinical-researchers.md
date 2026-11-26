@@ -30,7 +30,7 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - perplexity
   - zotero-ai

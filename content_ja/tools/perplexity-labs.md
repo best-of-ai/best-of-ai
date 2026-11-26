@@ -14,12 +14,12 @@ featured: false
 rank: 8
 alternatives:
   - perplexity-research
-  - notebooklm
+  - gemini-notebook
   - elicit
   - scispace
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, autonomous, model_based, powerful]
-i18n_source: '5c35ae9125ed'
+i18n_source: '236434c15b7f'
 ---
 
 Labsは質問に答えるだけにとどまりません。市場分析、財務モデル、小さなダッシュボードなどのプロジェクトを説明すると、Labsは数分間作業し、ウェブリサーチ、コード実行、グラフ作成を組み合わせます。そして、文章のレポート、表計算、グラフ、ダウンロードや共有ができる簡単なウェブアプリといった完成した成果物を返します。裏では専門化された複数のステップのチームのように動くため、出力はチャットの返信というより納品物に近いものです。

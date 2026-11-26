@@ -28,6 +28,6 @@ general_tools:
   - chatgpt
   - claude
   - microsoft-365-copilot
-  - notebooklm
+  - gemini-notebook
   - perplexity
 ---

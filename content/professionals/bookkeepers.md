@@ -32,5 +32,5 @@ general_tools:
   - microsoft-365-copilot
   - formula-bot
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

@@ -23,6 +23,7 @@ alternatives:
 - runway-gen3
 - adobe-firefly
 - youart
+- gemini-omni
 date: '2025-09-21'
 tags:
 - video
@@ -37,7 +38,7 @@ tags:
 - image_based
 - model_based
 - powerful
-i18n_source: 'af0bd9e3a070'
+i18n_source: 'ac17ea718bd3'
 ---
 
 Runway gehört zu den ersten KI-Videounternehmen. Die Werkzeuge wurden für Filmschaffende und Künstler:innen entwickelt. Im Mittelpunkt stehen die Gen-Videomodelle, die kurze Clips aus einem Textprompt, einem Standbild oder beidem erstellen. Referenzbilder helfen, Figuren und Schauplätze über mehrere Einstellungen hinweg einheitlich zu halten. Genau das ist die schwierige Aufgabe, wenn ein Video länger als ein einzelner Clip werden soll. Das Unternehmen begann mit browserbasierten Bearbeitungswerkzeugen. Einige davon sind geblieben, etwa Hintergrundentfernung, Motion Tracking und Inpainting.

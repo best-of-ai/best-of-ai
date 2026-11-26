@@ -29,7 +29,7 @@ general_tools:
 - chatgpt
 - claude
 - semantic-scholar
-- notebooklm
+- gemini-notebook
 - elicit
-i18n_source: '2eac05230e89'
+i18n_source: 'c10cea866b07'
 ---

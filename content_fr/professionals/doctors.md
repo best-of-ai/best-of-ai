@@ -28,8 +28,8 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - semantic-scholar
   - adobe-acrobat-ai
-i18n_source: 'ab2af3fdca17'
+i18n_source: '84a15dcd62fe'
 ---

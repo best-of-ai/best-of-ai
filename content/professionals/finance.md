@@ -35,5 +35,5 @@ general_tools:
   - power-bi
   - microsoft-365-copilot
   - formula-bot
-  - notebooklm
+  - gemini-notebook
 ---

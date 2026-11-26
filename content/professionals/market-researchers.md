@@ -32,6 +32,6 @@ general_tools:
   - chatgpt
   - claude
   - gamma
-  - notebooklm
+  - gemini-notebook
   - otter-ai
 ---

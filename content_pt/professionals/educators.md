@@ -32,7 +32,7 @@ general_tools:
   - gamma
   - canva
   - grammarly
-  - notebooklm
+  - gemini-notebook
   - notion-ai
-i18n_source: 'a15172c180df'
+i18n_source: '7a8b5ed89e77'
 ---

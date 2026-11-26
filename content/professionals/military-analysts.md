@@ -28,5 +28,5 @@ general_tools:
   - claude
   - tableau
   - perplexity
-  - notebooklm
+  - gemini-notebook
 ---

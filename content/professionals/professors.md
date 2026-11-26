@@ -24,7 +24,7 @@ specific_tools:
   - copyleaks-ai
   - gradescope
   - overleaf
-  - notebooklm
+  - gemini-notebook
 general_tools:
   - chatgpt
   - claude

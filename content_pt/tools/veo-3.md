@@ -22,6 +22,7 @@ alternatives:
 - hailuo-ai
 - vidu
 - wan-video
+- gemini-omni
 date: '2026-07-17'
 tags:
 - video_generation
@@ -35,7 +36,7 @@ tags:
 - clips
 - voice_enabled
 - model_based
-i18n_source: 9b0c68a19951
+i18n_source: '455c29a57807'
 ---
 Veo 3 produz clipes curtos a partir de instruções de texto ou imagem, já com som. Modelos de vídeo anteriores eram silenciosos e exigiam trabalho de áudio separado; Veo 3 gera fala, efeitos e música que acompanham a ação, deixando os clipes mais completos.
 

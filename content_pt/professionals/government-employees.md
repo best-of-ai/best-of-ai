@@ -29,8 +29,8 @@ general_tools:
 - claude
 - microsoft-365-copilot
 - gemini
-- notebooklm
+- gemini-notebook
 - adobe-acrobat-ai
 - zapier
-i18n_source: 'dd74805851f9'
+i18n_source: 'e3f02a21d0f2'
 ---

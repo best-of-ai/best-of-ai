@@ -28,6 +28,6 @@ general_tools:
   - chatgpt
   - claude
   - tableau
-  - notebooklm
-i18n_source: '5a62ce741194'
+  - gemini-notebook
+i18n_source: 'ff7e16885d7a'
 ---

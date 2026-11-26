@@ -27,7 +27,7 @@ general_tools:
   - claude
   - tableau
   - drawio
-  - notebooklm
+  - gemini-notebook
   - grammarly
-i18n_source: '3d52699753a1'
+i18n_source: '8f557330fcce'
 ---

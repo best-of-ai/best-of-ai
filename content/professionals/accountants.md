@@ -46,5 +46,5 @@ general_tools:
   - tableau
   - formula-bot
   - numerous
-  - notebooklm
+  - gemini-notebook
 ---

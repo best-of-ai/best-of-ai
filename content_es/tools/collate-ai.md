@@ -14,11 +14,11 @@ alternatives:
   - chatpdf
   - humata
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, free_tier, cloud_based, secure]
-i18n_source: 'c85c89c8c6c9'
+i18n_source: '13a40815d403'
 ---
 
 Collate se centra en el trabajo privado con documentos. El usuario abre un PDF, como un artículo, un contrato o un libro de texto, y le hace preguntas o le pide un resumen. Como el procesamiento se ejecuta en local, en el propio dispositivo, el documento no tiene que salir del ordenador, algo importante con archivos sensibles.

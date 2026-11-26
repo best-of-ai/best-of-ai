@@ -23,7 +23,7 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - julius-ai
-i18n_source: '4ab17000e150'
+i18n_source: '5a56e5050b5a'
 ---

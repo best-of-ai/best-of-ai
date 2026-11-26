@@ -29,7 +29,7 @@ general_tools:
   - elicit
   - semantic-scholar
   - scispace
-  - notebooklm
+  - gemini-notebook
   - perplexity
-i18n_source: '002c3e83d01c'
+i18n_source: '09fd9fe6b2d8'
 ---

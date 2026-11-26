@@ -25,6 +25,6 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
-i18n_source: '42b84ab51b76'
+  - gemini-notebook
+i18n_source: 'e7afb59b8ffb'
 ---

@@ -21,9 +21,10 @@ alternatives:
   - runway-gen3
   - adobe-firefly
   - youart
+  - gemini-omni
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
-i18n_source: 'af0bd9e3a070'
+i18n_source: 'ac17ea718bd3'
 ---
 
 Runway es una de las empresas pioneras de vídeo con IA, y creó sus herramientas pensando en cineastas y artistas. El núcleo del producto son sus modelos de vídeo Gen, que crean clips cortos a partir de un prompt, una imagen fija o ambos. Las imágenes de referencia ayudan a mantener un personaje o un escenario coherente de un plano al siguiente, que es la parte difícil de hacer algo más largo que un solo clip. La empresa empezó como un conjunto de herramientas de edición en el navegador, y algo de eso permanece, como la eliminación de fondos, el seguimiento de movimiento y el inpainting.

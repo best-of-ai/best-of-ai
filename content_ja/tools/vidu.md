@@ -19,9 +19,10 @@ alternatives:
   - runway-gen3
   - veo-3
   - wan-video
+  - gemini-omni
 date: '2025-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
-i18n_source: '5a6ae9959ef1'
+i18n_source: '351ac5cac9a6'
 ---
 
 Viduはプロンプトを短い動画にします。説明文を書くか参照画像を用意すると、プラットフォームがクリップを生成します。機能には、複数のショットでキャラクターや物体の見た目を保つ参照動画生成や、SNSで人気のエフェクト用テンプレートがあります。

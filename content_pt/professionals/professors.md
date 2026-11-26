@@ -28,12 +28,12 @@ specific_tools:
 - copyleaks-ai
 - gradescope
 - overleaf
-- notebooklm
+- gemini-notebook
 general_tools:
 - chatgpt
 - claude
 - grammarly
 - gamma
 - canva
-i18n_source: '6509982d0d2c'
+i18n_source: '89fcd3ca5ab2'
 ---

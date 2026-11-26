@@ -28,6 +28,6 @@ general_tools:
   - canva
   - grammarly
   - gamma
-  - notebooklm
-i18n_source: '448d6ebe36b2'
+  - gemini-notebook
+i18n_source: '1c5920e6363b'
 ---

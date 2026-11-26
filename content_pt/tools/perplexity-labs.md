@@ -18,7 +18,7 @@ featured: false
 rank: 8
 alternatives:
 - perplexity-research
-- notebooklm
+- gemini-notebook
 - elicit
 - scispace
 date: '2025-09-21'
@@ -35,7 +35,7 @@ tags:
 - autonomous
 - model_based
 - powerful
-i18n_source: 5c35ae9125ed
+i18n_source: '236434c15b7f'
 ---
 
 Labs vai além de responder a uma pergunta. Você descreve um projeto, como uma análise de mercado, um modelo financeiro ou um painel simples, e Labs trabalha por vários minutos, combinando pesquisa na web, execução de código e criação de gráficos. Depois, entrega arquivos prontos: relatório, planilha, gráficos ou aplicativo web simples para baixar ou compartilhar. A ferramenta usa uma sequência de etapas especializadas nos bastidores, então o resultado se parece mais com um material finalizado do que com uma resposta de chat.

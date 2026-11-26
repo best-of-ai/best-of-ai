@@ -13,12 +13,12 @@ rank: 5
 alternatives:
   - chatpdf
   - humata
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2026-06-15'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast]
-i18n_source: '70e57cc171bc'
+i18n_source: '7136ec64c8fa'
 ---
 
 PDF.ai permite interagir com documentos. O usuário envia um PDF, e uma IA responde a perguntas com referências às páginas onde as respostas aparecem. A ferramenta pode resumir capítulos, extrair pontos principais e obter dados.

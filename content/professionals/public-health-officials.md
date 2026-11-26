@@ -28,7 +28,7 @@ general_tools:
   - claude
   - tableau
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - buffer
 ---

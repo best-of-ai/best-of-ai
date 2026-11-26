@@ -44,6 +44,6 @@ general_tools:
   - grammarly
   - notion-ai
   - consensus
-  - notebooklm
-i18n_source: '4e63e6435263'
+  - gemini-notebook
+i18n_source: 'b1e4c6607a5c'
 ---

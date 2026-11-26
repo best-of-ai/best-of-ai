@@ -24,12 +24,12 @@ specific_tools:
   - perplexity
   - exa-ai
   - kagi
-  - notebooklm
+  - gemini-notebook
 general_tools:
   - chatgpt
   - claude
   - grammarly
   - hemingway-editor
   - adobe-acrobat-ai
-i18n_source: '4103d0787d12'
+i18n_source: '07f57107b563'
 ---

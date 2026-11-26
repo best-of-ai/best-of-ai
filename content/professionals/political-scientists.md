@@ -27,7 +27,7 @@ general_tools:
   - chatgpt
   - claude
   - elicit
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - consensus
 ---

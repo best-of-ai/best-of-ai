@@ -43,7 +43,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - notion-ai
   - otter-ai

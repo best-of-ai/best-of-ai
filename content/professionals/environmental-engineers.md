@@ -31,5 +31,5 @@ general_tools:
   - power-bi
   - tableau
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
 ---

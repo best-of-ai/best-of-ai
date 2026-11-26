@@ -23,7 +23,7 @@ general_tools:
   - chatgpt
   - claude
   - grammarly
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - zapier
   - google-translate

@@ -26,7 +26,7 @@ general_tools:
   - claude
   - tableau
   - power-bi
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
-i18n_source: '549b98aea6b6'
+i18n_source: '4a344c90781c'
 ---

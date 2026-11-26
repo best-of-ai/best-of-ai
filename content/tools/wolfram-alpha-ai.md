@@ -15,7 +15,7 @@ rank: 8
 alternatives:
   - perplexity-research
   - chatgpt
-  - notebooklm
+  - gemini-notebook
   - scispace
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, integrations]

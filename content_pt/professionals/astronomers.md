@@ -24,7 +24,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - overleaf
-i18n_source: '16b8dfb0b244'
+i18n_source: '8ddb8828a330'
 ---

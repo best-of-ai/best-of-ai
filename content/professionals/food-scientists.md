@@ -23,5 +23,5 @@ general_tools:
   - claude
   - semantic-scholar
   - elicit
-  - notebooklm
+  - gemini-notebook
 ---

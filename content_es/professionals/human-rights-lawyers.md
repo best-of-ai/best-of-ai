@@ -26,8 +26,8 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - elicit
   - perplexity
-i18n_source: 'e3bb9a7b4815'
+i18n_source: '90d914fcb46d'
 ---

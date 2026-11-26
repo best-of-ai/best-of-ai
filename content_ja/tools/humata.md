@@ -15,12 +15,12 @@ rank: 8
 alternatives:
   - chatpdf
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
-i18n_source: '253766b35b9c'
+i18n_source: '5c7fe9dd34bd'
 ---
 
 Humataでは、文書と対話できます。ファイルをアップロードすると内容を読み、要約、特定の数値、節同士の比較、条項の説明といった質問に答えます。各回答には出典の該当箇所への引用が付き、確認しやすくなっています。契約書、研究論文、財務報告書のように、手で読むと時間がかかる長いファイルでも使えます。

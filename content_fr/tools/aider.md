@@ -19,9 +19,10 @@ alternatives:
   - opencode
   - continue-dev
   - plandex
+  - kilo-code
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, cloud_based, nlp]
-i18n_source: '5493c5f5781b'
+i18n_source: '7843ac037f85'
 ---
 
 Aider est un outil en ligne de commande pour programmer en binôme avec un modèle de langage. Tu le lances dans un dépôt git, tu ajoutes les fichiers sur lesquels tu veux travailler, et tu décris ce que tu veux en anglais simple. Il édite les fichiers directement, montre le diff, et commit chaque changement avec un message sensé, donc tu peux relire ou annuler ce que le modèle a fait avec des commandes git ordinaires. Cette intégration serrée à git est ce qui le rend tenable sur un vrai projet.

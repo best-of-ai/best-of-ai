@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - notion-ai
   - claude-docs
   - openai-canvas
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, image_based, fast]
-i18n_source: 'a1a80eb978e5'
+i18n_source: '7ffe5233c300'
 ---
 
 Pagesは、Perplexityのリサーチの上にある公開用のレイヤーです。アシスタントとトピックを掘り下げたあと、そのスレッドを、見出し、要約、使った出典の引用を備えた構造化されたページに変換できます。会話のログを残すのではなく、短い記事や学習ガイドのような書き方で内容を整理します。

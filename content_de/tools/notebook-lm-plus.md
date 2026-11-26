@@ -14,7 +14,7 @@ price: Freemium
 featured: false
 rank: 8
 alternatives:
-- notebooklm
+- gemini-notebook
 - chatpdf
 - humata
 - perplexity-research
@@ -34,7 +34,7 @@ tags:
 - collaboration
 - free_tier
 - customizable
-i18n_source: 'dd784dec1529'
+i18n_source: '0b01f01c7246'
 ---
 
 NotebookLM Plus bietet intensiveren Nutzer:innen mehr Spielraum in Googles Werkzeug zur Arbeit mit eigenen Dokumenten. In der kostenlosen Version kannst du Quellen hinzufügen, Fragen mit Zitaten stellen und Lernhilfen erstellen. Die Anzahl der Notizbücher, Quellen und täglichen Anfragen ist jedoch begrenzt. Plus hebt diese Limits an. So können Forschende, Studierende beim Schreiben einer Abschlussarbeit und Analyst:innen mit vielen Dokumenten mehr Material an einem Ort bearbeiten.

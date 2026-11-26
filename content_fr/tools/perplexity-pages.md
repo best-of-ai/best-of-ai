@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - notion-ai
   - claude-docs
   - openai-canvas
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, image_based, fast]
-i18n_source: 'a1a80eb978e5'
+i18n_source: '7ffe5233c300'
 ---
 
 Pages est une couche de publication par-dessus la recherche de Perplexity. Après avoir exploré un sujet avec l'assistant, tu peux convertir le fil en une page structurée avec des titres, des résumés et des citations vers les sources utilisées. Il organise la matière comme on écrirait un court article ou un guide d'étude, au lieu de te laisser avec un journal de conversation.

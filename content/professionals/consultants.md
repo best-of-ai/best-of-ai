@@ -29,7 +29,7 @@ general_tools:
   - chatgpt
   - claude
   - notion-ai
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - tableau
   - microsoft-365-copilot

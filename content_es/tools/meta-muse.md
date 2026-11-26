@@ -18,9 +18,10 @@ alternatives:
   - gemini-spark
   - openclaw
   - chatgpt-work
+  - hermes-agent
 date: '2026-09-08'
 tags: [ai_assistants, agents, personal_assistant, automation, scheduling, shopping, productivity, agentic, mobile, voice]
-i18n_source: 'fd1880fe5b33'
+i18n_source: 'e3ab7aaa3e70'
 ---
 
 Muse es el paso de Meta de un asistente de chat a un agente que actúa en tu nombre. Le pides que haga algo, como organizar un viaje, redactar y enviar un correo o resolver un recado de varios pasos, y trabaja entre apps y sitios web para completarlo. El agente de cada usuario funciona en una máquina virtual segura, así que puede seguir trabajando cuando sales de la app y volver a ti cuando necesita una decisión.

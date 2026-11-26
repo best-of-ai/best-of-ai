@@ -21,6 +21,7 @@ alternatives:
 - hailuo-ai
 - vidu
 - wan-video
+- gemini-omni
 date: '2026-07-17'
 tags:
 - video_generation
@@ -34,7 +35,7 @@ tags:
 - clips
 - voice_enabled
 - model_based
-i18n_source: '9b0c68a19951'
+i18n_source: '455c29a57807'
 ---
 
 Veo 3 erzeugt kurze Videoclips mit Ton aus Text- oder Bildprompts. Frühere Videomodelle waren stumm und erforderten eine separate Audiobearbeitung. Veo 3 erzeugt Sprache, Effekte und Musik passend zur Handlung, wodurch Clips vollständiger wirken.

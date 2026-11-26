@@ -13,13 +13,13 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - notion-ai
   - claude-docs
   - openai-canvas
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, image_based, fast]
-i18n_source: 'a1a80eb978e5'
+i18n_source: '7ffe5233c300'
 ---
 Pages ergänzt die Recherche von Perplexity um eine Veröffentlichungsebene. Nachdem du ein Thema mit dem Assistenten erkundet hast, kannst du den Gesprächsverlauf in eine strukturierte Seite mit Überschriften, Zusammenfassungen und Quellenangaben umwandeln. Das Material wird wie in einem kurzen Artikel oder Lernleitfaden organisiert, statt als Gesprächsprotokoll zu verbleiben.
 

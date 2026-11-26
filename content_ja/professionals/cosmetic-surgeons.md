@@ -23,6 +23,6 @@ general_tools:
   - adobe-lightroom-ai
   - canva
   - grammarly
-  - notebooklm
-i18n_source: '25569bcd7a25'
+  - gemini-notebook
+i18n_source: 'f7886f8c2743'
 ---

@@ -26,7 +26,7 @@ general_tools:
   - chatgpt
   - claude
   - otter-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
-i18n_source: 'fdf219d7492d'
+i18n_source: '04b14c46a7a6'
 ---

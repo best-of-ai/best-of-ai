@@ -23,6 +23,6 @@ general_tools:
   - chatgpt
   - claude
   - otter-ai
-  - notebooklm
+  - gemini-notebook
   - grammarly
 ---

@@ -13,7 +13,7 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - chatpdf
   - humata
   - perplexity-research

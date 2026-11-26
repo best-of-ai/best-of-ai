@@ -25,7 +25,7 @@ general_tools:
   - chatgpt
   - claude
   - tableau
-  - notebooklm
+  - gemini-notebook
   - grammarly
-i18n_source: '3eecddc9fdb0'
+i18n_source: 'd7211c490392'
 ---

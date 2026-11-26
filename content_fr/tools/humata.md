@@ -15,12 +15,12 @@ rank: 8
 alternatives:
   - chatpdf
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
-i18n_source: '253766b35b9c'
+i18n_source: '5c7fe9dd34bd'
 ---
 Humata permet de discuter avec des documents. Après l'envoi d'un fichier, l'outil lit le contenu et répond aux questions : un résumé, un chiffre précis, une comparaison entre des sections, ou l'explication d'une clause. Chaque réponse inclut une citation qui renvoie au passage source, ce qui facilite la vérification. Ça marche avec de longs fichiers qu'il faudrait longtemps à parcourir à la main, comme des contrats, des articles de recherche et des rapports financiers.
 

@@ -18,9 +18,10 @@ alternatives:
   - openai-dots
   - meta-muse
   - openclaw
+  - hermes-agent
 date: '2026-11-05'
 tags: [ai_agent, assistant, gmail, google, automation, background_tasks, productivity, workspace]
-i18n_source: 'cd5eaa97b198'
+i18n_source: 'bde7fe81d628'
 ---
 
 Sparkは、常時動くアシスタントへ向かうGoogleの一手です。受信箱と文書から情報を集めたり、旅行の準備をしたり、数日にわたって作業を追ったりする仕事を渡すと、Googleのクラウドにある専用の仮想マシン上で、バックグラウンドに進めます。そこで動くので、スマホやノートPCの電源が切れていても続き、結果を返してきます。

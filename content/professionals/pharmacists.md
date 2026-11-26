@@ -24,5 +24,5 @@ general_tools:
   - semantic-scholar
   - scispace
   - elicit
-  - notebooklm
+  - gemini-notebook
 ---

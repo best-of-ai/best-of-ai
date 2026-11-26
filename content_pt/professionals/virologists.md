@@ -32,7 +32,7 @@ general_tools:
 - semantic-scholar
 - scite-ai
 - connected-papers
-- notebooklm
+- gemini-notebook
 - elicit
-i18n_source: 'bb9b83979bb0'
+i18n_source: '70dd61086b75'
 ---

@@ -14,11 +14,11 @@ alternatives:
   - chatpdf
   - humata
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
 date: '2025-01-01'
 tags: [productivity, ai_assistant, efficiency, workflow, organization, tasks, focus, time_management, collaboration, free_tier, cloud_based, secure]
-i18n_source: 'c85c89c8c6c9'
+i18n_source: '13a40815d403'
 ---
 
 Collateは、文書を手元で扱うことに焦点を置きます。利用者は論文、契約書、教科書などのPDFを開き、それについて質問するか、要約を求めます。処理は端末上でローカルに動くので、文書をコンピュータの外に出す必要がなく、機密のファイルではそれが重要です。

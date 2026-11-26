@@ -29,6 +29,6 @@ general_tools:
   - elicit
   - semantic-scholar
   - scispace
-  - notebooklm
+  - gemini-notebook
   - perplexity
 ---

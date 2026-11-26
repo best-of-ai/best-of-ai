@@ -16,7 +16,7 @@ alternatives:
   - chatpdf
   - humata
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - abbyy
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast, powerful]

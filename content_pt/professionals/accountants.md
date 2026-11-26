@@ -49,6 +49,6 @@ general_tools:
 - tableau
 - formula-bot
 - numerous
-- notebooklm
-i18n_source: '06b52b16b47a'
+- gemini-notebook
+i18n_source: '82d5e90e0058'
 ---

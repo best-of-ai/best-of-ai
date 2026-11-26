@@ -15,11 +15,11 @@ rank: 8
 alternatives:
   - perplexity-research
   - chatgpt
-  - notebooklm
+  - gemini-notebook
   - scispace
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, integrations]
-i18n_source: '7628ea3c3cd0'
+i18n_source: 'd10332416c80'
 ---
 
 Wolfram Alphaはウェブを検索しません。答えを計算します。関数の積分、単位の換算、人口の比較、特定の日の天気などを聞くと、Wolfram Languageで書かれた、選ばれたデータとアルゴリズムを使い、手順、グラフ、データ付きの結果を出します。数学、物理、化学、統計、答えが一つに決まる事実の質問では信頼でき、言語モデルがよく間違える領域です。

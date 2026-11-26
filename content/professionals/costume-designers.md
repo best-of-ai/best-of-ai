@@ -25,6 +25,6 @@ general_tools:
   - chatgpt
   - claude
   - canva
-  - notebooklm
+  - gemini-notebook
   - asana
 ---

@@ -31,7 +31,7 @@ general_tools:
 - chatgpt
 - claude
 - tableau
-- notebooklm
+- gemini-notebook
 - grammarly
-i18n_source: '6b6a5b876cd1'
+i18n_source: '097eccfca254'
 ---

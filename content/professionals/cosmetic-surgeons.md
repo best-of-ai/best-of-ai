@@ -23,5 +23,5 @@ general_tools:
   - adobe-lightroom-ai
   - canva
   - grammarly
-  - notebooklm
+  - gemini-notebook
 ---

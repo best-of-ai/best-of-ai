@@ -29,9 +29,9 @@ general_tools:
   - chatgpt
   - claude
   - notion-ai
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - tableau
   - microsoft-365-copilot
-i18n_source: 'e6cdeb42a55a'
+i18n_source: '3f0a07109dee'
 ---

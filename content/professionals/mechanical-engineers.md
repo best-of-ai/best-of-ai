@@ -29,7 +29,7 @@ general_tools:
   - chatgpt
   - claude
   - drawio
-  - notebooklm
+  - gemini-notebook
   - linear
   - perplexity
 ---

@@ -27,5 +27,5 @@ general_tools:
   - claude
   - perplexity
   - elicit
-  - notebooklm
+  - gemini-notebook
 ---

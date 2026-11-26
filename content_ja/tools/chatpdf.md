@@ -15,11 +15,11 @@ rank: 8
 alternatives:
   - humata
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
-i18n_source: '364c1e19862d'
+i18n_source: '0d2e0b55478e'
 ---
 
 ChatPDFは、文書と話すためのシンプルなツールです。PDFをアップロードするかリンクを貼ると、ファイルを読み、要約、定義、特定の事実を尋ねられます。各回答には、根拠になったページへの参照が付くので、その箇所を自分で確認できます。学生は内容の濃い論文を理解するために使い、仕事では契約書や報告書に使い、長いマニュアルの該当箇所をスクロールせずに探すためにも使われます。

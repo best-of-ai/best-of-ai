@@ -20,6 +20,7 @@ alternatives:
 - opencode
 - continue-dev
 - plandex
+- kilo-code
 date: '2025-01-01'
 tags:
 - code_generation
@@ -34,7 +35,7 @@ tags:
 - open_source
 - cloud_based
 - nlp
-i18n_source: '5493c5f5781b'
+i18n_source: '7843ac037f85'
 ---
 
 Aider ist ein Kommandozeilenwerkzeug für Pair Programming mit einem Sprachmodell. Starte es in einem Git-Repository, wähle die Dateien aus, an denen du arbeiten möchtest, und beschreibe dein Ziel in Alltagssprache. Aider bearbeitet die Dateien direkt, zeigt dir den Diff und committet jede Änderung mit einer passenden Nachricht. So kannst du die Arbeit des Modells mit normalen Git-Befehlen prüfen oder rückgängig machen. Diese enge Git-Integration macht den Einsatz in echten Projekten sicherer.

@@ -28,7 +28,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - canva
-i18n_source: 'adacf0727944'
+i18n_source: '09fcb4c5a351'
 ---

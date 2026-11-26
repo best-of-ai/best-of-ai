@@ -14,7 +14,7 @@ featured: false
 rank: 8
 alternatives:
   - perplexity-research
-  - notebooklm
+  - gemini-notebook
   - elicit
   - scispace
 date: '2025-09-21'

@@ -29,6 +29,6 @@ general_tools:
 - semantic-scholar
 - scispace
 - elicit
-- notebooklm
-i18n_source: '2da0adaf27e5'
+- gemini-notebook
+i18n_source: 'd78aa5d4ace1'
 ---

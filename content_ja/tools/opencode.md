@@ -19,9 +19,10 @@ alternatives:
   - cline
   - cursor
   - github-copilot
+  - kilo-code
 date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, api_available, collaboration]
-i18n_source: '596483ee9e95'
+i18n_source: 'ccccee757337'
 ---
 
 OpenCodeは、開発者のターミナルで動くコーディングエージェントです。リポジトリを読み、変更を計画し、ファイルを編集し、コマンドを実行します。会話はテキストのインターフェースで行います。同じエンジンが、デスクトップアプリ、エディタ拡張、ウェブクライアントの裏でも動きます。

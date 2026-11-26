@@ -22,6 +22,7 @@ alternatives:
 - hailuo-ai
 - vidu
 - wan-video
+- gemini-omni
 date: '2025-01-01'
 tags:
 - video_generation
@@ -34,7 +35,7 @@ tags:
 - short_form
 - clips
 - image_based
-i18n_source: '2f524d656bc2'
+i18n_source: '6240f662d55f'
 ---
 
 Kling ist das KI-Videoprodukt von Kuaishou, dem chinesischen Unternehmen für Kurzvideos hinter der Kwai-App. Die Modelle erstellen Clips aus einer Textbeschreibung oder einem Startbild. Sie gelten als besonders gut bei natürlichen Bewegungen, realistischer Physik sowie Gesichtern und Körpern, die während einer Szene konsistent bleiben. Bei der Einführung war Kling einer der stärksten Konkurrenten westlicher Videotools und ist trotz des schnellen Wandels weiterhin in der Spitzengruppe.

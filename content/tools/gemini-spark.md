@@ -18,6 +18,7 @@ alternatives:
   - openai-dots
   - meta-muse
   - openclaw
+  - hermes-agent
 date: '2026-11-05'
 tags: [ai_agent, assistant, gmail, google, automation, background_tasks, productivity, workspace]
 ---

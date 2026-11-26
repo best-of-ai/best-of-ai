@@ -26,7 +26,7 @@ general_tools:
   - claude
   - microsoft-365-copilot
   - gemini
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - zapier
 ---

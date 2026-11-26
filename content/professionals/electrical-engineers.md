@@ -27,6 +27,6 @@ general_tools:
   - claude
   - github-copilot
   - drawio
-  - notebooklm
+  - gemini-notebook
   - mintlify
 ---

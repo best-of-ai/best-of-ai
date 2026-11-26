@@ -24,7 +24,7 @@ general_tools:
   - elicit
   - consensus
   - scholarcy
-  - notebooklm
+  - gemini-notebook
   - grammarly
-i18n_source: '68988e848445'
+i18n_source: '8a3b5cad49a4'
 ---

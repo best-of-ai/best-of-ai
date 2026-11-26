@@ -20,9 +20,10 @@ alternatives:
   - hailuo-ai
   - vidu
   - wan-video
+  - gemini-omni
 date: '2026-07-17'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, voice_enabled, model_based]
-i18n_source: '9b0c68a19951'
+i18n_source: '455c29a57807'
 ---
 
 Veo 3は、テキストや画像のプロンプトから、音声付きの短い動画クリップを作ります。以前の動画モデルは無音で、音声は別に作る必要がありました。Veo 3は動きに合ったセリフ、効果音、音楽を作るので、クリップの完成度が上がります。

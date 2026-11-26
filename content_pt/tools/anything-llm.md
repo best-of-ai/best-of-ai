@@ -19,7 +19,7 @@ alternatives:
 - jan-ai
 - lm-studio
 - typingmind
-- notebooklm
+- gemini-notebook
 date: '2025-09-21'
 tags:
 - knowledge_base
@@ -34,7 +34,7 @@ tags:
 - open_source
 - cloud_based
 - model_based
-i18n_source: '3c88aaad4757'
+i18n_source: '1a6a1f84bbc7'
 ---
 O AnythingLLM oferece um espaço privado para conversar com seus arquivos. Você adiciona documentos, páginas da web ou outros conteúdos a um workspace, e o aplicativo os indexa em um banco de dados vetorial. Quando você faz uma pergunta, ele recupera trechos relevantes e os envia a um modelo de linguagem, que responde com referências.
 

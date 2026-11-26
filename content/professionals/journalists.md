@@ -24,7 +24,7 @@ specific_tools:
   - perplexity
   - exa-ai
   - kagi
-  - notebooklm
+  - gemini-notebook
 general_tools:
   - chatgpt
   - claude

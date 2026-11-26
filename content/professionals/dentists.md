@@ -29,7 +29,7 @@ general_tools:
   - chatgpt
   - claude
   - canva
-  - notebooklm
+  - gemini-notebook
   - adobe-lightroom-ai
   - hubspot-business
 ---

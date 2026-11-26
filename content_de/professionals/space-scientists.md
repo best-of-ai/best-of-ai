@@ -27,8 +27,8 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - consensus
   - overleaf
-i18n_source: '733aea7494c4'
+i18n_source: 'd801426a03db'
 ---

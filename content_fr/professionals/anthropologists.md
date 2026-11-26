@@ -27,10 +27,10 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - otter-ai
   - perplexity
   - deepl
-i18n_source: '375559c791f2'
+i18n_source: 'ef52b2fc458b'
 ---

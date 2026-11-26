@@ -13,7 +13,7 @@ price: Free
 featured: false
 rank: 5
 alternatives:
-- notebooklm
+- gemini-notebook
 - adobe-acrobat-ai
 - chatpdf
 - humata
@@ -29,7 +29,7 @@ tags:
 - document_processing
 - parsing
 - cloud_based
-i18n_source: '7eadff66ca8d'
+i18n_source: 'ba0e87fc5988'
 ---
 
 DocumentCloud wurde für Redaktionen entwickelt. Reporter:innen laden etwa Gerichtsakten, Regierungsberichte und durchgesickerte Dateien hoch. Optische Zeichenerkennung macht sie durchsuchbar. Passagen lassen sich markieren und kommentieren; veröffentlichte Dokumente zeigen Leser:innen die Originalquelle einer Recherche.

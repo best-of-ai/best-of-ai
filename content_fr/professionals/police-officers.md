@@ -26,6 +26,6 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
-i18n_source: '28a8fc3df15a'
+  - gemini-notebook
+i18n_source: '9163179d1343'
 ---

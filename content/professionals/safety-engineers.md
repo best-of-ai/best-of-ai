@@ -25,5 +25,5 @@ general_tools:
   - claude
   - tableau
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

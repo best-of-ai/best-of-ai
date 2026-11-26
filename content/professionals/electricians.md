@@ -23,5 +23,5 @@ general_tools:
   - claude
   - adobe-acrobat-ai
   - chatpdf
-  - notebooklm
+  - gemini-notebook
 ---

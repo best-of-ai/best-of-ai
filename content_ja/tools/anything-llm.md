@@ -16,10 +16,10 @@ alternatives:
   - jan-ai
   - lm-studio
   - typingmind
-  - notebooklm
+  - gemini-notebook
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, open_source, cloud_based, model_based]
-i18n_source: '3c88aaad4757'
+i18n_source: '1a6a1f84bbc7'
 ---
 
 AnythingLLMは、自分のファイルと話すための非公開の場所です。文書、ウェブページ、その他の内容をワークスペースに追加すると、アプリはそれらをベクトルデータベースにインデックスします。質問すると、関連する箇所を取り出して言語モデルへ送り、モデルは参照付きで答えます。

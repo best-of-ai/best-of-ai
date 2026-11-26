@@ -20,9 +20,10 @@ alternatives:
   - sora
   - wan-video
   - pixverse
+  - gemini-omni
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based]
-i18n_source: '50e2df27bb99'
+i18n_source: 'b45f4a844fa6'
 ---
 
 Hailuo AIは、中国のAI企業MiniMaxの動画モデルを一般向けにしたサービスです。プロンプトを入力するか画像をアップロードすると、短い動画クリップを生成します。ダンス、スポーツ、カメラの動きといった複雑な動きを含め、多くの利用者が自然だと感じる動きが出ます。画像から動画への結果の質と、細かいプロンプトに従う姿勢から、制作者の間で支持を集めました。

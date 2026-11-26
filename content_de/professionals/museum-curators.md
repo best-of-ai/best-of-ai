@@ -25,10 +25,10 @@ general_tools:
   - chatgpt
   - claude
   - midjourney
-  - notebooklm
+  - gemini-notebook
   - canva
   - gamma
   - grammarly
   - semantic-scholar
-i18n_source: '2f141f9793a5'
+i18n_source: '1c8a95d3ff23'
 ---

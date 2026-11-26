@@ -25,6 +25,6 @@ general_tools:
   - claude
   - grammarly
   - elicit
-  - notebooklm
+  - gemini-notebook
   - perplexity
 ---

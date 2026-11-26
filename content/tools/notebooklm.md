@@ -12,7 +12,11 @@ category_name: 'Document AI'
 price: 'Free'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Google renamed NotebookLM to Gemini Notebook on July 16, 2026 and combined it with the Gemini app, so notebooks created in either place sync with the other.'
+dead_date: '2026-07-16'
 alternatives:
+  - gemini-notebook
   - humata
   - chatpdf
   - anything-llm

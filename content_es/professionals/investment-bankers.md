@@ -33,6 +33,6 @@ general_tools:
   - adobe-acrobat-ai
   - perplexity
   - microsoft-365-copilot
-  - notebooklm
-i18n_source: 'f8f5c62914f7'
+  - gemini-notebook
+i18n_source: '9c9f39d141d7'
 ---

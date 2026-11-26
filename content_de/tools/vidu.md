@@ -19,9 +19,10 @@ alternatives:
   - runway-gen3
   - veo-3
   - wan-video
+  - gemini-omni
 date: '2025-06-15'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based]
-i18n_source: '5a6ae9959ef1'
+i18n_source: '351ac5cac9a6'
 ---
 
 Vidu verwandelt Prompts in kurze Videos. Nutzer beschreiben eine Szene oder stellen Referenzbilder bereit; die Plattform generiert einen Clip. Referenz-zu-Video hält Figuren oder Objekte über Einstellungen hinweg konsistent. Vorlagen erzeugen beliebte Social-Media-Effekte.

@@ -38,6 +38,6 @@ general_tools:
 - power-bi
 - microsoft-365-copilot
 - formula-bot
-- notebooklm
-i18n_source: 'ef04d62c1755'
+- gemini-notebook
+i18n_source: '62046fa4769c'
 ---

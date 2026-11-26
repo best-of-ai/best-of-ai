@@ -28,8 +28,8 @@ general_tools:
   - claude
   - tableau
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - buffer
-i18n_source: '04e7e364fb77'
+i18n_source: '050c6dd2ca31'
 ---

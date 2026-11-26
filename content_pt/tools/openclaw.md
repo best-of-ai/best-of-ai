@@ -16,9 +16,10 @@ alternatives:
   - nemoclaw
   - chatgpt-work
   - claude-cowork
+  - hermes-agent
 date: '2025-01-01'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, multi_agent, task_automation, orchestration, agentic, powerful]
-i18n_source: '6508213a241a'
+i18n_source: 'e8420338a80f'
 ---
 
 O OpenClaw começou como um projeto pessoal que permitia enviar mensagens a um agente de IA por aplicativos como WhatsApp e fazê-lo agir no computador. No início, passou por alguns nomes, incluindo Clawdbot e Moltbot, antes de se chamar OpenClaw, e ganhou popularidade rapidamente entre desenvolvedores e entusiastas.

@@ -24,5 +24,5 @@ general_tools:
   - tableau
   - zapier
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

@@ -30,6 +30,6 @@ general_tools:
   - power-bi
   - tableau
   - microsoft-365-copilot
-  - notebooklm
+  - gemini-notebook
   - perplexity
 ---

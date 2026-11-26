@@ -17,7 +17,7 @@ rank: 8
 alternatives:
 - humata
 - pdf-ai
-- notebooklm
+- gemini-notebook
 - adobe-acrobat-ai
 date: '2025-01-01'
 tags:
@@ -31,7 +31,7 @@ tags:
 - document_processing
 - parsing
 - analytics
-i18n_source: '364c1e19862d'
+i18n_source: '0d2e0b55478e'
 ---
 
 ChatPDF ist ein einfaches Werkzeug, um mit einem Dokument zu sprechen. Du lädst ein PDF hoch oder fügst einen Link ein. Das Tool liest die Datei und ermöglicht Fragen nach einer Zusammenfassung, einer Definition oder einer bestimmten Information. Jede Antwort enthält Verweise auf die Seiten, aus denen sie stammt. So kannst du die Textstelle selbst prüfen. Studierende nutzen es, um anspruchsvolle Fachartikel zu verstehen. Berufstätige verwenden es für Verträge und Berichte. Andere finden damit den passenden Abschnitt in einem langen Handbuch, ohne darin scrollen zu müssen.

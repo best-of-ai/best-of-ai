@@ -28,9 +28,9 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - otter-ai
   - fathom
-i18n_source: 'c22b141f63fd'
+i18n_source: 'ede07f4dfd68'
 ---

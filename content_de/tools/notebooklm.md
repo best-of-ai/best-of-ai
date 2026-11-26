@@ -12,7 +12,11 @@ category_name: 'Dokumenten-KI'
 price: 'Free'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Google hat NotebookLM am 16. Juli 2026 in Gemini Notebook umbenannt und mit der Gemini-App kombiniert, sodass Notebooks, die an einer der beiden Stellen erstellt werden, mit der anderen synchronisiert werden.'
+dead_date: '2026-07-16'
 alternatives:
+  - gemini-notebook
   - humata
   - chatpdf
   - anything-llm
@@ -21,7 +25,7 @@ alternatives:
   - chatgpt
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
-i18n_source: '93cf76824c50'
+i18n_source: '64b50a79f1cb'
 ---
 NotebookLM basiert auf der Idee, KI auf die eigenen Quellen zu stützen. Du erstellst ein Notizbuch und fügst Materialien wie PDFs, Google Docs, Webseiten, YouTube-Videos und eingefügten Text hinzu. Die KI beantwortet Fragen ausschließlich anhand dieser Quellen und zeigt Verweise auf die genauen Textstellen. Das verringert das Risiko erfundener Fakten und macht Antworten leicht überprüfbar. Beliebt ist das Tool bei Studierenden, Forschenden, Schreibenden und Fachleuten mit umfangreicher Lektüre.
 

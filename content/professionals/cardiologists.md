@@ -28,7 +28,7 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - perplexity
   - adobe-acrobat-ai
 ---

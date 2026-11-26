@@ -28,5 +28,5 @@ general_tools:
   - adobe-acrobat-ai
   - chatpdf
   - humata
-  - notebooklm
+  - gemini-notebook
 ---

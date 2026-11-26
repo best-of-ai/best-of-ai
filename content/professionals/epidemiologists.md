@@ -30,7 +30,7 @@ general_tools:
   - tableau
   - semantic-scholar
   - elicit
-  - notebooklm
+  - gemini-notebook
   - scite-ai
   - grammarly
 ---

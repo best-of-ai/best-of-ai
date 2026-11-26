@@ -27,7 +27,7 @@ general_tools:
   - claude
   - elicit
   - connected-papers
-  - notebooklm
+  - gemini-notebook
   - consensus
   - tableau
 ---

@@ -27,5 +27,5 @@ general_tools:
   - otter-ai
   - grammarly
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
 ---

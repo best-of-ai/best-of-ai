@@ -28,8 +28,8 @@ specific_tools:
 general_tools:
 - chatgpt
 - claude
-- notebooklm
+- gemini-notebook
 - scispace
 - elicit
-i18n_source: '918c884bf259'
+i18n_source: '4545d4ede10e'
 ---

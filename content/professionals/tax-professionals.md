@@ -27,7 +27,7 @@ general_tools:
   - chatgpt
   - claude
   - zapier
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - grammarly
 ---

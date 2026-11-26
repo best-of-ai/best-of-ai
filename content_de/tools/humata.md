@@ -15,12 +15,12 @@ rank: 8
 alternatives:
   - chatpdf
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, analytics]
-i18n_source: '253766b35b9c'
+i18n_source: '5c7fe9dd34bd'
 ---
 Mit Humata können Nutzer mit Dokumenten in Dialog treten. Nach dem Hochladen liest das Tool den Inhalt und beantwortet Fragen dazu: etwa nach einer Zusammenfassung, einer bestimmten Zahl, einem Vergleich zwischen Abschnitten oder der Erklärung einer Vertragsklausel. Jede Antwort enthält einen Verweis auf die entsprechende Passage in der Quelle und lässt sich daher leicht überprüfen. Das funktioniert auch mit umfangreichen Dateien, deren manuelle Durchsicht viel Zeit kosten würde, darunter Verträge, Forschungsarbeiten und Finanzberichte.
 

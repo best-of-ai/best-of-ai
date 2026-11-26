@@ -23,7 +23,7 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - perplexity
-i18n_source: 'c74ca1b9d889'
+i18n_source: 'f8ccf1b68245'
 ---

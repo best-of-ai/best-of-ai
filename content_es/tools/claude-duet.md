@@ -19,9 +19,10 @@ alternatives:
   - manus
   - chatgpt-work
   - slackbot
+  - hermes-agent
 date: '2026-10-22'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, agentic, productivity, email, background_agent]
-i18n_source: 'c1f1b00e234e'
+i18n_source: 'd620547e601b'
 ---
 
 Duet parte de la idea de que un asistente no debería esperar a que se lo pidas. Cada mañana envía un resumen de lo que importa en tus apps conectadas, y revisa esas cuentas cada pocas horas en busca de novedades que requieran atención. Puedes encargarle tareas, y trabaja en su propia máquina virtual con un navegador, así que tu portátil o tu teléfono no tienen que estar encendidos. Sigue trabajando mientras estás fuera y te avisa cuando algo está hecho o necesita una decisión.

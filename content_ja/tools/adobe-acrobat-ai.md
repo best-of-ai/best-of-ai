@@ -16,11 +16,11 @@ alternatives:
   - chatpdf
   - humata
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - abbyy
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, fast, powerful]
-i18n_source: 'f29f2d20284a'
+i18n_source: 'd2fe6dc8e6fb'
 ---
 
 Acrobat AI Assistantは、多くの職場ですでに使っているPDFリーダーへチャットのパネルを足します。契約書、報告書、論文を開き、要約、対応事項の一覧、特定の質問への答えを頼めます。回答にはそれぞれ、根拠になった箇所へ戻るリンクが付くので、うのみにせず確認できます。目を通すのに1時間かかる長いファイルも扱えます。

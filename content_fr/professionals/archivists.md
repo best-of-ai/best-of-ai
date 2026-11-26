@@ -22,10 +22,10 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - glean
   - notion-ai
   - adobe-acrobat-ai
   - chatpdf
-i18n_source: 'aae6465df4ca'
+i18n_source: 'b4c9931add3f'
 ---

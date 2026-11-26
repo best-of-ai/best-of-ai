@@ -24,5 +24,5 @@ general_tools:
   - chatgpt
   - claude
   - scispace
-  - notebooklm
+  - gemini-notebook
 ---

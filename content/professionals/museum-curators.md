@@ -25,7 +25,7 @@ general_tools:
   - chatgpt
   - claude
   - midjourney
-  - notebooklm
+  - gemini-notebook
   - canva
   - gamma
   - grammarly

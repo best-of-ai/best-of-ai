@@ -35,8 +35,8 @@ general_tools:
 - tableau
 - semantic-scholar
 - elicit
-- notebooklm
+- gemini-notebook
 - scite-ai
 - grammarly
-i18n_source: '74a2e2c54a40'
+i18n_source: 'aa44f24adefe'
 ---

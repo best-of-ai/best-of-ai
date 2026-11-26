@@ -27,6 +27,6 @@ general_tools:
   - claude
   - grammarly
   - adobe-acrobat-ai
-  - notebooklm
-i18n_source: '4ed4ad312d3c'
+  - gemini-notebook
+i18n_source: '555c75919de5'
 ---

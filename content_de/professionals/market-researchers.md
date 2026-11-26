@@ -32,7 +32,7 @@ general_tools:
   - chatgpt
   - claude
   - gamma
-  - notebooklm
+  - gemini-notebook
   - otter-ai
-i18n_source: 'b6f8fafca6a8'
+i18n_source: '97a5cb2674be'
 ---

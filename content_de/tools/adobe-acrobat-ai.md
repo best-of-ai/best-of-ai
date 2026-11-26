@@ -18,7 +18,7 @@ alternatives:
 - chatpdf
 - humata
 - pdf-ai
-- notebooklm
+- gemini-notebook
 - abbyy
 date: '2025-01-01'
 tags:
@@ -33,7 +33,7 @@ tags:
 - parsing
 - fast
 - powerful
-i18n_source: 'f29f2d20284a'
+i18n_source: 'd2fe6dc8e6fb'
 ---
 
 Acrobat AI Assistant ergänzt den PDF-Reader, den die meisten Büros ohnehin verwenden, um ein Chatfenster. Öffne einen Vertrag, Bericht oder Forschungsartikel und bitte den Assistenten um eine Zusammenfassung, eine Liste von Aufgaben oder die Antwort auf eine konkrete Frage. Jede Antwort verweist auf die betreffende Textstelle. So kannst du das Ergebnis überprüfen, statt ihm blind zu vertrauen. Der Assistent verarbeitet auch lange Dateien, deren Durchsicht sonst eine Stunde dauern würde.

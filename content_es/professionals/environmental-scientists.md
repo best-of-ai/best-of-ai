@@ -27,9 +27,9 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - scispace
   - elicit
   - consensus
-i18n_source: '5031989a469a'
+i18n_source: '3068840c7ee5'
 ---

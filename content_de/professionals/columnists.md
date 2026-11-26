@@ -26,8 +26,8 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - wordtune
-i18n_source: 'c422f7f4e336'
+i18n_source: '68c5c6fcc313'
 ---

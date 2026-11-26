@@ -24,6 +24,6 @@ general_tools:
   - chatgpt
   - claude
   - tableau
-  - notebooklm
+  - gemini-notebook
   - wolfram-alpha-ai
 ---

@@ -29,8 +29,8 @@ general_tools:
   - chatgpt
   - claude
   - drawio
-  - notebooklm
+  - gemini-notebook
   - linear
   - perplexity
-i18n_source: '302cbc6b45d4'
+i18n_source: '5efe3ee95d48'
 ---

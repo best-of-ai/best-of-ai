@@ -26,6 +26,6 @@ general_tools:
   - adobe-acrobat-ai
   - google-translate
   - deepl
-  - notebooklm
-i18n_source: 'dd23932b7d2e'
+  - gemini-notebook
+i18n_source: '44b2e16e1e40'
 ---

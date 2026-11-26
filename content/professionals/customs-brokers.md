@@ -26,5 +26,5 @@ general_tools:
   - adobe-acrobat-ai
   - google-translate
   - deepl
-  - notebooklm
+  - gemini-notebook
 ---

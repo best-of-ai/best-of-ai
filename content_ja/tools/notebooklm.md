@@ -12,7 +12,11 @@ category_name: 'ドキュメントAI'
 price: 'Free'
 featured: false
 rank: 8
+dead: true
+dead_reason: 'Googleは2026年7月16日にNotebookLMをGemini Notebookに名称変更し、Geminiアプリと組み合わせたため、どちらで作ったノートブックももう一方と同期されます。'
+dead_date: '2026-07-16'
 alternatives:
+  - gemini-notebook
   - humata
   - chatpdf
   - anything-llm
@@ -21,7 +25,7 @@ alternatives:
   - chatgpt
 date: '2025-01-01'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, voice_enabled]
-i18n_source: '93cf76824c50'
+i18n_source: '64b50a79f1cb'
 ---
 
 NotebookLMは、AIを自分のソースに基づかせるという考え方で作られています。ノートブックを作り、PDF、Googleドキュメント、ウェブページ、YouTube動画、貼り付けたテキストなどの資料を追加します。AIはそれらのソースだけを使って質問に答え、該当する箇所へのリンク付きの引用を示します。そのため、事実の作り話が起きるリスクが減り、回答を確認しやすくなります。大量の読み物を扱う学生、研究者、ライター、社会人に人気です。

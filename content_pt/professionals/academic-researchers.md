@@ -45,12 +45,12 @@ general_tools:
 - chatgpt
 - claude
 - perplexity
-- notebooklm
+- gemini-notebook
 - grammarly
 - notion-ai
 - otter-ai
 - obsidian
 - gemini
 - deepl
-i18n_source: 'f027f5593417'
+i18n_source: '22033f23d330'
 ---

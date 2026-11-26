@@ -28,6 +28,6 @@ general_tools:
   - semantic-scholar
   - scite-ai
   - connected-papers
-  - notebooklm
+  - gemini-notebook
   - elicit
 ---

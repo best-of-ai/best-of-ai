@@ -24,7 +24,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - zotero-ai
-i18n_source: '48053375ed8e'
+i18n_source: '891bb1e559fc'
 ---

@@ -25,6 +25,6 @@ general_tools:
 - chatgpt
 - claude
 - otter-ai
-- notebooklm
-i18n_source: '6421a56814c5'
+- gemini-notebook
+i18n_source: 'fcf5b2bce48b'
 ---

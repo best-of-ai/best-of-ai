@@ -29,7 +29,7 @@ general_tools:
   - chatgpt
   - claude
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
   - salesforce
-i18n_source: 'b3940619bc98'
+i18n_source: '197cb72593c3'
 ---

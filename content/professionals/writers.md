@@ -44,5 +44,5 @@ general_tools:
   - grammarly
   - notion-ai
   - consensus
-  - notebooklm
+  - gemini-notebook
 ---

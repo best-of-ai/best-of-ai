@@ -15,7 +15,7 @@ rank: 8
 alternatives:
   - chatpdf
   - pdf-ai
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - collate-ai
 date: '2025-01-01'

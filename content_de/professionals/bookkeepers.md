@@ -32,6 +32,6 @@ general_tools:
   - microsoft-365-copilot
   - formula-bot
   - adobe-acrobat-ai
-  - notebooklm
-i18n_source: 'c9f861591d4a'
+  - gemini-notebook
+i18n_source: '749c8e47eb56'
 ---

@@ -25,5 +25,5 @@ general_tools:
   - claude
   - scispace
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
 ---

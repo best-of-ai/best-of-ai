@@ -42,6 +42,6 @@ general_tools:
   - google-translate
   - grammarly
   - deepl
-  - notebooklm
-i18n_source: '208941b44e6e'
+  - gemini-notebook
+i18n_source: '72f4a92e3d03'
 ---

@@ -13,7 +13,7 @@ price: 'Freemium'
 featured: false
 rank: 8
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - chatpdf
   - humata
   - perplexity-research
@@ -21,7 +21,7 @@ alternatives:
   - scispace
 date: '2025-09-21'
 tags: [research, analytics, academic, studies, investigation, literature_review, citations, discovery, synthesis, collaboration, free_tier, customizable]
-i18n_source: 'dd784dec1529'
+i18n_source: '0b01f01c7246'
 ---
 
 NotebookLM Plusは、自分のドキュメントを扱うGoogleのツールNotebookLMで、ヘビーユーザーにより余裕を与えます。無料版ではソースを追加し、引用付きで質問し、学習用の資料を作れますが、ノートブック数、ソース数、1日のクエリ数に上限があります。Plusではその上限が緩和され、研究者、論文を書く学生、多数のドキュメントを横断して作業するアナリストなど、大きなプロジェクトを持つ人が、より多くの資料を一か所にまとめられます。

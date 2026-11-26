@@ -24,6 +24,6 @@ general_tools:
   - tableau
   - zapier
   - adobe-acrobat-ai
-  - notebooklm
-i18n_source: 'e849d9cb2832'
+  - gemini-notebook
+i18n_source: '8edceecf1d18'
 ---

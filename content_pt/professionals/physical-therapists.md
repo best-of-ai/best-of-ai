@@ -29,7 +29,7 @@ specific_tools:
 general_tools:
 - chatgpt
 - claude
-- notebooklm
+- gemini-notebook
 - grammarly
-i18n_source: '66b85fd55f23'
+i18n_source: 'b38292f94628'
 ---

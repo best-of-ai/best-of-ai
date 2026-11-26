@@ -23,7 +23,7 @@ general_tools:
   - chatgpt
   - claude
   - otter-ai
-  - notebooklm
+  - gemini-notebook
   - grammarly
-i18n_source: '4d13d6dd9f5f'
+i18n_source: '21a99231b62d'
 ---

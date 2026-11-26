@@ -28,6 +28,6 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
-i18n_source: 'ea9f401e8d25'
+  - gemini-notebook
+i18n_source: '22df1c9b07c6'
 ---

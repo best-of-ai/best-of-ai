@@ -16,10 +16,10 @@ alternatives:
   - jan-ai
   - lm-studio
   - typingmind
-  - notebooklm
+  - gemini-notebook
 date: '2025-09-21'
 tags: [knowledge_base, productivity, note_taking, organization, information, second_brain, wiki, search, retrieval, open_source, cloud_based, model_based]
-i18n_source: '3c88aaad4757'
+i18n_source: '1a6a1f84bbc7'
 ---
 
 AnythingLLM te da un lugar privado para hablar con tus archivos. Añades documentos, páginas web u otro contenido a un espacio de trabajo, y la app los indexa en una base de datos vectorial. Cuando haces una pregunta, recupera los pasajes relevantes y se los envía a un modelo de lenguaje, que responde con referencias.

@@ -18,9 +18,10 @@ alternatives:
   - openai-dots
   - meta-muse
   - openclaw
+  - hermes-agent
 date: '2026-11-05'
 tags: [ai_agent, assistant, gmail, google, automation, background_tasks, productivity, workspace]
-i18n_source: 'cd5eaa97b198'
+i18n_source: 'bde7fe81d628'
 ---
 Spark est le pas de Google vers un assistant toujours actif. Tu lui donnes des tâches, comme rassembler des informations de ta boîte et de tes documents, préparer un voyage, ou suivre une tâche sur plusieurs jours, et il travaille en arrière-plan sur des machines virtuelles dédiées dans le cloud de Google. Comme il tourne là, il continue même quand ton téléphone ou ton ordinateur est éteint, et il revient avec des résultats.
 

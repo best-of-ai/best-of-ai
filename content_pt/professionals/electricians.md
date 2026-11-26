@@ -27,6 +27,6 @@ general_tools:
 - claude
 - adobe-acrobat-ai
 - chatpdf
-- notebooklm
-i18n_source: '6c4e0bc70fec'
+- gemini-notebook
+i18n_source: '64d50670cd3f'
 ---

@@ -25,6 +25,6 @@ general_tools:
   - claude
   - tableau
   - adobe-acrobat-ai
-  - notebooklm
-i18n_source: 'd5802b6ad83f'
+  - gemini-notebook
+i18n_source: 'fffd07d8d812'
 ---

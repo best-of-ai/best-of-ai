@@ -21,7 +21,7 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - gamma
   - grammarly
 ---

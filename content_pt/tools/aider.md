@@ -19,9 +19,10 @@ alternatives:
   - opencode
   - continue-dev
   - plandex
+  - kilo-code
 date: '2025-01-01'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, cloud_based, nlp]
-i18n_source: '5493c5f5781b'
+i18n_source: '7843ac037f85'
 ---
 
 Aider é uma ferramenta de linha de comando para programação em pares com um modelo de linguagem. Você a inicia dentro de um repositório Git, adiciona os arquivos em que quer trabalhar e descreve o pedido em linguagem natural. A ferramenta edita os arquivos diretamente, mostra as diferenças e registra cada alteração em um commit com uma mensagem adequada, para que você possa revisar ou desfazer qualquer ação do modelo com comandos Git comuns. Essa integração estreita com Git torna seguro usá-la em um projeto real.

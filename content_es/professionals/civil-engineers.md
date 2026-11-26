@@ -31,6 +31,6 @@ general_tools:
   - drawio
   - power-bi
   - microsoft-365-copilot
-  - notebooklm
-i18n_source: '537abf9054bf'
+  - gemini-notebook
+i18n_source: '48412e639b7d'
 ---

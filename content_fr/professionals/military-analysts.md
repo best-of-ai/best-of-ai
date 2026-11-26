@@ -28,6 +28,6 @@ general_tools:
   - claude
   - tableau
   - perplexity
-  - notebooklm
-i18n_source: 'de1a42639a74'
+  - gemini-notebook
+i18n_source: '22298f9230bf'
 ---

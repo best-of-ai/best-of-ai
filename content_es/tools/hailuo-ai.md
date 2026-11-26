@@ -20,9 +20,10 @@ alternatives:
   - sora
   - wan-video
   - pixverse
+  - gemini-omni
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based]
-i18n_source: '50e2df27bb99'
+i18n_source: 'b45f4a844fa6'
 ---
 
 Hailuo AI es la cara para el público de los modelos de vídeo de MiniMax, una empresa china de IA. Escribes un prompt o subes una imagen y genera un clip de vídeo corto, con un movimiento que a muchos usuarios les parece natural, incluso en acciones complejas como el baile, el deporte o los movimientos de cámara. Se ganó un público entre los creadores por la calidad de sus resultados de imagen a vídeo y por seguir bien los prompts detallados.

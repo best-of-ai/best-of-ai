@@ -25,7 +25,7 @@ general_tools:
   - chatgpt
   - claude
   - canva
-  - notebooklm
+  - gemini-notebook
   - asana
-i18n_source: 'df53ebd30675'
+i18n_source: '9142bfc90944'
 ---

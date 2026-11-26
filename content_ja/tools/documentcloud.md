@@ -12,13 +12,13 @@ price: 'Free'
 featured: false
 rank: 5
 alternatives:
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - chatpdf
   - humata
 date: '2026-10-03'
 tags: [document_ai, pdf, productivity, extraction, documents, ocr, summarization, document_processing, parsing, cloud_based]
-i18n_source: '7eadff66ca8d'
+i18n_source: 'ba0e87fc5988'
 ---
 
 DocumentCloudは、報道機関向けに作られたプラットフォームです。記者は裁判所への提出書類、政府の報告書、流出したファイルなどの文書をアップロードし、光学文字認識で検索できるようになります。箇所に注釈を付け、メモを残し、記事の根拠となる原文を読者が見られるように公開できます。

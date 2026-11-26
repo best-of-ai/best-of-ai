@@ -22,9 +22,9 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - perplexity
   - notion-ai
-i18n_source: '6d1da2577f91'
+i18n_source: '782901524176'
 ---

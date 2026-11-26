@@ -15,7 +15,7 @@ price: Freemium
 featured: false
 rank: 8
 alternatives:
-- notebooklm
+- gemini-notebook
 - notion-ai
 - claude-docs
 - openai-canvas
@@ -32,7 +32,7 @@ tags:
 - synthesis
 - image_based
 - fast
-i18n_source: a1a80eb978e5
+i18n_source: '7ffe5233c300'
 ---
 
 Pages é uma camada de publicação sobre a pesquisa da Perplexity. Depois de explorar um tema com o assistente, você pode transformar a conversa em uma página estruturada, com títulos, resumos e citações das fontes utilizadas. O material fica organizado como um artigo curto ou guia de estudo, em vez de permanecer como um registro de conversa.

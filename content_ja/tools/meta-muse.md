@@ -18,9 +18,10 @@ alternatives:
   - gemini-spark
   - openclaw
   - chatgpt-work
+  - hermes-agent
 date: '2026-09-08'
 tags: [ai_assistants, agents, personal_assistant, automation, scheduling, shopping, productivity, agentic, mobile, voice]
-i18n_source: 'fd1880fe5b33'
+i18n_source: 'e3ab7aaa3e70'
 ---
 
 Museは、チャット用アシスタントから、ユーザーに代わって動くエージェントへというMetaの一歩です。旅行の手配、メールの下書きと送信、複数の手順が必要な用事などを頼むと、アプリやウェブサイトをまたいで作業を進めます。各ユーザーのエージェントは安全な仮想マシンで動くため、アプリを閉じたあとも作業を続け、判断が必要になったら戻ってきます。

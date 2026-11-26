@@ -23,6 +23,6 @@ general_tools:
   - claude
   - semantic-scholar
   - elicit
-  - notebooklm
-i18n_source: '723204ff9dc1'
+  - gemini-notebook
+i18n_source: 'de46ff22736c'
 ---

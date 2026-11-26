@@ -19,9 +19,10 @@ alternatives:
   - vidu
   - veo-3
   - pixverse
+  - gemini-omni
 date: '2025-01-01'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, image_based, model_based]
-i18n_source: '2bfbd735b8b1'
+i18n_source: 'e07a3f8af232'
 ---
 
 Wan génère de la vidéo à partir de descriptions. Les utilisateurs fournissent un prompt ou une image, et le modèle produit un clip avec du mouvement et du détail. Alibaba a publié plusieurs versions, dont des modèles à poids ouverts qui tournent sur du matériel local et ont attiré une grande communauté d'outils et de fine-tunes.

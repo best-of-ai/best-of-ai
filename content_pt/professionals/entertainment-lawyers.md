@@ -30,7 +30,7 @@ general_tools:
 - chatgpt
 - claude
 - adobe-acrobat-ai
-- notebooklm
+- gemini-notebook
 - perplexity
-i18n_source: '4c3801446417'
+i18n_source: 'a8defe29bbce'
 ---

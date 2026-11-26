@@ -27,7 +27,7 @@ general_tools:
   - chatgpt
   - claude
   - semantic-scholar
-  - notebooklm
+  - gemini-notebook
   - elicit
   - scispace
   - overleaf

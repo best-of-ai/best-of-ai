@@ -34,6 +34,6 @@ general_tools:
   - gamma
   - canva
   - grammarly
-  - notebooklm
-i18n_source: '14fb6112744c'
+  - gemini-notebook
+i18n_source: 'a28b3a6968f4'
 ---

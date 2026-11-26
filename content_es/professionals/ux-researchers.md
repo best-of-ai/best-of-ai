@@ -31,6 +31,6 @@ general_tools:
   - chatgpt
   - claude
   - tableau
-  - notebooklm
-i18n_source: '3f4254892719'
+  - gemini-notebook
+i18n_source: '6babe2c49c0f'
 ---

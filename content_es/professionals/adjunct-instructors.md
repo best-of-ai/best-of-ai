@@ -24,11 +24,11 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - gamma
   - canva
   - otter-ai
   - notion-ai
   - grammarly
-i18n_source: '8b923108d195'
+i18n_source: '5484f1c8d3eb'
 ---

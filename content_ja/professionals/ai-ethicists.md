@@ -27,6 +27,6 @@ general_tools:
   - claude
   - perplexity
   - elicit
-  - notebooklm
-i18n_source: '3d5ef822de31'
+  - gemini-notebook
+i18n_source: 'fd06bf779266'
 ---

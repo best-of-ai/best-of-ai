@@ -28,7 +28,7 @@ general_tools:
 - chatgpt
 - claude
 - perplexity
-- notebooklm
+- gemini-notebook
 - grammarly
-i18n_source: '676ef47f9afa'
+i18n_source: '4fc3c66d8bd4'
 ---

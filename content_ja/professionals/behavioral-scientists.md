@@ -26,9 +26,9 @@ general_tools:
   - chatgpt
   - claude
   - perplexity
-  - notebooklm
+  - gemini-notebook
   - otter-ai
   - grammarly
   - overleaf
-i18n_source: '113ccd4d5cad'
+i18n_source: '91eaed13cfce'
 ---

@@ -27,5 +27,5 @@ general_tools:
   - claude
   - grammarly
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

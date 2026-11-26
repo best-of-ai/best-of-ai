@@ -18,6 +18,7 @@ alternatives:
   - gemini-spark
   - openclaw
   - chatgpt-work
+  - hermes-agent
 date: '2026-09-08'
 tags: [ai_assistants, agents, personal_assistant, automation, scheduling, shopping, productivity, agentic, mobile, voice]
 ---

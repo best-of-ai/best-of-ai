@@ -19,6 +19,7 @@ alternatives:
   - manus
   - chatgpt-work
   - slackbot
+  - hermes-agent
 date: '2026-10-22'
 tags: [ai_agent, automation, autonomous, ai_assistants, agents, task_automation, agentic, productivity, email, background_agent]
 ---

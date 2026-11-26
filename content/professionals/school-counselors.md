@@ -26,5 +26,5 @@ general_tools:
   - grammarly
   - gamma
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

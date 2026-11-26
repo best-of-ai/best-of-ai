@@ -26,8 +26,8 @@ general_tools:
   - chatgpt
   - claude
   - salesforce
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - zapier
-i18n_source: '769593cedb30'
+i18n_source: '1c06ef531984'
 ---

@@ -27,7 +27,7 @@ general_tools:
   - claude
   - github-copilot
   - drawio
-  - notebooklm
+  - gemini-notebook
   - mintlify
-i18n_source: 'a97ea0dd9453'
+i18n_source: '0313ac36f49a'
 ---

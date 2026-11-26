@@ -31,5 +31,5 @@ general_tools:
   - drawio
   - power-bi
   - microsoft-365-copilot
-  - notebooklm
+  - gemini-notebook
 ---

@@ -27,8 +27,8 @@ general_tools:
   - chatgpt
   - claude
   - elicit
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - consensus
-i18n_source: '73d6ca724a4b'
+i18n_source: '1d503c57be1b'
 ---

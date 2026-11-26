@@ -24,6 +24,6 @@ general_tools:
   - claude
   - gamma
   - perplexity
-  - notebooklm
-i18n_source: 'a134970f202f'
+  - gemini-notebook
+i18n_source: 'bd280316178c'
 ---

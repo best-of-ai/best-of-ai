@@ -25,6 +25,6 @@ general_tools:
   - claude
   - scispace
   - semantic-scholar
-  - notebooklm
-i18n_source: '4bdad69d8d2b'
+  - gemini-notebook
+i18n_source: '856a74389920'
 ---

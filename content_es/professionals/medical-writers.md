@@ -29,8 +29,8 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - grammarly
-i18n_source: '8169ace5a41b'
+i18n_source: '48562707f35a'
 ---

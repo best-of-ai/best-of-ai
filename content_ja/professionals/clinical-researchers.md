@@ -30,10 +30,10 @@ specific_tools:
 general_tools:
   - chatgpt
   - claude
-  - notebooklm
+  - gemini-notebook
   - grammarly
   - perplexity
   - zotero-ai
   - overleaf
-i18n_source: 'd351669ddc52'
+i18n_source: '84ffbfec9b4f'
 ---

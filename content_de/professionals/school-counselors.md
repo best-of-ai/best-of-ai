@@ -26,6 +26,6 @@ general_tools:
   - grammarly
   - gamma
   - adobe-acrobat-ai
-  - notebooklm
-i18n_source: 'ab9ae23e385b'
+  - gemini-notebook
+i18n_source: '92bbff05cc96'
 ---

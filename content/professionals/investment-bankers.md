@@ -33,5 +33,5 @@ general_tools:
   - adobe-acrobat-ai
   - perplexity
   - microsoft-365-copilot
-  - notebooklm
+  - gemini-notebook
 ---

@@ -24,6 +24,6 @@ general_tools:
   - elicit
   - consensus
   - scholarcy
-  - notebooklm
+  - gemini-notebook
   - grammarly
 ---

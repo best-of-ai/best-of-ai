@@ -26,7 +26,7 @@ general_tools:
   - chatgpt
   - claude
   - salesforce
-  - notebooklm
+  - gemini-notebook
   - adobe-acrobat-ai
   - zapier
 ---

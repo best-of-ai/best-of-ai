@@ -16,7 +16,7 @@ categories:
   - mind-mapping
   - reading
 specific_tools:
-  - notebooklm
+  - gemini-notebook
   - quizlet-ai
   - studysmarter
   - khanmigo
@@ -36,5 +36,5 @@ general_tools:
   - grammarly
   - elicit
   - consensus
-i18n_source: '5f71754e6cca'
+i18n_source: 'f705d19960cb'
 ---

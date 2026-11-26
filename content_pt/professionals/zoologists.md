@@ -32,8 +32,8 @@ general_tools:
 - chatgpt
 - claude
 - semantic-scholar
-- notebooklm
+- gemini-notebook
 - elicit
 - perplexity
-i18n_source: '43b60bc0ab2a'
+i18n_source: 'bbde1fca8505'
 ---

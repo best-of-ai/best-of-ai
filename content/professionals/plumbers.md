@@ -21,5 +21,5 @@ general_tools:
   - chatgpt
   - claude
   - adobe-acrobat-ai
-  - notebooklm
+  - gemini-notebook
 ---

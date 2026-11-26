@@ -21,6 +21,7 @@ alternatives:
   - runway-gen3
   - adobe-firefly
   - youart
+  - gemini-omni
 date: '2025-09-21'
 tags: [video, creative, media, content, production, recording, streaming, publishing, video_creation, image_based, model_based, powerful]
 ---

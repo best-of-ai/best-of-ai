@@ -19,6 +19,7 @@ alternatives:
   - cline
   - cursor
   - github-copilot
+  - kilo-code
 date: '2026-08-31'
 tags: [code_generation, developer_tools, productivity, coding, programming, autocomplete, debugging, refactoring, ide, open_source, api_available, collaboration]
 ---

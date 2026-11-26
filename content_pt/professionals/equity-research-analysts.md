@@ -30,7 +30,7 @@ general_tools:
 - chatgpt
 - claude
 - microsoft-365-copilot
-- notebooklm
+- gemini-notebook
 - perplexity
-i18n_source: '0fe1d09bca48'
+i18n_source: '9698d60f7c79'
 ---

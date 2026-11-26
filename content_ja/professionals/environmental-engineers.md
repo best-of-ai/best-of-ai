@@ -31,6 +31,6 @@ general_tools:
   - power-bi
   - tableau
   - semantic-scholar
-  - notebooklm
-i18n_source: 'fe687a8a8712'
+  - gemini-notebook
+i18n_source: '95ca27d43a4d'
 ---

@@ -27,6 +27,6 @@ general_tools:
   - otter-ai
   - grammarly
   - semantic-scholar
-  - notebooklm
-i18n_source: '6af6e2548e63'
+  - gemini-notebook
+i18n_source: '2f9c78c0affb'
 ---

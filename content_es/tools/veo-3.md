@@ -20,9 +20,10 @@ alternatives:
   - hailuo-ai
   - vidu
   - wan-video
+  - gemini-omni
 date: '2026-07-17'
 tags: [video_generation, creative, text_to_video, animation, production, ai_video, generative, short_form, clips, voice_enabled, model_based]
-i18n_source: '9b0c68a19951'
+i18n_source: '455c29a57807'
 ---
 
 Veo 3 genera vídeos cortos a partir de prompts de texto o imágenes e incluye sonido. Los modelos anteriores generaban vídeos mudos que requerían trabajar el audio por separado; Veo 3 crea voces, efectos y música acordes con la acción, lo que da a los clips una sensación más completa.
