@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, extensible]
-i18n_source: 'be40a52b0d14'
+i18n_source: '2b14ac50f065'
 ---
 
 There's An AI For That, souvent abrégé en TAAFT, a commencé comme une recherche simple d'outils d'IA par tâche. On tape ce qu'on veut faire, par exemple écrire une lettre de motivation ou retirer un arrière-plan, et on obtient une liste d'outils pour ce travail, avec des notes et des descriptions.

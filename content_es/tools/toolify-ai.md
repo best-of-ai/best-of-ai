@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, image_based]
-i18n_source: 'bbfd0f7e2a7c'
+i18n_source: '13060c537a7c'
 ---
 
 Toolify.ai es un amplio directorio de herramientas de IA. Los visitantes pueden explorar categorías, buscar por tarea y ordenar los resultados según indicadores de popularidad, como el tráfico mensual estimado y los rankings. Cada ficha incluye una descripción, precios y enlaces.

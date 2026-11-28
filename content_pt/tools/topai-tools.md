@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation]
-i18n_source: '221901731f88'
+i18n_source: 'a736b58a5f54'
 ---
 
 O TopAI.tools é um diretório em que a comunidade vota nas ferramentas. Criadores enviam produtos, usuários votam neles e as classificações refletem esse interesse. A abordagem busca dar visibilidade a produtos novos e menores.

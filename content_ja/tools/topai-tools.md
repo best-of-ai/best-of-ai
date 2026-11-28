@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation]
-i18n_source: '221901731f88'
+i18n_source: 'a736b58a5f54'
 ---
 
 TopAI.toolsは、コミュニティが投票でツールを選ぶディレクトリです。開発者が製品を登録し、ユーザーが投票して、その関心が順位に表れます。新しい製品や小さな製品にも目が向くようにする狙いです。

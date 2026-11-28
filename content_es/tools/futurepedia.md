@@ -21,9 +21,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, collaboration, powerful]
-i18n_source: 'e4c2644c95a0'
+i18n_source: 'fb116b3e0af0'
 ---
 
 Futurepedia es un directorio de herramientas de IA centrado en ayudar a elegir. Los visitantes navegan por categoría o caso de uso, filtran por precio y leen descripciones breves y opiniones. Se añaden fichas nuevas con regularidad, así que puede servir para estar al día de los lanzamientos.

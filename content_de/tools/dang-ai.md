@@ -20,9 +20,10 @@ alternatives:
   - topai-tools
   - future-tools
   - insidr-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, image_based, fast]
-i18n_source: '06f3315f4cde'
+i18n_source: 'abd10d569219'
 ---
 
 Dang.ai hilft, KI-Werkzeuge durch Abstimmungen der Community zu entdecken. Anbieter reichen Produkte ein, Nutzer stimmen ab und die beliebtesten Einträge erscheinen auf der Startseite. Kategorien umfassen Schreiben, Bilder, Programmierung, Video und mehr; jeder Eintrag enthält eine Kurzbeschreibung und einen Link.

@@ -19,9 +19,10 @@ alternatives:
   - topai-tools
   - aixploria
   - dang-ai
+  - semilaunch
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
-i18n_source: 'c61dc54ccaf4'
+i18n_source: 'eb988f4f64e2'
 ---
 Altern ist ein Verzeichnis zum Entdecken von KI-Tools. Einträge werden nach Kategorien geordnet und können nach Anwendungsfall durchsucht werden. Nutzer können Werkzeuge bewerten und neue Angebote einreichen, wodurch die Plattform einen Überblick über ein schnell wachsendes Feld bietet.
 

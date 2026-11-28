@@ -21,6 +21,7 @@ alternatives:
   - aixploria
   - dang-ai
   - insidr-ai
+  - semilaunch
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
 ---

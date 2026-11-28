@@ -22,6 +22,7 @@ alternatives:
 - future-tools
 - insidr-ai
 - dang-ai
+- semilaunch
 date: '2026-07-16'
 tags:
 - directory
@@ -35,7 +36,7 @@ tags:
 - curation
 - collaboration
 - powerful
-i18n_source: 'e4c2644c95a0'
+i18n_source: 'fb116b3e0af0'
 ---
 
 Futurepedia ist ein Verzeichnis von KI-Tools, das Menschen bei der Auswahl helfen soll. Besucher:innen stöbern nach Kategorie oder Anwendungsfall, filtern nach Preis und lesen kurze Beschreibungen und Bewertungen. Neue Einträge kommen regelmäßig hinzu, sodass die Website auch einen Überblick über neue Produkte bietet.

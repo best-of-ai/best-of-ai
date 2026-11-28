@@ -21,6 +21,7 @@ alternatives:
 - future-tools
 - insidr-ai
 - dang-ai
+- semilaunch
 date: '2026-07-16'
 tags:
 - directory
@@ -32,7 +33,7 @@ tags:
 - catalog
 - collection
 - curation
-i18n_source: '221901731f88'
+i18n_source: 'a736b58a5f54'
 ---
 
 TopAI.tools ist ein Verzeichnis, in dem die Community über Tools abstimmt. Anbieter reichen Produkte ein, Nutzer:innen geben positive Stimmen ab, und die Rangliste spiegelt dieses Interesse wider. Der Ansatz soll neueren und kleineren Produkten Sichtbarkeit verschaffen.

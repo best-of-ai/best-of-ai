@@ -19,6 +19,7 @@ alternatives:
   - topai-tools
   - aixploria
   - dang-ai
+  - semilaunch
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
 ---

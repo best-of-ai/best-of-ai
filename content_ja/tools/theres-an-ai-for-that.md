@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, api_available, extensible]
-i18n_source: 'be40a52b0d14'
+i18n_source: '2b14ac50f065'
 ---
 
 There's An AI For That、略してTAAFTは、作業からAIツールを探す簡単な検索として始まりました。カバーレターを書く、背景を消すなど、やりたいことを入力すると、その作業に使えるツールが評価と説明つきで並びます。

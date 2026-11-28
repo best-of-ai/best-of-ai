@@ -20,9 +20,10 @@ alternatives:
   - topai-tools
   - future-tools
   - insidr-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, image_based, fast]
-i18n_source: '06f3315f4cde'
+i18n_source: 'abd10d569219'
 ---
 
 Dang.ai es un sitio para descubrir herramientas de IA mediante votación de la comunidad. Los creadores envían sus productos, los usuarios los votan y las mejores entradas aparecen en la página de inicio. Las categorías cubren escritura, imagen, programación, vídeo y otras áreas, y cada ficha muestra una descripción breve y un enlace.

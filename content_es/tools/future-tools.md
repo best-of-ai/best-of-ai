@@ -21,9 +21,10 @@ alternatives:
   - topai-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation]
-i18n_source: '15b57aeb5a11'
+i18n_source: '05be8f44abe4'
 ---
 
 Future Tools es un directorio de productos de IA mantenido por Matt Wolfe, que habla de IA en YouTube. En lugar de aceptar automáticamente todos los envíos, el sitio revisa las herramientas antes de listarlas, lo que hace la colección más selectiva que la de los directorios abiertos.

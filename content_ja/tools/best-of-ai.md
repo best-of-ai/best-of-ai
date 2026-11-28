@@ -21,9 +21,10 @@ alternatives:
   - aixploria
   - dang-ai
   - insidr-ai
+  - semilaunch
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
-i18n_source: 'bdbf9244d679'
+i18n_source: '161309ec455f'
 ---
 
 Best of AIは、大げさな宣伝をかき分けずにAIツールを探すディレクトリです。何をするかでツールを並べ、コードアシスタント、画像生成、会議アシスタントなど100を超えるカテゴリに分かれます。誰が使うかでも分け、デザイナー、開発者、マーケター、弁護士、教師などの職種ページがあります。各ツールには、説明、カテゴリ、料金帯、ウェブサイト、タグ、代替へのリンクを載せたページがあります。

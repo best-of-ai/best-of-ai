@@ -20,9 +20,10 @@ alternatives:
   - topai-tools
   - future-tools
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation]
-i18n_source: '4fdfa4c766a9'
+i18n_source: '47d99c4e3ad9'
 ---
 Insidr.ai est un annuaire qui met l'accent sur apprendre à utiliser les outils. Au lieu de lister les produits seulement par catégorie, il les groupe selon ce que les gens veulent accomplir, et publie des guides qui montrent comment combiner des outils pour une tâche.
 

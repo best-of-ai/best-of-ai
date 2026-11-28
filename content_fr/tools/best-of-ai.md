@@ -21,9 +21,10 @@ alternatives:
   - aixploria
   - dang-ai
   - insidr-ai
+  - semilaunch
 date: '2026-06-25'
 tags: [directory, open_source, ai_tools, curation, discovery, listing, catalog, reference, free, github, handpicked, tools]
-i18n_source: 'bdbf9244d679'
+i18n_source: '161309ec455f'
 ---
 
 Best of AI est un annuaire pour trouver des outils d'IA sans patauger dans le battage. Il liste les outils selon ce qu'ils font, dans plus d'une centaine de catégories comme les assistants de code, la génération d'images et les assistants de réunion, et selon qui les utilise, avec des pages de métiers pour les designers, les développeurs, les marketeurs, les juristes, les enseignants et bien d'autres. Chaque outil a une page avec une description, une catégorie, un palier de prix, un site web, des étiquettes et des liens vers des alternatives.

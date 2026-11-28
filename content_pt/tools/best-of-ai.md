@@ -23,6 +23,7 @@ alternatives:
 - aixploria
 - dang-ai
 - insidr-ai
+- semilaunch
 date: '2026-06-25'
 tags:
 - directory
@@ -37,7 +38,7 @@ tags:
 - github
 - handpicked
 - tools
-i18n_source: 'bdbf9244d679'
+i18n_source: '161309ec455f'
 ---
 
 O Best of AI é um diretório para encontrar ferramentas de IA sem precisar filtrar o exagero promocional. As ferramentas são listadas pelo que fazem, em mais de cem categorias, como assistentes de programação, geração de imagens e assistentes para reuniões, e também por quem as usa, com páginas de profissões para designers, desenvolvedores, profissionais de marketing, advogados, professores e muitos outros. Cada ferramenta tem uma página com descrição, categoria, faixa de preço, site, etiquetas e links para alternativas.

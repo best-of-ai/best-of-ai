@@ -20,9 +20,10 @@ alternatives:
   - future-tools
   - insidr-ai
   - dang-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, image_based]
-i18n_source: 'bbfd0f7e2a7c'
+i18n_source: '13060c537a7c'
 ---
 
 Toolify.aiは、大規模なAIツールのディレクトリです。カテゴリを見て回り、作業で検索し、推定の月間トラフィックやランキングといった人気の指標で並べ替えられます。各掲載には、説明、料金、リンクがあります。

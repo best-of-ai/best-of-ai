@@ -23,6 +23,7 @@ alternatives:
 - aixploria
 - dang-ai
 - insidr-ai
+- semilaunch
 date: '2026-06-25'
 tags:
 - directory
@@ -37,7 +38,7 @@ tags:
 - github
 - handpicked
 - tools
-i18n_source: 'bdbf9244d679'
+i18n_source: '161309ec455f'
 ---
 
 Best of AI ist ein Verzeichnis, mit dem du KI-Werkzeuge ohne Marketinghype finden kannst. Es listet sie nach Einsatzgebiet in mehr als hundert Kategorien wie Programmierassistenten, Bilderzeugung und Meetingassistenten. Außerdem gibt es Seiten für Berufsgruppen wie Designer, Entwickler, Marketingfachleute, Juristen und Lehrkräfte. Jede Werkzeugseite enthält eine Beschreibung, Kategorie, Preisstufe, Website, Tags und Links zu Alternativen.

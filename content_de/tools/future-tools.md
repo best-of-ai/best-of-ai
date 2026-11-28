@@ -22,6 +22,7 @@ alternatives:
 - topai-tools
 - insidr-ai
 - dang-ai
+- semilaunch
 date: '2026-07-16'
 tags:
 - directory
@@ -33,7 +34,7 @@ tags:
 - catalog
 - collection
 - curation
-i18n_source: '15b57aeb5a11'
+i18n_source: '05be8f44abe4'
 ---
 
 Future Tools ist ein Verzeichnis von KI-Produkten, das Matt Wolfe betreut, der auf YouTube über KI berichtet. Die Website nimmt nicht automatisch jede Einsendung auf, sondern prüft Werkzeuge vor der Veröffentlichung. Dadurch ist die Sammlung gezielter als bei offenen Verzeichnissen.

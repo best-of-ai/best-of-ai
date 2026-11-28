@@ -20,9 +20,10 @@ alternatives:
   - topai-tools
   - future-tools
   - insidr-ai
+  - semilaunch
 date: '2026-07-16'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, image_based, fast]
-i18n_source: '06f3315f4cde'
+i18n_source: 'abd10d569219'
 ---
 
 Dang.aiは、コミュニティの投票でAIツールを見つける場所です。制作者が製品を投稿し、利用者が賛成票を入れ、上位の項目がホームページに出ます。カテゴリは文章、画像、プログラミング、動画などです。各掲載には短い説明とリンクがあります。

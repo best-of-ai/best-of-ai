@@ -19,9 +19,10 @@ alternatives:
   - topai-tools
   - aixploria
   - dang-ai
+  - semilaunch
 date: '2025-09-21'
 tags: [directory, reference, tools, discovery, listing, ai_tools, catalog, collection, curation, model_based]
-i18n_source: 'c61dc54ccaf4'
+i18n_source: 'eb988f4f64e2'
 ---
 
 Alternは、AI製品を閲覧できるディレクトリです。訪問者は作業で検索するか、文章作成、デザイン、プログラミング、動画などのカテゴリを見て、短い説明、料金、リンク、ユーザー評価を確認できます。ランキングとフィルタは、人気があり評価の高いツールを浮かび上がらせるためのもので、何千もの選択肢を一人でふるいにかけなくて済むようにしています。

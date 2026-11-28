@@ -16,9 +16,10 @@ alternatives:
   - hyperwrite
   - grammarly
   - getsolved-ai-humanizer
+  - ai-checker-humanizer
 date: '2025-01-01'
 tags: [writing, text_generation, productivity, content, editing, grammar, paraphrasing, ai_writing, drafting, free_tier, voice_enabled, fast]
-i18n_source: 'd21d91ac3270'
+i18n_source: '16d853919e4f'
 ---
 
 HumanizerFree recebe textos produzidos por um modelo de IA e os reescreve com variações de formulação, tamanho de frases e escolha de palavras para que pareçam menos mecânicos. O usuário cola o texto, executa a ferramenta e edita o resultado. O uso básico é gratuito.
